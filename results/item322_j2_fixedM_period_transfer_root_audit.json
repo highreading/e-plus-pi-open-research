@@ -1,0 +1,60 @@
+{
+  "item": 322,
+  "schema": "item322-root-audit-v1",
+  "checked_date_beijing": "2026-08-31",
+  "verdict": "PASS_SCOPED_NO_GO_WITH_ZERO_BOOKING",
+  "scope": "independent root audit of the period-retaining fixed-M transfer, conic moment, and rational-weight barrier",
+  "checks": {
+    "certificate_sha256": "5266eab4b8856e4c4e3c78e261f85ff11977e06ff64169f602c474f83f06e5cf",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "manifest_artifacts_match": true,
+    "frozen_dependencies_match": true,
+    "work_hash_list_match": true,
+    "root_stress_one_step_rows": 204,
+    "root_stress_fixed_M_rows": 120,
+    "root_stress_ell_chart_rows": 347,
+    "root_stress_ell_zero_rows": 1,
+    "report_inline_delimiters": "127/127",
+    "report_display_delimiters": "51/51",
+    "report_control_characters": 0,
+    "report_bare_cr": 0
+  },
+  "mathematical_audit": {
+    "fixed_M_step": "5*Delta r+14*Delta s=0 and preservation of r mod 6 give the primitive step (-42,+15), under which p increases by 6",
+    "triangular_transfer": "direct factorial cancellation proves the e, tail, and Z transfers; all three diagonal factors are nonzero and actual-row p-units for r>=43",
+    "zero_charts": "the exterior-residual identity is division-free in both connection minors and therefore does not discard ell=0 charts",
+    "conic_geometry": "q=(p-1)/2-(s-1)=r+2s+2=2(M-p)+1 and 3q-p=r+3>0 while p-1-2q=2s-2>=0",
+    "degree_barrier": "root counting for A(1-x)-B*x^q gives degree at least min(q,ceil((p-2-q)/2)) and hence at least (p-3)/4 for every reduced pointwise representation",
+    "adjacent_capacity": "a fixed-two-tuple upper-bound sieve gives O(M/(log M)^2) adjacent p,p+6 pairs and therefore O(M/log M)=o(M) logarithmic mass",
+    "scope_warning": "the transfer compares different moduli and the degree theorem is only pointwise; the isolated single-row conic collision, summation-specific Frobenius compression, and weighted density remain open"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "one-step and fifteen-step period-retaining transfers",
+      "division-free actual-residual transfer",
+      "all-row transfer-unit theorem",
+      "affine prefix and fixed-M conic forms",
+      "linear rational-weight degree barrier",
+      "zero-rate adjacent-prime transfer capacity",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "the canonical bounded replay",
+      "the enlarged root stress replay"
+    ],
+    "OPEN": [
+      "weighted zero density for the isolated conic collision",
+      "summation-specific higher-rank Frobenius compression",
+      "degenerate-chart arithmetic beyond the exterior coordinates",
+      "any reduction of the 1/105 ceiling"
+    ]
+  },
+  "capacity": {
+    "adjacent_prime_transfer_mass": "o(M)",
+    "new_capacity_reduction": 0,
+    "new_booking": 0,
+    "retained_ordinary_j2_ceiling_per_6M": "1/105"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "item": 339,
+  "schema": "item339-j1-local-coefficient-carry-obstruction-manifest-v1",
+  "classification": "PROVED_LOCAL_COEFFICIENT_REDUCTION_TERMWISE_CARRY_CLASSIFICATION_AND_SCOPED_GROWING_RANK_NO_GO",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual selected fixed-j1 factor on n=2h, r=2s+1, p=2n+3r: exact local coefficient, termwise carries, and natural local-complexity support",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item308_j1_all_s_fixed_divisor_no_go_report.md": "4eb8f8c37dfde9d19e57c8df5ff8090bd95f03be59fff7d6aede55d02993bdc8",
+    "scripts/item308_j1_all_s_fixed_divisor_no_go_certificate.py": "9b60d380b503c7ac9fed13792fae67735cfcf6b0f376581a0076fde16a82f0b9",
+    "results/item308_j1_all_s_fixed_divisor_no_go_certificate.json": "4efff9ca2fb1bc11cc6030e260ff73aae89c28bd157bb41fa6bbc3b32e41e5cf",
+    "results/item308_root_audit.json": "11feb8105ea46c27d83df2449404297fe74709eceaa8be6a21bd9484cbffba22",
+    "manifests/item308_j1_all_s_fixed_divisor_no_go_manifest.json": "1c4721f43b5bbdc0c68e4d9fd689562a32a4af4fbbab2a9e7075da96b151b4d5",
+    "sources/item332_j1_global_diagonal_collapse_report.md": "7bb0aff7943f13e517d67ac84120c4f956d0234232ff280f4ddde2ff78cdb954",
+    "scripts/item332_j1_global_diagonal_collapse_certificate.py": "4562fd5f50947703a5ddc7c03634c633733cbd383ee605ba7761d103b3225d2e",
+    "results/item332_j1_global_diagonal_collapse_certificate.json": "d544609c7ccc08f2ed0c661533939de60d97d2ab75509692925638420f789f68",
+    "results/item332_j1_global_diagonal_collapse_certificate_replay.json": "d544609c7ccc08f2ed0c661533939de60d97d2ab75509692925638420f789f68",
+    "results/item332_j1_global_diagonal_collapse_root_audit.json": "88ce3dd64aaf3011beeb74955f906be41231f9a42873e70b4a09fe7517143317",
+    "manifests/item332_j1_global_diagonal_collapse_manifest.json": "999db69e1ead2bfab7733a1d57c5732e502adcaff9b14953d8b64aec19395f1c"
+  },
+  "artifacts": {
+    "report": {
+      "path": "sources/item339_j1_local_coefficient_carry_obstruction_report.md",
+      "sha256": "e36986e06dad00a45872b79f60e3f6f616195c93fa3faaef7dd6b4215aa7f472",
+      "bytes": 13413
+    },
+    "certificate_script": {
+      "path": "scripts/item339_j1_local_coefficient_carry_obstruction_certificate.py",
+      "sha256": "386da4d3fc1178ea1a2cb19f4c2ea326a824cb7addd4dbc976c4c9991745d040",
+      "bytes": 14918
+    },
+    "certificate": {
+      "path": "results/item339_j1_local_coefficient_carry_obstruction_certificate.json",
+      "sha256": "9d023a49aade705caf3bad274e9af30fb47172ebe18c1f9ba00b1a43f27d4ea3",
+      "bytes": 9022
+    },
+    "replay": {
+      "path": "results/item339_j1_local_coefficient_carry_obstruction_certificate_replay.json",
+      "sha256": "9d023a49aade705caf3bad274e9af30fb47172ebe18c1f9ba00b1a43f27d4ea3",
+      "bytes": 9022,
+      "byte_identical_to_certificate": true
+    },
+    "ledger": {
+      "path": "results/item339_j1_local_coefficient_carry_obstruction_ledger_delta.json",
+      "sha256": "3e8bf507fbe966bad641b9de45259cae481866ccced5435d0d4b6089db603857",
+      "bytes": 4184
+    }
+  },
+  "theorems": [
+    "actual-row unit-branch Frobenius converts the selected diagonal into one integral local coefficient",
+    "the local coefficient is an exact positive hypergeometric prefix carried by one fixed bivariate rational function",
+    "all terms are p-divisible exactly on the h=s odd ray, which has zero-rate fixed-M capacity",
+    "the direct fixed-r constant-coefficient recurrence has exact minimal order 3r",
+    "sublinear direct recurrence rank and sublinear survivor length each occupy zero-rate fixed-M support",
+    "the unresolved bulk is a growing-length cancellation problem"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "local coefficient and integral normalization",
+      "positive prefix and rational carrier",
+      "complete termwise carry theorem",
+      "zero-rate forced ray",
+      "exact direct recurrence rank and scoped low-complexity no-go"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "five preselected controls; no scan or asymptotic inference"
+    ],
+    "OPEN": [
+      "W_b(M)=o(M)",
+      "global mod-p cancellation/nonconcentration",
+      "average gcd or factor localization",
+      "any positive fixed-j1 capacity reduction"
+    ]
+  },
+  "capacity": {
+    "forced_termwise_carry_mass": "O(log M)=o(M)",
+    "sublinear_complexity_support": "o(M) weighted prime mass",
+    "new_independent_condition": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0,
+    "retained_ceiling_per_6M": "1/36"
+  }
+}

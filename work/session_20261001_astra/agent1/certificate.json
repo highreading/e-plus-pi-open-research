@@ -1,0 +1,55 @@
+{
+  "scope": "Formal substitution; direct rational checks at n=2,8; complete seed transfer for predeclared primes 3,5 only. No HP construction or degree search.",
+  "formal_identity": "PASS",
+  "direct_checks": [
+    {
+      "n": 2,
+      "V": "16356",
+      "Dcal": "-12048",
+      "Xcal": "70440",
+      "actual_q": "502",
+      "status": "PASS"
+    },
+    {
+      "n": 8,
+      "V": "53448500944296894375715856868",
+      "Dcal": "-6192556267488572753280",
+      "Xcal": "3200566255861823586331472113/88200",
+      "actual_q": "546183462792492116839296000",
+      "status": "PASS"
+    }
+  ],
+  "small_seeds": {
+    "0": "4",
+    "1": "32"
+  },
+  "seed_certificates": [
+    {
+      "p": 3,
+      "V_residues": [
+        1,
+        2,
+        0
+      ],
+      "zero_residues": [
+        2
+      ],
+      "tuple_transfer": "PASS"
+    },
+    {
+      "p": 5,
+      "V_residues": [
+        4,
+        2,
+        1,
+        3,
+        0
+      ],
+      "zero_residues": [
+        4
+      ],
+      "tuple_transfer": "PASS"
+    }
+  ],
+  "status": "PASS"
+}

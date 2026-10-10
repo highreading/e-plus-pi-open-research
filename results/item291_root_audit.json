@@ -1,0 +1,46 @@
+{
+  "schema": "item291-root-audit-v1",
+  "audit_date": "2026-08-31",
+  "auditor": "root",
+  "verdict": "PASS_WITH_EXPERIMENTAL_OPERATOR_STRICTLY_QUARANTINED",
+  "substantive_checks": {
+    "notation_boundary": "PASS: the lower B-tail Y_nu is kept distinct from the affine A-tail coefficient b_nu; the theorem is Y_nu=2d_nu and does not imply any 18c-11 factor",
+    "termwise_collapse": "PASS: the odd-chain and lower-tail ratios agree, and the complementary-product base constants give C_(a,1)=2 beta and C_(a,0)=C_(a,1)(1+A_0), proving both nu identities including r=1",
+    "connection_determinant": "PASS: H_nu^flat=-11d_nu gives U_nu=9cb_nu-11d_nu and D=9c det(f,b)-11 det(f,d), exactly the existing Item250 compatibility determinant",
+    "unit_audit": "PASS: the B_s factorials, kappa denominators, remaining factor 2r+3, and every nonzero rising numerator 6-r+6i have absolute value below p on actual rows; the r=1 empty product is retained, so z_1 is a p-unit",
+    "rank_strata": "PASS: the row minors are -z_1D, -z_2D, and zero; hence rank is two iff D is nonzero, rank one on D=0 except for f=U=0, where it is zero",
+    "collision_scope": "PASS: collision implies D=0, but D=0 leaves one actual-period incidence when f is nonzero and requires U_0=U_1=0 when f=0; no converse is claimed",
+    "bounded_exclusions": "PASS WITH EXACT BOUNDS: full-column-rank certificates exclude only order<=2 degree<=17 and order<=3 degree<=16 scalar recurrences",
+    "experimental_operator": "PASS AS EXACT FINITE ONLY: the shared order-three degree-seventeen candidate for L_n and 16^nM_n is checked on 79 rows per phase/sequence/prime but has no all-n symbolic certificate and is not credited as a module or density theorem",
+    "capacity": "PASS: the determinant is not a new divisor and no weighted zero-density theorem follows, so the retained ordinary-j2 ceiling is 1/105 per 6M and booking is zero"
+  },
+  "independent_replay": {
+    "canonical_sha256": "831cd4c74b10555c261eccebef7fd9c5a871bcef97a43d52e77c731b9b7188b5",
+    "root_replay_sha256": "831cd4c74b10555c261eccebef7fd9c5a871bcef97a43d52e77c731b9b7188b5",
+    "byte_identical": true
+  },
+  "package_checks": {
+    "manifest_files_checked": 6,
+    "frozen_dependencies_checked": 4,
+    "hash_list_entries_checked": 7,
+    "json_files_parsed": 5,
+    "all_hashes_and_dependencies_match": true
+  },
+  "report_checks": {
+    "sha256": "b7791eec7ecf21c320b557fa5377dffedf22ef3d0314f3c29c846a0f54c0f920",
+    "bytes": 10336,
+    "lines": 346,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "display_delimiters": "25/25",
+    "inline_delimiters": "96/96",
+    "text_fences": 2
+  },
+  "strict_scope": {
+    "proved": "The exact lower-tail collapse, connection-plane determinant, z_1 unit theorem, complete row-rank stratification, and two explicitly bounded scalar-recurrence exclusions.",
+    "not_proved": "The reconstructed order-three operator for all n, a complete bounded-rank W update, any Frobenius realization, or any weighted zero-density theorem.",
+    "next_exact_target": "Produce a symbolic annihilating-operator certificate for the connection minors, then separately audit its actual-row singular factors and arithmetic content.",
+    "open": "The retained 1/105 fixed-j2 ceiling, Route 1, and every conclusion about e+pi.",
+    "route_status": "Route 1 ACTIVE; Route 2 QUEUED"
+  }
+}

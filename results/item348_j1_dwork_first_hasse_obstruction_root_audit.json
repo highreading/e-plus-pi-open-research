@@ -1,0 +1,65 @@
+{
+  "item": 348,
+  "schema": "item348-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_EXACT_FIRST_HASSE_CHART_AND_TERMINATING_DWORK_DASH_NO_GO",
+  "scope": "independent root audit of the actual fixed-j1 selected coefficient, its left/right first-Hasse charts, Dwork dash, and sublinear-degree capacity consequence",
+  "checks": {
+    "certificate_sha256": "ea9904c4411af6d8dc0199d347872bae361c591ab911db1fb19e5f1cb19d7de4",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_checks": 15,
+    "work_manifest_failures": 0,
+    "frozen_dependencies_checked": 10,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 6,
+    "work_hash_list_match": true,
+    "declared_rows": 5,
+    "independent_formula_rows": 171,
+    "independent_chart_counts": {
+      "left": 82,
+      "right": 83,
+      "forced_ray": 6
+    },
+    "zero_census_performed": false,
+    "report_inline_delimiters": "115/115",
+    "report_display_delimiters": "37/37",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "selected_gate": "the original ordinary collision implies the selected coefficient zero; outside the forced ray that selected zero is equivalent to H(1)=0, but the converse to the full collision is not asserted",
+    "left_chart": "when r<=n every exact prefix term is a p-unit; division by T_0 gives the terminating normalized 4F3 and degree floor(n/4)=ell-1",
+    "right_chart": "Lucas reduction and the forward surviving tail give the shifted 5F4 with every retained coefficient a p-unit and degree ell-1",
+    "dash": "the terminating top parameter is -J with 0<=J<p, so its Dwork dash is 0; the displayed positive p-integral bottom parameters have nonzero first dash",
+    "capacity": "Item339's short-interval theorem transfers through deg H=ell-1, so bounded or sublinear native first-Hasse degree reaches only o(M) weighted mass",
+    "scope_warning": "this classifies only the native terminating formal dash tower; it does not rule out a different geometric F-crystal, a new divisor identity, or nonconcentration for the linearly growing Hasse value"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact left/right first-Hasse charts",
+      "selected-value bridge",
+      "degree equals survivor length minus one",
+      "one-step dash trivialization",
+      "zero-rate sublinear-degree support",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "five declared and 171 independent formula rows; no selected-zero or collision census"
+    ],
+    "OPEN": [
+      "p-adic nonconcentration on linear degree",
+      "global monodromy or average gcd",
+      "a new geometric realization or bounded-degree divisor",
+      "W_b(M)=o(M)",
+      "any reduction of 1/36",
+      "Route 1",
+      "e+pi"
+    ]
+  },
+  "capacity": {
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

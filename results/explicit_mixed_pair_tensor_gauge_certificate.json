@@ -1,0 +1,40 @@
+{
+  "certificate": "explicit_mixed_pair_tensor_gauge_no_go",
+  "checks": {
+    "gauge_connection_formula": true,
+    "gauge_fundamental_at_zero": true,
+    "gauge_fundamental_system": true,
+    "gauge_recovers_original_connection": true,
+    "standard_fundamental_at_zero": true,
+    "standard_fundamental_system": true,
+    "standard_group_law": true,
+    "target_hyperplane_value_at_connection": true,
+    "tensor_coupling_at_zero": true,
+    "tensor_coupling_connection_at_one": true,
+    "tensor_coupling_system": true,
+    "translated_target_residual": true,
+    "wedge2_connection_at_one": true,
+    "wedge2_formula": true,
+    "wedge3_is_exp": true
+  },
+  "exact_data": {
+    "gauged_connection_at_one": "Matrix([[1, E, 0], [-pi, E, 1], [-pi, 0, 1]])",
+    "gauged_matrix": "Matrix([[0, z + 1, z*(-z - 1)], [-4*z/(z**2 + 1), (5*z**2 + 1)/(z**2 + 1), (-5*z**3 + z**2 - z + 1)/(z**2 + 1)], [-4/(z**2 + 1), 4*z/(z**2 + 1), -4*z**2/(z**2 + 1)]])",
+    "rational_gauge": "Matrix([[1, z, 0], [0, 1, z], [0, 0, 1]])",
+    "recovered_connection": "Matrix([[1, 0, 0], [0, E, 0], [-pi, 0, 1]])",
+    "right_translated_residual_on_target": "a*x - b - x",
+    "right_translated_target": "a*x - b - sigma - y",
+    "standard_connection_at_one": "Matrix([[1, 0, 0], [0, E, 0], [-pi, 0, 1]])",
+    "standard_fundamental": "Matrix([[1, 0, 0], [0, exp(z), 0], [-4*atan(z), 0, 1]])",
+    "standard_group_element": "Matrix([[1, 0, 0], [0, x, 0], [y, 0, 1]])",
+    "standard_group_law_product": "Matrix([[1, 0, 0], [0, a*x, 0], [b + y, 0, 1]])",
+    "target_polynomial": "-sigma + x - y",
+    "tensor_coupling_connection_at_one": "Matrix([[E, 0], [-E*pi, E]])",
+    "tensor_coupling_fundamental": "Matrix([[exp(z), 0], [-4*exp(z)*atan(z), exp(z)]])",
+    "tensor_coupling_matrix": "Matrix([[1, 0], [-4/(z**2 + 1), 1]])",
+    "wedge2_connection_at_one": "Matrix([[E, 0, 0], [0, 1, 0], [E*pi, 0, E]])",
+    "wedge2_fundamental": "Matrix([[exp(z), 0, 0], [0, 1, 0], [4*exp(z)*atan(z), 0, exp(z)]])",
+    "wedge3_fundamental": "exp(z)"
+  },
+  "sympy_version": "1.14.0"
+}

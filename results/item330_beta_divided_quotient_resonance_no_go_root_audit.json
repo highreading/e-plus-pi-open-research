@@ -1,0 +1,53 @@
+{
+  "item": 330,
+  "schema": "item330-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_SCOPED_ALL_DEPTH_DIVIDED_QUOTIENT_RESONANCE_NO_GO",
+  "scope": "independent root audit of the all-depth divided-quotient bridge ideal and same-state higher-lift termination",
+  "checks": {
+    "certificate_sha256": "331dcf86a9a2c283d92085e8ebec6da91a1f8dd042fa4149db4b580cc53ebcf0",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_artifacts_match": true,
+    "frozen_dependencies_checked": 16,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 6,
+    "work_hash_list_match": true,
+    "exhaustive_n5_words": 1000,
+    "exhaustive_n6_words": 18088,
+    "report_inline_delimiters": "76/76",
+    "report_display_delimiters": "61/61",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "single_defect": "Delta=k_(m+1)-a is exactly the old target defect",
+    "bridge_factorization": "every bridge residual is R_j=Delta G_j, with G_(m-1)=1 and adjacent companion values coprime",
+    "ideal": "the complete bridge residual ideal is exactly (Delta), and every adjacent residual gcd divides Delta",
+    "lift_termination": "epsilon L_j-a^2H_j+bJ_j=a Delta H_j; on target, the normalized same-state b-adic lift terminates after its first quotient",
+    "digit_equivalence": "the N tower is triangularly equivalent to the original canonical digits and therefore supplies no fresh formal condition",
+    "scope_warning": "nonlinear or valuation arithmetic, integer-size cofactors, complement redigitization, external periods, and the original half-bound remain open"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "all-depth single-defect factorization and exact bridge ideal",
+      "adjacent companion coprimality",
+      "same-state first-lift termination",
+      "triangular digit equivalence",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared controls, including exhaustive n=5 and n=6 word sets"
+    ],
+    "OPEN": [
+      "nonlinear first-load and valuation arithmetic",
+      "canonical complement redigitization and external periods",
+      "any beta capacity reduction"
+    ]
+  },
+  "capacity": {
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "new_booking": 0
+  }
+}

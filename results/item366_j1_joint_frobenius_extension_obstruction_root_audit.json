@@ -1,0 +1,59 @@
+{
+  "item": 366,
+  "schema": "item366-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_EXACT_FRAMED_JOINT_MOMENT_AND_SCOPED_TRACE_KUMMER_NO_GO",
+  "scope": "independent root audit of the actual fixed-j1 Hasse-transverse divided-Frobenius representation, base-field de-aliasing, universal regular conjugacy-invariant obstruction, literal Kummer support, and capacity labels",
+  "checks": {
+    "work_hash_list_entries": 6,
+    "work_hash_list_failures": 0,
+    "frozen_dependencies_checked": 17,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "independent_extension_field_rows": 3,
+    "independent_extension_rows_digest": "021bbc4279ab1e2eec792f7b6cdac23a5d61946db41c3624fc77963d24daee9c",
+    "independent_base_field_alias_checks": 88,
+    "independent_finite_log_root_cases": 44,
+    "independent_separation_rows": 4,
+    "prime_or_collision_scan_promoted": false,
+    "density_inference_from_finite_controls": false
+  },
+  "mathematical_audit": {
+    "hasse_block": "For n=2h, r=2s+1, E=p-r, the degree of G^E is 2p+2n<3p<p^2-1. Multiplicative orthogonality over F_(p^2)^* therefore isolates -[u^n]G^E=-a_(r,n).",
+    "transverse_block": "The finite logarithm is the divided-Frobenius defect of 1+w. With F_Q=P0*L_p(z^2), Item360's actual transverse coordinate is Q0=2c_T-c_L and deg F_Q<3p<p^2-1, so the same orthogonality isolates each coefficient exactly.",
+    "rank_five_sum": "The diagonal moments of the two unipotent blocks vanish because deg P0<T,L. Their extension entries sum to -2c_T and c_L, giving the displayed matrix and the two exact framed functionals -a and -Q0 without imposing either ambient block entry to vanish.",
+    "base_field_de_aliasing": "For N=T,L, the only possible exponents congruent to N modulo p-1 are N and N+p-1. The zeroth and Euler moments form an invertible two-equation system with c_N=(N-1)S_(N,0)-S_(N,1).",
+    "invariant_scope": "The characteristic polynomial is X^4(X+a), determinant is zero, and every trace power is (-a)^k. Thus the universal regular polynomial conjugacy-invariant ring of this single matrix forgets Q0. This does not claim blindness of arbitrary framed or finite-field class functions.",
+    "root_bound": "L_p'(w)=(1-w^(p-1))/(1+w). At a repeated root, L_p'' is nonzero, so multiplicity is at most two. Since zero is simple, substitution w=z^2 yields at least p-2 distinct roots, forcing linearly growing support for literal full-order Kummerization.",
+    "capacity": "The construction applies to every actual row but proves no horizontal framed nonconcentration. Algebraic encoding alone earns no mass credit and the fixed-j1 ceiling remains 1/36."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact all-row rank-five framed divided-Frobenius moment",
+      "two exact collision-forced framed selectors",
+      "base-field two-alias coefficient recovery",
+      "universal regular trace/determinant/characteristic-polynomial blindness",
+      "literal finite-log Kummer growing-support obstruction",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared and independent algebraic controls; no row is promoted to a density statement"
+    ],
+    "OPEN": [
+      "a genuine bounded-conductor joint lisse or crystalline system",
+      "framed extension-class equidistribution or horizontal chosen-prime nonconcentration",
+      "a selector-aware trace replacement",
+      "weighted joint-zero density, any fixed-j1 ceiling reduction, Route 1, and e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_log_mass": "M/6+o(M)",
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "weighted_target": "W_(H,Q)(M)=o(M)",
+    "new_linear_log_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

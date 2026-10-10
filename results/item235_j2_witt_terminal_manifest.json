@@ -1,0 +1,48 @@
+{
+  "schema": "item235-portable-manifest-v1",
+  "artifacts": {
+    "sources/item235_j2_witt_terminal_report.md": {
+      "role": "proof report for the exact canonical p^2 terminals, harmonic carry, closure redundancy, and actual-bridge obstruction",
+      "sha256": "d8a329f7c7e182e7a5f4956ff05d79b39719595adfe8bb41f975f57ae86add6a",
+      "work_source": "item235_j2_witt_terminal_report.md"
+    },
+    "scripts/item235_j2_witt_terminal_certificate.py": {
+      "role": "Python-standard-library exact recurrence, q*p pole, p^2 affine row, carry, observability, closure-combination, integer-coefficient, and finite-census checker",
+      "sha256": "200a0a4f5024888c4e4b6afb6216ae58cf542f49a8c75b70f06166986b775c89",
+      "work_source": "item235_j2_witt_terminal_certificate.py"
+    },
+    "results/item235_j2_witt_terminal_certificate.json": {
+      "role": "canonical deterministic exact output",
+      "sha256": "210d53a769c60f35ce3d98879ed142ccf935883b214c287b7733ccf76e989471",
+      "work_source": "item235_j2_witt_terminal_certificate.json"
+    },
+    "results/item235_j2_witt_terminal_certificate_replay.json": {
+      "role": "independent replay output; byte-identical to canonical",
+      "sha256": "210d53a769c60f35ce3d98879ed142ccf935883b214c287b7733ccf76e989471",
+      "work_source": "item235_j2_witt_terminal_certificate_replay.json"
+    },
+    "results/item235_j2_witt_terminal_ledger.json": {
+      "role": "strict PROVED, EXACT FINITE, OPEN, scoped no-go, global-interface, and booking ledger",
+      "sha256": "4d45a1d1196cbce035f1a3ff192cf8bd81496a5e4c222804e10f6c8c17dc74ea",
+      "work_source": "item235_j2_witt_terminal_ledger.json"
+    }
+  },
+  "canonical_command_from_archive_root": "python scripts/item235_j2_witt_terminal_certificate.py --output results/item235_j2_witt_terminal_certificate.json",
+  "replay_command_from_archive_root": "python scripts/item235_j2_witt_terminal_certificate.py --output results/item235_j2_witt_terminal_certificate_replay.json",
+  "dependencies": {
+    "archive_files": {
+      "scripts/item227_j2_phase_control_certificate.py": {
+        "role": "frozen j=2 mod-p phase transfer, observability, and terminal-redundancy helper",
+        "sha256": "54b51d51653d1c3c613907f8b8a6b9c959446b61ae2228139b7e4e11ed1af41b"
+      }
+    },
+    "external_files": [],
+    "python": "3.11+ standard library only"
+  },
+  "portability": {
+    "archive_path_required": false,
+    "host_absolute_paths_embedded": false,
+    "helpers_resolved_beside_checker": true,
+    "explicit_output_makes_archive_root_replay_portable": true
+  }
+}

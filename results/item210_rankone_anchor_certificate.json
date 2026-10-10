@@ -1,0 +1,671 @@
+{
+  "arithmetic": "exact rational/Gaussian and integer arithmetic; bounded scans explicitly FINITE",
+  "dependencies": {
+    "scripts/item175_fixed_band_certificate.py": "1f7783bdd867a84643a4589542125744780c7d1237b12581ca0bbc6663d39786",
+    "scripts/item196_rankone_moving_gate_certificate.py": "3cacdfa631f8b9449494a8e53b4326a7af5c6c260737fde60fd73e1619b0f9e6"
+  },
+  "finite_diagonal_nonzero_scan": {
+    "cell_tail_coefficient_upper_bound": "2/60003",
+    "direct_binomial_cross_check_through": 80,
+    "label": "FINITE",
+    "last_decimal_digits": 21321,
+    "last_mod_2^64": 11965385787498176368,
+    "range": [
+      1,
+      20000
+    ],
+    "sequence_sha256_newline_decimal": "1ffc024a812376c50010d7ed172c9408578805ba235d41fa9137461b1efbe49f",
+    "zeros": []
+  },
+  "finite_row_content_and_rank_audit": {
+    "label": "FINITE",
+    "range": [
+      1,
+      12
+    ],
+    "rows": [
+      {
+        "A_content": 5,
+        "A_denominator": 192,
+        "A_primitive": [
+          860,
+          483,
+          1237
+        ],
+        "B_content": 25,
+        "B_denominator": 32,
+        "B_primitive": [
+          73,
+          41,
+          105
+        ],
+        "H_j_equals_mu_over_L": "-25/6144",
+        "L_j": "-5",
+        "ell_j": "-10",
+        "j": 1,
+        "mu_j": "125/6144",
+        "primitive_anchor_absolute": 1,
+        "rank_one_above_3j_plus_2": [],
+        "rank_zero": [
+          {
+            "kind": "both_zero",
+            "p": 5
+          }
+        ]
+      },
+      {
+        "A_content": 7,
+        "A_denominator": 960,
+        "A_primitive": [
+          68633,
+          38512,
+          98754
+        ],
+        "B_content": 49,
+        "B_denominator": 128,
+        "B_primitive": [
+          3329,
+          1868,
+          4790
+        ],
+        "H_j_equals_mu_over_L": "-49/122880",
+        "L_j": "28",
+        "ell_j": "112",
+        "j": 2,
+        "mu_j": "-343/30720",
+        "primitive_anchor_absolute": 4,
+        "rank_one_above_3j_plus_2": [],
+        "rank_zero": [
+          {
+            "kind": "both_zero",
+            "p": 7
+          }
+        ]
+      },
+      {
+        "A_content": 33,
+        "A_denominator": 28672,
+        "A_primitive": [
+          10996289,
+          6168177,
+          15824401
+        ],
+        "B_content": 103455,
+        "B_denominator": 16384,
+        "B_primitive": [
+          5104,
+          2863,
+          7345
+        ],
+        "H_j_equals_mu_over_L": "-5445/117440512",
+        "L_j": "627/4",
+        "ell_j": "1254",
+        "j": 3,
+        "mu_j": "-3414015/469762048",
+        "primitive_anchor_absolute": 1,
+        "rank_one_above_3j_plus_2": [
+          {
+            "kind": "B_zero",
+            "p": 19
+          }
+        ],
+        "rank_zero": [
+          {
+            "kind": "both_zero",
+            "p": 11
+          }
+        ]
+      },
+      {
+        "A_content": 143,
+        "A_denominator": 1474560,
+        "A_primitive": [
+          3528324753,
+          1978785698,
+          5077863808
+        ],
+        "B_content": 143143,
+        "B_denominator": 262144,
+        "B_primitive": [
+          1595703,
+          894916,
+          2296490
+        ],
+        "H_j_equals_mu_over_L": "-143143/24159191040",
+        "L_j": "-3861/8",
+        "ell_j": "-7722",
+        "j": 4,
+        "mu_j": "61408347/21474836480",
+        "primitive_anchor_absolute": 54,
+        "rank_one_above_3j_plus_2": [],
+        "rank_zero": [
+          {
+            "kind": "both_zero",
+            "p": 11
+          },
+          {
+            "kind": "both_zero",
+            "p": 13
+          }
+        ]
+      },
+      {
+        "A_content": 221,
+        "A_denominator": 8110080,
+        "A_primitive": [
+          354004856396,
+          198513355567,
+          509496357225
+        ],
+        "B_content": 341887,
+        "B_denominator": 1048576,
+        "B_primitive": [
+          75341419,
+          42248793,
+          108434045
+        ],
+        "H_j_equals_mu_over_L": "-341887/425201762304",
+        "L_j": "-20111/4",
+        "ell_j": "-160888",
+        "j": 5,
+        "mu_j": "6875689457/1700807049216",
+        "primitive_anchor_absolute": 455,
+        "rank_one_above_3j_plus_2": [],
+        "rank_zero": [
+          {
+            "kind": "both_zero",
+            "p": 13
+          },
+          {
+            "kind": "both_zero",
+            "p": 17
+          }
+        ]
+      },
+      {
+        "A_content": 1615,
+        "A_denominator": 196804608,
+        "A_primitive": [
+          34108834099157,
+          19125537456056,
+          49092130742258
+        ],
+        "B_content": 7824675,
+        "B_denominator": 8388608,
+        "B_primitive": [
+          764131046,
+          428464277,
+          1099797815
+        ],
+        "H_j_equals_mu_over_L": "-7824675/68788196212736",
+        "L_j": "46835/8",
+        "ell_j": "374680",
+        "j": 6,
+        "mu_j": "-366468653625/550305569701888",
+        "primitive_anchor_absolute": 87,
+        "rank_one_above_3j_plus_2": [
+          {
+            "kind": "nonzero_parallel",
+            "p": 29
+          }
+        ],
+        "rank_zero": [
+          {
+            "kind": "both_zero",
+            "p": 17
+          },
+          {
+            "kind": "both_zero",
+            "p": 19
+          }
+        ]
+      },
+      {
+        "A_content": 7429,
+        "A_denominator": 11450449920,
+        "A_primitive": [
+          12783152414368609,
+          7167378562313505,
+          18398926266423713
+        ],
+        "B_content": 12748899471,
+        "B_denominator": 4294967296,
+        "B_primitive": [
+          7114969664,
+          3989288353,
+          10240650975
+        ],
+        "H_j_equals_mu_over_L": "-607090451/36591746972385280",
+        "L_j": "9977147/64",
+        "ell_j": "19954294",
+        "j": 7,
+        "mu_j": "-6057030671923297/2341871806232657920",
+        "primitive_anchor_absolute": 1343,
+        "rank_one_above_3j_plus_2": [
+          {
+            "kind": "nonzero_parallel",
+            "p": 79
+          }
+        ],
+        "rank_zero": [
+          {
+            "kind": "both_zero",
+            "p": 17
+          },
+          {
+            "kind": "both_zero",
+            "p": 19
+          },
+          {
+            "kind": "both_zero",
+            "p": 23
+          }
+        ]
+      },
+      {
+        "A_content": 50255,
+        "A_denominator": 35936796672,
+        "A_primitive": [
+          178563008653410503,
+          100114136958806718,
+          257011880348014288
+        ],
+        "B_content": 23894996125,
+        "B_denominator": 68719476736,
+        "B_primitive": [
+          1828708163087,
+          1025293765364,
+          2632122560810
+        ],
+        "H_j_equals_mu_over_L": "-3413570875/1378101485975371776",
+        "L_j": "9397685/128",
+        "ell_j": "18795370",
+        "j": 8,
+        "mu_j": "-1887039047554375/10376293541461622784",
+        "primitive_anchor_absolute": 374,
+        "rank_one_above_3j_plus_2": [],
+        "rank_zero": [
+          {
+            "kind": "both_zero",
+            "p": 19
+          },
+          {
+            "kind": "both_zero",
+            "p": 23
+          }
+        ]
+      },
+      {
+        "A_content": 14007,
+        "A_denominator": 86704652288,
+        "A_primitive": [
+          47128301596652515620,
+          26422337945357392661,
+          67834265247947638579
+        ],
+        "B_content": 701400875175,
+        "B_denominator": 1099511627776,
+        "B_primitive": [
+          30391921174177,
+          17039137521769,
+          43744704826585
+        ],
+        "H_j_equals_mu_over_L": "-140280175035/372393645988011573248",
+        "L_j": "-1175397405/256",
+        "ell_j": "-2350794810",
+        "j": 9,
+        "mu_j": "164884953709084784175/95332773372930962751488",
+        "primitive_anchor_absolute": 16783,
+        "rank_one_above_3j_plus_2": [
+          {
+            "kind": "nonzero_parallel",
+            "p": 1291
+          }
+        ],
+        "rank_zero": [
+          {
+            "kind": "both_zero",
+            "p": 23
+          },
+          {
+            "kind": "both_zero",
+            "p": 29
+          }
+        ]
+      },
+      {
+        "A_content": 20677,
+        "A_denominator": 417266139136,
+        "A_primitive": [
+          4732387398886884941919,
+          2653127453161842847808,
+          6811647344611927036030
+        ],
+        "B_content": 1250549612325,
+        "B_denominator": 1099511627776,
+        "B_primitive": [
+          525041568343667,
+          294355064708224,
+          755728071979110
+        ],
+        "H_j_equals_mu_over_L": "-416849870775/7168577685269222785024",
+        "L_j": "-9614805",
+        "ell_j": "-9845560320",
+        "j": 10,
+        "mu_j": "4007930221776823875/7168577685269222785024",
+        "primitive_anchor_absolute": 9920,
+        "rank_one_above_3j_plus_2": [],
+        "rank_zero": [
+          {
+            "kind": "both_zero",
+            "p": 23
+          },
+          {
+            "kind": "both_zero",
+            "p": 29
+          },
+          {
+            "kind": "both_zero",
+            "p": 31
+          }
+        ]
+      },
+      {
+        "A_content": 22475,
+        "A_denominator": 469225177088,
+        "A_primitive": [
+          152072077281269710634203,
+          85254585224006142258923,
+          218889569338533279009483
+        ],
+        "B_content": 414938980535625,
+        "B_denominator": 140737488355328,
+        "B_primitive": [
+          6291200796623984,
+          3526970394999503,
+          9055431198248465
+        ],
+        "H_j_equals_mu_over_L": "-2344288025625/257959269126754369798144",
+        "L_j": "32313903225/256",
+        "ell_j": "258511225800",
+        "j": 11,
+        "mu_j": "-75753096391572570140625/66037572896449118668324864",
+        "primitive_anchor_absolute": 8123,
+        "rank_one_above_3j_plus_2": [
+          {
+            "kind": "B_zero",
+            "p": 59
+          },
+          {
+            "kind": "nonzero_parallel",
+            "p": 8123
+          }
+        ],
+        "rank_zero": [
+          {
+            "kind": "both_zero",
+            "p": 29
+          },
+          {
+            "kind": "both_zero",
+            "p": 31
+          }
+        ]
+      },
+      {
+        "A_content": 99789,
+        "A_denominator": 64209761075200,
+        "A_primitive": [
+          146607326910498632048484737,
+          82189426525987886872101122,
+          211025227295009377224868352
+        ],
+        "B_content": 202632178157829,
+        "B_denominator": 2251799813685248,
+        "B_primitive": [
+          6447610179513349061,
+          3614590036423177712,
+          9280630322603520410
+        ],
+        "H_j_equals_mu_over_L": "-202632178157829/141198757837802391889510400",
+        "L_j": "257690024361/512",
+        "ell_j": "2061520194888",
+        "j": 12,
+        "mu_j": "-52216290925813447112872269/72293764012954824647429324800",
+        "primitive_anchor_absolute": 5164698,
+        "rank_one_above_3j_plus_2": [
+          {
+            "kind": "nonzero_parallel",
+            "p": 1597
+          }
+        ],
+        "rank_zero": [
+          {
+            "kind": "both_zero",
+            "p": 29
+          },
+          {
+            "kind": "both_zero",
+            "p": 31
+          },
+          {
+            "kind": "both_zero",
+            "p": 37
+          }
+        ]
+      }
+    ]
+  },
+  "item": 210,
+  "proved_all_j_reduction": {
+    "L_j": "2^(-j) ell_j",
+    "anchor_factorization": "mu_j=L_j H_j with H_j nonzero; hence mu_j=0 iff ell_j=0",
+    "content_radical": "large-prime support of gcd(A_content,B_content) is exactly primes 2j+3<=p<=3j+2",
+    "ell_j": "[y^(2j+1)](y-1)^(3j+2)/(1+y^2)^(2j+2)",
+    "rank_above": "for p>3j+2 rank is 1 iff mu_j=0 mod p, otherwise 2; rank 0 is impossible",
+    "rank_zero": "for 2j+3<=p<=3j+2",
+    "real_row_normal": [
+      2,
+      -1,
+      -1
+    ]
+  },
+  "proved_capacity_bound_from_finite_prefix": {
+    "below_G_per_6m": true,
+    "below_gap_requirement": true,
+    "current_gap_G_per_6m": "49082459173579484700766003/2500000000000000000000000000",
+    "current_gap_requirement_per_m": "147247377520738454102298009/1250000000000000000000000000",
+    "decimal_upper_bound": 3.3331666749995835e-05,
+    "decimal_upper_bound_per_6m": 5.5552777916659725e-06,
+    "limsup_coefficient_per_6m_less_than": "1/180009",
+    "limsup_log_weight_coefficient_per_m_less_than": "2/60003",
+    "principle": "fixed nonzero-mu bands have only finitely many determinant primes; every unresolved rationally singular band lies above the certified prefix and is bounded by the full cell tail",
+    "ratio_to_gap_requirement_upper_bound": 0.00028295637001498865
+  },
+  "proved_recurrence": {
+    "P_coefficients_low_to_high": [
+      [
+        -11753280,
+        -46086408,
+        -75353094,
+        -66698343,
+        -34568046,
+        -10504404,
+        -1735020,
+        -120285
+      ],
+      [
+        1621956672,
+        5897336856,
+        9019719984,
+        7528419750,
+        3706107054,
+        1076695974,
+        171005850,
+        11458260
+      ],
+      [
+        -52220160,
+        -183220704,
+        -269869776,
+        -216686448,
+        -102607824,
+        -28701648,
+        -4397760,
+        -285120
+      ],
+      [
+        17579520,
+        61204608,
+        89232320,
+        70702080,
+        32916800,
+        9013632,
+        1345280,
+        84480
+      ]
+    ],
+    "P_factorizations": [
+      "-9(n+1)(3n+4)(3n+5)(3n+7)(3n+8)(165n^2+895n+1166)",
+      "6(2n+3)(3n+7)(3n+8)(106095n^4+893770n^3+2704043n^2+3484796n+1609084)",
+      "-48(n+2)(2n+3)(2n+5)(3n+8)(495n^3+3345n^2+7103n+4533)",
+      "64(n+2)(n+3)(2n+3)(2n+5)(2n+7)(165n^2+565n+436)"
+    ],
+    "consequence": "P0(n) and P3(n) are nonzero for n>=1, so three consecutive ell zeros are impossible; isolated zeros are not excluded",
+    "order": 3,
+    "telescoping_certificate": {
+      "C_denominator": "y^5(1+y^2)^5",
+      "N_degree_in_n": 6,
+      "N_degree_in_y": 15,
+      "identity": "C_n'+C_n(R'/R+nJ'/J)=sum_{k=0}^3 P_k(n)J^k",
+      "symbolic_defect_terms": 0
+    },
+    "valid_for": "n>=1"
+  },
+  "selected_rank_one_joint_gate_witnesses": {
+    "cases": [
+      {
+        "j": 3,
+        "p": 19,
+        "rank_type": "B_zero",
+        "residual_rows": [
+          {
+            "A0": 9,
+            "B0": 0,
+            "joint": false,
+            "s": 1
+          },
+          {
+            "A0": 0,
+            "B0": 0,
+            "joint": true,
+            "s": 3
+          },
+          {
+            "A0": 2,
+            "B0": 0,
+            "joint": false,
+            "s": 5
+          }
+        ],
+        "surviving_equation_on_(V(-1),ReV(i),ImV(i))": [
+          1,
+          17,
+          4
+        ]
+      },
+      {
+        "j": 7,
+        "p": 79,
+        "rank_type": "nonzero_parallel",
+        "residual_rows": [
+          {
+            "A0": 13,
+            "B0": 15,
+            "joint": false,
+            "s": 1
+          },
+          {
+            "A0": 1,
+            "B0": 68,
+            "joint": false,
+            "s": 3
+          },
+          {
+            "A0": 52,
+            "B0": 60,
+            "joint": false,
+            "s": 5
+          },
+          {
+            "A0": 71,
+            "B0": 9,
+            "joint": false,
+            "s": 7
+          },
+          {
+            "A0": 40,
+            "B0": 34,
+            "joint": false,
+            "s": 9
+          },
+          {
+            "A0": 30,
+            "B0": 65,
+            "joint": false,
+            "s": 11
+          },
+          {
+            "A0": 47,
+            "B0": 36,
+            "joint": false,
+            "s": 13
+          },
+          {
+            "A0": 0,
+            "B0": 0,
+            "joint": true,
+            "s": 15
+          },
+          {
+            "A0": 40,
+            "B0": 34,
+            "joint": false,
+            "s": 17
+          },
+          {
+            "A0": 11,
+            "B0": 37,
+            "joint": false,
+            "s": 19
+          },
+          {
+            "A0": 63,
+            "B0": 18,
+            "joint": false,
+            "s": 21
+          },
+          {
+            "A0": 27,
+            "B0": 19,
+            "joint": false,
+            "s": 23
+          },
+          {
+            "A0": 35,
+            "B0": 10,
+            "joint": false,
+            "s": 25
+          }
+        ],
+        "surviving_equation_on_(V(-1),ReV(i),ImV(i))": [
+          1,
+          21,
+          60
+        ]
+      }
+    ],
+    "label": "FINITE exact selected witnesses"
+  },
+  "verdict": "PROVED exact row-content/rank classification and reduction of rational degeneracy to ell_j; PROVED an order-three telescoper recurrence; FINITE nonzero scan through the declared prefix gives the displayed global capacity ceiling. Full zero rate remains equivalent to excluding isolated ell_j=0 beyond that prefix. Rank-one joint gates use the surviving row only."
+}

@@ -1,0 +1,52 @@
+{
+  "description": "Finite exact mod-p^3 Bessel window scan; diagnostic only.",
+  "maximum_upper_exclusive": 500000,
+  "omp_threads": 8,
+  "estimated_worker_array_bytes": 64000000,
+  "ranges": [
+    {
+      "lower_inclusive": 10000,
+      "upper_exclusive": 50000,
+      "prime_count": 3904,
+      "root_orbits": 1937,
+      "ordinary_orbits": 1937,
+      "singular_orbits": 0,
+      "divisible_values": 7748,
+      "square_values": 0,
+      "cube_values": 0,
+      "squares": []
+    },
+    {
+      "lower_inclusive": 50000,
+      "upper_exclusive": 200000,
+      "prime_count": 12851,
+      "root_orbits": 6430,
+      "ordinary_orbits": 6430,
+      "singular_orbits": 0,
+      "divisible_values": 25720,
+      "square_values": 1,
+      "cube_values": 0,
+      "squares": [
+        {
+          "prime": 52453,
+          "index": 66831,
+          "valuation_at_least": 2,
+          "q_over_p2_mod_p": 41153
+        }
+      ]
+    },
+    {
+      "lower_inclusive": 200000,
+      "upper_exclusive": 500000,
+      "prime_count": 23554,
+      "root_orbits": 11984,
+      "ordinary_orbits": 11984,
+      "singular_orbits": 0,
+      "divisible_values": 47936,
+      "square_values": 0,
+      "cube_values": 0,
+      "squares": []
+    }
+  ],
+  "scope_warning": "All scan claims are finite diagnostics, not universal valuation bounds."
+}

@@ -1,0 +1,65 @@
+{
+  "item": 378,
+  "schema": "item378-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_RECIPROCAL_POSITIVE_NO_GO_AND_SURVIVING_CANCELLATION_TUBE",
+  "scope": "independent root audit of the common-scale theorem, bounded-degree leading-form transversality, reciprocal-positive criterion, Schur gaps, necessary cancellation tube, scope, capacity, and zero booking",
+  "checks": {
+    "work_hash_list_entries": 6,
+    "work_hash_list_failures": 0,
+    "frozen_dependencies_checked": 20,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "independent_complement_identity_check": true,
+    "independent_adjacent_ratio_check": true,
+    "independent_Schur_gap_check": true,
+    "independent_ambient_cancellation_check": true,
+    "actual_prime_or_target_census_performed": false,
+    "density_inference_from_controls": false,
+    "canonical_format_repair": "none"
+  },
+  "mathematical_audit": {
+    "common_scale": "Positive singleton mass eta supplies linearly many distinct loads above A. A summand of T1 omits at most one, so log T1 is at least (eta/2+o(1)) log b. Exact double counting bounds each adjacent T_(s+1)/T_s within polynomial factors, hence all fixed top coordinates differ only by b^{o(1)} ratios.",
+    "transversality": "If the degree-d leading form is at least T1^d divided by a sub-beta factor, every lower homogeneous layer is smaller by a factor tending to zero. After a sub-beta denominator, the residual still has rate at least d eta/2+o(1).",
+    "reciprocal_positive": "Using T_s=P e_s(1/Z), a one-sign reciprocal transform has no cancellation. Since A^-2<1/Z_j<=1, one surviving monomial gives |H(T)|/T1^d>=A^(-2kd)N^(-d), a sub-beta loss only.",
+    "Schur_gap": "The identity e_s^2-e_(s-1)e_(s+1)=s_(2^s) has nonnegative monomial coefficients, so the mixed-sign coordinate gap lies in the reciprocal-positive cone and is beta-scale.",
+    "cancellation_tube": "A nonzero sub-beta value outside the content branch forces the normalized reciprocal leading-form value below b^(-eta/2+o(1)). Exact leading cancellation is the core projective variety; if it occurs, the argument descends to the next homogeneous layer.",
+    "positivity_limit": "The all-one ambient example gives a primitive moving mixed-sign form with value one and exact leading cancellation. It has no singleton mass and is not evidence about the actual family, but proves positivity alone cannot exclude every cancellation variety.",
+    "scope_warning": "Actual-family avoidance of the exponentially thin tube, growing degree or coordinate count, beta-height denominators, and nonlinear gcd/radical compression remain open.",
+    "capacity": "No actual divisibility carrier or weighted upper bound is constructed, so beta capacity and booking remain unchanged."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "actual common-scale theorem under positive singleton mass",
+      "primitive bounded-degree multivariate transversality",
+      "reciprocal-positive criterion",
+      "mixed-sign Schur-gap corollary",
+      "necessary form-value cancellation tube",
+      "zero booking"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "reciprocal-positive bounded-degree top-symmetric residuals",
+      "same-sign leading forms and mixed-sign Schur gaps",
+      "sub-beta denominators and content normalization as escapes"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "predeclared positive-load, transform, Schur, scale, and ambient cancellation controls; no actual census"
+    ],
+    "OPEN": [
+      "actual-family avoidance of the mixed-sign form-value tube",
+      "canonical sub-beta mixed-sign divisibility carrier",
+      "growing coordinate count or degree and beta-height nonlinear compression",
+      "the singleton weighted bound, beta capacity, Route 1, and e+pi"
+    ]
+  },
+  "capacity": {
+    "transverse_lower_rate": "d*eta/2+o(1)",
+    "surviving_tube": "normalized leading form value<=b^(-eta/2+o(1))",
+    "constructed_actual_sub_beta_carrier": false,
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "new_booking": 0
+  }
+}

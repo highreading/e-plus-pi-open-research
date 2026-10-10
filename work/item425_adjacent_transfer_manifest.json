@@ -1,0 +1,64 @@
+{
+  "item": 425,
+  "schema": "item425-adjacent-transfer-manifest-v1",
+  "checked_date_beijing": "2026-09-01",
+  "title": "adjacent transfer saturates the normalized mixed-cubic base",
+  "status": "WORK_ONLY_PROVED_ADJACENT_DETERMINANT_SATURATION_AND_SCOPED_HOLONOMIC_NO_GO_ZERO_LEDGER",
+  "dependency_hashes": {
+    "sources/item390_mixed_cubic_fresh_primitive_saturation_report.md": "5bfb3c871b12524f672df515e920236f2470145d4f68bdcd7b47f29408692f46",
+    "results/item390_mixed_cubic_fresh_primitive_saturation_certificate.json": "45b61f683a29305e4fcfd8810f146068f950070496e8e88a2a6b800f9dc1ada6",
+    "sources/item415_marked_selector_compulsory_strip_report.md": "da79ea786471a6abb35288f242a0b0b2307a695bd9352eaa3c4e2033fc701777",
+    "results/item415_marked_selector_compulsory_strip_certificate.json": "af731cf70e9a6d40cab380d38d5b404786cefef196eb42f743634b8d390cb29e",
+    "sources/item418_normalized_large_carrier_report.md": "5b490e38d127deec51cac34a80c6856ed824534daad8fc3a387fe6cbb7f7db68",
+    "results/item418_normalized_large_carrier_certificate.json": "bcea1e6be723e48e3d1ca63bc5644b208059e5138799108ea403b0ba5d789075",
+    "sources/item420_normalized_contour_extension_report.md": "eebbcd02c654d6be1ca6ae50e427931abc16aae773300b4d1f32dc8f2291a414",
+    "results/item420_normalized_contour_extension_certificate.json": "ddac30da2c3c7ebca84cce7c412f99c05b6d6281a5598c2346f33b50efe18095",
+    "work/item423_polynomial_bezout_no_go_report.md": "fddb0af24dd970dd3835aad6688a02d3da277cf854781c822875698d2d2350a6",
+    "work/item423_polynomial_bezout_no_go_certificate.json": "3ccb1fadac9f770cc999af24cb1781dd4c875bcaea3d01c252de94c725ad08aa"
+  },
+  "artifacts": {
+    "work/item425_adjacent_transfer_report.md": "6bb5255e7771c90c95343aa631591903b370fdfa63efd84144a59b54ae797b64",
+    "work/item425_adjacent_transfer_certificate.py": "015bf4f4227c8d5b29180cc65fa95914572eb22ebea151792c6f5238a5234f39",
+    "work/item425_adjacent_transfer_certificate.json": "327e98e8ed0d6423e2a5505e9daf5b654c24e0ba03c314b86ee24bb86b07952b",
+    "work/item425_adjacent_transfer_certificate_replay.json": "327e98e8ed0d6423e2a5505e9daf5b654c24e0ba03c314b86ee24bb86b07952b",
+    "work/item425_adjacent_transfer_ledger_delta.json": "d3370ca72734b66e514768af4e96d4e5b7aea234305f6d73d47313030dead8aa"
+  },
+  "proved_claims": [
+    "2*W_lambda,m=lambda_0,m*D_(m+1)-D_m*lambda_0,(m+1)",
+    "W_mu,m is an integer and g_m*g_(m+1) divides W_mu,m at all valuation depths",
+    "lim |W_lambda,m|^(1/m)=rho_star^2",
+    "lim |W_mu,m|^(1/m)=(rho_star*exp(-C_F))^2",
+    "the exact degree-two shifted critical-value reduction has a nonzero amplitude at every critical point"
+  ],
+  "capacity": {
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "retained_strictly_large_component_ceiling": "0.4287738853386578689457603829...",
+    "classification": "adjacent determinant saturates the existing per-contained-row exponential cost"
+  },
+  "scope": {
+    "closed": [
+      "adjacent 2x2 exterior determinant",
+      "first degree-two shifted critical-value reduction"
+    ],
+    "not_closed": [
+      "larger or growing windows",
+      "adaptive recurrences and modular resultants",
+      "weighted nonconcentration",
+      "Route 1 or irrationality of e+pi"
+    ]
+  },
+  "replay": {
+    "command_1": "python work/item425_adjacent_transfer_certificate.py --output work/item425_adjacent_transfer_certificate.json",
+    "command_2": "python work/item425_adjacent_transfer_certificate.py --replay work/item425_adjacent_transfer_certificate.json --output work/item425_adjacent_transfer_certificate_replay.json",
+    "byte_identical": true,
+    "finite_row_policy": "exact formula normalization only; no finite-to-asymptotic inference",
+    "asymptotic_policy": "symbolic saddle proof from pinned Items 420 and 423"
+  },
+  "claim_policy": {
+    "actual_family_only": true,
+    "zero_ledger": true,
+    "no_irrationality_claim": true,
+    "no_central_files_edited": true
+  }
+}

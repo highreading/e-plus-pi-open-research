@@ -1,0 +1,48 @@
+{
+  "schema": "item226-root-independent-audit-v1",
+  "status": "PASS_WITH_SCOPED_OPEN_PROBLEM",
+  "canonical_sha256": "adaabc9dcddb46d09b3cc88aa44f83c46b134ed4c2b30ff72ed5196f06ab5db3",
+  "root_replay_sha256": "adaabc9dcddb46d09b3cc88aa44f83c46b134ed4c2b30ff72ed5196f06ab5db3",
+  "byte_identical_replay": true,
+  "independent_checks": {
+    "terminal_multiplier": "at k_q=(q-1)p+2s-3, A4=-(k_q+2r+4s+6)=-q p exactly",
+    "terminal_source": "the omitted leading primitive is (-1)^r z^(qp)/(qp), so multiplication by -q p cancels q before reduction and leaves the stated endpoint weight",
+    "phase_weights": "the endpoint table gives the exact cycle 7,29,11,-11 in both residue classes p mod 4",
+    "one_phase_forcing": "the support width of (1-z^4)f0 is below p, so each open phase interval contains at most the single q p Cartier source with the reported coefficient index and sign",
+    "free_column": "the homogeneous response is the coefficient sequence of g, and deg(g)=(p+2s-1)/2<p-4 for every s>=2 row, so all four next-state entries vanish",
+    "periodicity": "adding 4p preserves omitted denominators, retained inverses modulo p, and the four-periodic endpoint weight coefficientwise",
+    "rank_criterion": "for nine scalar equations c_i lambda=d_i, consistency is equivalent to coefficient and augmented rank one; the first terminal has nonzero right side, excluding the rank-zero edge case",
+    "regular_completeness": "when I-M^4 is invertible, its affine fixed state is unique and equals the actual finite-period state; safe backward pivots then make candidate-line membership equivalent to the original gate",
+    "default_full_phase_rows_replayed": 74,
+    "extended_full_phase_rows_replayed_through_p_251": 455,
+    "finite_s_at_least_2_rows": 1115,
+    "finite_formal_solvable_rows": 0,
+    "finite_fixed_determinant_zero_rows": 15,
+    "hash_ledger_entries_checked": 10,
+    "hash_mismatches": 0,
+    "dependency_hashes_checked": 4,
+    "python_compile": true,
+    "control_character_scan": "clean",
+    "host_path_scan": "clean"
+  },
+  "classification": {
+    "PROVED": [
+      "exact q-phase affine transfer and q p multiplicity normalization",
+      "coefficientwise 4p periodicity and four-phase closure",
+      "nine-equation augmented-rank solvability criterion",
+      "necessity for every s>=2 collision",
+      "equivalence with the original common gate on det(I-M^4) nonzero rows"
+    ],
+    "EXACT_FINITE": [
+      "all 1115 s>=2 rows through p<=401 have inconsistent formal systems",
+      "15 determinant-zero rows and six individual closure-minor zero lists through p<=401"
+    ],
+    "OPEN": [
+      "all-prime augmented-minor or rank inconsistency",
+      "classification or zero-rate control of determinant-zero rows",
+      "the s=1 family",
+      "any j=2 capacity reduction or conclusion about e+pi"
+    ]
+  },
+  "audit_conclusion": "Four-phase closure is an exact structural reformulation on regular rows and a necessary filter on singular rows, but the empty bounded census cannot be promoted to an all-prime theorem or rate."
+}

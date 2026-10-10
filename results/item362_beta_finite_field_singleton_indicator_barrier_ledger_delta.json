@@ -1,0 +1,73 @@
+{
+  "schema": "item362-beta-finite-field-singleton-indicator-barrier-ledger-delta-v1",
+  "item": 362,
+  "date": "2026-09-01",
+  "classification": "PROVED_FINITE_FIELD_INDICATOR_DEGREE_HEIGHT_SCOPED_NO_GO",
+  "actual_family": {
+    "assumption": "genuine canonical Item316 target",
+    "range": "A<p<A^2",
+    "target_divisor": "p|Q^[1]|b",
+    "exact_zero_rows": "omitted before forming the nonzero cofactor word",
+    "t_avoidance": "internalized by T^(p-1) or imposed externally",
+    "candidate_loop": "product gcd(p,Phi_p(t,Z)) equals U_11 exactly"
+  },
+  "proved": {
+    "unique_reduced_function": "functions on F_p^(N+1) have one representative with individual degrees <=p-1",
+    "singleton_degree": "deg Phi=(N+1)(p-1) if p does not divide N, and N(p-1) if p divides N",
+    "individual_degree": "p-1 in every participating coordinate",
+    "low_incidence_degree": "deg complement >=(N-L+2)(p-1), or (N-L+1)(p-1) with external t-avoidance",
+    "recurrence": "signed loads are integral triangular coordinates before target and box specialization",
+    "height": "at a singleton hit, Phi_p(t,Z)>=p^(p-1), so aggregate lift height >=A log U_11",
+    "frobenius_kernel": "adding Y^p-Y multiples cannot change the unique reduced class",
+    "circuit_depth": "ordinary binary multiplication depth >=ceil(log2(N(p-1)))",
+    "quotient_bridge": "Phi_p/p=-q_p(t product_(i!=j)Z_i) mod p",
+    "no_universal_second_digit": "t=1 and rows (p,p-1) give valuation exactly one for every odd p"
+  },
+  "scoped_no_go": {
+    "closes": [
+      "bounded-degree exact finite-field polynomial-function singleton indicators",
+      "fixed multiplication-depth indicators without a p-power primitive",
+      "Frobenius-kernel additions as reduced-degree compression",
+      "canonical reduced integer lifts and their candidate products as height compression"
+    ],
+    "does_not_close": [
+      "target-specific cancellation after endpoint and canonical-box specialization",
+      "candidate-independent low-height carriers",
+      "large-sieve, trace, character-sum, or monodromy theorems",
+      "arbitrary F-crystal or Cartier-state dimension bounds",
+      "moving Fermat-quotient density",
+      "actual singleton or growing low-incidence mass"
+    ]
+  },
+  "strict_labels": {
+    "PROVED": [
+      "minimal reduced degree",
+      "all-L degree lower bound",
+      "actual candidate-loop identity",
+      "height dilation",
+      "mod-p2 Fermat bridge",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared truth tables, degree cases, load controls, and symbolic-family instances; no target or prime census"
+    ],
+    "OPEN": [
+      "candidate-independent H_n",
+      "actual extra digit and Fermat-quotient density",
+      "actual singleton and growing low incidence",
+      "Xi_Q, squarefull excess, H_Q, K_Q, Gamma_Q",
+      "centered half-bound, beta capacity, Route 1, e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_singleton_maximum": "log b",
+    "positive_mass_row_count": "Omega(n)",
+    "positive_mass_indicator_degree": "Omega(n^2)",
+    "aggregate_lift_height": ">=A log U_11",
+    "actual_singleton_rate": "OPEN",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "booking": 0
+  },
+  "canonical_files_modified": false
+}

@@ -1,0 +1,205 @@
+{
+  "author": "/root/organization_evidence",
+  "computed_at_utc": "2026-10-04T06:35:36.828553+00:00",
+  "scope": "Bounded exact checks of implication/normalization examples only",
+  "archived_code_or_libraries_executed": false,
+  "network_or_subprocess_or_dynamic_exec": false,
+  "F_jets_0_through_8": [
+    0,
+    2,
+    2,
+    2,
+    0,
+    -12,
+    -60,
+    -180,
+    0
+  ],
+  "n1_actual_HP_endpoint_counterexample": {
+    "unknown_order": [
+      "B0",
+      "B1",
+      "C0",
+      "C1"
+    ],
+    "high_matrix": [
+      [
+        "1/2",
+        "1",
+        "1",
+        "2"
+      ],
+      [
+        "1/6",
+        "1/2",
+        "1/3",
+        "1"
+      ],
+      [
+        "1",
+        "1",
+        "-1",
+        "-1"
+      ]
+    ],
+    "rank": 3,
+    "nullity": 1,
+    "primitive_A": [
+      -2,
+      2
+    ],
+    "primitive_B": [
+      2,
+      -2
+    ],
+    "primitive_C": [
+      -1,
+      1
+    ],
+    "ordinary_R_coefficients_0_through_4": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "1/12"
+    ],
+    "endpoint_pair_A1_B1": [
+      0,
+      0
+    ],
+    "C1": 0,
+    "normalization": "opposite ray to archived negative first-free convention",
+    "excluded_claim": "full row rank + nonzero first free jet implies nonzero endpoint pair at every n",
+    "not_excluded": "eventual nonzero endpoint or a specified subfamily theorem"
+  },
+  "synthetic_normalized_weighted_polynomial_without_orthogonality": {
+    "n": 9,
+    "q_y_coefficients": [
+      513,
+      9,
+      36,
+      84,
+      126,
+      126,
+      84,
+      36,
+      9,
+      1
+    ],
+    "q_2z_minus1_over_2n": "z^9+1",
+    "q0_odd": true,
+    "q_minus1": 512,
+    "i": 4,
+    "j": 4,
+    "V8": "-1356704742505472/902522205585",
+    "v2_V8": 10,
+    "required_same_y_basis_gate": 15,
+    "actual_orthogonal_ray": false,
+    "excluded_claim": "normalized coefficient integrality alone gives the complete arctangent gate"
+  },
+  "integer_symmetric_operator_counterexample": {
+    "T": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "moments": [
+      1,
+      0,
+      2,
+      3
+    ],
+    "monic_orthogonal_polynomial": "z^2-(3/2)z-2",
+    "leading_moment_matrix_rank": 2,
+    "not_2_integral": true
+  },
+  "b2_arbitrary_depth_synthetic_equation_states": {
+    "n": 2,
+    "p": 11,
+    "h": 1,
+    "f_u": "u^3+4u-8",
+    "simple_root_mod_p": 7,
+    "states": [
+      {
+        "depth": 1,
+        "u_integer": 7,
+        "v_rational": "-57/7",
+        "D": "0",
+        "C": 363,
+        "v11_C": 2,
+        "actual_HP_state": false
+      },
+      {
+        "depth": 2,
+        "u_integer": 7,
+        "v_rational": "-57/7",
+        "D": "0",
+        "C": 363,
+        "v11_C": 2,
+        "actual_HP_state": false
+      },
+      {
+        "depth": 3,
+        "u_integer": 128,
+        "v_rational": "-8317/64",
+        "D": "0",
+        "C": 2097656,
+        "v11_C": 3,
+        "actual_HP_state": false
+      },
+      {
+        "depth": 4,
+        "u_integer": 1459,
+        "v_rational": "-2131593/1459",
+        "D": "0",
+        "C": 3105751407,
+        "v11_C": 4,
+        "actual_HP_state": false
+      },
+      {
+        "depth": 5,
+        "u_integer": 16100,
+        "v_rational": "-129621097/8050",
+        "D": "0",
+        "C": 4173281064392,
+        "v11_C": 5,
+        "actual_HP_state": false
+      },
+      {
+        "depth": 6,
+        "u_integer": 821355,
+        "v_rational": "-224875226243/273785",
+        "D": "0",
+        "C": 554105825112599287,
+        "v11_C": 6,
+        "actual_HP_state": false
+      }
+    ],
+    "scope_warning": "model local equations only; no actual HP index or gcd construction"
+  },
+  "single_jet_N4_exact_denominator_example": {
+    "base_P": "z",
+    "N": 4,
+    "cN": "145/24",
+    "Z": 145,
+    "fN": 3,
+    "ON": 3,
+    "KN": 1,
+    "changed_cN": "49/8",
+    "final_denominator": 8,
+    "scope_warning": "one finite algebra check; base P=z has no claimed radius>2"
+  },
+  "owned_program_sha256": "54576e44a6a0361311a6a0d0a43bd5e8aa32335a7040eeb795c8eca4132e2100"
+}

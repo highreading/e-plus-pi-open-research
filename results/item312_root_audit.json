@@ -1,0 +1,50 @@
+{
+  "schema": "item312-root-audit-v1",
+  "item": 312,
+  "auditor": "root",
+  "date": "2026-08-31",
+  "verdict": "PASS AS AN EXACT ALL-S ORDER-THREE TELESCOPER, ZERO-RATE PIVOT-SINGULARITY LOCALIZATION, SCOPED BOUNDED-OPERATOR NO-GO, AND ZERO BOOKING",
+  "package": {
+    "manifest_files_checked": 6,
+    "manifest_file_hash_mismatches": 0,
+    "frozen_dependencies_checked": 8,
+    "manifest_dependency_hash_mismatches": 0,
+    "hash_list_entries_checked": 7,
+    "hash_list_mismatches": 0,
+    "canonical_replay_byte_identical": true,
+    "canonical_root_replay_byte_identical": true,
+    "canonical_replay_and_root_sha256": "21373d42a41590895112b4567bd3eae988166db8d84d55db9514be0e59e8f7f9",
+    "report_sha256": "39f6d5e20ae7e463324af44023b1fe78c20d11b3d97d1e672291808f5b586bb2",
+    "script_sha256": "9564216d70fcf3053ef4ffad3594a7d638176407fb7d7aae3acdba131c15bd36",
+    "data_sha256": "64cdd3c400c0472fef2e6b7949ccff2a15478ba7a96eb232ab05f2c547cd993c",
+    "ledger_sha256": "23a6f4d9a1e86409b70f39b0ca27e119debf5a54c777a0e769b09be6ceeb839d",
+    "manifest_sha256": "7bb44b319299fe9193b3eb80004a4c9b65d8f47ad1402553033cffaa3be8d9b1",
+    "hash_list_sha256": "e15c781f29f47cfd63678978410edec9cf9706e1671a87bacc1cf0b8cf04e730"
+  },
+  "independent_mathematical_checks": {
+    "summand_reconstruction": "PASS: expansion of the exact Item310 coefficient formula gives the six shifted numerator coefficients and the displayed hypergeometric summand T_(s,m).",
+    "telescoping_identity": "PASS: the explicit degree-eleven-in-m certificate verifies G_(s,m+1)-G_(s,m)=sum_(j=0)^3 P_j(s)T_(s+j,m) identically in Q(s,m).",
+    "endpoint_closure": "PASS: G_(s,0)=0; the apparent poles at m=s+3,s+4,s+5 are canceled by simple generalized-binomial zeros; the common summand support ends and G_(s,s+6)=0 for every integer s>=1.",
+    "operator": "PASS: summation yields the factored order-three, coefficient-degree-seven recurrence for the exact A_s on all s>=1; it is not a fitted recurrence.",
+    "pivot_localization": "PASS: substituting 3p_s=4M+2s+1 into every leading/trailing factor maps a pivot prime to one of two explicit nonzero degree-seven integers R0(M),R3(M). Their product has logarithmic size O(log M).",
+    "comparison": "PASS: C_s=binomial(7s,s) has an order-one degree-seven recurrence and captures every tied prime with 6s<p<=7s. On the exact fixed-M slice this interval has Chebyshev mass M/38+o(M).",
+    "scope": "PASS: the comparison closes only inference from bounded order/degree, integrality, nonvanishing, and exponential height. It is not the actual A_s or D_(s,epsilon), and pivot localization does not localize regular-row collision primes."
+  },
+  "format": {
+    "report_bytes": 16110,
+    "report_lines": 552,
+    "forbidden_control_characters": 0,
+    "inline_math_open": 100,
+    "inline_math_close": 100,
+    "display_math_open": 43,
+    "display_math_close": 43
+  },
+  "capacity": {
+    "new_route1_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "pivot_singular_mass": "O(log M)=o(M), already a thin subset",
+    "retained_ceiling_per_6M": "1/36",
+    "smallest_remaining_problem": "sequence-specific annihilator arithmetic for the Gaussian companion or actual D_(s,epsilon), and weighted control on regular recurrence rows",
+    "route_status": "ACTIVE"
+  }
+}

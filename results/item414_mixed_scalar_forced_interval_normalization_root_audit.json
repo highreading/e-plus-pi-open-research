@@ -1,0 +1,50 @@
+{
+  "item": 414,
+  "schema": "item414-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_FORCED_INTERVAL_TRANSPORT_AND_CORRECTED_LARGE_PRIME_TARGET_ZERO_BOOKING",
+  "scope": "independent root audit of the compulsory interval divisor in the Item410 scalar carriers, both phase carriers, provenance relative to Item200, corrected radical target, height screen, dependencies, and deterministic replay",
+  "checks": {
+    "canonical_dependencies_checked": 12,
+    "canonical_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "control_characters": 0,
+    "finite_range_used_only_for_normalization": true,
+    "finite_to_infinite_inference_used": false,
+    "root_repairs": "Canonicalized all paths and status, added strict frozen replay, and made explicit why the extended opposite-phase rational sums have no terms beyond the ordinary coefficient range modulo ell."
+  },
+  "mathematical_audit": {
+    "R_pair_divisibility": "For ell in (4m,6m), Lucas reduces every surviving binomial(6m,r) term to r<=6m-ell or r=ell+s. In each parity, the half-integral upper argument of binomial(x,4m) has a representative in {0,...,4m-1}, so every E_m and O_m summand vanishes modulo ell. Denominators are ell-units.",
+    "matching_phase": "Taking n_ell=ell-6m-1<0 places every U/V upper binomial argument for the matching phase in the same root interval, so ell divides both matching-phase scalars termwise.",
+    "opposite_phase": "After shifting by 2ell, the opposite phase equals the two terminal coefficients at n'=3ell-6m-1. Extra extended-sum terms have upper indices in {0,...,4m-1} and vanish. Frobenius writes the relevant polynomial as (1-z^ell)^2R with deg R=ell-(6m-ell)-3; the requested two degrees are exactly the two-point gap between the middle and last support bands.",
+    "provenance": "Q_m is Item200's already known j=0 Cartier strip times only the optional boundary prime 4m+1. Item414 newly transports that compulsory support into W_m and both J phases; it is not a new divisor reservoir.",
+    "normalization_correction": "Whenever the carriers are nonzero, their full radicals have at least theta(6m)-theta(4m)=2m+o(m). Thus Item410's proposed full-radical zero-rate target is impossible; only the >6m radical controls actual compatible H-collision primes.",
+    "capacity": "Removing Q_m improves the elementary Item410 height constant by 1/3, but the resulting 2.2209868... remains noncompetitive with the inherited large-component ceiling. No mass or ceiling is booked."
+  },
+  "strict_labels": {
+    "PROVED_ACTUAL_CARRIER": [
+      "Q_m divides W_m and both phase carriers",
+      "the actual H-collision support is bounded by rad_(>6m)(W_m)",
+      "the full-radical target is structurally misnormalized"
+    ],
+    "INHERITED_NOT_REBOOKED": [
+      "Item200's j=0 Cartier strip and its positive linear mass"
+    ],
+    "OPEN": [
+      "uniform nonresonance",
+      "zero rate for the >6m radical or phase carriers",
+      "marked/primitive branch control, Route 1, and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "stripped_Item410_height_constant": "(14 log 2+4 log(3e/2))/6-1/3",
+    "new_route1_rate": 0,
+    "new_booking": 0,
+    "new_unconditional_capacity_reduction": 0,
+    "frozen_deficit": "1.0196329836694317938803064012..."
+  }
+}

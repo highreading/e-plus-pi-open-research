@@ -1,0 +1,29 @@
+{
+  "EXACT_FINITE_ONLY": {
+    "prime_bound": 251,
+    "zero_count": 1,
+    "zeros": [
+      [
+        47,
+        7,
+        5,
+        4,
+        3
+      ]
+    ]
+  },
+  "actual_rows": 256,
+  "endpoint_functional_checks": 486,
+  "imports_item260_code": false,
+  "localized_equalities": 1024,
+  "p47_zero_reproduced": true,
+  "rational_Hermite_rows": 13,
+  "rational_digest_sha256": "bbb87229f0c51c59f7b2fb0c446bc5317e01be3ceff13841e614ab3ee984ede5",
+  "root_symbolic_checks": {
+    "fixed_r_raw_weight": "O(log M)=o(M)",
+    "residue_at_cube_root": "1/(3*alpha*beta), nonzero when alpha^3=1 and beta^2=1/2"
+  },
+  "row_digest_sha256": "cf81dbc59986d68f8724fb0a4e2a4d6dba5dc2efe5993d7b7d036b99217e43c0",
+  "schema": "item260-root-independent-probe-v1",
+  "verdict": "the exact Hermite, endpoint, residual-coordinate, cutoff, and p=47 claims replay independently; booking remains zero"
+}

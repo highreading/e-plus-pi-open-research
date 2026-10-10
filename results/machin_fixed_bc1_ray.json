@@ -1,0 +1,370 @@
+{
+  "N_equals_1_edge_normalization": {
+    "N": 1,
+    "endpoint_gcd": 3804,
+    "endpoint_ratio": "-12388/1195",
+    "endpoint_ratio_v239": -1,
+    "primitive_beta_v239": 1,
+    "primitive_endpoint_pair_alpha_beta": [
+      12388,
+      -1195
+    ],
+    "primitive_polynomial_vector_A_B0_B1_C0_C1": [
+      47123952,
+      -47123952,
+      42578172,
+      1428025,
+      -5973805
+    ],
+    "raw_endpoint_A": 47123952,
+    "raw_endpoint_B_equals_C": -4545780
+  },
+  "finite_scope_warning": "The small cross-checks and N=479 calculation verify instances; the all-degree closed formulas and divergent-subsequence claim depend on the proof in the accompanying source note.",
+  "first_nontrivial_divergence_subsequence_check": {
+    "N": 479,
+    "N_representation": "1+2*239",
+    "degrees": [
+      478,
+      1,
+      1
+    ],
+    "endpoint_ratio_denominator_decimal_digits": 2464,
+    "endpoint_ratio_numerator_decimal_digits": 2465,
+    "endpoint_ratio_sha256": "4298c9a40f7ef58f6fddade6949c25982755a00eda3ef10c5c27ce982d0f7e1b",
+    "endpoint_ratio_v239": -479,
+    "leading_residue_test": {
+      "C_N_mod_239_without_common_factor_4": 237,
+      "N": 479,
+      "W_N": 479,
+      "a_v239_N_plus_1": 0,
+      "d_v239_D": 0,
+      "dominant_terms": [
+        {
+          "denominator_exponent": 479,
+          "kind": "combined_final_g_N",
+          "residue_without_common_factor_4": 237
+        }
+      ],
+      "lower_bound_N_minus_floor_log239_N_plus_1": 478,
+      "star_denominator_exponent": 479,
+      "valuation_conclusion_available": true
+    },
+    "primitive_endpoint_A_v239": 0,
+    "primitive_endpoint_B_v239": 479
+  },
+  "leading_residue_exception_certificate": {
+    "N_plus_1_over_D_mod_239": 144,
+    "construction": "N=239^2*161+2",
+    "leading_residue_record": {
+      "C_N_mod_239_without_common_factor_4": 0,
+      "N": 9196483,
+      "W_N": 9196483,
+      "a_v239_N_plus_1": 0,
+      "d_v239_D": 0,
+      "dominant_terms": [
+        {
+          "denominator_exponent": 9196483,
+          "kind": "earlier_minus_g_r",
+          "r": 9196481,
+          "residue_without_common_factor_4": 144,
+          "v239_r": 2
+        },
+        {
+          "denominator_exponent": 9196483,
+          "kind": "combined_final_g_N",
+          "residue_without_common_factor_4": 95
+        }
+      ],
+      "lower_bound_N_minus_floor_log239_N_plus_1": 9196481,
+      "star_denominator_exponent": 9196483,
+      "valuation_conclusion_available": false
+    },
+    "r_equals_N_minus_2": 9196481,
+    "scope_warning": "This certifies cancellation of the first 239-adic residue only; it does not determine the exact endpoint valuation at this N.",
+    "u_inverse_mod_239": 144
+  },
+  "ray": "(a,b,c)=(N-1,1,1), N odd",
+  "small_crosschecks": [
+    {
+      "N": 1,
+      "closed_BC_formula_verified": true,
+      "degrees": [
+        0,
+        1,
+        1
+      ],
+      "endpoint_ratio_formula_verified": true,
+      "endpoint_ratio_sha256": "fec828af8db5c325d0dcff8adb6b677da40b71225638172d19d34c4d4dee28ec",
+      "endpoint_ratio_v239": -1,
+      "leading_residue_test": {
+        "C_N_mod_239_without_common_factor_4": 2,
+        "N": 1,
+        "W_N": 1,
+        "a_v239_N_plus_1": 0,
+        "d_v239_D": 0,
+        "dominant_terms": [
+          {
+            "denominator_exponent": 1,
+            "kind": "combined_final_g_N",
+            "residue_without_common_factor_4": 2
+          }
+        ],
+        "lower_bound_N_minus_floor_log239_N_plus_1": 1,
+        "star_denominator_exponent": 1,
+        "valuation_conclusion_available": true
+      },
+      "nullity": 1
+    },
+    {
+      "N": 3,
+      "closed_BC_formula_verified": true,
+      "degrees": [
+        2,
+        1,
+        1
+      ],
+      "endpoint_ratio_formula_verified": true,
+      "endpoint_ratio_sha256": "bebfb9e52acb2c6322321c5ac5a9e7536d22384bac99316f5b00da7d73833418",
+      "endpoint_ratio_v239": -3,
+      "leading_residue_test": {
+        "C_N_mod_239_without_common_factor_4": 130,
+        "N": 3,
+        "W_N": 3,
+        "a_v239_N_plus_1": 0,
+        "d_v239_D": 0,
+        "dominant_terms": [
+          {
+            "denominator_exponent": 3,
+            "kind": "combined_final_g_N",
+            "residue_without_common_factor_4": 130
+          }
+        ],
+        "lower_bound_N_minus_floor_log239_N_plus_1": 3,
+        "star_denominator_exponent": 3,
+        "valuation_conclusion_available": true
+      },
+      "nullity": 1
+    },
+    {
+      "N": 5,
+      "closed_BC_formula_verified": true,
+      "degrees": [
+        4,
+        1,
+        1
+      ],
+      "endpoint_ratio_formula_verified": true,
+      "endpoint_ratio_sha256": "270406cb054f8a4d7f04885e2927274074b9f4cba370adba3225c2c9e2cd83d9",
+      "endpoint_ratio_v239": -5,
+      "leading_residue_test": {
+        "C_N_mod_239_without_common_factor_4": 198,
+        "N": 5,
+        "W_N": 5,
+        "a_v239_N_plus_1": 0,
+        "d_v239_D": 0,
+        "dominant_terms": [
+          {
+            "denominator_exponent": 5,
+            "kind": "combined_final_g_N",
+            "residue_without_common_factor_4": 198
+          }
+        ],
+        "lower_bound_N_minus_floor_log239_N_plus_1": 5,
+        "star_denominator_exponent": 5,
+        "valuation_conclusion_available": true
+      },
+      "nullity": 1
+    },
+    {
+      "N": 7,
+      "closed_BC_formula_verified": true,
+      "degrees": [
+        6,
+        1,
+        1
+      ],
+      "endpoint_ratio_formula_verified": true,
+      "endpoint_ratio_sha256": "ea5692d1c0c79577c62bc5ef109cf40f19ea8c3b50101f713ac45a67d9afbe4d",
+      "endpoint_ratio_v239": -7,
+      "leading_residue_test": {
+        "C_N_mod_239_without_common_factor_4": 52,
+        "N": 7,
+        "W_N": 7,
+        "a_v239_N_plus_1": 0,
+        "d_v239_D": 0,
+        "dominant_terms": [
+          {
+            "denominator_exponent": 7,
+            "kind": "combined_final_g_N",
+            "residue_without_common_factor_4": 52
+          }
+        ],
+        "lower_bound_N_minus_floor_log239_N_plus_1": 7,
+        "star_denominator_exponent": 7,
+        "valuation_conclusion_available": true
+      },
+      "nullity": 1
+    },
+    {
+      "N": 9,
+      "closed_BC_formula_verified": true,
+      "degrees": [
+        8,
+        1,
+        1
+      ],
+      "endpoint_ratio_formula_verified": true,
+      "endpoint_ratio_sha256": "9807daf11d2103241312b988b207c97c8284642b929ab1c79b75232ee4635eeb",
+      "endpoint_ratio_v239": -9,
+      "leading_residue_test": {
+        "C_N_mod_239_without_common_factor_4": 223,
+        "N": 9,
+        "W_N": 9,
+        "a_v239_N_plus_1": 0,
+        "d_v239_D": 0,
+        "dominant_terms": [
+          {
+            "denominator_exponent": 9,
+            "kind": "combined_final_g_N",
+            "residue_without_common_factor_4": 223
+          }
+        ],
+        "lower_bound_N_minus_floor_log239_N_plus_1": 9,
+        "star_denominator_exponent": 9,
+        "valuation_conclusion_available": true
+      },
+      "nullity": 1
+    },
+    {
+      "N": 11,
+      "closed_BC_formula_verified": true,
+      "degrees": [
+        10,
+        1,
+        1
+      ],
+      "endpoint_ratio_formula_verified": true,
+      "endpoint_ratio_sha256": "9a7a60fca2bc1544621444c93fd9093fce9c5892b0da89d65a0941d44c567fff",
+      "endpoint_ratio_v239": -11,
+      "leading_residue_test": {
+        "C_N_mod_239_without_common_factor_4": 186,
+        "N": 11,
+        "W_N": 11,
+        "a_v239_N_plus_1": 0,
+        "d_v239_D": 0,
+        "dominant_terms": [
+          {
+            "denominator_exponent": 11,
+            "kind": "combined_final_g_N",
+            "residue_without_common_factor_4": 186
+          }
+        ],
+        "lower_bound_N_minus_floor_log239_N_plus_1": 11,
+        "star_denominator_exponent": 11,
+        "valuation_conclusion_available": true
+      },
+      "nullity": 1
+    },
+    {
+      "N": 13,
+      "closed_BC_formula_verified": true,
+      "degrees": [
+        12,
+        1,
+        1
+      ],
+      "endpoint_ratio_formula_verified": true,
+      "endpoint_ratio_sha256": "aa22518c6c4525d0e6d5901f65cf993107e52f0e998c2faaa9461a25e404505e",
+      "endpoint_ratio_v239": -13,
+      "leading_residue_test": {
+        "C_N_mod_239_without_common_factor_4": 8,
+        "N": 13,
+        "W_N": 13,
+        "a_v239_N_plus_1": 0,
+        "d_v239_D": 0,
+        "dominant_terms": [
+          {
+            "denominator_exponent": 13,
+            "kind": "combined_final_g_N",
+            "residue_without_common_factor_4": 8
+          }
+        ],
+        "lower_bound_N_minus_floor_log239_N_plus_1": 13,
+        "star_denominator_exponent": 13,
+        "valuation_conclusion_available": true
+      },
+      "nullity": 1
+    }
+  ],
+  "targeted_exact_leading_residue_crosschecks": [
+    {
+      "N": 15,
+      "endpoint_ratio_sha256": "02d01a02122950a13b7c91769815d769b31dffc51777ffbf2e9d53c0ad7ea1ca",
+      "exact_endpoint_ratio_v239": -16,
+      "leading_residue_test": {
+        "C_N_mod_239_without_common_factor_4": 223,
+        "N": 15,
+        "W_N": 16,
+        "a_v239_N_plus_1": 0,
+        "d_v239_D": 1,
+        "dominant_terms": [
+          {
+            "denominator_exponent": 16,
+            "kind": "combined_final_g_N",
+            "residue_without_common_factor_4": 223
+          }
+        ],
+        "lower_bound_N_minus_floor_log239_N_plus_1": 15,
+        "star_denominator_exponent": 16,
+        "valuation_conclusion_available": true
+      },
+      "reason_selected": "D is divisible by 239"
+    },
+    {
+      "N": 239,
+      "endpoint_ratio_sha256": "b6abe40737b6820c4c1cc03f5aa7562c3ee0635e80f53ca81472a6b1ef87bb8f",
+      "exact_endpoint_ratio_v239": -239,
+      "leading_residue_test": {
+        "C_N_mod_239_without_common_factor_4": 1,
+        "N": 239,
+        "W_N": 239,
+        "a_v239_N_plus_1": 0,
+        "d_v239_D": 0,
+        "dominant_terms": [
+          {
+            "denominator_exponent": 239,
+            "kind": "combined_final_g_N",
+            "residue_without_common_factor_4": 1
+          }
+        ],
+        "lower_bound_N_minus_floor_log239_N_plus_1": 238,
+        "star_denominator_exponent": 239,
+        "valuation_conclusion_available": true
+      },
+      "reason_selected": "N is divisible by 239"
+    },
+    {
+      "N": 477,
+      "endpoint_ratio_sha256": "1f248d3c2f501f69bdeaf0e4b08427a1db85f448b5bfd93e8aa8185f5095e93b",
+      "exact_endpoint_ratio_v239": -476,
+      "leading_residue_test": {
+        "C_N_mod_239_without_common_factor_4": 237,
+        "N": 477,
+        "W_N": 476,
+        "a_v239_N_plus_1": 1,
+        "d_v239_D": 0,
+        "dominant_terms": [
+          {
+            "denominator_exponent": 476,
+            "kind": "combined_final_g_N",
+            "residue_without_common_factor_4": 237
+          }
+        ],
+        "lower_bound_N_minus_floor_log239_N_plus_1": 476,
+        "star_denominator_exponent": 476,
+        "valuation_conclusion_available": true
+      },
+      "reason_selected": "N+1 is divisible by 239"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "item287-root-audit-v1",
+  "audit_date": "2026-08-31",
+  "auditor": "root",
+  "verdict": "PASS_WITH_STRICT_SCOPE",
+  "substantive_checks": {
+    "generic_state": "PASS: the invertible order-two recurrence leaves two algebraically free formal state coordinates X,Y, and every fixed window is an A-linear form in them",
+    "full_kernel": "PASS: quotienting A[X,Y,U] by (X,U+Y^2) is canonically A[Y], proving the exact recurrence-universal kernel",
+    "n_only_monic_no_go": "PASS: substitution U=-Y^2 leaves the uncancellable leading term (-1)^dY^(2d) for every positive-degree monic M in A[U]",
+    "rational_denominators": "PASS: denominator clearing is admitted only where the common denominator is a target unit; nonunit target factors are not hidden in a formal monic relation",
+    "state_dependent_scope": "PASS: universal state-dependent relations are classified as (U+Y^2)G+XH and explicitly labeled tautological after actual-orbit specialization",
+    "proper_target_kernel": "PASS: Z[Y,U]/(Q,U+Y^2) is (Z/QZ)[Y], so identities valid for arbitrary boundary state modulo Q lie exactly in the displayed ideal",
+    "degree_one": "PASS: U+a annihilates -Y^2 modulo Q exactly when -a is an integer lift of the boundary unit; this is precisely the Item285 small-lift problem",
+    "orbit_specific_boundary": "PASS: no impossibility claim is made for arithmetic congruences special to the seed q_0=q_1=1 or for proper de-overlapped targets",
+    "resultant_and_baseline": "PASS: the Item285 resultant criterion remains conditional and the Item282 common-product baseline remains separate",
+    "capacity_booking": "PASS: no actual orbit-specific low-height relation or target bound is proved; beta capacity reduction and Route-1 booking are zero"
+  },
+  "independent_replay": {
+    "canonical_sha256": "b50df1a58d84179c400ac17b430b143280b824e6a635a1f79391f9750e0eac10",
+    "root_replay_sha256": "b50df1a58d84179c400ac17b430b143280b824e6a635a1f79391f9750e0eac10",
+    "byte_identical": true
+  },
+  "package_checks": {
+    "manifest_files_checked": 6,
+    "frozen_dependencies_checked": 6,
+    "json_files_parsed": 5,
+    "all_hashes_and_dependencies_match": true
+  },
+  "report_checks": {
+    "sha256": "2c54c2937f143640567929f812614db28b8e4b317f97fda884ad458f98955147",
+    "bytes": 15575,
+    "lines": 543,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "display_delimiters": "47/47",
+    "inline_delimiters": "94/94"
+  },
+  "strict_scope": {
+    "proved": "The beta recurrence alone supplies only the canonical boundary relation and recurrence modulus; no n-only recurrence-universal monic annihilator exists.",
+    "not_excluded": "A low-height relation special to the integral seed, a proper-target congruence, or a nonzero low-height resultant using new arithmetic.",
+    "open": "The least-height actual boundary-unit lift, higher-degree orbit-specific annihilators, the Item282 product baseline, and every positive beta capacity theorem.",
+    "route_status": "Route 1 ACTIVE; Route 2 QUEUED"
+  }
+}

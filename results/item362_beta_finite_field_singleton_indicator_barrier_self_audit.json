@@ -1,0 +1,59 @@
+{
+  "schema": "item362-beta-finite-field-singleton-indicator-barrier-self-audit-v1",
+  "item": 362,
+  "date": "2026-09-01",
+  "status": "PASS",
+  "auditor_role": "author-side mechanical and scope check; root remains the independent auditor",
+  "checks": {
+    "json_files_parse": true,
+    "certificate_script_compiles": true,
+    "certificate_replay_succeeds": true,
+    "certificate_replay_byte_identical": true,
+    "dependency_hashes_verified_by_replay": 23,
+    "report_inline_dollar_delimiters": "242/242",
+    "report_display_delimiters": "42/42",
+    "report_fences": "2/2",
+    "report_control_characters": 0,
+    "canonical_files_modified": false
+  },
+  "independent_style_declared_control": {
+    "method": "standalone expanded-polynomial truth-table and quotient computation without importing the certificate module",
+    "indicator_profiles": [
+      "p=3,N=2",
+      "p=5,N=3",
+      "p=7,N=2"
+    ],
+    "indicator_points_checked": 995,
+    "odd_prime_quotient_instances": 5,
+    "checked": [
+      "expanded reduced polynomial is zero exactly at t-away singleton points",
+      "exact total degree agrees with the p-divides-N split",
+      "(p-1)^(p-1)=1+p mod p^2",
+      "the all-odd-prime ambient family has valuation exactly one"
+    ],
+    "rows_digest": "02fcbc425a92883c8e8c903dc8ef476035d55ddcc3f31afdc3bd9d15db4e5746",
+    "finite_rows_promoted": false,
+    "prime_census_performed": false
+  },
+  "mathematical_scope_checks": {
+    "capacity_admission_precedes_elaboration": true,
+    "actual_item316_target_is_assumed_only": true,
+    "exact_zero_rows_omitted": true,
+    "tied_range_A_to_A2_preserved": true,
+    "unique_reduced_representation_proved": true,
+    "minimal_degree_split_p_divides_N_proved": true,
+    "all_L_lower_degree_proved": true,
+    "polynomial_functions_distinguished_from_characteristic_zero_ideals": true,
+    "triangular_recurrence_distinguished_from_endpoint_and_box": true,
+    "candidate_loop_is_not_called_a_common_carrier": true,
+    "canonical_lift_height_dilation_proved": true,
+    "mod_p_identity_distinguished_from_mod_p2": true,
+    "fermat_quotient_bridge_exact": true,
+    "arbitrary_cartier_state_dimension_not_claimed": true,
+    "ambient_no_p2_family_not_promoted_to_actual_target": true,
+    "target_specific_cancellation_remains_open": true,
+    "actual_singleton_zero_density_remains_open": true,
+    "booking_zero": true
+  },
+  "independent_audit_required": true
+}

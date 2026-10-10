@@ -1,0 +1,85 @@
+{
+  "classification": {
+    "EXPERIMENTAL_FINITE": [
+      "actual reflection-pair census through p<=20000"
+    ],
+    "OPEN": [
+      "all-prime exclusion or logarithmic-mass bound for one-sided I-zero roots",
+      "existence of an actual noncentral singular or all-lift pair",
+      "required mixed-coefficient divisibility",
+      "same-saddle-index matching and a sufficiently small moving CRT representative"
+    ],
+    "PROVED": [
+      "For a noncentral reflection pair, delta_r=lambda_r-lambda_s and delta_s=lambda_s-lambda_r.",
+      "The seed invariants are I_r=3lambda_r-lambda_s and I_s=3lambda_s-lambda_r.",
+      "For p>=7, I_r=I_s=0 iff the actual pair is already all-lift; otherwise at least one invariant is nonzero.",
+      "I_r=0 iff lambda_r=D_h*q_(r-1), equivalently iff the shifted prescribed left-factorial residue holds."
+    ]
+  },
+  "exact_identities": {
+    "continuant_zero_criterion": "I_r=0 iff lambda_r=D_h*q_(r-1) mod p",
+    "determinant": "det([[3,-1],[-1,3]])=8, a unit for p>=7",
+    "lower_slope": "delta_r=lambda_r-lambda_s",
+    "paired_invariants": [
+      "I_r=3lambda_r-lambda_s",
+      "I_s=3lambda_s-lambda_r"
+    ],
+    "shifted_euler_zero_criterion": "!p=(b_r+2lambda_r)*P_r^(-1) mod p",
+    "upper_slope": "delta_s=lambda_s-lambda_r=-delta_r"
+  },
+  "finite_scan": {
+    "all_lift_noncentral_pairs": [],
+    "central_root_rows": [
+      {
+        "I": 24,
+        "delta": 0,
+        "lambda": 12,
+        "p": 79,
+        "r": 39
+      }
+    ],
+    "continuant_obstruction_checks": 1133,
+    "noncentral_reflection_pairs": 1133,
+    "pair_determinant_checks": 1133,
+    "pair_stream_sha256": "f65a9dc89719f34b2c1568c6bba7dca6e7a18c153c5098849995d8ff78aef591",
+    "pairs_with_at_least_one_zero_invariant": [
+      {
+        "D_h": 1,
+        "I_r": 0,
+        "I_s": 1,
+        "delta_r": 5,
+        "delta_s": 2,
+        "h": 0,
+        "lambda_r": 1,
+        "lambda_s": 3,
+        "left_factorial_mod_p": 6,
+        "p": 7,
+        "r": 2,
+        "s": 4,
+        "type": "ordinary"
+      }
+    ],
+    "prime_limit": 20000,
+    "reflection_orientation_checks": 1133,
+    "shifted_euler_residue_checks": 2266,
+    "singular_noncentral_pairs": [],
+    "status": "EXPERIMENTAL_FINITE_FOR_EXISTENCE; EXACT_REPLAY_OF_PROVED_IDENTITIES",
+    "total_actual_roots": 2267
+  },
+  "item": 193,
+  "logical_separation": [
+    "root/invariant existence",
+    "positive logarithmic mass",
+    "actual b_m divisibility at the required valuation",
+    "same-index divided matching",
+    "small moving-CRT representative in the saddle window"
+  ],
+  "prime_square_reflection_replay": {
+    "all_exact": true,
+    "paired_lift_checks": 2490,
+    "prime_limit": 251,
+    "prime_square_reflection_value_checks": 995739,
+    "row_stream_sha256": "5382da01661de9a25f0f85225a93561af783b18323ddf161bf578edc082b5ae8",
+    "signed_affine_fibre_checks": 5059
+  }
+}

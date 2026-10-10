@@ -1,0 +1,62 @@
+{
+  "schema": "item255-root-audit-v1",
+  "item": 255,
+  "audited_date_beijing": "2026-08-31",
+  "disposition": "accepted for archive with notation and scope corrections, zero rate booking",
+  "sealed_artifacts": {
+    "report_sha256": "af034d2918213982ae0adfaa60352903a6cfb8741d140b4f31c3640b8f1ee018",
+    "checker_sha256": "35eaea2953593bea4642e5322df73b80fe9411104af86cd72877cfc4aa3011ba",
+    "canonical_sha256": "5b79538eceff677782e181dafdbddd59fdba0c300be1aaec19c45b83766b8748",
+    "replay_sha256": "5b79538eceff677782e181dafdbddd59fdba0c300be1aaec19c45b83766b8748",
+    "strict_ledger_sha256": "dcbb05aac44aeffd488519d5e6d0b960033fd002cf05e2a089e73f1c7b6c7f33",
+    "manifest_sha256": "c93c72444562f2b57d1aa555fe26b52e16d8b3afa1bfcf80a5d797aa3c3b948e",
+    "hash_ledger_sha256": "caf00928644667b57874fae1d11237b54d03aa5af5bca4fa53f798a1a21756a2"
+  },
+  "dependencies": {
+    "runtime_files": [],
+    "standard_library_only": true
+  },
+  "portable_replay": {
+    "isolated_archive_style_runs": 2,
+    "canonical_replay_byte_identical": true,
+    "output_matches_sealed_canonical": true,
+    "output_sha256": "5b79538eceff677782e181dafdbddd59fdba0c300be1aaec19c45b83766b8748",
+    "manifest_validation_failures": 0,
+    "control_bytes": 0
+  },
+  "independent_formula_probe": {
+    "imports_item_code": false,
+    "script_sha256": "6bfb103cb4ac3f85df2dda2777d389391b8a045ee78395aab69dac36e641c282",
+    "result_sha256": "bcdbe1193e954309fe997989e38f9edad80241a7ec2b33541fb20c85753347ee",
+    "exact_beta_checks": 80,
+    "exact_endpoint_recurrence_checks": 1320,
+    "actual_rows_through_p_401": 1153,
+    "reflection_and_Hasse_checks": 1153,
+    "separation_witnesses_reproduced": true
+  },
+  "root_mathematical_audit": {
+    "beta_telescoping_sign_and_power_of_two_checked": true,
+    "all_prefactor_and_orbit_denominator_ranges_checked": true,
+    "endpoint_at_u_1_retained": true,
+    "reciprocal_reflection_sign_checked": true,
+    "phase_product_reverse_pairing_checked": true,
+    "rank_one_matrix_and_affine_compatibility_checked": true,
+    "first_Hasse_product_expansion_checked": true,
+    "p23_double_determinant_zero_reproduced": true,
+    "p43_prefix_zero_reciprocal_companion_nonzero_reproduced": true,
+    "report_corrections": [
+      "restored the missing congruence symbol in equation (1.9)",
+      "replaced the inconsistent claim that a first Hasse lift remained unproved with the correct open targets: all-prime control of that digit or a higher lift"
+    ]
+  },
+  "labels": {
+    "proved": "beta localization, endpoint recurrence, reciprocal reflection, phase rank-one resonance, and first-Hasse harmonic interval",
+    "exact_finite_only": "2,440 rows through p<=601; independent 1,153-row replay through p<=401",
+    "open": "all-prime control of the moving harmonic digit, higher jets or independent periods, actual gate control, and weighted-zero control"
+  },
+  "booking": {
+    "new_unconditional_linear_log_rate": 0,
+    "capacity_reduction": 0,
+    "route1_conclusion": "none"
+  }
+}

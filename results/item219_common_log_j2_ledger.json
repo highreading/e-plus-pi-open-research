@@ -1,0 +1,66 @@
+{
+  "item": 219,
+  "scope": "normalized common-log fixed cell j=2",
+  "cell": "4m+1=5p-2s, 1<=s<=(p-3)/6, p>=11, s=(p-1)/2 mod 2",
+  "PROVED": [
+    {
+      "claim": "fixed incidence normalization",
+      "value": "J2=(-245,70,315,-35) from (u0,u1,v0,v1)=(-35,10,-63,7)"
+    },
+    {
+      "claim": "independent Item197 normalization",
+      "value": "(U2,V2,W2)=(-45,-70,7), C_nu/p=-35(9X_nu-10Y_nu+Yprime_nu) mod p"
+    },
+    {
+      "claim": "all-prime common-log criterion",
+      "value": "S0(p,s)=S1(p,s)=0 mod p for the explicit four-residue beta-period sums"
+    },
+    {
+      "claim": "scoped Hermite obstruction",
+      "value": "the boundary-free sub-Frobenius scalar ansatz has augmented minor 2304*s*(2*s+1)^2, a unit on every admissible row"
+    },
+    {
+      "claim": "conditional capacity arithmetic",
+      "value": "excluding both j=1 and j=2 would leave 0.0188729973648737... per 6m, below G by 0.0007599863045581..."
+    }
+  ],
+  "EXACT_FINITE": [
+    {
+      "prime_bound": 401,
+      "rows": 1153,
+      "S0_zero_rows": 5,
+      "S1_zero_rows": 6,
+      "common_zero_rows": 0,
+      "status": "no inference beyond the finite range"
+    },
+    {
+      "incidence_prime_bound": 101,
+      "rows": 85,
+      "status": "independent four-coordinate cross-check"
+    }
+  ],
+  "OPEN": [
+    "all-prime nonvanishing of (S0,S1)",
+    "a finite exceptional-prime classification",
+    "Frobenius-resonant or non-scalar cohomological closure",
+    "the separate all-prime j=1 exclusion",
+    "any unconditional capacity improvement or conclusion about e+pi"
+  ],
+  "capacity": {
+    "j1_per_m": "1/6",
+    "j2_per_m": "2/35",
+    "joint_exact_per_m": "47/210",
+    "conditional_remainder_per_m": "0.1132379841892420...",
+    "conditional_remainder_per_6m": "0.0188729973648737...",
+    "required_G_per_6m": "0.019632983669431793880306401240...",
+    "booking_status": "NOT BOOKED"
+  },
+  "artifacts": [
+    "item219_common_log_j2_report.md",
+    "item219_common_log_j2_certificate.py",
+    "item219_common_log_j2_certificate.json",
+    "item219_common_log_j2_certificate_replay.json",
+    "item219_common_log_j2_manifest.json",
+    "item219_common_log_j2_hashes.sha256"
+  ]
+}

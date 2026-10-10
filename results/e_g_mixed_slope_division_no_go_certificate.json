@@ -1,0 +1,32 @@
+{
+  "A": "-(z - 1)*(z**2 - 3)/((z + 1)*(z**2 + 1))",
+  "B": "-2*(z**2 + 2*z - 1)/((z + 1)*(z**2 + 1))",
+  "arithmetic": "exact symbolic/rational",
+  "artifact": "e_g_mixed_slope_division_no_go_certificate",
+  "assertions": {
+    "atan_identity_zero": true,
+    "coefficient_identity_prefix": true,
+    "cyclic_determinant_exact": true,
+    "cyclic_determinant_nonzero": true,
+    "exp_identity_zero": true,
+    "gauge_leading_factor_is_z_minus_1": true
+  },
+  "cyclic_determinant": "-16*(z + 1)**2/(z**2 + 1)**2",
+  "gauge_coefficients_y3_y2_y1_y0": [
+    "z - 1",
+    "-(z**4 - 5*z**3 - 5*z**2 + 3*z - 6)/((z + 1)*(z**2 + 1))",
+    "-4*(z - 1)**2*(z + 2)/((z + 1)*(z**2 + 1))",
+    "-2*(z**2 + 2*z - 1)/((z + 1)*(z**2 + 1))"
+  ],
+  "q_prefix": [
+    "1 - alpha",
+    "6 - alpha",
+    "13/2 - alpha",
+    "16/3 - alpha",
+    "43/8 - alpha",
+    "371/60 - alpha",
+    "4453/720 - alpha",
+    "7073/1260 - alpha"
+  ],
+  "verified_coefficient_prefix_length": 40
+}

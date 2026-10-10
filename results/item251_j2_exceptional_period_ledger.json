@@ -1,0 +1,51 @@
+{
+  "schema": "item251-j2-exceptional-period-ledger-v1",
+  "item": 251,
+  "scope": "ordinary j=2 Item219/250 cell p=2r+6s+3, r odd; surviving period after rank-one elimination",
+  "proved": [
+    "e=J_0=B_s*A_s/2 with B_s=(2s-1)!(s-1)!/(3s-1)! and integral A_s",
+    "mathfrak_f=B_s*tau_(r,s), tau=(-1)^(s+h)*(2/3)*(s)_(h+1)/(3s+1)_(h+1)",
+    "Z=B_s*((9*kappa_r/2)A_s-tau_(r,s))",
+    "A_s has the stated coefficient, diagonal, algebraic generating-function, and order-two recurrence descriptions",
+    "Delta_s=A_(s+1)+A_s is hypergeometric and A_s is its alternating incomplete sum",
+    "rank-aware second condition on L_r*c+M_r=0, retaining the f_0=f_1=0 branch",
+    "all denominators explicitly used in the period normalization are p-units"
+  ],
+  "proved_scoped_no_go": [
+    "A_s is not universally nonzero modulo actual row primes: A_3=1023=33*31",
+    "Delta_s is not universally nonzero modulo actual row primes: Delta_4=577280=14080*41",
+    "the recurrence cannot be propagated modulo p by universally dividing its displayed leading coefficient, since 28s+11=3p at (p,s,r)=(41,4,7)"
+  ],
+  "coordinated_item252_handoff": {
+    "formula": "with m=s-1,d=r+2, epsilon=(2/p), h_j=(1/2)_j/(j!*2^j), H_m=sum_(j=0)^m h_j, and P_d(m)=sum_(k=1)^d 2^(-k)(m+1/2)_k/(1/2)_k, A_s=(-1)^m{epsilon[H_m-h_m P_d(m)]-1} mod p",
+    "implication": "Z=B_s[(9*kappa_r/2)(-1)^m{epsilon[H_m-h_m P_d(m)]-1}-tau_(r,s)]",
+    "remaining_coordinate": "one moving half-binomial prefix H_m",
+    "ownership": "proof and fixed-degree scalar-Gosper no-go are packaged separately in Item252; Item251 records only the coordinated specialization"
+  },
+  "exact_finite_only": {
+    "phase_prime_max_inclusive": 401,
+    "phase_rows": 1153,
+    "phase_affine_hits": 3,
+    "phase_common_gate_zeros": 0,
+    "phase_rank_zero_rows": 0,
+    "scalar_prime_max_inclusive": 20000,
+    "scalar_rows": 1763142,
+    "A_zero_rows": 185,
+    "Delta_zero_rows": 194,
+    "selected_larger_affine_false_positives": 7
+  },
+  "open": [
+    "all-prime nonvanishing or zero-density control of the second residual on affine-exceptional rows",
+    "all-prime classification of the rank-zero branch",
+    "a rowwise Cartier or p-adic theorem for the incomplete hypergeometric sum",
+    "any capacity reduction, Route-1 gain, divisibility exponent, or conclusion about e+pi"
+  ],
+  "booking": {
+    "new_unconditional_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "capacity_reduction": 0
+  },
+  "dependency": {
+    "item250_j2_ordinary_phase_certificate.py": "2364a9e9c9be0ea0827c2b12137883ad326d77017a53bb4f242be300335e90ce"
+  }
+}

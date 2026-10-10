@@ -1,0 +1,183 @@
+{
+  "bounded_recurrence_no_go": {
+    "actual_fixed_M_slice": "s>=(4M+1)/19",
+    "actual_prime_interval": "[28M/19,3M/2] up to O(1) endpoints",
+    "coefficient_degree": 7,
+    "comparison_sequence": "C_s=binomial(7s,s)>0",
+    "height": "log C_s=s(7 log 7-6 log 6)+O(log s)=O(s)",
+    "logarithmic_mass": "(1/38)M+o(M)",
+    "normalized_per_6M": "1/228",
+    "not_a_counterexample_to": "the exact Item-312 operator, the actual A_s sequence, the paired Gaussian coordinate, or D_s,epsilon",
+    "order": 1,
+    "prime_divisibility": "6s<p<=7s implies v_p(binomial(7s,s))=1",
+    "recurrence": "(s+1)*product_(j=1..6)(6s+j)*C_(s+1)-product_(j=1..7)(7s+j)*C_s=0",
+    "scope": "order<=3 and coefficient degree<=7, integrality, nonvanishing, and exponential height alone cannot imply tied-prime o(M)"
+  },
+  "canonical_files_modified": false,
+  "capacity": {
+    "new_fixed_j1_capacity_reduction": 0,
+    "new_linear_log_rate": 0,
+    "off_ray_W_D_M": "OPEN",
+    "retained_ceiling_per_6M": "1/36",
+    "singular_pivot_mass": "O(log M)=o(M), already thin"
+  },
+  "classification": {
+    "EXACT_FINITE_ONLY": [],
+    "OPEN": [
+      "minimality outside the displayed order/degree bound",
+      "an explicit useful annihilator for B_s or D_s,epsilon",
+      "moving-prime control of the actual paired state",
+      "W_D(M)=o(M), fixed-j=1 closure, Route 1, and e+pi"
+    ],
+    "PROVED": [
+      "all-s order-3 degree-7 recurrence for the exact A_s",
+      "exact rational telescoping identity and endpoint closure",
+      "complete leading/trailing factorization",
+      "fixed-M localization and O(log M) singular-pivot mass",
+      "bounded-order/degree recurrence information-class no-go"
+    ]
+  },
+  "container_factorizations": 0,
+  "dependencies": {
+    "work/item310_j1_container_holonomy_no_go_certificate.json": "cf8188291ab4ba3a58a5c59c2b514945ceb5193cb2eae038c9e32c3d48dd2082",
+    "work/item310_j1_container_holonomy_no_go_certificate.py": "267c629364d1f0bbfe0ef35702308f4acc3f8cd43f70a9f14a775b30048c0a23",
+    "work/item310_j1_container_holonomy_no_go_manifest.json": "6267792ebf914dbe911102f0f263ad48039063bdb2c5ba202db00afe2de97150",
+    "work/item310_j1_container_holonomy_no_go_report.md": "7f866c3719f878f471287e802a542c67417670e88afb89eb28d3856c26c5030d"
+  },
+  "item": 312,
+  "prime_scans": 0,
+  "schema": "item312-A-telescoper-singular-no-go-certificate-v1",
+  "singular_pivot_audit": {
+    "R0_M": "-M*(3*M - 2)*(3*M - 1)*(6*M - 5)*(6*M - 1)*(330*M**2 - 565*M + 218)",
+    "R3_M": "-(M - 1)*(2*M - 1)*(4*M - 3)*(4*M - 1)*(4*M + 1)*(330*M**2 - 235*M + 18)",
+    "actual_index_relation": "3*p_s=4*M+2*s+1",
+    "fixed_residue_degrees": [
+      7,
+      7
+    ],
+    "fixed_residue_rows": {
+      "P0": [
+        {
+          "clearing_content": 8,
+          "nonzero_for_M_ge_9": true,
+          "primitive_fixed_M_residue": "-M"
+        },
+        {
+          "clearing_content": 4,
+          "nonzero_for_M_ge_9": true,
+          "primitive_fixed_M_residue": "1 - 6*M"
+        },
+        {
+          "clearing_content": 8,
+          "nonzero_for_M_ge_9": true,
+          "primitive_fixed_M_residue": "1 - 3*M"
+        },
+        {
+          "clearing_content": 8,
+          "nonzero_for_M_ge_9": true,
+          "primitive_fixed_M_residue": "2 - 3*M"
+        },
+        {
+          "clearing_content": 4,
+          "nonzero_for_M_ge_9": true,
+          "primitive_fixed_M_residue": "5 - 6*M"
+        },
+        {
+          "clearing_content": 32,
+          "nonzero_for_M_ge_9": true,
+          "primitive_fixed_M_residue": "330*M**2 - 565*M + 218"
+        }
+      ],
+      "P3": [
+        {
+          "clearing_content": 1,
+          "nonzero_for_M_ge_9": true,
+          "primitive_fixed_M_residue": "-4*M - 1"
+        },
+        {
+          "clearing_content": 1,
+          "nonzero_for_M_ge_9": true,
+          "primitive_fixed_M_residue": "1 - 4*M"
+        },
+        {
+          "clearing_content": 1,
+          "nonzero_for_M_ge_9": true,
+          "primitive_fixed_M_residue": "3 - 4*M"
+        },
+        {
+          "clearing_content": 4,
+          "nonzero_for_M_ge_9": true,
+          "primitive_fixed_M_residue": "1 - 2*M"
+        },
+        {
+          "clearing_content": 8,
+          "nonzero_for_M_ge_9": true,
+          "primitive_fixed_M_residue": "1 - M"
+        },
+        {
+          "clearing_content": 32,
+          "nonzero_for_M_ge_9": true,
+          "primitive_fixed_M_residue": "330*M**2 - 235*M + 18"
+        }
+      ]
+    },
+    "leading_P3": "4096*s*(s + 1)*(s + 2)*(2*s + 3)*(2*s + 5)*(660*s**2 + 1600*s + 779)",
+    "localization": "p_s|P0(s) implies p_s|R0(M); p_s|P3(s) implies p_s|R3(M)",
+    "mod_p_substitution": "2*s == -(4*M+1) (mod p_s)",
+    "pivots_nonzero_over_Q_for_s_ge_1": true,
+    "positive_linear_singular_mass": false,
+    "quadratic_discriminants": [
+      503440,
+      503440
+    ],
+    "quadratics_irreducible_over_Q": true,
+    "trailing_P0": "9*(2*s + 1)*(6*s + 5)*(6*s + 7)*(6*s + 11)*(6*s + 13)*(660*s**2 + 2920*s + 3039)",
+    "weighted_mass_bound": "sum_(p_s divides P0(s)P3(s)) log(p_s) <=log|R0(M)R3(M)|=O(log M)=o(M)"
+  },
+  "status": "PROVED_ALL_S_OPERATOR_AND_SCOPED_BOUNDED_RECURRENCE_NO_GO",
+  "telescoper": {
+    "A_s_definition": "-[x^(2s+5)](1+x)^(3s+1/2)N_s(1+x)/(1+x^2)^(2s+1)",
+    "R_s_m": "4*(1024*m**5 + 10240*m**4*s**2 + 7168*m**4*s - 4096*m**4 - 22528*m**3*s**3 - 67584*m**3*s**2 - 37376*m**3*s + 4352*m**3 + 24576*m**2*s**4 + 110336*m**2*s**3 + 160128*m**2*s**2 + 70464*m**2*s + 1056*m**2 - 13024*m*s**5 - 78064*m*s**4 - 167888*m*s**3 - 155432*m*s**2 - 53982*m*s - 3111*m + 3328*s**6 + 24960*s**5 + 71552*s**4 + 98496*s**3 + 66704*s**2 + 19896*s + 1840)/((4*m + 2*s - 7)*(4*m + 2*s - 5)*(4*m + 2*s - 3)*(4*m + 2*s - 1)*(4*m + 2*s + 1))",
+    "all_s_range": "integers s>=1",
+    "certificate": "G_s,m=T_s,m*C_s,m with C_s,m stored exactly in item312_A_telescoper_data.json",
+    "certificate_J_bidegree": {
+      "degree_m": 11,
+      "degree_s": 18
+    },
+    "lower_boundary": "G_s,0=0",
+    "operator_coefficients_factored": [
+      "9*(2*s + 1)*(6*s + 5)*(6*s + 7)*(6*s + 11)*(6*s + 13)*(660*s**2 + 2920*s + 3039)",
+      "24*s*(6*s + 11)*(6*s + 13)*(1697520*s**4 + 10905280*s**3 + 24360488*s**2 + 22368528*s + 7001703)",
+      "768*s*(s + 1)*(2*s + 3)*(6*s + 13)*(3960*s**3 + 20820*s**2 + 33034*s + 14047)",
+      "4096*s*(s + 1)*(s + 2)*(2*s + 3)*(2*s + 5)*(660*s**2 + 1600*s + 779)"
+    ],
+    "operator_degree": 7,
+    "operator_order": 3,
+    "rational_identity": "G_s,m+1-G_s,m=sum_(j=0..3)P_j(s)T_s+j,m",
+    "rational_identity_verified": true,
+    "removable_integer_points": [
+      {
+        "lower_binomial_index": -1,
+        "m": "s+3",
+        "matching_pole_order": 1,
+        "zero_order": 1
+      },
+      {
+        "lower_binomial_index": -3,
+        "m": "s+4",
+        "matching_pole_order": 1,
+        "zero_order": 1
+      },
+      {
+        "lower_binomial_index": -5,
+        "m": "s+5",
+        "matching_pole_order": 1,
+        "zero_order": 1
+      }
+    ],
+    "summand": "T_s,m=-(-1)^m*binomial(2s+m,m)*binomial(3s+1/2,2s+5-2m)*R(s,m)",
+    "support": "T_s,m=0 for integer m>=s+3",
+    "upper_boundary": "G_s,s+6=0"
+  },
+  "telescoper_data_sha256": "64cdd3c400c0472fef2e6b7949ccff2a15478ba7a96eb232ab05f2c547cd993c"
+}

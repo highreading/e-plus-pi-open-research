@@ -1,0 +1,58 @@
+{
+  "schema": "item358-beta-actual-low-incidence-saturation-barrier-self-audit-v1",
+  "item": 358,
+  "date": "2026-09-01",
+  "status": "PASS",
+  "auditor_role": "author-side mechanical and scope check; root remains the independent auditor",
+  "checks": {
+    "json_files_parse": true,
+    "certificate_script_compiles": true,
+    "certificate_replay_succeeds": true,
+    "certificate_replay_byte_identical": true,
+    "dependency_hashes_verified_by_replay": 26,
+    "report_inline_dollar_delimiters": "128/128",
+    "report_display_delimiters": "36/36",
+    "report_fences": "2/2",
+    "report_control_characters": 0,
+    "canonical_files_modified": false
+  },
+  "independent_style_declared_control": {
+    "method": "standalone prime-support recomputation without importing the certificate module",
+    "profiles": [
+      "mixed occurrence sets",
+      "outside-row and t-factor removal",
+      "t=0 edge case"
+    ],
+    "subset_controls_checked": 37,
+    "checked": [
+      "p divides s_S iff p avoids t and Occ(p)=S",
+      "the complete p-primary part is removed when an outside or t factor contains p",
+      "nontrivial factors belonging to distinct occurrence sets are pairwise coprime",
+      "all saturated factors equal one when t=0"
+    ],
+    "rows_digest": "5026455e825d12f06e6219d6c39423cdd066c15dd709da87d10f9937b9d3b543",
+    "finite_rows_promoted": false
+  },
+  "mathematical_scope_checks": {
+    "capacity_admission_precedes_proof": true,
+    "actual_item316_specialization_is_assumed": true,
+    "exact_zero_rows_omitted_before_products": true,
+    "t_avoidance_built_into_saturation": true,
+    "item350_selected_hits_not_promoted_to_first_occurrence": true,
+    "outside_row_avoidance_is_exact": true,
+    "full_low_incidence_carrier_is_exact": true,
+    "singleton_squarefree_quadrant_is_coprime_to_R2_and_E_Q": true,
+    "denominator_valuation_distinguished_from_row_incidence": true,
+    "squarefull_E_Q_overlap_not_rebooked": true,
+    "uniform_union_ideal_theorem_scoped_to_algebraic_ideal_carriers": true,
+    "finite_field_polynomial_functions_explicitly_outside_scope": true,
+    "Q_escape_retains_full_unresolved_height": true,
+    "disjoint_window_heights_sum_to_global_scale": true,
+    "new_large_sieve_or_distribution_theorem_not_excluded": true,
+    "actual_singleton_gcd_correlation_open": true,
+    "actual_growing_low_incidence_bound_open": true,
+    "actual_Xi_Q_open": true,
+    "booking_zero": true
+  },
+  "independent_audit_required": true
+}

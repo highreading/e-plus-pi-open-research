@@ -1,0 +1,45 @@
+{
+  "schema": "item357-j1-gross-koblitz-unit-face-obstruction-self-audit-v1",
+  "item": 357,
+  "date": "2026-09-01",
+  "verdict": "PASS_SCOPED_ZERO_BOOKING_PACKAGE",
+  "mathematical_checks": {
+    "factorization": "G factors over F_(p^2) at 1/2,(1+i)/2,(1-i)/2",
+    "Fourier_transform": "three multiplicative Fourier inversions plus orthogonality leave exactly two free characters",
+    "Stickelberger_formula": "two-digit carry analysis gives units exactly for 0<=m<=E",
+    "actual_tie": "E=p-r=2(n+r)>n",
+    "complete_face": "all and only s,t,u>=0 with s+t+u=n are valuation zero",
+    "face_cardinality": "C(n+2,2)",
+    "Jacobi_reduction": "J_m=-(-1)^m C(E,m) mod the chosen prime",
+    "face_evaluation": "(1+z)(1+az)(1+bz)=G(-z/2) returns exactly the selected Hasse coordinate",
+    "p2_controls": "extension-field Teichmuller lift is 13*11 and 47*4 on the two predeclared selected zeros"
+  },
+  "logical_checks": {
+    "ordinary_collision_direction_preserved": true,
+    "selected_zeros_not_called_full_collisions": true,
+    "first_face_not_called_independent_condition": true,
+    "valuation_one_controls_not_used_as_density_evidence": true,
+    "large_face_not_called_universal_padic_no_go": true,
+    "fractional_skeleton_scope_restricted": true,
+    "weighted_theorem_not_claimed": true
+  },
+  "reproducibility": {
+    "prime_scans": 0,
+    "predeclared_rows": 5,
+    "selected_zero_p2_controls": 2,
+    "certificate_replay_required_byte_identical": true,
+    "canonical_files_modified": false
+  },
+  "capacity": {
+    "new_forced_independent_condition": 0,
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "booking": 0,
+    "retained_ceiling_per_6M": "1/36"
+  },
+  "open_risks": [
+    "the triangular face may admit an actual-family nonconcentration theorem",
+    "higher Stickelberger faces may have exploitable average structure",
+    "full-collision data absent from the selected gate may impose another condition"
+  ]
+}

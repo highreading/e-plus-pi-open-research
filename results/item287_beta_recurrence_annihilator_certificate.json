@@ -1,0 +1,51 @@
+{
+  "admission": {
+    "actual_orbit_specific_low_height_object": false,
+    "actual_target_bound": false,
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "positive_linear_capacity_admission": "FAIL",
+    "product_baseline_closed": false,
+    "recurrence_universal_low_height_object": false
+  },
+  "bounded_exact_checks": {
+    "asymptotic_extrapolation": false,
+    "exceptional_prime_search": false,
+    "kernel_digest": "547e920cb756139312b4aaa7c9f36f653eaecc3c4dee01bc27d212d8218fbf61",
+    "kernel_rows": 100,
+    "label": "EXACT FINITE ONLY",
+    "n_only_digest": "d1814c62faec3439effdd9d7b54ddd4f2d7e0d87aedd1dce65c8708075af3a37",
+    "n_only_rows": 138,
+    "proper_kernel_digest": "547e920cb756139312b4aaa7c9f36f653eaecc3c4dee01bc27d212d8218fbf61",
+    "proper_kernel_rows": 100,
+    "rational_denominator_unit_digest": "475d05a65768efe92ea65b864a123c34af67a63b470e083035560ed894cff31e",
+    "rational_denominator_unit_rows": 138,
+    "resultant_repackaging_digest": "0f8f3f567b9eea28cb7c3c5d868e1c304a10c8e6cbe39ecf9b21eb5b36f49167",
+    "resultant_repackaging_rows": 257,
+    "target_digest": "e925df0a1716a36e808973fd3b934470b6a993b668488490cf55777d9fe129ce",
+    "target_rows": 257,
+    "window_digest": "5883d5b4133bb8c8a318c58f6ccdd672bf8db65ccc2bdaff7d25a1266fa2c0d9",
+    "window_rows": 264
+  },
+  "description": "Exact recurrence-universal kernel, n-only monic no-go, proper-target kernel, fixed-window state, and degree-one lift equivalence",
+  "open": [
+    "an orbit-specific polynomial or rational coefficient congruence for q_0=q_1=1",
+    "a factorization-independent O(n)-height lift for a proper de-overlapped Q",
+    "a nonzero O(n)-height fixed-degree annihilator resultant for the actual residual",
+    "the Item282 common product baseline and weighted-return cover",
+    "the uniform beta prime-power-height or little-oh squarefull theorem",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "schema": "item287-beta-recurrence-annihilator-certificate-v1",
+  "theorem": {
+    "capacity": "no actual low-height orbit-specific annihilator or resultant bound is proved; the Item282 product baseline stays open",
+    "degree_one": "U+a annihilates -Y^2 mod Q iff a=Y^2-kQ; equivalently v=-a is exactly an integer lift of -Y^2 mod Q",
+    "deoverlap": "proper Q may be any divisor of q_n/gcd(q_n,D_m)",
+    "fixed_window": "every fixed recurrence window is an A-linear form in the two algebraically free state variables X,Y",
+    "full_kernel": "for generic state variables X,Y, the kernel of X->0 and U->-Y^2 on A[X,Y,U] is exactly (X,U+Y^2)",
+    "n_only_no_go": "no positive-degree monic M in A[U], A=Q(n) or a denominator localization, is a recurrence-universal annihilator",
+    "proper_target_kernel": "for every integer Q>=2, the kernel of Z[Y,U]->(Z/QZ)[Y], U->-Y^2, is exactly (Q,U+Y^2)",
+    "scope": "the theorem excludes recurrence-universal identities, not an arithmetic congruence special to the beta seed q_0=q_1=1",
+    "state_dependent_classification": "every universal annihilator is (U+Y^2)G+XH and therefore retains the boundary state or recurrence modulus"
+  }
+}

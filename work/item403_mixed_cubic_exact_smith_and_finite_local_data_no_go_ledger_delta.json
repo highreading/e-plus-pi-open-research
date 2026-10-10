@@ -1,0 +1,44 @@
+{
+  "artifact": "item403_mixed_cubic_exact_smith_and_finite_local_data_no_go_ledger_delta",
+  "status": "WORK_ONLY_UNAUDITED_NO_BOOKING",
+  "booking": {
+    "route1_rate_delta": 0,
+    "mixed_cubic_divisor_lower_bound_delta": 0,
+    "beta_matching_lower_bound_delta": 0
+  },
+  "proved_actual_matrix_result": {
+    "local_smith_valuations": "(h,h,h+gamma), gamma=min(v(rho_prim),v(U0_prim),v(U1_prim))",
+    "global_smith_formula_away_from_6": "d1=d2=H_q and d3=H_q*G_q^prim",
+    "actual_support_reduction": "the open compatible-prime support is exactly the radical support of H_q*G_q^prim"
+  },
+  "conditional_maximum_consequence": {
+    "hypothesis": "d3(q)|P_q for actual coefficients, or its compatible-prime radical weakening",
+    "conclusion": "c_m,>6m=1 for every m",
+    "separate_item390_component_ceiling_closed_conditionally": "log(136)/6",
+    "route1_booking_increment": 0,
+    "total_content_ceiling_note": "Item393 forbids subtracting an upper component bound from the compatible total upper bound"
+  },
+  "proved_method_class_no_go": {
+    "inputs_shown_insufficient": [
+      "abstract cubic multiplication-matrix shape",
+      "denominator support only at 2 and 3",
+      "exact Item396 q mod 6 minimal-carrier split",
+      "exact coefficient and connection-determinant 3-adic valuations",
+      "any fixed finite amount of normalized 3-adic digit data"
+    ],
+    "uniformity": "every admissible q, every compatible p=q+6m, every finite 3-adic precision",
+    "scope": "ambient coefficient information class only; perturbations are not actual mixed-cubic rows"
+  },
+  "proved_capacity_effect": {
+    "new_booking": 0,
+    "new_total_route1_capacity_reduction": 0,
+    "new_actual_large_component_ceiling_reduction": 0
+  },
+  "open": [
+    "H_q*G_q^prim divides P_q for the actual coefficients",
+    "compatible-prime radical support for the actual coefficients",
+    "an exact all-jet Bezout, Cartier, hypergeometric, or moving-q p-local invariant",
+    "c_m,>6m=1",
+    "Route 1 and irrationality of e+pi"
+  ]
+}

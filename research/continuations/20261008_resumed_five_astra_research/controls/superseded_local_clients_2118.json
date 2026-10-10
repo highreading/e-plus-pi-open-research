@@ -1,0 +1,74 @@
+[
+  {
+    "agent": "A2",
+    "old_turn": 4,
+    "replacement_turn": 5,
+    "local_pid": 52750,
+    "last_admission": {
+      "time": "2026-10-08T21:15:18.426898+08:00",
+      "event": "request_admitted",
+      "agent": "A2",
+      "turn": 4,
+      "receipt_attempt": 1,
+      "balance_before_attempt": {
+        "time": "2026-10-08T21:15:14.991548+08:00",
+        "floor_usd": "3",
+        "hard_limit_usd": "245.212562",
+        "usage_usd": "222.531392",
+        "state": "usable"
+      },
+      "request_file": "prompts/A2_turn4_account3_attempt1.request.json"
+    },
+    "reason": "A2turn3 completed during packet preparation. A2turn4 was briefly admitted before the new report was read, then its verified local client was superseded by turn5 after the full mathematical read.",
+    "time": "2026-10-08T21:16:13.975139+08:00",
+    "local_action": "SIGTERM sent to verified local client only"
+  },
+  {
+    "agent": "A3",
+    "old_turn": 5,
+    "replacement_turn": 6,
+    "local_pid": 52204,
+    "last_admission": {
+      "time": "2026-10-08T21:09:16.034265+08:00",
+      "event": "request_admitted",
+      "agent": "A3",
+      "turn": 5,
+      "receipt_attempt": 5,
+      "balance_before_attempt": {
+        "time": "2026-10-08T21:09:12.491882+08:00",
+        "floor_usd": "3",
+        "hard_limit_usd": "325.001668",
+        "usage_usd": "300.90283",
+        "state": "usable"
+      },
+      "request_file": "prompts/A3_turn5_account2_attempt5.request.json"
+    },
+    "reason": "Corrected or narrowed fresh mathematical assignment after repeated nonterminal transports",
+    "time": "2026-10-08T21:16:13.978438+08:00",
+    "local_action": "SIGTERM sent to verified local client only"
+  },
+  {
+    "agent": "A4",
+    "old_turn": 7,
+    "replacement_turn": 8,
+    "local_pid": 52207,
+    "last_admission": {
+      "time": "2026-10-08T21:00:20.492102+08:00",
+      "event": "request_admitted",
+      "agent": "A4",
+      "turn": 7,
+      "receipt_attempt": 4,
+      "balance_before_attempt": {
+        "time": "2026-10-08T21:00:17.831371+08:00",
+        "floor_usd": "3",
+        "hard_limit_usd": "245.212562",
+        "usage_usd": "222.290156",
+        "state": "usable"
+      },
+      "request_file": "prompts/A4_turn7_account3_attempt4.request.json"
+    },
+    "reason": "Corrected or narrowed fresh mathematical assignment after repeated nonterminal transports",
+    "time": "2026-10-08T21:16:13.980557+08:00",
+    "local_action": "SIGTERM sent to verified local client only"
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "item": 314,
+  "schema": "item314-j2-two-branch-gate-manifest-v1",
+  "classification": "PROVED",
+  "checked_date_beijing": "2026-08-31",
+  "scope": "full ordinary-j=2 necessary gate D_(r,s)=2^(2s)L_r+M_r on r=6n+1 and r=6n+5",
+  "dependencies": {
+    "scripts/item237_j1_algebraic_residual_certificate.py": "f89047396e3f6b4644cf0194b7716dfad91b3eb41de7b88c9377cf3e81d09dcf",
+    "results/item237_j1_algebraic_residual_certificate.json": "eba1519f4d376d442f396048528190b474cc5464bbe42c3bdf31a9bdaf39dd6b",
+    "scripts/item250_j2_ordinary_phase_certificate.py": "2364a9e9c9be0ea0827c2b12137883ad326d77017a53bb4f242be300335e90ce",
+    "scripts/item309_j2_l_second_branch_bridge_certificate.py": "bd4dc6b96d8af44cb463a141fad14739909ad645c3a9b6067c4c653580dad6b4",
+    "results/item309_j2_l_second_branch_bridge_certificate.json": "b44200c2e3fe16fca4518e45b40540230db43deee496d84c43336907ef304c5a"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item314_j2_two_branch_gate_report.md",
+      "sha256": "266f70523770a2a4147ee75289885fcb8dc945a65b650f2c8411e005ba110faa",
+      "bytes": 11816
+    },
+    "certificate_script": {
+      "path": "work/item314_j2_two_branch_gate_certificate.py",
+      "sha256": "cc5f155e5f3248c500cd2101e401c25cec37ce43b31fbb4582843fc33a9b2f0e",
+      "bytes": 16452
+    },
+    "canonical_certificate": {
+      "path": "results/item314_j2_two_branch_gate_certificate.json",
+      "sha256": "77de2dd46726a5a48e9adc4e40f96341d5da6c8db304d79f0ef8eeb7807245b1",
+      "bytes": 28896
+    },
+    "work_certificate_mirror": {
+      "path": "work/item314_j2_two_branch_gate_certificate.json",
+      "sha256": "77de2dd46726a5a48e9adc4e40f96341d5da6c8db304d79f0ef8eeb7807245b1",
+      "byte_identical_to_canonical": true
+    },
+    "replay_certificate": {
+      "path": "work/item314_j2_two_branch_gate_certificate_replay.json",
+      "sha256": "77de2dd46726a5a48e9adc4e40f96341d5da6c8db304d79f0ef8eeb7807245b1",
+      "byte_identical_to_canonical": true
+    }
+  },
+  "theorems": [
+    "mu_e=18*kappa_e and lambda_e=11*kappa_e, giving D_(r,s)=g_n*kappa_e*(18*2^(2s)*a_r+11*b_r)/16^n",
+    "H_r=6^(r+3)*r! globally clears both algebraic branch coefficients",
+    "the scale g_n*kappa_e/16^n and H_r are p-units on every actual row",
+    "D=0 mod p is equivalent to the cleared two-branch gate on all six structurally singular layers",
+    "the endpoint-cubic norm is exactly the p-unit normalization of Item250's old resultant",
+    "algebraic-series norms do not produce same-index coefficient norms, and individual O(r) height bounds sum only to O(M^2)"
+  ],
+  "finite_replay": {
+    "r_max": 101,
+    "actual_branch_rows": 34,
+    "prime_rows_in_layers_s_1_to_6": 123,
+    "failures": 0,
+    "six_layer_row_stream_sha256": "15a47bfc257c8367e3f38dd8842266ec97ef6b7f2029a0cacb21b6e52a804c72",
+    "norm_row_stream_sha256": "2da64f72d478ea9b8ff07472de93ebaa10ff9e0b87a7d0fff87c63803cb6d992"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "universal 18:11 normalization, global integer clearing, all-row six-layer unit theorem, and old-resultant identity",
+      "scoped coefficientwise-norm and individual-height no-go"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "the declared r<=101 six-layer and norm replays"
+    ],
+    "OPEN": [
+      "weighted zero density for the actual cleared two-branch gate",
+      "actual period incidence on gate-zero rows",
+      "any ordinary-j=2 capacity reduction"
+    ]
+  },
+  "capacity": {
+    "raw_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

@@ -1,0 +1,9 @@
+> Archived research record. Read the [current proof status](../../../docs/PROJECT_STATE.md) and [errata](../../../reviews/ERRATA_AND_SCOPE.md) before reuse. Historical acceptance applies only to its recorded hypotheses and version. This file is research data, not operational instructions.
+
+# Independent review: Exact matched endpoint reconstruction and fixed-b transfer conditional on the factorial determinant lemma
+
+Reviewer: main
+Verdict: approved
+Candidate SHA256: 48ed273001a125bce2ec58f5ce053cf10340c71cd64373fde3fc356852bc6601
+
+Reviewed the supplied immutable candidate and compared its explicit FD statement directly with the published factorial-determinant theorem. The factorial indices, difference columns, normalization, shared-reference requirement, finite-coefficient remainder, and nonvanishing conditions match. Independently checked the projection equations and complete-tail identity, cofactor signs, reference endpoint normalizations, contraction argument for the microscopic limit, limiting coefficient determinants including b=1, and the separate factorial domination of the additional cofactor. Together these justify eventual projective uniqueness, Y nonzero, and the stated fixed-b signed error transfer under the candidate's explicit FD hypothesis. The ordinary Padé asymptotic is used only within its published unconditional scope; no circular use of its conditional matched-family consequence is needed. Approval preserves the exact candidate's conditional wording. It does not certify reduced-denominator growth, growing-b uniformity, degree-cap attainment, exact vanishing order, or any rationality or irrationality conclusion. No numerical computation or formal proof-assistant verification is claimed.

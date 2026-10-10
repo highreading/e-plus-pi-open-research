@@ -1,0 +1,89 @@
+{
+  "item": 319,
+  "schema": "item319-j2-third-minor-elimination-manifest-v1",
+  "classification": "PROVED_THIRD_MINOR_FACTORIZATION_AND_SCOPED_ELIMINATION_NO_GO",
+  "checked_date_beijing": "2026-08-31",
+  "scope": "all-r arithmetic of the third ordinary-j2 connection minor and elimination of the actual period",
+  "dependencies": {
+    "scripts/item237_j1_algebraic_residual_certificate.py": "f89047396e3f6b4644cf0194b7716dfad91b3eb41de7b88c9377cf3e81d09dcf",
+    "results/item237_j1_algebraic_residual_certificate.json": "eba1519f4d376d442f396048528190b474cc5464bbe42c3bdf31a9bdaf39dd6b",
+    "scripts/item250_j2_ordinary_phase_certificate.py": "2364a9e9c9be0ea0827c2b12137883ad326d77017a53bb4f242be300335e90ce",
+    "results/item250_j2_ordinary_phase_certificate.json": "6f8d0165448dd8949436649e2824a14578c1bce08e8875a6fd88f770c72cb5e3",
+    "scripts/item291_j2_connection_plane_certificate.py": "5c86001827b0012605563b04dafc5f157f27fddf2f1625254e9196bc0de8c2df",
+    "results/item291_j2_connection_plane_certificate.json": "831cd4c74b10555c261eccebef7fd9c5a871bcef97a43d52e77c731b9b7188b5",
+    "scripts/item314_j2_two_branch_gate_certificate.py": "cc5f155e5f3248c500cd2101e401c25cec37ce43b31fbb4582843fc33a9b2f0e",
+    "results/item314_j2_two_branch_gate_certificate.json": "77de2dd46726a5a48e9adc4e40f96341d5da6c8db304d79f0ef8eeb7807245b1",
+    "scripts/item315_j2_resultant_arithmetic_certificate.py": "42def823c42497fa9ce4c5513c348464511a56cc6ff12480bec60408c9733b81",
+    "results/item315_j2_resultant_arithmetic_certificate.json": "09fdd67a6535a043bcbd1e2a46c4b14a633b9928a5f1c65618c34fab65cfabb6",
+    "scripts/item318_j2_actual_period_plucker_certificate.py": "334bade7313a2fb750874dfd53216cd5f1028afbc837473cdd19b365ca820e82",
+    "results/item318_j2_actual_period_plucker_certificate.json": "75e84016af2c7580f1954f795ed080d25083345578558aae49f6df4253891fd7"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item319_j2_third_minor_elimination_report.md",
+      "sha256": "51b2505f71257f905b4b979f90eb74af24e9c3f2f29c1dd9ee57bd737e5581e1",
+      "bytes": 11152
+    },
+    "certificate_script": {
+      "path": "work/item319_j2_third_minor_elimination_certificate.py",
+      "sha256": "74ce17076429fc7df6c7116c12e2a9737e6262226c5bc857d4a1c50b6bd76f01",
+      "bytes": 17587
+    },
+    "certificate": {
+      "path": "work/item319_j2_third_minor_elimination_certificate.json",
+      "sha256": "c4ce360823dd2d781bebc492e79b65d6ea183a7dada1d4cbee1b1c37334ec194",
+      "bytes": 9659
+    },
+    "replay": {
+      "path": "work/item319_j2_third_minor_elimination_certificate_replay.json",
+      "sha256": "c4ce360823dd2d781bebc492e79b65d6ea183a7dada1d4cbee1b1c37334ec194",
+      "bytes": 9659,
+      "byte_identical_to_certificate": true
+    },
+    "ledger": {
+      "path": "work/item319_j2_third_minor_elimination_ledger.json",
+      "sha256": "c88f91dcc7e253a8dbaad539f3f89067f82bcec1ccf8eddb0e737ff985515992",
+      "bytes": 2917
+    }
+  },
+  "theorems": [
+    "ell_r=2*sigma*a_r and m_r=-sigma*b_r on both rays",
+    "C_r=beta_r*K_r with beta_r=-3*(r+1)!/[2*(2r+3)*(-r/3)_(r+1)]",
+    "K_r has an independent canonical chain determinant construction",
+    "beta_r is a p-unit on every actual row, so removing it changes no prime support",
+    "C_r/ell_r=(beta_r/(2*sigma))*(K_r/a_r) in characteristic zero",
+    "ell*E_d-m*E_b=C*D",
+    "the ell-chart and m-chart coefficient elimination ideals both equal the old determinant ideal (D)",
+    "five natural direct old-operator reuse ansatze fail by exact nonzero first residuals",
+    "the transverse condition remains a second integer condition only while Z_actual is retained"
+  ],
+  "exact_replay": {
+    "r_max": 53,
+    "rows": 18,
+    "row_stream_sha256": "1bcac17ba392fdbff00a5d8c8f83fb0d99c3eff4e71866dba4550fdeb1d011dd",
+    "classification": "EXACT FINITE REPLAY OF ALL-r THEOREMS"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "all-r minor normalizations and third-minor factorization",
+      "all-row beta p-unit theorem",
+      "both Laurent-chart elimination theorems",
+      "five scoped exact operator-reuse counterexamples",
+      "zero booking"
+    ],
+    "EXACT_FINITE_REPLAY": [
+      "the declared 18 rational rows through r=53"
+    ],
+    "OPEN": [
+      "a different recurrence or algebraic realization for K_r",
+      "fixed-M weighted gcd support for the actual-period residual",
+      "any reduction of the 1/105 ceiling"
+    ]
+  },
+  "capacity": {
+    "fixed_M_relation": "2M=5r+14s+7",
+    "raw_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

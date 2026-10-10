@@ -1,0 +1,110 @@
+{
+  "admission": {
+    "new_capacity_reduction": 0,
+    "smallest_missing_global_input": "uniform approximation measure for canonical p-adic zeros or a growing-length sub-main-height auxiliary reaching singleton depth",
+    "target": "v_p(q_N)*log(p)=O(N) uniformly on matching-range primes",
+    "target_proved": false
+  },
+  "determinant_expansion": {
+    "examples": [
+      {
+        "coefficient_degrees": [
+          0,
+          1,
+          0
+        ],
+        "coefficient_hash": "e561d8739d8f0a39c497f2304d3094ce5307f88631e980092c5f4d053b8881b7",
+        "exact_equality_checks": 52,
+        "first_nonzero_q_power": 0,
+        "name": "hankel_unit_branch",
+        "size": 2
+      },
+      {
+        "coefficient_degrees": [
+          null,
+          null,
+          0
+        ],
+        "coefficient_hash": "a8d53ac4a7d4562f07362eadd34d26edce3dcd73a33172f0d314c6e9e805fe62",
+        "exact_equality_checks": 52,
+        "first_nonzero_q_power": 2,
+        "name": "formal_q_squared_branch",
+        "size": 2
+      },
+      {
+        "coefficient_degrees": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "coefficient_hash": "b6a12405f6b0965d1a4594315ab0cd28198bb31b4363d92691c7ce673c818f50",
+        "exact_equality_checks": 52,
+        "first_nonzero_q_power": 0,
+        "name": "three_by_three_jet_mix",
+        "size": 3
+      }
+    ],
+    "homogeneity": "degree equals determinant size in (q_N,q_(N+1))",
+    "integrality": true,
+    "label": "symbolic coefficient construction plus EXACT FINITE ONLY value replay"
+  },
+  "jet_and_shift_reduction": {
+    "jet_equalities": 2726,
+    "jet_order": 3,
+    "label": "EXACT FINITE ONLY replay; general reduction is by the displayed integral recursions",
+    "maximum_reduced_polynomial_degree": 6,
+    "row_digest": "d6934f6a617ab5c1b684bf6e21aebad0c9621ef56902c5a87d1a860d9c731dd6",
+    "shift_equalities": 611,
+    "window": 3
+  },
+  "open": [
+    "the uniform O(N) prime-power height target or a sufficient little-oh variant",
+    "a growing-length auxiliary with sub-main height and the required local order",
+    "uniform rational-integer approximation of the canonical p-adic zeros",
+    "the actual moving correlation with the clearing divisor and transverse matching factor",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "pade_wronskian": {
+    "coefficient_height_checks": 16,
+    "full_modulus_unit_checks": 32,
+    "label": "EXACT FINITE ONLY replay of all-degree Padé proof",
+    "polynomial_wronskian_checks": 16,
+    "row_digest": "de395a867806d833d4097d81b9014e07bc546f33c9a8ee77da77260d4e4677b8"
+  },
+  "reservoir_overlap": {
+    "exponent_box_limit": 8,
+    "general_identity": "qbar^k divides D/gcd(D,D_m^k) whenever q^k divides D",
+    "label": "EXACT FINITE ONLY replay of the primewise algebraic proof",
+    "row_digest": "d0346f2d85a720d2f17aeb7da41487369ab15d1bd821ab1b9e9f7b02539e9ed5",
+    "valuation_inequalities": 5832
+  },
+  "reverse_bessel": {
+    "differential_polynomial_identities": 24,
+    "label": "EXACT FINITE ONLY replay of all-degree coefficient proof",
+    "row_digest": "765c2dca4e46d24fd7e8310c4c6c480fb1d81f1a87907fc74453f5dd541a9b05",
+    "specialization_identities": 48
+  },
+  "schema": "item274-beta-fixed-wronskian-certificate-v1",
+  "strict_labels": {
+    "booking": "zero new Route-1 rate and zero new beta capacity reduction",
+    "bounded_checks": "EXACT FINITE ONLY",
+    "clearing_reservoir_deoverlap": "PROVED",
+    "exceptional_singleton_search": "NONE",
+    "fixed_determinant_homogeneous_expansion": "PROVED",
+    "fixed_jet_two_generator_reduction": "PROVED",
+    "pade_wronskian": "PROVED UNIT-BRANCH BLINDNESS",
+    "positive_linear_capacity_admission": "FAIL",
+    "singleton_depth_dichotomy": "PROVED SCOPED NO-GO",
+    "uniform_prime_power_height_O_N": "OPEN; NOT PROVED"
+  },
+  "theorem": {
+    "admissible_class": "fixed determinant size/window/jet order and fixed-degree rational polynomial coefficients after a fixed common denominator",
+    "degree_bound": "deg C_k <= s*(d+L+J)",
+    "deoverlap": "qbar_(m,N)^k divides D_N/gcd(D_N,D_m^k)",
+    "forced_branch": "first coefficient k>=1 gives D_N=q_N^k*E_N; nonzero height is at least q_N^k",
+    "form": "D_N=sum_(k=0)^s C_k(N) q_N^k q_(N+1)^(s-k), C_k in Z[N]",
+    "residual_branch": "first coefficient k=0 gives only O_D(log N) log-valuation away from finitely many integer roots",
+    "scope_limit": "not an impossibility theorem for growing-length auxiliaries, new functions, or every use of a fixed determinant"
+  }
+}

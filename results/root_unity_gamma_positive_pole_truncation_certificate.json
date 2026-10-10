@@ -1,0 +1,145 @@
+{
+  "completion_lemma_grid": {
+    "all_ordered_newton_coefficients_nonnegative": true,
+    "rows": [
+      {
+        "nonempty_subproducts_checked": 63,
+        "rates": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "nonempty_subproducts_checked": 63,
+        "rates": [
+          1,
+          1,
+          4,
+          4,
+          9,
+          9
+        ]
+      },
+      {
+        "nonempty_subproducts_checked": 127,
+        "rates": [
+          1,
+          1,
+          1,
+          4,
+          4,
+          9,
+          9
+        ]
+      }
+    ]
+  },
+  "exact_arithmetic": "QQ only; no floating-point comparisons",
+  "family_grid": {
+    "all_actual_newton_coefficients_positive": true,
+    "all_cardinal_jets_exact": true,
+    "all_finite_newton_coefficients_positive": true,
+    "all_finite_polar_reconstructions_exact": true,
+    "all_finite_product_integrals_exact": true,
+    "all_predicted_global_signs_exact": true,
+    "defect_k_range": [
+      1,
+      3
+    ],
+    "defect_n_values": [
+      3,
+      5
+    ],
+    "generic_k_range": [
+      1,
+      3
+    ],
+    "generic_n_range": [
+      2,
+      5
+    ],
+    "row_count": 30,
+    "row_digest_sha256": "4722daf5c5629a1592c16f4042afa00d20ad7149c541be46ea80c275025bafb7"
+  },
+  "logical_scope": {
+    "all_parameter_result": "The companion source, not finite-grid extrapolation, proves the positive pole-truncation and strict Newton theorem for all parameters.",
+    "what_this_closes": "Together with the frozen shifted-coordinate theorem, it proves the appropriate Gamma border nonzero for every m>=2 and n>=D>=2.",
+    "what_this_does_not_close": "It does not prove corrected Delta nonzero and gives no primitive endpoint height/value estimate or transcendence conclusion."
+  },
+  "schema": "root-unity-gamma-positive-pole-truncation-v1",
+  "selected_rows": [
+    {
+      "actual_all_newton_coefficients_positive": true,
+      "actual_degree": 17,
+      "actual_first_newton_coefficient": "2",
+      "actual_last_newton_coefficient": "44645032/961083984375",
+      "actual_newton_sha256": "db4725d2f6b7b2a3a69bc90959daca6ffd5be8f8dfb469a2aa12693ffa0246d0",
+      "central_order": 1,
+      "family": "even-Lambda0",
+      "finite_all_newton_coefficients_positive": true,
+      "finite_first_newton_coefficient": "110030927109850868030323122354360510798197000746965278492007572390620954624/320184037516888762679084678162878864974296148052894984697032523760404296875",
+      "finite_integral_weight": "s^0(1-s)^0",
+      "finite_last_newton_coefficient": "404471968915869653929984250460971789550379729671627834712634949632/72897379889878335862250868318279311477342369896709953648278062900390625",
+      "finite_newton_sha256": "2df20a60e882d9958a310095a7826fa2f9f06c8e22d936a6efb420c736ec6127",
+      "finite_polar_reconstruction_exact": true,
+      "finite_product_cutoff": 7,
+      "h": 6,
+      "m": 6,
+      "n": 5,
+      "nu": 5,
+      "predicted_raw_sign": -1,
+      "raw_cardinal_numerator_sign": -1
+    },
+    {
+      "actual_all_newton_coefficients_positive": true,
+      "actual_degree": 14,
+      "actual_first_newton_coefficient": "2",
+      "actual_last_newton_coefficient": "554512/622782421875",
+      "actual_newton_sha256": "dac84c2b15210fb0f40de3b9649269aeb9c74749f3099a552820eaa36e9eeb3f",
+      "central_order": 6,
+      "family": "odd-Lambda0",
+      "finite_all_newton_coefficients_positive": true,
+      "finite_first_newton_coefficient": "250596813086733841628760031855969258620718258787/188349170772271133835248151222849833533440000000000",
+      "finite_integral_weight": "s^5(1-s)^0",
+      "finite_last_newton_coefficient": "324353533198518152754971272449956293/489218625382522425546099094085324242944000000",
+      "finite_newton_sha256": "b9bb1c56453f87d7524a914864c2ed035ccd5c28919040a47111fe61743691a8",
+      "finite_polar_reconstruction_exact": true,
+      "finite_product_cutoff": 7,
+      "h": 5,
+      "m": 7,
+      "n": 4,
+      "nu": 5,
+      "predicted_raw_sign": 1,
+      "raw_cardinal_numerator_sign": 1
+    },
+    {
+      "actual_all_newton_coefficients_positive": true,
+      "actual_degree": 17,
+      "actual_first_newton_coefficient": "1",
+      "actual_last_newton_coefficient": "32595018211427/15045919506432000000000",
+      "actual_newton_sha256": "a57145ab2081397202aacdf5956eb47e945e771e664e2db7ad33eace36297adb",
+      "central_order": 7,
+      "family": "odd-Lambda1-defect",
+      "finite_all_newton_coefficients_positive": true,
+      "finite_first_newton_coefficient": "10081195805804692084493609261312049183520107806600551528257486631/15506681600922232730465530956564061616816171339427820339200000000000",
+      "finite_integral_weight": "s^5(1-s)^1",
+      "finite_last_newton_coefficient": "2748417102746750262051871206215535676383132336903037/3516254331274882705320982076318381319005934544087941120000000000",
+      "finite_newton_sha256": "2a62b4a48da3ba647083164cbb27e6ed720710a6392084ca344bec5e458ecfdb",
+      "finite_polar_reconstruction_exact": true,
+      "finite_product_cutoff": 7,
+      "h": 6,
+      "m": 7,
+      "n": 5,
+      "nu": 5,
+      "predicted_raw_sign": 1,
+      "raw_cardinal_numerator_sign": 1
+    }
+  ],
+  "versions": {
+    "sympy": "1.14.0"
+  }
+}

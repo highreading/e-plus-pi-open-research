@@ -1,0 +1,154 @@
+{
+  "algebraic_layer_replay": {
+    "actual_row_data": false,
+    "baseline_exponents": {
+      "11": 0,
+      "13": 0,
+      "2": 1,
+      "3": 1,
+      "5": 0,
+      "7": 1
+    },
+    "baseline_value": "42",
+    "booked_H": [
+      3,
+      7
+    ],
+    "both_layer_cakes_verified": true,
+    "cutoff": 13,
+    "factorization_verified": true,
+    "large_exponents": {
+      "17": 3
+    },
+    "large_value": "4913",
+    "original_value": "131817951720",
+    "postbook_layers": [
+      [
+        2,
+        3,
+        5,
+        7,
+        13
+      ],
+      [
+        2,
+        3,
+        13
+      ],
+      [
+        3
+      ]
+    ],
+    "raw_small_layers": [
+      [
+        2,
+        3,
+        5,
+        7,
+        13
+      ],
+      [
+        2,
+        3,
+        7,
+        13
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3
+      ]
+    ],
+    "small_residual_exponents": {
+      "13": 2,
+      "2": 2,
+      "3": 3,
+      "5": 1,
+      "7": 1
+    },
+    "small_residual_value": "638820",
+    "valuations": {
+      "11": 0,
+      "13": 2,
+      "17": 3,
+      "2": 3,
+      "3": 4,
+      "5": 1,
+      "7": 2
+    },
+    "warning": "This vector certifies only the algebra of de-overlap and layer cake."
+  },
+  "capacity": {
+    "booked_r1": "0.1365141682948128184504238226",
+    "deficit_after_booking": "1.0196329836694317938803064013",
+    "five_forced_layers": "1.4245406496086083216022741395",
+    "forced_postbook_rows": [
+      {
+        "can_reach_threshold_by_capacity": false,
+        "ceiling": "0.4214222982165344827708786505",
+        "postbook_residual_depth": 1,
+        "threshold_minus_ceiling": "0.7347248537477101295598515734"
+      },
+      {
+        "can_reach_threshold_by_capacity": false,
+        "ceiling": "0.7063304281382561470913334784",
+        "postbook_residual_depth": 2,
+        "threshold_minus_ceiling": "0.4498167238259884652393967455"
+      },
+      {
+        "can_reach_threshold_by_capacity": false,
+        "ceiling": "0.9912385580599778114117883063",
+        "postbook_residual_depth": 3,
+        "threshold_minus_ceiling": "0.1649085939042668009189419176"
+      },
+      {
+        "can_reach_threshold_by_capacity": true,
+        "ceiling": "1.2761466879816994757322431342",
+        "postbook_residual_depth": 4,
+        "threshold_minus_ceiling": "-0.1199995360174548634015129103"
+      }
+    ],
+    "forced_radical_ceiling": "0.2849081299217216643204548279",
+    "forced_raw_layers_k_ge_5_needed": "0.0165146322773579550489109123",
+    "four_forced_layers": "1.1396325196868866572818193116",
+    "postbook_layers_j_ge_2_needed": "0.0196329836694317938803064013",
+    "rank_two_radical_ceiling": "0.1483939616269088458700310053",
+    "raw_layers_k_ge_2_needed": "0.1561471519642446123307302239",
+    "threshold": "1.1561471519642446123307302239",
+    "universal_layer_ceiling": "1"
+  },
+  "exact_decomposition": {
+    "baseline": "2*product_{p in H_m} p",
+    "identity": "c_m=baseline*small_remainder*large_component",
+    "large_component": "product_{p>6m} p^v_p(c_m)",
+    "small_remainder": "product_{p<=6m} p^(v_p(c_m)-1_{p=2}-1_{p in H_m})",
+    "warning": "G_m was already divided out before c_m; no whole M or T factor is subtracted again."
+  },
+  "generator": "item393_mixed_cubic_small_prime_strata_ceiling_certificate.py",
+  "generator_sha256": "5bf92d5ef16e4b7af043130531acef20362e96d155e968016a85b3331c43b05c",
+  "rationalized_global_ceiling": {
+    "booked_r1_lower": "42660677592129/312500000000000",
+    "conclusion": "limsup log(c_{m,<=6m,rem})/(6m)<1.859148991866686",
+    "d_lower": "2337062374358972995853929780546857306653463085827013/1000000000000000000000000000000000000000000000000000",
+    "declared_full_upper": "997831580080749/500000000000000",
+    "declared_small_upper": "929574495933343/500000000000000",
+    "h_upper": "11623391695718655551288475570652810261117282067706911/5000000000000000000000000000000000000000000000000000",
+    "h_upper-d_lower/mu_bar": "35439013011004611074980267904766629402170491584908699644603413859/17758013335345000000000000000000000000000000000000000000000000000",
+    "mu_bar": "3551602667069/500000000000",
+    "small_remainder_from_declared_bounds": "4647872479666713/2500000000000000"
+  },
+  "schema": "item393-mixed-cubic-small-prime-strata-ceiling-v1",
+  "strategic_status": {
+    "ceiling_source": "global pi-measure bound minus the booked Cartier mass",
+    "new_route1_booking": "0",
+    "remaining_unbounded_information": [
+      "actual aggregate post-book layers j>=2",
+      "actual raw multiplicity layers k>=2",
+      "actual forced fifth-and-deeper layer",
+      "off-forced small-prime content"
+    ],
+    "total_small_remainder_ceiling_improved": true
+  }
+}

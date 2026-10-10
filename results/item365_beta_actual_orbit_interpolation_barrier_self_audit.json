@@ -1,0 +1,59 @@
+{
+  "schema": "item365-beta-actual-orbit-interpolation-barrier-self-audit-v1",
+  "item": 365,
+  "date": "2026-09-01",
+  "status": "PASS",
+  "auditor_role": "author-side mechanical and scope check; root remains the independent auditor",
+  "checks": {
+    "json_files_parse": true,
+    "certificate_script_compiles": true,
+    "certificate_replay_succeeds": true,
+    "certificate_replay_byte_identical": true,
+    "dependency_hashes_verified_by_replay": 28,
+    "report_inline_dollar_delimiters": "180/180",
+    "report_display_delimiters": "33/33",
+    "report_fences": "2/2",
+    "report_control_characters": 0,
+    "canonical_files_modified": false
+  },
+  "independent_style_declared_control": {
+    "method": "standalone continuant and endpoint recurrences without importing the certificate module",
+    "n_values": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "checked": [
+      "the appended-tail bridge has residual (-1)^n",
+      "the endpoint d1 finite difference equals the tail continuant",
+      "the tail continuant is coprime to b",
+      "both endpoint signs solve modulo b^2",
+      "the canonical-box degree and half-window count formulas hold"
+    ],
+    "rows_digest": "3cadc340461c7a8d2546afaf672d9399c15655cd16048c307f6b7536f6a2fb0f",
+    "finite_rows_promoted": false,
+    "prime_census_performed": false
+  },
+  "mathematical_scope_checks": {
+    "capacity_admission_precedes_elaboration": true,
+    "actual_item316_target_is_assumed_only": true,
+    "endpoint_unit_proved_for_every_prime_power_dividing_b": true,
+    "exact_zero_rows_are_stratified": true,
+    "N_zero_branch_is_trivial": true,
+    "actual_nonzero_row_count_satisfies_N_less_than_p": true,
+    "endpoint_degree_claim_is_external_t_row_only": true,
+    "internal_t_endpoint_box_cancellation_remains_open": true,
+    "box_interpolation_is_candidate_dependent": true,
+    "fixed_n_orbit_rank_is_not_called_cross_n_density": true,
+    "pointwise_zero_representative_is_not_called_a_height_carrier": true,
+    "quotient_scalar_is_not_promoted_to_a_uniform_theorem": true,
+    "candidate_independent_nonzero_height_certificate_remains_open": true,
+    "actual_singleton_zero_density_remains_open": true,
+    "arbitrary_cartier_or_f_crystal_closure_not_claimed": true,
+    "booking_zero": true
+  },
+  "independent_audit_required": true
+}

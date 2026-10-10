@@ -1,0 +1,74 @@
+{
+  "schema": "item257-j2-weighted-numerator-ledger-v1",
+  "scope": "actual ordinary-j=2 rows, global index M, prefix index k=s-1, and available numerator/affine height data",
+  "claims": [
+    {
+      "id": "I257-C1",
+      "label": "PROVED",
+      "claim": "The integral rows at fixed global M are s in S_M with 14s<=2M-7 and s=3(M-1) mod 5; actual row primes are exactly the primes in [(4M+3)/5,6M/7].",
+      "evidence": "report Sections 1-2; certificate global_reindex_replay",
+      "scope_limit": "p>7, the ordinary cell range"
+    },
+    {
+      "id": "I257-C2",
+      "label": "PROVED",
+      "claim": "For U_k=8^k H_k, v2(U_k)=s_2(k), and H_k=N_k/2^(3k-s_2(k)) with N_k odd and 2^(3k-s_2(k))<=N_k<2^(3k-s_2(k)+1/2).",
+      "evidence": "report Section 3; certificate prefix_replay",
+      "scope_limit": "the certificate range is a replay; the report proof is all k"
+    },
+    {
+      "id": "I257-C3",
+      "label": "PROVED",
+      "claim": "The product R_M^H of actual H-zero row primes divides P_M=product_(s in S_M) N_(s-1), and log P_M=(3 log 2/490)M^2+O(M log M).",
+      "evidence": "report Sections 3-4; distinct row-prime map and exact numerator divisibility",
+      "scope_limit": "R_M^H controls H=0 only, not the full affine Item-251 gate"
+    },
+    {
+      "id": "I257-C4",
+      "label": "PROVED_SHARPLY_SCOPED_NO_GO",
+      "claim": "Unfiltered numerator height, parity, p mod 4, and the row arithmetic progression cannot improve the raw 2/35 per-M j=2 mass; the product height is quadratic and even the unfiltered lcm contains a numerator of logarithmic size (3 log 2/7)M-O(log M).",
+      "evidence": "report Section 4; size-window model shows compatibility with every candidate outside an O(log M) edge",
+      "scope_limit": "does not rule out a theorem about the actual admissible prime factors of N_k"
+    },
+    {
+      "id": "I257-C5",
+      "label": "PROVED",
+      "claim": "The actual p mod 4 condition and s mod 5 condition are automatic coordinate consequences of 4M+1=5p-2s and do not reduce the prime interval density.",
+      "evidence": "report Section 2; certificate exact_maps and global_reindex_replay",
+      "scope_limit": "no claim about additional as-yet-undiscovered arithmetic conditions"
+    },
+    {
+      "id": "I257-C6",
+      "label": "PROVED_SCOPED_NO_GO_FOR_AVAILABLE_HEIGHT_DATA",
+      "claim": "Item 251 prescribes an affine target for H_k rather than H_k=0. The existing fixed-M p^2 coefficient container has ceiling H/2=3.163813772... per M, much larger than 2/35; multiplying it by the numerator product is weaker.",
+      "evidence": "report Section 5; Items 197 and 251 exact formulas; certificate affine_independence_witnesses",
+      "scope_limit": "does not exclude a new gcd, resultant, punctured moment, or independent higher jet"
+    },
+    {
+      "id": "I257-C7",
+      "label": "EXACT_FINITE_ONLY",
+      "claim": "Through p<=5000, 128682 actual rows contain 57 H-prefix zeros at 57 distinct global indices; the listed affine-independence witnesses replay exactly.",
+      "evidence": "certificate finite_H_zero_scan and affine_independence_witnesses",
+      "scope_limit": "no density, nonoccurrence, or asymptotic inference"
+    },
+    {
+      "id": "I257-C8",
+      "label": "PROVED_BOOKING_DECISION",
+      "claim": "No o(M) bound or constant below 2/35 is proved, so the new unconditional Route-1 rate and j=2 capacity reduction are both zero.",
+      "evidence": "report Sections 1 and 6",
+      "scope_limit": "no conclusion about e+pi"
+    }
+  ],
+  "thresholds": {
+    "raw_j2_per_global_M": "2/35",
+    "raw_j2_per_6M": "1/105",
+    "closing_exception_allowance_per_global_M_conditional_on_full_j1_removal": "0.0045599178273486...",
+    "new_bookable_rate": "0"
+  },
+  "open": [
+    "admissible large-prime-factor control for the actual N_k sequence",
+    "an independent punctured moment or higher jet",
+    "weighted zero control for the full Item-251 affine gate",
+    "any new Route-1 capacity or conclusion about e+pi"
+  ]
+}

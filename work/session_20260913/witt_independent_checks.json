@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "coefficient_identities": [
+    "operator_nu0",
+    "operator_nu1",
+    "contiguity"
+  ],
+  "actual_Frobenius_correction_checks": [
+    {
+      "kind": "recurrence",
+      "nu": 0,
+      "p": 59,
+      "s": 1,
+      "r": 25,
+      "raw_at_one": 21,
+      "Frobenius_beta": 38,
+      "projected_RL": [
+        0,
+        0
+      ]
+    },
+    {
+      "kind": "recurrence",
+      "nu": 1,
+      "p": 59,
+      "s": 1,
+      "r": 25,
+      "raw_at_one": 57,
+      "Frobenius_beta": 2,
+      "projected_RL": [
+        0,
+        0
+      ]
+    },
+    {
+      "kind": "contiguity",
+      "p": 59,
+      "s": 1,
+      "r": 25,
+      "raw_at_one": 49,
+      "Frobenius_beta": 10,
+      "projected_RL": [
+        0,
+        0
+      ]
+    }
+  ],
+  "rank_matrix_independently_reconstructed": true,
+  "rank_determinant_recomputed_exactly": true,
+  "rank_determinant_degree": 23,
+  "scope": "Raw T identities are inhomogeneous; the projected identities survive because the correction is in the complete endpoint kernel."
+}

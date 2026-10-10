@@ -1,0 +1,51 @@
+{
+  "item": 406,
+  "schema": "item406-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_ACTUAL_HERMITE_ADJACENT_REDUCTION_AND_SHARP_OPEN_LEMMA_ZERO_BOOKING",
+  "scope": "independent root audit of the actual coefficient identities, local ideal equivalence, algebraic diagonal kernels, compatible-prime Cayley reduction, capacity scope, dependencies, and deterministic replay",
+  "checks": {
+    "canonical_dependencies_checked": 11,
+    "canonical_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "control_characters": 0,
+    "symbolic_rational_identities_independently_verified": true,
+    "prime_scan_used_as_support_evidence": false,
+    "finite_to_infinite_inference_used": false,
+    "root_repairs": "Canonicalized paths and status, added strict frozen-certificate replay, expanded the critical Item403 pin from its report to the audited report/script/certificate/manifest/root-audit package, and after Item411 recorded that primitive G is unmarked in q=1 mod 6."
+  },
+  "mathematical_audit": {
+    "hermite_identities": "Direct symbolic simplification verifies both rational exact-derivative identities. The displayed change matrices have determinants 6 and -6, so they preserve the local generated ideal at every prime outside 6(2q-3).",
+    "support_scope": "Because 2q-3 is the first factor of P_q, the adjacent-coefficient reduction is sufficient for support outside 6P_q and makes no claim at the excluded factors.",
+    "algebraic_kernels": "The Lagrange-residue diagonal formula yields the two degree-at-most-six kernel equations and the four direct actual-row generating functions. Algebraicity gives recurrence structure but not coefficientwise gcd support.",
+    "cayley_reduction": "For p=6m+q, q>=5, alpha is congruent to -(4m+1) modulo p. The binomial truncation and Cayley residue transformation give the stated R and S adjacent coefficients, and vanishing of the original four coordinates is equivalent to simultaneous vanishing of both adjacent pairs.",
+    "open_boundary": "The lower-triangular multiplication S=R(1+z)^(-k) does not determine its last two coefficients from only the last two coefficients of R. The four-adjacent nonvanishing statement remains open, as does primitive G support.",
+    "capacity": "H-only success has no separately bookable numerical effect because primitive G may occupy the combined large-prime ceiling. Full unmarked H/G support is a strong sufficient Closer result and adds no divisor lower bound; in q=1 mod 6 the minimal original target is only the distinguished cube-root branch."
+  },
+  "strict_labels": {
+    "PROVED_ACTUAL": [
+      "four all-q Hermite coefficient identities",
+      "local valuation equivalence to four adjacent base diagonals away from 6(2q-3)",
+      "two algebraic kernels and direct actual-row generating functions",
+      "compatible-prime equivalence to adjacent R and S coefficient pairs"
+    ],
+    "OPEN": [
+      "the four-adjacent nonvanishing lemma",
+      "compatible support of primitive G_q",
+      "the distinguished marked branch in the q=1 mod 6 class",
+      "support of H_q G_q^prim in P_q",
+      "any positive Route-1 booking and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "combined_large_component_ceiling": "log(136)/6",
+    "new_route1_rate": 0,
+    "new_booking": 0,
+    "new_unconditional_capacity_reduction": 0,
+    "frozen_deficit": "1.0196329836694317938803064012..."
+  }
+}

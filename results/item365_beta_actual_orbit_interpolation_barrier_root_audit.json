@@ -1,0 +1,63 @@
+{
+  "item": 365,
+  "schema": "item365-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_ENDPOINT_FREENESS_AND_ACTUAL_ORBIT_INTERPOLATION_BARRIER",
+  "scope": "independent root audit of the beta endpoint load-coordinate unit, exact-zero-stratum degree preservation, canonical-box and half-window ranks, fixed-n actual-orbit collapse, and capacity admission",
+  "checks": {
+    "work_hash_list_entries": 7,
+    "work_hash_list_failures": 0,
+    "frozen_dependencies_checked": 28,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "independent_n_rows": 14,
+    "independent_modular_endpoint_checks": 168,
+    "independent_canonical_words_checked": 19090,
+    "independent_row_function_truth_points": 3700,
+    "independent_degree_cases": 12,
+    "independent_rows_digest": "6629085b15a8970f0ac98e3622f7ef8f96cc78d9b1c78f39f21b19ce75c0c3d6",
+    "prime_or_target_census_performed": false,
+    "density_inference_from_finite_controls": false
+  },
+  "mathematical_audit": {
+    "endpoint_bridge": "Independent continuant and prefix recurrences for 5<=n<=18 verify a*hatDelta_0-b*S=(-1)^n; the identity gives gcd(hatDelta_0,b)=1 without factoring b.",
+    "load_chart": "The triangular substitution x_j=w_j*d_(j-1)-d_j is integral and invertible. The endpoint coefficient of d1 is sigma*hatDelta_0, so modulo every p^r with p|b the endpoint equation eliminates d1 and leaves d2 and every retained row load free.",
+    "degree_transfer": "After any fixed exact-zero stratification the endpoint quotient is a polynomial-function algebra in the retained loads. Item362's unique reduced row-only singleton complement therefore keeps degree N(p-1), or (N-1)(p-1) only in the ambient p|N case. In the actual tied family N<=n-4<p.",
+    "box_interpolation": "Because p>A exceeds every digit bound, coordinatewise Lagrange interpolation on the canonical box is valid. Its total-degree ceiling is 6+sum_(i>=2)w_i=2m^2+4m, but its coefficients depend on p and its rank remains beta-scale.",
+    "window_rank": "The intermediate interval contains exactly (a+1)/2-ceil(a/(2c)) canonical words; since a/c<A, its logarithm is asymptotic to log a and log b.",
+    "actual_orbit": "For fixed n the centered remainder is a single integer and has at most one canonical Ostrowski word. Pointwise degree collapse on that empty-or-singleton orbit is exact but cannot yield a candidate-independent nonzero integer carrier.",
+    "admission": "Any candidate-independent nonzero integer vanishing for all actual singleton primes is divisible by their squarefree product U_11. A useful result therefore still needs a new sub-beta-scale height or weighted zero-density theorem."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "endpoint load-coordinate unit and all-prime-power freeness",
+      "external-t row-only degree preservation after exact-zero stratification",
+      "canonical-box interpolation degree and beta-scale rank",
+      "canonical-window beta-scale rank",
+      "fixed-n actual-orbit rank at most one",
+      "zero booking"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "endpoint equality alone as a reduced-degree mechanism for the externally t-saturated row-only singleton carrier",
+      "fixed-n orbit degree as evidence for a nonzero low-height common carrier",
+      "candidate-dependent interpolation or CRT assembly as an automatic capacity gain"
+    ],
+    "OPEN": [
+      "candidate-independent nonzero sub-beta-height H_n",
+      "uniform cross-n compression or direct weighted zero density",
+      "internal-t cancellation coupled to endpoint and canonical box",
+      "the actual singleton mass, beta capacity, Route 1, and e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_singleton_maximum": "log U_11<=log b",
+    "formal_endpoint_gain": 0,
+    "pointwise_orbit_gain": 0,
+    "candidate_independent_height_rate": "OPEN",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "new_booking": 0
+  }
+}

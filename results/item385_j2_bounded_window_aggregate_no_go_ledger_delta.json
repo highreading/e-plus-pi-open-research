@@ -1,0 +1,55 @@
+{
+  "item": 385,
+  "schema": "item385-j2-bounded-window-aggregate-no-go-ledger-v1",
+  "classification": "PROVED_GLOBAL_BOUNDED_WINDOW_PROPAGATION_NO_GO",
+  "branch": "ordinary fixed-j=2 aggregate across degenerate and nondegenerate charts",
+  "proved": {
+    "fixed_M_grid": "(p,r,s) maps to (p+2d,r-14d,s+5d)",
+    "same_ray_alignment": "r maps to r+6j meets the fixed-M grid iff j=7k, giving (r+42k,s-15k,p-6k)",
+    "first_return": "no nonzero return for operator shift order below 7; first return changes the selected modulus by 6",
+    "bounded_window_mass": "for every fixed finite offset set H, candidate primes having another actual prime at an offset in H have O_H(M/log M)=o(M) logarithmic mass",
+    "isolated_complement": "after removing those pair-supported rows, the raw candidate mass remains (2/35)M+o(M)",
+    "information_class_countermodel": "V_M(r)=(1,6M-r)^T is an exact rank-two integral translation module and its fixed-7-saturated selected carrier is p on every row"
+  },
+  "scope": {
+    "closed": [
+      "fixed-order same-ray recurrence propagation whose use requires a second actual prime row",
+      "bounded-offset cross-row gcd/resultant mechanisms across either or both connection charts",
+      "finite mixtures and bounded chains of those mechanisms",
+      "recurrence, regularity, height, and pairwise-coprimality metadata without cross-characteristic arithmetic"
+    ],
+    "not_closed": [
+      "one-row arithmetic of the actual target-retaining primitive carrier",
+      "a reciprocity theorem forcing every collision to propagate to another prime row",
+      "windows growing with M",
+      "selector-aware weighted nonconcentration of the actual joint residual"
+    ]
+  },
+  "capacity": {
+    "raw_chebyshev_mass_per_M": "2/35",
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "chart_overlap_rule": "degenerate and nondegenerate charts partition one raw interval; capacities are not additive"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "all-parameter alignment lattice",
+      "all-fixed-finite-offset prime-pair zero-rate theorem",
+      "full raw mass of the bounded-window isolated complement",
+      "exact full-mass comparison translation module",
+      "aggregate bounded-window propagation no-go"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared lattice, row-grid, prime-pair, isolated-mass, and comparison-carrier replays"
+    ],
+    "OPEN": [
+      "W_nd(M)+W_deg(M)=o(M) or any strict constant saving",
+      "actual average gcd or radical-mass theorem",
+      "cross-prime reciprocity or forced propagation",
+      "Route 1 and every conclusion about e+pi"
+    ]
+  },
+  "smallest_next_input": "a one-row matched-modulus average-gcd/factor-localization theorem for the actual aggregate carrier, or a genuine cross-characteristic reciprocity forcing every collision into a prime-pair set",
+  "central_files_modified": false
+}

@@ -1,0 +1,143 @@
+{
+  "status": "AUTHOR bounded exact support for symbolic all-p theorem; no atlas",
+  "integer_determinants": [
+    {
+      "r": 0,
+      "Z": 1,
+      "special_zero_residue": true
+    },
+    {
+      "r": 1,
+      "Z": -1,
+      "A": 1,
+      "B": 1,
+      "X": 0,
+      "Y": 1,
+      "d": [
+        1,
+        -1
+      ],
+      "c": [
+        1
+      ],
+      "prime_independent_integer_definition": true
+    },
+    {
+      "r": 2,
+      "Z": 13,
+      "A": 2,
+      "B": 3,
+      "X": 3,
+      "Y": -2,
+      "d": [
+        1,
+        -2,
+        3
+      ],
+      "c": [
+        1,
+        1
+      ],
+      "prime_independent_integer_definition": true
+    },
+    {
+      "r": 3,
+      "Z": -197,
+      "A": 13,
+      "B": 19,
+      "X": 4,
+      "Y": 21,
+      "d": [
+        1,
+        -3,
+        6,
+        -4
+      ],
+      "c": [
+        1,
+        2,
+        4
+      ],
+      "prime_independent_integer_definition": true
+    },
+    {
+      "r": 4,
+      "Z": 19289,
+      "A": 82,
+      "B": 145,
+      "X": 81,
+      "Y": -92,
+      "d": [
+        1,
+        -4,
+        10,
+        -12,
+        11
+      ],
+      "c": [
+        1,
+        3,
+        7,
+        5
+      ],
+      "prime_independent_integer_definition": true
+    }
+  ],
+  "p13_counterexample": {
+    "p": 13,
+    "n": 156,
+    "h": 28,
+    "N": 184,
+    "N_modp": 2,
+    "E_modp": 0,
+    "exact_full_E_vp": 1,
+    "alleged_p5_formula_modp": 6,
+    "character_minus_one": 1,
+    "full_integer_E_sha256": "a616cecb6560e72c6d8464775ad4e5d68dd242e56c9e50bee0df6e3a71bd8eef",
+    "no_actual_q_inferred_from_E_zero": true
+  },
+  "complete_simultaneous_node": {
+    "n": 60,
+    "N": 256,
+    "h": 196,
+    "N_factorial_v5": 63,
+    "U_v5": 0,
+    "E_mod5": 4,
+    "Pi_v5": -2,
+    "complete_numerator_v5": -63,
+    "actual_q_v5": 63,
+    "actual_q_v2": 256,
+    "U_v2": 1,
+    "final_q_bit_length": 3587,
+    "final_content_bit_length": 370,
+    "final_cleared_gcd_verified": true,
+    "q_sha256": "ad33aa89e6030e710116fe7753edc35c3418ef8a772c356b11e3caf862a4b522",
+    "coefficient_prefix_sign": "epsilon=(-1)^h retained",
+    "no_approximation_error_inferred": true,
+    "simultaneous_odd_prime_rows": [
+      {
+        "p": 3,
+        "E_over_sign_modp": 2,
+        "N_factorial_vp": 126,
+        "U_vp": 3,
+        "Pi_vp": -4,
+        "actual_q_vp": 129,
+        "exact_full_final_gcd_retained": true
+      },
+      {
+        "p": 5,
+        "E_over_sign_modp": 4,
+        "N_factorial_vp": 63,
+        "U_vp": 0,
+        "Pi_vp": -2,
+        "actual_q_vp": 63,
+        "exact_full_final_gcd_retained": true
+      }
+    ],
+    "fixed_modulus": 60,
+    "final_num_sha256": "61927362a946581d5a8a51d27b92569d3964367ad45c2ed5b039e033359ee416",
+    "final_den_sha256": "4b7080dc78800c48295722c0048e93095e7d08465a00bed6d6b709520f85ecec"
+  },
+  "proof_scope": "p|n,h>=p+1; residue unit and N>=2p imply complete actual q equality",
+  "no_error_or_distribution_inferred_from_experiments": true
+}

@@ -1,0 +1,246 @@
+{
+  "canonical_files_modified": false,
+  "classification": {
+    "EXACT_FINITE_ONLY": [
+      "five preselected F_p and F_(p^2) replay rows; no scan or density inference"
+    ],
+    "OPEN": [
+      "p-adic nonconcentration at the chosen prime above p",
+      "bounded-degree descent and exact trace nonvanishing",
+      "W_b(M)=o(M) or any strict fixed-j1 ceiling reduction",
+      "fixed-j1 closure, Route 1, and every conclusion about e+pi"
+    ],
+    "PROVED": [
+      "positive-power Frobenius chart H=G^(p-r) and exact degree D=2p+2n",
+      "exact three-alias theorem for the plain F_p Fourier moment",
+      "exact three-Euler-moment de-aliasing identity",
+      "exact coefficient isolation by one F_(p^2) Fourier moment",
+      "terminating 4F3 representation of the Item339 positive prefix",
+      "fixed-support Kummer lift with a 21 sqrt(p) conjugate bound",
+      "scoped Fourier/Weil/norm obstruction"
+    ]
+  },
+  "date": "2026-09-01",
+  "dependencies": {
+    "manifests/item339_j1_local_coefficient_carry_obstruction_manifest.json": "d62e21ca22f6ca000d18b6f655ea351f53f06ee287bb4b24c8a6cbd761414e97",
+    "results/item339_j1_local_coefficient_carry_obstruction_certificate.json": "9d023a49aade705caf3bad274e9af30fb47172ebe18c1f9ba00b1a43f27d4ea3",
+    "results/item339_j1_local_coefficient_carry_obstruction_certificate_replay.json": "9d023a49aade705caf3bad274e9af30fb47172ebe18c1f9ba00b1a43f27d4ea3",
+    "results/item339_j1_local_coefficient_carry_obstruction_root_audit.json": "9b84d37c25f914afd24af60402cede2dec1da5321912247c570292babeed5ce9",
+    "scripts/item339_j1_local_coefficient_carry_obstruction_certificate.py": "386da4d3fc1178ea1a2cb19f4c2ea326a824cb7addd4dbc976c4c9991745d040",
+    "sources/item339_j1_local_coefficient_carry_obstruction_report.md": "e36986e06dad00a45872b79f60e3f6f616195c93fa3faaef7dd6b4215aa7f472"
+  },
+  "direct_controls": [
+    {
+      "F_p2_moment": [
+        0,
+        0
+      ],
+      "F_p2_nonsquare": 2,
+      "H_degree": 30,
+      "M": 9,
+      "base_Euler_moments": [
+        5,
+        4,
+        4
+      ],
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "dealiased_target": 0,
+      "full_original_collision_claimed": false,
+      "h": 1,
+      "n": 2,
+      "p": 13,
+      "r": 3,
+      "s": 1,
+      "target_equals_Item339_a_mod_p": true,
+      "three_alias_coefficients": [
+        0,
+        9,
+        12
+      ]
+    },
+    {
+      "F_p2_moment": [
+        9,
+        0
+      ],
+      "F_p2_nonsquare": 3,
+      "H_degree": 42,
+      "M": 12,
+      "base_Euler_moments": [
+        14,
+        15,
+        9
+      ],
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "dealiased_target": 8,
+      "full_original_collision_claimed": false,
+      "h": 2,
+      "n": 4,
+      "p": 17,
+      "r": 3,
+      "s": 1,
+      "target_equals_Item339_a_mod_p": true,
+      "three_alias_coefficients": [
+        8,
+        14,
+        15
+      ]
+    },
+    {
+      "F_p2_moment": [
+        0,
+        0
+      ],
+      "F_p2_nonsquare": 5,
+      "H_degree": 126,
+      "M": 34,
+      "base_Euler_moments": [
+        39,
+        7,
+        3
+      ],
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "dealiased_target": 0,
+      "full_original_collision_claimed": false,
+      "h": 8,
+      "n": 16,
+      "p": 47,
+      "r": 5,
+      "s": 2,
+      "target_equals_Item339_a_mod_p": true,
+      "three_alias_coefficients": [
+        0,
+        22,
+        33
+      ]
+    },
+    {
+      "F_p2_moment": [
+        41,
+        0
+      ],
+      "F_p2_nonsquare": 2,
+      "H_degree": 102,
+      "M": 30,
+      "base_Euler_moments": [
+        38,
+        7,
+        39
+      ],
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "dealiased_target": 2,
+      "full_original_collision_claimed": false,
+      "h": 4,
+      "n": 8,
+      "p": 43,
+      "r": 9,
+      "s": 4,
+      "target_equals_Item339_a_mod_p": true,
+      "three_alias_coefficients": [
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "F_p2_moment": [
+        11,
+        0
+      ],
+      "F_p2_nonsquare": 5,
+      "H_degree": 102,
+      "M": 32,
+      "base_Euler_moments": [
+        28,
+        43,
+        22
+      ],
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "dealiased_target": 36,
+      "full_original_collision_claimed": false,
+      "h": 2,
+      "n": 4,
+      "p": 47,
+      "r": 13,
+      "s": 6,
+      "target_equals_Item339_a_mod_p": true,
+      "three_alias_coefficients": [
+        36,
+        35,
+        42
+      ]
+    }
+  ],
+  "item": 342,
+  "kummer_and_capacity": {
+    "base_field_Euler_dealiasing": {
+      "Kummer_lift": "after expanding theta^j(G^(p-r)), the target has an algebraic-integer lift T in Z[zeta_(p-1)] made from four fixed-support full-Teichmueller Kummer sums",
+      "cyclotomic_degree": "[Q(zeta_(p-1)):Q]=phi(p-1), unbounded",
+      "norm_barrier": "T in one chosen prime above p only implies p|Norm(T), compatible with |Norm(T)|<=(21 sqrt(p))^phi(p-1)",
+      "statement": "three Euler moments over F_p invert the three aliases by a 3x3 Vandermonde identity",
+      "support_counts": {
+        "x^(-n)(theta G)G^(p-r-1)": 7,
+        "x^(-n)(theta G)^2G^(p-r-2)": 7,
+        "x^(-n)(theta^2 G)G^(p-r-1)": 6,
+        "x^(-n)G^(p-r)": 5
+      },
+      "uniform_conjugate_bound": "|sigma(T)|<=21 sqrt(p)"
+    },
+    "base_field_plain_Fourier": {
+      "scope": "a square-root bound for that one complete sum has no actual-gate implication without controlling two unforced aliases",
+      "statement": "the plain multiplicative moment over F_p sees c_n+c_(n+p-1)+c_(n+2p-2), not c_n alone"
+    },
+    "capacity": {
+      "new_fixed_j1_capacity_reduction": 0,
+      "new_linear_log_rate": 0,
+      "proved_mass_excluded_by_complex_bounds": 0,
+      "raw_fixed_j1_prime_mass": "M/6+o(M)",
+      "retained_ceiling_per_6M": "1/36",
+      "support_reached": "all actual fixed-j1 rows"
+    },
+    "extension_field_exact_Fourier": {
+      "Weil_scale": "sqrt(p^2)=p",
+      "scope": "a black-box O(p) Weil bound cannot exclude divisibility by p, even after rational descent",
+      "statement": "over F_(p^2), degree D<p^2-1 and one pure multiplicative Fourier moment isolates c_n exactly"
+    },
+    "scoped_no_go": {
+      "closed": [
+        "plain base-field coefficient Fourier extraction plus a Weil bound",
+        "extension-field coefficient isolation plus a black-box square-root Weil bound",
+        "Euler de-aliasing plus conjugate-size bounds alone, without p-adic nonconcentration or descent"
+      ],
+      "not_closed": [
+        "a p-adic unit-root or chosen-prime nonconcentration theorem for the Kummer lift",
+        "rational or bounded-degree descent together with a trace nonzero theorem",
+        "correlations among the three aliases forced by additional actual-family arithmetic",
+        "average gcd or factor localization for the Item339 rational carrier"
+      ]
+    }
+  },
+  "prime_scans": 0,
+  "schema": "item342-j1-finite-field-fourier-weil-barrier-certificate-v1",
+  "status": "PROVED_EXACT_FINITE_FIELD_KUMMER_LIFT_AND_SCOPED_FOURIER_WEIL_NO_GO",
+  "symbolic": {
+    "Euler_dealiasing": "c_n=-(S_2+(3-2n)S_1+(n-1)(n-2)S_0)/2, S_j=sum_(x in F_p^*)x^(-n)(theta^j H)(x)",
+    "G_squarefree_over_Q": true,
+    "actual_parameters": {
+      "2M": "3n+4r",
+      "n": "2h",
+      "p": "2n+3r",
+      "r": "2s+1"
+    },
+    "base_field_alias_indices": [
+      "n",
+      "n+p-1",
+      "n+2(p-1)"
+    ],
+    "degree": "D=3(p-r)=2p+2n",
+    "extension_isolation": "c_n=-sum_(x in F_(p^2)^*)x^(-n)G(x)^(p-r), since D<p^2-1",
+    "hypergeometric_term_ratio_verified_symbolically": true,
+    "no_fourth_alias": "D-(n+3(p-1))=3-3r-n<0",
+    "positive_exponent": "p-r=2(r+n)",
+    "positive_power_frobenius": "[u^n]G^(-r)=[u^n]G^(p-r) mod p because G^p=G(u^p) and n<p",
+    "terminating_hypergeometric": "a_(r,n)=C(4r+n-1,n) 4F3((-n/4,(1-n)/4,(2-n)/4,(3-n)/4);(r+1/4,r+1/2,r+3/4);1)",
+    "theta2_G": "-4*u*(3*u - 1)**2"
+  }
+}

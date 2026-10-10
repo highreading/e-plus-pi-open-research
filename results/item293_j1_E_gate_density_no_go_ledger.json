@@ -1,0 +1,48 @@
+{
+  "item": 293,
+  "title": "integral recurrence and density barrier for the sole j=1 E gate",
+  "checked_date_beijing": "2026-08-31",
+  "proved": [
+    "The actual E_h^* sequence in each nonzero residue class modulo 3 satisfies a primitive integral order-3 step-3 recurrence with four degree-22 coefficients Q_k.",
+    "The Q_k are derived symbolically from Item237's recurrence and Item243's gauge; they are not reconstructed from values.",
+    "The common polynomial gcd of Q_0,Q_1,Q_2,Q_3 is 1; their individual contents are (4096,512,4,27), with joint gcd 1.",
+    "For every h>=1, Q_0,Q_1,Q_2 are negative and Q_3 is positive.",
+    "Exact sign propagation gives E_h^*<0 for h=1 mod 3 and E_h^*>0 for h=2 mod 3.",
+    "After removing all prime-power factors at primes <=4h+3, N_E(h) has the same remaining part M_h as numerator(c_h), where c_h=[x^(2h)]C(x) for Item237's fixed algebraic series.",
+    "Algebraic denominator and analytic coefficient bounds give log rad(M_h)=O(h) and the generic collective bound O(H^2).",
+    "The comparison sequence a_h=4h+9 proves that rational/algebraic generation, fixed-order integral holonomy, integrality, and exponential height alone do not imply horizontal tied-prime mass o(H); every prime value automatically has admissible 3-nondivisible h.",
+    "The PNT-in-AP normalization for the comparison is theta(4H+9;4,1)+O(1)~2H."
+  ],
+  "exact_structural_obstructions": [
+    "Q_3 contains 4h+39, which equals the actual row prime on s=6; (h,s,p)=(1,6,43) is a genuine admissible prime-row witness, so no uniform moving-prime forward-unit claim is possible from this operator.",
+    "Operator primitivity is not a value-gcd or radical theorem.",
+    "The threshold-dependent large-prime extraction M_h is nonlinear; no linear recurrence for M_h is claimed."
+  ],
+  "narrow_scope": {
+    "ruled_out_information_only": "generic algebraicity/rationality, fixed-order integral recurrence, integrality or bounded denominators, and exponential height",
+    "not_ruled_out": [
+      "sequence-specific congruence arguments",
+      "algebraic monodromy or Cartier information tied to the varying prime",
+      "fixed-diagonal or auxiliary-local constructions",
+      "a direct moving-prime zero-density theorem for the exact E_h sequence"
+    ]
+  },
+  "open": [
+    "The weighted actual-prime bound sum log p=o(H).",
+    "Any sequence-specific density, radical, or value-gcd theorem for M_h.",
+    "Route 1 and every conclusion about e+pi."
+  ],
+  "capacity_and_deoverlap": {
+    "sole_surviving_j1_gate": "p divides M_h",
+    "retained_conditional_j1_capacity_per_m": "1/6",
+    "retained_conditional_j1_capacity_per_6m": "1/36",
+    "new_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "capacity_booked": 0
+  },
+  "strict_scope": {
+    "prime_search": "NONE",
+    "finite_replay": "bounded replay of proved identities only, not extrapolation",
+    "canonical_index_documents_edited": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "item327-beta-transducer-congruence-no-go-ledger-delta-v1",
+  "item": 327,
+  "date": "2026-09-01",
+  "canonical_edit_performed": false,
+  "proposed_status": "PROVED_SCOPED_MOVING_DYADIC_AND_PROJECTIVE_NONLINEAR_NO_GO",
+  "proposed_ledger_entry": "Item 327 makes two genuinely transverse uses of Item 323's exact all-depth transducer. First, it strengthens Item 316's fixed-precision construction uniformly: for every n>=6 and every moving s with 2^s<=2n-3, an explicit two-top-digit canonical word lies in the intermediate window, has the positive actual-target sign and 0<|E|<c, carries the complete universal all-depth transducer, and satisfies U congruent to a modulo 2^s while U is not equal to a. Thus logarithmically growing dyadic precision is an information-class no-go; its entire raw mass is O(log n)=o(n), so it also fails capacity admission. Second, with L_j=R H_j-b N_j and H_m=1,L_m=R, every divisor D of b sees L_j congruent to R H_j. Under an actual target R is a unit, so every homogeneous polynomial of arbitrary degree and at arbitrarily many depths vanishes on L modulo D iff it vanishes on the fixed suffix vector H. General polynomials reduce to the one scalar R, which on the actual target is the already-known signed square ray R congruent to epsilon a^2. Hence the all-depth residual tower supplies no new projective nonlinear codimension. Divided quotients, mod b^2, integer-size invariants, complement redigitization, and dyadic precision beyond 2n-3 remain open. Booking is zero.",
+  "proved": [
+    "the uniform moving-dyadic witness construction for every n>=6 and 2^s<=2n-3",
+    "the exact witness window, sign, dual error, all-depth transducer, target congruence, and failure of equality",
+    "the exact normalized relation L_j-H_jL_m=-bN_j and every two-depth minor lift",
+    "projective rank one modulo every D|b when R is a unit",
+    "arbitrary-depth and arbitrary-degree homogeneous polynomial collapse",
+    "general polynomial reduction to one scalar and actual signed-square specialization",
+    "the exact non-target comparator R=1 with L=H"
+  ],
+  "proved_scoped_no_go": [
+    "dyadic target truncations whose moving modulus satisfies 2^s<=2n-3, without additional odd coprimality input",
+    "all digit-independent projectively homogeneous residue tests on the Item-323 residual tower, with arbitrary depth portfolio and homogeneous degree"
+  ],
+  "exact_finite_only": [
+    "declared moving-witness, transducer-minor, polynomial-substitution, and comparator replay rows"
+  ],
+  "open": [
+    "the original exact all-digit exclusion and centered half-bound",
+    "dyadic precision with 2^s>2n-3, full dyadic equality, or a dyadic/odd coupling using actual coprimality",
+    "divided transducer minors, suffix-load quotients, and mod b^2 or higher information",
+    "inhomogeneous scalar conditions adding genuinely new centered-representative information",
+    "canonical complement redigitization and integer-size nonlinear invariants",
+    "every proper-target lower bound and beta capacity reduction",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "admission": {
+    "moving_dyadic_raw_mass": "O(log n)=o(n)",
+    "moving_dyadic_positive_linear_capacity": false,
+    "projective_modulus_can_be_full_b": true,
+    "projective_closure_reason": "exact rank-one residue state"
+  },
+  "capacity": {
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "booking": 0
+  },
+  "not_claimed": [
+    "exclusion of the original Item-316 target",
+    "the centered half-bound",
+    "that the moving dyadic witnesses are actual centered-square rows",
+    "that the moving dyadic witnesses satisfy independent odd coprimality",
+    "a no-go for divided quotients, mod b^2, integer-size, or redigitized invariants",
+    "a proper-target or Item-282 product contribution",
+    "any canonical, master, status, checkpoint, or research-log edit"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema": "item240-root-independent-audit-v1",
+  "status": "PASS_J1_WITT_ENDPOINT_BRIDGE_AND_SCOPED_E_OBSTRUCTION",
+  "canonical_sha256": "f5a420207f9b42f90743b369ff6aaf5eb2ff660a31e018a00a80deaefb944430",
+  "root_replay_sha256": "f5a420207f9b42f90743b369ff6aaf5eb2ff660a31e018a00a80deaefb944430",
+  "byte_identical_replay": true,
+  "independent_checks": {
+    "J_bridge": "After reciprocal reindexing, D=p+r+b+1=N_(0,b), the odd-character weight is q_sin(D), and D(D-p)=D^2 mod p. Expanding (1+z)(1+z^2) and (1+z)^4 gives exactly the coefficients (1,1,1,1) and (1,4,6,4,1), proving both J identities with the displayed 2epsilon factor.",
+    "Witt_compatibility": "Substitution into frozen Item234 Omega^W=-6epsilon M^(1)+6J+E gives Omega^W=-6epsilon M^(1)+12epsilon V^sin+E. Only after the first gate makes M^(1) defined does Omega^W=0 become the stated p^3 compatibility.",
+    "tower_recurrence": "For the pole-deleted functional Lambda_k, Lambda_k((z^N)')=Lambda_(k-1)(z^N), including deleted N divisible by p. Applying this to the exact Pearson derivative identity proves the all-k recurrence with no factor k-1.",
+    "terminal_scope": "At Abar_t=0, level k determines the formerly free fourth coordinate at level k-1 and leaves the fourth coordinate at level k free. Any finite denominator tower therefore shifts rather than removes the single free terminal coordinate.",
+    "E_functional_identification": "The checker pairs the sectioned harmonic/quadratic E kernel against all 368 canonical actual polynomials and also compares every one of the 17 degree<=16 basis vectors with a separately implemented direct convolution.",
+    "rank_witness": "The explicit F_29 matrix has six endpoint columns of rank 6 (minor determinant 5) and augmented rank 7 after E (minor determinant 9). This excludes only a universal linear u/v expression on F_29[z] degree<=16; nonlinear, actual-family, singular-coefficient, and enlarged-state identities remain open.",
+    "canonical_rows": 184,
+    "canonical_coordinates": 368,
+    "canonical_tower_recurrence_checks": 13800,
+    "canonical_E_actual_checks": 368,
+    "canonical_E_basis_checks": 17,
+    "extended_direct_limit": 181,
+    "extended_tower_power": 8,
+    "extended_rows": 266,
+    "extended_coordinates": 532,
+    "extended_J_checks": 532,
+    "extended_E_actual_checks": 532,
+    "extended_tower_recurrence_checks": 27930,
+    "extended_tower_factorization_checks": 1862,
+    "extended_certificate_sha256": "01e59bba82ab6c59257b9e829150357032ceae7b97bca1c7eabed0b3ce229d27",
+    "python_compile": true,
+    "canonical_replay": "byte-identical",
+    "control_character_scan": "two report CR bytes found and corrected before promotion; final package clean",
+    "host_path_scan": "clean",
+    "artifact_hashes": "match the corrected frozen manifest and SHA-256 ledger"
+  },
+  "classification": {
+    "PROVED": [
+      "the exact Hermite-carry bridge into the squared sine endpoint state",
+      "the conditional p^3 compatibility formula",
+      "the all-level denominator recurrence and terminal factorization",
+      "the scoped universal-linear F_29 rank obstruction for E versus the u/v state"
+    ],
+    "EXACT_REPLAY": [
+      "the frozen direct replay through p<=151 and tower through k<=6",
+      "the independent extension through p<=181 and tower through k<=8",
+      "the bounded p=109 denominator-span ranks through k<=12"
+    ],
+    "OPEN": [
+      "a finite enlarged recurrence for E with a genuinely new mode",
+      "nonlinear or actual-family-specific elimination of E",
+      "an all-power denominator-tower obstruction",
+      "all-prime or weighted common-log control and any Route-1 rate"
+    ]
+  },
+  "audit_conclusion": "Item240 proves that the J part of the actual j=1 Witt digit is already a squared endpoint coordinate and that denominator powers alone do not supply new endpoint modes. The remaining E functional is genuinely outside the universal u/v span in one exact row, but the scope is too narrow for an all-prime exclusion or rate booking."
+}

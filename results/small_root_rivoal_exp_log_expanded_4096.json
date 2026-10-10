@@ -1,0 +1,275 @@
+{
+  "N2_boundary_records": [
+    {
+      "A_1": "-3/2",
+      "A_2": "2/1",
+      "B_2": "0/1",
+      "B_2_over_2_power_M": "0/1",
+      "E_1": "-4/1",
+      "boundary_jump": "2*i*pi*A(2)",
+      "cleared_form": "q*Lambda=-a+i*(b*s-g), with a=2*q*A(1)*B(2), b=2*q*A(1)*A(2), g=2*q*A(2)*E(1) integers",
+      "exact_clearing": {
+        "coordinates": {
+          "U_i": "-6/1",
+          "V_1": "0/1",
+          "V_i": "16/1"
+        },
+        "q_minimal": 1,
+        "safe_clearing": 24,
+        "safe_over_minimal": 24
+      },
+      "lower_x_half_plane_boundary": "R_log=i*pi*A(2)-B(2)",
+      "parameters": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "principal_value_integral": "0/1",
+      "upper_x_half_plane_boundary": "R_log=-i*pi*A(2)-B(2)"
+    },
+    {
+      "A_1": "-1/1",
+      "A_2": "0/1",
+      "B_2": "4/1",
+      "B_2_over_2_power_M": "1/1",
+      "E_1": "-3/1",
+      "boundary_jump": "2*i*pi*A(2)",
+      "cleared_form": "q*Lambda=-a+i*(b*s-g), with a=2*q*A(1)*B(2), b=2*q*A(1)*A(2), g=2*q*A(2)*E(1) integers",
+      "exact_clearing": {
+        "coordinates": {
+          "U_i": "0/1",
+          "V_1": "8/1",
+          "V_i": "0/1"
+        },
+        "q_minimal": 1,
+        "safe_clearing": 1,
+        "safe_over_minimal": 1
+      },
+      "lower_x_half_plane_boundary": "R_log=i*pi*A(2)-B(2)",
+      "parameters": [
+        0,
+        1,
+        1,
+        2
+      ],
+      "principal_value_integral": "1/1",
+      "upper_x_half_plane_boundary": "R_log=-i*pi*A(2)-B(2)"
+    }
+  ],
+  "continuation_checks": [
+    {
+      "continued_integral": "(0.9413980927026535517822347729264672 + 1.0870328844729545963429477420413887j)",
+      "direct": "(0.9413980927026535517822347729264672 + 1.0870328844729545963429477420413887j)",
+      "parameters": [
+        1,
+        2,
+        1,
+        3
+      ],
+      "relative_error": "4.267264935e-91"
+    },
+    {
+      "continued_integral": "(0.42477796076937971538793014983850865 + 0.14159265358979323846264338327950288j)",
+      "direct": "(0.42477796076937971538793014983850865 + 0.14159265358979323846264338327950288j)",
+      "parameters": [
+        1,
+        2,
+        1,
+        4
+      ],
+      "relative_error": "1.096378675e-90"
+    },
+    {
+      "continued_integral": "(0.068996821171089252970391288210778661 - 0.01991766663817842509436664047411052j)",
+      "direct": "(0.068996821171089252970391288210778661 - 0.01991766663817842509436664047411052j)",
+      "parameters": [
+        1,
+        2,
+        1,
+        6
+      ],
+      "relative_error": "2.876517604e-89"
+    }
+  ],
+  "description": "Exact minimal coordinate clearing and numerical diagnostics for Rivoal's corrected simultaneous exp/log form at N=2,3,4,6.",
+  "exceptional_local_contraction": {
+    "N": 6,
+    "Y_coordinate_vector_in_basis_1_zeta_i_i_zeta": [
+      12,
+      -9,
+      "s-3",
+      "3*s-9"
+    ],
+    "Y_expression": "i(1+3*zeta)*s + 12-9*zeta-3*i-9*i*zeta",
+    "four_embedding_relative_norm_interval": [
+      "187.55559986474670839187059749326042",
+      "187.55559986474670839187077704068481"
+    ],
+    "four_embedding_relative_norm_polynomial_ascending": [
+      81,
+      -54,
+      6093,
+      -2028,
+      169
+    ],
+    "off_diagonal_pair_abs_squared_interval": [
+      "446.23062246798764836552894441240085",
+      "446.23062246798764836552894480486278"
+    ],
+    "parameters": [
+      0,
+      3,
+      0
+    ],
+    "q_minimal": 9,
+    "scope": "Intervals are rigorous rational enclosures obtained from the positive e series and alternating Machin arctangent series.",
+    "simultaneous_conjugate_pair_abs_squared_interval": [
+      "0.42031091193926711988636666852684270",
+      "0.42031091193926711988636746238614413"
+    ]
+  },
+  "finite_scan": {
+    "2": {
+      "case_count": 4096,
+      "cases_below_one": [],
+      "minimum_abs_Lambda": "2.0",
+      "minimum_parameters": [
+        0,
+        1,
+        0
+      ],
+      "minimum_q": 1,
+      "minimum_q_times_abs_Lambda": "2.0"
+    },
+    "3": {
+      "case_count": 4096,
+      "cases_below_one": [],
+      "minimum_abs_Lambda": "2.0",
+      "minimum_parameters": [
+        0,
+        1,
+        0
+      ],
+      "minimum_q": 1,
+      "minimum_q_times_abs_Lambda": "2.0"
+    },
+    "4": {
+      "case_count": 4096,
+      "cases_below_one": [],
+      "minimum_abs_Lambda": "2.0",
+      "minimum_parameters": [
+        0,
+        1,
+        0
+      ],
+      "minimum_q": 1,
+      "minimum_q_times_abs_Lambda": "2.0"
+    },
+    "6": {
+      "case_count": 4096,
+      "cases_below_one": [
+        {
+          "abs_Lambda": "0.0720348776926044552131265233492",
+          "parameters": [
+            0,
+            3,
+            0
+          ],
+          "q_minimal": 9,
+          "q_minimal_times_abs_Lambda": "0.648313899233440096918138710143"
+        }
+      ],
+      "minimum_abs_Lambda": "0.0720348776926044552131265233492",
+      "minimum_parameters": [
+        0,
+        3,
+        0
+      ],
+      "minimum_q": 9,
+      "minimum_q_times_abs_Lambda": "0.648313899233440096918138710143"
+    }
+  },
+  "fixed_slope_rates_at_lambda_2_mu_1": [
+    {
+      "N": 3,
+      "chi_log_remainder_rate": "0.282298470703061934777497890085",
+      "entropy": "1.90954250488443845535127146785",
+      "lambda": 2,
+      "lower_saddle_imag": "-0.116243432951830145554313333359",
+      "lower_saddle_real": "0.718619514067439359042498529718",
+      "mu": 1,
+      "rho_full_form_rate": "4.10138348047193884548004082579"
+    },
+    {
+      "N": 4,
+      "chi_log_remainder_rate": "-0.681943210552178647924317922796",
+      "entropy": "1.90954250488443845535127146785",
+      "lambda": 2,
+      "lower_saddle_imag": "-0.0803989224180422423351809821907",
+      "lower_saddle_real": "0.733806169066185397717118106621",
+      "mu": 1,
+      "rho_full_form_rate": "3.13714179921669826277822501291"
+    },
+    {
+      "N": 6,
+      "chi_log_remainder_rate": "-2.17080461946308460180924376472",
+      "entropy": "1.90954250488443845535127146785",
+      "lambda": 2,
+      "lower_saddle_imag": "-0.0509433314756112310767036768586",
+      "lower_saddle_real": "0.743243162721261676931366263716",
+      "mu": 1,
+      "rho_full_form_rate": "1.64828039030579230889329917098"
+    }
+  ],
+  "sample_exact_clearings": {
+    "2": {
+      "coordinates": {
+        "U_i": "-6/1",
+        "V_1": "0/1",
+        "V_i": "16/1"
+      },
+      "q_minimal": 1,
+      "safe_clearing": 24,
+      "safe_over_minimal": 24
+    },
+    "3": {
+      "coordinates": {
+        "U_i": "-9/2",
+        "U_i_zeta": "9/1",
+        "Vexp_i": "12/1",
+        "Vexp_i_zeta": "-24/1",
+        "Vlog_1": "135/4",
+        "Vlog_zeta": "27/1"
+      },
+      "q_minimal": 4,
+      "safe_clearing": 24,
+      "safe_over_minimal": 6
+    },
+    "4": {
+      "coordinates": {
+        "U_1": "-18/1",
+        "U_i": "-6/1",
+        "V_1": "102/1",
+        "V_i": "34/1"
+      },
+      "q_minimal": 1,
+      "safe_clearing": 24,
+      "safe_over_minimal": 24
+    },
+    "6": {
+      "coordinates": {
+        "U_i": "-15/2",
+        "U_i_zeta": "30/1",
+        "Vexp_i": "20/1",
+        "Vexp_i_zeta": "-80/1",
+        "Vlog_1": "189/2",
+        "Vlog_zeta": "-27/1"
+      },
+      "q_minimal": 2,
+      "safe_clearing": 24,
+      "safe_over_minimal": 12
+    }
+  },
+  "scan_scope_warning": "The finite scan is diagnostic only. The source note's fixed-slope no-go theorem is analytic and all-degree."
+}

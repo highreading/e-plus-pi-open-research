@@ -1,0 +1,1468 @@
+{
+  "capacity": {
+    "actual_target_rate": "OPEN",
+    "booking": 0,
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "one_target_universal_upper_rate": 1,
+    "raw_lcm_ambient_lower_rate": "at least 1/2+o(1)",
+    "raw_lcm_universal_upper_rate": 2
+  },
+  "date": "2026-09-01",
+  "dependencies": {
+    "count": 7,
+    "digest": "4e70a4707bfc591eea82510322080008071b3a53072b1f529976210a1d9cdf22",
+    "rows": [
+      {
+        "bytes": 16642,
+        "path": "sources/item265_beta_squarefull_capacity_report.md",
+        "sha256": "c41d8d2c813d4952ce5a038f291b932817c28ae5b0b1512df0a6bf0ba92a8daa"
+      },
+      {
+        "bytes": 3101,
+        "path": "results/item265_root_audit.json",
+        "sha256": "72e5f43c554e326d101d1b2c55de76f277a5a817eaa6b0fc2837dd8f6bbee24a"
+      },
+      {
+        "bytes": 14388,
+        "path": "sources/item316_beta_intermediate_ostrowski_no_go_report.md",
+        "sha256": "8d6dce8354f08e94a252a2120cf677d9a374df95507a9297dcb064a1982fb6b0"
+      },
+      {
+        "bytes": 3018,
+        "path": "results/item316_root_audit.json",
+        "sha256": "6cad978132f5f09c687aa8fcf8dcd92a7d917cf9411a69f679c7757139229175"
+      },
+      {
+        "bytes": 14747,
+        "path": "sources/item323_beta_all_depth_dual_transducer_no_go_report.md",
+        "sha256": "e0b5e7279079a17556a0b287ea18a40e461b6fdb8e45d8ef5a357434b8e6d9ef"
+      },
+      {
+        "bytes": 3105,
+        "path": "results/item323_beta_all_depth_dual_transducer_no_go_root_audit.json",
+        "sha256": "2455ebbc739cc235bea44e0d220dae6d29be73eac5a9e8a846465366562ca6c2"
+      },
+      {
+        "bytes": 13191,
+        "path": "sources/item335_beta_first_canonical_cofactor_zero_rate_report.md",
+        "sha256": "15bd02042bf8a11e774faeed48e21e3de9d89087e04e88df06d0db664041693c"
+      }
+    ]
+  },
+  "exact_controls": {
+    "bounded_rows_promoted": false,
+    "declared_n_values": [
+      5,
+      6,
+      8,
+      12,
+      20,
+      32,
+      48,
+      64
+    ],
+    "external_asymptotic_reproved": false,
+    "row_count": 8,
+    "rows": [
+      {
+        "A": 18,
+        "R": "436",
+        "a": "1001",
+        "actual_item316_target_claim": false,
+        "b": "18089",
+        "c": "71",
+        "canonical": true,
+        "cofactor_product_bit_length": 4,
+        "continuant_bit_length": 10,
+        "continuant_dominates_word_product": true,
+        "digits": [
+          3,
+          1,
+          6
+        ],
+        "digits_digest": "1d3c0277c00b091ac21c63764fb50918d74ca68ce69f8c3d798ebf9ddda53313",
+        "finite_only": true,
+        "finite_quadratic_lcm_bits_over_b_bits": "1/15",
+        "finite_tower_lcm_bits_over_b_bits": "4/15",
+        "m": 3,
+        "maximum_valuations_digest": "16a921eedb255099ffedcf51f26ea5a5594b62d9eb6d1cd7119197060f62d888",
+        "n": 5,
+        "quadratic_lcm": "1",
+        "quadratic_lcm_divides_tower_lcm": true,
+        "quadratic_values": [],
+        "quadratic_values_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "strict_intermediate_R_window": true,
+        "target_rows": [
+          {
+            "captured_bit_length": 1,
+            "captured_gcd": "1",
+            "label": "full_b",
+            "maximum_valuation_identity": true,
+            "target": "18089",
+            "target_bit_length": 15
+          },
+          {
+            "captured_bit_length": 1,
+            "captured_gcd": "1",
+            "label": "remove_declared_Aa_overlap",
+            "maximum_valuation_identity": true,
+            "target": "18089",
+            "target_bit_length": 15
+          }
+        ],
+        "tower_lcm": "8",
+        "tower_lcm_bit_length": 4,
+        "tower_lcm_divides_cofactor_product": true,
+        "universal_product_bound_bit_length": 8,
+        "universal_product_formula": true,
+        "word_product_bit_length": 10,
+        "z_digest": "6e3ce1802dafd8ed946d9147acc6d959fb20b50d907f924feb41ac56b3ee12fa",
+        "z_rows": [
+          [
+            3,
+            -8
+          ]
+        ]
+      },
+      {
+        "A": 22,
+        "R": "1508",
+        "a": "18089",
+        "actual_item316_target_claim": false,
+        "b": "398959",
+        "c": "1001",
+        "canonical": true,
+        "cofactor_product_bit_length": 10,
+        "continuant_bit_length": 15,
+        "continuant_dominates_word_product": true,
+        "digits": [
+          3,
+          1,
+          7,
+          1
+        ],
+        "digits_digest": "aeea064a4bcf50c98e12a88ff910adb8ac577c88eabbf2bc0cbe8991cb123be7",
+        "finite_only": true,
+        "finite_quadratic_lcm_bits_over_b_bits": "7/19",
+        "finite_tower_lcm_bits_over_b_bits": "10/19",
+        "m": 4,
+        "maximum_valuations_digest": "5c43bc5ad7cc8a55babaf59a11997757c5a9feafe5e8edb4079a6f03730e15e1",
+        "n": 6,
+        "quadratic_lcm": "125",
+        "quadratic_lcm_divides_tower_lcm": true,
+        "quadratic_values": [
+          125
+        ],
+        "quadratic_values_digest": "d15b88858777c3ec8e0d1e5edff603a5d3f24f1c49421aaefd5e678f439eeac7",
+        "strict_intermediate_R_window": true,
+        "target_rows": [
+          {
+            "captured_bit_length": 1,
+            "captured_gcd": "1",
+            "label": "full_b",
+            "maximum_valuation_identity": true,
+            "target": "398959",
+            "target_bit_length": 19
+          },
+          {
+            "captured_bit_length": 1,
+            "captured_gcd": "1",
+            "label": "remove_declared_Aa_overlap",
+            "maximum_valuation_identity": true,
+            "target": "36269",
+            "target_bit_length": 16
+          }
+        ],
+        "tower_lcm": "875",
+        "tower_lcm_bit_length": 10,
+        "tower_lcm_divides_cofactor_product": true,
+        "universal_product_bound_bit_length": 16,
+        "universal_product_formula": true,
+        "word_product_bit_length": 15,
+        "z_digest": "b35676aee7f513273fd59087addce2daf196314e6840e5b9496b02987bcec0e1",
+        "z_rows": [
+          [
+            3,
+            -7
+          ],
+          [
+            4,
+            -125
+          ]
+        ]
+      },
+      {
+        "A": 30,
+        "R": "599446",
+        "a": "10391023",
+        "actual_item316_target_claim": false,
+        "b": "312129649",
+        "c": "398959",
+        "canonical": true,
+        "cofactor_product_bit_length": 22,
+        "continuant_bit_length": 24,
+        "continuant_dominates_word_product": true,
+        "digits": [
+          3,
+          1,
+          7,
+          1,
+          11,
+          1
+        ],
+        "digits_digest": "6db901999e2db42b63486f83b27a7f20903a5e4a278732b0bc02f636d7ac27eb",
+        "finite_only": true,
+        "finite_quadratic_lcm_bits_over_b_bits": "13/29",
+        "finite_tower_lcm_bits_over_b_bits": "20/29",
+        "m": 6,
+        "maximum_valuations_digest": "8fe337b44f13fd6fccf24e0e65fc4c144cc267b473e39c2f796f3829f7399dea",
+        "n": 8,
+        "quadratic_lcm": "7125",
+        "quadratic_lcm_divides_tower_lcm": true,
+        "quadratic_values": [
+          125,
+          285
+        ],
+        "quadratic_values_digest": "78cc87d6737e21e4f2c30f0de4d4776d68b30c76b666d8a272ffcc683a22fc16",
+        "strict_intermediate_R_window": true,
+        "target_rows": [
+          {
+            "captured_bit_length": 1,
+            "captured_gcd": "1",
+            "label": "full_b",
+            "maximum_valuation_identity": true,
+            "target": "312129649",
+            "target_bit_length": 29
+          },
+          {
+            "captured_bit_length": 1,
+            "captured_gcd": "1",
+            "label": "remove_declared_Aa_overlap",
+            "maximum_valuation_identity": true,
+            "target": "312129649",
+            "target_bit_length": 29
+          }
+        ],
+        "tower_lcm": "548625",
+        "tower_lcm_bit_length": 20,
+        "tower_lcm_divides_cofactor_product": true,
+        "universal_product_bound_bit_length": 33,
+        "universal_product_formula": true,
+        "word_product_bit_length": 24,
+        "z_digest": "da1dd929ce6648b34e320e7afafa35a098ac0e0fc967f9ff44dfc6faf05457cf",
+        "z_rows": [
+          [
+            3,
+            -7
+          ],
+          [
+            4,
+            -125
+          ],
+          [
+            5,
+            -11
+          ],
+          [
+            6,
+            -285
+          ]
+        ]
+      },
+      {
+        "A": 46,
+        "R": "606280272162",
+        "a": "16977719590391",
+        "actual_item316_target_claim": false,
+        "b": "781379079653017",
+        "c": "403978495031",
+        "canonical": true,
+        "cofactor_product_bit_length": 49,
+        "continuant_bit_length": 44,
+        "continuant_dominates_word_product": true,
+        "digits": [
+          3,
+          1,
+          7,
+          1,
+          11,
+          1,
+          15,
+          1,
+          19,
+          1
+        ],
+        "digits_digest": "3edef4781357f3ef20920c2bebae94b82731ab54cfdc8e7eb920ecd3b08d764a",
+        "finite_only": true,
+        "finite_quadratic_lcm_bits_over_b_bits": "32/50",
+        "finite_tower_lcm_bits_over_b_bits": "38/50",
+        "m": 10,
+        "maximum_valuations_digest": "c155d8241f2d4a667c9394e82d8faae1847d44242c5c2f77cd13b1b058d4c902",
+        "n": 12,
+        "quadratic_lcm": "2890420125",
+        "quadratic_lcm_divides_tower_lcm": true,
+        "quadratic_values": [
+          125,
+          285,
+          509,
+          797
+        ],
+        "quadratic_values_digest": "282633ce89f5f6c665a9d1af35a4cd17cb82b320bf11039c980035b9f0a9264b",
+        "strict_intermediate_R_window": true,
+        "target_rows": [
+          {
+            "captured_bit_length": 1,
+            "captured_gcd": "1",
+            "label": "full_b",
+            "maximum_valuation_identity": true,
+            "target": "781379079653017",
+            "target_bit_length": 50
+          },
+          {
+            "captured_bit_length": 1,
+            "captured_gcd": "1",
+            "label": "remove_declared_Aa_overlap",
+            "maximum_valuation_identity": true,
+            "target": "781379079653017",
+            "target_bit_length": 50
+          }
+        ],
+        "tower_lcm": "222562349625",
+        "tower_lcm_bit_length": 38,
+        "tower_lcm_divides_cofactor_product": true,
+        "universal_product_bound_bit_length": 74,
+        "universal_product_formula": true,
+        "word_product_bit_length": 44,
+        "z_digest": "e82931b3112537bfed902f1d989d5b9798d12635f223c95a65958b48c8b5d40e",
+        "z_rows": [
+          [
+            3,
+            -7
+          ],
+          [
+            4,
+            -125
+          ],
+          [
+            5,
+            -11
+          ],
+          [
+            6,
+            -285
+          ],
+          [
+            7,
+            -15
+          ],
+          [
+            8,
+            -509
+          ],
+          [
+            9,
+            -19
+          ],
+          [
+            10,
+            -797
+          ]
+        ]
+      },
+      {
+        "A": 78,
+        "R": "52680503343744480957799482",
+        "a": "2599031470043405251089952039",
+        "actual_item316_target_claim": false,
+        "b": "202759569932735203392750534601",
+        "c": "35115269349593807734275559",
+        "canonical": true,
+        "cofactor_product_bit_length": 111,
+        "continuant_bit_length": 92,
+        "continuant_dominates_word_product": true,
+        "digits": [
+          3,
+          1,
+          7,
+          1,
+          11,
+          1,
+          15,
+          1,
+          19,
+          1,
+          23,
+          1,
+          27,
+          1,
+          31,
+          1,
+          35,
+          1
+        ],
+        "digits_digest": "0e9bce85db2a8a11fa3cb3079f360dfed46e59f0d25f98e8f83c35ff47fbfd8e",
+        "finite_only": true,
+        "finite_quadratic_lcm_bits_over_b_bits": "67/98",
+        "finite_tower_lcm_bits_over_b_bits": "86/98",
+        "m": 18,
+        "maximum_valuations_digest": "dfff09f77113b4c8ab3adf3840dbedc5cd101ca59cb6bd989dfe898597594c6b",
+        "n": 20,
+        "quadratic_lcm": "122303303457953434125",
+        "quadratic_lcm_divides_tower_lcm": true,
+        "quadratic_values": [
+          125,
+          285,
+          509,
+          797,
+          1149,
+          1565,
+          2045,
+          2589
+        ],
+        "quadratic_values_digest": "8b42c423d3c183227de61ef9480078529438a6c000a04eda00df6e933940128a",
+        "strict_intermediate_R_window": true,
+        "target_rows": [
+          {
+            "captured_bit_length": 1,
+            "captured_gcd": "1",
+            "label": "full_b",
+            "maximum_valuation_identity": true,
+            "target": "202759569932735203392750534601",
+            "target_bit_length": 98
+          },
+          {
+            "captured_bit_length": 1,
+            "captured_gcd": "1",
+            "label": "remove_declared_Aa_overlap",
+            "maximum_valuation_identity": true,
+            "target": "202759569932735203392750534601",
+            "target_bit_length": 98
+          }
+        ],
+        "tower_lcm": "60431162968305913382069625",
+        "tower_lcm_bit_length": 86,
+        "tower_lcm_divides_cofactor_product": true,
+        "universal_product_bound_bit_length": 167,
+        "universal_product_formula": true,
+        "word_product_bit_length": 92,
+        "z_digest": "c0ac05e1a8e307455c1693ae240bc7002db84b2cdd064aa34ccc7d162ebb1d44",
+        "z_rows": [
+          [
+            3,
+            -7
+          ],
+          [
+            4,
+            -125
+          ],
+          [
+            5,
+            -11
+          ],
+          [
+            6,
+            -285
+          ],
+          [
+            7,
+            -15
+          ],
+          [
+            8,
+            -509
+          ],
+          [
+            9,
+            -19
+          ],
+          [
+            10,
+            -797
+          ],
+          [
+            11,
+            -23
+          ],
+          [
+            12,
+            -1149
+          ],
+          [
+            13,
+            -27
+          ],
+          [
+            14,
+            -1565
+          ],
+          [
+            15,
+            -31
+          ],
+          [
+            16,
+            -2045
+          ],
+          [
+            17,
+            -35
+          ],
+          [
+            18,
+            -2589
+          ]
+        ]
+      },
+      {
+        "A": 126,
+        "R": "28481327816296866916872777704033829859917178189406",
+        "a": "2316527431787007561880163338149499667552759092275391",
+        "actual_item316_target_claim": false,
+        "b": "291901443016148719520382043974246244565900898737885377",
+        "c": "18986610985766723481463367409286454253253111186111",
+        "canonical": true,
+        "cofactor_product_bit_length": 218,
+        "continuant_bit_length": 171,
+        "continuant_dominates_word_product": true,
+        "digits": [
+          3,
+          1,
+          7,
+          1,
+          11,
+          1,
+          15,
+          1,
+          19,
+          1,
+          23,
+          1,
+          27,
+          1,
+          31,
+          1,
+          35,
+          1,
+          39,
+          1,
+          43,
+          1,
+          47,
+          1,
+          51,
+          1,
+          55,
+          1,
+          59,
+          1
+        ],
+        "digits_digest": "2879f500ea540a6ad2ca6e9ad03e0468b0e547cbfe3ebd1f37d30172d9e4213a",
+        "finite_only": true,
+        "finite_quadratic_lcm_bits_over_b_bits": "128/178",
+        "finite_tower_lcm_bits_over_b_bits": "162/178",
+        "m": 30,
+        "maximum_valuations_digest": "88145fd35dda795a83f24681f7d229186b8d1b9c129e7648a9370db82482e756",
+        "n": 32,
+        "quadratic_lcm": "328279909377903454721439864925485463875",
+        "quadratic_lcm_divides_tower_lcm": true,
+        "quadratic_values": [
+          125,
+          285,
+          509,
+          797,
+          1149,
+          1565,
+          2045,
+          2589,
+          3197,
+          3869,
+          4605,
+          5405,
+          6269,
+          7197
+        ],
+        "quadratic_values_digest": "409bee4220577ae24966a9b35a2a0da93f9a66306291f74deabda5539f0b6036",
+        "strict_intermediate_R_window": true,
+        "target_rows": [
+          {
+            "captured_bit_length": 3,
+            "captured_gcd": "7",
+            "label": "full_b",
+            "maximum_valuation_identity": true,
+            "target": "291901443016148719520382043974246244565900898737885377",
+            "target_bit_length": 178
+          },
+          {
+            "captured_bit_length": 1,
+            "captured_gcd": "1",
+            "label": "remove_declared_Aa_overlap",
+            "maximum_valuation_identity": true,
+            "target": "41700206145164102788626006282035177795128699819697911",
+            "target_bit_length": 175
+          }
+        ],
+        "tower_lcm": "3954139384220152997401525395091271839696138825125",
+        "tower_lcm_bit_length": 162,
+        "tower_lcm_divides_cofactor_product": true,
+        "universal_product_bound_bit_length": 326,
+        "universal_product_formula": true,
+        "word_product_bit_length": 171,
+        "z_digest": "f3edc916beee12a5b0e5faab4f126d720ee6e8e7dc1afa8916ebaf1bbd343b21",
+        "z_rows": [
+          [
+            3,
+            -7
+          ],
+          [
+            4,
+            -125
+          ],
+          [
+            5,
+            -11
+          ],
+          [
+            6,
+            -285
+          ],
+          [
+            7,
+            -15
+          ],
+          [
+            8,
+            -509
+          ],
+          [
+            9,
+            -19
+          ],
+          [
+            10,
+            -797
+          ],
+          [
+            11,
+            -23
+          ],
+          [
+            12,
+            -1149
+          ],
+          [
+            13,
+            -27
+          ],
+          [
+            14,
+            -1565
+          ],
+          [
+            15,
+            -31
+          ],
+          [
+            16,
+            -2045
+          ],
+          [
+            17,
+            -35
+          ],
+          [
+            18,
+            -2589
+          ],
+          [
+            19,
+            -39
+          ],
+          [
+            20,
+            -3197
+          ],
+          [
+            21,
+            -43
+          ],
+          [
+            22,
+            -3869
+          ],
+          [
+            23,
+            -47
+          ],
+          [
+            24,
+            -4605
+          ],
+          [
+            25,
+            -51
+          ],
+          [
+            26,
+            -5405
+          ],
+          [
+            27,
+            -55
+          ],
+          [
+            28,
+            -6269
+          ],
+          [
+            29,
+            -59
+          ],
+          [
+            30,
+            -7197
+          ]
+        ]
+      },
+      {
+        "A": 190,
+        "R": "2053769607410278527396001066496511187889278978451156280431231095636279728293754444174",
+        "a": "254669713441496049065960497065826844339091640366021335301299908168685499460692276813343",
+        "actual_item316_target_claim": false,
+        "b": "48388614705448028384771656904696936765369480134195088781454141747829241901416710091298849",
+        "c": "1369151563779062239162462189836340942068464651035074207159195778997003885177496763679",
+        "canonical": true,
+        "cofactor_product_bit_length": 377,
+        "continuant_bit_length": 288,
+        "continuant_dominates_word_product": true,
+        "digits": [
+          3,
+          1,
+          7,
+          1,
+          11,
+          1,
+          15,
+          1,
+          19,
+          1,
+          23,
+          1,
+          27,
+          1,
+          31,
+          1,
+          35,
+          1,
+          39,
+          1,
+          43,
+          1,
+          47,
+          1,
+          51,
+          1,
+          55,
+          1,
+          59,
+          1,
+          63,
+          1,
+          67,
+          1,
+          71,
+          1,
+          75,
+          1,
+          79,
+          1,
+          83,
+          1,
+          87,
+          1,
+          91,
+          1
+        ],
+        "digits_digest": "6519e9e9023223f173737028e78a6d1e82fccdf403b56e99e3341a0b7caf4a31",
+        "finite_only": true,
+        "finite_quadratic_lcm_bits_over_b_bits": "214/295",
+        "finite_tower_lcm_bits_over_b_bits": "265/295",
+        "m": 46,
+        "maximum_valuations_digest": "53fe9939d641ea09fe7b98f5854a194f2d58a3f7a24cd96061c144812b6e1d8d",
+        "n": 48,
+        "quadratic_lcm": "13865653296458207798510430274953957646494067060510356450491646375",
+        "quadratic_lcm_divides_tower_lcm": true,
+        "quadratic_values": [
+          125,
+          285,
+          509,
+          797,
+          1149,
+          1565,
+          2045,
+          2589,
+          3197,
+          3869,
+          4605,
+          5405,
+          6269,
+          7197,
+          8189,
+          9245,
+          10365,
+          11549,
+          12797,
+          14109,
+          15485,
+          16925
+        ],
+        "quadratic_values_digest": "c9126694668cf625fbc66b64cb9f141bc5a1abf87199426eca8a4487c7695f80",
+        "strict_intermediate_R_window": true,
+        "target_rows": [
+          {
+            "captured_bit_length": 9,
+            "captured_gcd": "341",
+            "label": "full_b",
+            "maximum_valuation_identity": true,
+            "target": "48388614705448028384771656904696936765369480134195088781454141747829241901416710091298849",
+            "target_bit_length": 295
+          },
+          {
+            "captured_bit_length": 9,
+            "captured_gcd": "341",
+            "label": "remove_declared_Aa_overlap",
+            "maximum_valuation_identity": true,
+            "target": "48388614705448028384771656904696936765369480134195088781454141747829241901416710091298849",
+            "target_bit_length": 295
+          }
+        ],
+        "tower_lcm": "52437391643164669935755565092703061094020667839798929807821572178569336038700125",
+        "tower_lcm_bit_length": 265,
+        "tower_lcm_divides_cofactor_product": true,
+        "universal_product_bound_bit_length": 558,
+        "universal_product_formula": true,
+        "word_product_bit_length": 287,
+        "z_digest": "e291020bb89bbe3f47220bfc45c9cbcda4211bd51328746508433c6e1bb16d62",
+        "z_rows": [
+          [
+            3,
+            -7
+          ],
+          [
+            4,
+            -125
+          ],
+          [
+            5,
+            -11
+          ],
+          [
+            6,
+            -285
+          ],
+          [
+            7,
+            -15
+          ],
+          [
+            8,
+            -509
+          ],
+          [
+            9,
+            -19
+          ],
+          [
+            10,
+            -797
+          ],
+          [
+            11,
+            -23
+          ],
+          [
+            12,
+            -1149
+          ],
+          [
+            13,
+            -27
+          ],
+          [
+            14,
+            -1565
+          ],
+          [
+            15,
+            -31
+          ],
+          [
+            16,
+            -2045
+          ],
+          [
+            17,
+            -35
+          ],
+          [
+            18,
+            -2589
+          ],
+          [
+            19,
+            -39
+          ],
+          [
+            20,
+            -3197
+          ],
+          [
+            21,
+            -43
+          ],
+          [
+            22,
+            -3869
+          ],
+          [
+            23,
+            -47
+          ],
+          [
+            24,
+            -4605
+          ],
+          [
+            25,
+            -51
+          ],
+          [
+            26,
+            -5405
+          ],
+          [
+            27,
+            -55
+          ],
+          [
+            28,
+            -6269
+          ],
+          [
+            29,
+            -59
+          ],
+          [
+            30,
+            -7197
+          ],
+          [
+            31,
+            -63
+          ],
+          [
+            32,
+            -8189
+          ],
+          [
+            33,
+            -67
+          ],
+          [
+            34,
+            -9245
+          ],
+          [
+            35,
+            -71
+          ],
+          [
+            36,
+            -10365
+          ],
+          [
+            37,
+            -75
+          ],
+          [
+            38,
+            -11549
+          ],
+          [
+            39,
+            -79
+          ],
+          [
+            40,
+            -12797
+          ],
+          [
+            41,
+            -83
+          ],
+          [
+            42,
+            -14109
+          ],
+          [
+            43,
+            -87
+          ],
+          [
+            44,
+            -15485
+          ],
+          [
+            45,
+            -91
+          ],
+          [
+            46,
+            -16925
+          ]
+        ]
+      },
+      {
+        "A": 254,
+        "R": "43498772317313236388409461566762334613294818840148010784055306579436289127856189013118153062971890468508991250002636680382",
+        "a": "7249832081458117890929669557859671740402219835030633576952452647279404048225760898884084828693857393044299759924372978936191",
+        "actual_item316_target_claim": false,
+        "b": "1841486347547169570092945772950826003719707209754290404774506230391440723147125561461862831100665113233133531653644831190993281",
+        "c": "28998856807625796809705254469381657543371656509476228583257982472094897782293145305284612425335399881392632854094541200767",
+        "canonical": true,
+        "cofactor_product_bit_length": 547,
+        "continuant_bit_length": 412,
+        "continuant_dominates_word_product": true,
+        "digits": [
+          3,
+          1,
+          7,
+          1,
+          11,
+          1,
+          15,
+          1,
+          19,
+          1,
+          23,
+          1,
+          27,
+          1,
+          31,
+          1,
+          35,
+          1,
+          39,
+          1,
+          43,
+          1,
+          47,
+          1,
+          51,
+          1,
+          55,
+          1,
+          59,
+          1,
+          63,
+          1,
+          67,
+          1,
+          71,
+          1,
+          75,
+          1,
+          79,
+          1,
+          83,
+          1,
+          87,
+          1,
+          91,
+          1,
+          95,
+          1,
+          99,
+          1,
+          103,
+          1,
+          107,
+          1,
+          111,
+          1,
+          115,
+          1,
+          119,
+          1,
+          123,
+          1
+        ],
+        "digits_digest": "76608be7075574a39dec6da07c976cb068c2cf2b0d473eab0024c2031c7278d8",
+        "finite_only": true,
+        "finite_quadratic_lcm_bits_over_b_bits": "308/420",
+        "finite_tower_lcm_bits_over_b_bits": "373/420",
+        "m": 62,
+        "maximum_valuations_digest": "f8b18d34e9b1475e2439c96049c8cee85a333e868f4c44d4a1d8dee8c0adf216",
+        "n": 64,
+        "quadratic_lcm": "366112639628310647106643355776853810242838549467684284887443769498345676211828835435202096375",
+        "quadratic_lcm_divides_tower_lcm": true,
+        "quadratic_values": [
+          125,
+          285,
+          509,
+          797,
+          1149,
+          1565,
+          2045,
+          2589,
+          3197,
+          3869,
+          4605,
+          5405,
+          6269,
+          7197,
+          8189,
+          9245,
+          10365,
+          11549,
+          12797,
+          14109,
+          15485,
+          16925,
+          18429,
+          19997,
+          21629,
+          23325,
+          25085,
+          26909,
+          28797,
+          30749
+        ],
+        "quadratic_values_digest": "df4b03adfa1b59e5dbc338ba3485db22e30a0e94e9c1c27a4e702d86e17994c1",
+        "strict_intermediate_R_window": true,
+        "target_rows": [
+          {
+            "captured_bit_length": 1,
+            "captured_gcd": "1",
+            "label": "full_b",
+            "maximum_valuation_identity": true,
+            "target": "1841486347547169570092945772950826003719707209754290404774506230391440723147125561461862831100665113233133531653644831190993281",
+            "target_bit_length": 420
+          },
+          {
+            "captured_bit_length": 1,
+            "captured_gcd": "1",
+            "label": "remove_declared_Aa_overlap",
+            "maximum_valuation_identity": true,
+            "target": "1841486347547169570092945772950826003719707209754290404774506230391440723147125561461862831100665113233133531653644831190993281",
+            "target_bit_length": 420
+          }
+        ],
+        "tower_lcm": "11242572665742866465112948802262545952884301690244626616354321571116991902660159933769906924550128318791900765375",
+        "tower_lcm_bit_length": 373,
+        "tower_lcm_divides_cofactor_product": true,
+        "universal_product_bound_bit_length": 806,
+        "universal_product_formula": true,
+        "word_product_bit_length": 412,
+        "z_digest": "9c48a647c99b23e0db5c8c08acbfa4c89585c157fbbf4bc0f082a885059ca349",
+        "z_rows": [
+          [
+            3,
+            -7
+          ],
+          [
+            4,
+            -125
+          ],
+          [
+            5,
+            -11
+          ],
+          [
+            6,
+            -285
+          ],
+          [
+            7,
+            -15
+          ],
+          [
+            8,
+            -509
+          ],
+          [
+            9,
+            -19
+          ],
+          [
+            10,
+            -797
+          ],
+          [
+            11,
+            -23
+          ],
+          [
+            12,
+            -1149
+          ],
+          [
+            13,
+            -27
+          ],
+          [
+            14,
+            -1565
+          ],
+          [
+            15,
+            -31
+          ],
+          [
+            16,
+            -2045
+          ],
+          [
+            17,
+            -35
+          ],
+          [
+            18,
+            -2589
+          ],
+          [
+            19,
+            -39
+          ],
+          [
+            20,
+            -3197
+          ],
+          [
+            21,
+            -43
+          ],
+          [
+            22,
+            -3869
+          ],
+          [
+            23,
+            -47
+          ],
+          [
+            24,
+            -4605
+          ],
+          [
+            25,
+            -51
+          ],
+          [
+            26,
+            -5405
+          ],
+          [
+            27,
+            -55
+          ],
+          [
+            28,
+            -6269
+          ],
+          [
+            29,
+            -59
+          ],
+          [
+            30,
+            -7197
+          ],
+          [
+            31,
+            -63
+          ],
+          [
+            32,
+            -8189
+          ],
+          [
+            33,
+            -67
+          ],
+          [
+            34,
+            -9245
+          ],
+          [
+            35,
+            -71
+          ],
+          [
+            36,
+            -10365
+          ],
+          [
+            37,
+            -75
+          ],
+          [
+            38,
+            -11549
+          ],
+          [
+            39,
+            -79
+          ],
+          [
+            40,
+            -12797
+          ],
+          [
+            41,
+            -83
+          ],
+          [
+            42,
+            -14109
+          ],
+          [
+            43,
+            -87
+          ],
+          [
+            44,
+            -15485
+          ],
+          [
+            45,
+            -91
+          ],
+          [
+            46,
+            -16925
+          ],
+          [
+            47,
+            -95
+          ],
+          [
+            48,
+            -18429
+          ],
+          [
+            49,
+            -99
+          ],
+          [
+            50,
+            -19997
+          ],
+          [
+            51,
+            -103
+          ],
+          [
+            52,
+            -21629
+          ],
+          [
+            53,
+            -107
+          ],
+          [
+            54,
+            -23325
+          ],
+          [
+            55,
+            -111
+          ],
+          [
+            56,
+            -25085
+          ],
+          [
+            57,
+            -115
+          ],
+          [
+            58,
+            -26909
+          ],
+          [
+            59,
+            -119
+          ],
+          [
+            60,
+            -28797
+          ],
+          [
+            61,
+            -123
+          ],
+          [
+            62,
+            -30749
+          ]
+        ]
+      }
+    ],
+    "rows_digest": "585bd4da1d6c15e3328e233e6bc3c6cc796c62f9e18cb2e85cd562162063c248",
+    "target_census_performed": false
+  },
+  "item": 337,
+  "proof_object": {
+    "actual_family_implication": "An Item-316 target supplies a canonical digit word and the exact cofactors z_j=epsilon(delta_j-w_j delta_(j-1)); Item 335 proves that at least one z_j is nonzero.",
+    "canonical_witness": "Set delta_1=3, delta_j=1 at even j and w_j/2 at odd j; when m is odd lower delta_m by one. This is canonical and lies strictly between a/(2c) and a/2.",
+    "capacity_decision": "The canonical intermediate-window class admits log Lambda>=(1/2+o(1))log b. Hence fixed-complexity closure does not extend to the full tower; Lambda is a bulk invariant.",
+    "external_published_input": {
+      "author": "Javier Cilleruelo",
+      "reproved_by_replay": false,
+      "theorem": "For irreducible quadratic f in Z[x], log lcm(f(1),...,f(N))=N log N+O_f(N).",
+      "title": "The least common multiple of a quadratic sequence",
+      "url": "https://arxiv.org/abs/1001.3438"
+    },
+    "one_target_ceiling": "For every de-overlapped Q|b, gcd(Q,Lambda)|Q, so the tower can supply at most log Q<=log b, never two target copies.",
+    "primitive_tower": "Lambda=lcm_{z_j nonzero}|z_j|. For Q|b, log gcd(Q,Lambda) equals sum_p min(v_p(Q),max_j v_p(z_j)) log p.",
+    "quadratic_subsequence": "For every even j=2r>=4, |z_j|=32r^2-3, whose discriminant 384 is nonsquare; gcd(|f(0)|,|f(1)|)=gcd(3,29)=1.",
+    "strict_scope": "The witness is not asserted to satisfy Item 316's small-error or Delta=0 target equation. Actual target overlap with Q remains open and no capacity is booked.",
+    "universal_upper": "Lambda<=product_{j=3}^m w_j w_(j-1)=W_m^2/(w_1^2 w_2 w_m), while W_m<=a<exp(1/8)W_m; therefore log Lambda<=2 log b-3 log A+O(1)."
+  },
+  "proof_object_digest": "18280f23fb2657853405c5238cfd610ae78e3fa2780ab2db4e160a1d0800885c",
+  "schema": "item337-beta-global-cofactor-lcm-capacity-certificate-v1",
+  "status": "PROVED_GLOBAL_LCM_CAPACITY_DECISION_FIRST_BULK_INVARIANT",
+  "strict_scope": {
+    "actual_target_claim_from_witness": false,
+    "canonical_files_modified": false,
+    "closes": [
+      "product booking across cofactor depths",
+      "the claim that every growing-depth canonical cofactor tower is zero rate",
+      "extension of Item 335's fixed-complexity no-go to the full lcm tower"
+    ],
+    "does_not_close": [
+      "the original Item-316 target or centered half-bound",
+      "target-specific shared prime mass Gamma_Q",
+      "removal of every old denominator reservoir",
+      "beta capacity, Route 1, or e+pi"
+    ],
+    "finite_rows_promoted": false,
+    "isolates": [
+      "Lambda as the first overlap-normalized bulk cofactor invariant",
+      "Gamma_Q=log gcd(Q,Lambda) as the exact actual-family capacity question"
+    ]
+  },
+  "theorem": {
+    "actual_target_shared_mass": "OPEN",
+    "actual_target_to_nonempty_cofactor_tower": "PROVED",
+    "ambient_primitive_lcm_rate_at_least_one_half": "PROVED USING PUBLISHED QUADRATIC-LCM THEOREM",
+    "canonical_intermediate_window_witness": "PROVED",
+    "centered_half_bound": "OPEN",
+    "exact_cross_depth_overlap_normalization": "PROVED",
+    "full_tower_zero_rate_from_canonical_window_data": "DISPROVED",
+    "one_deoverlapped_target_rate_at_most_one": "PROVED",
+    "quadratic_subsequence": "PROVED",
+    "universal_lcm_upper_rate_at_most_two": "PROVED"
+  }
+}

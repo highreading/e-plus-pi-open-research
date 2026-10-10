@@ -1,0 +1,146 @@
+{
+  "bounds": {
+    "all_complementary_indices": "0<=m<=p-1 (equivalently 0<=d<p)",
+    "odd_primes_other_than_5_max": 200,
+    "prime_count": 44
+  },
+  "dependency_sha256": "54a74d69f15835727b0d8ca5073205f2b3ff3691afa49be06d89b0edb532a38a",
+  "description": "Exact linear-remainder, resultant, and lacunary H coupling checks.",
+  "exact_product_only_counterexample": {
+    "P4_x": 3,
+    "P4_y": 0,
+    "W_u": 3,
+    "W_v": 0,
+    "d": 4,
+    "m": 6,
+    "p": 11,
+    "remainder_a": 10,
+    "remainder_b": 3,
+    "u": 5,
+    "v": 4,
+    "x": 9,
+    "y": 3,
+    "zeta": 4
+  },
+  "finite_diagnostics": {
+    "first_resultant_zero_but_common_ideal_unit_cases": [
+      {
+        "d": 4,
+        "m": 6,
+        "p": 11
+      },
+      {
+        "d": 29,
+        "m": 1,
+        "p": 31
+      },
+      {
+        "d": 19,
+        "m": 11,
+        "p": 31
+      },
+      {
+        "d": 5,
+        "m": 25,
+        "p": 31
+      },
+      {
+        "d": 22,
+        "m": 18,
+        "p": 41
+      },
+      {
+        "d": 59,
+        "m": 1,
+        "p": 61
+      },
+      {
+        "d": 57,
+        "m": 3,
+        "p": 61
+      },
+      {
+        "d": 48,
+        "m": 12,
+        "p": 61
+      },
+      {
+        "d": 27,
+        "m": 33,
+        "p": 61
+      },
+      {
+        "d": 3,
+        "m": 57,
+        "p": 61
+      },
+      {
+        "d": 65,
+        "m": 5,
+        "p": 71
+      },
+      {
+        "d": 51,
+        "m": 19,
+        "p": 71
+      },
+      {
+        "d": 61,
+        "m": 39,
+        "p": 101
+      },
+      {
+        "d": 27,
+        "m": 73,
+        "p": 101
+      },
+      {
+        "d": 21,
+        "m": 79,
+        "p": 101
+      },
+      {
+        "d": 19,
+        "m": 81,
+        "p": 101
+      },
+      {
+        "d": 100,
+        "m": 30,
+        "p": 131
+      },
+      {
+        "d": 92,
+        "m": 38,
+        "p": 131
+      },
+      {
+        "d": 81,
+        "m": 49,
+        "p": 131
+      },
+      {
+        "d": 73,
+        "m": 57,
+        "p": 131
+      }
+    ],
+    "true_common_ideal_hits": [
+      {
+        "d": 15,
+        "m": 3,
+        "p": 19
+      }
+    ]
+  },
+  "identity_checks": {
+    "M_fifth_power_and_five_block_recurrence": true,
+    "W_differential_equation": true,
+    "lacunary_H_and_derivative_coupling": true,
+    "linear_remainder_at_u_and_v": true,
+    "resultant_product_and_radical_data": true
+  },
+  "scope_warning": "The finite scan does not prove that 19 is the only common support prime.  The p=11 example refutes use of the product/resultant alone, not the true two-generator support conjecture or any statement about e+pi.",
+  "script_sha256": "63b2c86ef7017bef8e74d4eba839f101750e0e35be4528c837c46ab8185e650a",
+  "source_sha256": "15bfc2bc01a61c9e0361c891995643e470f383acfd88ae13e14293fbfe4062ba"
+}

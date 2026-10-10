@@ -1,0 +1,213 @@
+{
+  "adjacent_minor_counterexample": {
+    "c": 52,
+    "meaning": "The target-independent right-factor minor is not always a unit, so the exact order-two reduction gives no first-order injectivity theorem.",
+    "minor_transcript_sha256": "9af8645eb661a6b557f46e4c52237154223b37aeae39d646cd1445e13247e76f",
+    "n": 2,
+    "prime": 109,
+    "zero_adjacent_minor_v": [
+      18,
+      22,
+      42
+    ]
+  },
+  "at_most_three_target_returns": "false",
+  "at_most_two_target_returns": "false",
+  "description": "Exact four-return target counterexample, global-to-endpoint operator specialization, reset pivots, and generating equation",
+  "symbolic_band_specialization": {
+    "four_times_global_operator_mod_p": "endpoint_operator",
+    "lower_reset_pivot": "-8*p*(p + 1)",
+    "upper_reset_pivot": "p*(p - 1)"
+  },
+  "symbolic_generating_equation": {
+    "constant_coefficient": "8*n**2*t**2 - 16*n**2*t + 4*n**2 + 72*n*t**2 - 20*n*t - 192*t**3 + 88*t**2 - 6*t - 1",
+    "homogeneous_boundary_kernel_dimension": 0,
+    "inhomogeneous_boundary_coefficients": [
+      "x0*(2*n - 1)*(2*n + 1)",
+      "-(2*n + 1)*(8*n*x0 - 2*n*x1 + 6*x0 - 3*x1)",
+      "8*n**2*x0 - 16*n**2*x1 + 4*n**2*x2 + 72*n*x0 - 76*n*x1 + 16*n*x2 + 88*x0 - 78*x1 + 15*x2"
+    ],
+    "initial_state_triangular_diagonal": [
+      "(2*n - 1)*(2*n + 1)",
+      "(2*n + 1)*(2*n + 3)",
+      "(2*n + 3)*(2*n + 5)"
+    ],
+    "theta_coefficient": "-8*(4*t - 1)*(-3*n*t + n + 10*t**2 - 4*t)",
+    "theta_squared_coefficient": "-4*(2*t - 1)*(4*t - 1)**2"
+  },
+  "symbolic_integral_recurrence": {
+    "certificate_denominator": "8*(k + 1)*(k + 2)*(1 + x^2)^2",
+    "derivative_identity": "verified_symbolically",
+    "endpoint_values": "zero_from_x*(1-x)"
+  },
+  "target_return_cases": [
+    {
+      "all_zeros_isolated": true,
+      "c": 141938,
+      "direct_initial_endpoint_check": true,
+      "initial_D": [
+        172091,
+        18451,
+        229085
+      ],
+      "initial_U": [
+        14184,
+        15293,
+        31212
+      ],
+      "n": 3996,
+      "p_n_mod_p": 259933,
+      "prime": 291869,
+      "q_n_mod_p_squared": 12855661974,
+      "q_n_over_p_mod_p": 44046,
+      "target_transcript_sha256": "841981da77e423ae46f8290597fe55fe951630e6b2373eacb93ff26bb359aa79",
+      "zero_count": 4,
+      "zero_records": [
+        {
+          "D": 4115,
+          "K": 184002,
+          "U": 130564,
+          "next_F": 167379,
+          "previous_F": 42623,
+          "v": 34071
+        },
+        {
+          "D": 204753,
+          "K": 219774,
+          "U": 69916,
+          "next_F": 218159,
+          "previous_F": 172375,
+          "v": 69843
+        },
+        {
+          "D": 34114,
+          "K": 262831,
+          "U": 132031,
+          "next_F": 150060,
+          "previous_F": 133321,
+          "v": 112900
+        },
+        {
+          "D": 5748,
+          "K": 271277,
+          "U": 159822,
+          "next_F": 114286,
+          "previous_F": 123824,
+          "v": 121346
+        }
+      ],
+      "zero_v": [
+        34071,
+        69843,
+        112900,
+        121346
+      ]
+    },
+    {
+      "all_zeros_isolated": true,
+      "c": 8400,
+      "direct_initial_endpoint_check": true,
+      "initial_D": [
+        4578,
+        15252,
+        6882
+      ],
+      "initial_U": [
+        13502,
+        6992,
+        8093
+      ],
+      "n": 756,
+      "p_n_mod_p": 17127,
+      "prime": 18313,
+      "q_n_mod_p_squared": 260026287,
+      "q_n_over_p_mod_p": 14199,
+      "target_transcript_sha256": "f429173658c2725d5dafa280e26b8fec5b61729f43605c1c419fcf0725a8ecac",
+      "zero_count": 3,
+      "zero_records": [
+        {
+          "D": 8874,
+          "K": 12049,
+          "U": 12823,
+          "next_F": 7825,
+          "previous_F": 3195,
+          "v": 2136
+        },
+        {
+          "D": 4296,
+          "K": 12796,
+          "U": 7966,
+          "next_F": 3200,
+          "previous_F": 13170,
+          "v": 2883
+        },
+        {
+          "D": 1408,
+          "K": 17241,
+          "U": 4998,
+          "next_F": 17566,
+          "previous_F": 7346,
+          "v": 7328
+        }
+      ],
+      "zero_v": [
+        2136,
+        2883,
+        7328
+      ]
+    },
+    {
+      "all_zeros_isolated": true,
+      "c": 6368,
+      "direct_initial_endpoint_check": true,
+      "initial_D": [
+        8115,
+        2010,
+        14084
+      ],
+      "initial_U": [
+        796,
+        8867,
+        10234
+      ],
+      "n": 946,
+      "p_n_mod_p": 7046,
+      "prime": 14629,
+      "q_n_mod_p_squared": 130563825,
+      "q_n_over_p_mod_p": 8925,
+      "target_transcript_sha256": "e1a29202aafb212e03e9fb634039c359a4cae8c12c89b161131958ed7ac9109a",
+      "zero_count": 3,
+      "zero_records": [
+        {
+          "D": 13729,
+          "K": 10039,
+          "U": 7813,
+          "next_F": 7983,
+          "previous_F": 8829,
+          "v": 1778
+        },
+        {
+          "D": 3839,
+          "K": 10271,
+          "U": 7033,
+          "next_F": 11934,
+          "previous_F": 13981,
+          "v": 2010
+        },
+        {
+          "D": 3462,
+          "K": 11744,
+          "U": 1057,
+          "next_F": 3308,
+          "previous_F": 8890,
+          "v": 3483
+        }
+      ],
+      "zero_v": [
+        1778,
+        2010,
+        3483
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "schema": "item415-marked-selector-compulsory-strip-manifest-v2",
+  "item": 415,
+  "status": "WORK_ONLY_UNAUDITED_NO_CENTRAL_EDIT_NO_BOOKING",
+  "integrity": {
+    "certificate_sha256": "3de746ee5096799dad817576482d800fd76e5e386e1e2609032b3703660c380a",
+    "certificate_replay_sha256": "3de746ee5096799dad817576482d800fd76e5e386e1e2609032b3703660c380a",
+    "certificate_replay_byte_identical": true,
+    "dependency_pins_verified_by_replay": true
+  },
+  "artifacts": [
+    {
+      "path": "work/item415_marked_selector_compulsory_strip_report.md",
+      "sha256": "ecb1beb97267acfeceb412e0abb8e2ba534ec004a739a3b5756f9fff3faeaa1c",
+      "bytes": 13811,
+      "role": "marked-incidence conversion, fully Item200-normalized carrier, and new component-capacity synthesis"
+    },
+    {
+      "path": "work/item415_marked_selector_compulsory_strip_certificate.py",
+      "sha256": "8a24a195603e0e19ca1a8c837819657005415af563864ddad8f992d87dedb13d",
+      "bytes": 15503,
+      "role": "deterministic standard-library certificate generator"
+    },
+    {
+      "path": "work/item415_marked_selector_compulsory_strip_certificate.json",
+      "sha256": "3de746ee5096799dad817576482d800fd76e5e386e1e2609032b3703660c380a",
+      "bytes": 13735,
+      "role": "generated certificate"
+    },
+    {
+      "path": "work/item415_marked_selector_compulsory_strip_certificate.replay.json",
+      "sha256": "3de746ee5096799dad817576482d800fd76e5e386e1e2609032b3703660c380a",
+      "bytes": 13735,
+      "role": "byte-stable replay"
+    },
+    {
+      "path": "work/item415_marked_selector_compulsory_strip_ledger_delta.json",
+      "sha256": "d604eefd1647994f8966bff45b466ea7c77349321d6f804a6b275dfc887c1fa6",
+      "bytes": 3261,
+      "role": "component-ceiling improvement, zero-booking, and de-overlap ledger"
+    },
+    {
+      "path": "work/item415_marked_selector_compulsory_strip_hashes.sha256",
+      "role": "SHA-256 inventory"
+    }
+  ],
+  "dependency_pins": {
+    "sources/item200_common_log_gcd_report.md": "06003e9fd03f74b2406330a81d49493fa2f4390c82f359be39bf328184605c68",
+    "results/item200_common_log_gcd_certificate.json": "5fd9f62b82d92dde6755919ef0e44d5d42a3c9452acfc3bbe3d3ee96f7326f82",
+    "sources/item390_mixed_cubic_fresh_primitive_saturation_report.md": "5bfb3c871b12524f672df515e920236f2470145d4f68bdcd7b47f29408692f46",
+    "sources/item393_mixed_cubic_small_prime_strata_ceiling_report.md": "5e2c92f87075cbe3ac8af3191d8df7485ac6efd13609ede5f82819e355ae5f96",
+    "sources/item396_fixed_gap_resultant_3adic_report.md": "7355b6909994357583f799e627e1ff19edb230a6a9002ee845be585057726aca",
+    "sources/item406_mixed_cubic_actual_adjacent_recurrence_report.md": "a9c33967b42f5ae09c2c0c71de1b956ca240e49c367be46f3af2878cd96cbb83",
+    "sources/item411_mixed_primitive_boundary_transport_report.md": "9061f8088ea2bb403065a9192bc947c1a36299ee0ab6893caa0fd134a2f72f4f",
+    "sources/item412_marked_cubic_frobenius_selector_boundary_report.md": "cbf2fa9216c2037e54fe6ac440039b3a8773ed2e173a6576f75070b6e0512299",
+    "results/item412_marked_cubic_frobenius_selector_boundary_certificate.json": "50231958f02f7fcf3401ded1a5ca60a5ebe563eadf57e320fb08a4625ca5057a",
+    "manifests/item412_marked_cubic_frobenius_selector_boundary_manifest.json": "e95b2505b097df5ce3267bc92ac3c79c758f2a33153bdd5b7b9c4fa85a437143"
+  },
+  "claims": {
+    "PROVED": [
+      "exact tied q=1 mod 6 congruence and Frobenius-mark bookkeeping",
+      "the marked residual pair has a phase-independent integral representative with determinant -2(4m+1)",
+      "canonical Item200 proves F_m=G_m divides both exact residue integers; Item415 independently rederives its interval subproduct",
+      "dividing by the full F_m preserves every p>6m valuation and yields a new fully normalized all-depth carrier",
+      "the strictly-large component ceiling is at most (log(136)-C_F)/6 = 0.4292678962..., improving the previous component ceiling by C_F/6 = 0.3895079179...",
+      "zero booking and unchanged global total-content ceiling"
+    ],
+    "OPEN": [
+      "valuation-weighted o(m) for the stripped carrier",
+      "selected-branch weighted zero density in p=1 mod 6",
+      "uniform noncollision and c_m^>=1",
+      "Route 1 and irrationality of e+pi"
+    ],
+    "NOT_CLAIMED": [
+      "an actual wrong-branch prime",
+      "Chebotarev equidistribution for divisors of the moving carrier",
+      "that any factor of F_m is a new divisor of normalized content",
+      "finite normalization implies noncollision",
+      "a positive Route-1 divisor booking or a reduction of the global total-content ceiling"
+    ]
+  },
+  "replay_command": "python work/item415_marked_selector_compulsory_strip_certificate.py --output work/item415_marked_selector_compulsory_strip_certificate.replay.json --replay work/item415_marked_selector_compulsory_strip_certificate.json"
+}

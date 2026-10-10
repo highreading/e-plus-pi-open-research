@@ -1,0 +1,64 @@
+{
+  "item": 360,
+  "schema": "item360-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_ACTUAL_CODIMENSION_TWO_FULL_GATE_AND_TRANSVERSE_PERIOD",
+  "scope": "independent root audit of the exact fixed-j1 two-coordinate gate, forgotten-ratio elimination, actual-ratio fiber, chart decompositions, parameter-derivative period, and capacity bookkeeping",
+  "checks": {
+    "work_manifest_checks": 20,
+    "work_manifest_failures": 0,
+    "frozen_dependencies_checked": 14,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "work_certificate_replay_byte_identical": true,
+    "work_root_replay_byte_identical": true,
+    "independent_exact_rows": 5,
+    "independent_tail_coordinate_reconstructions": 5,
+    "independent_parameter_derivative_equalities": 5,
+    "independent_selected_hasse_checks": 5,
+    "independent_symbolic_syzygy": true,
+    "independent_resultant": "2*(beta*x*v-alpha*u*y)",
+    "independent_prime_quotient_checks": true,
+    "independent_chart_product_checks": true,
+    "prime_or_collision_census_performed": false,
+    "canonical_reproducibility_repair": "replaced (-1)**(h-s) by an exact integer parity sign when h<s; declared certificate output is unchanged"
+  },
+  "mathematical_audit": {
+    "original_gate": "Q0=Q1=0 is retained; selected Hasse vanishing is used only as a necessary condition",
+    "universal_elimination": "over a coefficient field in which alpha and beta are units, solving x=lambda*y/2 and u=beta*lambda*v/(2*alpha) gives a polynomial-ring quotient; the four-coordinate contraction is the prime principal ideal <H>",
+    "actual_fiber": "the actual nonzero factorial ratio lambda_(h,s) is fixed before elimination; solving x and u gives a polynomial ring in y,v, so <f0,f1> is prime of codimension two",
+    "charts": "modulo f0, H=-y*f1/2; modulo f1, H=beta*v*f0/2. Since the factors are coprime, the stated intersections and saturations follow, including both boundary components",
+    "transverse_period": "independent exact tail extraction gives Q0=2[z^T]P0 log(1+z^2)-[z^L0]P0 log(1+z^2), which is the tau derivative of the declared family",
+    "separation": "the two predeclared Hasse-zero controls p=13 and p=47 have transverse residues 9 and 30; they are not full collisions and carry no density weight",
+    "scope_warning": "ambient codimension does not itself prove weighted zero density on the tied binomial orbit"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "forgotten-ratio principal Hasse elimination",
+      "actual-ratio prime codimension-two gate",
+      "exact syzygy and both saturated chart decompositions",
+      "collision-forced transverse parameter-derivative period",
+      "one additional algebraic condition relative to the selected gate",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "five predeclared controls, including two separation witnesses; no prime scan"
+    ],
+    "OPEN": [
+      "weighted joint Hasse/transverse zero density",
+      "weighted control of both boundary components",
+      "fixed-M average gcd or sublinear-height common target",
+      "any reduction of the 1/36 ceiling",
+      "Route 1",
+      "e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_support": "all actual fixed-j1 rows",
+    "maximum_possible_saving_per_6M": "1/36",
+    "new_linear_log_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0,
+    "retained_ceiling_per_6M": "1/36"
+  }
+}

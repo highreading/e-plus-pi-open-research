@@ -1,0 +1,53 @@
+{
+  "item": 405,
+  "schema": "item405-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_EXACT_DEPTH_THREE_INITIAL_EXCLUSION_AND_BOUNDED_DEPTH_CAPACITY_NO_GO",
+  "scope": "independent root audit of the fixed-prime initial phase, complete Hasse numerator factorization, transverse residues, fixed-M count, cluster threshold, interpolation countermodel, dependencies, and replay",
+  "checks": {
+    "canonical_dependencies_checked": 21,
+    "canonical_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "control_characters": 0,
+    "unbounded_prime_or_collision_scan_used": false,
+    "finite_to_infinite_inference_used": false,
+    "root_repairs": "Canonicalized output and replay paths and replaced seven stale work-package Item401 pins by five audited canonical Item401 dependencies. No mathematical claim required repair."
+  },
+  "mathematical_audit": {
+    "initial_phase": "The fixed-prime interval and shift give first Hasse indices (1,4,7) or (2,5,8), according to the prime residue class modulo 12.",
+    "exhaustive_divisors": "The six exact rational Hasse initials have completely factored numerators. Since every denominator prime is at most 4h+3 while an actual tied prime exceeds 4h+3, phase-compatible Hasse zeros are exactly the seven displayed rows.",
+    "transverse_gate": "Exact rational-tail evaluation gives Q0 nonzero modulo p on all seven phase-compatible Hasse-zero rows. Hence every actual column avoids the joint gate at each existing age t<3.",
+    "fixed_M_mass": "At fixed M the possible first-three Hasse indices reduce by parity to three candidate integers, at most two of which can be odd primes. Their total weight is at most 2 log U_M=o(M).",
+    "cluster_threshold": "Deleting any fixed number of initial column levels removes only O(log M) mass. Isolated packing in a D asymptotic to c log M window leaves clustered coefficient at least (2c-1)/(12c), equal to the Item395 threshold and equal to 1/12 at c=1.",
+    "recurrence_countermodel": "Degree-three interpolation over each independent prime column matches the exact first three coordinate pairs and sets every later target slice to the joint zero. All columns obey the common fourth-difference recurrence, giving a threshold-saturating information-class witness.",
+    "scope": "The interpolated operator is not the actual Item401 algebraic operator and the model is not the actual orbit. Operator-specific arithmetic, growing-depth information, and cross-prime reciprocity remain live."
+  },
+  "strict_labels": {
+    "PROVED_ACTUAL": [
+      "joint-gate exclusion at the first three levels of every fixed-prime column",
+      "at most two excluded candidate primes per fixed M",
+      "zero linear-rate consequence"
+    ],
+    "PROVED_INFORMATION_CLASS_NO_GO": [
+      "bounded-order recurrence existence plus any fixed-depth exact initials cannot beat the fixed-j1 logarithmic cluster threshold"
+    ],
+    "OPEN": [
+      "the distinguished actual recurrence orbit beyond bounded depth",
+      "cross-prime reciprocity or a subthreshold common carrier",
+      "a strict fixed-j1 capacity saving",
+      "Route 1 and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "admission_coefficient_at_c_1_per_M": "strictly below 1/12",
+    "bounded_depth_modified_selector_coefficient_per_M": "at least 1/12",
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "new_route1_rate": 0,
+    "new_booking": 0,
+    "new_unconditional_capacity_reduction": 0
+  }
+}

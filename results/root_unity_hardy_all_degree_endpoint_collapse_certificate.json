@@ -1,0 +1,1795 @@
+{
+  "dependencies": {
+    "sources/root_unity_gaussian_parity_mixing_barrier.md": "fbfb6fba663768b80364462608d0267d233d1828924b9d25f12dd9a7a1ea4b6d",
+    "sources/root_unity_hardy_endpoint_quotient_geometry_correction.md": "5bd489df02183a374145d889ca96a6d2f3940ba141af0592962920021fc3a901"
+  },
+  "exact_Gaussian_phase_audit": {
+    "rows": [
+      {
+        "coefficient_phases_are_Gaussian_units": true,
+        "degree": 1,
+        "evaluation_identity": true,
+        "ordinary_and_Gaussian_content": 1
+      },
+      {
+        "coefficient_phases_are_Gaussian_units": true,
+        "degree": 2,
+        "evaluation_identity": true,
+        "ordinary_and_Gaussian_content": 1
+      },
+      {
+        "coefficient_phases_are_Gaussian_units": true,
+        "degree": 3,
+        "evaluation_identity": true,
+        "ordinary_and_Gaussian_content": 1
+      },
+      {
+        "coefficient_phases_are_Gaussian_units": true,
+        "degree": 4,
+        "evaluation_identity": true,
+        "ordinary_and_Gaussian_content": 1
+      },
+      {
+        "coefficient_phases_are_Gaussian_units": true,
+        "degree": 5,
+        "evaluation_identity": true,
+        "ordinary_and_Gaussian_content": 1
+      },
+      {
+        "coefficient_phases_are_Gaussian_units": true,
+        "degree": 6,
+        "evaluation_identity": true,
+        "ordinary_and_Gaussian_content": 1
+      },
+      {
+        "coefficient_phases_are_Gaussian_units": true,
+        "degree": 7,
+        "evaluation_identity": true,
+        "ordinary_and_Gaussian_content": 1
+      },
+      {
+        "coefficient_phases_are_Gaussian_units": true,
+        "degree": 8,
+        "evaluation_identity": true,
+        "ordinary_and_Gaussian_content": 1
+      },
+      {
+        "coefficient_phases_are_Gaussian_units": true,
+        "degree": 9,
+        "evaluation_identity": true,
+        "ordinary_and_Gaussian_content": 1
+      },
+      {
+        "coefficient_phases_are_Gaussian_units": true,
+        "degree": 10,
+        "evaluation_identity": true,
+        "ordinary_and_Gaussian_content": 1
+      },
+      {
+        "coefficient_phases_are_Gaussian_units": true,
+        "degree": 11,
+        "evaluation_identity": true,
+        "ordinary_and_Gaussian_content": 1
+      },
+      {
+        "coefficient_phases_are_Gaussian_units": true,
+        "degree": 12,
+        "evaluation_identity": true,
+        "ordinary_and_Gaussian_content": 1
+      }
+    ]
+  },
+  "exact_algebraic_norm_audit": {
+    "rows": [
+      {
+        "degree": 1,
+        "minimal_polynomial": "x**2 - 2",
+        "nonzero_integer_norm": "-7",
+        "test_polynomial": "1 - 2*x"
+      },
+      {
+        "degree": 2,
+        "minimal_polynomial": "x**3 - 2",
+        "nonzero_integer_norm": "129",
+        "test_polynomial": "3*x**2 - 2*x + 1"
+      },
+      {
+        "degree": 3,
+        "minimal_polynomial": "x**4 - 2",
+        "nonzero_integer_norm": "-1631",
+        "test_polynomial": "-4*x**3 + 3*x**2 - 2*x + 1"
+      },
+      {
+        "degree": 4,
+        "minimal_polynomial": "x**5 - 2",
+        "nonzero_integer_norm": "63477",
+        "test_polynomial": "5*x**4 - 4*x**3 + 3*x**2 - 2*x + 1"
+      },
+      {
+        "degree": 5,
+        "minimal_polynomial": "x**6 - 2",
+        "nonzero_integer_norm": "-1145159",
+        "test_polynomial": "-6*x**5 + 5*x**4 - 4*x**3 + 3*x**2 - 2*x + 1"
+      },
+      {
+        "degree": 6,
+        "minimal_polynomial": "x**7 - 2",
+        "nonzero_integer_norm": "69018409",
+        "test_polynomial": "7*x**6 - 6*x**5 + 5*x**4 - 4*x**3 + 3*x**2 - 2*x + 1"
+      },
+      {
+        "degree": 7,
+        "minimal_polynomial": "x**8 - 2",
+        "nonzero_integer_norm": "-1614177151",
+        "test_polynomial": "-8*x**7 + 7*x**6 - 6*x**5 + 5*x**4 - 4*x**3 + 3*x**2 - 2*x + 1"
+      },
+      {
+        "degree": 8,
+        "minimal_polynomial": "x**9 - 2",
+        "nonzero_integer_norm": "132333180813",
+        "test_polynomial": "9*x**8 - 8*x**7 + 7*x**6 - 6*x**5 + 5*x**4 - 4*x**3 + 3*x**2 - 2*x + 1"
+      }
+    ]
+  },
+  "exact_block_schur_audit": {
+    "rows": [
+      {
+        "completed_square_identity": true,
+        "evaluation_rank": 1,
+        "gram_determinant": "701",
+        "kernel_rank": 1,
+        "perturbation_squared_norm_equals_v_transpose_D_v": true,
+        "schur_determinant": "701/39"
+      },
+      {
+        "completed_square_identity": true,
+        "evaluation_rank": 1,
+        "gram_determinant": "185570082",
+        "kernel_rank": 4,
+        "perturbation_squared_norm_equals_v_transpose_D_v": true,
+        "schur_determinant": "185570082/71"
+      },
+      {
+        "completed_square_identity": true,
+        "evaluation_rank": 2,
+        "gram_determinant": "59193563",
+        "kernel_rank": 3,
+        "perturbation_squared_norm_equals_v_transpose_D_v": true,
+        "schur_determinant": "5381233/358"
+      },
+      {
+        "completed_square_identity": true,
+        "evaluation_rank": 3,
+        "gram_determinant": "245918529",
+        "kernel_rank": 2,
+        "perturbation_squared_norm_equals_v_transpose_D_v": true,
+        "schur_determinant": "245918529/116855"
+      }
+    ]
+  },
+  "exact_finite_Dirichlet_audit": {
+    "rows": [
+      {
+        "Dirichlet_bound": "1/2",
+        "degree": 1,
+        "difference_vector": [
+          1
+        ],
+        "height": 1,
+        "minimum_cyclic_gap": "1/12",
+        "point_count": 2
+      },
+      {
+        "Dirichlet_bound": "1/3",
+        "degree": 1,
+        "difference_vector": [
+          1
+        ],
+        "height": 2,
+        "minimum_cyclic_gap": "1/17",
+        "point_count": 3
+      },
+      {
+        "Dirichlet_bound": "1/4",
+        "degree": 1,
+        "difference_vector": [
+          1
+        ],
+        "height": 3,
+        "minimum_cyclic_gap": "1/22",
+        "point_count": 4
+      },
+      {
+        "Dirichlet_bound": "1/5",
+        "degree": 1,
+        "difference_vector": [
+          1
+        ],
+        "height": 4,
+        "minimum_cyclic_gap": "1/27",
+        "point_count": 5
+      },
+      {
+        "Dirichlet_bound": "1/6",
+        "degree": 1,
+        "difference_vector": [
+          1
+        ],
+        "height": 5,
+        "minimum_cyclic_gap": "1/32",
+        "point_count": 6
+      },
+      {
+        "Dirichlet_bound": "1/4",
+        "degree": 2,
+        "difference_vector": [
+          1,
+          0
+        ],
+        "height": 1,
+        "minimum_cyclic_gap": "1/27",
+        "point_count": 4
+      },
+      {
+        "Dirichlet_bound": "1/9",
+        "degree": 2,
+        "difference_vector": [
+          1,
+          0
+        ],
+        "height": 2,
+        "minimum_cyclic_gap": "1/67",
+        "point_count": 9
+      },
+      {
+        "Dirichlet_bound": "1/16",
+        "degree": 2,
+        "difference_vector": [
+          1,
+          0
+        ],
+        "height": 3,
+        "minimum_cyclic_gap": "1/127",
+        "point_count": 16
+      },
+      {
+        "Dirichlet_bound": "1/25",
+        "degree": 2,
+        "difference_vector": [
+          1,
+          0
+        ],
+        "height": 4,
+        "minimum_cyclic_gap": "1/207",
+        "point_count": 25
+      },
+      {
+        "Dirichlet_bound": "1/36",
+        "degree": 2,
+        "difference_vector": [
+          1,
+          0
+        ],
+        "height": 5,
+        "minimum_cyclic_gap": "1/307",
+        "point_count": 36
+      },
+      {
+        "Dirichlet_bound": "1/8",
+        "degree": 3,
+        "difference_vector": [
+          1,
+          0,
+          0
+        ],
+        "height": 1,
+        "minimum_cyclic_gap": "1/72",
+        "point_count": 8
+      },
+      {
+        "Dirichlet_bound": "1/27",
+        "degree": 3,
+        "difference_vector": [
+          1,
+          0,
+          0
+        ],
+        "height": 2,
+        "minimum_cyclic_gap": "1/317",
+        "point_count": 27
+      },
+      {
+        "Dirichlet_bound": "1/64",
+        "degree": 3,
+        "difference_vector": [
+          1,
+          0,
+          0
+        ],
+        "height": 3,
+        "minimum_cyclic_gap": "1/862",
+        "point_count": 64
+      },
+      {
+        "Dirichlet_bound": "1/125",
+        "degree": 3,
+        "difference_vector": [
+          1,
+          0,
+          0
+        ],
+        "height": 4,
+        "minimum_cyclic_gap": "1/1827",
+        "point_count": 125
+      },
+      {
+        "Dirichlet_bound": "1/216",
+        "degree": 3,
+        "difference_vector": [
+          1,
+          0,
+          0
+        ],
+        "height": 5,
+        "minimum_cyclic_gap": "1/3332",
+        "point_count": 216
+      },
+      {
+        "Dirichlet_bound": "1/16",
+        "degree": 4,
+        "difference_vector": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "height": 1,
+        "minimum_cyclic_gap": "1/207",
+        "point_count": 16
+      },
+      {
+        "Dirichlet_bound": "1/81",
+        "degree": 4,
+        "difference_vector": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "height": 2,
+        "minimum_cyclic_gap": "1/1567",
+        "point_count": 81
+      },
+      {
+        "Dirichlet_bound": "1/256",
+        "degree": 4,
+        "difference_vector": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "height": 3,
+        "minimum_cyclic_gap": "1/6007",
+        "point_count": 256
+      },
+      {
+        "Dirichlet_bound": "1/625",
+        "degree": 4,
+        "difference_vector": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "height": 4,
+        "minimum_cyclic_gap": "1/16407",
+        "point_count": 625
+      },
+      {
+        "Dirichlet_bound": "1/1296",
+        "degree": 4,
+        "difference_vector": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "height": 5,
+        "minimum_cyclic_gap": "1/36607",
+        "point_count": 1296
+      },
+      {
+        "Dirichlet_bound": "1/32",
+        "degree": 5,
+        "difference_vector": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "height": 1,
+        "minimum_cyclic_gap": "1/612",
+        "point_count": 32
+      },
+      {
+        "Dirichlet_bound": "1/243",
+        "degree": 5,
+        "difference_vector": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "height": 2,
+        "minimum_cyclic_gap": "1/7817",
+        "point_count": 243
+      },
+      {
+        "Dirichlet_bound": "1/1024",
+        "degree": 5,
+        "difference_vector": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "height": 3,
+        "minimum_cyclic_gap": "1/42022",
+        "point_count": 1024
+      },
+      {
+        "Dirichlet_bound": "1/3125",
+        "degree": 5,
+        "difference_vector": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "height": 4,
+        "minimum_cyclic_gap": "1/147627",
+        "point_count": 3125
+      },
+      {
+        "Dirichlet_bound": "1/7776",
+        "degree": 5,
+        "difference_vector": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "height": 5,
+        "minimum_cyclic_gap": "1/402632",
+        "point_count": 7776
+      }
+    ]
+  },
+  "exact_parity_audit": {
+    "rows": [
+      {
+        "aligned_Dirichlet_exponent": 1,
+        "degree": 1,
+        "even_coefficient_count": 1,
+        "odd_coefficient_count": 1,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 0
+      },
+      {
+        "aligned_Dirichlet_exponent": 2,
+        "degree": 2,
+        "even_coefficient_count": 2,
+        "odd_coefficient_count": 1,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 1
+      },
+      {
+        "aligned_Dirichlet_exponent": 3,
+        "degree": 3,
+        "even_coefficient_count": 2,
+        "odd_coefficient_count": 2,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 1
+      },
+      {
+        "aligned_Dirichlet_exponent": 4,
+        "degree": 4,
+        "even_coefficient_count": 3,
+        "odd_coefficient_count": 2,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 2
+      },
+      {
+        "aligned_Dirichlet_exponent": 5,
+        "degree": 5,
+        "even_coefficient_count": 3,
+        "odd_coefficient_count": 3,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 2
+      },
+      {
+        "aligned_Dirichlet_exponent": 6,
+        "degree": 6,
+        "even_coefficient_count": 4,
+        "odd_coefficient_count": 3,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 3
+      },
+      {
+        "aligned_Dirichlet_exponent": 7,
+        "degree": 7,
+        "even_coefficient_count": 4,
+        "odd_coefficient_count": 4,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 3
+      },
+      {
+        "aligned_Dirichlet_exponent": 8,
+        "degree": 8,
+        "even_coefficient_count": 5,
+        "odd_coefficient_count": 4,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 4
+      },
+      {
+        "aligned_Dirichlet_exponent": 9,
+        "degree": 9,
+        "even_coefficient_count": 5,
+        "odd_coefficient_count": 5,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 4
+      },
+      {
+        "aligned_Dirichlet_exponent": 10,
+        "degree": 10,
+        "even_coefficient_count": 6,
+        "odd_coefficient_count": 5,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 5
+      },
+      {
+        "aligned_Dirichlet_exponent": 11,
+        "degree": 11,
+        "even_coefficient_count": 6,
+        "odd_coefficient_count": 6,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 5
+      },
+      {
+        "aligned_Dirichlet_exponent": 12,
+        "degree": 12,
+        "even_coefficient_count": 7,
+        "odd_coefficient_count": 6,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 6
+      },
+      {
+        "aligned_Dirichlet_exponent": 13,
+        "degree": 13,
+        "even_coefficient_count": 7,
+        "odd_coefficient_count": 7,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 6
+      },
+      {
+        "aligned_Dirichlet_exponent": 14,
+        "degree": 14,
+        "even_coefficient_count": 8,
+        "odd_coefficient_count": 7,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 7
+      },
+      {
+        "aligned_Dirichlet_exponent": 15,
+        "degree": 15,
+        "even_coefficient_count": 8,
+        "odd_coefficient_count": 8,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 7
+      },
+      {
+        "aligned_Dirichlet_exponent": 16,
+        "degree": 16,
+        "even_coefficient_count": 9,
+        "odd_coefficient_count": 8,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 8
+      },
+      {
+        "aligned_Dirichlet_exponent": 17,
+        "degree": 17,
+        "even_coefficient_count": 9,
+        "odd_coefficient_count": 9,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 8
+      },
+      {
+        "aligned_Dirichlet_exponent": 18,
+        "degree": 18,
+        "even_coefficient_count": 10,
+        "odd_coefficient_count": 9,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 9
+      },
+      {
+        "aligned_Dirichlet_exponent": 19,
+        "degree": 19,
+        "even_coefficient_count": 10,
+        "odd_coefficient_count": 10,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 9
+      },
+      {
+        "aligned_Dirichlet_exponent": 20,
+        "degree": 20,
+        "even_coefficient_count": 11,
+        "odd_coefficient_count": 10,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 10
+      },
+      {
+        "aligned_Dirichlet_exponent": 21,
+        "degree": 21,
+        "even_coefficient_count": 11,
+        "odd_coefficient_count": 11,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 10
+      },
+      {
+        "aligned_Dirichlet_exponent": 22,
+        "degree": 22,
+        "even_coefficient_count": 12,
+        "odd_coefficient_count": 11,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 11
+      },
+      {
+        "aligned_Dirichlet_exponent": 23,
+        "degree": 23,
+        "even_coefficient_count": 12,
+        "odd_coefficient_count": 12,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 11
+      },
+      {
+        "aligned_Dirichlet_exponent": 24,
+        "degree": 24,
+        "even_coefficient_count": 13,
+        "odd_coefficient_count": 12,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 12
+      },
+      {
+        "aligned_Dirichlet_exponent": 25,
+        "degree": 25,
+        "even_coefficient_count": 13,
+        "odd_coefficient_count": 13,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 12
+      },
+      {
+        "aligned_Dirichlet_exponent": 26,
+        "degree": 26,
+        "even_coefficient_count": 14,
+        "odd_coefficient_count": 13,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 13
+      },
+      {
+        "aligned_Dirichlet_exponent": 27,
+        "degree": 27,
+        "even_coefficient_count": 14,
+        "odd_coefficient_count": 14,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 13
+      },
+      {
+        "aligned_Dirichlet_exponent": 28,
+        "degree": 28,
+        "even_coefficient_count": 15,
+        "odd_coefficient_count": 14,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 14
+      },
+      {
+        "aligned_Dirichlet_exponent": 29,
+        "degree": 29,
+        "even_coefficient_count": 15,
+        "odd_coefficient_count": 15,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 14
+      },
+      {
+        "aligned_Dirichlet_exponent": 30,
+        "degree": 30,
+        "even_coefficient_count": 16,
+        "odd_coefficient_count": 15,
+        "orthogonal_parity_identity": true,
+        "unaligned_Dirichlet_exponent": 15
+      }
+    ]
+  },
+  "exact_rank_one_audit": {
+    "rows": [
+      {
+        "cube_vectors_checked": 4,
+        "degree": 1,
+        "epsilon_squared_vertex_maximum": "114/37",
+        "normal_form_identity": true,
+        "quotient_determinant": "497",
+        "transverse_determinant": "497/1369",
+        "vertex_maximum_bounds_integer_cube": true
+      },
+      {
+        "cube_vectors_checked": 24,
+        "degree": 2,
+        "epsilon_squared_vertex_maximum": "73/4",
+        "normal_form_identity": true,
+        "quotient_determinant": "39170",
+        "transverse_determinant": "39170/29791",
+        "vertex_maximum_bounds_integer_cube": true
+      },
+      {
+        "cube_vectors_checked": 124,
+        "degree": 3,
+        "epsilon_squared_vertex_maximum": "59119/1980",
+        "normal_form_identity": true,
+        "quotient_determinant": "1897645",
+        "transverse_determinant": "379529/1830125",
+        "vertex_maximum_bounds_integer_cube": true
+      },
+      {
+        "cube_vectors_checked": 624,
+        "degree": 4,
+        "epsilon_squared_vertex_maximum": "72349/1872",
+        "normal_form_identity": true,
+        "quotient_determinant": "235455949",
+        "transverse_determinant": "235455949/380204032",
+        "vertex_maximum_bounds_integer_cube": true
+      },
+      {
+        "cube_vectors_checked": 3124,
+        "degree": 5,
+        "epsilon_squared_vertex_maximum": "1644617/28800",
+        "normal_form_identity": true,
+        "quotient_determinant": "76508604356",
+        "transverse_determinant": "19127151089/17179869184",
+        "vertex_maximum_bounds_integer_cube": true
+      },
+      {
+        "cube_vectors_checked": 15624,
+        "degree": 6,
+        "epsilon_squared_vertex_maximum": "2820809/35600",
+        "normal_form_identity": true,
+        "quotient_determinant": "978514993296",
+        "transverse_determinant": "978514993296/44231334895529",
+        "vertex_maximum_bounds_integer_cube": true
+      }
+    ]
+  },
+  "exact_threshold_audit": {
+    "rows": [
+      {
+        "Dirichlet_absolute_exponent": 1,
+        "absolute_exponent_gap": 0,
+        "algebraic_degree_r": 1,
+        "better_parity_actual_degree": 0,
+        "better_parity_measure_threshold": 0,
+        "conditional_measure_absolute_exponent": 1,
+        "endpoint_degree": 1,
+        "unaligned_parity_exponent": 0
+      },
+      {
+        "Dirichlet_absolute_exponent": 1,
+        "absolute_exponent_gap": 4,
+        "algebraic_degree_r": 2,
+        "better_parity_actual_degree": 0,
+        "better_parity_measure_threshold": 1,
+        "conditional_measure_absolute_exponent": 5,
+        "endpoint_degree": 1,
+        "unaligned_parity_exponent": 0
+      },
+      {
+        "Dirichlet_absolute_exponent": 1,
+        "absolute_exponent_gap": 10,
+        "algebraic_degree_r": 3,
+        "better_parity_actual_degree": 0,
+        "better_parity_measure_threshold": 2,
+        "conditional_measure_absolute_exponent": 11,
+        "endpoint_degree": 1,
+        "unaligned_parity_exponent": 0
+      },
+      {
+        "Dirichlet_absolute_exponent": 1,
+        "absolute_exponent_gap": 18,
+        "algebraic_degree_r": 4,
+        "better_parity_actual_degree": 0,
+        "better_parity_measure_threshold": 3,
+        "conditional_measure_absolute_exponent": 19,
+        "endpoint_degree": 1,
+        "unaligned_parity_exponent": 0
+      },
+      {
+        "Dirichlet_absolute_exponent": 1,
+        "absolute_exponent_gap": 28,
+        "algebraic_degree_r": 5,
+        "better_parity_actual_degree": 0,
+        "better_parity_measure_threshold": 4,
+        "conditional_measure_absolute_exponent": 29,
+        "endpoint_degree": 1,
+        "unaligned_parity_exponent": 0
+      },
+      {
+        "Dirichlet_absolute_exponent": 2,
+        "absolute_exponent_gap": 0,
+        "algebraic_degree_r": 1,
+        "better_parity_actual_degree": 2,
+        "better_parity_measure_threshold": 2,
+        "conditional_measure_absolute_exponent": 2,
+        "endpoint_degree": 2,
+        "unaligned_parity_exponent": 1
+      },
+      {
+        "Dirichlet_absolute_exponent": 2,
+        "absolute_exponent_gap": 7,
+        "algebraic_degree_r": 2,
+        "better_parity_actual_degree": 2,
+        "better_parity_measure_threshold": 9,
+        "conditional_measure_absolute_exponent": 9,
+        "endpoint_degree": 2,
+        "unaligned_parity_exponent": 1
+      },
+      {
+        "Dirichlet_absolute_exponent": 2,
+        "absolute_exponent_gap": 18,
+        "algebraic_degree_r": 3,
+        "better_parity_actual_degree": 2,
+        "better_parity_measure_threshold": 20,
+        "conditional_measure_absolute_exponent": 20,
+        "endpoint_degree": 2,
+        "unaligned_parity_exponent": 1
+      },
+      {
+        "Dirichlet_absolute_exponent": 2,
+        "absolute_exponent_gap": 33,
+        "algebraic_degree_r": 4,
+        "better_parity_actual_degree": 2,
+        "better_parity_measure_threshold": 35,
+        "conditional_measure_absolute_exponent": 35,
+        "endpoint_degree": 2,
+        "unaligned_parity_exponent": 1
+      },
+      {
+        "Dirichlet_absolute_exponent": 2,
+        "absolute_exponent_gap": 52,
+        "algebraic_degree_r": 5,
+        "better_parity_actual_degree": 2,
+        "better_parity_measure_threshold": 54,
+        "conditional_measure_absolute_exponent": 54,
+        "endpoint_degree": 2,
+        "unaligned_parity_exponent": 1
+      },
+      {
+        "Dirichlet_absolute_exponent": 3,
+        "absolute_exponent_gap": 0,
+        "algebraic_degree_r": 1,
+        "better_parity_actual_degree": 2,
+        "better_parity_measure_threshold": 2,
+        "conditional_measure_absolute_exponent": 3,
+        "endpoint_degree": 3,
+        "unaligned_parity_exponent": 1
+      },
+      {
+        "Dirichlet_absolute_exponent": 3,
+        "absolute_exponent_gap": 10,
+        "algebraic_degree_r": 2,
+        "better_parity_actual_degree": 2,
+        "better_parity_measure_threshold": 9,
+        "conditional_measure_absolute_exponent": 13,
+        "endpoint_degree": 3,
+        "unaligned_parity_exponent": 1
+      },
+      {
+        "Dirichlet_absolute_exponent": 3,
+        "absolute_exponent_gap": 26,
+        "algebraic_degree_r": 3,
+        "better_parity_actual_degree": 2,
+        "better_parity_measure_threshold": 20,
+        "conditional_measure_absolute_exponent": 29,
+        "endpoint_degree": 3,
+        "unaligned_parity_exponent": 1
+      },
+      {
+        "Dirichlet_absolute_exponent": 3,
+        "absolute_exponent_gap": 48,
+        "algebraic_degree_r": 4,
+        "better_parity_actual_degree": 2,
+        "better_parity_measure_threshold": 35,
+        "conditional_measure_absolute_exponent": 51,
+        "endpoint_degree": 3,
+        "unaligned_parity_exponent": 1
+      },
+      {
+        "Dirichlet_absolute_exponent": 3,
+        "absolute_exponent_gap": 76,
+        "algebraic_degree_r": 5,
+        "better_parity_actual_degree": 2,
+        "better_parity_measure_threshold": 54,
+        "conditional_measure_absolute_exponent": 79,
+        "endpoint_degree": 3,
+        "unaligned_parity_exponent": 1
+      },
+      {
+        "Dirichlet_absolute_exponent": 4,
+        "absolute_exponent_gap": 0,
+        "algebraic_degree_r": 1,
+        "better_parity_actual_degree": 4,
+        "better_parity_measure_threshold": 4,
+        "conditional_measure_absolute_exponent": 4,
+        "endpoint_degree": 4,
+        "unaligned_parity_exponent": 2
+      },
+      {
+        "Dirichlet_absolute_exponent": 4,
+        "absolute_exponent_gap": 13,
+        "algebraic_degree_r": 2,
+        "better_parity_actual_degree": 4,
+        "better_parity_measure_threshold": 17,
+        "conditional_measure_absolute_exponent": 17,
+        "endpoint_degree": 4,
+        "unaligned_parity_exponent": 2
+      },
+      {
+        "Dirichlet_absolute_exponent": 4,
+        "absolute_exponent_gap": 34,
+        "algebraic_degree_r": 3,
+        "better_parity_actual_degree": 4,
+        "better_parity_measure_threshold": 38,
+        "conditional_measure_absolute_exponent": 38,
+        "endpoint_degree": 4,
+        "unaligned_parity_exponent": 2
+      },
+      {
+        "Dirichlet_absolute_exponent": 4,
+        "absolute_exponent_gap": 63,
+        "algebraic_degree_r": 4,
+        "better_parity_actual_degree": 4,
+        "better_parity_measure_threshold": 67,
+        "conditional_measure_absolute_exponent": 67,
+        "endpoint_degree": 4,
+        "unaligned_parity_exponent": 2
+      },
+      {
+        "Dirichlet_absolute_exponent": 4,
+        "absolute_exponent_gap": 100,
+        "algebraic_degree_r": 5,
+        "better_parity_actual_degree": 4,
+        "better_parity_measure_threshold": 104,
+        "conditional_measure_absolute_exponent": 104,
+        "endpoint_degree": 4,
+        "unaligned_parity_exponent": 2
+      },
+      {
+        "Dirichlet_absolute_exponent": 5,
+        "absolute_exponent_gap": 0,
+        "algebraic_degree_r": 1,
+        "better_parity_actual_degree": 4,
+        "better_parity_measure_threshold": 4,
+        "conditional_measure_absolute_exponent": 5,
+        "endpoint_degree": 5,
+        "unaligned_parity_exponent": 2
+      },
+      {
+        "Dirichlet_absolute_exponent": 5,
+        "absolute_exponent_gap": 16,
+        "algebraic_degree_r": 2,
+        "better_parity_actual_degree": 4,
+        "better_parity_measure_threshold": 17,
+        "conditional_measure_absolute_exponent": 21,
+        "endpoint_degree": 5,
+        "unaligned_parity_exponent": 2
+      },
+      {
+        "Dirichlet_absolute_exponent": 5,
+        "absolute_exponent_gap": 42,
+        "algebraic_degree_r": 3,
+        "better_parity_actual_degree": 4,
+        "better_parity_measure_threshold": 38,
+        "conditional_measure_absolute_exponent": 47,
+        "endpoint_degree": 5,
+        "unaligned_parity_exponent": 2
+      },
+      {
+        "Dirichlet_absolute_exponent": 5,
+        "absolute_exponent_gap": 78,
+        "algebraic_degree_r": 4,
+        "better_parity_actual_degree": 4,
+        "better_parity_measure_threshold": 67,
+        "conditional_measure_absolute_exponent": 83,
+        "endpoint_degree": 5,
+        "unaligned_parity_exponent": 2
+      },
+      {
+        "Dirichlet_absolute_exponent": 5,
+        "absolute_exponent_gap": 124,
+        "algebraic_degree_r": 5,
+        "better_parity_actual_degree": 4,
+        "better_parity_measure_threshold": 104,
+        "conditional_measure_absolute_exponent": 129,
+        "endpoint_degree": 5,
+        "unaligned_parity_exponent": 2
+      },
+      {
+        "Dirichlet_absolute_exponent": 6,
+        "absolute_exponent_gap": 0,
+        "algebraic_degree_r": 1,
+        "better_parity_actual_degree": 6,
+        "better_parity_measure_threshold": 6,
+        "conditional_measure_absolute_exponent": 6,
+        "endpoint_degree": 6,
+        "unaligned_parity_exponent": 3
+      },
+      {
+        "Dirichlet_absolute_exponent": 6,
+        "absolute_exponent_gap": 19,
+        "algebraic_degree_r": 2,
+        "better_parity_actual_degree": 6,
+        "better_parity_measure_threshold": 25,
+        "conditional_measure_absolute_exponent": 25,
+        "endpoint_degree": 6,
+        "unaligned_parity_exponent": 3
+      },
+      {
+        "Dirichlet_absolute_exponent": 6,
+        "absolute_exponent_gap": 50,
+        "algebraic_degree_r": 3,
+        "better_parity_actual_degree": 6,
+        "better_parity_measure_threshold": 56,
+        "conditional_measure_absolute_exponent": 56,
+        "endpoint_degree": 6,
+        "unaligned_parity_exponent": 3
+      },
+      {
+        "Dirichlet_absolute_exponent": 6,
+        "absolute_exponent_gap": 93,
+        "algebraic_degree_r": 4,
+        "better_parity_actual_degree": 6,
+        "better_parity_measure_threshold": 99,
+        "conditional_measure_absolute_exponent": 99,
+        "endpoint_degree": 6,
+        "unaligned_parity_exponent": 3
+      },
+      {
+        "Dirichlet_absolute_exponent": 6,
+        "absolute_exponent_gap": 148,
+        "algebraic_degree_r": 5,
+        "better_parity_actual_degree": 6,
+        "better_parity_measure_threshold": 154,
+        "conditional_measure_absolute_exponent": 154,
+        "endpoint_degree": 6,
+        "unaligned_parity_exponent": 3
+      },
+      {
+        "Dirichlet_absolute_exponent": 7,
+        "absolute_exponent_gap": 0,
+        "algebraic_degree_r": 1,
+        "better_parity_actual_degree": 6,
+        "better_parity_measure_threshold": 6,
+        "conditional_measure_absolute_exponent": 7,
+        "endpoint_degree": 7,
+        "unaligned_parity_exponent": 3
+      },
+      {
+        "Dirichlet_absolute_exponent": 7,
+        "absolute_exponent_gap": 22,
+        "algebraic_degree_r": 2,
+        "better_parity_actual_degree": 6,
+        "better_parity_measure_threshold": 25,
+        "conditional_measure_absolute_exponent": 29,
+        "endpoint_degree": 7,
+        "unaligned_parity_exponent": 3
+      },
+      {
+        "Dirichlet_absolute_exponent": 7,
+        "absolute_exponent_gap": 58,
+        "algebraic_degree_r": 3,
+        "better_parity_actual_degree": 6,
+        "better_parity_measure_threshold": 56,
+        "conditional_measure_absolute_exponent": 65,
+        "endpoint_degree": 7,
+        "unaligned_parity_exponent": 3
+      },
+      {
+        "Dirichlet_absolute_exponent": 7,
+        "absolute_exponent_gap": 108,
+        "algebraic_degree_r": 4,
+        "better_parity_actual_degree": 6,
+        "better_parity_measure_threshold": 99,
+        "conditional_measure_absolute_exponent": 115,
+        "endpoint_degree": 7,
+        "unaligned_parity_exponent": 3
+      },
+      {
+        "Dirichlet_absolute_exponent": 7,
+        "absolute_exponent_gap": 172,
+        "algebraic_degree_r": 5,
+        "better_parity_actual_degree": 6,
+        "better_parity_measure_threshold": 154,
+        "conditional_measure_absolute_exponent": 179,
+        "endpoint_degree": 7,
+        "unaligned_parity_exponent": 3
+      },
+      {
+        "Dirichlet_absolute_exponent": 8,
+        "absolute_exponent_gap": 0,
+        "algebraic_degree_r": 1,
+        "better_parity_actual_degree": 8,
+        "better_parity_measure_threshold": 8,
+        "conditional_measure_absolute_exponent": 8,
+        "endpoint_degree": 8,
+        "unaligned_parity_exponent": 4
+      },
+      {
+        "Dirichlet_absolute_exponent": 8,
+        "absolute_exponent_gap": 25,
+        "algebraic_degree_r": 2,
+        "better_parity_actual_degree": 8,
+        "better_parity_measure_threshold": 33,
+        "conditional_measure_absolute_exponent": 33,
+        "endpoint_degree": 8,
+        "unaligned_parity_exponent": 4
+      },
+      {
+        "Dirichlet_absolute_exponent": 8,
+        "absolute_exponent_gap": 66,
+        "algebraic_degree_r": 3,
+        "better_parity_actual_degree": 8,
+        "better_parity_measure_threshold": 74,
+        "conditional_measure_absolute_exponent": 74,
+        "endpoint_degree": 8,
+        "unaligned_parity_exponent": 4
+      },
+      {
+        "Dirichlet_absolute_exponent": 8,
+        "absolute_exponent_gap": 123,
+        "algebraic_degree_r": 4,
+        "better_parity_actual_degree": 8,
+        "better_parity_measure_threshold": 131,
+        "conditional_measure_absolute_exponent": 131,
+        "endpoint_degree": 8,
+        "unaligned_parity_exponent": 4
+      },
+      {
+        "Dirichlet_absolute_exponent": 8,
+        "absolute_exponent_gap": 196,
+        "algebraic_degree_r": 5,
+        "better_parity_actual_degree": 8,
+        "better_parity_measure_threshold": 204,
+        "conditional_measure_absolute_exponent": 204,
+        "endpoint_degree": 8,
+        "unaligned_parity_exponent": 4
+      },
+      {
+        "Dirichlet_absolute_exponent": 9,
+        "absolute_exponent_gap": 0,
+        "algebraic_degree_r": 1,
+        "better_parity_actual_degree": 8,
+        "better_parity_measure_threshold": 8,
+        "conditional_measure_absolute_exponent": 9,
+        "endpoint_degree": 9,
+        "unaligned_parity_exponent": 4
+      },
+      {
+        "Dirichlet_absolute_exponent": 9,
+        "absolute_exponent_gap": 28,
+        "algebraic_degree_r": 2,
+        "better_parity_actual_degree": 8,
+        "better_parity_measure_threshold": 33,
+        "conditional_measure_absolute_exponent": 37,
+        "endpoint_degree": 9,
+        "unaligned_parity_exponent": 4
+      },
+      {
+        "Dirichlet_absolute_exponent": 9,
+        "absolute_exponent_gap": 74,
+        "algebraic_degree_r": 3,
+        "better_parity_actual_degree": 8,
+        "better_parity_measure_threshold": 74,
+        "conditional_measure_absolute_exponent": 83,
+        "endpoint_degree": 9,
+        "unaligned_parity_exponent": 4
+      },
+      {
+        "Dirichlet_absolute_exponent": 9,
+        "absolute_exponent_gap": 138,
+        "algebraic_degree_r": 4,
+        "better_parity_actual_degree": 8,
+        "better_parity_measure_threshold": 131,
+        "conditional_measure_absolute_exponent": 147,
+        "endpoint_degree": 9,
+        "unaligned_parity_exponent": 4
+      },
+      {
+        "Dirichlet_absolute_exponent": 9,
+        "absolute_exponent_gap": 220,
+        "algebraic_degree_r": 5,
+        "better_parity_actual_degree": 8,
+        "better_parity_measure_threshold": 204,
+        "conditional_measure_absolute_exponent": 229,
+        "endpoint_degree": 9,
+        "unaligned_parity_exponent": 4
+      },
+      {
+        "Dirichlet_absolute_exponent": 10,
+        "absolute_exponent_gap": 0,
+        "algebraic_degree_r": 1,
+        "better_parity_actual_degree": 10,
+        "better_parity_measure_threshold": 10,
+        "conditional_measure_absolute_exponent": 10,
+        "endpoint_degree": 10,
+        "unaligned_parity_exponent": 5
+      },
+      {
+        "Dirichlet_absolute_exponent": 10,
+        "absolute_exponent_gap": 31,
+        "algebraic_degree_r": 2,
+        "better_parity_actual_degree": 10,
+        "better_parity_measure_threshold": 41,
+        "conditional_measure_absolute_exponent": 41,
+        "endpoint_degree": 10,
+        "unaligned_parity_exponent": 5
+      },
+      {
+        "Dirichlet_absolute_exponent": 10,
+        "absolute_exponent_gap": 82,
+        "algebraic_degree_r": 3,
+        "better_parity_actual_degree": 10,
+        "better_parity_measure_threshold": 92,
+        "conditional_measure_absolute_exponent": 92,
+        "endpoint_degree": 10,
+        "unaligned_parity_exponent": 5
+      },
+      {
+        "Dirichlet_absolute_exponent": 10,
+        "absolute_exponent_gap": 153,
+        "algebraic_degree_r": 4,
+        "better_parity_actual_degree": 10,
+        "better_parity_measure_threshold": 163,
+        "conditional_measure_absolute_exponent": 163,
+        "endpoint_degree": 10,
+        "unaligned_parity_exponent": 5
+      },
+      {
+        "Dirichlet_absolute_exponent": 10,
+        "absolute_exponent_gap": 244,
+        "algebraic_degree_r": 5,
+        "better_parity_actual_degree": 10,
+        "better_parity_measure_threshold": 254,
+        "conditional_measure_absolute_exponent": 254,
+        "endpoint_degree": 10,
+        "unaligned_parity_exponent": 5
+      },
+      {
+        "Dirichlet_absolute_exponent": 11,
+        "absolute_exponent_gap": 0,
+        "algebraic_degree_r": 1,
+        "better_parity_actual_degree": 10,
+        "better_parity_measure_threshold": 10,
+        "conditional_measure_absolute_exponent": 11,
+        "endpoint_degree": 11,
+        "unaligned_parity_exponent": 5
+      },
+      {
+        "Dirichlet_absolute_exponent": 11,
+        "absolute_exponent_gap": 34,
+        "algebraic_degree_r": 2,
+        "better_parity_actual_degree": 10,
+        "better_parity_measure_threshold": 41,
+        "conditional_measure_absolute_exponent": 45,
+        "endpoint_degree": 11,
+        "unaligned_parity_exponent": 5
+      },
+      {
+        "Dirichlet_absolute_exponent": 11,
+        "absolute_exponent_gap": 90,
+        "algebraic_degree_r": 3,
+        "better_parity_actual_degree": 10,
+        "better_parity_measure_threshold": 92,
+        "conditional_measure_absolute_exponent": 101,
+        "endpoint_degree": 11,
+        "unaligned_parity_exponent": 5
+      },
+      {
+        "Dirichlet_absolute_exponent": 11,
+        "absolute_exponent_gap": 168,
+        "algebraic_degree_r": 4,
+        "better_parity_actual_degree": 10,
+        "better_parity_measure_threshold": 163,
+        "conditional_measure_absolute_exponent": 179,
+        "endpoint_degree": 11,
+        "unaligned_parity_exponent": 5
+      },
+      {
+        "Dirichlet_absolute_exponent": 11,
+        "absolute_exponent_gap": 268,
+        "algebraic_degree_r": 5,
+        "better_parity_actual_degree": 10,
+        "better_parity_measure_threshold": 254,
+        "conditional_measure_absolute_exponent": 279,
+        "endpoint_degree": 11,
+        "unaligned_parity_exponent": 5
+      },
+      {
+        "Dirichlet_absolute_exponent": 12,
+        "absolute_exponent_gap": 0,
+        "algebraic_degree_r": 1,
+        "better_parity_actual_degree": 12,
+        "better_parity_measure_threshold": 12,
+        "conditional_measure_absolute_exponent": 12,
+        "endpoint_degree": 12,
+        "unaligned_parity_exponent": 6
+      },
+      {
+        "Dirichlet_absolute_exponent": 12,
+        "absolute_exponent_gap": 37,
+        "algebraic_degree_r": 2,
+        "better_parity_actual_degree": 12,
+        "better_parity_measure_threshold": 49,
+        "conditional_measure_absolute_exponent": 49,
+        "endpoint_degree": 12,
+        "unaligned_parity_exponent": 6
+      },
+      {
+        "Dirichlet_absolute_exponent": 12,
+        "absolute_exponent_gap": 98,
+        "algebraic_degree_r": 3,
+        "better_parity_actual_degree": 12,
+        "better_parity_measure_threshold": 110,
+        "conditional_measure_absolute_exponent": 110,
+        "endpoint_degree": 12,
+        "unaligned_parity_exponent": 6
+      },
+      {
+        "Dirichlet_absolute_exponent": 12,
+        "absolute_exponent_gap": 183,
+        "algebraic_degree_r": 4,
+        "better_parity_actual_degree": 12,
+        "better_parity_measure_threshold": 195,
+        "conditional_measure_absolute_exponent": 195,
+        "endpoint_degree": 12,
+        "unaligned_parity_exponent": 6
+      },
+      {
+        "Dirichlet_absolute_exponent": 12,
+        "absolute_exponent_gap": 292,
+        "algebraic_degree_r": 5,
+        "better_parity_actual_degree": 12,
+        "better_parity_measure_threshold": 304,
+        "conditional_measure_absolute_exponent": 304,
+        "endpoint_degree": 12,
+        "unaligned_parity_exponent": 6
+      },
+      {
+        "Dirichlet_absolute_exponent": 13,
+        "absolute_exponent_gap": 0,
+        "algebraic_degree_r": 1,
+        "better_parity_actual_degree": 12,
+        "better_parity_measure_threshold": 12,
+        "conditional_measure_absolute_exponent": 13,
+        "endpoint_degree": 13,
+        "unaligned_parity_exponent": 6
+      },
+      {
+        "Dirichlet_absolute_exponent": 13,
+        "absolute_exponent_gap": 40,
+        "algebraic_degree_r": 2,
+        "better_parity_actual_degree": 12,
+        "better_parity_measure_threshold": 49,
+        "conditional_measure_absolute_exponent": 53,
+        "endpoint_degree": 13,
+        "unaligned_parity_exponent": 6
+      },
+      {
+        "Dirichlet_absolute_exponent": 13,
+        "absolute_exponent_gap": 106,
+        "algebraic_degree_r": 3,
+        "better_parity_actual_degree": 12,
+        "better_parity_measure_threshold": 110,
+        "conditional_measure_absolute_exponent": 119,
+        "endpoint_degree": 13,
+        "unaligned_parity_exponent": 6
+      },
+      {
+        "Dirichlet_absolute_exponent": 13,
+        "absolute_exponent_gap": 198,
+        "algebraic_degree_r": 4,
+        "better_parity_actual_degree": 12,
+        "better_parity_measure_threshold": 195,
+        "conditional_measure_absolute_exponent": 211,
+        "endpoint_degree": 13,
+        "unaligned_parity_exponent": 6
+      },
+      {
+        "Dirichlet_absolute_exponent": 13,
+        "absolute_exponent_gap": 316,
+        "algebraic_degree_r": 5,
+        "better_parity_actual_degree": 12,
+        "better_parity_measure_threshold": 304,
+        "conditional_measure_absolute_exponent": 329,
+        "endpoint_degree": 13,
+        "unaligned_parity_exponent": 6
+      },
+      {
+        "Dirichlet_absolute_exponent": 14,
+        "absolute_exponent_gap": 0,
+        "algebraic_degree_r": 1,
+        "better_parity_actual_degree": 14,
+        "better_parity_measure_threshold": 14,
+        "conditional_measure_absolute_exponent": 14,
+        "endpoint_degree": 14,
+        "unaligned_parity_exponent": 7
+      },
+      {
+        "Dirichlet_absolute_exponent": 14,
+        "absolute_exponent_gap": 43,
+        "algebraic_degree_r": 2,
+        "better_parity_actual_degree": 14,
+        "better_parity_measure_threshold": 57,
+        "conditional_measure_absolute_exponent": 57,
+        "endpoint_degree": 14,
+        "unaligned_parity_exponent": 7
+      },
+      {
+        "Dirichlet_absolute_exponent": 14,
+        "absolute_exponent_gap": 114,
+        "algebraic_degree_r": 3,
+        "better_parity_actual_degree": 14,
+        "better_parity_measure_threshold": 128,
+        "conditional_measure_absolute_exponent": 128,
+        "endpoint_degree": 14,
+        "unaligned_parity_exponent": 7
+      },
+      {
+        "Dirichlet_absolute_exponent": 14,
+        "absolute_exponent_gap": 213,
+        "algebraic_degree_r": 4,
+        "better_parity_actual_degree": 14,
+        "better_parity_measure_threshold": 227,
+        "conditional_measure_absolute_exponent": 227,
+        "endpoint_degree": 14,
+        "unaligned_parity_exponent": 7
+      },
+      {
+        "Dirichlet_absolute_exponent": 14,
+        "absolute_exponent_gap": 340,
+        "algebraic_degree_r": 5,
+        "better_parity_actual_degree": 14,
+        "better_parity_measure_threshold": 354,
+        "conditional_measure_absolute_exponent": 354,
+        "endpoint_degree": 14,
+        "unaligned_parity_exponent": 7
+      },
+      {
+        "Dirichlet_absolute_exponent": 15,
+        "absolute_exponent_gap": 0,
+        "algebraic_degree_r": 1,
+        "better_parity_actual_degree": 14,
+        "better_parity_measure_threshold": 14,
+        "conditional_measure_absolute_exponent": 15,
+        "endpoint_degree": 15,
+        "unaligned_parity_exponent": 7
+      },
+      {
+        "Dirichlet_absolute_exponent": 15,
+        "absolute_exponent_gap": 46,
+        "algebraic_degree_r": 2,
+        "better_parity_actual_degree": 14,
+        "better_parity_measure_threshold": 57,
+        "conditional_measure_absolute_exponent": 61,
+        "endpoint_degree": 15,
+        "unaligned_parity_exponent": 7
+      },
+      {
+        "Dirichlet_absolute_exponent": 15,
+        "absolute_exponent_gap": 122,
+        "algebraic_degree_r": 3,
+        "better_parity_actual_degree": 14,
+        "better_parity_measure_threshold": 128,
+        "conditional_measure_absolute_exponent": 137,
+        "endpoint_degree": 15,
+        "unaligned_parity_exponent": 7
+      },
+      {
+        "Dirichlet_absolute_exponent": 15,
+        "absolute_exponent_gap": 228,
+        "algebraic_degree_r": 4,
+        "better_parity_actual_degree": 14,
+        "better_parity_measure_threshold": 227,
+        "conditional_measure_absolute_exponent": 243,
+        "endpoint_degree": 15,
+        "unaligned_parity_exponent": 7
+      },
+      {
+        "Dirichlet_absolute_exponent": 15,
+        "absolute_exponent_gap": 364,
+        "algebraic_degree_r": 5,
+        "better_parity_actual_degree": 14,
+        "better_parity_measure_threshold": 354,
+        "conditional_measure_absolute_exponent": 379,
+        "endpoint_degree": 15,
+        "unaligned_parity_exponent": 7
+      },
+      {
+        "Dirichlet_absolute_exponent": 16,
+        "absolute_exponent_gap": 0,
+        "algebraic_degree_r": 1,
+        "better_parity_actual_degree": 16,
+        "better_parity_measure_threshold": 16,
+        "conditional_measure_absolute_exponent": 16,
+        "endpoint_degree": 16,
+        "unaligned_parity_exponent": 8
+      },
+      {
+        "Dirichlet_absolute_exponent": 16,
+        "absolute_exponent_gap": 49,
+        "algebraic_degree_r": 2,
+        "better_parity_actual_degree": 16,
+        "better_parity_measure_threshold": 65,
+        "conditional_measure_absolute_exponent": 65,
+        "endpoint_degree": 16,
+        "unaligned_parity_exponent": 8
+      },
+      {
+        "Dirichlet_absolute_exponent": 16,
+        "absolute_exponent_gap": 130,
+        "algebraic_degree_r": 3,
+        "better_parity_actual_degree": 16,
+        "better_parity_measure_threshold": 146,
+        "conditional_measure_absolute_exponent": 146,
+        "endpoint_degree": 16,
+        "unaligned_parity_exponent": 8
+      },
+      {
+        "Dirichlet_absolute_exponent": 16,
+        "absolute_exponent_gap": 243,
+        "algebraic_degree_r": 4,
+        "better_parity_actual_degree": 16,
+        "better_parity_measure_threshold": 259,
+        "conditional_measure_absolute_exponent": 259,
+        "endpoint_degree": 16,
+        "unaligned_parity_exponent": 8
+      },
+      {
+        "Dirichlet_absolute_exponent": 16,
+        "absolute_exponent_gap": 388,
+        "algebraic_degree_r": 5,
+        "better_parity_actual_degree": 16,
+        "better_parity_measure_threshold": 404,
+        "conditional_measure_absolute_exponent": 404,
+        "endpoint_degree": 16,
+        "unaligned_parity_exponent": 8
+      },
+      {
+        "Dirichlet_absolute_exponent": 17,
+        "absolute_exponent_gap": 0,
+        "algebraic_degree_r": 1,
+        "better_parity_actual_degree": 16,
+        "better_parity_measure_threshold": 16,
+        "conditional_measure_absolute_exponent": 17,
+        "endpoint_degree": 17,
+        "unaligned_parity_exponent": 8
+      },
+      {
+        "Dirichlet_absolute_exponent": 17,
+        "absolute_exponent_gap": 52,
+        "algebraic_degree_r": 2,
+        "better_parity_actual_degree": 16,
+        "better_parity_measure_threshold": 65,
+        "conditional_measure_absolute_exponent": 69,
+        "endpoint_degree": 17,
+        "unaligned_parity_exponent": 8
+      },
+      {
+        "Dirichlet_absolute_exponent": 17,
+        "absolute_exponent_gap": 138,
+        "algebraic_degree_r": 3,
+        "better_parity_actual_degree": 16,
+        "better_parity_measure_threshold": 146,
+        "conditional_measure_absolute_exponent": 155,
+        "endpoint_degree": 17,
+        "unaligned_parity_exponent": 8
+      },
+      {
+        "Dirichlet_absolute_exponent": 17,
+        "absolute_exponent_gap": 258,
+        "algebraic_degree_r": 4,
+        "better_parity_actual_degree": 16,
+        "better_parity_measure_threshold": 259,
+        "conditional_measure_absolute_exponent": 275,
+        "endpoint_degree": 17,
+        "unaligned_parity_exponent": 8
+      },
+      {
+        "Dirichlet_absolute_exponent": 17,
+        "absolute_exponent_gap": 412,
+        "algebraic_degree_r": 5,
+        "better_parity_actual_degree": 16,
+        "better_parity_measure_threshold": 404,
+        "conditional_measure_absolute_exponent": 429,
+        "endpoint_degree": 17,
+        "unaligned_parity_exponent": 8
+      },
+      {
+        "Dirichlet_absolute_exponent": 18,
+        "absolute_exponent_gap": 0,
+        "algebraic_degree_r": 1,
+        "better_parity_actual_degree": 18,
+        "better_parity_measure_threshold": 18,
+        "conditional_measure_absolute_exponent": 18,
+        "endpoint_degree": 18,
+        "unaligned_parity_exponent": 9
+      },
+      {
+        "Dirichlet_absolute_exponent": 18,
+        "absolute_exponent_gap": 55,
+        "algebraic_degree_r": 2,
+        "better_parity_actual_degree": 18,
+        "better_parity_measure_threshold": 73,
+        "conditional_measure_absolute_exponent": 73,
+        "endpoint_degree": 18,
+        "unaligned_parity_exponent": 9
+      },
+      {
+        "Dirichlet_absolute_exponent": 18,
+        "absolute_exponent_gap": 146,
+        "algebraic_degree_r": 3,
+        "better_parity_actual_degree": 18,
+        "better_parity_measure_threshold": 164,
+        "conditional_measure_absolute_exponent": 164,
+        "endpoint_degree": 18,
+        "unaligned_parity_exponent": 9
+      },
+      {
+        "Dirichlet_absolute_exponent": 18,
+        "absolute_exponent_gap": 273,
+        "algebraic_degree_r": 4,
+        "better_parity_actual_degree": 18,
+        "better_parity_measure_threshold": 291,
+        "conditional_measure_absolute_exponent": 291,
+        "endpoint_degree": 18,
+        "unaligned_parity_exponent": 9
+      },
+      {
+        "Dirichlet_absolute_exponent": 18,
+        "absolute_exponent_gap": 436,
+        "algebraic_degree_r": 5,
+        "better_parity_actual_degree": 18,
+        "better_parity_measure_threshold": 454,
+        "conditional_measure_absolute_exponent": 454,
+        "endpoint_degree": 18,
+        "unaligned_parity_exponent": 9
+      },
+      {
+        "Dirichlet_absolute_exponent": 19,
+        "absolute_exponent_gap": 0,
+        "algebraic_degree_r": 1,
+        "better_parity_actual_degree": 18,
+        "better_parity_measure_threshold": 18,
+        "conditional_measure_absolute_exponent": 19,
+        "endpoint_degree": 19,
+        "unaligned_parity_exponent": 9
+      },
+      {
+        "Dirichlet_absolute_exponent": 19,
+        "absolute_exponent_gap": 58,
+        "algebraic_degree_r": 2,
+        "better_parity_actual_degree": 18,
+        "better_parity_measure_threshold": 73,
+        "conditional_measure_absolute_exponent": 77,
+        "endpoint_degree": 19,
+        "unaligned_parity_exponent": 9
+      },
+      {
+        "Dirichlet_absolute_exponent": 19,
+        "absolute_exponent_gap": 154,
+        "algebraic_degree_r": 3,
+        "better_parity_actual_degree": 18,
+        "better_parity_measure_threshold": 164,
+        "conditional_measure_absolute_exponent": 173,
+        "endpoint_degree": 19,
+        "unaligned_parity_exponent": 9
+      },
+      {
+        "Dirichlet_absolute_exponent": 19,
+        "absolute_exponent_gap": 288,
+        "algebraic_degree_r": 4,
+        "better_parity_actual_degree": 18,
+        "better_parity_measure_threshold": 291,
+        "conditional_measure_absolute_exponent": 307,
+        "endpoint_degree": 19,
+        "unaligned_parity_exponent": 9
+      },
+      {
+        "Dirichlet_absolute_exponent": 19,
+        "absolute_exponent_gap": 460,
+        "algebraic_degree_r": 5,
+        "better_parity_actual_degree": 18,
+        "better_parity_measure_threshold": 454,
+        "conditional_measure_absolute_exponent": 479,
+        "endpoint_degree": 19,
+        "unaligned_parity_exponent": 9
+      },
+      {
+        "Dirichlet_absolute_exponent": 20,
+        "absolute_exponent_gap": 0,
+        "algebraic_degree_r": 1,
+        "better_parity_actual_degree": 20,
+        "better_parity_measure_threshold": 20,
+        "conditional_measure_absolute_exponent": 20,
+        "endpoint_degree": 20,
+        "unaligned_parity_exponent": 10
+      },
+      {
+        "Dirichlet_absolute_exponent": 20,
+        "absolute_exponent_gap": 61,
+        "algebraic_degree_r": 2,
+        "better_parity_actual_degree": 20,
+        "better_parity_measure_threshold": 81,
+        "conditional_measure_absolute_exponent": 81,
+        "endpoint_degree": 20,
+        "unaligned_parity_exponent": 10
+      },
+      {
+        "Dirichlet_absolute_exponent": 20,
+        "absolute_exponent_gap": 162,
+        "algebraic_degree_r": 3,
+        "better_parity_actual_degree": 20,
+        "better_parity_measure_threshold": 182,
+        "conditional_measure_absolute_exponent": 182,
+        "endpoint_degree": 20,
+        "unaligned_parity_exponent": 10
+      },
+      {
+        "Dirichlet_absolute_exponent": 20,
+        "absolute_exponent_gap": 303,
+        "algebraic_degree_r": 4,
+        "better_parity_actual_degree": 20,
+        "better_parity_measure_threshold": 323,
+        "conditional_measure_absolute_exponent": 323,
+        "endpoint_degree": 20,
+        "unaligned_parity_exponent": 10
+      },
+      {
+        "Dirichlet_absolute_exponent": 20,
+        "absolute_exponent_gap": 484,
+        "algebraic_degree_r": 5,
+        "better_parity_actual_degree": 20,
+        "better_parity_measure_threshold": 504,
+        "conditional_measure_absolute_exponent": 504,
+        "endpoint_degree": 20,
+        "unaligned_parity_exponent": 10
+      }
+    ]
+  },
+  "theorem_scope": {
+    "Dirichlet_absolute_exponent_d": true,
+    "Gaussian_phase_alignment_preserves_height_content_and_degree": true,
+    "collapse_rate_is_required_for_exponent_transfer": true,
+    "conditional_measure_threshold_r_squared_d_plus_r_minus_1": true,
+    "dimension_only_exponent_d_is_sharp": true,
+    "no_asymptotic_collapse_rate_claimed": true,
+    "no_classification_of_e_plus_pi": true,
+    "primitive_minimum_comparison": true,
+    "rank_one_all_degree_normal_form": true,
+    "transverse_cube_vertex_formula": true,
+    "unaligned_parity_exponent_floor_d_over_2": true,
+    "vector_valued_block_completion": true
+  },
+  "title": "All-degree Hardy endpoint collapse and Dirichlet boundary"
+}

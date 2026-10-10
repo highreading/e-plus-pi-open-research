@@ -1,0 +1,318 @@
+{
+  "all_degree_theorems": {
+    "L1_dichotomy": "R(0)=5A or norm_1(F)>=1/[2 Lambda], Lambda=3(B0+B1+|A|)",
+    "coefficient_cost": "B0>=(3|A|-norm_1(F))/2, with strictness away from the zero tuple",
+    "continued_fraction": "if B0>0 and 0<|A(e+pi)-C|<=norm_1(F)<min(1,1/(2B0)), then A!=0, |A|<=B0, and |e+pi-C/A|<1/(2A^2)",
+    "degree_one_replacement": "under the same hypotheses B0(P_(A,C))<9B0(P)+1 while the integer linear form is unchanged",
+    "endpoint": "F(0)=5A-R(0) is an integer",
+    "nonzero_sequence_constructed": false,
+    "uniform": "norm_infinity(F)>=|5A-R(0)|; norm_infinity(F)<1 forces R(0)=5A and p0=-4A"
+  },
+  "constant_controls": {
+    "classification": "EXACT ELEMENTARY CONSTANT CONTROLS; NOT NUMERICAL EVIDENCE",
+    "e_plus_pi_upper_bound": "e+pi<7",
+    "e_upper_bound": "e<1+1+sum_(n>=2)2^(-(n-1))=3, strict because n!>2^(n-1) for n>=3",
+    "pi_Machin_lower_bound": {
+      "denominator": 89625,
+      "greater_than_3": true,
+      "numerator": 281476
+    },
+    "pi_upper_bound": "pi=4*integral_0^1 dx/(1+x^2)<4",
+    "rational_term_derivative_exact_maximum": "3*sqrt(3)/2",
+    "rational_term_derivative_less_than_3": true,
+    "rational_term_derivative_maximum_square": {
+      "denominator": 4,
+      "numerator": 27
+    }
+  },
+  "date": "2026-09-01",
+  "dependency_hashes_verified": true,
+  "item": 389,
+  "ledger": {
+    "conclusion_about_e_plus_pi": "OPEN",
+    "new_capacity_reduction": 0,
+    "new_nonzero_linear_form_sequence": 0,
+    "new_route1_booking": 0
+  },
+  "polynomial_controls": [
+    {
+      "A": 1,
+      "B0": 12,
+      "B1": 13,
+      "C": 3,
+      "Lambda": 78,
+      "P_coefficients_low_to_high": [
+        -4,
+        3,
+        5
+      ],
+      "R0_equals_5A": true,
+      "R_coefficients_low_to_high": [
+        5
+      ],
+      "S_P_coefficients_low_to_high": [
+        3,
+        -7,
+        5
+      ],
+      "classification": "PREDECLARED EXACT POLYNOMIAL CONTROL; NOT A SMALL-FORM SEARCH",
+      "endpoint_pair": [
+        1,
+        3
+      ],
+      "five_A_minus_R0": 0,
+      "if_endpoint_nonzero_L1_lower_bound": null,
+      "kernel_coefficients_low_to_high": [
+        -5,
+        5,
+        5
+      ],
+      "mixed_integrand_value_at_zero": 0
+    },
+    {
+      "A": 2,
+      "B0": 48,
+      "B1": 78,
+      "C": -1,
+      "Lambda": 384,
+      "P_coefficients_low_to_high": [
+        -8,
+        19,
+        -8,
+        9,
+        4
+      ],
+      "R0_equals_5A": true,
+      "R_coefficients_low_to_high": [
+        10,
+        -3,
+        4
+      ],
+      "S_P_coefficients_low_to_high": [
+        -1,
+        -7,
+        13,
+        -7,
+        4
+      ],
+      "classification": "PREDECLARED EXACT POLYNOMIAL CONTROL; NOT A SMALL-FORM SEARCH",
+      "endpoint_pair": [
+        2,
+        -1
+      ],
+      "five_A_minus_R0": 0,
+      "if_endpoint_nonzero_L1_lower_bound": null,
+      "kernel_coefficients_low_to_high": [
+        -10,
+        16,
+        -8,
+        9,
+        4
+      ],
+      "mixed_integrand_value_at_zero": 0
+    },
+    {
+      "A": 3,
+      "B0": 12,
+      "B1": 13,
+      "C": 7,
+      "Lambda": 84,
+      "P_coefficients_low_to_high": [
+        3,
+        -6,
+        2,
+        1
+      ],
+      "R0_equals_5A": false,
+      "R_coefficients_low_to_high": [
+        0,
+        1
+      ],
+      "S_P_coefficients_low_to_high": [
+        7,
+        -4,
+        -1,
+        1
+      ],
+      "classification": "PREDECLARED EXACT POLYNOMIAL CONTROL; NOT A SMALL-FORM SEARCH",
+      "endpoint_pair": [
+        3,
+        7
+      ],
+      "five_A_minus_R0": 15,
+      "if_endpoint_nonzero_L1_lower_bound": {
+        "denominator": 168,
+        "numerator": 1
+      },
+      "kernel_coefficients_low_to_high": [
+        0,
+        -2,
+        2,
+        1
+      ],
+      "mixed_integrand_value_at_zero": 15
+    },
+    {
+      "A": -2,
+      "B0": 49,
+      "B1": 81,
+      "C": 5,
+      "Lambda": 396,
+      "P_coefficients_low_to_high": [
+        8,
+        -17,
+        -13,
+        7,
+        -3,
+        -1
+      ],
+      "R0_equals_5A": true,
+      "R_coefficients_low_to_high": [
+        -10,
+        0,
+        1,
+        -1
+      ],
+      "S_P_coefficients_low_to_high": [
+        5,
+        3,
+        -10,
+        -1,
+        2,
+        -1
+      ],
+      "classification": "PREDECLARED EXACT POLYNOMIAL CONTROL; NOT A SMALL-FORM SEARCH",
+      "endpoint_pair": [
+        -2,
+        5
+      ],
+      "five_A_minus_R0": 0,
+      "if_endpoint_nonzero_L1_lower_bound": null,
+      "kernel_coefficients_low_to_high": [
+        10,
+        -10,
+        -13,
+        7,
+        -3,
+        -1
+      ],
+      "mixed_integrand_value_at_zero": 0
+    },
+    {
+      "A": 0,
+      "B0": 46,
+      "B1": 160,
+      "C": 1,
+      "Lambda": 618,
+      "P_coefficients_low_to_high": [
+        0,
+        -5,
+        7,
+        -13,
+        11,
+        -3,
+        6,
+        1
+      ],
+      "R0_equals_5A": true,
+      "R_coefficients_low_to_high": [
+        0,
+        2,
+        -1,
+        3,
+        0,
+        1
+      ],
+      "S_P_coefficients_low_to_high": [
+        1,
+        -1,
+        -2,
+        3,
+        -4,
+        3,
+        -1,
+        1
+      ],
+      "classification": "PREDECLARED EXACT POLYNOMIAL CONTROL; NOT A SMALL-FORM SEARCH",
+      "endpoint_pair": [
+        0,
+        1
+      ],
+      "five_A_minus_R0": 0,
+      "if_endpoint_nonzero_L1_lower_bound": null,
+      "kernel_coefficients_low_to_high": [
+        0,
+        -4,
+        7,
+        -13,
+        11,
+        -3,
+        6,
+        1
+      ],
+      "mixed_integrand_value_at_zero": 0
+    },
+    {
+      "A": 5,
+      "B0": 140,
+      "B1": 327,
+      "C": -4,
+      "Lambda": 1416,
+      "P_coefficients_low_to_high": [
+        -20,
+        48,
+        11,
+        -15,
+        23,
+        -19,
+        3,
+        1
+      ],
+      "R0_equals_5A": true,
+      "R_coefficients_low_to_high": [
+        25,
+        -7,
+        0,
+        2,
+        -3,
+        1
+      ],
+      "S_P_coefficients_low_to_high": [
+        -4,
+        -16,
+        32,
+        -7,
+        -2,
+        5,
+        -4,
+        1
+      ],
+      "classification": "PREDECLARED EXACT POLYNOMIAL CONTROL; NOT A SMALL-FORM SEARCH",
+      "endpoint_pair": [
+        5,
+        -4
+      ],
+      "five_A_minus_R0": 0,
+      "if_endpoint_nonzero_L1_lower_bound": null,
+      "kernel_coefficients_low_to_high": [
+        -25,
+        39,
+        11,
+        -15,
+        23,
+        -19,
+        3,
+        1
+      ],
+      "mixed_integrand_value_at_zero": 0
+    }
+  ],
+  "schema": "item389-mixed-kernel-analytic-cost-continued-fraction-no-go-certificate-v1",
+  "scope": {
+    "irrationality_claimed": false,
+    "optimization_performed": false,
+    "small_nonzero_form_claimed": false,
+    "structured_family_ruled_out_without_hypotheses": false,
+    "unstructured_search_performed": false
+  }
+}

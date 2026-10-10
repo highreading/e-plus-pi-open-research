@@ -1,0 +1,221 @@
+{
+  "asymptotic_theorem": {
+    "conclusion_lambda": "lim |W_lambda,m|^(1/m)=rho_star^2",
+    "conclusion_normalized": "lim |W_mu,m|^(1/m)=(rho_star*exp(-C_F))^2",
+    "inherited": "lambda_0,m has saddle amplitude C and D_m has amplitude C*t(alpha); Items 420/423 prove tau and t(alpha) are nonreal",
+    "leading_cross_coefficient": "(|C|^2/2)*(t-conj(t))*(tau-conj(tau)) is nonzero",
+    "scope": "adjacent h=1 determinant and the first degree-2 critical-value reduction; not every growing window, adaptive recurrence, or modular resultant"
+  },
+  "capacity": {
+    "adjacent_determinant_base": "171.62066823550684129728855539508250286126371461059",
+    "current_normalized_single_row_base": "13.1004071782333102143382142797",
+    "direct_bound_for_one_gcd_is_worse": true,
+    "direct_determinant_ceiling_per_6m": "0.8575477706773157378915207658",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "retained_component_ceiling": "0.4287738853386578689457603829",
+    "strict_improvement": 0,
+    "two_row_product_after_dividing_by_two": "0.4287738853386578689457603829"
+  },
+  "checked_date_beijing": "2026-09-01",
+  "dependency_hashes_verified": {
+    "results/item390_mixed_cubic_fresh_primitive_saturation_certificate.json": "45b61f683a29305e4fcfd8810f146068f950070496e8e88a2a6b800f9dc1ada6",
+    "results/item415_marked_selector_compulsory_strip_certificate.json": "af731cf70e9a6d40cab380d38d5b404786cefef196eb42f743634b8d390cb29e",
+    "results/item418_normalized_large_carrier_certificate.json": "bcea1e6be723e48e3d1ca63bc5644b208059e5138799108ea403b0ba5d789075",
+    "results/item420_normalized_contour_extension_certificate.json": "ddac30da2c3c7ebca84cce7c412f99c05b6d6281a5598c2346f33b50efe18095",
+    "sources/item390_mixed_cubic_fresh_primitive_saturation_report.md": "5bfb3c871b12524f672df515e920236f2470145d4f68bdcd7b47f29408692f46",
+    "sources/item415_marked_selector_compulsory_strip_report.md": "da79ea786471a6abb35288f242a0b0b2307a695bd9352eaa3c4e2033fc701777",
+    "sources/item418_normalized_large_carrier_report.md": "5b490e38d127deec51cac34a80c6856ed824534daad8fc3a387fe6cbb7f7db68",
+    "sources/item420_normalized_contour_extension_report.md": "eebbcd02c654d6be1ca6ae50e427931abc16aae773300b4d1f32dc8f2291a414",
+    "work/item423_polynomial_bezout_no_go_certificate.json": "3ccb1fadac9f770cc999af24cb1781dd4c875bcaea3d01c252de94c725ad08aa",
+    "work/item423_polynomial_bezout_no_go_report.md": "fddb0af24dd970dd3835aad6688a02d3da277cf854781c822875698d2d2350a6"
+  },
+  "evidence_policy": {
+    "actual_family_only": true,
+    "component_not_subtracted_from_global_ceiling": true,
+    "finite_rows_only_normalize_formulas": true,
+    "no_finite_extrapolation": true,
+    "no_irrationality_claim": true
+  },
+  "exact_identities": {
+    "D_m": "D_m=2*lambda_1,m-5*lambda_0,m=CT(q*H^m)/m",
+    "adjacent_exterior": "2*W_m=lambda_0,m*D_(m+1)-D_m*lambda_0,(m+1)",
+    "gcd_product": "g_m*g_(m+1) divides W_mu,m",
+    "normalized_determinant": "W_mu,m=W_lambda,m/(F_m*F_(m+1)) is an integer",
+    "second_critical_reduction": "m*D_m-a*lambda_0,m-b*lambda_0,(m+1)-c*lambda_0,(m+2)=CT(q2*H^m)/m, with exact a,b,c and q2 nonzero at every critical point"
+  },
+  "finite_replay": {
+    "adjacent_determinant_divisibility_rows": 24,
+    "classification": "EXACT NORMALIZATION REPLAY ONLY; NO FINITE-TO-ASYMPTOTIC INFERENCE",
+    "first_reduction_rows": 24,
+    "row_digest_sha256": "a03b4c7d98338b73a1bf624d8e103eb9d942ca7f3ac232110986ac750a5fefc3",
+    "second_reduction_rows": 24,
+    "selected_rows": [
+      {
+        "F_m": "1",
+        "F_m_plus_1": "11",
+        "gcd_mu_m": "1",
+        "gcd_mu_m_plus_1": "1",
+        "lambda_m": [
+          "-35",
+          "-102"
+        ],
+        "lambda_m_plus_1": [
+          "2475",
+          "6952"
+        ],
+        "m": 1,
+        "normalized_adjacent_determinant": "830"
+      },
+      {
+        "F_m": "11",
+        "F_m_plus_1": "17",
+        "gcd_mu_m": "1",
+        "gcd_mu_m_plus_1": "8",
+        "lambda_m": [
+          "2475",
+          "6952"
+        ],
+        "lambda_m_plus_1": [
+          "-144976",
+          "-414392"
+        ],
+        "m": 2,
+        "normalized_adjacent_determinant": "-94904"
+      },
+      {
+        "F_m": "17",
+        "F_m_plus_1": "437",
+        "gcd_mu_m": "8",
+        "gcd_mu_m_plus_1": "1",
+        "lambda_m": [
+          "-144976",
+          "-414392"
+        ],
+        "lambda_m_plus_1": [
+          "141151",
+          "4001172"
+        ],
+        "m": 3,
+        "normalized_adjacent_determinant": "-70208920"
+      },
+      {
+        "F_m": "667",
+        "F_m_plus_1": "899",
+        "gcd_mu_m": "15",
+        "gcd_mu_m_plus_1": "36",
+        "lambda_m": [
+          "2049154065",
+          "4895826690"
+        ],
+        "lambda_m_plus_1": [
+          "-489394653300",
+          "-1215561806208"
+        ],
+        "m": 5,
+        "normalized_adjacent_determinant": "-158233470940440"
+      },
+      {
+        "F_m": "6319667",
+        "F_m_plus_1": "8965109",
+        "gcd_mu_m": "7",
+        "gcd_mu_m_plus_1": "4704",
+        "lambda_m": [
+          "-232910833726432908725",
+          "-590010473225181739752"
+        ],
+        "lambda_m_plus_1": [
+          "27448529611119430413600",
+          "69654637456875141101088"
+        ],
+        "m": 10,
+        "normalized_adjacent_determinant": "-501261744856402443336175200"
+      },
+      {
+        "F_m": "202652143553",
+        "F_m_plus_1": "4660999301719",
+        "gcd_mu_m": "36",
+        "gcd_mu_m_plus_1": "15",
+        "lambda_m": [
+          "-370330683901550031803438324556",
+          "-783611641792275011667507370176"
+        ],
+        "lambda_m_plus_1": [
+          "378460014833534039490944973055215",
+          "935665830391667895214291543173660"
+        ],
+        "m": 15,
+        "normalized_adjacent_determinant": "-52871192947599992418108206497703330160"
+      },
+      {
+        "F_m": "4843218585190677539",
+        "F_m_plus_1": "106406645032537919",
+        "gcd_mu_m": "21",
+        "gcd_mu_m_plus_1": "165",
+        "lambda_m": [
+          "350481761725695152068947106861521142729671",
+          "881010363487762807925043821048860911903444"
+        ],
+        "lambda_m_plus_1": [
+          "-45505466676833469315368545715477003434083375",
+          "-114520105192105733364522066914890932057624030"
+        ],
+        "m": 20,
+        "normalized_adjacent_determinant": "-90075531934739244530518595060780970666621614430"
+      },
+      {
+        "F_m": "47780466626571432457",
+        "F_m_plus_1": "237096050866146091031",
+        "gcd_mu_m": "660",
+        "gcd_mu_m_plus_1": "220",
+        "lambda_m": [
+          "51152894669326542810895258864243132837564284471300",
+          "129528300577246009294636545996208123400647324528080"
+        ],
+        "lambda_m_plus_1": [
+          "-2876448024002323199191094282003126599321190603356060",
+          "-7369255341008749158076620272313817147106070662264760"
+        ],
+        "m": 24,
+        "normalized_adjacent_determinant": "-386396684413110765843691806555940997567924323066621166469600"
+      }
+    ]
+  },
+  "item": 425,
+  "schema": "item425-adjacent-transfer-v1",
+  "smallest_missing_lemma": {
+    "statement": "find genuinely arithmetic cross-index information whose carrier root base, after accounting for every row gcd it contains, is strictly below rho_star*exp(-C_F), or prove weighted nonconcentration directly",
+    "status": "OPEN"
+  },
+  "status": "PROVED_ADJACENT_DETERMINANT_SATURATION_AND_SCOPED_HOLONOMIC_NO_GO_ZERO_LEDGER",
+  "strict_labels": {
+    "OPEN": [
+      "larger or growing windows and adaptive coefficients",
+      "a different resultant with strict per-contained-gcd exponential gain",
+      "log c_m^>=o(m), Route 1, and every conclusion about e+pi"
+    ],
+    "PROVED": [
+      "exact adjacent exterior identity and normalized product-gcd divisibility",
+      "exact degree-2 critical-value transfer with nonzero reduced amplitude",
+      "adjacent determinant root base rho_star^2",
+      "normalized determinant base (rho_star*exp(-C_F))^2",
+      "zero booking and zero capacity reduction"
+    ],
+    "SCOPED_NO_GO": [
+      "the adjacent 2x2 determinant gives a worse one-row bound and exactly reproduces the current ceiling after averaging its two row gcds",
+      "the natural degree-2 shifted critical-value cancellation saves only a polynomial factor"
+    ]
+  },
+  "symbolic_second_reduction": {
+    "Res(P,q2_den)": "33028455344443562055745346250291019776000000000",
+    "Res(P,q2_num)": "-181207723609599379275366250837463531520000000",
+    "a": "195029/3525500",
+    "b": "-1339328/71391375",
+    "c": "-237568/1927567125",
+    "critical_divides_reduced_amplitude_numerator": true,
+    "q2_denominator": "15420537000*y^8*(1+y^2)^9",
+    "q2_nonzero_and_finite_at_all_critical_points": true,
+    "q2_numerator_degree": 25
+  },
+  "title": "adjacent exterior transfer saturates the normalized mixed-cubic base"
+}

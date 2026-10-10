@@ -1,0 +1,122 @@
+{
+  "schema": "mixed-cubic-exceptional-ray-coprimality-v2",
+  "generator": "mixed_cubic_exceptional_ray_coprimality_certificate.py",
+  "generator_sha256": "06bd3e476269418bc19b23b05ffb9301023e5f42a077e5d4e75f522db026960e",
+  "max_m": 10000,
+  "tested_prime_ray_indices": 2402,
+  "identities_checked": [
+    "exact original Taylor L0,L1 equal the oriented rho formulas",
+    "rho0=rho4=0",
+    "4 rho2 = binomial(5m+2,m) != 0 mod p",
+    "rho5=(n-2)rho1/3 and rho6=2m rho2",
+    "rho3=0 for even m; rho1=0 for odd m",
+    "L0,L1 are not simultaneously zero"
+  ],
+  "sample_rows": [
+    {
+      "m": 1,
+      "p": 13,
+      "L0_mod_p": 1,
+      "L1_mod_p": 5,
+      "rho2_mod_p": 5,
+      "vanishing_parity_residue": "rho1"
+    },
+    {
+      "m": 2,
+      "p": 23,
+      "L0_mod_p": 21,
+      "L1_mod_p": 8,
+      "rho2_mod_p": 5,
+      "vanishing_parity_residue": "rho3"
+    },
+    {
+      "m": 4,
+      "p": 43,
+      "L0_mod_p": 9,
+      "L1_mod_p": 8,
+      "rho2_mod_p": 12,
+      "vanishing_parity_residue": "rho3"
+    },
+    {
+      "m": 5,
+      "p": 53,
+      "L0_mod_p": 7,
+      "L1_mod_p": 30,
+      "rho2_mod_p": 16,
+      "vanishing_parity_residue": "rho1"
+    },
+    {
+      "m": 7,
+      "p": 73,
+      "L0_mod_p": 0,
+      "L1_mod_p": 69,
+      "rho2_mod_p": 34,
+      "vanishing_parity_residue": "rho1"
+    },
+    {
+      "m": 8,
+      "p": 83,
+      "L0_mod_p": 68,
+      "L1_mod_p": 62,
+      "rho2_mod_p": 71,
+      "vanishing_parity_residue": "rho3"
+    },
+    {
+      "m": 10,
+      "p": 103,
+      "L0_mod_p": 76,
+      "L1_mod_p": 95,
+      "rho2_mod_p": 4,
+      "vanishing_parity_residue": "rho3"
+    },
+    {
+      "m": 11,
+      "p": 113,
+      "L0_mod_p": 35,
+      "L1_mod_p": 17,
+      "rho2_mod_p": 44,
+      "vanishing_parity_residue": "rho1"
+    },
+    {
+      "m": 16,
+      "p": 163,
+      "L0_mod_p": 91,
+      "L1_mod_p": 43,
+      "rho2_mod_p": 112,
+      "vanishing_parity_residue": "rho3"
+    },
+    {
+      "m": 17,
+      "p": 173,
+      "L0_mod_p": 137,
+      "L1_mod_p": 117,
+      "rho2_mod_p": 122,
+      "vanishing_parity_residue": "rho1"
+    },
+    {
+      "m": 19,
+      "p": 193,
+      "L0_mod_p": 68,
+      "L1_mod_p": 116,
+      "rho2_mod_p": 86,
+      "vanishing_parity_residue": "rho1"
+    },
+    {
+      "m": 22,
+      "p": 223,
+      "L0_mod_p": 60,
+      "L1_mod_p": 38,
+      "rho2_mod_p": 190,
+      "vanishing_parity_residue": "rho3"
+    },
+    {
+      "m": 10000,
+      "p": 100003,
+      "L0_mod_p": 85370,
+      "L1_mod_p": 86912,
+      "rho2_mod_p": 57722,
+      "vanishing_parity_residue": "rho3"
+    }
+  ],
+  "warning": "finite replay; the companion proof is uniform"
+}

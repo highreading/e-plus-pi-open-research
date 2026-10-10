@@ -1,0 +1,566 @@
+{
+  "beta_matrix": {
+    "all_parameter_factorization": "M=[a b]*[alpha; beta], rank(M)<=2",
+    "basis_transport": [
+      {
+        "clearing": "2520",
+        "degree": 4,
+        "transition_determinant": "1",
+        "universal_response_snf": [
+          "4",
+          "12"
+        ]
+      },
+      {
+        "clearing": "360360",
+        "degree": 8,
+        "transition_determinant": "1",
+        "universal_response_snf": [
+          "4",
+          "52"
+        ]
+      },
+      {
+        "clearing": "12252240",
+        "degree": 12,
+        "transition_determinant": "1",
+        "universal_response_snf": [
+          "4",
+          "68"
+        ]
+      },
+      {
+        "clearing": "26771144400",
+        "degree": 20,
+        "transition_determinant": "1",
+        "universal_response_snf": [
+          "4",
+          "20"
+        ]
+      }
+    ],
+    "native_exact_smith_rows": [
+      {
+        "clearing_digits": 6,
+        "degree": 10,
+        "delta2_native_times_universal": "2048",
+        "delta2_response": "2048",
+        "factorial_augmented_snf": [
+          "32",
+          "64",
+          "2983680"
+        ],
+        "indices": [
+          8,
+          9,
+          10
+        ],
+        "matrix_sha256": "fb4b2698e264f66140a7e4c20cf11e3a9289be1b19a0fa38e703ab2f82920559",
+        "response_snf": [
+          "32",
+          "64"
+        ]
+      },
+      {
+        "clearing_digits": 6,
+        "degree": 11,
+        "delta2_native_times_universal": "4096",
+        "delta2_response": "4096",
+        "factorial_augmented_snf": [
+          "32",
+          "128",
+          "80640"
+        ],
+        "indices": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "matrix_sha256": "741c8c9dc116b3b97c84d6f087382c7c0b8386e501ec410ab0c25854d7ac8782",
+        "response_snf": [
+          "32",
+          "128"
+        ]
+      },
+      {
+        "clearing_digits": 8,
+        "degree": 12,
+        "delta2_native_times_universal": "34816",
+        "delta2_response": "34816",
+        "factorial_augmented_snf": [
+          "32",
+          "64",
+          "1370880"
+        ],
+        "indices": [
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "matrix_sha256": "957da08e4fe92e0206e555267ac2ca4d8d45a9505ae368d7f086c5cf37135fc9",
+        "response_snf": [
+          "32",
+          "1088"
+        ]
+      },
+      {
+        "clearing_digits": 11,
+        "degree": 20,
+        "delta2_native_times_universal": "2621440",
+        "delta2_response": "2621440",
+        "factorial_augmented_snf": [
+          "512",
+          "5120",
+          "41845579776000"
+        ],
+        "indices": [
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "matrix_sha256": "69cf527ea69352067c9e95e2de05e4b32f36775eb0eebd74a4b8bc5b3607696f",
+        "response_snf": [
+          "512",
+          "5120"
+        ]
+      },
+      {
+        "clearing_digits": 15,
+        "degree": 28,
+        "delta2_native_times_universal": "134217728",
+        "delta2_response": "134217728",
+        "factorial_augmented_snf": [
+          "8192",
+          "16384",
+          "1240896803466478878720000"
+        ],
+        "indices": [
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "matrix_sha256": "4ff5a25c137588d8bceeeecb44e51e9e628d5feedcff407b913b246d57e8462b",
+        "response_snf": [
+          "8192",
+          "16384"
+        ]
+      }
+    ],
+    "scope": "Every displayed Smith form is exact; no finite pattern is extrapolated."
+  },
+  "control_audit": [
+    {
+      "bytes": 15981,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "sources/common_kernel_multioutput_smith_quadratic_denominator_obstruction.md"
+    },
+    {
+      "bytes": 30000,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "scripts/common_kernel_multioutput_smith_quadratic_denominator_certificate.py"
+    }
+  ],
+  "dependency_audit": {
+    "results/common_kernel_finite_multimoment_exact_approximation_hashes.sha256": "b53b8e6f1855fe3eb7ef1b1eae1c303fad3b9cd5344462616606794fd0d9ce6d",
+    "results/common_kernel_native_output_bernstein_congruence_hashes.sha256": "559cc412db81ed449d4255654ad370f44a8ceb4d8acdce234a7f607d448ffcb7"
+  },
+  "five_output_generators": {
+    "all_parameter_formula": "image = 2*eta_N/((N+2)(N+3))*Z; reduced denominator is (N+2)(N+3)/2",
+    "finite_range_counts_N_le_2000": {
+      "eta_1": 246,
+      "eta_71": 4
+    },
+    "scope": "N<=2000 is diagnostic only; resultants, modular roots, and the Smith lemma prove the all-N formula.",
+    "selected_primitive_generators": [
+      {
+        "N": 8,
+        "delta": "1/55",
+        "eta": 1,
+        "exact_zero_c": [
+          "-262620",
+          "576950",
+          "-469532",
+          "181057",
+          "-11946"
+        ],
+        "factorial_sum": "0",
+        "gaussian_imaginary_sum": "0",
+        "gaussian_real_sum": "0",
+        "lcm_through_N_plus_3_divisible": true,
+        "primitive_c": [
+          "-95652",
+          "210138",
+          "-171014",
+          "65945",
+          "-4351"
+        ],
+        "primitive_c_max_digits": 6,
+        "reduced_denominator": 55,
+        "u_gcd": 2
+      },
+      {
+        "N": 16,
+        "delta": "71/171",
+        "eta": 71,
+        "exact_zero_c": [
+          "-67932",
+          "143298",
+          "-112904",
+          "41255",
+          "-1786"
+        ],
+        "factorial_sum": "0",
+        "gaussian_imaginary_sum": "0",
+        "gaussian_real_sum": "0",
+        "lcm_through_N_plus_3_divisible": true,
+        "primitive_c": [
+          "32980",
+          "-69566",
+          "54810",
+          "-20027",
+          "867"
+        ],
+        "primitive_c_max_digits": 5,
+        "reduced_denominator": 171,
+        "u_gcd": 2
+      },
+      {
+        "N": 24,
+        "delta": "1/351",
+        "eta": 1,
+        "exact_zero_c": [
+          "-30075500",
+          "62436582",
+          "-48511988",
+          "17293697",
+          "-556578"
+        ],
+        "factorial_sum": "0",
+        "gaussian_imaginary_sum": "0",
+        "gaussian_real_sum": "0",
+        "lcm_through_N_plus_3_divisible": true,
+        "primitive_c": [
+          "7243100",
+          "-15036638",
+          "11683170",
+          "-4164851",
+          "134041"
+        ],
+        "primitive_c_max_digits": 8,
+        "reduced_denominator": 351,
+        "u_gcd": 2
+      },
+      {
+        "N": 32,
+        "delta": "1/595",
+        "eta": 1,
+        "exact_zero_c": [
+          "-114580884",
+          "235835390",
+          "-181817168",
+          "63899473",
+          "-1636110"
+        ],
+        "factorial_sum": "0",
+        "gaussian_imaginary_sum": "0",
+        "gaussian_real_sum": "0",
+        "lcm_through_N_plus_3_divisible": true,
+        "primitive_c": [
+          "-18411756",
+          "37895882",
+          "-29215810",
+          "10267869",
+          "-262903"
+        ],
+        "primitive_c_max_digits": 8,
+        "reduced_denominator": 595,
+        "u_gcd": 2
+      },
+      {
+        "N": 64,
+        "delta": "1/2211",
+        "eta": 1,
+        "exact_zero_c": [
+          "-3142725300",
+          "6380154462",
+          "-4855691008",
+          "1665613777",
+          "-23449598"
+        ],
+        "factorial_sum": "0",
+        "gaussian_imaginary_sum": "0",
+        "gaussian_real_sum": "0",
+        "lcm_through_N_plus_3_divisible": true,
+        "primitive_c": [
+          "-1346595640",
+          "2733770012",
+          "-2080567570",
+          "713682564",
+          "-10047689"
+        ],
+        "primitive_c_max_digits": 10,
+        "reduced_denominator": 2211,
+        "u_gcd": 2
+      },
+      {
+        "N": 128,
+        "delta": "1/8515",
+        "eta": 1,
+        "exact_zero_c": [
+          "-92984585460",
+          "187395480350",
+          "-141612962912",
+          "47915222737",
+          "-354887646"
+        ],
+        "factorial_sum": "0",
+        "gaussian_imaginary_sum": "0",
+        "gaussian_real_sum": "0",
+        "lcm_through_N_plus_3_divisible": true,
+        "primitive_c": [
+          "-7110710652",
+          "14330493938",
+          "-10829416498",
+          "3664169529",
+          "-27138943"
+        ],
+        "primitive_c_max_digits": 11,
+        "reduced_denominator": 8515,
+        "u_gcd": 2
+      },
+      {
+        "N": 256,
+        "delta": "1/33411",
+        "eta": 1,
+        "exact_zero_c": [
+          "-2860204923252",
+          "5742548300958",
+          "-4323488974624",
+          "1452214824145",
+          "-5521567646"
+        ],
+        "factorial_sum": "0",
+        "gaussian_imaginary_sum": "0",
+        "gaussian_real_sum": "0",
+        "lcm_through_N_plus_3_divisible": true,
+        "primitive_c": [
+          "183962432924",
+          "-369348765202",
+          "278077820238",
+          "-93403437637",
+          "355135749"
+        ],
+        "primitive_c_max_digits": 12,
+        "reduced_denominator": 33411,
+        "u_gcd": 2
+      },
+      {
+        "N": 512,
+        "delta": "1/132355",
+        "eta": 1,
+        "exact_zero_c": [
+          "-89728443232884",
+          "179805755434910",
+          "-135115763289248",
+          "45212885571793",
+          "-87114735390"
+        ],
+        "factorial_sum": "0",
+        "gaussian_imaginary_sum": "0",
+        "gaussian_real_sum": "0",
+        "lcm_through_N_plus_3_divisible": true,
+        "primitive_c": [
+          "-43518856658328",
+          "87206916950572",
+          "-65531991005394",
+          "21928532530108",
+          "-42251191993"
+        ],
+        "primitive_c_max_digits": 14,
+        "reduced_denominator": 132355,
+        "u_gcd": 2
+      }
+    ]
+  },
+  "five_output_symbolic": {
+    "Z": [
+      "-(N - 1)*(N + 2)*(N + 3)**2",
+      "-(N + 1)*(N + 3)*(N**3 + 6*N**2 + 14*N + 8)",
+      "-(N + 1)*(N + 2)*(N**4 + 11*N**3 + 48*N**2 + 99*N + 77)"
+    ],
+    "common_modular_roots": {
+      "5": [],
+      "71": [
+        16
+      ]
+    },
+    "derived_u_from_v_times_t_power": [
+      "N**2 + N + 2",
+      "(N + 1)*(N**2 + 3*N + 4)",
+      "(N + 1)*(N + 2)*(N**2 + 5*N + 8)"
+    ],
+    "derived_z_from_exact_invariant": [
+      "-(N - 1)*(N + 3)/(N + 1)",
+      "-(N**3 + 6*N**2 + 14*N + 8)/(N + 2)",
+      "-(N**4 + 11*N**3 + 48*N**2 + 99*N + 77)/(N + 3)"
+    ],
+    "minors": [
+      "-(N + 1)*(N + 3)*(5*N**3 + 21*N**2 + 50*N + 40)",
+      "-(N + 1)*(N + 2)*(5*N**4 + 51*N**3 + 201*N**2 + 389*N + 298)",
+      "-(N + 1)**2*(N + 2)*(5*N**3 + 36*N**2 + 107*N + 116)"
+    ],
+    "resultant_B0_B1": "74448896000",
+    "resultant_B0_B2": "22334668800",
+    "u": [
+      "N**2 + N + 2",
+      "N**3 + 4*N**2 + 7*N + 4",
+      "N**4 + 8*N**3 + 25*N**2 + 34*N + 16"
+    ],
+    "z": [
+      "-(N - 1)*(N + 3)/(N + 1)",
+      "-(N**3 + 6*N**2 + 14*N + 8)/(N + 2)",
+      "-(N**4 + 11*N**3 + 48*N**2 + 99*N + 77)/(N + 3)"
+    ]
+  },
+  "four_output": {
+    "G": "N**2 + N + 2",
+    "H": "(N + 1)*(N**2 + 3*N + 4)",
+    "factorial_functional": "0",
+    "primitive_unscaled_polynomial": "-2*N**3 - 8*N**2 - 14*N + t**3*(N**2 + N + 2) + t**2*(-N**3 - 6*N**2 - 9*N - 8) + t*(2*N**3 + 10*N**2 + 16*N + 12) - 8",
+    "resultant_G_H": "16",
+    "scope": "Residue gcd values are proved from resultant 16 and 2-adic residues.",
+    "sign_window_gcd_rows": [
+      {
+        "N_mod_8": 0,
+        "gcd_G_H": 2
+      },
+      {
+        "N_mod_8": 1,
+        "gcd_G_H": 4
+      }
+    ],
+    "three_output_factorial_kernel": "N**2 + N + 2",
+    "unscaled_invariant": "-(5*N**3 + 21*N**2 + 50*N + 40)/(N + 2)"
+  },
+  "full_affine_smith": {
+    "clearing": "12252240",
+    "degree": 12,
+    "delta4_direct": "7662980031690099916800",
+    "delta4_factored": "7662980031690099916800",
+    "full_matrix_sha256": "d5cfb789836d7c664cd28f9e0a67a4569820d99a3eb749c754bdf1dc3e96ab9a",
+    "full_snf": [
+      "8",
+      "544",
+      "198016",
+      "8892185702400"
+    ],
+    "indices": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "kappa": [
+      "-3318725391696",
+      "-29870442733560",
+      "-298702067243008",
+      "-3285712885254800",
+      "-39428539017377744"
+    ]
+  },
+  "rss_guard_kib": 41943040,
+  "rss_guard_passed": true,
+  "scope": {
+    "not_claimed": [
+      "a denominator-cleared integer tending to zero",
+      "numerator content beyond the Smith divisor",
+      "irrationality or transcendence of e+pi"
+    ],
+    "proved_all_parameter": [
+      "rank-two cleared beta response and exact Smith/minor factorization",
+      "four-consecutive-output primitive invariant grows quadratically",
+      "five-consecutive-output primitive invariant is O(N^-2)",
+      "its reduced denominator is exactly (N+2)(N+3)/2",
+      "every common rational correction denominator is divisible by it",
+      "five and higher outputs also carry exact-zero relations"
+    ]
+  },
+  "source_markup_audit": {
+    "display_closers": 51,
+    "display_openers": 51,
+    "inline_closers": 98,
+    "inline_openers": 98,
+    "nested_openers": 0,
+    "numbered_tags": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50"
+    ],
+    "orphan_closers": 0,
+    "status": "PASS",
+    "untagged_display_line_intervals": [
+      [
+        137,
+        139
+      ]
+    ]
+  },
+  "theorem": "multi-output Smith structure and quadratic denominator obstruction"
+}

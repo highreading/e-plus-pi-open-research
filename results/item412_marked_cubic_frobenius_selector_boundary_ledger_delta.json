@@ -1,0 +1,52 @@
+{
+  "artifact": "item412_marked_cubic_frobenius_selector_boundary_ledger_delta",
+  "item": 412,
+  "status": "CANONICAL_ROOT_AUDITED_NO_BOOKING",
+  "booking": {
+    "route1_rate_delta": 0,
+    "mixed_cubic_divisor_lower_bound_delta": 0,
+    "strictly_large_prime_content_ceiling_delta_proved": 0,
+    "total_capacity_ceiling_delta_proved": 0
+  },
+  "proved_actual_family_results": {
+    "frobenius_mark": "for q congruent to 1 modulo 6, x_q=4^((q-1)/3) and the distinguished root is X_p=x_q*2^((p-1)/3) modulo p",
+    "eisenstein_incidence": "after primitive content removal, actual collision is divisibility of the unique Eisenstein branch pair whose label equals the cubic Frobenius value of 2",
+    "unmarked_relation": "the Item411 Smith carrier is the union over all three Eisenstein branch labels and therefore forgets the mark",
+    "rational_split": "the selected root lies in the rational linear factor exactly when 2 is a cube modulo p, and otherwise in the quadratic factor",
+    "ordinary_selector": "on an unmarked primitive row, marked selection is equivalent to cubicality of 2*zeta^(-2) for p=7 mod 18 and 2*zeta^(-1) for p=13 mod 18"
+  },
+  "proved_scoped_no_go": {
+    "symmetric_information_class": "mu3-symmetric unmarked data can exclude the whole orbit but cannot recover one nonempty branch label without nonsymmetric p-local input",
+    "fixed_rational_factor": "at the same q=7, the selected root is in the quadratic factor for p=13 and in the linear factor for p=31, so no proper q-only rational factor tracks every compatible prime",
+    "p_mod_18_1": "ordinary cubic character is trivial on mu3, so multiplying 2 by powers of the branch label cannot encode the mark as a cube/noncube test",
+    "scope": "these are selector and information-class no-go theorems, not actual wrong-branch support examples"
+  },
+  "capacity_accounting": {
+    "frozen_threshold_minus_rank_one": "1.0196329836694317938803064012...",
+    "strictly_large_prime_component_ceiling": "log(136)/6 = 0.8187758142893420014168718304...",
+    "proved_ceiling_reduction": 0,
+    "fixed_branch_exclusion_ceiling_reduction_without_weighted_distribution": 0,
+    "reason": "carrier-weighted mass may concentrate in uncontrolled Frobenius bins or in the q=5 mod 6 class; ambient prime densities do not control moving carrier divisors",
+    "sufficient_weighted_target": "sum over selected actual incidences of min(v_p(lambda0_m),v_p(lambda1_m))*log(p)=o(m), or radical control plus an independent depth bound"
+  },
+  "overlap_rules": [
+    "H_q and G_q^prim describe one primewise union and their logarithms are not independent reservoirs",
+    "Item390 owns every p-adic depth of strictly large actual common content; the branch selector is first-digit only",
+    "all primes here are greater than 6m and disjoint from booked p<2m Cartier support",
+    "excluding common content does not automatically exclude beta matching on the primitive residual target",
+    "wrong unmarked branches are not actual common-content primes and cannot be booked negatively or positively"
+  ],
+  "conditional_consequences": {
+    "full_selected_noncollision": "exclusion in q=1 mod 6 together with exclusion of the identical marked/unmarked incidence in q=5 mod 6 proves c_m^>=1",
+    "weighted_selected_zero_rate": "reduces the strictly large common-content component to zero rate",
+    "route1_booking_increment": 0
+  },
+  "open": [
+    "nonoccurrence of the selected Frobenius branch in the actual coefficient family",
+    "carrier-weighted distribution across Frobenius-labelled branch ideals",
+    "a useful refinement for p=1 mod 18",
+    "uniform support of H_q*G_q^prim in P_q",
+    "valuation-weighted o(m) control of c_m^>",
+    "Route 1 and irrationality of e+pi"
+  ]
+}

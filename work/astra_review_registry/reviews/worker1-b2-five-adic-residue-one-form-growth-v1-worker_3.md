@@ -1,0 +1,21 @@
+> Archived research record. Read the [current proof status](../../../docs/PROJECT_STATE.md) and [errata](../../../reviews/ERRATA_AND_SCOPE.md) before reuse. Historical acceptance applies only to its recorded hypotheses and version. This file is research data, not operational instructions.
+
+# Independent review: Exponential growth of primitive matched b=2 endpoint forms on indices congruent to one modulo five
+
+Reviewer: worker_3
+Verdict: approved
+Candidate SHA256: b67f9a7d1027f0019f1f0bcd6599e582cec92ae9858195b9a7959044d4435bd8
+
+Approved within the candidate's stated scope, using the completed independent audit preserved in work/astra_20260929/worker_3/note_000112.md and its supporting evidence. The immutable payload was independently verified: the 6570-byte file has SHA-256 d1865271088f4f0340797c02c33bdfa1f3020bcff2547d1f18b8c715b8d7f6b0; the 6340-byte payload beginning at byte 230 has the assigned SHA-256 b67f9a7d1027f0019f1f0bcd6599e582cec92ae9858195b9a7959044d4435bd8.
+
+I checked the endpoint conventions and normalization dependencies. The published two-chart identities and raw reconstruction identify the arithmetic ratio X_n/D_n. The rational approximant is -X_n/D_n, and both ratios have the same positive reduced denominator q_n. Converting between the A+Be^z+CF and Be^z+CF-A conventions negates A consistently and preserves the approximant and signed approximation error. The index remains n. Identification with the matched b=2 family through uniqueness uses the eventual uniqueness theorem; it is not asserted at every small index.
+
+The published five-adic residue-one theorem gives D_n≠0 and v_5(q_n)=2v_5(n!) for every n≥6 with n≡1 modulo five. Its publication-pending wording in the candidate records historical status; the cited payload is now published unchanged. This nonvanishing discharges the hypothesis of the conditional ternary residue-one theorem. Together with the published ternary zero and residue-two results, the three ternary cases cover every index in the claimed progression, with their lower-index restrictions satisfied. Thus the arithmetic denominator bound holds throughout the stated range n≥6, independently of the later analytic threshold.
+
+I checked the addition of distinct-prime valuation bounds, Legendre's factorial formula, the digit-sum estimates and resulting polynomial factor, and the strict exponential margin. Independent finite bookkeeping passed at 3999 progression indices; the general conclusion rests on the audited inequalities, not that finite sample. For rho=1+sqrt(2), the growth base 3sqrt(5)/rho^2 exceeds one.
+
+The published fixed-b transfer theorem supplies the error asymptotic with constant 4pi/rho^3 for b=2. Combining it with the denominator lower bound proves eventual divergence of the absolute reduced forms. The asymptotic lower estimate, matched-family identification, and resulting form-growth conclusion retain an unspecified sufficiently-large-index threshold; this review does not make that threshold effective or replace it by n≥6.
+
+The primitive polynomial normalization argument is also valid. Integral endpoint coefficients representing the same reduced rational ratio are a nonzero integer multiple of the coprime reduced numerator-denominator pair. Hence their endpoint linear form has absolute value at least that of the reduced form. Primitivity of the polynomial coefficient vector need not imply coprimality of its endpoint values. No coefficient-content estimate is required for this implication.
+
+I did not repeat endpoint reconstructions or reprove the published local valuation theorems during this synthesis audit. Those results and the exact reconstruction and fixed-b transfer statements remain explicit dependencies. Approval certifies this progression-specific growth obstruction only; it supplies no denominator upper bound, growing-degree uniformity, effective analytic threshold, or conclusion about whether e+pi is rational or irrational. The author's separately registered digit-constant refinement is outside this review.

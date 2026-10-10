@@ -1,0 +1,54 @@
+{
+  "schema": "item246-j2-bulk-residual-structure-ledger-v1",
+  "item": 246,
+  "route": "Route 1A",
+  "cell": "normalized common-log j=2 fixed cell, canonical Item244 bulk residual",
+  "status": "closed rational bulk functional and exact row-parameter recurrence proved; all-row nonvanishing disproved; larger-state elimination remains open",
+  "proved": [
+    "B_L[D] is the closed triangular rational functional sum over 0<=k<v<=d stated in report equation (1.3)",
+    "B_L[D] is equivalently the exact polynomial double integral in report equation (2.4)",
+    "on every actual nonempty parity projection all rational denominators are p-units, so modular vanishing is exactly divisibility of the reduced rational numerator by the moving prime p",
+    "multiplication by 1+epsilon*t obeys the exact coupled B/S shift recurrence in report equation (1.4)",
+    "the two parity-binomial seeds obey the exact recurrence in report equation (3.4), giving a finite recurrence in (L,b,q,R,delta)",
+    "coefficient reversal gives the exact reflected-pole reciprocity identity in report equation (4.6)",
+    "the reflected pole is distinct modulo p on every actual nonempty projection because 0<2L+d+1<p",
+    "the two coordinates obey D0=(1+t)A and D1=(1+3t)A+t^(1-delta)(3+t)C with a nonzero companion parity C",
+    "D0 and D1 share the visible divisor (1-t)^min(r,1)*(1+t)^(2s-1), but applying it to B shifts the pole state and does not factor it out as a scalar",
+    "the actual nonempty coordinate (p,s,nu)=(37,4,0) has nonzero rational B with p-adic numerator valuation one, disproving universal modular nonvanishing"
+  ],
+  "exact_finite": {
+    "prime_bound": 401,
+    "admissible_rows": 1115,
+    "coordinates": 2230,
+    "nonempty_projections": 2192,
+    "separate_nonempty_bulk_zeros": 6,
+    "simultaneous_nonempty_bulk_zero_rows": 0,
+    "self_reciprocal_projections": 1111,
+    "reflected_pole_collisions": 0,
+    "companion_parity_zeros": 0,
+    "operator_replay_prime_bound": 101,
+    "operator_replay_coordinates": 137,
+    "rational_replay_prime_bound": 101,
+    "rational_replay_coordinates": 148,
+    "rational_replay_zero_projections": 11,
+    "rational_replay_nonempty_numerator_divisibilities": 2,
+    "role": "bounded replay and census only; no all-prime or asymptotic inference"
+  },
+  "open": [
+    "derive an actual-family eliminant in the enlarged reflected-pole or companion-parity state",
+    "classify moving primes dividing the reduced rational numerator of B_L[D_nu]",
+    "classify simultaneous j=2 common-log zeros",
+    "obtain any Route-1 rate, divisibility exponent, or capacity reduction"
+  ],
+  "scoped_consequence": "the canonical bulk residual has a closed exact form and a finite row-parameter recurrence, while simple reciprocity and the two-coordinate comparison necessarily introduce extra states; universal modular nonvanishing is false",
+  "global_interface": "the bulk residual enters only the stronger Item239 p^3 carry and does not strengthen the ordinary p^2 common-log gate",
+  "booking": {
+    "new_unconditional_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "capacity_reduction": 0,
+    "conclusion_about_e_plus_pi": "none"
+  },
+  "dependency": {
+    "scripts/item244_j2_actual_character_bulk_certificate.py": "2cf312df16f7ddc65e57f7b6409a04f38a14242725ac89c1199b7364aa2a84a9"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "schema": "item340-beta-full-complement-loop-correlation-manifest-v1",
+  "item": 340,
+  "title": "The full canonical beta complement loop is resonant",
+  "date": "2026-09-01",
+  "status": "PROVED_FULL_COMPLEMENT_LOOP_RESONANCE_SCOPED_NO_GO",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item295_beta_nearest_window_descent_report.md": "3ecda6865cc7f6faa9b466d4ce3628dfc0043ceb327f8f8e72e86009b87c53a7",
+    "results/item295_root_audit.json": "c868af5aec25f28cf1f1b72d885c48f1288208fadac6b05dd55c7482e675565b",
+    "sources/item316_beta_intermediate_ostrowski_no_go_report.md": "8d6dce8354f08e94a252a2120cf677d9a374df95507a9297dcb064a1982fb6b0",
+    "results/item316_root_audit.json": "6cad978132f5f09c687aa8fcf8dcd92a7d917cf9411a69f679c7757139229175",
+    "sources/item320_beta_complement_resonance_report.md": "c8b2fa4194385177a2da1c26682bd155092b2848ecca9d524767eadbeb86b312",
+    "results/item320_beta_complement_resonance_root_audit.json": "89c84a1cd2eab682a0e98f68c3310852a3216fc0a208dc855e6098011a31bfb6",
+    "sources/item337_beta_global_cofactor_lcm_capacity_report.md": "c997cce3ca0808acaa9b4a63e1ea29c68933ec950a48dcf7a6a8d0280b90f6d9",
+    "results/item337_beta_global_cofactor_lcm_capacity_root_audit.json": "ed7457856b921248da95318f6f80acdc3dabbcb60d4c609a0a6f90952b79a2eb"
+  },
+  "artifacts": [
+    {
+      "path": "work/item340_beta_full_complement_loop_correlation_report.md",
+      "role": "global complement-loop theorem, capacity audit, modulus collapse, quotient bridge, and missing-correlation isolation",
+      "bytes": 15813,
+      "sha256": "4f3ddc5e09544e7c4d8077413b968f5b8a61694b8872dfdccf89d18dc03018b6"
+    },
+    {
+      "path": "work/item340_beta_full_complement_loop_correlation_certificate.py",
+      "role": "standard-library exact deterministic replay",
+      "bytes": 16641,
+      "sha256": "8e97b775af81ea27ab84d1281fd1e2c5155c342f3b531b2d4fd818628c9b196a"
+    },
+    {
+      "path": "work/item340_beta_full_complement_loop_correlation_certificate.json",
+      "role": "work-package certificate output",
+      "bytes": 45068,
+      "sha256": "4be0540e6835c3621482ab42bf5218420d76d7091a827386b1f6978146f6bfd0"
+    },
+    {
+      "path": "work/item340_beta_full_complement_loop_correlation_certificate.replay.json",
+      "role": "independent byte-identical replay output",
+      "bytes": 45068,
+      "sha256": "4be0540e6835c3621482ab42bf5218420d76d7091a827386b1f6978146f6bfd0"
+    },
+    {
+      "path": "work/item340_beta_full_complement_loop_correlation_ledger_delta.json",
+      "role": "proposed ledger delta; no canonical edit",
+      "bytes": 3859,
+      "sha256": "1b4b74a01be759bfebacf7d92195e0fc16596ab5512fa8f722cfba2f01a941cf"
+    }
+  ],
+  "replay": {
+    "command": "python work/item340_beta_full_complement_loop_correlation_certificate.py --output work/item340_beta_full_complement_loop_correlation_certificate.replay.json",
+    "expected_stdout": {
+      "actual_Gamma_Q": "OPEN",
+      "booking": 0,
+      "centered_half_bound": "OPEN",
+      "complement_loop": "PROVED_RESONANT",
+      "item": 340,
+      "status": "PROVED_FULL_COMPLEMENT_LOOP_RESONANCE_SCOPED_NO_GO"
+    },
+    "expected_replay_sha256": "4be0540e6835c3621482ab42bf5218420d76d7091a827386b1f6978146f6bfd0",
+    "dependency_hashes_verified_before_output": 8
+  },
+  "proved": [
+    "The seed identity is b t=T+epsilon R.",
+    "The full canonical complement-inverse loop returns Rbar=R modulo a.",
+    "Its exact returned dual coordinates are Ebar=sigma kappa and Ubar=epsilon a-floor(R/a).",
+    "An Item-316 failure makes the returned canonical word and its full Lambda tower identical to the original target word and tower.",
+    "The nonzero loop defect has zero beta rate, while t itself has raw rate one.",
+    "After both actual target defects are imposed, the undivided complement incidence modulo every Q|b collapses to the old square ray.",
+    "The exact first quotient bridge is modulo bQ.",
+    "Gamma_Q splits into complement-covered and valuation-excess mass, both still open."
+  ],
+  "strict_scope": {
+    "closes": [
+      "the natural value-preserving full canonical complement-inverse loop as an independent bulk tower",
+      "its Euclidean loop defect as a positive-rate reservoir",
+      "undivided target-modulus complement-incidence congruences"
+    ],
+    "isolates": [
+      "the canonical joint theta/z correlation and bQ quotient lift as the remaining transverse complement mechanisms",
+      "the two exact components of actual Gamma_Q"
+    ],
+    "does_not_close": [
+      "the Item-316 half-bound",
+      "non-value-preserving joint digit arithmetic or quotient-lift distribution",
+      "actual Gamma_Q, beta capacity, Route 1, or e+pi"
+    ]
+  },
+  "strict_labels": {
+    "PROVED": [
+      "full loop, exact returned coordinates, target tower identity, capacity bounds, mod-Q collapse, bQ bridge, and Gamma decomposition"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "value-preserving complement reuse and undivided Q-level complement congruence classes"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared seed rows and exact integer redigitization, lcm/gcd, ideal-coefficient, and quotient controls"
+    ],
+    "OPEN": [
+      "joint complement/cofactor correlation, actual Gamma_Q, half-bound, beta capacity, Route 1, and e+pi"
+    ]
+  },
+  "capacity": {
+    "loop_defect_rate": 0,
+    "complement_value_raw_rate": 1,
+    "returned_tower_incremental_rate": 0,
+    "actual_Gamma_Q": "OPEN",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "booking": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "item": 394,
+  "schema": "item394-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_EXACT_MATCHED_AGGREGATE_AND_ACTUAL_FORMULA_COLLAPSE",
+  "scope": "independent root audit of the integer-row extension, matched-gcd saturation, chart factorization, radical-lcm envelope, exact C6 constant, replay, and capacity interpretation",
+  "checks": {
+    "work_hash_list_failures": 0,
+    "canonical_dependencies_checked": 11,
+    "canonical_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "control_characters": 0,
+    "independent_interval_union_check": true,
+    "finite_to_infinite_inference_used": false,
+    "root_repairs": "Repinned every dependency and artifact to its audited canonical path, including the later canonical hashes of Items 349 and 359. No theorem or constant changed."
+  },
+  "mathematical_audit": {
+    "integer_rows": "Every q coprime to 6 in the tied interval gives integral positive row parameters. Replacing the prime-selected coefficient and Legendre symbol by c_q and chi_8(q) agrees exactly on prime rows.",
+    "matched_support": "Each d_(M,q) is squarefree and divides q. After removing all prime factors at most L_M-1, a surviving prime lambda dividing a row q must equal q because U_M<2L_M. The surviving lcm is therefore exactly the product of actual collision primes.",
+    "chart_factorization": "Although lcms could generally create cross-row overlap, the same unique-row argument applies after low-prime saturation. On that prime row the triple-minor factor and its complement partition the collision event, so the two sharp factors are coprime and recombine exactly.",
+    "unsaturated_height": "The radical lcm support is described by the union of intervals (4/(5u),6/(7u)] over u coprime to 6. Exact merging gives the nine single components, five paired components, and continuous tail from u=59, with measure C6=6979177263689987598318/56080510212831201972875.",
+    "sharp_height": "Once saturated, the aggregate is the collision-prime product itself and is bounded only by the candidate Chebyshev mass (2/35)M+o(M), or 1/105 per 6M.",
+    "scope": "Known phase norms yield a support superset, the degenerate carrier partitions the same support, and modulus matching reconstructs the exact product. A strict saving is therefore precisely new arithmetic weighted-density information, not a consequence of aggregation."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "canonical integer-row carrier extension",
+      "exact prime-independent matched aggregate",
+      "safe-saturation exact support identity",
+      "coprime nondegenerate/degenerate chart factorization",
+      "exact unsaturated envelope constant C6",
+      "actual-formula aggregation collapse"
+    ],
+    "OPEN": [
+      "a strict height saving for the exact aggregate",
+      "weighted nonconcentration in either chart with a complementary bound",
+      "any conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "unsaturated_envelope_per_M": "6979177263689987598318/56080510212831201972875",
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_route1_rate": 0,
+    "new_booking": 0,
+    "new_unconditional_capacity_reduction": 0
+  }
+}

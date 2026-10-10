@@ -1,0 +1,624 @@
+{
+  "assertions": {
+    "all_claimed_ideal_inclusions_exactly_verified": true,
+    "all_claimed_recurrences_exactly_verified": true,
+    "all_selected_schur_minors_nonzero_with_positive_normalization": true,
+    "finite_codimension_one_not_extrapolated": true,
+    "no_e_plus_pi_classification_claim": true,
+    "q1_n4_exception_exactly_verified": true
+  },
+  "logical_scope": {
+    "all_parameter": [
+      "Q_q P_2q inclusion for n=3q+1 and q>=2",
+      "x Q_q P_2q inclusion for n=3q+2 and q>=1",
+      "sharp q=1,n=4 exception",
+      "annihilator recurrence consequence",
+      "positive rectangular-Schur controllability minor"
+    ],
+    "classification_claim": false,
+    "codimension_one_claim": false,
+    "finite_only": [
+      "exact product ranks and recurrence replay for 1 <= q <= 6",
+      "finite codimension-one diagnostics"
+    ],
+    "smith_invariant_claim": false
+  },
+  "q1_n5_identities": {
+    "f1": "-1/4",
+    "f1_f3_minus_f2_squared": {
+      "denominator": "3840",
+      "numerator": "-1",
+      "sha256": "e4a782b977dbe88ef4332f8e099d25982167fc8571174fab4983e43555bc40a2"
+    },
+    "f2": "5/48",
+    "f3": "-61/1440",
+    "three_identities_verified": true
+  },
+  "q_max": 6,
+  "rows": [
+    {
+      "ambient_dimension": 4,
+      "annihilator_dimension": 2,
+      "annihilator_recurrence_verified": false,
+      "finite_codimension_one_diagnostic": false,
+      "ideal_dimension": 3,
+      "ideal_included": false,
+      "n": 4,
+      "parameters": {
+        "D": 3,
+        "I0": [
+          2
+        ],
+        "I1": [
+          2
+        ],
+        "d0": 1,
+        "d1": 1,
+        "dim_V0": 1,
+        "dim_V1": 1,
+        "product_variables": 2
+      },
+      "primitive_Q": [
+        12,
+        5
+      ],
+      "product_rank": 2,
+      "q": 1,
+      "r": 1
+    },
+    {
+      "ambient_dimension": 5,
+      "annihilator_dimension": 1,
+      "annihilator_recurrence_verified": true,
+      "finite_codimension_one_diagnostic": true,
+      "ideal_dimension": 3,
+      "ideal_included": true,
+      "n": 5,
+      "parameters": {
+        "D": 4,
+        "I0": [
+          3
+        ],
+        "I1": [
+          2
+        ],
+        "d0": 2,
+        "d1": 1,
+        "dim_V0": 2,
+        "dim_V1": 1,
+        "product_variables": 4
+      },
+      "primitive_Q": [
+        12,
+        5
+      ],
+      "product_rank": 4,
+      "q": 1,
+      "r": 2
+    },
+    {
+      "ambient_dimension": 7,
+      "annihilator_dimension": 1,
+      "annihilator_recurrence_verified": true,
+      "finite_codimension_one_diagnostic": true,
+      "ideal_dimension": 5,
+      "ideal_included": true,
+      "n": 7,
+      "parameters": {
+        "D": 6,
+        "I0": [
+          4
+        ],
+        "I1": [
+          3,
+          4
+        ],
+        "d0": 3,
+        "d1": 2,
+        "dim_V0": 3,
+        "dim_V1": 1,
+        "product_variables": 7
+      },
+      "primitive_Q": [
+        15120,
+        6900,
+        313
+      ],
+      "product_rank": 6,
+      "q": 2,
+      "r": 1
+    },
+    {
+      "ambient_dimension": 8,
+      "annihilator_dimension": 1,
+      "annihilator_recurrence_verified": true,
+      "finite_codimension_one_diagnostic": true,
+      "ideal_dimension": 5,
+      "ideal_included": true,
+      "n": 8,
+      "parameters": {
+        "D": 7,
+        "I0": [
+          4,
+          5
+        ],
+        "I1": [
+          4
+        ],
+        "d0": 3,
+        "d1": 3,
+        "dim_V0": 2,
+        "dim_V1": 3,
+        "product_variables": 9
+      },
+      "primitive_Q": [
+        15120,
+        6900,
+        313
+      ],
+      "product_rank": 7,
+      "q": 2,
+      "r": 2
+    },
+    {
+      "ambient_dimension": 10,
+      "annihilator_dimension": 1,
+      "annihilator_recurrence_verified": true,
+      "finite_codimension_one_diagnostic": true,
+      "ideal_dimension": 7,
+      "ideal_included": true,
+      "n": 10,
+      "parameters": {
+        "D": 9,
+        "I0": [
+          5,
+          6
+        ],
+        "I1": [
+          5,
+          6
+        ],
+        "d0": 4,
+        "d1": 4,
+        "dim_V0": 3,
+        "dim_V1": 3,
+        "product_variables": 12
+      },
+      "primitive_Q": [
+        39251520,
+        18471600,
+        1075032,
+        14615
+      ],
+      "product_rank": 9,
+      "q": 3,
+      "r": 1
+    },
+    {
+      "ambient_dimension": 11,
+      "annihilator_dimension": 1,
+      "annihilator_recurrence_verified": true,
+      "finite_codimension_one_diagnostic": true,
+      "ideal_dimension": 7,
+      "ideal_included": true,
+      "n": 11,
+      "parameters": {
+        "D": 10,
+        "I0": [
+          6,
+          7
+        ],
+        "I1": [
+          5,
+          6
+        ],
+        "d0": 5,
+        "d1": 4,
+        "dim_V0": 4,
+        "dim_V1": 3,
+        "product_variables": 16
+      },
+      "primitive_Q": [
+        39251520,
+        18471600,
+        1075032,
+        14615
+      ],
+      "product_rank": 10,
+      "q": 3,
+      "r": 2
+    },
+    {
+      "ambient_dimension": 13,
+      "annihilator_dimension": 1,
+      "annihilator_recurrence_verified": true,
+      "finite_codimension_one_diagnostic": true,
+      "ideal_dimension": 9,
+      "ideal_included": true,
+      "n": 13,
+      "parameters": {
+        "D": 12,
+        "I0": [
+          7,
+          8
+        ],
+        "I1": [
+          6,
+          7,
+          8
+        ],
+        "d0": 6,
+        "d1": 5,
+        "dim_V0": 5,
+        "dim_V1": 3,
+        "product_variables": 21
+      },
+      "primitive_Q": [
+        23594700729600,
+        11275015752000,
+        727718024880,
+        13853547000,
+        80737373
+      ],
+      "product_rank": 12,
+      "q": 4,
+      "r": 1
+    },
+    {
+      "ambient_dimension": 14,
+      "annihilator_dimension": 1,
+      "annihilator_recurrence_verified": true,
+      "finite_codimension_one_diagnostic": true,
+      "ideal_dimension": 9,
+      "ideal_included": true,
+      "n": 14,
+      "parameters": {
+        "D": 13,
+        "I0": [
+          7,
+          8,
+          9
+        ],
+        "I1": [
+          7,
+          8
+        ],
+        "d0": 6,
+        "d1": 6,
+        "dim_V0": 4,
+        "dim_V1": 5,
+        "product_variables": 25
+      },
+      "primitive_Q": [
+        23594700729600,
+        11275015752000,
+        727718024880,
+        13853547000,
+        80737373
+      ],
+      "product_rank": 13,
+      "q": 4,
+      "r": 2
+    },
+    {
+      "ambient_dimension": 16,
+      "annihilator_dimension": 1,
+      "annihilator_recurrence_verified": true,
+      "finite_codimension_one_diagnostic": true,
+      "ideal_dimension": 11,
+      "ideal_included": true,
+      "n": 16,
+      "parameters": {
+        "D": 15,
+        "I0": [
+          8,
+          9,
+          10
+        ],
+        "I1": [
+          8,
+          9,
+          10
+        ],
+        "d0": 7,
+        "d1": 7,
+        "dim_V0": 5,
+        "dim_V1": 5,
+        "product_variables": 30
+      },
+      "primitive_Q": [
+        56133939735132779520,
+        27071021266421932800,
+        1849813835200531200,
+        40852032918737040,
+        353440044896268,
+        1068463316155
+      ],
+      "product_rank": 15,
+      "q": 5,
+      "r": 1
+    },
+    {
+      "ambient_dimension": 17,
+      "annihilator_dimension": 1,
+      "annihilator_recurrence_verified": true,
+      "finite_codimension_one_diagnostic": true,
+      "ideal_dimension": 11,
+      "ideal_included": true,
+      "n": 17,
+      "parameters": {
+        "D": 16,
+        "I0": [
+          9,
+          10,
+          11
+        ],
+        "I1": [
+          8,
+          9,
+          10
+        ],
+        "d0": 8,
+        "d1": 7,
+        "dim_V0": 6,
+        "dim_V1": 5,
+        "product_variables": 36
+      },
+      "primitive_Q": [
+        56133939735132779520,
+        27071021266421932800,
+        1849813835200531200,
+        40852032918737040,
+        353440044896268,
+        1068463316155
+      ],
+      "product_rank": 16,
+      "q": 5,
+      "r": 2
+    },
+    {
+      "ambient_dimension": 19,
+      "annihilator_dimension": 1,
+      "annihilator_recurrence_verified": true,
+      "finite_codimension_one_diagnostic": true,
+      "ideal_dimension": 13,
+      "ideal_included": true,
+      "n": 19,
+      "parameters": {
+        "D": 18,
+        "I0": [
+          10,
+          11,
+          12
+        ],
+        "I1": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "d0": 9,
+        "d1": 8,
+        "dim_V0": 7,
+        "dim_V1": 5,
+        "product_variables": 43
+      },
+      "primitive_Q": [
+        2133505961677654489839513600,
+        1035177034279255657485696000,
+        73343293275007148718124800,
+        1763982793807826034643200,
+        18288222763268777198880,
+        85586662384377581700,
+        151259208063389819
+      ],
+      "product_rank": 18,
+      "q": 6,
+      "r": 1
+    },
+    {
+      "ambient_dimension": 20,
+      "annihilator_dimension": 1,
+      "annihilator_recurrence_verified": true,
+      "finite_codimension_one_diagnostic": true,
+      "ideal_dimension": 13,
+      "ideal_included": true,
+      "n": 20,
+      "parameters": {
+        "D": 19,
+        "I0": [
+          10,
+          11,
+          12,
+          13
+        ],
+        "I1": [
+          10,
+          11,
+          12
+        ],
+        "d0": 9,
+        "d1": 9,
+        "dim_V0": 6,
+        "dim_V1": 7,
+        "product_variables": 49
+      },
+      "primitive_Q": [
+        2133505961677654489839513600,
+        1035177034279255657485696000,
+        73343293275007148718124800,
+        1763982793807826034643200,
+        18288222763268777198880,
+        85586662384377581700,
+        151259208063389819
+      ],
+      "product_rank": 19,
+      "q": 6,
+      "r": 2
+    }
+  ],
+  "runtime_policy": {
+    "rss_limit_kib": 2097152,
+    "variable_elapsed_and_peak_rss_reported_to_stdout_only": true
+  },
+  "schema": "centered-cosh-pade-ideal-recurrence-v1",
+  "schur_controllability_rows": [
+    {
+      "A": 4,
+      "c": 1,
+      "columns": [
+        0,
+        1
+      ],
+      "determinant": {
+        "denominator": "58060800",
+        "numerator": "313",
+        "sha256": "9bc9b66c57587fbd5ac073ecaceef132691858f033301de1a0ccc65a302d0082"
+      },
+      "positive_schur_specialization": {
+        "denominator": "14515200",
+        "numerator": "313",
+        "sha256": "11e8551e6431d182c573f1d78b6d0aaf0e065c42b57811152145eb29a4abbc30"
+      },
+      "q": 2,
+      "rectangular_partition": [
+        3,
+        3
+      ],
+      "rows": [
+        3,
+        4
+      ]
+    },
+    {
+      "A": 5,
+      "c": 2,
+      "columns": [
+        0,
+        1,
+        2
+      ],
+      "determinant": {
+        "denominator": "155742810144768000",
+        "numerator": "2923",
+        "sha256": "01f554dcef8647b96dfbcc49355303ad342b1475688eb817e85822e938d9e0e7"
+      },
+      "positive_schur_specialization": {
+        "denominator": "19467851268096000",
+        "numerator": "2923",
+        "sha256": "8ba19bd35568c0dcb4a9d2d37606cabc245533c0340ebfd62a36a6eaa68c57b9"
+      },
+      "q": 3,
+      "rectangular_partition": [
+        4,
+        4,
+        4
+      ],
+      "rows": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "A": 7,
+      "c": 2,
+      "columns": [
+        1,
+        2,
+        3
+      ],
+      "determinant": {
+        "denominator": "2806173953188429824000000",
+        "numerator": "-17666849",
+        "sha256": "1a7fa0a03d175033be4f5b615db4e821ba6d57f59e71b9447eac31bc109a36d3"
+      },
+      "positive_schur_specialization": {
+        "denominator": "350771744148553728000000",
+        "numerator": "17666849",
+        "sha256": "5b7c0102c509fe8d1307c59a924d8e67befbdcbb6dc466219a6e5d95ad2ecd9d"
+      },
+      "q": 4,
+      "rectangular_partition": [
+        5,
+        5,
+        5
+      ],
+      "rows": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "A": 8,
+      "c": 3,
+      "columns": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "determinant": {
+        "denominator": "17617117230292889193786016052281344000000000",
+        "numerator": "61665972331",
+        "sha256": "fe8a73f91c58d33558fafe341f097204c2cd2fe781807d0c02059cef8546f3ea"
+      },
+      "positive_schur_specialization": {
+        "denominator": "1101069826893305574611626003267584000000000",
+        "numerator": "61665972331",
+        "sha256": "83dd2f6e03689ba9cf3dfa32a79e8f21ba49290ee455cf82f11209eee7e6d014"
+      },
+      "q": 5,
+      "rectangular_partition": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "rows": [
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "A": 10,
+      "c": 3,
+      "columns": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "determinant": {
+        "denominator": "2630690930266554371376061383467848070269501440000000000",
+        "numerator": "25808899722598429",
+        "sha256": "60391ca8825f27f113592093234fe7f7bd81ecd61a6770ac931c353c5442356f"
+      },
+      "positive_schur_specialization": {
+        "denominator": "164418183141659648211003836466740504391843840000000000",
+        "numerator": "25808899722598429",
+        "sha256": "7f326d8cf455b72112e9bf2a3b89685d63aa685039aa98a92a83fe2e8594ca08"
+      },
+      "q": 6,
+      "rectangular_partition": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "rows": [
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  ],
+  "software": {
+    "python": "3.13.15",
+    "sympy": "1.14.0"
+  }
+}

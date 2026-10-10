@@ -1,0 +1,196 @@
+{
+  "capacity": {
+    "actual_divisibility_chain": "F_perp_(r,s) divides rad(J_(r,s)), J_(r,s) divides Pi_r, and Pi_r divides abs(num(a_r))",
+    "actual_fixed_M_row_count": "O(M/log M) on one ray",
+    "actual_r_range": "0<r<=2M/5",
+    "capacity_warning": "the upper bound divided by M is O(M/log M), not a finite linear coefficient and not o(M)",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "proved_support_count": "sum omega(F^[p]_(r,s))=O(M^2/(log M)^2), since every q>p>>M",
+    "proved_weighted_bound_full_forward_tail": "B^[p]_e(M)=O(M^2/log M)",
+    "proved_weighted_bound_transverse": "B_perp_e(M)=O(M^2/log M)",
+    "retained_ordinary_j2_ceiling": "1/105",
+    "sequence_specific_input": "Item 314 proves the algebraic branch coefficient a_r has logarithmic height O(r), hence log abs(num(a_r))=O(r)",
+    "strict_improvement_over_item416": "O(M^2/log M) replaces O(M^2) for weighted mass; O(M^2/(log M)^2) replaces O(M^2/log M) for support count"
+  },
+  "checked_date_beijing": "2026-09-01",
+  "dependency_hashes_verified": {
+    "results/item250_j2_ordinary_phase_certificate.json": "6f8d0165448dd8949436649e2824a14578c1bce08e8875a6fd88f770c72cb5e3",
+    "results/item250_root_audit.json": "30645b03da6b217ef27dc5fac07d2a0d15b7b3a7e06577e23a720f713f15899e",
+    "results/item314_j2_two_branch_gate_certificate.json": "77de2dd46726a5a48e9adc4e40f96341d5da6c8db304d79f0ef8eeb7807245b1",
+    "results/item314_root_audit.json": "e537cdfa34ddd47bc902fd66b6a64679ca2bd60e12b31ddedfe4009cdcc6c2e6",
+    "results/item315_j2_resultant_arithmetic_certificate.json": "09fdd67a6535a043bcbd1e2a46c4b14a633b9928a5f1c65618c34fab65cfabb6",
+    "results/item315_root_audit.json": "b764ea214de0c99a6398c981a5d35ca5b911c4d08e7e128f55276a30b1ea66d6",
+    "results/item349_j2_degenerate_triple_minor_carrier_certificate.json": "b26294d51b1844aeee04146004b2ecec9b6e1ff81aa271a3167e5d86c11bce44",
+    "results/item349_j2_degenerate_triple_minor_carrier_root_audit.json": "e717c01d7429f7821a7ee75e8d979bc1362107bd70466af6af54d9748299a894",
+    "results/item409_j2_actual_rejection_carrier_certificate.json": "b6a68f27d131b9a9e8d7e2512d78d54dbbd7bb70f502b2fbaf8277b6a277f940",
+    "results/item409_j2_actual_rejection_carrier_root_audit.json": "8a7545bbde4b339598a2c92cafbf5902dd1060a4c0d64d46e4590b05accc9674",
+    "results/item413_j2_tied_projection_anti_gcd_boundary_certificate.json": "c2f43f92b151de1a6f349a86d66c1e58250b7e2440c442a24818d488d3ffc1b3",
+    "results/item413_j2_tied_projection_anti_gcd_boundary_root_audit.json": "a326e2e42258a8d75d24e0ff580297ddd1289ab32380ab332386682fe3db8fcc",
+    "results/item416_j2_adaptive_foreign_tail_transport_certificate.json": "3effb6a6162df9c5639ca155721adb165ed60ff0656d09aac5851c1ffd0bc64b",
+    "results/item416_j2_adaptive_foreign_tail_transport_root_audit.json": "a98e3f6744ad3ed1e42c242bbf5c70fbf1b0bf36cd9f9f5b30a0786f06bfba7c",
+    "sources/item250_j2_ordinary_phase_report.md": "56339ec89876abd68627d03b2d3e4e4d1c0fdc8b8d20a59afb274cb7dafe98ce",
+    "sources/item314_j2_two_branch_gate_report.md": "266f70523770a2a4147ee75289885fcb8dc945a65b650f2c8411e005ba110faa",
+    "sources/item315_j2_resultant_arithmetic_report.md": "3ce61af707268ceed6db0355a31333492bd8b07ec34e455cbee874fc6a2291b8",
+    "sources/item349_j2_degenerate_triple_minor_carrier_report.md": "ca3141156cb5034012a174377c3596e22d22cae924625649b6d620d510f4790c",
+    "sources/item409_j2_actual_rejection_carrier_report.md": "99caf10f9f1561dcb0e3a712f381db639b8260da6594dd305915ebb66f0d69ce",
+    "sources/item413_j2_tied_projection_anti_gcd_boundary_report.md": "0ee4ea341cc9ca1701f6b4ea2731d78aa686656ffc086c5c89734fd33b119d00",
+    "sources/item416_j2_adaptive_foreign_tail_transport_report.md": "66cde3c776df067b600038ff16734e120036274b1e248b7c4644d0564fcc2e30"
+  },
+  "evidence_policy": {
+    "gate_distinguished_from_target_and_rejection": true,
+    "no_declared_foreign_factor_claimed_actual": true,
+    "no_finite_extrapolation": true,
+    "no_prime_or_collision_census": true
+  },
+  "geometry_replay": {
+    "classification": "DECLARED EXACT PARAMETER REPLAY ONLY / NO CARRIER DIVISIBILITY / NO PRIME CENSUS / NO DENSITY EXTRAPOLATION",
+    "row_digest_sha256": "603c2457180e89e41b43974de0e701f031947f17df83ed74513017b201574cae",
+    "rows": [
+      {
+        "M": 28,
+        "Q_perp": 23,
+        "Q_perp_parity": "odd",
+        "classification": "EXACT GEOMETRY REPLAY ONLY / q IS NOT ASSERTED TO DIVIDE J",
+        "foreign_phase_mod_6": 1,
+        "foreign_q": 43,
+        "normalized_terminal_residue": 1,
+        "ordinary_upper_B_D": "31/2",
+        "ordinary_upper_B_D_is_integral": false,
+        "p": 23,
+        "r": 7,
+        "resonance": "3*23+17=2*43",
+        "s": 1,
+        "source_phase_mod_6": 5,
+        "terminal_q_multiples": [
+          86
+        ],
+        "top_binomial_coefficient": 1
+      },
+      {
+        "M": 75,
+        "Q_perp": 43,
+        "Q_perp_parity": "odd",
+        "classification": "EXACT GEOMETRY REPLAY ONLY / q IS NOT ASSERTED TO DIVIDE J",
+        "foreign_phase_mod_6": 5,
+        "foreign_q": 89,
+        "normalized_terminal_residue": 1,
+        "ordinary_upper_B_D": "67/2",
+        "ordinary_upper_B_D_is_integral": false,
+        "p": 61,
+        "r": 23,
+        "resonance": "3*43+49=2*89",
+        "s": 2,
+        "source_phase_mod_6": 1,
+        "terminal_q_multiples": [
+          178
+        ],
+        "top_binomial_coefficient": 1
+      },
+      {
+        "M": 88,
+        "Q_perp": 31,
+        "Q_perp_parity": "odd",
+        "classification": "EXACT GEOMETRY REPLAY ONLY / q IS NOT ASSERTED TO DIVIDE J",
+        "foreign_phase_mod_6": 1,
+        "foreign_q": 79,
+        "normalized_terminal_residue": 1,
+        "ordinary_upper_B_D": "63/2",
+        "ordinary_upper_B_D_is_integral": false,
+        "p": 71,
+        "r": 31,
+        "resonance": "3*31+65=2*79",
+        "s": 1,
+        "source_phase_mod_6": 5,
+        "terminal_q_multiples": [
+          158
+        ],
+        "top_binomial_coefficient": 1
+      },
+      {
+        "M": 162,
+        "Q_perp": 55,
+        "Q_perp_parity": "odd",
+        "classification": "EXACT GEOMETRY REPLAY ONLY / q IS NOT ASSERTED TO DIVIDE J",
+        "foreign_phase_mod_6": 1,
+        "foreign_q": 139,
+        "normalized_terminal_residue": 1,
+        "ordinary_upper_B_D": "111/2",
+        "ordinary_upper_B_D_is_integral": false,
+        "p": 131,
+        "r": 55,
+        "resonance": "3*55+113=2*139",
+        "s": 3,
+        "source_phase_mod_6": 5,
+        "terminal_q_multiples": [
+          278
+        ],
+        "top_binomial_coefficient": 1
+      },
+      {
+        "M": 1028,
+        "Q_perp": 407,
+        "Q_perp_parity": "odd",
+        "classification": "EXACT GEOMETRY REPLAY ONLY / q IS NOT ASSERTED TO DIVIDE J",
+        "foreign_phase_mod_6": 5,
+        "foreign_q": 1019,
+        "normalized_terminal_residue": 1,
+        "ordinary_upper_B_D": "815/2",
+        "ordinary_upper_B_D_is_integral": false,
+        "p": 823,
+        "r": 407,
+        "resonance": "3*407+817=2*1019",
+        "s": 1,
+        "source_phase_mod_6": 1,
+        "terminal_q_multiples": [
+          2038
+        ],
+        "top_binomial_coefficient": 1
+      }
+    ]
+  },
+  "item": 419,
+  "schema": "item419-j2-transverse-double-sheet-v1",
+  "scoped_no_go": {
+    "closed": [
+      "treating a transverse q as a future ordinary same-r row",
+      "reusing the Item 250/409 f-vector or target residual at odd Q without rederivation",
+      "claiming an o(M) tail from the newly sharpened height bound alone"
+    ],
+    "not_closed": [
+      "a separately derived parity-flipped B-tail with a bridge to the source target",
+      "a formula-specific average gcd or modular zero-density theorem",
+      "B_perp_e(M)=o(M) or any positive tail-minus-foreign margin",
+      "the ordinary-j2 cell, Route 1, or any conclusion about e+pi"
+    ]
+  },
+  "smallest_missing_lemma": {
+    "statement": "prove sum log rad_(q>p, transverse) J_(r,s)=o(M) on an actual fixed-M ray, using a formula-specific zero-density theorem; double-sheet geometry and algebraic height alone are insufficient",
+    "status": "OPEN"
+  },
+  "status": "PROVED_SHARPER_ACTUAL_BOUND_AND_SCOPED_TRANSPORT_NO_GO_ZERO_BOOKING",
+  "strict_labels": {
+    "EXACT_GEOMETRY_REPLAY_ONLY": [
+      "the five declared source/foreign parameter quadruples; no q-divisibility is asserted"
+    ],
+    "OPEN": [
+      "every o(M) weighted-tail theorem",
+      "every target/rejection transport theorem",
+      "every numerical Route-1 improvement"
+    ],
+    "PROVED": [
+      "transverse odd lift and double resonance",
+      "unique top 2q terminal pole and unchanged normalized A-terminal",
+      "ordinary upper-B parity obstruction",
+      "actual O(M^2/log M) weighted-tail and O(M^2/(log M)^2) support screens",
+      "zero booking and zero capacity reduction"
+    ]
+  },
+  "theorem": {
+    "A_terminal": "the J_(2r+5) denominator string is even and ends at 2q, so its sole q-multiple is 2q with top binomial coefficient 1; the normalized affine terminal remains (c-1)/(Q+2r+3)",
+    "B_parity_break": "D=(r+Q_perp+1)/2 is a half-integer, so Item 250's ordinary upper-B common factorial period and f-vector do not transport",
+    "scope": "this proves a parity/double-Frobenius obstruction to same-r gate transport; it does not identify the source target/rejection with any odd-Q object",
+    "transverse_lift": "for q>p with q mod 6 opposite to 2r+3 mod 6, Q_perp=(2q-2r-3)/3 is the unique integer lift in (0,q); it is odd and 3Q_perp+2r+3=2q"
+  },
+  "title": "transverse double-Frobenius parity boundary and algebraic-height tail screen"
+}

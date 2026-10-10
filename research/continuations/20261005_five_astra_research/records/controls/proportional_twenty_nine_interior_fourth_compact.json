@@ -1,0 +1,75 @@
+{
+  "source_sha256": "c78ab7b6ff6a628f4beb55987d057786aac39e8dca58b090081e6e0b4b92dcff",
+  "records": [
+    {
+      "n": 1678839,
+      "b": 839,
+      "prime": 29,
+      "precision": 4,
+      "auxiliary_index_only": true,
+      "coefficient_method": "exact recursive original P^29=P(t^29)+29A; reduced precision in each carry",
+      "independent_b839_baseline_verified": true,
+      "P_formula_all_coordinates_pass": true,
+      "Q_formula_all_coordinates_pass": true,
+      "J_mod29": 13,
+      "Cn_mod841": 245,
+      "norm_mod29": 11,
+      "mixed_mod29": 2,
+      "complete_hF_divided_bfactorial_depth_bound": 59925,
+      "cutoff": 116,
+      "factorial_tail_end_exclusive": 899,
+      "interior_carry_values": {
+        "839": 27
+      },
+      "interior_carry_predictions": {
+        "839": 27
+      },
+      "finite_only": true,
+      "seconds": 1.103,
+      "next_digit": {
+        "norm_mod841": 388,
+        "mixed_mod841": 785,
+        "divided_alignment_defect_mod29": 14,
+        "norm_divided29_mod29": null,
+        "mixed_divided29_mod29": null
+      }
+    },
+    {
+      "n": 5044521,
+      "b": 2521,
+      "prime": 29,
+      "precision": 4,
+      "auxiliary_index_only": true,
+      "coefficient_method": "exact recursive original P^29=P(t^29)+29A; reduced precision in each carry",
+      "independent_b839_baseline_verified": false,
+      "P_formula_all_coordinates_pass": true,
+      "Q_formula_all_coordinates_pass": true,
+      "J_mod29": 10,
+      "Cn_mod841": 561,
+      "norm_mod29": 0,
+      "mixed_mod29": 0,
+      "complete_hF_divided_bfactorial_depth_bound": 180068,
+      "cutoff": 116,
+      "factorial_tail_end_exclusive": 2581,
+      "interior_carry_values": {
+        "839": 15,
+        "1680": 21,
+        "2521": 16
+      },
+      "interior_carry_predictions": {
+        "839": 15,
+        "1680": 21,
+        "2521": 16
+      },
+      "finite_only": true,
+      "seconds": 5.269,
+      "next_digit": {
+        "norm_mod841": 87,
+        "mixed_mod841": 464,
+        "divided_alignment_defect_mod29": 0,
+        "norm_divided29_mod29": 3,
+        "mixed_divided29_mod29": 16
+      }
+    }
+  ]
+}

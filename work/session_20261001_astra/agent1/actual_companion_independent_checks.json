@@ -1,0 +1,93 @@
+{
+  "status": "PASS_INDEPENDENT_COMPANION_CONTROLS",
+  "scope": "All fields of 18 rows in the four existing extractions; saved counterexample only; eight formal companion controls. No author program executed, canonical system solved, new index evaluated, or prime scanned.",
+  "records": [
+    {
+      "n": 4,
+      "b": 2,
+      "rows_verified": 3,
+      "C": "2009/1021",
+      "minimizers": [
+        2
+      ],
+      "row_one_margin": "1016",
+      "row_one_triangle_bound": "501/254",
+      "actual_q_preserved": "1579037328",
+      "Delta": "1"
+    },
+    {
+      "n": 6,
+      "b": 3,
+      "rows_verified": 4,
+      "C": "694288919809/604385055271",
+      "minimizers": [
+        1
+      ],
+      "row_one_margin": "12394866546279",
+      "row_one_triangle_bound": "694288919809/590231740299",
+      "actual_q_preserved": "46408283362666199304000",
+      "Delta": "1"
+    },
+    {
+      "n": 8,
+      "b": 4,
+      "rows_verified": 5,
+      "C": "11033844156019887755931676121/9674460924431872076346352727",
+      "minimizers": [
+        1
+      ],
+      "row_one_margin": "170020813276229710349895297822",
+      "row_one_triangle_bound": "11033844156019887755931676121/9445600737568317241660849879",
+      "actual_q_preserved": "2627462866500644932618935434601637157971200",
+      "Delta": "1"
+    },
+    {
+      "n": 10,
+      "b": 5,
+      "rows_verified": 6,
+      "C": "6411659808416170857457639908203852821320225992509/5652190600327147840051085004116244763851484500379",
+      "minimizers": [
+        1
+      ],
+      "row_one_margin": "2912185655292615019802938205724856297730985976227888",
+      "row_one_triangle_bound": "582878164401470077950694537109441165574565999319/501409375911262916632737294374114376331092626761",
+      "actual_q_preserved": "92890499671018242619170077012713821810696149560486573723113383808000",
+      "Delta": "1"
+    }
+  ],
+  "monotonicity_witness_verified": {
+    "status": "REJECTED_AT_FIRST_RETAINED_WITNESS",
+    "candidate": "Every row has nonincreasing absolute entries in increasing column order, omitting its diagonal.",
+    "n": 4,
+    "b": 2,
+    "row": 0,
+    "left_column": 1,
+    "right_column": 2,
+    "left_entry": "-1510",
+    "right_entry": "1515",
+    "absolute_increase": "5",
+    "consequence": "This monotonicity shortcut is stopped. No further indices are searched."
+  },
+  "formal_controls": {
+    "normalization_e_N_beta": true,
+    "beta_full_tail_identity": true,
+    "full_tail_alternating_sign": true,
+    "normalized_tail_contraction": true,
+    "essential_derivative_index": true,
+    "degree_after_two_factors": true,
+    "beta_integral_constant": true,
+    "integration_by_parts_sign": true
+  },
+  "inputs_unchanged": true,
+  "input_sha256": {
+    "ACTUAL_COMPANION_CONDITIONING.md": "ba1d714fa377962f50c9592c0e115ea05010282af629c99db343757f5be4085e",
+    "ACTUAL_COMPANION_CONDITIONING_REPORT.md": "b9022b584c06ab3da9c841ba8503c61bcc4034d85d1e7462abc7ae00380afcfb",
+    "extract_companion_conditioning.py": "239d28f5a2b6cb79f8b573b96e011302a238ca7204db8021f0cb2438ffc4e630",
+    "companion_conditioning_extraction.json": "26ee09569a771c7623db32ff7cc4c5fc2690cc54867bbb5a2d93fead8562fd3c",
+    "conditioning_monotonicity_witness.json": "376df9ec985cb6bf831b74ba65cc264958146b9484050413d303b1df7e67daea",
+    "two_scalar_quotient_evidence.json": "48c2038aaeb717fb7592162935063189c1668c482e23a850ed973d510dc4fab4",
+    "TWO_SCALAR_DETERMINANT_QUOTIENT.md": "255b1cd643eda15efc4d8fc1e0f54a45cf59961e6e711fcb75b2f716d735ab9d"
+  },
+  "checker_sha256": "fd0fda5002e4bc4fe0f0920751b063e5f01e1ee2d8468f0ada5d1a2bc365c71b",
+  "limits": "The unrestricted kernel, Rodrigues, divisibility, integral and norm statements require the written proofs. No uniform bound on C, lambda or G_lambda is inferred from retained records."
+}

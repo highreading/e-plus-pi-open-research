@@ -1,0 +1,428 @@
+{
+  "algebraic_ogf": {
+    "A_relation": "A(z)=sum_{j>=0}ell_j z^j=H'(z)/H(z), H(0)=1",
+    "G": "-(H-2)^4(H-1)(H^2+4)(H^2-2H+2)^4+2zH^2(H-2)^2(H^2-2H+2)^2(3H^5-4H^4-24H^3+36H^2+16H-32)+z^2H^3(H^3-4)^3",
+    "G_series_defect_nonzero_terms": 0,
+    "H_initial_coefficients": [
+      1,
+      -2,
+      -3,
+      46,
+      242,
+      -2302,
+      -23645,
+      124960,
+      2420570,
+      -4792502,
+      -248244801,
+      -242419778,
+      24865910120,
+      99671938880,
+      -2373928460784,
+      -18092808158600
+    ],
+    "critical_value_polynomial": "729z^3-69444z^2+1728z-512",
+    "label": "EXACT_FORMAL_SERIES_REPLAY",
+    "order_exclusive": 96
+  },
+  "capacity": {
+    "block_partition": "{J+1+3q,J+2+3q,J+3+3q}, q>=0",
+    "item210_full_tail_bound_decimal": "0.00003333166674999583354165625052",
+    "label": "PROVED",
+    "per_6m_upper_bound_decimal": "0.00000370388881791465827658443659",
+    "per_m_upper_bound_decimal": "0.00002222333290748794965950661954",
+    "prefix_J": 20000,
+    "ratio_to_item210_full_tail_bound": "0.66673332222399972170968784624479",
+    "required_G_per_6m": "0.0196329836694317938803064012",
+    "required_gap_per_m": "0.1177979020165907632818384072",
+    "symbolic_upper_bound": "(2/3)(1/(a(a+1))+1/((a+1)(a+2)))+(2/9)(log(1+1/a)+log(1+1/(a+1))), a=J+1",
+    "weight": "w_j=2/((3j+2)(j+1))",
+    "zero_spacing": "no three consecutive ell_j can vanish"
+  },
+  "definitions": {
+    "candidate_theorem": "ell_j=0 implies the minimum of nu_j(k) is attained at least twice; a unique minimizer gives v2(ell_j)=min_k nu_j(k)",
+    "carry_count": "v2(C(N,K))=s_2(K)+s_2(N-K)-s_2(N)",
+    "ell_j": "[y^(2j+1)](y-1)^(3j+2)/(1+y^2)^(2j+2)",
+    "mod4_theorem": "ell_j=(-1)^j C(3j+2,j+1) mod 4",
+    "term_valuation": "nu_j(k)=k+v2(C(2j+1+k,k))+v2(C(3j+2+k,2j+1-k))",
+    "two_adic_expansion": "(-1)^j sum_{k=0}^{2j+1}(-1)^k 2^k C(2j+1+k,k)C(3j+2+k,2j+1-k)"
+  },
+  "experimental_finite_scan": {
+    "direct_and_two_adic_expansion_cross_check_through": 80,
+    "label": "FINITE",
+    "last_decimal_digits": 21321,
+    "last_mod_2^64": 11965385787498176368,
+    "range": [
+      1,
+      20000
+    ],
+    "sequence_sha256_newline_decimal": "1ffc024a812376c50010d7ed172c9408578805ba235d41fa9137461b1efbe49f",
+    "zeros": []
+  },
+  "item": 215,
+  "mixed_prime_diagnostic": {
+    "indices_divisible_by_every_listed_prime": [],
+    "label": "FINITE_DIAGNOSTIC_ONLY",
+    "primes": [
+      3,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71
+    ],
+    "range": [
+      1,
+      20000
+    ],
+    "successive_common_zero_counts": [
+      {
+        "common_divisibility_count": 14689,
+        "through_prime": 3
+      },
+      {
+        "common_divisibility_count": 10233,
+        "through_prime": 5
+      },
+      {
+        "common_divisibility_count": 7607,
+        "through_prime": 7
+      },
+      {
+        "common_divisibility_count": 5290,
+        "through_prime": 11
+      },
+      {
+        "common_divisibility_count": 3284,
+        "through_prime": 13
+      },
+      {
+        "common_divisibility_count": 1541,
+        "through_prime": 17
+      },
+      {
+        "common_divisibility_count": 898,
+        "through_prime": 19
+      },
+      {
+        "common_divisibility_count": 441,
+        "through_prime": 23
+      },
+      {
+        "common_divisibility_count": 218,
+        "through_prime": 29
+      },
+      {
+        "common_divisibility_count": 124,
+        "through_prime": 31
+      },
+      {
+        "common_divisibility_count": 48,
+        "through_prime": 37
+      },
+      {
+        "common_divisibility_count": 20,
+        "through_prime": 41
+      },
+      {
+        "common_divisibility_count": 3,
+        "through_prime": 43
+      },
+      {
+        "common_divisibility_count": 2,
+        "through_prime": 47
+      },
+      {
+        "common_divisibility_count": 1,
+        "through_prime": 53
+      },
+      {
+        "common_divisibility_count": 1,
+        "through_prime": 59
+      },
+      {
+        "common_divisibility_count": 0,
+        "through_prime": 61
+      },
+      {
+        "common_divisibility_count": 0,
+        "through_prime": 67
+      },
+      {
+        "common_divisibility_count": 0,
+        "through_prime": 71
+      }
+    ],
+    "warning": "Different prime automata read different bases; this finite cover is not an all-j product-automaton proof."
+  },
+  "source_sha256": "209bc29fab414e997624d15a48f15a98326931ab8f98e5cb1c6d39867d20114c",
+  "status": {
+    "experimental_finite": [
+      "no zero through j=20000",
+      "unique-minimum and mixed-prime diagnostics on the declared prefix"
+    ],
+    "open": [
+      "all-j nonvanishing on the tied-minimum candidate class",
+      "a uniform-in-modulus 2-adic automaton or a same-base congruence cover"
+    ],
+    "proved": [
+      "exact 2-adic expansion and unique-minimum nonvanishing criterion for every j",
+      "ell_j congruent to (-1)^j binomial(3j+2,j+1) modulo 4",
+      "carry-one indices have exact v2(ell_j)=1 and are nonzero",
+      "algebraic OGF A=H'/H with the displayed exact polynomial G(z,H)",
+      "no-three-consecutive-zero spacing improves the unresolved rank-one ceiling"
+    ]
+  },
+  "title": "2-adic candidate classification and algebraic structure of the diagonal anchor",
+  "two_adic_profile": {
+    "carry_one_count": 1362,
+    "first_tied_minimum_records": [
+      {
+        "actual_v2_ell": 4,
+        "cancellation_uplift": 1,
+        "j": 2,
+        "minimizers": [
+          0,
+          1
+        ],
+        "minimum_term_valuation": 3
+      },
+      {
+        "actual_v2_ell": 10,
+        "cancellation_uplift": 5,
+        "j": 10,
+        "minimizers": [
+          0,
+          1
+        ],
+        "minimum_term_valuation": 5
+      },
+      {
+        "actual_v2_ell": 4,
+        "cancellation_uplift": 0,
+        "j": 13,
+        "minimizers": [
+          0,
+          1,
+          2
+        ],
+        "minimum_term_valuation": 4
+      },
+      {
+        "actual_v2_ell": 4,
+        "cancellation_uplift": 1,
+        "j": 18,
+        "minimizers": [
+          0,
+          1
+        ],
+        "minimum_term_valuation": 3
+      },
+      {
+        "actual_v2_ell": 7,
+        "cancellation_uplift": 1,
+        "j": 26,
+        "minimizers": [
+          0,
+          1
+        ],
+        "minimum_term_valuation": 6
+      },
+      {
+        "actual_v2_ell": 6,
+        "cancellation_uplift": 2,
+        "j": 29,
+        "minimizers": [
+          1,
+          2
+        ],
+        "minimum_term_valuation": 4
+      },
+      {
+        "actual_v2_ell": 4,
+        "cancellation_uplift": 1,
+        "j": 34,
+        "minimizers": [
+          0,
+          1
+        ],
+        "minimum_term_valuation": 3
+      },
+      {
+        "actual_v2_ell": 13,
+        "cancellation_uplift": 6,
+        "j": 42,
+        "minimizers": [
+          0,
+          1
+        ],
+        "minimum_term_valuation": 7
+      },
+      {
+        "actual_v2_ell": 6,
+        "cancellation_uplift": 0,
+        "j": 45,
+        "minimizers": [
+          0,
+          1,
+          2
+        ],
+        "minimum_term_valuation": 6
+      },
+      {
+        "actual_v2_ell": 6,
+        "cancellation_uplift": 1,
+        "j": 50,
+        "minimizers": [
+          0,
+          1
+        ],
+        "minimum_term_valuation": 5
+      },
+      {
+        "actual_v2_ell": 7,
+        "cancellation_uplift": 0,
+        "j": 58,
+        "minimizers": [
+          0,
+          1,
+          3
+        ],
+        "minimum_term_valuation": 7
+      },
+      {
+        "actual_v2_ell": 6,
+        "cancellation_uplift": 1,
+        "j": 59,
+        "minimizers": [
+          0,
+          2
+        ],
+        "minimum_term_valuation": 5
+      },
+      {
+        "actual_v2_ell": 5,
+        "cancellation_uplift": 1,
+        "j": 61,
+        "minimizers": [
+          1,
+          2
+        ],
+        "minimum_term_valuation": 4
+      },
+      {
+        "actual_v2_ell": 4,
+        "cancellation_uplift": 1,
+        "j": 66,
+        "minimizers": [
+          0,
+          1
+        ],
+        "minimum_term_valuation": 3
+      },
+      {
+        "actual_v2_ell": 11,
+        "cancellation_uplift": 6,
+        "j": 74,
+        "minimizers": [
+          0,
+          1
+        ],
+        "minimum_term_valuation": 5
+      },
+      {
+        "actual_v2_ell": 4,
+        "cancellation_uplift": 0,
+        "j": 77,
+        "minimizers": [
+          0,
+          1,
+          2
+        ],
+        "minimum_term_valuation": 4
+      },
+      {
+        "actual_v2_ell": 4,
+        "cancellation_uplift": 1,
+        "j": 82,
+        "minimizers": [
+          0,
+          1
+        ],
+        "minimum_term_valuation": 3
+      },
+      {
+        "actual_v2_ell": 9,
+        "cancellation_uplift": 1,
+        "j": 90,
+        "minimizers": [
+          0,
+          1
+        ],
+        "minimum_term_valuation": 8
+      },
+      {
+        "actual_v2_ell": 9,
+        "cancellation_uplift": 3,
+        "j": 93,
+        "minimizers": [
+          1,
+          2
+        ],
+        "minimum_term_valuation": 6
+      },
+      {
+        "actual_v2_ell": 6,
+        "cancellation_uplift": 1,
+        "j": 98,
+        "minimizers": [
+          0,
+          1
+        ],
+        "minimum_term_valuation": 5
+      }
+    ],
+    "label": "FINITE_PROFILE_SUPPORTING_AN_ALL_J_CRITERION",
+    "maximum_collision_uplift": 14,
+    "maximum_collision_uplift_indices": [
+      10922,
+      19914
+    ],
+    "maximum_v2_ell": 29,
+    "maximum_v2_indices": [
+      10922
+    ],
+    "range": [
+      1,
+      20000
+    ],
+    "tied_minimum_candidate_count": 3971,
+    "unique_minimizer_histogram": {
+      "0": 13055,
+      "1": 2460,
+      "2": 234,
+      "3": 195,
+      "4": 58,
+      "5": 19,
+      "6": 4,
+      "7": 2,
+      "8": 2
+    },
+    "unique_minimum_count": 16029,
+    "unique_minimum_fraction": "16029/20000"
+  },
+  "verdict": "No all-j nonvanishing proof is claimed. Exact zeros are confined to the tied-minimum 2-adic class. Independently, the proved order-three recurrence forbids three consecutive zeros and lowers the worst-case unresolved rank-one ceiling, but the branch still cannot supply the Route-1 gap alone."
+}

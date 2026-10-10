@@ -1,0 +1,204 @@
+{
+  "canonical_files_modified": false,
+  "classification": {
+    "EXACT_FINITE_ONLY": [
+      "five preselected first-Hasse charts; no scan or asymptotic inference"
+    ],
+    "OPEN": [
+      "p-adic nonconcentration for the linearly growing first-Hasse value at z=1",
+      "a global monodromy, average-gcd, or factor-localization theorem for the full Hasse polynomial",
+      "W_b(M)=o(M), any fixed-j1 ceiling reduction, Route 1, and every conclusion about e+pi"
+    ],
+    "PROVED": [
+      "the exact left normalized 4F3 and right surviving-tail first-Hasse charts",
+      "the unified exact degree formula deg H=survivor length minus one",
+      "the negative integral top parameter and one-step trivialization of the formal Dwork dash tower",
+      "zero-rate support of sublinear first-Hasse degree",
+      "scoped bounded-degree and higher-dash no-go"
+    ]
+  },
+  "date": "2026-09-01",
+  "dependencies": {
+    "manifests/item342_j1_finite_field_fourier_weil_barrier_manifest.json": "85ca4a73d9009acc3dc8d7102325f74156a11bf13e618dc1a88c06fd352b8a54",
+    "manifests/item345_j1_kummer_galois_descent_obstruction_manifest.json": "78531805af9b60a30535a992b7c8b9aa90f415ffa55e2586d1f48ea5b02bb2ca",
+    "results/item342_j1_finite_field_fourier_weil_barrier_certificate.json": "4cf10e1d035dcd18a134e5f1b00e54a34ae1b3833a2863b54212da9fcccf49d9",
+    "results/item342_j1_finite_field_fourier_weil_barrier_certificate_replay.json": "4cf10e1d035dcd18a134e5f1b00e54a34ae1b3833a2863b54212da9fcccf49d9",
+    "results/item342_j1_finite_field_fourier_weil_barrier_root_audit.json": "aa6b260f78ae094b20a1b6b041c75131514b5ded51f016e6950671c472280835",
+    "results/item345_j1_kummer_galois_descent_obstruction_certificate.json": "e0eca357cafab27e4ff9c97bf4beacaf9c82b102de47614472eecac8590dbcc7",
+    "results/item345_j1_kummer_galois_descent_obstruction_root_audit.json": "285e7e220f914913ac1e5dc9592d07206ac4435df03c90d52d627e969ab349c2",
+    "scripts/item342_j1_finite_field_fourier_weil_barrier_certificate.py": "130cfd5d2ac7c31546ef177c3f751abcc236ca92dc253a59914d487187c1fbac",
+    "sources/item342_j1_finite_field_fourier_weil_barrier_report.md": "843bb85381c98adf0a5b64801ce099e4c3c9119d5933704d97bbd492f1b8029b",
+    "sources/item345_j1_kummer_galois_descent_obstruction_report.md": "17441d83d40de9a8df6419b35e277753ed86006e1c461e4cbaa618db8d9e9392"
+  },
+  "direct_controls": [
+    {
+      "Hasse_zero_iff_selected_factor_zero": true,
+      "M": 9,
+      "a_mod_p": 0,
+      "chart": "FORCED_ZERO_RAY",
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "coefficients_mod_p": [],
+      "dash_of_negative_parameter": null,
+      "degree": null,
+      "full_original_collision_claimed": false,
+      "h": 1,
+      "n": 2,
+      "negative_integral_top_parameter": null,
+      "p": 13,
+      "prefactor_mod_p": null,
+      "r": 3,
+      "s": 1,
+      "survivor_length": 0,
+      "value_at_1": 0
+    },
+    {
+      "Hasse_zero_iff_selected_factor_zero": true,
+      "M": 12,
+      "a_mod_p": 8,
+      "all_first_dashed_bottom_parameters_nonzero": true,
+      "chart": "LEFT_NORMALIZED_4F3",
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "coefficients_mod_p": [
+        1,
+        4
+      ],
+      "dash_of_negative_parameter": 0,
+      "degree": 1,
+      "full_original_collision_claimed": false,
+      "h": 2,
+      "hypergeometric_type": "4F3",
+      "n": 4,
+      "negative_integral_top_parameter": -1,
+      "negative_parameter_position": 0,
+      "p": 17,
+      "prefactor_mod_p": 5,
+      "r": 3,
+      "s": 1,
+      "survivor_length": 2,
+      "value_at_1": 5
+    },
+    {
+      "Hasse_zero_iff_selected_factor_zero": true,
+      "M": 34,
+      "a_mod_p": 0,
+      "all_first_dashed_bottom_parameters_nonzero": true,
+      "chart": "LEFT_NORMALIZED_4F3",
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "coefficients_mod_p": [
+        1,
+        4,
+        43,
+        23,
+        23
+      ],
+      "dash_of_negative_parameter": 0,
+      "degree": 4,
+      "full_original_collision_claimed": false,
+      "h": 8,
+      "hypergeometric_type": "4F3",
+      "n": 16,
+      "negative_integral_top_parameter": -4,
+      "negative_parameter_position": 0,
+      "p": 47,
+      "prefactor_mod_p": 1,
+      "r": 5,
+      "s": 2,
+      "survivor_length": 5,
+      "value_at_1": 0
+    },
+    {
+      "Hasse_zero_iff_selected_factor_zero": true,
+      "M": 30,
+      "a_mod_p": 2,
+      "all_first_dashed_bottom_parameters_nonzero": true,
+      "chart": "RIGHT_SURVIVING_TAIL",
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "coefficients_mod_p": [
+        2
+      ],
+      "dash_of_negative_parameter": 0,
+      "degree": 0,
+      "full_original_collision_claimed": false,
+      "h": 4,
+      "hypergeometric_type": "SHIFTED_5F4",
+      "n": 8,
+      "negative_integral_top_parameter": 0,
+      "negative_parameter_position": 0,
+      "p": 43,
+      "prefactor_mod_p": 2,
+      "r": 9,
+      "right_start_k": 2,
+      "s": 4,
+      "survivor_length": 1,
+      "value_at_1": 2
+    },
+    {
+      "Hasse_zero_iff_selected_factor_zero": true,
+      "M": 32,
+      "a_mod_p": 36,
+      "all_first_dashed_bottom_parameters_nonzero": true,
+      "chart": "RIGHT_SURVIVING_TAIL",
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "coefficients_mod_p": [
+        23,
+        13
+      ],
+      "dash_of_negative_parameter": 0,
+      "degree": 1,
+      "full_original_collision_claimed": false,
+      "h": 2,
+      "hypergeometric_type": "SHIFTED_5F4",
+      "n": 4,
+      "negative_integral_top_parameter": -1,
+      "negative_parameter_position": 0,
+      "p": 47,
+      "prefactor_mod_p": 23,
+      "r": 13,
+      "right_start_k": 0,
+      "s": 6,
+      "survivor_length": 2,
+      "value_at_1": 36
+    }
+  ],
+  "item": 348,
+  "prime_scans": 0,
+  "schema": "item348-j1-dwork-first-hasse-obstruction-certificate-v1",
+  "status": "PROVED_FIRST_HASSE_POLYNOMIAL_AND_TRIVIAL_DWORK_DASH_TOWER_SCOPED_BOUNDED_DEGREE_NO_GO",
+  "theorem_and_capacity": {
+    "capacity": {
+      "forced_zero_ray": "O(log M)=o(M)",
+      "new_fixed_j1_capacity_reduction": 0,
+      "new_linear_log_rate": 0,
+      "positive_rate_bulk": "every positive-rate bulk therefore has deg H=Theta(M)",
+      "raw_fixed_j1_prime_mass": "M/6+o(M)",
+      "retained_ceiling_per_6M": "1/36",
+      "sublinear_Hasse_degree_support": "deg H=o(M) iff survivor length ell=o(M), and Item339 proves this support has weighted mass o(M)"
+    },
+    "first_Hasse_polynomial": {
+      "left_chart": "for r<=n, divide the exact 4F3 prefix by the p-unit C(4r+n-1,n); H_L(z) has degree floor(n/4) and a=prefix*H_L(1) mod p",
+      "one_way_gate": "ordinary collision => a_(r,n)=0 => H(1)=0; no converse to the original collision is claimed",
+      "right_chart": "for r>n, reindex the Lucas-surviving tail by j=floor(n/4)-k; H_R(z) has all p-unit coefficients and a=H_R(1) mod p",
+      "unified_degree": "away from the forced zero ray, deg H=ell(r,n)-1 exactly"
+    },
+    "formal_Dwork_dash": {
+      "dash": "D_p(-K)=D_p(-J)=0",
+      "definition": "D_p(x)=(x+l)/p, where 0<=l<p is chosen so x+l is in p Z_p",
+      "left_negative_parameter": "the 4F3 top tuple always contains -K, K=floor(n/4)<p",
+      "right_negative_parameter": "the forward shifted surviving-tail 5F4 always contains -J, J=deg H<p",
+      "strict_scope": "this is the formal Dwork dash tower of the actual terminating chart; it does not assert the existence of an additional geometric F-crystal",
+      "tower_consequence": "all first-dashed bottom parameters are nonzero; the dashed hypergeometric coefficient sequence has a top parameter 0, so every coefficient of positive index vanishes and every later truncation factor is 1"
+    },
+    "scoped_no_go": {
+      "closed": [
+        "bounded- or sublinear-degree first-Hasse criteria as a positive-rate fixed-j1 mechanism",
+        "seeking a new nontrivial higher Dwork-dash factor after the actual terminating first chart",
+        "replacing H(1) by a fixed bounded-degree unit-root divisor without a new global identity"
+      ],
+      "not_closed": [
+        "a global p-adic nonconcentration theorem for the linearly growing first-Hasse polynomial",
+        "a monodromy or average-gcd theorem treating the whole Hasse polynomial at once",
+        "a new geometric realization with additional structure not present in the formal terminating dash tower"
+      ]
+    }
+  }
+}

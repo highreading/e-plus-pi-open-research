@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "capacities": {
+      "far_decimal": "0.1254329279500904214863024931674817258341",
+      "far_exact": "1139587/9085230",
+      "far_minus_gap": "0.0076350259334996584863024931674817258341",
+      "stable_partial_lower": "0.2390793520510579594415688007163010812651",
+      "stable_tail_upper": "0.2391110187177246261082354673829677479318"
+    },
+    "globalization": {
+      "M_max": 360,
+      "stable_rows": 3003
+    },
+    "mandatory_witness": {
+      "gcd_odd_prime_factors": [
+        911,
+        971,
+        991,
+        1031,
+        1051,
+        1091,
+        1151,
+        1171,
+        1231,
+        1291,
+        2399
+      ],
+      "gcd_two_adic_exponent": 449,
+      "row": [
+        2249,
+        299,
+        2399,
+        1,
+        1,
+        900,
+        3
+      ],
+      "terminal": [
+        7,
+        2392,
+        0,
+        0
+      ]
+    }
+  },
+  "schema": "item266-root-independent-probe-v1",
+  "scope": "bounded identity replay and exact rational comparisons; no common-zero scan",
+  "strict_labels": {
+    "bounded_row_replay": "EXACT FINITE ONLY",
+    "new_capacity_reduction": "0",
+    "new_route1_rate": "0",
+    "raw_capacity": "CEILING, NOT COMMON-ZERO MASS"
+  }
+}

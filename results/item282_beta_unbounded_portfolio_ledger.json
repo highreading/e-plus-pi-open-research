@@ -1,0 +1,107 @@
+{
+  "schema": "item282-beta-unbounded-portfolio-ledger-v1",
+  "scope": "Arbitrary-multiplicity products and homogeneous sums of primitive growing beta Casoratians against any Item265 de-overlapped target divisor",
+  "claims": [
+    {
+      "id": "I282-C1",
+      "label": "PROVED",
+      "claim": "For every Q|q_n and every finite weighted product A=product P_h(n)^w_h, gcd(Q,A) divides product gcd(Q,P_h(n))^w_h; the associated scalar-Casoratian product has the same gcd with Q.",
+      "evidence": "report Section 2, exact primewise truncated valuation identities",
+      "scope_limit": "weights and support may depend on n, but gaps satisfy h>=2 and Q is declared explicitly"
+    },
+    {
+      "id": "I282-C2",
+      "label": "PROVED",
+      "claim": "Captured logarithmic capacity per residual height is at most the largest primitive overlap efficiency log gcd(Q,P_h(n))/log P_h(n).",
+      "evidence": "report equations (2.5) and the weighted-average argument",
+      "scope_limit": "this is necessary, not sufficient, because target exponents can saturate under repetition"
+    },
+    {
+      "id": "I282-C3",
+      "label": "PROVED",
+      "claim": "An O(n)-height portfolio has K<=L=O(n/log n); positive linear captured capacity forces a gap O(n/log n) with primitive overlap occupying a fixed positive fraction of log P_h(n).",
+      "evidence": "report equations (1.11)-(1.14)",
+      "scope_limit": "no actual-family theorem currently produces or excludes such a high-efficiency return"
+    },
+    {
+      "id": "I282-C4",
+      "label": "PROVED",
+      "claim": "For G_t=gcd(Q,P_h(n)^t), the layer quotients G_t/G_(t-1) form a divisibility-decreasing chain.",
+      "evidence": "report equation (3.1), exact primewise layer exponent",
+      "scope_limit": "powering creates no new prime support and has diminishing return, but can scale existing overlap"
+    },
+    {
+      "id": "I282-C5",
+      "label": "PROVED_SCOPED_NO_GO",
+      "claim": "With unrestricted factor count, the least canonical anti-period gap cost for certified p-depth s is s(p-1), so every O(n)-height canonical portfolio has only O(n/log n)=o(n) certified logarithmic capacity, even across multiple assigned primes.",
+      "evidence": "report Section 4 and p^b-1>=b(p-1)",
+      "scope_limit": "accidental target divisibility of canonical continuants is noncanonical high-efficiency overlap and is not ruled out"
+    },
+    {
+      "id": "I282-C6",
+      "label": "PROVED_RECOGNITION",
+      "claim": "The exact remaining product input is the weighted return-cover optimization Y_Q(n;B); a positive-linear theorem at B=O(n/log n), or full target divisibility, would be admissible.",
+      "evidence": "report Section 5",
+      "scope_limit": "neither the positive-linear lower bound nor full cover is proved for actual moving rows"
+    },
+    {
+      "id": "I282-C7",
+      "label": "PROVED_SUM_DICHOTOMY",
+      "claim": "A homogeneous scalar-Casoratian sum has the same target gcd as its primitive residual sum; a unique least p-adic term gives exactly that minimum, while only tied minima can create a sum-only cancellation factor.",
+      "evidence": "report Section 6, equations (6.4)-(6.10)",
+      "scope_limit": "nonhomogeneous sums and coefficients depending on target factorization are not admitted by this recognition"
+    },
+    {
+      "id": "I282-C8",
+      "label": "PROVED_DEOVERLAP",
+      "claim": "Every product and sum statement applies to any target Q dividing q_n/gcd(q_n,D_m), so the Item265 clearing reservoir is removed before capacity is measured.",
+      "evidence": "report equations (1.4), (2.6), and Sections 5-6",
+      "scope_limit": "a booked gain would still require an actual-family mass theorem and the stated transverse matching correlation"
+    },
+    {
+      "id": "I282-C9",
+      "label": "EXACT_FINITE_ONLY",
+      "claim": "The deterministic checker replays product capture, overlap majorization, scalar/residual equality, diminishing layers, the unrestricted canonical optimizer, and homogeneous-sum cancellation on bounded exact ranges.",
+      "evidence": "canonical certificate row digests",
+      "scope_limit": "the tied-cancellation witness is algebraic illustration only; no exceptional-singleton census or asymptotic extrapolation is performed"
+    },
+    {
+      "id": "I282-C10",
+      "label": "OPEN_NOT_PROVED",
+      "claim": "No actual high-efficiency return mass, weighted cover, prime-independent cancellation divisibility, uniform prime-power height, or little-oh squarefull theorem is obtained.",
+      "evidence": "report Sections 5-7",
+      "scope_limit": "Item282 is not a general no-go for sums or genuinely new global auxiliaries"
+    },
+    {
+      "id": "I282-C11",
+      "label": "PROVED_BOOKING_DECISION",
+      "claim": "The positive-linear capacity admission test fails; no new Route-1 rate or beta capacity reduction is booked.",
+      "evidence": "report Section 7",
+      "scope_limit": "the Item265 high-singleton ceiling and two-copy normalization remain unchanged"
+    }
+  ],
+  "strict_labels": {
+    "unbounded_product_overlap_majorant": "PROVED",
+    "product_efficiency_dichotomy": "PROVED",
+    "power_layer_diminishing_return": "PROVED",
+    "canonical_unbounded_portfolio": "PROVED SCOPED NO-GO",
+    "weighted_return_cover": "PROVED RECOGNITION; ACTUAL LOWER BOUND OPEN",
+    "homogeneous_sum_unique_minimum": "PROVED",
+    "homogeneous_sum_cancellation_mass": "OPEN; NOT PROVED",
+    "clearing_reservoir_deoverlap": "PROVED",
+    "uniform_prime_power_height_O_N": "OPEN; NOT PROVED",
+    "bounded_checks": "EXACT FINITE ONLY",
+    "exceptional_singleton_search": "NONE",
+    "positive_linear_capacity_admission": "FAIL",
+    "new_route1_rate": "0",
+    "new_beta_capacity_reduction": "0"
+  },
+  "open": [
+    "an actual-family high-efficiency or weighted short-return cover theorem",
+    "a prime-independent homogeneous sum with proved target cancellation divisibility",
+    "nonhomogeneous sums and arbitrary growing block or Hankel determinants",
+    "the uniform v_p(q_n) log p=O(n) theorem or a sufficient little-oh aggregate",
+    "the clearing-divisor and transverse matching correlation",
+    "Route 1 and every conclusion about e+pi"
+  ]
+}

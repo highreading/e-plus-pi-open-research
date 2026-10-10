@@ -1,0 +1,56 @@
+{
+  "schema": "item377-j1-horizontal-filtered-hasse-neutrality-ledger-delta-v1",
+  "item": 377,
+  "date": "2026-09-01",
+  "branch": "Route 1 / fixed-j1 / horizontal filtered Hasse extension",
+  "status": "PROVED_SCOPED_HORIZONTALITY_INFORMATION_NEUTRAL_NO_GO",
+  "proved": {
+    "actual_family": "p=4h+6s+3, M=3h+4s+2, n=2h, r=2s+1",
+    "formal_base": "R=W(k)[[H,S]], F(H)=H^p, F(S)=S^p",
+    "general_connection": "Gamma=[[a,b],[c,d]] with the four exact Frobenius-horizontality equations recorded in the report",
+    "forced_shape": "p-adic separation and F_Omega^*(Omega) subset p Omega force a=b=d=0",
+    "unique_lower_form": "c=omega_q=-sum_(j>=0) C^j(dq), C=F_Omega^*/p",
+    "convergence": "the normalized Frobenius is (H,S)-adically topologically nilpotent on one-forms",
+    "integrability": "d omega_q=0 and E21^2=0",
+    "divided_compatibility": "C(omega_q)-omega_q=dq is also the divided-Frobenius horizontality equation",
+    "horizontal_neutrality": "every analytic q is allowed; ordinary Griffiths transversality and Frobenius horizontality impose no new differential condition",
+    "universal_dense_support": "for q=sum_i y_i, omega_q mod m Omega=-sum_i dy_i, so all independent coefficient directions survive",
+    "inherited_actual_support": "the pointwise residue product has at least p^2-1-[4+2(p-1)+2|h-s|] nonidentity factors",
+    "new_independent_condition": 0
+  },
+  "scope": {
+    "full_collision_implication": "full ordinary collision implies selected Hasse a_(r,n)=0 and Q0=0",
+    "joint_converse_to_full_collision_claimed": false,
+    "base_distinction": "formal two-parameter and coefficient-moment neutrality do not construct a prime-independent base for the changing tied selector",
+    "dense_support_claim": "coefficient-cotangent support only, not a geometric conductor lower bound after pullback",
+    "stronger_filtration_preservation": "would force dq=0 but is not ordinary Griffiths transversality and is not credited",
+    "literal_Kummer_and_Artin_Schreier": "separate inherited closures, not reopened",
+    "not_ruled_out": "a genuinely geometric prime-independent bounded-complexity extension family with additional structure and a horizontal distribution theorem"
+  },
+  "capacity": {
+    "raw_log_mass": "M/6+o(M)",
+    "raw_ceiling_per_6M": "1/36",
+    "weighted_target": "W_(H,Q)(M)=o(M)",
+    "weighted_target_proved": false,
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "booking": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36"
+  },
+  "controls": {
+    "classification": "DECLARED EXACT ALGEBRAIC CONTROLS ONLY; NO PRIME OR COLLISION SCAN",
+    "polynomial_resolvent_controls": 3,
+    "dense_cotangent_control_coordinates": 11,
+    "asymptotic_inference_from_controls": false
+  },
+  "open": [
+    "a prime-independent bounded-complexity geometric family realizing the actual cross-prime Q0",
+    "bounded conductor or bounded support after pullback to the actual tied selector",
+    "weighted nonconcentration of the filtered extension splitting locus",
+    "weighted joint-zero density or any strict fixed-j1 ceiling reduction",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "ledger_action": "CLOSE_FIXED_RANK_FIXED_HODGE_ORDINARY_HORIZONTALITY_AS_INFORMATION_NEUTRAL_BOOK_ZERO",
+  "route_1_status": "ACTIVE",
+  "canonical_files_modified": false
+}

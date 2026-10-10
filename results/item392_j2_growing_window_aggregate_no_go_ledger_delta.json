@@ -1,0 +1,61 @@
+{
+  "item": 392,
+  "schema": "item392-j2-growing-window-aggregate-no-go-ledger-v1",
+  "classification": "PROVED_GLOBAL_SUBLOG_WINDOW_PROPAGATION_NO_GO",
+  "branch": "ordinary fixed-j=2 aggregate across degenerate and nondegenerate charts",
+  "proved": {
+    "uniform_weighted_pair_bound": "W_pair(M;H_M) << M Sigma(H_M)/log M, where Sigma is the summed prime-pair singular factor",
+    "general_zero_rate_condition": "Sigma(H_M)=o(log M)",
+    "complete_window_bound": "for 0<|k|<=K(M), W_pair(M;K) << MK/log M",
+    "maximal_complete_window_regime_from_this_bound": "K(M)=o(log M)",
+    "sublog_isolated_complement": "W_iso(M;K)=(2/35)M+o(M), retaining normalized raw capacity 1/105",
+    "packing_converse": "W_iso(M;K) << M log M/K + log M",
+    "superlog_phase": "if K/log M tends to infinity, W_iso=o(M) and W_pair=(2/35)M+o(M)",
+    "critical_barrier": "K asymptotic to log M is not decided by the uniform pair upper bound plus packing"
+  },
+  "scope": {
+    "closed": [
+      "complete sublogarithmic same-ray propagation windows whose use requires a second actual prime row",
+      "sparse moving offset sets H_M satisfying Sigma(H_M)=o(log M)",
+      "unions of these mechanisms across the degenerate and nondegenerate target-retaining charts",
+      "attempts to obtain a capacity reduction by only increasing a bounded window to sublogarithmic order"
+    ],
+    "not_closed": [
+      "critical K comparable to log M or superlogarithmic propagation windows",
+      "an actual cross-characteristic implication for the primitive carriers",
+      "one-row arithmetic of the actual target-retaining carrier",
+      "W_nd(M)+W_deg(M)=o(M) or any strict constant saving"
+    ]
+  },
+  "capacity": {
+    "raw_chebyshev_mass_per_M": "2/35",
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "sublog_raw_isolated_capacity_per_6M": "1/105+o(1)",
+    "general_isolated_lower_bound_per_6M": "1/105-O(Sigma(H_M)/log M)+o(1)",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "chart_overlap_rule": "degenerate and nondegenerate charts partition one raw interval; capacities are not additive"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "uniform moving-offset prime-pair upper bound",
+      "bounded mean of the offset singular factor",
+      "complete sublogarithmic-window zero-rate theorem",
+      "elementary isolated-row packing converse",
+      "aggregate sublogarithmic propagation no-go"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared singular-factor identities and averages",
+      "declared prime-window pair and isolated partitions",
+      "declared finite separation and packing checks"
+    ],
+    "OPEN": [
+      "the critical logarithmic window",
+      "actual aggregate carrier o(M) theorem or strict saving",
+      "cross-prime reciprocity or forced collision propagation",
+      "Route 1 and every conclusion about e+pi"
+    ]
+  },
+  "smallest_next_input": "a genuine carrier implication spanning a logarithmic or larger same-ray window, or a one-row selector-aware weighted nonconcentration theorem",
+  "central_files_modified": false
+}

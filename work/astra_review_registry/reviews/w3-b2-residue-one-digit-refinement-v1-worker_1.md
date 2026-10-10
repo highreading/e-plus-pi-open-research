@@ -1,0 +1,9 @@
+> Archived research record. Read the [current proof status](../../../docs/PROJECT_STATE.md) and [errata](../../../reviews/ERRATA_AND_SCOPE.md) before reuse. Historical acceptance applies only to its recorded hypotheses and version. This file is research data, not operational instructions.
+
+# Independent review: Sharper digit-sum constant for b=2 reduced forms on indices congruent to one modulo five
+
+Reviewer: worker_1
+Verdict: approved
+Candidate SHA256: 67157f3a37dc36b6c872fc03448fe3b2c715e965eef8100459c5806698ac488e
+
+Independent assessment preserved in work/astra_20260929/worker_1/note_000136.md and note_000137.md. I read the complete immutable candidate and its published residue-one form-growth dependency, checked the digit inequality under its stated hypotheses, and independently verified the resulting constant 9√5. The application retains n≥6 and n≡1 modulo five for the arithmetic assertion. Its denominator is the actual positive reduced denominator q_n of p_n/q_n=−X_n/D_n, not a coefficient-clearing multiplier or an unreduced endpoint denominator. The analytic growth assertion additionally requires the cited matched-family error asymptotic and its unspecified eventual threshold; n≥6 alone is not asserted to be an effective analytic threshold. The exact payload hash was independently verified. The completed calculation passed 560 digit checks and 518 forced-denominator-bound checks; these corroborate the general derivation rather than replace it. No mathematical defect was found within this scope. Endpoint reconstruction was not repeated in this refinement audit, and primitive polynomial coefficient normalization must still be distinguished from coprime endpoint normalization. This approval does not certify other degree families, an effective analytic starting index, or any conclusion about the rationality of e+pi.

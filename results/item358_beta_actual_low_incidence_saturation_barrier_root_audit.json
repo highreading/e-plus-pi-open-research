@@ -1,0 +1,71 @@
+{
+  "item": 358,
+  "schema": "item358-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_ACTUAL_INCIDENCE_SATURATION_AND_SINGLETON_SQUAREFREE_SCOPED_NO_GO",
+  "scope": "independent root audit of the conditional actual-beta occurrence-set saturation, fresh singleton-squarefree carrier, overlap quadrants, and scheme-theoretic union-carrier barrier",
+  "checks": {
+    "certificate_sha256": "4da88e55dec36f3c130def549007c8ae1509ff0a029dfed9ff25f67a78c2ffa3",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_checks": 32,
+    "work_manifest_failures": 0,
+    "frozen_dependencies_checked": 26,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 7,
+    "work_hash_list_match": true,
+    "independent_incidence_patterns": 360,
+    "independent_occurrence_subset_checks": 29880,
+    "independent_low_incidence_checks": 1980,
+    "independent_quadrant_checks": 360,
+    "independent_union_ideal_polynomial_checks": 1600,
+    "all_independent_checks": true,
+    "prime_or_target_census_performed": false,
+    "report_inline_dollar_delimiters": "128/128",
+    "report_display_delimiters": "36/36",
+    "report_fences": "2/2",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "conditional_actual_scope": "the construction is evaluated on the unique nonzero cofactor rows of an assumed actual Item316 target, not on Item350's ambient selected-hit model",
+    "saturation": "the exponent M_A removes the complete p-primary part of g_S whenever p divides t or an outside row, giving p|s_S exactly when p avoids t and Occ(p)=S",
+    "fresh_carrier": "intersecting the size-<L saturated support with Q^[1] and primes above A gives exactly the v_p(Q)=1 low-incidence mass",
+    "quadrants": "the singleton-squarefree quadrant is primewise disjoint from both repeated-row support R_2 and the excess carrier E(Q)",
+    "moment_blind_spot": "fresh singletons contribute to I_1 but contribute zero to I_2 and to log E(Q), leaving the full log Q ceiling",
+    "union_ideal": "over the characteristic-zero polynomial ring, intersection_j(Y_j)=(product Y_j) and intersection_j(Q,Y_j)=(Q,product Y_j)",
+    "window_height": "disjoint singleton windows multiply back to the global carrier, so their local height bounds aggregate to the original full scale",
+    "scope_warning": "the union theorem concerns algebraic ideals, not varying finite-field polynomial functions; large-sieve, Frobenius, monodromy, and actual divisor-correlation theorems remain open"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "conditional actual occurrence-set saturation",
+      "exact fresh low-incidence and singleton carriers",
+      "four-quadrant overlap decomposition",
+      "pairwise and squarefull singleton blind spot",
+      "scheme-theoretic product-versus-Q barrier",
+      "disjoint-window height barrier",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared and independent synthetic support controls; no actual-target or prime census"
+    ],
+    "OPEN": [
+      "actual singleton squarefree gcd correlation",
+      "actual growing low-incidence mass and Xi_Q",
+      "finite-field polynomial-function or Frobenius identities",
+      "Item265 squarefull excess, H_Q, K_Q, and Gamma_Q",
+      "any beta-capacity reduction",
+      "Route 1",
+      "e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_fresh_singleton_maximum": "log b",
+    "row_product_ceiling": "(2+o(1))*log b",
+    "actual_singleton_rate": "OPEN",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "new_booking": 0
+  }
+}

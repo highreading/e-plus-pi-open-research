@@ -1,0 +1,530 @@
+{
+  "exact_grid": {
+    "D_rule": "2 <= D <= min(8,n)",
+    "all_expected_ranks": true,
+    "all_gamma_zeros_are_factored_polynomial_multiples": true,
+    "exact_tuple_sha256": "71a5f73797105fce915291c4b8537c8069bb9c35d8e04e888d170c68add6762f",
+    "gamma_zero_count": 9,
+    "gamma_zero_tuples": [
+      [
+        1,
+        4,
+        3
+      ],
+      [
+        1,
+        6,
+        3
+      ],
+      [
+        1,
+        6,
+        5
+      ],
+      [
+        1,
+        8,
+        3
+      ],
+      [
+        1,
+        8,
+        5
+      ],
+      [
+        1,
+        8,
+        7
+      ],
+      [
+        1,
+        10,
+        3
+      ],
+      [
+        1,
+        10,
+        5
+      ],
+      [
+        1,
+        10,
+        7
+      ]
+    ],
+    "m_range": [
+      1,
+      6
+    ],
+    "n_range": [
+      2,
+      10
+    ],
+    "no_gamma_zero_with_m_at_least_2": true,
+    "row_count": 252,
+    "zero_estimate_condition_row_count": 152
+  },
+  "logical_scope": {
+    "exact": "All ranks, Gamma polynomials, zero classifications, common-form factorizations, and Wronskian identities are exact over Q[z,y].",
+    "finite_grid": "The absence of a nondegenerate Gamma-zero tuple outside the proved m=1 classification is only a finite-grid result."
+  },
+  "schema": "root-unity-two-column-module-certificate-v1",
+  "selected_nonzero_rows": [
+    {
+      "D": 6,
+      "endpoint_matrix_rank": 5,
+      "gamma_degree": 14,
+      "gamma_is_zero": false,
+      "gamma_primitive_coefficients_ascending": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "m": 1,
+      "n": 8
+    },
+    {
+      "D": 6,
+      "endpoint_matrix_rank": 5,
+      "gamma_degree": 14,
+      "gamma_is_zero": false,
+      "gamma_primitive_coefficients_ascending": [
+        7749806605212672000,
+        0,
+        1804341982899456000,
+        0,
+        129392258413017600,
+        0,
+        2904664943980800,
+        0,
+        27059821588800,
+        0,
+        107174576520,
+        0,
+        157189050,
+        0,
+        40787
+      ],
+      "m": 2,
+      "n": 8
+    },
+    {
+      "D": 6,
+      "endpoint_matrix_rank": 5,
+      "gamma_degree": 14,
+      "gamma_is_zero": false,
+      "gamma_primitive_coefficients_ascending": [
+        10065895958556294268059648000,
+        0,
+        2416058918875105284279373875,
+        0,
+        184973612697418276421890200,
+        0,
+        4991369639389807908326400,
+        0,
+        62899441089599145744900,
+        0,
+        403722161830608789780,
+        0,
+        1283559742737263880,
+        0,
+        1614245526242264
+      ],
+      "m": 3,
+      "n": 8
+    },
+    {
+      "D": 6,
+      "endpoint_matrix_rank": 5,
+      "gamma_degree": 14,
+      "gamma_is_zero": false,
+      "gamma_primitive_coefficients_ascending": [
+        151182155076705628337719744762898022400000,
+        0,
+        35426682522552272396529019521151883365125,
+        0,
+        2577035719157871945060246820414991477625,
+        0,
+        60427057177349686433740599108256097250,
+        0,
+        610364555585910949782341132514148725,
+        0,
+        2821719293582986764353394043072965,
+        0,
+        5644582580394072239493118809357,
+        0,
+        3525447035534901427294830702
+      ],
+      "m": 4,
+      "n": 8
+    },
+    {
+      "D": 8,
+      "endpoint_matrix_rank": 7,
+      "gamma_degree": 18,
+      "gamma_is_zero": false,
+      "gamma_primitive_coefficients_ascending": [
+        11187672074241431642605157233019486018189327668728643315623264256000,
+        0,
+        2683024493529760272119742712247798821482790161216579437666302605675,
+        0,
+        205187167612895918957629893874084227900689676684380091094922932350,
+        0,
+        5540463031183049454133844853004677425989298100118782798238079280,
+        0,
+        71319887372898599428475418535154810912136505819245387052678560,
+        0,
+        494613894342645119127316665957472611745890959168236553743872,
+        0,
+        1949753057479517766158147872813310042161713306235411161600,
+        0,
+        4365833170987300038697939436567571693351216852382371840,
+        0,
+        5169343562634155965611213433657863352132792126586880,
+        0,
+        2513701145322793182339652597602752722053183307776
+      ],
+      "m": 5,
+      "n": 10
+    },
+    {
+      "D": 8,
+      "endpoint_matrix_rank": 7,
+      "gamma_degree": 18,
+      "gamma_is_zero": false,
+      "gamma_primitive_coefficients_ascending": [
+        158540675692668203242784826161854605858324342911098192529595347504530449866917366005235712,
+        0,
+        37769365485906190868558493013861275126462170954280690752495659662580065788703561132933925,
+        0,
+        2847918900113657162499859065120672889250202720582953374773714337973175805839999942666750,
+        0,
+        74037773751397118834533964052811912924353795617579705379438406059749839384530627750000,
+        0,
+        896617335985320133953961916235681455114160025218132014122730896456078699585582500000,
+        0,
+        5675372907825279084969275303316417401807711452804747034847693299188249626000000000,
+        0,
+        19674551417647518793336001030475743205775169683142307346525787490634965000000000,
+        0,
+        36959770429339763817212328316087950083820826740877999484702133215400000000000,
+        0,
+        34518311042865293113258330868970276140277996020920580509327020000000000000,
+        0,
+        12094170077823447540450456662385490653287491794017960184000000000000000
+      ],
+      "m": 6,
+      "n": 10
+    }
+  ],
+  "versions": {
+    "sympy": "1.14.0"
+  },
+  "zero_rows_exact_factorizations": [
+    {
+      "D": 3,
+      "degenerate_common_factor": {
+        "base_D": 2,
+        "base_has_m1_parity_bonus": true,
+        "base_n": 3,
+        "common_auxiliary_bivariate": "z**3/24 - z**2/2 + 5*z/2 - 5",
+        "common_endpoint_primitive_coefficients_ascending": [
+          10,
+          0,
+          1
+        ],
+        "multiplier_a_primitive_coefficients_ascending": [
+          1
+        ],
+        "multiplier_b_primitive_coefficients_ascending": [
+          0,
+          1
+        ],
+        "multiplier_wronskian": "1"
+      },
+      "endpoint_matrix_rank": 2,
+      "expected_rank": 2,
+      "gamma_degree": null,
+      "gamma_is_zero": true,
+      "gamma_primitive_coefficients_ascending": [],
+      "m": 1,
+      "n": 4,
+      "vanishing_order_lower_bound": 7,
+      "zero_estimate_degeneracy_condition": true
+    },
+    {
+      "D": 3,
+      "degenerate_common_factor": {
+        "base_D": 2,
+        "base_has_m1_parity_bonus": true,
+        "base_n": 5,
+        "common_auxiliary_bivariate": "-z**5/4080 + 3*z**3/68 - z**2/2 + 42*z/17 - 84/17",
+        "common_endpoint_primitive_coefficients_ascending": [
+          168,
+          0,
+          17
+        ],
+        "multiplier_a_primitive_coefficients_ascending": [
+          1
+        ],
+        "multiplier_b_primitive_coefficients_ascending": [
+          0,
+          1
+        ],
+        "multiplier_wronskian": "1"
+      },
+      "endpoint_matrix_rank": 2,
+      "expected_rank": 2,
+      "gamma_degree": null,
+      "gamma_is_zero": true,
+      "gamma_primitive_coefficients_ascending": [],
+      "m": 1,
+      "n": 6,
+      "vanishing_order_lower_bound": 9,
+      "zero_estimate_degeneracy_condition": true
+    },
+    {
+      "D": 5,
+      "degenerate_common_factor": {
+        "base_D": 4,
+        "base_has_m1_parity_bonus": true,
+        "base_n": 5,
+        "common_auxiliary_bivariate": "z**5/60 - z**4/2 + 7*z**3 - 56*z**2 + 252*z - 504",
+        "common_endpoint_primitive_coefficients_ascending": [
+          1008,
+          0,
+          112,
+          0,
+          1
+        ],
+        "multiplier_a_primitive_coefficients_ascending": [
+          1
+        ],
+        "multiplier_b_primitive_coefficients_ascending": [
+          0,
+          1
+        ],
+        "multiplier_wronskian": "1"
+      },
+      "endpoint_matrix_rank": 4,
+      "expected_rank": 4,
+      "gamma_degree": null,
+      "gamma_is_zero": true,
+      "gamma_primitive_coefficients_ascending": [],
+      "m": 1,
+      "n": 6,
+      "vanishing_order_lower_bound": 11,
+      "zero_estimate_degeneracy_condition": true
+    },
+    {
+      "D": 3,
+      "degenerate_common_factor": {
+        "base_D": 2,
+        "base_has_m1_parity_bonus": true,
+        "base_n": 7,
+        "common_auxiliary_bivariate": "z**7/416640 - z**5/3720 + 11*z**3/248 - z**2/2 + 153*z/62 - 153/31",
+        "common_endpoint_primitive_coefficients_ascending": [
+          306,
+          0,
+          31
+        ],
+        "multiplier_a_primitive_coefficients_ascending": [
+          1
+        ],
+        "multiplier_b_primitive_coefficients_ascending": [
+          0,
+          1
+        ],
+        "multiplier_wronskian": "1"
+      },
+      "endpoint_matrix_rank": 2,
+      "expected_rank": 2,
+      "gamma_degree": null,
+      "gamma_is_zero": true,
+      "gamma_primitive_coefficients_ascending": [],
+      "m": 1,
+      "n": 8,
+      "vanishing_order_lower_bound": 11,
+      "zero_estimate_degeneracy_condition": true
+    },
+    {
+      "D": 5,
+      "degenerate_common_factor": {
+        "base_D": 4,
+        "base_has_m1_parity_bonus": true,
+        "base_n": 7,
+        "common_auxiliary_bivariate": "-z**7/43680 + z**5/52 - z**4/2 + 171*z**3/26 - 666*z**2/13 + 2970*z/13 - 5940/13",
+        "common_endpoint_primitive_coefficients_ascending": [
+          11880,
+          0,
+          1332,
+          0,
+          13
+        ],
+        "multiplier_a_primitive_coefficients_ascending": [
+          1
+        ],
+        "multiplier_b_primitive_coefficients_ascending": [
+          0,
+          1
+        ],
+        "multiplier_wronskian": "1"
+      },
+      "endpoint_matrix_rank": 4,
+      "expected_rank": 4,
+      "gamma_degree": null,
+      "gamma_is_zero": true,
+      "gamma_primitive_coefficients_ascending": [],
+      "m": 1,
+      "n": 8,
+      "vanishing_order_lower_bound": 13,
+      "zero_estimate_degeneracy_condition": true
+    },
+    {
+      "D": 7,
+      "degenerate_common_factor": {
+        "base_D": 6,
+        "base_has_m1_parity_bonus": true,
+        "base_n": 7,
+        "common_auxiliary_bivariate": "z**7/112 - z**6/2 + 27*z**5/2 - 225*z**4 + 2475*z**3 - 17820*z**2 + 77220*z - 154440",
+        "common_endpoint_primitive_coefficients_ascending": [
+          308880,
+          0,
+          35640,
+          0,
+          450,
+          0,
+          1
+        ],
+        "multiplier_a_primitive_coefficients_ascending": [
+          1
+        ],
+        "multiplier_b_primitive_coefficients_ascending": [
+          0,
+          1
+        ],
+        "multiplier_wronskian": "1"
+      },
+      "endpoint_matrix_rank": 6,
+      "expected_rank": 6,
+      "gamma_degree": null,
+      "gamma_is_zero": true,
+      "gamma_primitive_coefficients_ascending": [],
+      "m": 1,
+      "n": 8,
+      "vanishing_order_lower_bound": 15,
+      "zero_estimate_degeneracy_condition": true
+    },
+    {
+      "D": 3,
+      "degenerate_common_factor": {
+        "base_D": 2,
+        "base_has_m1_parity_bonus": true,
+        "base_n": 9,
+        "common_auxiliary_bivariate": "-13*z**9/501500160 + 37*z**7/13930560 - 3*z**5/11056 + 92*z**3/2073 - z**2/2 + 1705*z/691 - 3410/691",
+        "common_endpoint_primitive_coefficients_ascending": [
+          6820,
+          0,
+          691
+        ],
+        "multiplier_a_primitive_coefficients_ascending": [
+          1
+        ],
+        "multiplier_b_primitive_coefficients_ascending": [
+          0,
+          1
+        ],
+        "multiplier_wronskian": "1"
+      },
+      "endpoint_matrix_rank": 2,
+      "expected_rank": 2,
+      "gamma_degree": null,
+      "gamma_is_zero": true,
+      "gamma_primitive_coefficients_ascending": [],
+      "m": 1,
+      "n": 10,
+      "vanishing_order_lower_bound": 13,
+      "zero_estimate_degeneracy_condition": true
+    },
+    {
+      "D": 5,
+      "degenerate_common_factor": {
+        "base_D": 4,
+        "base_has_m1_parity_bonus": true,
+        "base_n": 9,
+        "common_auxiliary_bivariate": "z**9/15180480 - 5*z**7/168672 + 5*z**5/251 - z**4/2 + 3245*z**3/502 - 12540*z**2/251 + 55770*z/251 - 111540/251",
+        "common_endpoint_primitive_coefficients_ascending": [
+          223080,
+          0,
+          25080,
+          0,
+          251
+        ],
+        "multiplier_a_primitive_coefficients_ascending": [
+          1
+        ],
+        "multiplier_b_primitive_coefficients_ascending": [
+          0,
+          1
+        ],
+        "multiplier_wronskian": "1"
+      },
+      "endpoint_matrix_rank": 4,
+      "expected_rank": 4,
+      "gamma_degree": null,
+      "gamma_is_zero": true,
+      "gamma_primitive_coefficients_ascending": [],
+      "m": 1,
+      "n": 10,
+      "vanishing_order_lower_bound": 15,
+      "zero_estimate_degeneracy_condition": true
+    },
+    {
+      "D": 7,
+      "degenerate_common_factor": {
+        "base_D": 6,
+        "base_has_m1_parity_bonus": true,
+        "base_n": 9,
+        "common_auxiliary_bivariate": "-z**9/231840 + z**7/92 - z**6/2 + 561*z**5/46 - 4422*z**4/23 + 47190*z**3/23 - 334620*z**2/23 + 1441440*z/23 - 2882880/23",
+        "common_endpoint_primitive_coefficients_ascending": [
+          5765760,
+          0,
+          669240,
+          0,
+          8844,
+          0,
+          23
+        ],
+        "multiplier_a_primitive_coefficients_ascending": [
+          1
+        ],
+        "multiplier_b_primitive_coefficients_ascending": [
+          0,
+          1
+        ],
+        "multiplier_wronskian": "1"
+      },
+      "endpoint_matrix_rank": 6,
+      "expected_rank": 6,
+      "gamma_degree": null,
+      "gamma_is_zero": true,
+      "gamma_primitive_coefficients_ascending": [],
+      "m": 1,
+      "n": 10,
+      "vanishing_order_lower_bound": 17,
+      "zero_estimate_degeneracy_condition": true
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "arithmetic": "exact integer/rational/Gaussian arithmetic",
+  "dependency": {
+    "scripts/item196_rankone_moving_gate_certificate.py": "3cacdfa631f8b9449494a8e53b4326a7af5c6c260737fde60fd73e1619b0f9e6"
+  },
+  "finite_audit": {
+    "checkpoints": [
+      {
+        "content": "2",
+        "gamma": [
+          10,
+          6
+        ],
+        "integer_vector": [
+          "-6",
+          "2",
+          "6"
+        ],
+        "k": 2,
+        "large_prime_content": "1",
+        "s": 0
+      },
+      {
+        "content": "384",
+        "gamma": [
+          1260,
+          776
+        ],
+        "integer_vector": [
+          "25728",
+          "-16512",
+          "-13440"
+        ],
+        "k": 5,
+        "large_prime_content": "1",
+        "s": 1
+      },
+      {
+        "content": "5120",
+        "gamma": [
+          191600,
+          118696
+        ],
+        "integer_vector": [
+          "-162293760",
+          "81177600",
+          "75934720"
+        ],
+        "k": 8,
+        "large_prime_content": "1",
+        "s": 2
+      },
+      {
+        "content": "52297728",
+        "gamma": [
+          31260320,
+          19414656
+        ],
+        "integer_vector": [
+          "3591703363584",
+          "-1772422299648",
+          "-1799198736384"
+        ],
+        "k": 11,
+        "large_prime_content": "19",
+        "s": 3
+      },
+      {
+        "content": "582439406909547387813888",
+        "gamma": [
+          30602190203707742367907840,
+          19089608575787879988199424
+        ],
+        "integer_vector": [
+          "28648107087066287287191680295647444869928976384",
+          "-14324053474424152539986960539882593905704697856",
+          "-14324053799546669272598979888110388111967518720"
+        ],
+        "k": 35,
+        "large_prime_content": "59",
+        "s": 11
+      },
+      {
+        "content": "23897343447636751086653798350848000",
+        "gamma": [
+          34789057257837298866376759522099200,
+          21712146554149168528163199485214720
+        ],
+        "integer_vector": [
+          "225240690705112908570672404974133557458514307676984286642176000000",
+          "-112620345353214707973494735955029708299846328499904128082771968000",
+          "-112620345354563664666596222560407123210885592091809379826794496000"
+        ],
+        "k": 47,
+        "large_prime_content": "79",
+        "s": 15
+      },
+      {
+        "content": "47429529943764257395592810505475056036651223510882630566869077350676694720053248000",
+        "gamma": [
+          21411424128409367671227252188428180628418063925528330951184060099802355578231923789738803200,
+          13374831053168992125471097436703395437608135853120294755239753887900516197592257355757649920
+        ],
+        "integer_vector": [
+          "-18234739377491830015145726136726911417356717534612408688184188097092856569392530031479034639449226853526682453023730345933696937910929504982482027402040322494382350507442176000",
+          "9117369688745915007572863068349030596728299066731647384729915143609949486889631768943106107939964965361716031349930045654273620700701007367074398513250957719407498920722432000",
+          "9117369688745915007572863068378332587174400139286230669501739899818502253569038988809347702022739160823964907646761061815427304414304332977963808238651509292856426895507456000"
+        ],
+        "k": 122,
+        "large_prime_content": "1",
+        "s": 40
+      }
+    ],
+    "label": "FINITE; no extrapolation beyond max_s",
+    "max_s": 40,
+    "observed_admissible_large_content": [
+      {
+        "p": 19,
+        "s": 3
+      },
+      {
+        "p": 59,
+        "s": 11
+      },
+      {
+        "p": 79,
+        "s": 15
+      },
+      {
+        "p": 139,
+        "s": 27
+      },
+      {
+        "p": 179,
+        "s": 35
+      },
+      {
+        "p": 199,
+        "s": 39
+      }
+    ],
+    "resonance_rows_with_j_1": [
+      {
+        "j": 1,
+        "m": 17,
+        "p": 19,
+        "s": 3
+      },
+      {
+        "j": 1,
+        "m": 53,
+        "p": 59,
+        "s": 11
+      },
+      {
+        "j": 1,
+        "m": 71,
+        "p": 79,
+        "s": 15
+      },
+      {
+        "j": 1,
+        "m": 125,
+        "p": 139,
+        "s": 27
+      },
+      {
+        "j": 1,
+        "m": 161,
+        "p": 179,
+        "s": 35
+      },
+      {
+        "j": 1,
+        "m": 179,
+        "p": 199,
+        "s": 39
+      }
+    ],
+    "stream_sha256": "e202fef62fa0590a1ef4119dd35e566aa6c779e82125733cf89e1d5ceaf5ed8f"
+  },
+  "height_only_countermodels": {
+    "rows": [
+      {
+        "admissible_s_count": 33,
+        "first_s_with_p_inside_height_envelope": 1,
+        "mock_common_roots": 32,
+        "p": 101
+      },
+      {
+        "admissible_s_count": 70,
+        "first_s_with_p_inside_height_envelope": 1,
+        "mock_common_roots": 69,
+        "p": 211
+      },
+      {
+        "admissible_s_count": 167,
+        "first_s_with_p_inside_height_envelope": 1,
+        "mock_common_roots": 166,
+        "p": 503
+      }
+    ],
+    "scope": "mock common contents obey the proved height envelope only; they are not claimed to satisfy the actual recurrence"
+  },
+  "item": 205,
+  "primitive_contraction_witness": {
+    "13_divides_common_content": false,
+    "mod_13": {
+      "A0": 4,
+      "B0": 0
+    },
+    "rational_A0": "2607104/99",
+    "rational_B0": "-2213120/33",
+    "row": {
+      "j": 1,
+      "m": 11,
+      "p": 13,
+      "rho": 1,
+      "s": 3
+    }
+  },
+  "proved_all_s_reductions": {
+    "canonical_scale": "Lambda_s=2^(k-1)*lcm(1,...,k)",
+    "coefficient_recurrence": "(n+1)A[n+1]=(5s+3)(A[n]+A[n-1]+A[n-2])+(n-3s)A[n-3]",
+    "height": "gcd(gamma_0,gamma_1)<=gamma_1<=4^(5s+2)",
+    "localized_smith_content": "for every odd p>k and e>=1, min(v_p(X),v_p(Y),v_p(Z)) =min(v_p(gamma_0),v_p(gamma_1))",
+    "resonance_ray": "s=3 mod 4 and prime p=5s+4 implies p divides both gammas; on a cell row p divides 10m+1",
+    "rho_swap": "(a,b,c) for rho=1 becomes (a,c,b) for rho=3",
+    "terminal_survivor": "common gamma zero leaves t*(A[k],A[k-1],A[k-2],A[k-3],A[k-4])=t*(0,0,-1,1,0)",
+    "transfer_determinant": "det(T_n)=(3s-n)/(n+1), singular exactly at n=3s"
+  },
+  "s3_content_witness": {
+    "D3": 165,
+    "D3_times_abc": [
+      "20878112",
+      "-10302864",
+      "-10458512"
+    ],
+    "content": 304,
+    "gcd_gamma": 608,
+    "p19_common_gate_rows": [
+      {
+        "j": 1,
+        "m": 17,
+        "p": 19,
+        "s": 3
+      },
+      {
+        "j": 3,
+        "m": 36,
+        "p": 19,
+        "s": 3
+      }
+    ],
+    "primitive_vector": [
+      68678,
+      -33891,
+      -34403
+    ]
+  },
+  "verdict": "PROVED exact localized common-content reduction and zero-rate resonance overlap; PROVED height/local-transfer methods do not yield a moving-prime sublinear count; OPEN primitive A0/B0 zero counts; A1 and joint gates remain separate."
+}

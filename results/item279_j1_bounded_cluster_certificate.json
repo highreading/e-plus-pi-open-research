@@ -1,0 +1,81 @@
+{
+  "capacity": {
+    "isolated_collision_primes": "uncontrolled at linear scale",
+    "item149_item264_overlap": "first post-Cartier copy and square radical already booked/recorded",
+    "maximum_linear_mass_affected_by_any_fixed_D_non_singleton_cluster": 0,
+    "new_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "raw_j1_capacity_per_6M": "1/36"
+  },
+  "labels": {
+    "bounded_cluster_endpoint_mass": "PROVED o(M) by the classical Selberg upper-bound sieve",
+    "finite_pattern_replay": "EXACT FINITE ONLY",
+    "fixed_D_t_cluster_theorem": "PROVED for every fixed D and 2<=t<=D+1",
+    "isolated_prime_problem": "OPEN",
+    "multi_prime_CRT_module": "PROVED",
+    "new_route1_rate": 0,
+    "rational_multiplane_product_valuation_gain": 0
+  },
+  "multi_CRT": {
+    "exact_witness": {
+      "N": 33263,
+      "all_mixed_4x4_minors_mod_N": 0,
+      "counterexample_vector": [
+        1073,
+        0,
+        31,
+        0
+      ],
+      "counterexample_vector_divisible_by_N": false,
+      "fixed_coefficient_product_square": 1106427169,
+      "idempotents": [
+        22940,
+        19314,
+        24273
+      ],
+      "mixed_4x4_minors_checked": 15,
+      "offset_pattern_J": [
+        0,
+        1,
+        4
+      ],
+      "primes": [
+        29,
+        31,
+        37
+      ],
+      "rational_two_block_stack_determinant": 1
+    },
+    "extra_valuation_copy": 0,
+    "fixed_integer_divisibility": "(product over j in J p_j)^2 divides gcd(C0(M),C1(M))",
+    "general_module": "product over j in J of ker(A_j mod p_j)",
+    "general_size": "product over j in J of p_j^(4-r_j)"
+  },
+  "payload_sha256": "5b3a6ef004587cba830d553ab120282c22f0812db6633bad59fbe9a06d9afb1a",
+  "phase_tower": {
+    "boundary": "h>=4D+1 for every 0<=j<=D",
+    "exact_grid_rows": 12716,
+    "exact_grid_sha256": "9ee8d755f0056689d1333bda7879f0cdbfc6c5fc8082c80d018210d8e71ce9a3",
+    "formula": "(h_j,s_j,p_j,M)=(h-4j,s+3j,p+2j,M)"
+  },
+  "schema": "item279-j1-bounded-cluster-certificate-v1",
+  "sieve": {
+    "endpoint_log_weight": "O_(D,t)(M/log^(t-1) M)=o(M) for t>=2",
+    "finite_replay_D": 6,
+    "finite_replay_bound": 10000,
+    "finite_replay_counts_by_t": {
+      "2": 1701,
+      "3": 817,
+      "4": 157,
+      "5": 10,
+      "6": 0,
+      "7": 0
+    },
+    "finite_replay_label": "EXACT FINITE ONLY",
+    "finite_replay_sha256": "e2cc2ed14c6862819dec7cdc4fc2540f92ac52d2253668c31f91b99fbbdd3090",
+    "pattern_count": "binomial(D,t-1)",
+    "patterns": "J subset {0,...,D}, 0 in J, |J|=t",
+    "selberg_count": "O_(D,t)(M/log^t M)",
+    "union_all_non_singleton_patterns": "O_D(M/log M)=o(M)"
+  }
+}

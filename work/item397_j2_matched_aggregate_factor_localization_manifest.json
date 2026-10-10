@@ -1,0 +1,77 @@
+{
+  "item": 397,
+  "schema": "item397-j2-matched-aggregate-factor-localization-manifest-v1",
+  "classification": "PROVED_FACTOR_LOCALIZATION_OBSTRUCTION_WITH_ETA_ZERO",
+  "checked_date_beijing": "2026-09-01",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "work/item394_j2_matched_modulus_aggregate_collapse_report.md": "f0fd654dc80ad3c0eab26abfd8f8741e89ba572f825ef5afd214f2c149c01204",
+    "work/item394_j2_matched_modulus_aggregate_collapse_certificate.py": "f75e9637cb6d120f748ffe82b746275c978a3301f623ac67218f0932e7916e08",
+    "work/item394_j2_matched_modulus_aggregate_collapse_certificate.json": "7d3fb95d1fe09d9508aa7e12d4bb87ef6f33887645f6691b64cd71fa2a0a56e1",
+    "work/item394_j2_matched_modulus_aggregate_collapse_ledger_delta.json": "dcde114b5ba5d0a793a7fa80b8b142505ac86835ae62640969ee0d08ac19cd53",
+    "work/item315_j2_resultant_arithmetic_report.md": "74e9c2d950b08dd5ecfa5b57530399d9ed5a5a512fe26794c17b7d7eaa363755",
+    "work/item361_j2_matched_cartier_norm_collapse_report.md": "0ad329d64d00853fd1b8adca1c982790bd293f01bdc1ea356ad3858374683af8",
+    "work/item392_j2_growing_window_aggregate_no_go_report.md": "9fd149b27a8ca64c727c35fca4cd8a196da0d9172883b31bb3aa75c45873bb7a"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item397_j2_matched_aggregate_factor_localization_report.md",
+      "sha256": "4f30aab79be7039866bbad7e71cc545bd0e553d51d1166b77cb3d5f5371476ee",
+      "bytes": 11311
+    },
+    "certificate_script": {
+      "path": "work/item397_j2_matched_aggregate_factor_localization_certificate.py",
+      "sha256": "a19e171528352fb4945dff288bbdc9916186817d1d4578db9a7a1c9bf6686c48",
+      "bytes": 11841
+    },
+    "certificate": {
+      "path": "work/item397_j2_matched_aggregate_factor_localization_certificate.json",
+      "sha256": "bf1357c4a4740487e6f251c80da7781fcdd00c0bc0c84a3888f2bf4507be9a66",
+      "bytes": 5711
+    },
+    "replay": {
+      "path": "work/item397_j2_matched_aggregate_factor_localization_certificate_replay.json",
+      "sha256": "bf1357c4a4740487e6f251c80da7781fcdd00c0bc0c84a3888f2bf4507be9a66",
+      "bytes": 5711,
+      "byte_identical_to_certificate": true
+    },
+    "ledger_delta": {
+      "path": "work/item397_j2_matched_aggregate_factor_localization_ledger_delta.json",
+      "sha256": "7b682ebaa62eb5c9ae168b3dd69f5052f7eb7f9a8d286b517b8fc5ede93b10ce",
+      "bytes": 2981
+    }
+  },
+  "theorems": [
+    "the unsaturated envelope constant splits exactly as C_6=2/35+C_comp with C_comp=0.06730638979165371...",
+    "all C_comp support comes from cofactors u>=5 below the row interval and is removed by safe low-prime saturation",
+    "every sharply saturated matched row factor is either one or its prime row label",
+    "distinct sharply saturated matched row factors are coprime, and every pre-saturation common factor is below L_M",
+    "the known endpoint cubic phase equation is automatically soluble on both actual mod-6 rays",
+    "factor overlap and phase-solvability alone prove eta=0 and no capacity reduction"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "exact envelope decomposition",
+      "atomic factor localization",
+      "pairwise matched-gcd obstruction",
+      "two-ray phase admissibility",
+      "eta-zero capacity conclusion"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared actual-formula row, pairwise, and endpoint phase replays"
+    ],
+    "OPEN": [
+      "a positive eta for the exact aggregate",
+      "unmatched cross-row arithmetic",
+      "actual target-residual nonconcentration",
+      "Route 1 and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "proved_eta_per_M": 0,
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_booking": 0,
+    "new_capacity_reduction": 0
+  },
+  "replay_command": "python work/item397_j2_matched_aggregate_factor_localization_certificate.py --replay work/item397_j2_matched_aggregate_factor_localization_certificate.json --output work/item397_j2_matched_aggregate_factor_localization_certificate_replay.json"
+}

@@ -1,0 +1,51 @@
+{
+  "schema": "item317-root-audit-v1",
+  "item": 317,
+  "auditor": "root",
+  "date": "2026-08-31",
+  "verdict": "PASS AS AN EXACT ALL-S GAUSSIAN TELESCOPER, ACTUAL-CONTAINER COUPLED SYSTEM, ZERO-RATE PIVOT LOCALIZATION, SCOPED PIVOT-ONLY NO-GO, AND ZERO BOOKING",
+  "package": {
+    "manifest_files_checked": 6,
+    "manifest_file_hash_mismatches": 0,
+    "frozen_dependencies_checked": 22,
+    "manifest_dependency_hash_mismatches": 0,
+    "hash_list_entries_checked": 7,
+    "hash_list_mismatches": 0,
+    "canonical_replay_byte_identical": true,
+    "canonical_root_replay_byte_identical": true,
+    "canonical_replay_and_root_sha256": "334165a7e3a40f043aedd3ea2d221786569aa91262481c2347c436cf10890e44",
+    "report_sha256": "3e8a885b790965edf225b0fb9efd91142ffcdd7d1c13e9b65e43b9bb6d3023b5",
+    "script_sha256": "a07f6157648bbbfec0a9c9de8d899c81523f5e2cb63c997aedc7dc37c2213e71",
+    "data_sha256": "f9ca57040fc7ae1030f9d915955085e3263e6c30f3129f2e9c4961198defa81b",
+    "ledger_sha256": "40e7953a26a01c90d0415dbd247186a8b86dd9e8ead70edc5829b007591b8779",
+    "manifest_sha256": "045aff4b05ef79a664e6dba30d9d7002f8e337ac066048e022c3509171e000f3"
+  },
+  "independent_mathematical_checks": {
+    "telescoper": "PASS: the sealed bidegree-(7,20) rational certificate verifies the differential identity sum P_j omega_(s+j)=d(K_s F_s) exactly in Q(s,t).",
+    "residues": "PASS: the t=1 residue is -A_s and the fixed-branch t=1-i residue is the stated Gaussian multiple of B_s, so Z_s=(-2(1+i))^s B_s satisfies the Item312 operator for every s>=1.",
+    "gaussian_operator": "PASS: multiplying by 1+i gives exactly the four displayed Gaussian coefficients and adds only 2-adic unit content on actual rows.",
+    "container_readout": "PASS: direct substitution of the Item308 integral scalings gives the period-four quadratic identity for all eight (s mod 4,epsilon) classes.",
+    "coupled_system": "PASS: Sym^2(T_s) has the displayed six-state action and determinant (P0/P3)^4; four quadratic blocks give the 24-state all-s system and a six-state step-four system on each residue class.",
+    "pivot_localization": "PASS: the eight four-shift P0/P3 substitutions factor into explicit nonzero degree-seven fixed-M integers with only 2,3 content, yielding total singular-prime mass O(log M)=o(M).",
+    "pivot_no_go": "PASS: at any fully regular four-shift row, the nonzero scalar state (0,1,0) with zero Gaussian states has zero quadratic readout and extends uniquely. This is correctly limited to the operator/pivot information class.",
+    "scope": "PASS: the local witness is not the actual initial state; regular-row collisions, W_D(M)=o(M), and the 1/36 closer remain open."
+  },
+  "format": {
+    "report_bytes": 17731,
+    "report_lines": 588,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "inline_math_open": 97,
+    "inline_math_close": 97,
+    "display_math_open": 50,
+    "display_math_close": 50
+  },
+  "capacity": {
+    "new_route1_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "pivot_singular_mass": "O(log M)=o(M), with shift zero already covered by Item312",
+    "retained_ceiling_per_6M": "1/36",
+    "smallest_remaining_problem": "use the actual initial state to produce a fixed-M regular-row invariant/resultant of sublinear logarithmic height, or prove W_D(M)=o(M) directly",
+    "route_status": "ACTIVE"
+  }
+}

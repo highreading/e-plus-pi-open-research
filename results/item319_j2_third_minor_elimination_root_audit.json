@@ -1,0 +1,56 @@
+{
+  "item": 319,
+  "schema": "item319-root-audit-v1",
+  "checked_date_beijing": "2026-08-31",
+  "verdict": "PASS_WITH_ZERO_BOOKING",
+  "scope": "independent root audit of the all-r third-minor factorization and Laurent-chart period-elimination no-go",
+  "checks": {
+    "canonical_certificate_replay_sha256": "c4ce360823dd2d781bebc492e79b65d6ea183a7dada1d4cbee1b1c37334ec194",
+    "canonical_certificate_replay_byte_identical": true,
+    "root_replay_sha256": "c4ce360823dd2d781bebc492e79b65d6ea183a7dada1d4cbee1b1c37334ec194",
+    "root_replay_byte_identical_to_certificate": true,
+    "python_compile": true,
+    "manifest_dependency_hashes_match": true,
+    "canonical_artifact_hashes_match_manifest": true,
+    "all_json_parse": true,
+    "independent_factorization_rows": 50,
+    "independent_factorization_r_max": 149,
+    "universal_syzygy_expansion": true,
+    "laurent_chart_elimination_argument": true,
+    "report_inline_delimiters": "99/99",
+    "report_display_delimiters": "36/36",
+    "report_control_characters": 0,
+    "report_bare_cr": 0
+  },
+  "mathematical_audit": {
+    "beta_formula": "the terminal value and r+1 odd-chain descent give -3*(r+1)!/[2*(2r+3)*(-r/3)_(r+1)] because r+1 is even",
+    "unit_range": "for actual p=2r+6s+3, all nonzero factors 3j-r satisfy abs(3j-r)<=2r<p, while r+1 and 2r+3 are also below p",
+    "factorization": "the independently defined inhomogeneous y-chain gives b+d, the normalized homogeneous eta-chain gives d/beta, hence det(b,d)=beta*det(S,Delta)",
+    "elimination": "on the ell chart Ed=(m/ell)Eb+(C/ell)D and on the m chart Eb=(ell/m)Ed-(C/m)D; since Eb or Ed is linear monic after localization, each coefficient elimination ideal is exactly (D)",
+    "scope": "the no-go applies only after eliminating the actual period Z; it does not make the actual residual redundant and proves no weighted-density estimate"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "all-r canonical third-minor factorization",
+      "actual-row p-unit theorem for beta_r",
+      "both Laurent-chart elimination identities and ideals",
+      "five explicitly named old-operator reuse counterexamples",
+      "zero capacity booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "the canonical 18-row replay through r=53",
+      "the root stress replay on 50 admissible rows through r=149"
+    ],
+    "OPEN": [
+      "arithmetic control of the retained actual period",
+      "fixed-M weighted gcd support",
+      "any reduction of the ordinary-j2 ceiling 1/105"
+    ]
+  },
+  "capacity": {
+    "booked_rate_before": "0.1365141682948128184504238226",
+    "new_booking": 0,
+    "booked_rate_after": "0.1365141682948128184504238226",
+    "retained_ordinary_j2_ceiling_per_6M": "1/105"
+  }
+}

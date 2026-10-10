@@ -1,0 +1,37 @@
+{
+  "status": "PASS_ASYMMETRIC_SYMBOLIC_CONTROLS",
+  "scope": "Formal indexing, endpoint normalization, derivative recurrence, an abstract selector determinant, and error-budget factors. No numerical HP indices or prime scans.",
+  "checks": {
+    "high_moment_weight_index": true,
+    "contact_M_high_row_count": true,
+    "contact_M_kernel_dimension_lower_bound": true,
+    "contact_M_plus_one_kernel_dimension_lower_bound": true,
+    "projected_high_constraint_count_for_b_ge_2": true,
+    "complete_logarithmic_tail_exponent": true,
+    "integer_F_derivative_recurrence": true,
+    "endpoint_matching_preserves_e_plus_pi": true,
+    "weighted_CD_rational_endpoint_shift": true,
+    "matched_CD_quotient_shift": true,
+    "weighted_Wronskian_endpoint_normalization": true,
+    "selector_factorial_Vandermonde_control": true,
+    "weighted_Gram_dyadic_determinant_scale": true,
+    "post_clearing_logarithmic_tail_budget": true,
+    "primitive_error_scaling_positive_endpoint": true
+  },
+  "check_count": 15,
+  "protected_artifacts_unchanged": {
+    "check_actual_companion_independent.py": "fd0fda5002e4bc4fe0f0920751b063e5f01e1ee2d8468f0ada5d1a2bc365c71b",
+    "actual_companion_independent_checks.json": "314523e4e385367ed19ae1d8ec7b1fae716f55d0c484c0ece15ecd6b8b03490d",
+    "actual_companion_independent_stdout.txt": "e5a0dba544dfc258cbbe5eb8e68a06b551d0eee7bda606579071938778d5afec",
+    "asymmetric_formal_evidence.json": "39e064a83eb66f905ef3167828d2ed4a81324f4e0bdadb22736a0812105f6bc0"
+  },
+  "checker_sha256": "55db681a042a53a9f96ebde0a9e23de90eebb3c0eadda047819d1fcf35518c69",
+  "not_established": [
+    "Weighted Gram nonsingularity",
+    "Reduced-system endpoint rank",
+    "Uniform inverse conditioning of exponential size",
+    "A favorable actual endpoint gcd or reduced denominator",
+    "Nonzero shrinking primitive forms"
+  ],
+  "proof_scope": "The unrestricted moment reduction and uniform inequalities require the accompanying written proofs. Symbolic checks do not establish the listed open properties."
+}

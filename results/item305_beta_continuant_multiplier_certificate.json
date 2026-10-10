@@ -1,0 +1,60 @@
+{
+  "concrete_example": {
+    "D": 4365570,
+    "R": 14,
+    "a": 312129649,
+    "c": 10391023,
+    "checks": true,
+    "k": 1,
+    "kappa": 8731140,
+    "label": "EXACT FINITE ONLY",
+    "n": 9
+  },
+  "counterfamily_replay": {
+    "digest": "26aeb42e3bea46f62d18b2cbe0fdaa1ee9ae8b6e61d91bc4678982b4acd22ca4",
+    "infinite_claim_source": "symbolic inequalities in report Sections 4-5",
+    "label": "EXACT FINITE ONLY",
+    "range": [
+      1,
+      3
+    ],
+    "rows": 6
+  },
+  "dual_window_replay": {
+    "digest": "e6d639e1182ebd26998e24edf4b3fe9a8d296140f72f8d5f84bf2c3ef4cf7f13",
+    "label": "EXACT FINITE ONLY",
+    "legendre_extrapolation": false,
+    "range": [
+      5,
+      32
+    ],
+    "rows": 28
+  },
+  "euler_identity_replay": {
+    "digest": "73f870dd79ba7cbd0c42f8351480d2a098ab882ab696e13a7ad29b7b2ea2d58e",
+    "label": "EXACT FINITE ONLY",
+    "range": [
+      5,
+      32
+    ],
+    "rows": 434
+  },
+  "schema": "item305-beta-continuant-multiplier-certificate-v1",
+  "strict_labels": {
+    "actual_half_bound": "OPEN",
+    "bounded_checks": "EXACT FINITE ONLY",
+    "classification": "PROVED",
+    "infinite_counterfamilies": "PROVED SYMBOLICALLY",
+    "positive_linear_capacity_admission": "FAIL"
+  },
+  "symbolic_proof_data": {
+    "actual_half_bound": "OPEN",
+    "booking": "zero new Route-1 rate and zero new beta capacity reduction",
+    "bounded_rows_prove_infinitude": false,
+    "classification": "R=g Q_k, kappa=g D_k, sign=(-1)^k",
+    "euler_identity": "Q_k S-P_k a=(-1)^k D_k",
+    "multiplier_family": "n=Q_k+2, R=2Q_k, kappa=2D_k",
+    "proper_target_transfer": "OPEN",
+    "tail_family": "n=(Q_k+3)/2, Q_k<a/(2c), D_k<c"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "scope": "Only N=2,3 symbolic normalization controls",
+  "checks": [
+    {
+      "N": 2,
+      "reflection": "Matrix([[1, sqrt(3)], [0, -1]])",
+      "commutator_zero": true,
+      "involution_zero": true,
+      "translation_identity": true
+    },
+    {
+      "N": 3,
+      "reflection": "Matrix([[1, sqrt(3), 3*sqrt(5)/4], [0, -1, -sqrt(15)/2], [0, 0, 1]])",
+      "commutator_zero": true,
+      "involution_zero": true,
+      "translation_identity": true
+    }
+  ]
+}

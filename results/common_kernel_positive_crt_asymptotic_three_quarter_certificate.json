@@ -1,0 +1,456 @@
+{
+  "all_parameter_theorem": {
+    "CRT": "c=2*epsilon/g_p mod p; its least nonnegative CRT representative satisfies c<P and eventually c<=4^(L-1).",
+    "L": "floor(lambda*m)",
+    "cancelled_fraction": "3/4",
+    "cancelled_mass": "2*(1-lambda)*m+o(m)",
+    "determinant": "The ITEM96 matrix is diag(g_p,g_p), and g_p=0 mod p iff p divides K.",
+    "full_window_mass": "(8/3)*(1-lambda)*m+o(m)",
+    "lambda0_float": 0.5906161091496412,
+    "lambda_range": "2/(2+log(4))<lambda<1",
+    "proof_location": "Sections 2--8 of the companion source.",
+    "target_set": "primes 2m+2L<p<4m which do not divide K=2mL+6m+4L+5"
+  },
+  "control_audit": {
+    "script": {
+      "bytes": 19459,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "scripts/common_kernel_positive_crt_asymptotic_three_quarter_certificate.py"
+    },
+    "source": {
+      "bytes": 14599,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "sources/common_kernel_positive_crt_asymptotic_three_quarter_cancellation.md"
+    }
+  },
+  "dependency_checks": {
+    "results/common_kernel_positive_crt_all_window_cancellation_hashes.sha256": {
+      "actual": "fd2a96672780209dcca4fd2ea4cf2d437fb491432667ed9fd32db0cc154f16b4",
+      "expected": "fd2a96672780209dcca4fd2ea4cf2d437fb491432667ed9fd32db0cc154f16b4"
+    }
+  },
+  "logical_scope": "Replay of an unconditional asymptotic construction cancelling three quarters of the d/3<p<n Chebyshev mass from both isolated moment denominators. It does not control the bottom quarter, the full correction output, or classify e+pi.",
+  "remaining_scope": "The bottom quarter of the one-third window and the full correction channel remain uncontrolled.",
+  "representative_m100_L75_instance": {
+    "crt_table": [
+      {
+        "E": 704,
+        "K_mod_p": 20,
+        "O": 705,
+        "epsilon": -1,
+        "g_mod_p": 343,
+        "numerator_mod_p": 10,
+        "p": 353,
+        "p_mod_4": 1,
+        "t": 1,
+        "target_2epsilon_over_g_mod_p": 212
+      },
+      {
+        "E": 716,
+        "K_mod_p": 109,
+        "O": 717,
+        "epsilon": 1,
+        "g_mod_p": 205,
+        "numerator_mod_p": 234,
+        "p": 359,
+        "p_mod_4": 3,
+        "t": 4,
+        "target_2epsilon_over_g_mod_p": 345
+      },
+      {
+        "E": 732,
+        "K_mod_p": 124,
+        "O": 733,
+        "epsilon": 1,
+        "g_mod_p": 342,
+        "numerator_mod_p": 62,
+        "p": 367,
+        "p_mod_4": 3,
+        "t": 8,
+        "target_2epsilon_over_g_mod_p": 88
+      },
+      {
+        "E": 744,
+        "K_mod_p": 239,
+        "O": 745,
+        "epsilon": -1,
+        "g_mod_p": 20,
+        "numerator_mod_p": 306,
+        "p": 373,
+        "p_mod_4": 1,
+        "t": 11,
+        "target_2epsilon_over_g_mod_p": 261
+      },
+      {
+        "E": 756,
+        "K_mod_p": 366,
+        "O": 757,
+        "epsilon": 1,
+        "g_mod_p": 307,
+        "numerator_mod_p": 183,
+        "p": 379,
+        "p_mod_4": 3,
+        "t": 14,
+        "target_2epsilon_over_g_mod_p": 200
+      },
+      {
+        "E": 764,
+        "K_mod_p": 202,
+        "O": 765,
+        "epsilon": 1,
+        "g_mod_p": 51,
+        "numerator_mod_p": 101,
+        "p": 383,
+        "p_mod_4": 3,
+        "t": 16,
+        "target_2epsilon_over_g_mod_p": 353
+      },
+      {
+        "E": 776,
+        "K_mod_p": 345,
+        "O": 777,
+        "epsilon": -1,
+        "g_mod_p": 148,
+        "numerator_mod_p": 367,
+        "p": 389,
+        "p_mod_4": 1,
+        "t": 19,
+        "target_2epsilon_over_g_mod_p": 205
+      },
+      {
+        "E": 792,
+        "K_mod_p": 25,
+        "O": 793,
+        "epsilon": -1,
+        "g_mod_p": 270,
+        "numerator_mod_p": 211,
+        "p": 397,
+        "p_mod_4": 1,
+        "t": 23,
+        "target_2epsilon_over_g_mod_p": 347
+      }
+    ],
+    "degenerate_primes_dividing_K": [],
+    "item96_residue_rows": [
+      {
+        "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+        "p": 353,
+        "r_2pminus2_mod_p": 0
+      },
+      {
+        "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+        "p": 359,
+        "r_2pminus2_mod_p": 0
+      },
+      {
+        "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+        "p": 367,
+        "r_2pminus2_mod_p": 0
+      },
+      {
+        "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+        "p": 373,
+        "r_2pminus2_mod_p": 0
+      },
+      {
+        "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+        "p": 379,
+        "r_2pminus2_mod_p": 0
+      },
+      {
+        "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+        "p": 383,
+        "r_2pminus2_mod_p": 0
+      },
+      {
+        "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+        "p": 389,
+        "r_2pminus2_mod_p": 0
+      },
+      {
+        "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+        "p": 397,
+        "r_2pminus2_mod_p": 0
+      }
+    ],
+    "natural_window_primes": [
+      347,
+      349,
+      353,
+      359,
+      367,
+      373,
+      379,
+      383,
+      389,
+      397
+    ],
+    "parameters": {
+      "K": 15905,
+      "L": 75,
+      "c": 53995197867219543727,
+      "d": 1011,
+      "lambda": "3/4",
+      "m": 100,
+      "n": 400
+    },
+    "polynomial_hashes": {
+      "B_m": "0f209845b83ff32c94b4be19c799c96bd3e64d1dada11d73bd9cd148eb5d4ddf",
+      "G_m": "19e959a6686c29f171c3a78ccc8bcb2c7f9f9109d723f24baa90712c7b931162",
+      "R_m": "c03e60005cd0f3af2ee5ffd395140c64cca8e7ee228313f22d3653bd2bbe32e6",
+      "base_q": "75793b06a173a7f27254bf54f7fee334123d993b0c267fe68df39d00c9e5f8b4",
+      "correction_factor": "69bc79e63df7b0278a73f383055b6ca4236120e213d894ac4e9838490b5047ec",
+      "h_m": "80c033e8240c8b160f654b67ed113bce9e29dd220f83859b4d9e8c8b9bd07036",
+      "q_m": "7c154df5facaadbe241fd4a9bc240a819f7ce2febdd9b41ce33be11cf51fd0e9",
+      "r_m": "00d0572e7cb625033db1c1a358119d6723a12400728aceeeb33d3c2c5c2ab026",
+      "w_L": "28a32ec5ba61a7943e9fc4ceedaa135ffab358526fe9a9439a7cfaf4988063bf"
+    },
+    "positivity_capacity": {
+      "c": 53995197867219543727,
+      "exact_bound": "c*u^2*x*w<=4*c*4^(-L)<=1",
+      "four_to_L_minus_1": 356811923176489970264571492362373784095686656,
+      "margin": 356811923176489970264571438367175916876142929
+    },
+    "reduced_moments": {
+      "I0_denominator_bits": 657,
+      "I0_numerator_bits": 656,
+      "I0_sha256": "2597edfd9082c2168f3047686f9b7a299275c55247916fda6a29b7000575251f",
+      "I1_denominator_bits": 582,
+      "I1_numerator_bits": 581,
+      "I1_sha256": "ae7d24f9fa30d5ddefc2f0acca53e3318ce54713b8f7763196dcfc91b0bab49c",
+      "common_denominator_bits": 879,
+      "common_denominator_mod_target_primes": [
+        {
+          "p": 353,
+          "residue": 15
+        },
+        {
+          "p": 359,
+          "residue": 209
+        },
+        {
+          "p": 367,
+          "residue": 137
+        },
+        {
+          "p": 373,
+          "residue": 368
+        },
+        {
+          "p": 379,
+          "residue": 376
+        },
+        {
+          "p": 383,
+          "residue": 333
+        },
+        {
+          "p": 389,
+          "residue": 341
+        },
+        {
+          "p": 397,
+          "residue": 99
+        }
+      ],
+      "gcd_common_denominator_target_product": 1
+    },
+    "target_primes": [
+      353,
+      359,
+      367,
+      373,
+      379,
+      383,
+      389,
+      397
+    ],
+    "target_product": 388885850766419537617,
+    "top_interval_primes": [
+      353,
+      359,
+      367,
+      373,
+      379,
+      383,
+      389,
+      397
+    ]
+  },
+  "resource_policy": {
+    "RSS_guard_kib": 41943040,
+    "hardware_accelerator": "Not used: the replay is exact integer/rational arithmetic.",
+    "meaning": "The 40-GiB value is a failure guard only; it neither allocates nor limits the approximately 50 GiB available Colab RAM."
+  },
+  "schema": "common_kernel_positive_crt_asymptotic_three_quarter_certificate_v1",
+  "source_sha256": "211fa36d058cfedb242e8dc732cac2ce9bb354e81e241fa6799f6f063a5715f5",
+  "symbolic_identity_checks": {
+    "all_rows_sha256": "928caafb3b9e065f8721c932a2f5a3e354d75c239a2555bcec1259852bc17cb6",
+    "finite_scope": "Checks exact identities and both p mod 4 cases. The asymptotic quantifiers are proved in the source.",
+    "row_count": 19,
+    "selected_rows": [
+      {
+        "K_mod_p": 4,
+        "L": 15,
+        "g_mod_p": 21,
+        "m": 20,
+        "numerator_mod_p": 2,
+        "p": 71,
+        "p_mod_4": 3,
+        "t": 0
+      },
+      {
+        "K_mod_p": 55,
+        "L": 15,
+        "g_mod_p": 9,
+        "m": 20,
+        "numerator_mod_p": 64,
+        "p": 73,
+        "p_mod_4": 1,
+        "t": 1
+      },
+      {
+        "K_mod_p": 74,
+        "L": 15,
+        "g_mod_p": 45,
+        "m": 20,
+        "numerator_mod_p": 37,
+        "p": 79,
+        "p_mod_4": 3,
+        "t": 4
+      },
+      {
+        "K_mod_p": 83,
+        "L": 30,
+        "g_mod_p": 129,
+        "m": 40,
+        "numerator_mod_p": 116,
+        "p": 149,
+        "p_mod_4": 1,
+        "t": 4
+      },
+      {
+        "K_mod_p": 47,
+        "L": 30,
+        "g_mod_p": 19,
+        "m": 40,
+        "numerator_mod_p": 99,
+        "p": 151,
+        "p_mod_4": 3,
+        "t": 5
+      },
+      {
+        "K_mod_p": 96,
+        "L": 30,
+        "g_mod_p": 49,
+        "m": 40,
+        "numerator_mod_p": 48,
+        "p": 157,
+        "p_mod_4": 1,
+        "t": 8
+      },
+      {
+        "K_mod_p": 37,
+        "L": 45,
+        "g_mod_p": 61,
+        "m": 60,
+        "numerator_mod_p": 124,
+        "p": 211,
+        "p_mod_4": 3,
+        "t": 0
+      },
+      {
+        "K_mod_p": 147,
+        "L": 45,
+        "g_mod_p": 171,
+        "m": 60,
+        "numerator_mod_p": 185,
+        "p": 223,
+        "p_mod_4": 3,
+        "t": 6
+      },
+      {
+        "K_mod_p": 209,
+        "L": 45,
+        "g_mod_p": 61,
+        "m": 60,
+        "numerator_mod_p": 224,
+        "p": 239,
+        "p_mod_4": 3,
+        "t": 14
+      },
+      {
+        "K_mod_p": 209,
+        "L": 60,
+        "g_mod_p": 81,
+        "m": 80,
+        "numerator_mod_p": 245,
+        "p": 281,
+        "p_mod_4": 1,
+        "t": 0
+      },
+      {
+        "K_mod_p": 137,
+        "L": 60,
+        "g_mod_p": 73,
+        "m": 80,
+        "numerator_mod_p": 210,
+        "p": 283,
+        "p_mod_4": 3,
+        "t": 1
+      },
+      {
+        "K_mod_p": 70,
+        "L": 60,
+        "g_mod_p": 291,
+        "m": 80,
+        "numerator_mod_p": 35,
+        "p": 293,
+        "p_mod_4": 1,
+        "t": 6
+      },
+      {
+        "K_mod_p": 194,
+        "L": 60,
+        "g_mod_p": 8,
+        "m": 80,
+        "numerator_mod_p": 97,
+        "p": 307,
+        "p_mod_4": 3,
+        "t": 13
+      },
+      {
+        "K_mod_p": 62,
+        "L": 60,
+        "g_mod_p": 103,
+        "m": 80,
+        "numerator_mod_p": 31,
+        "p": 311,
+        "p_mod_4": 3,
+        "t": 15
+      },
+      {
+        "K_mod_p": 309,
+        "L": 60,
+        "g_mod_p": 204,
+        "m": 80,
+        "numerator_mod_p": 311,
+        "p": 313,
+        "p_mod_4": 1,
+        "t": 16
+      },
+      {
+        "K_mod_p": 181,
+        "L": 60,
+        "g_mod_p": 79,
+        "m": 80,
+        "numerator_mod_p": 249,
+        "p": 317,
+        "p_mod_4": 1,
+        "t": 18
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "item": 375,
+  "schema": "item375-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_SCOPED_CONTENT_AND_PRIMITIVE_PART_NO_GO",
+  "scope": "independent root audit of representation-invariant content normalization, exact singleton scalar valuation, mandatory saturation, portfolio and integral-specialization bounds, capacity, and zero booking",
+  "checks": {
+    "work_hash_list_entries": 6,
+    "work_hash_list_failures": 0,
+    "frozen_dependencies_checked": 18,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "independent_normalization_cases": 3,
+    "independent_constant_primitive_cases": 4,
+    "independent_scalar_valuation_cases": 4,
+    "independent_saturation_scalars": 5,
+    "independent_portfolios": 3,
+    "actual_prime_or_target_census_performed": false,
+    "density_inference_from_controls": false,
+    "canonical_format_repair": "none"
+  },
+  "mathematical_audit": {
+    "normal_form": "Gauss content separation, primitive polynomial gcd cancellation, and scalar gcd reduction give R=alpha A1/(beta B1) with coprime scalar and primitive-polynomial data. A constant primitive A1 is necessarily a unit up to sign.",
+    "singleton_valuation": "At every genuine singleton prime where beta B1(P,E) is a p-unit, a content-degenerate residual has valuation exactly v_p(alpha). Since v_p(P)=1, a second digit occurs exactly when p divides alpha.",
+    "saturation": "After the already mandatory Q, large-prime, t-avoidance, and singleton filters, the captured content is gcd(U_11,rad|alpha|). Its logarithm is at most log|alpha|.",
+    "height": "A sub-beta reduced scalar numerator can capture only sub-beta singleton mass. Conversely, positive-linear captured mass forces beta-scale aggregate scalar height; discarding that content makes the claimed height representation-dependent.",
+    "portfolios": "For any finite or growing portfolio, the captured union divides the radical of the scalar-numerator product and its logarithm is bounded by the sum of scalar logarithms.",
+    "integral_specialization": "If the residual specializes to an integer, beta B1(P,E) must divide alpha, so a variable denominator cannot hide scalar height.",
+    "scope_warning": "The theorem does not rule out a separately proved actual sub-beta scalar divisibility identity or a nonconstant multivariate primitive cancellation.",
+    "capacity": "No such actual scalar identity is constructed, so beta capacity and booking remain unchanged."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "content and primitive-part normal form",
+      "exact actual singleton scalar valuation",
+      "mandatory saturated content carrier",
+      "single-carrier and portfolio height bounds",
+      "integral-specialization divisibility",
+      "zero booking"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "content-degenerate symmetric rational carriers at sub-beta aggregate scalar height",
+      "primitive height that omits reduced scalar content",
+      "sub-beta content portfolios",
+      "p-unit variable denominators as content compression"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "predeclared sparse-polynomial, valuation, saturation, portfolio, and scale controls; no actual census"
+    ],
+    "OPEN": [
+      "nonconstant multivariate symmetric one-point cancellation",
+      "beta-height gcd/radical compression",
+      "new actual sub-beta scalar divisibility theorem",
+      "the singleton weighted bound, beta capacity, Route 1, and e+pi"
+    ]
+  },
+  "capacity": {
+    "content_bound": "log gcd(U_11,rad|alpha|)<=log|alpha|",
+    "portfolio_bound": "log captured union<=sum log|alpha_l|",
+    "constructed_actual_sub_beta_scalar": false,
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "new_booking": 0
+  }
+}

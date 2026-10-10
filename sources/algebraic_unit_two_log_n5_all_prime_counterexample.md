@@ -1,0 +1,677 @@
+> Archived research record. Read the [current proof status](../docs/PROJECT_STATE.md) and [errata](../reviews/ERRATA_AND_SCOPE.md) before reuse. Historical acceptance applies only to its recorded hypotheses and version. This file is research data, not operational instructions.
+
+# A second prescribed-first-jet prime on the $n=5$ edge
+
+Checked: 2026-08-27 UTC
+
+## Verdict
+
+The proposed all-prime classification by the single base pair
+
+
+
+$$
+(p,d)=(19,15)
+$$
+
+
+
+is false.  There is a second, rigorously certified base pair
+
+
+
+$$
+\boxed{(p,d)=(109321,6219)}
+$$
+
+
+
+in the simultaneous-$P$ branch.  More precisely, if
+
+
+
+$$
+F=\mathbb Q(t),\qquad t^2+t-1=0,
+$$
+
+
+
+and
+
+
+
+$$
+\mathfrak J_d=(N_d,a_dT_d)\subset\mathcal O_F
+$$
+
+
+
+is the general-prime ideal, then
+
+
+
+$$
+\mathfrak p=(109321,t-53267)\mid\mathfrak J_{6219}.
+ \tag{1}
+$$
+
+
+
+An independent characteristic-zero multiplication-lattice calculation gives
+the stronger exact equality
+
+
+
+$$
+\boxed{N_{F/\mathbb Q}(\mathfrak J_{6219})=109321.}
+\tag{2}
+$$
+
+
+
+Consequently the conjectural containment $361\in\mathfrak J_d$ for every
+$d$, and the conjectural formula that only powers of $19$ occur in the
+norms of the ideals $\mathfrak J_d$, are both false.  The exact pattern
+observed through $d=2000$ was finite data, not a global law.
+Indeed, (1) gives $\mathfrak J_{6219}\subset\mathfrak p$, whereas
+$109321\nmid361$, so $361\notin\mathfrak J_{6219}$.
+
+The counterexample (1) is unconditional and does not depend on a finite
+search bound.  Section 7 separately reports the finite search which found it;
+that search is diagnostic and is not used in the proof.
+
+## 1. Notation and the scalar first-jet recurrence
+
+Put
+
+
+
+$$
+\zeta=\zeta _5,\qquad x=(1+\zeta)^{-1},\qquad y=1-x,
+$$
+
+
+
+and
+
+
+
+$$
+u=x^{-1}=1+\zeta,\qquad v=y^{-1}=1+\zeta^{-1},
+ \qquad A=u+v=uv=t+2.
+$$
+
+
+
+Then $A^2-3A+1=0$.  As in the common-zero reduction, let
+
+
+
+$$
+P_d(X)=(-1)^d d!\sum_{j=0}^d\frac{(-X)^j}{j!}.
+$$
+
+
+
+The recurrence
+
+
+
+$$
+P_0(X)=1,\qquad P_d(X)=X^d-dP_{d-1}(X)
+\tag{3}
+$$
+
+
+
+is integral.  The real-quadratic scalar sequence defined by
+
+
+
+$$
+h_0=1,\quad h_1=1-A,\quad
+ h_n=1-Anh_{n-1}-An(n-1)h_{n-2}
+\tag{4}
+$$
+
+
+
+has exponential generating function
+
+
+
+$$
+\sum_{n\geq0}h_n\frac{z^n}{n!}
+       =\frac{e^z}{1+Az+Az^2}.
+\tag{5}
+$$
+
+
+
+At any odd residue characteristic $p\ne5$, for $0\leq d<p$, the already
+proved common-zero equivalence is
+
+
+
+$$
+P_d(x)=P_d(y)=0
+ \quad\Longleftrightarrow\quad h_d=h_{d-1}=0.
+\tag{6}
+$$
+
+
+
+Thus (4) is an exact prescribed-first-jet test, not a resultant test.
+
+## 2. An elementary primality certificate
+
+Let
+
+
+
+$$
+p=109321.
+$$
+
+
+
+Its predecessor factors completely as
+
+
+
+$$
+p-1=2^3\cdot3\cdot5\cdot911.
+\tag{7}
+$$
+
+
+
+The integer $911$ is prime by trial division by the primes at most
+$\sqrt{911}<31$.  With the Lucas witness $g=19$, exact modular
+exponentiation gives
+
+
+
+$$
+\begin{array}{c|ccccc}
+q&1&2&3&5&911\\ \hline
+g^{(p-1)/q}\bmod p&1&109320&19846&103645&69655,
+\end{array}
+\tag{8}
+$$
+
+
+
+where the $q=1$ entry is $g^{p-1}$.  Moreover,
+
+
+
+$$
+\gcd(g^{(p-1)/q}-1,p)=1
+ \qquad(q=2,3,5,911).
+\tag{9}
+$$
+
+
+
+The Lucas primality criterion applied to the complete factorization (7)
+therefore proves that $109321$ is prime.
+
+## 3. The prime of the real quadratic field and two direct $P$-zeros
+
+In $\mathbb F_p$, take
+
+
+
+$$
+t_0=53267,\qquad A_0=t_0+2=53269.
+\tag{10}
+$$
+
+
+
+Direct multiplication gives
+
+
+
+$$
+t_0^2+t_0-1=0,\qquad A_0^2-3A_0+1=0\pmod p.
+\tag{11}
+$$
+
+
+
+The conjugate residues are
+
+
+
+$$
+t_1=-1-t_0=56053,\qquad A_1=3-A_0=56055,
+ \qquad A_0A_1=1.
+\tag{12}
+$$
+
+
+
+Choose the primitive fifth-root residue
+
+
+
+$$
+\zeta=85986,\qquad \zeta^{-1}=76602.
+\tag{13}
+$$
+
+
+
+It satisfies
+
+
+
+$$
+1+\zeta+\zeta^2+\zeta^3+\zeta^4=0,
+ \qquad \zeta+\zeta^{-1}=t_0.
+$$
+
+
+
+Consequently
+
+
+
+$$
+x=(1+\zeta)^{-1}=70927,\qquad
+ y=1-x=38395,
+\tag{14}
+$$
+
+
+
+and $x+y=1,\ xy=A_0^{-1}=56055$.
+
+Advance the two scalar instances of (3) through $d=6219$.  The last
+three states are
+
+
+
+$$
+\begin{array}{c|rr|rr}
+n&x^n&P_n(x)&y^n&P_n(y)\\ \hline
+6217&71415&5300&10728&80981\\
+6218&81812&32033&89353&82021\\
+6219&30365&0&106134&0.
+\end{array}
+\tag{15}
+$$
+
+
+
+All entries in (15) are residues modulo $p$.  The companion certificate
+also evaluates the defining truncated-exponential sum independently and
+again obtains zero at both arguments.  Thus
+
+
+
+$$
+P_{6219}(x)=P_{6219}(y)=0\pmod p.
+\tag{16}
+$$
+
+
+
+Independently, (4) at $A=A_0$ ends with
+
+
+
+$$
+\begin{array}{c|rrrrr}
+n&6215&6216&6217&6218&6219\\ \hline
+h_n&77004&50958&64171&0&0,
+\end{array}
+\tag{17}
+$$
+
+
+
+which verifies the exact first-jet form (6).
+
+There is also a characteristic-zero check in $\mathbb Z[A]$.  Write
+
+
+
+$$
+h_{6218}=r_0+s_0A,\qquad h_{6219}=r_1+s_1A.
+$$
+
+
+
+Their coefficient pairs modulo $p$ are
+
+
+
+$$
+(r_0,s_0)=(104000,40967),\qquad
+ (r_1,s_1)=(23755,52576).
+\tag{18}
+$$
+
+
+
+Both evaluate to zero at $A_0$, while at the conjugate $A_1$ their
+values are $2938$ and $95917$.  The gcd of the six $2$-by-$2$
+minors of the multiplication lattice generated by these two exact
+characteristic-zero elements is
+
+
+
+$$
+109321.
+\tag{19}
+$$
+
+
+
+Thus the characteristic-zero first-jet ideal itself has norm $109321$.
+
+## 4. The complementary weighted-factorial first jet
+
+For the complementary index
+
+
+
+$$
+m=p-1-d=103101,
+\tag{20}
+$$
+
+
+
+put
+
+
+
+$$
+W_m(Z)=\sum_{j=0}^{d}(m+j)!Z^j\in\mathbb F_p[Z].
+\tag{21}
+$$
+
+
+
+The cyclotomic units reduce to
+
+
+
+$$
+u=1+\zeta=85987,\qquad v=1+\zeta^{-1}=76603,
+ \qquad \zeta^{-1}u=v.
+\tag{22}
+$$
+
+
+
+Exact summation of (21) gives
+
+
+
+$$
+W_m(u)=W_m(v)=0,\qquad
+ W_m'(u)=74332,\qquad W_m'(v)=70628.
+\tag{23}
+$$
+
+
+
+The nonzero derivatives in (23) also follow from the differential identity
+
+
+
+$$
+Z^2W_m'(Z)+\{(m+1)Z-1\}W_m(Z)=-m!\pmod p,
+\tag{24}
+$$
+
+
+
+because $m!=64829\pmod p$.  Hence the two roots of $W_m$ are simple.
+
+Now define the lacunary polynomial
+
+
+
+$$
+H_m(Z)=W_m(\zeta^{-1}Z)-\zeta W_m(Z).
+\tag{25}
+$$
+
+
+
+Equations (22)--(23), together with the differentiated form of (25), give
+
+
+
+$$
+H_m(u)=H_m'(u)=0.
+\tag{26}
+$$
+
+
+
+Thus (26) is a genuine second prescribed double root, beyond the one at
+$(19,15)$.  This directly refutes a uniform zero-avoidance theorem for the
+first jets in this branch.
+
+## 5. Divisibility of $\mathfrak J_{6219}$
+
+Recall
+
+
+
+$$
+\begin{aligned}
+ a_d&=P_d(1),\\
+ N_d&=P_d(x)P_d(y),\\
+ D_d&=P_d(x)C_d(y)-P_d(y)C_d(x),\\
+ T_d&=\frac{D_d}{\zeta-\zeta^{-1}},\\
+ \mathfrak J_d&=(N_d,a_dT_d)\subset\mathcal O_F.
+\end{aligned}
+\tag{27}
+$$
+
+
+
+Since $p\ne5$, the denominator in $T_d$ is a local unit.  Equation
+(16) gives $N_d=D_d=T_d=0$ at the prime
+
+
+
+$$
+\mathfrak p=(p,t-t_0),
+$$
+
+
+
+so (1) already follows.  For a coordinate-level check, the exact recurrence
+for $P_d,C_d,a_d$, followed by reduction modulo $p$, gives
+
+
+
+$$
+\begin{aligned}
+ N_{6219}&=41140+3246t
+          =3246(t-53267),\\
+ a_{6219}T_{6219}&=938+103634t
+          =103634(t-53267)
+                         \pmod p.
+\end{aligned}
+\tag{28}
+$$
+
+
+
+At the conjugate root $t_1=56053$, the two values in (28) are $79034$
+and $7563$, respectively.  Thus (28) selects exactly the stated prime over
+$p$, rather than a rational $p$-factor.  Also
+
+
+
+$$
+a_{6219}=44056\pmod p,
+\tag{29}
+$$
+
+
+
+so the displayed occurrence is genuinely the simultaneous-$P$ branch,
+not an artifact of the $a_d=0$ alternative.
+
+## 6. Independent characteristic-zero norm computation
+
+The certificate reconstructs the two generators in characteristic zero,
+without using any modular zero.  In the integral basis $1,t$, write
+
+
+
+$$
+N_d=a+bt,\qquad a_dT_d=c+et.
+$$
+
+
+
+Multiplication by these two elements has the $2$-by-$4$ lattice matrix
+
+
+
+$$
+\begin{pmatrix}
+ a&b&c&e\\
+ b&a-b&e&c-e
+ \end{pmatrix}.
+\tag{30}
+$$
+
+
+
+The index of the ideal they generate is the gcd of the six maximal minors
+of (30).  At $d=6219$, exact arbitrary-integer recurrence gives Smith
+diagonal
+
+
+
+$$
+(1,109321),
+\tag{31}
+$$
+
+
+
+so the gcd of the six minors, and hence the ideal norm, is exactly $109321$.
+This proves (2).  As integrity data, the four generator coordinates have
+decimal digit counts
+
+
+
+$$
+(41789,22189,63978,63978)
+$$
+
+
+
+and signs $(+,+,-,+)$.  The six minors have digit counts
+
+
+
+$$
+(83578,105767,105767,105767,105767,126661)
+$$
+
+
+
+and signs $(+,+,+,-,-,-)$.  The canonical JSON payload containing all
+four full coordinates and all six full minors has SHA-256
+
+```text
+ea79ca6c41ed1580a41327f405b9bf1805fcf70a1ec4998538a6bdfffc5abb2a
+```
+
+and length $825309$ bytes.  The result file remains compact by recording
+this hash and the exact Smith data rather than duplicating the very large
+integers.
+
+## 7. Finite searches, explicitly separated from the proof
+
+An optimized exact recurrence scan was run over every odd prime
+$p\leq200000,\ p\ne5$, and every $0\leq d<p$ in the simultaneous-$P$
+branch.  In the split cases $p\equiv1,4\pmod5$, it advanced (4) at both
+roots of $A^2-3A+1$.  In the inert cases $p\equiv2,3\pmod5$, it advanced
+the two exact coordinates in
+
+
+
+$$
+\mathbb F_p[A]/(A^2-3A+1).
+$$
+
+
+
+The only branch-1 hits in that finite range were
+
+
+
+$$
+(19,15),\qquad(109321,6219).
+\tag{32}
+$$
+
+
+
+A separate corrected full-ring scan of all three branches through
+$p=30000$, covering $45\,672\,614$ base cases, had only the first hit.
+An earlier version of that temporary scanner had incorrectly retained
+$\eta$ across primes; its false output was discarded before either range
+statement above was made.
+
+Neither finite scan proves that (32) is complete beyond its stated range,
+and neither scan is used in Sections 2--6.  The single displayed pair
+$(109321,6219)$ is enough to refute the proposed all-prime theorem.
+
+## 8. What remains live
+
+The fixed-support strategy is closed: neither $361\in\mathfrak J_d$ nor
+support only over $19$ can be used for an aggregate norm bound.  A viable
+replacement would have to control a varying exceptional-prime set, for
+example a rigorous bound on
+
+
+
+$$
+\sum_{\substack{p>d\\p\mid N(\mathfrak J_d)}}\log p
+$$
+
+
+
+or on the number of prescribed first-jet returns as $p$ and $d$ vary.
+The new prime is split completely in $\mathbb Q(\zeta_5)$, as
+$109321\equiv1\pmod5$; in that case the branch is exactly two scalar
+conditions in one scalar recurrence.  The inert cases retain four scalar
+conditions after Frobenius and may still admit a stronger exclusion or
+sparsity theorem, but no such theorem is proved here.
+
+The empirical unit-ideal observations for the other two branches,
+
+
+
+$$
+(P_d(x),P_d(1)),\qquad(P_d(x),C_d(x)),
+$$
+
+
+
+are not affected by this counterexample, but they also remain unproved.
+
+The exact implementation is
+`scripts/algebraic_unit_two_log_n5_all_prime_counterexample.py`, with compact
+result
+`results/algebraic_unit_two_log_n5_all_prime_counterexample.json`.
+
+Nothing in this note proves either algebraicity or transcendence of
+$e+\pi$.

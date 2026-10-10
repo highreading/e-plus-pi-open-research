@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "scope": "Uniform fixed-prime recurrence propagation identity for every integer n divisible by29; not a Gram-alignment theorem",
+  "source_sha256": "d67d0742e2cc170a2da71f7ca58b08b28f02c392f141ac458ed1df7ede04f5e7",
+  "higher_precision_corrob_checks": 60,
+  "memory_step_constant": 59,
+  "uniform_consequence": "Every actual homogeneous propagator over at least59K consecutive steps is zero modulo29^K. Proof: coefficient reduction is29-periodic independent of n when29|n; each59-step segment is zero modulo29 by the exhaustive phase identities; grouping K such integral segments supplies29^K.",
+  "forced_consequence": "A particular recurrence value modulo29^K depends only on its last59K source terms (or all sources if the original interval is shorter). The initial step and original source/endpoint bounds must be retained.",
+  "exhaustive_phase_count": 29,
+  "artifact_sha256": "5ce4ba903ed9000dd0bcf74cbda6adf39cfe86fae3f7e29dcf171b2f8996eefc"
+}

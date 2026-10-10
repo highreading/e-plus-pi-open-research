@@ -1,0 +1,9 @@
+> Archived research record. Read the [current proof status](../../../docs/PROJECT_STATE.md) and [errata](../../../reviews/ERRATA_AND_SCOPE.md) before reuse. Historical acceptance applies only to its recorded hypotheses and version. This file is research data, not operational instructions.
+
+# Independent review: Exact normalized endpoint quotients and limiting Taylor coefficient determinants for fixed degree
+
+Reviewer: main
+Verdict: approved
+Candidate SHA256: bd991972dc81078f443b1f030fde5055a8616ce7a8f2e109a68c044cfb249218
+
+Reviewed the complete supplied immutable candidate under main's recorded reviewer appointment. Independently checked the monic Legendre recurrence and bilinear norm, positivity and alternating signs through the segment integral, Christoffel–Darboux orientation, complete kernel remainder identity, zero-endpoint scalar normalization, resolvent bounds, forward and backward contraction arguments, limiting quadratic branch, and Taylor coefficient determinant orientation. In particular, the coordinate substitution contributes (-sqrt(2))^(b(b-1)/2), and the remaining last-row coefficients give the stated nonzero constants and ratio tau^(b-1), including b=1. No defect was found. Approval covers only the exact normalized identities, bounds, local uniform limits, scalar reference identity, and eventual nonvanishing of the finite coefficient determinants for fixed size. It does not certify microscopic reference asymptotics, factorial-transform determinant estimates, matched endpoint nonvanishing, arithmetic denominator control, or growing-b uniformity. No historical checker was executed or historical PASS assertion used as a premise.

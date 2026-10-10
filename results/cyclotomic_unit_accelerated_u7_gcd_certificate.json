@@ -1,0 +1,239 @@
+{
+  "all_exact_checks_pass": true,
+  "coefficient_structure_exact_records": [
+    {
+      "d": 2,
+      "least_clearing_digits": 1,
+      "safe_denominator_digits": 2,
+      "u_tau_fixed": true,
+      "v_has_nonzero_tau_anti_part": true
+    },
+    {
+      "d": 3,
+      "least_clearing_digits": 3,
+      "safe_denominator_digits": 4,
+      "u_tau_fixed": true,
+      "v_has_nonzero_tau_anti_part": true
+    },
+    {
+      "d": 7,
+      "least_clearing_digits": 10,
+      "safe_denominator_digits": 14,
+      "u_tau_fixed": true,
+      "v_has_nonzero_tau_anti_part": true
+    },
+    {
+      "d": 20,
+      "least_clearing_digits": 53,
+      "safe_denominator_digits": 64,
+      "u_tau_fixed": true,
+      "v_has_nonzero_tau_anti_part": true
+    },
+    {
+      "d": 50,
+      "least_clearing_digits": 190,
+      "safe_denominator_digits": 215,
+      "u_tau_fixed": true,
+      "v_has_nonzero_tau_anti_part": true
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/scripts/algebraic_unit_two_log_n5_ideal_content.py",
+      "sha256": "120ea17e9c27a2b0ebaa48e3e651220bfe59f06bc028b6d764dcd0798570bb80"
+    },
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/scripts/cyclotomic_unit_trace_probe.py",
+      "sha256": "fd29f6e616ddc09ddb11ed842d2a64990406554aff0efb255534a4fe48c67eb1"
+    },
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/scripts/cyclotomic_unit_rational_ray_tropical.py",
+      "sha256": "bbb57891f41ff75da7b4eebabc67d2fac827ee272d41ffb6b20dc9eb74c765ae"
+    },
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/sources/cyclotomic_unit_rational_ray_tropical.md",
+      "sha256": "cebada6f0121bd46f1a5b068844c169e73e88ffb1e7d255f621805cd947dc925"
+    },
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/sources/arbitrary_integer_trace_lattice.md",
+      "sha256": "759764ca557c83c5aadc0c4c7e9fd4ccfa9997c089bd8913859d440d1317bf2f"
+    },
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/sources/cyclotomic_unit_cone_selected_gcd.md",
+      "sha256": "50410ae9392eb6bfd51391c4d3f79aafeabddf18b04c5a0f83402f78d526d9bb"
+    }
+  ],
+  "description": "Exact unit-independence, finite-isogeny support, trace, and coefficient-structure certificate for the accelerated u_7 ray.",
+  "external_theorem": {
+    "arxiv": "1902.09109v2",
+    "authors": "Nathan Grieve and Julie Tzu-Yueh Wang",
+    "doi": "10.1090/tran/8220",
+    "hypothesis_audit": {
+      "coprime": "finite-isogeny pullbacks of nonproportional linear forms",
+      "exceptional_character_branches": "Theorem 3.1's (ii') relation (3.36)-(3.37) and Theorem 3.2's distinct-monomial ratio are both excluded by multiplicative independence: every nontrivial character has height exactly t_d times a positive constant",
+      "fixed_S": "the four archimedean places; all moving points are global units",
+      "fixed_number_field": "K=Q(zeta_20)^+",
+      "fixed_positive_degree": 4,
+      "nonzero_constant_terms": "sigma_9(U_d), and eventually sigma_9(V_d); the theorem is applied after deleting finitely many degrees",
+      "only_infinite_subset": "on a hypothetical bad set, first take the infinite outside-S-small subset from Theorem 3.1, then the nested S-small subset from Theorem 3.2",
+      "projective_scalar_normalization": "apply the theorem to F_d/sigma_9(U_d) and G_d/sigma_9(V_d), each with constant coefficient 1",
+      "slow_height": "O(d*log(d))=o(t_d)"
+    },
+    "theorem": "Theorem 1.2 via its proof through Theorems 3.1 and 3.2",
+    "title": "Greatest common divisors with moving targets and consequences for linear recurrence sequences"
+  },
+  "field": {
+    "degree": 4,
+    "trace_discriminant": 2000,
+    "trace_gram": [
+      [
+        4,
+        -2,
+        0,
+        0
+      ],
+      [
+        -2,
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        10
+      ]
+    ]
+  },
+  "ordinary_gcd_normalization": "For Delta_d the generalized gcd after independent constant-term normalization: 4*log(gcd_Z(A_d,B_d)) <= Delta_d + h(sigma_9(U_d))+h(sigma_9(V_d)); this is the primewise valuation transfer, and the two added heights are O(d*log(d)).",
+  "polynomial_support": {
+    "exponents": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        1,
+        1,
+        2
+      ]
+    ],
+    "isogeny_degree": 4,
+    "nonconstant_exponent_matrix": [
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        1,
+        1,
+        2
+      ]
+    ]
+  },
+  "safe_height_ingredients": {
+    "P": "P_d=d!*A_d has coefficients bounded by d!",
+    "R": "R_d=d!*lcm(1,...,d)*B_d has coefficients bounded by d*d!*lcm",
+    "conclusion": "h(U_d),h(V_d),h(F_d),h(G_d)=O(d*log(d))"
+  },
+  "scope_warning": "The moving-target gcd estimate is a theorem application proved in the source note, not a consequence of finite diagnostics.",
+  "script_sha256": "70f8489d1491c9ab6717a4e2c559c7073342e5f492a33a9df88b6e2b2debd40f",
+  "source_path": "/content/drive/MyDrive/e_pi_research_20260826/sources/cyclotomic_unit_accelerated_u7_gcd.md",
+  "source_sha256": "bef061a7613f03cfca470189356626acc8b65d3334d0b3d795f940c60261f4c5",
+  "u7": {
+    "characteristic_polynomial": "lambda**4 - 6*lambda**3 + lambda**2 + 4*lambda + 1",
+    "conjugate_exponent_columns_in_u3_u7_u9_basis": [
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        1,
+        0,
+        -1
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "conjugate_exponent_determinant": 1,
+    "coordinates": [
+      2,
+      1,
+      -1,
+      -1
+    ],
+    "exact_root_intervals": [
+      [
+        "-23/50",
+        "-17/37"
+      ],
+      [
+        "-10/29",
+        "-31/90"
+      ],
+      [
+        "41/37",
+        "51/46"
+      ],
+      [
+        "131/23",
+        "1367/240"
+      ]
+    ],
+    "multiplication_matrix": [
+      [
+        2,
+        1,
+        -4,
+        -3
+      ],
+      [
+        1,
+        1,
+        -3,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        2,
+        1
+      ],
+      [
+        -1,
+        0,
+        1,
+        1
+      ]
+    ],
+    "norm": 1
+  }
+}

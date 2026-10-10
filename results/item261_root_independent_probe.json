@@ -1,0 +1,45 @@
+{
+  "EXACT_FINITE_ONLY": {
+    "prime_bound": 251,
+    "zero_count": 3,
+    "zeros": [
+      [
+        43,
+        11,
+        3,
+        2,
+        5
+      ],
+      [
+        193,
+        29,
+        22,
+        21,
+        11
+      ],
+      [
+        241,
+        89,
+        10,
+        9,
+        31
+      ]
+    ]
+  },
+  "actual_rows": 226,
+  "endpoint_functional_checks": 488,
+  "imports_item261_code": false,
+  "item251_period_equalities": 678,
+  "localized_equalities": 1130,
+  "p43_zero_reproduced": true,
+  "root_symbolic_checks": {
+    "Kummer_map": "x=X^-3 and Z^2=X^3-1/2",
+    "fixed_r_raw_weight": "O(log M)=o(M)",
+    "logarithmic_residue": "-alpha/beta at alpha^3=1, beta^2=1/2"
+  },
+  "row_digest_sha256": "c279d500ab9ef17b0cff5e9aab9c181751fdaa260f01d75f87f97c43c2caec8c",
+  "schema": "item261-root-independent-probe-v1",
+  "symbolic_D_R_checks": 93,
+  "symbolic_digest_sha256": "9a2b6b87d4be803e8a6733d767da261aef636d16ed64ce288f88448eb510334f",
+  "verdict": "the exact Hermite, endpoint, residual-coordinate, Item-251 period, cutoff, and p=43 claims replay independently; booking remains zero"
+}

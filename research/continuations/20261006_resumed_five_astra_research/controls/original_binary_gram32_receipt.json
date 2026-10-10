@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "scope": "NEW complete original u0 physical32-bit columns with certified norm42/mixed41 comparison; all-prime arithmetic remains open",
+  "n": "600678730458590482242",
+  "b": "150094635296999121",
+  "physical_column_bits": 32,
+  "physical_content_lower_bounds": [
+    9,
+    9
+  ],
+  "short_orders": [
+    63,
+    62
+  ],
+  "universal_fixed_divisors": [
+    57,
+    52
+  ],
+  "denominator_valuations": [
+    63,
+    62
+  ],
+  "normalization_losses": [
+    12,
+    16
+  ],
+  "shared_kernel_bits": 57,
+  "payload_degrees": [
+    126,
+    125
+  ],
+  "D_raw_mod2_42": 2448131358720,
+  "E_raw_mod2_41": 223338299392,
+  "valuation_D_raw": {
+    "value_or_lower_bound": 33,
+    "exact": true
+  },
+  "valuation_E_raw": {
+    "value_or_lower_bound": 34,
+    "exact": true
+  },
+  "primitive_norm_loss_if_first_content9": {
+    "value_or_lower_bound": 15,
+    "exact_if_content_verified": true
+  },
+  "ratio_E_over_2D": {
+    "available": true,
+    "absolute_precision_bits": 7,
+    "norm_depth": 33,
+    "mixed_depth_value_or_lower_bound": 34,
+    "valuation": 0,
+    "unit_residue": 49,
+    "unit_precision_bits": 7,
+    "logarithmic_guard_lower_bound": "300189270593998241837"
+  },
+  "old30_29_bit_reduction_passed": true,
+  "complete_exterior_retained": true,
+  "finite_range_inclusive": "0<=j<=b",
+  "all_prime_gcd_evaluated": false,
+  "irrationality_proved": false,
+  "dependencies": [
+    {
+      "name": "original_binary_gram_transport_coordinator.py",
+      "sha256": "3fa0d8e84729c1b319e79eb97ea4db47daba9a9bc7cd552cd0b8aa59edf05b31"
+    },
+    {
+      "name": "original_binary_numerators32_certificate.json",
+      "sha256": "92035e9f64f5c8f5afc80786492ab283903d1804beb9b8983e388afd3dcc6469"
+    },
+    {
+      "name": "binary_quadratic_precision45_certificate.json",
+      "sha256": "76f26c2b745c3fb6f2b00ee05db5e243dc45be62159e9bb6199e91a7ab5ea1e9"
+    },
+    {
+      "name": "binary_kernel_content_certificate.json",
+      "sha256": "dd58692bdf66fad8da580ce3d7f3f87b80374840da158e001cd1990bbae4fd95"
+    }
+  ],
+  "transport": {
+    "digits": 71,
+    "transitions": 524,
+    "valuation_degree_checks": 10078,
+    "terminal_state": [
+      0,
+      0,
+      0
+    ]
+  },
+  "source_sha256": "63062aa7afcf8acccb214b7a809961188ccf288b9a615ae552b701c7d3dbad84",
+  "artifact_sha256": "0e951fc6c9fc5de0982f991acd2eb83a7d273bd1e58bc8db0785fd5b43301685",
+  "elapsed_seconds": 1.708
+}

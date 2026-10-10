@@ -1,0 +1,66 @@
+{
+  "item": 350,
+  "schema": "item350-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_SELECTED_HIT_CRT_COMPATIBILITY_AND_SCOPED_MESOSCOPIC_NO_GO",
+  "scope": "independent root audit of the beta load-coordinate tower, window height, penultimate resonance, and formal selected-hit CRT compatibility, with genuine first occurrence kept open",
+  "checks": {
+    "certificate_sha256": "9c30d1c23b741e0e5b7e38ab39b16658f225f9846894b8a2b657bfa4eb145950",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_checks": 20,
+    "work_manifest_failures": 0,
+    "frozen_dependencies_checked": 14,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 7,
+    "work_hash_list_match": true,
+    "declared_resonance_rows": 3,
+    "independent_transition_rows": 26,
+    "independent_resonance_rows": 25,
+    "independent_per_prime_depth_solutions": 54,
+    "all_independent_checks": true,
+    "zero_census_performed": false,
+    "report_inline_dollar_delimiters": "204/204",
+    "report_display_delimiters": "38/38",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "load_coordinates": "x_j=w_j d_(j-1)-d_j is a triangular integral coordinate change, and the telescoping inverse leaves no nonzero load-only elimination relation",
+    "window_capacity": "an r-row product carrier has logarithmic height below 2r log A, so bounded and sublinear windows have zero rate but linear-depth coverage remains on the full beta scale",
+    "penultimate_resonance": "the top gradients satisfy row_Delta=-A row_t+row_z and the affine bridge is Delta+A t-z_(m-1)=Ac-a+rho_lower",
+    "slice_scope": "A^2+1 is only the lower-zero-slice obstruction; the primitive lower coordinate restores formal t-unit compatibility away from that slice",
+    "CRT_scope": "the construction realizes arbitrary distinct selected-hit divisibilities together with the exact formal target and t-unit localization, but it does not impose nondivisibility at earlier rows",
+    "correction": "the original work draft overcalled selected congruences as first occurrences; the canonical theorem, report, certificate, ledger, and manifest explicitly retract that implication",
+    "scope_warning": "canonical digit inequalities, small positive h_j, actual beta specialization, and genuine first occurrence remain possible sources of an arithmetic restriction"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "all-window load-coordinate theorem",
+      "window carrier height",
+      "penultimate resonance and affine bridge",
+      "lower-slice zero-rate carrier with primitive escape",
+      "formal selected-hit CRT compatibility",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared controls plus 105 independent algebraic rows; no prime or collision census"
+    ],
+    "OPEN": [
+      "earlier-row avoidance and genuine first occurrence",
+      "canonical beta specialization and small-h matching",
+      "actual mesoscopic weighted mass",
+      "Xi_Q, H_Q, K_Q, Gamma_Q, and squarefull excess",
+      "any beta-capacity reduction",
+      "Route 1",
+      "e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_Xi_Q_maximum": "log Q<=log b",
+    "bounded_or_sublinear_window_rate": 0,
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "new_booking": 0
+  }
+}

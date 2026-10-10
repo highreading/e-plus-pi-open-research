@@ -1,0 +1,43 @@
+{
+  "authorship": "Coordinator; no remote code executed",
+  "scope": "Reuses one preserved original n225 producer; new fixed-size frame and prime-crossing audit only",
+  "input_sha256": "375de6e28d3dd0ab26700618c543e4687ea01ee1c5b656f4e31c72b1769a53a0",
+  "script_sha256": "ae62527b4215eddedc34813d958bfda7feb8575850b4d19a6c0261d168d0ef4a",
+  "n": 225,
+  "first_factor_above227": "1",
+  "D8_matches_preserved_actual_clearer": true,
+  "row_contents_match_preserved_values": true,
+  "all_three_Pluecker_residuals_zero": true,
+  "source_crossing_checks": [
+    {
+      "prime": 229,
+      "checked_positions": 224,
+      "modulus": 52441,
+      "chi": 1,
+      "all_first_and_second_level_identities": true
+    },
+    {
+      "prime": 239,
+      "checked_positions": 214,
+      "modulus": 57121,
+      "chi": -1,
+      "all_first_and_second_level_identities": true
+    }
+  ],
+  "seconds": 0.0109,
+  "endpoint_discrepancies": [
+    {
+      "endpoint": 0,
+      "discrepancy_above227": "1"
+    },
+    {
+      "endpoint": 3,
+      "discrepancy_above227": "1"
+    }
+  ],
+  "invariant_factor_decimal_digits": [
+    1,
+    1553
+  ],
+  "full_certificate_sha256": "5f30c340201af9d899416a4086d060308e8c0908c308d115c5195f4ca3c0a5fd"
+}

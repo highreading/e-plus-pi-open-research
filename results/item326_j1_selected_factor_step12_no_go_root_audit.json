@@ -1,0 +1,79 @@
+{
+  "item": 326,
+  "schema": "item326-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_ACTUAL_SELECTED_FACTOR_STEP12_AND_SCOPED_BOUNDED_GAP_NO_GO",
+  "scope": "independent root audit of the actual selected factorizations, determinant-form step-12 recurrence, and fixed-M bounded-gap capacity theorem",
+  "checks": {
+    "certificate_sha256": "9378b4078db1385f60a5128617f6e99c75cd282b6be3e5b0be95410da979450f",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "manifest_artifacts_match": true,
+    "frozen_dependencies_checked": 16,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 6,
+    "work_hash_list_match": true,
+    "root_generic_step12_starts": 12,
+    "root_actual_factor_recurrence_checks": 192,
+    "root_reduced_degree_pairs": [
+      [
+        117,
+        117
+      ],
+      [
+        116,
+        116
+      ],
+      [
+        92,
+        92
+      ],
+      [
+        68,
+        68
+      ]
+    ],
+    "report_inline_delimiters": "62/62",
+    "report_display_delimiters": "29/29",
+    "report_control_characters": 0,
+    "report_bare_cr": 0
+  },
+  "mathematical_audit": {
+    "actual_factors": "direct multiplication over Q(i,sqrt(2)) reproduces all eight Item-321 normalized containers, and the sequences use the true Item-308 initial values",
+    "step12_recurrence": "four step-12 readout rows of the true order-three companion lie in a three-dimensional state space; their signed maximal minors give the all-index Laplace identity",
+    "coefficient_nonvanishing": "the reduced numerator coefficient signs and nonnegative or positive denominator signs prove every Delta_j(s) is defined and nonzero over Q for all integers s>=1",
+    "fixed_M_phase": "s advances by 3 while p advances by 2 and h falls by 4; after s advances by 12 the selected parity and phase return and the four recurrence terms have prime gaps 0,8,16,24",
+    "bounded_gap_mass": "the fixed-two-form Brun/Selberg upper-bound sieve gives O(M/log^2 M) candidate-prime pairs and therefore O(M/log M)=o(M) logarithmic mass for every fixed nonzero gap",
+    "isolated_mass": "the candidate-prime interval has total Chebyshev mass M/6+o(M), and deleting a finite set of bounded-gap pairs removes only o(M)",
+    "scope_warning": "the rational recurrence does not prove modular propagation, a second candidate prime, or a p-unit transfer; only mechanisms whose hypotheses already require two bounded-offset prime collision rows are closed"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "all eight selected factorizations with actual initial values",
+      "all-index determinant-form order-three step-12 recurrence",
+      "positive-index characteristic-zero coefficient nonvanishing",
+      "fixed-M phase arithmetic",
+      "bounded-gap candidate-prime overlap has zero logarithmic rate",
+      "zero booking"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "cross-row gcd or resultant mechanisms requiring two bounded-offset actual prime collision rows cannot control isolated selected collisions"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "the preselected p=47 eliminant control",
+      "the 16 canonical and 192 enlarged root direct substitutions"
+    ],
+    "OPEN": [
+      "single-row arithmetic and weighted density for the actual selected factors",
+      "a bridge forcing every original collision to propagate",
+      "W_D(M)=o(M), W_off(M)=o(M), and fixed-j1 closure"
+    ]
+  },
+  "capacity": {
+    "bounded_gap_overlap_mass": "o(M)",
+    "new_fixed_j1_capacity_reduction": 0,
+    "new_booking": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36"
+  }
+}

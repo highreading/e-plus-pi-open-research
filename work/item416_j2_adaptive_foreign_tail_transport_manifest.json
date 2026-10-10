@@ -1,0 +1,105 @@
+{
+  "item": 416,
+  "schema": "item416-j2-adaptive-foreign-tail-transport-manifest-v1",
+  "classification": "PROVED_ADAPTIVE_CUTOFF_AND_FORWARD_GATE_TRANSPORT_ETA_ZERO",
+  "checked_date_beijing": "2026-09-01",
+  "canonical_files_modified": true,
+  "dependencies": {
+    "sources/item349_j2_degenerate_triple_minor_carrier_report.md": "ca3141156cb5034012a174377c3596e22d22cae924625649b6d620d510f4790c",
+    "scripts/item349_j2_degenerate_triple_minor_carrier_certificate.py": "b72b1ee335f243ae6a2761c417e27640f443183ec625027a14d5b7e06b91cf9b",
+    "results/item349_j2_degenerate_triple_minor_carrier_certificate.json": "b26294d51b1844aeee04146004b2ecec9b6e1ff81aa271a3167e5d86c11bce44",
+    "manifests/item349_j2_degenerate_triple_minor_carrier_manifest.json": "1c1dec25ac00ea5adb2befe885c9c96ba805564651b6e90c73ef2506d30e7f4f",
+    "results/item349_j2_degenerate_triple_minor_carrier_root_audit.json": "e717c01d7429f7821a7ee75e8d979bc1362107bd70466af6af54d9748299a894",
+    "sources/item409_j2_actual_rejection_carrier_report.md": "99caf10f9f1561dcb0e3a712f381db639b8260da6594dd305915ebb66f0d69ce",
+    "scripts/item409_j2_actual_rejection_carrier_certificate.py": "32c99d596ddf933e00cab032a4af741e0781a361644ddc685d66a4e651a023f7",
+    "results/item409_j2_actual_rejection_carrier_certificate.json": "b6a68f27d131b9a9e8d7e2512d78d54dbbd7bb70f502b2fbaf8277b6a277f940",
+    "manifests/item409_j2_actual_rejection_carrier_manifest.json": "b7f052f66eb42215ce0e4778b7a0bb994b3a54e205dae81e8b75715e0220cd71",
+    "results/item409_j2_actual_rejection_carrier_root_audit.json": "8a7545bbde4b339598a2c92cafbf5902dd1060a4c0d64d46e4590b05accc9674",
+    "sources/item413_j2_tied_projection_anti_gcd_boundary_report.md": "0ee4ea341cc9ca1701f6b4ea2731d78aa686656ffc086c5c89734fd33b119d00",
+    "scripts/item413_j2_tied_projection_anti_gcd_boundary_certificate.py": "00420076f3879eb233022227f230fffdab6c8884c050b5ee0876e107fe5830f0",
+    "results/item413_j2_tied_projection_anti_gcd_boundary_certificate.json": "c2f43f92b151de1a6f349a86d66c1e58250b7e2440c442a24818d488d3ffc1b3",
+    "results/item413_j2_tied_projection_anti_gcd_boundary_certificate_replay.json": "c2f43f92b151de1a6f349a86d66c1e58250b7e2440c442a24818d488d3ffc1b3",
+    "results/item413_j2_tied_projection_anti_gcd_boundary_ledger_delta.json": "8a53a9211d43f1d52c5970aaea9f2c3a6dc439c16061114e7981f823c5d48cb0",
+    "manifests/item413_j2_tied_projection_anti_gcd_boundary_manifest.json": "980997e0476ea3bd3a684cd6cf7af2ec2a3807934e16288ca6ace8c20a589b49",
+    "results/item413_j2_tied_projection_anti_gcd_boundary_root_audit.json": "a326e2e42258a8d75d24e0ff580297ddd1289ab32380ab332386682fe3db8fcc",
+    "results/item413_j2_tied_projection_anti_gcd_boundary_hashes.sha256": "cef20125e4b3a6653658685a70ece1020a6f7fee9dee57ac03e982d935d8a54b"
+  },
+  "artifacts": {
+    "report": {
+      "path": "sources/item416_j2_adaptive_foreign_tail_transport_report.md",
+      "sha256": "66cde3c776df067b600038ff16734e120036274b1e248b7c4644d0564fcc2e30",
+      "bytes": 13315
+    },
+    "certificate_script": {
+      "path": "scripts/item416_j2_adaptive_foreign_tail_transport_certificate.py",
+      "sha256": "8112f793d126e5919ff103cb162eaa50b36f44e486e90867c0a84aa580b9f584",
+      "bytes": 21146
+    },
+    "certificate": {
+      "path": "results/item416_j2_adaptive_foreign_tail_transport_certificate.json",
+      "sha256": "3effb6a6162df9c5639ca155721adb165ed60ff0656d09aac5851c1ffd0bc64b",
+      "bytes": 14734
+    },
+    "replay": {
+      "path": "results/item416_j2_adaptive_foreign_tail_transport_certificate_replay.json",
+      "sha256": "3effb6a6162df9c5639ca155721adb165ed60ff0656d09aac5851c1ffd0bc64b",
+      "bytes": 14734,
+      "byte_identical_to_certificate": true
+    },
+    "ledger_delta": {
+      "path": "results/item416_j2_adaptive_foreign_tail_transport_ledger_delta.json",
+      "sha256": "668ed0cb18ce86d697c316e850bed90b0ab2029255da2ee00ff00ee324ab0da4",
+      "bytes": 2420
+    }
+  },
+  "theorems": [
+    "for every actual row and every Y>=p, selected-prime-safe saturation leaves only p and primes q>Y",
+    "the adaptive tail factors as tied projection times foreign tail and A_Y-B_Y=J_e for every cutoff",
+    "moving the cutoff from 2r+3 to p removes all middle foreign support from tail and foreign tail by the same factor",
+    "an aligned foreign q>p maps uniquely to a future actual degenerate-gate row with the same r",
+    "aligned transport does not transfer target status; transverse support has no same-r ordinary row",
+    "the inherited height and prime-row count give only B_p=O(M^2) and factor incidence O(M^2/log M)",
+    "the O(M^2) order is sharp inside the stated height, row-count, and q>p support information class",
+    "the pinned inputs prove no positive matched margin and no capacity reduction"
+  ],
+  "actual_witness": {
+    "row": [
+      709,
+      347,
+      2
+    ],
+    "J": 79,
+    "selected_prime_cutoff_tail": 1,
+    "tied_projection": 1,
+    "classification": "EXACT PINNED ACTUAL-FORMULA WITNESS, NOT A CENSUS"
+  },
+  "smallest_missing_lemma": "on one selected fixed-M ray, prove B_p(M)=sum log rad_(q>p) J_(r,s)=o(M), or separate o(M) bounds for aligned and transverse support; positive capacity additionally needs an adaptive-tail lower bound exceeding that foreign upper bound",
+  "strict_labels": {
+    "PROVED": [
+      "adaptive cutoff, exact margin invariance, selected-p middle-noise removal, forward gate transport, size screens, conditional capacity arithmetic, and eta zero"
+    ],
+    "EXACT_PINNED_ACTUAL_WITNESS_NOT_A_CENSUS": [
+      "the row (709,347,2) with J=79"
+    ],
+    "EXACT_ALGEBRAIC_SUPPORT_PACKETS_NOT_ACTUAL": [
+      "declared packets used only to replay cutoff and transport identities"
+    ],
+    "ABSTRACT_HEIGHT_SUPPORT_MODEL_NOT_ACTUAL": [
+      "the Section 6.1 construction used only for information-class sharpness"
+    ],
+    "OPEN": [
+      "B_p=o(M), its aligned/transverse components, positive adaptive-tail minus foreign-tail margin, target transport, and Route 1"
+    ]
+  },
+  "capacity": {
+    "one_ray_normalized_per_6M": "1/210",
+    "conditional_saving": "max(0,a-b,1/35-g-n)/6",
+    "proved_adaptive_foreign_linear_upper_per_M": null,
+    "proved_matched_J_margin_per_M": 0,
+    "proved_eta_per_M": 0,
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "retained_ordinary_j2_ceiling_per_6M": "1/105"
+  },
+  "replay_command": "python scripts/item416_j2_adaptive_foreign_tail_transport_certificate.py --replay results/item416_j2_adaptive_foreign_tail_transport_certificate.json --output results/item416_j2_adaptive_foreign_tail_transport_certificate_replay.json"
+}

@@ -1,0 +1,127 @@
+{
+  "booking": {
+    "capacity_reduction": 0,
+    "conclusion_about_e_plus_pi": "none",
+    "new_divisibility_exponent": 0,
+    "new_unconditional_linear_log_rate": 0
+  },
+  "cell": "normalized common-log j=2 fixed cell, canonical Item244 bulk residual",
+  "dependencies": {
+    "item244_checker": "item244_j2_actual_character_bulk_certificate.py",
+    "item244_checker_sha256": "2cf312df16f7ddc65e57f7b6409a04f38a14242725ac89c1199b7364aa2a84a9"
+  },
+  "exact_witnesses": {
+    "nonzero_mod_p": {
+      "nu": 1,
+      "p": 17,
+      "rational_denominator": "45045",
+      "rational_numerator": "13504",
+      "residue_mod_p": 9,
+      "s": 2
+    },
+    "zero_mod_p_nonzero_rational": {
+      "nu": 0,
+      "numerator_valuation_at_p": 1,
+      "p": 37,
+      "rational_denominator": "121628516625",
+      "rational_numerator": "-140105504768",
+      "residue_mod_p": 0,
+      "s": 4
+    }
+  },
+  "finite_census": {
+    "admissible_row_count": 1115,
+    "bulk_zero_count_on_nonempty_projections": 6,
+    "companion_parity_zero_count": 0,
+    "coordinate_count": 2230,
+    "nonempty_projection_count": 2192,
+    "operator_recurrence_check_count": 137,
+    "operator_replay_prime_max_inclusive": 101,
+    "prime_max_inclusive": 401,
+    "reflected_pole_collision_count": 0,
+    "row_digest_sha256": "9195a1027612a748d699d1cbddc6c2e147e0d63bc1cd2c2ef25cb9b20343954e",
+    "self_reciprocal_projection_count": 1111,
+    "separate_bulk_zero_rows": [
+      {
+        "nu": 0,
+        "p": 37,
+        "s": 4
+      },
+      {
+        "nu": 1,
+        "p": 101,
+        "s": 12
+      },
+      {
+        "nu": 0,
+        "p": 103,
+        "s": 13
+      },
+      {
+        "nu": 1,
+        "p": 131,
+        "s": 9
+      },
+      {
+        "nu": 0,
+        "p": 233,
+        "s": 28
+      },
+      {
+        "nu": 1,
+        "p": 241,
+        "s": 36
+      }
+    ],
+    "simultaneous_nonempty_bulk_zero_count": 0,
+    "status": "EXACT FINITE ONLY"
+  },
+  "global_interface": "B_0 enters only Item239's stronger p^3 carry; Item246 does not strengthen the ordinary p^2 common-log gate",
+  "item": 246,
+  "proved": {
+    "baseline_common_factor": "D0 and D1 share (1-t)^min(r,1)*(1+t)^(2s-1), but the factor recurrence shifts L and does not factor this polynomial out of B as a scalar",
+    "coefficient_representation": "B_L[D]=sum_{0<=k<v<=D} (-1)^(v-k-1)d_v/((2(L+k)+1)(2(L+v)+1))",
+    "distinct_reflected_pole": "0<2L+D+1<p, so Lvee is never congruent to L modulo p and reciprocity alone is not a scalar closure",
+    "double_integral": "B_L[D]=int_0^1 int_0^1 x^(2L)y^(2L)*(D(x^2 y^2)-D(-x^2))/(1+y^2) dx dy as an exact polynomial integral",
+    "factor_B": "B_L[(1+epsilon t)D]=B_L[D]+epsilon*(B_(L+1)[D]+S_(L+1)[D]/(2L+1))",
+    "factor_S": "S_L[(1+epsilon t)D]=S_L[D]-epsilon*S_(L+1)[D]",
+    "moving_prime_reduction": "for integer D and in-range denominators, B mod p vanishes iff p divides the numerator of the reduced rational B_L[D]",
+    "reciprocity": "if D*=t^D D(1/t) and Lvee=-L-D-1, then B_L[D*]=J_(Lvee)[D]-S_(Lvee)[D]A_(Lvee)-B_(Lvee)[D]",
+    "row_parameter_recurrence": "the factor and seed recurrences evaluate B_nu exactly from (L,b,q,R,delta) in Item244's factorization",
+    "seed_recurrence": "E_(R+1,0)=E_(R,0)+t E_(R,1), E_(R+1,1)=E_(R,0)+E_(R,1), starting from (1,0)",
+    "two_coordinate_relation": "writing F=P0/(1+z^2) with selected parity A and nonzero companion C, D0=(1+t)A and D1=(1+3t)A+t^(1-delta)(3+t)C"
+  },
+  "rational_replay": {
+    "coordinate_count": 148,
+    "nonempty_moving_prime_numerator_divisibility_count": 2,
+    "prime_max_inclusive": 101,
+    "row_digest_sha256": "d86ba01a7f25ac4fcfa1949be2a4babfdfa2d9847c5a6d7a065efb845ecba329",
+    "status": "EXACT FINITE RATIONAL REPLAY",
+    "zero_projection_count": 11
+  },
+  "route": "Route 1A",
+  "schema": "item246-j2-bulk-residual-structure-v1",
+  "scoped_consequence": {
+    "nonvanishing_false": "an all-row B_0 nonvanishing theorem is false: the actual nonempty row (37,4,0) has B_0=0 modulo 37",
+    "not_proved": "no Bezout eliminant, zero-rate theorem, or classification of moving-prime numerator divisibility is known",
+    "proved": "B_0 is a closed rational double-period functional with an exact finite row-parameter recurrence; reciprocity and the nu-pair both require an additional reflected-pole or companion-parity state"
+  },
+  "status_ledger": {
+    "EXACT_FINITE": [
+      "the bounded modular census, operator replay, and rational numerator replay"
+    ],
+    "OPEN": [
+      "derive a larger-state eliminant using the reflected pole or companion parity",
+      "classify primes dividing the exact rational numerator of B_0",
+      "classify simultaneous j=2 common-log zeros",
+      "obtain any Route-1 rate or capacity reduction"
+    ],
+    "PROVED": [
+      "the coefficient and exact polynomial double-integral representations",
+      "the factor and parity-seed row-parameter recurrences",
+      "the exact reflected-pole reciprocity identity and pole-separation theorem",
+      "the two-coordinate companion-parity identity and nonzero-companion theorem",
+      "the moving-prime numerator reformulation and exact zero/nonzero witnesses"
+    ]
+  }
+}

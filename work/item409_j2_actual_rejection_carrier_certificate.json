@@ -1,0 +1,501 @@
+{
+  "actual_formula": {
+    "actual_period_replacement": "T_nu=(-1)^(m+1)[f_nu Z_(r,s)+9*4^s*b_nu-11*v_nu] mod p, with Z=B_s(9*kappa_r*A_s/2-tau_(r,s))",
+    "branch_split": {
+      "f_nonzero": "on p|Pi, choose f_nu!=0; rejection is the nonvanishing of one scalar residual containing the actual incomplete period A_s",
+      "f_zero": "on p|Pi, the period disappears; rejection is 9*4^s*b-11*v != 0"
+    },
+    "foreign_support_warning": "the period replacement preserves tied-p support only; it is not an equality of the full foreign-prime integer carriers",
+    "gate": "Pi_r=gcd(abs(num(a_r)),abs(num(b_r)),abs(num(K_r)))",
+    "rejection": "J_(r,s)=(Pi_sat_(r,s))_(Gamma_sat_(r,s))",
+    "target": "Gamma_(r,s)=gcd(Pi_r,abs(num(T_0)),abs(num(T_1)))",
+    "tied_equivalence": "p divides J iff p divides the actual normalized minors a_r,b_r,K_r and at least one actual target residual T_0,T_1 is nonzero mod p"
+  },
+  "actual_period_recurrence": {
+    "classification": "EXACT FINITE REPLAY OF THE PROVED ITEM-251 ACTUAL PERIOD RECURRENCE",
+    "generating_function": "sum_(s>=1)A_s t^(s-1)=(2+w)^3/[2(1-w^2)]-1/(1+t), where w=t(2+w)^3",
+    "moving_characteristic_warning": "at fixed r, s->s+1 changes the tied modulus p to p+6; the recurrence is an integer identity, not a map F_p->F_(p+6)",
+    "recurrence_rows": 20,
+    "row_digest_sha256": "ec6e9ffe18303f5c73e0ce6896076e4b4d51660ae80177a793b5dcc59b9792af"
+  },
+  "actual_rows_replay": {
+    "actual_counterexample": {
+      "row": [
+        709,
+        347,
+        2
+      ],
+      "scope_warning": "79 is foreign to the tied characteristic 709; this does not refute tied-prime good reduction p not dividing Pi_sat and does not prove positive J-support density",
+      "statement_refuted": "Pi_sat_(r,s)=1 and J_(r,s)=1 on every actual row",
+      "values": {
+        "Gamma": 1,
+        "Gamma_sat": 1,
+        "J": 79,
+        "Pi": 79,
+        "Pi_sat": 79,
+        "p_divides_J": false
+      }
+    },
+    "classification": "EXACT DECLARED ACTUAL-FORMULA ROWS ONLY / NO PRIME CENSUS / NO DENSITY EXTRAPOLATION",
+    "row_digest_sha256": "7f2b321a0aa8e8f9a68194f3d1a6934123a1c2fd3d9c0cf7bc0613f73944b7c1",
+    "rows": [
+      {
+        "Gamma": 1,
+        "Gamma_sat": 1,
+        "J": 1,
+        "M": 20,
+        "Pi": 1,
+        "Pi_sat": 1,
+        "T_mod_p": [
+          14,
+          16
+        ],
+        "T_numerator_bits": [
+          11,
+          26
+        ],
+        "a_b_K_numerator_bits": [
+          5,
+          6,
+          3
+        ],
+        "actual_degenerate_target_hit": false,
+        "actual_triple_gate": false,
+        "f_zero_mod_p": false,
+        "p": 17,
+        "p_divides_J": false,
+        "period_residual_mod_p": [
+          14,
+          16
+        ],
+        "r": 1,
+        "s": 2,
+        "support_gcd_Pi": 1,
+        "support_sha256": "dc8ad4a0b32062c84db0f98ba54e9d41e8ace1aaf37ac93bd94c5ee6443925f6"
+      },
+      {
+        "Gamma": 1,
+        "Gamma_sat": 1,
+        "J": 1,
+        "M": 313,
+        "Pi": 7,
+        "Pi_sat": 1,
+        "T_mod_p": [
+          34,
+          105
+        ],
+        "T_numerator_bits": [
+          747,
+          759
+        ],
+        "a_b_K_numerator_bits": [
+          410,
+          524,
+          665
+        ],
+        "actual_degenerate_target_hit": false,
+        "actual_triple_gate": false,
+        "f_zero_mod_p": false,
+        "p": 251,
+        "p_divides_J": false,
+        "period_residual_mod_p": [
+          217,
+          146
+        ],
+        "r": 121,
+        "s": 1,
+        "support_gcd_Pi": 7,
+        "support_sha256": "c371b8fefa3cda4f7ea0613156af4b97c89edb12dac6dd5d4d68299593cd88a4"
+      },
+      {
+        "Gamma": 1,
+        "Gamma_sat": 1,
+        "J": 1,
+        "M": 390,
+        "Pi": 7,
+        "Pi_sat": 1,
+        "T_mod_p": [
+          247,
+          275
+        ],
+        "T_numerator_bits": [
+          928,
+          943
+        ],
+        "a_b_K_numerator_bits": [
+          498,
+          651,
+          813
+        ],
+        "actual_degenerate_target_hit": false,
+        "actual_triple_gate": false,
+        "f_zero_mod_p": false,
+        "p": 313,
+        "p_divides_J": false,
+        "period_residual_mod_p": [
+          247,
+          275
+        ],
+        "r": 149,
+        "s": 2,
+        "support_gcd_Pi": 7,
+        "support_sha256": "f9be2c4392751e1cb9977799efa8c1b56fb1104ce69332252f8176c4b2fdee0a"
+      },
+      {
+        "Gamma": 1,
+        "Gamma_sat": 1,
+        "J": 1,
+        "M": 431,
+        "Pi": 7,
+        "Pi_sat": 1,
+        "T_mod_p": [
+          210,
+          48
+        ],
+        "T_numerator_bits": [
+          1002,
+          1010
+        ],
+        "a_b_K_numerator_bits": [
+          530,
+          687,
+          849
+        ],
+        "actual_degenerate_target_hit": false,
+        "actual_triple_gate": false,
+        "f_zero_mod_p": false,
+        "p": 347,
+        "p_divides_J": false,
+        "period_residual_mod_p": [
+          137,
+          299
+        ],
+        "r": 157,
+        "s": 5,
+        "support_gcd_Pi": 7,
+        "support_sha256": "504273f21006d8d4dc7c5ec42d4a8b798137d19268aa45062840fa8a53b132cf"
+      },
+      {
+        "Gamma": 1,
+        "Gamma_sat": 1,
+        "J": 79,
+        "M": 885,
+        "Pi": 79,
+        "Pi_sat": 79,
+        "T_mod_p": [
+          558,
+          201
+        ],
+        "T_numerator_bits": [
+          2166,
+          2168
+        ],
+        "a_b_K_numerator_bits": [
+          1167,
+          1520,
+          1915
+        ],
+        "actual_degenerate_target_hit": false,
+        "actual_triple_gate": false,
+        "f_zero_mod_p": false,
+        "p": 709,
+        "p_divides_J": false,
+        "period_residual_mod_p": [
+          558,
+          201
+        ],
+        "r": 347,
+        "s": 2,
+        "support_gcd_Pi": 1,
+        "support_sha256": "86cba24af9ef1f300c9d6329959addf57f16450547f88a07daefa7528bc82215"
+      }
+    ]
+  },
+  "atomic_matched_rejection": {
+    "classification": "PROVED ALL-M ATOMIC LOCALIZATION; DECLARED BOUNDS ARE EXACT FINITE IMPLEMENTATION REPLAY",
+    "declared_bounds": [
+      [
+        20,
+        17,
+        17,
+        true
+      ],
+      [
+        35,
+        29,
+        29,
+        true
+      ],
+      [
+        100,
+        81,
+        85,
+        true
+      ],
+      [
+        335,
+        269,
+        287,
+        true
+      ],
+      [
+        1000,
+        801,
+        857,
+        true
+      ]
+    ],
+    "definition": "j_(M,q)^sharp=(rad gcd(q,J_(6M-7q,(5q-4M-1)/2)))_((L_M-1)!)",
+    "pairwise": "gcd(j_(M,q)^sharp,j_(M,q')^sharp)=1 for q!=q'",
+    "proof_key": "U_M<2L_M, so a prime lambda>=L_M dividing q in [L_M,U_M] forces q=lambda",
+    "scope_warning": "this closes only common-divisor reuse among matched factors; a formula-specific theorem using unmatched values remains open",
+    "theorem": "j_(M,q)^sharp=q exactly when q is prime and its actual row is degenerate-target-rejected; otherwise it is 1"
+  },
+  "capacity": {
+    "actual_J_coupling": "J_e(M)>=jM, G_e(M)<=gM, N_e(M)<=nM imply excluded mass >=max(0,j,1/35-g-n)M+o(M)",
+    "good_reduction_direction": "Pi_sat=1 makes j=0 and books zero without a nondegenerate bound; relative target good reduction Gamma_sat=1 still needs positive degenerate occupancy",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "normalized_saving": "max(0,j,1/35-g-n)/6",
+    "one_ray_mass_per_M": "1/35",
+    "one_ray_normalized_capacity": "1/210",
+    "proved_eta_per_M": 0,
+    "proved_j_lower_per_M": 0,
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "scenarios": [
+      {
+        "G_upper_per_M": "1/35",
+        "J_lower_per_M": "0/1",
+        "N_upper_per_M": "1/35",
+        "excluded_lower_per_M": "0/1",
+        "name": "no_actual_margin",
+        "normalized_saving": "0/1"
+      },
+      {
+        "G_upper_per_M": "1/35",
+        "J_lower_per_M": "1/70",
+        "N_upper_per_M": "1/35",
+        "excluded_lower_per_M": "1/70",
+        "name": "J_half_ray_only",
+        "normalized_saving": "1/420"
+      },
+      {
+        "G_upper_per_M": "1/140",
+        "J_lower_per_M": "0/1",
+        "N_upper_per_M": "1/140",
+        "excluded_lower_per_M": "1/70",
+        "name": "two_chart_upper_bounds",
+        "normalized_saving": "1/420"
+      },
+      {
+        "G_upper_per_M": "1/140",
+        "J_lower_per_M": "1/140",
+        "N_upper_per_M": "1/140",
+        "excluded_lower_per_M": "1/70",
+        "name": "both_routes",
+        "normalized_saving": "1/420"
+      },
+      {
+        "G_upper_per_M": "1/35",
+        "J_lower_per_M": "1/35",
+        "N_upper_per_M": "1/35",
+        "excluded_lower_per_M": "1/35",
+        "name": "full_J_ray",
+        "normalized_saving": "1/210"
+      }
+    ]
+  },
+  "cartier_rational_diagonal": {
+    "bivariate_constant_term": "sum_(m,d>=0)c_(m,d)t^m u^d = CT_x x^(-1)/[(1-t(1-x)^3(1+x)^5/x^6)(1-u(1-x)(1+x)^2/x^2)]",
+    "classification": "EXACT FINITE EXPANSION REPLAY OF A SYMBOLIC CONSTANT-TERM IDENTITY",
+    "coefficient": "c_(m,d)=[x^(6m+2d+1)](1-x)^(3m+d)(1+x)^(5m+2d)",
+    "consequence": "the raw Cartier digit is a rational diagonal and hence holonomic",
+    "row_digest_sha256": "f236e1002dcc5519e054a165473b044f3f4a0826fdd5560074a834384b2485f7",
+    "rows": 18
+  },
+  "checked_date_beijing": "2026-09-01",
+  "dependency_hashes_verified": {
+    "manifests/item334_j2_coupled_cartier_carrier_manifest.json": "518176b7e7cf5908e350bb857063bae47658050ca63c4a0e1976554efac87bc9",
+    "manifests/item338_j2_secondary_cartier_saturation_manifest.json": "d3ecc6c74e3dbd3b921a3f5c3aa363eac10e68322536c88ced5e6972785a6573",
+    "manifests/item349_j2_degenerate_triple_minor_carrier_manifest.json": "1c1dec25ac00ea5adb2befe885c9c96ba805564651b6e90c73ef2506d30e7f4f",
+    "manifests/item397_j2_matched_aggregate_factor_localization_manifest.json": "a6aa125bcc12f5b258ea02fb2e552b2a658c6b8ca9bd56386297530891ef5044",
+    "manifests/item399_j2_raywise_chosen_prime_invariant_manifest.json": "3f2ae65892fa23a2b5ca0c12be81eda5d924daf2c78f2442662e43293d3f326d",
+    "manifests/item402_j2_marked_frobenius_descent_no_go_manifest.json": "25d66b0e60b21b397e7dbfd9fb399551f1d9e406432b981f5a4b73847b27e08f",
+    "manifests/item404_j2_degenerate_target_rejection_capacity_manifest.json": "8e47fe49f8237662ec7e5c58029ef674a37fcc9a753e319097c31fbe83b13c36",
+    "results/item334_j2_coupled_cartier_carrier_certificate.json": "238046186f90bdffb2e9b4c72994bac4f0c2ba7e377b42f04753b5502ea861e2",
+    "results/item338_j2_secondary_cartier_saturation_certificate.json": "accf5bf87b148c73117f05b8d9f7eee92af1d59611871498593cc992c758450d",
+    "results/item349_j2_degenerate_triple_minor_carrier_certificate.json": "b26294d51b1844aeee04146004b2ecec9b6e1ff81aa271a3167e5d86c11bce44",
+    "results/item397_j2_matched_aggregate_factor_localization_certificate.json": "45df777a3a93c0c7e4b62dadd75da7d7231d4235b2e9efde1b5204fee43254d3",
+    "results/item399_j2_raywise_chosen_prime_invariant_certificate.json": "967cb7effb6bf2f3f2d255c4eec6418b5ae65244888026f2e6cbc0c20ad94a35",
+    "results/item402_j2_marked_frobenius_descent_no_go_certificate.json": "1ca82cfc211a97961ad615d931f09d97df074596caff61741f434e64eb0fe3b7",
+    "results/item404_j2_degenerate_target_rejection_capacity_certificate.json": "e40b09431077bb8a432dfe8acb2678cd563f323e0ceab06f3da611bdba6a6636",
+    "scripts/item334_j2_coupled_cartier_carrier_certificate.py": "b9cab6a6ddc4a0817bae5852e78473ab3144ed9a3b8985c7eacaf27629c90cce",
+    "scripts/item338_j2_secondary_cartier_saturation_certificate.py": "5209d57fee32a6bad74e8f5b933116aa4d62448b1f9ca44e539cadf7f95fe6bd",
+    "scripts/item349_j2_degenerate_triple_minor_carrier_certificate.py": "b72b1ee335f243ae6a2761c417e27640f443183ec625027a14d5b7e06b91cf9b",
+    "scripts/item397_j2_matched_aggregate_factor_localization_certificate.py": "f7fe2d81b31ce31fb41e77c551119ac66fa7b62fadda2691ae06036ef4426186",
+    "scripts/item399_j2_raywise_chosen_prime_invariant_certificate.py": "ab58b05023329805e06e66a4c20430943fc17cda33133cace0b83d79f7e67d90",
+    "scripts/item402_j2_marked_frobenius_descent_no_go_certificate.py": "9c4404518a85396c29578a04998f19577bafce4f4aecf167c0102f8d0aed6997",
+    "scripts/item404_j2_degenerate_target_rejection_capacity_certificate.py": "8d74c388dbfa9aee5762a99243000a791e0d93b8d9bacb7ef6b3485e230e9694",
+    "sources/item334_j2_coupled_cartier_carrier_report.md": "a9a1b42652e5157b850014758c321ffd8a5734e4f9ea3586510ae0549822357c",
+    "sources/item338_j2_secondary_cartier_saturation_report.md": "14aa87b718b4bb83dd3e5371412fd231829f809b853d1a52eabba6181650ac33",
+    "sources/item349_j2_degenerate_triple_minor_carrier_report.md": "ca3141156cb5034012a174377c3596e22d22cae924625649b6d620d510f4790c",
+    "sources/item397_j2_matched_aggregate_factor_localization_report.md": "4f30aab79be7039866bbad7e71cc545bd0e553d51d1166b77cb3d5f5371476ee",
+    "sources/item399_j2_raywise_chosen_prime_invariant_report.md": "6c7aec34049d0ed74676166d746eeb5b256f2ff45fb8409671688abd4b4fbf26",
+    "sources/item402_j2_marked_frobenius_descent_no_go_report.md": "c6ba6147dfe835a2f01654e71131ee4e7df4c54aae91811ad7fbb3c30ba1f720",
+    "sources/item404_j2_degenerate_target_rejection_capacity_report.md": "e691d2118611781aee2a3e851afa9b26495b75b142d9f40f6b75234334df4de2",
+    "work/item407_j2_rejection_density_boundary_certificate.json": "5b3bdf6dfbeae7719cb31e5d12169705438967c08efffae8002f650b3f07ed4e",
+    "work/item407_j2_rejection_density_boundary_certificate.py": "33037be575d5aa939a14987301c3889392340dc9c00c3037ecc3c6d2e114463d",
+    "work/item407_j2_rejection_density_boundary_hashes.sha256": "fa26ec92c020f912695c206355e886e87dc46b6cf6af15019d54febbed796992",
+    "work/item407_j2_rejection_density_boundary_ledger_delta.json": "37e073d43ee61356730d6f114b048b73b48b12aa492f05df997e9870410ffde5",
+    "work/item407_j2_rejection_density_boundary_manifest.json": "936c01417ffa7f266743eaaa3b7b62e43cb62b08c6addc0095699558796c6b28",
+    "work/item407_j2_rejection_density_boundary_report.md": "c5425e0b3ddc7c00f9e260c8772041a7a8fbda90dae8a450b7560d3a87851805"
+  },
+  "evidence_policy": {
+    "actual_values_only_in_row_replay": true,
+    "no_ambient_packet_claimed_actual": true,
+    "no_finite_extrapolation": true,
+    "no_pointwise_height_booking": true,
+    "no_prime_or_collision_census": true
+  },
+  "item": 409,
+  "known_operator_separation": {
+    "classification": "PROVED EXACT COUNTEREXAMPLES TO FIVE SPECIFIED COMMON-OPERATOR IDENTITIES / NOT A NO-GO FOR EVERY POSSIBLE RECURRENCE",
+    "conclusion": "the actual K_r chain is not annihilated by the known a_r,b_r operator in the five natural gauges tested, so its Abel/Casoratian cannot be used as a proved moving-row resultant for Pi",
+    "rays": [
+      {
+        "indices": [
+          1,
+          7,
+          13,
+          19
+        ],
+        "residuals": {
+          "Item237_on_C_over_sigma": {
+            "denominator_digits": 30,
+            "nonzero": true,
+            "numerator_digits": 43,
+            "sha256": "2955f058e4d1a86f1fae81d7b393179f05f135c2398e9336cd9bbcb3abe5c867"
+          },
+          "Item237_on_K": {
+            "denominator_digits": 29,
+            "nonzero": true,
+            "numerator_digits": 43,
+            "sha256": "5d0b62c97c52ce391784ad56764371823ecd8c6281b1f4981351a3ce69b9bd03"
+          },
+          "Item237_scaled_on_C_over_sigma": {
+            "denominator_digits": 33,
+            "nonzero": true,
+            "numerator_digits": 44,
+            "sha256": "fbe17624f59ec053a6ae58edb61d3524498b2d7ce9819ea244775d545de24766"
+          },
+          "Item291_on_16^n_C": {
+            "denominator_digits": 26,
+            "nonzero": true,
+            "numerator_digits": 41,
+            "sha256": "214fad4bfc30ef91b232df2a8af0cba272735b91566335dd1fd1eeea9e074f54"
+          },
+          "Item291_on_C": {
+            "denominator_digits": 30,
+            "nonzero": true,
+            "numerator_digits": 42,
+            "sha256": "5c5e9a185d4ea1be10e3c35bee8096a6bc99d88c35e2225a9d404b37edf90382"
+          }
+        },
+        "residue": 1
+      },
+      {
+        "indices": [
+          5,
+          11,
+          17,
+          23
+        ],
+        "residuals": {
+          "Item237_on_C_over_sigma": {
+            "denominator_digits": 36,
+            "nonzero": true,
+            "numerator_digits": 51,
+            "sha256": "58f24841c201594069d7ed72243337f3588424cd39b1a0130c94b5f5dc1050ab"
+          },
+          "Item237_on_K": {
+            "denominator_digits": 35,
+            "nonzero": true,
+            "numerator_digits": 51,
+            "sha256": "ab60bd549575bb5a92cc4c06da97474970fcc4002e75f331fbfbc5204c54924b"
+          },
+          "Item237_scaled_on_C_over_sigma": {
+            "denominator_digits": 40,
+            "nonzero": true,
+            "numerator_digits": 53,
+            "sha256": "1a5082a3c9c9637765609ebd43cfdd41147a1330ffb6a063a487196c02147510"
+          },
+          "Item291_on_16^n_C": {
+            "denominator_digits": 29,
+            "nonzero": true,
+            "numerator_digits": 47,
+            "sha256": "b2d5911f1acd0f5343acf055b7abd0570b458569beaa2dccbbd7fff436668d10"
+          },
+          "Item291_on_C": {
+            "denominator_digits": 33,
+            "nonzero": true,
+            "numerator_digits": 50,
+            "sha256": "1a1bb279c07c4cc3d6ba4ef549076d908fe2e9c4995ce6bdbe80d6fafa2f6fce"
+          }
+        },
+        "residue": 5
+      }
+    ]
+  },
+  "schema": "item409-j2-actual-rejection-carrier-v1",
+  "scoped_no_go": {
+    "classification": "PROVED FOR THE NAMED MECHANISMS ONLY",
+    "closed": [
+      "an all-row identity Pi_sat=1 or J=1 (refuted by the actual row (709,347,2))",
+      "a Casoratian/resultant built by putting K_r into the known a_r,b_r recurrence in any of five natural gauges",
+      "high-prime overlap or lcm compression among distinct matched J row atoms",
+      "using the fixed-r A_s recurrence as if it transported selected divisibility between p and p+6",
+      "pointwise height as a lower bound for J-support"
+    ],
+    "not_closed": [
+      "tied-prime good reduction p not dividing Pi_sat on every actual row",
+      "an unmatched moving-row resultant with a proved bridge back to the selected row",
+      "a cross-characteristic reciprocity law for the actual formulas",
+      "a weighted large-prime anti-gcd theorem for Pi versus the two T residuals"
+    ]
+  },
+  "smallest_missing_lemma": {
+    "equivalent": "J_e(M)>=delta*M+o(M)",
+    "name": "actual tied large-prime Smith anti-gcd lemma",
+    "reward": "normalized saving delta/6, coupled as max(delta,1/35-g-n)/6",
+    "statement": "for some ray e and delta>0, sum log p over fixed-M actual rows with r=6M-7p congruent to e mod 6, p|Pi_r, and (T_0,T_1)!=(0,0) mod p is >=delta*M+o(M)",
+    "status": "OPEN"
+  },
+  "status": "PROVED_SCOPED_ACTUAL_SEQUENCE_NO_GO_AND_EXACT_WITNESS_ETA_ZERO",
+  "strict_labels": {
+    "CONDITIONAL": [
+      "positive capacity implications whose actual weighted antecedents are explicit"
+    ],
+    "EXACT_DECLARED_ACTUAL_FORMULA_ROWS_ONLY": [
+      "the five row replays and the witness (709,347,2); no census or extrapolation"
+    ],
+    "EXACT_FINITE_IMPLEMENTATION_REPLAY": [
+      "constant-term coefficient comparisons, period recurrence rows, and declared interval bounds"
+    ],
+    "OPEN": [
+      "the tied large-prime Smith anti-gcd lemma",
+      "tied-prime good reduction, unmatched resultants, or cross-characteristic reciprocity",
+      "any positive J-support lower bound or selected-prime collision upper bound",
+      "Route 1 and every conclusion about e+pi"
+    ],
+    "PROVED": [
+      "exact actual-formula reconstruction of Pi, Gamma, and J on tied rows",
+      "tied-support period normal form and internal branch split",
+      "rational-diagonal formula for the raw Cartier coefficient",
+      "actual counterexample to Pi_sat=1 and J=1 as all-row integer identities",
+      "failure of five specified common-operator resultants",
+      "atomic matched-J factor localization and exact capacity coupling",
+      "proved eta and booking are zero"
+    ]
+  },
+  "title": "actual formula, recurrence, and resultant audit for the degenerate rejection carrier"
+}

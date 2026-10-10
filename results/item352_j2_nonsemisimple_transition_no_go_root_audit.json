@@ -1,0 +1,65 @@
+{
+  "item": 352,
+  "schema": "item352-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_EXACT_JORDAN_TRANSITION_AND_FORMAL_WINDOW_NO_GO",
+  "scope": "independent root audit of the actual ordinary-j2 nonsemisimple transition, complete matrix moment, outer-chart split, and formal companion-window complexity",
+  "checks": {
+    "certificate_sha256": "8f06da2f8b4265156d02d2da393c0aedb74db55db3649589163866ffd0badc31",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_checks": 22,
+    "work_manifest_failures": 0,
+    "frozen_dependencies_checked": 16,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 7,
+    "work_hash_list_match": true,
+    "declared_actual_rows": 7,
+    "declared_synthetic_Jordan_rows": 4,
+    "independent_complete_matrix_moment_rows": 104,
+    "independent_primes": 12,
+    "all_independent_checks": true,
+    "prime_or_collision_census_performed": false,
+    "report_display_delimiters": "46/46",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "transition": "A_x=[[x^-1,1],[0,1]] has the stated exact powers and complete character moment [[-h_L,-H_(L-1)],[0,-1]]",
+    "target_coordinates": "on the nondegenerate chart the actual collision fixes exactly the old determinant and extension coordinates and supplies no third independent coordinate",
+    "Jordan_scope": "the unique fiberwise Jordan contribution and every standard nilpotent functorial readout remain in the old extension ideal",
+    "connection": "the fixed quadratic rank-one connection becomes trivial after the stated tame double cover and has zero p-curvature",
+    "rank_pole": "an exact n-state companion retaining determinant x^-L with entry pole order at most K must satisfy nK>=L",
+    "truncation_correction": "the zero-rate conclusion applies to formal or uniform exact truncation only; a proper pointwise tail can vanish accidentally at the selected prime, and its weighted zero density remains open",
+    "overlap": "the degenerate and nondegenerate outer charts partition one ordinary-j2 interval, and Item349's internal charts likewise partition rather than add capacity"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact rank-two transition and matrix moment",
+      "chosen-prime Jordan fiber",
+      "zero p-curvature on the tame cover",
+      "functorial extension-ideal no-go",
+      "rank-pole tradeoff",
+      "formal/uniform sublinear-window no-go",
+      "chart-overlap audit",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "seven declared actual rows, four synthetic Jordan rows, and 104 independent moment rows; no census"
+    ],
+    "OPEN": [
+      "weighted nonconcentration of the actual moving joint state",
+      "weighted support of Item349's safely saturated carrier",
+      "weighted zero density of accidental proper-tail vanishings",
+      "target-specific constructions outside the exact transition and window class",
+      "any reduction of 1/105",
+      "Route 1",
+      "e+pi"
+    ]
+  },
+  "capacity": {
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

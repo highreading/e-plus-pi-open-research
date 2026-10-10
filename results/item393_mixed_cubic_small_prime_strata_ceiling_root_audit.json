@@ -1,0 +1,51 @@
+{
+  "item": 393,
+  "schema": "item393-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_EXACT_DEOVERLAP_COMPONENT_CEILING_AND_DECISIVE_STRATA",
+  "scope": "independent root audit of the primewise factorization, one-sided numerical ceiling, layer-cake identities, forced-support capacity thresholds, de-overlap, replay, and ledger interpretation",
+  "checks": {
+    "work_hash_list_failures": 0,
+    "canonical_dependencies_checked": 5,
+    "canonical_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "control_characters": 0,
+    "finite_to_infinite_inference_used": false,
+    "root_repairs": "Promoted the package to canonical paths, replaced work-only status text, and rebuilt the manifest against immutable canonical dependencies. No mathematical inequality changed."
+  },
+  "mathematical_audit": {
+    "factorization": "The rank-one Cartier support consists of odd primes and Item 149 supplies one guaranteed valuation there plus one independent dyadic factor. Subtracting those exponents once leaves nonnegative small-prime residual valuations, while p>6m is disjoint, so the displayed product identity is exact.",
+    "small_component_ceiling": "Because the booked baseline has a genuine limit r1 and the large-prime factor is at least one, the frozen total-content limsup implies limsup log(c_small_rem)/(6m) <= (h-d/mu_pi)-r1. The rational one-sided endpoints certify the strict decimal bound.",
+    "no_invalid_subtraction": "Item 390 gives only an upper bound on the disjoint large-prime factor. It therefore cannot be subtracted from an upper bound on the full product; the compatible total-content ceiling is unchanged.",
+    "postbooking_layers": "The exact residual layer cake has first-layer ceiling theta(6m)/(6m) tending to one. Any small-prime-only lower-bound mechanism crossing T must therefore obtain at least T-r1-1 from depth two and beyond.",
+    "raw_layers": "The raw radical has the same universal ceiling one, so raw multiplicities at depth at least two must contribute at least T-1 in any small-prime-only success scenario.",
+    "forced_layers": "Every fixed valuation layer on the forced support is contained in the same support of ceiling C_rad. Four complete layers total less than T; consequently forced-support-only success needs fifth-and-deeper mass at least T-4C_rad, agreeing with the Item 163 fifth gate.",
+    "scope": "These are necessary capacity thresholds and a component upper bound, not positive mass theorems. They neither book a new rate nor lower the full compatible Route 1 ceiling."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact baseline/small/large primewise de-overlap",
+      "small-prime primitive-remainder ceiling below 1.859148991866686",
+      "post-booking depth-two necessary rate 0.01963298366943179388",
+      "raw depth-two necessary rate 0.15614715196424461233",
+      "forced fifth-and-deeper necessary rate 0.01651463227735795505"
+    ],
+    "OPEN": [
+      "positive weighted mass in any decisive deeper stratum",
+      "an off-forced small-prime upper bound",
+      "a total compatible ceiling below the Route 1 deficit",
+      "any conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "small_remainder_ceiling": "<1.859148991866686",
+    "new_total_content_ceiling": false,
+    "new_route1_rate": 0,
+    "new_booking": 0,
+    "new_total_route1_capacity_reduction": 0
+  }
+}

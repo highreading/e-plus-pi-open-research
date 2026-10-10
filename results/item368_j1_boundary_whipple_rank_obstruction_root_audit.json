@@ -1,0 +1,62 @@
+{
+  "item": 368,
+  "schema": "item368-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_WHIPPLE_RECTANGLE_TARGET_LINE_SATURATION_AND_GROWING_STATE_OBSTRUCTION",
+  "scope": "independent root audit of the j1 boundary clearing recurrences, tied-line primitive carriers, crossed Whipple completion, parameter-state ranks, saturated comparison barrier, and zero-booking conclusion",
+  "checks": {
+    "work_hash_list_entries": 6,
+    "work_hash_list_failures": 0,
+    "frozen_dependencies_checked": 12,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "independent_h_rows": 30,
+    "independent_k0_coefficient_checks": 495,
+    "independent_whipple_rows": 20,
+    "independent_rank_basis_rows": 495,
+    "independent_k1_formula_checks": 960,
+    "independent_whipple_digest": "e1385d5a31e2c57cdc776f84389d1d1a55f4d70be89a5f2cf1acc1f3001cbbe1",
+    "independent_phase_family_checks": 40,
+    "independent_phase_support_digest": "bd5158cb472bf836b863aed92afb2c7b0b184ceb4bd279bfe60f742994023599",
+    "density_inference_from_finite_controls": false,
+    "canonical_format_repair": "restored omitted inline-math delimiters and command backslashes in the report; mathematical content is unchanged"
+  },
+  "mathematical_audit": {
+    "clearing_recurrence": "Multiplying the nth partial sum by (B)_n gives Q_n=(B+n-1)Q_(n-1)+d_n exactly. The four Item364 periods use the stated A,B and terminal cutoffs, and all actual denominators are p-units.",
+    "target_line": "For L_h=6s+4h+3, Res(L_h,P)=6^deg(P) P(sigma_h). Every discrepancy between the resultant and the reduced phase numerator is supported on primes at most 4h+3, while every actual p is at least 4h+9. The saturated large-prime supports therefore agree exactly.",
+    "whipple_rectangle": "Direct coefficient extraction gives the terminating very-well-poised 4F3 rectangle. Whipple's finite identity evaluates the two crossed entries as the displayed Pochhammer ratios, whose cleared factors are all nonzero and smaller than every actual p when 3 does not divide h.",
+    "contiguity": "The actual and matched parameter points differ by (10h+3)/6, whose fractional part is 1/6 or 5/6 on potentially prime rays. Finite classical contiguous chains make only integral parameter shifts and cannot connect these points.",
+    "k0_rank": "The nonzero coefficients (A)_t span the denominator functions 1/(B)_t. After multiplying by (B)_h these become monic polynomials of all degrees h through zero, proving exact state rank h+1.",
+    "k1_rank": "The interior K1 coefficient is a nonzero quartic in its degree index after nonvanishing factors are removed. At most four coefficients of either parity disappear, giving ranks at least h-3 and h-4; boundary coefficients can only increase them.",
+    "method_barrier": "Ordinary resultants have O(h^2 log h) height, while tied-line carriers improve only to O(h log h). Even after deleting all primes at most 4h+3, the order-one comparison product carries M/8+o(M) Chebyshev mass, so generic recurrence/height/resultant/divisor-sieve arguments cannot prove zero rate.",
+    "scope": "The theorem does not classify exact-zero phase pairs or prove weighted divisibility for the nonzero primitive carriers. The shared fixed-j1 ceiling remains 1/36."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "universal clearing recurrence and tied-line primitive carrier support",
+      "crossed Whipple product completion and p-unit property",
+      "nonintegral classical-contiguity obstruction",
+      "exact K0 rank h+1 and linear K1 state-rank lower bounds",
+      "ordinary-resultant and saturated recurrence-height-sieve barriers",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared and independent symbolic controls; no finite row is promoted to density"
+    ],
+    "OPEN": [
+      "classification of exact-zero phase pairs",
+      "weighted average gcd or divisibility for the actual primitive carriers",
+      "unbounded-h boundary occurrence",
+      "any strict fixed-j1 capacity reduction, Route 1, and e+pi"
+    ]
+  },
+  "capacity": {
+    "retained_full_fixed_j1_ceiling_per_6M": "1/36",
+    "saturated_method_barrier_capacity_per_6M": "1/48",
+    "new_linear_log_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

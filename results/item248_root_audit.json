@@ -1,0 +1,61 @@
+{
+  "item": 248,
+  "auditor": "root",
+  "verdict": "accepted_with_stated_scope",
+  "scope": {
+    "proved": [
+      "The local folding lemma converts each selected p-section at a root of 1+Z^2 into the displayed u-tail coefficient, with x=I^p and u=1-z/x.",
+      "The truncated logarithm, harmonic-square coefficient identity, and fourth-order Pearson recurrence give exact p-unit computations of both leading root factors.",
+      "Each parameter coefficient F_nu has the forced falling-factor lambda^(falling r+1), and the displayed division-free two-by-two Wronskian identity is exact.",
+      "Individual leading-pair nonvanishing is false at (p,h,s,nu)=(59,2,8,1).",
+      "Division by G_nu(0) is invalid on all rows, as shown by the split-root exception at p=41, and universal rootwise Wronskian-unit nonvanishing is false at p=109 and p=149."
+    ],
+    "exact_finite_only": [
+      "The 2,435-row split/inert census through p<=601, including every zero count and the absence of a common leading root.",
+      "The independent direct local/global comparison on 66 coordinates through p<=61."
+    ],
+    "open": [
+      "All-row exclusion of a common root of the two actual leading factors.",
+      "A replacement invariant controlling the intersection with the Wronskian-zero locus.",
+      "Any all-prime p^3 terminal obstruction, ordinary common-log exclusion, Route-1 rate, or conclusion about e+pi."
+    ]
+  },
+  "proof_review": {
+    "folding": "In the quotient z^p=I, z=x(1-u) gives u^p=0. Inverting the binomial basis and setting k=p-j yields exactly [u^(p-m-1)](1-u)^(m-2)G; all indices lie in the audited range.",
+    "local_logarithm": "Writing T=1+z^2 gives B0=-sum_(j=1)^(p-1)T^j/j and T=u(2-u), hence B0(x(1-u))=u A_p(u). The target bounds n_nu<=p-4 make the square-coefficient identity denominator-safe.",
+    "pearson": "The four distinct local linears multiply to 4-10u+10u^2-5u^3+u^4. Coefficient extraction from D H'=N H has pivot 4n for every required 1<=n<p.",
+    "tail_factor": "The target exceeds the lambda=0 input degree by R=r+1, so lambda=0,...,r are exact roots. Termwise falling-factor extraction gives the two harmonic moment formulas and the division-free determinant identity without assuming either G_nu(0) is nonzero.",
+    "split_scope": "For p=1 mod 4 a nonzero pair a+bI may vanish at one root; rootwise zero is norm zero, not pair equality. The p=109 and p=149 witnesses therefore disprove only a universal Wronskian-unit argument, not joint nonvanishing of the original factors.",
+    "booking": "This leading-factor analysis concerns the stronger p^3 terminal route and supplies no ordinary p^2 capacity reduction or exponent."
+  },
+  "replay": {
+    "canonical_sha256": "df444fc30ad5d94be086d58d0da66737f1c0436976f379f3b3577716f91d88ef",
+    "agent_replay_sha256": "df444fc30ad5d94be086d58d0da66737f1c0436976f379f3b3577716f91d88ef",
+    "root_replay_sha256": "df444fc30ad5d94be086d58d0da66737f1c0436976f379f3b3577716f91d88ef",
+    "archive_layout_replay_sha256": "df444fc30ad5d94be086d58d0da66737f1c0436976f379f3b3577716f91d88ef",
+    "byte_identical": true
+  },
+  "independent_probe": {
+    "description": "Direct polynomial/local-coordinate and Fraction implementation importing no Item234, Item242, Item245, or Item248 code.",
+    "script_sha256": "2937d28ca00da5d0d41b25ccd27ccedc9694e3afd8603de4cf772ced1e72a9ec",
+    "result_sha256": "9928bd1744e461830754db703be7ee8b30592560b3c50e868f172dc079d3ceab",
+    "direct_prime_max_inclusive": 61,
+    "direct_rows": 33,
+    "direct_coordinates": 66,
+    "individual_pair_zero_reproduced": true,
+    "split_G_zero_reproduced": true,
+    "two_split_W_zeros_reproduced": true,
+    "generic_tail_wronskian_identity_reproduced": true
+  },
+  "manifest_validation": {
+    "artifact_mismatch_count": 0,
+    "dependency_mismatch_count": 0
+  },
+  "frozen_hashes": {
+    "report": "86a4468c95e540172c616dad20ea4cec413788772091dbe8b02e012fd0376dc8",
+    "checker": "3e3a6ac4f384e84514016ce12a2f7de44fa4fd8956bb4c56860283863982e2e2",
+    "canonical_and_replay": "df444fc30ad5d94be086d58d0da66737f1c0436976f379f3b3577716f91d88ef",
+    "manifest": "6ad0025175172ad7514d955559c1ffdf83cb2d27f74b31088b555b4ba7e30a5c",
+    "hash_ledger": "e9297510d48f7b319102d4834bfdfcf661908eb08ecbf091d894251f291ed3fd"
+  }
+}

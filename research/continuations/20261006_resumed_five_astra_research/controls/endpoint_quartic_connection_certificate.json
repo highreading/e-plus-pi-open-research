@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "scope": "NEW exact symbolic connection and finite actual adjacent endpoint recurrence checks; no original tuple evaluated",
+  "polynomial_matrix_identity_checks": 32,
+  "determinant_identity_checks": 3,
+  "det_L": "-x**2*(27*x**2 + 1264*x + 108)",
+  "det_T": "n*(2*n + 3)*(3*n - 1)*(3*n + 1)/((n + 1)*(2*n + 1)*(6*n + 1)*(6*n + 5))",
+  "det_O": "n*(3*n - 1)*(3*n + 1)*(8*n + 5)/((n + 1)*(2*n + 1)**2*(6*n + 1))",
+  "actual_endpoint_exact_checks": 120,
+  "seeded_state_count": 851,
+  "samples": [
+    {
+      "m": 2,
+      "state_content": 0,
+      "endpoint_content": 0,
+      "observation_bounds": [
+        -2,
+        0
+      ],
+      "real_window_certified": false
+    },
+    {
+      "m": 3,
+      "state_content": 0,
+      "endpoint_content": 0,
+      "observation_bounds": [
+        -2,
+        2
+      ],
+      "real_window_certified": false
+    },
+    {
+      "m": 11,
+      "state_content": 0,
+      "endpoint_content": 0,
+      "observation_bounds": [
+        -2,
+        0
+      ],
+      "real_window_certified": false
+    },
+    {
+      "m": 27,
+      "state_content": 0,
+      "endpoint_content": 0,
+      "observation_bounds": [
+        -4,
+        2
+      ],
+      "real_window_certified": false
+    },
+    {
+      "m": 81,
+      "state_content": 0,
+      "endpoint_content": 1,
+      "observation_bounds": [
+        -5,
+        2
+      ],
+      "real_window_certified": false
+    },
+    {
+      "m": 243,
+      "state_content": 0,
+      "endpoint_content": 0,
+      "observation_bounds": [
+        -6,
+        2
+      ],
+      "real_window_certified": false
+    },
+    {
+      "m": 851,
+      "state_content": 4,
+      "endpoint_content": 0,
+      "observation_bounds": [
+        -2,
+        0
+      ],
+      "real_window_certified": false
+    }
+  ],
+  "observation_smith_exponents_at_n850": [
+    -6,
+    -4
+  ],
+  "actual_original_window_evaluated": false,
+  "sublinear_content_theorem_proved": false,
+  "irrationality_proved": false,
+  "report_sha256": "343a95d8ca3f465c9abe4587dd7bcd8cb90676c1520e9fb5787aea3f8def8f12"
+}

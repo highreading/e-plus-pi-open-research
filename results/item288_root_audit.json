@@ -1,0 +1,47 @@
+{
+  "schema": "item288-root-audit-v1",
+  "audit_date": "2026-08-31",
+  "auditor": "root",
+  "verdict": "PASS_WITH_ONE_WAY_SCOPE",
+  "substantive_checks": {
+    "reflected_antidifference": "PASS: phase reflection intertwines the two Gosper equations, and the leading coefficient -2 makes the bounded-degree polynomial antidifference unique",
+    "upper_endpoint_telescoping": "PASS: the weighted recurrence for mu_k telescopes, the binomial endpoint vanishes, and the k>=2 polynomial terms are below binomial degree on the full range",
+    "lower_endpoint_telescoping": "PASS: the generating-function coefficient recurrence and even-r generalized-binomial reflection give d_h as the finite Pplus sum; the Gosper identity then yields F_h-d_h=c_h X_h",
+    "fraction_free_factorization": "PASS: substituting both endpoint identities gives K_h=c_h(2d_hY_h-L_hX_h) without division by c_h or any endpoint coordinate",
+    "localization_X_Y": "PASS: every denominator prime in X_h and Y_h is at most 4h+3; the potentially larger small-h denominator in eta_h is avoided because only the localized combination eta_h U_h+L_h is used",
+    "localization_endpoint_data": "PASS: factorial, triangular-inversion, phase, and endpoint denominators use only primes at most 4h+3",
+    "gauge_unit": "PASS: the two gauge bases and every numerator/denominator factor of the step ratio are units in the localization for the applicable residue class 3 not dividing h",
+    "reduced_numerator_bridge": "PASS: for q>4h+3 reduction of the localization is defined, so q|N_E implies E=0, then c=0 by the gauge, and finally K=0 by the factorization",
+    "actual_rows": "PASS: p=4h+6s+3 with s>=1 satisfies p>=4h+9 and primality gives 3 not dividing h, so every actual row lies in the proved large-prime range",
+    "direction_and_capacity": "PASS: only N_E divisibility implies N_K divisibility; no converse, E nonvanishing, density theorem, ceiling reduction, or rate booking is claimed"
+  },
+  "independent_replay": {
+    "canonical_sha256": "fde756a5dff3b482bb38e342c4d26871dec90c32a7868110ba4f3186ba70b738",
+    "root_replay_sha256": "fde756a5dff3b482bb38e342c4d26871dec90c32a7868110ba4f3186ba70b738",
+    "byte_identical": true
+  },
+  "package_checks": {
+    "manifest_files_checked": 6,
+    "frozen_dependencies_checked": 6,
+    "hash_list_entries_checked": 7,
+    "json_files_parsed": 5,
+    "all_hashes_and_dependencies_match": true
+  },
+  "report_checks": {
+    "sha256": "e3f4a34710d51702f29aded0769a60dbc0769aeb4266525efdb6822212bf5990",
+    "bytes": 11884,
+    "lines": 445,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "display_delimiters": "47/47",
+    "inline_delimiters": "98/98",
+    "text_fences": 2
+  },
+  "strict_scope": {
+    "proved": "For every actual fixed-j1 moving prime, the Item280 endpoint scalar K_h is forced by the older E_h gate and creates no second codimension.",
+    "not_proved": "The converse implication, nonvanishing or weighted zero-density for E_h, or any reduction of the original fixed-j1 collision ceiling.",
+    "strategic_closure": "The proposed E/K two-scalar arithmetic-codimension branch is closed globally on actual rows; future work must attack E_h itself or introduce genuinely transverse information.",
+    "open": "The sole E_h weighted gate, the retained 1/36-per-6m ceiling, Route 1, and every conclusion about e+pi.",
+    "route_status": "Route 1 ACTIVE; Route 2 QUEUED"
+  }
+}

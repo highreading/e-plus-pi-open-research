@@ -1,0 +1,96 @@
+{
+  "schema": "item302-beta-base-affine-elimination-ledger-v1",
+  "scope": "Exact fixed-base affine composition, alternating Turan numerator, continuant and continued-fraction coordinates, integral endpoint elimination ideal, all-divisor unit congruence, proper-target admission, and zero-booking verdict",
+  "claims": [
+    {
+      "id": "I302-C1",
+      "label": "PROVED",
+      "claim": "The full affine composition from x_2=6/7 gives T_n=(-1)^(n-2)6+4 sum_(j=3)^n (-1)^(n-j)q_(j-1)q_(j-2).",
+      "evidence": "report Section 2"
+    },
+    {
+      "id": "I302-C2",
+      "label": "PROVED",
+      "claim": "The alternating composition numerator is identically T_n=q_nq_(n-2)-q_(n-1)^2, not an independent numerator.",
+      "evidence": "report equations (2.2)-(2.7)"
+    },
+    {
+      "id": "I302-C3",
+      "label": "PROVED",
+      "claim": "q_n=K(7,10,14,...,4n-2) and q_n/q_(n-1)=[4n-2;4n-6,...,10,7], with the n=2 word explicitly equal to (7).",
+      "evidence": "report Section 3"
+    },
+    {
+      "id": "I302-C4",
+      "label": "PROVED",
+      "claim": "For the tail continuant S_n, q_(n-1)S_n is congruent to (-1)^n modulo q_n, and the centered residue satisfies r_n S_n^2 congruent to 1 modulo q_n.",
+      "evidence": "report equations (3.8)-(3.10)"
+    },
+    {
+      "id": "I302-C5",
+      "label": "PROVED",
+      "claim": "For I_n=<7X_2-6,R_3,...,R_n>, with R_j=q_jX_j+q_(j-1)X_(j-1)-4q_(j-1)q_(j-2), the endpoint polynomial q_nX_n-T_n belongs to I_n.",
+      "evidence": "report induction E_j=R_j-E_(j-1), equations (4.2)-(4.7)"
+    },
+    {
+      "id": "I302-C6",
+      "label": "PROVED",
+      "claim": "The exact integral endpoint elimination ideal is I_n intersect Z[X_n]=<q_nX_n-T_n>.",
+      "evidence": "report Section 5; rational triangular elimination, primitivity gcd(T_n,q_n)=1, and Gauss lemma"
+    },
+    {
+      "id": "I302-C7",
+      "label": "PROVED SCOPED NO-GO",
+      "claim": "Within the base-reaching affine-elimination class, arbitrary polynomial combinations and elimination produce no independent endpoint polynomial beyond q_nX_n-T_n.",
+      "scope_limit": "does not cover nonlinear nearest digits, inequalities, modular-square estimates, Ostrowski restrictions, or all linear-depth methods"
+    },
+    {
+      "id": "I302-C8",
+      "label": "PROVED ALL-DIVISOR NONVANISHING",
+      "claim": "For every Q>1 dividing q_n, T_n and the centered residue r_(n,Q) are units modulo Q, with r_(n,Q) congruent to q_(n-1)^2 modulo Q.",
+      "evidence": "report equations (5.4), (6.1)-(6.3)"
+    },
+    {
+      "id": "I302-C9",
+      "label": "PROVED ZERO-SCALE BOUND",
+      "claim": "The all-divisor unit statement gives only |r_(n,Q)|>=1 and no positive-linear capacity reduction.",
+      "evidence": "report Section 6"
+    },
+    {
+      "id": "I302-C10",
+      "label": "OPEN",
+      "claim": "The actual half-bound, stronger Item295 inequality, seed-specific modular-square/Ostrowski theorem, and proper-Q upper construction remain open.",
+      "scope_limit": "no finite observation is promoted"
+    },
+    {
+      "id": "I302-C11",
+      "label": "PROVED",
+      "claim": "The additive centered quotient remains separate from the Item282 common coefficient/product baseline.",
+      "evidence": "report Section 8"
+    },
+    {
+      "id": "I302-C12",
+      "label": "EXACT FINITE ONLY",
+      "claim": "The checker replays bounded instances of universal composition, Turan, continuant, matrix, unit, and congruence identities.",
+      "scope_limit": "no actual half-bound scan, counterexample search, exceptional-prime search, or finite-fit extrapolation"
+    }
+  ],
+  "strict_labels": {
+    "full_base_affine_composition": "PROVED",
+    "alternating_turan_formula": "PROVED",
+    "continuant_and_cf_word": "PROVED",
+    "integral_endpoint_elimination": "PROVED",
+    "base_reaching_affine_elimination": "PROVED SCOPED NO INDEPENDENT ENDPOINT IDENTITY",
+    "all_divisor_unit_nonvanishing": "PROVED",
+    "all_divisor_size_bound": "PROVED LOWER BOUND 1 ONLY",
+    "nonlinear_ostrowski_or_modular_square": "OPEN",
+    "all_linear_depth_methods": "NOT COVERED",
+    "actual_half_bound": "OPEN",
+    "stronger_item295_inequality": "OPEN",
+    "proper_target_upper_construction": "OPEN",
+    "item282_product_baseline": "OPEN AND SEPARATE",
+    "bounded_checks": "EXACT FINITE ONLY",
+    "positive_linear_capacity_admission": "FAIL",
+    "booking": "zero new Route-1 rate and zero new beta capacity reduction"
+  }
+}

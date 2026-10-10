@@ -1,0 +1,70 @@
+{
+  "admission": {
+    "actual_positive_linear_route1_mass": false,
+    "little_o_squarefull": false,
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "positive_linear_capacity_admission": "FAIL",
+    "sum_only_superlinear_capacity": false,
+    "uniform_prime_power_height_O_n": false
+  },
+  "bounded_exact_checks": {
+    "asymptotic_extrapolation": false,
+    "exceptional_singleton_search": false,
+    "first_tied_cancellation_row": {
+      "coefficients": [
+        7,
+        1,
+        -3
+      ],
+      "n": 2,
+      "p": 7,
+      "sum_order": 2,
+      "term_orders": [
+        1,
+        4,
+        1
+      ]
+    },
+    "label": "EXACT FINITE ONLY",
+    "sum_digest": "fb8086c22815405ea55200a0b8a1fbbfb408e2d1eb7bc24dffd37d1b62183e20",
+    "sum_rows": 2200,
+    "target_divisibility_digest": "30b97302df3749afc767c46b7579aee87c0e7730999f3ee91acdd508efde734a",
+    "target_divisibility_rows": 78,
+    "tied_cancellation_digest": "f16aef55338a43fbc26444fb9be22834d69b4aa36cdf0bfbd1398b32e6ef33d9",
+    "tied_cancellation_rows": 8,
+    "valuation_digest": "0a3cead721b1adef82dc0716846635858f5d7bec815c5b7b9927e259c794cba0",
+    "valuation_rows": 165,
+    "zero_identity_digest": "668dd1ab932b56ed885c972a37a7de081b7e6d18e59af08d1adb13bd2fc312d7",
+    "zero_identity_rows": 30
+  },
+  "declared_class": {
+    "coefficients": "prime-independent integer values of fixed bounded-degree polynomials, or more generally coefficient log-height O(log n)",
+    "exclusions": "nonhomogeneous sums, unbounded sparsity/degree, target-dependent coefficients, and the identically zero residual as a height certificate",
+    "gaps": "may move with n, independently of target factorization, with each monomial gap budget O(n/log n)",
+    "homogeneous_degree": "fixed K",
+    "residual_height": "H_sum=log(sum_j |c_j| A_j), conservatively before archimedean cancellation",
+    "sparsity": "fixed T"
+  },
+  "description": "Exact bounded-complexity homogeneous sum reduction, normalized cancellation divisor, unique-minimum split, and zero-identity branch",
+  "open": [
+    "the common product baseline and Item282 weighted-return cover",
+    "nonhomogeneous sums with different boundary-unit degrees",
+    "unbounded sparsity or total degree and arbitrary block/Hankel determinants",
+    "a nontrivial prime-independent identity controlling the product baseline",
+    "the uniform prime-power-height or little-oh squarefull theorem",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "schema": "item283-beta-bounded-homogeneous-sum-certificate-v1",
+  "theorem": {
+    "actual_target_implication": "if Q|R then Q/G0 divides R/B and has logarithmic height O(n)",
+    "cancellation_invariant": "with B=gcd_j |c_j A_j|, G0=gcd(Q,B), G=gcd(Q,R), X=G/G0, one has X|R/B",
+    "capacity": "the sum-only quotient has O(n)=o(n log n) log height; the common product baseline remains the Item282 channel",
+    "deoverlap": "all statements hold for every Q|q_n/gcd(q_n,D_m)",
+    "full_qn_identity": "a nonzero O(n)-height residual cannot be divisible by q_n for all large n because log q_n=n log n+O(n)",
+    "height": "fixed T,K, coefficient log-height O(log n), and monomial gap budget O(n/log n) imply log|R/B|<=O(n)",
+    "homogeneous_reduction": "gcd(Q,sum c_j D_j)=gcd(Q,R), R=sum c_j A_j, for every Q|q_n",
+    "unique_minimum": "a unique least term valuation gives v_p(R) equal to that minimum; only tied minima contribute to X",
+    "zero_identity": "R=0 can force homogeneous scalar divisibility modulo q_n, but supplies no nonzero residual height bound"
+  }
+}

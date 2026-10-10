@@ -1,0 +1,517 @@
+{
+  "D_finite_P_recursive_closure": {
+    "conclusion": "For epsilon=0,1 there exist nonzero polynomials q_j(s) with sum_j q_j(s)D_(s+j,epsilon)=0 on a regular tail.",
+    "minimal_operator_or_algebraicity": "OPEN / NOT CLAIMED",
+    "nodes": [
+      {
+        "class": "P-recursive over Q",
+        "input": "A constant-term identity",
+        "sequence": "A_s"
+      },
+      {
+        "class": "P-recursive over Q(i)",
+        "input": "B constant-term identity",
+        "sequence": "B_s"
+      },
+      {
+        "class": "P-recursive over Q",
+        "input": "rational combinations of B_s and conjugate(B_s)",
+        "sequence": "U_s,V_s"
+      },
+      {
+        "class": "P-recursive integer sequences",
+        "input": "Hadamard products with exponential and period-four C-finite sequences",
+        "sequence": "a_s,b_s,0,b_s,1"
+      },
+      {
+        "class": "P-recursive integer sequences",
+        "input": "Hadamard squares, exponential scaling, periodic scaling, and subtraction",
+        "sequence": "D_s,0,D_s,1"
+      }
+    ],
+    "theorem_hypotheses": {
+      "closure": "generalized diagonals/constant terms of multivariate D-finite series are D-finite",
+      "coefficient_field": "characteristic-zero Q(i)",
+      "equivalence": "univariate D-finite generating function iff coefficient sequence is P-recursive",
+      "formal_expansion": "power series in z; every z^s coefficient has a well-defined displayed x constant term",
+      "integrands": "algebraic Laurent series in x,z; only algebraic branch is (1+x)^(1/2) with constant term one",
+      "positive_power_series_reformulation": "equivalently extract coefficient rays (2s+5,s) and (2s,s) from F*N0/(1-zR) and F*N1*zR/(1-zR)^2, algebraic at (x,z)=(0,0)"
+    }
+  },
+  "actual_prime_norm_splitting": {
+    "capacity_consequence": "quadratic norm splitting excludes zero actual candidates",
+    "table": [
+      {
+        "Legendre_symbol": 1,
+        "delta": -1,
+        "eta": 2,
+        "h_parity": 0,
+        "p_mod_8": 3,
+        "quadratic_parameter_delta_times_eta": -2,
+        "s_mod_4": 0
+      },
+      {
+        "Legendre_symbol": 1,
+        "delta": 1,
+        "eta": 2,
+        "h_parity": 1,
+        "p_mod_8": 7,
+        "quadratic_parameter_delta_times_eta": 2,
+        "s_mod_4": 0
+      },
+      {
+        "Legendre_symbol": 1,
+        "delta": 1,
+        "eta": 1,
+        "h_parity": 0,
+        "p_mod_8": 1,
+        "quadratic_parameter_delta_times_eta": 1,
+        "s_mod_4": 1
+      },
+      {
+        "Legendre_symbol": 1,
+        "delta": -1,
+        "eta": 1,
+        "h_parity": 1,
+        "p_mod_8": 5,
+        "quadratic_parameter_delta_times_eta": -1,
+        "s_mod_4": 1
+      },
+      {
+        "Legendre_symbol": 1,
+        "delta": 1,
+        "eta": 2,
+        "h_parity": 0,
+        "p_mod_8": 7,
+        "quadratic_parameter_delta_times_eta": 2,
+        "s_mod_4": 2
+      },
+      {
+        "Legendre_symbol": 1,
+        "delta": -1,
+        "eta": 2,
+        "h_parity": 1,
+        "p_mod_8": 3,
+        "quadratic_parameter_delta_times_eta": -2,
+        "s_mod_4": 2
+      },
+      {
+        "Legendre_symbol": 1,
+        "delta": -1,
+        "eta": 1,
+        "h_parity": 0,
+        "p_mod_8": 5,
+        "quadratic_parameter_delta_times_eta": -1,
+        "s_mod_4": 3
+      },
+      {
+        "Legendre_symbol": 1,
+        "delta": 1,
+        "eta": 1,
+        "h_parity": 1,
+        "p_mod_8": 1,
+        "quadratic_parameter_delta_times_eta": 1,
+        "s_mod_4": 3
+      }
+    ],
+    "theorem": "(delta_s_epsilon*eta_s/p)=1 on every actual prime class"
+  },
+  "affine_numerator": {
+    "N_0_low_to_high": [
+      "4",
+      "-4/3",
+      "-8/3",
+      "16/3",
+      "-3",
+      "1"
+    ],
+    "N_1_low_to_high": [
+      "0",
+      "80/3",
+      "-224/3",
+      "256/3",
+      "-46",
+      "10"
+    ],
+    "bounded_controls": [
+      {
+        "N_s_low_to_high": [
+          "4",
+          "76/3",
+          "-232/3",
+          "272/3",
+          "-49",
+          "11"
+        ],
+        "classification": "BOUNDED EXACT REPLAY ONLY",
+        "s": 1
+      },
+      {
+        "N_s_low_to_high": [
+          "4",
+          "52",
+          "-152",
+          "176",
+          "-95",
+          "21"
+        ],
+        "classification": "BOUNDED EXACT REPLAY ONLY",
+        "s": 2
+      },
+      {
+        "N_s_low_to_high": [
+          "4",
+          "236/3",
+          "-680/3",
+          "784/3",
+          "-141",
+          "31"
+        ],
+        "classification": "BOUNDED EXACT REPLAY ONLY",
+        "s": 3
+      },
+      {
+        "N_s_low_to_high": [
+          "4",
+          "316/3",
+          "-904/3",
+          "1040/3",
+          "-187",
+          "41"
+        ],
+        "classification": "BOUNDED EXACT REPLAY ONLY",
+        "s": 4
+      },
+      {
+        "N_s_low_to_high": [
+          "4",
+          "476/3",
+          "-1352/3",
+          "1552/3",
+          "-279",
+          "61"
+        ],
+        "classification": "BOUNDED EXACT REPLAY ONLY",
+        "s": 6
+      },
+      {
+        "N_s_low_to_high": [
+          "4",
+          "212",
+          "-600",
+          "688",
+          "-371",
+          "81"
+        ],
+        "classification": "BOUNDED EXACT REPLAY ONLY",
+        "s": 8
+      }
+    ],
+    "identity": "N_s(t)=N_0(t)+s*N_1(t) in Q[s,t]",
+    "symbolic": true
+  },
+  "constant_term_generating_functions": {
+    "A_generating_function": "-CT_x x^(-5) F_A(x)[N_0(1+x)u_A/(1-u_A)+N_1(1+x)u_A/(1-u_A)^2]",
+    "B_generating_function": "CT_x F_B(x)[N_0((1-i)(1+x))u_B/(1-u_B)+N_1((1-i)(1+x))u_B/(1-u_B)^2]",
+    "F_A": "(1+x)^(1/2)/(1+x^2)",
+    "F_B": "-(1+x)^(1/2)/(2(1+i)(1+(1+i)x)^6(1+((1+i)/2)x))",
+    "R_A": "(1+x)^3/(1+x^2)^2",
+    "R_B": "i(1+x)^3/(8(1+(1+i)x)^2(1+((1+i)/2)x)^2)",
+    "bounded_replay": [
+      {
+        "A_identity": "F_A*R_A^s=(1+x)^(3s+1/2)/(1+x^2)^(2s+1)",
+        "A_s": "-11",
+        "B_constant_identity": "1/(2^(2s+1)i^(2s+6)(1+i)^(2s+1))=-1/(2(1+i))*(i/8)^s",
+        "B_s_imaginary": "-157/32",
+        "B_s_real": "25/32",
+        "classification": "FIXED BOUNDED REPLAY OF SYMBOLIC IDENTITIES",
+        "s": 1
+      },
+      {
+        "A_identity": "F_A*R_A^s=(1+x)^(3s+1/2)/(1+x^2)^(2s+1)",
+        "A_s": "6517/8",
+        "B_constant_identity": "1/(2^(2s+1)i^(2s+6)(1+i)^(2s+1))=-1/(2(1+i))*(i/8)^s",
+        "B_s_imaginary": "28357/2048",
+        "B_s_real": "-55363/2048",
+        "classification": "FIXED BOUNDED REPLAY OF SYMBOLIC IDENTITIES",
+        "s": 2
+      },
+      {
+        "A_identity": "F_A*R_A^s=(1+x)^(3s+1/2)/(1+x^2)^(2s+1)",
+        "A_s": "-103389/128",
+        "B_constant_identity": "1/(2^(2s+1)i^(2s+6)(1+i)^(2s+1))=-1/(2(1+i))*(i/8)^s",
+        "B_s_imaginary": "18154851/262144",
+        "B_s_real": "36559809/262144",
+        "classification": "FIXED BOUNDED REPLAY OF SYMBOLIC IDENTITIES",
+        "s": 3
+      },
+      {
+        "A_identity": "F_A*R_A^s=(1+x)^(3s+1/2)/(1+x^2)^(2s+1)",
+        "A_s": "-160741235/1024",
+        "B_constant_identity": "1/(2^(2s+1)i^(2s+6)(1+i)^(2s+1))=-1/(2(1+i))*(i/8)^s",
+        "B_s_imaginary": "-12326545165/16777216",
+        "B_s_real": "-2209797565/16777216",
+        "classification": "FIXED BOUNDED REPLAY OF SYMBOLIC IDENTITIES",
+        "s": 4
+      },
+      {
+        "A_identity": "F_A*R_A^s=(1+x)^(3s+1/2)/(1+x^2)^(2s+1)",
+        "A_s": "6164597613027/262144",
+        "B_constant_identity": "1/(2^(2s+1)i^(2s+6)(1+i)^(2s+1))=-1/(2(1+i))*(i/8)^s",
+        "B_s_imaginary": "492022610178771/274877906944",
+        "B_s_real": "4266522023635179/274877906944",
+        "classification": "FIXED BOUNDED REPLAY OF SYMBOLIC IDENTITIES",
+        "s": 6
+      },
+      {
+        "A_identity": "F_A*R_A^s=(1+x)^(3s+1/2)/(1+x^2)^(2s+1)",
+        "A_s": "-99038141261838531/33554432",
+        "B_constant_identity": "1/(2^(2s+1)i^(2s+6)(1+i)^(2s+1))=-1/(2(1+i))*(i/8)^s",
+        "B_s_imaginary": "635257100021751302211/2251799813685248",
+        "B_s_real": "-273037701659513850909/2251799813685248",
+        "classification": "FIXED BOUNDED REPLAY OF SYMBOLIC IDENTITIES",
+        "s": 8
+      }
+    ],
+    "proof_type": "SYMBOLIC BASE/RATIO EXPONENT SPLIT FOR EVERY INTEGER s>=1",
+    "summation_identities": [
+      "sum_(s>=1)u^s=u/(1-u)",
+      "sum_(s>=1)s*u^s=u/(1-u)^2"
+    ],
+    "u_A": "z*R_A/x^2",
+    "u_B": "z*R_B/x^2"
+  },
+  "dependencies": {
+    "manifests/item308_j1_all_s_fixed_divisor_no_go_manifest.json": "1c4721f43b5bbdc0c68e4d9fd689562a32a4af4fbbab2a9e7075da96b151b4d5",
+    "results/item308_j1_all_s_fixed_divisor_no_go_certificate.json": "4efff9ca2fb1bc11cc6030e260ff73aae89c28bd157bb41fa6bbc3b32e41e5cf",
+    "scripts/item308_j1_all_s_fixed_divisor_no_go_certificate.py": "9b60d380b503c7ac9fed13792fae67735cfcf6b0f376581a0076fde16a82f0b9",
+    "sources/item308_j1_all_s_fixed_divisor_no_go_report.md": "4eb8f8c37dfde9d19e57c8df5ff8090bd95f03be59fff7d6aede55d02993bdc8"
+  },
+  "fixed_M_capacity": {
+    "new_fixed_j1_capacity_reduction": 0,
+    "new_linear_log_rate": 0,
+    "raw_log_mass": "M/6+o(M)=1/36 per 6M",
+    "retained_ceiling_per_6M": "1/36"
+  },
+  "hypergeometric_comparison_no_go": {
+    "bounded_controls": [
+      {
+        "K": 7,
+        "classification": "BOUNDED EXACT RECURRENCE REPLAY ONLY",
+        "height_rate": "7*log(7)-6*log(6)",
+        "numerator_and_denominator_degree": 7,
+        "recurrence_order": 1,
+        "rows": [
+          {
+            "P_s": 7,
+            "P_s_plus_1": 91,
+            "recurrence_verified": true,
+            "s": 1
+          },
+          {
+            "P_s": 91,
+            "P_s_plus_1": 1330,
+            "recurrence_verified": true,
+            "s": 2
+          },
+          {
+            "P_s": 1330,
+            "P_s_plus_1": 20475,
+            "recurrence_verified": true,
+            "s": 3
+          },
+          {
+            "P_s": 20475,
+            "P_s_plus_1": 324632,
+            "recurrence_verified": true,
+            "s": 4
+          },
+          {
+            "P_s": 324632,
+            "P_s_plus_1": 5245786,
+            "recurrence_verified": true,
+            "s": 5
+          }
+        ]
+      },
+      {
+        "K": 8,
+        "classification": "BOUNDED EXACT RECURRENCE REPLAY ONLY",
+        "height_rate": "8*log(8)-6*log(6)",
+        "numerator_and_denominator_degree": 15,
+        "recurrence_order": 1,
+        "rows": [
+          {
+            "P_s": 56,
+            "P_s_plus_1": 10920,
+            "recurrence_verified": true,
+            "s": 1
+          },
+          {
+            "P_s": 10920,
+            "P_s_plus_1": 2691920,
+            "recurrence_verified": true,
+            "s": 2
+          },
+          {
+            "P_s": 2691920,
+            "P_s_plus_1": 736281000,
+            "recurrence_verified": true,
+            "s": 3
+          },
+          {
+            "P_s": 736281000,
+            "P_s_plus_1": 213610453056,
+            "recurrence_verified": true,
+            "s": 4
+          },
+          {
+            "P_s": 213610453056,
+            "P_s_plus_1": 64373725848432,
+            "recurrence_verified": true,
+            "s": 5
+          }
+        ]
+      },
+      {
+        "K": 12,
+        "classification": "BOUNDED EXACT RECURRENCE REPLAY ONLY",
+        "height_rate": "12*log(12)-6*log(6)",
+        "numerator_and_denominator_degree": 57,
+        "recurrence_order": 1,
+        "rows": [
+          {
+            "P_s": 665280,
+            "P_s_plus_1": 20238985166400,
+            "recurrence_verified": true,
+            "s": 1
+          },
+          {
+            "P_s": 20238985166400,
+            "P_s_plus_1": 1245336240154406400000,
+            "recurrence_verified": true,
+            "s": 2
+          },
+          {
+            "P_s": 1245336240154406400000,
+            "P_s_plus_1": 104697344770320691229841000000,
+            "recurrence_verified": true,
+            "s": 3
+          },
+          {
+            "P_s": 104697344770320691229841000000,
+            "P_s_plus_1": 10505755715560305197601885246310625280,
+            "recurrence_verified": true,
+            "s": 4
+          },
+          {
+            "P_s": 10505755715560305197601885246310625280,
+            "P_s_plus_1": 1181587133229959376298560199993221056806195200,
+            "recurrence_verified": true,
+            "s": 5
+          }
+        ]
+      }
+    ],
+    "first_order_recurrence": "S_K(s)P_(s+1)-R_K(s)P_s=0, with the exact products R_K,S_K in the report",
+    "fixed_M_logic": [
+      "Every actual candidate has p_s-6s>=7.",
+      "p_s<=Ks iff s>=(4M+1)/(3K-2).",
+      "The slice maps to [4K/(3K-2) M, 3M/2] up to O(1)."
+    ],
+    "height": "log P_s^(K)=s(K log K-6 log 6)+O_K(log s)",
+    "limit": "(K-6)/(2(3K-2)) -> 1/6 per M",
+    "mass_rows": [
+      {
+        "K": 7,
+        "log_mass_per_6M": "1/228",
+        "log_mass_per_M": "1/38",
+        "prime_interval_lower_coefficient": "28/19",
+        "prime_interval_upper_coefficient": "3/2",
+        "s_slice": "s>=(4M+1)/(19)"
+      },
+      {
+        "K": 8,
+        "log_mass_per_6M": "1/132",
+        "log_mass_per_M": "1/22",
+        "prime_interval_lower_coefficient": "16/11",
+        "prime_interval_upper_coefficient": "3/2",
+        "s_slice": "s>=(4M+1)/(22)"
+      },
+      {
+        "K": 12,
+        "log_mass_per_6M": "1/68",
+        "log_mass_per_M": "3/34",
+        "prime_interval_lower_coefficient": "24/17",
+        "prime_interval_upper_coefficient": "3/2",
+        "s_slice": "s>=(4M+1)/(34)"
+      },
+      {
+        "K": 30,
+        "log_mass_per_6M": "1/44",
+        "log_mass_per_M": "3/22",
+        "prime_interval_lower_coefficient": "15/11",
+        "prime_interval_upper_coefficient": "3/2",
+        "s_slice": "s>=(4M+1)/(88)"
+      },
+      {
+        "K": 100,
+        "log_mass_per_6M": "47/1788",
+        "log_mass_per_M": "47/298",
+        "prime_interval_lower_coefficient": "200/149",
+        "prime_interval_upper_coefficient": "3/2",
+        "s_slice": "s>=(4M+1)/(298)"
+      }
+    ],
+    "nonzero": "P_s^(K)>0 for every s>=1",
+    "norm_comparison": "a_tilde=b_tilde=P_s^(K); D_tilde=(P_s^(K))^2(2^(3s+1)-delta)",
+    "norm_comparison_properties": "nonzero, integer, P-recursive, exponential height, same eta*z^2-delta*b^2 shape, denominator one",
+    "normalized_limit": "(K-6)/(12(3K-2)) -> 1/36 per 6M",
+    "not_ruled_out": "a theorem using the exact Item308 operator coefficients, a separately bounded operator class, an actual moving-prime gcd bound, or exact factor localization",
+    "prime_localization": "If 6s<p<=Ks is prime, k=ceil(p/s) lies in [7,K] and v_p binomial(ks,s)=1, so p divides P_s^(K).",
+    "recurrence_degree": "K(K+1)/2-21",
+    "scope": "NO-GO FOR QUALITATIVE P-RECURSIVENESS, EXPONENTIAL HEIGHT, NONVANISHING, AND NORM SHAPE ONLY",
+    "sequence": "P_s^(K)=product_(k=7..K) binomial(k*s,s), K>=7"
+  },
+  "item": 310,
+  "schema": "item310-j1-container-holonomy-no-go-v1",
+  "smallest_remaining_lemma": "Use the exact Item308 annihilator/diagonal to prove W_D(M)=o(M), or localize the exact D_s_epsilon prime factors away from the tied interval on all but weighted-o(M) actual indices.",
+  "strict_labels": {
+    "Route_1_and_any_conclusion_about_e_plus_pi": "OPEN",
+    "actual_D_sequences_P_recursive": "PROVED",
+    "actual_factor_localization_or_W_D_o_M": "OPEN",
+    "actual_generating_function_algebraicity": "OPEN",
+    "actual_norm_splitting_automatic": "PROVED",
+    "bounded_rows": "EXACT FINITE ONLY / REPLAY ONLY",
+    "capacity_booking": "ZERO",
+    "constant_term_identities_all_s": "PROVED",
+    "minimal_or_arithmetically_useful_actual_operator": "OPEN",
+    "prime_scan_or_factorization": "NONE",
+    "qualitative_P_recursive_height_norm_no_go": "PROVED"
+  },
+  "title": "P-recursive structure of the all-s j=1 containers and its arithmetic limit",
+  "upstream_admission": {
+    "Item307_base_sha256": "b6ac3e1d623fe55c0887ac922b778c2b9457c24607e6aeb606aa4aecf8e3dce5",
+    "Item307_pinned_dependencies": {
+      "results/item237_j1_algebraic_residual_certificate.json": "eba1519f4d376d442f396048528190b474cc5464bbe42c3bdf31a9bdaf39dd6b",
+      "results/item243_order6_gauge_closure_certificate.json": "0ec0052ea270a84828cb1934373ad05e8e5b00cbf72e0d970ff805e716078546",
+      "results/item264_j1_weighted_gate_certificate.json": "08010c633f3baf5e075e892c5c786a5d9f686bf26d940fb10da6b9f46de196d2",
+      "results/item288_j1_large_prime_redundancy_certificate.json": "fde756a5dff3b482bb38e342c4d26871dec90c32a7868110ba4f3186ba70b738",
+      "scripts/item222_j1_phase_resultant_certificate.py": "c16f75156ba8424c567163cedc6a93a7656c8a53036b48ef69b06327d76ad44b",
+      "scripts/item229_j1_fixed_h_theta_certificate.py": "a8e2028ca6a53f8c843c25be375feac50e4704538686ee1e3a835f89aa11780f",
+      "scripts/item237_j1_algebraic_residual_certificate.py": "f89047396e3f6b4644cf0194b7716dfad91b3eb41de7b88c9377cf3e81d09dcf",
+      "scripts/item243_order6_gauge_closure_certificate.py": "d619e0809aaa89b5d11cbe30a92a3e7f8cf14237f45dd066aedf84e017bbfdd8",
+      "scripts/item264_j1_weighted_gate_certificate.py": "a91d0905ecd73ba8406902a5c33ff5f6c21c5b67fce65a91b087ec6cf79bf733",
+      "scripts/item288_j1_large_prime_redundancy_certificate.py": "89c9ffcb5496bfd208cfe55a2fceb2d37060c07493d01f17013d9e8c4303b189",
+      "sources/item237_j1_algebraic_residual_report.md": "dd1278d5ec6e3960d5539f3b349f2245449d4801663beb7915140d722a62c569",
+      "sources/item264_j1_weighted_gate_report.md": "767005f8fad07b1fa633bfdd23436e36c7cdef346d032030390c437f207c9344"
+    },
+    "all_s_gauge_unit_extension": "p=4h+6s+3>=4h+9; every gauge recurrence factor is <=4h+3 and every base/constant prime is <=11",
+    "upstream_theorems": {
+      "Item237_coefficient_formula": "PROVED and pinned",
+      "Item243_all_h_gauge": "c_h^*=R_h E_h^* for all h>=1 with 3 not dividing h.",
+      "Item264_fixed_M_normalization": "PROVED and pinned; retained ceiling 1/36 per 6M",
+      "Item288_actual_row_gauge_unit": "for h>=1, 3 not dividing h, c_h=G_h*E_h with G_h a unit in that localization"
+    }
+  }
+}

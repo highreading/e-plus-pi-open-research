@@ -1,0 +1,98 @@
+{
+  "schema": "item313-beta-divisor-2adic-no-go-manifest-v1",
+  "item": 313,
+  "title": "All-n 2-adic exclusion of the Item-311 beta divisor branch",
+  "date": "2026-08-31",
+  "status": "PROVED_SCOPED_DIVISOR_EXCLUSION",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item311_beta_seed_multiplier_open_checkpoint.md": "6b0bcc27beb4798c58e1fbf513c427a679beb04801d3d57c97db0676d8c87202",
+    "scripts/item311_beta_seed_multiplier_open_checkpoint.py": "6b1fbf7543d431a9bde0e3bc1bcf5a1320ae818498a42762cd7e48c2b6d9668f",
+    "results/item311_beta_seed_multiplier_open_checkpoint.json": "a4d6aecd652c7f975ebac327840bc178d8a87ffc4e973e9a128f9eb2b4112814",
+    "manifests/item311_beta_seed_multiplier_open_checkpoint_manifest.json": "f3abd25903b5d91a042b94fa2b3bcb7bdaa1d127f31306e996b974f8b5eb29f1",
+    "results/item311_beta_seed_multiplier_open_checkpoint_root_replay.json": "a4d6aecd652c7f975ebac327840bc178d8a87ffc4e973e9a128f9eb2b4112814",
+    "results/item311_root_audit.json": "d349f60437a26e06605bde176bc4718ae9d4a7b498e0dc076b7b0bdc0abb1cdf",
+    "sources/item305_beta_continuant_multiplier_report.md": "7da8f962ccf340204c80303682c2e0d2bbd7ad4ecbe1662a689cbcbbf210efcc",
+    "scripts/item305_beta_continuant_multiplier_certificate.py": "688c3aa668d15a70ce688a13c0677a57fc0e2ca80b9cf22a8dceb2c7c10f4db4"
+  },
+  "artifacts": [
+    {
+      "path": "work/item313_beta_divisor_2adic_no_go_report.md",
+      "role": "all-length proof, endpoint audit, and strict scope",
+      "bytes": 13068,
+      "sha256": "c926d95a976738fb9aff8d7d01d10f4f1caa316d394ffc00be5f9879bf5e7406"
+    },
+    {
+      "path": "work/item313_beta_divisor_2adic_no_go_certificate.py",
+      "role": "standard-library exact deterministic replay",
+      "bytes": 13357,
+      "sha256": "e1f96d21b62484c126f03130c751f050caa9e9e264d5a07f0792fee05b119a1c"
+    },
+    {
+      "path": "work/item313_beta_divisor_2adic_no_go_certificate.json",
+      "role": "canonical work-package certificate output",
+      "bytes": 9058,
+      "sha256": "ba2e32e504e69681c2c253033d8f44624feca815dda7b51085bf15f067699a9a"
+    },
+    {
+      "path": "work/item313_beta_divisor_2adic_no_go_certificate.replay.json",
+      "role": "independent byte-identical replay output",
+      "bytes": 9058,
+      "sha256": "ba2e32e504e69681c2c253033d8f44624feca815dda7b51085bf15f067699a9a"
+    },
+    {
+      "path": "work/item313_beta_divisor_2adic_no_go_ledger_delta.json",
+      "role": "proposed ledger delta; no canonical edit",
+      "bytes": 2066,
+      "sha256": "2ba8379f5dbeef90860e54204c490b648edfd494bd7ac8cbe24299012598a94a"
+    }
+  ],
+  "replay": {
+    "command": "python work/item313_beta_divisor_2adic_no_go_certificate.py --output work/item313_beta_divisor_2adic_no_go_certificate.replay.json",
+    "expected_stdout": {
+      "capacity_reduction": "ZERO",
+      "centered_half_bound": "OPEN",
+      "divisor_exclusion": "PROVED",
+      "item": 313,
+      "status": "PROVED_SCOPED_DIVISOR_EXCLUSION",
+      "weaker_actual_bound": "PROVED"
+    },
+    "expected_replay_sha256": "ba2e32e504e69681c2c253033d8f44624feca815dda7b51085bf15f067699a9a"
+  },
+  "proved": [
+    "For 4|L, F_L(r)=I+L N_r modulo 4*2^v2(L), with N_r^2=0.",
+    "For 4|L, v2(q_(j+L)-q_j)=v2(L)+1.",
+    "For every permitted even prefix, v2(C Theta-HY)=v2(L), including the empty-tail endpoint.",
+    "For n>=5 and 1<=k<n-2, Dhat_k>2q_(n-2)Q_k implies Dhat_k does not divide q_(n-1).",
+    "For n>=2, the actual centered remainder satisfies R_actual>=q_(n-1)/(2q_(n-2))."
+  ],
+  "strict_scope": {
+    "closes": "only the Item305/Item311 Legendre-classified multiplier window",
+    "does_not_close": [
+      "R_actual>=q_(n-1)/2",
+      "the intermediate region between the weaker and centered half-bounds",
+      "any beta capacity reduction",
+      "Route 1 or any conclusion about e+pi"
+    ]
+  },
+  "strict_labels": {
+    "PROVED": [
+      "the transfer congruence and two valuation lemmas",
+      "the all-n divisor exclusion",
+      "the weaker actual centered-remainder bound"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "the base residue table and declared replay control rows"
+    ],
+    "OPEN": [
+      "the centered half-bound",
+      "the intermediate window",
+      "every beta capacity consequence"
+    ]
+  },
+  "capacity": {
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "booking": 0
+  }
+}

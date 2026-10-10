@@ -1,0 +1,92 @@
+{
+  "item": 391,
+  "schema": "item391-j1-logarithmic-spacing-resultant-criterion-manifest-v1",
+  "classification": "PROVED_ACTUAL_SUBLOG_CLUSTER_ZERO_RATE_AND_LOGARITHMIC_SCALE_CRITERION",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual fixed-j=1 joint Hasse-transverse collision set, exact shifted resultant and norm/gcd identities, uniform sublogarithmic cluster mass, logarithmic spacing and occupancy capacity criteria",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item216_gosper_phase_obstruction_report.md": "4465d67b3d6560dcb9033bea162eeadb76ddbc8a85c6a118c5eb0486a4704cb4",
+    "sources/item217_common_log_invariant_report.md": "89e8f8f7f9fabdafa8d9330171eb388e854df835c10ee50be4f4f5b43e028466",
+    "sources/item279_j1_bounded_cluster_report.md": "533383bdd073c2950ae5ff65e9c2888a80242c58317c6ca89306bd2d1864a28e",
+    "sources/item363_j1_joint_gate_crt_elimination_no_go_report.md": "377ed30c0c6be630c124ccd3050d37176264c659d23a502453a9aaa34ff132ee",
+    "work/item384_j1_universal_filtered_selector_capacity_no_go_report.md": "9a7340ec9960ad6278e47c63de728048b52cfe59fc957ca93ea32558c6c39342",
+    "work/item384_j1_universal_filtered_selector_capacity_no_go_certificate.py": "c574d6f44e66380e53e0e4450190e349bf0d4875afbcc4c65045c354658ed231",
+    "work/item384_j1_universal_filtered_selector_capacity_no_go_certificate.json": "5fbdcbe3e7348f3776dab07c5dd6492278951929f3461f85fb78e5d11129e873",
+    "work/item384_j1_universal_filtered_selector_capacity_no_go_certificate_replay.json": "5fbdcbe3e7348f3776dab07c5dd6492278951929f3461f85fb78e5d11129e873",
+    "work/item384_j1_universal_filtered_selector_capacity_no_go_ledger_delta.json": "1327b3162009527b08e51a453f05fcb99c3cb2830ab65f3d0ad4e07cd06a1241",
+    "work/item384_j1_universal_filtered_selector_capacity_no_go_manifest.json": "16cee992a61d220fb69a49e040e3c9299be087c0830cdfb1fe65f7a31168434b"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item391_j1_logarithmic_spacing_resultant_criterion_report.md",
+      "sha256": "304713605fcf33675a882b4f333d60cc35fd36bc6b860353eff36472d4a27564",
+      "bytes": 15253
+    },
+    "certificate_script": {
+      "path": "work/item391_j1_logarithmic_spacing_resultant_criterion_certificate.py",
+      "sha256": "419c689a149be1056eca68410f5b8a756c9d3674a715df2602640cc3c1bf40ff",
+      "bytes": 12312
+    },
+    "certificate": {
+      "path": "work/item391_j1_logarithmic_spacing_resultant_criterion_certificate.json",
+      "sha256": "542676c4e2acf6718c63b362d6bbd7e3358cbcfb655033c6db1bc5e20ed7602f",
+      "bytes": 45465
+    },
+    "replay": {
+      "path": "work/item391_j1_logarithmic_spacing_resultant_criterion_certificate_replay.json",
+      "sha256": "542676c4e2acf6718c63b362d6bbd7e3358cbcfb655033c6db1bc5e20ed7602f",
+      "bytes": 45465,
+      "byte_identical_to_certificate": true
+    },
+    "ledger": {
+      "path": "work/item391_j1_logarithmic_spacing_resultant_criterion_ledger_delta.json",
+      "sha256": "156ea31c7a4f47b6d9e9d0f7cc89a862d0837fdfa3fc45b52f631b40bc505d5c",
+      "bytes": 2801
+    }
+  },
+  "theorems": [
+    "the actual collision polynomial F_M gives an exact shifted-resultant zero criterion for actual joint-gate prime pairs",
+    "evaluations F_M(plus or minus 2d) give exact gcd radicals for lower and upper endpoints of tied pairs",
+    "the average shift singular factor is at most pi D/2 by divisor expansion and the Wallis product",
+    "the uniform Selberg prime-pair upper bound gives o(M) actual endpoint mass for every D=o(log M)",
+    "pair-free spacing through D asymptotic to c log M gives retained normalized capacity at most 1/(72c)",
+    "c greater than 1/2 is exactly the threshold for a strict saving below 1/36 in this criterion",
+    "superlogarithmic pair exclusion or K_M(D) log M / D tending to zero is sufficient for W=o(M)",
+    "positive normalized mass rho forces a vanishing resultant by offset at most (1+o(1)) log(U_M)/(72rho)",
+    "fixed and o(log M) collision clusters are closed as positive-linear-mass carriers"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "exact actual-family shifted identities",
+      "uniform sublogarithmic cluster zero-rate theorem",
+      "exact logarithmic spacing and bounded-occupancy criteria",
+      "logarithmic-offset converse",
+      "zero booking and retention of the whole-cell ceiling"
+    ],
+    "CONDITIONAL_CRITERIA_ONLY": [
+      "actual shifted-resultant nonvanishing at logarithmic or superlogarithmic scale",
+      "a logarithmic-window actual occupancy bound",
+      "any strict whole-cell capacity reduction",
+      "W_{H,T}(M)=o(M)"
+    ],
+    "DECLARED_EXACT_CONTROLS_ONLY": [
+      "nine predeclared abstract root sets inside actual candidate intervals",
+      "finite exact Wallis and singular-factor arithmetic",
+      "no actual collision census or finite-to-infinite inference"
+    ],
+    "OPEN": [
+      "a logarithmic-scale arithmetic theorem for the actual joint gate",
+      "a useful special factorization or height theorem for the shifted norm gcds",
+      "a strict retained constant below 1/36 for the whole fixed-j=1 cell",
+      "any new Route-1 booking and every conclusion about e+pi"
+    ]
+  },
+  "ledger": {
+    "new_actual_sublog_cluster_rate": 0,
+    "new_route1_booking": 0,
+    "new_whole_cell_capacity_reduction": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "conclusion_about_e_plus_pi": "OPEN"
+  }
+}

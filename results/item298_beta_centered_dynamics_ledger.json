@@ -1,0 +1,109 @@
+{
+  "schema": "item298-beta-centered-dynamics-ledger-v1",
+  "scope": "Exact rank-one Turan state, centered pair bijection, actual unbounded forward carry, primitive-denominator contraction obstruction, ambient fixed-norm obstruction, proper-target asymmetry, and zero-booking verdict",
+  "claims": [
+    {
+      "id": "I298-C1",
+      "label": "PROVED",
+      "claim": "The actual centered pair is carried by w_n=T_n/b: t_n=nint(w_n), r_n=b(t_n-w_n), and w_(n-1)=4c-(b/a)w_n.",
+      "evidence": "report Section 3, using T_n+T_(n-1)=4ac"
+    },
+    {
+      "id": "I298-C2",
+      "label": "PROVED",
+      "claim": "The full-target half-bound is exactly dist(w_n,Z)>=a/(2b)=1/(2 lambda_n).",
+      "evidence": "report equation (3.5)"
+    },
+    {
+      "id": "I298-C3",
+      "label": "PROVED",
+      "claim": "For m=nint((r-ct)/a), the backward centered map is Phi_n(r,t)=(ct-r+am,4c-At+m).",
+      "evidence": "report equations (4.3)-(4.5)"
+    },
+    {
+      "id": "I298-C4",
+      "label": "PROVED",
+      "claim": "Phi_n is a bijection from |r|<b/2 to |R|<a/2, with the explicit inverse in equations (4.6)-(4.8).",
+      "evidence": "report Section 4"
+    },
+    {
+      "id": "I298-C5",
+      "label": "PROVED",
+      "claim": "The exact lattice equivariance is Phi_n(r,t+a)=Phi_n(r,t)+(0,-b).",
+      "evidence": "report equation (4.10)"
+    },
+    {
+      "id": "I298-C6",
+      "label": "PROVED",
+      "claim": "For the actual orbit, u_n=A t_n-4c+t_(n-1) satisfies r_n=a u_n+c t_n-r_(n-1).",
+      "evidence": "report equations (5.2)-(5.4)"
+    },
+    {
+      "id": "I298-C7",
+      "label": "PROVED ACTUAL-FAMILY",
+      "claim": "The actual forward carry satisfies u_n<0 for every n>=6 and u_n tends to minus infinity.",
+      "evidence": "report equations (5.5)-(5.15), exact n=6 base, n=7 polynomial inequality base, persistence, and factorial q-growth"
+    },
+    {
+      "id": "I298-C8",
+      "label": "PROVED CONSTRUCTION",
+      "claim": "For every n>=4 there is a one-step affine orbit with exact primitive denominators a and b whose previous centered numerator has magnitude (a-1)/2 and whose current centered remainder is -1.",
+      "evidence": "report Section 6"
+    },
+    {
+      "id": "I298-C9",
+      "label": "PROVED SCOPED METHOD OBSTRUCTION",
+      "claim": "Affine recurrence, real contraction, primitive denominators, and a nearly maximal previous centered remainder alone do not imply the next half-bound.",
+      "scope_limit": "the constructed orbit is not asserted to satisfy the actual short positive Turan interval and is not an actual counterexample"
+    },
+    {
+      "id": "I298-C10",
+      "label": "PROVED SCOPED METHOD OBSTRUCTION",
+      "claim": "The actual carry cannot be treated as uniformly bounded, and the ambient centered pair maps have no row-uniform finite Lipschitz constant in any fixed unscaled norm.",
+      "scope_limit": "does not exclude row-dependent scaling, a small actual invariant region, or an arithmetic Lyapunov function"
+    },
+    {
+      "id": "I298-C11",
+      "label": "OPEN",
+      "claim": "The all-n half-bound, stronger Item295 inequality, and an invariant short-branch region remain open.",
+      "scope_limit": "no finite observation is promoted"
+    },
+    {
+      "id": "I298-C12",
+      "label": "PROVED ASYMMETRIC",
+      "claim": "A full-b lower bound does not transfer to a proper divisor target Q, while a full-b upper construction would.",
+      "evidence": "report Section 9"
+    },
+    {
+      "id": "I298-C13",
+      "label": "PROVED",
+      "claim": "The additive centered quotient remains separate from the Item282 common coefficient/product baseline.",
+      "evidence": "report Section 9"
+    },
+    {
+      "id": "I298-C14",
+      "label": "EXACT FINITE ONLY",
+      "claim": "The checker replays bounded instances of the exact identities, bijection, actual carry formula, and explicit obstruction constructions.",
+      "scope_limit": "no half-bound scan, counterexample search, asymptotic extrapolation, or exceptional-prime search"
+    }
+  ],
+  "strict_labels": {
+    "rank_one_turan_state": "PROVED",
+    "centered_pair_bijection": "PROVED",
+    "actual_forward_carry_identity": "PROVED",
+    "actual_forward_carry_unbounded": "PROVED",
+    "primitive_denominator_collapse": "PROVED CONSTRUCTION, NOT ACTUAL ORBIT",
+    "fixed_unscaled_norm_contraction": "PROVED SCOPED FAIL",
+    "bounded_actual_carry_contraction": "PROVED SCOPED FAIL",
+    "actual_short_branch_invariant": "OPEN",
+    "row_dependent_rescaled_lyapunov": "OPEN",
+    "all_n_half_bound": "OPEN",
+    "stronger_item295_inequality": "OPEN",
+    "actual_counterexample": "NONE PRODUCED",
+    "proper_target_transfer": "PROVED ASYMMETRIC",
+    "item282_product_baseline": "OPEN AND SEPARATE",
+    "bounded_checks": "EXACT FINITE ONLY",
+    "positive_linear_capacity_admission": "FAIL",
+    "booking": "zero new Route-1 rate and zero new beta capacity reduction"
+  }
+}

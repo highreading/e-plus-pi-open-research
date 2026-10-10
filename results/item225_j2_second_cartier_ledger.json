@@ -1,0 +1,107 @@
+{
+  "item": 225,
+  "scope": "j=2 regularized recurrence through the second Frobenius terminal",
+  "cell": "4m+1=5p-2s, 1<=s<=(p-3)/6, p>=11, s=(p-1)/2 mod 2",
+  "PROVED": [
+    {
+      "claim": "exact coefficient and period reciprocity",
+      "value": "g_l=(-1)^r g_(d-l) and That_L(k)=(-1)^(r+1) That_Ldual(2s-r-k), with L=(9,-20,-2chi) and Ldual=(9,-2,-20chi)"
+    },
+    {
+      "claim": "exact regularized recurrence forcing",
+      "value": "sum_j A_j(k) That_(k+j)=-sum_a [z^(ap)]K_k W_L(ap)"
+    },
+    {
+      "claim": "both phase constants are audited",
+      "value": "W_L(p)=7 and W_L(2p)=29 for p mod 4 equal to 1 or 3"
+    },
+    {
+      "claim": "closed free-mode theorem",
+      "value": "the first-resonance free mode has generating polynomial g=(1-z)^r(1+z)(1+z^2)^(2s)"
+    },
+    {
+      "claim": "exact support gap",
+      "value": "p-4-deg(g)=(p-2s-7)/2>0, so all four free-mode entries at the second terminal vanish"
+    },
+    {
+      "claim": "new necessary arithmetic condition",
+      "value": "an actual collision with s>=2 requires beta*tau!=0 and Omega=Psi=0 mod p"
+    }
+  ],
+  "EXACT_FINITE": [
+    {
+      "prime_bound": 401,
+      "rows": 1153,
+      "s_equals_1_rows": 38,
+      "s_at_least_2_rows": 1115,
+      "omega_nonzero_rows": 1108,
+      "omega_zero_rows": 7,
+      "omega_zero_psi_nonzero_rows": 7,
+      "joint_omega_psi_zero_rows": 0,
+      "omega_zero_pairs_and_psi": [
+        [
+          23,
+          3,
+          15
+        ],
+        [
+          157,
+          4,
+          130
+        ],
+        [
+          193,
+          26,
+          79
+        ],
+        [
+          241,
+          4,
+          71
+        ],
+        [
+          311,
+          47,
+          185
+        ],
+        [
+          349,
+          50,
+          292
+        ],
+        [
+          397,
+          44,
+          230
+        ]
+      ],
+      "status": "no inference beyond the finite bound"
+    },
+    {
+      "full_identity_replay_prime_bound": 101,
+      "rows": 74,
+      "status": "coefficient reciprocity, period reciprocity, every regularized recurrence row, and both terminal phases replay exactly"
+    }
+  ],
+  "OPEN": [
+    "all-prime exclusion or density bound for simultaneous Omega=Psi zeros",
+    "the exceptional s=1 family",
+    "a zero-rate theorem for the fixed j=2 cell",
+    "any common-log capacity reduction",
+    "any conclusion about e+pi"
+  ],
+  "booking": {
+    "new_rate_per_m": "0",
+    "j2_capacity_per_m": "2/35",
+    "status": "NO CAPACITY BOOKED"
+  },
+  "artifacts": [
+    "item225_j2_second_cartier_report.md",
+    "item225_j2_second_cartier_certificate.py",
+    "item225_j2_second_cartier_certificate.json",
+    "item225_j2_second_cartier_certificate_replay.json",
+    "item225_j2_second_cartier_ledger.json",
+    "item225_j2_second_cartier_manifest.json",
+    "item225_j2_second_cartier_hashes.sha256"
+  ]
+}

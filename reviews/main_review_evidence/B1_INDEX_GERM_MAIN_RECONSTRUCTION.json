@@ -1,0 +1,98 @@
+{
+  "reviewer": "main Codex",
+  "method": "Fresh Fraction polynomial arithmetic on X=1+3Y; exact inverse-unit truncation, all coefficients and reduced denominators checked. No archived code executed.",
+  "scope": "The fixed finite ternary germ congruences and the fifteen-term 5-adic constant. Analytic convergence, Hensel factorization and infinite-index valuation transfers are separately proved in the main review; no sample search is used as proof.",
+  "source_sha256": {
+    "work/session_20260927/hp_b1_residue_one_actual_numerator.md": "9098ab78ca7b7a1dcca5d8f3a3c00e14b26e8c067f03d68c7b4cd8451141bf16",
+    "work/session_20260913/hp_auxiliary_simple_root_analytic_reduction.md": "a834d46563e0969d0b0107a1da06ca118db204a8f83d261b2358c50391c3fee1",
+    "work/session_20260913/hp_special_gcd_unit_lift.md": "867b8b65dcfbe72249e8c801ff98336e6a6cd0dc29de664db7aa11d47c94117a"
+  },
+  "truncations": {
+    "outer_R_strictly_below": 12,
+    "D_r_strictly_below": 9,
+    "unit_inverse": [
+      "1/2",
+      "-3/4",
+      "9/8"
+    ],
+    "largest_single_term_degree": 33,
+    "C_polynomial_coefficients_checked": 55
+  },
+  "germ_controls": [
+    {
+      "germ": "H",
+      "modulus": 27,
+      "all_coefficients_checked": 23,
+      "residue_polynomial_low_to_high": [
+        0,
+        9,
+        9
+      ]
+    },
+    {
+      "germ": "K",
+      "modulus": 9,
+      "all_coefficients_checked": 26,
+      "residue_polynomial_low_to_high": [
+        0,
+        3
+      ]
+    },
+    {
+      "germ": "A",
+      "modulus": 9,
+      "all_coefficients_checked": 31,
+      "residue_polynomial_low_to_high": [
+        3,
+        6
+      ]
+    },
+    {
+      "germ": "B",
+      "modulus": 3,
+      "all_coefficients_checked": 34,
+      "residue_polynomial_low_to_high": [
+        1
+      ]
+    }
+  ],
+  "C_mod27_all_coefficients": [
+    0,
+    0,
+    9
+  ],
+  "exact_integer_constants_H_K_A_B": [
+    0,
+    0,
+    3,
+    10
+  ],
+  "exact_index_slopes_H_K_C": [
+    "-3/2",
+    "4",
+    "27"
+  ],
+  "five_adic_constant": {
+    "coefficient_recurrence": "c_r=c_(r-1)-c_(r-2)/2",
+    "terms_r_0_through_14": [
+      "1",
+      "-1",
+      "1",
+      "0",
+      "-6",
+      "30",
+      "-90",
+      "0",
+      "2520",
+      "-22680",
+      "113400",
+      "0",
+      "-7484400",
+      "97297200",
+      "-681080400"
+    ],
+    "exact_sum": "-591174425",
+    "residue_mod125": 75,
+    "tail_reason": "For every r>=15, v5(r!)>=3 and c_r is 5-integral."
+  }
+}

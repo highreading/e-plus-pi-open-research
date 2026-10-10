@@ -1,0 +1,196 @@
+{
+  "available_archive_objects": {
+    "item273": "rank-at-most-eight rational translation module with fixed singular support",
+    "item275": "rank-six exterior square and fixed stratified flag incidence; natural kernel line non-horizontal",
+    "item281": "all-branch normalized gcd/Fitting recognition",
+    "item284": "exact CRT recognition only"
+  },
+  "capacity": {
+    "count_needed_for_zero_log_mass": "o(M/log M)",
+    "new_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "raw_j1_capacity_per_6M": "1/36"
+  },
+  "conditional_bridge": {
+    "assumptions": [
+      "Kowalski Theorem 3.1 and Proposition 3.3 apply",
+      "target is an exact integral zero of conjugacy-invariant coefficients and hence auxiliary-local at every ell",
+      "the complements Omega(ell) have uniformly positive relative density",
+      "the auxiliary-prime set has positive density"
+    ],
+    "choice": "L=q^(1/(2A))",
+    "conclusion": "|target| << q^(d-1/(2A)) log q",
+    "horizontal_capacity_threshold": "N(M)=o(M/log M) implies W(M)=o(M)",
+    "symbolic_integer_A_checks": [
+      {
+        "A": 1,
+        "L_exponent": "1/2",
+        "power_saving": "1/2",
+        "second_numerator_relative_exponent": "0"
+      },
+      {
+        "A": 2,
+        "L_exponent": "1/4",
+        "power_saving": "1/4",
+        "second_numerator_relative_exponent": "0"
+      },
+      {
+        "A": 3,
+        "L_exponent": "1/6",
+        "power_saving": "1/6",
+        "second_numerator_relative_exponent": "0"
+      },
+      {
+        "A": 4,
+        "L_exponent": "1/8",
+        "power_saving": "1/8",
+        "second_numerator_relative_exponent": "0"
+      },
+      {
+        "A": 5,
+        "L_exponent": "1/10",
+        "power_saving": "1/10",
+        "second_numerator_relative_exponent": "0"
+      },
+      {
+        "A": 6,
+        "L_exponent": "1/12",
+        "power_saving": "1/12",
+        "second_numerator_relative_exponent": "0"
+      },
+      {
+        "A": 7,
+        "L_exponent": "1/14",
+        "power_saving": "1/14",
+        "second_numerator_relative_exponent": "0"
+      },
+      {
+        "A": 8,
+        "L_exponent": "1/16",
+        "power_saving": "1/16",
+        "second_numerator_relative_exponent": "0"
+      },
+      {
+        "A": 9,
+        "L_exponent": "1/18",
+        "power_saving": "1/18",
+        "second_numerator_relative_exponent": "0"
+      },
+      {
+        "A": 10,
+        "L_exponent": "1/20",
+        "power_saving": "1/20",
+        "second_numerator_relative_exponent": "0"
+      },
+      {
+        "A": 11,
+        "L_exponent": "1/22",
+        "power_saving": "1/22",
+        "second_numerator_relative_exponent": "0"
+      },
+      {
+        "A": 12,
+        "L_exponent": "1/24",
+        "power_saving": "1/24",
+        "second_numerator_relative_exponent": "0"
+      }
+    ]
+  },
+  "dependencies": {
+    "count": 9,
+    "sha256": {
+      "scripts/item273_j1_fixed_incidence_certificate.py": "4f26bc7616b61922ab00e6ab69ad0d9c38e36070295c9aa900e7bbbc0dbe0511",
+      "scripts/item275_j1_grassmannian_certificate.py": "e75ea09a4d6c57cbb7c5fc971072f3b203f4faa4d9d363384fa288f62070c1bb",
+      "sources/item264_j1_weighted_gate_report.md": "767005f8fad07b1fa633bfdd23436e36c7cdef346d032030390c437f207c9344",
+      "sources/item273_j1_fixed_incidence_report.md": "3100dc1beef7508ccc317b86d7ae9e9ac464f990b6934aa7422f7f0186402943",
+      "sources/item275_j1_grassmannian_report.md": "a00e7ba707d57348037f10cded3db0a7fbbc8baa1ea9edcb8103e227ebaa5995",
+      "sources/item279_j1_bounded_cluster_report.md": "533383bdd073c2950ae5ff65e9c2888a80242c58317c6ca89306bd2d1864a28e",
+      "sources/item281_j1_isolated_fitting_norm_report.md": "fcd8f91426edf31a8de5b90dbc986ae04c08865ddfe448fc9e240410c5c1fd80",
+      "sources/item284_j1_parameter_norm_report.md": "bc8b84ab59f2e8aed790237d8e57191c78e4c5811d198137ab5ceb6d68a23889",
+      "sources/route1_targeted_literature_note_items259_265.md": "b695c350feb8362b9f7d3349c27d7949c8beda3a8dceb3dd660ae63c11e15a31"
+    }
+  },
+  "diagonal_modulus": {
+    "all_prime_proof": "for p!=ell, the witness (a,b)=(p,p) is p-zero and ell-nonzero",
+    "constructor_replay_label": "EXACT FINITE ONLY; no collision census",
+    "constructor_replay_pairs": 600,
+    "constructor_replay_sha256": "d436614f2b5c4077412c6cf4c824f794ebdb1c30005f113228b930d08e2cc75e"
+  },
+  "hypothesis_audit": [
+    {
+      "criterion": "fixed finite-field base U/F_q",
+      "reason": "candidate p varies with the characteristic",
+      "status": "MISSING"
+    },
+    {
+      "criterion": "lisse fixed-rank auxiliary-ell sheaves",
+      "reason": "difference matrices are not pi_1 representations",
+      "status": "MISSING"
+    },
+    {
+      "criterion": "compatible integral system",
+      "reason": "no ell-independent Frobenius polynomials",
+      "status": "MISSING"
+    },
+    {
+      "criterion": "uniform cohomological complexity/conductor",
+      "reason": "fixed rational poles do not prove it",
+      "status": "MISSING"
+    },
+    {
+      "criterion": "geometric and arithmetic monodromy",
+      "reason": "no endpoint-state monodromy group",
+      "status": "MISSING"
+    },
+    {
+      "criterion": "cross-ell linear disjointness",
+      "reason": "no product-surjectivity theorem",
+      "status": "MISSING"
+    },
+    {
+      "criterion": "fixed conjugacy-stable full-gate condition",
+      "reason": "Pluecker incidence has no Frobenius class",
+      "status": "MISSING"
+    },
+    {
+      "criterion": "collision-to-all-auxiliary-ell implication",
+      "reason": "recognition is diagonal modulo p",
+      "status": "MISSING"
+    },
+    {
+      "criterion": "uniform local density",
+      "reason": "codimension is not equidistribution",
+      "status": "MISSING"
+    }
+  ],
+  "labels": {
+    "collision_census_performed": false,
+    "conditional_exact_zero_bridge": "PROVED conditional calculation",
+    "current_archive_applicability": "PROVED NOT ESTABLISHED",
+    "diagonal_modulus_mismatch": "PROVED scoped obstruction",
+    "fixed_field_mismatch": "PROVED scoped obstruction",
+    "kowalski_large_sieve_statement": "LITERATURE THEOREM under cited hypotheses",
+    "new_route1_rate": 0
+  },
+  "payload_sha256": "530cedb1ba467fce915a62b8ec1d5d347628dfebcd5b640aabacdd6face058b9",
+  "phase": {
+    "candidate_interval": [
+      "(4M+3)/3",
+      "(3M-1)/2"
+    ],
+    "exact_interval_length": "(M-9)/6",
+    "length_slope": "1/6",
+    "phase_identity": "4M+1=3p-2s",
+    "raw_capacity_per_6M": "1/36",
+    "raw_log_mass_per_M": "1/6"
+  },
+  "schema": "item286-j1-frobenius-sieve-applicability-certificate-v1",
+  "scope": {
+    "excluded": "application of Kowalski's fixed-field Frobenius sieve from the currently sealed finite module and recognition identities alone",
+    "not_excluded": [
+      "a new compatible system over a fixed or arithmetic base",
+      "a direct horizontal Chebotarev or large-sieve theorem",
+      "an exact-zero conjugacy-invariant or rigorously framed auxiliary-local bridge special to the actual state"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schema": "item354-beta-mesoscopic-incidence-resultant-tower-self-audit-v1",
+  "item": 354,
+  "date": "2026-09-01",
+  "status": "PASS",
+  "auditor_role": "author-side mechanical and scope check; root remains the independent auditor",
+  "checks": {
+    "json_files_parse": true,
+    "certificate_script_compiles": true,
+    "certificate_replay_succeeds": true,
+    "certificate_replay_byte_identical": true,
+    "dependency_hashes_verified_by_replay": 21,
+    "report_inline_dollar_delimiters": "136/136",
+    "report_display_delimiters": "33/33",
+    "report_fences": "2/2",
+    "report_control_characters": 0,
+    "canonical_files_modified": false
+  },
+  "independent_style_declared_control": {
+    "method": "standalone incidence-layer recomputation without importing the certificate module",
+    "declared_patterns": [
+      "mixed singleton/doubleton/tripleton with squarefull split",
+      "all-singleton pairwise blind spot",
+      "all-doubleton squarefree pair layer"
+    ],
+    "checked": [
+      "G_r=product p^binom(nu_p,r)",
+      "R_r=product_(nu_p>=r) p",
+      "product rows=product_r R_r",
+      "R_r^r<=product rows",
+      "powerful-supported radical divides E(Q)"
+    ],
+    "rows_digest": "11f16aae2d71a16a276296a16037ff43bd40049eb7429e18c345fc7294d8cd1b",
+    "finite_rows_promoted": false
+  },
+  "mathematical_scope_checks": {
+    "capacity_admission_precedes_proof": true,
+    "exact_zero_rows_preserved_as_C_j_equal_one": true,
+    "t_avoidance_built_into_C_j": true,
+    "first_hit_D_j_distinguished_from_raw_C_j": true,
+    "pairwise_gcds_of_D_j_identically_one": true,
+    "complete_r_wise_incidence_tower_exact": true,
+    "pairwise_R_2_ceiling_remains_full_scale": true,
+    "growing_low_incidence_equivalence_exact": true,
+    "denominator_valuation_distinguished_from_row_incidence": true,
+    "squarefull_E_Q_overlap_not_rebooked": true,
+    "item350_selected_hit_not_promoted_to_first_occurrence": true,
+    "declared_singleton_rows_not_promoted_to_actual_targets": true,
+    "actual_low_incidence_bound_open": true,
+    "actual_Xi_Q_open": true,
+    "booking_zero": true
+  },
+  "independent_audit_required": true
+}

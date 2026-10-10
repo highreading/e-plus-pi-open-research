@@ -1,0 +1,43 @@
+{
+  "schema": "item284-root-audit-v1",
+  "audit_date": "2026-08-31",
+  "auditor": "root",
+  "verdict": "PASS_WITH_STRICT_SCOPE",
+  "substantive_checks": {
+    "simultaneous_nonresidue": "PASS: CRT over the complete known candidate-prime set constructs 1<=d_M<B_M that is a quadratic nonresidue at every candidate without using the unknown collision subset",
+    "raw_norm_bridge": "PASS: each candidate prime divides both raw coordinates once automatically, so the raw norm has valuation exactly two off the gate and at least four on the full collision",
+    "normalized_norm_bridge": "PASS: after forced Cartier division the pair is a common local-unit multiple of the divided coordinates, and p divides the norm exactly on the full gate; a collision contributes at least p^2",
+    "coefficient_height": "PASS: d_M<B_M and the candidate interval PNT give log d_M<=M/6+o(M); no subexponential least-simultaneous-nonresidue claim is inferred from the finite replay",
+    "height_barrier": "PASS: a coefficient of exponent delta gives the inherited raw ratio H/2+delta/4 and normalized ratio H-kappa+delta/2; even delta=0 is far above the raw 1/6 support",
+    "row_rule_aggregation": "PASS: separate row norms have superlinear aggregate height, while one CRT interpolation returns to the same coefficient-height ledger",
+    "finite_false_positives": "PASS: seven simple parameter rules have exact actual noncollision zeros and are labeled finite witnesses only",
+    "reservoir_deoverlap": "PASS: the norm powers are algebraic powers of the same normalized two-coordinate collision ideal and create no independent Item-149 valuation copy",
+    "capacity_booking": "PASS: no cancellation or prime-factor localization theorem for the exact norm is proved; the 1/36-per-6M ceiling and booking remain unchanged"
+  },
+  "independent_replay": {
+    "canonical_sha256": "f3ecc6fe0d1335733c9dd4b51f0680c438a766afbb29051c75bec26a6d7a5dee",
+    "root_replay_sha256": "f3ecc6fe0d1335733c9dd4b51f0680c438a766afbb29051c75bec26a6d7a5dee",
+    "byte_identical": true,
+    "payload_sha256": "8436a09bf9ed9602523d31c48efb3080d029d5267d33600f4fec4f6cd8b050ad"
+  },
+  "package_checks": {
+    "manifest_files_checked": 6,
+    "frozen_dependencies_checked": 7,
+    "json_files_parsed": 5,
+    "all_hashes_and_dependencies_match": true
+  },
+  "report_checks": {
+    "sha256": "bc8b84ab59f2e8aed790237d8e57191c78e4c5811d198137ab5ceb6d68a23889",
+    "bytes": 13873,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "display_delimiters": "30/30",
+    "inline_delimiters": "83/83"
+  },
+  "strict_scope": {
+    "proved": "One parameter-dependent CRT norm exactly scalarizes every actual fixed-j1 candidate gate, but divisibility plus componentwise absolute height cannot make it capacity-useful.",
+    "finite_only": "The bounded least-coefficient scan and seven simple-rule false positives are exact witnesses and imply no asymptotic nonresidue or collision distribution.",
+    "open": "Cancellation in the exact norm, localization of its prime factors, a useful rational row rule, and every c<1/6 isolated weighted bound remain open.",
+    "route_status": "Route 1 ACTIVE; Route 2 QUEUED"
+  }
+}

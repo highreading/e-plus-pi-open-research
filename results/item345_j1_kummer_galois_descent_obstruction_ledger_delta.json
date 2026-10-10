@@ -1,0 +1,53 @@
+{
+  "schema": "item345-j1-kummer-galois-descent-obstruction-ledger-delta-v1",
+  "item": 345,
+  "date": "2026-09-01",
+  "canonical_edit_performed": false,
+  "proposed_status": "PROVED_SPLIT_PRIME_DESCENT_DICHOTOMY_AND_SCOPED_GALOIS_PROJECTION_NO_GO",
+  "proposed_ledger_entry": "Item 345 analyzes every ordinary Galois descent of Item 342's chosen-prime Kummer lift T in K_p=Q(zeta_(p-1)). Because p splits completely, the chosen Teichmueller prime has trivial decomposition group. The selected gate T in P kills only one split coordinate. Consequently no nontrivial trace, bounded-character projection, or additive Galois idempotent is forced to vanish at the prime below P. Relative norms do preserve the gate, but for H of size h the relative norm has conjugate bound (21 sqrt(p))^h in a field of degree phi(p-1)/h, so its absolute norm bound is exactly (21 sqrt(p))^phi(p-1), independent of the intermediate field. Thus bounded-index and bounded-degree subfields do not improve the black-box height. A genuine degree-D descent would require a stabilizer of size at least phi(p-1)/D, which is not forced by chosen-prime membership. Five preselected exact group-ring controls all have trivial stabilizer; the two selected-zero controls retain full cyclotomic orbit, while two nonzero controls have p-divisible norms because another split coordinate vanishes, proving exact norm false positives. No scan or universal claim is used. The only live descent routes require a new large-stabilizer theorem on selected-zero rows, exceptional norm cancellation, an extra full-collision condition, or chosen-prime p-adic nonconcentration. Booking and ceiling reduction remain zero; the fixed-j1 ceiling remains 1/36 per 6M.",
+  "capacity": {
+    "support_reached": "all actual Item342 rows",
+    "raw_fixed_j1_prime_mass": "M/6+o(M)",
+    "additive_projection_forced_mass": 0,
+    "black_box_subfield_norm_height_gain": 0,
+    "new_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "new_independent_condition": 0,
+    "retained_ceiling_per_6M": "1/36"
+  },
+  "proved": [
+    "complete splitting of p in Q(zeta_(p-1)) and triviality of the chosen-prime decomposition group",
+    "non-preservation of the chosen-prime gate by every nontrivial additive Galois projection justified only from ideal membership",
+    "preservation of the gate by every relative norm",
+    "invariance of the black-box absolute norm bound under every intermediate subfield",
+    "the exact stabilizer/orbit criterion for bounded-degree descent",
+    "a scoped no-go for formal Galois projections and subfield norms"
+  ],
+  "scoped_no_go": [
+    "traces and bounded-character additive projections lose the chosen split coordinate",
+    "relative norms keep the gate but retain the full Item342 absolute norm height",
+    "bounded-index and bounded-degree subfields do not change that height identity",
+    "the formal Teichmueller construction and selected-carrier vanishing alone force no nontrivial stabilizer"
+  ],
+  "exact_finite_only": [
+    "five preselected group-ring stabilizer and resultant controls; no prime scan",
+    "two selected-carrier zeros have trivial stabilizer and full cyclotomic orbit",
+    "two nonzero selected targets have p-divisible absolute norms and are exact norm false positives",
+    "no control is claimed to be a full ordinary collision"
+  ],
+  "open": [
+    "a large-stabilizer theorem on all but zero-rate selected-zero rows",
+    "special relative-norm cancellation below the Item342 conjugate bound",
+    "chosen-prime p-adic nonconcentration without ordinary descent",
+    "descent forced by an additional full-original-collision condition",
+    "W_b(M)=o(M), any strict fixed-j1 ceiling reduction, fixed-j1 closure, Route 1, and every conclusion about e+pi"
+  ],
+  "not_claimed": [
+    "that every actual Kummer lift has trivial stabilizer",
+    "that special norm cancellation is impossible",
+    "that the selected-factor zero is sufficient for the original collision",
+    "a weighted zero-density theorem or any ledger gain",
+    "an asymptotic inference from finite controls"
+  ]
+}

@@ -1,0 +1,683 @@
+{
+  "assertions": {
+    "all_exact_finite_checks_passed": true,
+    "all_three_halves_values_are_finite_only": true,
+    "no_classification_claim": true,
+    "no_three_halves_extrapolation": true,
+    "q2_edge_included": true
+  },
+  "logical_scope": {
+    "all_parameter": [
+      "direct Padé product-image sum for every q >= 2",
+      "canonical primitive global lift with exact K_q division",
+      "prime-by-prime Schur denominator clearing",
+      "O(q^2) primitive endpoint height upper bound",
+      "stable negative-power quotient bound",
+      "normalized Schur lower bound for kappa",
+      "O(q^2) normalized global analytic-height upper bound"
+    ],
+    "all_q_three_halves_claim": false,
+    "e_plus_pi_classification_claim": false,
+    "finite_only": [
+      "exact replay for 2 <= q <= 7",
+      "H_an/H(endpoint) = 3/2 on the replay grid"
+    ],
+    "height_lower_bound_claim": false,
+    "positive_measure_margin_claim": false
+  },
+  "q_max": 7,
+  "q_min": 2,
+  "rows": [
+    {
+      "cross": {
+        "Q_leading": {
+          "denominator": "15120",
+          "numerator": "313",
+          "sha256": "52c5833018f6bf9997904e9f957fb047364644c06ba06c2cb6709816f079c28b"
+        },
+        "R_leading": {
+          "denominator": "2459520",
+          "numerator": "313",
+          "sha256": "b3eaf585b93d62fdd0901298d04e6a676d976ad7e1dd962e7e429ae2cf4e7561"
+        },
+        "kappa": {
+          "denominator": "37187942400",
+          "numerator": "-97969",
+          "sha256": "bc98c02bbce131b4aeca0dddd19f97d30ef31ab82ffb9cd674dee1380deaf9a0"
+        },
+        "lower_bound_decimal": "0.0000004437842869141491493522823382856231105092",
+        "lower_bound_verified": true,
+        "normalized_schur_formula_verified": true
+      },
+      "direct_sum": {
+        "basis_columns": 6,
+        "basis_rank": 6,
+        "decomposition_sha256": "be8eda4626bafe05b36da8f9bf750267c0058e026ab01395f8a7f2fa559d8731",
+        "degrees_A_B_C": [
+          0,
+          1,
+          0
+        ],
+        "q2_edge_verified": true
+      },
+      "endpoint": {
+        "K_q": {
+          "digits": 8,
+          "sha256": "c95f2eb451f3ab2e7ceefda27c2c9afa173eded78d82e428a5fcb7374bb7fd87",
+          "value": "15752880"
+        },
+        "O_q_squared_bound_exactly_verified": true,
+        "gamma_q": {
+          "digits": 4,
+          "sha256": "9c19f29d0e6fefa21eec58f6ff4d0cf807b63d0ed146f1fea0874506b66c35ee",
+          "value": "1260"
+        },
+        "height": {
+          "digits": 10,
+          "sha256": "55562afadd65416f2605614c337a2e19caf55e67a6f868a33c13445b3379b758",
+          "value": "6337786868"
+        },
+        "l1_norm": {
+          "digits": 10,
+          "sha256": "93fc917d7feacacb81260762771453968a3aa8a3e3f9107894188303cd006cb4",
+          "value": "8906298453"
+        },
+        "primitive_coefficients": [
+          {
+            "digits": 10,
+            "sha256": "55562afadd65416f2605614c337a2e19caf55e67a6f868a33c13445b3379b758",
+            "value": "6337786868"
+          },
+          {
+            "digits": 10,
+            "sha256": "6b7c357711cfb8c3a7fed0607a9f143013455ac03709af6c01d83f274838bd4e",
+            "value": "2568511585"
+          }
+        ],
+        "schur_pair_gcd_equals_gamma_times_K": true
+      },
+      "global_lift": {
+        "analytic_bound_decimal": "142584411058309122074716487580.8836310589",
+        "analytic_height": {
+          "denominator": "1",
+          "numerator": "9506680302",
+          "sha256": "7c58b5ced1c62bead0cfdb5e1bd8359d635e1cbfc2b62a68269ba10df133f561"
+        },
+        "concrete_norm_bound_verified": true,
+        "endpoint_identity_verified": true,
+        "finite_three_halves_ratio": "3/2",
+        "frequency_band": [
+          -2,
+          -1,
+          0,
+          1,
+          2
+        ],
+        "global_K_q_division_is_linear_and_exact": true,
+        "negative_power_max_l1": "7213/15120",
+        "origin_order_at_least": 20,
+        "polynomial_degree_at_most": 12
+      },
+      "q": 2,
+      "schur_clearing": {
+        "D_q": {
+          "digits": 11,
+          "sha256": "153bf09d37213b46b9c268b79c5ee0559fccaa5eed541cb6d9e38cf3f1cfb83b",
+          "value": "18289152000"
+        },
+        "all_D_q_S_k_integral": true,
+        "all_forced_column_bounds_verified": true,
+        "endpoint_bound_sha256": "81649a53bf02d4978604ca32c50a8e68841fee36007baff353cbfff1759c12f5",
+        "max_D_q_S_k": {
+          "digits": 8,
+          "sha256": "e4e1a4fb1fcdf7a20f14925a31926ad8d74e60b9684ba05c979d6071e2e9ad1e",
+          "value": "19051200"
+        }
+      }
+    },
+    {
+      "cross": {
+        "Q_leading": {
+          "denominator": "7850304",
+          "numerator": "2923",
+          "sha256": "262f0881befe0e1a4cf422f5439c7794b81d448c95286be036720e7a381dc37a"
+        },
+        "R_leading": {
+          "denominator": "203841792",
+          "numerator": "37",
+          "sha256": "0b7b6e5797f7575e52fd597e24d1c9b1651794c808c817c8ddfacf8643c33c8f"
+        },
+        "kappa": {
+          "denominator": "1600220035104768",
+          "numerator": "108151",
+          "sha256": "173ecde5c40b9ba5b6ccf056812c8936c9125a3d4874b8023a15d82e3deb13e0"
+        },
+        "lower_bound_decimal": "3.761023696482635021685573305730879728662e-13",
+        "lower_bound_verified": true,
+        "normalized_schur_formula_verified": true
+      },
+      "direct_sum": {
+        "basis_columns": 9,
+        "basis_rank": 9,
+        "decomposition_sha256": "99fb12a494dd1a4c4b0bb98d92cc1d2eec6d6b2842710a21cada0ddd4a0e7a4e",
+        "degrees_A_B_C": [
+          1,
+          2,
+          1
+        ],
+        "q2_edge_verified": false
+      },
+      "endpoint": {
+        "K_q": {
+          "digits": 12,
+          "sha256": "fb0dbb0f5b02db80374e3333ad8ad33e263386f7a6b26f00e4d417c54d4985e1",
+          "value": "759327004800"
+        },
+        "O_q_squared_bound_exactly_verified": true,
+        "gamma_q": {
+          "digits": 6,
+          "sha256": "f29bae566ad0e23b0bba98f1048774e68358850d1deb0e5fe8d7497a992b8194",
+          "value": "415800"
+        },
+        "height": {
+          "digits": 18,
+          "sha256": "970c16e9c84e3684ccb3567bd9a9f31808c94700b0966f0099fc0f6b5536e6af",
+          "value": "560481187344311816"
+        },
+        "l1_norm": {
+          "digits": 18,
+          "sha256": "46d9d848d52a1bfd544067cc74d16546b0123b47f9be4ee27ed72f8423991510",
+          "value": "787635658487957911"
+        },
+        "primitive_coefficients": [
+          {
+            "digits": 18,
+            "sha256": "970c16e9c84e3684ccb3567bd9a9f31808c94700b0966f0099fc0f6b5536e6af",
+            "value": "560481187344311816"
+          },
+          {
+            "digits": 18,
+            "sha256": "10199e8eab4c59f8b669d8af4c6550778e2c045dc52db31af7860a8f222ca377",
+            "value": "227154471143646095"
+          }
+        ],
+        "schur_pair_gcd_equals_gamma_times_K": true
+      },
+      "global_lift": {
+        "analytic_bound_decimal": "7.468042907778837780355129912563687339587e+50",
+        "analytic_height": {
+          "denominator": "1",
+          "numerator": "840721781016467724",
+          "sha256": "2275471c3cfc1fc70ef251bd2001d2bce4482c6a7f86f5969c5c884cf517d192"
+        },
+        "concrete_norm_bound_verified": true,
+        "endpoint_identity_verified": true,
+        "finite_three_halves_ratio": "3/2",
+        "frequency_band": [
+          -2,
+          -1,
+          0,
+          1,
+          2
+        ],
+        "global_K_q_division_is_linear_and_exact": true,
+        "negative_power_max_l1": "19561247/39251520",
+        "origin_order_at_least": 28,
+        "polynomial_degree_at_most": 18
+      },
+      "q": 3,
+      "schur_clearing": {
+        "D_q": {
+          "digits": 23,
+          "sha256": "6433c959b22b590e95b4d27a43ce521f5fe4742a447e13c690c90424f3d06183",
+          "value": "40473662786371584000000"
+        },
+        "all_D_q_S_k_integral": true,
+        "all_forced_column_bounds_verified": true,
+        "endpoint_bound_sha256": "f418825d3b171a50bbee35de062dfc14902fb2d80a5b366495b1c41527d97f40",
+        "max_D_q_S_k": {
+          "digits": 14,
+          "sha256": "dbbcf6ef99ddd3eb66850171229fd25ca46416dd372ac216b82d26b5ccf55127",
+          "value": "16320782016000"
+        }
+      }
+    },
+    {
+      "cross": {
+        "Q_leading": {
+          "denominator": "23594700729600",
+          "numerator": "80737373",
+          "sha256": "dc4c4a5b231465ebd153423f61d3c20d5c367ee8f15ab1477088d333f3842315"
+        },
+        "R_leading": {
+          "denominator": "440047344773836800",
+          "numerator": "80737373",
+          "sha256": "a2992e54b8349d0037f1bf95732552f7b487719f20e404cbf8c2d683329d4766"
+        },
+        "kappa": {
+          "denominator": "10382785406793789891951329280000",
+          "numerator": "-6518523398941129",
+          "sha256": "a5831cecc3c7f4f91ec90a60bcf779bfc37bbc67818fe3bf0b9f99b55f5c1f20"
+        },
+        "lower_bound_decimal": "2.077814631780040736253168352117112696623e-20",
+        "lower_bound_verified": true,
+        "normalized_schur_formula_verified": true
+      },
+      "direct_sum": {
+        "basis_columns": 12,
+        "basis_rank": 12,
+        "decomposition_sha256": "04319ff36d7871d94b54e880b1883ee7dd7dfadef1f722ac68e321f9a1ef76cd",
+        "degrees_A_B_C": [
+          2,
+          3,
+          2
+        ],
+        "q2_edge_verified": false
+      },
+      "endpoint": {
+        "K_q": {
+          "digits": 16,
+          "sha256": "5f12f3b6141a52962dfa36afd48a9075bdc9193d72f4151e8f0a2dba6f6c4902",
+          "value": "9711535645152000"
+        },
+        "O_q_squared_bound_exactly_verified": true,
+        "gamma_q": {
+          "digits": 8,
+          "sha256": "c8bd2ae6bbe5d6a43de70c52c534b6b931a83d73769addb6ecf0665752fb5d09",
+          "value": "32432400"
+        },
+        "height": {
+          "digits": 30,
+          "sha256": "eaa743fa909eaabf3ff2f6bbbb309dece2328be78fc43d573cc0ffda593a946e",
+          "value": "511076293817915850513165243364"
+        },
+        "l1_norm": {
+          "digits": 30,
+          "sha256": "d695d036e29d577800f3ebbc236c555c1ef7ef1a50340e909d16da73bcbba829",
+          "value": "718207713902481225618266759621"
+        },
+        "primitive_coefficients": [
+          {
+            "digits": 30,
+            "sha256": "eaa743fa909eaabf3ff2f6bbbb309dece2328be78fc43d573cc0ffda593a946e",
+            "value": "511076293817915850513165243364"
+          },
+          {
+            "digits": 30,
+            "sha256": "2ef0c38934e384e976858a00835ccb7b86b8ba512f54d7b84ec57b46c9765ac1",
+            "value": "207131420084565375105101516257"
+          }
+        ],
+        "schur_pair_gcd_equals_gamma_times_K": true
+      },
+      "global_lift": {
+        "analytic_bound_decimal": "8.495285044632893451745029366130176944661e+77",
+        "analytic_height": {
+          "denominator": "1",
+          "numerator": "766614440726873775769747865046",
+          "sha256": "d5f99e5c4f17978372c58e6d0ba4e15500c7a972404c7cb8f198d06e012cb442"
+        },
+        "concrete_norm_bound_verified": true,
+        "endpoint_identity_verified": true,
+        "finite_three_halves_ratio": "3/2",
+        "frequency_band": [
+          -2,
+          -1,
+          0,
+          1,
+          2
+        ],
+        "global_K_q_division_is_linear_and_exact": true,
+        "negative_power_max_l1": "12016668061253/23594700729600",
+        "origin_order_at_least": 36,
+        "polynomial_degree_at_most": 24
+      },
+      "q": 4,
+      "schur_clearing": {
+        "D_q": {
+          "digits": 42,
+          "sha256": "fe2a0b5b327fc38a725df4e3e1143741da7f5ca94340f15546b5010761d94048",
+          "value": "141681779195829761438995993067520000000000"
+        },
+        "all_D_q_S_k_integral": true,
+        "all_forced_column_bounds_verified": true,
+        "endpoint_bound_sha256": "cfbfe87bd76c8fd3f381ad9cac6cf884a1cb87a668f0d870931401f278d4c606",
+        "max_D_q_S_k": {
+          "digits": 21,
+          "sha256": "02eedaca42eafcee5ae2dbeed63a4a91a24e09c56de2e256fb7a23cca23aeeab",
+          "value": "765232771942679040000"
+        }
+      }
+    },
+    {
+      "cross": {
+        "Q_leading": {
+          "denominator": "11226787947026555904",
+          "numerator": "213692663231",
+          "sha256": "f77a75bda39f9ab7b525d8dd72ece64a2416d50ae58b1c70ace26c0bca7d28ef"
+        },
+        "R_leading": {
+          "denominator": "1620664931237322725314560",
+          "numerator": "213692663231",
+          "sha256": "f89e06bc4f1c8db301aa5ef71cd0c972661d64b16c88b645ecda3ae49baf4f5b"
+        },
+        "kappa": {
+          "denominator": "18194861516183796791440798935118791825162240",
+          "numerator": "45664554318757579359361",
+          "sha256": "db40e0ba32b60436cc413f137da4fc59b417e60a545c4491f7cfba87d6ebb7b6"
+        },
+        "lower_bound_decimal": "8.864544687904003144463153107949766328178e-29",
+        "lower_bound_verified": true,
+        "normalized_schur_formula_verified": true
+      },
+      "direct_sum": {
+        "basis_columns": 15,
+        "basis_rank": 15,
+        "decomposition_sha256": "eacb30bc5fa63ed98e4a4f16fb8a26274309b3b61f40dc995e8bf7deec20ffd0",
+        "degrees_A_B_C": [
+          3,
+          4,
+          3
+        ],
+        "q2_edge_verified": false
+      },
+      "endpoint": {
+        "K_q": {
+          "digits": 21,
+          "sha256": "f2cdd862662ec32d90fe4a31e8c9cf656570019eee12c955c645d5f62de7d3aa",
+          "value": "563995212964223040000"
+        },
+        "O_q_squared_bound_exactly_verified": true,
+        "gamma_q": {
+          "digits": 15,
+          "sha256": "78dcd034f16cbedb36a01d3364283cb8c7ff1d447eb0058f329756fd95bfce85",
+          "value": "626968562220000"
+        },
+        "height": {
+          "digits": 43,
+          "sha256": "5e7e7b4fa31781920a9f39d9df2162a9009cd2510d1ae3d759cc310b29897f23",
+          "value": "2659238441476219565767087017125994002287364"
+        },
+        "l1_norm": {
+          "digits": 43,
+          "sha256": "c3c09f12d889e68b166233d7737f9f945c49fa5cefdb4df1a0d9e4b04b6aeb3e",
+          "value": "3736987187386524090171309367566293590855147"
+        },
+        "primitive_coefficients": [
+          {
+            "digits": 43,
+            "sha256": "5e7e7b4fa31781920a9f39d9df2162a9009cd2510d1ae3d759cc310b29897f23",
+            "value": "2659238441476219565767087017125994002287364"
+          },
+          {
+            "digits": 43,
+            "sha256": "1dca0b5b5ffcaa237af8050b9e5646bb21375d70ea5ebdb5751c3e0d7e6476d3",
+            "value": "1077748745910304524404222350440299588567783"
+          }
+        ],
+        "schur_pair_gcd_equals_gamma_times_K": true
+      },
+      "global_lift": {
+        "analytic_bound_decimal": "6.919331608325654740902457818224324870917e+106",
+        "analytic_height": {
+          "denominator": "1",
+          "numerator": "3988857662214329348650630525688991003431046",
+          "sha256": "619972db5b6d5a5da94a483d1984174fb98c1f7bde1fcf19779fcda2b3ee8e8e"
+        },
+        "concrete_norm_bound_verified": true,
+        "endpoint_identity_verified": true,
+        "finite_three_halves_ratio": "3/2",
+        "frequency_band": [
+          -2,
+          -1,
+          0,
+          1,
+          2
+        ],
+        "global_K_q_division_is_linear_and_exact": true,
+        "negative_power_max_l1": "28962041643049413463/56133939735132779520",
+        "origin_order_at_least": 44,
+        "polynomial_degree_at_most": 30
+      },
+      "q": 5,
+      "schur_clearing": {
+        "D_q": {
+          "digits": 71,
+          "sha256": "9941c8768cda20e3ed6afd833a4f7e98553e52610a4f7fcd1b674c3b15d96b44",
+          "value": "45357414030346436578315391034280771510892448258208038912000000000000000"
+        },
+        "all_D_q_S_k_integral": true,
+        "all_forced_column_bounds_verified": true,
+        "endpoint_bound_sha256": "0e45a9aa2e5886794647e585a106e74bf40b123d0c284f49ebf708d37536a9aa",
+        "max_D_q_S_k": {
+          "digits": 35,
+          "sha256": "d0c0a1fc8593f0e5bdc5a22d8ae6c8b7472b3155c31781de6e102acbde3e2955",
+          "value": "35194215487480326396446661734400000"
+        }
+      }
+    },
+    {
+      "cross": {
+        "Q_leading": {
+          "denominator": "2133505961677654489839513600",
+          "numerator": "151259208063389819",
+          "sha256": "fe6191cfefb65360e9ba0a4fb49a2010e4e49deeec72e9d45795d567228f3fe2"
+        },
+        "R_leading": {
+          "denominator": "2164603148599423558017368272896000",
+          "numerator": "151259208063389819",
+          "sha256": "be275d35d4205ca13805cbfb2000abcd65a99f3d1fd85972b2fa6a3f37e4ebb4"
+        },
+        "kappa": {
+          "denominator": "4618193722203092004563031770510749312266121131448703385600000",
+          "numerator": "-22879348023963851638424973152852761",
+          "sha256": "0fa6d02b1641e6048831ed88b3611eec64f263b170b51869645188c6af97da61"
+        },
+        "lower_bound_decimal": "3.315974185066579678736336475956345944791e-38",
+        "lower_bound_verified": true,
+        "normalized_schur_formula_verified": true
+      },
+      "direct_sum": {
+        "basis_columns": 18,
+        "basis_rank": 18,
+        "decomposition_sha256": "8d9ab090492430d1c1e612d72fdcba6be57c0365cfb7280cb1ca3463b4b30ee0",
+        "degrees_A_B_C": [
+          4,
+          5,
+          4
+        ],
+        "q2_edge_verified": false
+      },
+      "endpoint": {
+        "K_q": {
+          "digits": 25,
+          "sha256": "46c992188fc7a602b7f704c58d94f8279b7f2c25cc9652e3bca3619fb942a05d",
+          "value": "4204922412545382528000000"
+        },
+        "O_q_squared_bound_exactly_verified": true,
+        "gamma_q": {
+          "digits": 19,
+          "sha256": "7a511894eded17257cceff530df30dcdcdcda4b933306efb12df186c6c14ec35",
+          "value": "4713153670625400000"
+        },
+        "height": {
+          "digits": 58,
+          "sha256": "1dd8af6732caaecceb79d875b25f221eafade56d6d2de0cfdc92534105e85fd0",
+          "value": "7860098053377725298758036415096138514248471071168994552060"
+        },
+        "l1_norm": {
+          "digits": 59,
+          "sha256": "3e0ec2cf23c882a3a749b265017fea23c2405726445778029ce790f92ace4eaa",
+          "value": "11045675806629989858982294124553294369792291184189691133111"
+        },
+        "primitive_coefficients": [
+          {
+            "digits": 58,
+            "sha256": "1dd8af6732caaecceb79d875b25f221eafade56d6d2de0cfdc92534105e85fd0",
+            "value": "7860098053377725298758036415096138514248471071168994552060"
+          },
+          {
+            "digits": 58,
+            "sha256": "02bdc4e6cb7f13b7d9428d356295fd927b9545b9d5ed96b5090393f44be00797",
+            "value": "3185577753252264560224257709457155855543820113020696581051"
+          }
+        ],
+        "schur_pair_gcd_equals_gamma_times_K": true
+      },
+      "global_lift": {
+        "analytic_bound_decimal": "2.658959613928396194036068127670426175328e+139",
+        "analytic_height": {
+          "denominator": "1",
+          "numerator": "11790147080066587948137054622644207771372706606753491828090",
+          "sha256": "43205f611a029563b02c5510c0c6ccc09680f1a512d858fc7da072cdecde1bea"
+        },
+        "concrete_norm_bound_verified": true,
+        "endpoint_identity_verified": true,
+        "finite_three_halves_ratio": "3/2",
+        "frequency_band": [
+          -2,
+          -1,
+          0,
+          1,
+          2
+        ],
+        "global_K_q_division_is_linear_and_exact": true,
+        "negative_power_max_l1": "1110302684308755493456634399/2133505961677654489839513600",
+        "origin_order_at_least": 52,
+        "polynomial_degree_at_most": 36
+      },
+      "q": 6,
+      "schur_clearing": {
+        "D_q": {
+          "digits": 104,
+          "sha256": "b5e43e2cd85e594853128d5396e48c3edfc98548d9782e2139bad8d3ebdef255",
+          "value": "20727286548011163925725405566204811750982659830587328643571461072785090567674527744000000000000000000000"
+        },
+        "all_D_q_S_k_integral": true,
+        "all_forced_column_bounds_verified": true,
+        "endpoint_bound_sha256": "a73bb64c9e17bb3501f38ec4f6ed366048f4a23018541d1c07b0c521fba442e2",
+        "max_D_q_S_k": {
+          "digits": 47,
+          "sha256": "029ced34789c43a6fb61c241b31416b9488b844482aa5085c9f6ecccde5e1aa2",
+          "value": "10055541454582211244212286352800543805440000000"
+        }
+      }
+    },
+    {
+      "cross": {
+        "Q_leading": {
+          "denominator": "227121733703784343496726965325414400",
+          "numerator": "42948386132766526786783",
+          "sha256": "7b15b08e1f2a2ad50e6dcbcd3267c37edff8059e7fcc2c22ab1e74d9abad7407"
+        },
+        "R_leading": {
+          "denominator": "1518421446841700678394270712744864014336000",
+          "numerator": "42948386132766526786783",
+          "sha256": "7451e49b6ebeb6da12ad467513f93746502d3b0db4ec4bf0bfead083516dd3be"
+        },
+        "kappa": {
+          "denominator": "344866511499695675861019035870827827806966097011212029852280046546740838400000",
+          "numerator": "1844563871409212098263142599501567870743489089",
+          "sha256": "df6462982992b3ce80340dbbd4f8db1fa7ac0f7440bef8ddd74dc9916768053d"
+        },
+        "lower_bound_decimal": "1.193273466098698674963379509255962820954e-48",
+        "lower_bound_verified": true,
+        "normalized_schur_formula_verified": true
+      },
+      "direct_sum": {
+        "basis_columns": 21,
+        "basis_rank": 21,
+        "decomposition_sha256": "1ead3b605e07cf74ff9452c810de05a58dc5483de92a2f889597ac1a13880fd7",
+        "degrees_A_B_C": [
+          5,
+          6,
+          5
+        ],
+        "q2_edge_verified": false
+      },
+      "endpoint": {
+        "K_q": {
+          "digits": 30,
+          "sha256": "60f38cdb270a271d05cee4a311f561a4171deb0e32d3c68e5f7fc7332919f303",
+          "value": "120242185149920699601108172800"
+        },
+        "O_q_squared_bound_exactly_verified": true,
+        "gamma_q": {
+          "digits": 20,
+          "sha256": "ae55300696de033c67cdbfa223f1ee15603999094ab3661c9aa0cdb8319f4578",
+          "value": "34563126917919600000"
+        },
+        "height": {
+          "digits": 75,
+          "sha256": "3529ffa6324aa94ca83f9be18a34a2f9cbd00973c693145de6d47c30ec3206e9",
+          "value": "303489673332222628018167538507478743772739067822102097033518284436019158332"
+        },
+        "l1_norm": {
+          "digits": 75,
+          "sha256": "b96d681310d0335fd1b16d8f32665e9cad9f386858e7c192862f6a5dc3c4b090",
+          "value": "426489405033211544476649695319182567879899038629923658817116995525139391167"
+        },
+        "primitive_coefficients": [
+          {
+            "digits": 75,
+            "sha256": "3529ffa6324aa94ca83f9be18a34a2f9cbd00973c693145de6d47c30ec3206e9",
+            "value": "303489673332222628018167538507478743772739067822102097033518284436019158332"
+          },
+          {
+            "digits": 75,
+            "sha256": "ffd2b9b72973e56db7ad2878b80b5a2487200573c7615e2d2320b1fec602d8d0",
+            "value": "122999731700988916458482156811703824107159970807821561783598711089120232835"
+          }
+        ],
+        "schur_pair_gcd_equals_gamma_times_K": true
+      },
+      "global_lift": {
+        "analytic_bound_decimal": "8.158572306085818650810216835704993074584e+173",
+        "analytic_height": {
+          "denominator": "1",
+          "numerator": "455234509998333942027251307761218115659108601733153145550277426654028737498",
+          "sha256": "40f24018ecab404ef075283cb414bf9da2d60903a59b7795a907062c5dd0175e"
+        },
+        "concrete_norm_bound_verified": true,
+        "endpoint_identity_verified": true,
+        "finite_three_halves_ratio": "3/2",
+        "frequency_band": [
+          -2,
+          -1,
+          0,
+          1,
+          2
+        ],
+        "global_K_q_division_is_linear_and_exact": true,
+        "negative_power_max_l1": "1520781490630983930248796297409469/2904369996212076003794462472192000",
+        "origin_order_at_least": 60,
+        "polynomial_degree_at_most": 42
+      },
+      "q": 7,
+      "schur_clearing": {
+        "D_q": {
+          "digits": 140,
+          "sha256": "10967e03f72fba849edd80082fb56f66822b2402d70ea5bd26c93a622d3956e2",
+          "value": "61970865733141524629005985793405563420930925890104450446612811564468974134721667067057136024261851552031210209280000000000000000000000000000"
+        },
+        "all_D_q_S_k_integral": true,
+        "all_forced_column_bounds_verified": true,
+        "endpoint_bound_sha256": "51afdce9bd6d1203ef98d19e7c600d0e3c1dafc5d14089389b4acff577a47af7",
+        "max_D_q_S_k": {
+          "digits": 56,
+          "sha256": "24bda60c41e851908535c10919e9a19cd7dbd5444dc8e67cfb1e8f1cd4058c20",
+          "value": "39250186539109179468944488794590731150663279411200000000"
+        }
+      }
+    }
+  ],
+  "runtime_policy": {
+    "elapsed_and_peak_rss_reported_to_stdout_only": true,
+    "rss_limit_kib": 2097152
+  },
+  "schema": "centered-cosh-balanced-quadratic-normalized-global-lift-v1",
+  "software": {
+    "python": "3.13.15",
+    "sympy": "1.14.0"
+  }
+}

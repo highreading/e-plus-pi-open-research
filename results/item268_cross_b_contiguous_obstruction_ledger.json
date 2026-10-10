@@ -1,0 +1,86 @@
+{
+  "schema": "item268-cross-b-contiguous-obstruction-ledger-v1",
+  "checked": "2026-08-31 Asia/Shanghai",
+  "scope": "Adjacent stable phase layers in the Item266 far off-ray common-gate subcell",
+  "proved": [
+    "The phase-preserving step s->s+1 sends (b,r) to (b-5,r+3 mod 4) and has an actual cross-j realization (M,j)->(M+(p-1)/2,j+1).",
+    "Outside p=3s+c for c=3,4,5, the step remains rank-one and stable; the boundary primes have O(log M) total weight.",
+    "The affected raw mass is the full far coefficient 1139587/9085230=0.125432927950... per M up to zero rate.",
+    "The exact contiguous identity in report equation (1.7) holds for every s>=0 by an explicit constant-term telescoping certificate.",
+    "On a common gate, the identity transports one nonzero adjacent line; it does not propagate two-coordinate common vanishing.",
+    "Res(c,d)=1564=2^2*17*23, so the adjacent coefficient pair is nontrivial outside fixed exceptional primes and the zero-rate boundary.",
+    "The p=2399 common row at s=299 has a nonzero adjacent vector (2105,1694) at s=300 satisfying the forced line 966g0+128g1=0.",
+    "The space of adjacent linear identities with four Q[s] coefficients of degree at most 4 is one-dimensional and spanned by the displayed identity.",
+    "The transported line is exactly proportional to a current-layer linear combination and has only an inherited exponential-height bound.",
+    "Item 149's first post-Cartier copy is already booked; the transported line is not another valuation copy and gives no A1 implication."
+  ],
+  "master_admission_test": {
+    "actual_family_implication": "The full common gate forces the adjacent line on every nonexceptional actual far row.",
+    "de_overlap": "The line is caused by the same candidate extra first-gate prime after Item 149 normalization and cannot be booked again.",
+    "quantitative_result": "The inherited cross-layer product has O(M^2) logarithmic height and yields no weighted zero theorem.",
+    "decision": "No new Route-1 rate."
+  },
+  "exact_witness": {
+    "current_row_M_s_p_j_q_b_r": [
+      2249,
+      299,
+      2399,
+      1,
+      1,
+      900,
+      3
+    ],
+    "current_g0_g1": [
+      0,
+      0
+    ],
+    "adjacent_row_M_s_p_j_q_b_r": [
+      3448,
+      300,
+      2399,
+      2,
+      1,
+      895,
+      2
+    ],
+    "adjacent_g0_g1": [
+      2105,
+      1694
+    ],
+    "adjacent_line": "966g0+128g1=0 mod 2399"
+  },
+  "ansatz_scope": {
+    "form": "P0(s)g0(s)+P1(s)g1(s)+P2(s)g0(s+1)+P3(s)g1(s+1)=0",
+    "degree_bound": 4,
+    "dimension": 1,
+    "not_ruled_out": [
+      "higher-degree adjacent relations",
+      "nonlinear resultants",
+      "larger bounded-rank states",
+      "cancellation-aware global invariants"
+    ]
+  },
+  "finite_replay": {
+    "label": "EXACT FINITE ONLY",
+    "M_range": [
+      25,
+      240
+    ],
+    "purpose": "phase adjacency and boundary audit plus the declared exact witness and finite matrix-rank certificate; not a common-zero scan",
+    "asymptotic_inference": false
+  },
+  "booking": {
+    "new_unconditional_route1_rate": 0,
+    "new_independent_valuation_copy": 0,
+    "new_weighted_zero_theorem": 0,
+    "reason": "The adjacent relation transports one dependent line and leaves the full far raw ceiling unchanged."
+  },
+  "forbidden_inference": [
+    "Do not infer adjacent common-gate propagation from the transported line.",
+    "Do not count the adjacent line as an independent divisor or valuation copy.",
+    "Do not extend degree<=4 uniqueness to higher degrees or nonlinear relations.",
+    "Do not call the O(M^2) inherited-height failure an impossibility theorem for other invariants.",
+    "Do not infer A1 vanishing or a third copy.",
+    "Do not infer asymptotic common-zero density from the bounded replay."
+  ]
+}

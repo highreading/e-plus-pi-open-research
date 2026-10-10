@@ -1,0 +1,761 @@
+{
+  "arithmetic": "exact integers, fractions, finite-field polynomials, and fully factored declared resultants; standard library only",
+  "finite_scan": {
+    "Q0_zero": 20,
+    "Q1_zero": 26,
+    "common_zero_rows": 0,
+    "first_three_separate_zero_rows": [
+      [
+        29,
+        5,
+        1,
+        15,
+        0,
+        2
+      ],
+      [
+        53,
+        11,
+        1,
+        11,
+        0,
+        17
+      ],
+      [
+        109,
+        10,
+        11,
+        0,
+        35,
+        11
+      ]
+    ],
+    "integer_bridge_prime_max": 31,
+    "integer_bridge_rows": 8,
+    "label": "FINITE exact scan only; no extrapolation",
+    "necessary_eliminant_zero_rows": 58,
+    "prime_max": 2000,
+    "row_sha256": "b641131ccb68bea399df3bc40429916f639da72546ef7c2da61d890158d778b6",
+    "rows": 22934,
+    "separate_zero_rows": 46,
+    "zero_row_sha256": "d51c2b57608339e9e41cd7f929b167aeab41cf0a349edc2d105d3717e2f92048"
+  },
+  "item": 218,
+  "labels": {
+    "FINITE": [
+      "all 22,934 admissible rows through p<=2000; 46 separate zeros and no common zero"
+    ],
+    "OPEN": [
+      "all-prime exclusion for unbounded h",
+      "uniform control of the moving binomial/hypergeometric residue B/A",
+      "any positive Route-1 rate consequence from the j=1 cell",
+      "the j=2 classification"
+    ],
+    "PROVED": [
+      "exact p,s,h parameterization and both divided-coordinate conditions",
+      "palindromic reduction to rational low tails with p-unit denominators",
+      "twisted derivative identity and vanishing local boundary",
+      "necessary rational eliminant and residual binomial congruence",
+      "complete all-s exclusion on 0<=h<=8"
+    ]
+  },
+  "proved_all_s_residual_strip": {
+    "automatic_composite_h": [
+      0,
+      3,
+      6
+    ],
+    "factored_eliminants": [
+      {
+        "denominator_unit_audit": "every a*s+b factor is positive and <p=6s+4h+3 for s>=1; the remaining scalar uses only 2 and 3, while admissible p is odd and p!=3",
+        "eliminant_denominator_coefficients_low_to_high_up_to_scalar": [
+          0,
+          6,
+          13,
+          6
+        ],
+        "eliminant_denominator_factorization": [
+          {
+            "constant": 0,
+            "s_coefficient": 1
+          },
+          {
+            "constant": 3,
+            "s_coefficient": 2
+          },
+          {
+            "constant": 2,
+            "s_coefficient": 3
+          }
+        ],
+        "eliminant_numerator_coefficients_low_to_high": [
+          41,
+          112,
+          96,
+          24
+        ],
+        "eliminant_numerator_degree": 3,
+        "eliminant_numerator_factorization": [
+          "irreducible degree 3 over Z (mod 5 witness)"
+        ],
+        "eliminant_numerator_sha256": "c585842afb44006ed191daf613ac5fe0a0a80a17cbee2126d5ccd0edcc49ee0c",
+        "exact_eliminant_scalar_times_primitive_ratio": "-2",
+        "h": 1,
+        "irreducibility_certificate": "Rabin irreducibility certificate modulo 5",
+        "phase_compatible_candidate_checks": [
+          {
+            "Q0": 9,
+            "Q1": 4,
+            "p": 13,
+            "s": 1
+          }
+        ],
+        "resultant": 624,
+        "resultant_factorization": [
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ]
+      },
+      {
+        "denominator_unit_audit": "every a*s+b factor is positive and <p=6s+4h+3 for s>=1; the remaining scalar uses only 2 and 3, while admissible p is odd and p!=3",
+        "eliminant_denominator_coefficients_low_to_high_up_to_scalar": [
+          0,
+          20,
+          48,
+          31,
+          6
+        ],
+        "eliminant_denominator_factorization": [
+          {
+            "constant": 0,
+            "s_coefficient": 1
+          },
+          {
+            "constant": 2,
+            "s_coefficient": 1
+          },
+          {
+            "constant": 5,
+            "s_coefficient": 2
+          },
+          {
+            "constant": 2,
+            "s_coefficient": 3
+          }
+        ],
+        "eliminant_numerator_coefficients_low_to_high": [
+          351,
+          1337,
+          1766,
+          864,
+          128
+        ],
+        "eliminant_numerator_degree": 4,
+        "eliminant_numerator_factorization": [
+          "2*s^2+11*s+13",
+          "64*s^2+80*s+27"
+        ],
+        "eliminant_numerator_sha256": "328b5acfd1b18d3f1c88a00dcc9f61f50890d44eddf88f0eb2482c106c1fc5d0",
+        "exact_eliminant_scalar_times_primitive_ratio": "-2",
+        "h": 2,
+        "irreducibility_certificate": "both quadratic discriminants (17 and -512) are nonsquares",
+        "phase_compatible_candidate_checks": [],
+        "resultant": -54976,
+        "resultant_factorization": [
+          [
+            2,
+            6
+          ],
+          [
+            859,
+            1
+          ]
+        ]
+      },
+      {
+        "denominator_unit_audit": "every a*s+b factor is positive and <p=6s+4h+3 for s>=1; the remaining scalar uses only 2 and 3, while admissible p is odd and p!=3",
+        "eliminant_denominator_coefficients_low_to_high_up_to_scalar": [
+          0,
+          30240,
+          119184,
+          182294,
+          142677,
+          62440,
+          15441,
+          2016,
+          108
+        ],
+        "eliminant_denominator_factorization": [
+          {
+            "constant": 0,
+            "s_coefficient": 1
+          },
+          {
+            "constant": 3,
+            "s_coefficient": 1
+          },
+          {
+            "constant": 4,
+            "s_coefficient": 1
+          },
+          {
+            "constant": 7,
+            "s_coefficient": 2
+          },
+          {
+            "constant": 9,
+            "s_coefficient": 2
+          },
+          {
+            "constant": 2,
+            "s_coefficient": 3
+          },
+          {
+            "constant": 4,
+            "s_coefficient": 3
+          },
+          {
+            "constant": 5,
+            "s_coefficient": 3
+          }
+        ],
+        "eliminant_numerator_coefficients_low_to_high": [
+          -10116540,
+          -44845236,
+          -76611805,
+          -64888133,
+          -28956284,
+          -6415324,
+          -468960,
+          44928,
+          6144
+        ],
+        "eliminant_numerator_degree": 8,
+        "eliminant_numerator_factorization": [
+          "irreducible degree 8 over Z (mod 11 witness)"
+        ],
+        "eliminant_numerator_sha256": "bed149c7b4e75ab73711e6bca04972c7392e56a6e88def2bfce0ac11382d73d6",
+        "exact_eliminant_scalar_times_primitive_ratio": "4/3",
+        "h": 4,
+        "irreducibility_certificate": "Rabin irreducibility certificate modulo 11",
+        "phase_compatible_candidate_checks": [
+          {
+            "Q0": 833864,
+            "Q1": 86967,
+            "p": 1219909,
+            "s": 203315
+          }
+        ],
+        "resultant": 1705140003840,
+        "resultant_factorization": [
+          [
+            2,
+            10
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            1219909,
+            1
+          ]
+        ]
+      },
+      {
+        "denominator_unit_audit": "every a*s+b factor is positive and <p=6s+4h+3 for s>=1; the remaining scalar uses only 2 and 3, while admissible p is odd and p!=3",
+        "eliminant_denominator_coefficients_low_to_high_up_to_scalar": [
+          0,
+          554400,
+          2211920,
+          3459198,
+          2818193,
+          1325604,
+          373415,
+          62202,
+          5652,
+          216
+        ],
+        "eliminant_denominator_factorization": [
+          {
+            "constant": 0,
+            "s_coefficient": 1
+          },
+          {
+            "constant": 4,
+            "s_coefficient": 1
+          },
+          {
+            "constant": 5,
+            "s_coefficient": 1
+          },
+          {
+            "constant": 7,
+            "s_coefficient": 2
+          },
+          {
+            "constant": 9,
+            "s_coefficient": 2
+          },
+          {
+            "constant": 11,
+            "s_coefficient": 2
+          },
+          {
+            "constant": 2,
+            "s_coefficient": 3
+          },
+          {
+            "constant": 4,
+            "s_coefficient": 3
+          },
+          {
+            "constant": 5,
+            "s_coefficient": 3
+          }
+        ],
+        "eliminant_numerator_coefficients_low_to_high": [
+          -96415650,
+          1109095725,
+          2286441331,
+          1395104544,
+          131647892,
+          -162785032,
+          -60369280,
+          -6994720,
+          -80384,
+          20480
+        ],
+        "eliminant_numerator_degree": 9,
+        "eliminant_numerator_factorization": [
+          "irreducible degree 9 over Z (mod 11 witness)"
+        ],
+        "eliminant_numerator_sha256": "4ee126e188b4d529234cc680b7e7d4055fca811392d08ef06e805ee6aab566b9",
+        "exact_eliminant_scalar_times_primitive_ratio": "8/3",
+        "h": 5,
+        "irreducibility_certificate": "Rabin irreducibility certificate modulo 11",
+        "phase_compatible_candidate_checks": [
+          {
+            "Q0": 36,
+            "Q1": 14,
+            "p": 53,
+            "s": 5
+          }
+        ],
+        "resultant": -475657910425600,
+        "resultant_factorization": [
+          [
+            2,
+            11
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            53,
+            1
+          ],
+          [
+            1033,
+            1
+          ],
+          [
+            3463,
+            1
+          ]
+        ]
+      },
+      {
+        "denominator_unit_audit": "every a*s+b factor is positive and <p=6s+4h+3 for s>=1; the remaining scalar uses only 2 and 3, while admissible p is odd and p!=3",
+        "eliminant_denominator_coefficients_low_to_high_up_to_scalar": [
+          0,
+          9081072000,
+          44082385200,
+          90154630620,
+          104042671232,
+          76125086163,
+          37457324480,
+          12783210990,
+          3064322576,
+          514417899,
+          59217120,
+          4452840,
+          196992,
+          3888
+        ],
+        "eliminant_denominator_factorization": [
+          {
+            "constant": 0,
+            "s_coefficient": 1
+          },
+          {
+            "constant": 5,
+            "s_coefficient": 1
+          },
+          {
+            "constant": 6,
+            "s_coefficient": 1
+          },
+          {
+            "constant": 7,
+            "s_coefficient": 1
+          },
+          {
+            "constant": 9,
+            "s_coefficient": 2
+          },
+          {
+            "constant": 11,
+            "s_coefficient": 2
+          },
+          {
+            "constant": 13,
+            "s_coefficient": 2
+          },
+          {
+            "constant": 15,
+            "s_coefficient": 2
+          },
+          {
+            "constant": 2,
+            "s_coefficient": 3
+          },
+          {
+            "constant": 4,
+            "s_coefficient": 3
+          },
+          {
+            "constant": 5,
+            "s_coefficient": 3
+          },
+          {
+            "constant": 7,
+            "s_coefficient": 3
+          },
+          {
+            "constant": 8,
+            "s_coefficient": 3
+          }
+        ],
+        "eliminant_numerator_coefficients_low_to_high": [
+          10265414058900,
+          -244581267790440,
+          -544848906570795,
+          -429617941918431,
+          -120838355413825,
+          25582989145271,
+          28309567269984,
+          8540256533400,
+          1210757773296,
+          60152755440,
+          -4299542144,
+          -603106304,
+          -14217216,
+          344064
+        ],
+        "eliminant_numerator_degree": 13,
+        "eliminant_numerator_factorization": [
+          "irreducible degree 13 over Z (mod 67 witness)"
+        ],
+        "eliminant_numerator_sha256": "073f345dfac3e8eccbc24aa5f4c68cdaa12fe08d7cff2c83f3f4eab466bbb530",
+        "exact_eliminant_scalar_times_primitive_ratio": "-32/9",
+        "h": 7,
+        "irreducibility_certificate": "Rabin irreducibility certificate modulo 67",
+        "phase_compatible_candidate_checks": [
+          {
+            "Q0": 32,
+            "Q1": 58,
+            "p": 73,
+            "s": 7
+          },
+          {
+            "Q0": 20350,
+            "Q1": 11902,
+            "p": 32533,
+            "s": 5417
+          }
+        ],
+        "resultant": 127117923618801750835200,
+        "resultant_factorization": [
+          [
+            2,
+            16
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            73,
+            1
+          ],
+          [
+            1103,
+            1
+          ],
+          [
+            1409,
+            1
+          ],
+          [
+            32533,
+            1
+          ]
+        ]
+      },
+      {
+        "denominator_unit_audit": "every a*s+b factor is positive and <p=6s+4h+3 for s>=1; the remaining scalar uses only 2 and 3, while admissible p is odd and p!=3",
+        "eliminant_denominator_coefficients_low_to_high_up_to_scalar": [
+          0,
+          137225088000,
+          668936620800,
+          1377337486480,
+          1606488432828,
+          1194861362712,
+          602742954411,
+          213485851776,
+          54059642046,
+          9836735240,
+          1276054851,
+          115164144,
+          6871176,
+          243648,
+          3888
+        ],
+        "eliminant_denominator_factorization": [
+          {
+            "constant": 0,
+            "s_coefficient": 1
+          },
+          {
+            "constant": 5,
+            "s_coefficient": 1
+          },
+          {
+            "constant": 6,
+            "s_coefficient": 1
+          },
+          {
+            "constant": 7,
+            "s_coefficient": 1
+          },
+          {
+            "constant": 8,
+            "s_coefficient": 1
+          },
+          {
+            "constant": 11,
+            "s_coefficient": 2
+          },
+          {
+            "constant": 13,
+            "s_coefficient": 2
+          },
+          {
+            "constant": 15,
+            "s_coefficient": 2
+          },
+          {
+            "constant": 17,
+            "s_coefficient": 2
+          },
+          {
+            "constant": 2,
+            "s_coefficient": 3
+          },
+          {
+            "constant": 4,
+            "s_coefficient": 3
+          },
+          {
+            "constant": 5,
+            "s_coefficient": 3
+          },
+          {
+            "constant": 7,
+            "s_coefficient": 3
+          },
+          {
+            "constant": 8,
+            "s_coefficient": 3
+          }
+        ],
+        "eliminant_numerator_coefficients_low_to_high": [
+          8610630160860000,
+          35388368676234000,
+          49563308100944610,
+          25250982337507185,
+          -2738758199178974,
+          -8201763575936517,
+          -3403281473445248,
+          -525282461097000,
+          17163488615968,
+          16234796029104,
+          1890896481536,
+          48183767040,
+          -4243308544,
+          -182157312,
+          2097152
+        ],
+        "eliminant_numerator_degree": 14,
+        "eliminant_numerator_factorization": [
+          "irreducible degree 14 over Z (mod 113 witness)"
+        ],
+        "eliminant_numerator_sha256": "5dbab589b1ccbf7ade27cc38942d1d4cafb9a646e580f30d878330fcbf35c4b7",
+        "exact_eliminant_scalar_times_primitive_ratio": "-16/9",
+        "h": 8,
+        "irreducibility_certificate": "Rabin irreducibility certificate modulo 113",
+        "phase_compatible_candidate_checks": [
+          {
+            "Q0": 30,
+            "Q1": 41,
+            "p": 47,
+            "s": 2
+          },
+          {
+            "Q0": 6424621,
+            "Q1": 1596119,
+            "p": 8383391,
+            "s": 1397226
+          }
+        ],
+        "resultant": -118887712469320504213504000,
+        "resultant_factorization": [
+          [
+            2,
+            18
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            47,
+            1
+          ],
+          [
+            1314127,
+            1
+          ],
+          [
+            8383391,
+            1
+          ]
+        ]
+      }
+    ],
+    "scope": "every admissible j=1 row with 0<=h<=8",
+    "verdict": "no simultaneous divided-coordinate zero for any prime on these residual lines"
+  },
+  "proved_j1_reduction": {
+    "J1": [
+      -12,
+      -12,
+      6,
+      12
+    ],
+    "a_c": [
+      4,
+      3
+    ],
+    "admissibility": "h>=1, s>=1, p prime; h=0 mod 3 is impossible because then 3 divides p>3",
+    "bases": {
+      "A": "(-1)^s*(2s)!*s!/(3s+1)!",
+      "B": "(-1)^h*(2s)!*h!/(2s+h+1)!",
+      "C": "(-1)^(s-1)*(2s-1)!*(s-1)!/(3s-1)!",
+      "D": "(-1)^h*(2s-1)!*h!/(2s+h)!"
+    },
+    "divided_conditions": "C_nu/p = 6*Q_nu (mod p), Q_nu=2*H_nu(T)-H_nu(L_nu)",
+    "item197_fixed_coefficients": {
+      "U1": 0,
+      "V1": 2,
+      "W1": -4
+    },
+    "necessary_eliminant": "E_h(s)=((2s+h+1)/(2s))*x*v+(3(3s+1)/(2s))*u*y",
+    "normalized_equations": "Q0=2*A*x-B*y; Q1=2*C*u-D*v",
+    "parameters": "h=(p-6s-3)/4; p=4h+6s+3; r=2h; m=3h+4s+2",
+    "remaining_binomial_residue": "B/A=(-1)^(h-s)*h!*C(3s+1,s)/(2s+2)_h (mod p)",
+    "tail_kernel": "H_nu(N)=[z^N]P_nu(z)*log(1+z^2) over Q; every denominator is a p-unit",
+    "targets": {
+      "L0": "4h+4s+2",
+      "L1": "4h+4s+3",
+      "T": "2h+6s+2"
+    }
+  },
+  "proved_twisted_derivative_reduction": {
+    "all_index_tail_identity": "4s*H1(N)=(N+1)H0(N+1)+(N+2h+4s-1)H0(N)+(4h+8s+1-N)H0(N-1)+(2h+4s+3-N)H0(N-2), valid for N>deg(P0)+2",
+    "alpha": "(2h+4s-1)/(4s)+(h+2s)z/s+(2h+4s+1)z^2/(4s)",
+    "beta": "(1-z^2)(1+z)/(4s)",
+    "boundary": "beta*P0*d(log(1+z^2))/dz is a polynomial of degree deg(P0)+2 and has zero coefficient at both nu=1 targets",
+    "consequence": "the finite-log symbol is removed locally, but a tail transfer over |L0-T|=2|h-s| remains",
+    "identity": "P1=alpha*P0+beta*P0'",
+    "uniqueness_domain": "unique with deg(alpha)<=2 and deg(beta)<=3"
+  },
+  "rate_ledger": {
+    "actual_new_usable_coefficient": 0,
+    "conditional_after_full_j1_and_j2_exclusion_per_6m": "0.0188729973648737...",
+    "conditional_after_full_j1_and_j2_exclusion_per_m": "C0-47/210=0.1132379841892420...",
+    "conditional_after_full_j1_exclusion_per_6m": "0.0283968068886832...",
+    "gap_below_G_if_both_excluded_per_6m": "0.0007599863045581...",
+    "j1_cell_per_6m": "1/36",
+    "j1_cell_per_m": "1/6",
+    "j2_cell_per_m": "2/35",
+    "reason": "the proved h<=8 strip is thin and the full j=1 cell remains open"
+  },
+  "verdict": "PROVED an exact rational-tail and Hermite reduction and excluded every j=1 row on h<=8; FINITE p<=2000 finds no common zero. Unbounded h remains OPEN, so the actual rate gain is zero."
+}

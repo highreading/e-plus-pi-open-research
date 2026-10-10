@@ -1,0 +1,56 @@
+{
+  "item": 340,
+  "schema": "item340-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_FULL_COMPLEMENT_LOOP_RESONANCE_SCOPED_NO_GO",
+  "scope": "independent root audit of the canonical complement-inverse loop, modulus collapse, quotient lift, and Gamma_Q decomposition",
+  "checks": {
+    "certificate_sha256": "4be0540e6835c3621482ab42bf5218420d76d7091a827386b1f6978146f6bfd0",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_sha256": "d35e5ff874da99665046601336ab836ad0ff0246c6154939f5d9771e24a6e3fa",
+    "work_manifest_artifacts_match": true,
+    "frozen_dependencies_checked": 8,
+    "frozen_dependencies_match": true,
+    "author_self_audit_sha256": "64a933cadfd7b7d9aa687b691ee1e88136ecac2af7ef44da23fdf3d971cacc0d",
+    "declared_control_rows": 9,
+    "half_bound_census_performed": false,
+    "target_search_performed": false,
+    "report_inline_delimiters": "96/96",
+    "report_display_delimiters": "60/60",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "loop": "the continuant determinant makes S a unit modulo a and gives R S congruent to sigma kappa; the dual inverse therefore returns exactly R modulo a with the stated Ebar and Ubar coordinates",
+    "target_specialization": "an Item-316 failure has R<a, so the returned residue, canonical word, every adjacent cofactor, and Lambda are literally identical to the original target objects",
+    "capacity": "the only off-target loop defect h is at most A/2 and has zero beta-scale divisor mass, while the seed complement t has full raw height and is not independently target-forced",
+    "modulus": "because Q divides b, the undivided complement incidence modulo Q collapses to the old signed-square ray; quotient information first survives at modulus bQ",
+    "decomposition": "Gamma_Q=log H_Q+log K_Q is an exact factorization of gcd(Q,Lambda) into complement-covered and residual valuations, not an additive booking of independent branches",
+    "scope_warning": "joint complement/cofactor arithmetic after the bQ lift remains open; the returned tower is a duplicate and books zero"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "full loop return",
+      "target digitwise identity",
+      "zero-rate loop defect",
+      "mod-Q collapse",
+      "bQ quotient bridge",
+      "Gamma_Q decomposition",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "nine declared exact controls"
+    ],
+    "OPEN": [
+      "H_Q, K_Q, and Gamma_Q on the actual family",
+      "centered half-bound",
+      "any beta capacity reduction"
+    ]
+  },
+  "capacity": {
+    "returned_tower_incremental_rate": 0,
+    "actual_Gamma_Q": "OPEN",
+    "new_booking": 0
+  }
+}

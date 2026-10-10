@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "scope": "Existing 36 seed entries and the degree-four Legendre digit factor at p=5 only; no additional indices or lifts.",
+  "source_certificate_sha256": "77ae47dd0e5ebff8be1ec7c11805d6e5b9a567b0f3c7b312dcd95bd619d0ce0f",
+  "checker_sha256": "ef8f2af96b0c638a5224eb68491c6ca90b41670d8cbc77ac8865e3ba3dc8befd",
+  "uniform_unit_seed_primes": [
+    7,
+    11,
+    13
+  ],
+  "only_zero_seed": {
+    "p": 5,
+    "r": 4,
+    "state_mod_5": {
+      "h": 0,
+      "u": 3,
+      "v": 3,
+      "J": 3,
+      "Acal": 3,
+      "Bcal": 0,
+      "a": 1,
+      "k": 2,
+      "ell": 3,
+      "sigma": 2,
+      "C": 2,
+      "omega": 1,
+      "Vtilde": 0
+    }
+  },
+  "legendre_digit_factor_mod_5": [
+    1,
+    2,
+    3,
+    2,
+    1
+  ],
+  "normalized_denominator_residue": "Dtilde_n = P_n modulo 5 when n = 4 modulo 5",
+  "existing_exact_seed_4": {
+    "Vtilde": "17169002260",
+    "Dtilde": "-350897184"
+  },
+  "paper_deductions_to_justify": [
+    "The generating function gives P_(5m+r)=digit[r]*P_m modulo 5, so every P_n is a 5-adic unit.",
+    "Consequently Dtilde_n is a unit on n=4 modulo 5; no common factor of positive 5-adic valuation can remove this normalized zero.",
+    "The remaining depth concerns the full scaled numerator, including the second-kind term."
+  ],
+  "independent_researcher_review": false
+}

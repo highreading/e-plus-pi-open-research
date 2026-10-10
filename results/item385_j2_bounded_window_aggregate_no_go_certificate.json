@@ -1,0 +1,207 @@
+{
+  "alignment_replay": {
+    "box": {
+      "d_max": 24,
+      "d_min": -24,
+      "j_max": 24,
+      "j_min": -24
+    },
+    "classification": "PROVED SYMBOLIC INTEGER IDENTITY REPLAY",
+    "equations_checked": 2401,
+    "first_positive_return": {
+      "d": -3,
+      "delta_p": -6,
+      "delta_r": 42,
+      "delta_s": -15,
+      "j": 7
+    },
+    "no_nonzero_return_for_abs_j_below_7": true,
+    "solutions": [
+      [
+        -21,
+        9,
+        -3
+      ],
+      [
+        -14,
+        6,
+        -2
+      ],
+      [
+        -7,
+        3,
+        -1
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        7,
+        -3,
+        1
+      ],
+      [
+        14,
+        -6,
+        2
+      ],
+      [
+        21,
+        -9,
+        3
+      ]
+    ]
+  },
+  "capacity": {
+    "chart_rule": "degenerate and nondegenerate charts partition one raw interval",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "raw_ordinary_j2_ceiling_per_6M": "1/105",
+    "raw_ordinary_j2_chebyshev_mass": "(2/35)M+o(M)"
+  },
+  "classification": "PROVED_GLOBAL_BOUNDED_WINDOW_PROPAGATION_NO_GO",
+  "closed_method_class": [
+    "every fixed bounded-offset cross-row propagation requiring two actual prime rows",
+    "every fixed-order same-ray recurrence used only through a second selected prime row",
+    "finite mixtures of such transfers across the two rays or two connection charts",
+    "translation/recurrence/height/pairwise-gcd metadata without a cross-characteristic reciprocity"
+  ],
+  "dependencies": {
+    "work/item318_j2_actual_period_plucker_report.md": "e89f4892b3c2b9b999321de0ec6973547903b755f07b0d34be7f0da634ecd4db",
+    "work/item319_j2_third_minor_elimination_report.md": "51b2505f71257f905b4b979f90eb74af24e9c3f2f29c1dd9ee57bd737e5581e1",
+    "work/item322_j2_fixedM_period_transfer_report.md": "7941d4102861a96145cc38267463da1a78cf7c2d9dec384857ef5c16a3f0b875",
+    "work/item326_j1_selected_factor_step12_no_go_report.md": "12f42dff3d52ab5d257eac675d9cff6888925568d29ea4894cad5e37c0c31b37",
+    "work/item331_j2_global_cartier_concentration_report.md": "b721b9469b500a8b8fb5f6c0c0702f92015198264a7c6f931acaabd82796ee08",
+    "work/item334_j2_coupled_cartier_carrier_report.md": "a9a1b42652e5157b850014758c321ffd8a5734e4f9ea3586510ae0549822357c",
+    "work/item336_j2_carrier_resultant_obstruction_report.md": "761f09e999c0f76139e036f2f4db03743b363087e04f9ed661fe65229cb0b4c2",
+    "work/item338_j2_secondary_cartier_saturation_report.md": "14aa87b718b4bb83dd3e5371412fd231829f809b853d1a52eabba6181650ac33",
+    "work/item341_j2_diagonal_affine_state_report.md": "42f6ccd326e385f8034abe322756517a30a93d7468b3e6f85cbca3dba8080cb4",
+    "work/item344_j2_frobenius_cutoff_obstruction_report.md": "1671dec30de80c047c52b6b4bf13157025ea631869f5ccacc73169002ec287a9",
+    "work/item347_j2_chosen_prime_kummer_conductor_obstruction_report.md": "7845d01648f4860dee7cee0c12b5711693183015c99e25e923a9e49f316f5eea",
+    "work/item349_j2_degenerate_triple_minor_carrier_report.md": "aec5a8bc6dd8996a3578e4cbc7975afad6247ddb32d03f6deca72b97af86b50d",
+    "work/item352_j2_nonsemisimple_transition_no_go_report.md": "c60e1ba7771314c77b3fbe5d06f9c13c51a8c7e4d15f2589298641ff0f38e794",
+    "work/item355_j2_target_residual_large_sieve_obstruction_report.md": "ea2f5f43a14a411849bc310409939891bfb496b681b028c20fcb3b990dd3377b",
+    "work/item359_j2_fixedM_cross_prime_coefficient_barrier_report.md": "8fc3e4a16c71aeb50f7516e5e81572ea3d7265f30104707fc988945155759a77",
+    "work/item361_j2_matched_cartier_norm_collapse_report.md": "0ad329d64d00853fd1b8adca1c982790bd293f01bdc1ea356ad3858374683af8",
+    "work/item382_j1_explicit_operator_alignment_barrier_report.md": "8d8c74889a0cf066dea80db23adc117e8f927ff9a4eea4ca75321c18d3a6ff7b"
+  },
+  "dependency_hashes_verified": true,
+  "open": [
+    "W_nd(M)+W_deg(M)=o(M) or any strict constant reduction",
+    "one-row matched-modulus average gcd or factor localization for the actual aggregate carrier",
+    "a reciprocity theorem forcing every collision into a second actual prime row",
+    "growing-window propagation with quantitative offset control"
+  ],
+  "prime_pair_diagnostics": {
+    "classification": "EXACT FINITE DIAGNOSTIC ONLY - ASYMPTOTIC PRIME-PAIR THEOREM USES BRUN--SELBERG, NOT THESE COUNTS",
+    "diagnostic_digest_sha256": "8e0fa36e667f8c73414691e115aec66ef81be551966332ae6eaf126dc4a19039",
+    "offsets": [
+      -12,
+      -6,
+      -4,
+      -2,
+      2,
+      4,
+      6,
+      12
+    ],
+    "raw_asymptotic_constant": "2/35",
+    "rows": [
+      {
+        "M": 1000,
+        "comparison_weight_equals_raw": true,
+        "isolated_log_weight": 0,
+        "isolated_rows": 0,
+        "isolated_weight_over_M": 0.0,
+        "paired_log_weight": 60.48997930401905,
+        "paired_rows": 9,
+        "paired_weight_over_M": 0.06048997930401905,
+        "prime_rows": 9,
+        "raw_log_weight": 60.48997930401905,
+        "raw_weight_over_M": 0.06048997930401905
+      },
+      {
+        "M": 2000,
+        "comparison_weight_equals_raw": true,
+        "isolated_log_weight": 7.400620577371135,
+        "isolated_rows": 1,
+        "isolated_weight_over_M": 0.0037003102886855673,
+        "paired_log_weight": 111.12481964167117,
+        "paired_rows": 15,
+        "paired_weight_over_M": 0.05556240982083558,
+        "prime_rows": 16,
+        "raw_log_weight": 118.52544021904231,
+        "raw_weight_over_M": 0.059262720109521154
+      },
+      {
+        "M": 5000,
+        "comparison_weight_equals_raw": true,
+        "isolated_log_weight": 16.680426435666558,
+        "isolated_rows": 2,
+        "isolated_weight_over_M": 0.0033360852871333114,
+        "paired_log_weight": 299.80135156638744,
+        "paired_rows": 36,
+        "paired_weight_over_M": 0.05996027031327749,
+        "prime_rows": 38,
+        "raw_log_weight": 316.481778002054,
+        "raw_weight_over_M": 0.0632963556004108
+      },
+      {
+        "M": 10000,
+        "comparison_weight_equals_raw": true,
+        "isolated_log_weight": 36.0830469264207,
+        "isolated_rows": 4,
+        "isolated_weight_over_M": 0.00360830469264207,
+        "paired_log_weight": 505.1774398198716,
+        "paired_rows": 56,
+        "paired_weight_over_M": 0.05051774398198716,
+        "prime_rows": 60,
+        "raw_log_weight": 541.2604867462924,
+        "raw_weight_over_M": 0.05412604867462924
+      },
+      {
+        "M": 20000,
+        "comparison_weight_equals_raw": true,
+        "isolated_log_weight": 116.64435849731764,
+        "isolated_rows": 12,
+        "isolated_weight_over_M": 0.005832217924865882,
+        "paired_log_weight": 981.2097030345026,
+        "paired_rows": 101,
+        "paired_weight_over_M": 0.049060485151725126,
+        "prime_rows": 113,
+        "raw_log_weight": 1097.8540615318202,
+        "raw_weight_over_M": 0.05489270307659101
+      }
+    ]
+  },
+  "proved_formulae": {
+    "alignment": "6j=-14d iff j=7k,d=-3k",
+    "bounded_pair_mass": "for fixed finite H, W_pair(M;H)=O_H(M/log M)=o(M)",
+    "comparison_carrier": "(6M-r)/7=p on the exact selector",
+    "comparison_module": "V_M(r)=(1,6M-r)^T and V_M(r+u)=[[1,0],[-u,1]]V_M(r)",
+    "fixed_M": "r=6M-7p; s=(5p-4M-1)/2",
+    "full_grid": "(p,r,s)->(p+2d,r-14d,s+5d)",
+    "isolated_mass": "(2/35)M+o(M)",
+    "same_ray_return": "(r,s,p)->(r+42k,s-15k,p-6k)"
+  },
+  "row_grid_replay": {
+    "classification": "EXACT FINITE REPLAY ONLY",
+    "comparison_module": "V_M(r+u)=[[1,0],[-u,1]] V_M(r)",
+    "declared_M": [
+      80,
+      137,
+      250,
+      499,
+      1000
+    ],
+    "fixed_7_saturated_carrier": "p",
+    "prime_rows": 16,
+    "raw_carrier": "6M-r=7p",
+    "row_digest_sha256": "4d95d64a20f94a86340131f316fc1a11dec45e875832f3f97ac66be824f0a207",
+    "row_shifts_checked": 156
+  },
+  "schema": "item385-j2-bounded-window-aggregate-no-go-v1",
+  "scope_warning": "The comparison module is not the actual carrier.  It proves only that the listed structural metadata cannot imply matched-modulus sparsity.  Finite prime-pair counts are diagnostic only."
+}

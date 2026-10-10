@@ -1,0 +1,198 @@
+{
+  "arithmetic": "exact fractions, integers, and complete trial division in a declared finite range",
+  "finite_congruence_crosscheck": {
+    "label": "FINITE check of the separately proved congruence identity",
+    "nodes": 129302,
+    "prime_max": 3700,
+    "s_max": 300,
+    "stream_sha256": "c702ca0b382593a4a0a6c32edf7360d4e266c96cc5124afbb2072b70dc394700"
+  },
+  "finite_factorization_scan": {
+    "all_residuals_after_division": 1,
+    "distinct_factor_occurrences": 13867,
+    "factorized_phase_count": 3601,
+    "label": "FINITE complete factorization through b=max_b; no extrapolation",
+    "max_b": 900,
+    "maximum_factor_ratio": {
+      "denominator": 900,
+      "node": [
+        900,
+        3,
+        2399
+      ],
+      "numerator": 2399
+    },
+    "maximum_prime_factor": 2399,
+    "per_phase_trial_division_ceiling": "4*b+100",
+    "phase_feasible_hits": [
+      {
+        "b": 900,
+        "k": 899,
+        "p": 2399,
+        "q": 1,
+        "r": 3,
+        "s": 299,
+        "terminal_t": 7,
+        "valuation_in_eliminant_gcd": 1
+      }
+    ],
+    "stream_sha256": "62799fa185f6bfef07a2cbede09c69d6350beadfdeb47e8f796abb4a35f90768",
+    "support_gap_phases": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "total_factor_multiplicity": 626022
+  },
+  "finite_recurrence_crosscheck": {
+    "extra_b": [
+      299,
+      400,
+      899,
+      900
+    ],
+    "label": "FINITE independent common-term reconstruction; not an all-b factorization theorem",
+    "max_contiguous_b": 100,
+    "nodes": 420,
+    "stream_sha256": "d57c9e02378b3f30ca2e05e4ce325c4bf7c58e578d174ba083f9cfbf33821efd"
+  },
+  "item": 214,
+  "mandatory_b900_factorization": {
+    "factorization": [
+      [
+        2,
+        449
+      ],
+      [
+        911,
+        1
+      ],
+      [
+        971,
+        1
+      ],
+      [
+        991,
+        1
+      ],
+      [
+        1031,
+        1
+      ],
+      [
+        1051,
+        1
+      ],
+      [
+        1091,
+        1
+      ],
+      [
+        1151,
+        1
+      ],
+      [
+        1171,
+        1
+      ],
+      [
+        1231,
+        1
+      ],
+      [
+        1291,
+        1
+      ],
+      [
+        2399,
+        1
+      ]
+    ],
+    "g0_numerator_sha256": "469e3ce63c3ebb25daee9ffebfceb4ffb14b79510ce73598884984727053553c",
+    "g1_numerator_sha256": "505c864b4ee50c0ee78c0197d7a3471e9997221f467d5dd7a17011693f1e9623",
+    "gcd": "7741269879124174381610291595774708181269272361968769193256374992372688347484605694656473900070056575078240654598768797841493748568433330077102389694794120351022242070528",
+    "identity": "G(900,3)=2^449*911*971*991*1031*1051*1091*1151*1171*1231*1291*2399",
+    "infeasible_odd_factors_mod_20": {
+      "factors": [
+        911,
+        971,
+        991,
+        1031,
+        1051,
+        1091,
+        1151,
+        1171,
+        1231,
+        1291
+      ],
+      "residue": 11
+    },
+    "node": {
+      "b": 900,
+      "k": 899,
+      "p": 2399,
+      "q": 1,
+      "r": 3,
+      "s": 299
+    },
+    "phase_required_residue_mod_20": 19,
+    "unique_feasible_factor": 2399
+  },
+  "proved_common_term_recurrence": {
+    "common_term": "T_h=C(b,r+4h)*(alpha)_h/(delta)_h",
+    "parameters": "alpha=(3b+2+5r)/20; delta=(r-b-2)/4",
+    "scope": "exact for every b>=0 and r in {0,1,2,3}, with support gaps handled separately",
+    "sums": "Phi_g1=sum C(b+1,r+4h)*(alpha)_h/(delta)_h; Phi_g0=sum C(b,r+4h)*(alpha)_h/(delta+1)_h",
+    "term_ratio": "T_(h+1)/T_h = product_{u=0}^3 (b-r-4h-u)/(r+4h+u+1) * (alpha+h)/(delta+h)",
+    "weights": "apart from the possible g1 endpoint C(b+1,b+1), Phi_g1=sum T_h*(b+1)/(b+1-r-4h), Phi_g0=sum T_h*delta/(delta+h)"
+  },
+  "proved_height_ledger": {
+    "bound": "log|N_a(b,r)| <= log(b+2)+(b+1)log2+((b+2)/2)log(10(b+3)) whenever N_a is nonzero",
+    "finite_checkpoints": [
+      {
+        "b": 10,
+        "largest_log_abs_numerator": 12.200939493418426,
+        "proved_log_bound": 39.31473233868089
+      },
+      {
+        "b": 100,
+        "largest_log_abs_numerator": 148.58582294787038,
+        "proved_log_bound": 428.43585619224655
+      },
+      {
+        "b": 400,
+        "largest_log_abs_numerator": 590.7479659523675,
+        "proved_log_bound": 1952.5543241362434
+      },
+      {
+        "b": 900,
+        "largest_log_abs_numerator": 1335.9783847633246,
+        "proved_log_bound": 4739.176972735948
+      }
+    ],
+    "order": "O(b log(b+2)) per phase",
+    "route_consequence": "summing this envelope over b comparable to m costs O(m^2 log m), so it gives no O(m) coefficient and cannot supply or exclude the needed 0.1177979020165907632818384072... per m"
+  },
+  "proved_phase_feasibility": {
+    "derivation": "s=sigma_r (mod 4) and q*p=b+4+5s",
+    "necessary_congruence": "q*p = b+4+5*sigma_r (mod 20)",
+    "q1": "p=b+4+5*sigma_r (mod 20)",
+    "q2": "2p=b+4+5*sigma_r (mod 20); an odd right side is impossible",
+    "sigma_by_r": {
+      "0": 2,
+      "1": 1,
+      "2": 0,
+      "3": 3
+    }
+  },
+  "verdict": "PROVED an exact common-term recurrence and phase-feasibility congruence; PROVED the full b=900 gcd factorization and retained p=2399; FINITE complete factorization through b=900 finds p=2399 as the only phase-feasible odd factor; PROVED only an O(b log b) eliminant-height bound, which is globally inadequate; an all-b prime-localization theorem and a positive Route-1 rate bound remain OPEN."
+}

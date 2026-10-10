@@ -1,0 +1,17 @@
+{
+  "original_expression": "verify('companion_radius_constant', 20/8 == rat(5,2))",
+  "corrected_expression": "verify('companion_radius_constant', rat(20,8) == rat(5,2))",
+  "original_sha256": "10349728e86091126e6474740efa1ec1a1703cdef2f5fdd8a0f1c41a8a63fce9",
+  "corrected_sha256": "a191766316d8f49f5a92dbd7208787f002a3c895991a45b4cda4cbf7b65ff468",
+  "preserved_check_counts": {
+    "assertions": 2,
+    "named_checks": 44
+  },
+  "backup": "work/session_20261001_astra/recovery/check_revised_remainder_review.before_exact_repair.py",
+  "execution_status": "PASS",
+  "independent_paper_review_completed": false,
+  "main_problem": "OPEN",
+  "completed_checks": 44,
+  "certificate": "work/session_20261001_astra/agent1/revised_remainder_independent_checks.json",
+  "stdout": "work/session_20261001_astra/recovery/revised_remainder_checker_stdout.txt"
+}

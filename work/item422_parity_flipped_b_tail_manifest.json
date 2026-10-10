@@ -1,0 +1,53 @@
+{
+  "item": 422,
+  "schema": "item422-parity-flipped-b-tail-manifest-v1",
+  "checked_date_beijing": "2026-09-01",
+  "title": "parity-flipped upper-B tail closes into the old v-column",
+  "classification": "ROOT_AUDITED_CANONICAL_SCOPED_NO_GO_ZERO_BOOKING",
+  "dependencies": {
+    "sources/item250_j2_ordinary_phase_report.md": "56339ec89876abd68627d03b2d3e4e4d1c0fdc8b8d20a59afb274cb7dafe98ce",
+    "results/item250_j2_ordinary_phase_certificate.json": "6f8d0165448dd8949436649e2824a14578c1bce08e8875a6fd88f770c72cb5e3",
+    "sources/item318_j2_actual_period_plucker_report.md": "e89f4892b3c2b9b999321de0ec6973547903b755f07b0d34be7f0da634ecd4db",
+    "results/item318_j2_actual_period_plucker_certificate.json": "75e84016af2c7580f1954f795ed080d25083345578558aae49f6df4253891fd7",
+    "sources/item349_j2_degenerate_triple_minor_carrier_report.md": "ca3141156cb5034012a174377c3596e22d22cae924625649b6d620d510f4790c",
+    "results/item349_j2_degenerate_triple_minor_carrier_certificate.json": "b26294d51b1844aeee04146004b2ecec9b6e1ff81aa271a3167e5d86c11bce44",
+    "sources/item409_j2_actual_rejection_carrier_report.md": "99caf10f9f1561dcb0e3a712f381db639b8260da6594dd305915ebb66f0d69ce",
+    "results/item409_j2_actual_rejection_carrier_certificate.json": "b6a68f27d131b9a9e8d7e2512d78d54dbbd7bb70f502b2fbaf8277b6a277f940",
+    "sources/item416_j2_adaptive_foreign_tail_transport_report.md": "66cde3c776df067b600038ff16734e120036274b1e248b7c4644d0564fcc2e30",
+    "results/item416_j2_adaptive_foreign_tail_transport_certificate.json": "3effb6a6162df9c5639ca155721adb165ed60ff0656d09aac5851c1ffd0bc64b",
+    "sources/item419_j2_transverse_double_sheet_report.md": "11573a70d65f7c6c76e218ccf74e922b7448037b1612646c2ea0bf2111d4cfbb",
+    "results/item419_j2_transverse_double_sheet_certificate.json": "3be72f1e942917cd39ff65313a49163e277517b513b12c5814b08d32c0fae682"
+  },
+  "artifacts": {
+    "sources/item422_parity_flipped_b_tail_report.md": "1da43e688a24c29d320c003dc958eed9d57d168d5ba7dd01b4d02f75eed18fb5",
+    "scripts/item422_parity_flipped_b_tail_certificate.py": "b3cc14e758d6a27e39f172087c440d1ddc3556b270439fdb5cbac569862f9dfc",
+    "results/item422_parity_flipped_b_tail_certificate.json": "794b19a2a25b3cf6629486a038a16e1be763ffb6e49e86215cbf93492024ee1f",
+    "results/item422_parity_flipped_b_tail_certificate_replay.json": "794b19a2a25b3cf6629486a038a16e1be763ffb6e49e86215cbf93492024ee1f",
+    "results/item422_parity_flipped_b_tail_root_replay.json": "794b19a2a25b3cf6629486a038a16e1be763ffb6e49e86215cbf93492024ee1f",
+    "results/item422_parity_flipped_b_tail_ledger_delta.json": "a77e6b6ce4f093e102b008d6f2690b93af85a0c566943e2330c9feee35aa9f66",
+    "results/item422_parity_flipped_b_tail_root_audit.json": "c77916d3ea303b6694e49250856d7653eacc86022b0ef55d69e6f49c7f6787f0"
+  },
+  "claims": {
+    "proved": [
+      "the odd second-sheet target is even and has the integral parameter D_perp=(Q_perp+r+2)/2",
+      "the parity-flipped upper-B coefficients have an exact common-factorial terminating-binomial formula",
+      "the specialized tail vector satisfies Delta=kappa_perp*g by all-r termwise coefficient reversal",
+      "the actual tail is a q-unit multiple of the old v-column",
+      "adjoining the tail leaves the connection-minor ideal unchanged",
+      "within the natural column/determinant information class, the new tail cannot transport the source target or rejection",
+      "new booking and new capacity reduction are zero"
+    ],
+    "not_claimed": [
+      "that any declared geometry-replay q divides Pi, Gamma, or J",
+      "that the Item-409 tied-prime period replacement is valid at a foreign q",
+      "an actual source-target reciprocity theorem",
+      "B_perp_e(M)=o(M)",
+      "a reduction of the ordinary-j2 ceiling",
+      "Route-1 completion or any conclusion about e+pi"
+    ]
+  },
+  "replay": {
+    "command": "python scripts/item422_parity_flipped_b_tail_certificate.py --replay results/item422_parity_flipped_b_tail_certificate.json --output results/item422_parity_flipped_b_tail_certificate_replay.json",
+    "byte_identical": true
+  }
+}

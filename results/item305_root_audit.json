@@ -1,0 +1,46 @@
+{
+  "schema": "item305-root-audit-v1",
+  "item": 305,
+  "auditor": "root",
+  "date": "2026-08-31",
+  "verdict": "PASS WITH EXACT MULTIPLIER CLASSIFICATION, TWO INFINITE COUNTERFAMILIES, SHARPLY SCOPED CONTINUED-FRACTION NO-GO, AND ZERO BOOKING",
+  "package": {
+    "manifest_files_checked": 5,
+    "manifest_file_hash_mismatches": 0,
+    "frozen_dependencies_checked": 4,
+    "manifest_dependency_hash_mismatches": 0,
+    "hash_list_entries_checked": 6,
+    "hash_list_mismatches": 0,
+    "json_files_parsed": 5,
+    "canonical_root_replay_byte_identical": true,
+    "canonical_and_root_replay_sha256": "10d6989341d0e9c6416fe7a3a26be054ffab39e3df56f82b4e3fa1d42d79bcaf",
+    "report_sha256": "7da8f962ccf340204c80303682c2e0d2bbd7ad4ecbe1662a689cbcbbf210efcc",
+    "script_sha256": "688c3aa668d15a70ce688a13c0677a57fc0e2ca80b9cf22a8dceb2c7c10f4db4",
+    "ledger_sha256": "20fa9fcfb1e0a9ce65aba90e15543e9d2709b54971d63879eac1334034d25e7a",
+    "manifest_sha256": "18f8e57218710564b85cb1df0eeb53714e9a4fe08485f6d7e6f1750723d73714"
+  },
+  "independent_mathematical_checks": {
+    "euler_identity": "PASS: splitting the continuant matrix product at k gives Q_k S-P_k a=(-1)^k K(w_(k+2),...,w_m).",
+    "legendre_reduction": "PASS: kappa<c and R<a/(2c) imply |S/a-p_tilde/R|<1/(2R^2); reduction can only weaken the denominator, so Legendre applies. The zero and terminal convergents are excluded by S>c and R<a.",
+    "exact_classification": "PASS: restoring the common multiplier after reduction and applying Euler's identity gives exactly R=gQ_k, kappa=gD_k, sign=(-1)^k; reversing the equalities proves the converse.",
+    "multiplier_counterfamily": "PASS: for n=Q_k+2, terminal recurrence, concatenation, and Q_(k+1)>2(B+1) give 2D_k<c, while a/(2c)>2Q_k+1. All Q_j are odd, so R=2Q_k is never a prefix denominator.",
+    "tail_counterfamily": "PASS: for n=(Q_k+3)/2, B=2Q_k gives Q_k<a/(2c), while D_k<(2Q_k+1)E<Q_(k+1)E<c. This holds symbolically for every k>=1.",
+    "extended_replay": "PASS: an independent exhaustive bounded classification through n=64 matched the predicted triples; this remains EXACT FINITE ONLY and is not used to prove the infinite statements.",
+    "scope": "PASS: the theorem refutes only the denominator-only and D_k>=c continued-fraction shortcuts. Seed-specific nearest-quotient, modular-square, Ostrowski, nonlinear, proper-target, and product-baseline methods remain OPEN."
+  },
+  "format": {
+    "report_bytes": 6496,
+    "report_lines": 380,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "inline_math_open": 40,
+    "inline_math_close": 40,
+    "display_math_open": 36,
+    "display_math_close": 36
+  },
+  "capacity": {
+    "new_route1_rate": 0,
+    "new_beta_capacity_reduction": 0,
+    "ledger_changed": false
+  }
+}

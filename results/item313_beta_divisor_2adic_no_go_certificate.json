@@ -1,0 +1,321 @@
+{
+  "date_beijing": "2026-08-31",
+  "exact_replay_controls": {
+    "denominator_shift": {
+      "declared_rows": [
+        {
+          "bracket_mod_4": 2,
+          "j": 2,
+          "length": 4,
+          "v2_length": 2,
+          "v2_q_shift": 3
+        },
+        {
+          "bracket_mod_4": 2,
+          "j": 3,
+          "length": 8,
+          "v2_length": 3,
+          "v2_q_shift": 4
+        },
+        {
+          "bracket_mod_4": 2,
+          "j": 6,
+          "length": 12,
+          "v2_length": 2,
+          "v2_q_shift": 3
+        },
+        {
+          "bracket_mod_4": 2,
+          "j": 7,
+          "length": 16,
+          "v2_length": 4,
+          "v2_q_shift": 5
+        },
+        {
+          "bracket_mod_4": 2,
+          "j": 11,
+          "length": 24,
+          "v2_length": 3,
+          "v2_q_shift": 4
+        },
+        {
+          "bracket_mod_4": 2,
+          "j": 4,
+          "length": 40,
+          "v2_length": 3,
+          "v2_q_shift": 4
+        }
+      ],
+      "finite_rows_prove_valuation_lemma": false,
+      "label": "EXACT FINITE ONLY",
+      "row_digest": "2e233c9bcefff046f0f661db058655abc06f52a33f899096b6d3c79dcf54fb59"
+    },
+    "divisibility_scan": false,
+    "finite_promotion": false,
+    "four_continuants": {
+      "declared_rows": [
+        {
+          "length": 4,
+          "prefix_length": 2,
+          "start": 2,
+          "theta_empty": true,
+          "v2_difference": 2,
+          "v2_length": 2
+        },
+        {
+          "length": 8,
+          "prefix_length": 2,
+          "start": 3,
+          "theta_empty": false,
+          "v2_difference": 3,
+          "v2_length": 3
+        },
+        {
+          "length": 8,
+          "prefix_length": 6,
+          "start": 3,
+          "theta_empty": true,
+          "v2_difference": 3,
+          "v2_length": 3
+        },
+        {
+          "length": 12,
+          "prefix_length": 4,
+          "start": 5,
+          "theta_empty": false,
+          "v2_difference": 2,
+          "v2_length": 2
+        },
+        {
+          "length": 16,
+          "prefix_length": 8,
+          "start": 7,
+          "theta_empty": false,
+          "v2_difference": 4,
+          "v2_length": 4
+        },
+        {
+          "length": 24,
+          "prefix_length": 22,
+          "start": 8,
+          "theta_empty": true,
+          "v2_difference": 3,
+          "v2_length": 3
+        },
+        {
+          "length": 40,
+          "prefix_length": 18,
+          "start": 3,
+          "theta_empty": false,
+          "v2_difference": 3,
+          "v2_length": 3
+        }
+      ],
+      "finite_rows_prove_valuation_lemma": false,
+      "label": "EXACT FINITE ONLY",
+      "row_digest": "c0b1580c3d1bf1956686effabb8cda8657074aa96ae233684d87f9279964f4bd"
+    },
+    "half_bound_scan": false,
+    "label": "EXACT FINITE ONLY",
+    "parity_and_bases": {
+      "L_equals_2_polynomial_at_10": 2403,
+      "even_length_even_entry_continuant_mod_4": 1,
+      "label": "PROVED RESIDUE INDUCTIONS AND EXACT BASES",
+      "q_mod_8_period": [
+        1,
+        1,
+        7,
+        7
+      ],
+      "small_bases": [
+        {
+          "R_actual": 1,
+          "a": 1,
+          "c": 1,
+          "n": 2
+        },
+        {
+          "R_actual": 22,
+          "a": 7,
+          "c": 1,
+          "n": 3
+        },
+        {
+          "R_actual": 36,
+          "a": 71,
+          "c": 7,
+          "n": 4
+        }
+      ]
+    },
+    "transfer": {
+      "declared_rows": [
+        {
+          "2adic_scale": 4,
+          "length": 4,
+          "modulus": 16,
+          "shift_identity_at_scale": true,
+          "start": 2,
+          "transfer_identity": true
+        },
+        {
+          "2adic_scale": 8,
+          "length": 8,
+          "modulus": 32,
+          "shift_identity_at_scale": true,
+          "start": 3,
+          "transfer_identity": true
+        },
+        {
+          "2adic_scale": 4,
+          "length": 12,
+          "modulus": 16,
+          "shift_identity_at_scale": true,
+          "start": 5,
+          "transfer_identity": true
+        },
+        {
+          "2adic_scale": 16,
+          "length": 16,
+          "modulus": 64,
+          "shift_identity_at_scale": true,
+          "start": 7,
+          "transfer_identity": true
+        },
+        {
+          "2adic_scale": 8,
+          "length": 24,
+          "modulus": 32,
+          "shift_identity_at_scale": true,
+          "start": 3,
+          "transfer_identity": true
+        },
+        {
+          "2adic_scale": 8,
+          "length": 40,
+          "modulus": 32,
+          "shift_identity_at_scale": true,
+          "start": 8,
+          "transfer_identity": true
+        }
+      ],
+      "finite_rows_prove_all_length_statement": false,
+      "label": "EXACT FINITE ONLY",
+      "row_digest": "a0ac2e958e10bb04a86e5c05f2993f2a5fe3fe485805e345b8c4e2fe1970c2a7"
+    }
+  },
+  "item": 313,
+  "proof": {
+    "actual_consequence": "R_actual>=q_(n-1)/(2q_(n-2)) for n>=2",
+    "euler_output": "an even canonical prefix length ell gives gY=dTheta and the exact identity aHY=V C Theta",
+    "hypothetical_branch": "C=Dhat_k divides a and C>2cQ_k; j=k+1, V=q_j, U=q_(j+1), L=n-j-1",
+    "not_proved": [
+      "R_actual>=q_(n-1)/2",
+      "the intermediate-window exclusion",
+      "any beta capacity reduction"
+    ],
+    "overlap_identity": "with a=UX+VZ, c=UY+VW, C=B_nX+Y, g=a/C and eta=B_ng-U, VZ=gY+eta X",
+    "parity_bridge": "C|a makes L even; if L=2 the size condition fails; if L=2 mod 4 then q_(j+L)/q_j=-1 mod 8 while the four even-length continuants give only 1 or 5 mod 8; hence 4|L",
+    "rational_endpoint_audit": "0/1 and the terminal convergent are excluded; the alternate penultimate has error 1/(X(X-X_-)) and cannot meet Legendre because X>2X_-",
+    "strict_approximation": "0<Z/X-eta/V=gY/(VX)<1/(2V^2); L=2 is excluded first, and L>=4 makes X>B_(n-1)Y>=2gVY",
+    "theorem": "Dhat_k>2q_(n-2)Q_k implies Dhat_k does not divide q_(n-1) for n>=5 and 1<=k<n-2",
+    "transfer_theorem": "F_L(r)=I+L N_r mod 4*2^v2(L), N_r^2=0, by the exact h=4 base, multilinear shift lemma, doubling, and odd-block power",
+    "valuation_contradiction": "v2(q_(j+L)-q_j)=v2(L)+1 but v2(C Theta-HY)=v2(L); (a-V)HY=V(C Theta-HY) is impossible"
+  },
+  "schema": "item313-beta-divisor-2adic-no-go-certificate-v1",
+  "scope": {
+    "canonical_files_modified": false,
+    "closes": "only the Item305/Item311 Legendre-classified multiplier window",
+    "does_not_close": "R_actual>=a/2 or the intermediate window"
+  },
+  "status": "PROVED_SCOPED_DIVISOR_EXCLUSION",
+  "strict_labels": {
+    "all_length_transfer_congruence": "PROVED",
+    "booking": "ZERO",
+    "bounded_controls": "EXACT FINITE ONLY",
+    "capacity_reduction": "ZERO",
+    "centered_half_bound": "OPEN",
+    "denominator_shift_valuation": "PROVED",
+    "four_continuant_valuation": "PROVED",
+    "intermediate_window": "OPEN",
+    "item311_divisor_exclusion": "PROVED",
+    "weaker_actual_bound": "PROVED"
+  },
+  "symbolic_transfer_induction": {
+    "base": {
+      "exhaustive_residue_classes": [
+        {
+          "F_4_mod_16": [
+            [
+              5,
+              12
+            ],
+            [
+              4,
+              13
+            ]
+          ],
+          "equals_I_plus_4N": true,
+          "start_mod_4": 0
+        },
+        {
+          "F_4_mod_16": [
+            [
+              5,
+              4
+            ],
+            [
+              12,
+              13
+            ]
+          ],
+          "equals_I_plus_4N": true,
+          "start_mod_4": 1
+        },
+        {
+          "F_4_mod_16": [
+            [
+              5,
+              12
+            ],
+            [
+              4,
+              13
+            ]
+          ],
+          "equals_I_plus_4N": true,
+          "start_mod_4": 2
+        },
+        {
+          "F_4_mod_16": [
+            [
+              5,
+              4
+            ],
+            [
+              12,
+              13
+            ]
+          ],
+          "equals_I_plus_4N": true,
+          "start_mod_4": 3
+        }
+      ],
+      "role": "EXACT BASE FOR SYMBOLIC DOUBLING INDUCTION",
+      "row_digest": "f446b41e2383feabb7c58dfabc3b376fbce68025cd07e29650bdfdcc8e81416d",
+      "why_exhaustive": "B_(r+4)=B_r+16"
+    },
+    "shift_and_doubling": {
+      "coefficient_shift": "B_(r+h+i)-B_(r+i)=4h",
+      "conclusion": "F_h(r+h)=F_h(r) mod 8h",
+      "double_step": "F_(2h)=F_h(r)F_h(r+h)=I+2hN_r mod 8h because N_r^2=0",
+      "multilinear_reduction_mod_8h": "4h*sum_(i=0)^(h-1) J^i E11 J^(h-1-i)",
+      "odd_multiple_step": "F_(uh)=(I+hN_r)^u=I+uhN_r mod 4h for odd u",
+      "status": "PROVED SYMBOLICALLY",
+      "summand_counts_for_4_divides_h": {
+        "E12": "h/2, even",
+        "E21": "h/2, even"
+      }
+    }
+  }
+}

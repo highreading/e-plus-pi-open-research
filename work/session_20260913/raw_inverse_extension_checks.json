@@ -1,0 +1,57 @@
+{
+  "status": "PASS; independent controls n1,n3,n5",
+  "checks": [
+    {
+      "n": 1,
+      "Z_Riesz_and_exact_norm": true,
+      "Gram_and_cofactor_norm_identity": true,
+      "Delta_B_bridge": true,
+      "D": "1/2",
+      "Delta_B": "-2"
+    },
+    {
+      "n": 3,
+      "Z_Riesz_and_exact_norm": true,
+      "Gram_and_cofactor_norm_identity": true,
+      "Delta_B_bridge": true,
+      "D": "-6569309/12541132800",
+      "Delta_B": "4520525463552",
+      "opposite_maximal_coefficient_minors": {
+        "I0": [
+          0,
+          1
+        ],
+        "I1": [
+          1,
+          2
+        ],
+        "minor0": "1/49",
+        "minor1": "-5/49"
+      }
+    },
+    {
+      "n": 5,
+      "Z_Riesz_and_exact_norm": true,
+      "Gram_and_cofactor_norm_identity": true,
+      "Delta_B_bridge": true,
+      "D": "885513543810756722971177973/31484839821295502541999109570560000000000",
+      "Delta_B": "-12264964657039186212497961400133800616012021760",
+      "opposite_maximal_coefficient_minors": {
+        "I0": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "I1": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "minor0": "6125/3473957916",
+        "minor1": "-6125/4631943888"
+      }
+    }
+  ]
+}

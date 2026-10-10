@@ -1,0 +1,123 @@
+{
+  "schema": "item285-beta-arbitrary-sum-unit-tracking-ledger-v1",
+  "scope": "Arbitrary finite beta residual sums under an explicit normalized O(n) height budget, plus exact unequal-degree boundary-unit lift and annihilator-resultant criteria against Item265 de-overlapped targets",
+  "claims": [
+    {
+      "id": "I285-C1",
+      "label": "PROVED",
+      "claim": "For every finite nonzero integer sum R=sum T_j, with B=gcd_j|T_j| and every target Q, the normalized cancellation quotient gcd(Q,R)/gcd(Q,B) divides R/B.",
+      "evidence": "report Section 2, exact primewise valuation identity",
+      "scope_limit": "R must be nonzero to supply a height certificate"
+    },
+    {
+      "id": "I285-C2",
+      "label": "PROVED_SCOPED_CAPACITY_BOUND",
+      "claim": "The explicit assumption log(sum_j|T_j|/B)=O(n) gives log of the entire sum-only quotient O(n)=o(n log n), with no sparsity or degree restriction.",
+      "evidence": "report equations (1.6)-(1.7) and Section 2",
+      "scope_limit": "the terms must be specified independently of target factorization for capacity admission"
+    },
+    {
+      "id": "I285-C3",
+      "label": "PROVED_ACTUAL_TARGET_IMPLICATION",
+      "claim": "If Q divides R, then Q/gcd(Q,B) divides R/B and has logarithmic height O(n) under the normalized conservative-height hypothesis.",
+      "evidence": "report equation (1.8)",
+      "scope_limit": "the common baseline gcd(Q,B) remains the Item282 product channel"
+    },
+    {
+      "id": "I285-C4",
+      "label": "PROVED_DEOVERLAP",
+      "claim": "All cancellation statements hold for every Q dividing q_n/gcd(q_n,D_m), so the Item265 two-copy clearing reservoir is removed before capacity is measured.",
+      "evidence": "report Section 3",
+      "scope_limit": "the transverse matching correlation remains open"
+    },
+    {
+      "id": "I285-C5",
+      "label": "PROVED",
+      "claim": "For unequal Casoratian degrees k_j, the scalar sum reduces exactly to u^k0 F(u) modulo Q, where u=-q_(n+1)^2 is a unit and F(U)=sum c_j A_j U^(k_j-k0).",
+      "evidence": "report Section 4 and the one-factor Casoratian congruence",
+      "scope_limit": "evaluation at a moving unit still requires an integer lift or algebraic relation for a height argument"
+    },
+    {
+      "id": "I285-C6",
+      "label": "PROVED_CONDITIONAL_CLOSURE",
+      "claim": "Any integer lift v congruent to u modulo Q with nonzero evaluated residual and normalized evaluated l1 height O(n) gives an O(n) sum-only cancellation ceiling.",
+      "evidence": "report Section 5",
+      "scope_limit": "no such uniformly small actual-family lift is proved"
+    },
+    {
+      "id": "I285-C7",
+      "label": "PROVED_SCOPED_HEIGHT_BARRIER",
+      "claim": "For a genuinely nonhomogeneous sum, the canonical lift v=-q_(n+1)^2 has normalized conservative height at least 2 log q_(n+1)=2n log n+O(n).",
+      "evidence": "report equation (5.8)",
+      "scope_limit": "this does not exclude a different small representative or algebraic relation"
+    },
+    {
+      "id": "I285-C8",
+      "label": "PROVED",
+      "claim": "Multiplying every degree-k_j scalar term by C_1^(K-k_j) gives a new homogeneous sum with residual F(1) at no continuant cost.",
+      "evidence": "report Section 7; P_1=1 and C_1 congruent to u modulo Q",
+      "scope_limit": "this changes the original F(u) collision and gives no universal transfer of divisibility"
+    },
+    {
+      "id": "I285-C9",
+      "label": "PROVED_RESULTANT_CLOSURE",
+      "claim": "If monic M satisfies M(u)=0 modulo Q, the sum-only quotient divides Res(M,F/B); a nonzero resultant of logarithmic height O(n) gives an O(n) cancellation ceiling.",
+      "evidence": "report Section 8, integral Sylvester-Bezout identity",
+      "scope_limit": "a zero resultant is an identity branch and supplies no nonzero height certificate"
+    },
+    {
+      "id": "I285-C10",
+      "label": "PROVED_SCOPED_HEIGHT_BARRIER",
+      "claim": "The tautological annihilator U+q_(n+1)^2 has coefficient height 2n log n+O(n), and coefficient height alone cannot control a moving-unit evaluation when degree is uncharged.",
+      "evidence": "report Sections 8-9",
+      "scope_limit": "no general impossibility for new low-height annihilators is claimed"
+    },
+    {
+      "id": "I285-C11",
+      "label": "OPEN_EXACT_MISSING_LEMMA",
+      "claim": "The first admissible nonhomogeneous construction is either a factorization-independent small unit lift with O(n) normalized evaluated height, or a factorization-independent monic annihilator with nonzero O(n)-height resultant.",
+      "evidence": "report Section 10",
+      "scope_limit": "neither construction is currently known for the actual family"
+    },
+    {
+      "id": "I285-C12",
+      "label": "EXACT_FINITE_ONLY",
+      "claim": "The deterministic checker replays arbitrary-term quotients, actual unequal-degree boundary reductions, unit lifts, homogenization non-transfer, resultants, and zero-resultant identities.",
+      "evidence": "canonical certificate row digests",
+      "scope_limit": "the rows are exact algebraic witnesses only; no prime census or asymptotic extrapolation is performed"
+    },
+    {
+      "id": "I285-C13",
+      "label": "PROVED_BOOKING_DECISION",
+      "claim": "Every closed additive branch has zero normalized rate, while the actual low-height invariant and the common product baseline remain open; booking is zero.",
+      "evidence": "report Sections 3, 10, and 11",
+      "scope_limit": "Route 1 and every conclusion about e+pi remain open"
+    }
+  ],
+  "strict_labels": {
+    "arbitrary_complexity_cancellation_invariant": "PROVED",
+    "conditional_normalized_height_ceiling": "PROVED O(n)=o(n log n)",
+    "actual_target_leftover": "PROVED O(n) CEILING UNDER DECLARED HEIGHT",
+    "nonhomogeneous_boundary_unit_reduction": "PROVED",
+    "small_unit_lift_criterion": "PROVED CONDITIONAL CLOSURE",
+    "canonical_unit_lift": "PROVED n log n HEIGHT BARRIER",
+    "C1_homogenization": "PROVED FOR A DIFFERENT DESIGNED SUM",
+    "annihilator_resultant_criterion": "PROVED CONDITIONAL CLOSURE",
+    "actual_low_height_lift_or_annihilator": "OPEN",
+    "common_product_baseline": "OPEN VIA ITEM282",
+    "clearing_reservoir_deoverlap": "PROVED",
+    "bounded_checks": "EXACT FINITE ONLY",
+    "positive_linear_capacity_admission": "FAIL",
+    "new_route1_rate": "0",
+    "new_beta_capacity_reduction": "0"
+  },
+  "open": [
+    "a prime-independent or factorization-independent unit lift with normalized evaluated height O(n)",
+    "a monic low-height annihilator with nonzero O(n)-height resultant",
+    "unrestricted nonhomogeneous sums without either certificate",
+    "the Item282 product baseline and weighted-return cover",
+    "the uniform beta prime-power-height or little-oh squarefull theorem",
+    "the clearing-divisor and transverse matching correlation",
+    "Route 1 and every conclusion about e+pi"
+  ]
+}

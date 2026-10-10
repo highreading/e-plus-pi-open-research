@@ -1,0 +1,65 @@
+{
+  "schema": "item335-beta-first-canonical-cofactor-zero-rate-ledger-delta-v1",
+  "item": 335,
+  "date": "2026-09-01",
+  "status": "PROVED_GLOBAL_FIRST_CANONICAL_COFACTOR_ZERO_RATE_NO_GO",
+  "canonical_files_modified": false,
+  "actual_family": {
+    "source": "Item 316 exact canonical half-bound target",
+    "defect": "Delta=sigma E_(m+1)-a",
+    "sign": "epsilon=(-1)^n sigma",
+    "implication": "an actual half-bound failure gives Delta=0 and the exact top quotient (L-a+epsilon delta_(m-1))/A=z_m"
+  },
+  "selected_cofactor": {
+    "top_digit_formula": "z_m=epsilon(delta_m-w_m delta_(m-1))",
+    "all_depth_load_formula": "z_j=(1+w_j w_(j-1))J_(j-2)-w_j J_(j-3)-J_j",
+    "target_quotient_identity": "L-a+epsilon delta_(m-1)=Delta+A z_m",
+    "selection_reason": "this is the first canonical coordinate surviving Item 333's quotient by the old saturated defect"
+  },
+  "proved": [
+    "the exact adjacent load-cofactor identity for every 3<=j<=m",
+    "the exact target top quotient after Delta is removed",
+    "z_m=0 iff the two top digits vanish in the Item-316 half-language",
+    "the canonical first nonzero cofactor exists at a load-valid depth",
+    "1<=|z_*|<=w_m w_(m-1)<A^2",
+    "for every Q|b the captured valuation mass is log gcd(Q,|z_*|)<2 log A",
+    "every fixed-cardinality bounded-degree polynomial-height portfolio in adjacent cofactors has O(log n) nonzero prime-power mass"
+  ],
+  "global_zero_rate_no_go": {
+    "normalization": "log b=n log n+O(n)",
+    "first_cofactor_mass": "O(log n)",
+    "rate": 0,
+    "closes": [
+      "the primitive top quotient as a positive-mass divisor reservoir",
+      "continuing through a zero top boundary to the first nonzero adjacent cofactor",
+      "fixed-cardinality bounded-degree polynomial-coefficient-height portfolios of such cofactors",
+      "proper-target valuation mass supported only on their nonzero values"
+    ]
+  },
+  "strict_labels": {
+    "PROVED": [
+      "load identity, target quotient, zero-top equivalence, first-survivor theorem, height bound, proper-target mass bound, and fixed-complexity theorem"
+    ],
+    "PROVED_GLOBAL_ZERO_RATE_SCOPED_NO_GO": [
+      "first canonical cofactor and fixed-complexity boundary-cofactor divisor/valuation reservoirs"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared canonical replay rows and factorizations; no target census"
+    ],
+    "OPEN": [
+      "the original all-digit exclusion and centered half-bound",
+      "growing-depth, growing-degree, or growing-height cofactor portfolios",
+      "exact target-specific sign/nonvanishing/gcd-distribution/valuation theorems",
+      "full-word lower-coordinate arithmetic and complement redigitization",
+      "proper-target residue bounds, beta capacity, Route 1, and e+pi"
+    ]
+  },
+  "capacity": {
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "booking": 0,
+    "item282_baseline_rebooked": false,
+    "proper_target_lower_bound": false
+  },
+  "recommended_next_smallest_lemma": "either obtain an exact target contradiction from a global/growing cofactor, or prove a capacity bound for a genuinely growing-depth portfolio; do not invest further in fixed boundary cofactors"
+}

@@ -1,0 +1,55 @@
+{
+  "item": 329,
+  "schema": "item329-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_FIXED_M_CUBIC_CARTIER_BRIDGE_AND_SCOPED_HEIGHT_NO_GO",
+  "scope": "independent root audit of the selected fixed-j1 cubic Cartier carrier, its dual carrier, and the strictly scoped shared-height no-go",
+  "checks": {
+    "certificate_sha256": "4c89f82c9f83dccfb3a32540532e5c986bff1043ec7bfd6f5584500bd7ecc7fc",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_artifacts_match": true,
+    "frozen_dependencies_checked": 12,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 6,
+    "work_hash_list_match": true,
+    "independent_actual_rows": 113,
+    "independent_selected_bridge_checks": 113,
+    "independent_dual_bridge_checks": 113,
+    "independent_product_union_checks": 113,
+    "report_inline_delimiters": "85/85",
+    "report_display_delimiters": "55/55",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "coordinates": "M=3h+4s+2, p=4h+6s+3, and the selected coefficient index is 2h=6M-4p",
+    "selected_bridge": "for P(t)=2-4t+3t^2-t^3 and K_(M,n)=[t^n]P(t)^(4M), the selected factor is (4M+1)2^(1-4M)K_(M,2h) modulo p; every prefactor is a p-unit",
+    "dual_bridge": "the dual carrier L represents the opposite factor, so p divides the full container exactly when p divides K or L",
+    "global_structure": "the K array has the fixed rational generating function 1/(1-zP(t)^4), a Laurent Cartier readout, and the certified four-term coefficient recurrence",
+    "scoped_no_go": "degree O(M), integrality, alternating signs, and exp(O(M)) coefficient height alone do not imply a strict fixed-j1 capacity reduction; the specific cubic-power arithmetic remains live",
+    "scope_warning": "weighted zero density for the actual K and L carriers is open; no finite control row is promoted to an asymptotic theorem"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "actual selected-factor cubic Cartier bridge",
+      "dual carrier and exact full-container zero union",
+      "fixed rational generating function and coefficient recurrence",
+      "scoped shared-degree/sign/height information-class no-go",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "five declared controls and 113 independent root-audit rows"
+    ],
+    "OPEN": [
+      "W_K(M)=o(M) and W_L(M)=o(M)",
+      "fixed-j1 weighted zero density and capacity reduction",
+      "Route 1 closure"
+    ]
+  },
+  "capacity": {
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

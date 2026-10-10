@@ -1,0 +1,752 @@
+{
+  "capacity": {
+    "booking": 0,
+    "closed_class_carrier": "absolute coefficient content of endpoint-reduced numerator",
+    "constructed_nonzero_actual_content_carrier": false,
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "raw_singleton_maximum": "log U_11<=log b",
+    "sub_beta_nonzero_content_implication": "would prove log U_11=o(log b)"
+  },
+  "date": "2026-09-01",
+  "declared_controls": {
+    "actual_prime_or_target_census_performed": false,
+    "contents": {
+      "N": 4,
+      "content": 30,
+      "degree": 2,
+      "finite_algebra_controls_only": true,
+      "primitive_content": 1,
+      "rows": [
+        {
+          "declared_prime": 2,
+          "prime_divides_content": true,
+          "zero_polynomial_mod_prime": true
+        },
+        {
+          "declared_prime": 3,
+          "prime_divides_content": true,
+          "zero_polynomial_mod_prime": true
+        },
+        {
+          "declared_prime": 5,
+          "prime_divides_content": true,
+          "zero_polynomial_mod_prime": true
+        },
+        {
+          "declared_prime": 7,
+          "prime_divides_content": false,
+          "zero_polynomial_mod_prime": false
+        },
+        {
+          "declared_prime": 11,
+          "prime_divides_content": false,
+          "zero_polynomial_mod_prime": false
+        }
+      ],
+      "rows_digest": "a7a7e448d9e8d9be8cd381ce325cf5021fc28bb1faf77c850a1440220980c2cc"
+    },
+    "controls_digest": "da681d678dd57a95995adf333dedc28d5cd900942fec74d047c8794920a61be0",
+    "finite_rows_promoted": false,
+    "intersections": {
+      "rows": [
+        {
+          "N": 1,
+          "degree_below_N_monomials": 1,
+          "identity": "intersection_j (X_j) = (product_j X_j)",
+          "intersection_monomials": 3,
+          "max_degree": 3,
+          "monomials_checked": 4
+        },
+        {
+          "N": 2,
+          "degree_below_N_monomials": 3,
+          "identity": "intersection_j (X_j) = (product_j X_j)",
+          "intersection_monomials": 6,
+          "max_degree": 4,
+          "monomials_checked": 15
+        },
+        {
+          "N": 3,
+          "degree_below_N_monomials": 10,
+          "identity": "intersection_j (X_j) = (product_j X_j)",
+          "intersection_monomials": 10,
+          "max_degree": 5,
+          "monomials_checked": 56
+        },
+        {
+          "N": 4,
+          "degree_below_N_monomials": 35,
+          "identity": "intersection_j (X_j) = (product_j X_j)",
+          "intersection_monomials": 15,
+          "max_degree": 6,
+          "monomials_checked": 210
+        },
+        {
+          "N": 5,
+          "degree_below_N_monomials": 126,
+          "identity": "intersection_j (X_j) = (product_j X_j)",
+          "intersection_monomials": 21,
+          "max_degree": 7,
+          "monomials_checked": 792
+        },
+        {
+          "N": 6,
+          "degree_below_N_monomials": 462,
+          "identity": "intersection_j (X_j) = (product_j X_j)",
+          "intersection_monomials": 28,
+          "max_degree": 8,
+          "monomials_checked": 3003
+        }
+      ],
+      "rows_digest": "0069630fea5bddc6229c0e75edc5abfbd8b71612d4e0c7dbbca49eb1883df321"
+    },
+    "portfolios": {
+      "rows": [
+        {
+          "N": 5,
+          "chart_sets": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "full_chart_cover": true,
+          "minimum_degrees": [
+            3,
+            2
+          ],
+          "minimum_total_degree_budget": 5,
+          "portfolio_size": 2
+        },
+        {
+          "N": 6,
+          "chart_sets": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              3,
+              4,
+              5
+            ]
+          ],
+          "full_chart_cover": true,
+          "minimum_degrees": [
+            3,
+            3
+          ],
+          "minimum_total_degree_budget": 6,
+          "portfolio_size": 2
+        },
+        {
+          "N": 7,
+          "chart_sets": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              3,
+              4,
+              5
+            ],
+            [
+              6
+            ]
+          ],
+          "full_chart_cover": true,
+          "minimum_degrees": [
+            3,
+            3,
+            1
+          ],
+          "minimum_total_degree_budget": 7,
+          "portfolio_size": 3
+        },
+        {
+          "N": 8,
+          "chart_sets": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              3,
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "full_chart_cover": true,
+          "minimum_degrees": [
+            3,
+            3,
+            2
+          ],
+          "minimum_total_degree_budget": 8,
+          "portfolio_size": 3
+        },
+        {
+          "N": 9,
+          "chart_sets": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              3,
+              4,
+              5
+            ],
+            [
+              6,
+              7,
+              8
+            ]
+          ],
+          "full_chart_cover": true,
+          "minimum_degrees": [
+            3,
+            3,
+            3
+          ],
+          "minimum_total_degree_budget": 9,
+          "portfolio_size": 3
+        },
+        {
+          "N": 10,
+          "chart_sets": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              3,
+              4,
+              5
+            ],
+            [
+              6,
+              7,
+              8
+            ],
+            [
+              9
+            ]
+          ],
+          "full_chart_cover": true,
+          "minimum_degrees": [
+            3,
+            3,
+            3,
+            1
+          ],
+          "minimum_total_degree_budget": 10,
+          "portfolio_size": 4
+        },
+        {
+          "N": 11,
+          "chart_sets": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              3,
+              4,
+              5
+            ],
+            [
+              6,
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "full_chart_cover": true,
+          "minimum_degrees": [
+            3,
+            3,
+            3,
+            2
+          ],
+          "minimum_total_degree_budget": 11,
+          "portfolio_size": 4
+        },
+        {
+          "N": 12,
+          "chart_sets": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              3,
+              4,
+              5
+            ],
+            [
+              6,
+              7,
+              8
+            ],
+            [
+              9,
+              10,
+              11
+            ]
+          ],
+          "full_chart_cover": true,
+          "minimum_degrees": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "minimum_total_degree_budget": 12,
+          "portfolio_size": 4
+        }
+      ],
+      "rows_digest": "90bf26d3a8dd4dc956d3ce8c914c17dbee2a98f47391017a5dd772de49217c78"
+    },
+    "recurrences": {
+      "rows": [
+        {
+          "N": 3,
+          "bounded_window_support": 2,
+          "full_product_degree": 3,
+          "full_product_support": 3,
+          "product_accumulator": [
+            {
+              "degree": 1,
+              "step": 1,
+              "support": 1
+            },
+            {
+              "degree": 2,
+              "step": 2,
+              "support": 2
+            },
+            {
+              "degree": 3,
+              "step": 3,
+              "support": 3
+            }
+          ],
+          "window_monomial_in_intersection": false,
+          "window_omits_a_row": true
+        },
+        {
+          "N": 4,
+          "bounded_window_support": 3,
+          "full_product_degree": 4,
+          "full_product_support": 4,
+          "product_accumulator": [
+            {
+              "degree": 1,
+              "step": 1,
+              "support": 1
+            },
+            {
+              "degree": 2,
+              "step": 2,
+              "support": 2
+            },
+            {
+              "degree": 3,
+              "step": 3,
+              "support": 3
+            },
+            {
+              "degree": 4,
+              "step": 4,
+              "support": 4
+            }
+          ],
+          "window_monomial_in_intersection": false,
+          "window_omits_a_row": true
+        },
+        {
+          "N": 5,
+          "bounded_window_support": 4,
+          "full_product_degree": 5,
+          "full_product_support": 5,
+          "product_accumulator": [
+            {
+              "degree": 1,
+              "step": 1,
+              "support": 1
+            },
+            {
+              "degree": 2,
+              "step": 2,
+              "support": 2
+            },
+            {
+              "degree": 3,
+              "step": 3,
+              "support": 3
+            },
+            {
+              "degree": 4,
+              "step": 4,
+              "support": 4
+            },
+            {
+              "degree": 5,
+              "step": 5,
+              "support": 5
+            }
+          ],
+          "window_monomial_in_intersection": false,
+          "window_omits_a_row": true
+        },
+        {
+          "N": 6,
+          "bounded_window_support": 5,
+          "full_product_degree": 6,
+          "full_product_support": 6,
+          "product_accumulator": [
+            {
+              "degree": 1,
+              "step": 1,
+              "support": 1
+            },
+            {
+              "degree": 2,
+              "step": 2,
+              "support": 2
+            },
+            {
+              "degree": 3,
+              "step": 3,
+              "support": 3
+            },
+            {
+              "degree": 4,
+              "step": 4,
+              "support": 4
+            },
+            {
+              "degree": 5,
+              "step": 5,
+              "support": 5
+            },
+            {
+              "degree": 6,
+              "step": 6,
+              "support": 6
+            }
+          ],
+          "window_monomial_in_intersection": false,
+          "window_omits_a_row": true
+        },
+        {
+          "N": 7,
+          "bounded_window_support": 6,
+          "full_product_degree": 7,
+          "full_product_support": 7,
+          "product_accumulator": [
+            {
+              "degree": 1,
+              "step": 1,
+              "support": 1
+            },
+            {
+              "degree": 2,
+              "step": 2,
+              "support": 2
+            },
+            {
+              "degree": 3,
+              "step": 3,
+              "support": 3
+            },
+            {
+              "degree": 4,
+              "step": 4,
+              "support": 4
+            },
+            {
+              "degree": 5,
+              "step": 5,
+              "support": 5
+            },
+            {
+              "degree": 6,
+              "step": 6,
+              "support": 6
+            },
+            {
+              "degree": 7,
+              "step": 7,
+              "support": 7
+            }
+          ],
+          "window_monomial_in_intersection": false,
+          "window_omits_a_row": true
+        },
+        {
+          "N": 8,
+          "bounded_window_support": 7,
+          "full_product_degree": 8,
+          "full_product_support": 8,
+          "product_accumulator": [
+            {
+              "degree": 1,
+              "step": 1,
+              "support": 1
+            },
+            {
+              "degree": 2,
+              "step": 2,
+              "support": 2
+            },
+            {
+              "degree": 3,
+              "step": 3,
+              "support": 3
+            },
+            {
+              "degree": 4,
+              "step": 4,
+              "support": 4
+            },
+            {
+              "degree": 5,
+              "step": 5,
+              "support": 5
+            },
+            {
+              "degree": 6,
+              "step": 6,
+              "support": 6
+            },
+            {
+              "degree": 7,
+              "step": 7,
+              "support": 7
+            },
+            {
+              "degree": 8,
+              "step": 8,
+              "support": 8
+            }
+          ],
+          "window_monomial_in_intersection": false,
+          "window_omits_a_row": true
+        }
+      ],
+      "rows_digest": "b73dd475d39ed2a483d2a33aa4f8390dac3a32c4b9c2fa7e4e4196000604943b"
+    }
+  },
+  "dependencies": {
+    "count": 28,
+    "rows": [
+      {
+        "bytes": 14388,
+        "path": "sources/item316_beta_intermediate_ostrowski_no_go_report.md",
+        "sha256": "8d6dce8354f08e94a252a2120cf677d9a374df95507a9297dcb064a1982fb6b0"
+      },
+      {
+        "bytes": 11912,
+        "path": "results/item316_beta_intermediate_ostrowski_no_go_certificate.json",
+        "sha256": "5167e9d160fcecac86791944e41a176d3400f2a6856090de7cf78d55984e7aa4"
+      },
+      {
+        "bytes": 3018,
+        "path": "results/item316_root_audit.json",
+        "sha256": "6cad978132f5f09c687aa8fcf8dcd92a7d917cf9411a69f679c7757139229175"
+      },
+      {
+        "bytes": 5980,
+        "path": "manifests/item316_beta_intermediate_ostrowski_no_go_manifest.json",
+        "sha256": "aac741658430fb661de078adfeafdbc3a9d20312a8fd8725cb4244d406d9bcf6"
+      },
+      {
+        "bytes": 14522,
+        "path": "sources/item333_beta_nonlinear_state_saturation_no_go_report.md",
+        "sha256": "8f4bc0a6f93cbd4882392ade311d68e25be1ceb282db71cc5e1ef2f70aee75d6"
+      },
+      {
+        "bytes": 59316,
+        "path": "results/item333_beta_nonlinear_state_saturation_no_go_certificate.json",
+        "sha256": "933120c05e0f67663608e9e53354407f4593718c149941942d070f4af3c0a76a"
+      },
+      {
+        "bytes": 2668,
+        "path": "results/item333_beta_nonlinear_state_saturation_no_go_root_audit.json",
+        "sha256": "6ddd4949f5d7f91fdc160634da06079661ebf373ac0f061495a7b41135924ecc"
+      },
+      {
+        "bytes": 4490,
+        "path": "manifests/item333_beta_nonlinear_state_saturation_no_go_manifest.json",
+        "sha256": "a1f55058846bdee5f33848f45af06fed8659f8c3402e4af6896540bf468aae77"
+      },
+      {
+        "bytes": 12193,
+        "path": "sources/item346_beta_t_avoiding_radical_localization_report.md",
+        "sha256": "2ad742c14d0adbc74da6c46394ed89f68cec8888a3c9d22ee4f230a4e16548a5"
+      },
+      {
+        "bytes": 20428,
+        "path": "scripts/item346_beta_t_avoiding_radical_localization_certificate.py",
+        "sha256": "76c020b07d199a7283d7373a3ef677643d3be01adfe7480628f92ccdad7498c0"
+      },
+      {
+        "bytes": 55217,
+        "path": "results/item346_beta_t_avoiding_radical_localization_certificate.json",
+        "sha256": "29a20d6ede62db23658d66db8e57af4a2982c9b66fd12d104f0070b3280aefab"
+      },
+      {
+        "bytes": 3264,
+        "path": "results/item346_beta_t_avoiding_radical_localization_root_audit.json",
+        "sha256": "c9273d7e187ee2c9b4b91bffc65769f1a29f937613c36960e4ed5871c5782089"
+      },
+      {
+        "bytes": 5228,
+        "path": "manifests/item346_beta_t_avoiding_radical_localization_manifest.json",
+        "sha256": "5029cf3483fdf6cce4bbc0d454bca362bb2796104ca36b353d0161e374915530"
+      },
+      {
+        "bytes": 11855,
+        "path": "sources/item358_beta_actual_low_incidence_saturation_barrier_report.md",
+        "sha256": "681c9f9cbe926978c78f632084c8be83439c2ac3f5e50f2c2697a49f2f0da68d"
+      },
+      {
+        "bytes": 21006,
+        "path": "scripts/item358_beta_actual_low_incidence_saturation_barrier_certificate.py",
+        "sha256": "c997c7f3739fe5dc98ee2e48c3ebfd1a67e74289e175d52bc8d5adfb1f9565bf"
+      },
+      {
+        "bytes": 15507,
+        "path": "results/item358_beta_actual_low_incidence_saturation_barrier_certificate.json",
+        "sha256": "4da88e55dec36f3c130def549007c8ae1509ff0a029dfed9ff25f67a78c2ffa3"
+      },
+      {
+        "bytes": 3638,
+        "path": "results/item358_beta_actual_low_incidence_saturation_barrier_root_audit.json",
+        "sha256": "a1a48f7d7080834ebf3be56b47d8056733e88e1913e8f6ea784f97a5eb2d9172"
+      },
+      {
+        "bytes": 8117,
+        "path": "manifests/item358_beta_actual_low_incidence_saturation_barrier_manifest.json",
+        "sha256": "4ba799fe2fc8cb6063034d844f91bcaec6c3fc84d043b1f46c675fce400acfb1"
+      },
+      {
+        "bytes": 13277,
+        "path": "sources/item365_beta_actual_orbit_interpolation_barrier_report.md",
+        "sha256": "c4e4789cec655f70f1914783e4cf203ed2c64d1b418ef6d28221ec09fde0b201"
+      },
+      {
+        "bytes": 21343,
+        "path": "scripts/item365_beta_actual_orbit_interpolation_barrier_certificate.py",
+        "sha256": "40e4cb5a8afbf8018b9c9639d35366411c2c8db30b3302011ee658b62cfad500"
+      },
+      {
+        "bytes": 18241,
+        "path": "results/item365_beta_actual_orbit_interpolation_barrier_certificate.json",
+        "sha256": "a8ac3e49a2d0270524c259c552728d7dba548793094ca31ee55298536f079e53"
+      },
+      {
+        "bytes": 4036,
+        "path": "results/item365_beta_actual_orbit_interpolation_barrier_root_audit.json",
+        "sha256": "50172f2daa112892c1a20b4f83cd14613681fdcdf1ae713a960071a74fe579e4"
+      },
+      {
+        "bytes": 9340,
+        "path": "manifests/item365_beta_actual_orbit_interpolation_barrier_manifest.json",
+        "sha256": "af8b606b81612ded49ab415a43b07d7d986a98084e650a3dc744e031c6e40f85"
+      },
+      {
+        "bytes": 11512,
+        "path": "sources/item367_beta_uniform_affine_carrier_no_go_report.md",
+        "sha256": "3827c4e9d9532135fdb2e338397523ce8b2936483b09cf5accbc974002023798"
+      },
+      {
+        "bytes": 14640,
+        "path": "scripts/item367_beta_uniform_affine_carrier_no_go_certificate.py",
+        "sha256": "6c9322838eccbca1ac257f7526fbae1a11f77937679b00fc4824aa40006f3a19"
+      },
+      {
+        "bytes": 20974,
+        "path": "results/item367_beta_uniform_affine_carrier_no_go_certificate.json",
+        "sha256": "b6fc66168a18237a67e43d75c13dc36666bd5c0fbb444d98fdc0a928bb186d93"
+      },
+      {
+        "bytes": 3719,
+        "path": "results/item367_beta_uniform_affine_carrier_no_go_root_audit.json",
+        "sha256": "40dd78454cd16a16581e3fd1f3d1c89c61b4c1e70465f4688f8298c59fa2c843"
+      },
+      {
+        "bytes": 7332,
+        "path": "manifests/item367_beta_uniform_affine_carrier_no_go_manifest.json",
+        "sha256": "3d3d7db889f0b39fab5b1e1792bf2332aa8d57a1718c6681dc1cbd5c915c20b1"
+      }
+    ],
+    "rows_digest": "ccbe065b8381ef312a5d8e16631d3acbea325563f051336aa6bcce5885bba8b1"
+  },
+  "item": 370,
+  "proof_object": {
+    "content_capture": "For a p-independent integer numerator, being the zero polynomial modulo p is equivalent to p dividing every coefficient. Hence every actual captured U_11 prime divides the integer coefficient content. Primitive numerators capture none; the zero numerator is inadmissible.",
+    "endpoint_reduction": "For p|b the Item365 endpoint coefficient is a p-unit, so after external t-saturation the endpoint quotient has independent load coordinates X_j. The class assumes a p-independent integral endpoint-reduced numerator and a denominator that is a unit on every singleton chart.",
+    "low_complexity": "A numerator of load degree less than N, or omitting any active load, cannot be a nonzero member of the singleton kernel. Modulo p it must be the zero polynomial.",
+    "portfolio": "If numerator G_l is assigned a set S_l of singleton charts, its noncontent branch is divisible by product_(j in S_l) X_j and has load degree at least |S_l|. If every member of a portfolio covering all N charts remains noncontent, its total degree budget is at least N; other charts enter content branches.",
+    "scope": "This closes generic endpoint-reduced bounded-window and sublinear-load-degree identities. It does not close accidental correlations at the unique canonical point or full-support degree-N recurrences.",
+    "singleton_kernel": "The contraction of the j-th localized singleton chart is (X_j). Therefore the kernel of the product of all chart maps is intersection_j(X_j)=(product_j X_j)."
+  },
+  "proof_object_digest": "dbf3985d725e6b55eb89f92e49e4d904ca7562a42ab4b35e6313d44263e1dc74",
+  "schema": "item370-beta-q-free-residual-saturation-no-go-certificate-v1",
+  "status": "PROVED_Q_FREE_GENERIC_SINGLETON_RESIDUAL_SATURATION",
+  "strict_scope": {
+    "actual_item316_claim_from_declared_rows": false,
+    "candidate_dependent_constants_admissible": false,
+    "canonical_files_modified": false,
+    "closes": [
+      "generic endpoint-reduced p-independent q-free residual identities of load degree below N",
+      "generic bounded-window residual identities omitting an active row",
+      "bounded portfolios whose total noncontent load degree is below the number of covered rows",
+      "p-unit rational denominators as an escape from numerator saturation",
+      "primitive nonzero numerators in the closed class"
+    ],
+    "does_not_close": [
+      "a correlation holding only at the unique actual canonical point",
+      "a full-support numerator of load degree at least N",
+      "beta-height product or gcd/radical recurrence states",
+      "candidate-dependent CRT constants",
+      "the actual U_11 mass, beta capacity, Route 1, or e+pi"
+    ],
+    "zero_residual_admissible": false
+  },
+  "theorem": {
+    "bounded_portfolio_total_degree_barrier": "PROVED_SCOPED",
+    "bounded_window_residual_no_go": "PROVED_SCOPED",
+    "canonical_one_point_correlation": "OPEN",
+    "coefficient_content_capture": "PROVED",
+    "endpoint_reduced_singleton_chart_kernel": "PROVED",
+    "full_support_degree_N_residual": "OPEN",
+    "load_degree_below_N_residual_no_go": "PROVED_SCOPED",
+    "nonzero_sub_beta_actual_residual": "OPEN",
+    "rational_p_unit_denominator_reduction": "PROVED"
+  }
+}

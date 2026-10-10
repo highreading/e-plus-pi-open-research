@@ -1,0 +1,28 @@
+{
+  "schema": "mixed-cubic-log-residue-exact-support-scan-v2",
+  "generator": "mixed_cubic_log_residue_exact_support_scan.py",
+  "generator_sha256": "62d15002273ffc1a41a6855f872255212e6d74747665fdf04f2125abea04c556",
+  "max_m": 2000,
+  "tested_m": 2000,
+  "normalization": {
+    "ell0": "2^(2m) L0",
+    "ell1": "2^(2m+2) L1"
+  },
+  "fresh_rows": [],
+  "all_gcd_prime_factors_at_most_6m": true,
+  "maxima": {
+    "ell0_bits": {
+      "bits": 14159,
+      "m": 2000
+    },
+    "ell1_bits": {
+      "bits": 14161,
+      "m": 2000
+    },
+    "gcd_bits": {
+      "bits": 6726,
+      "m": 2000
+    }
+  },
+  "warning": "finite exact scan only"
+}

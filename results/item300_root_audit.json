@@ -1,0 +1,44 @@
+{
+  "schema": "item300-root-audit-v1",
+  "item": 300,
+  "auditor": "root",
+  "date": "2026-08-31",
+  "verdict": "PASS WITH SHARPLY SCOPED PHASE-BLIND NO-GO AND ZERO BOOKING",
+  "package": {
+    "manifest_files_checked": 5,
+    "manifest_file_hash_mismatches": 0,
+    "frozen_dependencies_checked": 6,
+    "manifest_dependency_hash_mismatches": 0,
+    "hash_list_entries_checked": 6,
+    "hash_list_mismatches": 0,
+    "canonical_root_replay_byte_identical": true,
+    "canonical_and_root_replay_sha256": "eda21ac33bb2570f4fbeaea721a0cebf70776bc07185ecf9c990c35dd0cde161",
+    "report_sha256": "f97521d63531c796d8a38938d9af0fa6410c77392a2984e982d87ce0703948c8",
+    "script_sha256": "be79617b4fabb143baf49a770eac3d82c83d6f31f5fbff7385bc83aec943d0e1",
+    "ledger_sha256": "a8e05a497c93822361e800c6be6f343cb0be1834bb03ac929ff175921e198cec",
+    "manifest_sha256": "0d4561514c497afc37f4192e5837ff06495df8175f9eb72c59f9fe7c9b7bfa20"
+  },
+  "independent_mathematical_checks": {
+    "normalized_state": "PASS: theta_n=1/(A-4+theta_(n-1)); dividing the exact affine Turan update by c gives the displayed y_n recurrence, and centered backward transport gives the exact phase formula.",
+    "strip_geometry": "PASS: direct subtraction gives |I_n|=a/[A(A+1)] and the two exact margins about x_n. The n=5 base and recurrence inequality propagate |I_n|>2.",
+    "strict_inclusion": "PASS: transporting the previous margins through the decreasing F_n reduces the left inclusion to (A-2)(A-6)c+(2A-3)d>0 and the right inclusion to a stronger positive product inequality.",
+    "depth_width": "PASS: affine slopes telescope to q_(n-L)/q_n, yielding the exact J_(n,L) width. Recurrence upper and lower products give the explicit exponential-in-n-log-n lower bound whenever L=o(n).",
+    "opposite_phases": "PASS: an open interval of width greater than 2 contains a full centered unit cell. The two q_n-grid points have centered numerators -1 and -(q_n-1)/2, and inverse affine maps preserve every earlier q_j grid and propagated strip.",
+    "scope": "PASS: the witnesses do not preserve the fixed Turan seed numerator and need not remain primitive at earlier levels. The theorem closes only sublinear-depth phase-blind affine-strip arguments; linear-depth, seed-congruence, nonlinear arithmetic, proper-target, and product-baseline routes remain OPEN."
+  },
+  "format": {
+    "report_bytes": 14453,
+    "report_lines": 648,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "inline_math_open": 75,
+    "inline_math_close": 75,
+    "display_math_open": 65,
+    "display_math_close": 65
+  },
+  "capacity": {
+    "new_route1_rate": 0,
+    "new_beta_capacity_reduction": 0,
+    "ledger_changed": false
+  }
+}

@@ -1,0 +1,532 @@
+{
+  "description": "Exact fixed-seed Euler-residual bridge and extended noncentral-singularity diagnostics",
+  "arithmetic_model": {
+    "large_modular_engine": "split Number multiplication with exact-integer envelope",
+    "split_base": 262144,
+    "maximum_tested_prime": 3092690659,
+    "audited_inequality": "2*262144*3092690659 < 2^53-1",
+    "audited_left_side": 1621460600225792,
+    "javascript_max_safe_integer": 9007199254740991,
+    "multiplication_crosschecks": {
+      "checks": 30,
+      "rows": [
+        {
+          "p": 105220393,
+          "sample_products_checked": 6
+        },
+        {
+          "p": 515574659,
+          "sample_products_checked": 6
+        },
+        {
+          "p": 1331511677,
+          "sample_products_checked": 6
+        },
+        {
+          "p": 2452487773,
+          "sample_products_checked": 6
+        },
+        {
+          "p": 3092690659,
+          "sample_products_checked": 6
+        }
+      ]
+    }
+  },
+  "direct_euler_bridge_census": {
+    "prime_bound": 5000,
+    "noncentral_roots": 344,
+    "bridge_congruence_checks": 344,
+    "singular_roots": 0,
+    "sample_roots": [
+      {
+        "p": 7,
+        "r": 2,
+        "h": 0,
+        "reflected_index": 4,
+        "left_factorial_mod_p": 6,
+        "P_r_mod_p": 5,
+        "b_r_mod_p": 0,
+        "D_h_mod_p": 1,
+        "delta_mod_p": 5,
+        "euler_residual_mod_p": 2
+      },
+      {
+        "p": 11,
+        "r": 4,
+        "h": 0,
+        "reflected_index": 6,
+        "left_factorial_mod_p": 1,
+        "P_r_mod_p": 4,
+        "b_r_mod_p": 5,
+        "D_h_mod_p": 1,
+        "delta_mod_p": 1,
+        "euler_residual_mod_p": 10
+      },
+      {
+        "p": 13,
+        "r": 4,
+        "h": 1,
+        "reflected_index": 8,
+        "left_factorial_mod_p": 10,
+        "P_r_mod_p": 4,
+        "b_r_mod_p": 0,
+        "D_h_mod_p": 12,
+        "delta_mod_p": 12,
+        "euler_residual_mod_p": 1
+      },
+      {
+        "p": 31,
+        "r": 13,
+        "h": 1,
+        "reflected_index": 17,
+        "left_factorial_mod_p": 2,
+        "P_r_mod_p": 22,
+        "b_r_mod_p": 24,
+        "D_h_mod_p": 17,
+        "delta_mod_p": 11,
+        "euler_residual_mod_p": 20
+      },
+      {
+        "p": 41,
+        "r": 15,
+        "h": 4,
+        "reflected_index": 25,
+        "left_factorial_mod_p": 4,
+        "P_r_mod_p": 2,
+        "b_r_mod_p": 26,
+        "D_h_mod_p": 32,
+        "delta_mod_p": 18,
+        "euler_residual_mod_p": 23
+      },
+      {
+        "p": 71,
+        "r": 3,
+        "h": 31,
+        "reflected_index": 67,
+        "left_factorial_mod_p": 68,
+        "P_r_mod_p": 51,
+        "b_r_mod_p": 28,
+        "D_h_mod_p": 53,
+        "delta_mod_p": 39,
+        "euler_residual_mod_p": 32
+      },
+      {
+        "p": 97,
+        "r": 37,
+        "h": 10,
+        "reflected_index": 59,
+        "left_factorial_mod_p": 80,
+        "P_r_mod_p": 95,
+        "b_r_mod_p": 92,
+        "D_h_mod_p": 29,
+        "delta_mod_p": 58,
+        "euler_residual_mod_p": 39
+      },
+      {
+        "p": 101,
+        "r": 19,
+        "h": 30,
+        "reflected_index": 81,
+        "left_factorial_mod_p": 13,
+        "P_r_mod_p": 98,
+        "b_r_mod_p": 43,
+        "D_h_mod_p": 11,
+        "delta_mod_p": 82,
+        "euler_residual_mod_p": 19
+      },
+      {
+        "p": 101,
+        "r": 32,
+        "h": 17,
+        "reflected_index": 68,
+        "left_factorial_mod_p": 13,
+        "P_r_mod_p": 47,
+        "b_r_mod_p": 66,
+        "D_h_mod_p": 35,
+        "delta_mod_p": 61,
+        "euler_residual_mod_p": 40
+      },
+      {
+        "p": 103,
+        "r": 43,
+        "h": 7,
+        "reflected_index": 59,
+        "left_factorial_mod_p": 50,
+        "P_r_mod_p": 52,
+        "b_r_mod_p": 18,
+        "D_h_mod_p": 91,
+        "delta_mod_p": 96,
+        "euler_residual_mod_p": 7
+      },
+      {
+        "p": 107,
+        "r": 52,
+        "h": 0,
+        "reflected_index": 54,
+        "left_factorial_mod_p": 43,
+        "P_r_mod_p": 57,
+        "b_r_mod_p": 37,
+        "D_h_mod_p": 1,
+        "delta_mod_p": 47,
+        "euler_residual_mod_p": 60
+      },
+      {
+        "p": 157,
+        "r": 41,
+        "h": 36,
+        "reflected_index": 115,
+        "left_factorial_mod_p": 131,
+        "P_r_mod_p": 133,
+        "b_r_mod_p": 122,
+        "D_h_mod_p": 128,
+        "delta_mod_p": 126,
+        "euler_residual_mod_p": 31
+      },
+      {
+        "p": 173,
+        "r": 37,
+        "h": 48,
+        "reflected_index": 135,
+        "left_factorial_mod_p": 104,
+        "P_r_mod_p": 128,
+        "b_r_mod_p": 148,
+        "D_h_mod_p": 166,
+        "delta_mod_p": 157,
+        "euler_residual_mod_p": 16
+      },
+      {
+        "p": 181,
+        "r": 53,
+        "h": 36,
+        "reflected_index": 127,
+        "left_factorial_mod_p": 170,
+        "P_r_mod_p": 21,
+        "b_r_mod_p": 59,
+        "D_h_mod_p": 16,
+        "delta_mod_p": 109,
+        "euler_residual_mod_p": 72
+      },
+      {
+        "p": 199,
+        "r": 40,
+        "h": 58,
+        "reflected_index": 158,
+        "left_factorial_mod_p": 122,
+        "P_r_mod_p": 30,
+        "b_r_mod_p": 198,
+        "D_h_mod_p": 104,
+        "delta_mod_p": 120,
+        "euler_residual_mod_p": 79
+      },
+      {
+        "p": 199,
+        "r": 66,
+        "h": 32,
+        "reflected_index": 132,
+        "left_factorial_mod_p": 122,
+        "P_r_mod_p": 160,
+        "b_r_mod_p": 136,
+        "D_h_mod_p": 143,
+        "delta_mod_p": 118,
+        "euler_residual_mod_p": 81
+      },
+      {
+        "p": 199,
+        "r": 77,
+        "h": 21,
+        "reflected_index": 121,
+        "left_factorial_mod_p": 122,
+        "P_r_mod_p": 2,
+        "b_r_mod_p": 165,
+        "D_h_mod_p": 139,
+        "delta_mod_p": 120,
+        "euler_residual_mod_p": 79
+      },
+      {
+        "p": 227,
+        "r": 72,
+        "h": 40,
+        "reflected_index": 154,
+        "left_factorial_mod_p": 225,
+        "P_r_mod_p": 65,
+        "b_r_mod_p": 13,
+        "D_h_mod_p": 224,
+        "delta_mod_p": 143,
+        "euler_residual_mod_p": 84
+      },
+      {
+        "p": 233,
+        "r": 79,
+        "h": 36,
+        "reflected_index": 153,
+        "left_factorial_mod_p": 69,
+        "P_r_mod_p": 121,
+        "b_r_mod_p": 75,
+        "D_h_mod_p": 163,
+        "delta_mod_p": 114,
+        "euler_residual_mod_p": 119
+      },
+      {
+        "p": 239,
+        "r": 65,
+        "h": 53,
+        "reflected_index": 173,
+        "left_factorial_mod_p": 12,
+        "P_r_mod_p": 56,
+        "b_r_mod_p": 196,
+        "D_h_mod_p": 211,
+        "delta_mod_p": 2,
+        "euler_residual_mod_p": 237
+      },
+      {
+        "p": 281,
+        "r": 121,
+        "h": 18,
+        "reflected_index": 159,
+        "left_factorial_mod_p": 218,
+        "P_r_mod_p": 280,
+        "b_r_mod_p": 138,
+        "D_h_mod_p": 89,
+        "delta_mod_p": 75,
+        "euler_residual_mod_p": 206
+      },
+      {
+        "p": 283,
+        "r": 41,
+        "h": 99,
+        "reflected_index": 241,
+        "left_factorial_mod_p": 154,
+        "P_r_mod_p": 249,
+        "b_r_mod_p": 203,
+        "D_h_mod_p": 244,
+        "delta_mod_p": 62,
+        "euler_residual_mod_p": 221
+      },
+      {
+        "p": 283,
+        "r": 66,
+        "h": 74,
+        "reflected_index": 216,
+        "left_factorial_mod_p": 154,
+        "P_r_mod_p": 266,
+        "b_r_mod_p": 84,
+        "D_h_mod_p": 261,
+        "delta_mod_p": 155,
+        "euler_residual_mod_p": 128
+      },
+      {
+        "p": 293,
+        "r": 141,
+        "h": 4,
+        "reflected_index": 151,
+        "left_factorial_mod_p": 264,
+        "P_r_mod_p": 113,
+        "b_r_mod_p": 125,
+        "D_h_mod_p": 144,
+        "delta_mod_p": 179,
+        "euler_residual_mod_p": 114
+      }
+    ]
+  },
+  "tied_gcd_grid": {
+    "r_and_h_limit": 500,
+    "pairs_tested": 250500,
+    "prime_tied_common_divisors": 0,
+    "first_composite_tied_common_divisors": [
+      {
+        "r": 39,
+        "h": 78,
+        "tied_integer": 237,
+        "common_divisor": "79"
+      },
+      {
+        "r": 39,
+        "h": 157,
+        "tied_integer": 395,
+        "common_divisor": "79"
+      },
+      {
+        "r": 39,
+        "h": 236,
+        "tied_integer": 553,
+        "common_divisor": "79"
+      },
+      {
+        "r": 39,
+        "h": 315,
+        "tied_integer": 711,
+        "common_divisor": "79"
+      },
+      {
+        "r": 39,
+        "h": 394,
+        "tied_integer": 869,
+        "common_divisor": "79"
+      },
+      {
+        "r": 39,
+        "h": 473,
+        "tied_integer": 1027,
+        "common_divisor": "79"
+      },
+      {
+        "r": 118,
+        "h": 78,
+        "tied_integer": 395,
+        "common_divisor": "79"
+      },
+      {
+        "r": 118,
+        "h": 157,
+        "tied_integer": 553,
+        "common_divisor": "79"
+      },
+      {
+        "r": 118,
+        "h": 236,
+        "tied_integer": 711,
+        "common_divisor": "79"
+      },
+      {
+        "r": 118,
+        "h": 315,
+        "tied_integer": 869,
+        "common_divisor": "79"
+      },
+      {
+        "r": 118,
+        "h": 394,
+        "tied_integer": 1027,
+        "common_divisor": "79"
+      },
+      {
+        "r": 118,
+        "h": 473,
+        "tied_integer": 1185,
+        "common_divisor": "79"
+      }
+    ],
+    "scope": "finite grid only; composite failures disprove an unscoped triple-gcd conjecture"
+  },
+  "zero_target_examples": [
+    {
+      "p": 7,
+      "r": 2,
+      "h": 0,
+      "q_r_mod_p": 0,
+      "b_r_mod_p": 0,
+      "left_factorial_mod_p": 6,
+      "P_r_mod_p": 5,
+      "euler_residual_mod_p": 2,
+      "D_h_mod_p": 1,
+      "result": "ordinary"
+    },
+    {
+      "p": 13,
+      "r": 4,
+      "h": 1,
+      "q_r_mod_p": 0,
+      "b_r_mod_p": 0,
+      "left_factorial_mod_p": 10,
+      "P_r_mod_p": 4,
+      "euler_residual_mod_p": 1,
+      "D_h_mod_p": 12,
+      "result": "ordinary"
+    },
+    {
+      "p": 2879,
+      "r": 48,
+      "h": 1390,
+      "q_r_mod_p": 0,
+      "b_r_mod_p": 0,
+      "left_factorial_mod_p": 142,
+      "P_r_mod_p": 1217,
+      "euler_residual_mod_p": 74,
+      "D_h_mod_p": 1957,
+      "result": "ordinary"
+    }
+  ],
+  "large_targeted_search": {
+    "candidate_count": 5,
+    "previous_item165_maximum_prime": 65676881,
+    "maximum_prime": 3092690659,
+    "maximum_extension_factor": 47.089487379889434,
+    "singular_count": 0,
+    "rows": [
+      {
+        "p": 105220393,
+        "r": 74,
+        "h": 52610121,
+        "q_r_decimal_digits": 151,
+        "P_r_mod_p": 5679348,
+        "b_r_mod_p": 29069148,
+        "D_h_mod_p": 31155715,
+        "singular": false,
+        "result": "ordinary"
+      },
+      {
+        "p": 515574659,
+        "r": 18,
+        "h": 257787310,
+        "q_r_decimal_digits": 26,
+        "P_r_mod_p": 490934957,
+        "b_r_mod_p": 239296188,
+        "D_h_mod_p": 191377629,
+        "singular": false,
+        "result": "ordinary"
+      },
+      {
+        "p": 1331511677,
+        "r": 45,
+        "h": 665755792,
+        "q_r_decimal_digits": 82,
+        "P_r_mod_p": 969417825,
+        "b_r_mod_p": 645709061,
+        "D_h_mod_p": 1328938593,
+        "singular": false,
+        "result": "ordinary"
+      },
+      {
+        "p": 2452487773,
+        "r": 42,
+        "h": 1226243843,
+        "q_r_decimal_digits": 76,
+        "P_r_mod_p": 831463364,
+        "b_r_mod_p": 1628225031,
+        "D_h_mod_p": 1097291826,
+        "singular": false,
+        "result": "ordinary"
+      },
+      {
+        "p": 3092690659,
+        "r": 16,
+        "h": 1546345312,
+        "q_r_decimal_digits": 22,
+        "P_r_mod_p": 827027018,
+        "b_r_mod_p": 2213443493,
+        "D_h_mod_p": 2217484827,
+        "singular": false,
+        "result": "ordinary"
+      }
+    ],
+    "scope": "sparse certified factors p|q_r; not exhaustive over the intervening primes"
+  },
+  "status": {
+    "proved_by_report": [
+      "Wronskian and Euler-residual determinant bridge",
+      "gcd equality between the moving resultant and Euler residual on an actual root",
+      "reduction of actual singularity to a prescribed left-factorial residue"
+    ],
+    "experimental_finite": [
+      "direct bridge census through p=5000",
+      "tied gcd grid through r,h=500",
+      "five sparse exact candidates through p=3092690659"
+    ],
+    "open": [
+      "existence of any actual noncentral singular prime",
+      "a theorem-scale product bound for such primes",
+      "a constructive positive-mass family"
+    ]
+  }
+}

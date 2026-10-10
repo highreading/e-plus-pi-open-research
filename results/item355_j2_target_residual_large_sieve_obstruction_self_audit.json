@@ -1,0 +1,67 @@
+{
+  "item": 355,
+  "schema": "item355-j2-target-residual-large-sieve-obstruction-self-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "status": "PASS",
+  "dependency_audit": {
+    "canonical_dependency_entries": 16,
+    "all_sha256_verified_by_certificate": true,
+    "item352_root_audited_pins_frozen": true,
+    "unresolved_placeholders": 0
+  },
+  "replay_audit": {
+    "primary_sha256": "e246cfcec626d662d970a5a7a63da38914e9e0c98225e35f3ec7f80f5a30d3f2",
+    "replay_sha256": "e246cfcec626d662d970a5a7a63da38914e9e0c98225e35f3ec7f80f5a30d3f2",
+    "byte_identical": true,
+    "dependency_hashes_verified_field": true,
+    "actual_declared_rows": 7,
+    "weighted_combinatorial_instances": 3,
+    "extremal_combinatorial_instances": 3,
+    "prime_or_collision_census": false
+  },
+  "artifact_inputs": {
+    "report_sha256": "ea2f5f43a14a411849bc310409939891bfb496b681b028c20fcb3b990dd3377b",
+    "script_sha256": "9335a94377bb09dc9c256d42387b30ec98ccf818dd351c51af10a43d7c7e1c41",
+    "certificate_sha256": "e246cfcec626d662d970a5a7a63da38914e9e0c98225e35f3ec7f80f5a30d3f2",
+    "replay_sha256": "e246cfcec626d662d970a5a7a63da38914e9e0c98225e35f3ec7f80f5a30d3f2",
+    "ledger_sha256": "bf63f3a7c0f92ee5d11f54ea04f4d617a868b1db7a6397fe03409c477ca949d7"
+  },
+  "report_audit": {
+    "display_math_plain_open": 45,
+    "display_math_plain_close": 45,
+    "display_math_blockquote_open": 8,
+    "display_math_blockquote_close": 8,
+    "equation_tags": 45,
+    "duplicate_equation_tags": 0,
+    "strict_labels_present": [
+      "PROVED",
+      "EXACT FINITE ONLY",
+      "OPEN"
+    ]
+  },
+  "mathematical_scope_audit": {
+    "actual_family_only": true,
+    "moving_target_retained_in_residual_map": true,
+    "complete_matrix_coordinates_retained": true,
+    "fixed_M_selector_is_singleton": true,
+    "selector_saturation_scope": "magnitude-square second moment only; the phase-sensitive first moment remains the exact unsolved collision indicator",
+    "minimum_energy_example_scope": "formal insufficiency of the energy statistic; not a model or conjecture for actual targets",
+    "Kummer_average_scope": "Archimedean translate average; actual selected-prime state is a=0",
+    "moving_target_fourier_cross_term_explicit": true,
+    "almost_all_M_use_declared_open": true,
+    "outer_charts_not_double_counted": true,
+    "unproved_weighted_mass_claim": false
+  },
+  "capacity_audit": {
+    "raw_chebyshev_mass": "(2/35)M+o(M)",
+    "ordinary_j2_ceiling_per_6M": "1/105",
+    "new_booking": 0,
+    "new_capacity_reduction": 0
+  },
+  "open_inputs_preserved": [
+    "power-saving collision energy for the actual residual map",
+    "selector-aware cross-prime cancellation for fixed M",
+    "whether an almost-all-M result is admissible in the main construction",
+    "weighted support of Item349's degenerate carrier"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "admission_audit": {
+    "capacity_result": 0,
+    "fixed_period_divisor_after_augmentation": "epsilon*(H-D*h)-1=0",
+    "full_gate": "still requires both rows of external R_(r,s) from Item269",
+    "nontrivial_geometric_monodromy_theorem": false,
+    "translation_difference_not_frobenius": true,
+    "uniform_conductor_theorem": false,
+    "uniform_local_density_theorem": false
+  },
+  "iterate_complexity": {
+    "Q_irreducibility_mod_31_root_checks": 62,
+    "linear_root_class_non_cancellation_checks": 32,
+    "multiplier_iterate": "rho_n(delta)=product_(i<n)rho(delta+2i)",
+    "reduced_denominator_degree": "4n+3",
+    "reduced_numerator_degree": "4n+3",
+    "scope": "proves direct-coordinate iterate degree growth only; does not obstruct a fixed rational dynamical system or a new lisse realization"
+  },
+  "open": [
+    "realize the translation-difference module, including its singular actual rows, as a bounded-conductor lisse or crystalline Frobenius family",
+    "construct a bounded-state update for the complete two-row matrix R_(r,s), not only D_delta",
+    "prove nontrivial geometric monodromy and a uniform local-density bound for the resulting full collision divisor",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "recurrence_and_dynamics": {
+    "autonomous_map": "T(delta,D,Delta)=(delta+2,D+Delta,[P0(delta)/P2(delta)]Delta)",
+    "bounded_check_label": "EXACT FINITE ONLY; the all-delta theorem comes from the telescoping certificate",
+    "bounded_orbit_checks": 27,
+    "bounded_recurrence_checks": 27,
+    "difference_update": "Delta_(delta+2)=[P0(delta)/P2(delta)]Delta_delta",
+    "initial_states": {
+      "1": {
+        "D_0": "1995557/3247695",
+        "Delta_0": "-61197448/1666295523189",
+        "delta_0": 3
+      },
+      "5": {
+        "D_0": "-37/81",
+        "Delta_0": "1238050/145083393",
+        "delta_0": 1
+      }
+    },
+    "projective_rational_degree_upper_bound": 8,
+    "rank": 3,
+    "recurrence": "P0(delta)D_delta+P1(delta)D_(delta+2)+P2(delta)D_(delta+4)=0, P1=-P0-P2"
+  },
+  "schema": "item271-auxiliary-dynamics-certificate-v1",
+  "singular_actual_rows": {
+    "consequence": "the rational update is not defined on every actual mod-p row although the original slope is defined",
+    "difference_module_singular_support": "P0(delta)*P2(delta)=0, together with infinity",
+    "exact_witnesses": [
+      {
+        "Delta_delta_mod_p": 0,
+        "P0_mod_p": 157,
+        "P2_mod_p": 0,
+        "delta": 7,
+        "original_D_denominator_is_p_unit": true,
+        "p": 167,
+        "phase": 5,
+        "q": 27
+      },
+      {
+        "Delta_delta_mod_p": 0,
+        "P0_mod_p": 222,
+        "P2_mod_p": 0,
+        "delta": 11,
+        "original_D_denominator_is_p_unit": true,
+        "p": 241,
+        "phase": 1,
+        "q": 40
+      }
+    ],
+    "forward_map_pole_divisor": "P2(delta)=0",
+    "label": "EXACT FINITE ONLY singular-map witnesses, not collision-prime census"
+  },
+  "strict_labels": {
+    "booking": "zero new Route-1 rate and zero ordinary-j=2 capacity reduction",
+    "bounded_sequence_checks": "EXACT FINITE ONLY",
+    "difference_module": "PROVED POSITIVE RECOGNITION",
+    "exceptional_collision_search": "NONE",
+    "full_two_gate_fixed_frobenius_divisor": "NOT OBTAINED",
+    "lisse_or_crystalline_frobenius_realization": "OPEN; NOT CONSTRUCTED",
+    "order_two_recurrence": "PROVED BY EXACT TELESCOPING CERTIFICATE",
+    "positive_linear_capacity_admission": "FAIL",
+    "rank_three_autonomous_skew_product": "PROVED"
+  },
+  "telescoping_certificate": {
+    "boundary_cleared_degree_bound_delta": 64,
+    "proof_method": "exact rational interpolation after explicit denominator clearing",
+    "rational_boundary_checks": 130,
+    "status": "PROVED SYMBOLIC CERTIFICATE, not a finite-pattern inference",
+    "terminal_boundary_checks": 130,
+    "wz_cleared_degree_bounds": {
+      "delta": 32,
+      "k": 16
+    },
+    "wz_grid_checks": 1122
+  }
+}

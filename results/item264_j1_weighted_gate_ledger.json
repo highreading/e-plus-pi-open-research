@@ -1,0 +1,96 @@
+{
+  "schema": "item264-j1-weighted-gate-ledger-v1",
+  "checked": "2026-08-31 Asia/Shanghai",
+  "scope": "Actual full two-coordinate collision in the fixed j=1 common-log cell",
+  "proved": [
+    "At fixed global M, integral rows are s>=1, 4s<=M-5, s congruent to M+1 modulo 3, with p=(4M+2s+1)/3 and h=(M-4s-2)/3.",
+    "Actual prime rows are exactly the primes (4M+3)/3 <= p <= (3M-1)/2.",
+    "The raw logarithmic support is M/6+o(M), or 1/36 per 6M.",
+    "The j=1 phase interval is disjoint from every other fixed-j phase interval at the same M.",
+    "The actual full gate is Q0=Q1=0, equivalently p^2 divides both fixed integers C0(M),C1(M).",
+    "The available square-divisor Cauchy-height ceiling is H/2=3.1638137727... per M, weaker than raw 1/6.",
+    "When bounded-degree algebraic recombinations of the same fixed-M pair are estimated only by the inherited componentwise Cauchy bound, they certify no improvement over the H/2 height-to-valuation ratio; a separately proved low-height cancellation remains open.",
+    "At the existing height, a same-integer valuation multiplicity at least 38 would be needed merely to beat raw support.",
+    "The Item-248 Wronskian and individual Item-245 leading seeds are not substitutes for the full two-coordinate gate.",
+    "The fixed h<=8 all-prime exclusion removes only O(log M)=o(M) weight."
+  ],
+  "master_admission_test": {
+    "actual_family_implication": "Must be forced by simultaneous Q0=Q1, not by an individual observation seed.",
+    "de_overlap": "Must not recount the forced Cartier or already booked post-Cartier copies at the same primes.",
+    "retained_ceiling": "Must prove sum(log p over full-gate collisions) <= cM+o(M) for some c<1/6."
+  },
+  "exact_witnesses": {
+    "individual_seed_loss_not_full_gate": {
+      "row": [
+        59,
+        2,
+        8,
+        40
+      ],
+      "leading_pair_nu1": [
+        0,
+        0
+      ],
+      "full_gate_Q0_Q1": [
+        39,
+        11
+      ]
+    },
+    "Wronskian_root_loss_109_not_full_gate": {
+      "row": [
+        109,
+        4,
+        15,
+        74
+      ],
+      "Wronskian_pair_root": [
+        88,
+        70,
+        33
+      ],
+      "full_gate_Q0_Q1": [
+        71,
+        106
+      ]
+    },
+    "Wronskian_root_loss_149_not_full_gate": {
+      "row": [
+        149,
+        26,
+        7,
+        108
+      ],
+      "Wronskian_pair_root": [
+        42,
+        60,
+        44
+      ],
+      "full_gate_Q0_Q1": [
+        42,
+        106
+      ]
+    }
+  },
+  "open_weighted_target": "sum_(p in full j=1 collision set at M) log p = o(M)",
+  "finite_replay": {
+    "label": "EXACT FINITE ONLY",
+    "M_range": [
+      9,
+      600
+    ],
+    "purpose": "global row bijection plus three declared witness recomputations",
+    "large_collision_scan": false
+  },
+  "booking": {
+    "new_unconditional_route1_rate": 0,
+    "new_j1_capacity_reduction": 0,
+    "retained_ceiling_per_6M": "1/36",
+    "reason": "No admitted weighted full-gate theorem leaves a ceiling below raw support."
+  },
+  "forbidden_inference": [
+    "Do not count an individual leading-pair loss or Wronskian zero as a full gate collision.",
+    "Do not add another valuation copy without a de-overlapped valuation theorem.",
+    "Do not infer the open weighted target from a bounded nonoccurrence scan.",
+    "Do not claim the inherited-estimate ceiling rules out a specially cancelling low-height recombination or a genuinely new low-height invariant."
+  ]
+}

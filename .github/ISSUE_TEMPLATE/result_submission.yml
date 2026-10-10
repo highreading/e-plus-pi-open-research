@@ -1,0 +1,37 @@
+name: Mathematical result or counterexample
+description: Submit a scoped proof, negative result, correction or exact finite certificate.
+title: "[Result] "
+body:
+  - type: textarea
+    id: statement
+    attributes:
+      label: Claim ID, precise statement and status
+      description: New claims start proposed. Specify assumptions, original family and quantified domain.
+    validations:
+      required: true
+  - type: textarea
+    id: proof
+    attributes:
+      label: Complete proof and dependency links
+      description: Include the full argument, not only an AI verdict. Check every imported hypothesis.
+    validations:
+      required: true
+  - type: textarea
+    id: normalization
+    attributes:
+      label: Normalization, whole error and finite evidence
+      description: For approximations retain actual integer coefficients, complete gcd and same indices. Identify exact finite scope and receipts.
+    validations:
+      required: true
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Gaps, exclusions and prior work
+      description: State what remains open, what is not covered and which previous work was checked.
+    validations:
+      required: true
+  - type: textarea
+    id: attribution
+    attributes:
+      label: Review, assistance and rights
+      description: Identify independent review if any, AI/computation roles and third-party sources. Omit credentials and personal metadata.

@@ -1,0 +1,217 @@
+{
+  "canonical_files_modified": false,
+  "carry_theorem": {
+    "actual_row_translation": "all summands are divisible by p iff h=s is odd; then p=10h+3 and M=7h+2",
+    "case_r_at_least_n_plus_1": "N=p+d<2p and Lucas gives C(p+d,m)=C(d,m) mod p for 0<=m<p",
+    "case_r_at_most_n": "N<p, so every C(N,n-4k) and every complete summand is a p-unit",
+    "complete_termwise_zero_classification": "all summands are divisible by p iff d=0 and delta=2, equivalently r=n+1 and n=2 mod 4",
+    "first_factor": "C(r+k-1,k) is a p-unit for every 0<=k<=floor(n/4)",
+    "setup": {
+      "N": "4r+n-1",
+      "d": "N-p=r-n-1",
+      "delta": "n mod 4 in {0,2}",
+      "m_k": "n-4k",
+      "p": "3r+2n"
+    },
+    "strict_scope": "outside that ray at least one summand is a p-unit, but the total sum can still vanish by cancellation",
+    "survivors": "the surviving terms are exactly those with n-4k<=d"
+  },
+  "classification": {
+    "EXACT_FINITE_ONLY": [
+      "five preselected controls, including one all-unit cancellation zero at p=47; no scan"
+    ],
+    "OPEN": [
+      "weighted zero density W_b(M)=o(M)",
+      "uniform mod-p nonconcentration for a growing-length positive hypergeometric prefix",
+      "average-gcd or global factor localization for the fixed rational bivariate carrier",
+      "fixed-j1 closure, Route 1, and every conclusion about e+pi"
+    ],
+    "PROVED": [
+      "actual-row Frobenius reduction b_h=[t^n]F^(-r) mod p and integral normalization a_(r,n)",
+      "exact positive hypergeometric-prefix formula and fixed rational bivariate carrier",
+      "complete termwise Lucas/Kummer carry classification",
+      "zero-rate capacity of the unique forced carry ray",
+      "exact minimal fixed-r recurrence rank 3r and zero-rate support of sublinear rank or prefix length",
+      "scoped growing-rank/local-method no-go"
+    ]
+  },
+  "date": "2026-09-01",
+  "dependencies": {
+    "manifests/item308_j1_all_s_fixed_divisor_no_go_manifest.json": "1c4721f43b5bbdc0c68e4d9fd689562a32a4af4fbbab2a9e7075da96b151b4d5",
+    "manifests/item332_j1_global_diagonal_collapse_manifest.json": "999db69e1ead2bfab7733a1d57c5732e502adcaff9b14953d8b64aec19395f1c",
+    "results/item308_j1_all_s_fixed_divisor_no_go_certificate.json": "4efff9ca2fb1bc11cc6030e260ff73aae89c28bd157bb41fa6bbc3b32e41e5cf",
+    "results/item308_root_audit.json": "11feb8105ea46c27d83df2449404297fe74709eceaa8be6a21bd9484cbffba22",
+    "results/item332_j1_global_diagonal_collapse_certificate.json": "d544609c7ccc08f2ed0c661533939de60d97d2ab75509692925638420f789f68",
+    "results/item332_j1_global_diagonal_collapse_certificate_replay.json": "d544609c7ccc08f2ed0c661533939de60d97d2ab75509692925638420f789f68",
+    "results/item332_j1_global_diagonal_collapse_root_audit.json": "88ce3dd64aaf3011beeb74955f906be41231f9a42873e70b4a09fe7517143317",
+    "scripts/item308_j1_all_s_fixed_divisor_no_go_certificate.py": "9b60d380b503c7ac9fed13792fae67735cfcf6b0f376581a0076fde16a82f0b9",
+    "scripts/item332_j1_global_diagonal_collapse_certificate.py": "4562fd5f50947703a5ddc7c03634c633733cbd383ee605ba7761d103b3225d2e",
+    "sources/item308_j1_all_s_fixed_divisor_no_go_report.md": "4eb8f8c37dfde9d19e57c8df5ff8090bd95f03be59fff7d6aede55d02993bdc8",
+    "sources/item332_j1_global_diagonal_collapse_report.md": "7bb0aff7943f13e517d67ac84120c4f956d0234232ff280f4ddde2ff78cdb954"
+  },
+  "direct_controls": [
+    {
+      "M": 9,
+      "a_mod_p": 0,
+      "b_mod_p": 0,
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "d": 0,
+      "delta": 2,
+      "full_original_collision_claimed": false,
+      "h": 1,
+      "n": 2,
+      "p": 13,
+      "r": 3,
+      "s": 1,
+      "survivor_length": 0,
+      "term_residues_mod_p": [
+        0
+      ],
+      "termwise_forced_zero": true
+    },
+    {
+      "M": 12,
+      "a_mod_p": 8,
+      "b_mod_p": 9,
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "d": -2,
+      "delta": 0,
+      "full_original_collision_claimed": false,
+      "h": 2,
+      "n": 4,
+      "p": 17,
+      "r": 3,
+      "s": 1,
+      "survivor_length": 2,
+      "term_residues_mod_p": [
+        5,
+        3
+      ],
+      "termwise_forced_zero": false
+    },
+    {
+      "M": 34,
+      "a_mod_p": 0,
+      "b_mod_p": 0,
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "d": -12,
+      "delta": 0,
+      "full_original_collision_claimed": false,
+      "h": 8,
+      "n": 16,
+      "p": 47,
+      "r": 5,
+      "s": 2,
+      "survivor_length": 5,
+      "term_residues_mod_p": [
+        1,
+        4,
+        43,
+        23,
+        23
+      ],
+      "termwise_forced_zero": false
+    },
+    {
+      "M": 30,
+      "a_mod_p": 2,
+      "b_mod_p": 42,
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "d": 0,
+      "delta": 0,
+      "full_original_collision_claimed": false,
+      "h": 4,
+      "n": 8,
+      "p": 43,
+      "r": 9,
+      "s": 4,
+      "survivor_length": 1,
+      "term_residues_mod_p": [
+        0,
+        0,
+        2
+      ],
+      "termwise_forced_zero": false
+    },
+    {
+      "M": 32,
+      "a_mod_p": 36,
+      "b_mod_p": 14,
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "d": 8,
+      "delta": 0,
+      "full_original_collision_claimed": false,
+      "h": 2,
+      "n": 4,
+      "p": 47,
+      "r": 13,
+      "s": 6,
+      "survivor_length": 2,
+      "term_residues_mod_p": [
+        23,
+        13
+      ],
+      "termwise_forced_zero": false
+    }
+  ],
+  "item": 339,
+  "prime_scans": 0,
+  "recurrence_and_capacity": {
+    "capacity_first": {
+      "bulk_obstruction": "outside zero-rate edge sets, r=Theta(M) and the surviving prefix length is Theta(M)",
+      "forced_termwise_ray": "h=s odd gives at most one row at fixed M (M=7h+2), hence O(log M)=o(M)",
+      "low_rank_support": "if 3r=o(M), then r=o(M), so the candidate-prime interval has length o(M) and weighted mass o(M)",
+      "new_fixed_j1_capacity_reduction": 0,
+      "new_linear_log_rate": 0,
+      "raw_fixed_j1_prime_mass": "M/6+o(M)",
+      "retained_ceiling_per_6M": "1/36",
+      "short_interval_lemma": "a fixed-M row set whose candidate primes lie in intervals of total length o(M) has weighted prime mass o(M), by the trivial bound below M/log^2 M and Brun-Titchmarsh above it",
+      "short_prefix_support": "if the survivor length is o(M), then n=o(M) or positive d=r-n-1=o(M); each condition gives candidate-prime intervals of total length o(M)"
+    },
+    "minimal_recurrence": {
+      "conclusion": "the exact minimal homogeneous constant-coefficient recurrence order in n is 3r=6s+3",
+      "generating_function": "sum_(n>=0) a_(r,n)u^n=G(u)^(-r)",
+      "reason": "the numerator is 1, G(0)=1, and the leading coefficient of G is -4; hence for Q or F_p with p>2 the reduced denominator G^r has degree 3r",
+      "reduced_denominator_degree": "3r"
+    },
+    "scoped_no_go": {
+      "closed": [
+        "termwise Lucas/Kummer carry forcing beyond the single h=s odd ray",
+        "bounded- or sublinear-rank one-variable constant-coefficient recurrence methods on positive-rate support",
+        "bounded- or sublinear-length surviving-tail arguments on positive-rate support",
+        "treating the direct unit-branch Frobenius reduction, by itself, as a fixed low-dimensional trace rather than its exact growing local jet"
+      ],
+      "not_closed": [
+        "uniform mod-p cancellation/nonconcentration for the growing hypergeometric prefix",
+        "average gcd or a global factor-localization theorem for the fixed rational bivariate carrier",
+        "a different global transformation to a fixed-rank trace with an actual-gate implication",
+        "weighted zero density W_b(M)=o(M)"
+      ],
+      "reason": "Frobenius consumes the cubic branch and leaves a moving local jet of exact rank 3r; the only complete termwise carry family is zero-rate"
+    }
+  },
+  "schema": "item339-j1-local-coefficient-carry-obstruction-certificate-v1",
+  "status": "PROVED_LOCAL_COEFFICIENT_REDUCTION_TERMWISE_CARRY_CLASSIFICATION_AND_SCOPED_GROWING_RANK_NO_GO",
+  "symbolic": {
+    "F_t": "-t**3/2 + 3*t**2/2 - 2*t + 1",
+    "G_u": "-4*u**3 + 6*u**2 - 4*u + 1",
+    "actual_parameters": {
+      "2M": "3n+4r",
+      "fixed_M_prime": "p=(4M+r)/3",
+      "n": "2h",
+      "p": "2n+3r",
+      "r": "2s+1"
+    },
+    "fixed_M_row_polynomial": "R_M(w)=[x^(2M)] C(w x^4,x^3); [w^r]R_M=a_(r,n) when 3n+4r=2M",
+    "frobenius_reduction": {
+      "coefficient_consequence": "because n<p, b_h=[t^n]F(t)^(-r) mod p",
+      "eta": "eta=h mod 3=p mod 3 in {1,2}",
+      "formal_identity_mod_p": "F^(4h/3)=U(t)^p F^(-r)=U(t^p)F^(-r)",
+      "unit_branch": "U(t)=F(t)^(1/3), U(0)=1"
+    },
+    "integral_normalization": "a_(r,n)=2^n[t^n]F(t)^(-r)=[u^n]G(u)^(-r) in Z",
+    "positive_prefix": "a_(r,n)=sum_(0<=k<=floor(n/4)) C(r+k-1,k) C(4r+n-1,n-4k)",
+    "quartic_difference": "G(u)=(1-u)^4-u^4",
+    "rational_bivariate_carrier": "z*(-4*u**3 + 6*u**2 - 4*u + 1)/(-z**2 + (-4*u**3 + 6*u**2 - 4*u + 1)**2)"
+  }
+}

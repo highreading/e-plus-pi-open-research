@@ -1,0 +1,483 @@
+{
+  "capacity": {
+    "combined_admission_formula": "normalized saving >= max(0,1/35-g-n)/6",
+    "degenerate_admission_formula": "normalized saving >= max(0,d-g)/6",
+    "exact_rejection_identity": "raw ray mass - collision mass = rejected degenerate mass + rejected nondegenerate mass + automatic obstruction-chart mass",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "one_ray_mass_per_M": "1/35",
+    "one_ray_normalized_capacity": "1/210",
+    "ordinary_j2_mass_per_M": "2/35",
+    "ordinary_j2_retained_ceiling": "1/105",
+    "proved_eta_per_M": 0,
+    "scenarios": [
+      {
+        "degenerate_collision_upper_per_M": "0/1",
+        "degenerate_gate_lower_per_M": "0/1",
+        "name": "good_reduction_Pi_equals_one_only",
+        "normalized_saving_from_deg_target_rejection": "0/1"
+      },
+      {
+        "degenerate_collision_upper_per_M": "0/1",
+        "degenerate_gate_lower_per_M": "0/1",
+        "name": "degenerate_collision_oM_without_gate_lower_bound",
+        "normalized_saving_from_deg_target_rejection": "0/1"
+      },
+      {
+        "degenerate_collision_upper_per_M": "0/1",
+        "degenerate_gate_lower_per_M": "1/70",
+        "name": "half_ray_gate_and_oM_degenerate_collisions",
+        "normalized_saving_from_deg_target_rejection": "1/420"
+      },
+      {
+        "degenerate_collision_upper_per_M": "0/1",
+        "degenerate_gate_lower_per_M": "1/35",
+        "name": "whole_ray_target_rejection",
+        "normalized_saving_from_deg_target_rejection": "1/210"
+      },
+      {
+        "degenerate_collision_upper_per_M": "1/140",
+        "name": "combined_chart_upper_bounds",
+        "nondegenerate_collision_upper_per_M": "1/140",
+        "normalized_saving": "1/420"
+      }
+    ]
+  },
+  "carrier_replay": {
+    "all_rows_verified": true,
+    "classification": "EXACT INTEGER ALGEBRA REPLAY ONLY / NOT ACTUAL VALUES / NO CENSUS",
+    "formula": "Gamma=gcd(Pi,abs(num(T0)),abs(num(T1)))",
+    "rows": [
+      {
+        "Gamma": 17,
+        "Gamma_sat": 17,
+        "Pi": 425,
+        "Pi_sat": 17,
+        "S": 30,
+        "T0_num": 119,
+        "T1_num": 187,
+        "name": "target_hit_with_foreign_5_support",
+        "p": 17,
+        "p_divides_Gamma_sat": true,
+        "p_divides_Pi_sat": true,
+        "target_hit": true
+      },
+      {
+        "Gamma": 1,
+        "Gamma_sat": 1,
+        "Pi": 425,
+        "Pi_sat": 17,
+        "S": 30,
+        "T0_num": 1,
+        "T1_num": 187,
+        "name": "target_rejection_same_triple_carrier",
+        "p": 17,
+        "p_divides_Gamma_sat": false,
+        "p_divides_Pi_sat": true,
+        "target_hit": false
+      },
+      {
+        "Gamma": 29,
+        "Gamma_sat": 29,
+        "Pi": 203,
+        "Pi_sat": 29,
+        "S": 42,
+        "T0_num": 609,
+        "T1_num": 145,
+        "name": "target_hit_with_foreign_7_support",
+        "p": 29,
+        "p_divides_Gamma_sat": true,
+        "p_divides_Pi_sat": true,
+        "target_hit": true
+      },
+      {
+        "Gamma": 1,
+        "Gamma_sat": 1,
+        "Pi": 203,
+        "Pi_sat": 29,
+        "S": 42,
+        "T0_num": 87,
+        "T1_num": 2,
+        "name": "target_rejection_second_coordinate",
+        "p": 29,
+        "p_divides_Gamma_sat": false,
+        "p_divides_Pi_sat": true,
+        "target_hit": false
+      },
+      {
+        "Gamma": 155,
+        "Gamma_sat": 31,
+        "Pi": 1085,
+        "Pi_sat": 31,
+        "S": 70,
+        "T0_num": 155,
+        "T1_num": 1705,
+        "name": "target_hit_gamma_itself_requires_saturation",
+        "p": 31,
+        "p_divides_Gamma_sat": true,
+        "p_divides_Pi_sat": true,
+        "target_hit": true
+      }
+    ]
+  },
+  "checked_date_beijing": "2026-09-01",
+  "conditional": [
+    "D_e>=dM+o(M) and G_e<=gM+o(M) with d>g imply saving at least (d-g)/6",
+    "G_e<=gM+o(M) and W_nd<=nM+o(M) with g+n<1/35 imply saving at least (1/35-g-n)/6",
+    "o(M) collision mass on both charts of one ray removes its full 1/210 capacity"
+  ],
+  "dependency_hashes_verified": {
+    "manifests/item334_j2_coupled_cartier_carrier_manifest.json": "518176b7e7cf5908e350bb857063bae47658050ca63c4a0e1976554efac87bc9",
+    "manifests/item338_j2_secondary_cartier_saturation_manifest.json": "d3ecc6c74e3dbd3b921a3f5c3aa363eac10e68322536c88ced5e6972785a6573",
+    "manifests/item349_j2_degenerate_triple_minor_carrier_manifest.json": "1c1dec25ac00ea5adb2befe885c9c96ba805564651b6e90c73ef2506d30e7f4f",
+    "manifests/item397_j2_matched_aggregate_factor_localization_manifest.json": "a6aa125bcc12f5b258ea02fb2e552b2a658c6b8ca9bd56386297530891ef5044",
+    "manifests/item399_j2_raywise_chosen_prime_invariant_manifest.json": "3f2ae65892fa23a2b5ca0c12be81eda5d924daf2c78f2442662e43293d3f326d",
+    "manifests/item402_j2_marked_frobenius_descent_no_go_manifest.json": "25d66b0e60b21b397e7dbfd9fb399551f1d9e406432b981f5a4b73847b27e08f",
+    "results/item334_j2_coupled_cartier_carrier_certificate.json": "238046186f90bdffb2e9b4c72994bac4f0c2ba7e377b42f04753b5502ea861e2",
+    "results/item334_j2_coupled_cartier_carrier_root_audit.json": "311404ffc6b6f2c6d74cb058e42fd4c1487fcbe077fd4f0e24ad933ec5846546",
+    "results/item338_j2_secondary_cartier_saturation_certificate.json": "accf5bf87b148c73117f05b8d9f7eee92af1d59611871498593cc992c758450d",
+    "results/item338_j2_secondary_cartier_saturation_root_audit.json": "9220fbfdbe2b8846720ea8df5754924232494ab205f9c01fd47eeec8f4df7e47",
+    "results/item349_j2_degenerate_triple_minor_carrier_certificate.json": "b26294d51b1844aeee04146004b2ecec9b6e1ff81aa271a3167e5d86c11bce44",
+    "results/item349_j2_degenerate_triple_minor_carrier_root_audit.json": "e717c01d7429f7821a7ee75e8d979bc1362107bd70466af6af54d9748299a894",
+    "results/item397_j2_matched_aggregate_factor_localization_certificate.json": "45df777a3a93c0c7e4b62dadd75da7d7231d4235b2e9efde1b5204fee43254d3",
+    "results/item397_j2_matched_aggregate_factor_localization_root_audit.json": "9e0c3c905895a9911131cad97702b91b25ef8ce6dbb371c939ee21de3b40588a",
+    "results/item399_j2_raywise_chosen_prime_invariant_certificate.json": "967cb7effb6bf2f3f2d255c4eec6418b5ae65244888026f2e6cbc0c20ad94a35",
+    "results/item399_j2_raywise_chosen_prime_invariant_root_audit.json": "aa5565b73f0e3068408ffd70ce985f948605f1ab4516d6a1a2abc94deb98d80f",
+    "results/item402_j2_marked_frobenius_descent_no_go_certificate.json": "1ca82cfc211a97961ad615d931f09d97df074596caff61741f434e64eb0fe3b7",
+    "results/item402_j2_marked_frobenius_descent_no_go_root_audit.json": "9049f003d6d0b17eb728707369d1181e31a9fa79fe0f4c1938db1e782b239ea8",
+    "scripts/item334_j2_coupled_cartier_carrier_certificate.py": "b9cab6a6ddc4a0817bae5852e78473ab3144ed9a3b8985c7eacaf27629c90cce",
+    "scripts/item338_j2_secondary_cartier_saturation_certificate.py": "5209d57fee32a6bad74e8f5b933116aa4d62448b1f9ca44e539cadf7f95fe6bd",
+    "scripts/item349_j2_degenerate_triple_minor_carrier_certificate.py": "b72b1ee335f243ae6a2761c417e27640f443183ec625027a14d5b7e06b91cf9b",
+    "scripts/item397_j2_matched_aggregate_factor_localization_certificate.py": "f7fe2d81b31ce31fb41e77c551119ac66fa7b62fadda2691ae06036ef4426186",
+    "scripts/item399_j2_raywise_chosen_prime_invariant_certificate.py": "ab58b05023329805e06e66a4c20430943fc17cda33133cace0b83d79f7e67d90",
+    "scripts/item402_j2_marked_frobenius_descent_no_go_certificate.py": "9c4404518a85396c29578a04998f19577bafce4f4aecf167c0102f8d0aed6997",
+    "sources/item334_j2_coupled_cartier_carrier_report.md": "a9a1b42652e5157b850014758c321ffd8a5734e4f9ea3586510ae0549822357c",
+    "sources/item338_j2_secondary_cartier_saturation_report.md": "14aa87b718b4bb83dd3e5371412fd231829f809b853d1a52eabba6181650ac33",
+    "sources/item349_j2_degenerate_triple_minor_carrier_report.md": "ca3141156cb5034012a174377c3596e22d22cae924625649b6d620d510f4790c",
+    "sources/item397_j2_matched_aggregate_factor_localization_report.md": "4f30aab79be7039866bbad7e71cc545bd0e553d51d1166b77cb3d5f5371476ee",
+    "sources/item399_j2_raywise_chosen_prime_invariant_report.md": "6c7aec34049d0ed74676166d746eeb5b256f2ff45fb8409671688abd4b4fbf26",
+    "sources/item402_j2_marked_frobenius_descent_no_go_report.md": "c6ba6147dfe835a2f01654e71131ee4e7df4c54aae91811ad7fbb3c30ba1f720"
+  },
+  "evidence_policy": {
+    "countermodels_are_not_actual_values": true,
+    "finite_objects": "EXACT ALGEBRAIC REPLAY ONLY / NOT ACTUAL VALUES / DIAGNOSTIC",
+    "no_finite_extrapolation": true,
+    "no_prime_or_collision_census": true
+  },
+  "exact_carrier": {
+    "definition": "Gamma_(r,s)=gcd(Pi_r,abs(num(T_0)),abs(num(T_1)))",
+    "divisibility": "Gamma_sat divides Pi_sat",
+    "equivalence": "on an actual row, p divides Gamma_sat iff the row is an original collision in the triple-minor chart",
+    "height": "log^+(Gamma)<=log^+(Pi)=O(r log r)",
+    "saturation": "Gamma_sat=(Gamma_(r,s))_(S_(r,s))"
+  },
+  "item": 404,
+  "open": [
+    "actual good reduction for Pi_sat or Gamma_sat",
+    "actual moving-divisor or average-gcd theorem for Gamma_sat",
+    "positive lower density for rejected degenerate rows",
+    "positive full-ray saving and positive eta",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "proved": [
+    "exact target-retaining degenerate carrier and safe saturation",
+    "single surviving target coordinate on the f!=0 rank-one branch",
+    "two period-free proportionality coordinates on the f=0 branch",
+    "exact raw-ray partition into degenerate, nondegenerate, and automatic obstruction charts",
+    "exact rejected-mass identity and sharp capacity criteria",
+    "minor-information and pointwise-height scoped no-go",
+    "proved eta and capacity reduction are zero"
+  ],
+  "rank_one_countermodel_replay": {
+    "classification": "EXACT AMBIENT LINEAR-ALGEBRA COUNTERMODELS / NOT ACTUAL CONNECTION VALUES / NO CENSUS",
+    "rows": [
+      {
+        "c": 3,
+        "f_nonzero": {
+          "T_hit": [
+            0,
+            0
+          ],
+          "T_miss": [
+            1,
+            0
+          ],
+          "W_hit": 7,
+          "W_miss": 8,
+          "b": [
+            1,
+            0
+          ],
+          "f": [
+            1,
+            0
+          ],
+          "minors_both_models": [
+            0,
+            0,
+            0
+          ],
+          "v": [
+            0,
+            0
+          ]
+        },
+        "f_zero": {
+          "T_hit": [
+            0,
+            0
+          ],
+          "T_miss": [
+            10,
+            0
+          ],
+          "b": [
+            1,
+            0
+          ],
+          "f": [
+            0,
+            0
+          ],
+          "minors_both_models": [
+            0,
+            0,
+            0
+          ],
+          "v_hit": [
+            4,
+            0
+          ],
+          "v_miss": [
+            0,
+            0
+          ]
+        },
+        "obstruction_charts": {
+          "ell_mu_zero_C_nonzero_target": [
+            10,
+            6
+          ],
+          "ell_zero_mu_nonzero_old_gate": 6
+        },
+        "p": 17
+      },
+      {
+        "c": 7,
+        "f_nonzero": {
+          "T_hit": [
+            0,
+            0
+          ],
+          "T_miss": [
+            1,
+            0
+          ],
+          "W_hit": 24,
+          "W_miss": 25,
+          "b": [
+            1,
+            0
+          ],
+          "f": [
+            1,
+            0
+          ],
+          "minors_both_models": [
+            0,
+            0,
+            0
+          ],
+          "v": [
+            0,
+            0
+          ]
+        },
+        "f_zero": {
+          "T_hit": [
+            0,
+            0
+          ],
+          "T_miss": [
+            5,
+            0
+          ],
+          "b": [
+            1,
+            0
+          ],
+          "f": [
+            0,
+            0
+          ],
+          "minors_both_models": [
+            0,
+            0,
+            0
+          ],
+          "v_hit": [
+            11,
+            0
+          ],
+          "v_miss": [
+            0,
+            0
+          ]
+        },
+        "obstruction_charts": {
+          "ell_mu_zero_C_nonzero_target": [
+            5,
+            18
+          ],
+          "ell_zero_mu_nonzero_old_gate": 18
+        },
+        "p": 29
+      },
+      {
+        "c": 16,
+        "f_nonzero": {
+          "T_hit": [
+            0,
+            0
+          ],
+          "T_miss": [
+            1,
+            0
+          ],
+          "W_hit": 11,
+          "W_miss": 12,
+          "b": [
+            1,
+            0
+          ],
+          "f": [
+            1,
+            0
+          ],
+          "minors_both_models": [
+            0,
+            0,
+            0
+          ],
+          "v": [
+            0,
+            0
+          ]
+        },
+        "f_zero": {
+          "T_hit": [
+            0,
+            0
+          ],
+          "T_miss": [
+            20,
+            0
+          ],
+          "b": [
+            1,
+            0
+          ],
+          "f": [
+            0,
+            0
+          ],
+          "minors_both_models": [
+            0,
+            0,
+            0
+          ],
+          "v_hit": [
+            30,
+            0
+          ],
+          "v_miss": [
+            0,
+            0
+          ]
+        },
+        "obstruction_charts": {
+          "ell_mu_zero_C_nonzero_target": [
+            20,
+            20
+          ],
+          "ell_zero_mu_nonzero_old_gate": 20
+        },
+        "p": 31
+      },
+      {
+        "c": 5,
+        "f_nonzero": {
+          "T_hit": [
+            0,
+            0
+          ],
+          "T_miss": [
+            1,
+            0
+          ],
+          "W_hit": 41,
+          "W_miss": 42,
+          "b": [
+            1,
+            0
+          ],
+          "f": [
+            1,
+            0
+          ],
+          "minors_both_models": [
+            0,
+            0,
+            0
+          ],
+          "v": [
+            0,
+            0
+          ]
+        },
+        "f_zero": {
+          "T_hit": [
+            0,
+            0
+          ],
+          "T_miss": [
+            2,
+            0
+          ],
+          "b": [
+            1,
+            0
+          ],
+          "f": [
+            0,
+            0
+          ],
+          "minors_both_models": [
+            0,
+            0,
+            0
+          ],
+          "v_hit": [
+            8,
+            0
+          ],
+          "v_miss": [
+            0,
+            0
+          ]
+        },
+        "obstruction_charts": {
+          "ell_mu_zero_C_nonzero_target": [
+            2,
+            32
+          ],
+          "ell_zero_mu_nonzero_old_gate": 32
+        },
+        "p": 43
+      }
+    ],
+    "scope": "minor residues, branch label, unit denominators, saturation, and pointwise height only; formula-specific actual target relations remain outside the no-go"
+  },
+  "status": "PROVED_EXACT_DEGENERATE_TARGET_CARRIER_AND_SCOPED_NO_GO_ETA_ZERO",
+  "title": "ordinary-j2 degenerate target rejection and sharp ray capacity"
+}

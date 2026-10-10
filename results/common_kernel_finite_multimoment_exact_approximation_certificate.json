@@ -1,0 +1,209 @@
+{
+  "control_audit": [
+    {
+      "bytes": 19277,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "sources/common_kernel_finite_multimoment_exact_approximation.md"
+    },
+    {
+      "bytes": 16286,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "scripts/common_kernel_finite_multimoment_exact_approximation_certificate.py"
+    }
+  ],
+  "dependency_audit": {
+    "results/common_kernel_native_exact_moment_integer_approximation_hashes.sha256": "aa35956007909d980f86d43909eaad180d56b9c80a654059425513a1debbb6b9"
+  },
+  "formal_adjoint_coordinates": {
+    "coordinate_rows": [
+      {
+        "degree_adjoint_Q": 19,
+        "isolated_coordinate": 0,
+        "moment_vector": [
+          "471/6466460",
+          "0",
+          "0"
+        ],
+        "star_coefficients": [
+          "6*t**2 + 6*t + 2",
+          "-4*t**3 - 6*t**2 - 8*t + 4",
+          "t**4 + 2*t**3 + 4*t**2 - 4*t - 3"
+        ]
+      },
+      {
+        "degree_adjoint_Q": 18,
+        "isolated_coordinate": 1,
+        "moment_vector": [
+          "0",
+          "-471/6466460",
+          "0"
+        ],
+        "star_coefficients": [
+          "6*t",
+          "-6*t**2 - 6*t",
+          "2*t**3 + 3*t**2 - 3"
+        ]
+      },
+      {
+        "degree_adjoint_Q": 17,
+        "isolated_coordinate": 2,
+        "moment_vector": [
+          "0",
+          "0",
+          "471/6466460"
+        ],
+        "star_coefficients": [
+          "2",
+          "-2*t - 2",
+          "t**2 + 2*t"
+        ]
+      }
+    ],
+    "dependent_example_moments": [
+      "14/3",
+      "247/42",
+      "-349/42"
+    ],
+    "dependent_relation": "coordinate_3=2*coordinate_1-3*coordinate_2",
+    "full_wronskian": "2*t**3 + 6*t**2 + 6",
+    "independent_weights": [
+      "t + 1",
+      "t**2 + t + 1",
+      "t**3 - t + 2"
+    ]
+  },
+  "native_double_kernel": {
+    "double_operator_coefficients": [
+      "-132*a1**2*b2*t**7 + 1232*a1**2*b2*t**6 - 4624*a1**2*b2*t**5 + 8832*a1**2*b2*t**4 - 8896*a1**2*b2*t**3 + 4352*a1**2*b2*t**2 - 768*a1**2*b2*t + 132*a1*a2*b1*t**7 - 1232*a1*a2*b1*t**6 + 4624*a1*a2*b1*t**5 - 8832*a1*a2*b1*t**4 + 8896*a1*a2*b1*t**3 - 4352*a1*a2*b1*t**2 + 768*a1*a2*b1*t - 156*a1*b1*b2*t**8 + 1488*a1*b1*b2*t**7 - 5744*a1*b1*b2*t**6 + 11392*a1*b1*b2*t**5 - 12096*a1*b1*b2*t**4 + 6400*a1*b1*b2*t**3 - 1280*a1*b1*b2*t**2 + 156*a2*b1**2*t**8 - 1488*a2*b1**2*t**7 + 5744*a2*b1**2*t**6 - 11392*a2*b1**2*t**5 + 12096*a2*b1**2*t**4 - 6400*a2*b1**2*t**3 + 1280*a2*b1**2*t**2",
+      "-24*a1**2*b2*t**8 + 256*a1**2*b2*t**7 - 1120*a1**2*b2*t**6 + 2560*a1**2*b2*t**5 - 3200*a1**2*b2*t**4 + 2048*a1**2*b2*t**3 - 512*a1**2*b2*t**2 + 24*a1*a2*b1*t**8 - 256*a1*a2*b1*t**7 + 1120*a1*a2*b1*t**6 - 2560*a1*a2*b1*t**5 + 3200*a1*a2*b1*t**4 - 2048*a1*a2*b1*t**3 + 512*a1*a2*b1*t**2 - 26*a1*b1*b2*t**9 + 280*a1*b1*b2*t**8 - 1240*a1*b1*b2*t**7 + 2880*a1*b1*b2*t**6 - 3680*a1*b1*b2*t**5 + 2432*a1*b1*b2*t**4 - 640*a1*b1*b2*t**3 + 26*a2*b1**2*t**9 - 280*a2*b1**2*t**8 + 1240*a2*b1**2*t**7 - 2880*a2*b1**2*t**6 + 3680*a2*b1**2*t**5 - 2432*a2*b1**2*t**4 + 640*a2*b1**2*t**3",
+      "-a1**2*b2*t**9 + 12*a1**2*b2*t**8 - 60*a1**2*b2*t**7 + 160*a1**2*b2*t**6 - 240*a1**2*b2*t**5 + 192*a1**2*b2*t**4 - 64*a1**2*b2*t**3 + a1*a2*b1*t**9 - 12*a1*a2*b1*t**8 + 60*a1*a2*b1*t**7 - 160*a1*a2*b1*t**6 + 240*a1*a2*b1*t**5 - 192*a1*a2*b1*t**4 + 64*a1*a2*b1*t**3 - a1*b1*b2*t**10 + 12*a1*b1*b2*t**9 - 60*a1*b1*b2*t**8 + 160*a1*b1*b2*t**7 - 240*a1*b1*b2*t**6 + 192*a1*b1*b2*t**5 - 64*a1*b1*b2*t**4 + a2*b1**2*t**10 - 12*a2*b1**2*t**9 + 60*a2*b1**2*t**8 - 160*a2*b1**2*t**7 + 240*a2*b1**2*t**6 - 192*a2*b1**2*t**5 + 64*a2*b1**2*t**4"
+    ],
+    "exact_common_kernel_examples": [
+      {
+        "K": "-5*t**6 + 40*t**5 - 120*t**4 + 160*t**3 - 80*t**2",
+        "case": "nu_one",
+        "coefficient_sha256": "65024116d950bf398cc07a6da867fe20ea5b56d5fdbcd487423827a85f44d7c4",
+        "degree_common_kernel": 18,
+        "nu": 1,
+        "r": 3
+      },
+      {
+        "K": "t**6 - 8*t**5 + 24*t**4 - 32*t**3 + 16*t**2",
+        "case": "nu_two",
+        "coefficient_sha256": "5e5dbcc3bc2c4de05c66224bfd24b559ebc87a98ce286e533f5e93479e10e578",
+        "degree_common_kernel": 17,
+        "nu": 2,
+        "r": 2
+      }
+    ],
+    "symbolic_cross_weight": "-a1*b2*t**6 + 8*a1*b2*t**5 - 24*a1*b2*t**4 + 32*a1*b2*t**3 - 16*a1*b2*t**2 + a2*b1*t**6 - 8*a2*b1*t**5 + 24*a2*b1*t**4 - 32*a2*b1*t**3 + 16*a2*b1*t**2",
+    "symbolic_expected_cross_weight": "-a1*b2*t**6 + 8*a1*b2*t**5 - 24*a1*b2*t**4 + 32*a1*b2*t**3 - 16*a1*b2*t**2 + a2*b1*t**6 - 8*a2*b1*t**5 + 24*a2*b1*t**4 - 32*a2*b1*t**3 + 16*a2*b1*t**2"
+  },
+  "rounded_common_kernel": {
+    "rows": [
+      {
+        "case": "nu_one",
+        "coefficient_sha256": "5e33690b15e67af67f450f332067e5ec02a63d03635a0d3912af68b1bec02174",
+        "degree_G_n": "26",
+        "n": 18,
+        "nonzero_raw_channels": 9
+      },
+      {
+        "case": "nu_one",
+        "coefficient_sha256": "bd44d5b8352db608b1bbb607b026dd3d738f520c47b18b46eb4cb3b0d2d75b74",
+        "degree_G_n": "36",
+        "n": 28,
+        "nonzero_raw_channels": 19
+      },
+      {
+        "case": "nu_one",
+        "coefficient_sha256": "3efb5e2edeaed47d0c2b035a068187f345b50842911283b12ee914ab5892a35c",
+        "degree_G_n": "48",
+        "n": 40,
+        "nonzero_raw_channels": 31
+      },
+      {
+        "case": "nu_two",
+        "coefficient_sha256": "b8a378eb40964ba9d4b7ffe144eed15a5ceda32964d400d05c119edc5c94bef0",
+        "degree_G_n": "23",
+        "n": 18,
+        "nonzero_raw_channels": 10
+      },
+      {
+        "case": "nu_two",
+        "coefficient_sha256": "1058e86d41bb2f87598e1714088c41fe39e831d5770c6f90446a39b004fc8483",
+        "degree_G_n": "36",
+        "n": 28,
+        "nonzero_raw_channels": 20
+      },
+      {
+        "case": "nu_two",
+        "coefficient_sha256": "d5c090997713242639b2b116f42ceb19af5743cb4e910e5e05dfecf33ceeedc0",
+        "degree_G_n": "47",
+        "n": 40,
+        "nonzero_raw_channels": 32
+      }
+    ],
+    "scope": "Exact moment/divisibility replay only; convergence is all-n."
+  },
+  "rss_guard_kib": 41943040,
+  "rss_guard_passed": true,
+  "scope": {
+    "not_claimed": [
+      "arbitrary-m exact approximation across Wronskian zeros",
+      "effective degree, denominator, or primitive-content gain",
+      "irrationality or transcendence of e+pi"
+    ],
+    "proved_all_parameter": [
+      "integer image equals rational linear image for finite weights",
+      "independent weights have full Q^m image",
+      "two independent native moments can be preserved exactly in C3",
+      "finite sign-possible native systems admit a common strict profile"
+    ]
+  },
+  "sign_and_output": {
+    "factorial_elimination_rows": [
+      {
+        "M": 3,
+        "N": 2,
+        "factorial_ratio": 3
+      },
+      {
+        "M": 8,
+        "N": 4,
+        "factorial_ratio": 1680
+      },
+      {
+        "M": 12,
+        "N": 8,
+        "factorial_ratio": 11880
+      }
+    ],
+    "left_q_jet": "-t**2 - 2*t**3 + O(t**4)",
+    "residual_factorization_difference": "0",
+    "right_q_jet": "-1 + 3*s**2 + O(s**4)",
+    "t_alpha_limit_a_positive": "1",
+    "t_alpha_limit_a_zero": "2"
+  },
+  "theorem": "finite rational moment image and simultaneous two-native exact integer C3 approximation",
+  "weighted_bernstein": {
+    "exact_identity_instances": 179655,
+    "finite_n_times_bound_maxima": {
+      "nu_1_q_0_lambda_0": "1/52",
+      "nu_1_q_1_lambda_0": "7/13",
+      "nu_1_q_2_lambda_0": "14",
+      "nu_1_q_3_lambda_1": "70",
+      "nu_1_q_4_lambda_2": "5110/11",
+      "nu_1_q_5_lambda_3": "981189000/90307",
+      "nu_2_q_0_lambda_0": "1/13",
+      "nu_2_q_1_lambda_0": "28/13",
+      "nu_2_q_2_lambda_1": "112/13",
+      "nu_2_q_3_lambda_2": "5740/143",
+      "nu_2_q_4_lambda_3": "45388/143",
+      "nu_2_q_5_lambda_4": "10415877000/993377"
+    },
+    "scope": "The exact endpoint-ratio proof gives O(1/n); n<=100 rows are diagnostics only."
+  }
+}

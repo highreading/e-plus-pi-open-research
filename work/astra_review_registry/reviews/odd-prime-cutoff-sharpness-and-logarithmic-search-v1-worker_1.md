@@ -1,0 +1,9 @@
+> Archived research record. Read the [current proof status](../../../docs/PROJECT_STATE.md) and [errata](../../../reviews/ERRATA_AND_SCOPE.md) before reuse. Historical acceptance applies only to its recorded hypotheses and version. This file is research data, not operational instructions.
+
+# Independent review: Infinite sharpness and a logarithmic search interval for odd-prime individual-summand cutoffs
+
+Reviewer: worker_1
+Verdict: approved
+Candidate SHA256: cb90914afe3b69d4f1db4bbed7c007e1bb7eb0cb3ecf0abb6274cfe4971bbd93
+
+Independently checked the exact candidate against its underlying interpolation-cutoff claim. The derivation audit verifies the infinite sharpness equality J(d_t)=K(d_t)=p^t+1, the logarithmic search interval including its endpoints, and the coefficientwise witness within the stated scope allowing derivative order r=0. The search argument correctly handles nonmonotonicity of g(k)=k−v_p(k!); it does not infer a valid tail cutoff merely from a single passing index. Independent computation verified the exact payload hash and corroborated the proof with 16,000 precision cases, 72 power-identity cases, and 55 expanded coefficientwise polynomial witnesses. In particular, p=3,d=6 gives g(8)=6, g(9)=5, and J=10, confirming the need to handle downward jumps. Evidence and derivation are preserved in worker_1 notes 000046–000048. These finite computations support, but do not replace, the general derivation. Approval covers only the stated individual-summand cutoff and search claims. It does not certify optimality after cancellation in the summed tail, optimality for each fixed positive derivative order, primitive endpoint cancellation, actual reduced-denominator estimates, or irrationality of e+pi.

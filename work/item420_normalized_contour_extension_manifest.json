@@ -1,0 +1,47 @@
+{
+  "schema": "item420-normalized-contour-extension-manifest-v2",
+  "item": 420,
+  "title": "Fixed-coordinate saddle obstruction beyond circular Cauchy optimization",
+  "status": "CANONICAL_ROOT_AUDITED_SCOPED_HEIGHT_NO_GO_NO_BOOKING",
+  "created": "2026-09-01",
+  "scope": "Actual Item390/415 normalized mixed-cubic residue pair, using Item418's exact saddle geometry. The theorem settles every fixed rational coordinate combination and records zero ledger delta.",
+  "artifacts": [
+    "sources/item420_normalized_contour_extension_report.md",
+    "scripts/item420_normalized_contour_extension_certificate.py",
+    "results/item420_normalized_contour_extension_certificate.json",
+    "results/item420_normalized_contour_extension_certificate_replay.json",
+    "results/item420_normalized_contour_extension_ledger_delta.json",
+    "results/item420_normalized_contour_extension_hashes.sha256"
+  ],
+  "dependencies": [
+    "sources/item390_mixed_cubic_fresh_primitive_saturation_report.md",
+    "results/item390_mixed_cubic_fresh_primitive_saturation_certificate.json",
+    "results/item390_mixed_cubic_fresh_primitive_saturation_root_audit.json",
+    "sources/item415_marked_selector_compulsory_strip_report.md",
+    "results/item415_marked_selector_compulsory_strip_certificate.json",
+    "results/item415_marked_selector_compulsory_strip_root_audit.json",
+    "sources/item418_normalized_large_carrier_report.md",
+    "results/item418_normalized_large_carrier_certificate.json",
+    "results/item418_normalized_large_carrier_root_audit.json",
+    "manifests/item418_normalized_large_carrier_manifest.json",
+    "results/item418_normalized_large_carrier_hashes.sha256"
+  ],
+  "proved": [
+    "unique leading fixed-coordinate cancellation D=2lambda1-5lambda0",
+    "exact integration-by-parts identity D=CT(qH^m)/m",
+    "nonvanishing post-cancellation saddle amplitude",
+    "limsup root rho_star for every fixed nonzero rational combination",
+    "limsup normalized root rho_star*exp(-C_F)",
+    "zero booking and zero component/global ceiling delta"
+  ],
+  "scoped_no_go": [
+    "fixed-coordinate absolute-height arguments, including asymmetric and noncircular contour bounds, cannot improve Item418's exponential base"
+  ],
+  "not_claimed": [
+    "a bound for m-dependent combinations",
+    "a joint gcd or resultant theorem",
+    "weighted zero density",
+    "c_m^>=1",
+    "Route-1 completion or irrationality of e+pi"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "item": 402,
+  "schema": "item402-j2-marked-frobenius-descent-no-go-manifest-v1",
+  "classification": "PROVED_COMPLETE_UNMARKED_GALOIS_INVARIANT_NO_GO_WITH_ETA_ZERO",
+  "checked_date_beijing": "2026-09-01",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item349_j2_degenerate_triple_minor_carrier_report.md": "ca3141156cb5034012a174377c3596e22d22cae924625649b6d620d510f4790c",
+    "scripts/item349_j2_degenerate_triple_minor_carrier_certificate.py": "b72b1ee335f243ae6a2761c417e27640f443183ec625027a14d5b7e06b91cf9b",
+    "results/item349_j2_degenerate_triple_minor_carrier_certificate.json": "b26294d51b1844aeee04146004b2ecec9b6e1ff81aa271a3167e5d86c11bce44",
+    "manifests/item349_j2_degenerate_triple_minor_carrier_manifest.json": "1c1dec25ac00ea5adb2befe885c9c96ba805564651b6e90c73ef2506d30e7f4f",
+    "sources/item397_j2_matched_aggregate_factor_localization_report.md": "4f30aab79be7039866bbad7e71cc545bd0e553d51d1166b77cb3d5f5371476ee",
+    "scripts/item397_j2_matched_aggregate_factor_localization_certificate.py": "f7fe2d81b31ce31fb41e77c551119ac66fa7b62fadda2691ae06036ef4426186",
+    "results/item397_j2_matched_aggregate_factor_localization_certificate.json": "45df777a3a93c0c7e4b62dadd75da7d7231d4235b2e9efde1b5204fee43254d3",
+    "manifests/item397_j2_matched_aggregate_factor_localization_manifest.json": "a6aa125bcc12f5b258ea02fb2e552b2a658c6b8ca9bd56386297530891ef5044",
+    "sources/item399_j2_raywise_chosen_prime_invariant_report.md": "6c7aec34049d0ed74676166d746eeb5b256f2ff45fb8409671688abd4b4fbf26",
+    "scripts/item399_j2_raywise_chosen_prime_invariant_certificate.py": "ab58b05023329805e06e66a4c20430943fc17cda33133cace0b83d79f7e67d90",
+    "results/item399_j2_raywise_chosen_prime_invariant_certificate.json": "967cb7effb6bf2f3f2d255c4eec6418b5ae65244888026f2e6cbc0c20ad94a35",
+    "manifests/item399_j2_raywise_chosen_prime_invariant_manifest.json": "3f2ae65892fa23a2b5ca0c12be81eda5d924daf2c78f2442662e43293d3f326d"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item402_j2_marked_frobenius_descent_no_go_report.md",
+      "sha256": "97be538e7e1380d3b98123544bdec5ad54b3445e5cfe0164e9580ad1a27f7545",
+      "bytes": 11000
+    },
+    "certificate_script": {
+      "path": "work/item402_j2_marked_frobenius_descent_no_go_certificate.py",
+      "sha256": "4a25099f56cfe1d72d061504b051d87aee516a95bd156910a4b6d196b6499446",
+      "bytes": 13277
+    },
+    "certificate": {
+      "path": "work/item402_j2_marked_frobenius_descent_no_go_certificate.json",
+      "sha256": "c262d213c6172f31401be933c0ffba7d0cb983a9c98eeae699542687105d28ce",
+      "bytes": 8452
+    },
+    "replay": {
+      "path": "work/item402_j2_marked_frobenius_descent_no_go_certificate_replay.json",
+      "sha256": "c262d213c6172f31401be933c0ffba7d0cb983a9c98eeae699542687105d28ce",
+      "bytes": 8452,
+      "byte_identical_to_certificate": true
+    },
+    "ledger_delta": {
+      "path": "work/item402_j2_marked_frobenius_descent_no_go_ledger_delta.json",
+      "sha256": "5b2893b8e6d37c5722d8e900fdb0fb83b9b19a32f8729e341acfef69774b96e8",
+      "bytes": 3488
+    }
+  },
+  "theorems": [
+    "the actual ordered cutoff has trivial multiplicative stabilizer on every m>=1 row",
+    "an exact formal mode-labelled Kummer descent preserving that cutoff support has no nontrivial descent subgroup; numerical specializations with extra identities are outside the claim",
+    "the complete ring of unmarked H-invariant functions cannot determine selected-coordinate vanishing",
+    "unmarked trace, norm, characteristic-polynomial, Newton-slope, and unit-root packets therefore lose the selector",
+    "a marked P_p-coordinate remains live but is not a rational or proper-subfield compression",
+    "one complete ray has normalized capacity 1/210, but eta remains zero because neither actual chart is bounded"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "trivial cutoff stabilizer",
+      "proper-descent obstruction",
+      "complete unmarked invariant-information no-go",
+      "marked/unmarked unit-root dichotomy",
+      "eta-zero capacity audit"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared group and split-algebra identity replays; no prime or collision census"
+    ],
+    "OPEN": [
+      "actual selected-prime weighted nonconcentration",
+      "the degenerate target-retaining theorem",
+      "a positive-mass exclusion on either full ray",
+      "Route 1 and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "one_ray_normalized_per_6M": "1/210",
+    "proved_eta_per_M": 0,
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "retained_ordinary_j2_ceiling_per_6M": "1/105"
+  },
+  "replay_command": "python work/item402_j2_marked_frobenius_descent_no_go_certificate.py --replay work/item402_j2_marked_frobenius_descent_no_go_certificate.json --output work/item402_j2_marked_frobenius_descent_no_go_certificate_replay.json"
+}

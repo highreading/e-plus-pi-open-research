@@ -1,0 +1,386 @@
+{
+  "actual_prime_bridge_replay": {
+    "classification": "EXACT PREDECLARED ACTUAL-ROW CONTROLS; NO SCAN",
+    "rows": [
+      {
+        "h": 1,
+        "p": 13,
+        "s": 1
+      },
+      {
+        "h": 2,
+        "p": 17,
+        "s": 1
+      },
+      {
+        "h": 4,
+        "p": 43,
+        "s": 4
+      },
+      {
+        "h": 8,
+        "p": 47,
+        "s": 2
+      }
+    ],
+    "theorem": "B_xy implies p|N_x(h), and B_uv implies p|N_u(h); these are one-coordinate overcarriers and need not be as sharp as the paired gcd carriers"
+  },
+  "capacity_replay": {
+    "comparison_capacity_per_6M": "1/48",
+    "comparison_mass_per_M": "1/8",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "raw_fixed_j1_mass_per_M": "1/6",
+    "shared_full_fixed_j1_ceiling_per_6M": "1/36"
+  },
+  "classification": "PROVED_TERMINAL_NORMALIZED_CARRIERS_AND_SCOPED_RECURRENCE_BARRIER",
+  "comparison_replay": {
+    "actual_controls": [
+      {
+        "M": 12,
+        "h": 2,
+        "p": 17,
+        "s": 1
+      },
+      {
+        "M": 34,
+        "h": 8,
+        "p": 47,
+        "s": 2
+      },
+      {
+        "M": 30,
+        "h": 4,
+        "p": 43,
+        "s": 4
+      }
+    ],
+    "carrier": "C_h=(product_(4h<k<=18h, 3 does not divide k) k)^2",
+    "classification": "EXACT PREDECLARED COMPARISON CONTROLS",
+    "height": "log C_h=O(h log(h+2))",
+    "positive_rate_bulk": "every actual p on M/12<=h<=M/3 divides C_h; mass M/8+o(M), capacity 1/48 per 6M",
+    "recurrence": "on each h mod 3 class, E_h^2*C_(h+3)=N_h^2*C_h with E_h and N_h fixed products of 8 and 36 integer-linear factors",
+    "recurrence_controls": [
+      {
+        "comparison_mod_3": 1,
+        "denominator_factor_count": 8,
+        "h": 1,
+        "numerator_factor_count": 36
+      },
+      {
+        "comparison_mod_3": 1,
+        "denominator_factor_count": 8,
+        "h": 2,
+        "numerator_factor_count": 36
+      },
+      {
+        "comparison_mod_3": 1,
+        "denominator_factor_count": 8,
+        "h": 4,
+        "numerator_factor_count": 36
+      },
+      {
+        "comparison_mod_3": 1,
+        "denominator_factor_count": 8,
+        "h": 5,
+        "numerator_factor_count": 36
+      },
+      {
+        "comparison_mod_3": 1,
+        "denominator_factor_count": 8,
+        "h": 7,
+        "numerator_factor_count": 36
+      },
+      {
+        "comparison_mod_3": 1,
+        "denominator_factor_count": 8,
+        "h": 8,
+        "numerator_factor_count": 36
+      }
+    ],
+    "scope": "3-adic normalization, primitive integrality, fixed-order recurrence, and pointwise height alone cannot force selector-weighted zero density",
+    "unit": "C_h is an integer congruent to 1 mod 3"
+  },
+  "dependencies": {
+    "manifests/item364_j1_saturation_boundary_phase_carrier_manifest.json": "bd0c5435fe4d0b7266d81b4f97dfacf8b2fca55fb2c95770e7cb853c2f77426c",
+    "manifests/item368_j1_boundary_whipple_rank_obstruction_manifest.json": "eec70fc17c33e4ec7d3f8851a423debcca5abb333bbbe58decd3ab14736fd11a",
+    "manifests/item372_j1_boundary_exact_zero_strata_manifest.json": "2cd8c4a7f8902e2decbfd4848b443e9672abe3dfcf85ae99696e6ca8f04effd8",
+    "results/item364_j1_saturation_boundary_phase_carrier_certificate.json": "ca1987d1688789dbf0e64f3eec2c4b771b9873f829e61d1b5f62302f47443926",
+    "results/item364_j1_saturation_boundary_phase_carrier_ledger_delta.json": "225840be16db3950187672d556065553017b1a76f65641a2c82b67c9227f914f",
+    "results/item364_j1_saturation_boundary_phase_carrier_root_audit.json": "fa6170a0c014cee655ba00c5288905344a969aa22b141d44b64ae4a2d3219a89",
+    "results/item368_j1_boundary_whipple_rank_obstruction_certificate.json": "8814c95cca55bf80b735668813909ed7e0f85ff30a1926a0df4b5b0c6f3c396d",
+    "results/item368_j1_boundary_whipple_rank_obstruction_ledger_delta.json": "30a39fc4bdb919d53864a3f56f180dfe95dcb98dd58ffc87b9185fceeeb33bc8",
+    "results/item368_j1_boundary_whipple_rank_obstruction_root_audit.json": "f20929fc3aa756419cf4263b439d90e6c44084c63f9acf64a4540134e3198321",
+    "results/item372_j1_boundary_exact_zero_strata_certificate.json": "22521478fac4e39d00c071c679b5e2bb34543ae4232e4cc196c9fd6e44e9fbd5",
+    "results/item372_j1_boundary_exact_zero_strata_ledger_delta.json": "5481ddd7e9cd38afa7f746984371b0b8f3088ef0fbabbdade866be796fc12398",
+    "results/item372_j1_boundary_exact_zero_strata_root_audit.json": "fbfda454f9ba31c2bc6af23fdf868fdcc16edfe628c21e4f6905d6cce0b334c7",
+    "scripts/item364_j1_saturation_boundary_phase_carrier_certificate.py": "ef9046fc4d7071779a73bf6e1bfd7d312789b994bd3274eec2a78d818d027b07",
+    "scripts/item368_j1_boundary_whipple_rank_obstruction_certificate.py": "f9d72b05fd24d62aa58fbca72221ff246a4d270b1eefb9023351cfd1aff932c5",
+    "scripts/item372_j1_boundary_exact_zero_strata_certificate.py": "6c05f7446a246c4efe91cda75f2c6e7f315f267a7a75110fa6ce542b87c6cb5e",
+    "sources/item364_j1_saturation_boundary_phase_carrier_report.md": "2c18f6ac22220e553349e44a723e200d20f4f3c89cfec5cd83812db260834e92",
+    "sources/item368_j1_boundary_whipple_rank_obstruction_report.md": "34bfdc2b2e4035ae78c0147d0a22f442e7f0fd148103e5eeee44d62042768cc6",
+    "sources/item372_j1_boundary_exact_zero_strata_report.md": "70908ecaac3940afbadc9abe752b904972c17b20058782d0b10840c0da245e11"
+  },
+  "dependency_hashes_verified": true,
+  "holonomic_scope": {
+    "moving_modulus_barrier": "a recurrence at fixed modulus does not couple actual fixed-M events, because consecutive actual fixed-M parameters have h->h+4 and the selected modulus changes from p_h to p_h-2",
+    "not_proved": "the primitive numerators after division by gcd(A_h,D_h) satisfy a fixed-order recurrence; primitive reduction is nonlinear",
+    "proved": "on each h mod 3 class, the unreduced cleared sums are finite sums of proper hypergeometric terms and therefore admit some fixed-order polynomial recurrence by creative telescoping"
+  },
+  "item": 376,
+  "normalized_carrier_replay": {
+    "actual_prime_bridge": "all primitive denominators and both terminal normalizers are p-units for p>=4h+9; X=0 mod p iff p divides N_x, and U=0 mod p iff p divides N_u",
+    "classification": "EXACT PREDECLARED SYMBOLIC CONTROLS; NO PRIME SCAN",
+    "clearing": {
+      "A_congruence": "A_x=D_x mod 3 and A_u=D_u mod 3, both nonzero",
+      "D_u": "product_(j=0)^(h+1)(-3-2h+6j)",
+      "D_x": "product_(j=0)^(h-1)(3-2h+6j)",
+      "minimal": "divide A,D by their exact integer gcd and normalize denominator positive"
+    },
+    "reverse_sums": {
+      "u": "sum_(r=0)^(h+2) (-1)^r*k1_(2r)*(h+1/2)_r/(-1/2-h/3)_r",
+      "x": "sum_(r=0)^h (-1)^r*k0_(2r)*(h+1/2)_r/(1/2-h/3)_r"
+    },
+    "rows": [
+      {
+        "h": 1,
+        "maximum_U_cleared_denominator_factor": 7,
+        "maximum_X_cleared_denominator_factor": 1,
+        "normalized_u": {
+          "denominator": 5,
+          "numerator": 536
+        },
+        "normalized_x": {
+          "denominator": 1,
+          "numerator": 10
+        },
+        "primitive_u": {
+          "cleared_denominator": -35,
+          "cleared_numerator": -3752,
+          "gcd": 7,
+          "primitive_denominator": 5,
+          "primitive_numerator": 536
+        },
+        "primitive_x": {
+          "cleared_denominator": 1,
+          "cleared_numerator": 10,
+          "gcd": 1,
+          "primitive_denominator": 1,
+          "primitive_numerator": 10
+        }
+      },
+      {
+        "h": 2,
+        "maximum_U_cleared_denominator_factor": 11,
+        "maximum_X_cleared_denominator_factor": 5,
+        "normalized_u": {
+          "denominator": 7,
+          "numerator": 13744
+        },
+        "normalized_x": {
+          "denominator": 1,
+          "numerator": 220
+        },
+        "primitive_u": {
+          "cleared_denominator": 385,
+          "cleared_numerator": 755920,
+          "gcd": 55,
+          "primitive_denominator": 7,
+          "primitive_numerator": 13744
+        },
+        "primitive_x": {
+          "cleared_denominator": -5,
+          "cleared_numerator": -1100,
+          "gcd": 5,
+          "primitive_denominator": 1,
+          "primitive_numerator": 220
+        }
+      },
+      {
+        "h": 4,
+        "maximum_U_cleared_denominator_factor": 19,
+        "maximum_X_cleared_denominator_factor": 13,
+        "normalized_u": {
+          "denominator": 385,
+          "numerator": -27363008
+        },
+        "normalized_x": {
+          "denominator": 1,
+          "numerator": -6128
+        },
+        "primitive_u": {
+          "cleared_denominator": 95095,
+          "cleared_numerator": -6758662976,
+          "gcd": 247,
+          "primitive_denominator": 385,
+          "primitive_numerator": -27363008
+        },
+        "primitive_x": {
+          "cleared_denominator": -455,
+          "cleared_numerator": 2788240,
+          "gcd": 455,
+          "primitive_denominator": 1,
+          "primitive_numerator": -6128
+        }
+      },
+      {
+        "h": 5,
+        "maximum_U_cleared_denominator_factor": 23,
+        "maximum_X_cleared_denominator_factor": 17,
+        "normalized_u": {
+          "denominator": 13,
+          "numerator": -32081024
+        },
+        "normalized_x": {
+          "denominator": 7,
+          "numerator": -1803680
+        },
+        "primitive_u": {
+          "cleared_denominator": -1956955,
+          "cleared_numerator": 4829316947840,
+          "gcd": 150535,
+          "primitive_denominator": 13,
+          "primitive_numerator": -32081024
+        },
+        "primitive_x": {
+          "cleared_denominator": 6545,
+          "cleared_numerator": -1686440800,
+          "gcd": 935,
+          "primitive_denominator": 7,
+          "primitive_numerator": -1803680
+        }
+      },
+      {
+        "h": 7,
+        "maximum_U_cleared_denominator_factor": 31,
+        "maximum_X_cleared_denominator_factor": 25,
+        "normalized_u": {
+          "denominator": 2431,
+          "numerator": -2245359104
+        },
+        "normalized_x": {
+          "denominator": 11,
+          "numerator": -14888320
+        },
+        "primitive_u": {
+          "cleared_denominator": -1252876625,
+          "cleared_numerator": 1157201948224000,
+          "gcd": 515375,
+          "primitive_denominator": 2431,
+          "primitive_numerator": -2245359104
+        },
+        "primitive_x": {
+          "cleared_denominator": 2377375,
+          "cleared_numerator": -3217738160000,
+          "gcd": 216125,
+          "primitive_denominator": 11,
+          "primitive_numerator": -14888320
+        }
+      },
+      {
+        "h": 8,
+        "maximum_U_cleared_denominator_factor": 35,
+        "maximum_X_cleared_denominator_factor": 29,
+        "normalized_u": {
+          "denominator": 2717,
+          "numerator": 7463865684992
+        },
+        "normalized_x": {
+          "denominator": 143,
+          "numerator": 39926992640
+        },
+        "primitive_u": {
+          "cleared_denominator": 37739877175,
+          "cleared_numerator": 103675146927602252800,
+          "gcd": 13890275,
+          "primitive_denominator": 2717,
+          "primitive_numerator": 7463865684992
+        },
+        "primitive_x": {
+          "cleared_denominator": -56751695,
+          "cleared_numerator": -15845625934073600,
+          "gcd": 396865,
+          "primitive_denominator": 143,
+          "primitive_numerator": 39926992640
+        }
+      },
+      {
+        "h": 10,
+        "maximum_U_cleared_denominator_factor": 43,
+        "maximum_X_cleared_denominator_factor": 37,
+        "normalized_u": {
+          "denominator": 96577,
+          "numerator": 11534266464096256
+        },
+        "normalized_x": {
+          "denominator": 2431,
+          "numerator": 32760009303040
+        },
+        "primitive_u": {
+          "cleared_denominator": 45846514338625,
+          "cleared_numerator": 5475484979153530130944000,
+          "gcd": 474714625,
+          "primitive_denominator": 96577,
+          "primitive_numerator": 11534266464096256
+        },
+        "primitive_x": {
+          "cleared_denominator": -46356435125,
+          "cleared_numerator": -624696522398506880000,
+          "gcd": 19068875,
+          "primitive_denominator": 2431,
+          "primitive_numerator": 32760009303040
+        }
+      },
+      {
+        "h": 11,
+        "maximum_U_cleared_denominator_factor": 47,
+        "maximum_X_cleared_denominator_factor": 41,
+        "normalized_u": {
+          "denominator": 104975,
+          "numerator": -278167449357377536
+        },
+        "normalized_x": {
+          "denominator": 4199,
+          "numerator": -1109164935362560
+        },
+        "primitive_u": {
+          "cleared_denominator": -1818118582905625,
+          "cleared_numerator": 4817731925087949067065958400,
+          "gcd": 17319538775,
+          "primitive_denominator": 104975,
+          "primitive_numerator": -278167449357377536
+        },
+        "primitive_x": {
+          "cleared_denominator": 1547334964175,
+          "cleared_numerator": -408728193742175034112000,
+          "gcd": 368500825,
+          "primitive_denominator": 4199,
+          "primitive_numerator": -1109164935362560
+        }
+      }
+    ]
+  },
+  "schema": "item376-j1-terminal-normalized-carrier-recurrence-barrier-v1",
+  "scope_warning": "The normalized values are nonzero 3-adic units in characteristic zero, but their primitive numerators may still vanish modulo an actual tied prime. The one-coordinate carriers overcount the paired boundary gates.",
+  "strict_labels": {
+    "finite_only": [
+      "eight declared normalized controls, four actual-row controls, six recurrence controls, and three comparison controls",
+      "no prime scan, collision census, recurrence guess promotion, or extrapolation"
+    ],
+    "open": [
+      "fixed-order recurrence for the primitive reduced numerator sequences",
+      "target-specific cross-prime average gcd or weighted zero density",
+      "any strict fixed-j1 capacity reduction"
+    ],
+    "proved": [
+      "exact reverse terminal-normalized sums for x_h and u_h",
+      "exact minimal integer clearing by primitive gcd reduction",
+      "x_h and u_h lie in 1+3Z_3",
+      "actual-prime p-unit denominator bridge to primitive numerator overcarriers",
+      "holonomicity of the unreduced proper-hypergeometric sums on each residue class",
+      "scoped no-go for generic recurrence/unit/height/selector reasoning",
+      "zero booking and zero capacity reduction"
+    ]
+  },
+  "verdict": "Terminal normalization gives exact primitive one-coordinate carriers and holonomic unreduced sums, but fixed-order recurrence, 3-adic unit structure, and pointwise height cannot control the moving selector primes; no mass changes."
+}

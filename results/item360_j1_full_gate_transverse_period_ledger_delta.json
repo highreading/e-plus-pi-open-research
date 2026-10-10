@@ -1,0 +1,45 @@
+{
+  "schema": "item360-j1-full-gate-transverse-period-ledger-delta-v1",
+  "item": 360,
+  "date": "2026-09-01",
+  "branch": "Route 1 / fixed-j1 / reconstruction of full ordinary common-log gate",
+  "status": "PROVED_ACTUAL_CODIMENSION_TWO_FULL_GATE_AND_TRANSVERSE_PERIOD",
+  "actual_family": {
+    "parameters": "p=4h+6s+3, M=3h+4s+2",
+    "original_gate": "Q0=Q1=0 mod p",
+    "selected_gate": "ordinary collision implies a_(2s+1,2h)=0 mod p",
+    "selected_converse_claimed": false
+  },
+  "proved": {
+    "forgotten_ratio_elimination": "eliminating the unspecified factorial ratio lambda gives the principal ideal <H>",
+    "actual_fiber": "specializing lambda to its exact factorial value gives the prime codimension-two ideal <f0,f1>",
+    "transverse_period": "f0=Q0/A is the original parameter-derivative period in the (1+z^2)-exponent direction",
+    "syzygy": "beta*v*f0-y*f1=2H",
+    "first_chart": "<f0,H>=<f0,f1> intersect <x,y>",
+    "second_chart": "<f1,H>=<f0,f1> intersect <u,v>",
+    "actual_independence": "two predeclared selected-Hasse zeros have nonzero Q0"
+  },
+  "codimension": {
+    "forgotten_ratio_Hasse": 1,
+    "actual_full_gate": 2,
+    "additional_collision_forced_algebraic_condition_relative_to_selected_gate": 1
+  },
+  "capacity": {
+    "raw_support": "all actual fixed-j1 rows",
+    "raw_prime_mass": "M/6+o(M)",
+    "maximum_possible_saving_per_6M_if_joint_zero_density_is_proved": "1/36",
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "booking": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36"
+  },
+  "open": [
+    "weighted zero density for the joint Hasse/transverse envelope",
+    "weighted control of the x=y=0 and u=v=0 chart boundaries",
+    "a fixed-M average gcd or sublinear-height common target",
+    "any strict fixed-j1 ceiling reduction, Route 1, and every conclusion about e+pi"
+  ],
+  "ledger_action": "RECORD_ONE_TRANSVERSE_ALGEBRAIC_CONDITION_BOOK_ZERO",
+  "route_1_status": "ACTIVE",
+  "canonical_files_modified": false
+}

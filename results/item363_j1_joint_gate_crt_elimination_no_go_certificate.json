@@ -1,0 +1,262 @@
+{
+  "canonical_files_modified": false,
+  "capacity": {
+    "CRT_height": "log max(1,Z_M)<=M/6+o(M)",
+    "available_Cauchy_constant_for_C_nu": "H=6.327627545440858... per M before compulsory de-overlap",
+    "booking": 0,
+    "height_route": "strictly weaker than raw support",
+    "new_fixed_j1_capacity_reduction": 0,
+    "new_linear_log_rate": 0,
+    "raw_ceiling_per_6M": "1/36",
+    "raw_log_mass": "log P_M=M/6+o(M)",
+    "route_1_status": "ACTIVE",
+    "weighted_target": "log R_joint(M)=o(M)",
+    "weighted_target_proved": false
+  },
+  "classification": {
+    "EXACT_FINITE_ONLY": [
+      "three predeclared fixed-M controls (six total rows) and all 16 M=76 CRT subset patterns; no collision scan"
+    ],
+    "OPEN": [
+      "sequence-specific structure or sublinear-height compression of Z_M",
+      "weighted average gcd for (Cbar_0,Cbar_1*Z_M)",
+      "log R_joint(M)=o(M), any fixed-j1 ceiling reduction, Route 1, and every conclusion about e+pi"
+    ],
+    "PROVED": [
+      "exact compulsory-prime de-overlap and fixed-M quotient bridge",
+      "integral p-unit clearing of the boundary coordinate y",
+      "exact primewise and CRT/gcd radical formulations of the joint gate",
+      "gate resultants equal the second gate times boundary coordinates",
+      "zero gate-only parameter elimination ideal even on the nonzero chart",
+      "finite-log Frobenius form of Q0",
+      "CRT zero-pattern information-class no-go",
+      "zero booking"
+    ]
+  },
+  "crt_information_neutrality": {
+    "declared_M76_subset_checks": 16,
+    "meaning": "a linear-height CRT carrier alone gives no zero-density restriction",
+    "proof": "choose residues 0 on S and 1 off S; primewise gcd(P,Z)=product(S)",
+    "theorem": "for any subset S of a squarefree candidate product P, CRT packs the exact zero pattern into one 0<=Z<P"
+  },
+  "date": "2026-09-01",
+  "declared_controls": [
+    {
+      "C0_bar": 139965065333511355,
+      "C1_bar": 353920860513612182,
+      "CRT_boundary_carrier_Z": 6,
+      "CRT_height_bound_verified": true,
+      "M": 9,
+      "boundary_radical": 1,
+      "candidate_primes": [
+        13
+      ],
+      "candidate_product_P": 13,
+      "classification": "PREDECLARED FIXED-M CONTROL; NOT ASYMPTOTIC EVIDENCE",
+      "full_radical": 1,
+      "joint_radical_direct": 1,
+      "joint_radical_gcd": 1,
+      "rows": [
+        {
+          "C0_bar_mod_p": 2,
+          "C1_bar_mod_p": 11,
+          "H": 0,
+          "Q0": 9,
+          "Q1": 4,
+          "Y_mod_p": 6,
+          "boundary_zero": false,
+          "classification": "PREDECLARED EXACT CONTROL; NOT A COLLISION SCAN",
+          "full_gate_zero": false,
+          "h": 1,
+          "joint_Hasse_transverse_zero": false,
+          "p": 13,
+          "s": 1,
+          "selected_Hasse": 0
+        }
+      ]
+    },
+    {
+      "C0_bar": -2730136938041116923674319854686004369637313694630035768336728141452845,
+      "C1_bar": -6871919106909901429144637206946561497153006395504713539400378166441048,
+      "CRT_boundary_carrier_Z": 3,
+      "CRT_height_bound_verified": true,
+      "M": 34,
+      "boundary_radical": 1,
+      "candidate_primes": [
+        47
+      ],
+      "candidate_product_P": 47,
+      "classification": "PREDECLARED FIXED-M CONTROL; NOT ASYMPTOTIC EVIDENCE",
+      "full_radical": 1,
+      "joint_radical_direct": 1,
+      "joint_radical_gcd": 1,
+      "rows": [
+        {
+          "C0_bar_mod_p": 39,
+          "C1_bar_mod_p": 11,
+          "H": 0,
+          "Q0": 30,
+          "Q1": 41,
+          "Y_mod_p": 3,
+          "boundary_zero": false,
+          "classification": "PREDECLARED EXACT CONTROL; NOT A COLLISION SCAN",
+          "full_gate_zero": false,
+          "h": 8,
+          "joint_Hasse_transverse_zero": false,
+          "p": 47,
+          "s": 2,
+          "selected_Hasse": 0
+        }
+      ]
+    },
+    {
+      "C0_bar": -305476846432692531623536794501872390665461068642070379029401579408329079303033300241767492563623250901882607144391675825159029842754449834171279806357420,
+      "C1_bar": -765384585132774286431859720026997755436842152943990102684677242618151792019771501568521916558074953427685135823895263735211280547066450623331113422616656,
+      "CRT_boundary_carrier_Z": 56434764,
+      "CRT_height_bound_verified": true,
+      "M": 76,
+      "boundary_radical": 1,
+      "candidate_primes": [
+        103,
+        107,
+        109,
+        113
+      ],
+      "candidate_product_P": 135745657,
+      "classification": "PREDECLARED FIXED-M CONTROL; NOT ASYMPTOTIC EVIDENCE",
+      "full_radical": 1,
+      "joint_radical_direct": 1,
+      "joint_radical_gcd": 1,
+      "rows": [
+        {
+          "C0_bar_mod_p": 23,
+          "C1_bar_mod_p": 71,
+          "H": 82,
+          "Q0": 96,
+          "Q1": 59,
+          "Y_mod_p": 34,
+          "boundary_zero": false,
+          "classification": "PREDECLARED EXACT CONTROL; NOT A COLLISION SCAN",
+          "full_gate_zero": false,
+          "h": 22,
+          "joint_Hasse_transverse_zero": false,
+          "p": 103,
+          "s": 2,
+          "selected_Hasse": 102
+        },
+        {
+          "C0_bar_mod_p": 53,
+          "C1_bar_mod_p": 102,
+          "H": 101,
+          "Q0": 4,
+          "Q1": 40,
+          "Y_mod_p": 75,
+          "boundary_zero": false,
+          "classification": "PREDECLARED EXACT CONTROL; NOT A COLLISION SCAN",
+          "full_gate_zero": false,
+          "h": 14,
+          "joint_Hasse_transverse_zero": false,
+          "p": 107,
+          "s": 8,
+          "selected_Hasse": 71
+        },
+        {
+          "C0_bar_mod_p": 0,
+          "C1_bar_mod_p": 18,
+          "H": 11,
+          "Q0": 0,
+          "Q1": 35,
+          "Y_mod_p": 14,
+          "boundary_zero": false,
+          "classification": "PREDECLARED EXACT CONTROL; NOT A COLLISION SCAN",
+          "full_gate_zero": false,
+          "h": 10,
+          "joint_Hasse_transverse_zero": false,
+          "p": 109,
+          "s": 11,
+          "selected_Hasse": 70
+        },
+        {
+          "C0_bar_mod_p": 50,
+          "C1_bar_mod_p": 65,
+          "H": 82,
+          "Q0": 34,
+          "Q1": 112,
+          "Y_mod_p": 78,
+          "boundary_zero": false,
+          "classification": "PREDECLARED EXACT CONTROL; NOT A COLLISION SCAN",
+          "full_gate_zero": false,
+          "h": 2,
+          "joint_Hasse_transverse_zero": false,
+          "p": 113,
+          "s": 17,
+          "selected_Hasse": 94
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "manifests/item264_j1_weighted_gate_manifest.json": "9ff5fb02deb8e1acd8499f3481be306ca4539d0a7f0bc1ce45b55b449a25b18b",
+    "manifests/item360_j1_full_gate_transverse_period_manifest.json": "92f88a56162f3803b8699922da921333f5225c41a32d14c87641dd53c3f8b55b",
+    "results/item197_common_log_locus_certificate.json": "01dc392a36fdb1d3005d18b104c55e1d3327bd9ae3e850f60cdf37cf578368e8",
+    "results/item197_common_log_locus_certificate_replay.json": "01dc392a36fdb1d3005d18b104c55e1d3327bd9ae3e850f60cdf37cf578368e8",
+    "results/item218_j1_common_log_certificate.json": "963bbb8a9758e55ede72f965693d21fc41aa70d44e2d981d5873685c3f08ea0f",
+    "results/item218_j1_common_log_certificate.replay.json": "963bbb8a9758e55ede72f965693d21fc41aa70d44e2d981d5873685c3f08ea0f",
+    "results/item218_j1_common_log_manifest.json": "e1c6c3d713670c819b5f27b1005db26f9b804ec8ee0766671928fc30c1ff6d8d",
+    "results/item264_j1_weighted_gate_archive_replay.json": "08010c633f3baf5e075e892c5c786a5d9f686bf26d940fb10da6b9f46de196d2",
+    "results/item264_j1_weighted_gate_certificate.json": "08010c633f3baf5e075e892c5c786a5d9f686bf26d940fb10da6b9f46de196d2",
+    "results/item264_j1_weighted_gate_certificate_replay.json": "08010c633f3baf5e075e892c5c786a5d9f686bf26d940fb10da6b9f46de196d2",
+    "results/item264_j1_weighted_gate_ledger.json": "bd5db6e6a3215025e41507d45c8190398c74f00eabe07e250923618136113076",
+    "results/item360_j1_full_gate_transverse_period_certificate.json": "a3f9e5b8e55b0a36bf7aef18fd1b81010eef0e8b9c8ade05995e2c4a25f9084d",
+    "results/item360_j1_full_gate_transverse_period_certificate_replay.json": "a3f9e5b8e55b0a36bf7aef18fd1b81010eef0e8b9c8ade05995e2c4a25f9084d",
+    "results/item360_j1_full_gate_transverse_period_ledger_delta.json": "20a7676bd6c14bc24d3cd9623e64ef7836afae8ad9bb1536f357fccfd050e11e",
+    "results/item360_j1_full_gate_transverse_period_root_audit.json": "7a23e487b4d70d63f9785339344bdc00ae0e8350bcf1d8b1fcf6228c230e5138",
+    "results/item360_j1_full_gate_transverse_period_root_replay.json": "a3f9e5b8e55b0a36bf7aef18fd1b81010eef0e8b9c8ade05995e2c4a25f9084d",
+    "results/item360_j1_full_gate_transverse_period_self_audit.json": "79677ecf502683a38de56c134a48bba21cf352ca3374e74253c9aa0f8cee95df",
+    "scripts/item197_common_log_locus_certificate.py": "f85c36169c7eb0aee3fb73f8030d3ddb2296b00077370012be84479eea9aeeb9",
+    "scripts/item218_j1_common_log_certificate.py": "a238c5ca37263f2553da47bf3f21253aedf1c34f8c57458a4a274fc6cdc9029a",
+    "scripts/item264_j1_weighted_gate_certificate.py": "a91d0905ecd73ba8406902a5c33ff5f6c21c5b67fce65a91b087ec6cf79bf733",
+    "scripts/item360_j1_full_gate_transverse_period_certificate.py": "84cabfb296a0892e620f252a1c413648c30664c8667245bd6fe444095bcad7e0",
+    "sources/item197_common_log_locus_report.md": "2241656ac9c47e81b5026449a97c15bed7d35290bf2b6a91cdfed4bb3fe3683c",
+    "sources/item218_j1_common_log_report.md": "2cabc5a705a974d6989718e24443b59c00715fd4e9aff288e0e17b297096d585",
+    "sources/item264_j1_weighted_gate_report.md": "767005f8fad07b1fa633bfdd23436e36c7cdef346d032030390c437f207c9344",
+    "sources/item360_j1_full_gate_transverse_period_report.md": "4468412fb8631924952dc7f70fc4e75433a7524954b89525de508e55feefc8c4"
+  },
+  "fixed_M_arithmetic": {
+    "CRT_carrier": "Z_M is the unique 0<=Z<P_M with Z=Y_(h_p,s_p) mod p",
+    "boundary_integer": "Y_(h,s)=(2s+h+2)_h*y_(h,s), with p-unit denominator",
+    "candidate_product": "P_M=product of primes (4M+3)/3 <= p <= (3M-1)/2",
+    "compulsory_de_overlap": "Cbar_nu(M)=C_nu(M)/P_M is integral",
+    "decomposition": "R_joint=lcm(R_full,R_boundary), R_full=gcd(P,Cbar_0,Cbar_1), R_boundary=gcd(P,Cbar_0,Z)",
+    "exact_radical": "R_joint(M)=gcd(P_M,Cbar_0(M),Cbar_1(M)*Z_M)",
+    "joint_primewise_criterion": "Q0=a=0 iff p|Cbar_0 and p|Cbar_1*Y_(h,s)",
+    "quotient_bridge": "Q_nu(p)=((P_M/p)/6)*Cbar_nu(M) mod p"
+  },
+  "frobenius_form": {
+    "coefficient_congruence": "[w^k]L_p=(-1)^(k-1)/k mod p for 1<=k<p",
+    "conclusion": "this is the original first Frobenius-defect coordinate, not a third condition",
+    "finite_log": "L_p(w)=((1+w)^p-1-w^p)/p in Z[w]",
+    "transverse_coordinate": "Q0=(2[z^T]-[z^L0])P0(z)L_p(z^2) mod p"
+  },
+  "item": 363,
+  "prime_scans": 0,
+  "schema": "item363-j1-joint-gate-crt-elimination-no-go-certificate-v1",
+  "scope_correction": {
+    "canonical_family": "p=4h+6s+3, M=3h+4s+2",
+    "classification": "RESEARCH-MANAGEMENT NOTE; NOT A THEOREM ISSUE",
+    "excluded_notation": "p=6m+2d+1 belongs to the j2 chain and is not imported",
+    "fixed_M_parameters": "h=3M-2p, s=(3p-4M-1)/2"
+  },
+  "status": "PROVED_EXACT_FIXED_M_RADICAL_AND_GATE_ONLY_ELIMINATION_NO_GO",
+  "symbolic_gate_no_go": {
+    "conclusion": "gate-only resultants return the second gate times a boundary coordinate and force no parameter divisor",
+    "fixed_M_parameter_phase": "h=3M and 2s=-(4M+1) modulo p",
+    "joint_primary_decomposition": "<f0,H>=<f0,f1> intersect <x,y>",
+    "moving_prime_polynomial_collapse": "F_M(p)=F_M(0) modulo p",
+    "nonzero_chart_projection": "dominant: y=v=1, x=lambda/2, u=beta*lambda/(2alpha)",
+    "parameter_elimination_ideal": "<f0,H> intersect Q[lambda,alpha,beta]=<0>",
+    "resultant_eliminate_x": "Res_x(f0,H)=-y*f1",
+    "resultant_eliminate_y": "Res_y(f0,H)=x*f1",
+    "syzygy": "beta*v*f0-y*f1=2H"
+  }
+}

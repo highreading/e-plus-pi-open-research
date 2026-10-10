@@ -1,0 +1,57 @@
+{
+  "item": 221,
+  "scope": "j=2 first Frobenius resonance and non-scalar twisted-cohomology remainder",
+  "cell": "4m+1=5p-2s, 1<=s<=(p-3)/6, p>=11, s=(p-1)/2 mod 2",
+  "PROVED": [
+    {
+      "claim": "first z^p scalar resonance collapses under the common gate",
+      "value": "the three-path functional sends z^p to 7 for both p mod 4 phases, so common-log plus boundary-freeness forces c=0"
+    },
+    {
+      "claim": "exact quadratic contiguity",
+      "value": "f1 dz=d(H f0)+Q(z)f0 dz with the explicit H and Q in the report"
+    },
+    {
+      "claim": "complete denominator audit",
+      "value": "s, 2s+1, and 10s-1 are p-units on every admissible row; p|10s-1 would force p=10s-1 and contradict parity"
+    },
+    {
+      "claim": "three-dimensional cohomology independence",
+      "value": "the replayed minor is 36864*s^2*(2s+1)^2*(10s-1), a unit on every row"
+    },
+    {
+      "claim": "reduced common gate",
+      "value": "T0=0 and (5-2s)T1+2(2s-1)T2=0"
+    }
+  ],
+  "EXACT_FINITE": [
+    {
+      "prime_bound": 401,
+      "rows": 1153,
+      "T0_zero_rows": 5,
+      "S1_zero_rows": 6,
+      "common_zero_rows": 0,
+      "status": "no inference beyond the finite range"
+    }
+  ],
+  "OPEN": [
+    "all-prime nonvanishing of the residual two-period gate",
+    "arbitrary higher polynomials in z^p",
+    "higher-degree or non-polynomial cohomology mechanisms",
+    "any common-log capacity reduction",
+    "any conclusion about e+pi"
+  ],
+  "booking": {
+    "new_rate": "0",
+    "status": "NO CAPACITY BOOKED; the result is a scoped method barrier"
+  },
+  "artifacts": [
+    "item221_j2_twisted_cohomology_report.md",
+    "item221_j2_twisted_cohomology_certificate.py",
+    "item221_j2_twisted_cohomology_certificate.json",
+    "item221_j2_twisted_cohomology_certificate_replay.json",
+    "item221_j2_twisted_cohomology_ledger.json",
+    "item221_j2_twisted_cohomology_manifest.json",
+    "item221_j2_twisted_cohomology_hashes.sha256"
+  ]
+}

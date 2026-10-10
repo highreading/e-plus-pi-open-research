@@ -1,0 +1,97 @@
+{
+  "schema": "item375-beta-symmetric-content-primitive-no-go-manifest-v1",
+  "item": 375,
+  "classification": "PROVED_SCOPED_CONTENT_PRIMITIVE_PART_NO_GO",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual top-symmetric P,E residuals whose reduced primitive numerator is constant, including portfolios and integral specialization",
+  "canonical_files_modified": false,
+  "audit_delegated": false,
+  "dependencies": {
+    "sources/item316_beta_intermediate_ostrowski_no_go_report.md": "8d6dce8354f08e94a252a2120cf677d9a374df95507a9297dcb064a1982fb6b0",
+    "results/item316_beta_intermediate_ostrowski_no_go_certificate.json": "5167e9d160fcecac86791944e41a176d3400f2a6856090de7cf78d55984e7aa4",
+    "results/item316_root_audit.json": "6cad978132f5f09c687aa8fcf8dcd92a7d917cf9411a69f679c7757139229175",
+    "manifests/item316_beta_intermediate_ostrowski_no_go_manifest.json": "aac741658430fb661de078adfeafdbc3a9d20312a8fd8725cb4244d406d9bcf6",
+    "sources/item358_beta_actual_low_incidence_saturation_barrier_report.md": "681c9f9cbe926978c78f632084c8be83439c2ac3f5e50f2c2697a49f2f0da68d",
+    "results/item358_beta_actual_low_incidence_saturation_barrier_certificate.json": "4da88e55dec36f3c130def549007c8ae1509ff0a029dfed9ff25f67a78c2ffa3",
+    "results/item358_beta_actual_low_incidence_saturation_barrier_root_audit.json": "a1a48f7d7080834ebf3be56b47d8056733e88e1913e8f6ea784f97a5eb2d9172",
+    "manifests/item358_beta_actual_low_incidence_saturation_barrier_manifest.json": "4ba799fe2fc8cb6063034d844f91bcaec6c3fc84d043b1f46c675fce400acfb1",
+    "sources/item370_beta_q_free_residual_saturation_no_go_report.md": "760767813ab0bbd56114f6a6c264ce396ccc2ec8eb9e7a3139e56b155051fef4",
+    "results/item370_beta_q_free_residual_saturation_no_go_certificate.json": "78703c11fee6715189fc8c0c7a513bef5eda1d973ab27b3e1f486d0b908008fb",
+    "results/item370_beta_q_free_residual_saturation_no_go_root_audit.json": "264c64d6495c2d1a20eff67b270379adb95ffc5f5711269dc325f11988c12ea2",
+    "manifests/item370_beta_q_free_residual_saturation_no_go_manifest.json": "53147f04c406d69c67f3b53b7032d6c90db20380583ebb79238f84505cd6d6d2",
+    "sources/item373_beta_symmetric_singleton_first_quotient_report.md": "daa16600359a52501fcbe303359e39696c1f0b0acfdb62b944b19be77784d6c5",
+    "scripts/item373_beta_symmetric_singleton_first_quotient_certificate.py": "8158fd3e100c1a7abb5efa0048a979a6e368e7328ae67743731041b756944bcf",
+    "results/item373_beta_symmetric_singleton_first_quotient_certificate.json": "335be8c519597bc1fd1a6e21cb9bbbbe37b1785a2468e4f0a7d6c205a9cb2cc5",
+    "results/item373_beta_symmetric_singleton_first_quotient_ledger_delta.json": "6d2193aecb20165fd44082c5e0a2959756e7f62bbac7e35efd6ac5be76b28a39",
+    "results/item373_beta_symmetric_singleton_first_quotient_root_audit.json": "3b5d6b13fdd327e27b518744edd2666cc58895fb401f7050ad52046810bb1128",
+    "manifests/item373_beta_symmetric_singleton_first_quotient_manifest.json": "a42cd4b5e306b5fe864e4832e11726380d9bf4197868884f1879dc98b91aeacf"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item375_beta_symmetric_content_primitive_no_go_report.md",
+      "sha256": "4acda264afe6fa40431d041fbbbc3634eeb0ec1395a35b682611764f5c92fb12",
+      "bytes": 12430
+    },
+    "certificate_script": {
+      "path": "work/item375_beta_symmetric_content_primitive_no_go_certificate.py",
+      "sha256": "ab42775d9d854c1b62fe25e5aa929b00f7c8f07b1c04331a56b111c5b3d996b9",
+      "bytes": 18316
+    },
+    "certificate": {
+      "path": "work/item375_beta_symmetric_content_primitive_no_go_certificate.json",
+      "sha256": "e96a358a761bf3f83ae791ebcc83756feb17725fd68ba58d611b00800f3ff6d3",
+      "bytes": 13573
+    },
+    "replay": {
+      "path": "work/item375_beta_symmetric_content_primitive_no_go_certificate.replay.json",
+      "sha256": "e96a358a761bf3f83ae791ebcc83756feb17725fd68ba58d611b00800f3ff6d3",
+      "bytes": 13573,
+      "byte_identical_to_certificate": true
+    },
+    "ledger": {
+      "path": "work/item375_beta_symmetric_content_primitive_no_go_ledger_delta.json",
+      "sha256": "d0cc6de271dcf31adb0ec605d824410f0320b89a9ddcfd4f722a22d3d19adbf5",
+      "bytes": 3716
+    }
+  },
+  "theorems": [
+    "Every reduced content-degenerate rational residual has form plus-or-minus alpha divided by beta times a primitive denominator B1(P,E).",
+    "At each actual t-away singleton prime where the denominator is a unit, its valuation is exactly v_p(alpha).",
+    "The fully saturated content carrier is gcd(U_11,rad|alpha|), with logarithm at most log|alpha|.",
+    "Positive-linear captured mass forces beta-scale reduced scalar numerator height; after external content separation the symmetric primitive numerator is a unit.",
+    "For portfolios, captured mass is bounded by the sum of reduced scalar numerator logarithms; integral specialization only adds the divisibility beta*B1(P,E)|alpha."
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "content/primitive normalization",
+      "exact actual singleton scalar valuation",
+      "mandatory saturated content carrier",
+      "single and portfolio height bounds",
+      "zero booking"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "content-degenerate bounded-degree symmetric rational carriers at sub-beta total scalar height",
+      "primitive polynomial height with content omitted as a carrier height",
+      "sub-beta aggregate content portfolios",
+      "unit variable denominators and integral specialization as compression"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "predeclared sparse-polynomial normalization, valuation, saturation, portfolio, and height controls; no actual census"
+    ],
+    "OPEN": [
+      "nonconstant multivariate symmetric one-point cancellation",
+      "beta-height gcd/radical compression",
+      "new actual sub-beta scalar divisibility theorem",
+      "U_11 weighted bound, beta capacity, Route 1, and e+pi"
+    ]
+  },
+  "capacity": {
+    "content_bound": "log gcd(U_11,rad|alpha|)<=log|alpha|",
+    "portfolio_bound": "log captured union<=sum log|alpha_l|",
+    "constructed_actual_sub_beta_scalar": false,
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "new_booking": 0
+  },
+  "replay_command": "python work/item375_beta_symmetric_content_primitive_no_go_certificate.py --output work/item375_beta_symmetric_content_primitive_no_go_certificate.replay.json"
+}

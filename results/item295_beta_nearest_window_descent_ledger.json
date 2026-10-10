@@ -1,0 +1,102 @@
+{
+  "schema": "item295-beta-nearest-window-descent-ledger-v1",
+  "scope": "Exact nearest-window criterion for full-target beta half-bound failure, congruence-only relaxation, seed-specific Turan defect, one-step Euclidean descent, proper-target asymmetry, and zero-booking admission verdict",
+  "claims": [
+    {
+      "id": "I295-C1",
+      "label": "PROVED",
+      "claim": "For a=q_(n-1), b=q_n, c=q_(n-2), A=4n-2, the nearest integers to a^2/b and ac/b are unique.",
+      "evidence": "report Section 2; adjacent coprimality, odd b, and exclusion of half-integer ties"
+    },
+    {
+      "id": "I295-C2",
+      "label": "PROVED",
+      "claim": "rho_n<a/2 iff H=nint(ac/b) satisfies H congruent a mod A and |H-ac/b|<Aa/(2b)=1/2-c/(2b).",
+      "evidence": "report Section 3; exact identity A r_n=b(a-A kappa_n)-ac"
+    },
+    {
+      "id": "I295-C3",
+      "label": "PROVED",
+      "claim": "The bare congruence H congruent a mod A is equivalent only to the relaxed threshold rho_n<b/(2A)=a/2+c/(2A).",
+      "evidence": "report Section 4"
+    },
+    {
+      "id": "I295-C4",
+      "label": "PROVED",
+      "claim": "The exact base rows n=2,3,4 satisfy the half-bound, so a minimal counterexample would have n at least 5.",
+      "evidence": "report Section 5"
+    },
+    {
+      "id": "I295-C5",
+      "label": "PROVED",
+      "claim": "For T_n=bc-a^2 and t_n=c-kappa_n, one has T_n>0, T_n+T_(n-1)=4ac, and t_n=nint(T_n/b).",
+      "evidence": "report Section 6"
+    },
+    {
+      "id": "I295-C6",
+      "label": "PROVED",
+      "claim": "For n at least 4, the seed-specific bounds (4c-d)/A<T_n/b<(5c-d)/(A+1) imply 1<=t_n<c.",
+      "evidence": "report equations (6.7)-(6.9)"
+    },
+    {
+      "id": "I295-C7",
+      "label": "PROVED",
+      "claim": "With B=A-4, d=q_(n-3), h=a-A kappa_n, and K=kappa_n-Bh, the determinant descends exactly as r_n=dh-cK and the affine-slice defect is t_n=c-kappa_n.",
+      "evidence": "report Section 7"
+    },
+    {
+      "id": "I295-C8",
+      "label": "PROVED",
+      "claim": "Projection to the previous square slice gives c^2-ah=ct_n-r_n and cent_a(ct_n-r_n)=r_(n-1).",
+      "evidence": "report equations (7.8)-(7.10)"
+    },
+    {
+      "id": "I295-C9",
+      "label": "PROVED SCOPED DESCENT OBSTRUCTION",
+      "claim": "From n=4 onward, the natural determinant-preserving one-step descent misses the previous affine square slice by t_n; correcting it introduces the moving translation ct_n, so minimality alone returns only the already-known previous centered residue.",
+      "scope_limit": "does not exclude a coupled descent controlling t_n, T_n, or further Bessel data"
+    },
+    {
+      "id": "I295-C10",
+      "label": "OPEN",
+      "claim": "The all-n half-bound rho_n>=a/2, the stronger inequality A(2rho_n-a)>=2c, and exclusion of the bare congruence remain open.",
+      "scope_limit": "the exact equality at base row n=4 is not extrapolated"
+    },
+    {
+      "id": "I295-C11",
+      "label": "PROVED ASYMMETRIC",
+      "claim": "For a proper divisor target Q, the centered residue can only decrease in absolute size, so a full-target lower bound would not transfer while a full-target upper construction would.",
+      "evidence": "report Section 9"
+    },
+    {
+      "id": "I295-C12",
+      "label": "PROVED",
+      "claim": "The additive least-lift quotient remains separate from the Item282 common coefficient/product baseline.",
+      "evidence": "report Section 9"
+    },
+    {
+      "id": "I295-C13",
+      "label": "EXACT FINITE ONLY",
+      "claim": "The checker replays bounded instances of the exact nearest-window, Turan, determinant, defect, projection, and base-row identities.",
+      "scope_limit": "no counterexample search, asymptotic extrapolation, or exceptional-prime search"
+    }
+  ],
+  "strict_labels": {
+    "nearest_integer_uniqueness": "PROVED",
+    "sharp_window_iff": "PROVED",
+    "bare_congruence_relaxation": "PROVED",
+    "base_rows": "PROVED",
+    "turan_defect": "PROVED",
+    "unimodular_descent": "PROVED",
+    "one_dimensional_minimal_descent": "PROVED SCOPED NOT CLOSED",
+    "coupled_descent": "OPEN",
+    "all_n_half_bound": "OPEN",
+    "stronger_sufficient_inequality": "OPEN",
+    "exact_counterexample": "NONE PRODUCED",
+    "proper_target_transfer": "PROVED ASYMMETRIC",
+    "item282_product_baseline": "OPEN AND SEPARATE",
+    "bounded_checks": "EXACT FINITE ONLY",
+    "positive_linear_capacity_admission": "FAIL",
+    "booking": "zero new Route-1 rate and zero new beta capacity reduction"
+  }
+}

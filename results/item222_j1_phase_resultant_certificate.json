@@ -1,0 +1,206 @@
+{
+  "arithmetic": "exact integers and fractions plus finite-field rank certificates; Python standard library only",
+  "finite_diagonal_check": {
+    "Q0_zero_rows": 0,
+    "Q1_zero_rows": 0,
+    "common_Q_zero_rows": 0,
+    "eliminant_zero_rows": 40,
+    "even_h_eliminant_zero_rows": 0,
+    "even_h_rows": 37,
+    "first_rows": [
+      [
+        13,
+        1,
+        0,
+        9,
+        4,
+        1
+      ],
+      [
+        23,
+        2,
+        13,
+        4,
+        15,
+        0
+      ],
+      [
+        43,
+        4,
+        34,
+        25,
+        27,
+        0
+      ],
+      [
+        53,
+        5,
+        0,
+        36,
+        14,
+        1
+      ],
+      [
+        73,
+        7,
+        0,
+        32,
+        58,
+        1
+      ],
+      [
+        83,
+        8,
+        32,
+        13,
+        78,
+        0
+      ],
+      [
+        103,
+        10,
+        59,
+        61,
+        31,
+        0
+      ],
+      [
+        113,
+        11,
+        0,
+        34,
+        38,
+        1
+      ]
+    ],
+    "label": "FINITE; no extrapolation",
+    "odd_h_eliminant_zero_rows": 40,
+    "odd_h_rows": 40,
+    "p_squared_supercongruence_rows": 40,
+    "prime_max": 2000,
+    "row_sha256": "7247d97b266a41f9fb6b7157090a6e668310801ce2d8b840f795eed249bd406e",
+    "rows": 77
+  },
+  "height_ledger": {
+    "asymptotic": "when A_h is nonzero, log|A_h|=O(h log h)",
+    "method_consequence": "individual resultant heights summed over h<=m/3 are superlinear and do not bound the j=1 prime-log mass by o(m)",
+    "thin_strip": "h=o(m/log m) has at most o(m) row log-weight, independently of A_h",
+    "uniform_bound": "with M_h=(h+3)2^(2h+4)(21h)^(h+2), |A_h|<=47h*M_h^4"
+  },
+  "item": 222,
+  "labels": {
+    "FINITE": [
+      "exact A_h checks through the declared h bound",
+      "diagonal parity pattern and original-coordinate nonzeros through the declared prime bound"
+    ],
+    "OPEN": [
+      "the odd-diagonal supercongruence for all primes",
+      "all-prime nonvanishing of either original diagonal coordinate",
+      "higher-order or higher-degree recurrences for E*_h",
+      "a weighted exceptional-prime bound for unbounded h",
+      "any positive Route-1 rate gain from j=1"
+    ],
+    "PROVED": [
+      "all-h phase-specialized rational eliminant and integer clearing",
+      "complete phase denominator/unit audit",
+      "necessary divisibility p|A_h",
+      "no recurrence in the declared order<=8, degree<=8 ansatz",
+      "exact diagonal reduction to the p^2 coefficient supercongruence",
+      "O(h log h) individual height bound and its scoped rate insufficiency"
+    ]
+  },
+  "proved_all_h_phase_specialization": {
+    "components": {
+      "u": "Even((1-z)^(2h)(1+z)^4; s_*, 2s_*-1)",
+      "v": "Odd((1-z)^(2h)(1+z)^4; h, 2s_*-1)",
+      "x": "Odd((1-z)^(2h)(1+z); s_*, 2s_*)",
+      "y": "Odd((1-z)^(2h)(1+z); h, 2s_*)"
+    },
+    "domain": "h>=1 and 3 does not divide h; actual rows have p=6s+4h+3 prime",
+    "exact_check_h_max": 80,
+    "exact_check_nonzero_A_rows": 54,
+    "exact_check_rows": 54,
+    "exact_relation": "E*_h=A_h/[2(4h+3)DxDyDuDv]",
+    "exact_row_sha256": "5574ac42ebb6d4fa564d1196bbe42cc68677b2138683a284cf0fa57fd9e928ce",
+    "first_A_values": [
+      {
+        "A_h": 7076160,
+        "h": 1
+      },
+      {
+        "A_h": -3703161369600,
+        "h": 2
+      },
+      {
+        "A_h": 64488641200184042569728000,
+        "h": 4
+      },
+      {
+        "A_h": -1093632340571967013454910873600000,
+        "h": 5
+      },
+      {
+        "A_h": 2328760358418211399642151579269045144780800000000,
+        "h": 7
+      },
+      {
+        "A_h": -243322336924570890082295115318304680489644143411200000000,
+        "h": 8
+      },
+      {
+        "A_h": 10040254640400397576346240603441932235898900865433880202995302400000000000,
+        "h": 10
+      },
+      {
+        "A_h": -3638572052828593997311925544401585875301962769283122225533891042313502720000000000,
+        "h": 11
+      }
+    ],
+    "formula": "E*_h=h*x*v/(4h+3)+9(4h+1)*u*y/(2(4h+3))",
+    "integer_denominators": {
+      "Du": "3^(h+2) product_(i=0)^(h+1)(2i-4h-3)",
+      "Dv": "product_(i=0)^h(3i-h)",
+      "Dx": "3^h product_(i=0)^(h-1)(2i+1-4h)",
+      "Dy": "product_(i=0)^(h-1)(3i+3-h)"
+    },
+    "integer_eliminant": "A_h=2h*X*V*Du*Dy+9(4h+1)*U*Y*Dx*Dv",
+    "necessary_condition": "every simultaneous j=1 common-log zero satisfies p|A_h",
+    "phase_root": "s_* = -(4h+3)/6, with s congruent to s_* modulo p",
+    "unit_audit": "every linear factor is nonzero with absolute value <p; zeros in Dy or Dv occur only when 3|h, which makes p>3 composite; 2 and 3 are p-units"
+  },
+  "proved_bounded_recurrence_no_go": {
+    "ansatz": "sum_(k=0)^r P_k(n) E*_(3(n+k)+c)=0 with r<=8 and deg(P_k)<=8",
+    "certificates": [
+      {
+        "determinant_mod_1000000007": 501978340,
+        "h_mod_3": 1,
+        "matrix_size": 81
+      },
+      {
+        "determinant_mod_1000000007": 365649200,
+        "h_mod_3": 2,
+        "matrix_size": 81
+      }
+    ],
+    "method": "the maximal 81-column evaluation matrix is square and has nonzero determinant",
+    "modulus": 1000000007,
+    "scope": "rules out only this bounded-order, bounded-degree polynomial-coefficient recurrence family",
+    "sequence": "E*_(3n+1) and E*_(3n+2), reduced modulo 1000000007"
+  },
+  "proved_diagonal_reduction": {
+    "bridge": "S_(p,h)/p = H1(8h+3)-H1(8h+2) modulo p",
+    "coefficient": "S_(p,h)=[z^(8h+3)](1-z)^(2h+1)(1+z)^4(1+z^2)^(2h-1+p)",
+    "consequence": "p^2|S_(p,h) implies E=0; if x is a unit the two conditions are equivalent",
+    "diagonal": "s=h, p=10h+3",
+    "open_original_coordinate": "prove x!=0 modulo p (equivalently Q0!=0) on every admissible diagonal prime",
+    "open_supercongruence": "for every prime p=10h+3 with odd h, prove p^2|S_(p,h)",
+    "simplification": "x=y, A=B, Q0=A*x, and E=(3h+1)x(v+3u)/(2h)"
+  },
+  "rate_ledger": {
+    "actual_new_usable_coefficient": 0,
+    "j1_cell_if_fully_excluded_per_6m": "1/36",
+    "j1_cell_if_fully_excluded_per_m": "1/6",
+    "reason": "phase localization and scoped recurrence obstruction do not exclude unbounded-h primes"
+  },
+  "verdict": "PROVED a uniform all-h phase resultant and a bounded-recurrence/height obstruction; the exact diagonal reduction isolates an apparent odd-prime supercongruence but it remains OPEN. No positive Route-1 rate gain is obtained."
+}

@@ -1,0 +1,47 @@
+{
+  "schema": "item219-portable-manifest-v1",
+  "artifacts": {
+    "sources/item219_common_log_j2_report.md": {
+      "role": "proof report with strict PROVED, EXACT FINITE, and OPEN labels",
+      "sha256": "f58f0aacb3a0b3af3f8f02a3206c93f21616eb4e1eeb5a24ea5b2ca941eb8265",
+      "work_source": "item219_common_log_j2_report.md"
+    },
+    "scripts/item219_common_log_j2_certificate.py": {
+      "role": "Python-standard-library fixed-normalization, finite-log, period, incidence, and Hermite-minor checker",
+      "sha256": "bf9ee30675b5745225f08d2d82e500fd1f6797d69f94ab5949602e266f8b38cc",
+      "work_source": "item219_common_log_j2_certificate.py"
+    },
+    "results/item219_common_log_j2_certificate.json": {
+      "role": "canonical deterministic output",
+      "sha256": "ad648b8f2de31a45190290c374ee783c98f590052965fcf9a3cb8f6ba42bdb5b",
+      "work_source": "item219_common_log_j2_certificate.json"
+    },
+    "results/item219_common_log_j2_certificate_replay.json": {
+      "role": "independent replay output; byte-identical to canonical",
+      "sha256": "ad648b8f2de31a45190290c374ee783c98f590052965fcf9a3cb8f6ba42bdb5b",
+      "work_source": "item219_common_log_j2_certificate_replay.json"
+    },
+    "results/item219_common_log_j2_ledger.json": {
+      "role": "strict claim and capacity ledger",
+      "sha256": "594d9541028f0f8804e7304e95ff8f406a22bc8250cfa671477407b8b5b16171",
+      "work_source": "item219_common_log_j2_ledger.json"
+    }
+  },
+  "canonical_command_from_archive_root": "python scripts/item219_common_log_j2_certificate.py --output results/item219_common_log_j2_certificate.json",
+  "replay_command_from_archive_root": "python scripts/item219_common_log_j2_certificate.py --output results/item219_common_log_j2_certificate_replay.json",
+  "dependencies": {
+    "archive_files": {},
+    "external_files": [],
+    "python": "3.11+ standard library only",
+    "mathematical_provenance_only": [
+      "Item 197 separated common-log quotient coordinates",
+      "Item 217 four-coordinate incidence normalization"
+    ]
+  },
+  "portability": {
+    "archive_path_required": false,
+    "host_absolute_paths_embedded": false,
+    "runtime_imports_from_other_items": false,
+    "explicit_output_makes_archive_root_replay_portable": true
+  }
+}

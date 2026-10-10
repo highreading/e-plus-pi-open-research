@@ -1,0 +1,59 @@
+{
+  "schema": "item234-root-independent-audit-v1",
+  "status": "PASS_SCOPED_J1_FIRST_WITT_DIGIT",
+  "canonical_sha256": "6797c1f2cd072ec92d311e01b596c3ac95888ce9b761bc325a625ef6f9f0c748",
+  "root_replay_sha256": "6797c1f2cd072ec92d311e01b596c3ac95888ce9b761bc325a625ef6f9f0c748",
+  "byte_identical_replay": true,
+  "independent_checks": {
+    "original_coefficient": "Substituting p=4h+6s+3 and m=3h+4s+2 into G(z)^p P_nu gives exactly Item197's numerator exponent 6m, denominator exponent 4m+1+nu, and target 4m+nu.",
+    "rank_zero_support": "For U=1-z^p and V=1+z^(2p), every section of [z^N]U^4 V^-3 P_nu misses the exact support: k=0,1,2 lie above deg(P_nu), and k>=3 lie below zero. Hence p divides C_nu on every actual row.",
+    "witt_expansion": "Expanding (U+pA)^4(V+pB)^-3 through p^2 after the support zero gives L=4U^3V^-3A-3U^4V^-4B and K=6U^2V^-5(VA-UB)^2. The binomial-product expansion gives the stated harmonic A1,B1 signs with only p-unit denominators.",
+    "reflection_carry": "The only surviving B0 sections have coefficients -4 and 2, yielding D_nu=12Y'_nu-6Y_nu. Reindexing k=p-j and self-reciprocity give Y'=H(T)+pR exactly.",
+    "unreduced_moment_carry": "Self-reciprocity puts every denominator D in (p,2p), with D-p also a p-unit. The even and odd endpoint weights differ from -epsilon M coefficientwise by exactly pJ, proving H1=-epsilon M+pJ over Q.",
+    "conditional_division": "The first gate p^2|C_nu is equivalent to Q_nu and M_nu being p-divisible. Only under that gate does C_nu/p congruent p*Omega mod p^2 divide to C_nu/p^2 congruent Omega mod p; thus p^3|C_nu iff Omega=0 per coordinate.",
+    "terminal_scope": "The exact terminal coefficient is a*p and the source is ell_(ap-1). After first-digit compatibility, division by p solves for the free post-terminal digit because a is a unit, so one lifted terminal supplies no new compatibility.",
+    "antiperiod_carry": "Termwise inverse expansion with ell_(q+2p)=-ell_q proves uhat_(t+2p)+uhat_t=2p*v_t; the 4p shift gives uhat_(t+4p)-uhat_t=-4p*v_t. Naive antiperiodicity modulo p^2 is therefore invalid.",
+    "canonical_direct_prime_max_inclusive": 151,
+    "canonical_direct_rows": 184,
+    "canonical_direct_coordinates": 368,
+    "extended_direct_prime_max_inclusive": 181,
+    "extended_direct_rows": 266,
+    "extended_direct_coordinates": 532,
+    "extended_census_prime_max_inclusive": 2200,
+    "extended_census_rows": 27101,
+    "extended_coordinate_zero_counts": [
+      22,
+      28
+    ],
+    "extended_joint_first_digit_zeros": 0,
+    "extended_individual_first_digit_records": 50,
+    "extended_individual_second_digit_zeros": 0,
+    "extended_endpoint_extra_digit_zeros": 0,
+    "extended_certificate_sha256": "7daba2096ca0e976de0fa74114c932717a2c01402faad6a4169d0d802fb450de",
+    "python_compile": true,
+    "canonical_replay": "byte-identical",
+    "control_character_scan": "clean",
+    "host_path_scan": "clean",
+    "artifact_hashes": "match the frozen manifest and SHA-256 ledger"
+  },
+  "classification": {
+    "PROVED": [
+      "the exact all-row C_nu/p quotient expansion modulo p^2 and harmonic/quadratic carries",
+      "the exact reflection and unreduced-moment carry identities",
+      "the conditional per-coordinate Witt digit C_nu/p^2 modulo p on the original first gate",
+      "all a*p terminal multiplicities and the local one-terminal no-go",
+      "the squared-denominator antiperiod carry"
+    ],
+    "EXACT_FINITE": [
+      "the frozen direct replay through p<=151 and census through p<=2000",
+      "the independent extended replay and census through the recorded bounds"
+    ],
+    "OPEN": [
+      "all-prime exclusion of simultaneous Q_0=Q_1=0",
+      "all-row control of both Witt digits on a hypothetical common row",
+      "arithmetic closure of the squared-denominator phase coordinate",
+      "any positive Route-1 rate, valuation exponent, or conclusion about e+pi"
+    ]
+  },
+  "audit_conclusion": "Item234 supplies a valid first actual coefficient-level Witt digit for each j=1 coordinate and correctly distinguishes it from an endpoint extra digit. The result is conditional on the original per-coordinate first gate and yields no all-prime or weighted common-row theorem, so no rate is bookable."
+}

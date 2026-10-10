@@ -1,0 +1,44 @@
+{
+  "artifact": "item390_mixed_cubic_fresh_primitive_saturation_ledger",
+  "audit_status": "WORK_ONLY_UNAUDITED",
+  "booking": {
+    "route1_rate_delta": 0,
+    "mixed_cubic_divisor_lower_bound_delta": 0,
+    "beta_matching_lower_bound_delta": 0
+  },
+  "branch": {
+    "name": "strictly large-prime primitive mixed-cubic content",
+    "definition": "c_{m,>6m}=product_{p>6m} p^{v_p(c_m)}",
+    "exact_carrier": "(gcd(|2^(2m)L0|,|2^(2m+2)L1|))_{p>6m}",
+    "all_depth_identity": "on every nonzero row (in particular all sufficiently large m), v_p(c_m)=min(v_p(2^(2m)L0),v_p(2^(2m+2)L1)) for p>6m"
+  },
+  "ceiling": {
+    "uniform_integer_bound": "c_{m,>6m}<21*136^m",
+    "normalized_exact": "log(136)/6",
+    "normalized_decimal": "0.81877581428934200141687183037460937330245056927775",
+    "previous_inherited_full_content_ceiling": "1.99566316016",
+    "component_ceiling_decrease_against_inherited_bound": "1.1768873458706579985831281696253906266975494307222",
+    "booked_plus_component_ceiling": "0.95528998258415481986729565297460937330245056927775",
+    "threshold": "1.1561471519642446123307302239",
+    "screening_margin": "0.20085716938008979246343457092539062669754943072225"
+  },
+  "de_overlap": {
+    "cartier_and_clearing": "p>6m is disjoint from the booked p<2m Cartier support and from M_{4m+1}; all multiplicities are already included in the carrier",
+    "higher_digits": "no second copy at the same p>6m may be counted",
+    "beta_matching": "not automatically additive; later matching must use the primitive residual b_m=|V_m|/c_m"
+  },
+  "closed": [
+    "ambient common-rescaling blindness at actual primes p>6m",
+    "finite-depth ambiguity for the strictly large-prime internal-content component",
+    "absence of a quantitative ceiling for that component"
+  ],
+  "open": [
+    "whether c_{m,>6m}=1",
+    "undeclared primitive content at p<=6m",
+    "small-prime valuation mass",
+    "fresh beta matching and multi-parent reuse",
+    "an exhaustive ceiling for all Route-1 branches",
+    "Route 1 and irrationality of e+pi"
+  ],
+  "strategic_verdict": "MATERIAL_SCOPED_CEILING_DECREASE_NO_BOOKING"
+}

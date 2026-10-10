@@ -1,0 +1,42 @@
+{
+  "schema": "item356-j1-fermat-multiplicative-collapse-obstruction-self-audit-v1",
+  "item": 356,
+  "date": "2026-09-01",
+  "verdict": "PASS_SCOPED_ZERO_BOOKING_PACKAGE",
+  "mathematical_checks": {
+    "divisor_lattice": "four support valuations give the unique generator (1,-2,0,1)",
+    "support_separation": "discriminants -16,-3 and resultants 1,5,3 are nonzero at every actual p>=13",
+    "weighted_constant": "kappa=(n-1)(n-2)(E-1)/((2n-3)^2 E)",
+    "canonical_q_carry": "integer lift difference divided by p reproduces the exact Fermat-quotient discrepancy",
+    "three_phase_formula": "all three surviving rational coefficient functions are symbolically nonzero",
+    "entropy_identity": "q_p(product y^y)=sum y q_p(y) modulo p",
+    "height": "log entropy product <=4(p-1)^2 log(p-1)"
+  },
+  "logical_checks": {
+    "ordinary_collision_direction_preserved": true,
+    "pointwise_relation_not_promoted_to_sum_relation": true,
+    "canonical_q_multiplicativity_not_used_without_carry": true,
+    "formal_one_quotient_identity_not_called_factor_localization": true,
+    "n2_degeneracy_not_called_positive_rate": true,
+    "finite_controls_not_used_as_density_evidence": true,
+    "weighted_theorem_not_claimed": true
+  },
+  "reproducibility": {
+    "prime_scans": 0,
+    "predeclared_rows": 5,
+    "certificate_replay_required_byte_identical": true,
+    "canonical_files_modified": false
+  },
+  "capacity": {
+    "new_forced_condition": 0,
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "booking": 0,
+    "retained_ceiling_per_6M": "1/36"
+  },
+  "open_risks": [
+    "an additive identity may exist that is invisible to the pointwise divisor lattice",
+    "the entropy product may have special actual-family factorization",
+    "full-collision information absent from the selected gate may impose another condition"
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "actual_mixed_cubic_finite_replay": {
+    "failures": 0,
+    "finite_synchronized_pair": {
+      "M": 132,
+      "M_data": {
+        "delta": "199",
+        "g": "199",
+        "total": "39601"
+      },
+      "N": 40,
+      "N_data": {
+        "delta": "199",
+        "g": "199",
+        "total": "39601"
+      },
+      "common_total": "39601",
+      "h_over_N": "23/10",
+      "m": 40
+    },
+    "local_checks": 15150,
+    "maximum_common_g_row": {
+      "M": 132,
+      "N": 40,
+      "delta_M": "199",
+      "delta_N": "199",
+      "g_M": "199",
+      "g_N": "199",
+      "h": 92,
+      "m": 40,
+      "value": "199"
+    },
+    "maximum_common_total_row": {
+      "M": 132,
+      "N": 40,
+      "delta_M": "199",
+      "delta_N": "199",
+      "g_M": "199",
+      "g_N": "199",
+      "h": 92,
+      "m": 40,
+      "value": "39601"
+    },
+    "near_critical_bin": {
+      "lower_h_over_N_inclusive": "0.0168014203513219247791020171289",
+      "maximum_common_total_row": {
+        "M": 116,
+        "N": 114,
+        "delta_M": "539",
+        "delta_N": "77",
+        "g_M": "1",
+        "g_N": "1",
+        "h": 2,
+        "m": 20,
+        "value": "77"
+      },
+      "pair_checks": 4614,
+      "pairs_with_common_g_above_one": 0,
+      "pairs_with_common_total_above_one": 254,
+      "upper_h_over_N_exclusive": "0.02"
+    },
+    "nonconsecutive_triple_counterexample": {
+      "common_total": "7",
+      "indices": [
+        2,
+        4,
+        16
+      ],
+      "m": 4,
+      "totals": [
+        "7",
+        "1001",
+        "7"
+      ]
+    },
+    "pair_checks": 1515000,
+    "pairs_with_common_g_above_one": 175,
+    "pairs_with_common_total_above_one": 212720,
+    "row_99_prime_7_support": {
+      "first_indices": [
+        2,
+        4,
+        16,
+        18,
+        30,
+        32,
+        44,
+        46,
+        58,
+        60,
+        72,
+        74
+      ],
+      "last_indices": [
+        520,
+        522,
+        534,
+        536,
+        548,
+        550,
+        562,
+        564,
+        576,
+        578,
+        590,
+        592
+      ],
+      "nearest_consecutive_parity_triples": 0,
+      "support_size": 86
+    },
+    "scope": "all parity-compatible indices and all pairs for 1<=m<=100"
+  },
+  "exact_symbolic_replay": {
+    "beta_displacement_sandwich_checks": 25760,
+    "comparable_transfer_example": {
+      "N": 20,
+      "common_pairwise_gcd": "355",
+      "first_gap": 10,
+      "lcm": "41462191506913436674222024291722676598031094371030023838936895186485975",
+      "lcm_identity": "lcm(A,B,C)=A*B*C/H^2",
+      "odd_edge_continuants": [
+        "570811607997197535",
+        "798479188267039636784867167008460888475",
+        "11464432508627893315"
+      ],
+      "second_gap": 10
+    },
+    "failures": 0,
+    "matching_correction_checks": 25760,
+    "nearest_triple_formula_and_coprimality_checks": 1000,
+    "odd_transfer_triple_gcd_checks": 34560,
+    "scope": {
+      "N_range": "1 <= N <= 160",
+      "h_range": "1 <= h <= 2*N"
+    },
+    "spine_product_checks": 25760,
+    "transfer_determinant_checks": 25760
+  },
+  "inputs": {
+    "actual_rows": {
+      "relative_path": "results/mixed_cubic_positive_match_exact_scan_m100_N6m.json",
+      "rows_used": 100,
+      "sha256": "7284ea76cef084e7cb0faeba172454ebe2825a9dd60682c7d1b91c3f78852e96"
+    },
+    "upstream_checker": {
+      "relative_path": "scripts/item199_matching_gain_certificate.py",
+      "sha256": "6d998b4f05e2fb4503f0b820ad6603316e90e2a4c788fc1472115a9c147e193d"
+    },
+    "upstream_report": {
+      "relative_path": "sources/item199_matching_gain_report.md",
+      "sha256": "804a18ba0bb10e4ec30bf8d66f979106e5fa9630c3f92f8a41264b07bcbd54a8"
+    }
+  },
+  "portability_contract": {
+    "default_archive_resolution": "parent of the script directory",
+    "embedded_host_absolute_paths": false,
+    "embedded_python_or_platform_version": false,
+    "embedded_timestamps": false,
+    "explicit_staging_inputs_supported": true,
+    "manifest_paths": "archive-relative",
+    "runtime_sensitive_floating_fields": false,
+    "serialized_input_paths": "archive-relative"
+  },
+  "schema": "item201_comparable_gap_certificate_v1",
+  "theorem_boundary": {
+    "finite_not_inference": [
+      "all exact loop counts and actual-row examples below",
+      "the absence of final matching in the near-critical finite bin",
+      "the size of common transfer gcds in sampled triples"
+    ],
+    "frozen_saddle": {
+      "critical_alpha_decimal": "0.0168014203513219247791020171289",
+      "frozen_model_critical_shift_coefficient": "0.02343207425662527824161143175394746984/log(N)",
+      "limiting_rate": "theta*alpha",
+      "relation": "N*log(N)/(6m) -> theta",
+      "residual_gap_decimal": "0.019632983669431793880306401240",
+      "sharp_rate_formula": "theta_N*(t+(t*log(4)+(1+t)*log(1+t)-t)/log(N)-log(4*N)/(N*log(N))+O_A(1/(N^2*log(N))))",
+      "theta_decimal": "1.168531187179486497926964890273"
+    },
+    "open": [
+      "an asymptotic upper bound for gcd(q_N,q_(N+h)) or the common odd gcd of comparable-gap transfer continuants",
+      "multi-parent packing in which one later index reuses pair-specific primes with two or more earlier indices",
+      "a positive-rate lower bound for a single-index or comparable-gap actual matching factor",
+      "prime supports occurring at only one selected index",
+      "any conclusion about irrationality, rationality, or transcendence of e+pi"
+    ],
+    "proved_by_report": [
+      "uniform sharp product asymptotic C_h(N)=4^(h-1)*Gamma(N+h+1/2)/Gamma(N+3/2)*(1+O_A(1/N)) for h<=A*N",
+      "for h/N->alpha and N*log(N)/(6m)->theta, log(C_h(N))/(6m)->theta*alpha",
+      "a common sequential block has rate below the residual gap whenever alpha<G/theta",
+      "the beta-height displacement strictly exceeds log(C_h(N)) and has the same theta*alpha leading rate",
+      "for pure pair recycling the normalized net is below -log(4*N+2)/(6*m)<0, an exact polynomial deficit",
+      "odd pairwise gcds among the three transfer continuants of any index triple all equal their triple gcd",
+      "under global triple-gcd-one, aggregate reuse is edge-prime-disjoint, divides the lcm of edge continuants, and cannot exceed the unique CRT modulus",
+      "a forest reuse portfolio cannot beat its aggregate beta-index displacement"
+    ]
+  }
+}

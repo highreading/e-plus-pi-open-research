@@ -1,0 +1,744 @@
+{
+  "all_parameter_theorem": {
+    "asymptotic": "If n>=(1/3+eps)d, log D>=eps*d+o(d).",
+    "boundary_family": "For h_k=(2*x^4-x^8)^k, n=4k,d=8k, and sqrt(k)*integral(h_k) tends to sqrt(pi)/8.",
+    "full_channel_scope": "For p>(deg(S)+1)/3, survival is equivalent to 2*S_(p-1)+S_(2p-1) nonzero mod p; even h alone does not annihilate the second coefficient.",
+    "hypotheses": "h is even in Z[x], h(0)=0, and h=1 mod (1+x^2)^2; n=ord_0(h), d=deg(h).",
+    "pair_bound": "If 0<=h<=1 and D clears I0,I1, then D*max(abs(I0),abs(I1)) is at least the window-prime product divided by 16*d^2.",
+    "prime_window": "Every odd prime d/3<p<=n has v_p(I0)=-1 for I0=integral((h-1)/(1+x^2))."
+  },
+  "boundary_positive_family_checks": {
+    "all_rows_sha256": "bf94a0454715e57d920d9bb45fbcb5f71b455377efb42bc3a60862e3aee4b4e0",
+    "base_coefficients": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      -1
+    ],
+    "base_q_coefficients": [
+      -1,
+      0,
+      2,
+      0,
+      -1
+    ],
+    "base_taylor_at_x=1_first_terms": [
+      1,
+      0,
+      -16,
+      48,
+      -68
+    ],
+    "finite_scope": "Exact finite valuations and normalization checks only. The prime-window theorem and mass asymptotic are proved in the source.",
+    "k_range": [
+      1,
+      120
+    ],
+    "selected_records": [
+      {
+        "I0_denominator_bits": 7,
+        "I0_sha256": "c627530129a60b44d965e4ee2802c6694ace3c1fa1f464c5e7d26ee21f06247d",
+        "d": 8,
+        "h_sha256": "6f4321f769954545ecab0d6c517f33f13c6547125e38c823583ad3c33fda8963",
+        "k": 1,
+        "mass": "13/45",
+        "mass_sha256": "b7e2a419db74b171978b83584a8df23e1fa08f5efe1d76c0c4aadf3f97aa0da0",
+        "n": 4,
+        "pair_denominator_bits": 10,
+        "pair_denominator_sha256": "fd0f7e53c5b02b688a57ee37f3d52065cb168a7b9fd5a3abd93d37e1559fbd30",
+        "sqrt_k_times_mass_float": 0.28888888888888886,
+        "window_prime_count": 1,
+        "window_primes": [
+          3
+        ],
+        "window_product_bits": 2,
+        "window_product_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+      },
+      {
+        "I0_denominator_bits": 14,
+        "I0_sha256": "542ad47df1ee1213dd2cfb8b451840b62d933b45ae192a398c54b6df8a33f7c9",
+        "d": 16,
+        "h_sha256": "250e0c64a52a8e8e277db55b13fa9f65f149a0cab4a47d6bcc096890530bcc43",
+        "k": 2,
+        "mass": "389/1989",
+        "mass_sha256": "ffde4d9e7129f67efaee446d15aad7040697d96d8fe4a6d68bb9b6c25f350acd",
+        "n": 8,
+        "pair_denominator_bits": 18,
+        "pair_denominator_sha256": "226aaeac23e354a89f1945bb9292c6f6684b3c53c51bb3094a2cfa31ca3febb8",
+        "sqrt_k_times_mass_float": 0.2765857595591423,
+        "window_prime_count": 1,
+        "window_primes": [
+          7
+        ],
+        "window_product_bits": 3,
+        "window_product_sha256": "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451"
+      },
+      {
+        "I0_denominator_bits": 26,
+        "I0_sha256": "e1e73bd2df085a6f1c8fe379144725b8039a6eee15532fdcc8b3aaa510969dca",
+        "d": 24,
+        "h_sha256": "5ce4af6de4c6651cca59d03bd13e2602f11dc91f2b25db925a4007bdaee4a273",
+        "k": 3,
+        "mass": "6003/38675",
+        "mass_sha256": "a07fdba79bfe9963fdb525b5fc2c5b1a5ab644adcf16734572e439f782bcc553",
+        "n": 12,
+        "pair_denominator_bits": 33,
+        "pair_denominator_sha256": "64b2cbb01f47474ac8eb1ef9bdd58ae195ec43aa70bd6fa36511dbc055a4460a",
+        "sqrt_k_times_mass_float": 0.26884294758464045,
+        "window_prime_count": 1,
+        "window_primes": [
+          11
+        ],
+        "window_product_bits": 4,
+        "window_product_sha256": "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8"
+      },
+      {
+        "I0_denominator_bits": 43,
+        "I0_sha256": "cd2dde557246dd4cc9c1ea1fb77ce0c06366118e1b0450ad4292e8093d3468af",
+        "d": 40,
+        "h_sha256": "a8ca54ff76c67966db4676305f03a9e6c56bcbe9b826659f53e9670cda90990d",
+        "k": 5,
+        "mass": "1967929/16937305",
+        "mass_sha256": "bf1e891cfb60c0ba41e4167be678abcbf0450b0dd4da7d115746a87e16abc62d",
+        "n": 20,
+        "pair_denominator_bits": 48,
+        "pair_denominator_sha256": "23f252a3d84f80fad4ed92d470f46353f1a3e50064b14892aa4e40384dd744ca",
+        "sqrt_k_times_mass_float": 0.25980656420210796,
+        "window_prime_count": 2,
+        "window_primes": [
+          17,
+          19
+        ],
+        "window_product_bits": 9,
+        "window_product_sha256": "3949ac1596ec77106a709a618bf5adcb19b77537ce8bcbdf54ff830169cdd084"
+      },
+      {
+        "I0_denominator_bits": 109,
+        "I0_sha256": "bec6d06a740137b0320f2be537fbbd8740bcfd05b403f07570e14fd99308a7c1",
+        "d": 80,
+        "h_sha256": "6b5e0d599083c6bebdc411a293366ee736c37a3ffeb5cb2236e59c69a27c6085",
+        "k": 10,
+        "mass": "189425821840459/2399998635485451",
+        "mass_sha256": "2429a7dd9d922290db78eb1e0c5a7d9a408c4affa497a8ae42f8af7fa075dbd1",
+        "n": 40,
+        "pair_denominator_bits": 115,
+        "pair_denominator_sha256": "cdb346e1898a0d5185df7f589b5a24f97d6156b8fa3c742d10091f1095ff5613",
+        "sqrt_k_times_mass_float": 0.24959057718128871,
+        "window_prime_count": 3,
+        "window_primes": [
+          29,
+          31,
+          37
+        ],
+        "window_product_bits": 16,
+        "window_product_sha256": "a640edbc968ad9e9827e549776292f39ef56f4b2616bf794af06dcc3de7252bd"
+      },
+      {
+        "I0_denominator_bits": 218,
+        "I0_sha256": "314438ffed8070ad736a13a406a8f4f2dbb25df92cf284c98a615a24475f6d76",
+        "d": 160,
+        "h_sha256": "2c96d9c7c1a66156f837fad5836eb66087577b54bfde419b5b6d28840bff3abe",
+        "k": 20,
+        "mass": "206132774757765648903094093453/3812528154044671818732346157325",
+        "mass_sha256": "5ca555dbf0b6e2d3d2e9b9a8067a9486ec55330a00e0b7d6a5698ca1a3edb02b",
+        "n": 80,
+        "pair_denominator_bits": 225,
+        "pair_denominator_sha256": "d5b9762999d08d4cbba118a5cd66d3ee7b44552280fdc3f11dc0ce1f5e950444",
+        "sqrt_k_times_mass_float": 0.24179593074481254,
+        "window_prime_count": 6,
+        "window_primes": [
+          59,
+          61,
+          67,
+          71,
+          73,
+          79
+        ],
+        "window_product_bits": 37,
+        "window_product_sha256": "677cc82eed10b9ba23bc1566f8fbd488799f9155bf9aa844e11c6c8adc70b473"
+      },
+      {
+        "I0_denominator_bits": 457,
+        "I0_sha256": "e95d9497ede65fea836c9a5accf65975b948a2f19f2dd788ac8c23b10ab81bdb",
+        "d": 320,
+        "h_sha256": "467de148d63d97161811a76bcc686482a4a7b2d37ed951ef758d109c95dcbd05",
+        "k": 40,
+        "mass": "28310471888808756707904911383138052369392560845950307635301/758538471938545171145214954559542692269433556054763362348389",
+        "mass_sha256": "d614ac53a933744314fe1debb2ac59875547d650647d6bc23cfdc37649c3ddf9",
+        "n": 160,
+        "pair_denominator_bits": 465,
+        "pair_denominator_sha256": "b798cf311ebf75df4fbb4d4900491f02d4b36f3aa7243d0cbfc365dcc191ae1e",
+        "sqrt_k_times_mass_float": 0.23604754699919286,
+        "window_prime_count": 10,
+        "window_primes": [
+          107,
+          109,
+          113,
+          127,
+          131,
+          137,
+          139,
+          149,
+          151,
+          157
+        ],
+        "window_product_bits": 71,
+        "window_product_sha256": "e871493da0cceb28a37241f90535ffd509e3575e9670572b536eda0b2049c109"
+      },
+      {
+        "I0_denominator_bits": 902,
+        "I0_sha256": "7c91b25d16060a46a058566b214a8e3ded3b13cf5037df3f17a80e72d4678c9c",
+        "d": 640,
+        "h_sha256": "5c5d9e2c9c4e2e700fb6ce5aa50861813c1eb3f26d73a75d069e4e4e8ca0e0e3",
+        "k": 80,
+        "mass": "401979125279067806782019555005836484268249089574179697575120982814145321899091697692462691483795080661431202696738929229/15505299566072829744506162336826965705956403296387202853099861140033306394472796710392803974970662377415291943634929026125",
+        "mass_sha256": "5b411ce7bd3cd7b7386e20d2fca5a8aa777a4d140ce6735761c2f1d339fbc4db",
+        "n": 320,
+        "pair_denominator_bits": 911,
+        "pair_denominator_sha256": "a3d82a7816357fb69890fc54f1d14cac270c0dcfa93292bfca592066ae77dfbe",
+        "sqrt_k_times_mass_float": 0.23188269167702655,
+        "window_prime_count": 19,
+        "window_primes": [
+          223,
+          227,
+          229,
+          233,
+          239,
+          241,
+          251,
+          257,
+          263,
+          269,
+          271,
+          277,
+          281,
+          283,
+          293,
+          307,
+          311,
+          313,
+          317
+        ],
+        "window_product_bits": 154,
+        "window_product_sha256": "ead18cd4d8d0aa871ad21e645ea65059d22c705660ff423faf93552a7746186d"
+      },
+      {
+        "I0_denominator_bits": 1365,
+        "I0_sha256": "64bf85bcc44221282f982d18bd3cc307737ea8b78ade0a109ca6ce8ba6f6574d",
+        "d": 960,
+        "h_sha256": "5c6d77b058a13d2ca3ab35806bcab86ab1c7327521d78237dfb47317c33b4911",
+        "k": 120,
+        "mass": "160156432559791855038368702260960785029098354305839043557225012127075973127633810669797516141377962024760175464833838004869185376890138081960850667632832356336113255832444762832351/7627464251398679308439190768772010559286842996339864742075746650593082661208062098087882196241729026116051533419332074620429108610985143610072572150576253515829770019767875700593375",
+        "mass_sha256": "c4a876a7d610f174fc34f6fe1e98a31bb8c62422ae14feee35e9cf6b72b99767",
+        "n": 480,
+        "pair_denominator_bits": 1374,
+        "pair_denominator_sha256": "5f97c30d3d788206884b8a5d368a287f8de78717db18bf50348733d9ceb932fc",
+        "sqrt_k_times_mass_float": 0.23001429558051892,
+        "window_prime_count": 26,
+        "window_primes": [
+          331,
+          337,
+          347,
+          349,
+          353,
+          359,
+          367,
+          373,
+          379,
+          383,
+          389,
+          397,
+          401,
+          409,
+          419,
+          421,
+          431,
+          433,
+          439,
+          443,
+          449,
+          457,
+          461,
+          463,
+          467,
+          479
+        ],
+        "window_product_bits": 226,
+        "window_product_sha256": "6265290d8800c50dbf9d99b0f384958d91818db42e684512699f6158c138211e"
+      }
+    ]
+  },
+  "control_audit": {
+    "script": {
+      "bytes": 21952,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "scripts/common_kernel_even_nonlocal_moment_denominator_certificate.py"
+    },
+    "source": {
+      "bytes": 12966,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "sources/common_kernel_even_nonlocal_moment_denominator_barrier.md"
+    }
+  },
+  "dependency_checks": {
+    "results/common_kernel_robin_localizer_moment_denominator_hashes.sha256": {
+      "actual": "1a523213cd86f5b3865bf86a7b35a4f0bd682df262af920cc7b02623f0560c03",
+      "expected": "1a523213cd86f5b3865bf86a7b35a4f0bd682df262af920cc7b02623f0560c03"
+    }
+  },
+  "full_channel_residue_checks": {
+    "K_coefficients": [
+      7,
+      5
+    ],
+    "records": [
+      {
+        "S_sha256": "61a257ad7cedf239bc0b640e5dd54e790ce027a2791130598264e1b241f3861e",
+        "base_power": 4,
+        "cancelled_primes": [],
+        "degree_S": 32,
+        "integral_S_sha256": "c70e0f1542b515166dee5f03278cfcc841ac87841492e3478e1e2af16c71e667",
+        "n": 16,
+        "survived_primes": [
+          13
+        ],
+        "tested": [
+          {
+            "combined_residue": 10,
+            "p": 13,
+            "v_p_integral_S": -1
+          }
+        ]
+      },
+      {
+        "S_sha256": "cae8660c78ec29bec85b8f70e4e02abc7e242e2bfe16c5a6780686324f3abf31",
+        "base_power": 8,
+        "cancelled_primes": [],
+        "degree_S": 64,
+        "integral_S_sha256": "57c0fc98a4d80e5cd5a881b352302c39178b411bb1c69053336d8592a533277a",
+        "n": 32,
+        "survived_primes": [
+          23,
+          29,
+          31
+        ],
+        "tested": [
+          {
+            "combined_residue": 5,
+            "p": 23,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 10,
+            "p": 29,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 25,
+            "p": 31,
+            "v_p_integral_S": -1
+          }
+        ]
+      },
+      {
+        "S_sha256": "9a3a7038f21b35cddab622a6f906cefd600af37c2726c84ad9464bdf89f80a5b",
+        "base_power": 12,
+        "cancelled_primes": [],
+        "degree_S": 96,
+        "integral_S_sha256": "a539faeb1e1c0e2e946a6ce988e515c66b17aa88a2ea06f67d130790d8465fc6",
+        "n": 48,
+        "survived_primes": [
+          37,
+          41,
+          43,
+          47
+        ],
+        "tested": [
+          {
+            "combined_residue": 35,
+            "p": 37,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 6,
+            "p": 41,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 29,
+            "p": 43,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 9,
+            "p": 47,
+            "v_p_integral_S": -1
+          }
+        ]
+      },
+      {
+        "S_sha256": "608d27a719d0c663f1abdd42fd8b3e769e56a01dc72aabb7f8e679173feb7592",
+        "base_power": 20,
+        "cancelled_primes": [],
+        "degree_S": 160,
+        "integral_S_sha256": "92c87e84274fcced81429fcb47f0031a2aba7c9dfdd0f27cfcc1926aa55956ac",
+        "n": 80,
+        "survived_primes": [
+          59,
+          61,
+          67,
+          71,
+          73,
+          79
+        ],
+        "tested": [
+          {
+            "combined_residue": 47,
+            "p": 59,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 32,
+            "p": 61,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 5,
+            "p": 67,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 7,
+            "p": 71,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 62,
+            "p": 73,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 56,
+            "p": 79,
+            "v_p_integral_S": -1
+          }
+        ]
+      },
+      {
+        "S_sha256": "9bd0eddab38f6edbad54af1c4a7a79b7a26badef2ba0b4f89ad2dee9a767963f",
+        "base_power": 30,
+        "cancelled_primes": [],
+        "degree_S": 240,
+        "integral_S_sha256": "6c4ca8999d147d2a3442f24a5b825507de903e83c54fbed28dd88bbe16e32df9",
+        "n": 120,
+        "survived_primes": [
+          83,
+          89,
+          97,
+          101,
+          103,
+          107,
+          109,
+          113
+        ],
+        "tested": [
+          {
+            "combined_residue": 16,
+            "p": 83,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 72,
+            "p": 89,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 30,
+            "p": 97,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 98,
+            "p": 101,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 43,
+            "p": 103,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 74,
+            "p": 107,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 43,
+            "p": 109,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 19,
+            "p": 113,
+            "v_p_integral_S": -1
+          }
+        ]
+      },
+      {
+        "S_sha256": "f5e5ee9629542f66803d742b5eb4ca13f3de28383e832587237764b06cc3a0a4",
+        "base_power": 50,
+        "cancelled_primes": [],
+        "degree_S": 400,
+        "integral_S_sha256": "d64c3691711cf388017f5a8e8c923c12d3b18e7d3702428a3b4a2aacbcd556b8",
+        "n": 200,
+        "survived_primes": [
+          137,
+          139,
+          149,
+          151,
+          157,
+          163,
+          167,
+          173,
+          179,
+          181,
+          191,
+          193,
+          197,
+          199
+        ],
+        "tested": [
+          {
+            "combined_residue": 36,
+            "p": 137,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 1,
+            "p": 139,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 145,
+            "p": 149,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 149,
+            "p": 151,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 102,
+            "p": 157,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 134,
+            "p": 163,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 59,
+            "p": 167,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 76,
+            "p": 173,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 132,
+            "p": 179,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 139,
+            "p": 181,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 107,
+            "p": 191,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 79,
+            "p": 193,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 10,
+            "p": 197,
+            "v_p_integral_S": -1
+          },
+          {
+            "combined_residue": 56,
+            "p": 199,
+            "v_p_integral_S": -1
+          }
+        ]
+      }
+    ],
+    "scope": "Checks the iff residue criterion and the linear-K high coefficient. Observed survival or cancellation is not extrapolated across primes."
+  },
+  "logical_scope": "Exact replay of the one-third prime-window denominator theorem for even Robin localizers, including a positive d=2n family. Non-even, d>=3n, and unrestricted cross-channel cases remain open; no e+pi classification is asserted.",
+  "missing_lemma": "Control the 2p coefficient for non-even moments or for the full output residue, or find a different denominator obstruction for even positive localizers with d>=3n.",
+  "perturbed_even_d=5n/2_checks": {
+    "meaning": "Even integral congruence-preserving examples with d=5n/2. No positivity is assumed or inferred from these perturbations.",
+    "records": [
+      {
+        "I0_sha256": "66a180dda19c8ec321e59d9fe6e8795ee52d1839ae3ebc876dd141348499bd28",
+        "d": 40,
+        "h_sha256": "2e956eeaebcbe288b61ae41367937171f7121e1f04b1f7ee3ac02b83f12c5686",
+        "k_seed": 4,
+        "n": 16,
+        "pair_denominator_bits": 53,
+        "window_primes": []
+      },
+      {
+        "I0_sha256": "13de8fd2d49ba55b5ff917ed4dfeaabd977a84f1aa8f61ec229a748debfc0b8c",
+        "d": 60,
+        "h_sha256": "5ba78238f8a221adb9da052960d06e61b29b7fbe611474f40cf535b8e7a5897a",
+        "k_seed": 6,
+        "n": 24,
+        "pair_denominator_bits": 78,
+        "window_primes": [
+          23
+        ]
+      },
+      {
+        "I0_sha256": "859be11f80d93d5a94879b646e187e10f22afbafce8a84a0a50620fa85b730cd",
+        "d": 100,
+        "h_sha256": "f3cf0e7dca80e7a757c6900f9142119259da52a721859eac5ea7e82f1e1588c8",
+        "k_seed": 10,
+        "n": 40,
+        "pair_denominator_bits": 122,
+        "window_primes": [
+          37
+        ]
+      },
+      {
+        "I0_sha256": "1cde49d424ac7a0dd809d06ad78d8b51e9f66d2a2a23cdb30c7495f65470821b",
+        "d": 160,
+        "h_sha256": "630ab273de4cb67c33304dea428d7e8aa6427579927d77d74123be427ef79f08",
+        "k_seed": 16,
+        "n": 64,
+        "pair_denominator_bits": 191,
+        "window_primes": [
+          59,
+          61
+        ]
+      },
+      {
+        "I0_sha256": "4281b7f32982e1121fddeac730745fe8f2c07bd3e7e90266396f3ff0c0d154a5",
+        "d": 240,
+        "h_sha256": "27cdff6d40f066858aee121f007fc54f5486329edc7c364ac3a75d2d342df094",
+        "k_seed": 24,
+        "n": 96,
+        "pair_denominator_bits": 291,
+        "window_primes": [
+          83,
+          89
+        ]
+      },
+      {
+        "I0_sha256": "3cab953d9a200b61be46f69bdfcbfdb773e35ba5cbf6e095680e31458898d0ec",
+        "d": 400,
+        "h_sha256": "d181a4ee46a004d0d0490a86dafc86d7b4d760b47638b1a9f4757ca682dc6c5f",
+        "k_seed": 40,
+        "n": 160,
+        "pair_denominator_bits": 474,
+        "window_primes": [
+          137,
+          139,
+          149,
+          151,
+          157
+        ]
+      }
+    ]
+  },
+  "positive_degree_order_ratio_four_example": {
+    "H_coefficients": [
+      0,
+      0,
+      1,
+      -4,
+      7,
+      -8,
+      7,
+      -4,
+      2
+    ],
+    "H_prime_at_1": 8,
+    "integral_H": "11/90",
+    "power_records": [
+      {
+        "d": 8,
+        "h_sha256": "df51ab9572706f1bc6eafa73cd5769ba46acea0b60bc1baaae2c3e728a41fec8",
+        "n": 2,
+        "power": 1,
+        "q_sha256": "9c94f74482b58ce9a3b9114a267a84e0c41c111abb34653a0a08d5df19cbcbaa"
+      },
+      {
+        "d": 16,
+        "h_sha256": "e75413b5fdd8f60f51f6c920517bd658e5222acebd3931a060475bf4bba17dcc",
+        "n": 4,
+        "power": 2,
+        "q_sha256": "9b65ec622c8f8030a8e6d7f1c01d1bc5176ccc1aa9e2d9efba7935f5e644016c"
+      },
+      {
+        "d": 24,
+        "h_sha256": "1ce55eb5f54b7fcfcf8d3b1cce149885c5e2f43321ad6950e3758ac8d466c109",
+        "n": 6,
+        "power": 3,
+        "q_sha256": "74b451fadd64f26ecaa3527b82aac83ebd0322802e0ece0f7907f069e2ab7fd0"
+      },
+      {
+        "d": 40,
+        "h_sha256": "68b56e72a015c9de78d4dbed78108374318e7e30adc2f7a2e9f40e9b8dbfc535",
+        "n": 10,
+        "power": 5,
+        "q_sha256": "e2aed43951a67f58a0dd77e1131f919d101c962d6d70e74b9621690139e41eb9"
+      },
+      {
+        "d": 80,
+        "h_sha256": "e2890eea77d239218675b0ace80b5d03161fada157b3589e981ec60e56d5ff5f",
+        "n": 20,
+        "power": 10,
+        "q_sha256": "2f500ee21ed743fdcaaf4124edd3f080a4ef6ed957b68c64983175080c6628c5"
+      },
+      {
+        "d": 160,
+        "h_sha256": "c1154605bbe179e537723020526992bdeb774542a766ebc21a3c8610cf27dc03",
+        "n": 40,
+        "power": 20,
+        "q_sha256": "c245b29bb06d09ce6453444560879a26219b1a782974bf3b0cbdcf2faa5df1e6"
+      }
+    ],
+    "proof_scope": "Exact factor identities support the interval-positivity proof in the source. No denominator asymptotic for these powers is claimed.",
+    "q_coefficients": [
+      -1,
+      0,
+      3,
+      -4,
+      2
+    ]
+  },
+  "resource_policy": {
+    "RSS_guard_kib": 41943040,
+    "hardware_accelerator": "Not used: the replay is small exact integer/rational arithmetic for which GPU transfer and non-exact kernels provide no benefit.",
+    "meaning": "The 40-GiB value is only a failure guard. It neither allocates nor limits the approximately 50 GiB available Colab RAM."
+  },
+  "schema": "common_kernel_even_nonlocal_moment_denominator_certificate_v1",
+  "source_sha256": "df2657ebe8e241d6f14b8c8628ba5c085662301936efc869f69669818749bb49"
+}

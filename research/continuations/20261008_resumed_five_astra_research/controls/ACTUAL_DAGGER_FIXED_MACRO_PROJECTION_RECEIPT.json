@@ -1,0 +1,558 @@
+{
+  "time": "2026-10-09T18:26:16.483111+08:00",
+  "scope": "NEW fixed macro coefficients for original i_dagger=(g-1)/2-u+244; source/carry applicability proof is separate",
+  "script_sha256": "3e16aa6c7de5067222cb46de6ef56a1c209b151e2a19f3ec60fdf6fa95917a66",
+  "integer_binomial_rows": [
+    7245,
+    7299
+  ],
+  "coarse_binomial": "binom(7242+n,n)",
+  "n_range": [
+    0,
+    3621
+  ],
+  "all_fourteen_sources_retained": true,
+  "active_term_checks": 152197,
+  "poles": {
+    "1": {
+      "target_v3": 0,
+      "termwise_target_verified": true,
+      "active_terms": 2067,
+      "scaled_coarse_total_mod3": 0,
+      "actual_C_v_scaled_mod3": 0,
+      "sources": [
+        {
+          "M": 7299,
+          "b": 122,
+          "c": 1,
+          "active_terms": 0,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7299,
+          "b": 41,
+          "c": 3,
+          "active_terms": 0,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 14,
+          "c": 18,
+          "active_terms": 716,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 15,
+          "c": 18,
+          "active_terms": 689,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 16,
+          "c": 18,
+          "active_terms": 662,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 41,
+          "c": 18,
+          "active_terms": 0,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 42,
+          "c": 18,
+          "active_terms": 0,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 43,
+          "c": 18,
+          "active_terms": 0,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 95,
+          "c": 18,
+          "active_terms": 0,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 96,
+          "c": 18,
+          "active_terms": 0,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 97,
+          "c": 18,
+          "active_terms": 0,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 131,
+          "c": -9,
+          "active_terms": 0,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 132,
+          "c": -9,
+          "active_terms": 0,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 133,
+          "c": -9,
+          "active_terms": 0,
+          "scaled_coarse_source_sum_mod3": 0
+        }
+      ]
+    },
+    "3": {
+      "target_v3": 1,
+      "termwise_target_verified": true,
+      "active_terms": 19310,
+      "scaled_coarse_total_mod3": 0,
+      "actual_C_v_scaled_mod3": 0,
+      "sources": [
+        {
+          "M": 7299,
+          "b": 122,
+          "c": 1,
+          "active_terms": 0,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7299,
+          "b": 41,
+          "c": 3,
+          "active_terms": 2174,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 14,
+          "c": 18,
+          "active_terms": 2903,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 15,
+          "c": 18,
+          "active_terms": 2876,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 16,
+          "c": 18,
+          "active_terms": 2849,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 41,
+          "c": 18,
+          "active_terms": 2174,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 42,
+          "c": 18,
+          "active_terms": 2147,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 43,
+          "c": 18,
+          "active_terms": 2120,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 95,
+          "c": 18,
+          "active_terms": 716,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 96,
+          "c": 18,
+          "active_terms": 689,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 97,
+          "c": 18,
+          "active_terms": 662,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 131,
+          "c": -9,
+          "active_terms": 0,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 132,
+          "c": -9,
+          "active_terms": 0,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 133,
+          "c": -9,
+          "active_terms": 0,
+          "scaled_coarse_source_sum_mod3": 0
+        }
+      ]
+    },
+    "5": {
+      "target_v3": 0,
+      "termwise_target_verified": true,
+      "active_terms": 41868,
+      "scaled_coarse_total_mod3": 0,
+      "actual_C_v_scaled_mod3": 0,
+      "sources": [
+        {
+          "M": 7299,
+          "b": 122,
+          "c": 1,
+          "active_terms": 2174,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7299,
+          "b": 41,
+          "c": 3,
+          "active_terms": 3622,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 14,
+          "c": 18,
+          "active_terms": 3622,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 15,
+          "c": 18,
+          "active_terms": 3622,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 16,
+          "c": 18,
+          "active_terms": 3622,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 41,
+          "c": 18,
+          "active_terms": 3622,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 42,
+          "c": 18,
+          "active_terms": 3622,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 43,
+          "c": 18,
+          "active_terms": 3622,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 95,
+          "c": 18,
+          "active_terms": 2903,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 96,
+          "c": 18,
+          "active_terms": 2876,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 97,
+          "c": 18,
+          "active_terms": 2849,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 131,
+          "c": -9,
+          "active_terms": 1931,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 132,
+          "c": -9,
+          "active_terms": 1904,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 133,
+          "c": -9,
+          "active_terms": 1877,
+          "scaled_coarse_source_sum_mod3": 0
+        }
+      ]
+    },
+    "7": {
+      "target_v3": 0,
+      "termwise_target_verified": true,
+      "active_terms": 50673,
+      "scaled_coarse_total_mod3": 0,
+      "actual_C_v_scaled_mod3": 0,
+      "sources": [
+        {
+          "M": 7299,
+          "b": 122,
+          "c": 1,
+          "active_terms": 3622,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7299,
+          "b": 41,
+          "c": 3,
+          "active_terms": 3622,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 14,
+          "c": 18,
+          "active_terms": 3591,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 15,
+          "c": 18,
+          "active_terms": 3618,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 16,
+          "c": 18,
+          "active_terms": 3622,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 41,
+          "c": 18,
+          "active_terms": 3622,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 42,
+          "c": 18,
+          "active_terms": 3622,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 43,
+          "c": 18,
+          "active_terms": 3622,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 95,
+          "c": 18,
+          "active_terms": 3622,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 96,
+          "c": 18,
+          "active_terms": 3622,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 97,
+          "c": 18,
+          "active_terms": 3622,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 131,
+          "c": -9,
+          "active_terms": 3622,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 132,
+          "c": -9,
+          "active_terms": 3622,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 133,
+          "c": -9,
+          "active_terms": 3622,
+          "scaled_coarse_source_sum_mod3": 0
+        }
+      ]
+    },
+    "9": {
+      "target_v3": 2,
+      "termwise_target_verified": true,
+      "active_terms": 38279,
+      "scaled_coarse_total_mod3": 0,
+      "actual_C_v_scaled_mod3": 0,
+      "sources": [
+        {
+          "M": 7299,
+          "b": 122,
+          "c": 1,
+          "active_terms": 3622,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7299,
+          "b": 41,
+          "c": 3,
+          "active_terms": 2187,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 14,
+          "c": 18,
+          "active_terms": 1404,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 15,
+          "c": 18,
+          "active_terms": 1431,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 16,
+          "c": 18,
+          "active_terms": 1458,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 41,
+          "c": 18,
+          "active_terms": 2133,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 42,
+          "c": 18,
+          "active_terms": 2160,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 43,
+          "c": 18,
+          "active_terms": 2187,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 95,
+          "c": 18,
+          "active_terms": 3591,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 96,
+          "c": 18,
+          "active_terms": 3618,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 97,
+          "c": 18,
+          "active_terms": 3622,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 131,
+          "c": -9,
+          "active_terms": 3622,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 132,
+          "c": -9,
+          "active_terms": 3622,
+          "scaled_coarse_source_sum_mod3": 0
+        },
+        {
+          "M": 7245,
+          "b": 133,
+          "c": -9,
+          "active_terms": 3622,
+          "scaled_coarse_source_sum_mod3": 0
+        }
+      ]
+    }
+  },
+  "zeta_mod3_from_paid_source_depth": 0,
+  "a_eta_dagger_mod3": 0,
+  "seconds": 0.107811,
+  "status": "PASS exact fixed arithmetic; uniform source applicability and DIFFERENT audit pending",
+  "e_plus_pi_decision": false
+}

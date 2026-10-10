@@ -1,0 +1,49 @@
+{
+  "scope": "Exact finite closed-prime comparison, contingent on reviewed actual divisor inputs.",
+  "all_checks_pass": true,
+  "rate_checks": {
+    "all_even": {
+      "left_integer": 832000,
+      "pell_exponent": 12,
+      "pell_a": 19601,
+      "pell_b": 13860,
+      "sign": 1,
+      "squared_comparison_margin": 659607936001
+    },
+    "odd_7_good": {
+      "left_integer": 79625,
+      "pell_exponent": 12,
+      "pell_a": 19601,
+      "pell_b": 13860,
+      "sign": 1,
+      "squared_comparison_margin": 3218681376
+    },
+    "odd_smallest_two_good": {
+      "left_integer": 682825110720299784065922282541321139433421194553375244140625,
+      "pell_exponent": 144,
+      "pell_a": 6586712278991805873205386201784303378672881239591942401,
+      "pell_b": 4657508918199804645965719872781284840798220312648198320,
+      "sign": 1,
+      "squared_comparison_margin": 466241136685107288418477574039867761498213164350054028990221669378069667139895150835562786936512566171586513519287109376
+    },
+    "odd_largest_single_good_insufficient": {
+      "left_integer": 20073492381988525390625,
+      "pell_exponent": 60,
+      "pell_a": 46292552162781456490001,
+      "pell_b": 32733777552734744709300,
+      "sign": -1,
+      "squared_comparison_margin": -1455561289955048640703470452987171051025390624
+    }
+  },
+  "crt_component_counts": {
+    "bad11_bad17_good19": 36,
+    "bad11_good17_bad19": 15,
+    "good11_bad17_bad19": 20,
+    "all_three_bad": 2
+  },
+  "unexcluded_residue_count": 146,
+  "odd_modulus": 24871,
+  "density_among_odd": "146/24871",
+  "density_among_all": "146/49742",
+  "warning": "Unexcluded means the mandatory divisor is insufficient; it is not an upper bound for actual q."
+}

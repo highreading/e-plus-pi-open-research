@@ -1,0 +1,50 @@
+{
+  "schema": "item235-root-independent-audit-v1",
+  "status": "PASS_SCOPED_CANONICAL_WITT_LIFT_AND_BRIDGE_BARRIER",
+  "canonical_sha256": "210d53a769c60f35ce3d98879ed142ccf935883b214c287b7733ccf76e989471",
+  "root_replay_sha256": "210d53a769c60f35ce3d98879ed142ccf935883b214c287b7733ccf76e989471",
+  "byte_identical_replay": true,
+  "independent_checks": {
+    "regularized_recurrence": "Deleting exactly the primitive monomials with p-divisible denominators from the rational derivative identity gives the displayed finite-part recurrence over Z/(p^2); all retained denominators are units.",
+    "terminal_multiplicity": "At k_q=(q-1)p+2s-3 the last coefficient is -q*p. The unique rational pole is (-1)^r/(q*p), so q cancels only after exact multiplication and the source is (-1)^r W(qp).",
+    "four_p_carry": "Termwise W(d+4p)=W(d) and 1/(d+4p)-1/d=-4p/d^2 mod p^2 prove the nonperiodic harmonic carry; the deleted set is invariant under the shift.",
+    "closure_redundancy": "The lifted terminal Krylov matrix reduces mod p to Item227's invertible observability matrix up to lower unitriangular feedback row operations. It is therefore a unit over Z/(p^2), and R=(P-I)K^(-1)E proves corrected closure lies in the terminal-row span.",
+    "canonical_scope": "The rank-one second-digit minors are exact only inside the chosen finite-part/common-line lift. Neither p^2|C0,C1 nor p^3|C0,C1 is proved to force those lifted rows.",
+    "naive_bridge_counterexample": "At (p,s,nu)=(17,2,0), exact C0/p is 224 mod 289 while the naive lifted beta period is 173; their difference is 51=3p although both reduce to 3 mod p.",
+    "missing_frobenius_digit": "The exact expansion of (G^p-G(z^p))/p contains second digits of X,Y and p(21X^2+15Y^2-35XY), explaining why the frozen mod-p bridge cannot simply be reused over Z/(p^2).",
+    "canonical_proof_prime_max_inclusive": 101,
+    "canonical_proof_rows": 74,
+    "extended_proof_prime_max_inclusive": 127,
+    "extended_proof_rows": 115,
+    "extended_finite_prime_max_inclusive": 503,
+    "extended_finite_rows": 1743,
+    "extended_Omega_zero_rows": 8,
+    "extended_certificate_sha256": "6ef6c9680c067faa662933feefdd142fd8fb1a13511eec49ca75ae0ae8ae7c27",
+    "python_compile": true,
+    "canonical_replay": "byte-identical",
+    "control_character_scan": "clean",
+    "host_path_scan": "clean",
+    "artifact_hashes": "match the frozen manifest and SHA-256 ledger"
+  },
+  "classification": {
+    "PROVED": [
+      "the exact canonical localized p^2 recurrence and all q*p terminal multiplicities",
+      "the nonzero four-phase harmonic carry",
+      "the canonical Witt/Hensel row criterion",
+      "the exact redundancy of corrected four-phase closure inside the canonical lift",
+      "the quadratic Frobenius-defect expansion and counterexample to the naive lifted bridge"
+    ],
+    "EXACT_FINITE": [
+      "the frozen proof replay through p<=101 and census through p<=401",
+      "the independent extended proof replay and census through the recorded bounds"
+    ],
+    "OPEN": [
+      "a corrected endpoint functional for the actual C_nu/p second digit",
+      "the true p-carry in the common initial line",
+      "necessity of any canonical Witt minor for actual p^3 divisibility",
+      "all-prime or weighted control of the j=2 collision locus",
+      "any capacity reduction, positive Route-1 rate, or conclusion about e+pi"
+    ]
+  },
+  "audit_conclusion": "Item235 correctly identifies the canonical p^2 terminal mechanics and proves that corrected order-four closure is redundant. Its exact counterexample also proves that this canonical lift is not yet the actual common-log Witt bridge, so the zero booking is mandatory."
+}

@@ -1,0 +1,99 @@
+{
+  "item": 224,
+  "scope": "j=2 inhomogeneous Cartier terminal recurrence and necessary formal compatibility",
+  "cell": "4m+1=5p-2s, 1<=s<=(p-3)/6, p>=11, s=(p-1)/2 mod 2",
+  "PROVED": [
+    {
+      "claim": "exact five-term shifted-moment recurrence",
+      "value": "(k+r+1)T_k+(1-r)T_(k+1)+(4s-r-1)T_(k+2)+(1-r)T_(k+3)-(k+2r+4s+6)T_(k+4)=0 on the safe range"
+    },
+    {
+      "claim": "both first resonances are exactly regularized",
+      "value": "top functional=7*(-1)^r and bottom functional=11"
+    },
+    {
+      "claim": "exact z^3 reduction for s>=2",
+      "value": "the common gate forces (T0,T1,T2,T3)=lambda*(0,4s-2,2s-5,-(52s^2-36s-27)/(4(s-1)))"
+    },
+    {
+      "claim": "necessary formal compatibility",
+      "value": "an actual collision with s>=2 requires beta!=0, tau!=0, and Omega=7*(-1)^r*beta-11*tau=0 mod p"
+    },
+    {
+      "claim": "complete propagation-denominator audit",
+      "value": "D=4(s-1)r! product_(d=1)^(2s-3)(p-d) clears beta, tau, and Omega and is a p-unit"
+    },
+    {
+      "claim": "scoped s=1 obstruction",
+      "value": "the polynomial sub-Frobenius quadratic z^3 reduction cannot specialize to s=1 because its leading z^(p-1) coefficient cannot come from a derivative or a quadratic remainder"
+    }
+  ],
+  "EXACT_FINITE": [
+    {
+      "prime_bound": 401,
+      "rows": 1153,
+      "s_equals_1_rows": 38,
+      "s_at_least_2_rows": 1115,
+      "omega_nonzero_exclusions": 1108,
+      "formal_compatible_rows": 7,
+      "formal_pairs": [
+        [
+          23,
+          3
+        ],
+        [
+          157,
+          4
+        ],
+        [
+          193,
+          26
+        ],
+        [
+          241,
+          4
+        ],
+        [
+          311,
+          47
+        ],
+        [
+          349,
+          50
+        ],
+        [
+          397,
+          44
+        ]
+      ],
+      "actual_collisions_among_formal_pairs": 0,
+      "status": "formal compatibility is necessary only; the seven rows are explicit actual non-collisions"
+    },
+    {
+      "regularization_prime_bound": 101,
+      "rows": 74,
+      "status": "top and bottom constants and rational-to-modular propagation replay exactly"
+    }
+  ],
+  "OPEN": [
+    "all-prime classification of Omega zeros",
+    "the exceptional s=1 family beyond the scoped polynomial-reduction obstruction",
+    "a sublinear or zero-rate theorem for formal-compatible rows",
+    "any common-log capacity reduction",
+    "any conclusion about e+pi"
+  ],
+  "booking": {
+    "new_rate_per_m": "0",
+    "j2_capacity_per_m": "2/35",
+    "status": "NO CAPACITY BOOKED"
+  },
+  "artifacts": [
+    "item224_j2_cartier_terminal_report.md",
+    "item224_j2_cartier_terminal_certificate.py",
+    "item224_j2_cartier_terminal_certificate.json",
+    "item224_j2_cartier_terminal_certificate_replay.json",
+    "item224_j2_cartier_terminal_ledger.json",
+    "item224_j2_cartier_terminal_manifest.json",
+    "item224_j2_cartier_terminal_hashes.sha256"
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "capacity_replay": {
+    "boundary_components_additive": false,
+    "full_fixed_j1_ceiling_per_6M": "1/36",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "raw_fixed_j1_mass_per_M": "1/6"
+  },
+  "classification": "PROVED_PHASE_CARRIERS_AND_SCOPED_RECURRENCE_HEIGHT_BARRIER",
+  "comparison_barrier_replay": {
+    "bulk": "M/12<=h<=M/3 gives 4h<p=(3M-h)/2<18h",
+    "bulk_capacity_per_6M": "1/48",
+    "bulk_raw_chebyshev_mass": "M/8+o(M)",
+    "carrier": "C_h=(18h)!/(4h)!=(4h+1)_(14h)",
+    "classification": "EXACT COMPARISON FAMILY FOR SCOPED METHOD BARRIER",
+    "declared_rows": [
+      [
+        9,
+        1,
+        1,
+        13
+      ],
+      [
+        12,
+        2,
+        1,
+        17
+      ],
+      [
+        34,
+        8,
+        2,
+        47
+      ],
+      [
+        30,
+        4,
+        4,
+        43
+      ]
+    ],
+    "first_order_recurrence": "C_(h+1)/C_h=product_(j=1)^18(18h+j)/product_(j=1)^4(4h+j)",
+    "height": "log C_h=O(h log(h+2))",
+    "scope": "generic pointwise height and recurrence order alone cannot prove zero-rate; no resemblance to the actual phase carriers is asserted"
+  },
+  "dependencies": {
+    "manifests/item360_j1_full_gate_transverse_period_manifest.json": "92f88a56162f3803b8699922da921333f5225c41a32d14c87641dd53c3f8b55b",
+    "results/item218_j1_common_log_certificate.json": "963bbb8a9758e55ede72f965693d21fc41aa70d44e2d981d5873685c3f08ea0f",
+    "results/item218_j1_common_log_manifest.json": "e1c6c3d713670c819b5f27b1005db26f9b804ec8ee0766671928fc30c1ff6d8d",
+    "results/item360_j1_full_gate_transverse_period_certificate.json": "a3f9e5b8e55b0a36bf7aef18fd1b81010eef0e8b9c8ade05995e2c4a25f9084d",
+    "results/item360_j1_full_gate_transverse_period_root_audit.json": "7a23e487b4d70d63f9785339344bdc00ae0e8350bcf1d8b1fcf6228c230e5138",
+    "scripts/item218_j1_common_log_certificate.py": "a238c5ca37263f2553da47bf3f21253aedf1c34f8c57458a4a274fc6cdc9029a",
+    "scripts/item360_j1_full_gate_transverse_period_certificate.py": "84cabfb296a0892e620f252a1c413648c30664c8667245bd6fe444095bcad7e0",
+    "sources/item218_j1_common_log_report.md": "2cabc5a705a974d6989718e24443b59c00715fd4e9aff288e0e17b297096d585",
+    "sources/item360_j1_full_gate_transverse_period_report.md": "4468412fb8631924952dc7f70fc4e75433a7524954b89525de508e55feefc8c4"
+  },
+  "dependency_hashes_verified": true,
+  "h2_degenerate_replay": {
+    "classification": "PROVED SYMBOLIC ALL-s DEGENERATE-FACE IDENTITY",
+    "conclusion": "u=v=0 never occurs on the actual h=2 ray",
+    "kernel": "K1=(1-z^2)^4",
+    "only_large_numerator_prime": 859,
+    "residue_obstruction": "actual p=6s+11 is 5 mod 6, whereas 859 is 1 mod 6",
+    "tied_phase_u": {
+      "denominator": 5103,
+      "numerator": 13744
+    },
+    "u": "4(64s^2+80s+27)/(9(3s+1)(3s+2))",
+    "v": "0 identically"
+  },
+  "phase_carrier_replay": {
+    "classification": "EXACT FIXED-h ALL-s CONTROLS; NO PRIME SCAN",
+    "composite_h_rays": [
+      3,
+      6
+    ],
+    "conclusion": "neither saturation boundary occurs on any actual tied row with 1<=h<=8",
+    "row_digest_sha256": "3e5e79bd244e935e4d4682698eb57e920052bedb4d737f23f14c0431c3898592",
+    "rows": [
+      {
+        "carrier_uv": 4,
+        "carrier_uv_factorization": {
+          "2": 2
+        },
+        "carrier_xy": 2,
+        "carrier_xy_factorization": {
+          "2": 1
+        },
+        "classification": "PREDECLARED FIXED-h ALL-s CONTROL; NOT A PRIME SCAN",
+        "compatible_actual_primes": [],
+        "h": 1,
+        "phase_values": {
+          "U": {
+            "denominator": 405,
+            "numerator": 536
+          },
+          "V": {
+            "denominator": 1,
+            "numerator": -76
+          },
+          "X": {
+            "denominator": 9,
+            "numerator": -10
+          },
+          "Y": {
+            "denominator": 1,
+            "numerator": -4
+          }
+        },
+        "sigma": {
+          "denominator": 6,
+          "numerator": -7
+        }
+      },
+      {
+        "carrier_uv": 13744,
+        "carrier_uv_factorization": {
+          "2": 4,
+          "859": 1
+        },
+        "carrier_xy": 2,
+        "carrier_xy_factorization": {
+          "2": 1
+        },
+        "classification": "PREDECLARED FIXED-h ALL-s CONTROL; NOT A PRIME SCAN",
+        "compatible_actual_primes": [],
+        "h": 2,
+        "phase_values": {
+          "U": {
+            "denominator": 5103,
+            "numerator": 13744
+          },
+          "V": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "X": {
+            "denominator": 63,
+            "numerator": -220
+          },
+          "Y": {
+            "denominator": 1,
+            "numerator": 6
+          }
+        },
+        "sigma": {
+          "denominator": 6,
+          "numerator": -11
+        }
+      },
+      {
+        "carrier_uv": 2,
+        "carrier_uv_factorization": {
+          "2": 1
+        },
+        "carrier_xy": 14,
+        "carrier_xy_factorization": {
+          "2": 1,
+          "7": 1
+        },
+        "classification": "PREDECLARED FIXED-h ALL-s CONTROL; NOT A PRIME SCAN",
+        "compatible_actual_primes": [],
+        "h": 4,
+        "phase_values": {
+          "U": {
+            "denominator": 18403605,
+            "numerator": -27363008
+          },
+          "V": {
+            "denominator": 1,
+            "numerator": 91922
+          },
+          "X": {
+            "denominator": 24057,
+            "numerator": 42896
+          },
+          "Y": {
+            "denominator": 1,
+            "numerator": 7322
+          }
+        },
+        "sigma": {
+          "denominator": 6,
+          "numerator": -19
+        }
+      },
+      {
+        "carrier_uv": 8,
+        "carrier_uv_factorization": {
+          "2": 3
+        },
+        "carrier_xy": 2,
+        "carrier_xy_factorization": {
+          "2": 1
+        },
+        "classification": "PREDECLARED FIXED-h ALL-s CONTROL; NOT A PRIME SCAN",
+        "compatible_actual_primes": [],
+        "h": 5,
+        "phase_values": {
+          "U": {
+            "denominator": 4861701,
+            "numerator": -32081024
+          },
+          "V": {
+            "denominator": 5,
+            "numerator": -1625736
+          },
+          "X": {
+            "denominator": 180063,
+            "numerator": 1803680
+          },
+          "Y": {
+            "denominator": 1,
+            "numerator": -30654
+          }
+        },
+        "sigma": {
+          "denominator": 6,
+          "numerator": -23
+        }
+      },
+      {
+        "carrier_uv": 4,
+        "carrier_uv_factorization": {
+          "2": 2
+        },
+        "carrier_xy": 26,
+        "carrier_xy_factorization": {
+          "2": 1,
+          "13": 1
+        },
+        "classification": "PREDECLARED FIXED-h ALL-s CONTROL; NOT A PRIME SCAN",
+        "compatible_actual_primes": [],
+        "h": 7,
+        "phase_values": {
+          "U": {
+            "denominator": 1870140879,
+            "numerator": -77426176
+          },
+          "V": {
+            "denominator": 7,
+            "numerator": -820183852
+          },
+          "X": {
+            "denominator": 207793431,
+            "numerator": 193548160
+          },
+          "Y": {
+            "denominator": 1,
+            "numerator": -10105186
+          }
+        },
+        "sigma": {
+          "denominator": 6,
+          "numerator": -31
+        }
+      },
+      {
+        "carrier_uv": 1,
+        "carrier_uv_factorization": {},
+        "carrier_xy": 2,
+        "carrier_xy_factorization": {
+          "2": 1
+        },
+        "classification": "PREDECLARED FIXED-h ALL-s CONTROL; NOT A PRIME SCAN",
+        "compatible_actual_primes": [],
+        "h": 8,
+        "phase_values": {
+          "U": {
+            "denominator": 464832842265,
+            "numerator": 7463865684992
+          },
+          "V": {
+            "denominator": 1,
+            "numerator": 739435731
+          },
+          "X": {
+            "denominator": 313018749,
+            "numerator": -7985398528
+          },
+          "Y": {
+            "denominator": 1,
+            "numerator": 67976778
+          }
+        },
+        "sigma": {
+          "denominator": 6,
+          "numerator": -35
+        }
+      }
+    ]
+  },
+  "proved_formulae": {
+    "fixed_h": "if a phase pair is not exactly zero, a fixed h has only finitely many boundary primes; exact-zero phase rays are stratified separately",
+    "h2": "v=0 identically, while u=4(64s^2+80s+27)/(9(3s+1)(3s+2))",
+    "pointwise_height": "log max(G_h^(0),G_h^(1),1)=O(h log(h+2))",
+    "tied_phase": "sigma_h=-(4h+3)/6 and s=sigma_h mod p",
+    "uv_localization": "u=v=0 implies p divides G_h^(1)=gcd(num U_h,num V_h)",
+    "xy_localization": "x=y=0 implies p divides G_h^(0)=gcd(num X_h,num Y_h)"
+  },
+  "schema": "item364-j1-saturation-boundary-phase-carrier-v1",
+  "scope_warning": "The comparison family closes only generic height/recurrence-order reasoning. It does not rule out target-specific arithmetic of the actual carrier pairs. The two boundary components are subsets of one full gate and are not additive.",
+  "strict_labels": {
+    "finite_only": [
+      "six predeclared fixed-h carrier controls",
+      "four predeclared comparison rows",
+      "no prime scan or collision census"
+    ],
+    "open": [
+      "classification of exact-zero phase pairs and whether either boundary occurs with unbounded h",
+      "weighted zero density for the two actual phase-carrier gcd sequences",
+      "a target-specific unit Casoratian, large-prime-factor, or average-gcd theorem",
+      "any strict fixed-j1 capacity reduction"
+    ],
+    "proved": [
+      "exact tied-phase specialization of all four boundary periods",
+      "two primitive fixed-h gcd carrier implications",
+      "complete all-s boundary exclusion for 1<=h<=8",
+      "the h=2 degenerate-face identity and exclusion",
+      "fixed-finite-h zero-rate and the pointwise O(h log h) height bound",
+      "generic recurrence-height comparison barrier"
+    ]
+  }
+}

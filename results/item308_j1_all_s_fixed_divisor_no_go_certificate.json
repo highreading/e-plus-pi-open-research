@@ -1,0 +1,592 @@
+{
+  "Euler_sign_and_eta_cases": [
+    {
+      "delta_parity_0": -1,
+      "delta_parity_1": 1,
+      "eta": 2,
+      "s_mod_4": 0
+    },
+    {
+      "delta_parity_0": 1,
+      "delta_parity_1": -1,
+      "eta": 1,
+      "s_mod_4": 1
+    },
+    {
+      "delta_parity_0": 1,
+      "delta_parity_1": -1,
+      "eta": 2,
+      "s_mod_4": 2
+    },
+    {
+      "delta_parity_0": -1,
+      "delta_parity_1": 1,
+      "eta": 1,
+      "s_mod_4": 3
+    }
+  ],
+  "bounded_exact_replay": {
+    "classification": "REPLAY OF THE SYMBOLIC THEOREM ONLY; NOT A SCAN INFERENCE",
+    "coefficient_rows": [
+      {
+        "A_s": "-11",
+        "U_s": "25/32",
+        "V_s": "-157/32",
+        "classification": "FIXED BOUNDED EXACT REPLAY OF THE SYMBOLIC ALL-s FORMULA",
+        "denominator_degree": 14,
+        "integer_forms": [
+          {
+            "D_nonzero_on_this_control": true,
+            "D_s_epsilon": 207570203138064384,
+            "a_s": -138412032,
+            "b_s_epsilon": 314572800,
+            "delta": 1,
+            "eta": 1,
+            "norm_identity": "D=eta*z^2-delta*b^2=-delta*Norm_(K/Q)(b+z*theta), where K=Q[T]/(T^2-delta*eta)",
+            "parity": 0,
+            "z": -553648128
+          },
+          {
+            "D_nonzero_on_this_control": true,
+            "D_s_epsilon": 4209194393917194240,
+            "a_s": -138412032,
+            "b_s_epsilon": -1975517184,
+            "delta": -1,
+            "eta": 1,
+            "norm_identity": "D=eta*z^2-delta*b^2=-delta*Norm_(K/Q)(b+z*theta), where K=Q[T]/(T^2-delta*eta)",
+            "parity": 1,
+            "z": -553648128
+          }
+        ],
+        "proved_uniform_alpha_denominator_bound": "3*2^14",
+        "proved_uniform_beta_denominator_bound": "3*2^12",
+        "s": 1
+      },
+      {
+        "A_s": "6517/8",
+        "U_s": "-55363/2048",
+        "V_s": "28357/2048",
+        "classification": "FIXED BOUNDED EXACT REPLAY OF THE SYMBOLIC ALL-s FORMULA",
+        "denominator_degree": 20,
+        "integer_forms": [
+          {
+            "D_nonzero_on_this_control": true,
+            "D_s_epsilon": 98419693063681487094392291328,
+            "a_s": 41985452802048,
+            "b_s_epsilon": -356673411612672,
+            "delta": 1,
+            "eta": 2,
+            "norm_identity": "D=eta*z^2-delta*b^2=-delta*Norm_(K/Q)(b+z*theta), where K=Q[T]/(T^2-delta*eta)",
+            "parity": 0,
+            "z": 335883622416384
+          },
+          {
+            "D_nonzero_on_this_control": true,
+            "D_s_epsilon": 259010733395993547669006974976,
+            "a_s": 41985452802048,
+            "b_s_epsilon": 182688581419008,
+            "delta": -1,
+            "eta": 2,
+            "norm_identity": "D=eta*z^2-delta*b^2=-delta*Norm_(K/Q)(b+z*theta), where K=Q[T]/(T^2-delta*eta)",
+            "parity": 1,
+            "z": 335883622416384
+          }
+        ],
+        "proved_uniform_alpha_denominator_bound": "3*2^18",
+        "proved_uniform_beta_denominator_bound": "3*2^22",
+        "s": 2
+      },
+      {
+        "A_s": "-103389/128",
+        "U_s": "36559809/262144",
+        "V_s": "18154851/262144",
+        "classification": "FIXED BOUNDED EXACT REPLAY OF THE SYMBOLIC ALL-s FORMULA",
+        "denominator_degree": 26,
+        "integer_forms": [
+          {
+            "D_nonzero_on_this_control": true,
+            "D_s_epsilon": 3665490032199338855186410792984258805760,
+            "a_s": -170516111526199296,
+            "b_s_epsilon": -60296902657154482176,
+            "delta": -1,
+            "eta": 1,
+            "norm_identity": "D=eta*z^2-delta*b^2=-delta*Norm_(K/Q)(b+z*theta), where K=Q[T]/(T^2-delta*eta)",
+            "parity": 0,
+            "z": -5456515568838377472
+          },
+          {
+            "D_nonzero_on_this_control": true,
+            "D_s_epsilon": -866762057901720796681165486506809229312,
+            "a_s": -170516111526199296,
+            "b_s_epsilon": -29942204662561112064,
+            "delta": 1,
+            "eta": 1,
+            "norm_identity": "D=eta*z^2-delta*b^2=-delta*Norm_(K/Q)(b+z*theta), where K=Q[T]/(T^2-delta*eta)",
+            "parity": 1,
+            "z": -5456515568838377472
+          }
+        ],
+        "proved_uniform_alpha_denominator_bound": "3*2^22",
+        "proved_uniform_beta_denominator_bound": "3*2^32",
+        "s": 3
+      },
+      {
+        "A_s": "-160741235/1024",
+        "U_s": "-2209797565/16777216",
+        "V_s": "-12326545165/16777216",
+        "classification": "FIXED BOUNDED EXACT REPLAY OF THE SYMBOLIC ALL-s FORMULA",
+        "denominator_degree": 32,
+        "integer_forms": [
+          {
+            "D_nonzero_on_this_control": true,
+            "D_s_epsilon": 154408881736681970904404668849822847350837818163200,
+            "a_s": -135733906134201249300480,
+            "b_s_epsilon": 1866008154430918015057920,
+            "delta": -1,
+            "eta": 2,
+            "norm_identity": "D=eta*z^2-delta*b^2=-delta*Norm_(K/Q)(b+z*theta), where K=Q[T]/(T^2-delta*eta)",
+            "parity": 0,
+            "z": -8686969992588879955230720
+          },
+          {
+            "D_nonzero_on_this_control": true,
+            "D_s_epsilon": 42582902696360417501413534702559560511183545958400,
+            "a_s": -135733906134201249300480,
+            "b_s_epsilon": 10408842039723672962334720,
+            "delta": 1,
+            "eta": 2,
+            "norm_identity": "D=eta*z^2-delta*b^2=-delta*Norm_(K/Q)(b+z*theta), where K=Q[T]/(T^2-delta*eta)",
+            "parity": 1,
+            "z": -8686969992588879955230720
+          }
+        ],
+        "proved_uniform_alpha_denominator_bound": "3*2^26",
+        "proved_uniform_beta_denominator_bound": "3*2^42",
+        "s": 4
+      },
+      {
+        "A_s": "24373495175/32768",
+        "U_s": "-10155740579725/4294967296",
+        "V_s": "10807395411025/4294967296",
+        "classification": "FIXED BOUNDED EXACT REPLAY OF THE SYMBOLIC ALL-s FORMULA",
+        "denominator_degree": 38,
+        "integer_forms": [
+          {
+            "D_nonzero_on_this_control": true,
+            "D_s_epsilon": -750100581890480153383842938172236483510174654289747640320000,
+            "a_s": 2634443130908317972640563200,
+            "b_s_epsilon": -1097697347772502440585619046400,
+            "delta": 1,
+            "eta": 1,
+            "norm_identity": "D=eta*z^2-delta*b^2=-delta*Norm_(K/Q)(b+z*theta), where K=Q[T]/(T^2-delta*eta)",
+            "parity": 0,
+            "z": 674417441512529400995984179200
+          },
+          {
+            "D_nonzero_on_this_control": true,
+            "D_s_epsilon": 1819372111554306680738902957499926219076021565902762803200000,
+            "a_s": 2634443130908317972640563200,
+            "b_s_epsilon": 1168132366702507162989074841600,
+            "delta": -1,
+            "eta": 1,
+            "norm_identity": "D=eta*z^2-delta*b^2=-delta*Norm_(K/Q)(b+z*theta), where K=Q[T]/(T^2-delta*eta)",
+            "parity": 1,
+            "z": 674417441512529400995984179200
+          }
+        ],
+        "proved_uniform_alpha_denominator_bound": "3*2^30",
+        "proved_uniform_beta_denominator_bound": "3*2^52",
+        "s": 5
+      },
+      {
+        "A_s": "6164597613027/262144",
+        "U_s": "4266522023635179/274877906944",
+        "V_s": "492022610178771/274877906944",
+        "classification": "FIXED BOUNDED EXACT REPLAY OF THE SYMBOLIC ALL-s FORMULA",
+        "denominator_degree": 44,
+        "integer_forms": [
+          {
+            "D_nonzero_on_this_control": true,
+            "D_s_epsilon": 5270390625526015735642555478377802656799224480419934903653943417503744,
+            "a_s": 341150263454729580111852151504896,
+            "b_s_epsilon": 236110319564530565187341995361697792,
+            "delta": 1,
+            "eta": 2,
+            "norm_identity": "D=eta*z^2-delta*b^2=-delta*Norm_(K/Q)(b+z*theta), where K=Q[T]/(T^2-delta*eta)",
+            "parity": 0,
+            "z": 174668934888821545017268301570506752
+          },
+          {
+            "D_nonzero_on_this_control": true,
+            "D_s_epsilon": 61759872766446180979732129259546421434702320841216167889055698619727872,
+            "a_s": 341150263454729580111852151504896,
+            "b_s_epsilon": 27228645505339046558505504035831808,
+            "delta": -1,
+            "eta": 2,
+            "norm_identity": "D=eta*z^2-delta*b^2=-delta*Norm_(K/Q)(b+z*theta), where K=Q[T]/(T^2-delta*eta)",
+            "parity": 1,
+            "z": 174668934888821545017268301570506752
+          }
+        ],
+        "proved_uniform_alpha_denominator_bound": "3*2^34",
+        "proved_uniform_beta_denominator_bound": "3*2^62",
+        "s": 6
+      },
+      {
+        "A_s": "-99038141261838531/33554432",
+        "U_s": "-273037701659513850909/2251799813685248",
+        "V_s": "635257100021751302211/2251799813685248",
+        "classification": "FIXED BOUNDED EXACT REPLAY OF THE SYMBOLIC ALL-s FORMULA",
+        "denominator_degree": 56,
+        "integer_forms": [
+          {
+            "D_nonzero_on_this_control": true,
+            "D_s_epsilon": 21238718511949578955936742401532989475307468081426093436545151923459087907016422723984293888,
+            "a_s": -718378596588465423378776288841740882804736,
+            "b_s_epsilon": 1980493963586534271519988913423200034073083904,
+            "delta": -1,
+            "eta": 2,
+            "norm_identity": "D=eta*z^2-delta*b^2=-delta*Norm_(K/Q)(b+z*theta), where K=Q[T]/(T^2-delta*eta)",
+            "parity": 0,
+            "z": -2942478731626354374159467679095770655968198656
+          },
+          {
+            "D_nonzero_on_this_control": true,
+            "D_s_epsilon": -3916124609461306187942873363896309730405073725543450164773957157732144129598303880226013184,
+            "a_s": -718378596588465423378776288841740882804736,
+            "b_s_epsilon": -4607872261858848947714144331511989307824930816,
+            "delta": 1,
+            "eta": 2,
+            "norm_identity": "D=eta*z^2-delta*b^2=-delta*Norm_(K/Q)(b+z*theta), where K=Q[T]/(T^2-delta*eta)",
+            "parity": 1,
+            "z": -2942478731626354374159467679095770655968198656
+          }
+        ],
+        "proved_uniform_alpha_denominator_bound": "3*2^42",
+        "proved_uniform_beta_denominator_bound": "3*2^82",
+        "s": 8
+      }
+    ],
+    "residue_rows": [
+      {
+        "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+        "closed_residue_mod_p": 0,
+        "container_mod_p": 0,
+        "delta": -1,
+        "direct_Item229_c_mod_p": 0,
+        "h": 1,
+        "h_parity": 1,
+        "p": 13,
+        "s": 1,
+        "w_mod_p": 2
+      },
+      {
+        "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+        "closed_residue_mod_p": 15,
+        "container_mod_p": 16,
+        "delta": 1,
+        "direct_Item229_c_mod_p": 15,
+        "h": 2,
+        "h_parity": 0,
+        "p": 17,
+        "s": 1,
+        "w_mod_p": 13
+      },
+      {
+        "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+        "closed_residue_mod_p": 17,
+        "container_mod_p": 6,
+        "delta": -1,
+        "direct_Item229_c_mod_p": 17,
+        "h": 1,
+        "h_parity": 1,
+        "p": 19,
+        "s": 2,
+        "w_mod_p": 2
+      },
+      {
+        "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+        "closed_residue_mod_p": 9,
+        "container_mod_p": 0,
+        "delta": 1,
+        "direct_Item229_c_mod_p": 9,
+        "h": 2,
+        "h_parity": 0,
+        "p": 23,
+        "s": 2,
+        "w_mod_p": 19
+      },
+      {
+        "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+        "closed_residue_mod_p": 0,
+        "container_mod_p": 0,
+        "delta": 1,
+        "direct_Item229_c_mod_p": 0,
+        "h": 8,
+        "h_parity": 0,
+        "p": 47,
+        "s": 2,
+        "w_mod_p": 21
+      },
+      {
+        "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+        "closed_residue_mod_p": 2,
+        "container_mod_p": 19,
+        "delta": -1,
+        "direct_Item229_c_mod_p": 2,
+        "h": 2,
+        "h_parity": 0,
+        "p": 29,
+        "s": 3,
+        "w_mod_p": 25
+      },
+      {
+        "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+        "closed_residue_mod_p": 29,
+        "container_mod_p": 6,
+        "delta": -1,
+        "direct_Item229_c_mod_p": 29,
+        "h": 4,
+        "h_parity": 0,
+        "p": 37,
+        "s": 3,
+        "w_mod_p": 16
+      },
+      {
+        "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+        "closed_residue_mod_p": 2,
+        "container_mod_p": 13,
+        "delta": 1,
+        "direct_Item229_c_mod_p": 2,
+        "h": 1,
+        "h_parity": 1,
+        "p": 31,
+        "s": 4,
+        "w_mod_p": 2
+      },
+      {
+        "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+        "closed_residue_mod_p": 16,
+        "container_mod_p": 0,
+        "delta": -1,
+        "direct_Item229_c_mod_p": 16,
+        "h": 4,
+        "h_parity": 0,
+        "p": 43,
+        "s": 4,
+        "w_mod_p": 16
+      },
+      {
+        "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+        "closed_residue_mod_p": 8,
+        "container_mod_p": 16,
+        "delta": -1,
+        "direct_Item229_c_mod_p": 8,
+        "h": 1,
+        "h_parity": 1,
+        "p": 37,
+        "s": 5,
+        "w_mod_p": 2
+      },
+      {
+        "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+        "closed_residue_mod_p": 29,
+        "container_mod_p": 26,
+        "delta": 1,
+        "direct_Item229_c_mod_p": 29,
+        "h": 2,
+        "h_parity": 0,
+        "p": 41,
+        "s": 5,
+        "w_mod_p": 37
+      },
+      {
+        "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+        "closed_residue_mod_p": 31,
+        "container_mod_p": 30,
+        "delta": -1,
+        "direct_Item229_c_mod_p": 31,
+        "h": 1,
+        "h_parity": 1,
+        "p": 43,
+        "s": 6,
+        "w_mod_p": 2
+      },
+      {
+        "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+        "closed_residue_mod_p": 40,
+        "container_mod_p": 19,
+        "delta": 1,
+        "direct_Item229_c_mod_p": 40,
+        "h": 2,
+        "h_parity": 0,
+        "p": 47,
+        "s": 6,
+        "w_mod_p": 43
+      },
+      {
+        "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+        "closed_residue_mod_p": 17,
+        "container_mod_p": 47,
+        "delta": -1,
+        "direct_Item229_c_mod_p": 17,
+        "h": 2,
+        "h_parity": 0,
+        "p": 53,
+        "s": 7,
+        "w_mod_p": 49
+      },
+      {
+        "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+        "closed_residue_mod_p": 38,
+        "container_mod_p": 26,
+        "delta": -1,
+        "direct_Item229_c_mod_p": 38,
+        "h": 2,
+        "h_parity": 0,
+        "p": 59,
+        "s": 8,
+        "w_mod_p": 55
+      }
+    ]
+  },
+  "denominator_and_height_audit": {
+    "A_s_denominator_divides": "3*2^(4s+10)",
+    "B_s_coordinate_denominators_divide": "3*2^(10s+2)",
+    "Lambda_is_p_unit": "yes for every actual p>=13",
+    "Lambda_prime_support": [
+      2,
+      3
+    ],
+    "coefficient_extraction_orders": [
+      "2s+5",
+      "2s"
+    ],
+    "height": "log max(1,|a_s|,|b_s,0|,|b_s,1|,|D_s,0|,|D_s,1|)=O(s)",
+    "integer_container_algebraic_degree": 1,
+    "integer_container_prime_support": "UNCONTROLLED; only total logarithmic height is proved",
+    "rational_source_denominator_degree": "6s+8"
+  },
+  "dependencies": {
+    "Item307_base_sha256": "b6ac3e1d623fe55c0887ac922b778c2b9457c24607e6aeb606aa4aecf8e3dce5",
+    "Item307_pinned_dependencies": {
+      "results/item237_j1_algebraic_residual_certificate.json": "eba1519f4d376d442f396048528190b474cc5464bbe42c3bdf31a9bdaf39dd6b",
+      "results/item243_order6_gauge_closure_certificate.json": "0ec0052ea270a84828cb1934373ad05e8e5b00cbf72e0d970ff805e716078546",
+      "results/item264_j1_weighted_gate_certificate.json": "08010c633f3baf5e075e892c5c786a5d9f686bf26d940fb10da6b9f46de196d2",
+      "results/item288_j1_large_prime_redundancy_certificate.json": "fde756a5dff3b482bb38e342c4d26871dec90c32a7868110ba4f3186ba70b738",
+      "scripts/item222_j1_phase_resultant_certificate.py": "c16f75156ba8424c567163cedc6a93a7656c8a53036b48ef69b06327d76ad44b",
+      "scripts/item229_j1_fixed_h_theta_certificate.py": "a8e2028ca6a53f8c843c25be375feac50e4704538686ee1e3a835f89aa11780f",
+      "scripts/item237_j1_algebraic_residual_certificate.py": "f89047396e3f6b4644cf0194b7716dfad91b3eb41de7b88c9377cf3e81d09dcf",
+      "scripts/item243_order6_gauge_closure_certificate.py": "d619e0809aaa89b5d11cbe30a92a3e7f8cf14237f45dd066aedf84e017bbfdd8",
+      "scripts/item264_j1_weighted_gate_certificate.py": "a91d0905ecd73ba8406902a5c33ff5f6c21c5b67fce65a91b087ec6cf79bf733",
+      "scripts/item288_j1_large_prime_redundancy_certificate.py": "89c9ffcb5496bfd208cfe55a2fceb2d37060c07493d01f17013d9e8c4303b189",
+      "sources/item237_j1_algebraic_residual_report.md": "dd1278d5ec6e3960d5539f3b349f2245449d4801663beb7915140d722a62c569",
+      "sources/item264_j1_weighted_gate_report.md": "767005f8fad07b1fa633bfdd23436e36c7cdef346d032030390c437f207c9344"
+    },
+    "all_s_gauge_unit_extension": "p=4h+6s+3>=4h+9; every gauge recurrence factor is <=4h+3 and every base/constant prime is <=11",
+    "upstream_theorems": {
+      "Item237_coefficient_formula": "PROVED and pinned",
+      "Item243_all_h_gauge": "c_h^*=R_h E_h^* for all h>=1 with 3 not dividing h.",
+      "Item264_fixed_M_normalization": "PROVED and pinned; retained ceiling 1/36 per 6M",
+      "Item288_actual_row_gauge_unit": "for h>=1, 3 not dividing h, c_h=G_h*E_h with G_h a unit in that localization"
+    }
+  },
+  "exact_all_s_definitions": {
+    "G_s": "N_s/((1-t)^(2s+6)*(t^2-2t+2)^(2s+1))",
+    "Lambda_s": "3*2^(10s+10)",
+    "N_s": "(12+(80s-4)t-(224s+8)t^2+(256s+16)t^3-(138s+9)t^4+(30s+3)t^5)/3",
+    "X_s": "2^(2s)A_s",
+    "Y_s_0": "delta_s_0*2^(5s+2)*Re(B_s)",
+    "Y_s_1": "-delta_s_1*2^(5s+2)*Im(B_s)",
+    "aggregate_A_s": "-[x^(2s+5)](1+x)^(3s+1/2)N_s(1+x)/(1+x^2)^(2s+1)",
+    "aggregate_B_s": "[x^(2s)](1+x)^(3s+1/2)N_s((1-i)(1+x))/(2^(2s+1)i^(2s+6)(1+i)^(2s+1)(1+(1+i)x)^(2s+6)(1+lambda*x)^(2s+1))",
+    "cleared_a_s": "Lambda_s*X_s",
+    "cleared_b_s_epsilon": "Lambda_s*Y_s_epsilon",
+    "container": "D_s_epsilon=2^(3s+1)a_s^2-delta_s_epsilon*b_s_epsilon^2",
+    "delta": "(-1)^(s(s+1)/2+1+epsilon)=(2/p)",
+    "lambda": "(1+i)/2",
+    "necessary_divisor": "ordinary collision => E_h^*=0 => c_h^*=0 => p|D_s_epsilon",
+    "residue": "c_h^*=Lambda_s^(-1)(a_s+b_s_epsilon*w_h) mod p",
+    "w_h": "(-1)^floor(h/2)*2^h"
+  },
+  "fixed_M_admission": {
+    "S_M": "{s>=1:4s<=M-5 and s=M+1 mod 3}",
+    "candidate_prime_interval": "[(4M+3)/3,(3M-1)/2]",
+    "comparison_information_class_no_go": {
+      "actual_index_check": "s>=rho*M implies p_s<=(3M-1)/2<2s/rho, so p_s divides P_s^(rho)",
+      "arbitrarily_small_rho_consequence": "the retained coefficient approaches the raw 1/6 (1/36 per 6M)",
+      "comparison_container": "D_tilde=(P_s^(rho))^2*(2^(3s+1)-delta_s_epsilon)",
+      "comparison_linear_form": "a_tilde=b_tilde=P_s^(rho)",
+      "comparison_prime_product": "P_s^(rho)=product of primes q<=2s/rho; fixed in s and M-independent",
+      "exact_rho_1_over_10_control": {
+        "retained_mass_coefficient": "1/10",
+        "retained_per_6M": "1/60"
+      },
+      "generic_parameter": "any fixed 0<rho<1/4",
+      "height": "log|D_tilde|=O_rho(s)",
+      "retained_mass": "(1/6-2rho/3)M+o(M)",
+      "retained_per_6M": "1/36-rho/9+o(1)",
+      "scope": "INFORMATION-CLASS NO-GO ONLY; the comparison family is not the actual E_h^* or D_s_epsilon sequence"
+    },
+    "h_s": "(M-4s-2)/3",
+    "new_capacity_reduction": "ZERO",
+    "number_of_containers": "M/12+O(1)",
+    "p_s": "(4M+2s+1)/3",
+    "product_height": "O(M^2), so absolute product height is inadmissible",
+    "raw_log_mass": "M/6+o(M)=1/36 per 6M",
+    "retained_fixed_j1_ceiling_per_6M": "1/36"
+  },
+  "item": 308,
+  "schema": "item308-j1-all-s-fixed-divisor-no-go-v1",
+  "strict_labels": {
+    "Route_1_and_any_conclusion_about_e_plus_pi": "OPEN",
+    "actual_off_ray_weighted_density_W_off_o_M": "OPEN",
+    "all_s_denominator_p_unit_audit": "PROVED",
+    "all_s_quadratic_norm_identity": "PROVED",
+    "all_s_residue_and_container_formula": "PROVED",
+    "capacity_booking": "ZERO",
+    "container_weighted_density_W_D_o_M": "OPEN",
+    "factorization_or_prime_scan": "NONE",
+    "height_only_information_class_no_go": "PROVED",
+    "linear_log_height": "PROVED",
+    "uniform_D_nonzero_or_factor_localization": "OPEN"
+  },
+  "symbolic_all_s_source_audit": {
+    "N_s_coefficients_low_to_high_as_constant_plus_s_coefficient": [
+      [
+        "4",
+        "0"
+      ],
+      [
+        "-4/3",
+        "80/3"
+      ],
+      [
+        "-8/3",
+        "-224/3"
+      ],
+      [
+        "16/3",
+        "256/3"
+      ],
+      [
+        "-3",
+        "-46"
+      ],
+      [
+        "1",
+        "10"
+      ]
+    ],
+    "classification": "SYMBOLIC IDENTITY FOR EVERY INTEGER s>=1",
+    "denominator_degree": "6s+8",
+    "gaussian_pole_extraction_degree": "2s (even sign)",
+    "gaussian_pole_order": "2s+1",
+    "identity_ring": "Q[s,t]",
+    "negative_binomial_top": "3s+1/2",
+    "one_pole_extraction_degree": "2s+5 (odd sign)",
+    "one_pole_order": "2s+6",
+    "special_index": "-(6s+3)/2"
+  },
+  "title": "all-s fixed divisors for the pinned j=1 orbit and the height-information no-go"
+}

@@ -1,0 +1,46 @@
+{
+  "schema": "item351-j1-companion-window-rank-obstruction-self-audit-v1",
+  "item": 351,
+  "date": "2026-09-01",
+  "verdict": "PASS_SCOPED_ZERO_BOOKING_PACKAGE",
+  "mathematical_checks": {
+    "Hasse_Taylor_matrix": "leading Pascal minor is triangular with determinant 1",
+    "multiplicity_equivalence": "Taylor expansion at z=1 gives D_0=...=D_w=0 iff (z-1)^(w+1)|H",
+    "Frobenius_window": "G^(p-r)=G(u^p)G^(-r) and G(u^p)=1+O(u^p)",
+    "recurrence": "coefficient extraction from G A_r'=-r G' A_r independently checked",
+    "transfer_determinant": "4(m+3r-2)/(m+1), nonzero for 0<=m<=2n+1",
+    "three_zero_propagation": "the backward coefficient lies in [1,p-1] through upper index 2n+2",
+    "fixed_M_row_step": "(h,s)->(h+4q,s-3q) gives p->p-2q",
+    "bounded_pair_capacity": "two-linear-form upper-bound sieve gives O(M/log^2 M) rows and o(M) log weight"
+  },
+  "logical_checks": {
+    "ordinary_collision_implies_selected_zero_only": true,
+    "selected_zero_converse_not_claimed": true,
+    "p47_control_not_claimed_full_collision": true,
+    "finite_control_not_used_for_density": true,
+    "ambient_rank_not_confused_with_actual_orbit_arithmetic": true,
+    "paired_prime_zero_rate_not_applied_to_isolated_rows": true,
+    "arbitrary_growing_offset_union_not_claimed_zero_rate": true,
+    "geometric_F_crystal_or_unit_root_not_claimed": true,
+    "weighted_density_not_claimed": true
+  },
+  "reproducibility": {
+    "prime_scans": 0,
+    "declared_actual_rows": 1,
+    "declared_symbolic_Pascal_minors": 7,
+    "certificate_replay_required_byte_identical": true,
+    "canonical_files_modified": false
+  },
+  "capacity": {
+    "new_forced_independent_condition": 0,
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "booking": 0,
+    "retained_ceiling_per_6M": "1/36"
+  },
+  "open_risks": [
+    "full-collision information absent from the selected gate could conceivably force a second condition",
+    "the actual initial-value orbit could obey a new global arithmetic identity",
+    "multiple-root weighted density remains unknown"
+  ]
+}

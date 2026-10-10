@@ -1,0 +1,75 @@
+{
+  "item": 374,
+  "schema": "item374-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_EXACT_FILTERED_HASSE_REALIZATION_WITH_HORIZONTAL_INFORMATION_NEUTRALITY",
+  "scope": "independent root audit of the rank-two strongly generated filtered Frobenius construction, graded Hasse coordinate, isocrystal blindness, residue unipotent product, pointwise support bound, Teichmueller carry, and zero booking",
+  "checks": {
+    "work_hash_list_entries": 6,
+    "work_hash_list_failures": 0,
+    "frozen_dependencies_checked": 16,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "independent_filtered_matrix_check": true,
+    "independent_strong_generation_check": true,
+    "independent_unipotent_product_check": true,
+    "predeclared_actual_rows": 4,
+    "declared_nonidentity_support_lower_bounds": [
+      140,
+      250,
+      2100,
+      11658
+    ],
+    "declared_Teichmueller_carries": [
+      2,
+      11,
+      17,
+      0
+    ],
+    "prime_or_collision_census_performed": false,
+    "density_inference_from_controls": false,
+    "canonical_format_repair": "none"
+  },
+  "mathematical_audit": {
+    "filtered_module": "With Fil^1=W e1, phi1(e1)=e1+q e2, phi0(e1)=p phi1(e1), and phi0(e2)=e2, the divided images have determinant one and strongly generate M.",
+    "full_Frobenius": "The full matrix [[p,0],[p q,1]] has determinant p and characteristic polynomial (X-p)(X-1), so it is invertible after p is inverted and its semisimple isocrystal data are independent of q.",
+    "graded_Hasse": "Reducing phi1(e1) and projecting to M/(Fil^1+pM) gives multiplication by q. Taking q=Q0 realizes the actual transverse divisor exactly without making the full Frobenius singular.",
+    "minimality": "In rank one, either the Fil^1 source or the complementary graded target is zero. Rank two is minimal for this specific nontrivial scalar graded-Hasse architecture.",
+    "unipotent_product": "The identity U(x)U(y)=U(x+y) turns Item369's additive local moment into an invertible residue-level product U(Q0), genuinely escaping the full-determinant product obstruction.",
+    "support": "Factoring R(x) gives zero-count upper bounds 4, 2(p-1), and 2|h-s| for its three nonmonomial factors. Thus at least p^2-1-[4+2(p-1)+2|h-s|] factors are nonidentity, which is p^2-O(p) on actual rows.",
+    "horizontal_neutrality": "Every residue q admits the same fixed-rank and fixed-Hodge construction, and all q have the same full characteristic polynomial. The rowwise object therefore inserts rather than constrains Q0.",
+    "lift_scope": "Naive Teichmueller lifts are not additive and declared rows exhibit nonzero first carries. This does not rule out a structured Witt or crystalline extension lift.",
+    "capacity": "No prime-independent horizontal family or distribution theorem is constructed. The 1/36 fixed-j1 ceiling and booking zero remain unchanged."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "minimal rank-two strongly generated filtered-Hasse realization of Q0",
+      "fixed Hodge weights and full isocrystal invertibility",
+      "exact residue unipotent local-product identity",
+      "quadratically growing nonidentity pointwise support",
+      "semisimple characteristic-polynomial blindness and rowwise information-neutrality",
+      "nontrivial naive Teichmueller carries on declared rows",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "four predeclared filtered-module and first-carry controls; no density inference"
+    ],
+    "OPEN": [
+      "prime-independent geometric or compatible extension family realizing the actual Q0",
+      "bounded-base, bounded-connection, bounded-conductor horizontal control",
+      "selector-aware extension-class nonconcentration or average gcd",
+      "weighted joint-zero density, any strict fixed-j1 ceiling reduction, Route 1, and e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_log_mass": "M/6+o(M)",
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "new_exact_Hasse_realization": 1,
+    "new_independent_collision_condition": 0,
+    "new_linear_log_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

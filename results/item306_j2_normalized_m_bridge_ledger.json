@@ -1,0 +1,72 @@
+{
+  "schema": "item306-j2-normalized-m-bridge-ledger-v1",
+  "scope": "All-n normalized ordinary-j2 M-bridge on both rays, including exact Hermite shifts, meromorphic-beta endpoints, full tensor cancellation, recurrence membership, algebraic-line identification, pole audit, and zero-booking verdict",
+  "claims": [
+    {
+      "id": "I306-C1",
+      "label": "PROVED",
+      "claim": "The beta-functional reversal identifies M_r as eta(r) times Im(A_r conjugate(B_r)), and eta(r+6)/eta(r)=64(r+3)(2r+3)(2r+9)/[27r(r+2)(r+4)].",
+      "evidence": "report Section 2; certificate endpoint_and_continuation and hermite_and_tensor.eta_step"
+    },
+    {
+      "id": "I306-C2",
+      "label": "PROVED",
+      "claim": "The selected meromorphic Euler/Beta functional kills every exact Hermite derivative by L Beta(L/2,gamma+1)=2 gamma Beta(L/2+1,gamma); no ordinary divergent endpoint is discarded.",
+      "evidence": "report Section 3; certificate endpoint_and_continuation"
+    },
+    {
+      "id": "I306-C3",
+      "label": "PROVED",
+      "claim": "All eight cleared Hermite reductions for shifts 0,1,2,3 in the two companions hold identically over Q(r); the minus chart is the exact conjugate.",
+      "evidence": "report Section 4; three terminal zero polynomials per nontrivial reduction in the certificate"
+    },
+    {
+      "id": "I306-C4",
+      "label": "PROVED",
+      "claim": "All three independent exterior tensor numerators and all nine restored plus/minus tensor coordinates vanish identically after exact denominator clearing.",
+      "evidence": "report Section 5; certificate hermite_and_tensor.tensor_cancellation and full_3_by_3_tensor_cancellation"
+    },
+    {
+      "id": "I306-C5",
+      "label": "PROVED",
+      "claim": "The normalized sequence Z_n=16^n M_(6n+e)/g_n satisfies Item 237's exact order-three step-six recurrence on e=1 and e=5 for every n>=0.",
+      "evidence": "report Section 5"
+    },
+    {
+      "id": "I306-C6",
+      "label": "PROVED",
+      "claim": "Three exact initials on each ray and the nonzero forward coefficient identify Z_n with lambda_e[x^(6n+e)]C(x) for all n, where lambda_1=-891/100 and lambda_5=3897234/41405.",
+      "evidence": "report Section 6; certificate initial_bridge"
+    },
+    {
+      "id": "I306-C7",
+      "label": "PROVED",
+      "claim": "Every beta, Hermite, primitive, eta, gauge, and forward-recurrence denominator is nonzero on the actual rays r=6n+1 and r=6n+5; there is no exceptional actual r.",
+      "evidence": "report Section 7; certificate pole_and_forward_audit"
+    },
+    {
+      "id": "I306-C8",
+      "label": "OPEN",
+      "claim": "The independent L minor, all-prime nonvanishing, Frobenius or monodromy input, weighted zero density, and any capacity saving remain open."
+    },
+    {
+      "id": "I306-C9",
+      "label": "EXACT FINITE ONLY",
+      "claim": "No finite prefix is used to promote recurrence membership; the six exact rows are logically necessary initials, and all older extra rows remain implementation replays only."
+    }
+  ],
+  "strict_labels": {
+    "beta_period_normalization": "PROVED",
+    "meromorphic_endpoint_functional": "PROVED",
+    "eight_Hermite_reductions": "PROVED",
+    "three_exterior_and_nine_full_tensor_coordinates": "PROVED",
+    "normalized_M_recurrence_membership": "PROVED",
+    "all_n_algebraic_coefficient_bridge": "PROVED",
+    "complete_actual_ray_pole_audit": "PROVED",
+    "independent_L_minor": "OPEN",
+    "all_prime_nonvanishing_and_weighted_density": "OPEN",
+    "extra_bounded_rows": "EXACT FINITE ONLY",
+    "positive_linear_capacity_admission": "FAIL",
+    "booking": "zero new Route-1 rate and zero ordinary-j2 capacity reduction"
+  }
+}

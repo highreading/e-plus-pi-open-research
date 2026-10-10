@@ -1,0 +1,152 @@
+{
+  "crt_ratio_checks": 100,
+  "description": "Exact regression replay for the primitive Roth normalization, native quotient coefficient, prime-denominator survival, and high-order sparse-localizer specialization.",
+  "exact_row_digest_sha256": "090141dd6c04d1a33add05c468a7997476f45b593d781b0169095a64c6c79c56",
+  "forced_prefix_coefficient_checks": 13068,
+  "full_output_survival_checks": 1395,
+  "gaussian_checks": 11,
+  "prime_valuation_checks": 1395,
+  "primitive_normalization_checks": 242,
+  "quotient_checks": 242,
+  "roth_exponent_example": {
+    "beta_times_2_plus_epsilon": "22/25",
+    "delta": "1/10",
+    "epsilon": "1/5"
+  },
+  "schema": "common_kernel_roth_high_order_content_obstruction_v1",
+  "scope": "Finite rows check identities only. The theorem obstructs sign-controlled localizers with ord_0(h) >= (1/2+eta)deg(h); it does not cover the 20q versus 48q+13 CRT family.",
+  "selected_rows": [
+    {
+      "D_digits": 11,
+      "M_N": 2,
+      "N": 2,
+      "Q_digits": 11,
+      "degree_h": 28,
+      "g_digits": 1,
+      "m": 6,
+      "order_h": 24,
+      "predicted_prime_count": 3
+    },
+    {
+      "D_digits": 23,
+      "M_N": 2,
+      "N": 2,
+      "Q_digits": 23,
+      "degree_h": 52,
+      "g_digits": 1,
+      "m": 12,
+      "order_h": 48,
+      "predicted_prime_count": 6
+    },
+    {
+      "D_digits": 42,
+      "M_N": 2,
+      "N": 2,
+      "Q_digits": 42,
+      "degree_h": 100,
+      "g_digits": 1,
+      "m": 24,
+      "order_h": 96,
+      "predicted_prime_count": 9
+    },
+    {
+      "D_digits": 10,
+      "M_N": 28,
+      "N": 4,
+      "Q_digits": 12,
+      "degree_h": 28,
+      "g_digits": 1,
+      "m": 6,
+      "order_h": 24,
+      "predicted_prime_count": 3
+    },
+    {
+      "D_digits": 21,
+      "M_N": 28,
+      "N": 4,
+      "Q_digits": 23,
+      "degree_h": 52,
+      "g_digits": 1,
+      "m": 12,
+      "order_h": 48,
+      "predicted_prime_count": 6
+    },
+    {
+      "D_digits": 40,
+      "M_N": 28,
+      "N": 4,
+      "Q_digits": 41,
+      "degree_h": 100,
+      "g_digits": 1,
+      "m": 24,
+      "order_h": 96,
+      "predicted_prime_count": 9
+    },
+    {
+      "D_digits": 10,
+      "M_N": 40304,
+      "N": 8,
+      "Q_digits": 15,
+      "degree_h": 28,
+      "g_digits": 1,
+      "m": 6,
+      "order_h": 24,
+      "predicted_prime_count": 3
+    },
+    {
+      "D_digits": 21,
+      "M_N": 40304,
+      "N": 8,
+      "Q_digits": 26,
+      "degree_h": 52,
+      "g_digits": 1,
+      "m": 12,
+      "order_h": 48,
+      "predicted_prime_count": 6
+    },
+    {
+      "D_digits": 41,
+      "M_N": 40304,
+      "N": 8,
+      "Q_digits": 45,
+      "degree_h": 100,
+      "g_digits": 1,
+      "m": 24,
+      "order_h": 96,
+      "predicted_prime_count": 9
+    },
+    {
+      "D_digits": 11,
+      "M_N": 479001664,
+      "N": 12,
+      "Q_digits": 19,
+      "degree_h": 28,
+      "g_digits": 1,
+      "m": 6,
+      "order_h": 24,
+      "predicted_prime_count": 3
+    },
+    {
+      "D_digits": 22,
+      "M_N": 479001664,
+      "N": 12,
+      "Q_digits": 31,
+      "degree_h": 52,
+      "g_digits": 1,
+      "m": 12,
+      "order_h": 48,
+      "predicted_prime_count": 6
+    },
+    {
+      "D_digits": 42,
+      "M_N": 479001664,
+      "N": 12,
+      "Q_digits": 50,
+      "degree_h": 100,
+      "g_digits": 1,
+      "m": 24,
+      "order_h": 96,
+      "predicted_prime_count": 9
+    }
+  ]
+}

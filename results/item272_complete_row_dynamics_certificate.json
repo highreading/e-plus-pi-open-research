@@ -1,0 +1,198 @@
+{
+  "canonical_reconstruction": {
+    "coordinate_equalities": 84,
+    "label": "EXACT FINITE ONLY independent equality replay",
+    "phase_rows": 12,
+    "row_digest": "def87961c34987459cc1f25757f4e1ddb508641ce150b50c7279fcae62246f93"
+  },
+  "complete_row_admission": {
+    "closed_entries": [
+      "B_s",
+      "kappa_r",
+      "tau_(r,s)",
+      "D_delta",
+      "c"
+    ],
+    "fixed_incidence": "conditional only; the universal Item269 incidence still has an external moving row matrix",
+    "full_row_entries": [
+      "f0",
+      "f1",
+      "U0",
+      "U1",
+      "B_s",
+      "kappa_r",
+      "tau_(r,s)",
+      "D_delta"
+    ],
+    "new_capacity_reduction": 0,
+    "nontrivial_geometric_monodromy_theorem": false,
+    "raw_capacity": "2/35 per M = 1/105 per 6M",
+    "smallest_missing_block": "W=(f0,f1,U0,U1), equivalently the q-independent refinement (f0,f1,P0,P1,H0,H1)",
+    "uniform_conductor_theorem": false,
+    "uniform_local_density_theorem": false
+  },
+  "dependencies": {
+    "item250_j2_ordinary_phase_certificate.py": "2364a9e9c9be0ea0827c2b12137883ad326d77017a53bb4f242be300335e90ce",
+    "item271_auxiliary_dynamics_certificate.py": "27821646fc3120713082f6f7e848970f16a3ed03cc74d65ccd0cf236a5ff0fdf"
+  },
+  "endpoint_and_literal_state": {
+    "exact_endpoint": {
+      "U0": "-81*c-33",
+      "delta": 1,
+      "f0": "0",
+      "phase": 5,
+      "r": 1,
+      "row0": "(U0,0,0)"
+    },
+    "literal_item250_state": {
+      "J_indices": "0<=k<=r+4",
+      "consequence": "the literal basis is neither bounded-dimensional nor invariant",
+      "dimension_growth": "at least r+5 affine J states before coefficient arrays",
+      "parameter": "Qbar=-(2r+3)/3",
+      "shift": "r->r+6 sends Qbar->Qbar-4 and adds six J indices"
+    }
+  },
+  "open": [
+    "construct and prove a higher-rank or higher-degree translation update for W=(f0,f1,U0,U1)",
+    "regularize the actual reductions on Item271's D-pole divisor",
+    "construct a compatible uniform-conductor lisse or crystalline realization with nontrivial monodromy",
+    "prove a uniform local-density theorem for the complete fixed incidence",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "partial_module": {
+    "forward_range": "s>=3",
+    "label": "ratios are proved algebraically; these bounded values are EXACT FINITE ONLY replay",
+    "rank_seven_state": [
+      "1",
+      "c",
+      "B_s",
+      "kappa_r",
+      "tau_(r,s)",
+      "D_delta",
+      "Delta_delta"
+    ],
+    "ratio_row_digest": "723106b2ee2968734d17ee6271de288bdaf7f33d467fab3753ffa846a0fcdb1e",
+    "scalar_ratio_equalities": 96,
+    "slope_block_equalities": 27,
+    "slope_singular_divisor": "P2^(e)(delta)=0, together with infinity"
+  },
+  "rank_one_exclusion": {
+    "all_reduced_sequence_denominators_unit_at_both_certificate_primes": true,
+    "evaluation_matrix": "27 x 16",
+    "full_rank_results": [
+      {
+        "phase": 5,
+        "ranks": {
+          "1000000007": 16,
+          "1000000009": 16
+        },
+        "sequence": "f0"
+      },
+      {
+        "phase": 5,
+        "ranks": {
+          "1000000007": 16,
+          "1000000009": 16
+        },
+        "sequence": "f1"
+      },
+      {
+        "phase": 5,
+        "ranks": {
+          "1000000007": 16,
+          "1000000009": 16
+        },
+        "sequence": "P0"
+      },
+      {
+        "phase": 5,
+        "ranks": {
+          "1000000007": 16,
+          "1000000009": 16
+        },
+        "sequence": "P1"
+      },
+      {
+        "phase": 5,
+        "ranks": {
+          "1000000007": 16,
+          "1000000009": 16
+        },
+        "sequence": "H0"
+      },
+      {
+        "phase": 5,
+        "ranks": {
+          "1000000007": 16,
+          "1000000009": 16
+        },
+        "sequence": "H1"
+      },
+      {
+        "phase": 1,
+        "ranks": {
+          "1000000007": 16,
+          "1000000009": 16
+        },
+        "sequence": "f0"
+      },
+      {
+        "phase": 1,
+        "ranks": {
+          "1000000007": 16,
+          "1000000009": 16
+        },
+        "sequence": "f1"
+      },
+      {
+        "phase": 1,
+        "ranks": {
+          "1000000007": 16,
+          "1000000009": 16
+        },
+        "sequence": "P0"
+      },
+      {
+        "phase": 1,
+        "ranks": {
+          "1000000007": 16,
+          "1000000009": 16
+        },
+        "sequence": "P1"
+      },
+      {
+        "phase": 1,
+        "ranks": {
+          "1000000007": 16,
+          "1000000009": 16
+        },
+        "sequence": "H0"
+      },
+      {
+        "phase": 1,
+        "ranks": {
+          "1000000007": 16,
+          "1000000009": 16
+        },
+        "sequence": "H1"
+      }
+    ],
+    "label": "PROVED SCOPED NO-GO, not finite extrapolation",
+    "logical_consequence": "no nonzero rational-coefficient relation in the displayed class for any of the twelve phase/sequence pairs",
+    "relation_class": "A(n)*a_n+B(n)*a_(n+1)=0 with deg(A),deg(B)<=7",
+    "scope_limit": "does not exclude higher degree, higher rank, a direct U-module, or creative-telescoping compression",
+    "terms_per_phase": 28,
+    "value_digest": "c4f61fbb52a83cc94a84d941f4a16644b6aa38f0a830560199e8bb7cb9064509"
+  },
+  "schema": "item272-complete-row-dynamics-certificate-v1",
+  "strict_labels": {
+    "booking": "zero new Route-1 rate; raw ordinary-j=2 capacity remains 2/35 per M = 1/105 per 6M",
+    "bounded_replays": "EXACT FINITE ONLY",
+    "complete_row_bounded_rank_module": "OPEN; NOT CONSTRUCTED",
+    "degree_seven_rank_one_hard_block_admission": "PROVED SCOPED NO-GO",
+    "exceptional_collision_search": "NONE",
+    "lisse_or_crystalline_frobenius_realization": "OPEN; NOT CONSTRUCTED",
+    "partial_rank_seven_translation_module": "PROVED",
+    "positive_linear_capacity_admission": "FAIL"
+  }
+}

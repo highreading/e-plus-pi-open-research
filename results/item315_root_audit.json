@@ -1,0 +1,59 @@
+{
+  "schema": "item315-root-audit-v1",
+  "item": 315,
+  "auditor": "root",
+  "date": "2026-08-31",
+  "verdict": "PASS AS A GLOBAL ENDPOINT-RESULTANT NONVANISHING THEOREM, EXACT RAYWISE FACTOR/CHARACTER AUDIT, SCOPED ARITHMETIC NO-GO, AND ZERO BOOKING",
+  "package": {
+    "manifest_files_checked": 5,
+    "manifest_file_hash_mismatches": 0,
+    "frozen_dependencies_checked": 8,
+    "manifest_dependency_hash_mismatches": 0,
+    "hash_list_entries_checked": 6,
+    "hash_list_mismatches": 0,
+    "canonical_replay_byte_identical": true,
+    "canonical_root_replay_byte_identical": true,
+    "canonical_replay_and_root_sha256": "09fdd67a6535a043bcbd1e2a46c4b14a633b9928a5f1c65618c34fab65cfabb6",
+    "report_sha256": "3ce61af707268ceed6db0355a31333492bd8b07ec34e455cbee874fc6a2291b8",
+    "script_sha256": "42def823c42497fa9ce4c5513c348464511a56cc6ff12480bec60408c9733b81",
+    "ledger_sha256": "4ff67573ec03c8e1416f2ab66f0379b79570a79afa05110a6882e3be6f3b6860",
+    "manifest_sha256": "698abf2124e564c63cf4d1142cd33e872d6fb6b4da21e4e6ec7ac26c43c7a8c1",
+    "hash_list_sha256": "d59d052dd83e1db44906d01e1d344da8cd5d7114480b9ba6c07fb277df3afb7a"
+  },
+  "independent_mathematical_checks": {
+    "recurrence_signs": "PASS: the certified order-three recurrence has p0,p1,p2<0 and p3>0 for every positive index; the minus-branch gauge factors 16^(-m) are positive.",
+    "initials_and_induction": "PASS: three exact negative initials on each of the r=6n+1 and r=6n+5 rays for both branches force every later a_r and b_r to be negative.",
+    "nonvanishing": "PASS: N_r=18^3*a_r^3+11^3*2^(2r+2)*b_r^3 is a sum of two strictly negative terms on both rays, so no characteristic-zero zero row exists.",
+    "ray_factors": "PASS: r=6n+1 gives A^3+2B^3=Norm_Q(cuberoot(2))/Q(A+B*cuberoot(2)); r=6n+5 gives A^3+B^3=(A+B)(A^2-AB+B^2).",
+    "character_selector": "PASS: after multiplying the cleared gate by 2^k, the actual endpoint is A*t+B. On e=1, t is the unique cube root of 1/2; on e=5, t=2^((p-1)/3) selects the linear or one quadratic conjugate component.",
+    "content": "PASS: Item314's p-unit scale and H_r=6^(r+3)r! clear the e=5 linear, quadratic, and full norm separately, and the e=1 field norm, without dividing an unaudited coefficient gcd.",
+    "Hadamard": "PASS: coefficientwise cubes give the displayed two-variable constant-term identity; D-finite Hadamard/diagonal closure proves P-recursiveness of N and both arithmetic subsequences.",
+    "scoped_no_go": "PASS: exact coprime adjacent primitive norms refute the direct strong-divisibility ansatz. The binomial comparison is explicitly restricted to freely varying tied rows and is not asserted to show sharpness on the master fixed-M slice.",
+    "overlap": "PASS: N is exactly Item250's old resultant after a p-unit cube. Nonvanishing and factorization do not create a second collision condition and are not rebooked."
+  },
+  "finite_replay": {
+    "sign_rows_through_r_131": 44,
+    "sign_failures": 0,
+    "old_resultant_character_rows": 9,
+    "selected_gate_hits": 3,
+    "classification": "EXACT FINITE ONLY"
+  },
+  "format": {
+    "report_bytes": 14918,
+    "report_lines": 534,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "inline_math_open": 83,
+    "inline_math_close": 83,
+    "display_math_open": 45,
+    "display_math_close": 45
+  },
+  "capacity": {
+    "new_route1_rate": 0,
+    "new_ordinary_j2_capacity_reduction": 0,
+    "retained_ceiling_per_6M": "1/105",
+    "closed_sublemma": "exact characteristic-zero nonvanishing of the endpoint resultant on both actual rays",
+    "smallest_remaining_problem": "fixed-M weighted zero density for the selected cleared gate, followed by actual residual-period incidence",
+    "route_status": "ACTIVE"
+  }
+}

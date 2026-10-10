@@ -1,0 +1,109 @@
+[
+  {
+    "id": "NG-01",
+    "title": "Fixed positive rational common beta kernels",
+    "status": "recorded_proved_exclusion_scoped",
+    "proof": "sources/fixed_rational_kernel_barrier.md",
+    "reviews": [
+      "sources/independent_fixed_rational_kernel_audit.md"
+    ],
+    "principal_dependencies": [
+      "sources/independent_fixed_rational_kernel_audit.md"
+    ],
+    "scope": "A single fixed pole-free rational K on [0,1], with a positive lower bound and relevant beta moments in Q + Q pi with nonzero pi coefficient; both matching signs and any infinite even-index set.",
+    "conclusion": "The primitive integer-form magnitude diverges after the complete gcd.",
+    "not_excluded": "Variable kernels, different weights and nonrational kernels are outside the theorem."
+  },
+  {
+    "id": "NG-02",
+    "title": "Fixed sign-changing rational common beta kernels",
+    "status": "recorded_proved_exclusion_scoped",
+    "proof": "sources/sign_changing_fixed_rational_kernel_barrier.md",
+    "reviews": [
+      "sources/independent_sign_changing_fixed_rational_kernel_audit.md"
+    ],
+    "principal_dependencies": [
+      "sources/fixed_rational_kernel_barrier.md",
+      "sources/independent_fixed_rational_kernel_audit.md"
+    ],
+    "scope": "A fixed pole-free rational kernel, the same beta weight, nonzero pi moment coefficient on the relevant infinite even set; kernel positivity is not assumed.",
+    "conclusion": "Symmetrization, midpoint asymptotics, exponential coordinate height and complete matching content force primitive divergence.",
+    "not_excluded": "An n-dependent kernel or a different construction is not excluded."
+  },
+  {
+    "id": "NG-03",
+    "title": "Degree-one matched Hermite\u2013Pad\u00e9: all even indices",
+    "status": "recorded_proved_exclusion_scoped",
+    "proof": "work/session_20260927/hp_b1_uniform_five_thirteen_and_even_exclusion.md",
+    "reviews": [
+      "work/session_20260927/hp_b1_uniform_5_13_independent_review.md"
+    ],
+    "principal_dependencies": [
+      "work/session_20260927/hp_b1_prime_seed_transfer_and_closed_atlas.md",
+      "work/session_20260927/hp_b1_residue_one_actual_numerator.md",
+      "work/session_20260927/hp_b1_dyadic_numerator_and_six_class_exclusion.md",
+      "work/session_20260927/hp_b1_ternary_actual_denominator.md",
+      "work/session_20260913/hp_b1_endpoint_attempt.md"
+    ],
+    "scope": "The literal (n,1,n) matched endpoint construction, actual completely reduced q_n, nonzero Delta, and all sufficiently large even n.",
+    "conclusion": "Uniform prime-5/13 and dyadic denominator rates beat the complete endpoint error rate; every even subsequence fails primitive-error decay.",
+    "not_excluded": "Odd indices, growing exponential degree and other endpoint constructions are not excluded."
+  },
+  {
+    "id": "NG-04",
+    "title": "Original raw diagonal family: all integer degrees",
+    "status": "recorded_proved_exclusion_scoped",
+    "proof": "work/session_20260913/raw_all_parity_raw_exclusion.md",
+    "reviews": [],
+    "principal_dependencies": [
+      "work/session_20260913/raw_positive_residue_transfer_independent_review.md",
+      "work/session_20260913/raw_negative_residue_transfer_independent_review.md",
+      "work/session_20260913/raw_uniform_23_43_independent_review.md",
+      "work/session_20260913/uniform_71_83_independent_review.md",
+      "work/session_20260913/raw_uniform_101_109_independent_review.md",
+      "work/session_20260913/raw_uniform_127_151_root_review.md",
+      "work/session_20260913/raw_arctan_endpoint_dyadic_attempt.md",
+      "work/session_20260913/raw_closed_uniform_rate_independent_review.md",
+      "work/session_20260913/raw_even_endpoint_residue_asymptotic.md",
+      "work/session_20260913/raw_even_endpoint_residue_independent_review.md",
+      "work/session_20260913/raw_odd_saddle_multiplier_limits.md",
+      "work/session_20260913/raw_odd_saddle_multipliers_independent_review.md",
+      "work/session_20260913/raw_odd_reference_and_contour_asymptotic.md",
+      "work/session_20260913/raw_odd_reference_contour_independent_review.md",
+      "work/session_20260913/raw_odd_hardy_framework_independent_review.md"
+    ],
+    "scope": "The original raw family, actual Z and N=Pe(1)+4Pa(1), full g=gcd(|Z|,|N|), both parities and all sufficiently large integer degrees.",
+    "conclusion": "The actual primitive whole integer error tends to infinity, with an explicit exponential-over-polynomial lower bound. No subsequence of this family yields decay.",
+    "not_excluded": "This excludes this original family only. It does not decide rationality and does not transfer to another auxiliary."
+  },
+  {
+    "id": "NG-05",
+    "title": "Reflected two-pole repair in the n log n depth regime",
+    "status": "recorded_proved_exclusion_scoped",
+    "proof": "work/session_20261002_codex_continuation/agent3_analysis/REFLECTED_KERNEL_NLOGN_SIGNED_DIVERGENCE.md",
+    "reviews": [],
+    "principal_dependencies": [
+      "work/session_20261002_codex_continuation/agent2_selector/REFLECTION_DISTRIBUTED_POLE_REPAIR.md"
+    ],
+    "scope": "The actual reflected two-pole projection with all endpoint terms retained, n=4k, and h/(n log n) tending to a fixed kappa>0.",
+    "conclusion": "The ordinary approximation center diverges to positive infinity, with the stated signed asymptotic.",
+    "not_excluded": "Other growth laws, including the quadratic critical window, are outside this exclusion."
+  },
+  {
+    "id": "NG-06",
+    "title": "The separate original Laguerre matrix",
+    "status": "recorded_proved_exclusion_scoped",
+    "proof": "research/continuations/20261007_resumed_five_astra_research/responses/A2_turn18.md",
+    "reviews": [
+      "research/continuations/20261008_resumed_five_astra_research/responses/A4_turn0.md"
+    ],
+    "principal_dependencies": [
+      "research/continuations/20261007_resumed_five_astra_research/controls/LAGUERRE_POSITIVE_BETA_INTEGER.md",
+      "research/continuations/20261007_resumed_five_astra_research/controls/LAGUERRE_ORIGINAL_ARCTANGENT_CLEARER.md",
+      "research/continuations/20261007_resumed_five_astra_research/controls/LAGUERRE_POSITIVE_DOUBLE_BETA_REPRESENTATION.md"
+    ],
+    "scope": "All original admissibility conditions for b=3^(249005515+574312172u), n=2001b, d=b-1, h=2000b+1; complete corrected matrix and actual all-prime g and q.",
+    "conclusion": "The complete primitive error is greater than 1000 sqrt(b) pointwise on the admissible domain. Every unbounded admissible collection fails primitive-error decay.",
+    "not_excluded": "This does not assert new infinitude of a constrained domain and does not exclude the compact mixed pencil, older prime-29 producer or continuing coordinate scratch."
+  }
+]

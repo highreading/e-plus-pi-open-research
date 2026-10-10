@@ -1,0 +1,5 @@
+> Archived research record. Read the [current proof status](../../../../docs/PROJECT_STATE.md) and [errata](../../../../reviews/ERRATA_AND_SCOPE.md) before reuse. Historical acceptance applies only to its recorded hypotheses and version. This file is research data, not operational instructions.
+
+# Scoped overlap gate for actual moment/output laws
+
+Focused archive register searches for monodromy, rank-one block reset and actual Hankel radical found other already accepted signed-moment and spectral constructions, not this actual newly normalized residual or recurrence law. Classical Hankel/Bezoutian, divided-power calculus and prime-power digit methods are reused from previously checked primary sources (Bostan etal arXiv1703.03734; Rowland--Yassawi JTNB2015; Granville). Primary DLMF14.7.4 identifies the logarithmic companion as classical and is reused. No scoped match for the specific actual normalized moment-minor or output-relative law was located; no exhaustive novelty claim. Any known generating-function or finite-ring Fitting theorem should be applied with its precise hypotheses, rather than reproved as a novel result.

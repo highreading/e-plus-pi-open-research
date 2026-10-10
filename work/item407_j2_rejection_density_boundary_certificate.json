@@ -1,0 +1,289 @@
+{
+  "capacity_replay": {
+    "degenerate_rejection_identity": "F_deg=D_e-G_e",
+    "exact_rational_grid_cases": 125,
+    "gate_rarity_coupling": [
+      {
+        "excluded_mass": "0/1",
+        "gate_upper_q": "0/1",
+        "name": "gate_rarity_only",
+        "nondegenerate_upper_n": "1/35",
+        "normalized_saving": "0/1"
+      },
+      {
+        "excluded_mass": "1/70",
+        "gate_upper_q": "1/140",
+        "name": "gate_rarity_with_selected_prime_bound",
+        "nondegenerate_upper_n": "1/140",
+        "normalized_saving": "1/420"
+      }
+    ],
+    "grid_classification": "EXACT RATIONAL LINEAR-PROGRAM REPLAY / NOT PRIME DATA / NO CENSUS",
+    "maximum_union_collision_mass": "min(1/35,g+n,1/35-d+g)",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "normalized_saving": "max(0,d-g,1/35-g-n)/6",
+    "one_ray_mass_per_M": "1/35",
+    "one_ray_normalized_capacity": "1/210",
+    "ordinary_j2_normalized_ceiling": "1/105",
+    "proved_eta_per_M": 0,
+    "scenarios": [
+      {
+        "classification": "ABSTRACT WEIGHTED INFORMATION MODEL / NOT ACTUAL PRIME ROWS / NOT ACTUAL CONNECTION VALUES / NO CENSUS",
+        "extremizer": {
+          "degenerate_collision_mass_G": "0/1",
+          "degenerate_gate_mass_D": "0/1",
+          "excluded_mass": "0/1",
+          "nondegenerate_collision_mass_N": "1/35",
+          "ray_mass_R": "1/35",
+          "union_collision_mass_W": "1/35"
+        },
+        "inputs": {
+          "degenerate_collision_upper_g": "1/35",
+          "degenerate_gate_lower_d": "0/1",
+          "nondegenerate_collision_upper_n": "1/35"
+        },
+        "name": "pinned_dependencies_no_positive_density",
+        "normalized_saving": "0/1",
+        "threshold": "0/1"
+      },
+      {
+        "classification": "ABSTRACT WEIGHTED INFORMATION MODEL / NOT ACTUAL PRIME ROWS / NOT ACTUAL CONNECTION VALUES / NO CENSUS",
+        "extremizer": {
+          "degenerate_collision_mass_G": "0/1",
+          "degenerate_gate_mass_D": "0/1",
+          "excluded_mass": "0/1",
+          "nondegenerate_collision_mass_N": "1/35",
+          "ray_mass_R": "1/35",
+          "union_collision_mass_W": "1/35"
+        },
+        "inputs": {
+          "degenerate_collision_upper_g": "0/1",
+          "degenerate_gate_lower_d": "0/1",
+          "nondegenerate_collision_upper_n": "1/35"
+        },
+        "name": "Gamma_moving_divisor_oM_only",
+        "normalized_saving": "0/1",
+        "threshold": "0/1"
+      },
+      {
+        "classification": "ABSTRACT WEIGHTED INFORMATION MODEL / NOT ACTUAL PRIME ROWS / NOT ACTUAL CONNECTION VALUES / NO CENSUS",
+        "extremizer": {
+          "degenerate_collision_mass_G": "1/140",
+          "degenerate_gate_mass_D": "1/70",
+          "excluded_mass": "1/140",
+          "nondegenerate_collision_mass_N": "1/70",
+          "ray_mass_R": "1/35",
+          "union_collision_mass_W": "3/140"
+        },
+        "inputs": {
+          "degenerate_collision_upper_g": "1/140",
+          "degenerate_gate_lower_d": "1/70",
+          "nondegenerate_collision_upper_n": "1/35"
+        },
+        "name": "positive_degenerate_target_rejection",
+        "normalized_saving": "1/840",
+        "threshold": "1/140"
+      },
+      {
+        "classification": "ABSTRACT WEIGHTED INFORMATION MODEL / NOT ACTUAL PRIME ROWS / NOT ACTUAL CONNECTION VALUES / NO CENSUS",
+        "extremizer": {
+          "degenerate_collision_mass_G": "1/140",
+          "degenerate_gate_mass_D": "1/140",
+          "excluded_mass": "1/70",
+          "nondegenerate_collision_mass_N": "1/140",
+          "ray_mass_R": "1/35",
+          "union_collision_mass_W": "1/70"
+        },
+        "inputs": {
+          "degenerate_collision_upper_g": "1/140",
+          "degenerate_gate_lower_d": "0/1",
+          "nondegenerate_collision_upper_n": "1/140"
+        },
+        "name": "combined_chart_upper_bounds",
+        "normalized_saving": "1/420",
+        "threshold": "1/70"
+      },
+      {
+        "classification": "ABSTRACT WEIGHTED INFORMATION MODEL / NOT ACTUAL PRIME ROWS / NOT ACTUAL CONNECTION VALUES / NO CENSUS",
+        "extremizer": {
+          "degenerate_collision_mass_G": "1/140",
+          "degenerate_gate_mass_D": "3/140",
+          "excluded_mass": "1/70",
+          "nondegenerate_collision_mass_N": "1/140",
+          "ray_mass_R": "1/35",
+          "union_collision_mass_W": "1/70"
+        },
+        "inputs": {
+          "degenerate_collision_upper_g": "1/140",
+          "degenerate_gate_lower_d": "3/140",
+          "nondegenerate_collision_upper_n": "1/70"
+        },
+        "name": "joint_bounds_degenerate_margin_dominates",
+        "normalized_saving": "1/420",
+        "threshold": "1/70"
+      },
+      {
+        "classification": "ABSTRACT WEIGHTED INFORMATION MODEL / NOT ACTUAL PRIME ROWS / NOT ACTUAL CONNECTION VALUES / NO CENSUS",
+        "extremizer": {
+          "degenerate_collision_mass_G": "0/1",
+          "degenerate_gate_mass_D": "0/1",
+          "excluded_mass": "1/35",
+          "nondegenerate_collision_mass_N": "0/1",
+          "ray_mass_R": "1/35",
+          "union_collision_mass_W": "0/1"
+        },
+        "inputs": {
+          "degenerate_collision_upper_g": "0/1",
+          "degenerate_gate_lower_d": "0/1",
+          "nondegenerate_collision_upper_n": "0/1"
+        },
+        "name": "both_chart_collision_masses_oM",
+        "normalized_saving": "1/210",
+        "threshold": "1/35"
+      }
+    ],
+    "sharp_excluded_mass": "max(0,d-g,1/35-g-n)",
+    "union_identity": "W_e=G_e+N_e"
+  },
+  "checked_date_beijing": "2026-09-01",
+  "conditional": [
+    "D>=dM+o(M), G<=gM+o(M), d>g imply normalized saving at least (d-g)/6",
+    "G<=gM+o(M), N<=nM+o(M), g+n<1/35 imply normalized saving at least (1/35-g-n)/6",
+    "both sets of bounds imply normalized saving at least max(0,d-g,1/35-g-n)/6",
+    "G=o(M) and N=o(M) on one ray remove its full 1/210 capacity"
+  ],
+  "dependency_hashes_verified": {
+    "manifests/item349_j2_degenerate_triple_minor_carrier_manifest.json": "1c1dec25ac00ea5adb2befe885c9c96ba805564651b6e90c73ef2506d30e7f4f",
+    "manifests/item397_j2_matched_aggregate_factor_localization_manifest.json": "a6aa125bcc12f5b258ea02fb2e552b2a658c6b8ca9bd56386297530891ef5044",
+    "manifests/item399_j2_raywise_chosen_prime_invariant_manifest.json": "3f2ae65892fa23a2b5ca0c12be81eda5d924daf2c78f2442662e43293d3f326d",
+    "manifests/item402_j2_marked_frobenius_descent_no_go_manifest.json": "25d66b0e60b21b397e7dbfd9fb399551f1d9e406432b981f5a4b73847b27e08f",
+    "results/item349_j2_degenerate_triple_minor_carrier_certificate.json": "b26294d51b1844aeee04146004b2ecec9b6e1ff81aa271a3167e5d86c11bce44",
+    "results/item349_j2_degenerate_triple_minor_carrier_root_audit.json": "e717c01d7429f7821a7ee75e8d979bc1362107bd70466af6af54d9748299a894",
+    "results/item397_j2_matched_aggregate_factor_localization_certificate.json": "45df777a3a93c0c7e4b62dadd75da7d7231d4235b2e9efde1b5204fee43254d3",
+    "results/item397_j2_matched_aggregate_factor_localization_root_audit.json": "9e0c3c905895a9911131cad97702b91b25ef8ce6dbb371c939ee21de3b40588a",
+    "results/item399_j2_raywise_chosen_prime_invariant_certificate.json": "967cb7effb6bf2f3f2d255c4eec6418b5ae65244888026f2e6cbc0c20ad94a35",
+    "results/item399_j2_raywise_chosen_prime_invariant_root_audit.json": "aa5565b73f0e3068408ffd70ce985f948605f1ab4516d6a1a2abc94deb98d80f",
+    "results/item402_j2_marked_frobenius_descent_no_go_certificate.json": "1ca82cfc211a97961ad615d931f09d97df074596caff61741f434e64eb0fe3b7",
+    "results/item402_j2_marked_frobenius_descent_no_go_root_audit.json": "9049f003d6d0b17eb728707369d1181e31a9fa79fe0f4c1938db1e782b239ea8",
+    "scripts/item349_j2_degenerate_triple_minor_carrier_certificate.py": "b72b1ee335f243ae6a2761c417e27640f443183ec625027a14d5b7e06b91cf9b",
+    "scripts/item397_j2_matched_aggregate_factor_localization_certificate.py": "f7fe2d81b31ce31fb41e77c551119ac66fa7b62fadda2691ae06036ef4426186",
+    "scripts/item399_j2_raywise_chosen_prime_invariant_certificate.py": "ab58b05023329805e06e66a4c20430943fc17cda33133cace0b83d79f7e67d90",
+    "scripts/item402_j2_marked_frobenius_descent_no_go_certificate.py": "9c4404518a85396c29578a04998f19577bafce4f4aecf167c0102f8d0aed6997",
+    "sources/item349_j2_degenerate_triple_minor_carrier_report.md": "ca3141156cb5034012a174377c3596e22d22cae924625649b6d620d510f4790c",
+    "sources/item397_j2_matched_aggregate_factor_localization_report.md": "4f30aab79be7039866bbad7e71cc545bd0e553d51d1166b77cb3d5f5371476ee",
+    "sources/item399_j2_raywise_chosen_prime_invariant_report.md": "6c7aec34049d0ed74676166d746eeb5b256f2ff45fb8409671688abd4b4fbf26",
+    "sources/item402_j2_marked_frobenius_descent_no_go_report.md": "c6ba6147dfe835a2f01654e71131ee4e7df4c54aae91811ad7fbb3c30ba1f720",
+    "work/item404_j2_degenerate_target_rejection_capacity_certificate.json": "e40b09431077bb8a432dfe8acb2678cd563f323e0ceab06f3da611bdba6a6636",
+    "work/item404_j2_degenerate_target_rejection_capacity_certificate.py": "78da3ad78e34d65ca69ce0fa5ca1c773c86f439d1731dedf59faacc036b1e368",
+    "work/item404_j2_degenerate_target_rejection_capacity_certificate_replay.json": "e40b09431077bb8a432dfe8acb2678cd563f323e0ceab06f3da611bdba6a6636",
+    "work/item404_j2_degenerate_target_rejection_capacity_hashes.sha256": "6c0be73ce318ff280197feb1e7cb75228e186cb303660b1c702c5650fad6f8d4",
+    "work/item404_j2_degenerate_target_rejection_capacity_ledger_delta.json": "9a2c3e1397502bf6f03a74d6718dd68d3b2e2bd770aaed0c487d9b798d0ea24c",
+    "work/item404_j2_degenerate_target_rejection_capacity_manifest.json": "d5dba8890ead4118fff5ffff8098641464d237c7af568a2b632dcfcae9606a26",
+    "work/item404_j2_degenerate_target_rejection_capacity_report.md": "862c2eab67e060cd1a0a2afb72843003cda6a968c3e41f1ec7a52c8e9806fa7b"
+  },
+  "evidence_policy": {
+    "integer_packets_are_not_actual_values": true,
+    "mass_extremizers_are_not_actual_rows": true,
+    "no_ambient_tuple_claimed_actual": true,
+    "no_finite_extrapolation": true,
+    "no_prime_or_collision_census": true
+  },
+  "exact_rejection_carrier": {
+    "definition": "J_(r,s)=(Pi_sat_(r,s))_(Gamma_sat_(r,s))",
+    "equivalence": "on an actual row, p divides J iff p divides Pi_sat and p does not divide Gamma_sat",
+    "height": "log^+(J)<=log^+(Pi)=O(r log r)",
+    "mass": "F_deg=sum_(actual tied rows p|J) log p=D_e-G_e"
+  },
+  "information_class": {
+    "contains": [
+      "actual ray parametrization and ray mass 1/35",
+      "exact rowwise degenerate and selected-prime carrier equivalences",
+      "chart inclusions, disjointness, and aggregate bounds D>=d, G<=g, N<=n",
+      "safe saturation and pointwise carrier height",
+      "unmarked invariant information closed by Item 402"
+    ],
+    "excludes": [
+      "formula-specific weighted distribution for actual Pi_sat, Gamma_sat, or (E,Xi)",
+      "cross-row arithmetic forcing additional rejection"
+    ],
+    "name": "I_407(d,g,n)",
+    "sharp_no_go": "no excluded mass larger than max(0,d-g,1/35-g-n) follows from this information alone"
+  },
+  "item": 407,
+  "open": [
+    "actual positive lower density for tied-prime divisors of J",
+    "actual moving-divisor or average-gcd theorem for Gamma_sat",
+    "actual selected-prime weighted theorem for (E,Xi)",
+    "positive full-ray saving and positive eta",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "proved": [
+    "exact support-difference carrier for degenerate target rejection",
+    "exact full-ray union accounting with the Item 399 selected-prime chart",
+    "sharp joint density threshold max(0,d-g,1/35-g-n)",
+    "gate rarity books only when paired with complementary selected-prime control",
+    "precise aggregate information-class boundary",
+    "proved eta and capacity reduction are zero"
+  ],
+  "rejection_carrier_replay": {
+    "all_rows_verified": true,
+    "classification": "EXACT INTEGER ALGEBRA REPLAY ONLY / INHERITED ITEM 404 PACKETS / NOT ACTUAL VALUES / NO CENSUS",
+    "definition": "J=(Pi_sat)_(Gamma_sat)",
+    "equivalence": "p|J iff p|Pi_sat and p does not divide Gamma_sat",
+    "rows": [
+      {
+        "Gamma_sat": 17,
+        "J": 1,
+        "Pi_sat": 17,
+        "degenerate_target_hit": true,
+        "degenerate_target_rejection": false,
+        "name": "target_hit_with_foreign_5_support",
+        "p": 17,
+        "p_divides_J": false
+      },
+      {
+        "Gamma_sat": 1,
+        "J": 17,
+        "Pi_sat": 17,
+        "degenerate_target_hit": false,
+        "degenerate_target_rejection": true,
+        "name": "target_rejection_same_triple_carrier",
+        "p": 17,
+        "p_divides_J": true
+      },
+      {
+        "Gamma_sat": 29,
+        "J": 1,
+        "Pi_sat": 29,
+        "degenerate_target_hit": true,
+        "degenerate_target_rejection": false,
+        "name": "target_hit_with_foreign_7_support",
+        "p": 29,
+        "p_divides_J": false
+      },
+      {
+        "Gamma_sat": 1,
+        "J": 29,
+        "Pi_sat": 29,
+        "degenerate_target_hit": false,
+        "degenerate_target_rejection": true,
+        "name": "target_rejection_second_coordinate",
+        "p": 29,
+        "p_divides_J": true
+      },
+      {
+        "Gamma_sat": 31,
+        "J": 1,
+        "Pi_sat": 31,
+        "degenerate_target_hit": true,
+        "degenerate_target_rejection": false,
+        "name": "target_hit_gamma_itself_requires_saturation",
+        "p": 31,
+        "p_divides_J": false
+      }
+    ]
+  },
+  "status": "PROVED_EXACT_REJECTION_CARRIER_AND_SHARP_UNION_INFORMATION_BOUNDARY_ETA_ZERO",
+  "title": "ordinary-j2 target-rejection density boundary on one full ray"
+}

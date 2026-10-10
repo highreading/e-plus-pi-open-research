@@ -1,0 +1,60 @@
+{
+  "booking": {
+    "new_capacity_reduction": "0",
+    "new_route1_rate": "0",
+    "positive_linear_capacity_admission": "FAIL"
+  },
+  "checks": {
+    "fixed_seed": {
+      "fixed_seed_rows": 80,
+      "labels": "EXACT FINITE ONLY",
+      "product_bound_rows": 79,
+      "q_endpoint_digits": 166,
+      "range": [
+        1,
+        80
+      ]
+    },
+    "primewise": {
+      "exponent_box": [
+        0,
+        8
+      ],
+      "labels": "EXACT FINITE ONLY",
+      "reservoir_ceiling_rows": 81,
+      "sequential_overlap_rows": 49329,
+      "squarefull_exponent_rows": 9
+    },
+    "reverse_bessel": {
+      "coefficient_equalities": 120,
+      "degree_range": [
+        0,
+        14
+      ],
+      "derivative_coefficient_equalities": 105,
+      "labels": "EXACT FINITE ONLY",
+      "specialization_equalities": 15
+    },
+    "transfer": {
+      "d_range": [
+        1,
+        12
+      ],
+      "gcd_equalities": 444,
+      "labels": "EXACT FINITE ONLY",
+      "n_range": [
+        0,
+        36
+      ],
+      "transfer_equalities": 444
+    }
+  },
+  "general_claims_location": "item265_beta_squarefull_capacity_report.md; general claims are proved algebraically or inherited from sealed dependencies",
+  "schema": "item265-beta-squarefull-capacity-certificate-v1",
+  "scope": "bounded exact identity replay only; no search for exceptional primes and no finite-to-asymptotic inference",
+  "strict_labels": {
+    "all_prime_squarefull_bound": "OPEN",
+    "bounded_checks": "EXACT FINITE ONLY",
+    "exceptional_prime_search": "NOT PERFORMED"
+  }
+}

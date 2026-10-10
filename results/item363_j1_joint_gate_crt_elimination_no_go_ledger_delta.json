@@ -1,0 +1,45 @@
+{
+  "schema": "item363-j1-joint-gate-crt-elimination-no-go-ledger-delta-v1",
+  "item": 363,
+  "date": "2026-09-01",
+  "branch": "Route 1 / fixed-j1 / joint Hasse-transverse weighted gate",
+  "status": "PROVED_EXACT_FIXED_M_RADICAL_AND_GATE_ONLY_ELIMINATION_NO_GO",
+  "scope_correction": {
+    "canonical_family": "p=4h+6s+3, M=3h+4s+2",
+    "fixed_M_reparameterization": "h=3M-2p, s=(3p-4M-1)/2",
+    "j2_notation_imported": false,
+    "classification": "research-management note, not a theorem issue"
+  },
+  "proved": {
+    "candidate_product": "P_M is the squarefree product of all primes (4M+3)/3 <= p <= (3M-1)/2",
+    "compulsory_de_overlap": "Cbar_nu=C_nu/P_M is integral for nu=0,1",
+    "quotient_bridge": "Q_nu=((P_M/p)/6)*Cbar_nu mod p",
+    "boundary_clearing": "Y_(h,s)=(2s+h+2)_h*y_(h,s) is integral and the denominator is a p-unit",
+    "primewise_joint_criterion": "Q0=a=0 iff p|Cbar_0 and p|Cbar_1*Y_(h,s)",
+    "exact_fixed_M_radical": "R_HT=gcd(P_M,Cbar_0,Cbar_1*Z_M), where Z_M is the CRT carrier of Y residues",
+    "branch_decomposition": "R_HT=lcm(R_full,R_boundary)",
+    "gate_resultants": "Res_y(f0,H)=x*f1 and Res_x(f0,H)=-y*f1",
+    "parameter_elimination": "<f0,H> intersects Q[lambda,alpha,beta] trivially, including the nonzero chart",
+    "frobenius_form": "Q0 is the original finite-log Frobenius-defect coordinate, not a third condition",
+    "CRT_no_go": "arbitrary candidate-prime zero patterns admit a carrier 0<=Z<P, so raw-scale CRT height is information-neutral"
+  },
+  "capacity": {
+    "raw_log_mass": "M/6+o(M)",
+    "raw_ceiling_per_6M": "1/36",
+    "weighted_target": "log R_HT(M)=o(M)",
+    "weighted_target_proved": false,
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "booking": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36"
+  },
+  "open": [
+    "sequence-specific sublinear-height or sparse-divisor structure for the actual CRT carrier Z_M",
+    "an average-gcd theorem for gcd(P_M,Cbar_0,Cbar_1*Z_M)",
+    "separate weighted bounds for the full and boundary radicals",
+    "any strict fixed-j1 ceiling reduction, Route 1, and every conclusion about e+pi"
+  ],
+  "ledger_action": "RECORD_EXACT_JOINT_RADICAL_AND_SCOPED_NO_GO_BOOK_ZERO",
+  "route_1_status": "ACTIVE",
+  "canonical_files_modified": false
+}

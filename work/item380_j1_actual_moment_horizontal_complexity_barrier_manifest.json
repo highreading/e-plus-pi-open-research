@@ -1,0 +1,83 @@
+{
+  "item": 380,
+  "schema": "item380-j1-actual-moment-horizontal-complexity-barrier-manifest-v1",
+  "classification": "PROVED_SCOPED_DIRECT_TWO_MOMENT_GAUGE_COMPLEXITY_BARRIER",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual selected finite-log moments, exact horizontal connection pullback, simultaneous splitting gauge, vertical p-pole growth, rational and dagger obstruction, ambient-to-actual cotangent collapse, and capacity",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item377_j1_horizontal_filtered_hasse_neutrality_report.md": "ce5d546e4cd2fb093219453db362b84a2369446334137c8c913143698f55ed88",
+    "scripts/item377_j1_horizontal_filtered_hasse_neutrality_certificate.py": "e80706033c5d5e05fbec2668da53cb5f50f07d476a5350d54c37543967c832ba",
+    "results/item377_j1_horizontal_filtered_hasse_neutrality_certificate.json": "299663f4f520ff77760ff4ee4b6d554b7d59b9c36e04e7f2be25026022eab9af",
+    "results/item377_j1_horizontal_filtered_hasse_neutrality_certificate_replay.json": "299663f4f520ff77760ff4ee4b6d554b7d59b9c36e04e7f2be25026022eab9af",
+    "results/item377_j1_horizontal_filtered_hasse_neutrality_root_replay.json": "299663f4f520ff77760ff4ee4b6d554b7d59b9c36e04e7f2be25026022eab9af",
+    "results/item377_j1_horizontal_filtered_hasse_neutrality_ledger_delta.json": "153ac70b32d36eac7b9a89594d9bd9dccf2eab263c10754b8eb10a9e433fada9",
+    "results/item377_j1_horizontal_filtered_hasse_neutrality_root_audit.json": "4efb362a26c20cdf1a4048585d4e38e078f1360e7451c6f20fd52b272a35a334",
+    "manifests/item377_j1_horizontal_filtered_hasse_neutrality_manifest.json": "02d9567bd2992d593a4d15c808455f00ab3bbff87310a0b3c300972f36605cc3"
+  },
+  "artifacts": {
+    "report": {
+      "path": "sources/item380_j1_actual_moment_horizontal_complexity_barrier_report.md",
+      "sha256": "35668582bec3086fdb523f38c69df6a31d2557d2538cdb43794224dbfa2b623f",
+      "bytes": 12305
+    },
+    "certificate_script": {
+      "path": "scripts/item380_j1_actual_moment_horizontal_complexity_barrier_certificate.py",
+      "sha256": "e1bf9c6a1b0a0a57c96351ab294a0f031915ebe2f3897a86e5ba766e89b1ea6f",
+      "bytes": 12376
+    },
+    "certificate": {
+      "path": "results/item380_j1_actual_moment_horizontal_complexity_barrier_certificate.json",
+      "sha256": "5b1fd2b70010bbec53e195b64e824e46ff865b3a5d7d0980af3b0cf002e64e08",
+      "bytes": 7305
+    },
+    "replay": {
+      "path": "results/item380_j1_actual_moment_horizontal_complexity_barrier_certificate_replay.json",
+      "sha256": "5b1fd2b70010bbec53e195b64e824e46ff865b3a5d7d0980af3b0cf002e64e08",
+      "bytes": 7305,
+      "byte_identical_to_certificate": true
+    },
+    "ledger": {
+      "path": "results/item380_j1_actual_moment_horizontal_complexity_barrier_ledger_delta.json",
+      "sha256": "151bf10de7d8bfd5050b739b3cd6cc7ca949ef0ca699bacf840b45e75e181ccb",
+      "bytes": 3110
+    }
+  },
+  "theorems": [
+    "on moment coordinates u=c_T and v=c_L the unique connection is omega=-2 sum_j u^(p^j-1)du+sum_j v^(p^j-1)dv",
+    "the enlarged formal gauge f=sum_j(2u^(p^j)-v^(p^j))/p^j simultaneously trivializes the connection and diagonalizes full Frobenius",
+    "coefficients of the forced fundamental gauge have p-adic valuations -j, so no fixed p-power clears a splitting gauge in W[[u,v]][1/p]",
+    "the lacunary direct moment connection is neither rational nor overconvergent and cannot be made so by a rational or dagger gauge",
+    "the p^2-O(p) ambient independent coefficient directions pull back to cotangent rank at most two on every two-parameter base and do not prove a geometric conductor lower bound",
+    "the formal two-moment description does not itself prove a Frobenius-equivariant descent of the full pointwise finite-log family",
+    "the full 1/36 ceiling is retained and zero is booked"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "exact two-moment horizontal connection",
+      "exact simultaneous formal splitting gauge",
+      "unbounded vertical p-pole theorem for every fundamental splitting gauge",
+      "rational and overconvergent direct-gauge no-go",
+      "ambient-to-two-parameter cotangent-rank collapse",
+      "zero booking"
+    ],
+    "DECLARED_EXACT_CONTROLS_ONLY": [
+      "two finite-depth Mahler controls, symbolic gauge identities, one cotangent-rank control, and four literal finite-log term counts; no prime or collision scan"
+    ],
+    "OPEN": [
+      "a different prime-independent bounded-complexity geometric descent for the actual tied coefficient map",
+      "a genuine geometric conductor theorem or actual-family compression after specialization",
+      "weighted nonconcentration, any strict fixed-j1 ceiling reduction, Route 1, and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_log_mass": "M/6+o(M)",
+    "raw_ceiling_per_6M": "1/36",
+    "weighted_target": "W_(H,Q)(M)=o(M)",
+    "weighted_target_proved": false,
+    "new_linear_log_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0,
+    "retained_ceiling_per_6M": "1/36"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schema": "item290-root-audit-v1",
+  "audit_date": "2026-08-31",
+  "auditor": "root",
+  "verdict": "PASS_AFTER_BOUNDARY_REPAIR_WITH_STRICT_SCOPE",
+  "substantive_checks": {
+    "recurrence_reduction": "PASS: q_(n+1)=(4n+2)q_n+q_(n-1), so the boundary square reduces exactly to q_(n-1)^2 modulo q_n",
+    "continuant_boundary": "PASS AFTER REPAIR: n=2 is explicitly the singleton word (7), while the ascending and descending arithmetic-progression displays are asserted literally only for n>=3",
+    "centered_remainder": "PASS: oddness of q_n gives a unique centered representative; adjacent coprimality makes it nonzero and proves 1<=rho_n<q_n/2",
+    "degree_one_equivalence": "PASS: a monic U+alpha annihilates -q_(n+1)^2 modulo q_n exactly when alpha is in the residue class whose minimum absolute representative has size rho_n",
+    "euclidean_determinant": "PASS: b=Aa+c and h=a-A*kappa give r=ah-c*kappa and Ar=bh-ac; varying kappa is equivalent to the displayed congruence class for h",
+    "continued_fraction_scope": "PASS: the exact arithmetic-progression word is an all-n description, but ordinary rational separation yields only the unit lower bound",
+    "palindromic_barrier": "PASS WITH SCOPE: a palindromic positive word gives a symmetric continuant matrix and numerator square congruent to plus or minus one; this refutes coarse generic-continuant lower bounds but does not apply to the nonpalindromic beta word",
+    "finite_half_pattern": "PASS AS EXACT FINITE ONLY: 2*rho_n>=q_(n-1) is replayed for 2<=n<=160 and is not promoted to an all-n theorem",
+    "proper_target_transfer": "PASS: centering r_n modulo Q|q_n can only reduce the least residue, so full-target upper bounds transfer and full-target lower bounds do not",
+    "baseline_and_capacity": "PASS: the Item282 product baseline is separate; neither an O(n)-height lift nor a superlinear lower bound is proved for a full or large proper target, so booking and capacity reduction are zero"
+  },
+  "independent_replay": {
+    "canonical_sha256": "212c43b65b784cab3a245c3e5353510394e9a175f2cf294d0d49330f58d00e1b",
+    "root_replay_sha256": "212c43b65b784cab3a245c3e5353510394e9a175f2cf294d0d49330f58d00e1b",
+    "byte_identical": true
+  },
+  "package_checks": {
+    "manifest_files_checked": 5,
+    "frozen_dependencies_checked": 8,
+    "hash_list_entries_checked": 6,
+    "json_files_parsed": 5,
+    "all_hashes_and_dependencies_match": true
+  },
+  "report_checks": {
+    "sha256": "fe8ea1118cfc3a14bc9a14737916ee5189d8b80fc4e8def652be645f017dc372",
+    "bytes": 15992,
+    "lines": 660,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "display_delimiters": "64/64",
+    "inline_delimiters": "95/95",
+    "text_fences": 2
+  },
+  "strict_scope": {
+    "proved": "The exact least-residue/degree-one problem, its arithmetic-progression continuant form, and a sharp obstruction to coarse generic-continuant lower bounds.",
+    "not_proved": "Any all-n upper or growing lower bound for the actual Bessel seed, or any large proper-target least-residue theorem.",
+    "next_exact_target": "Exploit q_n=|y_n(-2)| and the factorial/hypergeometric seed to decide rho_n beyond generic continuant information.",
+    "open": "The Item282 product baseline, proper-target arithmetic, every positive beta capacity theorem, Route 1, and every conclusion about e+pi.",
+    "route_status": "Route 1 ACTIVE; Route 2 QUEUED"
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "actual_family": {
+    "far_capacity_decimal_per_M": "0.125432927950090",
+    "far_capacity_exact_per_M": "1139587/9085230",
+    "gap_for_comparison_per_M": "0.1177979020",
+    "nonpropagation_witness": {
+      "current_M_s_p_j_b": [
+        2249,
+        299,
+        2399,
+        1,
+        900
+      ],
+      "current_g0_g1": [
+        0,
+        0
+      ],
+      "next_M_s_j_b": [
+        3448,
+        300,
+        2,
+        895
+      ],
+      "next_g0_g1": [
+        2105,
+        1694
+      ]
+    },
+    "phase_shift": "(s,b,r,j,M)->(s+h,b-5h,r+3h mod 4,j+h,M+h(p-1)/2)"
+  },
+  "all_window_theorem": {
+    "backward": "X_(s-n)=T_(s-n)^(-1)...T_(s-1)^(-1)X_s where defined",
+    "common_gate": "g0(s)=g1(s)=0 gives X_s=(0,0,u); every bounded window is one line parameterized by u",
+    "exceptional_log_weight": "O_L(log M) for every fixed window radius L",
+    "fixed_M_container": "a(s+h)+b=0 mod p implies p | a(2M+1)-ah-b",
+    "forward": "X_(s+n)=T_(s+n-1)...T_s X_s"
+  },
+  "basis": {
+    "determinant": "30720(s+1)(2s+1)^2(2s+3)(3s+4)(3s+5)(23s+27)",
+    "determinant_coefficients_low_to_high": [
+      1620,
+      12747,
+      41165,
+      70855,
+      70507,
+      40742,
+      12708,
+      1656
+    ],
+    "dimension_over_Q(s)": 3,
+    "matrix_sha256": "4ab433940f6056fb5bc62ced09554636f33c7e0abfbec3d15f0dd6008ecd1bae"
+  },
+  "booking": {
+    "far_raw_ceiling_after_item270": "unchanged",
+    "item149_first_copy_already_booked": true,
+    "new_independent_valuation_copy": 0,
+    "new_route1_rate": 0,
+    "new_weighted_zero_theorem": 0
+  },
+  "finite_replay": {
+    "label": "EXACT FINITE ONLY",
+    "range": "s=0..17 modulo 1000003 plus the declared p=2399 witness",
+    "sha256": "1d5848e26e39ac73509e620eee38013817c17c314f92bd825e22910351f9b213"
+  },
+  "kernel": {
+    "Phi": "Q^2/(x^3(1-x)^3)",
+    "Q": "1+x+x^2+x^3",
+    "adjacent_telescoping_sha256": "ddc3463b1a3fb784369d6cf240982416b35ec261e24b0e825d9d372475bb738a",
+    "state": "X_s=(g0(s),g1(s),g0(s+1))",
+    "w": "1/(x^2(1-x)^3)"
+  },
+  "labels": {
+    "bounded_sequence_replay": "EXACT FINITE ONLY",
+    "collision_forced_extra_codimension": 0,
+    "forward_backward_windows": "PROVED where shifted actual rows and determinant factors are defined",
+    "new_route1_rate": 0,
+    "rank_three_module": "PROVED over Q(s) by exact twisted-de-Rham reduction"
+  },
+  "payload_sha256": "402c7a634d6e091644f53b3a2d534eed9bcfcf75e812a71baea5c1c2a4f43a2d",
+  "schema": "item270-all-shift-contiguous-module-certificate-v1",
+  "three_layer_reduction": {
+    "certificate_numerator_x_degree": 13,
+    "full_certificate_sha256": "251b0c22da0f0ccde19b019acf8ea8fc243fdb43cdcd3ef415d64a4af4ecac6d",
+    "full_matrix_shape": [
+      72,
+      66
+    ],
+    "infinity_boundary": "N has degree 13 because NQ/[x^8(1-x)^8] may be constant at infinity; degree 11 gives the certified false nullity zero",
+    "nullity": 2,
+    "rank": 64,
+    "syzygy_observation_polynomials_low_to_high": [
+      [
+        [
+          840,
+          13280,
+          20360,
+          7920
+        ],
+        [
+          -9504,
+          -34848,
+          -38016,
+          -12672
+        ],
+        [
+          149580,
+          295740,
+          190590,
+          40590
+        ],
+        [
+          -256860,
+          -483396,
+          -305520,
+          -64944
+        ],
+        [
+          514920,
+          617055,
+          246105,
+          32670
+        ],
+        [
+          -831096,
+          -993093,
+          -394929,
+          -52272
+        ]
+      ],
+      [
+        [
+          4752,
+          124320,
+          197168,
+          77600
+        ],
+        [
+          -93120,
+          -341440,
+          -372480,
+          -124160
+        ],
+        [
+          1589880,
+          3178860,
+          2080686,
+          450450
+        ],
+        [
+          -2716200,
+          -5209200,
+          -3346680,
+          -720720
+        ],
+        [
+          3794112,
+          4548240,
+          1814643,
+          240975
+        ],
+        [
+          -6123600,
+          -7319790,
+          -2911950,
+          -385560
+        ]
+      ]
+    ],
+    "truncated_nullity": 0,
+    "truncated_rank": 60,
+    "truncated_x_degree_11_shape": [
+      72,
+      60
+    ]
+  },
+  "transfer": {
+    "exceptional_linear_factor_pairs_a_b": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        23,
+        27
+      ],
+      [
+        23,
+        50
+      ]
+    ],
+    "fixed_exceptional_primes": [
+      2,
+      3,
+      5,
+      211
+    ],
+    "future_minor": {
+      "exact": "17091(s+2)(3s+7)^2(3s+8)^2",
+      "fixed_factorization": "17091=3^4*211"
+    },
+    "reduced_z0_row_denominators": [
+      [
+        60480,
+        212008,
+        304382,
+        229095,
+        95355,
+        20817,
+        1863
+      ],
+      [
+        15120,
+        41662,
+        44849,
+        23637,
+        6111,
+        621
+      ],
+      [
+        3024,
+        6518,
+        5059,
+        1692,
+        207
+      ]
+    ],
+    "transfer_determinant": "(512/9)(s+1)^2(2s+1)(2s+3)(2s+5)(23s+50)/((s+2)(3s+4)(3s+5)(3s+7)(3s+8)(23s+27))"
+  }
+}

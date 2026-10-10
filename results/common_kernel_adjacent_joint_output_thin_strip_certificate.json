@@ -1,0 +1,736 @@
+{
+  "control_audit": [
+    {
+      "bytes": 20190,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "sources/common_kernel_adjacent_joint_output_thin_strip_no_go.md"
+    },
+    {
+      "bytes": 18282,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "scripts/common_kernel_adjacent_joint_output_thin_strip_certificate.py"
+    }
+  ],
+  "dependency_audit": {
+    "results/common_kernel_finite_multimoment_exact_approximation_hashes.sha256": "b53b8e6f1855fe3eb7ef1b1eae1c303fad3b9cd5344462616606794fd0d9ce6d",
+    "results/common_kernel_native_sign_output_range_sharp_width_hashes.sha256": "de1348caca545595e79ddc00929ece5d0ef7f18fb7eeb3f979beb26f2b766677"
+  },
+  "exact_dependence": {
+    "all_parameter_identity": "if epsilon_N=epsilon_M then delta G_N-q delta G_M=0, so T=T(0)=integral R e^-t (t^N-q t^M)>0",
+    "rows": [
+      {
+        "M": 8,
+        "N": 4,
+        "epsilon_M": "0",
+        "epsilon_N": "0",
+        "normal_integrand_factor": "t^4*(1-(7/10076)*t^4)",
+        "q": "7/10076"
+      },
+      {
+        "M": 12,
+        "N": 8,
+        "epsilon_M": "0",
+        "epsilon_N": "0",
+        "normal_integrand_factor": "t^8*(1-(2519/29937604)*t^4)",
+        "q": "2519/29937604"
+      },
+      {
+        "M": 16,
+        "N": 8,
+        "epsilon_M": "0",
+        "epsilon_N": "0",
+        "normal_integrand_factor": "t^8*(1-(2519/1307674367984)*t^8)",
+        "q": "2519/1307674367984"
+      },
+      {
+        "M": 20,
+        "N": 12,
+        "epsilon_M": "0",
+        "epsilon_N": "0",
+        "normal_integrand_factor": "t^12*(1-(7484401/38014093877760016)*t^8)",
+        "q": "7484401/38014093877760016"
+      },
+      {
+        "M": 32,
+        "N": 16,
+        "epsilon_M": "0",
+        "epsilon_N": "0",
+        "normal_integrand_factor": "t^16*(1-(81729647999/1027854831772240352215695359999744)*t^16)",
+        "q": "81729647999/1027854831772240352215695359999744"
+      }
+    ],
+    "scope": "Rows illustrate the exact a_N=a_M=0 subfamily."
+  },
+  "factorial_cancellation": {
+    "all_parameter_identity": "u*N!+v*M!=0 iff (u,v)=k*(M!/N!,-1) for integer k",
+    "analytic_separation": "r L_N-L_M >= (e+2)/e-5e/(M+1) >= (e+2)/(2e) for N>=14",
+    "rows": [
+      {
+        "M": 3,
+        "N": 2,
+        "factorial_ratio": "3",
+        "primitive_cancel_vector": [
+          "3",
+          "-1"
+        ]
+      },
+      {
+        "M": 8,
+        "N": 4,
+        "factorial_ratio": "1680",
+        "primitive_cancel_vector": [
+          "1680",
+          "-1"
+        ]
+      },
+      {
+        "M": 9,
+        "N": 8,
+        "factorial_ratio": "9",
+        "primitive_cancel_vector": [
+          "9",
+          "-1"
+        ]
+      },
+      {
+        "M": 15,
+        "N": 14,
+        "factorial_ratio": "15",
+        "primitive_cancel_vector": [
+          "15",
+          "-1"
+        ]
+      },
+      {
+        "M": 22,
+        "N": 14,
+        "factorial_ratio": "12893126400",
+        "primitive_cancel_vector": [
+          "12893126400",
+          "-1"
+        ]
+      },
+      {
+        "M": 64,
+        "N": 32,
+        "factorial_ratio": "482219923991114978843459072919892677776312893440000000",
+        "primitive_cancel_vector": [
+          "482219923991114978843459072919892677776312893440000000",
+          "-1"
+        ]
+      }
+    ]
+  },
+  "gaussian_residues": {
+    "all_parameter_ratio_bound": "b_(N+1)>=(7/2)b_N; hence b_N/b_M<=2/7 for every M>N",
+    "base_residue_table": [
+      {
+        "I_residue": 0,
+        "R_residue": 1,
+        "a_residue": 0,
+        "residue": 0
+      },
+      {
+        "I_residue": -1,
+        "R_residue": 1,
+        "a_residue": 1,
+        "residue": 1
+      },
+      {
+        "I_residue": -2,
+        "R_residue": 0,
+        "a_residue": 2,
+        "residue": 2
+      },
+      {
+        "I_residue": -2,
+        "R_residue": -2,
+        "a_residue": 2,
+        "residue": 3
+      },
+      {
+        "I_residue": 0,
+        "R_residue": -4,
+        "a_residue": 0,
+        "residue": 4
+      },
+      {
+        "I_residue": 4,
+        "R_residue": -4,
+        "a_residue": -4,
+        "residue": 5
+      },
+      {
+        "I_residue": 8,
+        "R_residue": 0,
+        "a_residue": -8,
+        "residue": 6
+      },
+      {
+        "I_residue": 8,
+        "R_residue": 8,
+        "a_residue": -8,
+        "residue": 7
+      }
+    ],
+    "monotone_adjacent_residues": [
+      {
+        "N_mod_8": 0,
+        "a_N_plus_1_scale": 1,
+        "a_N_scale": 0
+      },
+      {
+        "N_mod_8": 1,
+        "a_N_plus_1_scale": 2,
+        "a_N_scale": 1
+      },
+      {
+        "N_mod_8": 2,
+        "a_N_plus_1_scale": 2,
+        "a_N_scale": 2
+      }
+    ],
+    "period_identity": "(1-i)^(8k+r)=16^k(1-i)^r",
+    "scope": "Residue conclusions use the exact period identity; N<=256 gcd rows are replay diagnostics only.",
+    "selected_b_monotonicity_bounds": [
+      {
+        "N": 3,
+        "N_times_factorial": "18",
+        "integer_upper": "8"
+      },
+      {
+        "N": 4,
+        "N_times_factorial": "96",
+        "integer_upper": "12"
+      },
+      {
+        "N": 8,
+        "N_times_factorial": "322560",
+        "integer_upper": "48"
+      },
+      {
+        "N": 16,
+        "N_times_factorial": "334764638208000",
+        "integer_upper": "768"
+      },
+      {
+        "N": 32,
+        "N_times_factorial": "8420186781878192965350976389120000000",
+        "integer_upper": "196608"
+      },
+      {
+        "N": 64,
+        "N_times_factorial": "8120763659896586502619736917450334771383393035170892300723321240013741070745600000000000000",
+        "integer_upper": "12884901888"
+      }
+    ],
+    "selected_exact_b_and_gcd_rows": [
+      {
+        "N": 2,
+        "N_mod_8": 2,
+        "a_N": "2",
+        "a_N_plus_1": "2",
+        "b_N_digits": 1,
+        "b_N_plus_1_digits": 1,
+        "factorial_defect": "1",
+        "gcd_b_layers": "1",
+        "gcd_divides_defect": true,
+        "q_at_most_two_sevenths": true,
+        "sign_possible_adjacent": true,
+        "two_b_next_minus_seven_b": "1"
+      },
+      {
+        "N": 3,
+        "N_mod_8": 3,
+        "a_N": "2",
+        "a_N_plus_1": "0",
+        "b_N_digits": 1,
+        "b_N_plus_1_digits": 2,
+        "factorial_defect": "-2",
+        "gcd_b_layers": "2",
+        "gcd_divides_defect": true,
+        "q_at_most_two_sevenths": true,
+        "sign_possible_adjacent": true,
+        "two_b_next_minus_seven_b": "0"
+      },
+      {
+        "N": 4,
+        "N_mod_8": 4,
+        "a_N": "0",
+        "a_N_plus_1": "-4",
+        "b_N_digits": 2,
+        "b_N_plus_1_digits": 2,
+        "factorial_defect": "-8",
+        "gcd_b_layers": "2",
+        "gcd_divides_defect": true,
+        "q_at_most_two_sevenths": true,
+        "sign_possible_adjacent": false,
+        "two_b_next_minus_seven_b": "26"
+      },
+      {
+        "N": 7,
+        "N_mod_8": 7,
+        "a_N": "-8",
+        "a_N_plus_1": "0",
+        "b_N_digits": 4,
+        "b_N_plus_1_digits": 5,
+        "factorial_defect": "24",
+        "gcd_b_layers": "4",
+        "gcd_divides_defect": true,
+        "q_at_most_two_sevenths": true,
+        "sign_possible_adjacent": false,
+        "two_b_next_minus_seven_b": "22692"
+      },
+      {
+        "N": 8,
+        "N_mod_8": 0,
+        "a_N": "0",
+        "a_N_plus_1": "16",
+        "b_N_digits": 5,
+        "b_N_plus_1_digits": 6,
+        "factorial_defect": "64",
+        "gcd_b_layers": "8",
+        "gcd_divides_defect": true,
+        "q_at_most_two_sevenths": true,
+        "sign_possible_adjacent": true,
+        "two_b_next_minus_seven_b": "221800"
+      },
+      {
+        "N": 15,
+        "N_mod_8": 7,
+        "a_N": "-128",
+        "a_N_plus_1": "0",
+        "b_N_digits": 12,
+        "b_N_plus_1_digits": 14,
+        "factorial_defect": "896",
+        "gcd_b_layers": "64",
+        "gcd_divides_defect": true,
+        "q_at_most_two_sevenths": true,
+        "sign_possible_adjacent": false,
+        "two_b_next_minus_seven_b": "16345929600192"
+      },
+      {
+        "N": 32,
+        "N_mod_8": 0,
+        "a_N": "0",
+        "a_N_plus_1": "65536",
+        "b_N_digits": 36,
+        "b_N_plus_1_digits": 37,
+        "factorial_defect": "1048576",
+        "gcd_b_layers": "32768",
+        "gcd_divides_defect": true,
+        "q_at_most_two_sevenths": true,
+        "sign_possible_adjacent": true,
+        "two_b_next_minus_seven_b": "7762359689543959139932931358720163840"
+      },
+      {
+        "N": 64,
+        "N_mod_8": 0,
+        "a_N": "0",
+        "a_N_plus_1": "4294967296",
+        "b_N_digits": 89,
+        "b_N_plus_1_digits": 91,
+        "factorial_defect": "137438953472",
+        "gcd_b_layers": "2147483648",
+        "gcd_divides_defect": true,
+        "q_at_most_two_sevenths": true,
+        "sign_possible_adjacent": true,
+        "two_b_next_minus_seven_b": "7803546329431876092361153444112431069376229244734529320226316504075704310169600010737418240"
+      },
+      {
+        "N": 128,
+        "N_mod_8": 0,
+        "a_N": "0",
+        "a_N_plus_1": "18446744073709551616",
+        "b_N_digits": 216,
+        "b_N_plus_1_digits": 218,
+        "factorial_defect": "1180591620717411303424",
+        "gcd_b_layers": "9223372036854775808",
+        "gcd_divides_defect": true,
+        "q_at_most_two_sevenths": true,
+        "sign_possible_adjacent": true,
+        "two_b_next_minus_seven_b": "48395370536503842927827471773394686897495385253573060579992964611184862023183275716866114157857673872520771505048894001622817702998943606649647426883252439398884347911014545585408195952640000000000046116860184273879040"
+      },
+      {
+        "N": 256,
+        "N_mod_8": 0,
+        "a_N": "0",
+        "a_N_plus_1": "340282366920938463463374607431768211456",
+        "b_N_digits": 507,
+        "b_N_plus_1_digits": 510,
+        "factorial_defect": "43556142965880123323311949751266331066368",
+        "gcd_b_layers": "170141183460469231731687303715884105728",
+        "gcd_divides_defect": true,
+        "q_at_most_two_sevenths": true,
+        "sign_possible_adjacent": true,
+        "two_b_next_minus_seven_b": "217456806049410612819187355871192470477497615390849604634422707370637806222222913907181113859874432042170286934282324121610849397594852056494200334634097497509788063804813987363218165133392421007650108030780609828502476653004875446303778987166561134148565664611626125796598632158507585217253563383773048271451309089251322977416213287758179118309053027010850883481187755115409579055702743675307157287786454635417187838427278290179352522035640139776000000000000000000000000850705917302346158658436518579420528640"
+      }
+    ],
+    "transition_residue": {
+      "N_mod_8": 3,
+      "a_N_plus_1_scale": 0,
+      "a_N_scale": 2
+    }
+  },
+  "major_gap": {
+    "exact_reason": "for (x,y)=(A/d,B/d), qx-py is an integer divided by d; if nonzero and d<=Q its magnitude is at least 1/d>=1/Q",
+    "rows": [
+      {
+        "Q": 7,
+        "finite_pairs_checked": 5887,
+        "p": 1,
+        "q": 1
+      },
+      {
+        "Q": 11,
+        "finite_pairs_checked": 22275,
+        "p": 2,
+        "q": 3
+      },
+      {
+        "Q": 13,
+        "finite_pairs_checked": 36517,
+        "p": -3,
+        "q": 5
+      }
+    ],
+    "scope": "Enumeration is illustrative; the integer-over-d proof is exact."
+  },
+  "numerical_scales": {
+    "exact_boundary_diagnostics": [
+      {
+        "N": 8,
+        "N_squared_base_difference": "3.58571457228121547",
+        "N_squared_loose_lower_bound": "1.48994769343960863"
+      },
+      {
+        "N": 9,
+        "N_squared_base_difference": "3.71629289752978158",
+        "N_squared_loose_lower_bound": "1.51830619256202782"
+      },
+      {
+        "N": 10,
+        "N_squared_base_difference": "3.82557797853279317",
+        "N_squared_loose_lower_bound": "1.54103563599850838"
+      },
+      {
+        "N": 11,
+        "N_squared_base_difference": "3.91827391977075293",
+        "N_squared_loose_lower_bound": "1.55962027030525696"
+      },
+      {
+        "N": 16,
+        "N_squared_base_difference": "4.22741129356587258",
+        "N_squared_loose_lower_bound": "1.6172305596387381"
+      },
+      {
+        "N": 24,
+        "N_squared_base_difference": "4.47258450383745876",
+        "N_squared_loose_lower_bound": "1.6584829661414838"
+      },
+      {
+        "N": 32,
+        "N_squared_base_difference": "4.60054254547656476",
+        "N_squared_loose_lower_bound": "1.67858592710615539"
+      },
+      {
+        "N": 48,
+        "N_squared_base_difference": "4.73155897109116014",
+        "N_squared_loose_lower_bound": "1.698228513348966"
+      },
+      {
+        "N": 64,
+        "N_squared_base_difference": "4.79802578620505077",
+        "N_squared_loose_lower_bound": "1.7078486984495131"
+      },
+      {
+        "N": 96,
+        "N_squared_base_difference": "4.86500244654643791",
+        "N_squared_loose_lower_bound": "1.71731883992947441"
+      }
+    ],
+    "rows": [
+      {
+        "N": 8,
+        "N_mod_8": 0,
+        "R_N": "16",
+        "R_N_plus_1": "16",
+        "epsilon_equal": false,
+        "log10_area_bound": "-3.08073324937204242",
+        "log10_broad_bound": "-0.445175747048279749",
+        "log10_first_coordinate_bound": "-1.37505366844720601",
+        "log10_thin_bound": "-2.63555750232376267",
+        "optimizer_tau": "0.00449685239011594998"
+      },
+      {
+        "N": 9,
+        "N_mod_8": 1,
+        "R_N": "16",
+        "R_N_plus_1": "0",
+        "epsilon_equal": false,
+        "log10_area_bound": "-2.96169334629833039",
+        "log10_broad_bound": "-0.490090725624495968",
+        "log10_first_coordinate_bound": "-1.44700174077665503",
+        "log10_thin_bound": "-2.47160262067383442",
+        "optimizer_tau": "0.00201649549495552221"
+      },
+      {
+        "N": 10,
+        "N_mod_8": 2,
+        "R_N": "0",
+        "R_N_plus_1": "-32",
+        "epsilon_equal": false,
+        "log10_area_bound": "-3.36535070937322117",
+        "log10_broad_bound": "-0.530847478155366129",
+        "log10_first_coordinate_bound": "-1.54912453008572298",
+        "log10_thin_bound": "-2.83450323121785504",
+        "optimizer_tau": "0.000878781004605400004"
+      },
+      {
+        "N": 11,
+        "N_mod_8": 3,
+        "R_N": "-32",
+        "R_N_plus_1": "-64",
+        "epsilon_equal": false,
+        "log10_area_bound": "-4.10504598310695958",
+        "log10_broad_bound": "-0.568144412888841939",
+        "log10_first_coordinate_bound": "-1.64176091027512124",
+        "log10_thin_bound": "-3.53690157021811764",
+        "optimizer_tau": "0.000373010763540607937"
+      },
+      {
+        "N": 16,
+        "N_mod_8": 0,
+        "R_N": "256",
+        "R_N_plus_1": "256",
+        "epsilon_equal": false,
+        "log10_area_bound": "-8.59611113502971217",
+        "log10_broad_bound": "-0.718075478078343921",
+        "log10_first_coordinate_bound": "-1.94852388863584897",
+        "log10_thin_bound": "-7.87803565695136825",
+        "optimizer_tau": "3.67141809885433191e-6"
+      },
+      {
+        "N": 24,
+        "N_mod_8": 0,
+        "R_N": "4096",
+        "R_N_plus_1": "4096",
+        "epsilon_equal": false,
+        "log10_area_bound": "-14.9304469747616936",
+        "log10_broad_bound": "-0.884823521776756618",
+        "log10_first_coordinate_bound": "-2.28276353044804446",
+        "log10_thin_bound": "-14.045623452984937",
+        "optimizer_tau": "9.17752216485404592e-10"
+      },
+      {
+        "N": 32,
+        "N_mod_8": 0,
+        "R_N": "65536",
+        "R_N_plus_1": "65536",
+        "epsilon_equal": false,
+        "log10_area_bound": "-21.8794183271925929",
+        "log10_broad_bound": "-1.00511796085635745",
+        "log10_first_coordinate_bound": "-2.52363190073424493",
+        "log10_thin_bound": "-20.8743003663362355",
+        "optimizer_tau": "1.01534576016995184e-13"
+      },
+      {
+        "N": 48,
+        "N_mod_8": 0,
+        "R_N": "16777216",
+        "R_N_plus_1": "16777216",
+        "epsilon_equal": false,
+        "log10_area_bound": "-37.1589282500276262",
+        "log10_broad_bound": "-1.17659093718281916",
+        "log10_first_coordinate_bound": "-2.86678701721133282",
+        "log10_thin_bound": "-35.9823373128448071",
+        "optimizer_tau": "2.1593178447716688e-22"
+      },
+      {
+        "N": 64,
+        "N_mod_8": 0,
+        "R_N": "4294967296",
+        "R_N_plus_1": "4294967296",
+        "epsilon_equal": false,
+        "log10_area_bound": "-53.8326247603212316",
+        "log10_broad_bound": "-1.29923230224007975",
+        "log10_first_coordinate_bound": "-3.11214565888293533",
+        "log10_thin_bound": "-52.5333924580811518",
+        "optimizer_tau": "8.24190599653541332e-32"
+      },
+      {
+        "N": 96,
+        "N_mod_8": 0,
+        "R_N": "281474976710656",
+        "R_N_plus_1": "281474976710656",
+        "epsilon_equal": false,
+        "log10_area_bound": "-90.1908827535178567",
+        "log10_broad_bound": "-1.47303517777975713",
+        "log10_first_coordinate_bound": "-3.45980691204600198",
+        "log10_thin_bound": "-88.7178475757380996",
+        "optimizer_tau": "3.18045548599039401e-52"
+      }
+    ],
+    "scope": "High-precision scale and boundary rows are diagnostics only.  Equations (6)-(11), including N^2 D_N^0 -> 5, are proved symbolically and asymptotically in the source."
+  },
+  "primitive_normal": {
+    "identity": "gcd(b_N,b_(N+1)) divides ((N+1)R_N-R_(N+1))/2",
+    "normalization": "primitive U=(b_M/g)L_N-(b_N/g)L_M=(b_M/g)T",
+    "rows": [
+      {
+        "N": 2,
+        "b_M_over_g": "4",
+        "defect": "1",
+        "g": "1",
+        "primitive_normal_first_digits": 1,
+        "primitive_normal_second_digits": 1
+      },
+      {
+        "N": 3,
+        "b_M_over_g": "7",
+        "defect": "-2",
+        "g": "2",
+        "primitive_normal_first_digits": 1,
+        "primitive_normal_second_digits": 1
+      },
+      {
+        "N": 4,
+        "b_M_over_g": "31",
+        "defect": "-8",
+        "g": "2",
+        "primitive_normal_first_digits": 2,
+        "primitive_normal_second_digits": 1
+      },
+      {
+        "N": 7,
+        "b_M_over_g": "5038",
+        "defect": "24",
+        "g": "4",
+        "primitive_normal_first_digits": 4,
+        "primitive_normal_second_digits": 3
+      },
+      {
+        "N": 8,
+        "b_M_over_g": "22679",
+        "defect": "64",
+        "g": "8",
+        "primitive_normal_first_digits": 5,
+        "primitive_normal_second_digits": 4
+      },
+      {
+        "N": 15,
+        "b_M_over_g": "163459295998",
+        "defect": "896",
+        "g": "64",
+        "primitive_normal_first_digits": 12,
+        "primitive_normal_second_digits": 11
+      },
+      {
+        "N": 16,
+        "b_M_over_g": "1389404015999",
+        "defect": "2048",
+        "g": "128",
+        "primitive_normal_first_digits": 13,
+        "primitive_normal_second_digits": 11
+      },
+      {
+        "N": 31,
+        "b_M_over_g": "8030115873220627751685119999998",
+        "defect": "491520",
+        "g": "16384",
+        "primitive_normal_first_digits": 31,
+        "primitive_normal_second_digits": 30
+      },
+      {
+        "N": 32,
+        "b_M_over_g": "132496911908140357902804479999999",
+        "defect": "1048576",
+        "g": "32768",
+        "primitive_normal_first_digits": 33,
+        "primitive_normal_second_digits": 31
+      },
+      {
+        "N": 63,
+        "b_M_over_g": "59086332184208633426313004146870915220522096461870331409760701644799999999999998",
+        "defect": "66571993088",
+        "g": "1073741824",
+        "primitive_normal_first_digits": 80,
+        "primitive_normal_second_digits": 78
+      },
+      {
+        "N": 64,
+        "b_M_over_g": "1920305795986780586355172634773304744666968135010785770817222803455999999999999999",
+        "defect": "137438953472",
+        "g": "2147483648",
+        "primitive_normal_first_digits": 82,
+        "primitive_normal_second_digits": 80
+      },
+      {
+        "N": 127,
+        "b_M_over_g": "41809056473241783880162262786548683817291551227302318070230087451675626936377094936934393944151702210207524334297968015638544845198620485503229375454812693814480732159999999999999999999999999999998",
+        "defect": "581072438321850875904",
+        "g": "4611686018427387904",
+        "primitive_normal_first_digits": 197,
+        "primitive_normal_second_digits": 195
+      },
+      {
+        "N": 128,
+        "b_M_over_g": "2696684142524095060270465949732390106215305054160999515529840640633077937396322623432268409397784792558385319562218937008686142515311021314958294716835418751034007224319999999999999999999999999999999",
+        "defect": "1180591620717411303424",
+        "g": "9223372036854775808",
+        "primitive_normal_first_digits": 199,
+        "primitive_normal_second_digits": 197
+      }
+    ],
+    "scope": "Finite rows replay exact identities; the divisibility is all-N."
+  },
+  "rational_constants": {
+    "comparison_upper": "11/4",
+    "conclusion": "10e^2<16(e+2), hence (36) for every N>=14",
+    "exp_series_partial_0_through_5": "163/60",
+    "exp_tail_ge_6_upper": "7/4320",
+    "f_11_over_4": "3/8",
+    "rigorous_e_upper": "11743/4320",
+    "thin_coordinate_constant": "e<3 gives 2-3e/7>5/7, hence T>5 B_N/7"
+  },
+  "rss_guard_kib": 41943040,
+  "rss_guard_passed": true,
+  "scope": {
+    "not_claimed": [
+      "translation-free rational lattice point from small area",
+      "effective rational patch or numerator-content estimate",
+      "exclusion of every conceivable two-output arithmetic identity",
+      "irrationality or transcendence of e+pi"
+    ],
+    "proved_all_parameter": [
+      "exact thin-coordinate bound for every sign-possible pair",
+      "all-pair position T>5 B_N/7>=5/(7e(N+1))",
+      "adjacent factorial thinness and area upper bound",
+      "positive invariant line in the exact-dependence edge case",
+      "one-sided adjacent gap for N mod 8 in {0,1,2}",
+      "conditional linear common-denominator floor under temporary rationality",
+      "all-pair separation of the unique factorial-cancel direction",
+      "primitive integer normalization of the analytic thin normal"
+    ]
+  },
+  "symbolic_kernel": {
+    "adjacent_baseline_factor": "t**n*(1 - t)*exp(-t)",
+    "coordinate_recovery_difference": "0",
+    "late_identity_difference": "0",
+    "response_bound_ledger": [
+      "exp(t)<=e on [0,1]",
+      "(2-t)^2<=4 on [0,1]",
+      "(t^2-2t+2)^2>=1 on [0,1]",
+      "therefore 0<R'(t)<=16e"
+    ],
+    "response_derivative": "4*(t - 2)**2*exp(t)/(t**2 - 2*t + 2)**2",
+    "response_endpoints": [
+      "e+2",
+      "5e"
+    ],
+    "thin_identity": "d_h*t*(-a_m*b_n + a_n*b_m)*exp(-t)/b_m"
+  },
+  "theorem": "adjacent joint-output thin-strip and determinant no-go"
+}

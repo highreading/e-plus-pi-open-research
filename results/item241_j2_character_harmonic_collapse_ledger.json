@@ -1,0 +1,44 @@
+{
+  "schema": "item241-j2-character-harmonic-collapse-ledger-v1",
+  "item": 241,
+  "route": "Route 1A",
+  "cell": "normalized common-log j=2 fixed cell, p>=17, s>=2",
+  "status": "complete all-index harmonic collapse and finite coefficient-state theorem; aggregate terminal closure remains open",
+  "proved": [
+    "the AA contribution is -54*H_(n-1)/n-18/n^2 for every 1<=n<p",
+    "the BB contribution has the exact even/odd harmonic formulas in report equation (3.5)",
+    "all three AB sections c(n), c(p+n), c(2p+n) have the exact alpha/O prefix formulas (4.4)-(4.5)",
+    "alpha_N equals H_floor(N/2)-H_N, leaving O_N as the explicit mod-4 character prefix",
+    "the complete corrected kernel has the parity formulas (5.1)-(5.2), with no convolution table",
+    "the even and odd kernel subsequences are outputs of exact seven-coordinate rational first-order coefficient states",
+    "R_u=(-1)^u*O_u has the inhomogeneous update R_(u+1)=-R_u-1/(2u+1)",
+    "the odd kernel contains 90*R_u/(2u+1), whose coefficient is a p-unit for every p>=17",
+    "every transition denominator is a p-unit in the stated index range"
+  ],
+  "exact_finite": {
+    "prime_bound": 401,
+    "prime_count": 73,
+    "prime_denominator_pairs": 14174,
+    "even_state_transitions": 7014,
+    "odd_state_transitions": 7014,
+    "forced_character_transitions": 7014,
+    "role": "replay of identities proved symbolically for all admissible primes and indices; no asymptotic inference"
+  },
+  "open": [
+    "derive a boundary-only terminal recurrence for the aggregate K_nu=sum c_(nu,ell)K_p(n_ell)",
+    "prove or exclude cancellation of the character-prefix bulk moment on the restricted P_nu row family",
+    "classify simultaneous j=2 common-log zeros for all admissible primes",
+    "obtain any Route-1 rate, divisibility exponent, or capacity reduction"
+  ],
+  "scoped_consequence": "the Item239 quadratic convolution coordinate is replaced by a finite affine coefficient state; the inhomogeneous source produces a bulk moment after aggregation, so boundary-only terminal closure is neither proved nor disproved",
+  "global_interface": "Item241 simplifies the correction needed only for the stronger p^3 condition from Item239; it does not strengthen the ordinary p^2 common-log gate",
+  "booking": {
+    "new_unconditional_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "capacity_reduction": 0,
+    "conclusion_about_e_plus_pi": "none"
+  },
+  "dependency": {
+    "scripts/item239_j2_actual_witt_bridge_certificate.py": "3715e70670befb3dff0f16e6d7056750acd230b771a28b5ced47bae53ea94dc5"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "item295-root-audit-v1",
+  "item": 295,
+  "auditor": "root",
+  "date": "2026-08-31",
+  "verdict": "PASS WITH EXACTLY SCOPED ZERO-BOOKING CONCLUSIONS",
+  "package": {
+    "manifest_file_hash_mismatches": 0,
+    "manifest_dependency_hash_mismatches": 0,
+    "hash_list_mismatches": 0,
+    "canonical_root_replay_byte_identical": true,
+    "canonical_and_root_replay_sha256": "7a19cdcb2f19bee4bf3a64e28f401b82179f40b02ef4ab8870b8c27f896642a0",
+    "report_sha256": "3ecda6865cc7f6faa9b466d4ce3628dfc0043ceb327f8f8e72e86009b87c53a7",
+    "script_sha256": "7e6961d1c9696cea863e09d286aa70ad24313709be967c3dfea8bc0b09e3e484",
+    "ledger_sha256": "38ca26a8f264021aadd08fba6c68902707eb392d7eb5e391b110b1c9cd4775a4",
+    "manifest_sha256": "e66aa4747be711acc72648203bc006fd2a7fc543ffebb27f577b65c8e56f05e3"
+  },
+  "independent_mathematical_checks": {
+    "sharp_window_equivalence": "PASS: A*r=b*h-a*c follows identically from b=A*a+c and h=a-A*kappa; the strict Aa/(2b) window is exactly what makes the congruent candidate the centered residue with |r|<a/2.",
+    "bare_congruence_threshold": "PASS: nearestness gives and is forced by |r|<b/(2A); this is strictly weaker than the half-bound threshold by c/(2A).",
+    "turan_identity": "PASS: direct substitution of b=A*a+c and a=(A-4)c+d gives (bc-a^2)+(ad-c^2)=4ac.",
+    "defect_and_projection": "PASS: K=kappa-(A-4)h preserves r=dh-cK, misses the prior square slice by t=c-kappa, and projection gives c^2-ah=ct-r; centering modulo a returns r_(n-1).",
+    "scope": "PASS: the result explicitly leaves the all-n half-bound, coupled descent, proper-target theorem, and every Route-1 capacity consequence open."
+  },
+  "format": {
+    "report_bytes": 14499,
+    "report_lines": 685,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "display_math_open": 73,
+    "display_math_close": 73
+  },
+  "capacity": {
+    "new_route1_rate": 0,
+    "new_beta_capacity_reduction": 0,
+    "ledger_changed": false
+  }
+}

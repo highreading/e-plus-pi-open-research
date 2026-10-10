@@ -1,0 +1,46 @@
+{
+  "schema": "item238-root-independent-audit-v1",
+  "status": "PASS_SQUARED_CARRY_RECURRENCE_AND_SCOPED_REDUNDANCY",
+  "canonical_sha256": "a12fd42e9d53b4f50a595b65d2146b16423c8547a2f3348220fc33d976e51b31",
+  "root_replay_sha256": "a12fd42e9d53b4f50a595b65d2146b16423c8547a2f3348220fc33d976e51b31",
+  "byte_identical_replay": true,
+  "independent_checks": {
+    "phase_expansion": "For a retained p-unit denominator N, 1/(N+kp)=1/N-kp/N^2 mod p^2. Combining this with q(N+kp)=(sigma^k q)(N) proves the stated coefficientwise U/V phase law; sigma^2 q_ell=-q_ell and sigma^4 q_ell=q_ell give the two corrected signs.",
+    "coupled_recurrence_sign": "The signed Pearson coefficient vector increases by 2p(1,-1,1,-1). Substituting U_(t+2p)=-U_t+2pV_t gives -R_t(U)+2p(Rbar_t(V)-(u_t-u_(t+1)+u_(t+2)-u_(t+3))) mod p^2. The frozen report's initially omitted displayed plus sign was corrected before promotion.",
+    "terminal_dimension": "At Abar_t=0 the ordinary terminal row constrains u_t,u_(t+1),u_(t+2). The coupled row determines the previously free u_(t+3) and contains no v_(t+3), so one new free digit replaces the one consumed and no one-terminal scalar compatibility is added.",
+    "endpoint_redundancy": "Phi is injective because Phi(q)=0 forces q(2p)=q(3p)=q(4p)=0, and the three endpoint roots 1,i^p,(-i)^p are distinct. Thus K=Psi Phi^-1 exists all-row and V_a=K*Ybar_a; the squared carry supplies no fourth first-digit endpoint mode.",
+    "scope": "The argument does not identify the coefficient-level Witt digit Omega^W with a complete lifted terminal state. Independence or redundancy after imposing p^3 divisibility remains open, so no common-log exclusion or rate is booked.",
+    "canonical_direct_rows": 184,
+    "canonical_map_rows": 2435,
+    "extended_direct_limit": 181,
+    "extended_direct_rows": 266,
+    "extended_map_limit": 701,
+    "extended_map_rows": 3295,
+    "extended_recurrence_checks": 28284,
+    "extended_certificate_sha256": "2eb7fad709d29c947fabec41f2bd507d2996ba7e50974e0b7adae8803820ed4d",
+    "python_compile": true,
+    "canonical_replay": "byte-identical",
+    "control_character_scan": "clean",
+    "host_path_scan": "clean",
+    "artifact_hashes": "match the corrected frozen manifest and SHA-256 ledger"
+  },
+  "classification": {
+    "PROVED": [
+      "the coupled squared-denominator recurrence with all signs",
+      "the coefficientwise p, 2p, and 4p phase law",
+      "the corrected j=1 lifted closures",
+      "all-row endpoint-mode redundancy and the one-terminal no-go"
+    ],
+    "EXACT_REPLAY": [
+      "the frozen direct replay through p<=151 and endpoint-map census through p<=601",
+      "the independent extension through p<=181 direct and p<=701 for endpoint maps"
+    ],
+    "OPEN": [
+      "whether the closure is redundant after the extra p^3/Omega^W gate",
+      "a full p^2 lift of Item233's terminal-residual identity",
+      "all-prime or weighted control of either fixed cell",
+      "any positive Route-1 rate or conclusion about e+pi"
+    ]
+  },
+  "audit_conclusion": "Item238 correctly replaces naive antiperiodicity by an explicit squared-denominator carry and proves that this carry is not a new first-digit endpoint mode. Its scope stops before the actual p^3 coefficient gate, so the result is structural and books no rate."
+}

@@ -1,0 +1,290 @@
+{
+  "arithmetic": "exact rational and sparse bivariate-polynomial arithmetic; Python standard library only",
+  "item": 216,
+  "labels": {
+    "FINITE": [
+      "recurrence and phase crosschecks through the declared max_b",
+      "direct b<5 eliminant-gcd rows"
+    ],
+    "OPEN": [
+      "higher-order creative telescoping in b",
+      "closed forced-product extraction from G_(b,r)",
+      "resultant or prime-localization bounds",
+      "any positive or negative asymptotic stable/far-phase log-mass bound"
+    ],
+    "PROVED": [
+      "unique h-independent first contiguous combination",
+      "reduced quartic term ratio",
+      "Gosper no-antidifference theorem on every actual p>5 stable phase with b>=5",
+      "phase exclusion of the only possible collision class",
+      "mandatory p=2399 survives in the residual numerator"
+    ]
+  },
+  "mandatory_b900_exception": {
+    "denominator_mod_2399": 954,
+    "entire_G_900_3_divides_reduced_numerator": true,
+    "forced_degree": "2692/5",
+    "gcd_with_denominator": 1,
+    "node": {
+      "b": 900,
+      "k": 899,
+      "p": 2399,
+      "q": 1,
+      "r": 3,
+      "s": 299
+    },
+    "numerator_mod_2399": 0,
+    "quotient_digits": 407,
+    "quotient_sha256": "11b7931b943a572f2780d719d6ac1c5ae5a7eb534e0b7a343f7dc132197cd35b",
+    "residual_denominator_digits": 335,
+    "residual_denominator_sha256": "ea1f85bf99e8ae3c5d42900049828258255faabcafcf05208f0c14976ef5e801",
+    "residual_fraction_sha256": "cc55f4c5140f1d0769f9f2b61af035a6afaef86165a273ba50316e8473ef9fc0",
+    "residual_numerator_digits": 576,
+    "residual_numerator_sha256": "cb1829f3be01b03cf9f2a8814241b5a6432f6323e1952ec9b74f329efdbb5cb1"
+  },
+  "proved_gosper_obstruction": {
+    "finite_phase_crosscheck": {
+      "label": "FINITE check of the separately proved phase exclusion",
+      "max_b": 120,
+      "nodes": 2051,
+      "stream_sha256": "a668cb735b743af451ba5ed8365f7323234036175a7184ab3f8b6ddbe64b3b07"
+    },
+    "forced_degree": "deg(x)=[h^3]B(h-1)-[h^3]A(h)=(3b-8)/5",
+    "normality_over_Qb": "the three roots (b-u)/4 and the root -(3b+2+5r)/20 of A cannot equal a root of B(h+j) identically in b, for any integer j>=0",
+    "only_phase-compatible_small_support_gap": [
+      0,
+      3
+    ],
+    "phase_exclusion": "b=1 (mod 5) and q*p=b+4 (mod 5) force p=5",
+    "polynomial_equation": "A(h)*x(h+1)-B(h-1)*x(h)=1",
+    "small_b_exact_rows": [
+      {
+        "b": 0,
+        "gcd": 1,
+        "phase_feasible_odd_primes_gt_5": [],
+        "r": 0,
+        "support_gap": false
+      },
+      {
+        "b": 0,
+        "gcd": 1,
+        "phase_feasible_odd_primes_gt_5": [],
+        "r": 1,
+        "support_gap": false
+      },
+      {
+        "b": 0,
+        "gcd": 0,
+        "phase_feasible_odd_primes_gt_5": [],
+        "r": 2,
+        "support_gap": true
+      },
+      {
+        "b": 0,
+        "gcd": 0,
+        "phase_feasible_odd_primes_gt_5": [],
+        "r": 3,
+        "support_gap": true
+      },
+      {
+        "b": 1,
+        "gcd": 1,
+        "phase_feasible_odd_primes_gt_5": [],
+        "r": 0,
+        "support_gap": false
+      },
+      {
+        "b": 1,
+        "gcd": 1,
+        "phase_feasible_odd_primes_gt_5": [],
+        "r": 1,
+        "support_gap": false
+      },
+      {
+        "b": 1,
+        "gcd": 1,
+        "phase_feasible_odd_primes_gt_5": [],
+        "r": 2,
+        "support_gap": false
+      },
+      {
+        "b": 1,
+        "gcd": 0,
+        "phase_feasible_odd_primes_gt_5": [],
+        "r": 3,
+        "support_gap": true
+      },
+      {
+        "b": 2,
+        "gcd": 1,
+        "phase_feasible_odd_primes_gt_5": [],
+        "r": 0,
+        "support_gap": false
+      },
+      {
+        "b": 2,
+        "gcd": 1,
+        "phase_feasible_odd_primes_gt_5": [],
+        "r": 1,
+        "support_gap": false
+      },
+      {
+        "b": 2,
+        "gcd": 1,
+        "phase_feasible_odd_primes_gt_5": [],
+        "r": 2,
+        "support_gap": false
+      },
+      {
+        "b": 2,
+        "gcd": 1,
+        "phase_feasible_odd_primes_gt_5": [],
+        "r": 3,
+        "support_gap": false
+      },
+      {
+        "b": 3,
+        "gcd": 1,
+        "phase_feasible_odd_primes_gt_5": [],
+        "r": 0,
+        "support_gap": false
+      },
+      {
+        "b": 3,
+        "gcd": 1,
+        "phase_feasible_odd_primes_gt_5": [],
+        "r": 1,
+        "support_gap": false
+      },
+      {
+        "b": 3,
+        "gcd": 3,
+        "phase_feasible_odd_primes_gt_5": [],
+        "r": 2,
+        "support_gap": false
+      },
+      {
+        "b": 3,
+        "gcd": 1,
+        "phase_feasible_odd_primes_gt_5": [],
+        "r": 3,
+        "support_gap": false
+      },
+      {
+        "b": 4,
+        "gcd": 2,
+        "phase_feasible_odd_primes_gt_5": [],
+        "r": 0,
+        "support_gap": false
+      },
+      {
+        "b": 4,
+        "gcd": 2,
+        "phase_feasible_odd_primes_gt_5": [],
+        "r": 1,
+        "support_gap": false
+      },
+      {
+        "b": 4,
+        "gcd": 2,
+        "phase_feasible_odd_primes_gt_5": [],
+        "r": 2,
+        "support_gap": false
+      },
+      {
+        "b": 4,
+        "gcd": 2,
+        "phase_feasible_odd_primes_gt_5": [],
+        "r": 3,
+        "support_gap": false
+      }
+    ],
+    "specialized_normality": "for b>=5 the first three A-roots are positive while every B(h+j)-root is negative; a collision of the fourth root requires b=1 (mod 5)",
+    "theorem": "for every actual p>5 stable phase with b>=5, F_h has no hypergeometric antidifference certified by Gosper's normal form"
+  },
+  "proved_reduced_ratio": {
+    "A": "-product_{u=r-1}^{r+1}(b-4h-u)*(3b+20h+2+5r)/1280",
+    "B": "(h+1)*(2h+1+2floor(r/2))*(4h+1+2ceil(r/2))*(4h+3+2ceil(r/2))/32",
+    "finite_crosscheck": {
+      "consecutive_ratios": 6902,
+      "label": "FINITE verification of the separately proved polynomial identities and recurrence",
+      "max_b": 120,
+      "stream_sha256": "c875cc83c871e13bd3bce9ec1828611ed93660da64c0ffc7cd415fffd881913d"
+    },
+    "identity": "F_(h+1)/F_h=A_r(h)/B_r(h)",
+    "symbolic_rows": [
+      {
+        "A_h3": {
+          "0": "1/10",
+          "1": "-3/5"
+        },
+        "A_sha256": "128e9d579a35532fbe131c965df4df67f5dac66e536d199bcc16445224ff9f27",
+        "B_sha256": "0a3f2e2788e6fb08bff8e004e5d4e331f0c74ad2e39fb165f6bc8a97d2d38054",
+        "B_shift_minus_1_h3": {
+          "0": "-3/2"
+        },
+        "forced_polynomial_degree": "(3*b-8)/5",
+        "r": 0
+      },
+      {
+        "A_h3": {
+          "0": "11/10",
+          "1": "-3/5"
+        },
+        "A_sha256": "2c026392a72418a1e15295e512101d85ee18c245ff6083153436ed59b14b0d9b",
+        "B_sha256": "e953358e589f839ae46f3a0e4a5bee47e69acfad0f1821f15f055ea28d04f22e",
+        "B_shift_minus_1_h3": {
+          "0": "-1/2"
+        },
+        "forced_polynomial_degree": "(3*b-8)/5",
+        "r": 1
+      },
+      {
+        "A_h3": {
+          "0": "21/10",
+          "1": "-3/5"
+        },
+        "A_sha256": "d30549988b6620ddb0555ac05343e9850ef37df05f7a6c72c83d7152bc532f06",
+        "B_sha256": "fea03872d0d7f41a85566e9c4641b638d8a398d9b6ac8a43fc9f34804d238132",
+        "B_shift_minus_1_h3": {
+          "0": "1/2"
+        },
+        "forced_polynomial_degree": "(3*b-8)/5",
+        "r": 2
+      },
+      {
+        "A_h3": {
+          "0": "31/10",
+          "1": "-3/5"
+        },
+        "A_sha256": "12d0ba8e1b2a309c3cb86341b83f57a4ff9802196c024faa0174aa31f3e3e0c9",
+        "B_sha256": "1f530456d72ae59e2e36661852b6407e1bb13ecd4d502291048018abcac3f6b3",
+        "B_shift_minus_1_h3": {
+          "0": "3/2"
+        },
+        "forced_polynomial_degree": "(3*b-8)/5",
+        "r": 3
+      }
+    ]
+  },
+  "proved_unique_contiguous_reduction": {
+    "combination": "R_(b,r)=(r-b-2)*Phi_g1+(b+1)*Phi_g0",
+    "common_summand": "F_h=T_h*(b+1)*delta/(z*(4*z+1))",
+    "common_weights": {
+      "Phi_g0": "delta/z",
+      "Phi_g1": "-(b+1)/(4*z+1)"
+    },
+    "endpoint": "add (r-b-2)*(alpha)_e/(delta)_e when e=(b+1-r)/4 is a nonnegative integer",
+    "parameters": "z=delta+h; delta=(r-b-2)/4",
+    "scope": "exact for r<=b; finite support gaps are treated separately",
+    "unique_pair_up_to_scale": "lambda=r-b-2, mu=b+1"
+  },
+  "route_1_rate_ledger": {
+    "actual_common_prime_log_mass_bound": "OPEN; neither an upper nor a lower asymptotic coefficient is proved",
+    "consequence": "this is a method obstruction only; it neither bounds nor supplies stable/far moving-b prime mass",
+    "full_kappa_1_cell_coefficient_per_m": "0.4820375017701112",
+    "needed_coefficient_per_m": "0.1177979020165907632818384072...",
+    "new_usable_rate_credit_per_m": 0
+  },
+  "verdict": "PROVED that the unique first contiguous residual is non-Gosper-summable on every actual non-gap p>5 stable phase; the b=900,p=2399 cancellation survives. This rules out the most direct first-order gamma/Pochhammer telescoping route but gives coefficient 0, so higher-order identities and all-b prime localization remain OPEN."
+}

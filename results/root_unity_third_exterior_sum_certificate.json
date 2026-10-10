@@ -1,0 +1,282 @@
+{
+  "all_parameter_results_proved_in_source": {
+    "analytic_degree_bound": "at most 3*n",
+    "centered_type": "3*m/2",
+    "common_origin_order": "at least 3*L_nu",
+    "content_free_universal_ledger_is_strictly_negative": true,
+    "corrected_degree_bound": "at most 2*n+D",
+    "dimension_scale": "nu=Theta(n^(1/3))",
+    "endpoint_jets": [
+      "R(i*pi)=C(i*pi)",
+      "R'(i*pi)=(C'-beta)(i*pi)",
+      "R''(i*pi)=(C''-beta-2*theta)(i*pi)"
+    ],
+    "integer_analytic_clearing": "Q^3",
+    "integer_endpoint_clearing": "Q^2",
+    "matched_per_column_height_threshold_is_unchanged_from_k=2": true,
+    "primitive_endpoint_normalization_divisor": "Q*content(Q^2 Delta_3)",
+    "raw_frequency_support": "0,...,3*m",
+    "tail_rank_gap_is_necessary_and_sufficient": true,
+    "theta_definition": "theta=(partial_z-partial_y)T(z,-1)"
+  },
+  "dimension_diagnostics": [
+    {
+      "minimal_full_endpoint_nu": 7,
+      "n": 10,
+      "nu_over_n_to_one_third": "3.249112183529",
+      "tail_row_count": 24,
+      "third_exterior_dimension": 35
+    },
+    {
+      "minimal_full_endpoint_nu": 12,
+      "n": 100,
+      "nu_over_n_to_one_third": "2.585321628038",
+      "tail_row_count": 209,
+      "third_exterior_dimension": 220
+    },
+    {
+      "minimal_full_endpoint_nu": 24,
+      "n": 1000,
+      "nu_over_n_to_one_third": "2.400000000000",
+      "tail_row_count": 2021,
+      "third_exterior_dimension": 2024
+    },
+    {
+      "minimal_full_endpoint_nu": 51,
+      "n": 10000,
+      "nu_over_n_to_one_third": "2.367210305143",
+      "tail_row_count": 20048,
+      "third_exterior_dimension": 20825
+    }
+  ],
+  "exact_grid": [
+    {
+      "Q_clears_each_auxiliary_map": true,
+      "Q_cubed_clears_analytic_sum": true,
+      "Q_squared_clears_corrected_endpoint": true,
+      "actual_analytic_polynomial_degree": 13,
+      "all_endpoint_jet_identities_exact": true,
+      "analytic_polynomial_degree_bound": 15,
+      "analytic_sum_sha256": "158bb3f828c7ca5147a4d6977f096d0320078509ae23afbc81df740d19bdfe8f",
+      "centered_doubled_frequency_interval": [
+        -6,
+        6
+      ],
+      "centered_exponential_type": "6/2",
+      "centering_endpoint_phase_real_imag": [
+        -1,
+        0
+      ],
+      "cleared_analytic_height_digits": 70,
+      "cleared_endpoint_equals_Q_times_integer_endpoint": true,
+      "corrected_content_digits": 27,
+      "endpoint_basis_saturated": true,
+      "endpoint_constraint_count": 0,
+      "full_rank": 16,
+      "high_tail_row_count": 13,
+      "origin_order": 36,
+      "origin_order_at_least_3L": true,
+      "origin_order_minus_3L": 0,
+      "parameters": {
+        "D": 5,
+        "L_nu": 12,
+        "M": 12,
+        "m": 2,
+        "n": 5,
+        "nu": 6,
+        "target_degree": 2
+      },
+      "primitive_endpoint_coefficients_ascending": [
+        "4594910832388729967706112",
+        "0",
+        "465561710101918190107197"
+      ],
+      "primitive_endpoint_height_digits": 25,
+      "rank_gap": 3,
+      "raw_frequency_interval": [
+        0,
+        6
+      ],
+      "selected_contraction_rank": 6,
+      "selected_coordinate_height_digits": 29,
+      "selected_coordinate_sha256": "32303710c01eca560f0502f2e5b97ba10783ba5bd9a54122a9d7011a4d8384ed",
+      "selected_is_genuinely_nondecomposable": true,
+      "tail_rank": 13,
+      "third_exterior_dimension": 20,
+      "universal_Q_digits": 13
+    },
+    {
+      "Q_clears_each_auxiliary_map": true,
+      "Q_cubed_clears_analytic_sum": true,
+      "Q_squared_clears_corrected_endpoint": true,
+      "actual_analytic_polynomial_degree": 15,
+      "all_endpoint_jet_identities_exact": true,
+      "analytic_polynomial_degree_bound": 15,
+      "analytic_sum_sha256": "75629ec196536fbe429395750e1f14446956b03fb1ca00bcd7754d3dc389a2da",
+      "centered_doubled_frequency_interval": [
+        -9,
+        9
+      ],
+      "centered_exponential_type": "9/2",
+      "centering_endpoint_phase_real_imag": [
+        0,
+        -1
+      ],
+      "cleared_analytic_height_digits": 155,
+      "cleared_endpoint_equals_Q_times_integer_endpoint": true,
+      "corrected_content_digits": 63,
+      "endpoint_basis_saturated": true,
+      "endpoint_constraint_count": 0,
+      "full_rank": 16,
+      "high_tail_row_count": 13,
+      "origin_order": 55,
+      "origin_order_at_least_3L": true,
+      "origin_order_minus_3L": 1,
+      "parameters": {
+        "D": 5,
+        "L_nu": 18,
+        "M": 18,
+        "m": 3,
+        "n": 5,
+        "nu": 6,
+        "target_degree": 2
+      },
+      "primitive_endpoint_coefficients_ascending": [
+        "94303793110595004283726511370863142171681990115328",
+        "0",
+        "9554971939850125560921785224448722811578042752861"
+      ],
+      "primitive_endpoint_height_digits": 50,
+      "rank_gap": 3,
+      "raw_frequency_interval": [
+        0,
+        9
+      ],
+      "selected_contraction_rank": 6,
+      "selected_coordinate_height_digits": 57,
+      "selected_coordinate_sha256": "466255e8b8c1d9c78e0cc1d963b106e439c4d965654a2823b42205ee059c9ede",
+      "selected_is_genuinely_nondecomposable": true,
+      "tail_rank": 13,
+      "third_exterior_dimension": 20,
+      "universal_Q_digits": 30
+    },
+    {
+      "Q_clears_each_auxiliary_map": true,
+      "Q_cubed_clears_analytic_sum": true,
+      "Q_squared_clears_corrected_endpoint": true,
+      "actual_analytic_polynomial_degree": 16,
+      "all_endpoint_jet_identities_exact": true,
+      "analytic_polynomial_degree_bound": 18,
+      "analytic_sum_sha256": "1e346a66bb11cf8c3bd0dc1420c999d04cbf1bbc8ff69f79a3cd27cacaee635b",
+      "centered_doubled_frequency_interval": [
+        -6,
+        6
+      ],
+      "centered_exponential_type": "6/2",
+      "centering_endpoint_phase_real_imag": [
+        -1,
+        0
+      ],
+      "cleared_analytic_height_digits": 104,
+      "cleared_endpoint_equals_Q_times_integer_endpoint": true,
+      "corrected_content_digits": 46,
+      "endpoint_basis_saturated": true,
+      "endpoint_constraint_count": 1,
+      "full_rank": 19,
+      "high_tail_row_count": 16,
+      "origin_order": 46,
+      "origin_order_at_least_3L": true,
+      "origin_order_minus_3L": 1,
+      "parameters": {
+        "D": 6,
+        "L_nu": 15,
+        "M": 14,
+        "m": 2,
+        "n": 6,
+        "nu": 6,
+        "target_degree": 2
+      },
+      "primitive_endpoint_coefficients_ascending": [
+        "-5235498928640528506236096380928",
+        "0",
+        "-530466948408399005763718476595"
+      ],
+      "primitive_endpoint_height_digits": 31,
+      "rank_gap": 3,
+      "raw_frequency_interval": [
+        0,
+        6
+      ],
+      "selected_contraction_rank": 6,
+      "selected_coordinate_height_digits": 41,
+      "selected_coordinate_sha256": "b8eba12f626ea9b84253c9a6d90472022b83c7d7808c172e7d40928c81c8d376",
+      "selected_is_genuinely_nondecomposable": true,
+      "tail_rank": 16,
+      "third_exterior_dimension": 20,
+      "universal_Q_digits": 20
+    },
+    {
+      "Q_clears_each_auxiliary_map": true,
+      "Q_cubed_clears_analytic_sum": true,
+      "Q_squared_clears_corrected_endpoint": true,
+      "actual_analytic_polynomial_degree": 18,
+      "all_endpoint_jet_identities_exact": true,
+      "analytic_polynomial_degree_bound": 18,
+      "analytic_sum_sha256": "5559489682b8a3cd2ba81fdb3c0b2d67591fff9592d9a23d63cbdf58a5dbae1f",
+      "centered_doubled_frequency_interval": [
+        -9,
+        9
+      ],
+      "centered_exponential_type": "9/2",
+      "centering_endpoint_phase_real_imag": [
+        0,
+        -1
+      ],
+      "cleared_analytic_height_digits": 209,
+      "cleared_endpoint_equals_Q_times_integer_endpoint": true,
+      "corrected_content_digits": 92,
+      "endpoint_basis_saturated": true,
+      "endpoint_constraint_count": 1,
+      "full_rank": 19,
+      "high_tail_row_count": 16,
+      "origin_order": 67,
+      "origin_order_at_least_3L": true,
+      "origin_order_minus_3L": 1,
+      "parameters": {
+        "D": 6,
+        "L_nu": 22,
+        "M": 21,
+        "m": 3,
+        "n": 6,
+        "nu": 6,
+        "target_degree": 2
+      },
+      "primitive_endpoint_coefficients_ascending": [
+        "-19341456579593688558399508567485007896857291699920044032",
+        "0",
+        "-1959699274011314633356686938961047321306321455398241509"
+      ],
+      "primitive_endpoint_height_digits": 56,
+      "rank_gap": 3,
+      "raw_frequency_interval": [
+        0,
+        9
+      ],
+      "selected_contraction_rank": 6,
+      "selected_coordinate_height_digits": 67,
+      "selected_coordinate_sha256": "f189e6d35a5db0fcbbde53572a93e89cd1b8ecafbc158759810919cd838d0d84",
+      "selected_is_genuinely_nondecomposable": true,
+      "tail_rank": 16,
+      "third_exterior_dimension": 20,
+      "universal_Q_digits": 44
+    }
+  ],
+  "limitations": {
+    "finite_rank_gaps_are_not_extrapolated": true,
+    "no_all_parameter_rank_gap_theorem": true,
+    "no_intrinsic_height_or_content_theorem": true,
+    "no_irrationality_or_transcendence_conclusion": true
+  },
+  "peak_rss_omitted_for_determinism_but_asserted_below_2GiB": true,
+  "schema": "root-unity-third-exterior-sum-v1"
+}

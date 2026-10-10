@@ -1,0 +1,299 @@
+{
+  "scope": "Present controls bytes; only hash fields explicitly specified in receipts",
+  "all_specified_hash_fields_match": true,
+  "receipts": [
+    {
+      "receipt": "controls/binary_adjoint_audit_receipt.json",
+      "receipt_sha256": "fd379f2811d03150edd37b7b87f40931d08c526b47ffc54e83468b31c3f85c6a",
+      "reported_status": "PASS",
+      "hash_fields": {
+        "source_sha256": {
+          "sha256": "13fd72affe0c8857879eb4649c9d8c8163b59e311b2b3e92fb7f020900f2f3a2",
+          "matching_current_files": [
+            "controls/binary_adjoint_audit_coordinator.py"
+          ],
+          "match_found": true
+        },
+        "input_certificate_sha256": {
+          "sha256": "934edb586653e3ce35c71a1cd73173b03acf4275fbbec92901d951b07769cc1c",
+          "matching_current_files": [
+            "controls/normalized_binary_finite_audit_certificate.json"
+          ],
+          "match_found": true
+        }
+      }
+    },
+    {
+      "receipt": "controls/binary_limit_rational_receipt.json",
+      "receipt_sha256": "85b4e5ed00c101248f2211363c5997e948ffae939b026026c7ddc94df67f66e9",
+      "reported_status": "PASS",
+      "hash_fields": {
+        "source_sha256": {
+          "sha256": "4292374626849f728a0eaf16c9b92e67095307e164d5324f03788fb552cccd53",
+          "matching_current_files": [
+            "controls/binary_limit_rational_coordinator.py"
+          ],
+          "match_found": true
+        },
+        "artifact_sha256": {
+          "sha256": "48d57235b9a910c76f180ef8b8c80db551878f3248d162c1d1379ae2ab90f779",
+          "matching_current_files": [
+            "controls/binary_limit_rational_certificate.json"
+          ],
+          "match_found": true
+        }
+      }
+    },
+    {
+      "receipt": "controls/endpoint_extrapolant_packet_receipt.json",
+      "receipt_sha256": "1fedf8f4abe16ace8693f70c04e55293efe2d3f7c9c4c803bf58c1c9be5e0130",
+      "reported_status": "16_COMPLETE_ACTUAL_FINITE_PAIRS",
+      "hash_fields": {}
+    },
+    {
+      "receipt": "controls/endpoint_recurrence_reconstruction_receipt.json",
+      "receipt_sha256": "e3648fc5e6be4ffe254469aea6c81d1c5e2bb22422497ce7a8c2f19fdc20506b",
+      "reported_status": "PASS",
+      "hash_fields": {
+        "source_sha256": {
+          "sha256": "bac9137029f7d24dc7f8f744083581ea0a5a49040465f3667ed2a2c898173581",
+          "matching_current_files": [
+            "controls/endpoint_recurrence_reconstruction_coordinator.py"
+          ],
+          "match_found": true
+        },
+        "artifact_sha256": {
+          "sha256": "27929c1b4d4b4e00bad3e7aef975a941ab1ad23c3138e985db1932ce348ffccc",
+          "matching_current_files": [
+            "controls/endpoint_recurrence_reconstruction_certificate.json"
+          ],
+          "match_found": true
+        }
+      }
+    },
+    {
+      "receipt": "controls/general_endpoint_weights_receipt.json",
+      "receipt_sha256": "5301773416ee458f7f189e1886650afe02bd6a97e3fe83e75dc5b9cbc0e5cf11",
+      "reported_status": null,
+      "hash_fields": {
+        "artifact_sha256": {
+          "sha256": "0f43cb32d1553f261e86e31afb25a39da1c9b06a92400eb5dd1b6548b28c49d6",
+          "matching_current_files": [
+            "controls/general_endpoint_weights_certificate.json"
+          ],
+          "match_found": true
+        }
+      }
+    },
+    {
+      "receipt": "controls/homogeneous_budget_audit_receipt.json",
+      "receipt_sha256": "04f6f70951a8effb310e89630905a58c29480a27efd5b59c5103c6c51f9b3a13",
+      "reported_status": "PASS",
+      "hash_fields": {
+        "source_sha256": {
+          "sha256": "5949f236e926beff5047e14143b71c341b5cffbc27246e3927d1910d69ddd6f1",
+          "matching_current_files": [
+            "controls/homogeneous_budget_audit_coordinator.py"
+          ],
+          "match_found": true
+        },
+        "artifact_sha256": {
+          "sha256": "d78901bb8c90bea45b690a145c3cdcd1ec467a852dd038c5d6c98880b23d8466",
+          "matching_current_files": [
+            "controls/homogeneous_budget_audit_certificate.json"
+          ],
+          "match_found": true
+        }
+      }
+    },
+    {
+      "receipt": "controls/normalized29_compression_receipt.json",
+      "receipt_sha256": "cee5e0290a123a1129b3667250f077404b99a01c3bd18dc5baaacf5a7a753cee",
+      "reported_status": null,
+      "hash_fields": {
+        "artifact_sha256": {
+          "sha256": "75e410d3341cae708f7ef265e14a3715579bf6686111af115c2d91334b96c35f",
+          "matching_current_files": [
+            "controls/normalized29_compression_certificate.json"
+          ],
+          "match_found": true
+        }
+      }
+    },
+    {
+      "receipt": "controls/normalized_binary_finite_audit_receipt.json",
+      "receipt_sha256": "612b685ac9f484466cc43a6d4df92c56ce511cc3f1b677e7e8961e6f77065273",
+      "reported_status": "PASS",
+      "hash_fields": {
+        "source_sha256": {
+          "sha256": "3ed6fbbebdf6c89aa2ac9057069fb6408e6ad6c85834ee4ec6a371263e5b2a62",
+          "matching_current_files": [
+            "controls/normalized_binary_finite_audit_coordinator.py"
+          ],
+          "match_found": true
+        },
+        "artifact_sha256": {
+          "sha256": "934edb586653e3ce35c71a1cd73173b03acf4275fbbec92901d951b07769cc1c",
+          "matching_current_files": [
+            "controls/normalized_binary_finite_audit_certificate.json"
+          ],
+          "match_found": true
+        }
+      }
+    },
+    {
+      "receipt": "controls/odd29_nilpotent_memory_receipt.json",
+      "receipt_sha256": "2bdd23d75c5cb782919bca9b6c3fceeaa580bb9a6b00c9a7cdcf8b4fd069c2bb",
+      "reported_status": "PASS",
+      "hash_fields": {
+        "source_sha256": {
+          "sha256": "d67d0742e2cc170a2da71f7ca58b08b28f02c392f141ac458ed1df7ede04f5e7",
+          "matching_current_files": [
+            "controls/odd29_nilpotent_memory_coordinator.py"
+          ],
+          "match_found": true
+        },
+        "artifact_sha256": {
+          "sha256": "5ce4ba903ed9000dd0bcf74cbda6adf39cfe86fae3f7e29dcf171b2f8996eefc",
+          "matching_current_files": [
+            "controls/odd29_nilpotent_memory_certificate.json"
+          ],
+          "match_found": true
+        }
+      }
+    },
+    {
+      "receipt": "controls/odd29_transfer_audit_receipt.json",
+      "receipt_sha256": "d06847898d3f427236c45cbcb0eaa8a8a05348b5896edea70adede6b1d0064a1",
+      "reported_status": "PASS",
+      "hash_fields": {
+        "source_sha256": {
+          "sha256": "84477e0e65d6f0eeaa01a39a85892e7a99d1755bb0a3cf445d24e561729941a8",
+          "matching_current_files": [
+            "controls/odd29_transfer_audit_coordinator.py"
+          ],
+          "match_found": true
+        }
+      }
+    },
+    {
+      "receipt": "controls/original_binary_endpoint_schur_receipt.json",
+      "receipt_sha256": "c970fe79051da1bfa2d2eaf5749a50ec07edcc088699febe182a65f6065d792a",
+      "reported_status": "PASS",
+      "hash_fields": {
+        "source_sha256": {
+          "sha256": "add7e893f001a7a79417d1994019369f2807cd23b75ee174a4ce33894678fb6f",
+          "matching_current_files": [
+            "controls/original_binary_endpoint_schur_coordinator.py"
+          ],
+          "match_found": true
+        },
+        "artifact_sha256": {
+          "sha256": "54ce6076c2c284d93b3aeb835dc445d2269cfae03e53186ca38a1ef3700e4eed",
+          "matching_current_files": [
+            "controls/original_binary_endpoint_schur_certificate.json"
+          ],
+          "match_found": true
+        }
+      }
+    },
+    {
+      "receipt": "controls/original_binary_operator_audit_receipt.json",
+      "receipt_sha256": "d21b4a84fae1f07f0b43ad2ad8d3a224a5accaeb3f9b5d22e2f4529149a953ef",
+      "reported_status": "PASS",
+      "hash_fields": {
+        "source_sha256": {
+          "sha256": "7db7be48649caf532005bc65fd11585d0dfaea353991ee81d1628de713b80629",
+          "matching_current_files": [
+            "controls/original_binary_operator_audit_coordinator.py"
+          ],
+          "match_found": true
+        },
+        "artifact_sha256": {
+          "sha256": "f151bfe53958c26a10d7853301373020433fd3ab6d08578d16c82fc93494387e",
+          "matching_current_files": [
+            "controls/original_binary_operator_audit_certificate.json"
+          ],
+          "match_found": true
+        }
+      }
+    },
+    {
+      "receipt": "controls/recurrence_kernel_audit_receipt.json",
+      "receipt_sha256": "703808b9b13560eecb96794adb3b9de07009354c1a13437b8c9a518180ff454a",
+      "reported_status": "PASS",
+      "hash_fields": {
+        "source_sha256": {
+          "sha256": "3cb4eca4253ecff7ecc67fd76949edb84c677663cace614757d5067e5be6a10a",
+          "matching_current_files": [
+            "controls/recurrence_kernel_audit_coordinator.py"
+          ],
+          "match_found": true
+        }
+      }
+    },
+    {
+      "receipt": "controls/scalar_displacement_audit_receipt.json",
+      "receipt_sha256": "3183a93249c3817bfc65eb46dc5e9553e0ee36e48c4704d002a3ec018d709a9e",
+      "reported_status": "PASS",
+      "hash_fields": {
+        "source_sha256": {
+          "sha256": "43eb787f95d87e5e793b7ce439f9358739c3b22d60a83a5da1e554935c1e8f82",
+          "matching_current_files": [
+            "controls/scalar_displacement_audit_coordinator.py"
+          ],
+          "match_found": true
+        },
+        "artifact_sha256": {
+          "sha256": "fee54a0e3bcae01d2e4b68001f2e27d5cd236b4afbff6cc7dfb5b050a31e2517",
+          "matching_current_files": [
+            "controls/scalar_displacement_audit_certificate.json"
+          ],
+          "match_found": true
+        }
+      }
+    },
+    {
+      "receipt": "controls/terminal_companion_audit_receipt.json",
+      "receipt_sha256": "603052894fdb08a8e772243d9d129d6151eb4c9a8130b6adda1da1669d7b32e8",
+      "reported_status": "PASS",
+      "hash_fields": {
+        "source_sha256": {
+          "sha256": "c7d59a9df424b6ac3e36ad932c9a7d8b5f6bf0c67b1f3ea5b9713b7a3c6d1002",
+          "matching_current_files": [
+            "controls/terminal_companion_audit_coordinator.py"
+          ],
+          "match_found": true
+        },
+        "artifact_sha256": {
+          "sha256": "004983fb64ea29b551679e01b6cf58137722ffcf7bf79a79692e531b2ac7e5c6",
+          "matching_current_files": [
+            "controls/terminal_companion_audit_certificate.json"
+          ],
+          "match_found": true
+        }
+      }
+    },
+    {
+      "receipt": "controls/weighted_force_audit_receipt.json",
+      "receipt_sha256": "38dfad6b6ce38093192a488182eb4eda3d28b3465e31829fca02b88b970d46f7",
+      "reported_status": "PASS",
+      "hash_fields": {
+        "source_sha256": {
+          "sha256": "3e304a2ed11dd347b6fffa4e1c087f21906729a1ebcdf3c73ec84b18f19bdae1",
+          "matching_current_files": [
+            "controls/weighted_force_audit_coordinator.py"
+          ],
+          "match_found": true
+        },
+        "artifact_sha256": {
+          "sha256": "9ea2b7600b969ec8d0758160ef045146eefe2b3cb6cce43f7d0f11c027721d8a",
+          "matching_current_files": [
+            "controls/weighted_force_audit_certificate.json"
+          ],
+          "match_found": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "schema": "item267-root-audit-v1",
+  "audited": "2026-08-31 Asia/Shanghai",
+  "status": "PASS",
+  "booking": {
+    "new_unconditional_route1_rate": 0,
+    "new_j2_capacity_reduction": 0,
+    "fixed_motive_recognition": "PROVED",
+    "weighted_zero_density": "OPEN"
+  },
+  "root_findings": [
+    "The odd part of H^1_dR(E minus D) has dimensions 2 compact plus 3 residue and is the de Rham realization, up to the stated duality convention, of the fixed Picard 1-motive [L^- -> E].",
+    "The residue computation and the group-law map u(d_k)=2P_k reduce the odd unit lattice to the kernel of the CM relation on P=(2,2).",
+    "The non-torsion proof is valid: 3P=(106/9,1090/27) is finite and nonintegral on the integral curve y^2=x^3-4, contradicting Nagell-Lutz if P were rational torsion.",
+    "Because P is non-torsion and every nonzero CM endomorphism has finite kernel, the integral kernel is exactly Z(d_0+d_1+d_2); the omega_1 residue character is not the unit direction.",
+    "The Item-263 Cartier formulas yield the stated fixed-frame matrix coefficients and the p=5 mod 6 normal form independent of H_q and h_q. The p=1 mod 6 extension splits off resonance, with the resonant locus correctly left open.",
+    "The conjugacy no-go does not erase the canonical-frame period because the finite endpoint functional does not descend to de Rham cohomology.",
+    "No equivalence with elliptic-Wieferich or p-adic elliptic-logarithm divisibility is proved or credited. The moving input vectors and endpoint obstruction fail the positive-linear-capacity admission test."
+  ],
+  "independent_probe": {
+    "script": "scripts/item267_root_independent_probe.py",
+    "script_sha256": "7a19ba42aea13a022744431ae3bc5217fc9e8254515605d6dea880aa9c414bba",
+    "result": "results/item267_root_independent_probe.json",
+    "result_sha256": "21492ca827d6348c185c7fb0c1296db340caaa063d4daa3ef46a81eed101b40e",
+    "prime_limit": 509,
+    "prime_phase_rows": 95,
+    "quotient_coordinate_rows": 190,
+    "normal_form_rows": 143,
+    "resonant_p1_rows": 2,
+    "endpoint_rows": 95,
+    "cutoff_rows": 1834,
+    "boundary_kernel_box_rows": 6859,
+    "exceptional_zero_search_performed": false,
+    "label": "EXACT FINITE identity replay plus exact all-parameter arguments in the report"
+  },
+  "sealed_package": {
+    "report_sha256": "ee7fce8692132c76174efcf169f3deb3b2fae1497c2db5157f0260e0afed5c9e",
+    "checker_sha256": "03825b4c0b28a8aab5623e3caae253135f2b8ed814f310b2a3810120928bfab0",
+    "canonical_sha256": "7db07d9ec90d16efdf6c97bb1b200a0acb21166d15c7b5eb97622435b8b2c88a",
+    "packaged_replay_sha256": "7db07d9ec90d16efdf6c97bb1b200a0acb21166d15c7b5eb97622435b8b2c88a",
+    "root_replay": "results/item267_root_replay.json",
+    "root_replay_sha256": "7db07d9ec90d16efdf6c97bb1b200a0acb21166d15c7b5eb97622435b8b2c88a",
+    "ledger_sha256": "c3889cbf4100c94ef36977066566754226f24819ac706aa73f15e12119a705c7",
+    "manifest_sha256": "7f6acf8a89427fe8c0ebe1d7d9e2cb619444f4fa54836f448f7866b180333ac6",
+    "hash_ledger_sha256": "8fd088680f176cffe1ae853f59ce4ace07b0147a1891abdbb53562e7e37a43f8",
+    "manifest_entries_checked": 10,
+    "manifest_entries_matched": 10,
+    "canonical_packaged_root_replays_byte_identical": true
+  },
+  "layout": {
+    "report_bytes": 18563,
+    "report_lines": 639,
+    "display_delimiters": "58/58",
+    "inline_delimiters": "130/130",
+    "forbidden_control_characters": 0
+  },
+  "strict_scope": "Item 267 identifies the exact fixed Picard 1-motive and proves a scalar/conjugacy shortcut no-go. It proves neither a basis-free p-adic divisibility criterion nor weighted control of the moving affine gate."
+}

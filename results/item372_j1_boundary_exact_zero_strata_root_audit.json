@@ -1,0 +1,53 @@
+{
+  "item": 372,
+  "schema": "item372-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_GLOBAL_EMPTY_EXACT_ZERO_BOUNDARY_STRATA",
+  "scope": "independent root audit of the all-h 3-adic terminal-term separation for both fixed-j1 boundary phases, the exact-zero classification, the sharpened carrier target, and zero booking",
+  "checks": {
+    "work_hash_list_entries": 6,
+    "work_hash_list_failures": 0,
+    "frozen_dependencies_checked": 14,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "independent_parameter_nonzero_check": true,
+    "independent_ratio_valuation_check": true,
+    "predeclared_exact_summand_controls": 8,
+    "prime_or_boundary_census_performed": false,
+    "density_inference_from_controls": false,
+    "canonical_format_repair": "none"
+  },
+  "mathematical_audit": {
+    "parameter_valuations": "For 3 not dividing h, every A_h^(0)+j and sigma_h+j has 3-adic valuation -1, while B_h^(0)+j and 3sigma_h+j are 3-integral. Parity also shows none of the relevant rational factors is zero.",
+    "X_boundary": "After division by the nonzero terminal summand T_h, every earlier nonzero term has valuation at least h-t>=1. Hence T_h is uniquely lowest and X_h is nonzero for every admissible h.",
+    "U_boundary": "With n=h+2, division by the terminal summand S_n gives valuation at least n-t>=1 for every earlier nonzero term. Hence U_h is nonzero for every admissible h.",
+    "classification": "Because X_h and U_h are respectively nonzero, neither ordered phase pair can vanish over Q; both exact-zero strata are globally empty.",
+    "scope_warning": "This characteristic-zero theorem does not imply modular nonvanishing at the tied prime. The remaining target is divisibility of nonzero primitive carriers.",
+    "capacity": "Removing an automatic exact-zero mechanism supplies no Chebyshev-mass estimate. The shared fixed-j1 ceiling 1/36 and booking zero remain unchanged."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "all-h terminal-term 3-adic separation for X_h and U_h",
+      "global emptiness of both exact-zero phase strata",
+      "pure nonzero-carrier reformulation of the weighted boundary target",
+      "zero booking and zero capacity reduction"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "eight predeclared exact summand controls; no prime scan or extrapolation"
+    ],
+    "OPEN": [
+      "weighted zero density or average gcd for the nonzero primitive carriers",
+      "modular boundary occurrence for unbounded h",
+      "the nonboundary full-gate chart and any strict fixed-j1 capacity reduction",
+      "Route 1 and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "retained_shared_fixed_j1_ceiling_per_6M": "1/36",
+    "new_linear_log_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

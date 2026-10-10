@@ -1,0 +1,76 @@
+{
+  "arithmetic_theorem": {
+    "classification": "PROVED ALL-H MOVING-PRIME GAUSSIAN RESIDUE",
+    "integer_numerator": {
+      "J_normalization": "J_n=(-i)^n(n!)^2 N_n/[2(2n+1)!]",
+      "definition": "N_n=2+(2+i)sum_(k=1)^n C(2k,k)(1+i)^k=A_n+iT_n",
+      "integrality": "A_n,T_n are integers for every n",
+      "recurrence": "N_0=2, N_1=4+6i; (n+1)(N_(n+1)-N_n)=2(2n+1)(1+i)(N_n-N_(n-1))"
+    },
+    "nonvanishing": {
+      "Euler": "w_H^2=-1/2 for even H and w_H^2=1/2 for odd H",
+      "conclusion": "B_H is nonzero modulo p for every actual boundary prime p>=19",
+      "reason": "w_H=-1 would force 1=-1/2 in the even case or 1=1/2 in the odd case, both impossible for p>=19"
+    },
+    "specialization": {
+      "Frobenius": "(-3-4i)^m=(-3+4i)/5; (-4-4i)^m=-e_H(1+i) for even H and d_H(1-i) for odd H",
+      "T_values": "T_(2H)=3e_H for even H and T_(2H)=d_H for odd H",
+      "Y_bridge": "2Y_H=-w_H+3(-1)^H T_(2H) mod p",
+      "Y_values": "Y_H=4e_H for even H and Y_H=-2d_H for odd H",
+      "factorial_unit": "((2H)!)^2/(4H+1)!=4 mod p",
+      "parameters": "n=2H, m=2H+1=(p-1)/2, p=4H+3",
+      "truncated_binomial": "S_(m-1)=sum_(k=1)^(m-1)C(2k,k)(1+i)^k=(-3-4i)^m-(-4-4i)^m-1 mod p",
+      "uniform_boundary": "B_H=-24(1+w_H) mod p, where w_H=e_H for even H and d_H for odd H"
+    }
+  },
+  "capacity_audit": {
+    "actual_gate_identity_from_Item301": "L_j=-Q_0(h)E_h^*",
+    "boundary_coefficient_drops": {
+      "classification": "PROVED BY COMPLETE ITEM297 DROP ATLAS",
+      "drops_by_s": {
+        "2": [
+          19
+        ],
+        "4": [
+          79
+        ],
+        "6": [
+          787067
+        ]
+      }
+    },
+    "boundary_union_raw_chebyshev_mass": "~2H",
+    "capacity_booked": 0,
+    "new_divisibility_exponent": 0,
+    "new_linear_log_rate": 0,
+    "retained_conditional_j1_capacity_per_6m": "1/36",
+    "scope": "B_H nonvanishing is not a necessary-zero condition for the pinned collision. It only forces compensation by neighboring terms when its coefficient is a unit. This excludes no prime from the union."
+  },
+  "dependencies": {
+    "item297_j1_structural_ray_boundary_certificate.json": "aa84dde588a119c67b868266ca536699b3675d2e53cb62ad8f1df66705ca7e6b",
+    "item297_j1_structural_ray_boundary_certificate.py": "6baec559198b0055096717f3e2fb7551707a17b64f520e499e585c73a4441cb5",
+    "item301_j1_boundary_scalar_reduction_certificate.json": "f25813facfe8befb751fdbcd1c5f521c23379162bd44244356c8b2568d9fc784",
+    "item301_j1_boundary_scalar_reduction_certificate.py": "a333101b2112abe4dc59c1c7d2f2237e41f7a6546606eb7283d55854140a56e4"
+  },
+  "exact_replay": {
+    "classification": "EXACT CHARACTERISTIC-ZERO REPLAY; NO PRIME SCAN",
+    "n_range": [
+      0,
+      160
+    ],
+    "row_stream_sha256": "523814c89ca08101e8cb3944dfabdbf1c4b2f81a484fe11ebe2c33818ce91ab3",
+    "rows": 161
+  },
+  "item": 304,
+  "schema": "item304-j1-boundary-gaussian-residue-v1",
+  "strict_labels": {
+    "B_H_nonvanishing": "PROVED ALL ACTUAL BOUNDARIES",
+    "Gaussian_integer_numerator_recurrence": "PROVED ALL n",
+    "actual_prime_scan": "NONE",
+    "capacity_booking": "ZERO",
+    "moving_prime_specialization": "PROVED ALL ACTUAL BOUNDARIES",
+    "pinned_E_nonvanishing_or_weighted_density": "OPEN",
+    "retained_conditional_j1_capacity_per_6m": "1/36"
+  },
+  "title": "Gaussian numerator and exact nonzero structural-boundary residue"
+}

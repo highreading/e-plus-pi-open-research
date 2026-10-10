@@ -1,0 +1,52 @@
+{
+  "item": 412,
+  "schema": "item412-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_EXACT_FROBENIUS_MARK_AND_SCOPED_SELECTOR_BOUNDARY_ZERO_BOOKING",
+  "scope": "independent root audit of the Frobenius mark, Eisenstein branch incidence, rational factor split, residue-class selectors, symmetric-information no-go, capacity interpretation, dependencies, and deterministic replay",
+  "checks": {
+    "canonical_dependencies_checked": 12,
+    "canonical_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "control_characters": 0,
+    "finite_rows_used_only_as_normalizations_or_exact_factor_witnesses": true,
+    "finite_to_infinite_inference_used": false,
+    "root_repairs": "Canonicalized all artifact paths; replaced the stale work Item411 pins by its audited canonical package; fixed the displayed multiplication in the exponent identity; and corrected the conditional conclusion so that the q=5 mod 6 incidence must also be excluded rather than merely being bijective."
+  },
+  "mathematical_audit": {
+    "frobenius_mark": "For q=6d+1 and p=6m+q, E=2m+6d=(p-1)/3+2(q-1)/3. Hence X_p=2^E=4^((q-1)/3)2^((p-1)/3), and the second factor is a cubic root of unity modulo p.",
+    "branch_incidence": "The primitive Smith forms factor over Z[omega] into three branch pairs. Away from the common H origin, D=0 makes the two ratios equal and either cubic equation places the common ratio in mu3, so the unmarked condition is the union of exactly three branches. The actual collision selects the branch labelled by 2^((p-1)/3).",
+    "rational_factor_no_go": "Z^3-x_q^3 has only its rational linear and irreducible quadratic proper factors. At fixed q=7 the mark is quadratic for p=13 and linear for p=31, proving that no single proper q-only rational factor tracks every compatible mark. These rows concern the mark only and are not actual carrier divisibility examples.",
+    "ordinary_selectors": "For p=7 mod 18 the exponent (p-1)/3 is 2 mod 3, giving marked equality iff 2*zeta^(-2) is a cube; for p=13 mod 18 it is 1 mod 3, giving 2*zeta^(-1). For p=1 mod 18 the cubic character is trivial on mu3, so this manipulation cannot encode the label.",
+    "symmetric_no_go_scope": "The ambient action multiplying (r,s) by omega cyclically permutes the branches while preserving unmarked vanishing and valuations. It proves only that mu3-symmetric data cannot select a nonempty label; it does not preserve the rational actual family and does not preclude exclusion of the whole orbit.",
+    "capacity": "The theorem is a first-digit selector. Without a carrier-weighted distribution theorem and independent valuation-depth control, ambient Frobenius densities or exclusion of one fixed bin cannot reduce the Item390 weighted ceiling."
+  },
+  "strict_labels": {
+    "PROVED_ACTUAL": [
+      "exact Frobenius mark in q=1 mod 6",
+      "exact marked Eisenstein branch incidence",
+      "ordinary cubic-residue selectors in p=7,13 mod 18"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "mu3-symmetric data cannot recover a nonempty branch label",
+      "no proper q-only rational factor tracks the mark for every compatible prime",
+      "the ordinary character twist fails to distinguish labels in p=1 mod 18"
+    ],
+    "OPEN": [
+      "actual selected-branch noncollision in both q residue classes",
+      "carrier-weighted Frobenius distribution with valuation depth",
+      "any positive Route-1 booking and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "strictly_large_component_ceiling": "log(136)/6",
+    "new_route1_rate": 0,
+    "new_booking": 0,
+    "new_unconditional_capacity_reduction": 0,
+    "frozen_deficit": "1.0196329836694317938803064012..."
+  }
+}

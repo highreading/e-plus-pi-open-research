@@ -1,0 +1,88 @@
+{
+  "item": 325,
+  "schema": "item325-j2-conic-involution-recurrence-manifest-v1",
+  "classification": "PROVED_SUMMATION_SPECIFIC_COMPLETION_AND_SCOPED_LINEAR_COMPLEXITY_NO_GO",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "isolated single-row actual ordinary-j2 conic moment after the determinant gate on fixed-M slices",
+  "dependencies": {
+    "sources/item252_diagonal_modp_report.md": "2a8cea239945f77a52d12957a99ffd16c2e4786f6876e1c08e04904f999d2c00",
+    "scripts/item252_diagonal_modp_certificate.py": "1bd8826880993bfbaaae260768b8349c5d2731e2c9694fbdae4e8654d8d4fc65",
+    "results/item252_diagonal_modp_certificate.json": "eee18f4fc6ace51b5c29faf84c7424f2013ccf0395033029fd395339fc06ab89",
+    "sources/item254_half_binomial_arithmetic_report.md": "971d50dab6a8f944334503c46d369151f390db534bc50ec54e1711ecf9b83a2a",
+    "scripts/item254_half_binomial_arithmetic_certificate.py": "51597cb653af504269341057e1ae02e917d60e94e00b274797fe1da94e0d8b81",
+    "results/item254_half_binomial_arithmetic_certificate.json": "a81313ecfc726400bffc36c203b1d4b499cfc8b94ebce37277bc8d1a16fa3781",
+    "sources/item322_j2_fixedM_period_transfer_report.md": "8b2ad1806d972ea7ed2b49f488e124ac4609e68758d08690ce3f26f30aae8459",
+    "scripts/item322_j2_fixedM_period_transfer_certificate.py": "96c9b0f801077904b3e892cdb49fde8ea0f62aa3cb87f594866579b86fde993f",
+    "results/item322_j2_fixedM_period_transfer_certificate.json": "5266eab4b8856e4c4e3c78e261f85ff11977e06ff64169f602c474f83f06e5cf",
+    "results/item322_j2_fixedM_period_transfer_root_audit.json": "c579fe6b873db4f81efb217dcf94142d8f74975b2961cb0f0df209232988f3ee"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item325_j2_conic_involution_recurrence_report.md",
+      "sha256": "a70b204ab2c8e426039f6b0b457edd55bd1eb7735a0fd655b910eccda0b37838",
+      "bytes": 15352
+    },
+    "certificate_script": {
+      "path": "work/item325_j2_conic_involution_recurrence_certificate.py",
+      "sha256": "38c283d4a93afb891ee673f8931e780f3c96e7974757080064c6aa003f895e96",
+      "bytes": 16949
+    },
+    "certificate": {
+      "path": "work/item325_j2_conic_involution_recurrence_certificate.json",
+      "sha256": "6ff7d4e393a70cd44b143cae227e7a04452c0c5af2ab7a3a287a2074d6275fde",
+      "bytes": 10420
+    },
+    "replay": {
+      "path": "work/item325_j2_conic_involution_recurrence_certificate.replay.json",
+      "sha256": "6ff7d4e393a70cd44b143cae227e7a04452c0c5af2ab7a3a287a2074d6275fde",
+      "bytes": 10420,
+      "byte_identical_to_certificate": true
+    },
+    "ledger": {
+      "path": "work/item325_j2_conic_involution_recurrence_ledger.json",
+      "sha256": "bff0155d298b79f971cfa94fe1f853d74b22f61e107054b58f04c2ea1d745b99",
+      "bytes": 3103
+    }
+  },
+  "theorems": [
+    "the involution x->2-x converts the punctured conic moment into one complete polynomial-weighted conic sum",
+    "all centered even conic moments in the actual range evaluate explicitly and give one terminating binomial convolution",
+    "the punctured pointwise weight has full p-1 multiplicative Fourier support",
+    "the orbit polynomial has exact minimal degree q-1>p/3-1 on active conic points",
+    "the centered decomposition has exactly (q+1)/2>p/6 nonzero modes",
+    "the moving exponent has an exact initialized triangular rank-two recurrence",
+    "any rational rank-one gauge has denominator degree at least (p-1)/2 in characteristic p, and none exists in characteristic zero"
+  ],
+  "exact_replay": {
+    "actual_rows": 331,
+    "direct_even_moment_rows": 9635,
+    "recurrence_state_rows": 1152,
+    "pointwise_fourier_rows": 240,
+    "pole_orbit_rows": 33,
+    "classification": "EXACT FINITE REPLAY OF THE SYMBOLIC IDENTITIES"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "summation-specific conic completion",
+      "complete centered-moment evaluation",
+      "full Fourier support and minimal orbit degree",
+      "initialized rank-two recurrence and rank-one gauge barrier",
+      "zero booking"
+    ],
+    "EXACT_FINITE_REPLAY": [
+      "the declared row counts, samples, and digests"
+    ],
+    "OPEN": [
+      "weighted zero density for the actual target collision",
+      "factor localization or nonconcentration in the terminating convolution",
+      "degenerate-chart arithmetic",
+      "any reduction of the ordinary-j2 ceiling"
+    ]
+  },
+  "capacity": {
+    "raw_isolated_ordinary_j2_ceiling_per_6M": "1/105",
+    "adjacent_prime_transfer_mass": "o(M)",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

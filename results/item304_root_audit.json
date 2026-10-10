@@ -1,0 +1,44 @@
+{
+  "schema": "item304-root-audit-v1",
+  "item": 304,
+  "auditor": "root",
+  "date": "2026-08-31",
+  "verdict": "PASS WITH UNIVERSAL BOUNDARY NONVANISHING AND ZERO CAPACITY CREDIT",
+  "package": {
+    "manifest_files_checked": 6,
+    "manifest_file_hash_mismatches": 0,
+    "frozen_dependencies_checked": 4,
+    "manifest_dependency_hash_mismatches": 0,
+    "hash_list_entries_checked": 7,
+    "hash_list_mismatches": 0,
+    "canonical_root_replay_byte_identical": true,
+    "canonical_and_root_replay_sha256": "df1cff1ceb904984ce37db8e76b31d95696610b019df92849d8646eb510e1274",
+    "report_sha256": "65fb3e4afd46928beb9465cd521d4a2cd6033f36b6d0cd9b9f3885c56ab251bc",
+    "script_sha256": "cf8b6ca11e106be44f0de46c7106e1bc93730538efbe653b069747471f5fca25",
+    "ledger_sha256": "06cfe1660ad2159196d906c6b6e8eb55201b22f54fc3e4f3c207dfc2d02bf93b",
+    "manifest_sha256": "55d7123c75fa98077934feecc07c9e7195c5a4f37605b87144ca10647d1c6838"
+  },
+  "independent_mathematical_checks": {
+    "gaussian_numerator": "PASS: substituting the central-binomial Gaussian integer N_n into the Item-301 moment recurrence gives J_n=(-i)^n(n!)^2N_n/[2(2n+1)!]; successive summand ratios give the fraction-free N_n recurrence.",
+    "wilson_specialization": "PASS: for m=(p-1)/2 odd, Wilson gives (m!)^2=1 and (p-2)!=1; since m=-(1/2), the required ((2H)!)^2/(4H+1)! residue is 4.",
+    "binomial_frobenius_collapse": "PASS: C(2k,k)=(-4)^k C(m,k) modulo p turns the truncated sum into (1-4x)^m-(-4x)^m-1. Frobenius in F_p(i) evaluates both powers and yields T_(2H)=3e_H or d_H.",
+    "boundary_evaluation": "PASS: the Item-301 Y bridge gives Y_H=4e_H or -2d_H, and both parity formulas reduce to B_H=-24(1+w_H). Euler's criterion makes w_H=-1 impossible for every actual p at least 19.",
+    "capacity_scope": "PASS: Item-301 identifies the boundary-neighbor scalar as -Q_0E_h, so B_H is not a necessary-zero collision gate. Its universal nonvanishing constrains compensation among neighbors but removes no prime from the pinned-collision union and changes no retained ceiling."
+  },
+  "format": {
+    "report_bytes": 7167,
+    "report_lines": 266,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "inline_math_open": 47,
+    "inline_math_close": 47,
+    "display_math_open": 23,
+    "display_math_close": 23
+  },
+  "capacity": {
+    "retained_fixed_j1_capacity_per_6m": "1/36",
+    "new_route1_rate": 0,
+    "new_capacity_reduction": 0,
+    "ledger_changed": false
+  }
+}

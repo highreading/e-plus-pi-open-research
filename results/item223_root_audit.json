@@ -1,0 +1,43 @@
+{
+  "schema": "item223-root-independent-audit-v2",
+  "status": "PASS_AFTER_FACTOR_TWO_CORRECTION_WITH_SCOPED_OPEN_PROBLEM",
+  "withdrawn_version": "The initial package incorrectly used the same source at the p and 2p terminals. It was withdrawn before archive integration.",
+  "canonical_sha256": "46037781b961a4e4b08272d3b66317b154f8b8fd98436037abfd693317200075",
+  "root_replay_sha256": "46037781b961a4e4b08272d3b66317b154f8b8fd98436037abfd693317200075",
+  "byte_identical_replay": true,
+  "independent_checks": {
+    "pearson_recurrence": "expanded from the derivative of z^(n*+t+1)(1-z)(1+z^2)W and checked over the integers",
+    "initial_line": "the two collision rows have rank two and kernel spanned by (1,1,-1); the audited minor is -16s(r+3s+2)=-8s modulo p",
+    "lower_pole": "the exact multiplier is p and the unique primitive numerator is ell_(p-1)=-2epsilon",
+    "upper_pole": "the exact multiplier is 2p and the unique primitive numerator is ell_(2p-1)=-4epsilon",
+    "corrected_collision_condition": "lambda Delta_minus=-2epsilon and lambda Delta_plus=-4epsilon, hence Delta_plus=2 Delta_minus!=0",
+    "direct_terminal_scope": "both unreduced boundary moments and both exact terminal recurrences were replayed on every actual row through p<=251",
+    "diagonal_involution": "for r=2s, v_t=-v_(3-t); substitution into the terminal covectors gives Delta_plus-Delta_minus as a p-multiple coefficientwise",
+    "finite_actual_rows_replayed": 22934,
+    "finite_transfer_survivors": 22,
+    "finite_direct_paired_zeros_among_survivors": 0,
+    "hash_ledger_entries_checked": 5,
+    "hash_mismatches": 0,
+    "dependency_hashes_checked": 4,
+    "python_compile": true,
+    "control_character_scan": "clean",
+    "host_path_scan": "clean"
+  },
+  "classification": {
+    "PROVED": [
+      "common boundary functional and order-three recurrence",
+      "corrected two-source transfer condition Delta_plus=2 Delta_minus!=0",
+      "closed transfer formulas",
+      "all-prime exclusion of the entire diagonal r=2s"
+    ],
+    "EXACT_FINITE": [
+      "22 off-diagonal transfer survivors through p<=2000",
+      "none of those finite survivors is a direct paired collision"
+    ],
+    "OPEN": [
+      "all-prime control of the remaining off-diagonal survivors",
+      "any positive Route-1 logarithmic rate or conclusion about e+pi"
+    ]
+  },
+  "audit_conclusion": "The corrected factor of two is essential and is now independently verified. The diagonal theorem is unconditional, but the off-diagonal family remains open and no rate is booked."
+}

@@ -1,0 +1,57 @@
+{
+  "item": 382,
+  "schema": "item382-j1-explicit-operator-alignment-barrier-ledger-v1",
+  "classification": "FINITE_EXPLICIT_OPERATORS_AND_PROVED_MOVING_MODULUS_ALIGNMENT_BARRIER",
+  "dependencies": {
+    "sources/item379_j1_primitive_gcd_local_height_report.md": "478b630ba1f982982da35fc54e247aaa5624ecd8158eaf7f8c54e60d29c1d612",
+    "scripts/item379_j1_primitive_gcd_local_height_certificate.py": "91ff429d4d1a19d17f30e9db0ce5d99c86be0544e929253dbe8360b2893c1ac3",
+    "results/item379_j1_primitive_gcd_local_height_certificate.json": "697d5517f8b53d6c839e69bb4a41028e0f92bee20dbb34dca48f167366f7c5b4",
+    "results/item379_j1_primitive_gcd_local_height_ledger_delta.json": "53f23a9baf27622bcecec8360b37095394d3bcc9790e0ebc1bc24140c9042a61",
+    "results/item379_j1_primitive_gcd_local_height_root_audit.json": "8a6980357b6416f9d7254cf9a938bd06674f3eaa3c09e30debafecdba75f02fd",
+    "manifests/item379_j1_primitive_gcd_local_height_manifest.json": "0b88be1406949605bc8d1f7e063c53a5eed49b131f95540cbef71337967cacca"
+  },
+  "finite_operators": {
+    "x_residue_1": "order 3, degree 19, exact finite coefficient table",
+    "x_residue_2": "order 3, degree 19, exact finite coefficient table",
+    "u_residue_1": "order 3, degree 23, exact finite coefficient table",
+    "u_residue_2": "order 3, degree 23, exact finite coefficient table",
+    "status": "EXACT FINITE ONLY; no all-n creative-telescoping certificate and no recurrence promotion"
+  },
+  "proved_alignment_barrier": {
+    "same_ray_shift": "h maps to h+3j",
+    "fixed_M_parameter_shift": "s maps to s-9j/4",
+    "integral_parameter_condition": "4 divides j",
+    "actual_row_condition": "4 divides j and s-9j/4 is at least 1",
+    "order_three_window": "contains no second actual fixed-M row",
+    "first_possible_integral_return": "h maps to h+12, s maps to s-9, p maps to p-6; it is actual when s>=10",
+    "conclusion": "same-ray rational recurrence identities alone do not transfer selected divisibility between different primes"
+  },
+  "height": {
+    "unreduced_individual": "O(h log(h+2))",
+    "primitive_individual": "O(h)",
+    "unreduced_aggregate": "O(M^2 log M)",
+    "primitive_aggregate": "O(M^2)",
+    "required": "o(M)"
+  },
+  "smallest_missing_arithmetic_lemma": "target-retaining cross-prime identity between the h state at p and h+12 state at p-6, or the transverse h+4 state at p-2",
+  "capacity": {
+    "retained_shared_full_fixed_j1_ceiling_per_6M": "1/36",
+    "new_booking": 0,
+    "new_capacity_reduction": 0
+  },
+  "strict_labels": {
+    "PROVED": [
+      "fixed-M shift alignment and first-possible-return modulus change, with the positivity boundary retained",
+      "scoped no-go for same-ray recurrence-only cross-prime propagation",
+      "zero booking and zero capacity reduction"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "four coefficient tables, fitting/holdout identities, and bounded modular-rank minimality"
+    ],
+    "OPEN": [
+      "all-n recurrence certificates and true minimality",
+      "cross-prime reciprocity or common fixed-M carrier",
+      "weighted zero density and any strict fixed-j1 capacity reduction"
+    ]
+  }
+}

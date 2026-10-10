@@ -1,0 +1,359 @@
+{
+  "dependencies": {
+    "item219_checker": "item219_common_log_j2_certificate.py",
+    "item219_checker_sha256": "bf9ee30675b5745225f08d2d82e500fd1f6797d69f94ab5949602e266f8b38cc",
+    "item221_checker": "item221_j2_twisted_cohomology_certificate.py",
+    "item221_checker_sha256": "8ef696188337f9ecc7f77e66c296973897ce443b143f72fc0c468fd3f9354a36",
+    "item224_checker": "item224_j2_cartier_terminal_certificate.py",
+    "item224_checker_sha256": "7fc0dad8a691fce31032db64696c2cc809b39e65b948e0d93e58f8c5a0924bf4",
+    "item225_checker": "item225_j2_second_cartier_certificate.py",
+    "item225_checker_sha256": "6fc6454f53bd1cff2db1c1602b2828191ea8ec571c3fa6c80f20c46df1e1b65c",
+    "item226_checker": "item226_j2_four_phase_closure_certificate.py",
+    "item226_checker_sha256": "5fe492dc7940e423c90871463e19013730a517b36e0a0c6ba26c7f3a6de7dd9a"
+  },
+  "determinant_factorization": {
+    "D": "det(I-tB)=1+h_0*t+h_1*t^2+h_2*t^3",
+    "Delta": "det(I-M^4)=F_1*F_minus1*F_i=det(O)*det(U)",
+    "F_1": "1+h_0+h_1+h_2",
+    "F_i": "(1-h_1)^2+(h_0-h_2)^2",
+    "F_minus1": "1-h_0+h_1-h_2",
+    "h": "h_q=a*N^q*u with h_3=1"
+  },
+  "finite_classification": {
+    "counts": {
+      "N_fourth_power_identity_rows": 1115,
+      "endpoint_basis_replay_rows": 74,
+      "observable_rows": 1115,
+      "omega_psi_zero_rows": 0,
+      "omega_zero_rows": 7,
+      "rows": 1115,
+      "s_at_least_2_rows": 1115,
+      "singular_Delta_rows": 15,
+      "singular_affine_consistent_rows": 15,
+      "terminal_redundancy_rows": 1115
+    },
+    "factor_zero_rows_F1_Fminus1_Fi": [
+      [
+        [
+          103,
+          15
+        ],
+        [
+          191,
+          13
+        ],
+        [
+          191,
+          19
+        ],
+        [
+          211,
+          17
+        ]
+      ],
+      [],
+      [
+        [
+          41,
+          4
+        ],
+        [
+          73,
+          8
+        ],
+        [
+          109,
+          2
+        ],
+        [
+          193,
+          16
+        ],
+        [
+          197,
+          24
+        ],
+        [
+          281,
+          18
+        ],
+        [
+          337,
+          16
+        ],
+        [
+          349,
+          18
+        ],
+        [
+          373,
+          38
+        ],
+        [
+          389,
+          14
+        ],
+        [
+          401,
+          46
+        ]
+      ]
+    ],
+    "interpretation": "through the bound, Delta has 15 zeros (4 in F1, 0 in Fminus1, 11 in Fi), every singular affine closure is consistent, and no Omega=Psi joint zero occurs",
+    "row_digest_sha256": "be09cd21d8858897ed77286dd813ccf802198dd6f5dee72a8d9ae2f845c7f7c0",
+    "singular_rows": [
+      {
+        "factor_values_F1_Fminus1_Fi": [
+          26,
+          38,
+          0
+        ],
+        "m": 49,
+        "omega_mod_p": 20,
+        "p": 41,
+        "rank_I_minus_M4": 3,
+        "rank_control": 3,
+        "s": 4
+      },
+      {
+        "factor_values_F1_Fminus1_Fi": [
+          44,
+          24,
+          0
+        ],
+        "m": 87,
+        "omega_mod_p": 21,
+        "p": 73,
+        "rank_I_minus_M4": 3,
+        "rank_control": 3,
+        "s": 8
+      },
+      {
+        "factor_values_F1_Fminus1_Fi": [
+          0,
+          53,
+          66
+        ],
+        "m": 121,
+        "omega_mod_p": 26,
+        "p": 103,
+        "rank_I_minus_M4": 3,
+        "rank_control": 3,
+        "s": 15
+      },
+      {
+        "factor_values_F1_Fminus1_Fi": [
+          49,
+          87,
+          0
+        ],
+        "m": 135,
+        "omega_mod_p": 53,
+        "p": 109,
+        "rank_I_minus_M4": 3,
+        "rank_control": 3,
+        "s": 2
+      },
+      {
+        "factor_values_F1_Fminus1_Fi": [
+          0,
+          131,
+          55
+        ],
+        "m": 232,
+        "omega_mod_p": 134,
+        "p": 191,
+        "rank_I_minus_M4": 3,
+        "rank_control": 3,
+        "s": 13
+      },
+      {
+        "factor_values_F1_Fminus1_Fi": [
+          0,
+          129,
+          61
+        ],
+        "m": 229,
+        "omega_mod_p": 130,
+        "p": 191,
+        "rank_I_minus_M4": 3,
+        "rank_control": 3,
+        "s": 19
+      },
+      {
+        "factor_values_F1_Fminus1_Fi": [
+          83,
+          99,
+          0
+        ],
+        "m": 233,
+        "omega_mod_p": 36,
+        "p": 193,
+        "rank_I_minus_M4": 3,
+        "rank_control": 3,
+        "s": 16
+      },
+      {
+        "factor_values_F1_Fminus1_Fi": [
+          39,
+          166,
+          0
+        ],
+        "m": 234,
+        "omega_mod_p": 36,
+        "p": 197,
+        "rank_I_minus_M4": 3,
+        "rank_control": 3,
+        "s": 24
+      },
+      {
+        "factor_values_F1_Fminus1_Fi": [
+          0,
+          109,
+          70
+        ],
+        "m": 255,
+        "omega_mod_p": 182,
+        "p": 211,
+        "rank_I_minus_M4": 3,
+        "rank_control": 3,
+        "s": 17
+      },
+      {
+        "factor_values_F1_Fminus1_Fi": [
+          212,
+          79,
+          0
+        ],
+        "m": 342,
+        "omega_mod_p": 39,
+        "p": 281,
+        "rank_I_minus_M4": 3,
+        "rank_control": 3,
+        "s": 18
+      },
+      {
+        "factor_values_F1_Fminus1_Fi": [
+          303,
+          48,
+          0
+        ],
+        "m": 413,
+        "omega_mod_p": 116,
+        "p": 337,
+        "rank_I_minus_M4": 3,
+        "rank_control": 3,
+        "s": 16
+      },
+      {
+        "factor_values_F1_Fminus1_Fi": [
+          313,
+          254,
+          0
+        ],
+        "m": 427,
+        "omega_mod_p": 160,
+        "p": 349,
+        "rank_I_minus_M4": 3,
+        "rank_control": 3,
+        "s": 18
+      },
+      {
+        "factor_values_F1_Fminus1_Fi": [
+          277,
+          242,
+          0
+        ],
+        "m": 447,
+        "omega_mod_p": 180,
+        "p": 373,
+        "rank_I_minus_M4": 3,
+        "rank_control": 3,
+        "s": 38
+      },
+      {
+        "factor_values_F1_Fminus1_Fi": [
+          168,
+          362,
+          0
+        ],
+        "m": 479,
+        "omega_mod_p": 294,
+        "p": 389,
+        "rank_I_minus_M4": 3,
+        "rank_control": 3,
+        "s": 14
+      },
+      {
+        "factor_values_F1_Fminus1_Fi": [
+          98,
+          112,
+          0
+        ],
+        "m": 478,
+        "omega_mod_p": 96,
+        "p": 401,
+        "rank_I_minus_M4": 3,
+        "rank_control": 3,
+        "s": 46
+      }
+    ],
+    "status": "EXACT FINITE ONLY"
+  },
+  "order_four_control": {
+    "definitions": "epsilon=(-1)^r, u=epsilon*b, N=M+u*a, O=rows(a,aN,aN^2,aN^3), U=columns(u,Nu,N^2u,N^3u)",
+    "endpoint_model": "Phi maps arbitrary four-periodic monomial weights to the four first-terminal moments and is an isomorphism",
+    "identities": [
+      "N^4=I and char_N(x)=x^4-1",
+      "O is invertible and O*N=S*O for the four-cycle S",
+      "M=N-u*a"
+    ]
+  },
+  "parameters": {
+    "cell": "4m+1=5p-2s, 2<=s<=(p-3)/6, p>=17, s=(p-1)/2 mod 2",
+    "endpoint_basis_replay_prime_max_inclusive": 101,
+    "j": 2,
+    "prime_max_inclusive": 401
+  },
+  "schema": "item227-j2-phase-control-v1",
+  "singular_left_null": {
+    "affine_consistency": "for every left null vector ell of I-M^4, ell*u=ell*b=0, hence ell*C=0 and C lies in im(I-M^4)",
+    "classification": "Delta=0 iff the source u loses at least one Fourier/control mode of N",
+    "scope": "singular Delta creates spurious terminal-mismatch modes; it never supplies an affine closure contradiction by itself"
+  },
+  "status_ledger": {
+    "EXACT_FINITE": [
+      "the complete factor-family census and singular ranks through the stated bound",
+      "all endpoint-basis identities are replayed coefficientwise through the smaller stated bound",
+      "there is no simultaneous Omega=Psi zero through the stated bound"
+    ],
+    "OPEN": [
+      "an all-prime exclusion or zero-rate theorem for simultaneous Omega=Psi zeros",
+      "an all-prime density classification of the three Delta factors",
+      "the exceptional s=1 family",
+      "a zero-rate theorem for the fixed j=2 cell",
+      "any common-log capacity reduction or conclusion about e+pi"
+    ],
+    "PROVED": [
+      "the generalized endpoint-weight map is an isomorphism and N has exact order four",
+      "the cyclotomic/control determinant factorization and singular left-null classification",
+      "singular affine closure is always consistent; Delta alone cannot exclude a row",
+      "the phase-4/bottom reciprocity and alternating phase identity",
+      "the four terminal residuals reduce exactly to the two existing invariants Omega and Psi"
+    ]
+  },
+  "terminal_redundancy": {
+    "candidate": "v is Item224's canonical common-line tail and t_q=a*N^(q-1)*v",
+    "consequence": "bottom plus all four phase terminals is equivalent to the existing Omega=Psi=0 system (with the usual nonzero bottom normalization); phases 3 and 4 add no third invariant",
+    "identities": [
+      "t_1-t_2+t_3-t_4=0",
+      "t_4=-epsilon*beta",
+      "E_4=0",
+      "E_3=E_2-E_1",
+      "E_1=-Omega",
+      "E_2=Psi_flat-epsilon*(a*b)*Omega"
+    ],
+    "minus_one_boundary": "H_3*f_0(-1)=(-1)^r*2^(r+2s+3)/((s-1)(10s-1)), a p-unit",
+    "residual_definition": "E_q=11*t_q-epsilon*beta*w_q for w=(7,29,11,-11)"
+  }
+}

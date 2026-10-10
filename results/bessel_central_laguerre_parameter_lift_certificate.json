@@ -1,0 +1,29 @@
+{
+  "description": "Exact Laguerre/parameter-derivative identity checks and an exact finite central-class remainder-tree scan; the scan is not an all-prime proof.",
+  "identity_checks": {
+    "integer_degree_limit": 80,
+    "polynomial_degree_limit": 24
+  },
+  "prime_limit": 2000001,
+  "odd_primes_scanned": 148932,
+  "central_residue_stream_sha256": "072ddd4c8400ed7a2e356aeeac42a8541db75c0e4f8b4aa3474c68df9ce5ec61",
+  "central_root_primes": [
+    79
+  ],
+  "central_root_records": [
+    {
+      "p": 79,
+      "m": 39,
+      "A_m_mod_p_squared": 3555,
+      "A_m_over_p_mod_p": 45,
+      "C_m_mod_p": 57,
+      "q_m_mod_p_squared": 948,
+      "q_m_over_p_mod_p": 12,
+      "Q_m_prime_at_1_mod_p": 55,
+      "P_m_at_1_mod_p": 56,
+      "hensel_shift_t_for_x_equals_1_plus_p_t": 40
+    }
+  ],
+  "all_branching_central_roots": [],
+  "logical_status": "The identities are exact.  The bounded scan is finite evidence only; it does not exclude a later prime with p^2 dividing q_((p-1)/2)."
+}

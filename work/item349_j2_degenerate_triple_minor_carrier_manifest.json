@@ -1,0 +1,81 @@
+{
+  "item": 349,
+  "schema": "item349-j2-degenerate-triple-minor-carrier-manifest-v1",
+  "classification": "PROVED_EXACT_DEGENERATE_CARRIER_AND_HEIGHT_PRODUCT_NO_GO",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual tied-prime ordinary-j2 degenerate triple-minor chart after Item338 saturation",
+  "dependencies": {
+    "sources/item315_j2_resultant_arithmetic_report.md": "3ce61af707268ceed6db0355a31333492bd8b07ec34e455cbee874fc6a2291b8",
+    "scripts/item315_j2_resultant_arithmetic_certificate.py": "42def823c42497fa9ce4c5513c348464511a56cc6ff12480bec60408c9733b81",
+    "results/item315_j2_resultant_arithmetic_certificate.json": "09fdd67a6535a043bcbd1e2a46c4b14a633b9928a5f1c65618c34fab65cfabb6",
+    "results/item315_root_audit.json": "b764ea214de0c99a6398c981a5d35ca5b911c4d08e7e128f55276a30b1ea66d6",
+    "manifests/item315_j2_resultant_arithmetic_manifest.json": "698abf2124e564c63cf4d1142cd33e872d6fb6b4da21e4e6ec7ac26c43c7a8c1",
+    "sources/item319_j2_third_minor_elimination_report.md": "75b4a3303e3cd216aebeb5189d8c97ef20f261bfd8ea400638214e96a0cc25a0",
+    "scripts/item319_j2_third_minor_elimination_certificate.py": "d5d283930062c6de55e0c338a152cc96502b72f62cc9f74af0623247307d91f7",
+    "results/item319_j2_third_minor_elimination_certificate.json": "c4ce360823dd2d781bebc492e79b65d6ea183a7dada1d4cbee1b1c37334ec194",
+    "results/item319_j2_third_minor_elimination_root_audit.json": "73c5418a83e8aff962993e0d3358e65122471ff98e4e174835b85222bb159a8c",
+    "manifests/item319_j2_third_minor_elimination_manifest.json": "1795f625a0f8f26a51670a73635624c17c37d9fc01c810abe4dcc52ae535a174",
+    "sources/item341_j2_diagonal_affine_state_report.md": "42f6ccd326e385f8034abe322756517a30a93d7468b3e6f85cbca3dba8080cb4",
+    "results/item341_j2_diagonal_affine_state_certificate.json": "75c05cb486e5a5a6f9af5dda2e62f2a4b81cb888a15eb19ecabd10a382625cb4",
+    "results/item341_j2_diagonal_affine_state_root_audit.json": "d5c810346f9181f10d38e9f5ae2e250a8c880e32f97cbc5bef91f6bd37f61a27",
+    "manifests/item341_j2_diagonal_affine_state_manifest.json": "fc073e4c11a2d9ab519f0b5babae6f9f95e2e8cf9e8cbcf05c4c8ca8ba155000",
+    "sources/item344_j2_frobenius_cutoff_obstruction_report.md": "1671dec30de80c047c52b6b4bf13157025ea631869f5ccacc73169002ec287a9",
+    "results/item344_j2_frobenius_cutoff_obstruction_certificate.json": "f390d14d2b14ce965a33da8499e450294be3a038be2269d564d3cc3fda5f1179",
+    "results/item344_j2_frobenius_cutoff_obstruction_root_audit.json": "1de770fc9f8cf23ec215d936e31b08bb59b5aad2ce8fb3480a0bd835011b5376",
+    "manifests/item344_j2_frobenius_cutoff_obstruction_manifest.json": "9824b1a18fd645e729e103e32d0911d2392edc7b6c6642e5bea28d97489ef286"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item349_j2_degenerate_triple_minor_carrier_report.md",
+      "sha256": "aec5a8bc6dd8996a3578e4cbc7975afad6247ddb32d03f6deca72b97af86b50d",
+      "bytes": 13402
+    },
+    "certificate_script": {
+      "path": "work/item349_j2_degenerate_triple_minor_carrier_certificate.py",
+      "sha256": "b72b1ee335f243ae6a2761c417e27640f443183ec625027a14d5b7e06b91cf9b",
+      "bytes": 13167
+    },
+    "certificate": {
+      "path": "work/item349_j2_degenerate_triple_minor_carrier_certificate.json",
+      "sha256": "b26294d51b1844aeee04146004b2ecec9b6e1ff81aa271a3167e5d86c11bce44",
+      "bytes": 6398
+    },
+    "replay": {
+      "path": "work/item349_j2_degenerate_triple_minor_carrier_certificate.replay.json",
+      "sha256": "b26294d51b1844aeee04146004b2ecec9b6e1ff81aa271a3167e5d86c11bce44",
+      "bytes": 6398
+    },
+    "ledger": {
+      "path": "work/item349_j2_degenerate_triple_minor_carrier_ledger.json",
+      "sha256": "f5d757b797e742abee172c6ba0ceafc53d3e1bdf103d68d7806b909067cb13f9",
+      "bytes": 6211
+    }
+  },
+  "proved": [
+    "Item315's exact all-ray sign induction gives a_r<0, so Pi_r is a positive integer on every admissible row and there is no exact-zero carrier stratum",
+    "the normalized r-only primitive carrier Pi_r is exactly equivalent to triple-minor vanishing at the tied prime",
+    "all compulsory p-unit scales and all Item338-supported foreign factors are removed safely",
+    "the f-nonzero branch reduces to the two-sequence gcd and the f-zero branch to the f/K gcd",
+    "the fixed-M support is an exact moving-divisor condition with r=6M-7p",
+    "pointwise height and raw carrier products give only O(M^2 log M), weaker than the raw O(M) ceiling",
+    "degenerate and nondegenerate raw capacities are overlapping, not additive"
+  ],
+  "exact_finite_only": [
+    "six declared actual-row normalization, carrier, chart-split, saturation, and fixed-M replays",
+    "the row (251,121,1) with raw normalized carrier 7 and connection-saturated carrier 1",
+    "no prime or collision census"
+  ],
+  "open": [
+    "o(M) weighted support of the safely saturated moving carrier",
+    "an average-gcd theorem for (a_r,b_r,K_r)",
+    "a good-reduction or small-prime-support theorem for the r-only saturated carrier",
+    "separate weighted control of the f-nonzero and f-zero branches",
+    "strict improvement of the 1/105 ceiling and any new booking"
+  ],
+  "capacity": {
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "ordinary_j2_ceiling_per_6M": "1/105"
+  },
+  "replay_command": "python scripts/item349_j2_degenerate_triple_minor_carrier_certificate.py --output results/item349_j2_degenerate_triple_minor_carrier_certificate.replay.json"
+}

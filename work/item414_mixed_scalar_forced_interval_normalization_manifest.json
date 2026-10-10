@@ -1,0 +1,88 @@
+{
+  "schema": "item414-mixed-scalar-forced-interval-manifest-v1",
+  "item": 414,
+  "status": "WORK_ONLY_UNAUDITED_NO_CENTRAL_EDIT_NO_BOOKING",
+  "integrity": {
+    "certificate_sha256": "7763fc82d168e8547f8c2bff2bbc1114ae7c891f1fc459fc55c048cb3174029b",
+    "certificate_replay_sha256": "7763fc82d168e8547f8c2bff2bbc1114ae7c891f1fc459fc55c048cb3174029b",
+    "certificate_replay_byte_identical": true,
+    "dependency_pins_verified_by_replay": true,
+    "proof_schema_finite_normalization_not_promoted": true,
+    "PNT_not_claimed_as_certificate_output": true
+  },
+  "artifacts": [
+    {
+      "path": "work/item414_mixed_scalar_forced_interval_normalization_report.md",
+      "sha256": "649984dd28f000fbb11fc26a5bcd951dfc724749a83a0fb4405c2affd8af0d1f",
+      "role": "strictly labelled forced-divisor theorem and corrected carrier report"
+    },
+    {
+      "path": "work/item414_mixed_scalar_forced_interval_normalization_certificate.py",
+      "sha256": "47a9cd5a3684b3b6dd2288fcd2aa6d4d3dea22e54fbde6f51472d88b873aca58",
+      "role": "deterministic standard-library certificate generator"
+    },
+    {
+      "path": "work/item414_mixed_scalar_forced_interval_normalization_certificate.json",
+      "sha256": "7763fc82d168e8547f8c2bff2bbc1114ae7c891f1fc459fc55c048cb3174029b",
+      "role": "generated certificate"
+    },
+    {
+      "path": "work/item414_mixed_scalar_forced_interval_normalization_certificate.replay.json",
+      "sha256": "7763fc82d168e8547f8c2bff2bbc1114ae7c891f1fc459fc55c048cb3174029b",
+      "role": "byte-stable replay"
+    },
+    {
+      "path": "work/item414_mixed_scalar_forced_interval_normalization_ledger_delta.json",
+      "sha256": "1299d7e5f357b6b8ea25e25db6489262dd17c61762194fd2d2bfbba1bae0baed",
+      "role": "zero-booking capacity and overlap delta"
+    },
+    {
+      "path": "work/item414_mixed_scalar_forced_interval_normalization_hashes.sha256",
+      "role": "six-entry SHA-256 inventory excluding itself"
+    }
+  ],
+  "dependency_pins": {
+    "sources/item200_common_log_gcd_report.md": "06003e9fd03f74b2406330a81d49493fa2f4390c82f359be39bf328184605c68",
+    "sources/mixed_cubic_boundary_cartier_content_and_recurrence.md": "286d9cf4d3591a1a9b9fefc6dd3ee3dcc9f7c2ba49a73310909491814544d9e8",
+    "sources/item390_mixed_cubic_fresh_primitive_saturation_report.md": "5bfb3c871b12524f672df515e920236f2470145d4f68bdcd7b47f29408692f46",
+    "sources/item410_mixed_cubic_compatible_scalar_carrier_report.md": "c6dc7e439d2f828ec4d2d06ff0ca2aeef99946a70741e2ed8f25673e6e6e1157",
+    "scripts/item410_mixed_cubic_compatible_scalar_carrier_certificate.py": "22617882e636dd2944f0166374bbc4e5a2bd063f82d44719779d956b24afece6",
+    "results/item410_mixed_cubic_compatible_scalar_carrier_certificate.json": "e327dd22d615bb474027067f470082143cf39315aa5ff0814ddcf2aa131b31ed",
+    "results/item410_mixed_cubic_compatible_scalar_carrier_certificate_replay.json": "e327dd22d615bb474027067f470082143cf39315aa5ff0814ddcf2aa131b31ed",
+    "results/item410_mixed_cubic_compatible_scalar_carrier_root_replay.json": "e327dd22d615bb474027067f470082143cf39315aa5ff0814ddcf2aa131b31ed",
+    "results/item410_mixed_cubic_compatible_scalar_carrier_ledger_delta.json": "443521b03db53990a0e0b82f1b33e9ceb1d90fbcf0affa26a0dfde7d10f90d0e",
+    "manifests/item410_mixed_cubic_compatible_scalar_carrier_manifest.json": "672b877ebd83fda20b0dff198b2db3b6ba4eba5ebbad661bcfb1b2566ecab63d",
+    "results/item410_mixed_cubic_compatible_scalar_carrier_root_audit.json": "dcc66283f87d242724d831e68f32f0dede8ae0102f69c88403b4fb2ac64191ad",
+    "results/item410_mixed_cubic_compatible_scalar_carrier_hashes.sha256": "fbe49b6d16b857152b9d49acda595d397b21f960c5a02a10973f87d081f6b806"
+  },
+  "claims": {
+    "PROVED": [
+      "Q_m, the product of primes in (4m,6m), divides both R-scalar numerators and hence W_m when nonzero",
+      "Q_m divides both phase carriers J_(m,0) and J_(m,2), with the opposite phase proved by an exact two-coefficient gap",
+      "Q_m is Item200's j=0 strip D_m times the optional boundary prime 4m+1, so this is a transport theorem rather than a new Cartier source",
+      "actual compatible H support is controlled by the greater-than-6m radical of W_m",
+      "the full-radical zero-rate target is structurally misnormalized",
+      "the forced-factor-stripped height constant is still noncompetitive",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "proof-schema normalization through m=256",
+      "selected exact rational rows"
+    ],
+    "OPEN": [
+      "uniform nonresonance of E_m,O_m",
+      "weighted zero density of the greater-than-6m radical",
+      "all-m large-prime support exclusion for both phase carriers",
+      "the four-adjacent lemma, primitive or marked branch control, Route 1, and irrationality of e+pi"
+    ],
+    "NOT_CLAIMED": [
+      "the full radical of W_m has zero rate",
+      "the full radical of either phase carrier has zero rate",
+      "a new forced lambda or Cartier source distinct from Item200's F_m=G_m",
+      "uniform multiplicity beyond one copy of each prime in Q_m",
+      "the corrected large-prime radical has zero rate",
+      "the replay proves the prime number theorem",
+      "a positive divisor booking, capacity reduction, Route-1 closure, or conclusion about e+pi"
+    ]
+  }
+}

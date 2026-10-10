@@ -1,0 +1,1306 @@
+{
+  "assertions": {
+    "all_claimed_finite_identities_verified_exactly": true,
+    "all_r1_q_ge_2_codimensions_equal_one": true,
+    "all_r2_codimensions_equal_one": true,
+    "no_e_plus_pi_classification_claim": true,
+    "no_smith_or_content_extrapolation": true,
+    "r1_q1_codimension_equals_two": true
+  },
+  "logical_scope": {
+    "all_parameter": [
+      "adjacent Pade cross identity and gcd",
+      "G-Krylov descriptions of every r=1 remainder block",
+      "r=1 residual quotient and codimension one for q>=2",
+      "sharp r=1,q=1 codimension-two exception",
+      "extra-factor Cramer syzygy",
+      "r=2 residual quotient and codimension one for q>=1",
+      "explicit Frobenius annihilators",
+      "exact resultant identity"
+    ],
+    "classification_claim": false,
+    "finite_only": [
+      "exact diagnostic replay for 1 <= q <= 6"
+    ],
+    "integral_saturation_claim": false,
+    "primitive_height_improvement_claim": false,
+    "smith_invariant_claim": false
+  },
+  "q_max": 6,
+  "rows": [
+    {
+      "E_extra": {
+        "denominator": {
+          "coefficients_low_to_high": [
+            "150",
+            "61"
+          ],
+          "degree": 1,
+          "sha256": "14a877e7ab7a8302c5839564eaefe663ccc3052ff87f7fada77b9cbfe5b3f726"
+        },
+        "normality_augmented_determinant": {
+          "denominator": "3840",
+          "numerator": "1",
+          "sha256": "b8a219351fbccf1958937ab8380d78e00817079b936585cc642d1d68db54685f"
+        },
+        "normality_toeplitz_determinant": {
+          "denominator": "48",
+          "numerator": "5",
+          "sha256": "f5720170b44ef12f0478a85cb18437159db02e3dcf5be1469f6bea2e04fffae2"
+        },
+        "numerator": {
+          "coefficients_low_to_high": [
+            "75",
+            "-7",
+            "3/8"
+          ],
+          "degree": 2,
+          "sha256": "d98d92c8a5f92abd90609d2720fbda804b070dbd53c9848ceb7d241e76b7920a"
+        },
+        "type": [
+          2,
+          1
+        ]
+      },
+      "G_adjacent": {
+        "denominator": {
+          "coefficients_low_to_high": [
+            "1"
+          ],
+          "degree": 0,
+          "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+        },
+        "normality_augmented_determinant": {
+          "denominator": "1",
+          "numerator": "1",
+          "sha256": "253d950f11ebdbeb4c2d54c57803deb69869b832a2e03010620d462a85d15290"
+        },
+        "normality_toeplitz_determinant": {
+          "denominator": "1",
+          "numerator": "1",
+          "sha256": "253d950f11ebdbeb4c2d54c57803deb69869b832a2e03010620d462a85d15290"
+        },
+        "numerator": {
+          "coefficients_low_to_high": [
+            "1/2",
+            "-1/4",
+            "5/48"
+          ],
+          "degree": 2,
+          "sha256": "4ba103c19d80a79ce9eeafa2e7ba40d66fa63a660cd1e7909ad722f2d82cd79b"
+        },
+        "type": [
+          2,
+          0
+        ]
+      },
+      "Q_diagonal": {
+        "denominator": {
+          "coefficients_low_to_high": [
+            "12",
+            "5"
+          ],
+          "degree": 1,
+          "sha256": "f7e0f870f9c8454a3d805c6b04dd2c6155e7d2e8af7dc67ae8f58724dda6c138"
+        },
+        "normality_augmented_determinant": {
+          "denominator": "96",
+          "numerator": "1",
+          "sha256": "380defbd201d5e694656674e2e8f61d5893e47303c16391083924b255ba19762"
+        },
+        "normality_toeplitz_determinant": {
+          "denominator": "4",
+          "numerator": "-1",
+          "sha256": "fb2e5bb9b0ecc2fdcd0336c263f7ff71142ed0b1f9380418846cb7a179106c57"
+        },
+        "numerator": {
+          "coefficients_low_to_high": [
+            "6",
+            "-1/2"
+          ],
+          "degree": 1,
+          "sha256": "8f2ba614c6c0ac04ea3603921150e735f7f9a7ee9690d5961cad3d19c363f71d"
+        },
+        "type": [
+          1,
+          1
+        ]
+      },
+      "annihilator": {
+        "Q_recurrence_verified_when_applicable": false,
+        "eta_offset": {
+          "denominator": "9375",
+          "numerator": "3904",
+          "sha256": "abeb1898acf7b560fafa5981cdd3bdc3befa50fe9bdc578a3fc83bda4997b157"
+        },
+        "lambda_moments_0_through_q": [
+          "1",
+          "-12/5"
+        ],
+        "lambda_sha256": "29c9dffa489fbee210a03529d1e01f8ac111335ca499eaf60dc4c017204c795b",
+        "r1_annihilation_verified_when_applicable": false,
+        "r2_eta_annihilation_verified": true
+      },
+      "cross_identity": {
+        "gcd_Q_G": "1",
+        "inverse_formula_verified": true,
+        "kappa": {
+          "denominator": "48",
+          "numerator": "25",
+          "sha256": "9eef28dc0535e4455cbe4d2ec1e0b93ed283e31cd6d3d17f1fa26ec9875d767a"
+        },
+        "power": 3
+      },
+      "q": 1,
+      "r1": {
+        "ambient_dimension": 4,
+        "codimension": 2,
+        "krylov_blocks": {
+          "W": {
+            "dimension": 0,
+            "krylov_dimension": 0
+          }
+        },
+        "parity": {
+          "dim_even_factor": 1,
+          "dim_odd_factor": 1,
+          "raw_symmetric_product_columns": 2
+        },
+        "product_rank": 2,
+        "q1_exception_verified": true,
+        "quotient_formula_verified": false,
+        "residual_dimension": 0
+      },
+      "r2": {
+        "H": {
+          "coefficients_low_to_high": [
+            "18/5"
+          ],
+          "degree": 0,
+          "sha256": "3f99d85316926a1a4c4574865f131f4c83105ccb7ef2f3ac73fe2e3033166d08"
+        },
+        "H_degree_bound": 0,
+        "K": {
+          "coefficients_low_to_high": [
+            "61/5"
+          ],
+          "degree": 0,
+          "sha256": "864c83bf31e2ceb6d16cd68ac571fdad85d3c61d6fc8a00f275164fe17332a1f"
+        },
+        "ambient_dimension": 5,
+        "codimension": 1,
+        "direct_sum_verified": true,
+        "parity": {
+          "dim_even_factor": 2,
+          "dim_odd_factor": 1,
+          "raw_symmetric_product_columns": 4
+        },
+        "product_rank": 4,
+        "quotient_dimension": 1,
+        "syzygy_verified": true
+      },
+      "resultant": {
+        "Res_Q_G": {
+          "denominator": "1",
+          "numerator": "1",
+          "sha256": "253d950f11ebdbeb4c2d54c57803deb69869b832a2e03010620d462a85d15290"
+        },
+        "Res_Q_P": {
+          "denominator": "1",
+          "numerator": "36",
+          "sha256": "9d38c613c2ea4572ebc3221e5e53aa026251e37fca720c85c0d06130ca496572"
+        },
+        "identity_verified": true,
+        "right_side": {
+          "denominator": "1",
+          "numerator": "36",
+          "sha256": "9d38c613c2ea4572ebc3221e5e53aa026251e37fca720c85c0d06130ca496572"
+        }
+      }
+    },
+    {
+      "E_extra": {
+        "denominator": {
+          "coefficients_low_to_high": [
+            "1577520",
+            "714000",
+            "30257"
+          ],
+          "degree": 2,
+          "sha256": "9e1000f28ab525901fc3dc8d373eca010f4613e348b9bd2b7560847087ebf262"
+        },
+        "normality_augmented_determinant": {
+          "denominator": "1170505728000",
+          "numerator": "-59",
+          "sha256": "1448b7e875fe019c0a001e94988dbf15fe6b128e7dadb48aa20ae012aa73ede2"
+        },
+        "normality_toeplitz_determinant": {
+          "denominator": "58060800",
+          "numerator": "313",
+          "sha256": "9bc9b66c57587fbd5ac073ecaceef132691858f033301de1a0ccc65a302d0082"
+        },
+        "numerator": {
+          "coefficients_low_to_high": [
+            "788760",
+            "-37380",
+            "1907/2",
+            "-59/4"
+          ],
+          "degree": 3,
+          "sha256": "1b309841c8a76dfe9de677294dac49ecc619c5524b314223b08a8ccc540ca118"
+        },
+        "type": [
+          3,
+          2
+        ]
+      },
+      "G_adjacent": {
+        "denominator": {
+          "coefficients_low_to_high": [
+            "3416",
+            "1385"
+          ],
+          "degree": 1,
+          "sha256": "5aa1cb872d54aa5a7e180413e68684513f653ad67eb0e289574d39a293887076"
+        },
+        "normality_augmented_determinant": {
+          "denominator": "58060800",
+          "numerator": "313",
+          "sha256": "9bc9b66c57587fbd5ac073ecaceef132691858f033301de1a0ccc65a302d0082"
+        },
+        "normality_toeplitz_determinant": {
+          "denominator": "1440",
+          "numerator": "-61",
+          "sha256": "8a6115cc34007c61806476952f5b11ae0fd204400825922316ee48a98761c5e3"
+        },
+        "numerator": {
+          "coefficients_low_to_high": [
+            "1708",
+            "-323/2",
+            "115/12",
+            "-313/720"
+          ],
+          "degree": 3,
+          "sha256": "86b4813a94239eabff084868096df7997dba586ac2834ea8affff74bf6c690f5"
+        },
+        "type": [
+          3,
+          1
+        ]
+      },
+      "Q_diagonal": {
+        "denominator": {
+          "coefficients_low_to_high": [
+            "15120",
+            "6900",
+            "313"
+          ],
+          "degree": 2,
+          "sha256": "d7472150366333ee31d4a88bef99c3b661a064165f32004c423bf63daa4d02f3"
+        },
+        "normality_augmented_determinant": {
+          "denominator": "116121600",
+          "numerator": "13",
+          "sha256": "dc50426eb2aaa0a18cb3b4fa69ed5fdfb43bf05981febe97edfb56fa6aa0ac56"
+        },
+        "normality_toeplitz_determinant": {
+          "denominator": "3840",
+          "numerator": "1",
+          "sha256": "b8a219351fbccf1958937ab8380d78e00817079b936585cc642d1d68db54685f"
+        },
+        "numerator": {
+          "coefficients_low_to_high": [
+            "7560",
+            "-330",
+            "13/2"
+          ],
+          "degree": 2,
+          "sha256": "3b9b210c70f732fd53c3f228b4ba61e181fc1b0a95d6c4dddd324ccacd5eabab"
+        },
+        "type": [
+          2,
+          2
+        ]
+      },
+      "annihilator": {
+        "Q_recurrence_verified_when_applicable": true,
+        "eta_offset": {
+          "denominator": "17309382370560",
+          "numerator": "187369078963",
+          "sha256": "0a001aaab90dcf1fac1358d24b30b0a1f5c9fadb95ad170d45695a8828802e37"
+        },
+        "lambda_moments_0_through_q": [
+          "2568511585/96163235392",
+          "-226349531/3434401264",
+          "4986750/30664297"
+        ],
+        "lambda_sha256": "2b0ea68f05a6bd0966c0001261592a397a1726f7ff522ab117cb418041ff6d12",
+        "r1_annihilation_verified_when_applicable": true,
+        "r2_eta_annihilation_verified": true
+      },
+      "cross_identity": {
+        "gcd_Q_G": "1",
+        "inverse_formula_verified": true,
+        "kappa": {
+          "denominator": "720",
+          "numerator": "-97969",
+          "sha256": "dd1977e20b96d3fdfdf2842e7653066e61909c4f09a505408e253ebb1f278b3e"
+        },
+        "power": 5
+      },
+      "q": 2,
+      "r1": {
+        "ambient_dimension": 7,
+        "codimension": 1,
+        "krylov_blocks": {
+          "W0": {
+            "dimension": 1,
+            "krylov_dimension": 1
+          },
+          "W1": {
+            "dimension": 0,
+            "krylov_dimension": 0
+          }
+        },
+        "parity": {
+          "dim_even_factor": 3,
+          "dim_odd_factor": 1,
+          "raw_symmetric_product_columns": 7
+        },
+        "product_rank": 6,
+        "q1_exception_verified": false,
+        "quotient_formula_verified": true,
+        "residual_dimension": 1
+      },
+      "r2": {
+        "H": {
+          "coefficients_low_to_high": [
+            "10620/313"
+          ],
+          "degree": 0,
+          "sha256": "44246e58b04a9e52a26e1dd6d65654367fe058a5109ae27a43d5cc7d3e7c4040"
+        },
+        "H_degree_bound": 0,
+        "K": {
+          "coefficients_low_to_high": [
+            "30257/313"
+          ],
+          "degree": 0,
+          "sha256": "ae221330284cdd03fc3dec99233e11a85072f1fa4f6603f77ee86e0ac302f2f2"
+        },
+        "ambient_dimension": 8,
+        "codimension": 1,
+        "direct_sum_verified": true,
+        "parity": {
+          "dim_even_factor": 2,
+          "dim_odd_factor": 3,
+          "raw_symmetric_product_columns": 9
+        },
+        "product_rank": 7,
+        "quotient_dimension": 2,
+        "syzygy_verified": true
+      },
+      "resultant": {
+        "Res_Q_G": {
+          "denominator": "1",
+          "numerator": "10972528",
+          "sha256": "b9720f0ce8178afb0aedaa963c8a0bf2a5e922a0bcb7ab33280a0c2203cf2902"
+        },
+        "Res_Q_P": {
+          "denominator": "1",
+          "numerator": "13610558304000",
+          "sha256": "cb7d0365ff45825753e2279f3f6dff370c8f035ccbade8473878d1c182ea375e"
+        },
+        "identity_verified": true,
+        "right_side": {
+          "denominator": "1",
+          "numerator": "149342232086272512000",
+          "sha256": "2f3c0a48ac7f9283fb31a2c4d27aa6c6014100511444c1efc5ead042198bbdd1"
+        }
+      }
+    },
+    {
+      "E_extra": {
+        "denominator": {
+          "coefficients_low_to_high": [
+            "160636019544",
+            "72388877880",
+            "2952722809"
+          ],
+          "degree": 2,
+          "sha256": "a830eb7f1f47233383c30205f5d213a3fbbc8def8094a0c7610c1f817bdc2ea9"
+        },
+        "normality_augmented_determinant": {
+          "denominator": "2806173953188429824000000",
+          "numerator": "-17666849",
+          "sha256": "1a7fa0a03d175033be4f5b615db4e821ba6d57f59e71b9447eac31bc109a36d3"
+        },
+        "normality_toeplitz_determinant": {
+          "denominator": "1158800670720000",
+          "numerator": "2228827",
+          "sha256": "c0626cf520f6c540649672bd72bc8a7fa3723d1cb986362669914bec399e24cb"
+        },
+        "numerator": {
+          "coefficients_low_to_high": [
+            "80318009772",
+            "-3964565946",
+            "112060637",
+            "-23928621/10",
+            "3990269/96",
+            "-17666849/33600"
+          ],
+          "degree": 5,
+          "sha256": "ce63c28780d36ea5476f7b7213ad061611d8ab9ad381cb46fdbf1baf41b3ca11"
+        },
+        "type": [
+          5,
+          2
+        ]
+      },
+      "G_adjacent": {
+        "denominator": {
+          "coefficients_low_to_high": [
+            "1516680",
+            "684300",
+            "28213"
+          ],
+          "degree": 2,
+          "sha256": "083507216705e9c9bcf8fd7c950b7613cd7c897a673cf428e544517aee481cff"
+        },
+        "normality_augmented_determinant": {
+          "denominator": "155742810144768000",
+          "numerator": "2923",
+          "sha256": "01f554dcef8647b96dfbcc49355303ad342b1475688eb817e85822e938d9e0e7"
+        },
+        "normality_toeplitz_determinant": {
+          "denominator": "292626432000",
+          "numerator": "30257",
+          "sha256": "a750c6080982e703e8faf729c5b74074a0d46dbda9ba9638e711cb48edceeec1"
+        },
+        "numerator": {
+          "coefficients_low_to_high": [
+            "758340",
+            "-37020",
+            "1019",
+            "-81/4",
+            "185/672"
+          ],
+          "degree": 4,
+          "sha256": "970a48dd8105ca154c439196786b1f6a348e51aa482ee1d1b82fecf5e4e0737a"
+        },
+        "type": [
+          4,
+          2
+        ]
+      },
+      "Q_diagonal": {
+        "denominator": {
+          "coefficients_low_to_high": [
+            "39251520",
+            "18471600",
+            "1075032",
+            "14615"
+          ],
+          "degree": 3,
+          "sha256": "38e78ea9dafd456aec10c6fe95e3d6e19ea6d493b603246f3bed5e29a65e8bad"
+        },
+        "normality_augmented_determinant": {
+          "denominator": "1557428101447680000",
+          "numerator": "127",
+          "sha256": "cfcbfbc0de0088a905e073f294a2161a9e5ac052c67a729e5741269f925752e6"
+        },
+        "normality_toeplitz_determinant": {
+          "denominator": "1170505728000",
+          "numerator": "-59",
+          "sha256": "1448b7e875fe019c0a001e94988dbf15fe6b128e7dadb48aa20ae012aa73ede2"
+        },
+        "numerator": {
+          "coefficients_low_to_high": [
+            "19625760",
+            "-577080",
+            "8316",
+            "-127/2"
+          ],
+          "degree": 3,
+          "sha256": "d55e6b7e8159d0b68d2dfcef8fc6ab93e7baf19e913e4476e4b8301ab63dd41b"
+        },
+        "type": [
+          3,
+          3
+        ]
+      },
+      "annihilator": {
+        "Q_recurrence_verified_when_applicable": true,
+        "eta_offset": {
+          "denominator": "7158353030211240000000",
+          "numerator": "280053335033553868811",
+          "sha256": "6deff656d2dba9083d4b4d72f5fefe3957775c262c2cc3b73162e58dfa4e7a57"
+        },
+        "lambda_moments_0_through_q": [
+          "45430894228729219/470634650244000000",
+          "-6369104401639907/26740605127500000",
+          "12699099051881/21608569800000",
+          "-19583606691551/13505356125000"
+        ],
+        "lambda_sha256": "1162f2780f195e5f274489b7cf22ca48672df789f12c881a3db79cd0dbb2613c",
+        "r1_annihilation_verified_when_applicable": true,
+        "r2_eta_annihilation_verified": true
+      },
+      "cross_identity": {
+        "gcd_Q_G": "1",
+        "inverse_formula_verified": true,
+        "kappa": {
+          "denominator": "672",
+          "numerator": "2703775",
+          "sha256": "8dae24254705dcd4616a478d43c19f000a3b4381ad8c08bbe56761eef5bdc086"
+        },
+        "power": 7
+      },
+      "q": 3,
+      "r1": {
+        "ambient_dimension": 10,
+        "codimension": 1,
+        "krylov_blocks": {
+          "W": {
+            "dimension": 1,
+            "krylov_dimension": 1
+          }
+        },
+        "parity": {
+          "dim_even_factor": 3,
+          "dim_odd_factor": 3,
+          "raw_symmetric_product_columns": 12
+        },
+        "product_rank": 9,
+        "q1_exception_verified": false,
+        "quotient_formula_verified": true,
+        "residual_dimension": 2
+      },
+      "r2": {
+        "H": {
+          "coefficients_low_to_high": [
+            "8979718279/855625",
+            "-17666849/9250"
+          ],
+          "degree": 1,
+          "sha256": "a5d4fb857a84dbad574f408f96241a4af79cbee58fc02d2cf1b66edb2dca53a6"
+        },
+        "H_degree_bound": 1,
+        "K": {
+          "coefficients_low_to_high": [
+            "6309301403/1711250"
+          ],
+          "degree": 0,
+          "sha256": "db80453291f82779f36fba634ec053b04c297d87087c579c6847247b700a1057"
+        },
+        "ambient_dimension": 11,
+        "codimension": 1,
+        "direct_sum_verified": true,
+        "parity": {
+          "dim_even_factor": 4,
+          "dim_odd_factor": 3,
+          "raw_symmetric_product_columns": 16
+        },
+        "product_rank": 10,
+        "quotient_dimension": 3,
+        "syzygy_verified": true
+      },
+      "resultant": {
+        "Res_Q_G": {
+          "denominator": "1",
+          "numerator": "237456573532200000000",
+          "sha256": "e8b6d4f3b894ee6766b7d0f6d04843cd2e9bc7d8c0b1ca55a20d285c772f2d6d"
+        },
+        "Res_Q_P": {
+          "denominator": "1",
+          "numerator": "184339049615665550487311123054592000",
+          "sha256": "4e794d6ddd2ce92cb9f3c0aaa2bf8cc54ddea1487445eca69db9d649d31805fe"
+        },
+        "identity_verified": true,
+        "right_side": {
+          "denominator": "1",
+          "numerator": "43772519089918150938332585234671687922869862400000000000",
+          "sha256": "f47c2ffe704581a6741a980f7d32b22d4e2ceba7283ab721beb8a9e4a1c2b89a"
+        }
+      }
+    },
+    {
+      "E_extra": {
+        "denominator": {
+          "coefficients_low_to_high": [
+            "776003287125568320",
+            "362490472241011296",
+            "20036281237935690",
+            "238065069796921"
+          ],
+          "degree": 3,
+          "sha256": "b822a5c4aef0400640b396626adf841da6714140b86ce1163f5f1f8c78e6ad78"
+        },
+        "normality_augmented_determinant": {
+          "denominator": "17617117230292889193786016052281344000000000",
+          "numerator": "61665972331",
+          "sha256": "fe8a73f91c58d33558fafe341f097204c2cd2fe781807d0c02059cef8546f3ea"
+        },
+        "normality_toeplitz_determinant": {
+          "denominator": "29123505958204298055647232000000",
+          "numerator": "58057656929",
+          "sha256": "0c5446bf8dbf60a5255c88d5735d8f10c97ecd483c64e73d0e027ff9b1ed3c7b"
+        },
+        "numerator": {
+          "coefficients_low_to_high": [
+            "388001643562784160",
+            "-12755585660886432",
+            "229198300961721",
+            "-2975051327110",
+            "1225240660419/40",
+            "-10003600393/40",
+            "431661806317/316800"
+          ],
+          "degree": 6,
+          "sha256": "81be21e9a820d3b74ec11a18c6bdda9480f87c09d40e50aa1d9c494c9db30c76"
+        },
+        "type": [
+          6,
+          3
+        ]
+      },
+      "G_adjacent": {
+        "denominator": {
+          "coefficients_low_to_high": [
+            "183353060322432",
+            "85747140559080",
+            "4778470410252",
+            "58057656929"
+          ],
+          "degree": 3,
+          "sha256": "f826fbf7107d6ee4278d1f3ddfe1758160e06f2eb24a9124c8f6de21ca5e30d6"
+        },
+        "normality_augmented_determinant": {
+          "denominator": "69896414299690315333553356800000000",
+          "numerator": "80737373",
+          "sha256": "c34d83c986d1869d756b6b5f938138b3d34b0c79fbef2211d99db3f6d2dafab9"
+        },
+        "normality_toeplitz_determinant": {
+          "denominator": "2806173953188429824000000",
+          "numerator": "-17666849",
+          "sha256": "1a7fa0a03d175033be4f5b615db4e821ba6d57f59e71b9447eac31bc109a36d3"
+        },
+        "numerator": {
+          "coefficients_low_to_high": [
+            "91676530161216",
+            "-2964694801068",
+            "51727182276",
+            "-3171633709/5",
+            "23089245/4",
+            "-80737373/2400"
+          ],
+          "degree": 5,
+          "sha256": "93d57f2ed1cc68281960b61caa8d69ce9009f7139bd0ec43de83062a4ec6fbb6"
+        },
+        "type": [
+          5,
+          3
+        ]
+      },
+      "Q_diagonal": {
+        "denominator": {
+          "coefficients_low_to_high": [
+            "23594700729600",
+            "11275015752000",
+            "727718024880",
+            "13853547000",
+            "80737373"
+          ],
+          "degree": 4,
+          "sha256": "c3dc4e1eacca36206055b1b0fad90ec7ce2a5d88f32e640d0e05ad39e0926324"
+        },
+        "normality_augmented_determinant": {
+          "denominator": "10753294507644663897469747200000000",
+          "numerator": "11321",
+          "sha256": "7aaa3c66933205d84f5af5b942d114c1f4100d26a7697b85a95113fe47a591b9"
+        },
+        "normality_toeplitz_determinant": {
+          "denominator": "134696349753044631552000000",
+          "numerator": "45469",
+          "sha256": "054c2a795de1c1dddab16993e88fbfd482d2d57b3080d9660769ba6d2d876e4b"
+        },
+        "numerator": {
+          "coefficients_low_to_high": [
+            "11797350364800",
+            "-261167306400",
+            "2886400440",
+            "-19664460",
+            "147173/2"
+          ],
+          "degree": 4,
+          "sha256": "1b67b3f32e180ffc52a866b4a83ef2b543e0ec85797f8da4c52ab958a0c206c7"
+        },
+        "type": [
+          4,
+          4
+        ]
+      },
+      "annihilator": {
+        "Q_recurrence_verified_when_applicable": true,
+        "eta_offset": {
+          "denominator": "52543102064214437235382533956192643557621760",
+          "numerator": "396993952706084419522312102189007",
+          "sha256": "45818a0e1cc7159c1c37d3d2f748b19428c41dab9455b5987b915ed2e9eede82"
+        },
+        "lambda_moments_0_through_q": [
+          "207131420084565375105101516257/11110613662175294301984003720071493255168",
+          "-18252724779211280375470187263/396807630791974796499428704288267616256",
+          "36087174041041119753843355/317954832365364420271978128436111872",
+          "-122646739579383640850737/437954314552843554093633785724672",
+          "762089217494075118325/1102906927674285507103931236944"
+        ],
+        "lambda_sha256": "a1bc3d401a3027405de7d754971b6866d05b52cbe828c2c4dfc54eee78e1bb10",
+        "r1_annihilation_verified_when_applicable": true,
+        "r2_eta_annihilation_verified": true
+      },
+      "cross_identity": {
+        "gcd_Q_G": "1",
+        "inverse_formula_verified": true,
+        "kappa": {
+          "denominator": "2400",
+          "numerator": "-6518523398941129",
+          "sha256": "5fc6e7a889c189c1bd42770431c6b7767ef44d9bf986ff4d971cf7b37a56b2c4"
+        },
+        "power": 9
+      },
+      "q": 4,
+      "r1": {
+        "ambient_dimension": 13,
+        "codimension": 1,
+        "krylov_blocks": {
+          "W0": {
+            "dimension": 2,
+            "krylov_dimension": 2
+          },
+          "W1": {
+            "dimension": 1,
+            "krylov_dimension": 1
+          }
+        },
+        "parity": {
+          "dim_even_factor": 5,
+          "dim_odd_factor": 3,
+          "raw_symmetric_product_columns": 21
+        },
+        "product_rank": 12,
+        "q1_exception_verified": false,
+        "quotient_formula_verified": true,
+        "residual_dimension": 3
+      },
+      "r2": {
+        "H": {
+          "coefficients_low_to_high": [
+            "34721254580119775490/71703757388352419",
+            "-431661806317/10657333236"
+          ],
+          "degree": 1,
+          "sha256": "f111d8450a435c31bbc6680990056fdc427221ff2efab933f3b86542c77a86cc"
+        },
+        "H_degree_bound": 1,
+        "K": {
+          "coefficients_low_to_high": [
+            "25061273060504831020493/860445088660229028"
+          ],
+          "degree": 0,
+          "sha256": "7a97f93b484db2d223f3d8cceb546b81205c3a949bb28e344f530b9e010a1d49"
+        },
+        "ambient_dimension": 14,
+        "codimension": 1,
+        "direct_sum_verified": true,
+        "parity": {
+          "dim_even_factor": 4,
+          "dim_odd_factor": 5,
+          "raw_symmetric_product_columns": 25
+        },
+        "product_rank": 13,
+        "quotient_dimension": 4,
+        "syzygy_verified": true
+      },
+      "resultant": {
+        "Res_Q_G": {
+          "denominator": "1",
+          "numerator": "583522513272652178159882019450709427771394820689169669728512536215552",
+          "sha256": "b81a3714a7636f139fca167c309f1a105e9427bf68ca832139a147bccbf4a379"
+        },
+        "Res_Q_P": {
+          "denominator": "1",
+          "numerator": "32424654858898711089434650546145011988599977200258285877818604809379297361920000000000",
+          "sha256": "5b502833126d674ea4622d477ed7007ff7ca753d62ea44cf717e31e74f37ca0c"
+        },
+        "identity_verified": true,
+        "right_side": {
+          "denominator": "1",
+          "numerator": "18920516095262889080729010594723453800694029314988453783247391927087028498668714942455157795185927002508520523919183687965244015381775334076579840000000000",
+          "sha256": "9fc797bc649f6b9a43b448dfac84ac68d82c9f7d8a8beb95be3ff131219c5a25"
+        }
+      }
+    },
+    {
+      "E_extra": {
+        "denominator": {
+          "coefficients_low_to_high": [
+            "21527222035350072731936400",
+            "10046548156657054145059080",
+            "551616460440476792151870",
+            "6433136448963399088633"
+          ],
+          "degree": 3,
+          "sha256": "cd91d9d0b9143e9167e6b55c3ae9aad38ede18c6f3ba16613111cc0b28dfd83b"
+        },
+        "normality_augmented_determinant": {
+          "denominator": "521812779742465710809601559249382084707396371244646400000000000",
+          "numerator": "13647230458419805517",
+          "sha256": "964f7abdbfc08ba74d5fd14b660c8d152e4de0bdfb5d9f023ec347716499e073"
+        },
+        "normality_toeplitz_determinant": {
+          "denominator": "434534204265733336005274715936815841280000000",
+          "numerator": "80143994996962373",
+          "sha256": "b9e66b6da93651d5bed8e1e9da6f46e57ba008f301d6131e21d4f997e5f54295"
+        },
+        "numerator": {
+          "coefficients_low_to_high": [
+            "10763611017675036365968200",
+            "-358531430508991110454560",
+            "6590153071607436054540",
+            "-89158453551606055636",
+            "15923156400139416461/16",
+            "-1624144052791127521/168",
+            "111362979105078227/1344",
+            "-1736217107575644791/2882880",
+            "13647230458419805517/4470681600"
+          ],
+          "degree": 8,
+          "sha256": "5e75b7847ce5a900d7722f163e9f1760c5ef3b60d31d9b7fac98c090e136584c"
+        },
+        "type": [
+          8,
+          3
+        ]
+      },
+      "G_adjacent": {
+        "denominator": {
+          "coefficients_low_to_high": [
+            "9208323472939333666560",
+            "4382944959752903980800",
+            "275875403377718289600",
+            "4949179511050986120",
+            "25808899722598429"
+          ],
+          "degree": 4,
+          "sha256": "62bf4062c1420d39832b0b709c5f09f81f6ca07ba23c5367507e7882cd660dd8"
+        },
+        "normality_augmented_determinant": {
+          "denominator": "463001603726913569362186803490341260367432253440000000000",
+          "numerator": "213692663231",
+          "sha256": "a8ffb06a1a64d2279729a186b5d1bcc58a0af53a37e226db700849669305de7c"
+        },
+        "normality_toeplitz_determinant": {
+          "denominator": "17617117230292889193786016052281344000000000",
+          "numerator": "61665972331",
+          "sha256": "fe8a73f91c58d33558fafe341f097204c2cd2fe781807d0c02059cef8546f3ea"
+        },
+        "numerator": {
+          "coefficients_low_to_high": [
+            "4604161736469666833280",
+            "-110608388358381426240",
+            "1401823515147073200",
+            "-12308232212243604",
+            "162990374951659/2",
+            "-8032728293097/20",
+            "213692663231/176"
+          ],
+          "degree": 6,
+          "sha256": "11d84332946894b0df715401e32d17cf9fb437b2b986fb0efe49356d89c69f95"
+        },
+        "type": [
+          6,
+          4
+        ]
+      },
+      "Q_diagonal": {
+        "denominator": {
+          "coefficients_low_to_high": [
+            "56133939735132779520",
+            "27071021266421932800",
+            "1849813835200531200",
+            "40852032918737040",
+            "353440044896268",
+            "1068463316155"
+          ],
+          "degree": 5,
+          "sha256": "29ebf5fba8c9e41db30ac9e979ef66eb7dfe1d5ac5636017b8a8fe1293369396"
+        },
+        "normality_augmented_determinant": {
+          "denominator": "23150080186345678468109340174517063018371612672000000000000",
+          "numerator": "2045322787",
+          "sha256": "87d05ce52fb88e46e9eeccf8690e685e548bcc291cc75471e3206219e9b393fe"
+        },
+        "normality_toeplitz_determinant": {
+          "denominator": "822132137413668162376680749106462720000000000",
+          "numerator": "-19934927",
+          "sha256": "da4e5989bcbe0e1ce6eb1221c6a3fe4d5788fc7069b25c6201ca959d494297f3"
+        },
+        "numerator": {
+          "coefficients_low_to_high": [
+            "28066969867566389760",
+            "-497974300572228480",
+            "4436990071113600",
+            "-25451979520968",
+            "96995467734",
+            "-2045322787/10"
+          ],
+          "degree": 5,
+          "sha256": "ff39832e3b5e8081adde86e7d1ea0beb99a60ff1a87412f564c3b9270b7bd0bc"
+        },
+        "type": [
+          5,
+          5
+        ]
+      },
+      "annihilator": {
+        "Q_recurrence_verified_when_applicable": true,
+        "eta_offset": {
+          "denominator": "2991177745093985087126006175734901331631466615456491431526400000000",
+          "numerator": "83242228930345426193112140751842346101963795969",
+          "sha256": "9dd2312ee4b280e4334648462f372eb0fa40f41ca967fc2ed3f156fb6477ee2e"
+        },
+        "lambda_moments_0_through_q": [
+          "1693605172144764252635206550691899353463659/24664421728253845286547154613357256908938087944394899456000000",
+          "-384889774424189673992604699847183342436329/2271723053918117329024080030177642083717981784352161792000000",
+          "16334321515270350908024863948796763211/39073323940800091658480908671786069551392875547852800000",
+          "-3148697099920329170725683638812714489/3052603432875007160818820989983286683702568402176000000",
+          "1339211150832621396337737855974743/526197532062056825825265415209357756294344908800000",
+          "-275364255588449620969120833803473/43849794338504735485438784600779813024528742400000"
+        ],
+        "lambda_sha256": "1b6ed254d1b776ce9aa9e0db7d6a9369e89e0dee911946a1088eeac9eb344e01",
+        "r1_annihilation_verified_when_applicable": true,
+        "r2_eta_annihilation_verified": true
+      },
+      "cross_identity": {
+        "gcd_Q_G": "1",
+        "inverse_formula_verified": true,
+        "kappa": {
+          "denominator": "176",
+          "numerator": "228322771593787896796805",
+          "sha256": "4f150913c5cd8e843d716d9ed3ce885020db4074c6f53a87959d0aad4b0d919e"
+        },
+        "power": 11
+      },
+      "q": 5,
+      "r1": {
+        "ambient_dimension": 16,
+        "codimension": 1,
+        "krylov_blocks": {
+          "W": {
+            "dimension": 2,
+            "krylov_dimension": 2
+          }
+        },
+        "parity": {
+          "dim_even_factor": 5,
+          "dim_odd_factor": 5,
+          "raw_symmetric_product_columns": 30
+        },
+        "product_rank": 15,
+        "q1_exception_verified": false,
+        "quotient_formula_verified": true,
+        "residual_dimension": 4
+      },
+      "r2": {
+        "H": {
+          "coefficients_low_to_high": [
+            "1452074260117221381858249757373/4986569331608327666042221200",
+            "2108892620374882642063426092713369/6283077357826492859213198712000",
+            "13647230458419805517/5428135554328569600"
+          ],
+          "degree": 2,
+          "sha256": "4c66080934217755fab9cc047d7b2b5ffbaa6da92ae226f5f6111eff23a03495"
+        },
+        "H_degree_bound": 2,
+        "K": {
+          "coefficients_low_to_high": [
+            "3348270801790675667957401578807487/9973138663216655332084442400",
+            "-352220002392547749642997072069732793/5799763714916762639273721888000"
+          ],
+          "degree": 1,
+          "sha256": "ea857e16bbef5ec3b21038bda7db2491de6db3a97eb70ba1835128cbe20b28e0"
+        },
+        "ambient_dimension": 17,
+        "codimension": 1,
+        "direct_sum_verified": true,
+        "parity": {
+          "dim_even_factor": 6,
+          "dim_odd_factor": 5,
+          "raw_symmetric_product_columns": 36
+        },
+        "product_rank": 16,
+        "quotient_dimension": 5,
+        "syzygy_verified": true
+      },
+      "resultant": {
+        "Res_Q_G": {
+          "denominator": "1",
+          "numerator": "7451025795507481179726487824715506722313744517036580875926041348521571609382823231113668790640593750412797317701658753787494400000000000000",
+          "sha256": "e86e6bd2cafac5713eeb43c6b1b571eb53616da0721362716c7c25af183eaa4d"
+        },
+        "Res_Q_P": {
+          "denominator": "1",
+          "numerator": "7532311376401232540253203830339918207921322291218207589952242986788009385259221695457016176448719050958703782248832088071948234854233086373187188450652044918784",
+          "sha256": "84dbe9df6edb873eec8839347b62495263c25f1628d4b04ba3e6b3277a3fb653"
+        },
+        "identity_verified": true,
+        "right_side": {
+          "denominator": "1",
+          "numerator": "56123446365360044190583340344757990827222081291621410233283310379269179677628619403733119540176920613407678595194768764675866939038741111910205334665931456237074577350225877416383646077871789021858201228067440035157574667907350138020849422426997275800026140499255033775129438442854809600000000000000",
+          "sha256": "a7d972d121c20f93f70db4f9bb0d1febf1d7ca0992324e2b71681e0663d8aa28"
+        }
+      }
+    },
+    {
+      "E_extra": {
+        "denominator": {
+          "coefficients_low_to_high": [
+            "855643631297568909126123696151248000",
+            "406497873722181328170163353221625600",
+            "25275754835434143690439502405043120",
+            "440102472143835142895249363417680",
+            "2164886940049737296936004906617"
+          ],
+          "degree": 4,
+          "sha256": "e8d7cbd8e8d1bf083f8152e18572305b1fdfe2178fe61fcd798662a17b300cc3"
+        },
+        "normality_augmented_determinant": {
+          "denominator": "16292048177860880793582642779871726580995964854957650084496447099326050389196800000000000000000",
+          "numerator": "-27031859374665396582533743",
+          "sha256": "bd80f7364ccf075b23093ee01dcf33ee6c1e9af996a80b48ef707a157fd66644"
+        },
+        "normality_toeplitz_determinant": {
+          "denominator": "201161163978013598728307773187477232966836256037820685619298304000000000000",
+          "numerator": "13583600979772339742734441",
+          "sha256": "80156046da357fe921fd5acb397b93c36cf2d025d67f2814cba60c61ca69be02"
+        },
+        "numerator": {
+          "coefficients_low_to_high": [
+            "427821815648784454563061848075624000",
+            "-10661970963301563196449247426999200",
+            "142953914001834503316797912870160",
+            "-1373896970301845029641532039640",
+            "10611766014608595478141345511",
+            "-1254572758712950163844610183/18",
+            "172260137090807173261776449/432",
+            "-11937296051338147344145945/6048",
+            "150332401065644565057893027/18869760",
+            "-513605328118642535068141117/24429081600"
+          ],
+          "degree": 9,
+          "sha256": "2704af4b4d5ab848b16ce67c2237abe96b730ebfb60fe155daadcfc5e5d76182"
+        },
+        "type": [
+          9,
+          4
+        ]
+      },
+      "G_adjacent": {
+        "denominator": {
+          "coefficients_low_to_high": [
+            "59467119467017130714762864640",
+            "28600430758877428368599404800",
+            "1922474474002883917114580736",
+            "40924066017431983752717120",
+            "331610544688599019086672",
+            "902585957891801445307"
+          ],
+          "degree": 5,
+          "sha256": "849af3b63481c0cf97fb2da3625ba3f9850c6a4e9dad438ec9ee8d87da81217b"
+        },
+        "normality_augmented_determinant": {
+          "denominator": "281456203590470196046237952523578705328876770284663665772761627796439040000000000000000",
+          "numerator": "151259208063389819",
+          "sha256": "46813764223136e4a288fd3a4496e55f47cfe42be4a185d7c8d99d00c126603e"
+        },
+        "normality_toeplitz_determinant": {
+          "denominator": "5432279762230965035812276072409767254637879183205266882560000000000000",
+          "numerator": "-41778186898688819",
+          "sha256": "fd9b7f34bfcbaf0047e715b3dbdb2538d2c86317f332c10a0ab5c794ba1ba96b"
+        },
+        "numerator": {
+          "coefficients_low_to_high": [
+            "29733559733508565357381432320",
+            "-566564487315568494391013760",
+            "5621158429702649195237568",
+            "-38303308970764006886640",
+            "197636012787159824856",
+            "-7916843119965853123/10",
+            "9405127734546987/4",
+            "-151259208063389819/36400"
+          ],
+          "degree": 7,
+          "sha256": "aa43671fa62c91159917be7a055d6279f60b2770a2a3c54ad8ae4747095d6112"
+        },
+        "type": [
+          7,
+          5
+        ]
+      },
+      "Q_diagonal": {
+        "denominator": {
+          "coefficients_low_to_high": [
+            "2133505961677654489839513600",
+            "1035177034279255657485696000",
+            "73343293275007148718124800",
+            "1763982793807826034643200",
+            "18288222763268777198880",
+            "85586662384377581700",
+            "151259208063389819"
+          ],
+          "degree": 6,
+          "sha256": "8cfdcbaafb41d88b9a2ad2810020328496dbfe44d2aac8003e1515f864b82103"
+        },
+        "normality_augmented_determinant": {
+          "denominator": "562912407180940392092475905047157410657753540569327331545523255592878080000000000000000",
+          "numerator": "12170851069679",
+          "sha256": "33b9924644f4d6f4ac41522c34c30547d5fddff8c08a10456f9eb0da1373543c"
+        },
+        "normality_toeplitz_determinant": {
+          "denominator": "217291190489238601432491042896390690185515167328210675302400000000000000",
+          "numerator": "1647119674091",
+          "sha256": "fb76ac50e1ff6476d160fd4dcc273f7a072970c4f126b6b1b2d6af9e9c1cf59b"
+        },
+        "numerator": {
+          "coefficients_low_to_high": [
+            "1066752980838827244919756800",
+            "-15787973279785793717030400",
+            "117592409112002679254400",
+            "-573949937162535373440",
+            "1976120082042746640",
+            "-4665214469698146",
+            "12170851069679/2"
+          ],
+          "degree": 6,
+          "sha256": "1957a1af350ba45eee08ba00d721042aac912d4e612f5983cdd97bf395660207"
+        },
+        "type": [
+          6,
+          6
+        ]
+      },
+      "annihilator": {
+        "Q_recurrence_verified_when_applicable": true,
+        "eta_offset": {
+          "denominator": "2455969321066681770540376534925822804702151746729299032532446107788177897955524608000000",
+          "numerator": "41959646110748399469292205837937062988884474255156125386490237",
+          "sha256": "a5f586276e58492d1642f9d1e31132f63e5feaf301066dc3a3bddf31254c0af7"
+        },
+        "lambda_moments_0_through_q": [
+          "3185577753252264560224257709457155855543820113020696581051/75568286802051746785857739536179163221604669130132277924075264855020858398631526400",
+          "-57532557849346547348543671608081821945897167846354813/553127556741705070896338307247688209790694401479521870327003841714396562718720",
+          "661285232324346438578641235783057654851152407485931/2576681164945831075604060437489230790950439758444977656802812927240977776640",
+          "-4723214475826411490213913499213072115332126221585607/7458813898527405745169648634837247026435483511288093217060774263065988300800",
+          "2098356937373076526301838921970192768513155293/1342986711775041996645537124333755924023746108372151680271660322127872",
+          "-359547792780446245485621264940533193998297289/93262966095489027544828966967621939168315701970288311129976411258880",
+          "8254484335638107176859880203626406686537243/867766319873441139749818395657384584366847226979186353558991044608"
+        ],
+        "lambda_sha256": "2d5e5aae5b4a29afb664e5a0f14786d8d48eb783c75b4669c019517c84e81290",
+        "r1_annihilation_verified_when_applicable": true,
+        "r2_eta_annihilation_verified": true
+      },
+      "cross_identity": {
+        "gcd_Q_G": "1",
+        "inverse_formula_verified": true,
+        "kappa": {
+          "denominator": "36400",
+          "numerator": "-22879348023963851638424973152852761",
+          "sha256": "66c3252326497e6daa08564baab39f9fc1e79bc01791dd5c4577d5c31a4b3af1"
+        },
+        "power": 13
+      },
+      "q": 6,
+      "r1": {
+        "ambient_dimension": 19,
+        "codimension": 1,
+        "krylov_blocks": {
+          "W0": {
+            "dimension": 3,
+            "krylov_dimension": 3
+          },
+          "W1": {
+            "dimension": 2,
+            "krylov_dimension": 2
+          }
+        },
+        "parity": {
+          "dim_even_factor": 7,
+          "dim_odd_factor": 5,
+          "raw_symmetric_product_columns": 43
+        },
+        "product_rank": 18,
+        "q1_exception_verified": false,
+        "quotient_formula_verified": true,
+        "residual_dimension": 5
+      },
+      "r2": {
+        "H": {
+          "coefficients_low_to_high": [
+            "1433489464282614393696226095637439743070404195/756116693495957368946668512755478045528",
+            "10486160776009676040572996355171336413037977995/11089711504607374744551138187080344667744",
+            "6676869265542352955885834521/1319686977332831378914368"
+          ],
+          "degree": 2,
+          "sha256": "f43890860b4fbe9633b8ce7d031d3bd6281551a99c69d8d833ebabea1e98727a"
+        },
+        "H_degree_bound": 2,
+        "K": {
+          "coefficients_low_to_high": [
+            "1053141550424701579395795133361965372165522646663/3024466773983829475786674051021912182112",
+            "-6026448441757873427856552673160932435315634042947/199614807082932745401920487367446204019392"
+          ],
+          "degree": 1,
+          "sha256": "79367d5bbfabec381bc55b5fed8ccdb0f23ed1cff70fe7937d6680ec1593096a"
+        },
+        "ambient_dimension": 20,
+        "codimension": 1,
+        "direct_sum_verified": true,
+        "parity": {
+          "dim_even_factor": 6,
+          "dim_odd_factor": 7,
+          "raw_symmetric_product_columns": 49
+        },
+        "product_rank": 19,
+        "quotient_dimension": 6,
+        "syzygy_verified": true
+      },
+      "resultant": {
+        "Res_Q_G": {
+          "denominator": "1",
+          "numerator": "758613812958987368643530132186608648975103882804688936767189039355339689534563573999018917852251350631894459993389685319152034561274722391494669143104903461299595565657711548713603887094779490639787170429017005919271402487152640000",
+          "sha256": "6b630f04a7ab1040e084ae6ba831a696761838d94b16a6e7f3c4fe3e3a467776"
+        },
+        "Res_Q_P": {
+          "denominator": "1",
+          "numerator": "67423200535172602026745722822799491107428414010113662142932161429961108973792634279898709273919559630818698192594599160810264646182151660779048058101465549822283307367257226023971229848257172035126954435524838732803425102079409046160071114922931254324772208640000000000",
+          "sha256": "bbedc9a2e53416cd157e5d0f7f8472092391cfef3c696df5b72aa348f36a0407"
+        },
+        "identity_verified": true,
+        "right_side": {
+          "denominator": "1",
+          "numerator": "51148171239885725368218724941483516382261587920589345417554506439700989132612585139389934987982427189572249758084401090931361441696330199819283725392998122545701716637195108942160774953219894832345413485271906447737851312755524516633405154322746061066192527838935373357194677411482375179365890280816583837840580835166761217724317047999078262635717599753951776326572059968294810166871254184966865406368669234310279468164368952884761803803212316620735123408861393169191849953512117606809600000000000000",
+          "sha256": "833821f4b44b75925fec76624eb064801aa69af8760b79699990d776d24c3ae1"
+        }
+      }
+    }
+  ],
+  "runtime_policy": {
+    "rss_limit_kib": 2097152,
+    "variable_elapsed_and_peak_rss_reported_to_stdout_only": true
+  },
+  "schema": "centered-cosh-pade-residual-quotient-v1",
+  "software": {
+    "python": "3.13.15",
+    "sympy": "1.14.0"
+  }
+}

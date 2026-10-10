@@ -1,0 +1,131 @@
+{
+  "ambient_covector_no_go": "PROVED_EXACT: the one-step defect covector is nonzero in all 15 ambient coordinates in both residues.",
+  "capacity_ledger": {
+    "capacity_reduction_booked": 0,
+    "new_divisibility_exponent": 0,
+    "new_unconditional_linear_log_rate": 0,
+    "reason": "The gauge closure removes the algebraic identity barrier but does not prove moving-row-prime nonvanishing, the simultaneous endpoint K_h condition, a density estimate, or a radical saving."
+  },
+  "classification": "PROVED_EXACT_ACTUAL_FAMILY_ORDER6_GAUGE_CLOSURE",
+  "degree_and_newton_ledger": {
+    "ambient_regular_roots_per_residue": 2241,
+    "ambient_relation_coordinate_degree_bound": 2240,
+    "defect_cleared_numerator_degree": 206,
+    "forward_cofactor_degree_bound": "sum_(j=0)^5(206+38j)=1806",
+    "origin_rows": [
+      {
+        "fraction_fingerprint": {
+          "denominator_bits": 12548,
+          "numerator_bits": 17597,
+          "sha256": "2c10195fa7a1d8e7ab3066c779799a7bfa03ef266df149045d53e261cbc634d8",
+          "sign": -1
+        },
+        "newton_coefficient_index": 0,
+        "nonzero": true,
+        "residue": 1,
+        "strict_sign": -1
+      },
+      {
+        "fraction_fingerprint": {
+          "denominator_bits": 12280,
+          "numerator_bits": 17577,
+          "sha256": "bedc51de512e79ebb90e60fc3432e8bb64670fef02b7c8faa7b4e83c7c8897bb",
+          "sign": -1
+        },
+        "newton_coefficient_index": 0,
+        "nonzero": true,
+        "residue": 2,
+        "strict_sign": -1
+      }
+    ],
+    "residues": [
+      {
+        "common_nonzero_sign": -1,
+        "conclusion": "The forward cofactor is a nonzero one-sign linear combination of binomial(n,k), hence has no zero at any integer n>=0.",
+        "degree_bound": 1806,
+        "negative_coefficients": 1804,
+        "newton_coefficients": 1807,
+        "newton_stream_sha256": "208928f7a50d4c49d7776adf38387d296f2cdd9231a2ab3ce13f88022fba1711",
+        "positive_coefficients": 0,
+        "residue": 1,
+        "terminal_difference_order": 1807,
+        "terminal_difference_zero": true,
+        "value_stream_sha256": "f064889488c8998faead26af26aceaf48383c1f4e2a8563adb4332a8cf4bcd14",
+        "values_checked": 1808,
+        "zero_coefficients": 3
+      },
+      {
+        "common_nonzero_sign": -1,
+        "conclusion": "The forward cofactor is a nonzero one-sign linear combination of binomial(n,k), hence has no zero at any integer n>=0.",
+        "degree_bound": 1806,
+        "negative_coefficients": 1804,
+        "newton_coefficients": 1807,
+        "newton_stream_sha256": "dad89378262f1d1e46effcd51600f1174302cabcbc3ed2d7a61eeba8b21cf214",
+        "positive_coefficients": 0,
+        "residue": 2,
+        "terminal_difference_order": 1807,
+        "terminal_difference_zero": true,
+        "value_stream_sha256": "a140cef77918cd57633d545189f26f065eaf835e496dc9322312ff57b71e1def",
+        "values_checked": 1808,
+        "zero_coefficients": 3
+      }
+    ],
+    "transport_increment_per_step": 38
+  },
+  "finite_field_orbit_evidence": "EXACT_FINITE_ONLY: six order-six orbit specializations modulo 1000000007.",
+  "input_sha256": {
+    "item237_j1_algebraic_residual_certificate.json": "eba1519f4d376d442f396048528190b474cc5464bbe42c3bdf31a9bdaf39dd6b",
+    "item243_defect_degree_grid_certificate.json": "94ee7993c8869fe58f8824ba3bf3a0c061044e90d3debcc12f2ecc5f7b1329c6",
+    "item243_defect_orbit_probe.json": "359cc40333d28854d456860fa40c6f1e3d0f8a53f1437ae2f5a461849fdf8a90",
+    "item243_forward_cofactor_newton_certificate.json": "87f22eaea77a95fac34b92b227bf803766d27f934f12a59eea6e747a5c1d2af0",
+    "item243_forward_cofactor_origin_certificate.json": "d04c69d86a062df54ee94a45bc06119705499a7affc7d22e99e6f1ca8fd392a3",
+    "item243_gosper_endpoint_audit.json": "2cc378663ebeb7681c130edbf97a5c471295c784ea15ca8c4d4449a63be72ac2",
+    "item243_initial_layers_probe.json": "70329fcd98c88da6b3121877a899a9fda9ff63ecc3029202c4e0f699130db8d0",
+    "item243_tensor_operator_probe.json": "8330ded1a2fdea353b9913bc5b338794103003fb835d8fb42aec42b87f38bc17",
+    "item243_transition_pole_factor_probe.json": "88e19cef0637ca0e240d6d6cf452b0347622b3cb2ff8c0e6f990337ac6f20904"
+  },
+  "item": 243,
+  "logical_chain": [
+    "Exact Gosper interior certificates plus the endpoint/pole audit make the x/v and xu/yv transitions valid on the actual finite sums.",
+    "The 2241-root degree theorem gives a signed-cofactor relation among seven transported ambient defect covectors.",
+    "The degree-1806 Newton certificate and strict negative index-zero coefficient make the forward coefficient nonzero at every n>=0.",
+    "The twelve exact defect initials therefore propagate to the all-h gauged E recurrence.",
+    "Item 237's proved order-three c recurrence has p3(h)>0, and the six separate gauge initials propagate c_h^*=R_h E_h^*."
+  ],
+  "strict_scope": {
+    "EXACT_FINITE_ONLY": [
+      "the six finite-field orbit samples",
+      "all unrelated finite prime/gcd patterns inherited from Items 222/237"
+    ],
+    "OPEN": [
+      "moving-row-prime nonvanishing or exclusion",
+      "a unit-localized all-h K/E theorem",
+      "any positive Route-1 rate, capacity, density, or radical saving",
+      "any conclusion about the irrationality of e+pi"
+    ],
+    "PROVED": [
+      "actual-family order-six defect closure in both residues",
+      "the all-h gauged E recurrence",
+      "the all-h gauge identity c_h^*=R_h E_h^*",
+      "the ambient one-step covector no-go"
+    ]
+  },
+  "theorems": {
+    "actual_defect_recurrence": "For each r=1,2, the actual gauged-recurrence defect delta_r(n) satisfies an exact rational order-six recurrence for every n>=0.",
+    "all_h_gauge": "c_h^*=R_h E_h^* for all h>=1 with 3 not dividing h.",
+    "forward_coefficient": "The cleared forward cofactor C6 has degree <=1806 and C6(n)<0 for every integer n>=0; every structural multiplier B6 is nonzero.",
+    "gauged_E_recurrence": "sum_(k=0)^3 p_k(h)(product_(j=0)^(k-1)rho(h+3j))E_(h+3k)^*=0 for all h>=1 with 3 not dividing h."
+  },
+  "two_initial_layers": {
+    "defect_propagation": {
+      "proved_count": 12,
+      "required": "six delta initials per residue",
+      "stream_sha256": "80d97d6730dfa04865eb9224f00549d3cf9358a2d5c05637d7362c0dfd9b137c"
+    },
+    "gauge_transfer": {
+      "proved_count": 6,
+      "required": "three c=R E initials per residue",
+      "stream_sha256": "25366c8a7c12673fb45e4ca435130645e1974659e4e034eafdb70197c7251990"
+    }
+  }
+}

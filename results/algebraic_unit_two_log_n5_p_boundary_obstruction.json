@@ -1,0 +1,30 @@
+{
+  "bounds": {
+    "degrees_for_each_prime": "0<=d<p",
+    "exact_integer_degree": 200,
+    "odd_primes_other_than_5_max": 200,
+    "prime_count": 44
+  },
+  "description": "Exact p-boundary, Wilson endpoint, Frobenius, and complementary weighted-factorial checks.",
+  "finite_diagnostic": {
+    "interpretation": "A hit means a prime of F above p contains both h_d and h_(d-1).",
+    "simultaneous_h_ideal_hits": [
+      {
+        "d": 15,
+        "p": 19
+      }
+    ]
+  },
+  "identity_checks": {
+    "Frobenius_cases_modulo_5": true,
+    "h_convolution_and_five_step": true,
+    "period_p_and_five_boundary_resets": true,
+    "precise_complementary_unit_factors_at_u_and_v": true,
+    "quadratic_remainder_and_reverse_tail_formulas": true,
+    "reciprocal_q_initial_values_and_five_step": true,
+    "two_Wilson_endpoint_sums": true
+  },
+  "scope_warning": "The scans are finite diagnostics only.  The exact identities hold for every odd p != 5 by the companion proof, but they do not classify all zero pairs, prove support only over 19, or prove anything about the arithmetic nature of e+pi.",
+  "script_sha256": "54a74d69f15835727b0d8ca5073205f2b3ff3691afa49be06d89b0edb532a38a",
+  "source_sha256": "ce1384d383a4a184456536ab16871faf5d6129c3e869f7a8ccf82be3ea272582"
+}

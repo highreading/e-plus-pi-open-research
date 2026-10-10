@@ -1,0 +1,122 @@
+{
+  "status": "PASS_NEW_EXACT_SECOND_JET_RADIUS_CERTIFICATE",
+  "scope": "Rational interval rejection at one radius; restriction to that subdisk excludes all larger radii",
+  "strict_radius_upper": {
+    "numerator": 1737551612019347,
+    "denominator": 500000000000000
+  },
+  "strict_radius_upper_decimal": "3.475103224038694",
+  "ell_interval": [
+    {
+      "numerator": 340893855900933610167155828481,
+      "denominator": 500000000000000000000000000000
+    },
+    {
+      "numerator": 340893855900933610167157051993,
+      "denominator": 500000000000000000000000000000
+    }
+  ],
+  "a_interval": [
+    {
+      "numerator": 352992550073551475255175962581,
+      "denominator": 50000000000000000000000000000
+    },
+    {
+      "numerator": 1411970200294205901020703876961,
+      "denominator": 200000000000000000000000000000
+    }
+  ],
+  "t_interval": [
+    {
+      "numerator": 190026974376357343205713634269,
+      "denominator": 1000000000000000000000000000000
+    },
+    {
+      "numerator": 95013487188178671602856821681,
+      "denominator": 500000000000000000000000000000
+    }
+  ],
+  "Hprime_real_interval": [
+    {
+      "numerator": 240577229653333679327931507597,
+      "denominator": 1000000000000000000000000000000
+    },
+    {
+      "numerator": 240577229653333679327933638917,
+      "denominator": 1000000000000000000000000000000
+    }
+  ],
+  "Hprime_imag_interval": [
+    {
+      "numerator": 285444284436950458372107156503,
+      "denominator": 1000000000000000000000000000000
+    },
+    {
+      "numerator": 142722142218475229186054643911,
+      "denominator": 500000000000000000000000000000
+    }
+  ],
+  "only_first_derivative": 1,
+  "only_second_derivative_candidates": [
+    -1,
+    0
+  ],
+  "Schur_target_interval": [
+    {
+      "numerator": 432823054049221608664435631063,
+      "denominator": 500000000000000000000000000000
+    },
+    {
+      "numerator": 34625844323937728693154860017,
+      "denominator": 40000000000000000000000000000
+    }
+  ],
+  "rejections": {
+    "-1": {
+      "B_interval": [
+        {
+          "numerator": -359191993700148389706132800049,
+          "denominator": 1000000000000000000000000000000
+        },
+        {
+          "numerator": -71838398740029677941226005357,
+          "denominator": 200000000000000000000000000000
+        }
+      ],
+      "largest_allowed_target_interval": [
+        {
+          "numerator": -19916265018989459222167194687,
+          "denominator": 250000000000000000000000000000
+        },
+        {
+          "numerator": -79665060075957836888665614887,
+          "denominator": 1000000000000000000000000000000
+        }
+      ],
+      "target_lower_gt_capacity_upper": true
+    },
+    "0": {
+      "B_interval": [
+        {
+          "numerator": 38479451700164083862383037131,
+          "denominator": 50000000000000000000000000000
+        },
+        {
+          "numerator": 384794517001640838623831764289,
+          "denominator": 500000000000000000000000000000
+        }
+      ],
+      "largest_allowed_target_interval": [
+        {
+          "numerator": 1731292216196886035652368359,
+          "denominator": 2000000000000000000000000000
+        },
+        {
+          "numerator": 108205763512305377228273378563,
+          "denominator": 125000000000000000000000000000
+        }
+      ],
+      "target_lower_gt_capacity_upper": true
+    }
+  }
+}

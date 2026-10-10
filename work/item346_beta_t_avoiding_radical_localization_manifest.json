@@ -1,0 +1,114 @@
+{
+  "schema": "item346-beta-t-avoiding-radical-localization-manifest-v1",
+  "item": 346,
+  "title": "The beta t-avoiding radical is a positive-density mesoscopic first-hit problem",
+  "date": "2026-09-01",
+  "status": "PROVED_XI_FIRST_HIT_MESOSCOPIC_LOCALIZATION_SCOPED_NO_GO",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item333_beta_nonlinear_state_saturation_no_go_report.md": "8f4bc0a6f93cbd4882392ade311d68e25be1ceb282db71cc5e1ef2f70aee75d6",
+    "results/item333_beta_nonlinear_state_saturation_no_go_root_audit.json": "6ddd4949f5d7f91fdc160634da06079661ebf373ac0f061495a7b41135924ecc",
+    "sources/item335_beta_first_canonical_cofactor_zero_rate_report.md": "15bd02042bf8a11e774faeed48e21e3de9d89087e04e88df06d0db664041693c",
+    "results/item335_beta_first_canonical_cofactor_zero_rate_root_audit.json": "bbadf11f929237aa89f2891ecb770af03b68fe5fbe5cd233fd86f0c4b78c5bd6",
+    "sources/item340_beta_full_complement_loop_correlation_report.md": "4f3ddc5e09544e7c4d8077413b968f5b8a61694b8872dfdccf89d18dc03018b6",
+    "results/item340_beta_full_complement_loop_correlation_certificate.json": "4be0540e6835c3621482ab42bf5218420d76d7091a827386b1f6978146f6bfd0",
+    "results/item340_beta_full_complement_loop_correlation_root_audit.json": "1b0a53ab7a2c99a5be681a233c1a4c55ff8e6addb702ff287996cab3eb3e1900",
+    "manifests/item340_beta_full_complement_loop_correlation_manifest.json": "3197f620428af855b016842f156f69894f704de2d71846a675860d1a6b679366",
+    "sources/item343_beta_quotient_radical_excess_capacity_report.md": "0fb48e3bbf30d05bcf40d2e4dc9b04e2e80893e6c4fee925d9c6b99b25126c66",
+    "results/item343_beta_quotient_radical_excess_capacity_certificate.json": "c700ffaa6898bd50e4d6b790dea307ec883ecab6374e07a7c62622eb5ba7d57b",
+    "results/item343_beta_quotient_radical_excess_capacity_root_audit.json": "1788b3f5247b132c8ea8f8133d64d9fadcd716013b041964be46b7c71c9747e4",
+    "manifests/item343_beta_quotient_radical_excess_capacity_manifest.json": "eddaff62ba519ece9bac2c881b04b0a0ec3f5dc5d06d780ac03a4b0b7dc69439"
+  },
+  "artifacts": [
+    {
+      "path": "work/item346_beta_t_avoiding_radical_localization_report.md",
+      "role": "actual carrier, first-hit theorem, mesoscopic localization, capacity audit, and formal resultant barrier",
+      "bytes": 12193,
+      "sha256": "2ad742c14d0adbc74da6c46394ed89f68cec8888a3c9d22ee4f230a4e16548a5"
+    },
+    {
+      "path": "work/item346_beta_t_avoiding_radical_localization_certificate.py",
+      "role": "standard-library exact deterministic replay",
+      "bytes": 20428,
+      "sha256": "76c020b07d199a7283d7373a3ef677643d3be01adfe7480628f92ccdad7498c0"
+    },
+    {
+      "path": "work/item346_beta_t_avoiding_radical_localization_certificate.json",
+      "role": "work-package certificate output",
+      "bytes": 55217,
+      "sha256": "29a20d6ede62db23658d66db8e57af4a2982c9b66fd12d104f0070b3280aefab"
+    },
+    {
+      "path": "work/item346_beta_t_avoiding_radical_localization_certificate.replay.json",
+      "role": "independent byte-identical replay output",
+      "bytes": 55217,
+      "sha256": "29a20d6ede62db23658d66db8e57af4a2982c9b66fd12d104f0070b3280aefab"
+    },
+    {
+      "path": "work/item346_beta_t_avoiding_radical_localization_ledger_delta.json",
+      "role": "proposed ledger delta; no canonical edit",
+      "bytes": 4123,
+      "sha256": "d8abb3b701f3665196f247ff92876d04893875cda29468a4330ac4bbd44dca38"
+    }
+  ],
+  "replay": {
+    "command": "python work/item346_beta_t_avoiding_radical_localization_certificate.py --output work/item346_beta_t_avoiding_radical_localization_certificate.replay.json",
+    "expected_stdout": {
+      "actual_Gamma_Q": "OPEN",
+      "actual_Xi_Q": "OPEN",
+      "booking": 0,
+      "item": 346,
+      "remaining_branch": "MESOSCOPIC_FIRST_HIT_AVERAGE",
+      "status": "PROVED_XI_FIRST_HIT_MESOSCOPIC_LOCALIZATION_SCOPED_NO_GO"
+    },
+    "expected_replay_sha256": "29a20d6ede62db23658d66db8e57af4a2982c9b66fd12d104f0070b3280aefab",
+    "dependency_hashes_verified_before_output": 12
+  },
+  "proved": [
+    "After exact-zero rows are omitted, t-power saturation and a radical lcm give the exact actual R_perp_Q carrier.",
+    "Pairwise-coprime first-hit factors D_j multiply to R_perp_Q and their logarithms sum to Xi_Q.",
+    "Primes at most A have O(A)=o(log b) total mass.",
+    "Each surviving first-hit factor above A is one distinct prime below A^2, with an exact small complementary quotient.",
+    "Every o(n)-depth portfolio is zero rate, while positive-linear Xi_Q requires linearly many active depths.",
+    "The t-localized constant contraction of the target plus raw cofactor-union ideal is exactly (b)."
+  ],
+  "strict_scope": {
+    "closes": [
+      "small-prime support as positive-rate Xi_Q mass",
+      "sublinear-depth Xi_Q portfolios as positive-rate reservoirs",
+      "an unstratified target/cofactor/t-unit resultant as a smaller carrier"
+    ],
+    "isolates": [
+      "a positive-density matching of distinct mesoscopic first-hit primes",
+      "the specialization-first average of the D_j factors"
+    ],
+    "does_not_close": [
+      "the actual mesoscopic average or any strict fractional Xi_Q bound",
+      "growing zero-pattern stratification",
+      "Xi_Q, H_Q, squarefull excess, K_Q, Gamma_Q, half-bound, beta capacity, Route 1, or e+pi"
+    ]
+  },
+  "strict_labels": {
+    "PROVED": [
+      "carrier, first-hit split, mesoscopic localization, density necessity, and localized constant-ideal theorem"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "small-prime, sublinear-depth, and unstratified-resultant mechanisms"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared formal-coordinate and off-target carrier controls"
+    ],
+    "OPEN": [
+      "the mesoscopic first-hit average, Xi_Q, H_Q, squarefull excess, Gamma_Q, half-bound, beta capacity, Route 1, and e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_Xi_Q_maximum": "log Q<=log b",
+    "small_prime_rate": 0,
+    "sublinear_depth_rate": 0,
+    "actual_Xi_Q": "OPEN",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "booking": 0
+  }
+}

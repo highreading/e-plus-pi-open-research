@@ -1,0 +1,65 @@
+{
+  "item": 338,
+  "schema": "item338-j2-secondary-cartier-saturation-manifest-v1",
+  "classification": "PROVED_SECONDARY_CARTIER_DIAGONAL_COLLAPSE_AND_OFF_DIAGONAL_SATURATION_NO_GO",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "target-specific global secondary-prime analysis of the actual ordinary-j2 carrier",
+  "dependencies": {
+    "sources/item336_j2_carrier_resultant_obstruction_report.md": "761f09e999c0f76139e036f2f4db03743b363087e04f9ed661fe65229cb0b4c2",
+    "scripts/item336_j2_carrier_resultant_obstruction_certificate.py": "af5a5ef313df81275f989236cc9a600c1132d90e14a95a4fb2dc508fc7c09022",
+    "results/item336_j2_carrier_resultant_obstruction_certificate.json": "2769620afcf258e84dd4713113f32662e4140bfa1706f4983c137aca2d132010",
+    "manifests/item336_j2_carrier_resultant_obstruction_manifest.json": "5ee017780f55425a2e9598c12e370c6e194f96e79be5e69c1f0f1d176c5d13f3"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item338_j2_secondary_cartier_saturation_report.md",
+      "sha256": "14aa87b718b4bb83dd3e5371412fd231829f809b853d1a52eabba6181650ac33",
+      "bytes": 12325
+    },
+    "certificate_script": {
+      "path": "work/item338_j2_secondary_cartier_saturation_certificate.py",
+      "sha256": "5209d57fee32a6bad74e8f5b933116aa4d62448b1f9ca44e539cadf7f95fe6bd",
+      "bytes": 18760
+    },
+    "certificate": {
+      "path": "work/item338_j2_secondary_cartier_saturation_certificate.json",
+      "sha256": "accf5bf87b148c73117f05b8d9f7eee92af1d59611871498593cc992c758450d",
+      "bytes": 5710
+    },
+    "replay": {
+      "path": "work/item338_j2_secondary_cartier_saturation_certificate.replay.json",
+      "sha256": "accf5bf87b148c73117f05b8d9f7eee92af1d59611871498593cc992c758450d",
+      "bytes": 5710
+    },
+    "ledger": {
+      "path": "work/item338_j2_secondary_cartier_saturation_ledger.json",
+      "sha256": "8772426f925b647dae15d2a0f41818c5704cb8fdde9df003c83af320187af8ab",
+      "bytes": 3774
+    }
+  },
+  "proved": [
+    "all-prime two-state base-ell carry matrix formula for [x^k](1-x)^a(1+x)^b",
+    "exact diagonal collapse at ell=p to the original distinguished transition c_p",
+    "tied-prime-safe saturation by ingredient denominators and binom(2m,m)",
+    "scoped no-go for digit-factorization/state-dimension/off-diagonal-factor methods without target-correlated arithmetic",
+    "unchanged raw fixed-M mass and 1/105 ordinary-j2 ceiling"
+  ],
+  "exact_finite_only": [
+    "20160 direct-versus-carry coefficient checks for ell=3,5,7,11",
+    "six diagonal transition replays through p=599",
+    "exact carrier anatomy for G=23 and G=173",
+    "two counterexamples to the tentative opposite-character rule"
+  ],
+  "open": [
+    "o(M) weighted mass for the joint determinant and moving-target collision",
+    "strict improvement of the 1/105 ceiling",
+    "all-row structure or average gcd for the safely saturated carrier",
+    "any new booking"
+  ],
+  "capacity": {
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "ordinary_j2_ceiling_per_6M": "1/105"
+  },
+  "replay_command": "python scripts/item338_j2_secondary_cartier_saturation_certificate.py --output results/item338_j2_secondary_cartier_saturation_certificate.replay.json"
+}

@@ -1,0 +1,115 @@
+{
+  "bounded_exact_replay": {
+    "actual_centering_identities": {
+      "counterexample_search": false,
+      "digest": "b496c582cb763c6f8ad24179e21fe8d8956eb97d20606eb7e6763d0fdbf7403e",
+      "label": "EXACT FINITE ONLY",
+      "range": [
+        3,
+        32
+      ],
+      "rows": 30
+    },
+    "actual_half_bound_scan": false,
+    "appended_tail_identities": {
+      "actual_half_bound_scan": false,
+      "digest": "a343f837644cebbe57bca273b8ca25b2b5c35347fdf50d4959d8f07d4b983616",
+      "divisibility_search": false,
+      "label": "EXACT FINITE ONLY",
+      "range": [
+        5,
+        32
+      ],
+      "rows": 434
+    },
+    "companion_tail": {
+      "digest": "80dd20cc80b3a27bc8a62ce8787ffc6e83e9c85e1bb0fbe3572584e76e6f59b0",
+      "finite_rows_prove_all_n_identity": false,
+      "label": "EXACT FINITE ONLY",
+      "range": [
+        2,
+        32
+      ],
+      "rows": 31
+    },
+    "divisibility_search": false,
+    "false_split_quarantine": {
+      "D_k": 4365570,
+      "Dhat_k": 148574713,
+      "Q_(k+1)": 71,
+      "Q_k": 7,
+      "a": 312129649,
+      "false_right": -729050190,
+      "identity_is_false": true,
+      "k": 1,
+      "label": "EXACT COUNTEREXAMPLE TO QUARANTINED IDENTITY",
+      "left": -727893342,
+      "n": 9
+    },
+    "finite_promotion": false,
+    "label": "EXACT FINITE ONLY",
+    "small_bases": {
+      "p_values_used": [
+        19,
+        193,
+        2721
+      ],
+      "rows": [
+        {
+          "a": 1,
+          "b": 7,
+          "c": 1,
+          "kappa": 0,
+          "label": "EXACT BASE",
+          "n": 2,
+          "signed_r": 1
+        },
+        {
+          "a": 7,
+          "b": 71,
+          "c": 1,
+          "kappa": 1,
+          "label": "EXACT BASE",
+          "n": 3,
+          "signed_r": -22
+        },
+        {
+          "a": 71,
+          "b": 1001,
+          "c": 7,
+          "kappa": 5,
+          "label": "EXACT BASE",
+          "n": 4,
+          "signed_r": 36
+        }
+      ]
+    }
+  },
+  "description": "Exact Padé/continuant bridge and reduction of the actual Item305 small window to one unresolved divisibility implication",
+  "schema": "item311-beta-seed-multiplier-open-checkpoint-v1",
+  "status": "OPEN",
+  "strict_labels": {
+    "actual_half_bound": "OPEN",
+    "appended_tail_bridge": "PROVED",
+    "booking": "ZERO",
+    "bounded_rows": "EXACT FINITE ONLY",
+    "companion_tail_identity": "PROVED",
+    "divisibility_exclusion": "OPEN",
+    "false_split_identity": "FALSE AND QUARANTINED",
+    "pade_cross_determinant": "PROVED",
+    "positive_linear_capacity_admission": "FAIL",
+    "small_window_divisor_equivalence": "PROVED EXACT REDUCTION"
+  },
+  "symbolic_proof_data": {
+    "actual_half_bound": "OPEN",
+    "appended_tail_bridge": "q_n D_k+(-1)^(n+k)Q_k=q_(n-1)Dhat_k",
+    "booking": "zero new Route-1 rate and zero new beta capacity reduction",
+    "companion_tail": "S_n=K(10,14,...,4n-2)=(3q_n-p_n)/2 for n>=2; proved by the common recurrence and bases S_2=1,S_3=10",
+    "exact_open_reduction": "R<q_(n-1)/(2q_(n-2)) iff some k has Dhat_k|q_(n-1) and Dhat_k>2q_(n-2)Q_k",
+    "intermediate_gap": "q_(n-1)/(2q_(n-2)) <= R < q_(n-1)/2",
+    "pade_bridge": "p_(k+1)q_n-q_(k+1)p_n=2(-1)^k Dhat_k",
+    "parity_consequence": "a hypothetical divisor branch has n+k even, positive signed remainder, odd R, and even kappa",
+    "remaining_divisibility_lemma": "Dhat_k>2q_(n-2)Q_k => Dhat_k does not divide q_(n-1)",
+    "remaining_divisibility_lemma_status": "OPEN"
+  }
+}

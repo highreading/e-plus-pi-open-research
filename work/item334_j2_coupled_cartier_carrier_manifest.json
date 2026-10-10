@@ -1,0 +1,72 @@
+{
+  "item": 334,
+  "schema": "item334-j2-coupled-cartier-carrier-manifest-v1",
+  "classification": "PROVED_COUPLED_TARGET_AND_EXACT_ROWWISE_INTEGER_CARRIER",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual target-coupled Cartier congruence, old determinant gate, all charts, and fixed-M primitive carrier",
+  "dependencies": {
+    "sources/item318_j2_actual_period_plucker_report.md": "e89f4892b3c2b9b999321de0ec6973547903b755f07b0d34be7f0da634ecd4db",
+    "scripts/item318_j2_actual_period_plucker_certificate.py": "334bade7313a2fb750874dfd53216cd5f1028afbc837473cdd19b365ca820e82",
+    "results/item318_j2_actual_period_plucker_certificate.json": "75e84016af2c7580f1954f795ed080d25083345578558aae49f6df4253891fd7",
+    "sources/item319_j2_third_minor_elimination_report.md": "75b4a3303e3cd216aebeb5189d8c97ef20f261bfd8ea400638214e96a0cc25a0",
+    "results/item319_j2_third_minor_elimination_certificate.json": "c4ce360823dd2d781bebc492e79b65d6ea183a7dada1d4cbee1b1c37334ec194",
+    "sources/item331_j2_global_cartier_concentration_report.md": "b721b9469b500a8b8fb5f6c0c0702f92015198264a7c6f931acaabd82796ee08",
+    "scripts/item331_j2_global_cartier_concentration_certificate.py": "726157af0f7250c42c3594bb45f08074375e4eb5d1e9843cad37f3def85e27ba",
+    "results/item331_j2_global_cartier_concentration_certificate.json": "08739a4a4061d5b9d78328aa52b6355711657d75259a133660a3181404f640b2",
+    "manifests/item331_j2_global_cartier_concentration_manifest.json": "bdb026beb24ae1b97cf69c8c6ee062594620ed27e451bb8e91d0f9886b9b45fb"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item334_j2_coupled_cartier_carrier_report.md",
+      "sha256": "a9a1b42652e5157b850014758c321ffd8a5734e4f9ea3586510ae0549822357c",
+      "bytes": 14074
+    },
+    "certificate_script": {
+      "path": "work/item334_j2_coupled_cartier_carrier_certificate.py",
+      "sha256": "b9cab6a6ddc4a0817bae5852e78473ab3144ed9a3b8985c7eacaf27629c90cce",
+      "bytes": 16358
+    },
+    "certificate": {
+      "path": "work/item334_j2_coupled_cartier_carrier_certificate.json",
+      "sha256": "238046186f90bdffb2e9b4c72994bac4f0c2ba7e377b42f04753b5502ea861e2",
+      "bytes": 6249
+    },
+    "replay": {
+      "path": "work/item334_j2_coupled_cartier_carrier_certificate.replay.json",
+      "sha256": "238046186f90bdffb2e9b4c72994bac4f0c2ba7e377b42f04753b5502ea861e2",
+      "bytes": 6249
+    },
+    "ledger": {
+      "path": "work/item334_j2_coupled_cartier_carrier_ledger.json",
+      "sha256": "2f376197d7aa4e810546291ddbec0b8e8f9c72441d2ea957a65fcc19a9b52bc8",
+      "bytes": 3127
+    }
+  },
+  "proved": [
+    "target-retaining Cartier representative W_C congruent to the actual period",
+    "two fully coupled coordinate residuals and exact collision equivalence on every chart",
+    "primitive row gcd carrier with exact tied-prime support",
+    "fixed-M parameter maps and prime interval",
+    "exterior target formulas and complete degenerate-chart stratification",
+    "primitive numerator clearing and safe sixth-power uniform clearing",
+    "O(M log M) pointwise and O(M^2 log M) direct aggregate height bounds"
+  ],
+  "exact_finite_only": [
+    "12 generic rational identity checks",
+    "334 actual rows including three declared old determinant hits",
+    "333 ell-chart rows and one mu-chart row",
+    "zero observed collision and at most three carrier bits"
+  ],
+  "open": [
+    "o(M) squarefree mass for the target-coupled primitive row gcds",
+    "sublinear fixed-M aggregate carrier height",
+    "weighted zero density for actual collisions",
+    "any capacity reduction or booking"
+  ],
+  "capacity": {
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "ordinary_j2_ceiling_per_6M": "1/105"
+  },
+  "replay_command": "python scripts/item334_j2_coupled_cartier_carrier_certificate.py --output results/item334_j2_coupled_cartier_carrier_certificate.replay.json"
+}

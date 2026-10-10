@@ -1,0 +1,61 @@
+{
+  "artifact": "item406_mixed_cubic_actual_adjacent_recurrence_ledger_delta",
+  "item": 406,
+  "status": "WORK_ONLY_AUDITED_NO_BOOKING",
+  "booking": {
+    "route1_rate_delta": 0,
+    "mixed_cubic_divisor_lower_bound_delta": 0,
+    "beta_matching_lower_bound_delta": 0,
+    "total_capacity_ceiling_delta_proved": 0
+  },
+  "proved_actual_family_results": {
+    "hermite_identities": [
+      "C0=2*a_n+a_(n-1)",
+      "(2n-1)C1=(5n-1)C0-6*a_n",
+      "T0=b_n+b_(n-1)",
+      "(2n-1)T1=(5n-7)T0+6*b_n"
+    ],
+    "change_determinants": {
+      "C_pair": 6,
+      "T_pair": -6
+    },
+    "local_content_equivalence": "for ell not dividing 6(2q-3), v_ell(H_q)=min(v_ell(a_n),v_ell(a_(n-1)),v_ell(b_n),v_ell(b_(n-1)))",
+    "recurrence_resultant": "the four adjacent base sequences and all four actual rows have direct formulas in two explicitly parametrized algebraic function fields of degree at most six",
+    "compatible_normal_form": "for m>=1 and q>=5, p divides H_q iff the degree-(n-1,n) coefficient pairs of both R=(1-z)^(6m)/(1+z^2)^(4m+1) and S=R/(1+z)^(4m+1) vanish modulo p; q=1 has H_1=1"
+  },
+  "smallest_open_H_only_lemma": "for m>=1 and q>=5, the adjacent coefficient pairs of R and S cannot vanish simultaneously at a compatible prime",
+  "conditional_consequences": {
+    "H_only_success": {
+      "conclusion": "compatible primes do not divide H_q",
+      "proved_numeric_ceiling_reduction": 0,
+      "reason": "primitive G_q can still occupy the full combined Item390 ceiling"
+    },
+    "combined_H_and_G_success": {
+      "conclusion": "c_m^>=1 for every m",
+      "separate_large_component_ceiling_closed": "log(136)/6 = 0.8187758142893420014168718304...",
+      "route1_booking_increment": 0,
+      "frozen_booked_deficit_after_success": "1.0196329836694317938803064012..."
+    }
+  },
+  "capacity_accounting": {
+    "frozen_threshold_minus_rank_one": "1.0196329836694317938803064012...",
+    "combined_large_component_ceiling": "0.8187758142893420014168718304...",
+    "admission_residual_when_full_large_ceiling_is_granted": "0.2008571693800897924634345708...",
+    "item393_non_subtraction_rule_preserved": true
+  },
+  "overlap_rules": [
+    "partition compatible primes into p|H and p not dividing H with p|G_prim; do not treat raw H and G_prim logarithms as disjoint",
+    "p>6m is disjoint from booked p<2m Cartier support and the Item393 small-prime remainder",
+    "Item390 already owns all valuation depths of the actual large common-content prime",
+    "the fixed-gap Smith carrier is a first-digit exclusion and supplies no second multiplicity booking",
+    "large-prime beta matching on the primitive residual target is not automatically removed"
+  ],
+  "open": [
+    "the four-adjacent H-only nonvanishing lemma",
+    "H_q divides P_q including multiplicities",
+    "compatible primitive-G support",
+    "H_q*G_q^prim divides P_q",
+    "c_m^>=1",
+    "Route 1 and irrationality of e+pi"
+  ]
+}

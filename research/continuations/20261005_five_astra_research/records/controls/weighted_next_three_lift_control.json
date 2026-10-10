@@ -1,0 +1,74 @@
+{
+  "n": 65,
+  "prime": 3,
+  "modulus": "1853020188851841",
+  "precision": 32,
+  "unit_block_size": 63,
+  "method": "defining factorial-normalized moments, unit Gaussian elimination with three RHS",
+  "checks": {
+    "delta_mod9_equals3": true,
+    "mixed_mod3_equals2": true,
+    "first_branch_residues_checked_in_required_range": true
+  },
+  "values": {
+    "a": {
+      "residue": "1853020188851840",
+      "valuation": 0,
+      "first_unit_mod3": 2,
+      "first_unit_mod9": 8,
+      "exact_valuation_resolved": true
+    },
+    "b": {
+      "residue": "205891132094649",
+      "valuation": 30,
+      "first_unit_mod3": 1,
+      "first_unit_mod9": 1,
+      "exact_valuation_resolved": true
+    },
+    "c": {
+      "residue": "685583318578548",
+      "valuation": 1,
+      "first_unit_mod3": 1,
+      "first_unit_mod9": 4,
+      "exact_valuation_resolved": true
+    },
+    "delta": {
+      "residue": "685583318578548",
+      "valuation": 1,
+      "first_unit_mod3": 1,
+      "first_unit_mod9": 4,
+      "exact_valuation_resolved": true
+    },
+    "xi_const": {
+      "residue": "823564528378596",
+      "valuation": 30,
+      "first_unit_mod3": 1,
+      "first_unit_mod9": 4,
+      "exact_valuation_resolved": true
+    },
+    "xi_last": {
+      "residue": "293195054677358",
+      "valuation": 0,
+      "first_unit_mod3": 2,
+      "first_unit_mod9": 2,
+      "exact_valuation_resolved": true
+    },
+    "mixed_last_numerator": {
+      "residue": "293195054677358",
+      "valuation": 0,
+      "first_unit_mod3": 2,
+      "first_unit_mod9": 2,
+      "exact_valuation_resolved": true
+    },
+    "coupled_endpoint_numerator": {
+      "residue": "205891132094649",
+      "valuation": 30,
+      "first_unit_mod3": 1,
+      "first_unit_mod9": 1,
+      "exact_valuation_resolved": true
+    }
+  },
+  "finite_only": true,
+  "seconds": 0.05,
+  "native_primitive_endpoint_v3_if_uniform_leading_theorem_passes": 60
+}

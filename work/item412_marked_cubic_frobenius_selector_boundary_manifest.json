@@ -1,0 +1,88 @@
+{
+  "schema": "item412-marked-cubic-frobenius-selector-boundary-manifest-v1",
+  "item": 412,
+  "status": "WORK_ONLY_UNAUDITED_NO_CENTRAL_EDIT_NO_BOOKING",
+  "integrity": {
+    "certificate_sha256": "7642ee0104fb69481041519b78440d646df5b4d92ac908b98708aed062ffe033",
+    "certificate_replay_sha256": "7642ee0104fb69481041519b78440d646df5b4d92ac908b98708aed062ffe033",
+    "certificate_replay_byte_identical": true,
+    "dependency_pins_verified_by_replay": true
+  },
+  "artifacts": [
+    {
+      "path": "work/item412_marked_cubic_frobenius_selector_boundary_report.md",
+      "sha256": "efae4f67db23f6ef512a2fb1dd123dbbba02c894e86fec6a294d690945115364",
+      "bytes": 16577,
+      "role": "strictly labelled actual-family selector theorem and scoped information no-go report"
+    },
+    {
+      "path": "work/item412_marked_cubic_frobenius_selector_boundary_certificate.py",
+      "sha256": "deedb71c128df71949b809e72f531df174732e5b196324ce661f614a009387b6",
+      "bytes": 19171,
+      "role": "deterministic standard-library certificate generator"
+    },
+    {
+      "path": "work/item412_marked_cubic_frobenius_selector_boundary_certificate.json",
+      "sha256": "7642ee0104fb69481041519b78440d646df5b4d92ac908b98708aed062ffe033",
+      "bytes": 9442,
+      "role": "generated certificate"
+    },
+    {
+      "path": "work/item412_marked_cubic_frobenius_selector_boundary_certificate.replay.json",
+      "sha256": "7642ee0104fb69481041519b78440d646df5b4d92ac908b98708aed062ffe033",
+      "bytes": 9442,
+      "role": "byte-stable replay"
+    },
+    {
+      "path": "work/item412_marked_cubic_frobenius_selector_boundary_ledger_delta.json",
+      "sha256": "3ec70c017dc0d86a9074bef456bac5109f62106f3117f145aa5419fea452d40f",
+      "bytes": 3685,
+      "role": "zero-booking capacity, depth, and overlap delta"
+    },
+    {
+      "path": "work/item412_marked_cubic_frobenius_selector_boundary_hashes.sha256",
+      "role": "SHA-256 inventory"
+    }
+  ],
+  "dependency_pins": {
+    "sources/mixed_cubic_cube_smith_reduction.md": "b44cc15d1a846d5298d61b9e53539116b31bbab0338dbc6e320fb0a875b0d0a0",
+    "sources/item390_mixed_cubic_fresh_primitive_saturation_report.md": "5bfb3c871b12524f672df515e920236f2470145d4f68bdcd7b47f29408692f46",
+    "sources/item396_fixed_gap_resultant_3adic_report.md": "7355b6909994357583f799e627e1ff19edb230a6a9002ee845be585057726aca",
+    "sources/item403_mixed_cubic_exact_smith_and_finite_local_data_no_go_report.md": "245bf2e557dd81ac88c94e9d0adc8990f203e3ab40680d23bd50f8e435240c48",
+    "sources/item406_mixed_cubic_actual_adjacent_recurrence_report.md": "a9c33967b42f5ae09c2c0c71de1b956ca240e49c367be46f3af2878cd96cbb83",
+    "work/item411_mixed_primitive_boundary_transport_report.md": "1399357c4dbbf49ea685c356e34efde4fa5566fe31db14f7dd0ce252a3f35168",
+    "work/item411_mixed_primitive_boundary_transport_certificate.json": "5f7c48924d650dc5b5078ef86eaef9a0ea5ce32b3de3268229218d50f7eb7407",
+    "work/item411_mixed_primitive_boundary_transport_manifest.json": "0d1cdbc73a4b6d0570af6d00895250e76f4d1d3ba7a590aa0c0209b2450ee96d"
+  },
+  "claims": {
+    "PROVED": [
+      "for q=1 mod 6, the distinguished root is x_q times the cubic Frobenius value 2^((p-1)/3)",
+      "the actual collision is the Eisenstein branch incidence whose label equals that Frobenius value",
+      "the unmarked Smith carrier is the mu3-symmetric union of all three branch labels",
+      "marked selection is an ordinary cubic-residue test in the p=7,13 mod 18 classes",
+      "mu3-symmetric information cannot recover a nonempty branch label",
+      "no one proper q-only rational factor tracks the selected root for every compatible prime",
+      "zero booking and zero proved capacity reduction"
+    ],
+    "CONDITIONAL": [
+      "uniform selected-branch noncollision, combined with the q=5 mod 6 class, gives c_m^>=1",
+      "valuation-weighted o(m) selected incidence gives zero rate for the strictly large component"
+    ],
+    "OPEN": [
+      "selected-branch noncollision in the actual coefficient family",
+      "carrier-weighted distribution across Frobenius-labelled branch ideals",
+      "a useful refinement for p=1 mod 18",
+      "uniform support of H_q*G_q^prim in P_q",
+      "valuation-weighted o(m) control of c_m^>",
+      "Route 1 and irrationality of e+pi"
+    ],
+    "NOT_CLAIMED": [
+      "an actual wrong-root carrier prime",
+      "Chebotarev equidistribution for divisors of moving carriers",
+      "radical control of all p-adic depth",
+      "finite normalization implies support",
+      "a positive divisor booking or capacity reduction"
+    ]
+  },
+  "replay_command": "python work/item412_marked_cubic_frobenius_selector_boundary_certificate.py --output work/item412_marked_cubic_frobenius_selector_boundary_certificate.replay.json --replay work/item412_marked_cubic_frobenius_selector_boundary_certificate.json"
+}

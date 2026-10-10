@@ -1,0 +1,45 @@
+{
+  "schema": "item297-root-audit-v1",
+  "item": 297,
+  "auditor": "root",
+  "date": "2026-08-31",
+  "verdict": "PASS AFTER ALL-H SYMBOLIC REPAIR, WITH ZERO BOOKING",
+  "package": {
+    "manifest_files_checked": 6,
+    "manifest_file_hash_mismatches": 0,
+    "frozen_dependencies_checked": 6,
+    "manifest_dependency_hash_mismatches": 0,
+    "hash_list_entries_checked": 7,
+    "hash_list_mismatches": 0,
+    "canonical_root_replay_byte_identical": true,
+    "canonical_and_root_replay_sha256": "aa84dde588a119c67b868266ca536699b3675d2e53cb62ad8f1df66705ca7e6b",
+    "report_sha256": "7d43ea963563d949f9aaed3734e89d751c3d25a540c0c4d38dcc2e12c1091c02",
+    "script_sha256": "6baec559198b0055096717f3e2fb7551707a17b64f520e499e585c73a4441cb5",
+    "ledger_sha256": "cd4729daae416e46d0d23b0336e7ea31fb7351c69ee97602c222b45f2ef1e75c",
+    "manifest_sha256": "9c2d20b57be442705ba4c8a9c1517c88e37fa96b2fd4199dda7ce39850f43585"
+  },
+  "independent_mathematical_checks": {
+    "all_H_boundary_reduction": "PASS: the X and Y Pochhammer quotients telescope modulo p to 1/(t+1) and (H+1)/(H+t+1); U's two p-factors cancel over Q before reduction and leave 1/3; V reduces to 1. Every residual denominator is strictly between 0 and p=4H+3.",
+    "boundary_scalar": "PASS: Item-222 gives p*E_H=H*x*v+9(4H+1)u*y/2; H=-3/4 and 4H+1=-2 modulo p yield B_H=-3XV/4-9UY for arbitrary H.",
+    "gauge_valuation": "PASS: rho(H-3) contributes the unique numerator p^2, rho(H) contributes the unique denominator p, and rho(H+3) is a p-unit except at H=4 where its squared denominator contributes p^2. This gives valuations (2,1,1) for p>19 and (2,1,-1) at p=19; exact E_10 has v_19=1.",
+    "nonboundary_integrality": "PASS: the Item-237 coefficient reduction supplies one p factor at H and H+3 and, for p>19, at H+6; combined with the gauge valuations it leaves only the absorbed simple pole at H. The p=19,H+6 exception is covered by the exact E_10 evaluation.",
+    "singular_ray_capacity": "PASS: all three rays are shifts of p=4H+3, so their union has Chebyshev mass asymptotic to 2H rather than 6H. The reduced relation retains a unit boundary term generically, and the complete fixed-core drop table produces no one-term nonzero target constraint.",
+    "scope": "PASS: the result refutes only automatic order reduction from the structural coefficient zero; pinned-orbit nonvanishing, weighted zero density, and additional sequence-specific boundary structure remain OPEN."
+  },
+  "format": {
+    "report_bytes": 9935,
+    "report_lines": 310,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "inline_math_open": 85,
+    "inline_math_close": 85,
+    "display_math_open": 22,
+    "display_math_close": 22
+  },
+  "capacity": {
+    "retained_fixed_j1_capacity_per_6m": "1/36",
+    "new_route1_rate": 0,
+    "new_capacity_reduction": 0,
+    "ledger_changed": false
+  }
+}

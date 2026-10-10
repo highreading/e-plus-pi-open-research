@@ -1,0 +1,55 @@
+{
+  "schema": "item277-j1-neighbor-crt-ledger-v1",
+  "checked": "2026-08-31 Asia/Shanghai",
+  "scope": "Simultaneous full fixed-j=1 collisions at adjacent fixed-M parameter points p and p+2",
+  "proved": [
+    "The exact phase neighbor is (h,s,p,M)->(h-4,s+3,p+2,M) for h>=5.",
+    "If both rows collide, then [p(p+2)]^2 divides gcd(C0(M),C1(M)).",
+    "This square product is already a subproduct of Item197/264's distinct-collision-prime square radical and gives no extra valuation copy.",
+    "After exact rational pullback, the mixed state solution module is ker(A mod p) x ker(B mod p+2).",
+    "For ranks r_p,r_q in {0,1,2}, the mixed solution count is p^(4-r_p)(p+2)^(4-r_q); every rank-drop branch is retained.",
+    "CRT idempotent row blocks have determinant e_p^2 e_q^2 det([A;B])=0 modulo p(p+2), regardless of rational transversality.",
+    "Integer row scaling instead contributes the tautological factor [p(p+2)]^2 to the stacked determinant.",
+    "A transverse determinant-one model with X=(p,0,p+2,0) proves that cross-field transversality forces no p(p+2)-divisibility of state coordinates.",
+    "Item275's actual pair (5,1,p=29,M=21)->(1,4,p=31,M=21) is rationally transverse but remains split between different fields.",
+    "For twin primes p,p+2 with p>5, both p-2 and p+4 are composite by reduction modulo 3, so neighboring edges do not overlap in the actual range.",
+    "The classical Brun/Selberg upper-bound sieve gives O(M/log^2 M) neighboring prime edges and O(M/log M)=o(M) endpoint prime-log weight.",
+    "Even a perfect exclusion of every neighboring double collision would affect zero linear mass.",
+    "Item149 already books the first post-Cartier copy; the full fixed-j=1 raw ceiling remains 1/36 per 6M."
+  ],
+  "rank_branches": {
+    "possible_pairs": "all (r_p,r_q) in {0,1,2}^2",
+    "solution_module": "ker(A mod p) x ker(B mod p+2)",
+    "solution_count": "p^(4-r_p)(p+2)^(4-r_q)",
+    "rank_drops_retained": true
+  },
+  "master_admission_test": {
+    "raw_capacity": "1/36 per 6M",
+    "actual_family_implication": "[p(p+2)]^2 divides both fixed coefficients, while local states satisfy the product-kernel CRT description",
+    "de_overlap": "the fixed coefficient divisibility is already Item197/264 and Item149's first post-Cartier copy",
+    "quantitative_result": "all neighboring-prime endpoints have o(M) log weight before imposing collision",
+    "decision": "zero new capacity reduction and zero new Route-1 rate"
+  },
+  "finite_replay": {
+    "label": "EXACT FINITE ONLY",
+    "phase_grid": "h=5..60, s=1..60",
+    "twin_isolation_bound": 10000,
+    "asymptotic_inference": false,
+    "asymptotic_source": "classical unconditional Brun/Selberg upper-bound sieve, not the replay"
+  },
+  "booking": {
+    "new_unconditional_route1_rate": 0,
+    "new_independent_valuation_copy": 0,
+    "new_weighted_zero_theorem_for_full_j1_cell": 0,
+    "new_j1_capacity_reduction": 0,
+    "j1_raw_ceiling": "unchanged at 1/36 per 6M"
+  },
+  "forbidden_inference": [
+    "Do not combine congruences in F_p and F_(p+2) as four equations over one field.",
+    "Do not use a nonzero rational stacked determinant as an invertible determinant modulo p(p+2).",
+    "Do not infer p(p+2)-divisibility of state coordinates from mixed transversality.",
+    "Do not count [p(p+2)]^2|gcd(C0,C1) as a new copy beyond the existing square radical.",
+    "Do not extend the neighbor-pair theorem to isolated collision primes.",
+    "Do not infer the Brun/Selberg asymptotic from the EXACT FINITE ONLY twin replay."
+  ]
+}

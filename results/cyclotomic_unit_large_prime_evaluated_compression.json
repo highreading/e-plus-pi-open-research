@@ -1,0 +1,166 @@
+{
+  "all_exact_checks_pass": true,
+  "dependencies": [
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/scripts/algebraic_unit_two_log_n5_ideal_content.py",
+      "sha256": "120ea17e9c27a2b0ebaa48e3e651220bfe59f06bc028b6d764dcd0798570bb80"
+    },
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/scripts/cyclotomic_unit_large_prime_boundary_resultant.py",
+      "sha256": "d7f8a2e191f04f2ff5a677954087cb7cba2b5ba4eed1d3baaf385e0822a624d0"
+    },
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/scripts/cyclotomic_unit_large_prime_norm_one_certificate.py",
+      "sha256": "caa7c133bc41684bc34c14d3228fbc1576e21171bcfb5f2e9568828adc779e5a"
+    },
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/scripts/cyclotomic_unit_trace_probe.py",
+      "sha256": "fd29f6e616ddc09ddb11ed842d2a64990406554aff0efb255534a4fe48c67eb1"
+    },
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/results/cyclotomic_unit_large_prime_boundary_resultant_p2000.json",
+      "sha256": "ef9ae8f082329c5024d370f92b138f78f6389a444fbc0c0019b73ad558bf06fe"
+    },
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/sources/cyclotomic_unit_large_prime_boundary_resultant.md",
+      "sha256": "b1bc06b4915b0e014cb5bd52433345aa130834b09ec6d932cf968504fc880838"
+    },
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/sources/cyclotomic_unit_large_prime_norm_one_obstruction.md",
+      "sha256": "d072cc5adf7634ca2a046db02608fbe85d6f5e6ea6e9fb4843e9ccad05deaf0c"
+    }
+  ],
+  "description": "Exact Wilson-evaluated compression, fixed bilinear curve, and symbolic recurrence certificate.",
+  "exact_sequence_check_range": {
+    "Z_n": [
+      0,
+      40
+    ],
+    "recurrence_n": [
+      0,
+      36
+    ]
+  },
+  "proved_compression": {
+    "T_d": "Tr_(K/F)(u_7^d)",
+    "T_recurrence": "T_(n+2)=(4+2*t)T_(n+1)+(2+t)T_n",
+    "Z_d": "P_d(eta)*P_d(eta_bar)",
+    "Z_recurrence_order": 4,
+    "evaluated_resultant": "M_(p,r)=chi_p^(-1)*Z_d mod p",
+    "fixed_curve": "2*z0*w0-z0*w1-z1*w0+3*z1*w1=0 mod p",
+    "trace_pairing_determinant": 5
+  },
+  "scope_warning": "All algebraic identities and recurrences are proved exactly. The four witness records are finite checks only. No uniform large-prime gcd bound is claimed.",
+  "script_sha256": "fd13a77fe5c97f5ca16fbb0eafa92c66f653ab126f03fd23c514770b32855487",
+  "source_path": "/content/drive/MyDrive/e_pi_research_20260826/sources/cyclotomic_unit_large_prime_evaluated_compression.md",
+  "source_sha256": "8b69327750e6bab181e78f50d5b8a60bf97f3f1d6632254ad9b1493cc600a534",
+  "symbolic_Z_recurrence": {
+    "coefficient_A": [
+      "(n + 1)**2*(n + 2)*(n + 3)*(2*n**2 + 14*n + 19)",
+      "-(n + 2)*(n + 3)*(n**4 + 10*n**3 + 35*n**2 + 54*n + 31)",
+      "-(n + 3)**2*(n**3 + 7*n**2 + 13*n + 8)",
+      "-(n**2 + 6*n + 7)*(n**2 + 6*n + 10)",
+      "n**2 + 5*n + 5"
+    ],
+    "coefficient_B": [
+      "-(n + 1)**2*(n + 2)*(n + 3)*(3*n**2 + 21*n + 28)",
+      "(n + 2)*(n + 3)*(n**4 + 10*n**3 + 35*n**2 + 56*n + 34)",
+      "-(n + 3)**2*(2*n**2 + 13*n + 14)",
+      "-3",
+      "1"
+    ],
+    "four_tensor_state_residuals": [
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "symbolic_identity_passes": true
+  },
+  "witness_reconstructions": [
+    {
+      "M_equals_chi_inverse_Z": true,
+      "R_evaluation_identities": true,
+      "T_coordinates_mod_p": [
+        0,
+        12
+      ],
+      "Z_coordinates_mod_p": [
+        2,
+        5
+      ],
+      "bilinear_curve_value_mod_p": 0,
+      "d": 8,
+      "p": 13,
+      "r": 4
+    },
+    {
+      "M_equals_chi_inverse_Z": true,
+      "R_evaluation_identities": true,
+      "T_coordinates_mod_p": [
+        12,
+        17
+      ],
+      "Z_coordinates_mod_p": [
+        8,
+        24
+      ],
+      "bilinear_curve_value_mod_p": 0,
+      "d": 28,
+      "p": 31,
+      "r": 2
+    },
+    {
+      "M_equals_chi_inverse_Z": true,
+      "R_evaluation_identities": true,
+      "T_coordinates_mod_p": [
+        250,
+        202
+      ],
+      "Z_coordinates_mod_p": [
+        226,
+        259
+      ],
+      "bilinear_curve_value_mod_p": 0,
+      "d": 199,
+      "p": 277,
+      "r": 77
+    },
+    {
+      "M_equals_chi_inverse_Z": true,
+      "R_evaluation_identities": true,
+      "T_coordinates_mod_p": [
+        1571,
+        92
+      ],
+      "Z_coordinates_mod_p": [
+        406,
+        1007
+      ],
+      "bilinear_curve_value_mod_p": 0,
+      "d": 1427,
+      "p": 1879,
+      "r": 451
+    }
+  ]
+}

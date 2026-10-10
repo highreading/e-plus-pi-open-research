@@ -1,0 +1,61 @@
+{
+  "archive_helper": {
+    "filename": "factorial_digit_entire_varying_b_probe.py",
+    "sha256": "003ed11dea46976e31c07e7eacac47c5c8b72c4eb802b45e768165fbb7955cac"
+  },
+  "coarse_bound_checks": 562329,
+  "coincidence_examples": [
+    {
+      "left": [
+        14,
+        1
+      ],
+      "left_record": {
+        "D": 14,
+        "Dbar": 2,
+        "J": 1,
+        "K": 7,
+        "Kbar": 1,
+        "P": 1021707687983,
+        "Q": 174356582400,
+        "g": 7
+      },
+      "pair": [
+        1021707687983,
+        174356582400
+      ],
+      "right": [
+        16,
+        0
+      ],
+      "right_record": {
+        "D": 1,
+        "Dbar": 1,
+        "J": 120,
+        "K": 0,
+        "Kbar": 0,
+        "P": 1021707687983,
+        "Q": 174356582400,
+        "g": 1
+      }
+    }
+  ],
+  "coincident_pairs": 1,
+  "determinant_checks": 562330,
+  "distinct_pairs": 562329,
+  "generator": {
+    "filename": "factorial_cross_order_support_diagnostic.py",
+    "sha256": "4fbfa121413ccf78ae39056428d93a84fe4e0aa1e0ff887db3d72bafe7d0ddbf"
+  },
+  "max_base": 100,
+  "max_order": 10,
+  "ordered_pairs_checked": 562330,
+  "primitive_forms": 1061,
+  "schema": "factorial-cross-order-support-diagnostic-v1",
+  "support_checks": {
+    "()": 562329,
+    "(2, 3, 5)": 562329,
+    "(2, 3, 5, 7, 11)": 562329
+  },
+  "warning": "Finite exact diagnostics only; the theorem is proved symbolically in the companion note."
+}

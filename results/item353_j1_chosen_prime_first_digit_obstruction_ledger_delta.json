@@ -1,0 +1,44 @@
+{
+  "schema": "item353-j1-chosen-prime-first-digit-obstruction-ledger-delta-v1",
+  "item": 353,
+  "date": "2026-09-01",
+  "branch": "Route 1 / fixed-j1 / chosen split-prime Kummer first digit",
+  "status": "PROVED_EXACT_CHOSEN_PRIME_FIRST_DIGIT_AND_MAXIMAL_DEGREE_SCOPED_NO_GO",
+  "actual_family": {
+    "parameters": "n=2h, r=2s+1, p=2n+3r, 2M=3n+4r",
+    "one_way_gate": "ordinary fixed-j1 collision implies p|a_(r,n), hence T lies in the chosen prime",
+    "selected_zero_converse_to_full_collision_claimed": false
+  },
+  "proved": {
+    "Teichmueller_digit": "[a]=a+p*(a^p-a)/p mod p^2 at the chosen split prime",
+    "four_coordinate_formula": "the first quotient digit is an ordinary carry plus the sum of Fermat corrections",
+    "maximal_degree": "the unique polynomial representing the universal correction on F_p has exact degree p-1 and leading coefficient (p-1)/2",
+    "valuation_scope": "selected Hasse zero does not force valuation at least 2",
+    "scoped_no_go": "direct bounded-degree polynomial-phase treatment of the universal first correction"
+  },
+  "capacity": {
+    "raw_support": "all actual fixed-j1 rows, M/6+o(M) raw logarithmic mass",
+    "theoretical_fixed_j1_ceiling_per_6M": "1/36",
+    "new_forced_condition": 0,
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "booking": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36"
+  },
+  "strict_scope": {
+    "ordinary_mod_p_gate_not_strengthened_to_mod_p2": true,
+    "finite_controls": "five predeclared Kummer rows and four exact field-function controls only",
+    "not_proved": [
+      "chosen-prime nonconcentration of the zeroth digit",
+      "special cancellation after composition with the actual four functions",
+      "rational compression or a bounded-length Gross-Koblitz/Jacobi factorization",
+      "an additional p^2 condition forced by the full original collision",
+      "W_b(M)=o(M)",
+      "any fixed-j1 ceiling reduction",
+      "Route 1 or any statement about e+pi"
+    ]
+  },
+  "ledger_action": "BOOK_ZERO_RETAIN_1_OVER_36_CEILING",
+  "route_1_status": "ACTIVE",
+  "canonical_files_modified": false
+}

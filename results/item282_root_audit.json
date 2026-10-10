@@ -1,0 +1,42 @@
+{
+  "schema": "item282-root-audit-v1",
+  "audit_date": "2026-08-31",
+  "auditor": "root",
+  "verdict": "PASS_WITH_STRICT_SCOPE",
+  "substantive_checks": {
+    "product_divisor": "PASS: primewise truncated valuation gives gcd(Q,A) dividing the weighted product of the primitive overlaps and gcd(Q,D)=gcd(Q,A)",
+    "efficiency_bound": "PASS: division by log A turns the overlap majorant into a weighted average, so no unbounded product beats its best primitive return per unit height",
+    "height_dichotomy": "PASS: H=O(n) forces K<=L=O(n/log n), while positive-linear capture forces one O(n/log n) gap with fixed positive primitive overlap efficiency",
+    "power_layers": "PASS: successive captured layers from repeated powers form a divisibility-decreasing chain and create no prime support",
+    "canonical_optimizer": "PASS: with unrestricted multiplicity the exact anti-period gap cost for certified depth s is s(p-1), attained by repeated depth-one factors",
+    "canonical_capacity": "PASS: the anti-period yield-to-height ratio is O(1/log n) uniformly over odd primes and multi-prime assignments, hence total certified capacity is o(n)",
+    "sum_split": "PASS: homogeneous scalar sums reduce to residual continuant sums modulo Q; a unique least p-valuation gives no extra depth, while tied minima define the genuinely open cancellation quotient",
+    "reservoir_deoverlap": "PASS: Q is arbitrary inside q_n/gcd(q_n,D_m), so every product and sum statement is already normalized against Item 265",
+    "capacity_booking": "PASS: no actual-family high-efficiency return cover or prime-independent target-cancelling sum is proved; retained beta capacity and booking are unchanged"
+  },
+  "independent_replay": {
+    "canonical_sha256": "97a9d02a5a2413d4df77bc0aa70e010ff096a6db7f9a9c61af1e5f542b92f384",
+    "root_replay_sha256": "97a9d02a5a2413d4df77bc0aa70e010ff096a6db7f9a9c61af1e5f542b92f384",
+    "byte_identical": true
+  },
+  "package_checks": {
+    "manifest_files_checked": 5,
+    "frozen_dependencies_checked": 7,
+    "json_files_parsed": 4,
+    "all_hashes_and_dependencies_match": true
+  },
+  "report_checks": {
+    "sha256": "71bfa11a3c27dcd5389765659f68f0d2f5d5b08c74ce7a96ef0e8e050e9c5b68",
+    "bytes": 17814,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "display_delimiters": "59/59",
+    "inline_delimiters": "80/80"
+  },
+  "strict_scope": {
+    "proved": "All finite unbounded-multiplicity product portfolios are dominated in captured divisor per unit height by one primitive return; canonical anti-period portfolios have zero linear capacity.",
+    "not_proved": "Actual high-efficiency short returns, a weighted return cover, tied-minimum cancellation in prime-independent sums, nonhomogeneous sums, and arbitrary growing blocks remain open.",
+    "finite_only": "The deterministic replay checks exact identities and cancellation witnesses but makes no density or exceptional-prime extrapolation.",
+    "route_status": "Route 1 ACTIVE; Route 2 QUEUED"
+  }
+}

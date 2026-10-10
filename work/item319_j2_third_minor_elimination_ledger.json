@@ -1,0 +1,75 @@
+{
+  "item": 319,
+  "schema": "item319-j2-third-minor-elimination-ledger-v1",
+  "classification": "PROVED_THIRD_MINOR_FACTORIZATION_AND_SCOPED_ELIMINATION_NO_GO",
+  "actual_family": {
+    "rays": [
+      "r=6n+1",
+      "r=6n+5"
+    ],
+    "row_prime": "p=2r+6s+3",
+    "fixed_M_relation": "2M=5r+14s+7"
+  },
+  "connection_minors": {
+    "ell": "det(f,b)=2*sigma_(e,n)*a_r",
+    "m": "det(f,d)=-sigma_(e,n)*b_r",
+    "C": "det(b,d)=beta_r*K_r",
+    "sigma": "g_n*kappa_e/16^n",
+    "beta": "-3*(r+1)!/[2*(2r+3)*(-r/3)_(r+1)]"
+  },
+  "canonical_third_minor": {
+    "K": "S_0*Delta_1-S_1*Delta_0",
+    "S": "the b+d vector from the canonical inhomogeneous chain",
+    "Delta": "the normalized d vector from the homogeneous odd chain",
+    "independent_of_terminal_scale": true,
+    "all_r_factorization": true
+  },
+  "unit_content": {
+    "sigma_all_actual_rows_p_unit": true,
+    "beta_all_actual_rows_p_unit": true,
+    "C_zero_mod_p_iff_K_zero_mod_p": true,
+    "new_prime_localization": false,
+    "capacity_effect": 0
+  },
+  "quotient": {
+    "characteristic_zero": "C/ell=(beta/(2*sigma))*(K/a_r)",
+    "a_r_nonzero": "Item315 proves a_r<0 on both rays",
+    "modular_warning": "never divide by ell or a_r on a row where it vanishes mod p",
+    "division_free_actual_residual": "E=2*sigma*a_r*Z_actual+11*beta*K"
+  },
+  "elimination": {
+    "D": "9*c*ell-11*m",
+    "E_b": "ell*Z+11*C",
+    "E_d": "m*Z+9*c*C",
+    "new_syzygy": "ell*E_d-m*E_b=C*D",
+    "ell_chart": "eliminating Z from (D,E_b,E_d) in R[ell^(-1),Z] gives (D)",
+    "m_chart": "eliminating Z from (D,E_b,E_d) in R[m^(-1),Z] gives (D)",
+    "conclusion": "the full exterior-minor tower produces no second coefficient-only divisor on either nondegenerate chart"
+  },
+  "second_integer_condition": {
+    "old_gate": "H_r*(18*c*a_r+11*b_r)",
+    "actual_period": "Q_(r,s)^4*(ell_r*Z_actual+11*C_r)",
+    "collision_forces_common_prime": true,
+    "weighted_target": "o(M) log support for the gcd on fixed-M rows",
+    "proved_weighted_bound": false
+  },
+  "operator_reuse": {
+    "exactly_refuted_ansatze": 5,
+    "rays": 2,
+    "method": "nonzero exact first recurrence residual",
+    "scope": "direct reuse only; a different higher-order recurrence remains open"
+  },
+  "height_admission": {
+    "tied_rows_per_M": "O(M)",
+    "individual_height_only": "cannot imply o(M) weighted gcd support",
+    "recurrence_without_distribution": "not admissible as capacity progress"
+  },
+  "strategic_effect": {
+    "new_weighted_divisor_bound": false,
+    "new_capacity_reduction": 0,
+    "new_booking": 0,
+    "ordinary_j2_ceiling_per_6M_after_item319": "1/105"
+  },
+  "smallest_open_arithmetic_theorem": "on fixed-M rows satisfying the Item314 gate, prove o(M) weighted log support for the cleared actual-period residual",
+  "warning": "eliminating Z destroys the transverse information; any successful theorem must retain arithmetic of the actual period"
+}

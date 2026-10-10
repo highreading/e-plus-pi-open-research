@@ -1,0 +1,29 @@
+{
+  "artifact": "item393_mixed_cubic_small_prime_strata_ceiling_manifest",
+  "audit_status": "WORK_ONLY_UNAUDITED",
+  "files": [
+    "work/item393_mixed_cubic_small_prime_strata_ceiling_report.md",
+    "work/item393_mixed_cubic_small_prime_strata_ceiling_certificate.py",
+    "work/item393_mixed_cubic_small_prime_strata_ceiling_certificate.json",
+    "work/item393_mixed_cubic_small_prime_strata_ceiling_certificate.replay.json",
+    "work/item393_mixed_cubic_small_prime_strata_ceiling_ledger.json",
+    "work/item393_mixed_cubic_small_prime_strata_ceiling_manifest.json",
+    "work/item393_mixed_cubic_small_prime_strata_ceiling_hashes.sha256"
+  ],
+  "dependencies": [
+    "ROUTE1_MASTER_CAPACITY.md",
+    "sources/mixed_cubic_coordinates_and_synchronization_audit.md",
+    "sources/mixed_cubic_small_prime_rank_one_cartier_mass.md",
+    "sources/mixed_cubic_rank_two_cartier_determinant.md",
+    "sources/item163_deeper_digits.md",
+    "work/item390_mixed_cubic_fresh_primitive_saturation_report.md"
+  ],
+  "replay": "python work/item393_mixed_cubic_small_prime_strata_ceiling_certificate.py --output work/item393_mixed_cubic_small_prime_strata_ceiling_certificate.replay.json",
+  "result": {
+    "small_remainder_ceiling": "limsup log(c_{m,<=6m,rem})/(6m)<1.859148991866686",
+    "postbook_deep_tail_target": "j>=2 aggregate >0.01963298366943179388... if small content alone succeeds",
+    "forced_deep_tail_target": "raw k>=5 aggregate >0.01651463227735795505... if forced support alone succeeds",
+    "booking_delta": 0
+  },
+  "scope": "Actual normalized mixed-cubic p<=6m common content after exact removal of one dyadic factor and the booked rank-one Cartier product. No central edit, no booking, and no beta matching or multi-parent ceiling."
+}

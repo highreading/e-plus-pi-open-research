@@ -1,0 +1,72 @@
+{
+  "status": "coefficientwise checks of EXISTING fixed closure receipts pass; initial representation and full scalar reconstruction remain paper dependencies",
+  "norm_full_polynomial_transition_checks": [
+    {
+      "from_h": 0,
+      "to_h": 1,
+      "equals_saved_h": 1,
+      "source_phase": 0,
+      "target_phase": 1,
+      "all_six_full_polynomials_equal": true
+    },
+    {
+      "from_h": 1,
+      "to_h": 2,
+      "equals_saved_h": 2,
+      "source_phase": 1,
+      "target_phase": 2,
+      "all_six_full_polynomials_equal": true
+    },
+    {
+      "from_h": 2,
+      "to_h": 3,
+      "equals_saved_h": 3,
+      "source_phase": 2,
+      "target_phase": 3,
+      "all_six_full_polynomials_equal": true
+    },
+    {
+      "from_h": 3,
+      "to_h": 4,
+      "equals_saved_h": 4,
+      "source_phase": 3,
+      "target_phase": 0,
+      "all_six_full_polynomials_equal": true
+    },
+    {
+      "from_h": 4,
+      "to_h": 5,
+      "equals_saved_h": 5,
+      "source_phase": 0,
+      "target_phase": 1,
+      "all_six_full_polynomials_equal": true
+    },
+    {
+      "from_h": 5,
+      "to_h": 6,
+      "equals_saved_h": 6,
+      "source_phase": 1,
+      "target_phase": 2,
+      "all_six_full_polynomials_equal": true
+    },
+    {
+      "from_h": 6,
+      "to_h": 7,
+      "equals_saved_h": 3,
+      "source_phase": 2,
+      "target_phase": 3,
+      "all_six_full_polynomials_equal": true
+    }
+  ],
+  "norm_preperiod": 3,
+  "norm_period": 4,
+  "phase_included": true,
+  "linear_all_four_225_coordinate_transitions_verified": 11,
+  "linear_preperiod": 3,
+  "linear_period": 8,
+  "source_sha256": {
+    "WEIGHTED_ENDPOINT_RATIONAL_NORM_RECEIPT.json": "7525f3fea7e7f30c6cd8522d79fdb07af50e948833fa127daacfa6ad5b942c1e",
+    "WEIGHTED_ENDPOINT_COMPLETE_LINEAR_RECEIPT.json": "892efd426b0a9a27fd648416991e21a82750e5a4286be6180f559628c1a2c831"
+  },
+  "no_archive_program_executed": true
+}

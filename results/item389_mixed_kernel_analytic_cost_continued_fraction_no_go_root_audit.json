@@ -1,0 +1,59 @@
+{
+  "item": 389,
+  "schema": "item389-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_ALL_DEGREE_ANALYTIC_COST_AND_CONTINUED_FRACTION_THRESHOLD",
+  "scope": "independent root audit of the mixed-kernel endpoint identity, uniform and L1 cost bounds, global coefficient inequality, conditional Legendre threshold, degree-one replacement, and zero booking",
+  "checks": {
+    "work_hash_list_entries": 6,
+    "work_hash_list_failures": 0,
+    "frozen_dependencies_checked": 7,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "independent_endpoint_check": true,
+    "independent_lipschitz_triangle_check": true,
+    "independent_zero_tuple_edge_case_check": true,
+    "independent_continued_fraction_reduction_check": true,
+    "small_nonzero_form_constructed": false,
+    "irrationality_inferred": false,
+    "root_repairs": "Corrected two TeX omissions, made B0>0 explicit in the inverse-cost hypothesis, and replaced the falsely strict all-tuple coefficient bound by the correct weak inequality; strictness is retained away from the zero tuple. Clarified the rational-endpoint form of Legendre's theorem."
+  },
+  "mathematical_audit": {
+    "endpoint": "For S=x(x-1)R, P(0)=A+S(0)+S'(0)=A-R(0), hence F(0)=5A-R(0). An integer endpoint of uniform norm below one must vanish, giving R(0)=5A and P(0)=-4A.",
+    "L1_dichotomy": "The derivative satisfies |F'|<=3(B0+B1+|A|)=Lambda. If the nonzero integer endpoint has magnitude at least one, integrating 1-Lambda*x on [0,1/Lambda] gives norm_1(F)>=1/(2Lambda).",
+    "coefficient_bound": "The identity norm_1(4A/(1+x^2))=pi|A| and the triangle inequality give 3|A|<=norm_1(F)+2B0. Equality can occur only in the zero-tuple edge case at the weakened bound, so >= is the correct global statement.",
+    "continued_fraction": "Under B0>0, explicit nonvanishing, and norm_1(F)<min(1,1/(2B0)), A is nonzero and the global bound gives B0>|A|. Dividing by |A| yields error below 1/(2|A|^2); reduction can only decrease the denominator, so Legendre applies without assuming the desired irrationality.",
+    "degree_one_replacement": "The same endpoint pair has P_(A,C)=A+(A-C)x. From |A alpha-C|<1 and alpha<7, its coefficient norm is below 9|A|+1<=9B0+1.",
+    "scope_limit": "The theorem proves a cost barrier and classification. It neither constructs a structured sequence nor proves its nonvanishing, so it supplies no irrationality conclusion."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact endpoint and uniform coefficient-cost theorem",
+      "all-degree inverse analytic-cost dichotomy",
+      "global weak coefficient lower bound with strict nonzero specialization",
+      "conditional continued-fraction-quality theorem",
+      "constant-factor degree-one replacement",
+      "scoped high-degree reshaping cost no-go",
+      "zero booking and zero capacity reduction"
+    ],
+    "DECLARED_EXACT_CONTROLS_ONLY": [
+      "six polynomial tuples and elementary constant bounds; no small-form search"
+    ],
+    "OPEN": [
+      "a non-circular structured family proving integrality, nonvanishing, analytic decay, and coefficient control",
+      "any nonzero sequence crossing the inverse-cost threshold",
+      "irrationality of e+pi"
+    ]
+  },
+  "ledger": {
+    "new_nonzero_linear_form_sequence": 0,
+    "new_route1_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0,
+    "route2_success": false
+  }
+}

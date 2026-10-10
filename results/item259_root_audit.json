@@ -1,0 +1,59 @@
+{
+  "schema": "item259-root-audit-v1",
+  "item": 259,
+  "audited_date_beijing": "2026-08-31",
+  "disposition": "accepted after sole sub-agent independent audit and two applied clarifications; zero rate, exponent, and capacity booking",
+  "sealed_artifacts": {
+    "report_sha256": "0879aff73eba915197f96158d9c80c64ce2d873317b38dc27e376742d10f922a",
+    "checker_sha256": "e27345d11cd0564396c233c6730fdeebb7636cfddfd8d90df9d013682ce532ef",
+    "canonical_sha256": "0d4617cfe1c011d7074452830716bda14854b5618186fab9f7ccf66388fbd05e",
+    "replay_sha256": "0d4617cfe1c011d7074452830716bda14854b5618186fab9f7ccf66388fbd05e",
+    "strict_ledger_sha256": "64c3404d6f9e22719c3e8b1dd17e18768fbba9a7efb64edd7e52cc4a667dab55",
+    "manifest_sha256": "b197ea134adc1aa88a3b910eb9ac805ce89fb6b4fe1e98ec83fd888453915bb6",
+    "hash_ledger_sha256": "26707689707ed235e26c699adfbb992951cc760fd8fdb4da12bae273fd0ff399"
+  },
+  "portable_replay": {
+    "canonical_replay_byte_identical": true,
+    "canonical_replay_sha256": "0d4617cfe1c011d7074452830716bda14854b5618186fab9f7ccf66388fbd05e",
+    "control_bytes": 0,
+    "delimiter_balances": 0
+  },
+  "sole_subagent_independent_audit": {
+    "disposition": "pass with two required clarifications, both applied",
+    "audit_report_sha256": "82ce5f802bbef10baf59fc20f8924185459d8982ac3e6885d989acd90b4c9c4d",
+    "probe_script_sha256": "1abdcda280f8c74605b780403e2b455417dbb042028179622b736cfa283cc853",
+    "probe_result_sha256": "738b9cc0d948a8419b3a6a415f94a145ab8c5c3c8d73bd890e39895ef32baf67",
+    "probe_replay_byte_identical": true,
+    "actual_rows_through_p_151": 186,
+    "filtered_quotient_checks_through_N_6": 25110,
+    "arbitrary_formal_target_solution_checks": 6696,
+    "filtered_involution_checks": 3348
+  },
+  "root_mathematical_audit": {
+    "exact_endpoint_recurrence_checked": true,
+    "exact_z_to_p_minus_z_reflection_checked": true,
+    "multiplier_product_identity_checked": true,
+    "affine_multiplier_identity_checked": true,
+    "universal_indeterminate_C_formulation_checked": true,
+    "localization_and_unit_ranges_checked": true,
+    "involution_preserves_p_z_filtration_checked": true,
+    "tiered_coefficient_precision_checked": true,
+    "ordinary_jet_coordinate_change_invertible_checked": true,
+    "formal_solution_module_scope_checked": true
+  },
+  "scope_clarifications": {
+    "involution": "C is indeterminate before specialization; for fixed c the map pairs c and c^-1 systems",
+    "target_freedom": "formal solution-module freedom only, not arbitrary arithmetic values of the explicit moment"
+  },
+  "labels": {
+    "proved": "the exact resolvent recurrence/reflection, multiplier and affine involution, and rank-one collapse in every finite filtered quotient",
+    "exact_finite_only": "all bounded canonical and independent implementation checks",
+    "open": "punctured-period arithmetic, independent or nonlinear relations, the actual affine gate, and every rate consequence"
+  },
+  "booking": {
+    "new_unconditional_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "capacity_reduction": 0,
+    "route1_conclusion": "none; only the reciprocal denominator-jet strategy is closed"
+  }
+}

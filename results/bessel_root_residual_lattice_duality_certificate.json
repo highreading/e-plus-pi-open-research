@@ -1,0 +1,279 @@
+{
+  "content_normalization": {
+    "content_normalization_checks": 432,
+    "representatives": [
+      {
+        "a": 8,
+        "p": 2,
+        "primitive_coefficients": [
+          20,
+          1
+        ],
+        "primitive_residual_depth": 5,
+        "v_p_content": 3
+      },
+      {
+        "a": 7,
+        "p": 5,
+        "primitive_coefficients": [
+          -13,
+          1
+        ],
+        "primitive_residual_depth": 0,
+        "v_p_content": 7
+      },
+      {
+        "a": 9,
+        "p": 13,
+        "primitive_coefficients": [
+          -23,
+          1
+        ],
+        "primitive_residual_depth": 0,
+        "v_p_content": 11
+      }
+    ]
+  },
+  "description": "Exact finite diagnostics for the residual congruence lattice, its dual, primitive l1 height, and content normalization",
+  "exhaustive_small_box": {
+    "congruence_lattice_points_checked": 82074,
+    "nonzero_evaluation_points": 73146,
+    "primitive_nonzero_evaluation_points": 60072
+  },
+  "lattice_and_dual": {
+    "basis_determinant_checks": 3600,
+    "basis_reconstruction_checks": 18000,
+    "dual_pairing_checks": 16200,
+    "representatives": [
+      {
+        "P": 16,
+        "basis_columns": [
+          [
+            16,
+            0,
+            0,
+            0
+          ],
+          [
+            -3,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            -3,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            -3,
+            1
+          ]
+        ],
+        "d": 3,
+        "determinant": 16,
+        "n": 3
+      },
+      {
+        "P": 125,
+        "basis_columns": [
+          [
+            125,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            -7,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            -7,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            -7,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            -7,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            -7,
+            1
+          ]
+        ],
+        "d": 5,
+        "determinant": 125,
+        "n": 7
+      },
+      {
+        "P": 161051,
+        "basis_columns": [
+          [
+            161051,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            -17,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            -17,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            -17,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            -17,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            -17,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            -17,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -17,
+            1
+          ]
+        ],
+        "d": 7,
+        "determinant": 161051,
+        "n": 17
+      }
+    ]
+  },
+  "primitive_height": {
+    "content_repair_cases": 3386,
+    "primitive_base_construction_checks": 18560,
+    "primitive_linear_near_attainer_checks": 2320,
+    "representatives": [
+      {
+        "H1": 6,
+        "P": 256,
+        "coefficients": [
+          1,
+          1,
+          1,
+          0,
+          3
+        ],
+        "d": 4,
+        "n": 3,
+        "value": 256,
+        "weighted_height": 789
+      },
+      {
+        "H1": 15,
+        "P": 15625,
+        "coefficients": [
+          5,
+          1,
+          8,
+          0,
+          1
+        ],
+        "d": 4,
+        "n": 11,
+        "value": 15625,
+        "weighted_height": 21905
+      },
+      {
+        "H1": 24419,
+        "P": 17249876309,
+        "coefficients": [
+          -29,
+          1,
+          0,
+          0,
+          24389
+        ],
+        "d": 4,
+        "n": 29,
+        "value": 17249876309,
+        "weighted_height": 19755090059
+      }
+    ]
+  },
+  "status": "finite diagnostic; the all-parameter lattice basis, dual, primitive height inequalities, and capacity threshold are proved symbolically in the companion source; no Bessel digit-depth bound is claimed"
+}

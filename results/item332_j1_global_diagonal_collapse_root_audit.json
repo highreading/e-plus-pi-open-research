@@ -1,0 +1,55 @@
+{
+  "item": 332,
+  "schema": "item332-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_GLOBAL_DIAGONAL_AND_DUAL_COLLAPSE_SCOPED_FIXED_TARGET_NO_GO",
+  "scope": "independent root audit of the global exponent reduction of the Item-329 K/J/L carriers and their identification with the old selected/opposite fixed-j1 factors",
+  "checks": {
+    "certificate_sha256": "d544609c7ccc08f2ed0c661533939de60d97d2ab75509692925638420f789f68",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_sha256": "268031d1cb75587da217de4e58e42270d1332765b6b16fa30ccfefd9523822b8",
+    "work_manifest_artifacts_match": true,
+    "frozen_dependencies_checked": 16,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 6,
+    "work_hash_list_match": true,
+    "declared_control_rows": 5,
+    "prime_scans": 0,
+    "report_inline_delimiters": "76/76",
+    "report_display_delimiters": "56/56",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "selected_reduction": "with F=P/2 and b_h=[t^(2h)]F(t)^(4h/3), below-p binomial-basis exponent reduction gives 2^(-4M)K_(M,2h)=b_h modulo p",
+    "exact_identity": "the Item-237 Hermite identity gives c_h^*=2(4h+3)b_h/3 exactly over Q; every zero in the actual collision chart is correctly interpreted modulo p",
+    "diagonal_curve": "for psi=F^(2/3) and T=x psi(T), the full diagonal is xT'/T on 4T^3=x^3P(T)^2; t/psi(t) is exactly the old Item-237 parameter",
+    "dual_reduction": "j_s=-3A_s over Q, J_(M,2s+5)=j_s modulo p, and 2^(-4M)L_(M,p)=-3X_s+(4h+3)b_h modulo p",
+    "codimension": "the normalized K/J/L carriers recover precisely the old selected and opposite rank-one factors, so exponent reduction creates no independent condition",
+    "scope_warning": "sequence-specific factor localization, average gcd, and weighted zero density for b_(3M-2p) remain open"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact selected diagonal collapse",
+      "old degree-six algebraic curve identification",
+      "dual opposite-factor collapse",
+      "denominator and unit audit",
+      "zero new codimension and booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "five preselected replay controls"
+    ],
+    "OPEN": [
+      "weighted zero density for the actual diagonal numerator",
+      "sequence-specific factor localization or average gcd",
+      "any fixed-j1 capacity reduction"
+    ]
+  },
+  "capacity": {
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "new_independent_condition": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "item406-actual-adjacent-recurrence-manifest-v1",
+  "item": 406,
+  "status": "WORK_ONLY_AUDITED_NO_CENTRAL_EDIT_NO_BOOKING",
+  "integrity": {
+    "certificate_replay_sha256": "d306c02dee8b004b118870cdf8fbf34aaf6226bc86c247941ae7bd68899245dc",
+    "certificate_replay_byte_identical": true,
+    "dependency_pins_verified_by_replay": true
+  },
+  "artifacts": [
+    {
+      "path": "work/item406_mixed_cubic_actual_adjacent_recurrence_report.md",
+      "role": "strictly labelled actual-family theorem report"
+    },
+    {
+      "path": "work/item406_mixed_cubic_actual_adjacent_recurrence_certificate.py",
+      "role": "deterministic exact certificate generator"
+    },
+    {
+      "path": "work/item406_mixed_cubic_actual_adjacent_recurrence_certificate.json",
+      "role": "generated certificate"
+    },
+    {
+      "path": "work/item406_mixed_cubic_actual_adjacent_recurrence_certificate.replay.json",
+      "role": "byte-stable replay"
+    },
+    {
+      "path": "work/item406_mixed_cubic_actual_adjacent_recurrence_ledger_delta.json",
+      "role": "zero-booking ledger and overlap delta"
+    },
+    {
+      "path": "work/item406_mixed_cubic_actual_adjacent_recurrence_hashes.sha256",
+      "role": "SHA-256 inventory"
+    }
+  ],
+  "dependency_pins": {
+    "sources/mixed_cubic_connection_determinant_3adic_nonvanishing.md": "984445948c10e423cf752af580c80345b6d3d861c41db043312d49c1e81dedcc",
+    "sources/mixed_cubic_cube_smith_reduction.md": "b44cc15d1a846d5298d61b9e53539116b31bbab0338dbc6e320fb0a875b0d0a0",
+    "sources/item387_mixed_kernel_quotient_and_claim_audit_report.md": "061e29589d427ccb5c8549c8344781c0c8f0e674d2fa525da03325312ce40625",
+    "sources/item390_mixed_cubic_fresh_primitive_saturation_report.md": "5bfb3c871b12524f672df515e920236f2470145d4f68bdcd7b47f29408692f46",
+    "sources/item393_mixed_cubic_small_prime_strata_ceiling_report.md": "5e2c92f87075cbe3ac8af3191d8df7485ac6efd13609ede5f82819e355ae5f96",
+    "sources/item396_fixed_gap_resultant_3adic_report.md": "7355b6909994357583f799e627e1ff19edb230a6a9002ee845be585057726aca",
+    "sources/item403_mixed_cubic_exact_smith_and_finite_local_data_no_go_report.md": "9525428ec25231e712c74549e136f3d4c78e1e378164375e7ed4a514531d0214"
+  },
+  "claims": {
+    "PROVED": [
+      "all-q coefficientwise Hermite identities on the actual C/T rows",
+      "local content equivalence to four adjacent base diagonals away from 6(2q-3)",
+      "two degree-six algebraic diagonal kernels, direct actual-row formulas, and Euler recurrences",
+      "compatible-prime Frobenius/Cayley reduction to adjacent R/S coefficient pairs for m>=1 and q>=5, with q=1 trivial"
+    ],
+    "CONDITIONAL": [
+      "the four-adjacent lemma excludes compatible primes from H_q",
+      "combined H and primitive-G support closes c_m^>=1"
+    ],
+    "OPEN": [
+      "the four-adjacent lemma",
+      "H_q divides P_q",
+      "primitive G_q support",
+      "H_q*G_q^prim divides P_q",
+      "c_m^>=1",
+      "Route 1 and irrationality of e+pi"
+    ],
+    "NOT_CLAIMED": [
+      "formal extension indices are actual mixed-cubic rows",
+      "ambient matrix perturbations prove anything about the actual family",
+      "finite factorization implies squarefreeness or support",
+      "a positive booking or capacity reduction"
+    ]
+  }
+}

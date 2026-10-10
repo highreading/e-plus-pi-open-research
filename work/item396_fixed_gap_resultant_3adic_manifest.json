@@ -1,0 +1,57 @@
+{
+  "schema": "item396-logarithmic-gap-corridor-manifest-v1",
+  "item": 396,
+  "status": "WORK_ONLY_UNAUDITED_NO_CENTRAL_EDIT",
+  "artifacts": [
+    {
+      "path": "work/item396_fixed_gap_resultant_3adic_report.md",
+      "role": "scoped theorem report"
+    },
+    {
+      "path": "work/item396_fixed_gap_resultant_3adic_certificate.py",
+      "role": "deterministic exact generator"
+    },
+    {
+      "path": "work/item396_fixed_gap_resultant_3adic_certificate.json",
+      "role": "generated certificate"
+    },
+    {
+      "path": "work/item396_fixed_gap_resultant_3adic_certificate.replay.json",
+      "role": "byte-stable replay"
+    },
+    {
+      "path": "work/item396_fixed_gap_resultant_3adic_ledger_delta.json",
+      "role": "zero-booking ledger delta"
+    },
+    {
+      "path": "work/item396_fixed_gap_resultant_3adic_hashes.sha256",
+      "role": "SHA-256 inventory"
+    }
+  ],
+  "dependencies": [
+    "sources/mixed_cubic_large_prime_log_residue_theorem.md",
+    "sources/mixed_cubic_large_prime_two_pole_obstruction.md",
+    "sources/mixed_cubic_connection_determinant_3adic_nonvanishing.md",
+    "sources/mixed_cubic_cube_smith_reduction.md",
+    "sources/mixed_cubic_fresh_prime_coprimality_supplement.md",
+    "work/item390_mixed_cubic_fresh_primitive_saturation_report.md"
+  ],
+  "claims": {
+    "new": [
+      "explicit logarithmically widening fresh-prime exclusion corridor",
+      "zero-capacity theorem for exponential fixed-gap carriers used only through ordinary height comparison",
+      "minimal primitive cubic radical carrier and its exact congruence-class boundary"
+    ],
+    "inherited_not_rebooked": [
+      "Item-148 all-gap 3-adic nonvanishing",
+      "Item-146 resultant numerator height",
+      "Item-390 all-depth large-prime primitive saturation"
+    ],
+    "not_claimed": [
+      "full fresh support conjecture",
+      "positive Route-1 rate",
+      "Route-1 closure",
+      "irrationality of e+pi"
+    ]
+  }
+}

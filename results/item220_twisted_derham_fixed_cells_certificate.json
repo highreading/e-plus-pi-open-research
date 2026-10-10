@@ -1,0 +1,234 @@
+{
+  "bounded_ansatz_no_go": {
+    "affine_bezout": {
+      "ansatz": "A(r,s)H_0+B(r,s)H_1+C(r,s)=0 with total degrees <=8",
+      "auxiliary_modulus": 1000000007,
+      "blocks": {
+        "j1_s_parity_0": {
+          "columns": 135,
+          "denominator_audit": {
+            "all_reductions_defined": true,
+            "division_count": 44800,
+            "integer_denominator_max": 454,
+            "integer_denominator_min": 22,
+            "zero_mod_auxiliary_modulus": 0
+          },
+          "nullity_over_Q": 0,
+          "rank": 135,
+          "rows": 256
+        },
+        "j1_s_parity_1": {
+          "columns": 135,
+          "denominator_audit": {
+            "all_reductions_defined": true,
+            "division_count": 47600,
+            "integer_denominator_max": 464,
+            "integer_denominator_min": 16,
+            "zero_mod_auxiliary_modulus": 0
+          },
+          "nullity_over_Q": 0,
+          "rank": 135,
+          "rows": 272
+        },
+        "j2_s_parity_0": {
+          "columns": 135,
+          "denominator_audit": {
+            "all_reductions_defined": true,
+            "division_count": 47600,
+            "integer_denominator_max": 458,
+            "integer_denominator_min": 19,
+            "zero_mod_auxiliary_modulus": 0
+          },
+          "nullity_over_Q": 0,
+          "rank": 135,
+          "rows": 272
+        },
+        "j2_s_parity_1": {
+          "columns": 135,
+          "denominator_audit": {
+            "all_reductions_defined": true,
+            "division_count": 50575,
+            "integer_denominator_max": 468,
+            "integer_denominator_min": 13,
+            "zero_mod_auxiliary_modulus": 0
+          },
+          "nullity_over_Q": 0,
+          "rank": 135,
+          "rows": 289
+        }
+      },
+      "one_good_prime_argument": "on each fixed parity block epsilon is constant; clearing rational coefficient denominators would produce a primitive integer null vector, but all endpoint denominators are units modulo the auxiliary prime and the reduced matrix has full column rank",
+      "phase_grid": "1<=r,s<=33, split by the actual r parity and by s parity",
+      "scope": "rules out a bounded-degree universal affine Bezout boundary on each parity component; it does not exclude a higher-degree or arithmetic boundary"
+    },
+    "interpretation": "inhomogeneous contiguity leaves genuine endpoint periods; general holonomicity alone supplies no nonvanishing boundary",
+    "linear_contiguity": {
+      "ansatz": "sum over the six E/C/S endpoint coordinates of a polynomial in (r,s) of total degree <=8",
+      "auxiliary_modulus": 1000000007,
+      "columns": 270,
+      "denominator_audit": {
+        "all_reductions_defined": true,
+        "division_count": 32400,
+        "integer_denominator_max": 258,
+        "integer_denominator_min": 13,
+        "zero_mod_auxiliary_modulus": 0
+      },
+      "nullity_over_Q": 0,
+      "one_good_prime_argument": "a rational identity gives, after clearing coefficient denominators, a nonzero primitive integer null vector; because every sampled entry denominator is invertible modulo the auxiliary prime, reduction gives a nonzero modular null vector, contradicting full column rank",
+      "rank": 270,
+      "rows": 324,
+      "sample_grid": "1<=r,s<=18",
+      "scope": "rules out a universal linear contiguity covector in this bounded ansatz; it does not rule out nonlinear, higher-degree, or prime-only identities"
+    }
+  },
+  "classification": {
+    "EXACT_FINITE_ONLY": [
+      "actual-row paired nonoccurrence through p<=251"
+    ],
+    "OPEN": [
+      "all-prime nonvanishing of either paired fixed-cell functional",
+      "a higher-degree, nonlinear, or genuinely arithmetic endpoint boundary",
+      "any positive linear-rate or radical saving"
+    ],
+    "PROVED": [
+      "p=2r+6s+3 with r>=1; the j=1 rows are exactly even r and j=2 rows exactly odd r",
+      "both logarithmic moment forms are exact under the nonresonant Euler primitive",
+      "the j=1 pair reduces to two C/S endpoint functionals",
+      "the j=2 pair reduces to two E/C/S endpoint functionals",
+      "the three-coordinate common endpoint basis is minimal in the universal odd-prime reduction",
+      "no degree-at-most-eight universal linear contiguity or affine Bezout identity exists in the certified ansatz"
+    ]
+  },
+  "dependency_sha256": {
+    "scripts/item217_common_log_invariant_certificate.py": "b84a97d2d0d62ca950a7f7e8907baed7623879739ed78f04bbd8bc642e4c4d83",
+    "sources/item197_common_log_locus_report.md": "2241656ac9c47e81b5026449a97c15bed7d35290bf2b6a91cdfed4bb3fe3683c",
+    "sources/item217_common_log_invariant_report.md": "89e8f8f7f9fabdafa8d9330171eb388e854df835c10ee50be4f4f5b43e028466"
+  },
+  "endpoint_formulas": {
+    "cross_cell_coupling": {
+      "nonzero_E_C_minors": [
+        9,
+        18
+      ],
+      "nu0_covectors_in_E_C_S": [
+        [
+          0,
+          1,
+          "-2epsilon"
+        ],
+        [
+          -9,
+          20,
+          "-2epsilon"
+        ]
+      ],
+      "nu1_covectors_in_E_C_S": [
+        [
+          0,
+          2,
+          "epsilon"
+        ],
+        [
+          -9,
+          "2epsilon",
+          20
+        ]
+      ],
+      "scoped_obstruction": "the two formal cell covectors are independent for p>3, but the actual j1 and j2 rows lie on disjoint r-parity components, so their minors cannot be used as a same-phase Bezout contradiction"
+    },
+    "definitions": {
+      "C_nu": "sum_h (-1)^h [z^(2h)]P_nu/(N_nu-2h)",
+      "E_nu": "V_nu(1)",
+      "S_nu": "sum_h (-1)^h [z^(2h+1)]P_nu/(N_nu-2h-1)"
+    },
+    "j1_actual_row": [
+      "C_0-2epsilon*S_0",
+      "2C_1+epsilon*S_1"
+    ],
+    "j2_actual_row": [
+      "20C_0-2epsilon*S_0-9E_0",
+      "2epsilon*C_1+20S_1-9E_1"
+    ],
+    "minimality": {
+      "common_endpoint_basis": [
+        "E=V(1)",
+        "C=even part of V(i)",
+        "S=odd part of V(i)/i"
+      ],
+      "conclusion": "three endpoint coordinates are minimal for a universal odd-prime reduction",
+      "evaluation_matrix_determinant": 2,
+      "test_polynomials": [
+        "1",
+        "z",
+        "z^2"
+      ]
+    }
+  },
+  "exact_differential_reduction": {
+    "N_nu": "2p-2s+nu-1",
+    "P_nu": "(1-z)^r(1+z)^(1+3nu)(1+z^2)^(2s-nu)",
+    "V_nu": "sum_k [z^k]P_nu*z^k/(N_nu-k)",
+    "euler_identity": "(N_nu-z*d/dz)V_nu=P_nu",
+    "exact_form": "P_nu*z^(-N_nu-1)dz=-d(z^(-N_nu)V_nu)",
+    "finite_log_coordinate_remaining": "NONE_IN_THE_INTERIOR_NONRESONANT_REDUCTION",
+    "j1_kernel": "L_1=(2-z^p)B_p",
+    "j2_kernel": "L_2=9z^p A_p+(1-10z^p)B_p",
+    "moment_reduction": "H_(j,nu)=Res_0 L'_j z^(-N_nu)V_nu dz",
+    "regression": {
+      "formal_r_s_max": 10,
+      "identity": "(N_nu-z*d/dz)V_nu=P_nu",
+      "nonresonance": "N_nu-p=deg(P_nu)+r+1>deg(P_nu)",
+      "row_stream_sha256": "628bf009185c761f8a491cab35bbc9b2933a7c8da3b0b2db2fa88947ad916bbb",
+      "rows": 200
+    },
+    "remaining_coordinate": "the incomplete Euler-resolvent endpoint vector (E_nu,C_nu,S_nu)"
+  },
+  "finite_actual_replay": {
+    "classification": "EXACT_FINITE_ONLY",
+    "endpoint_coordinate_zero_counts": {
+      "C": 25,
+      "E": 28,
+      "S": 69
+    },
+    "j1": {
+      "H0_zero": 1,
+      "H1_zero": 2,
+      "paired_zero": 0,
+      "rows": 479
+    },
+    "j2": {
+      "H0_zero": 3,
+      "H1_zero": 3,
+      "paired_zero": 0,
+      "rows": 482
+    },
+    "prime_max": 251,
+    "row_stream_sha256": "262e618d9d9495ae88079ba7aeed52ca38050cae7cdecc86eac5e920b102f43f",
+    "scope_warning": "bounded nonoccurrence is not an all-prime or rate theorem"
+  },
+  "item": 220,
+  "phase_parameterization": {
+    "epsilon": "(-1)^((p-1)/2)=(-1)^(r+s+1)",
+    "j1_admissibility": "r even",
+    "j2_admissibility": "r odd",
+    "prime": "p=2r+6s+3",
+    "r_minimum": 1
+  },
+  "rate_ledger": {
+    "all_prime_paired_cell_exclusion": "OPEN",
+    "conditional_margin_below_gap": "0.000759986304558128800634920634920634920634920634922",
+    "conditional_remaining_per_6m": "0.018872997364873665079365079365079365079365079365078",
+    "conditional_remaining_per_m": "0.11323798418924199047619047619047619047619047619047",
+    "decimal_status": "conditional bookkeeping at the displayed precision; the cell masses 1/6 and 2/35 are the exact proof inputs",
+    "gap_per_6m": "0.01963298366943179388",
+    "j1_mass_per_m": "1/6",
+    "j2_mass_per_m": "2/35",
+    "new_divisibility_exponent": 0,
+    "new_unconditional_linear_log_rate": 0,
+    "raw_per_m_displayed_input": "0.3370475079987658",
+    "raw_per_m_source": "displayed numerical ceiling inherited from Item 217"
+  },
+  "runtime": {
+    "external_numeric_backend": null
+  }
+}

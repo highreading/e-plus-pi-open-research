@@ -1,0 +1,37 @@
+{
+  "artifacts": {
+    "results/item212_offray_phase_eliminant_certificate.json": {
+      "role": "canonical deterministic output",
+      "sha256": "063c03111201b4fa5236add5a0d207400da0dd8096a4ffdb53ad01ecd005aff5",
+      "work_source": "item212_offray_phase_eliminant_certificate.json"
+    },
+    "results/item212_offray_phase_eliminant_certificate.replay.json": {
+      "role": "independent replay output; byte-identical to canonical",
+      "sha256": "063c03111201b4fa5236add5a0d207400da0dd8096a4ffdb53ad01ecd005aff5",
+      "work_source": "item212_offray_phase_eliminant_certificate_replay.json"
+    },
+    "scripts/item212_offray_phase_eliminant_certificate.py": {
+      "role": "Python-standard-library exact phase/eliminant checker",
+      "sha256": "2cf099cbe55ab6cfc8d1a92f79f4d2ac6a715287041427c757da96e85165efe6",
+      "work_source": "item212_offray_phase_eliminant_certificate.py"
+    },
+    "sources/item212_offray_phase_eliminant_report.md": {
+      "role": "proof report and Route-1 phase-rate ledger",
+      "sha256": "db7f77168c6c1242d772ce43b0b8f99f40c62511203c4473f998bb7e348e0e7f",
+      "work_source": "item212_offray_phase_eliminant_report.md"
+    }
+  },
+  "canonical_command_from_archive_root": "python scripts/item212_offray_phase_eliminant_certificate.py --output results/item212_offray_phase_eliminant_certificate.json",
+  "dependencies": {
+    "archive_files": {},
+    "external_files": [],
+    "python": "3.11+ standard library only"
+  },
+  "portability": {
+    "archive_path_required": false,
+    "host_absolute_paths_embedded": false,
+    "explicit_output_makes_archive_root_replay_portable": true
+  },
+  "replay_command_from_archive_root": "python scripts/item212_offray_phase_eliminant_certificate.py --output results/item212_offray_phase_eliminant_certificate.replay.json",
+  "schema": "item212-portable-manifest-v1"
+}

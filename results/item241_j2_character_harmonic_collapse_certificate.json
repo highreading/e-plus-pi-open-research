@@ -1,0 +1,60 @@
+{
+  "booking": {
+    "capacity_reduction": 0,
+    "conclusion_about_e_plus_pi": "none",
+    "new_divisibility_exponent": 0,
+    "new_unconditional_linear_log_rate": 0
+  },
+  "cell": "normalized common-log j=2 fixed cell, p>=17, s>=2",
+  "dependencies": {
+    "item239_checker": "item239_j2_actual_witt_bridge_certificate.py",
+    "item239_checker_sha256": "3715e70670befb3dff0f16e6d7056750acd230b771a28b5ced47bae53ea94dc5"
+  },
+  "finite_replay": {
+    "even_state_transition_checks": 7014,
+    "forced_character_state_checks": 7014,
+    "odd_indices_with_unit_90_coefficient": 7087,
+    "odd_state_transition_checks": 7014,
+    "prime_count": 73,
+    "prime_denominator_pair_count": 14174,
+    "prime_max_inclusive": 401,
+    "row_digest_sha256": "de141147df23fae5f44b314df8710e46e24b6ccb4a77820ab07cd677ebc98960",
+    "status": "EXACT FINITE REPLAY OF ALL-ROW IDENTITIES"
+  },
+  "global_interface": "K_nu enters only the stronger Item239 p^3 condition; Item241 does not strengthen the ordinary p^2 common-log gate and books no fixed-cell capacity",
+  "item": 241,
+  "proved": {
+    "AA_collapse": "9a(p+n)-18a(n)=-54H_(n-1)/n-18/n^2",
+    "AB_collapse": "the three needed AB sections are the explicit A_N,O_N formulas in the report; no convolution table remains",
+    "BB_even_collapse": "for n=2u: C(n)*(-30H_(u-1)/u+6/u^2)",
+    "BB_odd_collapse": "for odd n and h_n=(p+n)/2: J(n)*(3H_(h_n-1)/h_n-3/h_n^2)",
+    "alternating_prefix": "A_N=sum_{j=1}^N (-1)^j/j=H_floor(N/2)-H_N modulo p",
+    "character_state": "R_u=(-1)^u O_u obeys R_(u+1)=-R_u-1/(2u+1); Z_u=90R_u/(2u+1) obeys Z_(u+1)=-(2u+1)/(2u+3) Z_u-90/((2u+1)(2u+3))",
+    "full_kernel": "K_p^(1)+K_p^(2) is the explicit parity formula and output map of two seven-coordinate first-order states",
+    "unit_audit": "for p>=17, every displayed in-range denominator and 90 are p-units"
+  },
+  "route": "Route 1A",
+  "schema": "item241-j2-character-harmonic-collapse-v1",
+  "scoped_consequence": {
+    "bulk_forcing": "the character state has a nonzero inhomogeneous source at every interior odd index, with unit output coefficient 90",
+    "not_proved": "the coefficient-state update is not a boundary-only terminal recurrence for sums against P_nu; restricted-row cancellation or a telescoper may still exist",
+    "proved": "the depth-two convolution coordinate can be replaced by a finite affine coefficient state with one explicit mod-4 character prefix"
+  },
+  "status_ledger": {
+    "EXACT_FINITE": [
+      "the bounded exhaustive replay of the all-row formulas and state transitions"
+    ],
+    "OPEN": [
+      "turn the coefficient state into a boundary-only terminal recurrence after summation against P_nu",
+      "exclude aggregate cancellation of the forced bulk coordinate on the restricted row family",
+      "classify simultaneous j=2 common-log zeros over all primes",
+      "obtain any Route-1 rate or capacity reduction"
+    ],
+    "PROVED": [
+      "all-index harmonic collapse of AA, BB, and all three AB sections",
+      "the simplified full corrected kernel for both parities",
+      "two exact seven-coordinate rational first-order coefficient states",
+      "the inhomogeneous mod-4 character-prefix update and complete range/unit audit"
+    ]
+  }
+}

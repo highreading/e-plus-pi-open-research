@@ -1,0 +1,102 @@
+{
+  "schema": "item312-A-telescoper-singular-no-go-manifest-v1",
+  "item": 312,
+  "title": "Exact A_s telescoper, singular-pivot localization, and bounded-operator no-go",
+  "date": "2026-08-31",
+  "status": "PROVED_ALL_S_OPERATOR_AND_SCOPED_BOUNDED_RECURRENCE_NO_GO",
+  "canonical_files_modified": false,
+  "artifacts": [
+    {
+      "path": "work/item312_A_telescoper_singular_no_go_report.md",
+      "role": "all-s theorem, endpoint proof, moving-pivot localization, capacity, and strict scope",
+      "sha256": "9dfe6395947c4a3ff8b1e4f529a18b9e0fc3e92242c739b3225d819a4664d5a6"
+    },
+    {
+      "path": "work/item312_A_telescoper_singular_no_go_certificate.py",
+      "role": "exact deterministic symbolic replay",
+      "sha256": "20b914d80c58fdc66b7a68f7c0647993df1bc993ebc31221071e0c6ad1489469"
+    },
+    {
+      "path": "work/item312_A_telescoper_data.json",
+      "role": "explicit degree-11 rational telescoping certificate polynomial and expanded certificate",
+      "sha256": "64cdd3c400c0472fef2e6b7949ccff2a15478ba7a96eb232ab05f2c547cd993c"
+    },
+    {
+      "path": "work/item312_A_telescoper_singular_no_go_certificate.json",
+      "role": "canonical work-package certificate output",
+      "sha256": "21373d42a41590895112b4567bd3eae988166db8d84d55db9514be0e59e8f7f9"
+    },
+    {
+      "path": "work/item312_A_telescoper_singular_no_go_certificate.replay.json",
+      "role": "independent byte-identical replay output",
+      "sha256": "21373d42a41590895112b4567bd3eae988166db8d84d55db9514be0e59e8f7f9"
+    },
+    {
+      "path": "work/item312_A_telescoper_singular_no_go_ledger_delta.json",
+      "role": "proposed ledger delta; no canonical edit",
+      "sha256": "23a6f4d9a1e86409b70f39b0ca27e119debf5a54c777a0e769b09be6ceeb839d"
+    }
+  ],
+  "pinned_canonical_item310": {
+    "sources/item310_j1_container_holonomy_no_go_report.md": "35537c7908392d860ea58334f0ea5fe728f7158a7338992ab091df89d8742eb0",
+    "scripts/item310_j1_container_holonomy_no_go_certificate.py": "b03b91da941b22eef55f7a3bb5e91fd8abdcbf249ce89677e1e2ac497ca71880",
+    "results/item310_j1_container_holonomy_no_go_certificate.json": "025ac9ae87cbec544877e072dc5c79fad82039d4d85e4d1abe73d0ffadc77d16",
+    "results/item310_j1_container_holonomy_no_go_certificate_replay.json": "025ac9ae87cbec544877e072dc5c79fad82039d4d85e4d1abe73d0ffadc77d16",
+    "results/item310_j1_container_holonomy_no_go_ledger.json": "610d70ae0d64c5339231bdde37f293c22134cbd70b94f4b6917ec7d6a99daa9c",
+    "results/item310_j1_container_holonomy_no_go_hashes.sha256": "786e540fbde50b083ae2f29e88b6ebf3a6c1836b80574c093ae371b97cbcc583",
+    "manifests/item310_j1_container_holonomy_no_go_manifest.json": "6c2162f0ab9e514c179b38bc3fa4e4380e0b85ff45338abe4463fe57573ac011",
+    "results/item310_root_audit.json": "7375bcc491bd1641764f3a980311c5a8038a602c5d9aea6535b9f23d8580cf76"
+  },
+  "replay": {
+    "command": "python work/item312_A_telescoper_singular_no_go_certificate.py --output work/item312_A_telescoper_singular_no_go_certificate.replay.json",
+    "expected_stdout": {
+      "bounded_recurrence_no_go": "POSITIVE_M_OVER_38_COMPARISON",
+      "capacity_reduction": "ZERO",
+      "item": 312,
+      "operator": "PROVED_ALL_s_ORDER_3_DEGREE_7",
+      "singular_pivot_mass": "O(log M)"
+    },
+    "expected_replay_sha256": "21373d42a41590895112b4567bd3eae988166db8d84d55db9514be0e59e8f7f9",
+    "byte_identical": true
+  },
+  "proved": [
+    "The exact Item-310 rational aggregate A_s has the displayed all-s order-three degree-seven recurrence.",
+    "The rational Gosper certificate is exact in Q(s,m), and its lower, removable, and terminal endpoints close for every integer s>=1.",
+    "The leading and trailing recurrence coefficients factor completely, with irreducible quadratic factors of discriminant 503440.",
+    "Every actual prime singularity of a recurrence pivot divides R_0(M) or R_3(M), two explicit nonzero degree-seven fixed-M integers.",
+    "Actual-prime pivot singularities have total logarithmic mass O(log M)=o(M)."
+  ],
+  "scoped_information_class_no_go": {
+    "comparison": "C_s=binomial(7s,s)",
+    "operator_order": 1,
+    "coefficient_degree": 7,
+    "actual_fixed_M_tied_prime_mass": "(1/38)M+o(M)",
+    "applies_only_to": "bounded order/degree, integrality, nonvanishing, and exponential height without exact coefficient arithmetic",
+    "not_a_counterexample_to": [
+      "the exact Item-312 operator",
+      "the actual A_s sequence",
+      "the Gaussian coordinate",
+      "the actual D_s,epsilon containers"
+    ]
+  },
+  "capacity": {
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "singular_pivot_mass": "O(log M)=o(M)",
+    "retained_ceiling_per_6M": "1/36",
+    "reason": "The theorem localizes recurrence singularities only; it gives no bound for collision zeros on regular recurrence rows."
+  },
+  "open": [
+    "absolute minimality of the displayed A_s operator",
+    "a useful exact annihilator or invariant for B_s or D_s,epsilon",
+    "moving-prime control of the actual paired state a_s,b_s,epsilon",
+    "W_D(M)=o(M), fixed-j=1 closure, Route 1, and every conclusion about e+pi"
+  ],
+  "not_claimed": [
+    "a prime scan",
+    "a factor census",
+    "that collision primes must divide recurrence pivots",
+    "that the comparison sequence is the actual sequence",
+    "positive capacity"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "schema": "item253-root-audit-v1",
+  "item": 253,
+  "audited_date_beijing": "2026-08-31",
+  "disposition": "accepted for archive with zero rate booking",
+  "sealed_artifacts": {
+    "report_sha256": "2d08211e7565d9ca06455ffd50985a2866a7442b34752a40ec9bf10106bae76d",
+    "checker_sha256": "95a86b4ffb4130291b5b8b1ea37b23fab3f30de5e883769f7d6575504e096b8f",
+    "canonical_sha256": "dffbdc2bf78c282aef45df9817e83f2aa976e82992ba1de982b1b0ae109adf95",
+    "replay_sha256": "dffbdc2bf78c282aef45df9817e83f2aa976e82992ba1de982b1b0ae109adf95",
+    "strict_ledger_sha256": "7502f449af25ff6b6627331946027448161788867277d12d43412b08260a034f",
+    "manifest_sha256": "314f95de6f91ef4e718e3ec6da24ea05fd3c9784a5080b0a1cce3465b2562dac",
+    "hash_ledger_sha256": "2278812ad0260bdcecea68359407dbffa4f68105b38affac076106723d5af703"
+  },
+  "dependencies": {
+    "runtime_files": [],
+    "standard_library_only": true
+  },
+  "portable_replay": {
+    "isolated_archive_style_runs": 2,
+    "canonical_replay_byte_identical": true,
+    "output_matches_sealed_canonical": true,
+    "output_sha256": "dffbdc2bf78c282aef45df9817e83f2aa976e82992ba1de982b1b0ae109adf95",
+    "manifest_validation_failures": 0,
+    "control_bytes": 0
+  },
+  "independent_formula_probe": {
+    "imports_item_code": false,
+    "script_sha256": "203776d1dc02060556a4c16e2cfe65f2bfe20007d2a41099f7da0348c49793d9",
+    "result_sha256": "8340381966ae3e9572352f388b9a8f7630f8a7f6105854fc8423d8bb42aee721",
+    "exact_increment_checks": 195,
+    "actual_rows_through_p_401": 1153,
+    "phase_equalities": 1153,
+    "cartier_primes_through_101": 24,
+    "separation_witnesses_reproduced": true
+  },
+  "root_mathematical_audit": {
+    "phase_binomial_sign_checked": true,
+    "integer_boundary_minus_one_retained": true,
+    "increment_coefficient_identity_checked": true,
+    "terminal_Q_normalization_checked": "Q_delta(m)=(2delta^2+5delta+29)/18 modulo p; the provisional /9 normalization was rejected",
+    "fixed_r_and_fixed_p_scope_checked": true,
+    "all_denominator_ranges_checked": true,
+    "Cartier_derivative_at_one_checked": "N'(1)=-p*epsilon_2, hence C_p(1)=0",
+    "six_section_kernel_scoped_to_ambient_value_data": true,
+    "prefix_and_terminal_increment_separation_checked": true
+  },
+  "labels": {
+    "proved": "exact phase diagonal, hypergeometric increment, fixed-r terminal-increment invariant, Cartier identity, and value-only six-section barrier",
+    "exact_finite_only": "2,440 rows through p<=601; independent 1,153-row replay through p<=401",
+    "open": "the incomplete prefix, actual gate collision, higher-rank or derivative closure, and weighted-zero control"
+  },
+  "booking": {
+    "new_unconditional_linear_log_rate": 0,
+    "capacity_reduction": 0,
+    "route1_conclusion": "none"
+  }
+}

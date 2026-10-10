@@ -1,0 +1,418 @@
+{
+  "actual_prime_or_target_census_performed": false,
+  "capacity_booking": {
+    "new_beta_capacity_reduction": 0,
+    "new_booking": 0,
+    "new_route1_rate": 0
+  },
+  "certificate_digest": "0a119ae2d9a1e18fb11e44f080d8eaf911335372a6c7262136e320c14e6ef124",
+  "checked_date_beijing": "2026-09-01",
+  "claims": {
+    "binary_definite": "Delta<0 gives beta-scale separation by completing the square",
+    "binary_irreducible": "nonsquare indefinite forms cannot vanish and satisfy |Q(T)|>=gcd(T1,T2)^2, but Pell-small norms exist",
+    "binary_split": "square Delta reduces exact zeros to rational positive lines",
+    "live_conics": "irreducible indefinite conics may vanish strictly inside the positive Newton cone",
+    "newton_identity": "2(N-2)e2^2-3(N-1)e1e3=sum_(i<j)(xi-xj)^2*((e1^(ij))^2-e2^(ij))",
+    "singleton_newton_separation": "normalized Newton gap exceeds A^-12*N^-2",
+    "ternary_definite": "integral definite doubled matrix gives beta-scale eigenvalue separation",
+    "ternary_reciprocal_cone": "nonnegative iff a,b,d,e,f>=0 and 2c+3d>=0, or all inequalities reversed"
+  },
+  "classification": "PROVED_LOW_DEGREE_CLASSIFICATION_AND_NEWTON_STABILITY",
+  "constructed_actual_sub_beta_carrier": false,
+  "controls": {
+    "binary": {
+      "rows": [
+        {
+          "class": "definite",
+          "coefficients": [
+            2,
+            1,
+            3
+          ],
+          "discriminant": -23
+        },
+        {
+          "class": "definite",
+          "coefficients": [
+            -3,
+            -2,
+            -5
+          ],
+          "discriminant": -56
+        },
+        {
+          "class": "rational_split_positive_line",
+          "coefficients": [
+            1,
+            0,
+            -4
+          ],
+          "discriminant": 16,
+          "positive_line": "X=2Y"
+        },
+        {
+          "class": "irreducible_indefinite_Pell_small",
+          "coefficients": [
+            1,
+            0,
+            -2
+          ],
+          "discriminant": 8,
+          "pell_rows": [
+            {
+              "primitive_norm": 1,
+              "q": 3,
+              "r": 2
+            },
+            {
+              "primitive_norm": 1,
+              "q": 17,
+              "r": 12
+            },
+            {
+              "primitive_norm": 1,
+              "q": 99,
+              "r": 70
+            },
+            {
+              "primitive_norm": 1,
+              "q": 577,
+              "r": 408
+            }
+          ]
+        }
+      ],
+      "rows_digest": "df767ee3c0d0719f8b5bdfe5a9ea4393553787aeb4418ff1504524a906c899b0"
+    },
+    "definite_and_live_ternary": {
+      "bounded_primitive_indefinite_norm_rows": [
+        {
+          "indefinite_norm": 1,
+          "primitive_point": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "indefinite_norm": 1,
+          "primitive_point": [
+            5,
+            5,
+            7
+          ]
+        },
+        {
+          "indefinite_norm": 1,
+          "primitive_point": [
+            29,
+            29,
+            41
+          ]
+        },
+        {
+          "indefinite_norm": 1,
+          "primitive_point": [
+            169,
+            169,
+            239
+          ]
+        }
+      ],
+      "definite_rows": [
+        {
+          "matrix": [
+            [
+              4,
+              1,
+              0
+            ],
+            [
+              1,
+              6,
+              1
+            ],
+            [
+              0,
+              1,
+              8
+            ]
+          ],
+          "principal_minors": [
+            4,
+            23,
+            180
+          ]
+        },
+        {
+          "matrix": [
+            [
+              6,
+              -1,
+              1
+            ],
+            [
+              -1,
+              8,
+              0
+            ],
+            [
+              1,
+              0,
+              10
+            ]
+          ],
+          "principal_minors": [
+            6,
+            47,
+            462
+          ]
+        }
+      ],
+      "live_irreducible_conic": {
+        "actual_singleton_mass_claimed": false,
+        "coordinates": [
+          12,
+          13,
+          6
+        ],
+        "doubled_matrix_determinant": 4112784,
+        "equation": "169*T1*T3-72*T2^2",
+        "loads": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "strict_newton_gap": 28,
+        "value": 0
+      }
+    },
+    "newton_stability": {
+      "actual_algebra_control": {
+        "capital_A": 20,
+        "coordinates": [
+          1209742136,
+          120300817,
+          4263824
+        ],
+        "declared_lower": "1/147456000000000000",
+        "gap_value": 38406379267618952,
+        "loads": [
+          46,
+          87,
+          217,
+          74,
+          5,
+          11
+        ],
+        "normalized_gap": "4800797408452369/182934504451730312"
+      },
+      "identity_rows": [
+        {
+          "N": 3,
+          "identity_digest": "f418fba9725355edc7b67ed838fcd76b640afc85820a1a8b5b7e1f6a5d5f56be",
+          "terms": 6
+        },
+        {
+          "N": 4,
+          "identity_digest": "e1f60fc21c8b9969e518a8ac1f4921d2ac97e0fb2e3c0c70b19f4efe94915ab5",
+          "terms": 19
+        },
+        {
+          "N": 5,
+          "identity_digest": "28f0ea96de2715e7ef39629860e0ef56db4749ace02a05348dc60bd763063506",
+          "terms": 15
+        },
+        {
+          "N": 6,
+          "identity_digest": "1b1472b7d5254b585415462eddfa45041f3eecc47db4e2a244f8087313f0734d",
+          "terms": 90
+        },
+        {
+          "N": 7,
+          "identity_digest": "78f70413ab83f6f57bb25d752c26b2e6a7c320e13e0c0aa88c1c24718ce748e9",
+          "terms": 161
+        }
+      ],
+      "identity_rows_digest": "e480d1ec573f6679c122d8efba1fc2ca972e150581f4ce2a1f3270f16e3a3204"
+    },
+    "ternary_reciprocal_coefficient_table": {
+      "cd_rows_checked": 169,
+      "cd_rows_digest": "c43e29d91ec42406e236f03d7d0ac25fb0d9138ffba6fff6b4bb4ed2d2cb4e4b",
+      "e1e3_type_coefficients": {
+        "(1, 1, 1, 1)": 4,
+        "(2, 1, 1)": 1
+      },
+      "e2_squared_type_coefficients": {
+        "(1, 1, 1, 1)": 6,
+        "(2, 1, 1)": 2,
+        "(2, 2)": 1
+      }
+    }
+  },
+  "declared_symbolic_controls_only": true,
+  "dependencies": {
+    "count": 26,
+    "rows": [
+      {
+        "bytes": 14388,
+        "path": "sources/item316_beta_intermediate_ostrowski_no_go_report.md",
+        "sha256": "8d6dce8354f08e94a252a2120cf677d9a374df95507a9297dcb064a1982fb6b0"
+      },
+      {
+        "bytes": 11912,
+        "path": "results/item316_beta_intermediate_ostrowski_no_go_certificate.json",
+        "sha256": "5167e9d160fcecac86791944e41a176d3400f2a6856090de7cf78d55984e7aa4"
+      },
+      {
+        "bytes": 3018,
+        "path": "results/item316_root_audit.json",
+        "sha256": "6cad978132f5f09c687aa8fcf8dcd92a7d917cf9411a69f679c7757139229175"
+      },
+      {
+        "bytes": 5980,
+        "path": "manifests/item316_beta_intermediate_ostrowski_no_go_manifest.json",
+        "sha256": "aac741658430fb661de078adfeafdbc3a9d20312a8fd8725cb4244d406d9bcf6"
+      },
+      {
+        "bytes": 11855,
+        "path": "sources/item358_beta_actual_low_incidence_saturation_barrier_report.md",
+        "sha256": "681c9f9cbe926978c78f632084c8be83439c2ac3f5e50f2c2697a49f2f0da68d"
+      },
+      {
+        "bytes": 15507,
+        "path": "results/item358_beta_actual_low_incidence_saturation_barrier_certificate.json",
+        "sha256": "4da88e55dec36f3c130def549007c8ae1509ff0a029dfed9ff25f67a78c2ffa3"
+      },
+      {
+        "bytes": 3638,
+        "path": "results/item358_beta_actual_low_incidence_saturation_barrier_root_audit.json",
+        "sha256": "a1a48f7d7080834ebf3be56b47d8056733e88e1913e8f6ea784f97a5eb2d9172"
+      },
+      {
+        "bytes": 8117,
+        "path": "manifests/item358_beta_actual_low_incidence_saturation_barrier_manifest.json",
+        "sha256": "4ba799fe2fc8cb6063034d844f91bcaec6c3fc84d043b1f46c675fce400acfb1"
+      },
+      {
+        "bytes": 10614,
+        "path": "sources/item373_beta_symmetric_singleton_first_quotient_report.md",
+        "sha256": "daa16600359a52501fcbe303359e39696c1f0b0acfdb62b944b19be77784d6c5"
+      },
+      {
+        "bytes": 16141,
+        "path": "scripts/item373_beta_symmetric_singleton_first_quotient_certificate.py",
+        "sha256": "8158fd3e100c1a7abb5efa0048a979a6e368e7328ae67743731041b756944bcf"
+      },
+      {
+        "bytes": 31298,
+        "path": "results/item373_beta_symmetric_singleton_first_quotient_certificate.json",
+        "sha256": "335be8c519597bc1fd1a6e21cb9bbbbe37b1785a2468e4f0a7d6c205a9cb2cc5"
+      },
+      {
+        "bytes": 3201,
+        "path": "results/item373_beta_symmetric_singleton_first_quotient_ledger_delta.json",
+        "sha256": "6d2193aecb20165fd44082c5e0a2959756e7f62bbac7e35efd6ac5be76b28a39"
+      },
+      {
+        "bytes": 3921,
+        "path": "results/item373_beta_symmetric_singleton_first_quotient_root_audit.json",
+        "sha256": "3b5d6b13fdd327e27b518744edd2666cc58895fb401f7050ad52046810bb1128"
+      },
+      {
+        "bytes": 7195,
+        "path": "manifests/item373_beta_symmetric_singleton_first_quotient_manifest.json",
+        "sha256": "a42cd4b5e306b5fe864e4832e11726380d9bf4197868884f1879dc98b91aeacf"
+      },
+      {
+        "bytes": 12430,
+        "path": "sources/item375_beta_symmetric_content_primitive_no_go_report.md",
+        "sha256": "4acda264afe6fa40431d041fbbbc3634eeb0ec1395a35b682611764f5c92fb12"
+      },
+      {
+        "bytes": 18316,
+        "path": "scripts/item375_beta_symmetric_content_primitive_no_go_certificate.py",
+        "sha256": "ab42775d9d854c1b62fe25e5aa929b00f7c8f07b1c04331a56b111c5b3d996b9"
+      },
+      {
+        "bytes": 13573,
+        "path": "results/item375_beta_symmetric_content_primitive_no_go_certificate.json",
+        "sha256": "e96a358a761bf3f83ae791ebcc83756feb17725fd68ba58d611b00800f3ff6d3"
+      },
+      {
+        "bytes": 3716,
+        "path": "results/item375_beta_symmetric_content_primitive_no_go_ledger_delta.json",
+        "sha256": "d0cc6de271dcf31adb0ec605d824410f0320b89a9ddcfd4f722a22d3d19adbf5"
+      },
+      {
+        "bytes": 3858,
+        "path": "results/item375_beta_symmetric_content_primitive_no_go_root_audit.json",
+        "sha256": "8e0a605818fd7779552c9c196fb00584c9a8d58937d6b40063f9e6b6cad7e5d9"
+      },
+      {
+        "bytes": 6364,
+        "path": "manifests/item375_beta_symmetric_content_primitive_no_go_manifest.json",
+        "sha256": "79db075b1c5cab090fa942c8bacb4dd0e7ea80eace9cc26c7f4e4cf91ce42621"
+      },
+      {
+        "bytes": 12470,
+        "path": "sources/item378_beta_top_symmetric_multivariate_cancellation_report.md",
+        "sha256": "2b3ccd3123e2be2964c50cbcc5a4efae373a1831ba8adc821e3b328bcc4a35fc"
+      },
+      {
+        "bytes": 18033,
+        "path": "scripts/item378_beta_top_symmetric_multivariate_cancellation_certificate.py",
+        "sha256": "59e18be6f61e7b9a1a25565f8794ea0e8fca3aa522979b8891dd4b54467a639e"
+      },
+      {
+        "bytes": 11092,
+        "path": "results/item378_beta_top_symmetric_multivariate_cancellation_certificate.json",
+        "sha256": "a894df120ed27c83c589dfd0a4c48a7ce66b8c6521772b861e3c264fd75107c8"
+      },
+      {
+        "bytes": 3710,
+        "path": "results/item378_beta_top_symmetric_multivariate_cancellation_ledger_delta.json",
+        "sha256": "79d2b0ad602ef827f623739b5330b91379d750acbdf8c595fe4d80e0d4392d90"
+      },
+      {
+        "bytes": 4166,
+        "path": "results/item378_beta_top_symmetric_multivariate_cancellation_root_audit.json",
+        "sha256": "37e706b6e096aef885fafeafe1594a8c00f8c15d6eb3dbf85d7c2f152bfc2d60"
+      },
+      {
+        "bytes": 6623,
+        "path": "manifests/item378_beta_top_symmetric_multivariate_cancellation_manifest.json",
+        "sha256": "4a574ac75c61fd1eae7f0539f11fcee07a6713e834bba095f2e26b4148f548aa"
+      }
+    ],
+    "rows_digest": "b1a2a15b35f8b5618eb5c73917f621161273795a24b81dff8219ed4eb1be7238"
+  },
+  "item": 381,
+  "schema": "item381-beta-low-degree-symmetric-cancellation-classification-v1",
+  "strict_labels": {
+    "EXACT_FINITE_ONLY": [
+      "predeclared discriminants, Pell pairs, coefficient tables, Newton identities, and ambient conics"
+    ],
+    "OPEN": [
+      "actual rational split-line correlation",
+      "binary primitive Pell norms and gcd",
+      "ternary actual isotropy, primitive norms, and gcd",
+      "higher mixed-sign varieties and U_11 weighted bound"
+    ],
+    "PROVED": [
+      "complete binary discriminant classification",
+      "ternary reciprocal coefficient cone",
+      "normalized Newton stability and singleton separation",
+      "definite ternary bound",
+      "primitive gcd/norm factorizations",
+      "zero booking"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "definite binary and ternary quadratics",
+      "reciprocal-positive and Newton-certified ternary quadratics",
+      "split lines separated from the actual interval",
+      "sub-beta denominators and content escapes"
+    ]
+  }
+}

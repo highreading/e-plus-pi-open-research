@@ -1,0 +1,69 @@
+{
+  "item": 354,
+  "schema": "item354-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_INCIDENCE_RESULTANT_TOWER_AND_LOW_MULTIPLICITY_SCOPED_NO_GO",
+  "scope": "independent root audit of the conditional actual-beta mesoscopic incidence tower, first-hit factorization, all-layer height, and squarefull-de-overlapped low-incidence criterion",
+  "checks": {
+    "certificate_sha256": "964d4f38ce8c3c7ba7046da66e29a2b90000be009987896704388459fd5c51d1",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_checks": 27,
+    "work_manifest_failures": 0,
+    "frozen_dependencies_checked": 21,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 7,
+    "work_hash_list_match": true,
+    "independent_incidence_patterns": 280,
+    "independent_r_wise_gcd_checks": 1680,
+    "independent_layer_and_first_hit_checks": 280,
+    "independent_squarefull_split_checks": 1680,
+    "all_independent_checks": true,
+    "prime_or_target_census_performed": false,
+    "report_inline_dollar_delimiters": "136/136",
+    "report_display_delimiters": "33/33",
+    "report_fences": "2/2",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "conditional_actual_scope": "assuming an actual Item316 target, every active mesoscopic row carrier is one t-avoiding prime A<p<A^2; exact-zero and inactive rows contribute one",
+    "tower": "a prime of row multiplicity nu_p occurs in exactly binom(nu_p,r) r-wise gcds, giving G_r and its radical R_r exactly",
+    "layer_cake": "the identity product_j C_j=product_r R_r and the first-hit identity product_j D_j^(>A)=R_1 hold prime by prime",
+    "height": "R_r^r divides the row product, so log R_r<2N_A log A/r; at r=2 this still permits one full log b scale",
+    "criterion": "R_1=S_(<L)R_L makes a growing low-incidence bound necessary and sufficient for mesoscopic zero rate after Item346's small-prime theorem",
+    "squarefull_overlap": "the v_p(Q)>=2 radical divides E(Q), while row incidence nu_p and denominator valuation v_p(Q) are distinct statistics",
+    "item350_scope": "only selected-hit compatibility from Item350 is used; no genuine first-occurrence construction is imported",
+    "scope_warning": "the theorem isolates rather than proves the needed actual low-incidence squarefree bound and supplies no reduction of beta capacity"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "conditional actual incidence and first-hit identities",
+      "complete specialized r-wise gcd tower",
+      "all-layer height theorem",
+      "growing low-incidence equivalence",
+      "squarefull-de-overlapped inequality",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared and independent synthetic incidence controls; no actual-target or prime census"
+    ],
+    "OPEN": [
+      "actual growing low-incidence squarefree mass",
+      "Xi_Q and Item265 squarefull excess",
+      "H_Q, K_Q, Gamma_Q, and centered half-bound",
+      "any beta-capacity reduction",
+      "Route 1",
+      "e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_Xi_Q_maximum": "log b",
+    "pairwise_R_2_maximum": "(1+o(1))*log b",
+    "growing_high_multiplicity_tail_rate": 0,
+    "actual_low_incidence_rate": "OPEN",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "new_booking": 0
+  }
+}

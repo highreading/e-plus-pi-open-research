@@ -1,0 +1,85 @@
+{
+  "schema": "item265-beta-squarefull-capacity-ledger-v1",
+  "scope": "Global Route-1 closer for the fixed-seed beta denominator squarefull/excess-valuation capacity after two-copy clearing-reservoir normalization",
+  "claims": [
+    {
+      "id": "I265-C1",
+      "label": "PROVED",
+      "claim": "For sqfull(n)=product over v_p(n)>=2 of p^v_p(n) and E(n)=n/rad(n), one has E(n)|sqfull(n)|E(n)^2; hence their logarithms are little-oh equivalent.",
+      "evidence": "report Section 1; primewise exponent proof; certificate bounded exponent replay",
+      "scope_limit": "definition distinguishes the full powerful-supported part from the squarefull radical"
+    },
+    {
+      "id": "I265-C2",
+      "label": "PROVED",
+      "claim": "After removing two copies of the clearing divisor D_m, J=(Delta g)/gcd(Delta g,D_m^2) divides (q_N/gcd(q_N,D_m))^2.",
+      "evidence": "report Section 2; exact primewise inequality (2.10); certificate sequential exponent box",
+      "scope_limit": "this is an upper-capacity normalization, not a positive matching theorem"
+    },
+    {
+      "id": "I265-C3",
+      "label": "PROVED",
+      "claim": "The fixed-seed denominator satisfies log q_N=N log N+(log 4-1)N+O(log N), and therefore only the tautological main-scale uniform bound log sqfull(q_N)<=log q_N is currently available.",
+      "evidence": "report Section 3; exact lower and upper products plus Stirling",
+      "scope_limit": "does not assert that the ceiling is attained by actual q_N"
+    },
+    {
+      "id": "I265-C4",
+      "label": "PROVED_DEPENDENCY_SYNTHESIS",
+      "claim": "On a dyadic block and cutoff X=C N log N, the squarefree smooth support and all excess levels p^a<=N have average o(N log N) per term.",
+      "evidence": "report Section 4; sealed zero-gap and prime-square branching theorems",
+      "scope_limit": "the complementary levels p^a>N remain uncontrolled"
+    },
+    {
+      "id": "I265-C5",
+      "label": "PROVED",
+      "claim": "The high-level block mass splits into a singleton maximum plus pairwise overlap; transfer/gcd estimates control only overlap and are exactly blind to prime powers supported at one index.",
+      "evidence": "report Section 5; inequality (5.4) and gcd identity (5.6)",
+      "scope_limit": "does not prove the singleton maximum is large or small"
+    },
+    {
+      "id": "I265-C6",
+      "label": "PROVED_SCOPED_BARRIER",
+      "claim": "Reverse-Bessel discriminants determine simple roots but not the divided Hensel value q_N/p mod p; standard singleton-sensitive block resultants are already main-scale and their first nonzero subresultants erase singleton depth.",
+      "evidence": "report Section 6; sealed Item 204 and block-resultant dichotomy",
+      "scope_limit": "rules out the stated standard shortcuts, not every possible arithmetic method"
+    },
+    {
+      "id": "I265-C7",
+      "label": "PROVED_SCOPED_LOGICAL_NO_GO",
+      "claim": "Primitive-divisor and largest-prime-factor statements alone cannot upper-bound the total powerful-supported cofactor, so they do not imply the desired squarefull little-oh theorem.",
+      "evidence": "report Section 6.3; support-versus-multiplicity distinction",
+      "scope_limit": "does not deny or weaken any primitive-divisor theorem"
+    },
+    {
+      "id": "I265-C8",
+      "label": "EXACT_FINITE_ONLY",
+      "claim": "The independent standard-library checker verifies the fixed-seed, reverse-Bessel, transfer/gcd, reservoir, sequential, and squarefull exponent identities on explicit bounded ranges without searching for exceptional primes.",
+      "evidence": "canonical and byte-identical replay JSON",
+      "scope_limit": "no finite-to-asymptotic or all-prime inference"
+    },
+    {
+      "id": "I265-C9",
+      "label": "PROVED_BOOKING_DECISION",
+      "claim": "The positive-linear-capacity admission test fails: Item 265 books zero new Route-1 rate and zero new capacity reduction.",
+      "evidence": "report Sections 1 and 7",
+      "scope_limit": "Route 1 and every conclusion about e+pi remain open"
+    }
+  ],
+  "strict_labels": {
+    "normalization_height_and_method_barriers": "PROVED IN THE STATED SCOPE",
+    "bounded_identity_replay": "EXACT FINITE ONLY",
+    "termwise_squarefull_little_oh": "OPEN",
+    "average_high_singleton_little_oh": "OPEN",
+    "positive_linear_capacity_admission": "FAIL",
+    "new_bookable_rate": "0",
+    "new_capacity_reduction": "0"
+  },
+  "open": [
+    "log sqfull(q_N)=o(N log N)",
+    "an average o(N^2 log N) theorem for the high singleton tail",
+    "a uniform prime-power height theorem on the beta matching range",
+    "the moving correlation with b_m and the transverse g condition",
+    "Route 1 and every conclusion about e+pi"
+  ]
+}

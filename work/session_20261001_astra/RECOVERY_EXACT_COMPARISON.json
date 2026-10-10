@@ -1,0 +1,11 @@
+{
+  "status": "PASS_EXACT_COMPARISON_REPRODUCTION",
+  "python_division_type": "float",
+  "mixed_comparison_result": false,
+  "exact_comparison_result": true,
+  "intended_assertion": "20 divided by 8 equals 5 divided by 2",
+  "repair": "Use Rational(20,8) == Rational(5,2), preserving the assertion.",
+  "full_child_checker_executed": false,
+  "child_files_modified": false,
+  "timestamp_utc": "2026-10-01T02:57:29.204749+00:00"
+}

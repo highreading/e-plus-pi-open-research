@@ -1,0 +1,71 @@
+{
+  "item": 347,
+  "schema": "item347-j2-chosen-prime-kummer-conductor-obstruction-manifest-v1",
+  "classification": "PROVED_TARGET_FORCED_COMPLETE_SUM_AND_LINEAR_KUMMER_CONDUCTOR_NO_GO",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual tied-prime ordinary-j2 full-mode completion and joint moving target",
+  "dependencies": {
+    "sources/item341_j2_diagonal_affine_state_report.md": "42f6ccd326e385f8034abe322756517a30a93d7468b3e6f85cbca3dba8080cb4",
+    "results/item341_j2_diagonal_affine_state_certificate.json": "75c05cb486e5a5a6f9af5dda2e62f2a4b81cb888a15eb19ecabd10a382625cb4",
+    "results/item341_j2_diagonal_affine_state_root_audit.json": "d5c810346f9181f10d38e9f5ae2e250a8c880e32f97cbc5bef91f6bd37f61a27",
+    "manifests/item341_j2_diagonal_affine_state_manifest.json": "fc073e4c11a2d9ab519f0b5babae6f9f95e2e8cf9e8cbcf05c4c8ca8ba155000",
+    "sources/item344_j2_frobenius_cutoff_obstruction_report.md": "1671dec30de80c047c52b6b4bf13157025ea631869f5ccacc73169002ec287a9",
+    "results/item344_j2_frobenius_cutoff_obstruction_certificate.json": "f390d14d2b14ce965a33da8499e450294be3a038be2269d564d3cc3fda5f1179",
+    "results/item344_j2_frobenius_cutoff_obstruction_root_audit.json": "1de770fc9f8cf23ec215d936e31b08bb59b5aad2ce8fb3480a0bd835011b5376",
+    "manifests/item344_j2_frobenius_cutoff_obstruction_manifest.json": "9824b1a18fd645e729e103e32d0911d2392edc7b6c6642e5bea28d97489ef286"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item347_j2_chosen_prime_kummer_conductor_obstruction_report.md",
+      "sha256": "7845d01648f4860dee7cee0c12b5711693183015c99e25e923a9e49f316f5eea",
+      "bytes": 12623
+    },
+    "certificate_script": {
+      "path": "work/item347_j2_chosen_prime_kummer_conductor_obstruction_certificate.py",
+      "sha256": "6726a0c257beeb3fa8d231014b685691588c7c8a090d8d60e66cdfb352b04340",
+      "bytes": 13057
+    },
+    "certificate": {
+      "path": "work/item347_j2_chosen_prime_kummer_conductor_obstruction_certificate.json",
+      "sha256": "bd861233e0a37c6cd6e0d091d244f67e42c7bd65702d77f951e9341ad681159d",
+      "bytes": 6543
+    },
+    "replay": {
+      "path": "work/item347_j2_chosen_prime_kummer_conductor_obstruction_certificate.replay.json",
+      "sha256": "bd861233e0a37c6cd6e0d091d244f67e42c7bd65702d77f951e9341ad681159d",
+      "bytes": 6543
+    },
+    "ledger": {
+      "path": "work/item347_j2_chosen_prime_kummer_conductor_obstruction_ledger.json",
+      "sha256": "03993b01b5b7b2bc0f49940dfbac48cf199741ba668dbdf12c84a33cf95ce24c",
+      "bytes": 5022
+    }
+  },
+  "proved": [
+    "each half-binomial term is an exact complete quadratic moment modulo the tied prime",
+    "the full prefix collapses to one complete sum with weight W_m=sum_(u=0)^m x^(-u)",
+    "the legitimate moving target Theta is retained inside the complete sum",
+    "the chosen-prime Jacobi/Greene lift has exact cutoff support N-gcd(N,m+1)+1 greater than 5N/6",
+    "the collapsed weight has minimal semisimple Kummer rank and conductor at least m+1",
+    "every bounded/sublinear-conductor portion lies in an o(M)-mass fixed-M edge"
+  ],
+  "exact_finite_only": [
+    "seven declared actual-row termwise moment and Jacobi checks",
+    "seven complete target-retaining collapse and Fourier-support checks",
+    "seven minimal Kummer-support and fixed-M replays",
+    "no zero or collision census"
+  ],
+  "open": [
+    "nonlinear or nonsemisimple target-specific compression",
+    "a chosen-prime F-crystal for the joint residual outside the diagonal Kummer category",
+    "weighted distribution uniform in linearly growing conductor",
+    "weighted support of Item341's degenerate triple-minor carrier",
+    "strict improvement of the 1/105 ceiling and any new booking"
+  ],
+  "capacity": {
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "ordinary_j2_ceiling_per_6M": "1/105"
+  },
+  "replay_command": "python scripts/item347_j2_chosen_prime_kummer_conductor_obstruction_certificate.py --output results/item347_j2_chosen_prime_kummer_conductor_obstruction_certificate.replay.json"
+}

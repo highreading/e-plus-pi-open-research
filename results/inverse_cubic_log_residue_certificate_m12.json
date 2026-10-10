@@ -1,0 +1,181 @@
+{
+  "all_pass": true,
+  "sample_max_m": 12,
+  "samples": [
+    {
+      "m": 1,
+      "passed": true,
+      "recurrence_rows_checked": 8,
+      "scaling_checks_s_0_through_4": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "m": 2,
+      "passed": true,
+      "recurrence_rows_checked": 12,
+      "scaling_checks_s_0_through_4": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "m": 3,
+      "passed": true,
+      "recurrence_rows_checked": 16,
+      "scaling_checks_s_0_through_4": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "m": 4,
+      "passed": true,
+      "recurrence_rows_checked": 20,
+      "scaling_checks_s_0_through_4": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "m": 5,
+      "passed": true,
+      "recurrence_rows_checked": 24,
+      "scaling_checks_s_0_through_4": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "m": 6,
+      "passed": true,
+      "recurrence_rows_checked": 28,
+      "scaling_checks_s_0_through_4": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "m": 7,
+      "passed": true,
+      "recurrence_rows_checked": 32,
+      "scaling_checks_s_0_through_4": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "m": 8,
+      "passed": true,
+      "recurrence_rows_checked": 36,
+      "scaling_checks_s_0_through_4": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "m": 9,
+      "passed": true,
+      "recurrence_rows_checked": 40,
+      "scaling_checks_s_0_through_4": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "m": 10,
+      "passed": true,
+      "recurrence_rows_checked": 44,
+      "scaling_checks_s_0_through_4": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "m": 11,
+      "passed": true,
+      "recurrence_rows_checked": 48,
+      "scaling_checks_s_0_through_4": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "m": 12,
+      "passed": true,
+      "recurrence_rows_checked": 52,
+      "scaling_checks_s_0_through_4": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  ],
+  "schema": "inverse-cubic-log-residue-certificate-v2",
+  "symbolic": {
+    "coefficient_recurrence": {
+      "-1": "-16*(25389*k**3*n**2 - 43260*k**3*n + 15843*k**3 - 23953*k**2*n**3 - 8113*k**2*n**2 + 53245*k**2*n - 23156*k**2 + 8502*k*n**4 + 6264*k*n**3 + 24147*k*n**2 - 46203*k*n + 16557*k - 1156*n**5 + 442*n**4 - 8165*n**3 - 6909*n**2 + 15330*n - 4804)",
+      "-2": "20*(8571*k**3*n**2 - 12492*k**3*n + 4236*k**3 - 10492*k**2*n**3 - 21487*k**2*n**2 + 44104*k**2*n - 15452*k**2 + 4853*k*n**4 + 19147*k*n**3 + 24396*k*n**2 - 58414*k*n + 19288*k - 834*n**5 - 3958*n**4 - 11482*n**3 - 12518*n**2 + 29392*n - 8352)",
+      "-3": "-(5*n - 4)*(7615*k**3*n - 3143*k**3 - 11855*k**2*n**2 - 46089*k**2*n + 18440*k**2 + 6695*k*n**3 + 47351*k*n**2 + 98415*k*n - 36117*k - 1335*n**4 - 12953*n**3 - 49125*n**2 - 74647*n + 23820)",
+      "-4": "5*(5*n - 4)*(5*n - 1)*(3*k - 2*n - 10)*(3*k - 2*n - 9)*(3*k - 2*n - 8)",
+      "0": "320*(1727*k**3*n**2 - 3344*k**3*n + 1265*k**3 - 1190*k**2*n**3 + 2839*k**2*n**2 - 2968*k**2*n + 860*k**2 + 284*k*n**4 - 1274*k*n**3 + 2950*k*n**2 - 2711*k*n + 782*k - 24*n**5 + 208*n**4 - 662*n**3 + 974*n**2 - 664*n + 168)",
+      "1": "-256*(k + 1)*(1698*k**2*n**2 - 3645*k**2*n + 1407*k**2 - 764*k*n**3 + 3970*k*n**2 - 6514*k*n + 2333*k + 88*n**4 - 860*n**3 + 2954*n**2 - 3967*n + 1365)",
+      "2": "5120*(k + 1)*(k + 2)*(2*n - 1)*(18*k*n - 33*k - 4*n**2 + 30*n - 47)",
+      "3": "-16384*(k + 1)*(k + 2)*(k + 3)*(n - 2)*(2*n - 1)"
+    },
+    "nullspace_residuals": [
+      "0",
+      "0",
+      "0"
+    ],
+    "ode_coefficients_order_0_through_3": [
+      "-(n - 2)*(n - 1)*(1000*n**3*z**4 - 6675*n**3*z**3 + 16680*n**3*z**2 - 18496*n**3*z + 7680*n**3 - 2500*n**2*z**4 + 20975*n**2*z**3 - 64920*n**2*z**2 + 87616*n**2*z - 43520*n**2 + 1660*n*z**4 - 21088*n*z**3 + 75000*n*z**2 - 113824*n*z + 65920*n - 240*z**4 + 6864*z**3 - 23040*z**2 + 35520*z - 26880)/((z - 4)*(z - 1)*(27*z**2 - 40*z + 16)*(125*n**2*z**3 - 600*n**2*z**2 + 960*n**2*z - 512*n**2 - 125*n*z**3 + 900*n*z**2 - 1920*n*z + 1280*n + 20*z**3 - 336*z**2 + 720*z - 512))",
+      "(4500*n**4*z**5 - 33475*n**4*z**4 + 97060*n**4*z**3 - 136032*n**4*z**2 + 90880*n**4*z - 22528*n**4 - 24750*n**3*z**5 + 204950*n**3*z**4 - 666260*n**3*z**3 + 1049520*n**3*z**2 - 788480*n**3*z + 220160*n**3 + 44220*n**2*z**5 - 430271*n**2*z**4 + 1596200*n**2*z**3 - 2840496*n**2*z**2 + 2405120*n**2*z - 756224*n**2 - 26490*n*z**5 + 346828*n*z**4 - 1504840*n*z**3 + 3028608*n*z**2 - 2887360*n*z + 1015552*n + 3720*z**5 - 93312*z**4 + 450240*z**3 - 927840*z**2 + 930240*z - 349440)/((z - 4)*(z - 1)*(27*z**2 - 40*z + 16)*(125*n**2*z**3 - 600*n**2*z**2 + 960*n**2*z - 512*n**2 - 125*n*z**3 + 900*n*z**2 - 1920*n*z + 1280*n + 20*z**3 - 336*z**2 + 720*z - 512))",
+      "-(6750*n**3*z**6 - 59275*n**3*z**5 + 209840*n**3*z**4 - 383248*n**3*z**3 + 380800*n**3*z**2 - 195584*n**3*z + 40960*n**3 - 27000*n**2*z**6 + 273875*n**2*z**5 - 1113040*n**2*z**4 + 2307536*n**2*z**3 - 2566400*n**2*z**2 + 1451008*n**2*z - 327680*n**2 + 21330*n*z**6 - 277544*n*z**5 + 1366480*n*z**4 - 3301040*n*z**3 + 4160000*n*z**2 - 2600704*n*z + 634880*n - 3240*z**6 + 77104*z**5 - 453440*z**4 + 1150432*z**3 - 1489600*z**2 + 957440*z - 240640)/((z - 4)*(z - 1)*(27*z**2 - 40*z + 16)*(125*n**2*z**3 - 600*n**2*z**2 + 960*n**2*z - 512*n**2 - 125*n*z**3 + 900*n*z**2 - 1920*n*z + 1280*n + 20*z**3 - 336*z**2 + 720*z - 512))",
+      "1"
+    ],
+    "ode_identity_residual": "0",
+    "passed": true,
+    "rank_three_determinant": "-n*(125*n**2*z**3 - 600*n**2*z**2 + 960*n**2*z - 512*n**2 - 125*n*z**3 + 900*n*z**2 - 1920*n*z + 1280*n + 20*z**3 - 336*z**2 + 720*z - 512)/((z - 4)**2*(z - 1)**2*(27*z**2 - 40*z + 16)**2)",
+    "rank_three_determinant_nonzero": true,
+    "recurrence_max_shift": 3,
+    "recurrence_min_shift": -4
+  },
+  "warning": "The certificate proves the ODE and recurrence, not the required nonvanishing of three consecutive target coefficients."
+}

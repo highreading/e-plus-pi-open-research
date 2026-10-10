@@ -1,0 +1,49 @@
+{
+  "item": 397,
+  "schema": "item397-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_FACTOR_LOCALIZATION_OBSTRUCTION_WITH_ETA_ZERO",
+  "scope": "independent root audit of the envelope decomposition, unique-row high-prime localization, pairwise overlap obstruction, two-ray phase identities, replay, and scoped capacity conclusion",
+  "checks": {
+    "canonical_dependencies_checked": 7,
+    "canonical_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "control_characters": 0,
+    "finite_to_infinite_inference_used": false,
+    "root_repairs": "Repinned the package and executable checker to canonical dependencies, including the audited Item 315 report, and regenerated all certificate outputs. No theorem or capacity value changed."
+  },
+  "mathematical_audit": {
+    "envelope_split": "The cofactor u=1 interval has exact length 2/35. Every other allowed cofactor is at least 5, placing its prime divisor below L_M and inside the safely removed factorial support. Subtracting 2/35 from C6 gives the stated exact C_comp.",
+    "atomicity": "Because each matched factor divides its row label and U_M<2L_M, a prime at least L_M can divide only the row bearing that same prime label. Thus every sharp row factor is either one or its colliding prime row label.",
+    "overlap": "For distinct rows, any common matched divisor divides both row labels and hence their difference, which is below L_M. Low-prime saturation removes it; sharp factors are pairwise coprime and lcm height equals product height.",
+    "ray_one": "When r is 1 modulo 6, p is 5 modulo 6 and t^3=2^(p-2)=1/2. Cubing is bijective, so the phase equation is automatically soluble.",
+    "ray_five": "When r is 5 modulo 6, p is 1 modulo 6 and t^3=2^(p-1)=1. The selected phase lies in the cubic roots of unity, so this equation is also automatically soluble.",
+    "scope": "The proved eta=0 belongs to pairwise matched-factor overlap and phase-only reciprocity methods. It does not assert that the actual collision density has eta zero or exclude unmatched cross-row and moving-target arithmetic."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact C6 composite/prime-row decomposition",
+      "atomic high-prime row localization",
+      "pairwise matched-gcd overlap no-go",
+      "phase-only admissibility on both mod-6 rays",
+      "zero saving for the scoped methods"
+    ],
+    "OPEN": [
+      "positive-mass one-row nonvanishing",
+      "unmatched cross-row arithmetic",
+      "moving-target reciprocity or nonconcentration",
+      "any conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "proved_eta_for_scoped_methods": 0,
+    "new_route1_rate": 0,
+    "new_booking": 0,
+    "new_unconditional_capacity_reduction": 0
+  }
+}

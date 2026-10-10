@@ -1,0 +1,53 @@
+{
+  "item": 417,
+  "scope": "degree-forced all-level Cartier-zero common factors of the Item390/415 residue carrier",
+  "status": "CANONICAL_ROOT_AUDITED_ZERO_ASYMPTOTIC_DELTA",
+  "inherited": {
+    "booked_rate_r1": "0.1365141682948128184504238226...",
+    "frozen_deficit_T_minus_r1": "1.0196329836694317938803064012...",
+    "current_Item418_strictly_large_component_ceiling": "0.4287738853386578689457603829...",
+    "ordinary_forced_factor": "F_m=G_m"
+  },
+  "proved": {
+    "deoverlapped_divisor": "F_m*E_m divides lambda_0,m and lambda_1,m",
+    "extra_support": "every p dividing E_m satisfies p<=sqrt(6m)",
+    "extra_rate": "log(E_m)=O(sqrt(m)*log(m))=o(m)",
+    "uniform_F_squared": false,
+    "higher_level_witness_forces_second_digit": false,
+    "counterexamples": [
+      {
+        "m": 2,
+        "p": 11,
+        "case": "ordinary F_m factor",
+        "common_valuation": 1
+      },
+      {
+        "m": 9,
+        "p": 13,
+        "case": "ordinary F_m factor also in Item149 rank-one support",
+        "common_valuation": 1
+      },
+      {
+        "m": 5,
+        "p": 5,
+        "case": "extra q=25 Cartier-zero tower factor, q=5 not rank zero",
+        "common_valuation": 1
+      }
+    ]
+  },
+  "delta": {
+    "booked_lower_rate": 0,
+    "strictly_large_component_ceiling": 0,
+    "global_total_content_ceiling": 0,
+    "frozen_deficit": 0
+  },
+  "admission_decision": "CLOSE_PURE_DEGREE_ZERO_CARTIER_TOWER_AS_ZERO_RATE_AND_NONMULTIPLICATIVE",
+  "smallest_live_lemma": "valuation-weighted o(m) for the p>6m gcd of the F_m-normalized residue pair, or a genuinely integral mod-p^2/Witt multiplicity theorem",
+  "not_claimed": [
+    "completeness among all arithmetic common factors",
+    "one p-adic digit per qualifying prime-power level",
+    "positive Route-1 mass",
+    "Route-1 completion",
+    "irrationality of e+pi"
+  ]
+}

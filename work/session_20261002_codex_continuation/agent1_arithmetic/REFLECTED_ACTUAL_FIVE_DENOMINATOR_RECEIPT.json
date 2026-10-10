@@ -1,0 +1,185 @@
+{
+  "status": "AUTHOR finite5-residue proof certificate and three bounded COMPLETE-q checks; no experiment is an infinite theorem",
+  "residue_rows": [
+    {
+      "N_mod5": 0,
+      "h_mod5": 0,
+      "L_mod5": 4,
+      "d_low_mod5": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "c_low_mod5": [
+        1,
+        4,
+        1,
+        4,
+        1
+      ],
+      "M0_over_sign": 4,
+      "M1_over_sign": 1,
+      "E0": 1,
+      "E1": 0,
+      "E_over_sign": 1
+    },
+    {
+      "N_mod5": 1,
+      "h_mod5": 1,
+      "L_mod5": 0,
+      "d_low_mod5": [
+        1,
+        4,
+        1,
+        1,
+        1
+      ],
+      "c_low_mod5": [
+        1,
+        0,
+        1,
+        3,
+        3
+      ],
+      "M0_over_sign": 1,
+      "M1_over_sign": 1,
+      "E0": 0,
+      "E1": 1,
+      "E_over_sign": 4
+    },
+    {
+      "N_mod5": 2,
+      "h_mod5": 2,
+      "L_mod5": 1,
+      "d_low_mod5": [
+        1,
+        3,
+        3,
+        0,
+        1
+      ],
+      "c_low_mod5": [
+        1,
+        1,
+        2,
+        3,
+        3
+      ],
+      "M0_over_sign": 2,
+      "M1_over_sign": 3,
+      "E0": 3,
+      "E1": 3,
+      "E_over_sign": 3
+    },
+    {
+      "N_mod5": 3,
+      "h_mod5": 3,
+      "L_mod5": 2,
+      "d_low_mod5": [
+        1,
+        2,
+        1,
+        1,
+        3
+      ],
+      "c_low_mod5": [
+        1,
+        2,
+        4,
+        0,
+        3
+      ],
+      "M0_over_sign": 3,
+      "M1_over_sign": 4,
+      "E0": 4,
+      "E1": 1,
+      "E_over_sign": 3
+    },
+    {
+      "N_mod5": 4,
+      "h_mod5": 4,
+      "L_mod5": 3,
+      "d_low_mod5": [
+        1,
+        1,
+        0,
+        3,
+        1
+      ],
+      "c_low_mod5": [
+        1,
+        3,
+        2,
+        0,
+        1
+      ],
+      "M0_over_sign": 2,
+      "M1_over_sign": 0,
+      "E0": 1,
+      "E1": 3,
+      "E_over_sign": 4
+    }
+  ],
+  "complete_center_examples": [
+    {
+      "n": 20,
+      "N": 64,
+      "h": 44,
+      "N_factorial_v5": 14,
+      "U_v5": 0,
+      "E_mod5": 4,
+      "Pi_v5": -1,
+      "complete_numerator_v5": -14,
+      "actual_q_v5": 14,
+      "actual_q_v2": 64,
+      "U_v2": 1,
+      "final_q_bit_length": 653,
+      "final_content_bit_length": 84,
+      "final_cleared_gcd_verified": true,
+      "q_sha256": "b059a7c77bb387d0852ec3e219b30cddcf8869c7ef3723b2830219d0556338bc",
+      "coefficient_prefix_sign": "epsilon=(-1)^h retained",
+      "no_approximation_error_inferred": true
+    },
+    {
+      "n": 20,
+      "N": 128,
+      "h": 108,
+      "N_factorial_v5": 31,
+      "U_v5": 3,
+      "E_mod5": 3,
+      "Pi_v5": -3,
+      "complete_numerator_v5": -31,
+      "actual_q_v5": 34,
+      "actual_q_v2": 128,
+      "U_v2": 1,
+      "final_q_bit_length": 1620,
+      "final_content_bit_length": 178,
+      "final_cleared_gcd_verified": true,
+      "q_sha256": "d9c322b9c6ec03757b4a9948605f8a58437b9672943b93c4c62d259ca7b1df67",
+      "coefficient_prefix_sign": "epsilon=(-1)^h retained",
+      "no_approximation_error_inferred": true
+    },
+    {
+      "n": 40,
+      "N": 512,
+      "h": 472,
+      "N_factorial_v5": 126,
+      "U_v5": 0,
+      "E_mod5": 3,
+      "Pi_v5": -2,
+      "complete_numerator_v5": -126,
+      "actual_q_v5": 126,
+      "actual_q_v2": 512,
+      "U_v2": 1,
+      "final_q_bit_length": 8605,
+      "final_content_bit_length": 739,
+      "final_cleared_gcd_verified": true,
+      "q_sha256": "5a4d0894c4de6006f34c011c1352078e810ad1d3780ee7de6eecceb641560e5f",
+      "coefficient_prefix_sign": "epsilon=(-1)^h retained",
+      "no_approximation_error_inferred": true
+    }
+  ],
+  "target": "n divisible20,h>=6 actual q5; power2 N dyadic/correction compatibility"
+}

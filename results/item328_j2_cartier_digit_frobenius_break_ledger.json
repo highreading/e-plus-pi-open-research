@@ -1,0 +1,73 @@
+{
+  "item": 328,
+  "schema": "item328-j2-cartier-digit-frobenius-break-ledger-v1",
+  "classification": "PROVED_ACTUAL_CARTIER_DIGIT_AND_SUBLINEAR_RECURRENCE_NO_GO",
+  "actual_family": {
+    "m": "s-1",
+    "d": "r+4",
+    "n": "3m+d=(p-1)/2",
+    "q": "2m+d=n-m=2(M-p)+1",
+    "p": "6m+2d+1=2n+1",
+    "fixed_M_relation": "2M=14m+5d+1",
+    "q_range": "q odd and p/3<q<=(p-1)/2"
+  },
+  "admission": {
+    "prior_gate": "D_(r,s)=0",
+    "chart": "ell_r nonzero modulo p",
+    "actual_collision_before_item328": "H_m=Theta_(r,s)",
+    "actual_collision_after_item328": "c_p=1-epsilon*Theta_(r,s)",
+    "new_condition": false,
+    "role": "Closer condition internal to the retained ordinary-j2 branch"
+  },
+  "cartier_polynomial": {
+    "definition": "F_(m,d)(x)=(1-x)^n*(1+x)^(n+q)=sum_[k=0..D] c_k*x^k",
+    "degree": "D=2n+q=p+q-1",
+    "item325_convolution": "S_(n,q)=sum_j (-1)^j*binom(q,2j+1)*binom(n,j)",
+    "exact_identity": "S_(n,q)=(-1)^n*c_p=c_(q-1)",
+    "period_congruence": "H_m=epsilon*(1-c_p) modulo p"
+  },
+  "frobenius_recurrence": {
+    "integer_recurrence": "(k+1)c_(k+1)=q*c_k+(k-p-q)*c_(k-1)",
+    "mod_p_recurrence": "(k+1)c_(k+1)=q*c_k+(k-q)*c_(k-1)",
+    "unique_break": "k=p-1 before endpoint D+1",
+    "compatibility_at_break": "q*c_(p-1)=(q+1)*c_(p-2)",
+    "c_p_determined_locally": false
+  },
+  "frobenius_impulse": {
+    "normalized_seed": "delta_(p-1)=0, delta_p=1",
+    "self_similarity": "delta_(p+t)=c_t for 0<=t<=q",
+    "endpoint": "D+1=p+q",
+    "endpoint_distance": "q>p/3",
+    "endpoint_multiplier": "c_q=2^(-q)*binom(2q,q) modulo p",
+    "endpoint_multiplier_unit": true
+  },
+  "scoped_no_go": {
+    "method_class": "local use of the reduced coefficient recurrence plus an endpoint reached within J forward steps, with no external global identity",
+    "theorem": "for every J<q there are p continuations through p+J with identical pre-p coefficients and arbitrary c_p",
+    "asymptotic_consequence": "every bounded-depth and every o(p)-depth method in this class is eventually blind to c_p",
+    "closed_methods": [
+      "fixed-depth local recurrence closure at the Frobenius index",
+      "sublinear-depth local recurrence closure at the Frobenius index",
+      "endpoint propagation that does not reach the linearly distant endpoint"
+    ],
+    "not_closed": [
+      "global reciprocity or nonlinear identities",
+      "target-specific Frobenius monodromy",
+      "factor localization of the affine digit",
+      "average gcd and weighted zero-density theorems",
+      "degenerate connection charts"
+    ]
+  },
+  "capacity": {
+    "raw_isolated_ordinary_j2_ceiling_per_6M": "1/105",
+    "raw_decimal": "0.0095238095238095238095238095...",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  },
+  "master_ledger": {
+    "booked_r1_unchanged": "0.1365141682948128184504238226...",
+    "threshold_T_unchanged": "1.1561471519642446123307302239...",
+    "deficit_unchanged": "1.0196329836694317938803064012..."
+  },
+  "smallest_open_arithmetic_theorem": "prove o(M) logarithmic mass for fixed-M primes satisfying both the old determinant gate and c_p=1-epsilon*Theta_(r,s), including all relevant charts"
+}

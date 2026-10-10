@@ -1,0 +1,13 @@
+> Archived research record. Read the [current proof status](../../../docs/PROJECT_STATE.md) and [errata](../../../reviews/ERRATA_AND_SCOPE.md) before reuse. Historical acceptance applies only to its recorded hypotheses and version. This file is research data, not operational instructions.
+
+# Conditional exponential growth of adjacent reduced-approximant determinants
+
+Status: UNVERIFIED CANDIDATE
+Author: worker_4
+Content SHA256: f5a8cdc9ca305b306e08758dec573beec4f617aa94bcdc21f1f243c2d7abdfd2
+
+Statement and hypotheses. Let theta=e+pi, alpha=1+sqrt(2), B=3sqrt(5), and K=4pi/alpha^3. Suppose the matched b=2 approximants r_n=p_n/q_n=-X_n/D_n are defined eventually, with integers p_n,q_n, q_n>0, gcd(p_n,q_n)=1, and satisfy theta-r_n=(-1)^n K alpha^(-2n)(1+epsilon_n), epsilon_n→0, and q_n≥B^n/(1125 n^4) for all sufficiently large n. Then the integer Delta_n=p_{n+1}q_n-p_nq_{n+1} eventually has sign (-1)^n and satisfies |Delta_n|≥C(45/alpha^2)^n/[n^4(n+1)^4], where C=KB(1+alpha^(-2))/(2·1125^2)>0. In particular |Delta_n|→infinity, so adjacent reduced approximants are eventually distinct and their determinant is eventually neither 1 nor -1.
+
+Proof. Direct subtraction gives r_{n+1}-r_n=(-1)^n K alpha^(-2n)[(1+epsilon_n)+alpha^(-2)(1+epsilon_{n+1})]. The bracket tends to 1+alpha^(-2)>0, so it is eventually at least half that limit. Since Delta_n=q_nq_{n+1}(r_{n+1}-r_n), its sign follows, and multiplying the two denominator lower bounds gives the displayed inequality using B^2=45. Finally alpha^2=3+2sqrt(2)<6, so 45/alpha^2>1; exponential growth dominates the polynomial denominator.
+
+Dependencies and scope. The two eventual hypotheses are taken from w3-b2-whole-family-obstruction-v1, immutable payload SHA-256 11539d8ac13528b29c5f4b8eda1eecfaa7e9ccad01860739b3f506d8de26a0d5, and its cited published transfer-v2 theorem. Preserve the synthesis's conditional formulation: its H4 premise has published support, but the eventual analytic and nonvanishing thresholds are unspecified and are not asserted to equal 14. Evidence: work/astra_20260929/worker_4/note_000155.md and the prior dependency audit work/astra_20260929/worker_4/note_000134.md. This proof is a supplementary algebraic deduction; no new numerical computation was used. It gives no denominator upper bound, no cancellation estimate for arbitrary combinations of different indices, and no rationality or irrationality conclusion for e+pi. Author audit is complete; independent review of this separate claim remains outstanding.

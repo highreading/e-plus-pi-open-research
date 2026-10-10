@@ -1,0 +1,68 @@
+{
+  "capacity_booking": 0,
+  "classification": "PROVED_EXACT_DEGREE_GRID_IDENTITY",
+  "degree_ledger": {
+    "cofactor_relation_coordinate_numerator_degree_bound": 2240,
+    "declared_input_upper_bounds": {
+      "v_recurrence_polynomial_degree": 16,
+      "x_recurrence_polynomial_degree": 15,
+      "xu_relation_polynomial_degree": 7,
+      "yv_relation_polynomial_degree": 12
+    },
+    "defect_common_denominator_degree": 190,
+    "defect_common_numerator_degree": 206,
+    "joint_transition_common_degree": 22,
+    "observed_input_degrees": {
+      "v_recurrence_polynomial_degree": 16,
+      "x_recurrence_polynomial_degree": 15,
+      "xu_relation_polynomial_degree": 7,
+      "yv_relation_polynomial_degree": 12
+    },
+    "orbit_column_denominator_degrees": [
+      190,
+      228,
+      266,
+      304,
+      342,
+      380,
+      418
+    ],
+    "orbit_column_numerator_degrees": [
+      206,
+      244,
+      282,
+      320,
+      358,
+      396,
+      434
+    ],
+    "required_regular_roots": 2241,
+    "rho_numerator_denominator_degree": 8,
+    "v_transition_common_degree": 16,
+    "y_row_common_degree": 12
+  },
+  "item": 243,
+  "logical_basis": "Every cleared coordinate numerator has degree at most 2240; the exact relation vanishes at 2241 regular consecutive integer arguments with projection rank six.",
+  "residue_certificates": [
+    {
+      "initial_index_max": 2240,
+      "initial_index_min": 0,
+      "nonzero_coordinate_rows": 0,
+      "projection_rank_everywhere": 6,
+      "regular_exact_rows": 2241,
+      "residue": 1,
+      "row_stream_sha256": "9ba9e5557124dbfae6b6e4d1c7dbcb8ee67be9774984b0187268783d3539cc08"
+    },
+    {
+      "initial_index_max": 2240,
+      "initial_index_min": 0,
+      "nonzero_coordinate_rows": 0,
+      "projection_rank_everywhere": 6,
+      "regular_exact_rows": 2241,
+      "residue": 2,
+      "row_stream_sha256": "01858c271ced824abcbb8aaa8e32839f6bf0a03435d14734cfb0897b27ef3e7a"
+    }
+  ],
+  "scope_warning": "This proves ambient rational closure. Propagation of actual defect zeros still requires a leading-cofactor nonvanishing audit at all nonnegative integer indices.",
+  "theorem": "For each residue h=3n+r, r in {1,2}, the seven transported ambient defect covectors satisfy the signed six-row cofactor relation identically over Q(n)."
+}

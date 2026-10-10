@@ -1,0 +1,35 @@
+{
+  "bounds": {
+    "exact_PC_ideal_max_degree": 300,
+    "exact_h_J_aP_max_degree": 1000,
+    "modular_h_degrees": "2<=d<p",
+    "modular_h_max_prime": 5000
+  },
+  "description": "Exact common-zero identities and finite diagnostics on the n=5 two-log edge.",
+  "finite_diagnostics": {
+    "J_deviations": [],
+    "J_ideal_pattern": "norm 361 iff d == 205 (mod 361), norm 19 at other d == 15 (mod 19), otherwise norm 1",
+    "J_nontrivial_count": 52,
+    "PC_ideal_norm_deviations_from_1": [],
+    "aP_rational_norm_gcd_deviations_from_1": [],
+    "h_deviations": [],
+    "h_ideal_pattern": "norm 19 iff d == 15 (mod 19), otherwise norm 1",
+    "h_nontrivial_count": 52,
+    "modular_h_hits": [
+      {
+        "d": 15,
+        "p": 19
+      }
+    ]
+  },
+  "identity_checks": {
+    "F_constant_and_linear_coefficients": true,
+    "K_and_h_normalization": true,
+    "K_derivative_identity": true,
+    "aP_and_g_normalization": true,
+    "h_five_step_recurrence": true
+  },
+  "scope_warning": "All scans are finite diagnostics. They do not prove that 19 is the only possible prime, that 361 belongs to J_d for every d, or any statement about e+pi.",
+  "script_sha256": "c7e011200c3eb117f01657e31d580c393e80683247bae282a5a904db489b709f",
+  "source_sha256": "e95917203a9dcc6f6de309c520c1f972574d4a6c57279f24e07e02005c43b5dd"
+}

@@ -1,0 +1,196 @@
+{
+  "reviewer": "main Codex",
+  "fresh_elliptic_derivative_and_Machin_series": true,
+  "constants_match_first_second_third_certificates": true,
+  "first_jet_sharp_bound_comparisons_reconstructed": true,
+  "first_three_radius_exclusions": [
+    {
+      "radius": "1822131594030359/500000000000000",
+      "order": 1,
+      "frontier_counts": [
+        0
+      ]
+    },
+    {
+      "radius": "1737551612019347/500000000000000",
+      "order": 2,
+      "frontier_counts": [
+        1,
+        0
+      ]
+    },
+    {
+      "radius": "274377085873/97656250000",
+      "order": 3,
+      "frontier_counts": [
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "fully_read_tree_algorithm_replayed_in_isolation": true,
+  "archived_tree_program_sha256": "309c26ea21961eaa3380a9309282c806cbce2d00e3db82d569e6bc2914ab669e",
+  "isolated_tree_program_sha256": "05b1dfe9ce7d8bdc1d9409271afb3f8a4789dcf2cfa41a50322ef7d6cbf4d54d",
+  "only_tree_source_change": {
+    "before": "SESSION=Path('work/session_20261002_codex_continuation')",
+    "after": "SESSION=Path('[private local path removed]')"
+  },
+  "tree_receipts": [
+    {
+      "source": "16_FOURTH_JET_RADIUS_CERTIFICATE.json",
+      "radius": "27/10",
+      "frontier_counts": [
+        1,
+        1,
+        2,
+        0
+      ],
+      "every_field_identical": true
+    },
+    {
+      "source": "19_FIFTH_JET_RADIUS_CERTIFICATE.json",
+      "radius": "67/25",
+      "frontier_counts": [
+        1,
+        1,
+        2,
+        1,
+        0
+      ],
+      "every_field_identical": true
+    },
+    {
+      "source": "20_SIXTH_JET_RADIUS_CERTIFICATE.json",
+      "radius": "267/100",
+      "frontier_counts": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        0
+      ],
+      "every_field_identical": true
+    },
+    {
+      "source": "24_JET_TREE_265_PREFIX_DIAGNOSTIC.json",
+      "radius": "53/20",
+      "frontier_counts": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        7,
+        38
+      ],
+      "every_field_identical": true
+    },
+    {
+      "source": "27_JET_TREE_2665_PREFIX_DIAGNOSTIC.json",
+      "radius": "533/200",
+      "frontier_counts": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        3,
+        24
+      ],
+      "every_field_identical": true
+    }
+  ],
+  "prefix_receipts": [
+    {
+      "radius": "53/20",
+      "jets": [
+        1,
+        0,
+        0,
+        -1,
+        6,
+        0,
+        -49,
+        -5
+      ],
+      "next_order": 9,
+      "step_fields_and_source_sha_match": true,
+      "invariant_entry_strict": true,
+      "invariant_constants_exact": true
+    },
+    {
+      "radius": "533/200",
+      "jets": [
+        1,
+        0,
+        0,
+        -1,
+        6,
+        0,
+        -49,
+        -6,
+        919
+      ],
+      "next_order": 10,
+      "step_fields_and_source_sha_match": true,
+      "invariant_entry_strict": true,
+      "invariant_constants_exact": true
+    }
+  ],
+  "inputs": [
+    {
+      "file": "07_FIRST_JET_RADIUS_CERTIFICATE.json",
+      "sha256": "672d87f864182d2030ebeb034a5ec3d9632dee7c6c1acd4d0d97fa68aa33b77f"
+    },
+    {
+      "file": "10_SECOND_JET_RADIUS_CERTIFICATE.json",
+      "sha256": "0be0a6d58b07c69b712a8484707e14b26d98fccc20818be5250e22e1bc9a7f20"
+    },
+    {
+      "file": "13_THIRD_JET_RADIUS_CERTIFICATE.json",
+      "sha256": "8a1f7f9e1398026dbd22addc3419f0cfd96b3528592e1a620532405470593227"
+    },
+    {
+      "file": "16_FOURTH_JET_RADIUS_CERTIFICATE.json",
+      "sha256": "2d94063a16153d2df4ae3b49fadabe088dab887c25d913cbf1e3e3e1a17aaae2"
+    },
+    {
+      "file": "19_FIFTH_JET_RADIUS_CERTIFICATE.json",
+      "sha256": "55eeb0361873113817ad9de7b7e3c89872026fd0e144172573c9804393f07fed"
+    },
+    {
+      "file": "20_SIXTH_JET_RADIUS_CERTIFICATE.json",
+      "sha256": "63f85f07b3a74bfadc2569e91fec1cd0f118f02c41fcd8cf99a51fa5a26fb230"
+    },
+    {
+      "file": "24_JET_TREE_265_PREFIX_DIAGNOSTIC.json",
+      "sha256": "abe77a14676bde72139a5bf0c3601e3d836668fbbba92559c29cdea3001bb14d"
+    },
+    {
+      "file": "27_JET_TREE_2665_PREFIX_DIAGNOSTIC.json",
+      "sha256": "ae2709a36ac3022de0da64676e77affce1bb557f216c6731a3bf23a0499fcf11"
+    },
+    {
+      "file": "23_INFINITE_SCHUR_PREFIX_CERTIFICATE.json",
+      "sha256": "8e23d8fdda361174d94adb152a600f7b88dad5e1a93ff1babf98b68d78e2d1cd"
+    },
+    {
+      "file": "24_JET_TREE_265_PREFIX_DIAGNOSTIC.json",
+      "sha256": "abe77a14676bde72139a5bf0c3601e3d836668fbbba92559c29cdea3001bb14d"
+    },
+    {
+      "file": "26_REFINED_INFINITE_SCHUR_PREFIX2665_CERTIFICATE.json",
+      "sha256": "089b073278368db2ea5921841aeef5b041159c87764fa38e93bc33677a8cc6e8"
+    },
+    {
+      "file": "27_JET_TREE_2665_PREFIX_DIAGNOSTIC.json",
+      "sha256": "ae2709a36ac3022de0da64676e77affce1bb557f216c6731a3bf23a0499fcf11"
+    }
+  ],
+  "scope": "Numerical certificates and fully read interval-tree replay; the analytic, Schwarzian, integer-jet induction, Montel and polynomial approximation proofs are reviewed separately by main. No e+pi irrationality conclusion."
+}

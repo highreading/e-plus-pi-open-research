@@ -1,0 +1,241 @@
+{
+  "P_value_checks": {
+    "at_x": {
+      "P_d_by_recurrence": 0,
+      "P_d_by_truncated_exponential": 0,
+      "argument": 70927,
+      "tail": {
+        "6217": {
+          "P_value": 5300,
+          "power": 71415
+        },
+        "6218": {
+          "P_value": 32033,
+          "power": 81812
+        },
+        "6219": {
+          "P_value": 0,
+          "power": 30365
+        }
+      }
+    },
+    "at_y": {
+      "P_d_by_recurrence": 0,
+      "P_d_by_truncated_exponential": 0,
+      "argument": 38395,
+      "tail": {
+        "6217": {
+          "P_value": 80981,
+          "power": 10728
+        },
+        "6218": {
+          "P_value": 82021,
+          "power": 89353
+        },
+        "6219": {
+          "P_value": 0,
+          "power": 106134
+        }
+      }
+    }
+  },
+  "characteristic_zero_J_ideal": {
+    "N_coordinates_mod_p": [
+      41140,
+      3246
+    ],
+    "N_mod_p_factorization": "3246*(t-53267)",
+    "a_d_T_d_coordinates_mod_p": [
+      938,
+      103634
+    ],
+    "a_d_T_d_mod_p_factorization": "103634*(t-53267)",
+    "a_d_mod_p": 44056,
+    "coordinate_digit_counts": [
+      41789,
+      22189,
+      63978,
+      63978
+    ],
+    "coordinate_signs": [
+      1,
+      1,
+      -1,
+      1
+    ],
+    "full_integer_payload_bytes": 825309,
+    "full_integer_payload_sha256": "ea79ca6c41ed1580a41327f405b9bf1805fcf70a1ec4998538a6bdfffc5abb2a",
+    "six_minor_digit_counts": [
+      83578,
+      105767,
+      105767,
+      105767,
+      105767,
+      126661
+    ],
+    "six_minor_gcd_and_ideal_norm": "109321",
+    "six_minor_signs": [
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1
+    ],
+    "smith_diagonal": [
+      "1",
+      "109321"
+    ],
+    "values_at_conjugate_t1": [
+      79034,
+      7563
+    ],
+    "values_at_t0": [
+      0,
+      0
+    ]
+  },
+  "checked_utc": "2026-08-27",
+  "file_sha256": {
+    "script": "c2ea5c245abbf8b12cfb0d6acf8ba7db0098a393d1dd395d34162d511add7b51",
+    "source": "4d38ac26066f100a6af5999e0c9ed2a6b6ddfa5805a102b243c7efdd525fbb53"
+  },
+  "finite_scans_not_used_in_proof": {
+    "branch_1_hits": [
+      [
+        19,
+        15
+      ],
+      [
+        109321,
+        6219
+      ]
+    ],
+    "branch_1_scope": "Every odd prime p<=200000, p!=5, every 0<=d<p, both roots of A^2-3A+1 in the split cases and exact quadratic-pair arithmetic in the inert cases.",
+    "full_three_branch_hits": [
+      [
+        19,
+        15
+      ]
+    ],
+    "full_three_branch_scope": "Every odd prime p<=30000, p!=5, every 0<=d<p.",
+    "logical_status": "finite diagnostic only; neither scan is used to prove the displayed counterexample or to exclude later primes"
+  },
+  "h_characteristic_zero_first_jet_ideal": {
+    "coordinate_digit_counts": [
+      [
+        22189,
+        22190
+      ],
+      [
+        22194,
+        22194
+      ]
+    ],
+    "coordinate_residues_mod_p": [
+      [
+        104000,
+        40967
+      ],
+      [
+        23755,
+        52576
+      ]
+    ],
+    "evaluations_at_A0": [
+      0,
+      0
+    ],
+    "evaluations_at_conjugate_A1": [
+      2938,
+      95917
+    ],
+    "minor_digit_counts": [
+      41781,
+      41785,
+      41785,
+      41785,
+      41785,
+      41789
+    ],
+    "six_minor_gcd": "109321"
+  },
+  "h_modular_first_jet": {
+    "h_d": 0,
+    "h_d_minus_1": 0,
+    "recurrence": "h_n=1-A*n*h_(n-1)-A*n*(n-1)*h_(n-2)",
+    "tail": {
+      "0": 1,
+      "1": 56053,
+      "6215": 77004,
+      "6216": 50958,
+      "6217": 64171,
+      "6218": 0,
+      "6219": 0
+    }
+  },
+  "parameters": {
+    "A0": 53269,
+    "conjugate_A1": 56055,
+    "conjugate_t1": 56053,
+    "d": 6219,
+    "m": 103101,
+    "p": 109321,
+    "t0": 53267,
+    "u": 85987,
+    "v": 76603,
+    "x": 70927,
+    "y": 38395,
+    "zeta": 85986,
+    "zeta_inverse": 76602
+  },
+  "primality_certificate": {
+    "conclusion": "p is prime by the Lucas primality criterion",
+    "factorization_p_minus_1": "2^3 * 3 * 5 * 911",
+    "gcd_power_minus_1_with_p": {
+      "2": 1,
+      "3": 1,
+      "5": 1,
+      "911": 1
+    },
+    "lucas_witness": 19,
+    "prime_911_trial_division_remainders": {
+      "11": 9,
+      "13": 1,
+      "17": 10,
+      "19": 18,
+      "2": 1,
+      "23": 14,
+      "29": 12,
+      "3": 2,
+      "5": 1,
+      "7": 1
+    },
+    "witness_power_p_minus_1_mod_p": 1,
+    "witness_quotient_powers_mod_p": {
+      "2": 109320,
+      "3": 19846,
+      "5": 103645,
+      "911": 69655
+    }
+  },
+  "schema_version": 1,
+  "unconditional_conclusion": {
+    "consequence": "The proposed all-prime classification by (19,15) and the containment 361 in J_d are false.",
+    "prime_ideal": "(109321,t-53267)",
+    "statement": "109321 divides Norm_F/Q(J_6219)",
+    "stronger_exact_statement": "Norm_F/Q(J_6219)=109321"
+  },
+  "weighted_prescribed_first_jet": {
+    "H_has_the_prescribed_double_root": true,
+    "H_m_prime_u": 0,
+    "H_m_u": 0,
+    "W_m_prime_u": 74332,
+    "W_m_prime_v": 70628,
+    "W_m_u": 0,
+    "W_m_v": 0,
+    "W_roots_are_simple": true,
+    "factorial_m_mod_p": 64829,
+    "m": 103101
+  }
+}

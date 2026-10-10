@@ -1,0 +1,46 @@
+{
+  "schema": "item228-root-independent-audit-v1",
+  "status": "PASS_WITH_SCOPED_OPEN_PROBLEM",
+  "canonical_sha256": "399e59a32e400d3e6513274e4384b6d03a18263866f88a8c22c486fbaa81f2e3",
+  "root_replay_sha256": "399e59a32e400d3e6513274e4384b6d03a18263866f88a8c22c486fbaa81f2e3",
+  "byte_identical_replay": true,
+  "independent_checks": {
+    "regularized_sign": "the full derivative sum is zero; deleting the q=ap derivative terms moves them to the retained side with the displayed minus sign",
+    "three_p_multiplier": "at T2=2s+1+p, A_T2=p+2r+4s+T2+2=3p exactly",
+    "unreduced_pole": "the unique top primitive is ell_(3p-1)/(3p); multiplying p gives 2epsilon/3 before regularization, and the exact factor 3 restores +2epsilon",
+    "top_coefficient": "r is even, so W has leading coefficient one and sigma W has leading coefficient minus one, confirming the terminal forcing sign",
+    "first_free_mode": "coefficient extraction from the Pearson identity gives the free response W exactly",
+    "support_gap": "deg(W)=r+4s-2<p-3, so all three free-mode entries in the 3p terminal covector vanish as integer coefficients",
+    "invariant_elimination": "lambda Delta_plus=-4epsilon and rho0+lambda rho1=2epsilon imply Delta_plus(rho0-2epsilon)-4epsilon rho1=0 without division",
+    "default_source_rows_replayed": 479,
+    "default_forcing_steps_replayed": 79759,
+    "extended_source_rows_replayed_through_p_401": 1151,
+    "extended_forcing_steps_replayed_through_p_401": 304599,
+    "finite_item223_survivors": 22,
+    "finite_joint_survivors": 0,
+    "hash_ledger_entries_checked": 5,
+    "hash_mismatches": 0,
+    "dependency_hashes_checked": 2,
+    "python_compile": true,
+    "control_character_scan": "clean",
+    "host_path_scan": "clean"
+  },
+  "classification": {
+    "PROVED": [
+      "regularized Pearson recurrence with exact deleted-derivative forcing",
+      "the unreduced 3p pole residue and +2epsilon terminal source",
+      "the first-pole free mode equals W and vanishes at the next terminal",
+      "every collision satisfies corrected Theta=0, nonzero transfers, and Psi=0"
+    ],
+    "EXACT_FINITE": [
+      "all 22 Item223 survivors through p<=2000 have nonzero Psi",
+      "no joint Theta/Psi survivor occurs through p<=2000"
+    ],
+    "OPEN": [
+      "all-prime or zero-rate control of simultaneous Theta=Psi zeros",
+      "sufficiency of the transfer conditions",
+      "any j=1 capacity reduction or conclusion about e+pi"
+    ]
+  },
+  "audit_conclusion": "The second j=1 resonance is genuinely independent of the first free mode and its factor three/sign are correct, but it remains only a necessary filter with finite joint-zero evidence."
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "item266-root-audit-v1",
+  "audited": "2026-08-31 Asia/Shanghai",
+  "status": "PASS_WITH_LAYOUT_REPAIR",
+  "booking": {
+    "new_unconditional_route1_rate": 0,
+    "new_common_content_lower_bound": 0,
+    "new_capacity_reduction": 0,
+    "far_subcell_status": "CAPACITY-RELEVANT BUT UNCLASSIFIED"
+  },
+  "root_findings": [
+    "The original stable-row conditions are equivalent, for p>=11, to the two stated q=1 and q=2 interval families; the identity 10M+1-b=(5j+5-q)p and the global bound b<=6M/7+1 are exact.",
+    "The stable raw coefficient is a convergent sum of disjoint interval lengths. It is a support ceiling, not a theorem about common-gate zeros.",
+    "For b>=M/5 the surviving interval lengths sum exactly to 1139587/9085230=0.125432927950..., exceeding the scoped 0.117797902016... per-M gap by 0.007635025933.... This prevents a capacity dismissal of the branch.",
+    "The stable eliminant has p-unit denominators on actual rows, and the b=900 factorization retains the required p=2399 cancellation witness.",
+    "The O(M log M) layer product, O(M^2 log M) inherited eliminant heights, and mock fixed sequence prove only the stated information barrier. They do not exclude a cancellation-aware cross-b invariant.",
+    "Item 149 already books the first rank-one copy. Common g0,g1 content can support at most one candidate extra first-gate copy and gives no A1 or third-copy implication.",
+    "Eight missing TeX spacing commands were repaired before resealing; no mathematical statement changed."
+  ],
+  "independent_probe": {
+    "script": "scripts/item266_root_independent_probe.py",
+    "script_sha256": "16049a134cde1306fe969d46f821de8304bcbce33dc808cd32205afe2d351950",
+    "result": "results/item266_root_independent_probe.json",
+    "result_sha256": "435e63c2cb5fc2a3b1cd9758ba54625b043aac3ce3b9e2c295b0d8c8a84279db",
+    "M_max": 360,
+    "stable_rows": 3003,
+    "far_exact": "1139587/9085230",
+    "far_minus_gap": "0.0076350259334996584863024931674817258341",
+    "mandatory_witness": [
+      2249,
+      299,
+      2399,
+      1,
+      1,
+      900,
+      3
+    ],
+    "common_zero_scan_performed": false,
+    "label": "EXACT FINITE row-map replay plus exact rational capacity and declared-witness checks"
+  },
+  "sealed_package": {
+    "report_sha256": "197a48cdaf61ab1e4f6689f31239b3328effcb0a2863bf03c726d098ec6bf5ce",
+    "checker_sha256": "b0f7a93caa9505f60716d9ff11a2863e7b0e6a88632b601ce932d65e3ab862a9",
+    "canonical_sha256": "343f2852607d29cf4e08121476bba650464af5bb6097367094383b983bac1a8d",
+    "workspace_replay_sha256": "343f2852607d29cf4e08121476bba650464af5bb6097367094383b983bac1a8d",
+    "archive_replay_sha256": "343f2852607d29cf4e08121476bba650464af5bb6097367094383b983bac1a8d",
+    "ledger_sha256": "11df8bc383dee22399fd619410eddadfc348123c66b79d849f988544c9841eab",
+    "manifest_sha256": "b205c4685df340588864dabf1dc289b593e26f7298bb140d500411ca62f5dfb8",
+    "hash_ledger_sha256": "df319807d895e1178dc657bf81aeb849658e2a534349e6e41a126417225dd7a3",
+    "manifest_entries_checked": 11,
+    "manifest_entries_matched": 11,
+    "canonical_root_replay_byte_identical": true
+  },
+  "strict_scope": "Item 266 proves that the stable far off-ray branch remains large enough to matter and that the displayed height containers cannot decide it. It proves neither positive common-prime mass nor a retained upper bound below the gap."
+}

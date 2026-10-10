@@ -1,0 +1,52 @@
+{
+  "schema": "item308-j1-all-s-fixed-divisor-no-go-ledger-v1",
+  "scope": "All-s pinned ordinary-j1 residue containers, quadratic-norm structure, fixed-M weighted target, and the exact limitation of height-only container arguments",
+  "claims": [
+    {
+      "id": "I308-C1",
+      "label": "PROVED",
+      "claim": "For every h,s>=1 and actual prime p=4h+6s+3, the pinned coefficient is Lambda_s^(-1)(a_s+b_(s,epsilon)w_h) modulo p, with explicit all-s coefficient extractions and Lambda_s=3*2^(10s+10).",
+      "evidence": "report Sections 2--5; exact symbolic source identity and bounded replay controls"
+    },
+    {
+      "id": "I308-C2",
+      "label": "PROVED",
+      "claim": "Lambda_s and the Item-243 gauge are p-units on every actual row, so an ordinary fixed-j1 collision forces the displayed pinned linear residue to vanish.",
+      "evidence": "report Section 2; pinned Items 222, 243, and 288"
+    },
+    {
+      "id": "I308-C3",
+      "label": "PROVED",
+      "claim": "Euler's criterion gives delta_(s,epsilon)=(2/p), and every pinned collision prime divides D_(s,epsilon)=2^(3s+1)a_s^2-delta_(s,epsilon)b_(s,epsilon)^2.",
+      "evidence": "report Sections 5--6; canonical exact certificate"
+    },
+    {
+      "id": "I308-C4",
+      "label": "PROVED",
+      "claim": "Each D_(s,epsilon) is an explicit norm in Q[T]/(T^2-delta*eta), and log max(1,|a_s|,|b_s,0|,|b_s,1|,|D_s,0|,|D_s,1|)=O(s).",
+      "evidence": "report Section 7"
+    },
+    {
+      "id": "I308-C5",
+      "label": "PROVED SCOPED NO-GO",
+      "claim": "One moving divisor per s, quadratic-norm shape, p-unit clearing denominator, and O(s) logarithmic height alone cannot certify any strict saving below the raw 1/36-per-6M fixed-j1 ceiling.",
+      "evidence": "report Section 8; fixed-in-s comparison family retains 1/36-rho/9 for every rho>0"
+    },
+    {
+      "id": "I308-C6",
+      "label": "OPEN",
+      "claim": "The exact sequence-specific estimates W_D(M)=o(M) and W_off(M)=o(M), factor localization for D_(s,epsilon), and the full fixed-j1 closer remain open."
+    }
+  ],
+  "strict_labels": {
+    "all_s_residue_formula": "PROVED",
+    "actual_pinned_gate_bridge": "PROVED NECESSARY IMPLICATION",
+    "quadratic_container_and_norm": "PROVED",
+    "linear_logarithmic_height": "PROVED",
+    "height_only_container_strategy": "CLOSED SCOPED",
+    "exact_container_weighted_zero_density": "OPEN",
+    "off_ray_weighted_zero_density": "OPEN",
+    "fixed_M_master_capacity_reduction": "ZERO",
+    "booking": "zero new Route-1 rate"
+  }
+}

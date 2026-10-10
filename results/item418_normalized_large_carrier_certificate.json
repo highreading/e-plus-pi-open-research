@@ -1,0 +1,130 @@
+{
+  "capacity": {
+    "Item415_component_ceiling": "0.42926789628954772023172424994510494431502767192442377256133831133999244551334193",
+    "Item418_sharp_circular_component_ceiling": "0.42877388533865786894576038290962190825322503544392072892659846327461252009352478",
+    "booked_lower_bound_delta": "0",
+    "component_ceiling_decrease": "0.00049401095088985128596386703548303606180263648050304363473984806537992541981715",
+    "deficit_minus_maximal_strictly_large_component": "0.59085909833077392493454601829037809174677496455607927107340153672538747990647522",
+    "forced_Item200_rate_per_m": "2.3370475079987656871108854825770265739245373841199679142912478983225187686299638",
+    "frozen_deficit": "1.0196329836694317938803064012",
+    "frozen_deficit_delta": "0",
+    "gap_between_rational_and_sharp_circular_ceiling": "0.00000309257926371566806695645596304696380535497233141513870596817168149064143059",
+    "global_total_content_ceiling_delta": "0",
+    "nearby_fully_rational_678_over_5_ceiling": "0.42877697791792158461382733936558495521703039041625214406530443144629401073495537",
+    "residual_interpretation": "admission comparison only; not a global ceiling reduction and not an additive de-overlap theorem",
+    "rho_star_decimal": "135.59748390085482125022597033065136045349825862440822221618012577899210114806858"
+  },
+  "dependency_sha256": {
+    "manifests/item415_marked_selector_compulsory_strip_manifest.json": "8ae673cec3d739af76f3e73eaeb9266868431a77ab9bcaffd72a42cf522780b1",
+    "results/item200_common_log_gcd_certificate.json": "5fd9f62b82d92dde6755919ef0e44d5d42a3c9452acfc3bbe3d3ee96f7326f82",
+    "results/item390_mixed_cubic_fresh_primitive_saturation_certificate.json": "45b61f683a29305e4fcfd8810f146068f950070496e8e88a2a6b800f9dc1ada6",
+    "results/item390_mixed_cubic_fresh_primitive_saturation_root_audit.json": "8287cf78f5af6e4824c2034bd9af2aa5c7669afc0eb555c926ef59ab74914813",
+    "results/item415_marked_selector_compulsory_strip_certificate.json": "af731cf70e9a6d40cab380d38d5b404786cefef196eb42f743634b8d390cb29e",
+    "results/item415_marked_selector_compulsory_strip_hashes.sha256": "d347509c3bca23d8b723dfa14015a67e836cc616434d906ae9f2dae9a521f343",
+    "results/item415_marked_selector_compulsory_strip_root_audit.json": "123576c914528abdc1e3ffa3993e5161c56f92ac21e4ec33b9c6f450edfa653c",
+    "sources/item200_common_log_gcd_report.md": "06003e9fd03f74b2406330a81d49493fa2f4390c82f359be39bf328184605c68",
+    "sources/item390_mixed_cubic_fresh_primitive_saturation_report.md": "5bfb3c871b12524f672df515e920236f2470145d4f68bdcd7b47f29408692f46",
+    "sources/item415_marked_selector_compulsory_strip_report.md": "da79ea786471a6abb35288f242a0b0b2307a695bd9352eaa3c4e2033fc701777"
+  },
+  "exact_circular_minimax": {
+    "h_coefficients_ascending": [
+      "-4",
+      "12",
+      "3",
+      "9"
+    ],
+    "h_derivative_coefficients_ascending": [
+      "12",
+      "6",
+      "27"
+    ],
+    "h_discriminant": -118800,
+    "prefactor_one_upper": "297220500/14211511",
+    "prefactor_zero_upper": "500/229",
+    "radial_sign_identity": "(6x^2+5x+4)^2(7x^2+2x+7)-(15x^3+17x^2+18x+10)^2=3(x-1)(x^2+1)(9x^3+3x^2+12x-4)",
+    "radius_upper": "271/500",
+    "rho_polynomial_coefficients_ascending": [
+      "-531441",
+      "1259712",
+      "-35555328",
+      "262144"
+    ],
+    "rho_polynomial_discriminant": -93433860167497364275200000000,
+    "rho_relation_remainder_mod_h": [
+      "0"
+    ],
+    "rho_star_isolation": [
+      "3389937/25000",
+      "13559749/100000"
+    ],
+    "x_star_isolation": [
+      "2930043/10000000",
+      "732511/2500000"
+    ]
+  },
+  "independent_rational_sturm_witness": {
+    "conclusion": "max_{|z|=5413/10000} r^(-4)|1-z|^6/|1+z^2|^4 < 678/5",
+    "height_base": "678/5",
+    "left_endpoint_signs": [
+      1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "left_variations": 2,
+    "polynomial_coefficients_ascending": [
+      "1867033980669224323284758324253968777629084267459/2500000000000000000000000000000000000000000000000",
+      "271493948576930154879/50000000000000000000",
+      "28417363366777766237782189885016202674811/3125000000000000000000000000000000000000",
+      "158603979997/125000000000",
+      "249864130452614578774127958956019/15625000000000000000000000000000"
+    ],
+    "prefactor_one": "2375605690000/113892599997",
+    "prefactor_zero": "10000/4587",
+    "radius": "5413/10000",
+    "real_roots_in_closed_interval": 0,
+    "right_endpoint_signs": [
+      1,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "right_variations": 2,
+    "sturm_degrees": [
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "values": {
+      "-1": "47832408517723262173420983665229970917477884267459/2500000000000000000000000000000000000000000000000",
+      "0": "1867033980669224323284758324253968777629084267459/2500000000000000000000000000000000000000000000000",
+      "1": "81325962575296277661320983665229970917477884267459/2500000000000000000000000000000000000000000000000"
+    }
+  },
+  "item": 418,
+  "schema": "item418-normalized-large-carrier-v1",
+  "status": "CANONICAL_ROOT_AUDITED_COMPONENT_CEILING_REDUCED_NO_BOOKING",
+  "strict_claims": {
+    "OPEN": [
+      "valuation-weighted o(m) for the normalized carrier",
+      "noncircular or cancellation-aware global bounds",
+      "uniform noncollision c_m^>=1",
+      "Route 1 and irrationality of e+pi"
+    ],
+    "PROVED": [
+      "exact global minimizer of the centered circular Cauchy kernel",
+      "sharp circular exponential base rho_star",
+      "strictly-large component ceiling reduction relative to Item415",
+      "rational Sturm witness at radius 5413/10000 and base 678/5",
+      "zero booking and no global total-ceiling subtraction"
+    ],
+    "SCOPED_NO_GO": [
+      "changing only the centered circular radius cannot lower the exponential base below rho_star"
+    ]
+  },
+  "witness_sha256": "103eb047ffdcb60e48885227f48b740ec4859576ec5aae421be442ad4ec7a103"
+}

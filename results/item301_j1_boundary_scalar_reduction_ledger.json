@@ -1,0 +1,36 @@
+{
+  "item": 301,
+  "title": "exact boundary-scalar reduction and actual-gate de-overlap",
+  "checked_date_beijing": "2026-08-31",
+  "proved": [
+    "For all H, root-of-unity filters give elementary closed forms for U_H and V_H.",
+    "For all H, a weighted odd-filter integral and exact antiderivative give the displayed elementary closed form for X_H.",
+    "Y_H is exactly one quadratic beta moment J_(2H), with the displayed all-n first-order Gaussian-rational recurrence.",
+    "For even H, B_H=6(2e_H-1)Y_H modulo p and 2e_H-1 is a p-unit, so B_H vanishes exactly when Y_H vanishes.",
+    "For odd H, B_H=-6(Y_H+4+6d_H) modulo p, so its vanishing is exactly the displayed shifted Y_H condition.",
+    "On every structural ray, the boundary-neighbor scalar L_j equals -Q_0(h)E_h^* on the pinned actual orbit.",
+    "When Q_0 is a p-unit, L_j=0 is equivalent to the old E_h^*=0 gate; at every Q_0-drop row, L_j=0 is automatic and cannot constrain E_h^*.",
+    "The complete Q_0-drop set is s=2: p=19,103423; s=4: p=15131; s=6: none.",
+    "The shifted boundary-ray union has raw Chebyshev mass asymptotic to 2H, not 6H."
+  ],
+  "strict_scope": {
+    "all_H_symbolic_identity": true,
+    "actual_recurrence_identity": true,
+    "actual_prime_scan": "NONE",
+    "finite_replay_role": "implementation validation only",
+    "canonical_index_documents_edited": false
+  },
+  "open": [
+    "Nonvanishing or weighted zero-density for the residual Y_H moment.",
+    "Nonvanishing or weighted zero-density for B_H or the pinned E_h^* orbit.",
+    "Any further exact evaluation of the residual quadratic moment.",
+    "Route 1 and every conclusion about e+pi."
+  ],
+  "capacity": {
+    "boundary_union_raw_chebyshev_mass": "~2H",
+    "retained_conditional_j1_capacity_per_6m": "1/36",
+    "new_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "capacity_booked": 0
+  }
+}

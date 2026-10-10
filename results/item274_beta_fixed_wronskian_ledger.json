@@ -1,0 +1,97 @@
+{
+  "schema": "item274-beta-fixed-wronskian-ledger-v1",
+  "scope": "Reverse-Bessel differential, Padé, and fixed-length Wronskian admission for the overlap-normalized beta high-singleton valuation problem",
+  "claims": [
+    {
+      "id": "I274-C1",
+      "label": "PROVED",
+      "claim": "The scaled reverse-Bessel jets satisfy Z_(i,j+1)=Z_(i,j)+Z_(i-1,j)-2j Z_(i-1,j-1), with Z_(i,0)=q_(N+i).",
+      "evidence": "report equations (2.1)-(2.3), obtained by exact differentiation",
+      "scope_limit": "the factor 2^j is a unit at the odd matching primes"
+    },
+    {
+      "id": "I274-C2",
+      "label": "PROVED",
+      "claim": "Every fixed index window and every fixed jet reduce over Z[N] to the unimodular boundary pair (q_N,q_(N+1)).",
+      "evidence": "report Section 3 and exact forward/backward continuant recursions",
+      "scope_limit": "window and jet order are fixed independently of N"
+    },
+    {
+      "id": "I274-C3",
+      "label": "PROVED",
+      "claim": "Every admissible fixed-size determinant has the homogeneous integral expansion sum C_k(N) q_N^k q_(N+1)^(s-k), with deg C_k <= s(d+L+J).",
+      "evidence": "report Section 4; multilinearity after the two-generator reduction",
+      "scope_limit": "coefficients are fixed rational polynomials after one fixed common denominator"
+    },
+    {
+      "id": "I274-C4",
+      "label": "PROVED_SCOPED_NO_GO",
+      "claim": "Away from finitely many integer roots of the first nonzero C_k, a deep singleton gives v_p(D_N)=k v_p(q_N)+v_p(C_k(N)); k=0 is blind, while k>=1 is a formal q_N^k factor.",
+      "evidence": "report equations (4.5)-(4.6) and unique-minimum valuation argument",
+      "scope_limit": "not an impossibility theorem for growing-length auxiliaries, new functions, or every use of the determinant"
+    },
+    {
+      "id": "I274-C5",
+      "label": "PROVED_HEIGHT_METHOD_NO_GO",
+      "claim": "If the forced-branch determinant is a nonzero integer, its absolute value is at least q_N^k and therefore already has k N log N+O(N) lower height.",
+      "evidence": "formal divisibility and Item265's exact beta height asymptotic",
+      "scope_limit": "this rules out the ordinary fixed-determinant height shortcut, not all arithmetic uses of D_N"
+    },
+    {
+      "id": "I274-C6",
+      "label": "PROVED_UNIT_BRANCH_BLINDNESS",
+      "claim": "The exponential Padé Wronskian specializes to P_N(1)Q_N'(1)=(-1)^N modulo q_N, so the argument derivative is a unit for every prime-power exponent.",
+      "evidence": "report equations (5.2)-(5.3)",
+      "scope_limit": "it proves simple argument roots, not a bound on their p-adic distance from 1"
+    },
+    {
+      "id": "I274-C7",
+      "label": "PROVED_DEOVERLAP",
+      "claim": "If q_N^k divides D_N, then qbar_(m,N)^k divides D_N/gcd(D_N,D_m^k), where qbar=q_N/gcd(q_N,D_m).",
+      "evidence": "report equations (6.3)-(6.6), primewise valuation inequality",
+      "scope_limit": "the forced beta factor cannot be booked again on top of the two-copy clearing reservoir"
+    },
+    {
+      "id": "I274-C8",
+      "label": "EXACT_FINITE_ONLY",
+      "claim": "The portable checker replays reverse-Bessel, scaled-jet, two-generator, determinant-expansion, Padé-Wronskian, and overlap identities on bounded exact ranges.",
+      "evidence": "canonical certificate digests",
+      "scope_limit": "no exceptional-singleton or zero scan is performed"
+    },
+    {
+      "id": "I274-C9",
+      "label": "OPEN_NOT_PROVED",
+      "claim": "No uniform v_p(q_N) log p=O(N) theorem, sufficient little-oh variant, or growing-length sub-main-height auxiliary is obtained.",
+      "evidence": "report Section 7",
+      "scope_limit": "the missing input must use global seeded information or a uniform approximation measure for the canonical p-adic zeros"
+    },
+    {
+      "id": "I274-C10",
+      "label": "PROVED_BOOKING_DECISION",
+      "claim": "The positive-linear capacity admission test fails; no new Route-1 rate or beta capacity reduction is booked.",
+      "evidence": "report Section 8",
+      "scope_limit": "Route 1 and every conclusion about e+pi remain open"
+    }
+  ],
+  "strict_labels": {
+    "fixed_jet_two_generator_reduction": "PROVED",
+    "fixed_determinant_expansion": "PROVED",
+    "singleton_depth_dichotomy": "PROVED SCOPED NO-GO",
+    "forced_branch_height_method": "PROVED SCOPED NO-GO",
+    "pade_wronskian": "PROVED UNIT-BRANCH BLINDNESS",
+    "clearing_reservoir_deoverlap": "PROVED",
+    "uniform_prime_power_height_O_N": "OPEN; NOT PROVED",
+    "bounded_checks": "EXACT FINITE ONLY",
+    "exceptional_singleton_search": "NONE",
+    "positive_linear_capacity_admission": "FAIL",
+    "new_route1_rate": "0",
+    "new_beta_capacity_reduction": "0"
+  },
+  "open": [
+    "the uniform O(N) prime-power height theorem or a sufficient little-oh variant",
+    "a growing-length auxiliary with sub-main height and the required singleton order",
+    "uniform rational-integer approximation of the canonical p-adic zeros",
+    "the actual moving correlation with the clearing divisor and transverse matching factor",
+    "Route 1 and every conclusion about e+pi"
+  ]
+}

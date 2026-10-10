@@ -1,0 +1,49 @@
+{
+  "schema": "item232-root-independent-audit-v1",
+  "status": "PASS_AFTER_TEX_CORRECTION_WITH_SCOPED_ITEM231_INTERFACE",
+  "canonical_sha256": "e21993961d314243e6b5ae98fd03e24d751bea110244e1f3559a922d79b7eb67",
+  "root_replay_sha256": "e21993961d314243e6b5ae98fd03e24d751bea110244e1f3559a922d79b7eb67",
+  "byte_identical_replay": true,
+  "independent_checks": {
+    "formal_diagonal": "Multiplying (1+x)^(-2n) by (1-x)^(-1) exactly converts the coefficient into the partial sum S_n. The standard small-root residue formula with X=z/(1+X)^2 then gives G=(1+X)/((1-X)(1+3X)).",
+    "algebraic_equation": "Direct substitution z=X(1+X)^2 and G=(1+X)/((1-X)(1+3X)) reduces the displayed cubic equation to zero.",
+    "recurrence_extraction": "In the differential certificate, the coefficient of z^(n+2) is exactly P0(n)S_n+P1(n)S_(n+1)+P2(n)S_(n+2); the residual 40z has no contribution for n>=0.",
+    "ore_factorization": "Expanding (-4P0+P2 E)(E-1/4) with coefficients on the left yields P0+(-4P0-P2/4)E+P2E^2, and 16P0+4P1+P2=0 supplies the stated middle coefficient.",
+    "boundary_identity": "The first-order factor gives u_n=S_(n+1)-S_n/4. Its exact product solution and binom(3n,n+1)=2n*binom(3n,n)/(n+1) give the denominator-free coupling.",
+    "item229_rewrite": "Substitution of Q(s)t_(s+1)=2s(2s+1)(4S_(s+1)-S_s) into the frozen Item229 formula gives the displayed two-coordinate identity without division.",
+    "same_row_lift": "For k<p, generalized binomial coefficients give binom(-2s,k)=binom(p-2s,k) mod p; the row relation turns p-2s into 4s+4h+3. The fixed-h generating function follows by the same diagonal lemma.",
+    "literature": "Reindexing k=n-j gives S_n=(-1)^n A371813(n). The OEIS parametrization transforms by g(-z)=1/(1+X), and its recorded recurrence shifts to the frozen P0/P1/P2 recurrence. No novelty is claimed.",
+    "literature_url": "https://oeis.org/A371813",
+    "extended_sequence_n_max": 800,
+    "extended_sequence_rows": 801,
+    "extended_actual_row_prime_max": 2500,
+    "extended_actual_rows": 34882,
+    "python_compile": true,
+    "canonical_replay": "byte-identical",
+    "control_character_scan": "clean after correction of a literal-tab TeX corruption in equation (4.4)",
+    "host_path_scan": "clean",
+    "artifact_hashes": "match the corrected frozen manifest and SHA-256 ledger"
+  },
+  "scope_note": "Section 7 records an interface to the separately proved/forthcoming Item231 identity. Its high-tail formula and finite c_hi=c_h pattern are not promoted as Item232 theorems and are not needed for the Item232 core proof.",
+  "classification": {
+    "PROVED": [
+      "the algebraic generating function and cubic equation",
+      "the all-n order-two recurrence and its Ore factorization",
+      "the hypergeometric first difference and denominator-free boundary coupling",
+      "the exact Item229 rewrite",
+      "the all-row binomial/Frobenius lift and fixed-h generating function",
+      "the exact equivalence with OEIS A371813"
+    ],
+    "EXACT_FINITE": [
+      "the frozen regressions through n<=400 and p<=2000",
+      "the independent extended regressions through the recorded bounds"
+    ],
+    "OPEN": [
+      "a legitimate second same-row relation controlling S_(s+1)",
+      "a uniform moving-digit Cartier state",
+      "control of Item231's distinct fixed-parameter tail",
+      "any all-prime exclusion, density theorem, rate, or conclusion about e+pi"
+    ]
+  },
+  "audit_conclusion": "The sequence theory is exact and reproducible but is known classical structure applied in a new local context. It replaces one boundary binomial by an adjacent sequence value and exposes, rather than removes, the missing same-row coordinate."
+}

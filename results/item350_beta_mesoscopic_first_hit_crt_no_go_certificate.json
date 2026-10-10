@@ -1,0 +1,843 @@
+{
+  "capacity": {
+    "actual_weighted_upper_bound": "OPEN",
+    "booking": 0,
+    "bounded_window_rate": 0,
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "raw_mesoscopic_maximum": "log rad(Q)<=log Q<=log b",
+    "sublinear_window_rate": 0
+  },
+  "crt_control": {
+    "A": 50,
+    "Delta_exact": 0,
+    "P_S": "1260836506523911",
+    "a": "781379079653017",
+    "actual_item316_target_claim": false,
+    "b": "39085931702241241",
+    "c": "16977719590391",
+    "depths": [
+      3,
+      10,
+      11
+    ],
+    "digits_digest": "99c1428bf0c4176fdb80cb6dcb8319c15e8bd31312216ab9d02a8bdeaf2101b2",
+    "earlier_row_avoidance_imposed": false,
+    "epsilon": -1,
+    "finite_only": true,
+    "formal_first_occurrence_claim": false,
+    "formal_noncanonical_control": true,
+    "gcd_t_P_S": 1,
+    "kernel_parameter": 1,
+    "m": 11,
+    "n": 13,
+    "nonzero_multiplier": 1,
+    "per_prime_rows": [
+      {
+        "digits_mod_p_digest": "90c031a508efc9360cb3df324f745b986a41dae7f5f16add7e21a67afdb17485",
+        "j": 3,
+        "p": 13691
+      },
+      {
+        "digits_mod_p_digest": "f514d486c90e9cb88763a4e86179d17a99eef936728c6c5fa3c7e550262bfcc2",
+        "j": 10,
+        "p": 95731
+      },
+      {
+        "digits_mod_p_digest": "29df5807d4b6f048af011b7da550161fffa23cd979d36826e3ea9f300e769bfb",
+        "j": 11,
+        "p": 961991
+      }
+    ],
+    "per_prime_rows_digest": "0a8a82c8c46ceef55d4fe89f1c1ca19f9d4e1a53b200b7b974af4919a9ef3bbc",
+    "prime_census_performed": false,
+    "primes": [
+      13691,
+      95731,
+      961991
+    ],
+    "selected_rows": [
+      {
+        "j": 3,
+        "nonzero": true,
+        "p": 13691,
+        "t_mod_p": 1,
+        "z": "16390874584810843",
+        "z_over_p": "1197200685473"
+      },
+      {
+        "j": 10,
+        "nonzero": true,
+        "p": 95731,
+        "t_mod_p": 1,
+        "z": "-8351671584576677676732711809919",
+        "z_over_p": "-87241035658007099860366149"
+      },
+      {
+        "j": 11,
+        "nonzero": true,
+        "p": 961991,
+        "t_mod_p": 263089,
+        "z": "23884808663112547",
+        "z_over_p": "24828515717"
+      }
+    ],
+    "selected_rows_digest": "08819121f00f113bd317c2ffc1916dcb9959f42ac39c7cba94ca6aeb87688dfb",
+    "sigma": 1,
+    "t": "-166960877536062927890798272167"
+  },
+  "date": "2026-09-01",
+  "dependencies": {
+    "count": 14,
+    "digest": "473cbcbda1b4283e04c99f91820e353b177d235be6a99f7ea2aaa706d048c133",
+    "rows": [
+      {
+        "bytes": 14522,
+        "path": "sources/item333_beta_nonlinear_state_saturation_no_go_report.md",
+        "sha256": "8f4bc0a6f93cbd4882392ade311d68e25be1ceb282db71cc5e1ef2f70aee75d6"
+      },
+      {
+        "bytes": 2668,
+        "path": "results/item333_beta_nonlinear_state_saturation_no_go_root_audit.json",
+        "sha256": "6ddd4949f5d7f91fdc160634da06079661ebf373ac0f061495a7b41135924ecc"
+      },
+      {
+        "bytes": 15813,
+        "path": "sources/item340_beta_full_complement_loop_correlation_report.md",
+        "sha256": "4f3ddc5e09544e7c4d8077413b968f5b8a61694b8872dfdccf89d18dc03018b6"
+      },
+      {
+        "bytes": 45068,
+        "path": "results/item340_beta_full_complement_loop_correlation_certificate.json",
+        "sha256": "4be0540e6835c3621482ab42bf5218420d76d7091a827386b1f6978146f6bfd0"
+      },
+      {
+        "bytes": 2660,
+        "path": "results/item340_beta_full_complement_loop_correlation_root_audit.json",
+        "sha256": "1b0a53ab7a2c99a5be681a233c1a4c55ff8e6addb702ff287996cab3eb3e1900"
+      },
+      {
+        "bytes": 4103,
+        "path": "manifests/item340_beta_full_complement_loop_correlation_manifest.json",
+        "sha256": "3197f620428af855b016842f156f69894f704de2d71846a675860d1a6b679366"
+      },
+      {
+        "bytes": 11239,
+        "path": "sources/item343_beta_quotient_radical_excess_capacity_report.md",
+        "sha256": "0fb48e3bbf30d05bcf40d2e4dc9b04e2e80893e6c4fee925d9c6b99b25126c66"
+      },
+      {
+        "bytes": 21725,
+        "path": "results/item343_beta_quotient_radical_excess_capacity_certificate.json",
+        "sha256": "c700ffaa6898bd50e4d6b790dea307ec883ecab6374e07a7c62622eb5ba7d57b"
+      },
+      {
+        "bytes": 2696,
+        "path": "results/item343_beta_quotient_radical_excess_capacity_root_audit.json",
+        "sha256": "1788b3f5247b132c8ea8f8133d64d9fadcd716013b041964be46b7c71c9747e4"
+      },
+      {
+        "bytes": 4182,
+        "path": "manifests/item343_beta_quotient_radical_excess_capacity_manifest.json",
+        "sha256": "eddaff62ba519ece9bac2c881b04b0a0ec3f5dc5d06d780ac03a4b0b7dc69439"
+      },
+      {
+        "bytes": 12193,
+        "path": "sources/item346_beta_t_avoiding_radical_localization_report.md",
+        "sha256": "2ad742c14d0adbc74da6c46394ed89f68cec8888a3c9d22ee4f230a4e16548a5"
+      },
+      {
+        "bytes": 55217,
+        "path": "results/item346_beta_t_avoiding_radical_localization_certificate.json",
+        "sha256": "29a20d6ede62db23658d66db8e57af4a2982c9b66fd12d104f0070b3280aefab"
+      },
+      {
+        "bytes": 3264,
+        "path": "results/item346_beta_t_avoiding_radical_localization_root_audit.json",
+        "sha256": "c9273d7e187ee2c9b4b91bffc65769f1a29f937613c36960e4ed5871c5782089"
+      },
+      {
+        "bytes": 5228,
+        "path": "manifests/item346_beta_t_avoiding_radical_localization_manifest.json",
+        "sha256": "5029cf3483fdf6cce4bbc0d454bca362bb2796104ca36b353d0161e374915530"
+      }
+    ]
+  },
+  "item": 350,
+  "proof_object": {
+    "elimination": "The transition ideal quotient is a polynomial ring in the initial digit and all loads, so its load-only elimination ideal is zero.",
+    "exact_CRT": "Per-prime solutions combine by CRT. The coprime top target coefficients lift Delta=0 mod P to exact Delta=0, and a target-kernel direction avoids exact zero of each selected row. Earlier-row nondivisibility is not imposed.",
+    "penultimate_resonance": "Exactly Delta+A*t-z_(m-1)=A*c-a+rho_<. On rho_<=0 the only t-unit obstruction over p|b is p|(A^2+1), a zero-rate carrier; this is a slice obstruction and not an actual-family exclusion.",
+    "per_prime_compatibility": "For lower depths t varies in the free z_m coordinate; at the top the primitive t_0 survives; at m-1 the top gradients are resonant, while the primitive lower coordinate rho_< restores t-unit freedom.",
+    "scope": "First-occurrence avoidance, canonical digit inequalities, and the small positive quotients h_j are not imposed. They remain possible sources of an actual bound.",
+    "triangular_coordinates": "x_j=w_j d_(j-1)-d_j gives an integral triangular automorphism; all cross-depth identities are its telescoping inverse.",
+    "window_capacity": "A window with r actual first hits has product carrier height below 2r log A; sublinear windows are zero rate and linear coverage remains on the full beta scale."
+  },
+  "proof_object_digest": "94adf65b9ebd83c1a8a95185aa66e00918cb750332167e184b507f6c25369a29",
+  "resonance_controls": {
+    "applicable_n_values": [
+      6,
+      13,
+      30
+    ],
+    "declared_n_values": [
+      5,
+      6,
+      13,
+      30
+    ],
+    "n_5_penultimate_depth_outside_active_range": true,
+    "row_count": 3,
+    "rows": [
+      {
+        "A": 22,
+        "actual_family_exclusion_claim": false,
+        "determinant": 0,
+        "finite_only": true,
+        "lower_zero_slice_carrier": "1",
+        "lower_zero_slice_carrier_bound": "485",
+        "lower_zero_slice_carrier_zero_rate": true,
+        "m": 4,
+        "matrix": [
+          [
+            253,
+            -18,
+            1
+          ],
+          [
+            -5580,
+            397,
+            -22
+          ],
+          [
+            -14,
+            1,
+            0
+          ]
+        ],
+        "n": 6,
+        "primitive_reason": "m=4 edge: gcd(141,q_6)=1",
+        "rho_coefficient_count": 1,
+        "rho_coefficients_digest": "51d59e4185275c32d493d99d07eb2a27347471bba405e45d8e9a3ca5e9b4073e",
+        "rho_content": 141,
+        "rho_is_mod_p_surjective_for_every_p_gt_A_dividing_b": true,
+        "row_relation": "row_Delta=-A*row_t+row_z",
+        "symbolic_affine_identity": "Delta+A*t-z_(m-1)=A*c-a+rho_lower",
+        "symbolic_rows": [
+          {
+            "affine_constant": "3933",
+            "epsilon": -1,
+            "expected_gradient_digest": "9792ffdd491ef690f2f51ded8ea77ca7b4a7a9ff62f45f4c1d50b9cda48a9c2a",
+            "identity_verified": true,
+            "left_gradient_digest": "9792ffdd491ef690f2f51ded8ea77ca7b4a7a9ff62f45f4c1d50b9cda48a9c2a",
+            "sigma": -1
+          },
+          {
+            "affine_constant": "3933",
+            "epsilon": 1,
+            "expected_gradient_digest": "4a7dc16859282bf4f5336949208187419fe56bf4aec5b625f68a4f732f48d47f",
+            "identity_verified": true,
+            "left_gradient_digest": "4a7dc16859282bf4f5336949208187419fe56bf4aec5b625f68a4f732f48d47f",
+            "sigma": 1
+          }
+        ],
+        "symbolic_rows_digest": "5de1b1fad2c02f1f93d50bef7e771726e4a06d753d56c8d08e4a586325665d7b"
+      },
+      {
+        "A": 50,
+        "actual_family_exclusion_claim": false,
+        "determinant": 0,
+        "finite_only": true,
+        "lower_zero_slice_carrier": "1",
+        "lower_zero_slice_carrier_bound": "2501",
+        "lower_zero_slice_carrier_zero_rate": true,
+        "m": 11,
+        "matrix": [
+          [
+            1933,
+            -46,
+            1
+          ],
+          [
+            -96692,
+            2301,
+            -50
+          ],
+          [
+            -42,
+            1,
+            0
+          ]
+        ],
+        "n": 13,
+        "primitive_reason": "last two lower continuants have gcd one",
+        "rho_coefficient_count": 8,
+        "rho_coefficients_digest": "c24315ebcce96e74c714a651adea6b035a73f853361c98c23f8f4661fd986a91",
+        "rho_content": 1,
+        "rho_is_mod_p_surjective_for_every_p_gt_A_dividing_b": true,
+        "row_relation": "row_Delta=-A*row_t+row_z",
+        "symbolic_affine_identity": "Delta+A*t-z_(m-1)=A*c-a+rho_lower",
+        "symbolic_rows": [
+          {
+            "affine_constant": "67506899866533",
+            "epsilon": 1,
+            "expected_gradient_digest": "4e871bc94b34c7a0bf3148d2ddfbf4b5a9f463e3040acf04dd6004265d36e0a5",
+            "identity_verified": true,
+            "left_gradient_digest": "4e871bc94b34c7a0bf3148d2ddfbf4b5a9f463e3040acf04dd6004265d36e0a5",
+            "sigma": -1
+          },
+          {
+            "affine_constant": "67506899866533",
+            "epsilon": -1,
+            "expected_gradient_digest": "837dff5b97f663026b0dd8326988c7667ee46d0b006f333cfb9998df500c3d2a",
+            "identity_verified": true,
+            "left_gradient_digest": "837dff5b97f663026b0dd8326988c7667ee46d0b006f333cfb9998df500c3d2a",
+            "sigma": 1
+          }
+        ],
+        "symbolic_rows_digest": "0f058be40a7effcc38996b38f2f72092a60ead408654058bfa38c6e6e8c2b4a1"
+      },
+      {
+        "A": 118,
+        "actual_family_exclusion_claim": false,
+        "determinant": 0,
+        "finite_only": true,
+        "lower_zero_slice_carrier": "1",
+        "lower_zero_slice_carrier_bound": "13925",
+        "lower_zero_slice_carrier_zero_rate": true,
+        "m": 28,
+        "matrix": [
+          [
+            12541,
+            -114,
+            1
+          ],
+          [
+            -1479948,
+            13453,
+            -118
+          ],
+          [
+            -110,
+            1,
+            0
+          ]
+        ],
+        "n": 30,
+        "primitive_reason": "last two lower continuants have gcd one",
+        "rho_coefficient_count": 25,
+        "rho_coefficients_digest": "2dba6c2c50483b764d78f36149ff1067694fdb20964c0adc6d760b2b101df624",
+        "rho_content": 1,
+        "rho_is_mod_p_surjective_for_every_p_gt_A_dividing_b": true,
+        "row_relation": "row_Delta=-A*row_t+row_z",
+        "symbolic_affine_identity": "Delta+A*t-z_(m-1)=A*c-a+rho_lower",
+        "symbolic_rows": [
+          {
+            "affine_constant": "5632038360673579916888805739068761445709813773",
+            "epsilon": -1,
+            "expected_gradient_digest": "f4d733a26ad357f63665777283b79919305dab310cda7b2be7ccbfa749123ca3",
+            "identity_verified": true,
+            "left_gradient_digest": "f4d733a26ad357f63665777283b79919305dab310cda7b2be7ccbfa749123ca3",
+            "sigma": -1
+          },
+          {
+            "affine_constant": "5632038360673579916888805739068761445709813773",
+            "epsilon": 1,
+            "expected_gradient_digest": "9e79b8e2b940f66252f95bd56544c158a0017957621d829cfd0263797084d932",
+            "identity_verified": true,
+            "left_gradient_digest": "9e79b8e2b940f66252f95bd56544c158a0017957621d829cfd0263797084d932",
+            "sigma": 1
+          }
+        ],
+        "symbolic_rows_digest": "6e6d122530c0b72797ba0f24a8a4b8dffe2c316a004994eae29db4eb854ca8db"
+      }
+    ],
+    "rows_digest": "97c2b97673894ebde368fe65da129cc6dd953758691a204a791f7cf2f5a23b5d",
+    "symbolic_identity_not_inferred_from_rows": true
+  },
+  "schema": "item350-beta-mesoscopic-first-hit-crt-no-go-certificate-v1",
+  "status": "PROVED_MESOSCOPIC_LOAD_CRT_RESULTANT_SCOPED_NO_GO",
+  "strict_scope": {
+    "actual_specialization_bridge": "OPEN",
+    "actual_target_claim_from_finite_rows": false,
+    "canonical_files_modified": false,
+    "closes": [
+      "pairwise and finite-window recurrence resultants for selected distinct hit congruences",
+      "the exact formal target equality plus t-unit localization at selected hit rows",
+      "exact-zero selected rows as the explanation for the CRT compatibility control"
+    ],
+    "does_not_close": [
+      "formal or actual first-occurrence patterns",
+      "the actual mesoscopic weighted sum, Xi_Q, H_Q, K_Q, or Gamma_Q",
+      "the squarefull branch, half-bound, beta capacity, Route 1, or e+pi"
+    ],
+    "finite_rows_promoted": false,
+    "formal_integer_digits_are_actual_beta_specialization": false,
+    "isolates": [
+      "earlier-row nondivisibility required for genuine first occurrence",
+      "canonical inequalities and small h_j quotients across linearly many depths",
+      "external arithmetic of the common divisor b"
+    ]
+  },
+  "theorem": {
+    "actual_Xi_Q": "OPEN",
+    "actual_mesoscopic_weighted_upper_bound": "OPEN",
+    "all_window_telescoping_identity": "PROVED",
+    "earlier_row_avoidance_for_assigned_primes": "OPEN_NOT_IMPOSED",
+    "exact_integer_CRT_compatibility": "PROVED",
+    "formal_first_occurrence_pattern": "NOT_CLAIMED",
+    "integral_load_coordinate_automorphism": "PROVED",
+    "load_only_elimination_ideal_zero": "PROVED",
+    "lower_coordinate_primitive_escape": "PROVED",
+    "lower_zero_slice_carrier_A_squared_plus_1_zero_rate": "PROVED",
+    "penultimate_affine_rho_bridge": "PROVED",
+    "penultimate_top_gradient_resonance": "PROVED",
+    "per_prime_target_t_unit_compatibility": "PROVED",
+    "selected_exact_zero_rows_stratified_away": "PROVED",
+    "window_product_height_bound": "PROVED"
+  },
+  "transition_controls": {
+    "declared_n_values": [
+      5,
+      13,
+      25
+    ],
+    "finite_rows_promoted": false,
+    "row_count": 3,
+    "rows": [
+      {
+        "A": 18,
+        "digits": [
+          3,
+          -4,
+          5
+        ],
+        "finite_only": true,
+        "formal_noncanonical_control": true,
+        "inverse_reconstruction": true,
+        "m": 3,
+        "n": 5,
+        "unimodular_determinant": -1,
+        "windows": [
+          {
+            "endpoint": 5,
+            "terms": [
+              {
+                "j": 3,
+                "tail": 1,
+                "x": -61
+              }
+            ],
+            "terms_digest": "5a29f952aea4710692afa2b7593e1151470fc8abf232ca43090b61e1bb498117",
+            "u": 2,
+            "v": 3,
+            "weight_product": "14"
+          },
+          {
+            "endpoint": 5,
+            "terms": [
+              {
+                "j": 3,
+                "tail": 1,
+                "x": -61
+              }
+            ],
+            "terms_digest": "5a29f952aea4710692afa2b7593e1151470fc8abf232ca43090b61e1bb498117",
+            "u": 2,
+            "v": 3,
+            "weight_product": "14"
+          },
+          {
+            "endpoint": 5,
+            "terms": [
+              {
+                "j": 3,
+                "tail": 1,
+                "x": -61
+              }
+            ],
+            "terms_digest": "5a29f952aea4710692afa2b7593e1151470fc8abf232ca43090b61e1bb498117",
+            "u": 2,
+            "v": 3,
+            "weight_product": "14"
+          }
+        ],
+        "windows_digest": "0895a4c8dffff7efffa0f2231a3910c164f657680f606afe2a76c44e3eb40cb0",
+        "x_values": [
+          -61
+        ]
+      },
+      {
+        "A": 50,
+        "digits": [
+          3,
+          -4,
+          5,
+          -6,
+          7,
+          -8,
+          9,
+          -10,
+          11,
+          -12,
+          13
+        ],
+        "finite_only": true,
+        "formal_noncanonical_control": true,
+        "inverse_reconstruction": true,
+        "m": 11,
+        "n": 13,
+        "unimodular_determinant": -1,
+        "windows": [
+          {
+            "endpoint": 13,
+            "terms": [
+              {
+                "j": 3,
+                "tail": 771008958720,
+                "x": -61
+              },
+              {
+                "j": 4,
+                "tail": 42833831040,
+                "x": 96
+              },
+              {
+                "j": 5,
+                "tail": 1946992320,
+                "x": -139
+              },
+              {
+                "j": 6,
+                "tail": 74884320,
+                "x": 190
+              },
+              {
+                "j": 7,
+                "tail": 2496144,
+                "x": -249
+              },
+              {
+                "j": 8,
+                "tail": 73416,
+                "x": 316
+              },
+              {
+                "j": 9,
+                "tail": 1932,
+                "x": -391
+              },
+              {
+                "j": 10,
+                "tail": 46,
+                "x": 474
+              },
+              {
+                "j": 11,
+                "tail": 1,
+                "x": -565
+              }
+            ],
+            "terms_digest": "b4ed54c65cf8c5a7754ae3a76ddcbb8bb7f110d31110c9f4dc86fcdf44da6e5d",
+            "u": 2,
+            "v": 11,
+            "weight_product": "10794125422080"
+          },
+          {
+            "endpoint": 7,
+            "terms": [
+              {
+                "j": 3,
+                "tail": 396,
+                "x": -61
+              },
+              {
+                "j": 4,
+                "tail": 22,
+                "x": 96
+              },
+              {
+                "j": 5,
+                "tail": 1,
+                "x": -139
+              }
+            ],
+            "terms_digest": "3d0e904683ec285c824f6e1cf9ce04005a9d2e17bafc7e525be65afea0ca666a",
+            "u": 2,
+            "v": 5,
+            "weight_product": "5544"
+          },
+          {
+            "endpoint": 13,
+            "terms": [
+              {
+                "j": 8,
+                "tail": 73416,
+                "x": 316
+              },
+              {
+                "j": 9,
+                "tail": 1932,
+                "x": -391
+              },
+              {
+                "j": 10,
+                "tail": 46,
+                "x": 474
+              },
+              {
+                "j": 11,
+                "tail": 1,
+                "x": -565
+              }
+            ],
+            "terms_digest": "b1fa9bde3f594994f1cf3f1e7084f2aaf490ddfbe592b0916972ae5b958fca06",
+            "u": 7,
+            "v": 11,
+            "weight_product": "2496144"
+          }
+        ],
+        "windows_digest": "ee67c4a4f48b69b0188cd386501021938c2e701c72ceabb17d4b9aca3dac7772",
+        "x_values": [
+          -61,
+          96,
+          -139,
+          190,
+          -249,
+          316,
+          -391,
+          474,
+          -565
+        ]
+      },
+      {
+        "A": 98,
+        "digits": [
+          3,
+          -4,
+          5,
+          -6,
+          7,
+          -8,
+          9,
+          -10,
+          11,
+          -12,
+          13,
+          -14,
+          15,
+          -16,
+          17,
+          -18,
+          19,
+          -20,
+          21,
+          -22,
+          23,
+          -24,
+          25
+        ],
+        "finite_only": true,
+        "formal_noncanonical_control": true,
+        "inverse_reconstruction": true,
+        "m": 23,
+        "n": 25,
+        "unimodular_determinant": -1,
+        "windows": [
+          {
+            "endpoint": 25,
+            "terms": [
+              {
+                "j": 3,
+                "tail": 11909508431491857481190306611200000,
+                "x": -61
+              },
+              {
+                "j": 4,
+                "tail": 661639357305103193399461478400000,
+                "x": 96
+              },
+              {
+                "j": 5,
+                "tail": 30074516241141054245430067200000,
+                "x": -139
+              },
+              {
+                "j": 6,
+                "tail": 1156712163120809778670387200000,
+                "x": 190
+              },
+              {
+                "j": 7,
+                "tail": 38557072104026992622346240000,
+                "x": -249
+              },
+              {
+                "j": 8,
+                "tail": 1134031532471382135951360000,
+                "x": 316
+              },
+              {
+                "j": 9,
+                "tail": 29842935065036371998720000,
+                "x": -391
+              },
+              {
+                "j": 10,
+                "tail": 710546072977056476160000,
+                "x": 474
+              },
+              {
+                "j": 11,
+                "tail": 15446653760370792960000,
+                "x": -565
+              },
+              {
+                "j": 12,
+                "tail": 308933075207415859200,
+                "x": 664
+              },
+              {
+                "j": 13,
+                "tail": 5720982874211404800,
+                "x": -771
+              },
+              {
+                "j": 14,
+                "tail": 98637635762265600,
+                "x": 886
+              },
+              {
+                "j": 15,
+                "tail": 1590929609068800,
+                "x": -1009
+              },
+              {
+                "j": 16,
+                "tail": 24104994076800,
+                "x": 1140
+              },
+              {
+                "j": 17,
+                "tail": 344357058240,
+                "x": -1279
+              },
+              {
+                "j": 18,
+                "tail": 4653473760,
+                "x": 1426
+              },
+              {
+                "j": 19,
+                "tail": 59659920,
+                "x": -1581
+              },
+              {
+                "j": 20,
+                "tail": 727560,
+                "x": 1744
+              },
+              {
+                "j": 21,
+                "tail": 8460,
+                "x": -1915
+              },
+              {
+                "j": 22,
+                "tail": 94,
+                "x": 2094
+              },
+              {
+                "j": 23,
+                "tail": 1,
+                "x": -2281
+              }
+            ],
+            "terms_digest": "1813310fd626da49be84d06ca7ff1c49b535116d53f9af41e1ef65d5ffba1a09",
+            "u": 2,
+            "v": 23,
+            "weight_product": "166733118040886004736664292556800000"
+          },
+          {
+            "endpoint": 7,
+            "terms": [
+              {
+                "j": 3,
+                "tail": 396,
+                "x": -61
+              },
+              {
+                "j": 4,
+                "tail": 22,
+                "x": 96
+              },
+              {
+                "j": 5,
+                "tail": 1,
+                "x": -139
+              }
+            ],
+            "terms_digest": "3d0e904683ec285c824f6e1cf9ce04005a9d2e17bafc7e525be65afea0ca666a",
+            "u": 2,
+            "v": 5,
+            "weight_product": "5544"
+          },
+          {
+            "endpoint": 25,
+            "terms": [
+              {
+                "j": 20,
+                "tail": 727560,
+                "x": 1744
+              },
+              {
+                "j": 21,
+                "tail": 8460,
+                "x": -1915
+              },
+              {
+                "j": 22,
+                "tail": 94,
+                "x": 2094
+              },
+              {
+                "j": 23,
+                "tail": 1,
+                "x": -2281
+              }
+            ],
+            "terms_digest": "d0295b5bceaef88cbd80078d316a3e9205d03cb672b2a1453ee911d9d4cbcdec",
+            "u": 19,
+            "v": 23,
+            "weight_product": "59659920"
+          }
+        ],
+        "windows_digest": "b59cabb9d710c969734dcfc03c3896278ab989f7b27074fbaa8b885296a0613a",
+        "x_values": [
+          -61,
+          96,
+          -139,
+          190,
+          -249,
+          316,
+          -391,
+          474,
+          -565,
+          664,
+          -771,
+          886,
+          -1009,
+          1140,
+          -1279,
+          1426,
+          -1581,
+          1744,
+          -1915,
+          2094,
+          -2281
+        ]
+      }
+    ],
+    "rows_digest": "53956900eb311f16852aa58364eaf8bb3acfd49a20a2081f18922925a4b33a23"
+  }
+}

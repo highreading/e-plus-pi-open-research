@@ -1,0 +1,266 @@
+{
+  "canonical_files_modified": false,
+  "capacity_and_scope": {
+    "capacity_first": {
+      "additive_projection_excluded_mass": 0,
+      "new_fixed_j1_capacity_reduction": 0,
+      "new_linear_log_rate": 0,
+      "norm_height_gain": 0,
+      "raw_fixed_j1_prime_mass": "M/6+o(M)",
+      "retained_ceiling_per_6M": "1/36",
+      "support": "the split-prime theorem applies to every actual Item342 row"
+    },
+    "scoped_no_go": {
+      "closed": [
+        "nontrivial Galois traces or bounded-character additive projections justified only by the chosen-prime gate",
+        "relative norms through bounded-index or bounded-degree subfields combined only with Item342's conjugate bound",
+        "claiming automatic rational descent from the formal Teichmueller construction or from selected-carrier vanishing alone"
+      ],
+      "not_closed": [
+        "a new theorem proving a large stabilizer specifically on all or almost all selected-zero rows",
+        "special cancellation giving a genuinely smaller relative or absolute norm",
+        "p-adic chosen-prime nonconcentration without Galois descent",
+        "an additional original-collision condition that forces descent beyond the selected factor"
+      ]
+    }
+  },
+  "classification": {
+    "EXACT_FINITE_ONLY": [
+      "five preselected group-ring stabilizer and norm controls; no scan or asymptotic inference",
+      "two carrier-zero controls have trivial stabilizer, and two nonzero controls are norm false positives"
+    ],
+    "OPEN": [
+      "a large-stabilizer or special-descent theorem on a weighted-full set of selected-zero rows",
+      "special relative-norm cancellation below the black-box height",
+      "chosen-prime p-adic nonconcentration",
+      "W_b(M)=o(M), any fixed-j1 ceiling reduction, Route 1, and every conclusion about e+pi"
+    ],
+    "PROVED": [
+      "complete splitting and trivial decomposition group at the chosen Teichmueller prime",
+      "non-preservation of the gate by every nontrivial additive Galois projection",
+      "preservation by relative norms and invariance of the black-box absolute norm height under subfield factorization",
+      "the exact stabilizer/orbit criterion for bounded-degree descent",
+      "scoped Galois projection and subfield-norm no-go"
+    ]
+  },
+  "date": "2026-09-01",
+  "dependencies": {
+    "manifests/item342_j1_finite_field_fourier_weil_barrier_manifest.json": "85ca4a73d9009acc3dc8d7102325f74156a11bf13e618dc1a88c06fd352b8a54",
+    "results/item342_j1_finite_field_fourier_weil_barrier_certificate.json": "4cf10e1d035dcd18a134e5f1b00e54a34ae1b3833a2863b54212da9fcccf49d9",
+    "results/item342_j1_finite_field_fourier_weil_barrier_certificate_replay.json": "4cf10e1d035dcd18a134e5f1b00e54a34ae1b3833a2863b54212da9fcccf49d9",
+    "results/item342_j1_finite_field_fourier_weil_barrier_root_audit.json": "aa6b260f78ae094b20a1b6b041c75131514b5ded51f016e6950671c472280835",
+    "scripts/item342_j1_finite_field_fourier_weil_barrier_certificate.py": "130cfd5d2ac7c31546ef177c3f751abcc236ca92dc253a59914d487187c1fbac",
+    "sources/item342_j1_finite_field_fourier_weil_barrier_report.md": "843bb85381c98adf0a5b64801ce099e4c3c9119d5933704d97bbd492f1b8029b"
+  },
+  "direct_controls": [
+    {
+      "M": 9,
+      "absolute_norm": 6877,
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "cyclotomic_degree": 4,
+      "full_original_collision_claimed": false,
+      "h": 1,
+      "n": 2,
+      "norm_divisible_by_p": true,
+      "orbit_degree": 4,
+      "p": 13,
+      "primitive_root": 2,
+      "r": 3,
+      "reduced_polynomial_coefficients_high_to_low": [
+        -4,
+        2,
+        -6,
+        -3
+      ],
+      "s": 1,
+      "stabilizer_multipliers": [
+        1
+      ],
+      "target_mod_p": 0,
+      "term_count_before_cyclotomic_reduction": 22
+    },
+    {
+      "M": 12,
+      "absolute_norm": 19103121,
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "cyclotomic_degree": 8,
+      "full_original_collision_claimed": false,
+      "h": 2,
+      "n": 4,
+      "norm_divisible_by_p": true,
+      "orbit_degree": 8,
+      "p": 17,
+      "primitive_root": 3,
+      "r": 3,
+      "reduced_polynomial_coefficients_high_to_low": [
+        -1,
+        -1,
+        5,
+        -3,
+        -6,
+        -1,
+        -1,
+        1
+      ],
+      "s": 1,
+      "stabilizer_multipliers": [
+        1
+      ],
+      "target_mod_p": 8,
+      "term_count_before_cyclotomic_reduction": 51
+    },
+    {
+      "M": 34,
+      "absolute_norm": 2075473882824195408557,
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "cyclotomic_degree": 22,
+      "full_original_collision_claimed": false,
+      "h": 8,
+      "n": 16,
+      "norm_divisible_by_p": true,
+      "orbit_degree": 22,
+      "p": 47,
+      "primitive_root": 5,
+      "r": 5,
+      "reduced_polynomial_coefficients_high_to_low": [
+        4,
+        -1,
+        5,
+        -1,
+        7,
+        0,
+        -5,
+        -4,
+        6,
+        -5,
+        -1,
+        -2,
+        3,
+        -1,
+        4,
+        1,
+        2,
+        -3,
+        5,
+        -3,
+        4,
+        0
+      ],
+      "s": 2,
+      "stabilizer_multipliers": [
+        1
+      ],
+      "target_mod_p": 0,
+      "term_count_before_cyclotomic_reduction": 179
+    },
+    {
+      "M": 30,
+      "absolute_norm": 2592733605337,
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "cyclotomic_degree": 12,
+      "full_original_collision_claimed": false,
+      "h": 4,
+      "n": 8,
+      "norm_divisible_by_p": false,
+      "orbit_degree": 12,
+      "p": 43,
+      "primitive_root": 3,
+      "r": 9,
+      "reduced_polynomial_coefficients_high_to_low": [
+        -9,
+        -8,
+        -3,
+        13,
+        4,
+        -8,
+        -3,
+        8,
+        9,
+        9,
+        -6,
+        -8
+      ],
+      "s": 4,
+      "stabilizer_multipliers": [
+        1
+      ],
+      "target_mod_p": 2,
+      "term_count_before_cyclotomic_reduction": 159
+    },
+    {
+      "M": 32,
+      "absolute_norm": 1905718768398368001644003,
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "cyclotomic_degree": 22,
+      "full_original_collision_claimed": false,
+      "h": 2,
+      "n": 4,
+      "norm_divisible_by_p": true,
+      "orbit_degree": 22,
+      "p": 47,
+      "primitive_root": 5,
+      "r": 13,
+      "reduced_polynomial_coefficients_high_to_low": [
+        1,
+        2,
+        -5,
+        4,
+        -5,
+        2,
+        -3,
+        5,
+        -1,
+        0,
+        0,
+        7,
+        5,
+        -1,
+        -2,
+        4,
+        -4,
+        -6,
+        -4,
+        2,
+        -6,
+        -2
+      ],
+      "s": 6,
+      "stabilizer_multipliers": [
+        1
+      ],
+      "target_mod_p": 36,
+      "term_count_before_cyclotomic_reduction": 179
+    }
+  ],
+  "item": 345,
+  "prime_scans": 0,
+  "schema": "item345-j1-kummer-galois-descent-obstruction-certificate-v1",
+  "split_prime_descent_theorem": {
+    "additive_descent": {
+      "consequence": "no nontrivial additive Galois averaging is target-forced by the chosen-prime gate",
+      "reason": "complete splitting identifies O_K/p with a product of F_p coordinates; vanishing of one coordinate does not force an orbit sum to vanish",
+      "theorem": "for every nontrivial subgroup H, Tr_(K/K^H)(P) is not contained in P intersect K^H; the same failure holds for nontrivial additive character/idempotent projections"
+    },
+    "multiplicative_descent": {
+      "Item342_value": "B=21 sqrt(p), d=phi(p-1)",
+      "consequence": "passing through any subfield does not improve the black-box absolute norm bound (21 sqrt(p))^phi(p-1)",
+      "false_positives": "the norm can be divisible by p because a different split-prime coordinate vanishes even when the selected target is nonzero",
+      "height_identity": "if d=[K:Q], h=|H|, and every conjugate of T is at most B, each relative-norm conjugate is at most B^h and its absolute norm bound is B^(h*d/h)=B^d",
+      "theorem": "N_(K/K^H)(T) lies in P intersect K^H whenever T lies in P"
+    },
+    "setup": {
+      "Galois_group": "(Z/(p-1)Z)^x",
+      "chosen_prime": "the Teichmueller embedding fixes one prime P above p, and the selected gate is T in P",
+      "decomposition_group": "D(P/p)={1}",
+      "field": "K_p=Q(zeta_(p-1))",
+      "splitting": "p is unramified and p=1 mod (p-1), hence splits completely in K_p"
+    },
+    "stabilizer_dichotomy": {
+      "bounded_degree_requirement": "a degree-D descent requires a stabilizer of size at least phi(p-1)/D",
+      "finite_witness": "both preselected selected-carrier zeros p=13 and p=47 have trivial stabilizer; this is exact finite evidence against automatic descent, not a density theorem",
+      "not_forced": "chosen-prime membership alone imposes no equality between Galois coordinates and therefore forces no nontrivial stabilizer",
+      "orbit_degree": "[Q(T):Q]=|Gal(K/Q):Stab(T)|"
+    }
+  },
+  "status": "PROVED_SPLIT_PRIME_DESCENT_DICHOTOMY_AND_SCOPED_GALOIS_PROJECTION_NO_GO"
+}

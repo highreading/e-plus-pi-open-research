@@ -1,0 +1,80 @@
+{
+  "schema": "item378-beta-top-symmetric-multivariate-cancellation-ledger-delta-v1",
+  "item": 378,
+  "checked_date_beijing": "2026-09-01",
+  "classification": "PROVED_RECIPROCAL_POSITIVE_NO_GO_AND_CANCELLATION_TUBE",
+  "actual_family": "Item316 canonical positive loads with Item373 U_11 and Item375 primitive/content normalization",
+  "admission": {
+    "candidate_class": "bounded-degree primitive polynomials in fixed top coordinates T_s=E_(N-s), with sub-beta clearing denominator",
+    "actual_implication_required": "U_11 divides the nonzero integral residual",
+    "zero_rate_threshold": "log|residual|=o(log b)",
+    "positive_mass_hypothesis": "log U_11>=eta log b"
+  },
+  "proved": {
+    "mass_to_rows": "at least (eta/2+o(1))n distinct loads exceed A",
+    "common_scale": "log T_1>=(eta/2+o(1))log b and every fixed T_s/T_1 is b^o",
+    "transversality": "a leading homogeneous value >=T_1^d/b^o dominates all bounded-degree lower parts",
+    "reciprocal_transform": "H(T)=P^d Phi(1/Z), Phi=H(e_1,...,e_k)",
+    "reciprocal_positive": "one-sign monomial coefficients of Phi imply |H(T)|/T_1^d>=A^(-2kd)N^(-d)",
+    "mixed_sign_closed_family": "X_s^2-X_(s-1)X_(s+1) transforms to the Schur polynomial s_(2^s)",
+    "surviving_tube": "a sub-beta residual forces |Phi(1/Z)|/e_1(1/Z)^d<=b^(-eta/2+o(1))"
+  },
+  "scoped_no_go": [
+    "same-sign leading forms in top symmetric coordinates",
+    "the larger reciprocal-positive cone",
+    "mixed-sign Schur gaps and products remaining reciprocal-positive",
+    "sub-beta clearing denominators and scalar content as compression"
+  ],
+  "surviving_variety": {
+    "exact": "H_d(T_1,...,T_k)=0, equivalently Phi_d(1/Z)=0",
+    "approximate": "normalized form-value at most b^(-eta/2+o(1))",
+    "status": "OPEN actual-family avoidance; no Euclidean distance claim",
+    "ambient_intersection": "all-one loads give 2T_2-(N-1)T_1=0 but have no singleton mass"
+  },
+  "not_proved": [
+    "actual canonical avoidance of mixed-sign cancellation tubes",
+    "a canonical nonzero sub-beta residual with U_11 divisibility",
+    "growing k or degree",
+    "beta-height nonlinear gcd/radical compression",
+    "a weighted upper bound for U_11",
+    "Route 1 or e+pi"
+  ],
+  "capacity": {
+    "transverse_residual_lower_rate": "at least d*eta/2+o(1)",
+    "constructed_actual_sub_beta_carrier": false,
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "new_booking": 0
+  },
+  "overlap": {
+    "with_item373": "U_11 and the positive-load singleton count are inherited; no singleton mass is rebooked",
+    "with_item375": "integer content is separated before applying the primitive multivariate theorem",
+    "with_existing_capacity": "class closure has no weighted consequence while the mixed-sign tube remains open"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "actual common-scale theorem",
+      "primitive multivariate transversality",
+      "reciprocal-positive criterion",
+      "Schur-gap corollary",
+      "necessary cancellation tube",
+      "zero booking"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "reciprocal-positive bounded-degree top-symmetric residuals on positive singleton mass",
+      "same-sign forms and mixed-sign Schur gaps",
+      "sub-beta denominators and content normalization as escapes"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "predeclared scale, transform, Schur, and ambient cancellation controls; no actual census"
+    ],
+    "OPEN": [
+      "actual mixed-sign tube avoidance",
+      "canonical mixed-sign sub-beta divisibility carrier",
+      "growing complexity and nonlinear compression",
+      "U_11, beta capacity, Route 1, and e+pi"
+    ]
+  },
+  "canonical_files_modified": false,
+  "audit_delegated": false
+}

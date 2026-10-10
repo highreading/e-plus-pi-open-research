@@ -1,0 +1,50 @@
+{
+  "item": 408,
+  "schema": "item408-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_SUBLINEAR_INITIAL_DEPTH_ZERO_RATE_AND_LINEAR_SCALE_THRESHOLD",
+  "scope": "independent root audit of the fixed-prime age geometry, moving-endpoint PNT argument, shortened-interval packing coefficient, quantitative thresholds, dependency closure, and deterministic replay",
+  "checks": {
+    "canonical_dependencies_checked": 19,
+    "canonical_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "control_characters": 0,
+    "prime_grid_used_only_as_structural_control": true,
+    "finite_to_infinite_inference_used": false,
+    "root_repairs": "Canonicalized output and replay paths, added strict frozen-certificate replay, replaced seven stale Item405 work pins by five audited canonical pins, and added the Item401 root-audit pin. No mathematical claim required repair."
+  },
+  "mathematical_audit": {
+    "age_localization": "The integer ceiling identity gives a_p(M)<B iff p>(3M-3B-1)/2. Subtracting the fixed lower endpoint gives retained real length max(0,(M-9-9B)/6).",
+    "sublinear_depth": "When B=o(M), both retained endpoints remain fixed positive multiples of M. Two ordinary prime-number-theorem estimates give retained mass M/6+o(M), so the excluded strip has only o(M) logarithmic mass; no short-interval theorem is used.",
+    "linear_profile": "For B/M tending to b, the retained mass coefficient is r(b)=max(0,1/6-3b/2). Isolated-prime packing in a length r(b)M interval with D asymptotic to c log M subtracts at most r(b)/(2c), yielding a_b(c)=r(b)(1-1/(2c)).",
+    "thresholds": "The mass, witness-escape, and support-only thresholds follow respectively from 3b/2, a(c)-a_b(c), and r(b)<a(c)-epsilon. Their algebra and normalization are correct.",
+    "scope": "The full-minus-strip set is only an information-class support witness. No later actual orbit value, recurrence output, cross-prime identity, or exclusion beyond Item405 depth three is asserted.",
+    "capacity": "Every sublinear contiguous initial-depth theorem is zero-rate. A capacity-relevant initial strip must have linear depth, but no such actual exclusion is proved."
+  },
+  "strict_labels": {
+    "PROVED_ACTUAL_GEOMETRY": [
+      "exact all-depth endpoint localization",
+      "zero linear mass for every sublinear initial depth"
+    ],
+    "PROVED_INFORMATION_CLASS_NO_GO": [
+      "a sublinear contiguous initial-strip exclusion alone cannot beat the Item395 logarithmic-cluster coefficient"
+    ],
+    "OPEN": [
+      "any actual growing-depth gate theorem beyond depth three",
+      "linear-depth or non-contiguous positive-linear exclusion",
+      "cross-prime reciprocity or a subthreshold actual carrier",
+      "any positive fixed-j1 capacity reduction and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "first_capacity_relevant_initial_depth_scale": "B(M)=Omega(M)",
+    "new_route1_rate": 0,
+    "new_booking": 0,
+    "new_unconditional_capacity_reduction": 0
+  }
+}

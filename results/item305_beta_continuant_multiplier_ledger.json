@@ -1,0 +1,61 @@
+{
+  "schema": "item305-beta-continuant-multiplier-ledger-v1",
+  "scope": "Exact small-residue classification for the beta continuant word, multiplier obstruction, two infinite counterfamilies, scoped continued-fraction no-go, and zero-booking verdict",
+  "claims": [
+    {
+      "id": "I305-C1",
+      "label": "PROVED",
+      "claim": "Euler's continuant identity is Q_k S-P_k a=(-1)^k D_k for every 1<=k<m.",
+      "evidence": "report Section 2"
+    },
+    {
+      "id": "I305-C2",
+      "label": "PROVED",
+      "claim": "Every compatible residue with 1<=R<a/(2c) and 0<kappa<c is exactly R=gQ_k, kappa=gD_k, sign=(-1)^k, and the converse holds under the same two inequalities.",
+      "evidence": "report Section 3; Legendre plus Euler continuant identity"
+    },
+    {
+      "id": "I305-C3",
+      "label": "PROVED INFINITE COUNTERFAMILY",
+      "claim": "For every k>=1, n=Q_k+2 gives the compatible pair R=2Q_k and kappa=2D_k, while R is not any prefix denominator.",
+      "evidence": "report Section 4"
+    },
+    {
+      "id": "I305-C4",
+      "label": "PROVED INFINITE COUNTERFAMILY",
+      "claim": "For every k>=1, n=(Q_k+3)/2 has Q_k<a/(2c) and D_k<c.",
+      "evidence": "report Section 5"
+    },
+    {
+      "id": "I305-C5",
+      "label": "PROVED SCOPED NO-GO",
+      "claim": "Legendre's criterion neither removes the multiplier g nor supplies D_k>=c, so this continued-fraction window alone cannot prove the centered half-bound.",
+      "scope_limit": "does not close seed-specific modular-square or Ostrowski invariants, nearest-quotient arithmetic, nonlinear bounds, or proper-target constructions"
+    },
+    {
+      "id": "I305-C6",
+      "label": "OPEN",
+      "claim": "The actual half-bound, stronger Item-295 window, proper-target transfer, and Item-282 product baseline remain open."
+    },
+    {
+      "id": "I305-C7",
+      "label": "EXACT FINITE ONLY",
+      "claim": "The deterministic checker replays bounded identities, classifications, and initial members of the symbolically proved infinite families.",
+      "scope_limit": "bounded rows are not used to infer infinitude or an asymptotic density statement"
+    }
+  ],
+  "strict_labels": {
+    "small_residue_classification": "PROVED",
+    "multiplier_essential": "PROVED",
+    "denominator_only_classification": "FALSE IN AN INFINITE EXACT FAMILY",
+    "tail_lower_bound_Dk_ge_c": "FALSE IN AN INFINITE EXACT FAMILY",
+    "continued_fraction_window_alone": "PROVED NOT SUFFICIENT",
+    "modular_square_and_ostrowski_branch": "OPEN",
+    "actual_half_bound": "OPEN",
+    "proper_target_transfer": "OPEN",
+    "item282_product_baseline": "OPEN AND SEPARATE",
+    "bounded_checks": "EXACT FINITE ONLY",
+    "positive_linear_capacity_admission": "FAIL",
+    "booking": "zero new Route-1 rate and zero new beta capacity reduction"
+  }
+}

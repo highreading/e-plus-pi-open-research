@@ -1,0 +1,134 @@
+{
+  "arithmetic": "exact integer and rational checks",
+  "constraint_independence": {
+    "determinant": -6,
+    "matrix_on_basis_1_x": [
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        -6
+      ]
+    ]
+  },
+  "definitions": {
+    "a": "2 Im H(i)",
+    "alpha": "A((1-x)^2 H)-a",
+    "c": "-B((1-x)^2 H)+4 integral(Q_H)",
+    "division": "(1-x)^2 H-a=(1+x^2)Q_H-2*r*x",
+    "kernel_identity": "J=(e+pi)*a+c+e*alpha-4*log(2)*r",
+    "r": "Re H(i)"
+  },
+  "monomial_extension_audit": {
+    "A_formula": "(n^2+5n+5)*(-1)^n*!n-(n+3)",
+    "B_formula": "(-1)^n*(n^2+5n+5)*n!",
+    "checked_through_n": 256,
+    "last_records": [
+      {
+        "a": 2,
+        "alpha_digits": 505,
+        "alpha_sign": -1,
+        "n": 253,
+        "r": 0
+      },
+      {
+        "a": 0,
+        "alpha_digits": 507,
+        "alpha_sign": 1,
+        "n": 254,
+        "r": -1
+      },
+      {
+        "a": -2,
+        "alpha_digits": 509,
+        "alpha_sign": -1,
+        "n": 255,
+        "r": 0
+      },
+      {
+        "a": 0,
+        "alpha_digits": 512,
+        "alpha_sign": 1,
+        "n": 256,
+        "r": 1
+      }
+    ],
+    "maximum_alpha_digits": 512,
+    "remainder_identity": "F-a=(1+x^2)Q-2*r*x"
+  },
+  "periodic_moment_audit": {
+    "convergence_solution": {
+      "beta": 0,
+      "gamma": 0
+    },
+    "linear_combination_cycle": [
+      "gamma",
+      "2*beta",
+      "-gamma",
+      "-2*beta"
+    ],
+    "rows_r_a_for_n_mod_4": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -2
+      ]
+    ]
+  },
+  "proved_in_companion_note": {
+    "logical_equivalence": "an infinite shrinking realized family exists iff e+pi is irrational",
+    "lower_approximant_realizability": "every coprime q>0,p with p/q<e+pi has primitive output (q,-p)",
+    "primitive_integer_outputs": "all primitive (q,k) in Z^2 with q*(e+pi)+k>0",
+    "real_output_cone": "{(0,0)} union {(a,c): (e+pi)*a+c>0}"
+  },
+  "scope": "algebraic inputs are machine checked; positive extension, moment duality, finite-dimensional bipolarity, and rational lifting are proved in the note",
+  "strict_positive_order_unit": {
+    "H": [
+      3,
+      8,
+      3
+    ],
+    "H_hash": "d9d0f9dc39b1954835551f2bea75f8bcbceb0272ebb4898fc83fcc0a9e9cb7ab",
+    "common_constraints": {
+      "alpha": 0,
+      "r": 0
+    },
+    "output": {
+      "a": 16,
+      "c": -85
+    },
+    "pointwise_lower_bound": 3
+  },
+  "strict_positive_target_zero_direction": {
+    "H": [
+      68,
+      16,
+      68,
+      16
+    ],
+    "common_constraints": {
+      "alpha": 0,
+      "r": 0
+    },
+    "factorization": "(1+x^2)*(68+16*x)",
+    "output": {
+      "a": 0,
+      "c": 132
+    },
+    "strictly_positive_lower_bound": 68
+  },
+  "title": "Factor-endpoint positive output cone universality"
+}

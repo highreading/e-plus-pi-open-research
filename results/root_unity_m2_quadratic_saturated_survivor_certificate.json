@@ -1,0 +1,752 @@
+{
+  "all_parameter_proof_anchors": {
+    "machin_pi_bound": {
+      "355_over_113_minus_upper": "45167474711/189820334689453125",
+      "machin_upper_rational": "5277328977275528/1679825970703125",
+      "pi_less_than_355_over_113_certified": true,
+      "quadratic_at_355_over_113_squared": "265760749/163047361"
+    },
+    "monotonicity_and_strict_covariance_proofs_are_in_companion_source": true,
+    "n5_fourier_ratio_anchor": {
+      "I3_at_n5": "(-2240 + 227*pi**2)/(8*pi**2)",
+      "I3_minus_3I5_at_n5": "-5*(-2688*pi**2 + 4416 + 227*pi**4)/(32*pi**4)",
+      "I5_at_n5": "(-22400*pi**2 + 22080 + 2043*pi**4)/(96*pi**4)",
+      "strict_positivity_follows_from_pi_certificate": true
+    },
+    "probability_identities": {
+      "all_symbolic_identities_verified": true,
+      "normalized_K_identity": "-16*(4*alpha**2 - 24*alpha*gamma - 5*alpha + 24*beta + 3*gamma)",
+      "normalized_L_after_delta_substitution": "-4*alpha**2 - 24*alpha*delta - 2*alpha + 24*beta + 36*delta**2 - 3*delta",
+      "normalized_L_identity": "16*(8*alpha**2 - 48*alpha*gamma - 5*alpha + 24*beta + 36*gamma**2 + 3*gamma)"
+    },
+    "proved_parameter_range": "m=2, n>=5, endpoint space Q[z]_{<=5}, target degree 2"
+  },
+  "dependency": {
+    "path": "scripts/root_unity_endpoint_displacement_square_certificate.py",
+    "sha256": "4bda9773163ec63cd4df868d1f0032cade310ea1525952540b1806aef214cb25"
+  },
+  "exact_finite_rows": [
+    {
+      "D_n": "8192",
+      "D_n_fifth_power_cleared_endpoint_content_g_n": "23058430092136939520",
+      "D_n_fifth_power_cleared_endpoint_pair": [
+        "-89940303086142114881968537600",
+        "-9114459900357854388058849280"
+      ],
+      "K_positive": "229120",
+      "L_negative": "-139304560",
+      "centered_2G_over_n_log_n": "-1.2678280429069954934227674636030196",
+      "exact_global_denominator_after_endpoint_primitivization": "180",
+      "exact_global_origin_order": 24,
+      "excess_entries_A_B_C_g1_g3": [
+        "227/8",
+        "-280",
+        "2760",
+        "304",
+        "-3000"
+      ],
+      "global_content_after_denominator_clearing": "1",
+      "height_and_margin_values_are_finite_diagnostics_only": true,
+      "intrinsic_height_equals_primitive_global_height_over_endpoint_content": true,
+      "intrinsic_rational_global_height": "15189173101760",
+      "log_endpoint_height_over_n_log_n": "2.7443594293731476974802837937209045",
+      "log_g_n_over_n_log_n": "5.5403893201100738283093214526731738",
+      "log_intrinsic_global_height_over_n_log_n": "3.7717023762833007909704823496756646",
+      "n": 5,
+      "primitive_global_endpoint_content": "180",
+      "primitive_quadratic_coefficients_ascending": [
+        "3900538880",
+        "0",
+        "395276689"
+      ],
+      "primitive_quadratic_content": 1,
+      "primitive_quadratic_height": "3900538880",
+      "q_n": "24576",
+      "q_n_clears_each_integral_endpoint_lower_lift": true,
+      "q_n_squared_clears_integral_raw_product_form": true,
+      "quadratic_coefficients_same_sign": true,
+      "rational_degree_2_measure_margin_over_n_log_n": "-10.528249277936591679353817400720493",
+      "raw_rank_one_smith_divides_endpoint_content": true,
+      "raw_rank_one_smith_invariant": "77371252455336267181195264"
+    },
+    {
+      "D_n": "32768",
+      "D_n_fifth_power_cleared_endpoint_content_g_n": "127503895037480420769792",
+      "D_n_fifth_power_cleared_endpoint_pair": [
+        "4552825524351338986862976553797550080",
+        "461304276847949063289387301698797568"
+      ],
+      "K_positive": "55991808",
+      "L_negative": "-528562625904",
+      "centered_2G_over_n_log_n": "-0.97691632090327484981962766666628067",
+      "exact_global_denominator_after_endpoint_primitivization": "8100",
+      "exact_global_origin_order": 28,
+      "excess_entries_A_B_C_g1_g3": [
+        "-2957/8",
+        "3648",
+        "-36000",
+        "-4720",
+        "46584"
+      ],
+      "global_content_after_denominator_clearing": "1",
+      "height_and_margin_values_are_finite_diagnostics_only": true,
+      "intrinsic_height_equals_primitive_global_height_over_endpoint_content": true,
+      "intrinsic_rational_global_height": "11582826804125193856",
+      "log_endpoint_height_over_n_log_n": "2.9027684846465932743660377257827406",
+      "log_g_n_over_n_log_n": "4.9488072831972282490078305923799401",
+      "log_intrinsic_global_height_over_n_log_n": "4.0831424809911254914381437220547872",
+      "n": 6,
+      "primitive_global_endpoint_content": "8100",
+      "primitive_quadratic_coefficients_ascending": [
+        "35707344650240",
+        "0",
+        "3617962233329"
+      ],
+      "primitive_quadratic_content": 1,
+      "primitive_quadratic_height": "35707344650240",
+      "q_n": "491520",
+      "q_n_clears_each_integral_endpoint_lower_lift": true,
+      "q_n_squared_clears_integral_raw_product_form": true,
+      "quadratic_coefficients_same_sign": true,
+      "rational_degree_2_measure_margin_over_n_log_n": "-10.865595771187586889989846840286549",
+      "raw_rank_one_smith_divides_endpoint_content": true,
+      "raw_rank_one_smith_invariant": "3802951800684688204490109616128"
+    },
+    {
+      "D_n": "131072",
+      "D_n_fifth_power_cleared_endpoint_content_g_n": "2166395068749415481073467392000",
+      "D_n_fifth_power_cleared_endpoint_pair": [
+        "-1149860777077509239332840977953900824887296000",
+        "-116505405759034988531780109657710369177600000"
+      ],
+      "K_positive": "36298124800",
+      "L_negative": "-7196901780275200",
+      "centered_2G_over_n_log_n": "-0.77669527198115843986403292254036567",
+      "exact_global_denominator_after_endpoint_primitivization": "3628800",
+      "exact_global_origin_order": 32,
+      "excess_entries_A_B_C_g1_g3": [
+        "107125/16",
+        "-66080",
+        "652176",
+        "99136",
+        "-978432"
+      ],
+      "global_content_after_denominator_clearing": "1",
+      "height_and_margin_values_are_finite_diagnostics_only": true,
+      "intrinsic_height_equals_primitive_global_height_over_endpoint_content": true,
+      "intrinsic_rational_global_height": "35902866904153364283413",
+      "log_endpoint_height_over_n_log_n": "2.4891292242945749542666227591800838",
+      "log_g_n_over_n_log_n": "5.1280166361243952162430526498648777",
+      "log_intrinsic_global_height_over_n_log_n": "3.8127662727789950423330478613661742",
+      "n": 7,
+      "primitive_global_endpoint_content": "3628800",
+      "primitive_quadratic_coefficients_ascending": [
+        "530771507775488",
+        "0",
+        "53778467020925"
+      ],
+      "primitive_quadratic_content": 1,
+      "primitive_quadratic_height": "530771507775488",
+      "q_n": "11796480",
+      "q_n_clears_each_integral_endpoint_lower_lift": true,
+      "q_n_squared_clears_integral_raw_product_form": true,
+      "quadratic_coefficients_same_sign": true,
+      "rational_degree_2_measure_margin_over_n_log_n": "-9.5677199933493033907303263022667074",
+      "raw_rank_one_smith_divides_endpoint_content": true,
+      "raw_rank_one_smith_invariant": "83076749736557242056487941267521536000"
+    },
+    {
+      "D_n": "524288",
+      "D_n_fifth_power_cleared_endpoint_content_g_n": "10141204801825835211973625643008",
+      "D_n_fifth_power_cleared_endpoint_pair": [
+        "1184352083709281526133336535977550822115480426099245056",
+        "119999970048838505143241758599514775865545244375252992"
+      ],
+      "K_positive": "55737483526144",
+      "L_negative": "-301578133225488105472",
+      "centered_2G_over_n_log_n": "-0.62856899793917216896210044074843525",
+      "exact_global_denominator_after_endpoint_primitivization": "793800",
+      "exact_global_origin_order": 36,
+      "excess_entries_A_B_C_g1_g3": [
+        "-642853/4",
+        "1586176",
+        "-15654912",
+        "-2705344",
+        "26700672"
+      ],
+      "global_content_after_denominator_clearing": "1",
+      "height_and_margin_values_are_finite_diagnostics_only": true,
+      "intrinsic_height_equals_primitive_global_height_over_endpoint_content": true,
+      "intrinsic_rational_global_height": "3848172721399916109469253102996480",
+      "log_endpoint_height_over_n_log_n": "3.1928422980185649125499329731686054",
+      "log_g_n_over_n_log_n": "4.2916666666666666666666666666666667",
+      "log_intrinsic_global_height_over_n_log_n": "4.6486583619072577400833942493963748",
+      "n": 8,
+      "primitive_global_endpoint_content": "793800",
+      "primitive_quadratic_coefficients_ascending": [
+        "116786132106911921733632",
+        "0",
+        "11832910624902630924499"
+      ],
+      "primitive_quadratic_content": 1,
+      "primitive_quadratic_height": "116786132106911921733632",
+      "q_n": "330301440",
+      "q_n_clears_each_integral_endpoint_lower_lift": true,
+      "q_n_squared_clears_integral_raw_product_form": true,
+      "quadratic_coefficients_same_sign": true,
+      "rational_degree_2_measure_margin_over_n_log_n": "-11.662911955883559734145360636482021",
+      "raw_rank_one_smith_divides_endpoint_content": true,
+      "raw_rank_one_smith_invariant": "1393796574908163946345982392040522594123776"
+    },
+    {
+      "D_n": "2097152",
+      "D_n_fifth_power_cleared_endpoint_content_g_n": "175240018975550432462904251111178240",
+      "D_n_fifth_power_cleared_endpoint_pair": [
+        "-4184595689718602916969281679447686985909111904237723839407063040",
+        "-423988193730471011322738854739897649222836660136966332748922880"
+      ],
+      "K_positive": "182185368726896640",
+      "L_negative": "-33894477249377618748764160",
+      "centered_2G_over_n_log_n": "-0.51334639485008750391967724020935958",
+      "exact_global_denominator_after_endpoint_primitivization": "3572100",
+      "exact_global_origin_order": 40,
+      "excess_entries_A_B_C_g1_g3": [
+        "39471647/8",
+        "-48696192",
+        "480612096",
+        "93021952",
+        "-918089856"
+      ],
+      "global_content_after_denominator_clearing": "1",
+      "height_and_margin_values_are_finite_diagnostics_only": true,
+      "intrinsic_height_equals_primitive_global_height_over_endpoint_content": true,
+      "intrinsic_rational_global_height": "752649686237031570951959975106107067863040",
+      "log_endpoint_height_over_n_log_n": "3.3043103044365936578636159278200276",
+      "log_g_n_over_n_log_n": "4.1037359118654580693413901658545741",
+      "log_intrinsic_global_height_over_n_log_n": "4.8760715635325935268096613310891054",
+      "n": 9,
+      "primitive_global_endpoint_content": "3572100",
+      "primitive_quadratic_coefficients_ascending": [
+        "23879224130319454142931664896",
+        "0",
+        "2419471284065690713526838487"
+      ],
+      "primitive_quadratic_content": 1,
+      "primitive_quadratic_height": "23879224130319454142931664896",
+      "q_n": "10569646080",
+      "q_n_clears_each_integral_endpoint_lower_lift": true,
+      "q_n_squared_clears_integral_raw_product_form": true,
+      "quadratic_coefficients_same_sign": true,
+      "rational_degree_2_measure_margin_over_n_log_n": "-11.99803856725586834645657042693852",
+      "raw_rank_one_smith_divides_endpoint_content": true,
+      "raw_rank_one_smith_invariant": "5480631139990885943263818122686061323709747036160"
+    },
+    {
+      "D_n": "8388608",
+      "D_n_fifth_power_cleared_endpoint_content_g_n": "6646139978924579364519035301401722880",
+      "D_n_fifth_power_cleared_endpoint_pair": [
+        "44101572121817274329940945860121855882344646236598451918746163521939046400",
+        "4468423493742047135637186146836695165119024233354217147289892465714135040"
+      ],
+      "K_positive": "1160537366239830999040",
+      "L_negative": "-9130805849346242222360642744320",
+      "centered_2G_over_n_log_n": "-0.42037237680486811110160224701307434",
+      "exact_global_denominator_after_endpoint_primitivization": "160744500",
+      "exact_global_origin_order": 44,
+      "excess_entries_A_B_C_g1_g3": [
+        "-1508015087/8",
+        "1860439040",
+        "-18361797120",
+        "-3933869824",
+        "38825738880"
+      ],
+      "global_content_after_denominator_clearing": "1",
+      "height_and_margin_values_are_finite_diagnostics_only": true,
+      "intrinsic_height_equals_primitive_global_height_over_endpoint_content": true,
+      "intrinsic_rational_global_height": "344458565606791720078288588107669915173608639987343360",
+      "log_endpoint_height_over_n_log_n": "3.6821884587351139348349813093390784",
+      "log_g_n_over_n_log_n": "3.682256948401376223043492847221467",
+      "log_intrinsic_global_height_over_n_log_n": "5.3537136988767397519285014450334972",
+      "n": 10,
+      "primitive_global_endpoint_content": "160744500",
+      "primitive_quadratic_coefficients_ascending": [
+        "6635667058121969861734175843056353280",
+        "0",
+        "672333641468846794827942285813068533"
+      ],
+      "primitive_quadratic_content": 1,
+      "primitive_quadratic_height": "6635667058121969861734175843056353280",
+      "q_n": "380507258880",
+      "q_n_clears_each_integral_endpoint_lower_lift": true,
+      "q_n_squared_clears_integral_raw_product_form": true,
+      "quadratic_coefficients_same_sign": true,
+      "rational_degree_2_measure_margin_over_n_log_n": "-13.138462993151835732700066310724728",
+      "raw_rank_one_smith_divides_endpoint_content": true,
+      "raw_rank_one_smith_invariant": "5986310706507378352962293074805895248510699696029696"
+    },
+    {
+      "D_n": "33554432",
+      "D_n_fifth_power_cleared_endpoint_content_g_n": "119779393156170339139107861815982410432512",
+      "D_n_fifth_power_cleared_endpoint_pair": [
+        "-1240024209558904091820681009213917728729344112711664019428933969178001277063627014144",
+        "-125640720675013752836051740191342342770153465566372891005236076129005704012302909440"
+      ],
+      "K_positive": "13430603625402266110787584",
+      "L_negative": "-5389618480006894223433580369736040448",
+      "centered_2G_over_n_log_n": "-0.34323393345844553283116162391417782",
+      "exact_global_denominator_after_endpoint_primitivization": "8840947500",
+      "exact_global_origin_order": 48,
+      "excess_entries_A_B_C_g1_g3": [
+        "140301690115/16",
+        "-86545136128",
+        "854166255360",
+        "200646919168",
+        "-1980305716224"
+      ],
+      "global_content_after_denominator_clearing": "1",
+      "height_and_margin_values_are_finite_diagnostics_only": true,
+      "intrinsic_height_equals_primitive_global_height_over_endpoint_content": true,
+      "intrinsic_rational_global_height": "1404484619000462075735620082583874275980515809076154371748727808",
+      "log_endpoint_height_over_n_log_n": "3.7550282135513768403830723372801201",
+      "log_g_n_over_n_log_n": "3.5859656272980986620369149112850049",
+      "log_intrinsic_global_height_over_n_log_n": "5.5125059397009077682368756202967266",
+      "n": 11,
+      "primitive_global_endpoint_content": "8840947500",
+      "primitive_quadratic_coefficients_ascending": [
+        "10352567139342075065526884329818396150464512",
+        "0",
+        "1048934356439770225385855607909675003443495"
+      ],
+      "primitive_quadratic_content": 1,
+      "primitive_quadratic_height": "10352567139342075065526884329818396150464512",
+      "q_n": "15220290355200",
+      "q_n_clears_each_integral_endpoint_lower_lift": true,
+      "q_n_squared_clears_integral_raw_product_form": true,
+      "quadratic_coefficients_same_sign": true,
+      "rational_degree_2_measure_margin_over_n_log_n": "-13.365796300262106981834181918771145",
+      "raw_rank_one_smith_divides_endpoint_content": true,
+      "raw_rank_one_smith_invariant": "3138550867693340381917894711603833208051177722232017256448"
+    },
+    {
+      "D_n": "134217728",
+      "D_n_fifth_power_cleared_endpoint_content_g_n": "232016953045512603164537612908633553108220248064",
+      "D_n_fifth_power_cleared_endpoint_pair": [
+        "84984758309492748953478083733529055189023736765067683540755904545740272890683433831058122997760",
+        "8610756303602135674093598447463050574822885042390456841183032855850340158473912399558296469504"
+      ],
+      "K_positive": "266889306969356556304644046848",
+      "L_negative": "-6482878379578202231810091283308640246431744",
+      "centered_2G_over_n_log_n": "-0.27782559530654449184777523859254313",
+      "exact_global_denominator_after_endpoint_primitivization": "291751267500",
+      "exact_global_origin_order": 52,
+      "excess_entries_A_B_C_g1_g3": [
+        "-3903318402161/8",
+        "4815526060032",
+        "-47527337189376",
+        "-12145256872960",
+        "119868880684032"
+      ],
+      "global_content_after_denominator_clearing": "1",
+      "height_and_margin_values_are_finite_diagnostics_only": true,
+      "intrinsic_height_equals_primitive_global_height_over_endpoint_content": true,
+      "intrinsic_rational_global_height": "195019168731498211095553358534717362101786713817591784642053159702118400",
+      "log_endpoint_height_over_n_log_n": "3.6728323361427857526713102073919682",
+      "log_g_n_over_n_log_n": "3.6575196777346875103707715399743488",
+      "log_intrinsic_global_height_over_n_log_n": "5.5049509031359856390670386876531413",
+      "n": 12,
+      "primitive_global_endpoint_content": "291751267500",
+      "primitive_quadratic_coefficients_ascending": [
+        "366286847551273897715946080658189748811952291840",
+        "0",
+        "37112616947060087745331951047141051471872314711"
+      ],
+      "primitive_quadratic_content": 1,
+      "primitive_quadratic_height": "366286847551273897715946080658189748811952291840",
+      "q_n": "669692775628800",
+      "q_n_clears_each_integral_endpoint_lower_lift": true,
+      "q_n_squared_clears_integral_raw_product_form": true,
+      "quadratic_coefficients_same_sign": true,
+      "rational_degree_2_measure_margin_over_n_log_n": "-13.128441170728101636257434341029621",
+      "raw_rank_one_smith_divides_endpoint_content": true,
+      "raw_rank_one_smith_invariant": "356663112799371409637089570319305721955007998876078435380811005952"
+    },
+    {
+      "D_n": "536870912",
+      "D_n_fifth_power_cleared_endpoint_content_g_n": "593735040165679310520246963290989976735222595584",
+      "D_n_fifth_power_cleared_endpoint_pair": [
+        "-13175438855229399461268947871711883429757673538064826146614644083498978613428669914757432377159366737920000",
+        "-1334951059821187475600908104983050205309741489194332424107830633095678728906801039762647206819096489361408"
+      ],
+      "K_positive": "8695186804686920994939646278369280",
+      "L_negative": "-14967719945535524187791257979633602041640952528896",
+      "centered_2G_over_n_log_n": "-0.22138792164629763735596297955851137",
+      "exact_global_denominator_after_endpoint_primitivization": "11378299432500",
+      "exact_global_origin_order": 56,
+      "excess_entries_A_B_C_g1_g3": [
+        "511917869636359/16",
+        "-315776678696960",
+        "3116590897784832",
+        "860689958809600",
+        "-8494669405427712"
+      ],
+      "global_content_after_denominator_clearing": "1",
+      "height_and_margin_values_are_finite_diagnostics_only": true,
+      "intrinsic_height_equals_primitive_global_height_over_endpoint_content": true,
+      "intrinsic_rational_global_height": "66813131118888393342627268745976987070776165111296849739262778140864805294611523174400",
+      "log_endpoint_height_over_n_log_n": "4.0290802033506806288969793905258941",
+      "log_g_n_over_n_log_n": "3.2989933797103507615835954257576581",
+      "log_intrinsic_global_height_over_n_log_n": "5.9266141625603335640988373393796155",
+      "n": 13,
+      "primitive_global_endpoint_content": "11378299432500",
+      "primitive_quadratic_coefficients_ascending": [
+        "22190771916632792415635714540622250270270204612056186880000",
+        "0",
+        "2248395276533914684246678642385023878423997451588321437237"
+      ],
+      "primitive_quadratic_content": 1,
+      "primitive_quadratic_height": "22190771916632792415635714540622250270270204612056186880000",
+      "q_n": "32145253230182400",
+      "q_n_clears_each_integral_endpoint_lower_lift": true,
+      "q_n_squared_clears_integral_raw_product_form": true,
+      "quadratic_coefficients_same_sign": true,
+      "rational_degree_2_measure_margin_over_n_log_n": "-14.206162490907992459248759099989915",
+      "raw_rank_one_smith_divides_endpoint_content": true,
+      "raw_rank_one_smith_invariant": "53919893334301279589334030174039261347274288845081144962207220498432"
+    },
+    {
+      "D_n": "2147483648",
+      "D_n_fifth_power_cleared_endpoint_content_g_n": "327376366762122253677625402528447396402928889626624",
+      "D_n_fifth_power_cleared_endpoint_pair": [
+        "4339387318643182806614689885908554359844532506340854823088141243399944143563306591563999040680617964363320227633561600",
+        "439671859407551998725140358998518973697148774593739141000625169045569643593189471271378557821336113703082694507757568"
+      ],
+      "K_positive": "446824585838886506749138332113818353664",
+      "L_negative": "-63080380242425514360411549132893167957963617490989481984",
+      "centered_2G_over_n_log_n": "-0.17199159340893124611230974867853845",
+      "exact_global_denominator_after_endpoint_primitivization": "1035425248357500",
+      "exact_global_origin_order": 60,
+      "excess_entries_A_B_C_g1_g3": [
+        "-39068344168303909/16",
+        "24099318846668800",
+        "-237850743351975936",
+        "-70587409737084928",
+        "696669809802516480"
+      ],
+      "global_content_after_denominator_clearing": "1",
+      "height_and_margin_values_are_finite_diagnostics_only": true,
+      "intrinsic_height_equals_primitive_global_height_over_endpoint_content": true,
+      "intrinsic_rational_global_height": "314724917019907287769453480693086202009178689754322355313747138531326761916051680990014438980812800",
+      "log_endpoint_height_over_n_log_n": "4.1831764366276429727676523032381086",
+      "log_g_n_over_n_log_n": "3.1481802675785529906100518889052313",
+      "log_intrinsic_global_height_over_n_log_n": "6.1385519681130718486049314571403129",
+      "n": 14,
+      "primitive_global_endpoint_content": "1035425248357500",
+      "primitive_quadratic_coefficients_ascending": [
+        "13255041472789824806051263931847199401647765176642893648555828838400",
+        "0",
+        "1343016491251568366686183434235529528396051022306833804564893772557"
+      ],
+      "primitive_quadratic_content": 1,
+      "primitive_quadratic_height": "13255041472789824806051263931847199401647765176642893648555828838400",
+      "q_n": "1671553167969484800",
+      "q_n_clears_each_integral_endpoint_lower_lift": true,
+      "q_n_squared_clears_integral_raw_product_form": true,
+      "quadratic_coefficients_same_sign": true,
+      "rational_degree_2_measure_margin_over_n_log_n": "-14.676896434777289040252545812295069",
+      "raw_rank_one_smith_divides_endpoint_content": true,
+      "raw_rank_one_smith_invariant": "883423532389192164791648750371459257913741948437809479060803100646309888"
+    },
+    {
+      "D_n": "8589934592",
+      "D_n_fifth_power_cleared_endpoint_content_g_n": "129304311260559372423985530415807337367831113434241433600000",
+      "D_n_fifth_power_cleared_endpoint_pair": [
+        "-2877664749446582338879081154248169937462156853008186195081258721404521033625597899753733775264776146568858873384477099294720000000",
+        "-291568398539764416775583487790775425562103778306244573525644008076409985826574871758511893552214348443727203109639917509017600000"
+      ],
+      "K_positive": "35044458126084953391051832594669636681728000",
+      "L_negative": "-464903049406370824377913204962593083563965937584913996840960000",
+      "centered_2G_over_n_log_n": "-0.12824305369177721682323794441656691",
+      "exact_global_denominator_after_endpoint_primitivization": "130463581293045000",
+      "exact_global_origin_order": 64,
+      "excess_entries_A_B_C_g1_g3": [
+        "6865919908615924085/32",
+        "-2117622292112547840",
+        "20900094294075494400",
+        "6633046625142784000",
+        "-65465546164138967040"
+      ],
+      "global_content_after_denominator_clearing": "1",
+      "height_and_margin_values_are_finite_diagnostics_only": true,
+      "intrinsic_height_equals_primitive_global_height_over_endpoint_content": true,
+      "intrinsic_rational_global_height": "5657005380561452091411132231864501707992307550904360497043211800058103878633859667239902993114027747123200",
+      "log_endpoint_height_over_n_log_n": "3.9876399414772668151035475281771915",
+      "log_g_n_over_n_log_n": "3.3507384482401574867344114801641082",
+      "log_intrinsic_global_height_over_n_log_n": "5.9945794045905412643741782748739572",
+      "n": 15,
+      "primitive_global_endpoint_content": "130463581293045000",
+      "primitive_quadratic_coefficients_ascending": [
+        "22254979137144460261621359100287326226305524750125945057126451983155200",
+        "0",
+        "2254900828111050931044694923559410754112627895863575907429131145575941"
+      ],
+      "primitive_quadratic_content": 1,
+      "primitive_quadratic_height": "22254979137144460261621359100287326226305524750125945057126451983155200",
+      "q_n": "93606977406291148800",
+      "q_n_clears_each_integral_endpoint_lower_lift": true,
+      "q_n_squared_clears_integral_raw_product_form": true,
+      "quadratic_coefficients_same_sign": true,
+      "rational_degree_2_measure_margin_over_n_log_n": "-14.098102341236852111404511275644907",
+      "raw_rank_one_smith_divides_endpoint_content": true,
+      "raw_rank_one_smith_invariant": "8684406692798714656767823875651593088995248849923042302959318800593484722995200000"
+    },
+    {
+      "D_n": "34359738368",
+      "D_n_fifth_power_cleared_endpoint_content_g_n": "15442674605328896547958255707398572610238370770252639147246223360",
+      "D_n_fifth_power_cleared_endpoint_pair": [
+        "3668265364569267624263326142525018596938107566834214919963494718105317202573739426570617448281941216501864796796131483939009679328238632960000",
+        "371672988652350619171677355485925994706108227724564103349218849136121483410977952661005346412419007691712945243544940561808556668571866890240"
+      ],
+      "K_positive": "4077677648045238150623376377317082615183331819520",
+      "L_negative": "-5773889369628923205547532996804816507964655878993308750458064931389440",
+      "centered_2G_over_n_log_n": "-0.089107856985031859101037373046198312",
+      "exact_global_denominator_after_endpoint_primitivization": "1304635812930450000",
+      "exact_global_origin_order": 68,
+      "excess_entries_A_B_C_g1_g3": [
+        "-86024721307428114133/4",
+        "212257492004569088000",
+        "-2094897477252446945280",
+        "-707987470809127960576",
+        "6987556257813879521280"
+      ],
+      "global_content_after_denominator_clearing": "1",
+      "height_and_margin_values_are_finite_diagnostics_only": true,
+      "intrinsic_height_equals_primitive_global_height_over_endpoint_content": true,
+      "intrinsic_rational_global_height": "857901910848125480294463720963281842147906844709069634600924154083865072097860590677348303579090382627783209161523200",
+      "log_endpoint_height_over_n_log_n": "4.0161974792439112380742016713175877",
+      "log_g_n_over_n_log_n": "3.3317237611822048869606651035600078",
+      "log_intrinsic_global_height_over_n_log_n": "6.0694448704996107152185033541313123",
+      "n": 16,
+      "primitive_global_endpoint_content": "1304635812930450000",
+      "primitive_quadratic_coefficients_ascending": [
+        "237540805483490356387042623061661804373963048279109683811512071407309684736000",
+        "0",
+        "24067915574941609334164191759476733961489953518666332679774426970558700376759"
+      ],
+      "primitive_quadratic_content": 1,
+      "primitive_quadratic_height": "237540805483490356387042623061661804373963048279109683811512071407309684736000",
+      "q_n": "5616418644377468928000",
+      "q_n_clears_each_integral_endpoint_lower_lift": true,
+      "q_n_squared_clears_integral_raw_product_form": true,
+      "quadratic_coefficients_same_sign": true,
+      "rational_degree_2_measure_margin_over_n_log_n": "-14.190947685972465050467944069812686",
+      "raw_rank_one_smith_divides_endpoint_content": true,
+      "raw_rank_one_smith_invariant": "373380961085785127430720578491480333856670594465821215984598345151817403616441073349427200"
+    },
+    {
+      "D_n": "137438953472",
+      "D_n_fifth_power_cleared_endpoint_content_g_n": "2393489222658526763692037361603576143903950737555644009982011113472",
+      "D_n_fifth_power_cleared_endpoint_pair": [
+        "-8631588406857387365094422868078370001164543576918674368228647414569803876512395322596290961212312248934684446682091342198934042124593108255089459931906048",
+        "-874562754096271250691699526602526510472770103209131129469990470727004548397447864491142157739949730016544569673254057714816030751855927384584135613874176"
+      ],
+      "K_positive": "686728790670670350326276798295553988949089228072943616",
+      "L_negative": "-116992229879977359429719126649205654632283607181772011801363372757921187233792",
+      "centered_2G_over_n_log_n": "-0.05380008127382300396246130251342139",
+      "exact_global_denominator_after_endpoint_primitivization": "27723511024772062500",
+      "exact_global_origin_order": 72,
+      "excess_entries_A_B_C_g1_g3": [
+        "19511682964600650756887/8",
+        "-24071574007510350659584",
+        "237576912765671903723520",
+        "85180810437349562318848",
+        "-840700901580823435837440"
+      ],
+      "global_content_after_denominator_clearing": "1",
+      "height_and_margin_values_are_finite_diagnostics_only": true,
+      "intrinsic_height_equals_primitive_global_height_over_endpoint_content": true,
+      "intrinsic_rational_global_height": "240897109951354885356628071779126977850696726850737573141116218122447133026236972266513258901190707669468258118146665909415264649216",
+      "log_endpoint_height_over_n_log_n": "4.1858017511525784256554830270319729",
+      "log_g_n_over_n_log_n": "3.1733531092021201008337200769348284",
+      "log_intrinsic_global_height_over_n_log_n": "6.2809133320516741458190201887615372",
+      "n": 17,
+      "primitive_global_endpoint_content": "27723511024772062500",
+      "primitive_quadratic_coefficients_ascending": [
+        "3606278367641864627823514153548431608187065147366634788738790260524424081436080848502784",
+        "0",
+        "365392392753231533379440519455020586858231559931901917286620686297822092836895707041833"
+      ],
+      "primitive_quadratic_content": 1,
+      "primitive_quadratic_height": "3606278367641864627823514153548431608187065147366634788738790260524424081436080848502784",
+      "q_n": "359450793240158011392000",
+      "q_n_clears_each_integral_endpoint_lower_lift": true,
+      "q_n_squared_clears_integral_raw_product_form": true,
+      "quadratic_coefficients_same_sign": true,
+      "rational_degree_2_measure_margin_over_n_log_n": "-14.706316915630654001092447545338904",
+      "raw_rank_one_smith_divides_endpoint_content": true,
+      "raw_rank_one_smith_invariant": "11154809006407645808406008589729754809917840923714666908483505100664591997504031803060284030976"
+    },
+    {
+      "D_n": "549755813888",
+      "D_n_fifth_power_cleared_endpoint_content_g_n": "2843431875051044040843786747459101672610167575814826003866396393472",
+      "D_n_fifth_power_cleared_endpoint_pair": [
+        "36175250264045327654489755024111171307820844573535159823020171962382386858925699387939576545289577598748892723389515581727779453825898079802966708057824466431624871936",
+        "3665319175310864686206238502372962077713275837011150085885277826247148103328213496976766447530538317436292138324536824301188585360216730918143757909025033044881309696"
+      ],
+      "K_positive": "163791704883472165214288022278335372342280463805600336183296",
+      "L_negative": "-3758703807879483141411718048586234617340520836544120493982771516693189732935535689728",
+      "centered_2G_over_n_log_n": "-0.02171056633660634848338108384594238",
+      "exact_global_denominator_after_endpoint_primitivization": "4241697186790125562500",
+      "exact_global_origin_order": 76,
+      "excess_entries_A_B_C_g1_g3": [
+        "-2485618714692246870347747/8",
+        "3066509175744584243478528",
+        "-30265232456909643690147840",
+        "-11474035912116466043256832",
+        "113244195336482023852769280"
+      ],
+      "global_content_after_denominator_clearing": "1",
+      "height_and_margin_values_are_finite_diagnostics_only": true,
+      "intrinsic_height_equals_primitive_global_height_over_endpoint_content": true,
+      "intrinsic_rational_global_height": "20121781052250702500407042808766472572563398681341988134994964330207007216237931070682267533357243582003177274855943300743559568239898120403415990272",
+      "log_endpoint_height_over_n_log_n": "4.4304044787858578882399408529548141",
+      "log_g_n_over_n_log_n": "2.9410985599368997164335696318503998",
+      "log_intrinsic_global_height_over_n_log_n": "6.5635888186361587666020311401254625",
+      "n": 18,
+      "primitive_global_endpoint_content": "4241697186790125562500",
+      "primitive_quadratic_coefficients_ascending": [
+        "12722390355631757642003042180737633371334927244855087474068519039805720033128587236049439316181516288",
+        "0",
+        "1289047649592472295588531741858108428905553433768498344175554039810389760787049633424464408010055743"
+      ],
+      "primitive_quadratic_content": 1,
+      "primitive_quadratic_height": "12722390355631757642003042180737633371334927244855087474068519039805720033128587236049439316181516288",
+      "q_n": "24442653940330744774656000",
+      "q_n_clears_each_integral_endpoint_lower_lift": true,
+      "q_n_squared_clears_integral_raw_product_form": true,
+      "quadratic_coefficients_same_sign": true,
+      "rational_degree_2_measure_margin_over_n_log_n": "-15.446108342544480891565293929881033",
+      "raw_rank_one_smith_divides_endpoint_content": true,
+      "raw_rank_one_smith_invariant": "400497569235170640449066569906791021488007097941872394365070301466666198583870103129305391300608"
+    },
+    {
+      "D_n": "2199023255552",
+      "D_n_fifth_power_cleared_endpoint_content_g_n": "114741533015393122966102816210355548146999686662332676479576965220663296",
+      "D_n_fifth_power_cleared_endpoint_pair": [
+        "-261596630302381854632717972412720605328912324907238199191877650434783074237593877373939649944541207730847855402733289917933751215340423671716604991628629931800976088608304531505152",
+        "-26505280219084373823276729248535608007374130062465804110225285485409245384866945004179673262086689926186737939246425582037205221548803578542932959780762861534880001330134887956480"
+      ],
+      "K_positive": "54269175095294956621290943365929231625058142723179970228465434624",
+      "L_negative": "-186682331202916862706055471729721874759712991692613642575191129689002726067132039582263017472",
+      "centered_2G_over_n_log_n": "0.0076411139213977702667394949551483517",
+      "exact_global_denominator_after_endpoint_primitivization": "5077311532587780298312500",
+      "exact_global_origin_order": 80,
+      "excess_entries_A_B_C_g1_g3": [
+        "706838243060361268393796095/16",
+        "-436013364660425709643759616",
+        "4303279422786316906405232640",
+        "1719966545235933548551340032",
+        "-16975389384587029125793579008"
+      ],
+      "global_content_after_denominator_clearing": "1",
+      "height_and_margin_values_are_finite_diagnostics_only": true,
+      "intrinsic_height_equals_primitive_global_height_over_endpoint_content": true,
+      "intrinsic_rational_global_height": "107697445389382791484929789438065023875780654964281394129998941076512826906129917569479614059679562645235861742949450369216179035327652680230286757200992544227328",
+      "log_endpoint_height_over_n_log_n": "4.4598490039817593065128184783620715",
+      "log_g_n_over_n_log_n": "2.9247114490840115847566446158183542",
+      "log_intrinsic_global_height_over_n_log_n": "6.6278438827940483594556068632451551",
+      "n": 19,
+      "primitive_global_endpoint_content": "5077311532587780298312500",
+      "primitive_quadratic_coefficients_ascending": [
+        "2279877420386978977813203187249952558897546175575083193167535107040832819890511315341024472496765073581146112",
+        "0",
+        "230999878793048409801710500750735362769471330016160748658750371923137704827295062829568481864039458406215005"
+      ],
+      "primitive_quadratic_content": 1,
+      "primitive_quadratic_height": "2279877420386978977813203187249952558897546175575083193167535107040832819890511315341024472496765073581146112",
+      "q_n": "1759871083703813623775232000",
+      "q_n_clears_each_integral_endpoint_lower_lift": true,
+      "q_n_squared_clears_integral_raw_product_form": true,
+      "quadratic_coefficients_same_sign": true,
+      "rational_degree_2_measure_margin_over_n_log_n": "-15.53990077683616920221450432501415",
+      "raw_rank_one_smith_divides_endpoint_content": true,
+      "raw_rank_one_smith_invariant": "69992023193056381579920071267763883691301421788582797965624659405118495974380029543152421664737722368"
+    },
+    {
+      "D_n": "8796093022208",
+      "D_n_fifth_power_cleared_endpoint_content_g_n": "35336941295567686591665950014858370316549677937512379162432124025852395520",
+      "D_n_fifth_power_cleared_endpoint_pair": [
+        "3172579769366203641825237833666859618255625888966285046388505761485620525948198876113614144081156799422365448484857920196619482654462544210923627707474543034322382861658986724865201780922777600",
+        "321449537431918732082275734718129349585469724556769001270563911332791224541466513716923323147483251214823858440721238876811708354355361501449284005947482115827923617182856036543452647406960640"
+      ],
+      "K_positive": "24551679239548344286314286484794808017799222343442924255844200150466560",
+      "L_negative": "-14012107950488712134868378897548484417331773527872404639238717081612849168502153533038124767788400640",
+      "centered_2G_over_n_log_n": "0.034639669567819718346704311785150971",
+      "exact_global_denominator_after_endpoint_primitivization": "68906370799405589762812500",
+      "exact_global_origin_order": 84,
+      "excess_entries_A_B_C_g1_g3": [
+        "-55766094780328729255305104771/8",
+        "68798661809437341942053601280",
+        "-679015575383481165031743160320",
+        "-285359461847272011640692539392",
+        "2816385000540326762527760056320"
+      ],
+      "global_content_after_denominator_clearing": "1",
+      "height_and_margin_values_are_finite_diagnostics_only": true,
+      "intrinsic_height_equals_primitive_global_height_over_endpoint_content": true,
+      "intrinsic_rational_global_height": "157724568227955004640548885947392135320663150771912455418613408953375466710581344469196913514891536852275378135739092403872311515646734293014830505146487743929948493765956075520",
+      "log_endpoint_height_over_n_log_n": "4.5715004262759608899374282153437193",
+      "log_g_n_over_n_log_n": "2.826538557917110091164372413171686",
+      "log_intrinsic_global_height_over_n_log_n": "6.7714772116869208455832541159511213",
+      "n": 20,
+      "primitive_global_endpoint_content": "68906370799405589762812500",
+      "primitive_quadratic_coefficients_ascending": [
+        "89780825760495020536901505774103321336667798397267466000412044523059307630046152706614175637112948718544258954302586880",
+        "0",
+        "9096699534439845686371264195059269797456445285682494689914063787136552871258509311040680462110066689586607112218325857"
+      ],
+      "primitive_quadratic_content": 1,
+      "primitive_quadratic_height": "89780825760495020536901505774103321336667798397267466000412044523059307630046152706614175637112948718544258954302586880",
+      "q_n": "133750202361489835406917632000",
+      "q_n_clears_each_integral_endpoint_lower_lift": true,
+      "q_n_squared_clears_integral_raw_product_form": true,
+      "quadratic_coefficients_same_sign": true,
+      "rational_degree_2_measure_margin_over_n_log_n": "-15.879838394671022907111406234853409",
+      "raw_rank_one_smith_divides_endpoint_content": true,
+      "raw_rank_one_smith_invariant": "9173994463960286046443283581208347763186259956673124494950355357547691504353939232280074212440502746218496"
+    }
+  ],
+  "finite_grid": {
+    "all_degree_2_measure_margins_negative": true,
+    "all_origin_orders_equal_4n_plus_4": true,
+    "all_quadratics_primitive_and_exact_degree_2": true,
+    "finite_patterns_not_extrapolated": true,
+    "n_values": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  "logical_scope": {
+    "does_not_classify_e_plus_pi": true,
+    "fixed_dimension_global_height_is_exp_O_n_log_n": true,
+    "leading_height_ledger_and_content_threshold_are_proved_in_source": true,
+    "no_unproved_gcd_cancellation_assumed": true,
+    "quadratic_nonvanishing_is_all_parameter": true
+  },
+  "peak_rss_checked_below_2GiB": true,
+  "rss_limit_kib": 2097152,
+  "schema": "root-unity-m2-quadratic-saturated-survivor-v1"
+}

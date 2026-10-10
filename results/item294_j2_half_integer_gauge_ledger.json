@@ -1,0 +1,52 @@
+{
+  "schema": "item294-j2-half-integer-gauge-ledger-v1",
+  "checked": "2026-08-31 Asia/Shanghai",
+  "scope": "Exact identification of the Item291 fitted coefficient tuple with a half-integer gauge of the proved Item237 operator; no promotion of sequence annihilation",
+  "proved": [
+    "On r=6n+1 set h=3n+1/2, and on r=6n+5 set h=3n+5/2.",
+    "For each ray and j=0,1,2, the ratio between consecutive Item291-to-Item237 coefficient quotients is exactly R(r+6j).",
+    "The six identities are verified after cross multiplication in Q[n], with maximum cleared degree 39.",
+    "The gauge quotient is R(r)=r(r+6)(2r+9)^2(2r+15)^2/[78732(r+1)^2(r+2)(r+4)(r+5)^2].",
+    "Defining g_0=1 and g_n/g_(n+1)=R(6n+e), the Item291 candidate operator on y is equivalent to the Item237 operator on y/g.",
+    "This is an operator identity only; it does not assert that L_n or 16^n M_n is annihilated.",
+    "The first two normalized L rows have nonzero determinant with the existing Item237 coefficient line in both residue classes.",
+    "The first two normalized L rows also have nonzero determinant with the observed normalized-M line.",
+    "The gauge denominator is a p-unit on every actual row, while its numerator vanishes exactly on s=1 and s=2.",
+    "After primitive clearing the forward coefficient contains 2r+9 through 2r+39 in steps of six, so it vanishes on s=1 through s=6.",
+    "The remaining positive quintic forward core has no actual-row p-unit theorem."
+  ],
+  "exact_finite_only": {
+    "bridge": "16^n M_n/g_n=lambda_e [x^(6n+e)]C(x)",
+    "range": "exactly n=0,...,11 on each of e=1,5",
+    "constants": {
+      "e=1": "-891/100",
+      "e=5": "3897234/41405"
+    },
+    "classification": "EXACT FINITE ONLY; no all-n coefficient-kernel or WZ certificate"
+  },
+  "scoped_obstruction": {
+    "closed": "direct reuse of the single already certified Item237 algebraic coefficient line for normalized L",
+    "witness_e1": "det(Ltilde,C)=5045260/243 and det(Ltilde,Btilde)=-2774893/15",
+    "witness_e5": "det(Ltilde,C)=97069100/189 and det(Ltilde,Btilde)=2802229606440/57967",
+    "not_closed": "a second algebraic numerator, enlarged period module, WZ certificate, or different annihilating-operator proof"
+  },
+  "open": [
+    "An all-n proof of the observed normalized-M coefficient bridge.",
+    "A second algebraic or period realization for normalized L.",
+    "Sequence annihilation by the candidate operator for either connection minor.",
+    "Any Frobenius, all-prime nonvanishing, or weighted-density theorem."
+  ],
+  "capacity": {
+    "raw_ordinary_j2_capacity_per_M": "2/35",
+    "raw_ordinary_j2_capacity_per_6M": "1/105",
+    "new_capacity_reduction": 0,
+    "new_unconditional_route1_rate": 0
+  },
+  "forbidden_inference": [
+    "Do not infer sequence annihilation from operator conjugacy.",
+    "Do not promote the twelve-row normalized-M bridge to an all-n identity.",
+    "Do not invert the gauge on actual s=1 or s=2 rows.",
+    "Do not invert the forward recurrence on actual s=1,...,6 rows or where its quintic core vanishes.",
+    "Do not infer Frobenius structure or weighted density from rational recurrence closure."
+  ]
+}

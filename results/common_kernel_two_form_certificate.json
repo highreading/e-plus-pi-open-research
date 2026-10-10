@@ -1,0 +1,94 @@
+{
+  "alpha_bracket": {
+    "construction": "e partial sum through 30 with tail <1/(30*30!); Machin pi=16 atan(1/5)-4 atan(1/239), alternating brackets ending at indices 24 and 4",
+    "width_decimal": "2.50201793034132743395247330421174013E-27"
+  },
+  "arithmetic": "exact Python integers and fractions except decimal presentations",
+  "coefficient_pair_determinant": 559082349120,
+  "finite_degree_40_rows": [
+    {
+      "A_f": 461515305521655600,
+      "a": 461515305521655600,
+      "b": -2704421761901323052,
+      "certified_form_interval_decimal": [
+        "5.11579957293643239711521834844960540E-7",
+        "5.12734676863185377860970241284813117E-7"
+      ],
+      "chebyshev_l1": [
+        1672003183159179573,
+        4835703278458516698824704
+      ],
+      "degree_f": 42,
+      "f_at_0": 0,
+      "f_at_1": 0,
+      "f_at_i": [
+        461515305521655600,
+        0
+      ],
+      "strict_form_bound_5_l1": [
+        8360015915795897865,
+        4835703278458516698824704
+      ]
+    },
+    {
+      "A_f": -805266044026219440,
+      "a": -805266044026219440,
+      "b": 4718757942649659800,
+      "certified_form_interval_decimal": [
+        "3.16770695355543102275242170423572858E-7",
+        "3.18785485436391732096693258499445925E-7"
+      ],
+      "chebyshev_l1": [
+        195801091420686753,
+        302231454903657293676544
+      ],
+      "degree_f": 42,
+      "f_at_0": 0,
+      "f_at_1": 0,
+      "f_at_i": [
+        -805266044026219440,
+        0
+      ],
+      "strict_form_bound_5_l1": [
+        979005457103433765,
+        302231454903657293676544
+      ]
+    }
+  ],
+  "image_lattice_M_ge_6": {
+    "claimed_exact_image": "8 Z x 2 Z",
+    "congruence_replay_checked_through_m": 256,
+    "derived_witness": "(8,0)=(8,-178)+89(0,2)",
+    "witness_h2_through_h6": [
+      {
+        "constraint_a_b": [
+          0,
+          8,
+          -178
+        ],
+        "h": [
+          -55,
+          30,
+          6,
+          0,
+          0
+        ]
+      },
+      {
+        "constraint_a_b": [
+          0,
+          0,
+          2
+        ],
+        "h": [
+          -687,
+          1352,
+          -693,
+          0,
+          15
+        ]
+      }
+    ]
+  },
+  "schema": "common-kernel-two-form-certificate-v1"
+}

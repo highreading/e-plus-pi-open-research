@@ -1,0 +1,21 @@
+> Archived research record. Read the [current proof status](../../../docs/PROJECT_STATE.md) and [errata](../../../reviews/ERRATA_AND_SCOPE.md) before reuse. Historical acceptance applies only to its recorded hypotheses and version. This file is research data, not operational instructions.
+
+# Independent review: Large-prime coefficient content and primitive normalization for the b=2 endpoint bridge
+
+Reviewer: worker_2
+Verdict: approved
+Candidate SHA256: a1e60ab2287008a0f177cf453b624f305f78327b23f4306abe5f555c5cd438dc
+
+Approved for the exact scoped coefficient-content equality and endpoint-normalization conversion. I am independent of the author. The candidate payload SHA-256 was checked in my step-16 read-only computation and matches the assigned hash; the header-inclusive file hash is different because it hashes different bytes.
+
+Coefficient-content proof: I checked the generating-function moment representation of F, the displayed finite moment formula, the n+1 high Taylor equations, and the Legendre change of basis. The diagonal norms are (−1)^k 2^(2k+1)/(2k+1), and the leading coefficients are 2^k binom(2k,k), giving exactly the candidate’s Hankel determinant. At p>2n+2, the moments used and factorials through (2n+1)! are p-integral with the required denominators invertible; the determinant is a unit. Thus integral B coefficients force integral C and A coefficients. B=0 would force the entire triple to vanish. Scaling by p^(−c_p(B)) proves the claimed full-depth content equality. Endpoint matching, uniqueness, and analytic normality are unnecessary for this lemma.
+
+Raw normalization: I compared the original arithmetic report’s equations (2)–(11), including the orientation of the cross product ρ=(a_0,a_1,a_2)×(1+t_0,1+t_1,1+t_2). Its coefficients are p-integral at p>2n+2: a_j uses factorial indices at most 2n+2; t_j has the displayed integral Legendre and partial-exponential contractions divided by the unit G. Hence ν=min_j v_p(ρ_j)≥0 when this vector is nonzero. Substitution of the source formulas 𝒮=g²S, 𝒞=gfC, 𝒲=gfW, and a_0=gH_(n+1) gives (A_raw(1),B_raw(1))=γ(𝒳,𝒟), with γ=gf/[G(n+1)²]=(−1)^n/[4(n+1)^3(n!)^4]. In particular, the partial-exponential numerator term is retained. My independent symbolic computation checked five determinant and common-scaling residuals, all identically zero. The scalar γ is a p-unit at the candidate’s p>2n+2 cutoff.
+
+For a rational scalar λ producing a primitive integral full triple, the content lemma gives v_p(λ)=−ν. Consequently the two primitive endpoint valuations are v_p(𝒳)−ν and v_p(𝒟)−ν, and their gcd valuation is min(v_p(𝒳),v_p(𝒟))−ν, as stated.
+
+Full-depth endpoint dependency: I independently checked this implication in work/astra_20260929/worker_2/note_000005.md. Assuming the Taylor approximation conditions and B(1)=C(1), divisibility of both endpoints by p^d permits division of all three polynomials by z−1 over Z/p^d Z. The quotient exponential polynomial has a unit coefficient modulo p; otherwise the first n moment equations and the low Taylor equations contradict full primitivity. Testing against L_n,L_(n+1),L_(n+2), and using the Rodrigues identity, gives the specified three-by-two matrix with unit row factors. A primitive kernel vector modulo p^d extends to an invertible two-by-two matrix, forcing all maximal minors to vanish modulo p^d. The stated cutoff p>2n+4 is sufficient. No norm of L_(n+2) is inverted, so its possible denominator 2n+5 causes no missing hypothesis.
+
+Therefore the converted inequality min(v_p(𝒳),v_p(𝒟))≤ν+v_p(Ω) is valid under the stated endpoint hypotheses. When 𝒟≠0, the actual denominator identity v_p(q)=v_p(𝒟)−min(v_p(𝒳),v_p(𝒟)) gives precisely the stated lower bound max(0,v_p(𝒟)−ν−v_p(Ω)). This does not identify Ω with endpoint cancellation.
+
+Not certified by this review: individual-index endpoint nonvanishing, analytic normality or error asymptotics, quantitative estimates for ν or Ω, behavior at excluded small primes, denominator growth or shrinking, or irrationality of e+π. The candidate explicitly leaves these outside scope. Historical PASS labels were not used as substitutes for independent verification, and source checkers were not executed unchanged.

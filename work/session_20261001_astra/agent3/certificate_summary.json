@@ -1,0 +1,224 @@
+{
+  "status": "SUCCESS_READY_FOR_INDEPENDENT_AUDIT",
+  "candidate_count": 38,
+  "tested_primes": [
+    23,
+    29,
+    31,
+    37,
+    41,
+    43,
+    47,
+    53,
+    59,
+    61,
+    67
+  ],
+  "zero_sets": {
+    "23": [
+      1,
+      18
+    ],
+    "29": [
+      1,
+      14
+    ],
+    "31": [
+      1,
+      12
+    ],
+    "37": [
+      1,
+      23
+    ],
+    "41": [
+      1
+    ],
+    "43": [
+      1
+    ],
+    "47": [
+      1,
+      27
+    ],
+    "53": [
+      1,
+      3,
+      32
+    ],
+    "59": [
+      1
+    ],
+    "61": [
+      1,
+      33,
+      40
+    ],
+    "67": [
+      1
+    ]
+  },
+  "selected_new_uniform_primes": [
+    41,
+    43,
+    59,
+    67
+  ],
+  "all_uniform_primes": [
+    5,
+    13,
+    41,
+    43,
+    59,
+    67
+  ],
+  "untested_primes": [
+    71,
+    73,
+    79,
+    83,
+    89,
+    97,
+    101,
+    103,
+    107,
+    109,
+    113,
+    127,
+    131,
+    137,
+    139,
+    149,
+    151,
+    157,
+    163,
+    167,
+    173,
+    179,
+    181,
+    191,
+    193,
+    197,
+    199
+  ],
+  "selected_dual_construction_rows": 210,
+  "selected_dual_construction_coordinate_checks": 1050,
+  "distinct_exact_rational_seeds": 67,
+  "final_rate_certificate": {
+    "uniform_primes": [
+      5,
+      13,
+      41,
+      43,
+      59,
+      67
+    ],
+    "verdict": "above",
+    "log_series_terms": 16,
+    "rounding_scale": "1000000000000",
+    "sqrt2_bracket": {
+      "denominator": "18446744073709551616",
+      "lower_numerator": "26087635650665564424",
+      "upper_numerator": "26087635650665564425",
+      "lower_square_gap": "36478007661041971136",
+      "upper_square_gap": "15697263640289157713"
+    },
+    "log_p_bounds": {
+      "5": {
+        "lower": {
+          "numerator": "804718956217",
+          "denominator": "500000000000"
+        },
+        "upper": {
+          "numerator": "321887582487",
+          "denominator": "200000000000"
+        }
+      },
+      "13": {
+        "lower": {
+          "numerator": "2564949357461",
+          "denominator": "1000000000000"
+        },
+        "upper": {
+          "numerator": "1282474678731",
+          "denominator": "500000000000"
+        }
+      },
+      "41": {
+        "lower": {
+          "numerator": "232098254169",
+          "denominator": "62500000000"
+        },
+        "upper": {
+          "numerator": "742714413341",
+          "denominator": "200000000000"
+        }
+      },
+      "43": {
+        "lower": {
+          "numerator": "3761200115693",
+          "denominator": "1000000000000"
+        },
+        "upper": {
+          "numerator": "1880600057847",
+          "denominator": "500000000000"
+        }
+      },
+      "59": {
+        "lower": {
+          "numerator": "815507488781",
+          "denominator": "200000000000"
+        },
+        "upper": {
+          "numerator": "2038768721953",
+          "denominator": "500000000000"
+        }
+      },
+      "67": {
+        "lower": {
+          "numerator": "420469261939",
+          "denominator": "100000000000"
+        },
+        "upper": {
+          "numerator": "4204692619391",
+          "denominator": "1000000000000"
+        }
+      }
+    },
+    "W_lower": {
+      "numerator": "4308181309389547",
+      "denominator": "2310000000000000"
+    },
+    "W_upper": {
+      "numerator": "649024716739493",
+      "denominator": "348000000000000"
+    },
+    "tau_lower": {
+      "numerator": "1762747174039",
+      "denominator": "1000000000000"
+    },
+    "tau_upper": {
+      "numerator": "44068679351",
+      "denominator": "25000000000"
+    },
+    "strict_gap_lower": {
+      "numerator": "236235337357147",
+      "denominator": "2310000000000000"
+    },
+    "coarse_W_lower": {
+      "numerator": "1865013",
+      "denominator": "1000000"
+    },
+    "coarse_tau_upper": {
+      "numerator": "440687",
+      "denominator": "250000"
+    },
+    "coarse_gap_lower": {
+      "numerator": "20453",
+      "denominator": "200000"
+    }
+  },
+  "all_check_assertions_pass": true,
+  "exact_certificate_bytes": 142258,
+  "exact_certificate_sha256": "a422ac8d69dc74d4f15ce26906216ce4ddbf925e0fd60c676b8c6a59c8399e48"
+}

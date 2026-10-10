@@ -1,0 +1,325 @@
+{
+  "dependencies": {
+    "results/item234_j1_first_witt_certificate.json": "6797c1f2cd072ec92d311e01b596c3ac95888ce9b761bc325a625ef6f9f0c748",
+    "results/item240_j1_witt_endpoint_bridge_certificate.json": "f5a420207f9b42f90743b369ff6aaf5eb2ff660a31e018a00a80deaefb944430",
+    "scripts/item234_j1_first_witt_certificate.py": "8d41a5a73e9467cf4c998d3e345767c04c68ab6467605290480825b15b08e125",
+    "scripts/item240_j1_witt_endpoint_bridge_certificate.py": "621c82355a760e43d228317ed4ed9da2d5fc1bbab722b6ecfcf8bc106cebdff0",
+    "sources/item234_j1_first_witt_report.md": "9bd5bb91fe813622db0c15d8bfc25714bcefb00512ed8f5eafddacd8cfb9b016",
+    "sources/item240_j1_witt_endpoint_bridge_report.md": "b0c7e8c1504ac5df52c71088f940cc83887d589997f6ff98a028906d920eebb7"
+  },
+  "exact_finite_only": {
+    "interpretation": "both E observations stay independent of the tested denominator tower spans; this is not an all-power or all-row theorem",
+    "p109_degree62_power_bounds_1_through_12": [
+      [
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        2,
+        6,
+        7,
+        8
+      ],
+      [
+        3,
+        9,
+        10,
+        11
+      ],
+      [
+        4,
+        12,
+        13,
+        14
+      ],
+      [
+        5,
+        15,
+        16,
+        17
+      ],
+      [
+        6,
+        18,
+        19,
+        20
+      ],
+      [
+        7,
+        21,
+        22,
+        23
+      ],
+      [
+        8,
+        24,
+        25,
+        26
+      ],
+      [
+        9,
+        27,
+        28,
+        29
+      ],
+      [
+        10,
+        30,
+        31,
+        32
+      ],
+      [
+        11,
+        33,
+        34,
+        35
+      ],
+      [
+        12,
+        36,
+        37,
+        38
+      ]
+    ]
+  },
+  "exact_replay": {
+    "E_observation_checks": 368,
+    "coordinates": 368,
+    "distinct_prime_structure_checks": 31,
+    "kernel_identity_checks": 368,
+    "minimal_denominator_checks": 184,
+    "phase_recurrence_checks": 1104,
+    "rows": 184
+  },
+  "item": 242,
+  "open": [
+    "a uniform small adjacent-t Pearson realization of the E kernel",
+    "an actual-binomial-family or nonlinear elimination of E0,E1",
+    "whether the p^3 gate gives an all-row terminal obstruction after all lift data",
+    "any all-prime common-log exclusion or Route-1 rate consequence"
+  ],
+  "parameters": {
+    "direct_limit": 151,
+    "row": "p=4h+6s+3, r=2h, h,s>=1"
+  },
+  "proved": {
+    "common_observations": "E0=e0+e1+e2+e3 and E1=e0+4e1+6e2+4e3+e4",
+    "minimal_global_phase_polynomial": "the rootwise orders of R_E W are 2s+1<p; for each root some p-section retains its fifth denominator power, so the section-denominator lcm is (1+Z^2)^5 and has phase degree 10",
+    "new_generalized_modes": "relative to the semisimple +/-i endpoint pair, E adds eight generalized +/-i phase directions in the full kernel module",
+    "phase_recurrence": "(S_p^2+1)^5 e=0, i.e. e_(t+10p)+5e_(t+8p)+10e_(t+6p)+10e_(t+4p)+5e_(t+2p)+e_t=0",
+    "rational_kernel": "H_E=R_E/(1+z^(2p))^5 with the explicit five-term numerator",
+    "scoped_uv_no_go": "over F_29 on degree<=12 coefficient inputs, u/v has rank 6, adjoining E0 has rank 7, and adjoining E1 has rank 8"
+  },
+  "rank_witness": {
+    "E0_E1_minor": {
+      "determinant_mod_29": 9,
+      "row_indices_zero_based": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "E0_minor": {
+      "determinant_mod_29": 5,
+      "row_indices_zero_based": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "base_minor": {
+      "determinant_mod_29": 1,
+      "row_indices_zero_based": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "column_schema": [
+      "q0/D",
+      "qc/D",
+      "qs/D",
+      "q0/D^2",
+      "qc/D^2",
+      "qs/D^2",
+      "E0",
+      "E1"
+    ],
+    "matrix": [
+      [
+        8,
+        8,
+        0,
+        6,
+        6,
+        0,
+        8,
+        16
+      ],
+      [
+        17,
+        0,
+        17,
+        28,
+        0,
+        28,
+        28,
+        7
+      ],
+      [
+        9,
+        20,
+        0,
+        23,
+        6,
+        0,
+        27,
+        6
+      ],
+      [
+        27,
+        0,
+        2,
+        4,
+        0,
+        25,
+        16,
+        8
+      ],
+      [
+        2,
+        2,
+        0,
+        4,
+        4,
+        0,
+        20,
+        26
+      ],
+      [
+        20,
+        0,
+        20,
+        23,
+        0,
+        23,
+        6,
+        17
+      ],
+      [
+        12,
+        17,
+        0,
+        28,
+        1,
+        0,
+        16,
+        26
+      ],
+      [
+        21,
+        0,
+        8,
+        6,
+        0,
+        23,
+        19,
+        1
+      ],
+      [
+        26,
+        26,
+        0,
+        9,
+        9,
+        0,
+        5,
+        3
+      ],
+      [
+        16,
+        0,
+        16,
+        24,
+        0,
+        24,
+        12,
+        12
+      ],
+      [
+        18,
+        11,
+        0,
+        5,
+        24,
+        0,
+        21,
+        1
+      ],
+      [
+        4,
+        0,
+        25,
+        16,
+        0,
+        13,
+        9,
+        14
+      ],
+      [
+        24,
+        24,
+        0,
+        25,
+        25,
+        0,
+        6,
+        20
+      ]
+    ],
+    "matrix_sha256": "39e13655ffdd3d1b2a0c44f572eae0a4084ab2f3f3364242e7fe42e30f782b20",
+    "ranks": [
+      6,
+      7,
+      8
+    ],
+    "row": [
+      29,
+      5,
+      1
+    ],
+    "row_sha256": [
+      "3b6d5ce4e2661899ee98da1fe195f92fa565d47f78eaeb9997c6f946cb69c963",
+      "32709612480c828e8444e2d405298cbbbebf05ea9ec05b6b7957a78597eac7b2",
+      "03715239270016b3e309a1485f70cb2fd9d120ca05f4d616dffbf3dd1fffc824",
+      "d0bc3f88696104234e861eb188441a219bd40bbce4e329f6b93c51e4bbccd74c",
+      "4675a95f1b7d2b05c061f6ee92ccfa38ecfd7572e96428f147b5bfa827536e4a",
+      "0392dc1e5e07f88c68ec297410f97afc1705eea50b331763732f071db2127e71",
+      "58614b0c4c378b41e988d857a6a0b4ce55592fe188a13b40c401d7aa7107c7e2",
+      "f421217ab9f98e639a95173806f2bd827dad99ce98a32a907d1f89c179e80705",
+      "fae39d15d4060c66eac00af7e1f8a300a657a47861e8270b129ca0703cbd6f3d",
+      "810795cd9740decf29e7054068d6b59fbd4f9e35f529f50a244b06095752f8f3",
+      "841b7a29a175002d406149c47cf9e294e8d3a7e88c629fafb2030b8194a8126c",
+      "6101c1b7a90a5433e656d2f36923785852c37c547437047cd4cdf6075b8d9e42",
+      "b80077d72d583eecd2acc0bce23d26031acc4ddb223bf247b41743f1e1221b99"
+    ],
+    "row_stream_encoding": "comma-separated decimal entries, LF after every row",
+    "scope": "universal F_29-linear functionals on degree<=12 coefficient inputs; not nonlinear or actual-binomial-family identities"
+  },
+  "scoped_terminal_consequence": "the p^3 equations fix two coordinates in the enlarged E state; the F_29 witness proves they do not reduce to universal linear constraints on u/v, but it does not prove actual-family independence",
+  "title": "finite phase realization of the j=1 E kernel"
+}

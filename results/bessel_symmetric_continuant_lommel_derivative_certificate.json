@@ -1,0 +1,143 @@
+{
+  "description": "Deterministic exact replay of the all-h Lommel-square and pentadiagonal formulas for the symmetric Bessel continuant derivative.",
+  "formula_checks": {
+    "dual_cofactor_square_derivative_checks": 81,
+    "factorial_tail_checks": 3321,
+    "max_h_inclusive": 80,
+    "odd_monic_polynomial_checks": 81,
+    "single_terminating_sum_checks": 81,
+    "small_samples": [
+      {
+        "K_derivative_at_zero": 1,
+        "h": 0,
+        "polynomial_coefficients_low_to_high": [
+          0,
+          1
+        ],
+        "positive_bracket": 1,
+        "tail_P_h0": 1
+      },
+      {
+        "K_derivative_at_zero": -14,
+        "h": 1,
+        "polynomial_coefficients_low_to_high": [
+          0,
+          -14,
+          0,
+          1
+        ],
+        "positive_bracket": 14,
+        "tail_P_h0": 4
+      },
+      {
+        "K_derivative_at_zero": 963,
+        "h": 2,
+        "polynomial_coefficients_low_to_high": [
+          0,
+          963,
+          0,
+          -76,
+          0,
+          1
+        ],
+        "positive_bracket": 963,
+        "tail_P_h0": 33
+      },
+      {
+        "K_derivative_at_zero": -141468,
+        "h": 3,
+        "polynomial_coefficients_low_to_high": [
+          0,
+          -141468,
+          0,
+          12074,
+          0,
+          -218,
+          0,
+          1
+        ],
+        "positive_bracket": 141468,
+        "tail_P_h0": 400
+      },
+      {
+        "K_derivative_at_zero": 36590277,
+        "h": 4,
+        "polynomial_coefficients_low_to_high": [
+          0,
+          36590277,
+          0,
+          -3260028,
+          0,
+          68117,
+          0,
+          -472,
+          0,
+          1
+        ],
+        "positive_bracket": 36590277,
+        "tail_P_h0": 6433
+      },
+      {
+        "K_derivative_at_zero": -14727258666,
+        "h": 5,
+        "polynomial_coefficients_low_to_high": [
+          0,
+          -14727258666,
+          0,
+          1348096675,
+          0,
+          -30623048,
+          0,
+          257124,
+          0,
+          -870,
+          0,
+          1
+        ],
+        "positive_bracket": 14727258666,
+        "tail_P_h0": 129060
+      },
+      {
+        "K_derivative_at_zero": 8518173455495,
+        "h": 6,
+        "polynomial_coefficients_low_to_high": [
+          0,
+          8518173455495,
+          0,
+          -794300247848,
+          0,
+          19046104702,
+          0,
+          -179045032,
+          0,
+          758263,
+          0,
+          -1444,
+          0,
+          1
+        ],
+        "positive_bracket": 8518173455495,
+        "tail_P_h0": 3103873
+      }
+    ],
+    "strict_13_15_17_15_bound_checks": 81,
+    "tail_recurrence_checks": 3240
+  },
+  "frozen_dependencies": {
+    "sources/bessel_ordinary_symmetric_transfer_base_carry_barrier.md": "769c886c1c8e5a6e406bd2018c71846e2831170359c2e97b43939e200a108c6e"
+  },
+  "modular_scope_diagnostic": {
+    "K_derivative_at_zero": 963,
+    "h": 2,
+    "large_prime_divisor": 107,
+    "q_50_mod_107": 26,
+    "tied_r": 50
+  },
+  "pentadiagonal_checks": {
+    "bareiss_determinant_checks": 32,
+    "exact_BA_entry_checks": 32,
+    "individual_cauchy_binet_minor_checks": 560,
+    "max_h_inclusive": 32
+  },
+  "scope_warning": "All-h formulas and inequalities are symbolically proved in the source; finite cutoffs are regression checks only. Integer nonvanishing does not imply nonvanishing modulo p. This package does not prove the remaining Charlier congruence or Bessel base squarefreeness."
+}

@@ -1,0 +1,71 @@
+{
+  "capacity": {
+    "booking": 0,
+    "new_capacity_reduction": 0,
+    "raw_ordinary_j2_capacity_per_6M": "1/105",
+    "raw_ordinary_j2_capacity_per_M": "2/35"
+  },
+  "dependencies": {
+    "item237_j1_algebraic_residual_certificate.py": "f89047396e3f6b4644cf0194b7716dfad91b3eb41de7b88c9377cf3e81d09dcf",
+    "item250_j2_ordinary_phase_certificate.py": "2364a9e9c9be0ea0827c2b12137883ad326d77017a53bb4f242be300335e90ce",
+    "item291_j2_connection_plane_certificate.py": "5c86001827b0012605563b04dafc5f157f27fddf2f1625254e9196bc0de8c2df"
+  },
+  "finite_bridge_probe": {
+    "classification": "EXACT FINITE ONLY; not an all-r identity",
+    "observed_bridge": "16^n M_n/g_n=lambda_residue*[x^r]C(x)",
+    "row_digest_sha256": "b0a39fac7b61951d686d05bb1630e1e93efd9fb4f6f965d723465bbec6fe0217",
+    "scope": "the nonzero determinants prove only that normalized L is not the existing Item237 coefficient line",
+    "terms_per_ray": 12,
+    "witnesses": {
+      "1": {
+        "B_over_C_constant": "-891/100",
+        "det_normalized_L_B_first_two_rows": "-2774893/15",
+        "det_normalized_L_C_first_two_rows": "5045260/243"
+      },
+      "5": {
+        "B_over_C_constant": "3897234/41405",
+        "det_normalized_L_B_first_two_rows": "2802229606440/57967",
+        "det_normalized_L_C_first_two_rows": "97069100/189"
+      }
+    }
+  },
+  "operator_conjugacy": {
+    "classification": "SYMBOLIC EXACT",
+    "cleared_cross_identities": 6,
+    "conclusion": "the fitted Item291 operator is exactly the half-integer Item237 operator after this gauge",
+    "gauge": "y_n=g_n*z_n, g_n/g_(n+1)=R(r), R(r)=r(r+6)(2r+9)^2(2r+15)^2/[78732(r+1)^2(r+2)(r+4)(r+5)^2]",
+    "item237_operator": "sum_(j=0)^3 p_j(h) z_(n+j)=0",
+    "item291_candidate": "sum_(j=0)^3 P_j(n) y_(n+j)=0",
+    "maximum_cleared_degree": 39,
+    "rays": "label 5: r=6n+1 and h=3n+1/2; label 1: r=6n+5 and h=3n+5/2",
+    "row_digest_sha256": "7b68b45614428e8ee19d0fda5f6499223a379364918939d91b0d651274e9a700"
+  },
+  "schema": "item294-j2-half-integer-gauge-v1",
+  "singular_audit": {
+    "classification": "ALL-ROW ALGEBRAIC RANGE AUDIT",
+    "consequence": "neither the gauge nor forward recurrence is an all-row p-adic unit transport",
+    "exact_P3_linear_factor_checks": 12,
+    "gauge_denominator": "78732(r+1)^2(r+2)(r+4)(r+5)^2 is a p-unit on every actual row",
+    "gauge_numerator": "R(r) vanishes modulo p exactly on s=1 via 2r+9 and s=2 via 2r+15",
+    "mod_p_forward_singular_layers": "P3 contains 2r+9,2r+15,...,2r+39 and hence vanishes on s=1,...,6",
+    "primitive_forward_coefficient": "P3(n)>0 over Q for n>=0",
+    "uncontrolled_factor": "the remaining positive quintic core can still vanish modulo actual-row primes"
+  },
+  "theorem_status": {
+    "EXACT_FINITE_ONLY": [
+      "the observed bridge 16^n*M_n/g_n=lambda_residue*[x^r]C(x)",
+      "the original Item291 candidate recurrence on L_n and 16^n*M_n"
+    ],
+    "OPEN": [
+      "an all-r proof of the observed M-to-C bridge",
+      "a second algebraic/period realization for normalized L",
+      "the all-n candidate recurrence for either connection minor",
+      "any Frobenius, nonvanishing, or weighted-density theorem"
+    ],
+    "PROVED": [
+      "the exact half-integer gauge conjugacy of the Item291 candidate operator to Item237",
+      "the rational and mod-p singular-factor audit",
+      "normalized L is not proportional to the one existing Item237 algebraic coefficient sequence"
+    ]
+  }
+}

@@ -1,0 +1,424 @@
+{
+  "actual_prime_or_target_census_performed": false,
+  "capacity_booking": {
+    "new_beta_capacity_reduction": 0,
+    "new_booking": 0,
+    "new_route1_rate": 0
+  },
+  "certificate_digest": "cb8fe7ff3ab2cc319bada628fa7601445a095105a83f1e3bbaa76228fe64d1bb",
+  "checked_date_beijing": "2026-09-01",
+  "claims": {
+    "capacity": "log C_cont<=log rad|alpha|<=log|alpha|; portfolios use sum log|alpha_l|",
+    "constant_primitive_numerator": "A1 constant implies A1=+/-1",
+    "integral_specialization": "beta*B1(P,E)|alpha; it cannot compress the scalar numerator",
+    "normal_form": "R=alpha*A1/(beta*B1), with coprime scalar ratio and primitive coprime polynomial pair",
+    "primitive_height_warning": "omitting reduced scalar content is not a representation-invariant divisibility height",
+    "saturated_content": "C_cont=gcd(U_11,rad(alpha))",
+    "singleton_valuation": "for denominator-unit singleton p, v_p(R(P,E))=v_p(alpha)"
+  },
+  "classification": "PROVED_SCOPED_CONTENT_PRIMITIVE_PART_NO_GO",
+  "constructed_actual_sub_beta_scalar": false,
+  "controls": {
+    "actual_saturation": {
+      "E": 4933,
+      "P": 28014,
+      "Q_squarefree": 667,
+      "S_sym": 28014,
+      "U_11": 667,
+      "capital_A": 20,
+      "declared_loads": [
+        46,
+        87,
+        7
+      ],
+      "rows": [
+        {
+          "alpha": 1,
+          "captured_content": 1,
+          "captures_all_U11": false,
+          "rad_alpha": 1
+        },
+        {
+          "alpha": 391,
+          "captured_content": 23,
+          "captures_all_U11": false,
+          "rad_alpha": 391
+        },
+        {
+          "alpha": 551,
+          "captured_content": 29,
+          "captures_all_U11": false,
+          "rad_alpha": 551
+        },
+        {
+          "alpha": 667,
+          "captured_content": 667,
+          "captures_all_U11": true,
+          "rad_alpha": 667
+        },
+        {
+          "alpha": 3335,
+          "captured_content": 667,
+          "captures_all_U11": true,
+          "rad_alpha": 3335
+        }
+      ],
+      "rows_digest": "e6761ee0e53fa0f5febe9277f17a1251dfda32938f831188a1ef0574268f8616",
+      "t": 5,
+      "t_zero_S_sym": 1
+    },
+    "normalization": {
+      "constant_primitive_rows": [
+        {
+          "canonical_primitive_part": 1,
+          "constant": -60,
+          "content": 60
+        },
+        {
+          "canonical_primitive_part": 1,
+          "constant": -1,
+          "content": 1
+        },
+        {
+          "canonical_primitive_part": 1,
+          "constant": 1,
+          "content": 1
+        },
+        {
+          "canonical_primitive_part": 1,
+          "constant": 42,
+          "content": 42
+        }
+      ],
+      "constant_primitive_rows_digest": "b6274169176eb4b02aa9bfc464838c311842c366f3e7f4dadd8d4713c77550da",
+      "rows": [
+        {
+          "A1_constant_primitive": true,
+          "B1_constant_primitive": true,
+          "content_A": 18,
+          "content_B": 30,
+          "name": "fully_scalar_after_common_polynomial_cancellation",
+          "point_rows": [
+            {
+              "X": 2,
+              "Y": 5,
+              "cross_product": 630
+            },
+            {
+              "X": 7,
+              "Y": 11,
+              "cross_product": 1620
+            },
+            {
+              "X": 13,
+              "Y": 17,
+              "cross_product": 2700
+            }
+          ],
+          "reduced_alpha": 3,
+          "reduced_beta": 5
+        },
+        {
+          "A1_constant_primitive": true,
+          "B1_constant_primitive": false,
+          "content_A": 42,
+          "content_B": 30,
+          "name": "content_degenerate_numerator_variable_unit_denominator",
+          "point_rows": [
+            {
+              "X": 2,
+              "Y": 5,
+              "cross_product": 6720
+            },
+            {
+              "X": 7,
+              "Y": 11,
+              "cross_product": 26460
+            },
+            {
+              "X": 13,
+              "Y": 17,
+              "cross_product": 63000
+            }
+          ],
+          "reduced_alpha": 7,
+          "reduced_beta": 5
+        },
+        {
+          "A1_constant_primitive": false,
+          "B1_constant_primitive": false,
+          "content_A": 14,
+          "content_B": 21,
+          "name": "nonconstant_primitive_branch_boundary",
+          "point_rows": [
+            {
+              "X": 2,
+              "Y": 5,
+              "cross_product": 9408
+            },
+            {
+              "X": 7,
+              "Y": 11,
+              "cross_product": 95256
+            },
+            {
+              "X": 13,
+              "Y": 17,
+              "cross_product": 378000
+            }
+          ],
+          "reduced_alpha": 2,
+          "reduced_beta": 3
+        }
+      ],
+      "rows_digest": "c493ed4fdec994d8b0326a7b7157d1edbc61f4f9211fa645f343df6dc81766d1"
+    },
+    "portfolio_and_height": {
+      "U_declared": 20677,
+      "portfolio_rows": [
+        {
+          "alphas": [
+            23,
+            29,
+            31
+          ],
+          "captured": 20677,
+          "log_captured": 9.93677725040077,
+          "product": 20677,
+          "sum_log_alpha": 9.93677725040077
+        },
+        {
+          "alphas": [
+            851,
+            1189,
+            1333
+          ],
+          "captured": 20677,
+          "log_captured": 9.93677725040077,
+          "product": 1348781387,
+          "sum_log_alpha": 21.022467345442866
+        },
+        {
+          "alphas": [
+            667,
+            31
+          ],
+          "captured": 20677,
+          "log_captured": 9.93677725040077,
+          "product": 20677,
+          "sum_log_alpha": 9.93677725040077
+        }
+      ],
+      "portfolio_rows_digest": "35a54379df92abd9352e2edbb885e6b77b66d9cfa0a711530339ef69a9622ed0",
+      "scale_rows": [
+        {
+          "alpha": 667,
+          "b": "1000000000000",
+          "captured": 667,
+          "log_alpha_over_log_b": 0.23534381949304575,
+          "log_captured_over_log_b": 0.23534381949304575
+        },
+        {
+          "alpha": 20677,
+          "b": "1000000000000000000000000000000",
+          "captured": 20677,
+          "log_alpha_over_log_b": 0.14384958425836072,
+          "log_captured_over_log_b": 0.14384958425836072
+        },
+        {
+          "alpha": 15341,
+          "b": "1000000000000000000000000000000000000000000000000000000000000",
+          "captured": 667,
+          "log_alpha_over_log_b": 0.06976422783223571,
+          "log_captured_over_log_b": 0.04706876389860915
+        }
+      ],
+      "scale_rows_digest": "e03b75a2f2d18c449b99ff58864490f8d0455994b5ea2d2750591e9d8bab612d"
+    },
+    "representation_and_integrality": {
+      "integral_specialization": {
+        "B1_P_E": 47,
+        "P": 46,
+        "alpha": 1081,
+        "integral_residual": 23
+      },
+      "same_primitive_height_different_scalar_support": [
+        {
+          "alpha": 1,
+          "primitive_pair_height": 1,
+          "radical": 1
+        },
+        {
+          "alpha": 667,
+          "primitive_pair_height": 1,
+          "radical": 667
+        },
+        {
+          "alpha": 765049,
+          "primitive_pair_height": 1,
+          "radical": 765049
+        }
+      ]
+    },
+    "valuations": {
+      "rows": [
+        {
+          "B1_at_actual_point": 7,
+          "P_times_residual_valuation": 1,
+          "alpha": 1,
+          "beta": 5,
+          "prime": 23,
+          "residual_valuation": 0
+        },
+        {
+          "B1_at_actual_point": 7,
+          "P_times_residual_valuation": 2,
+          "alpha": 23,
+          "beta": 5,
+          "prime": 23,
+          "residual_valuation": 1
+        },
+        {
+          "B1_at_actual_point": 7,
+          "P_times_residual_valuation": 3,
+          "alpha": 5819,
+          "beta": 5,
+          "prime": 23,
+          "residual_valuation": 2
+        },
+        {
+          "B1_at_actual_point": 7,
+          "P_times_residual_valuation": 1,
+          "alpha": 29,
+          "beta": 5,
+          "prime": 23,
+          "residual_valuation": 0
+        }
+      ],
+      "rows_digest": "739990a538246a157a8d99ba749427faea1560443e64f08dbb9d873a88d149de"
+    }
+  },
+  "declared_symbolic_controls_only": true,
+  "dependencies": {
+    "count": 18,
+    "rows": [
+      {
+        "bytes": 14388,
+        "path": "sources/item316_beta_intermediate_ostrowski_no_go_report.md",
+        "sha256": "8d6dce8354f08e94a252a2120cf677d9a374df95507a9297dcb064a1982fb6b0"
+      },
+      {
+        "bytes": 11912,
+        "path": "results/item316_beta_intermediate_ostrowski_no_go_certificate.json",
+        "sha256": "5167e9d160fcecac86791944e41a176d3400f2a6856090de7cf78d55984e7aa4"
+      },
+      {
+        "bytes": 3018,
+        "path": "results/item316_root_audit.json",
+        "sha256": "6cad978132f5f09c687aa8fcf8dcd92a7d917cf9411a69f679c7757139229175"
+      },
+      {
+        "bytes": 5980,
+        "path": "manifests/item316_beta_intermediate_ostrowski_no_go_manifest.json",
+        "sha256": "aac741658430fb661de078adfeafdbc3a9d20312a8fd8725cb4244d406d9bcf6"
+      },
+      {
+        "bytes": 11855,
+        "path": "sources/item358_beta_actual_low_incidence_saturation_barrier_report.md",
+        "sha256": "681c9f9cbe926978c78f632084c8be83439c2ac3f5e50f2c2697a49f2f0da68d"
+      },
+      {
+        "bytes": 15507,
+        "path": "results/item358_beta_actual_low_incidence_saturation_barrier_certificate.json",
+        "sha256": "4da88e55dec36f3c130def549007c8ae1509ff0a029dfed9ff25f67a78c2ffa3"
+      },
+      {
+        "bytes": 3638,
+        "path": "results/item358_beta_actual_low_incidence_saturation_barrier_root_audit.json",
+        "sha256": "a1a48f7d7080834ebf3be56b47d8056733e88e1913e8f6ea784f97a5eb2d9172"
+      },
+      {
+        "bytes": 8117,
+        "path": "manifests/item358_beta_actual_low_incidence_saturation_barrier_manifest.json",
+        "sha256": "4ba799fe2fc8cb6063034d844f91bcaec6c3fc84d043b1f46c675fce400acfb1"
+      },
+      {
+        "bytes": 12028,
+        "path": "sources/item370_beta_q_free_residual_saturation_no_go_report.md",
+        "sha256": "760767813ab0bbd56114f6a6c264ce396ccc2ec8eb9e7a3139e56b155051fef4"
+      },
+      {
+        "bytes": 22927,
+        "path": "results/item370_beta_q_free_residual_saturation_no_go_certificate.json",
+        "sha256": "78703c11fee6715189fc8c0c7a513bef5eda1d973ab27b3e1f486d0b908008fb"
+      },
+      {
+        "bytes": 4060,
+        "path": "results/item370_beta_q_free_residual_saturation_no_go_root_audit.json",
+        "sha256": "264c64d6495c2d1a20eff67b270379adb95ffc5f5711269dc325f11988c12ea2"
+      },
+      {
+        "bytes": 8951,
+        "path": "manifests/item370_beta_q_free_residual_saturation_no_go_manifest.json",
+        "sha256": "53147f04c406d69c67f3b53b7032d6c90db20380583ebb79238f84505cd6d6d2"
+      },
+      {
+        "bytes": 10614,
+        "path": "sources/item373_beta_symmetric_singleton_first_quotient_report.md",
+        "sha256": "daa16600359a52501fcbe303359e39696c1f0b0acfdb62b944b19be77784d6c5"
+      },
+      {
+        "bytes": 16141,
+        "path": "scripts/item373_beta_symmetric_singleton_first_quotient_certificate.py",
+        "sha256": "8158fd3e100c1a7abb5efa0048a979a6e368e7328ae67743731041b756944bcf"
+      },
+      {
+        "bytes": 31298,
+        "path": "results/item373_beta_symmetric_singleton_first_quotient_certificate.json",
+        "sha256": "335be8c519597bc1fd1a6e21cb9bbbbe37b1785a2468e4f0a7d6c205a9cb2cc5"
+      },
+      {
+        "bytes": 3201,
+        "path": "results/item373_beta_symmetric_singleton_first_quotient_ledger_delta.json",
+        "sha256": "6d2193aecb20165fd44082c5e0a2959756e7f62bbac7e35efd6ac5be76b28a39"
+      },
+      {
+        "bytes": 3921,
+        "path": "results/item373_beta_symmetric_singleton_first_quotient_root_audit.json",
+        "sha256": "3b5d6b13fdd327e27b518744edd2666cc58895fb401f7050ad52046810bb1128"
+      },
+      {
+        "bytes": 7195,
+        "path": "manifests/item373_beta_symmetric_singleton_first_quotient_manifest.json",
+        "sha256": "a42cd4b5e306b5fe864e4832e11726380d9bf4197868884f1879dc98b91aeacf"
+      }
+    ],
+    "rows_digest": "974cf17332a2043412ef7f4c69d645e25e0d288596d3eb1e5f0453028320b6af"
+  },
+  "item": 375,
+  "schema": "item375-beta-symmetric-content-primitive-no-go-v1",
+  "strict_labels": {
+    "EXACT_FINITE_ONLY": [
+      "predeclared sparse-polynomial, valuation, saturation, portfolio, and height controls"
+    ],
+    "OPEN": [
+      "nonconstant multivariate symmetric one-point cancellation",
+      "beta-height gcd/radical compression",
+      "new actual sub-beta scalar divisibility theorem",
+      "U_11 weighted bound and Route 1"
+    ],
+    "PROVED": [
+      "content/primitive normalization",
+      "exact singleton scalar valuation",
+      "mandatory saturated content carrier",
+      "portfolio and height bounds",
+      "zero booking"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "content-degenerate symmetric rational carriers at sub-beta total scalar height",
+      "primitive height with coefficient content omitted",
+      "sub-beta aggregate content portfolios",
+      "unit variable denominators as content compression"
+    ]
+  }
+}

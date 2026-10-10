@@ -1,0 +1,693 @@
+{
+  "easy_quotient_primes_seen": [
+    5,
+    13,
+    17,
+    19,
+    29,
+    31,
+    37,
+    41,
+    43,
+    47,
+    61,
+    67,
+    71,
+    79,
+    277
+  ],
+  "endpoint_seeds_below_1000": [
+    {
+      "N": 73,
+      "p": 149
+    },
+    {
+      "N": 119,
+      "p": 241
+    }
+  ],
+  "euler_table_digest": "7e9b6511644c5e9829740eabb1d7b39bc30649ba08b123195ec83fe2ab8c1e5b",
+  "exact_grid_digest": "eabdb83a738a388e829e472d7286672df704248d3e87b1bbcfad4c7daebea956",
+  "explicit_counterexamples": {
+    "119": 241,
+    "147": 149,
+    "221": 149,
+    "239": 241,
+    "295": 149,
+    "359": 241,
+    "73": 149
+  },
+  "grid": {
+    "Euler_half_table_max": 1100,
+    "N_max": 1000,
+    "endpoint_and_interior_scan_primes_below": 1000,
+    "kummer_k_max": 12,
+    "kummer_prime_power_exponents": [
+      1,
+      2,
+      3
+    ],
+    "kummer_primes": [
+      3,
+      5,
+      7,
+      11,
+      13
+    ],
+    "representative_primes_below": 50,
+    "resultant_N_max": 8
+  },
+  "interior_adjacent_pairs_below_1000": [],
+  "kummer_grid_digest": "50d84e5daff4e92bd8c99e8ac2adb2500e911c5d5fe0b93080f1e032fdf095fb",
+  "logical_scope": "Exact finite replay of recurrence, factor separation, Kummer formula, representative reduction, endpoint examples, lcm split, and small resultants. Finite grids do not classify adjacent Euler-irregular pairs or e+pi.",
+  "nontrivial_H_rows": [
+    {
+      "G_factorization": {
+        "149": 1
+      },
+      "H_factorization": {
+        "149": 1
+      },
+      "J": 1,
+      "N": 73,
+      "S": 149,
+      "layers": [
+        {
+          "excess_valuation": 0,
+          "p": 149,
+          "period_depth": 1,
+          "small_valuation": 1,
+          "valuation": 1
+        }
+      ]
+    },
+    {
+      "G_factorization": {
+        "241": 1,
+        "5": 1
+      },
+      "H_factorization": {
+        "241": 1
+      },
+      "J": 1,
+      "N": 119,
+      "S": 241,
+      "layers": [
+        {
+          "excess_valuation": 0,
+          "p": 241,
+          "period_depth": 1,
+          "small_valuation": 1,
+          "valuation": 1
+        }
+      ]
+    },
+    {
+      "G_factorization": {
+        "149": 1,
+        "5": 1
+      },
+      "H_factorization": {
+        "149": 1
+      },
+      "J": 1,
+      "N": 147,
+      "S": 149,
+      "layers": [
+        {
+          "excess_valuation": 0,
+          "p": 149,
+          "period_depth": 1,
+          "small_valuation": 1,
+          "valuation": 1
+        }
+      ]
+    },
+    {
+      "G_factorization": {
+        "149": 1
+      },
+      "H_factorization": {
+        "149": 1
+      },
+      "J": 1,
+      "N": 221,
+      "S": 149,
+      "layers": [
+        {
+          "excess_valuation": 0,
+          "p": 149,
+          "period_depth": 1,
+          "small_valuation": 1,
+          "valuation": 1
+        }
+      ]
+    },
+    {
+      "G_factorization": {
+        "241": 1,
+        "5": 1
+      },
+      "H_factorization": {
+        "241": 1
+      },
+      "J": 1,
+      "N": 239,
+      "S": 241,
+      "layers": [
+        {
+          "excess_valuation": 0,
+          "p": 241,
+          "period_depth": 1,
+          "small_valuation": 1,
+          "valuation": 1
+        }
+      ]
+    },
+    {
+      "G_factorization": {
+        "149": 1
+      },
+      "H_factorization": {
+        "149": 1
+      },
+      "J": 1,
+      "N": 295,
+      "S": 149,
+      "layers": [
+        {
+          "excess_valuation": 0,
+          "p": 149,
+          "period_depth": 1,
+          "small_valuation": 1,
+          "valuation": 1
+        }
+      ]
+    },
+    {
+      "G_factorization": {
+        "241": 1,
+        "5": 1
+      },
+      "H_factorization": {
+        "241": 1
+      },
+      "J": 1,
+      "N": 359,
+      "S": 241,
+      "layers": [
+        {
+          "excess_valuation": 0,
+          "p": 241,
+          "period_depth": 1,
+          "small_valuation": 1,
+          "valuation": 1
+        }
+      ]
+    },
+    {
+      "G_factorization": {
+        "149": 1,
+        "5": 1
+      },
+      "H_factorization": {
+        "149": 1
+      },
+      "J": 1,
+      "N": 369,
+      "S": 149,
+      "layers": [
+        {
+          "excess_valuation": 0,
+          "p": 149,
+          "period_depth": 1,
+          "small_valuation": 1,
+          "valuation": 1
+        }
+      ]
+    },
+    {
+      "G_factorization": {
+        "149": 1
+      },
+      "H_factorization": {
+        "149": 1
+      },
+      "J": 1,
+      "N": 443,
+      "S": 149,
+      "layers": [
+        {
+          "excess_valuation": 0,
+          "p": 149,
+          "period_depth": 1,
+          "small_valuation": 1,
+          "valuation": 1
+        }
+      ]
+    },
+    {
+      "G_factorization": {
+        "241": 1,
+        "5": 1
+      },
+      "H_factorization": {
+        "241": 1
+      },
+      "J": 1,
+      "N": 479,
+      "S": 241,
+      "layers": [
+        {
+          "excess_valuation": 0,
+          "p": 241,
+          "period_depth": 1,
+          "small_valuation": 1,
+          "valuation": 1
+        }
+      ]
+    },
+    {
+      "G_factorization": {
+        "149": 1,
+        "5": 1
+      },
+      "H_factorization": {
+        "149": 1
+      },
+      "J": 1,
+      "N": 517,
+      "S": 149,
+      "layers": [
+        {
+          "excess_valuation": 0,
+          "p": 149,
+          "period_depth": 1,
+          "small_valuation": 1,
+          "valuation": 1
+        }
+      ]
+    },
+    {
+      "G_factorization": {
+        "149": 1
+      },
+      "H_factorization": {
+        "149": 1
+      },
+      "J": 1,
+      "N": 591,
+      "S": 149,
+      "layers": [
+        {
+          "excess_valuation": 0,
+          "p": 149,
+          "period_depth": 1,
+          "small_valuation": 1,
+          "valuation": 1
+        }
+      ]
+    },
+    {
+      "G_factorization": {
+        "241": 1,
+        "5": 2
+      },
+      "H_factorization": {
+        "241": 1
+      },
+      "J": 1,
+      "N": 599,
+      "S": 241,
+      "layers": [
+        {
+          "excess_valuation": 0,
+          "p": 241,
+          "period_depth": 1,
+          "small_valuation": 1,
+          "valuation": 1
+        }
+      ]
+    },
+    {
+      "G_factorization": {
+        "149": 1,
+        "37": 1
+      },
+      "H_factorization": {
+        "149": 1
+      },
+      "J": 1,
+      "N": 665,
+      "S": 149,
+      "layers": [
+        {
+          "excess_valuation": 0,
+          "p": 149,
+          "period_depth": 1,
+          "small_valuation": 1,
+          "valuation": 1
+        }
+      ]
+    },
+    {
+      "G_factorization": {
+        "241": 1,
+        "5": 1
+      },
+      "H_factorization": {
+        "241": 1
+      },
+      "J": 1,
+      "N": 719,
+      "S": 241,
+      "layers": [
+        {
+          "excess_valuation": 0,
+          "p": 241,
+          "period_depth": 1,
+          "small_valuation": 1,
+          "valuation": 1
+        }
+      ]
+    },
+    {
+      "G_factorization": {
+        "149": 1,
+        "5": 1
+      },
+      "H_factorization": {
+        "149": 1
+      },
+      "J": 1,
+      "N": 739,
+      "S": 149,
+      "layers": [
+        {
+          "excess_valuation": 0,
+          "p": 149,
+          "period_depth": 1,
+          "small_valuation": 1,
+          "valuation": 1
+        }
+      ]
+    },
+    {
+      "G_factorization": {
+        "149": 1
+      },
+      "H_factorization": {
+        "149": 1
+      },
+      "J": 1,
+      "N": 813,
+      "S": 149,
+      "layers": [
+        {
+          "excess_valuation": 0,
+          "p": 149,
+          "period_depth": 1,
+          "small_valuation": 1,
+          "valuation": 1
+        }
+      ]
+    },
+    {
+      "G_factorization": {
+        "241": 1,
+        "5": 1
+      },
+      "H_factorization": {
+        "241": 1
+      },
+      "J": 1,
+      "N": 839,
+      "S": 241,
+      "layers": [
+        {
+          "excess_valuation": 0,
+          "p": 241,
+          "period_depth": 1,
+          "small_valuation": 1,
+          "valuation": 1
+        }
+      ]
+    },
+    {
+      "G_factorization": {
+        "149": 1,
+        "5": 1
+      },
+      "H_factorization": {
+        "149": 1
+      },
+      "J": 1,
+      "N": 887,
+      "S": 149,
+      "layers": [
+        {
+          "excess_valuation": 0,
+          "p": 149,
+          "period_depth": 1,
+          "small_valuation": 1,
+          "valuation": 1
+        }
+      ]
+    },
+    {
+      "G_factorization": {
+        "241": 1,
+        "5": 1
+      },
+      "H_factorization": {
+        "241": 1
+      },
+      "J": 1,
+      "N": 959,
+      "S": 241,
+      "layers": [
+        {
+          "excess_valuation": 0,
+          "p": 241,
+          "period_depth": 1,
+          "small_valuation": 1,
+          "valuation": 1
+        }
+      ]
+    },
+    {
+      "G_factorization": {
+        "149": 1
+      },
+      "H_factorization": {
+        "149": 1
+      },
+      "J": 1,
+      "N": 961,
+      "S": 149,
+      "layers": [
+        {
+          "excess_valuation": 0,
+          "p": 149,
+          "period_depth": 1,
+          "small_valuation": 1,
+          "valuation": 1
+        }
+      ]
+    }
+  ],
+  "representative_grid_digest": "615b5f25da98a2ec472b60d839adcd4a83d3994a7021b5311503a7b7b4d9b214",
+  "schema": "root_unity_quadratic_euler_gcd_kummer_certificate_v1",
+  "small_centered_resultants": [
+    {
+      "N": 1,
+      "odd_square_root": "1",
+      "resultant_bits": 1,
+      "sha256_decimal_resultant": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "v2_resultant": 0
+    },
+    {
+      "N": 2,
+      "odd_square_root": "1",
+      "resultant_bits": 9,
+      "sha256_decimal_resultant": "51e8ea280b44e16934d4d611901f3d3afc41789840acdff81942c2f65009cd52",
+      "v2_resultant": 8
+    },
+    {
+      "N": 3,
+      "odd_square_root": "19",
+      "resultant_bits": 33,
+      "sha256_decimal_resultant": "43351dcd3f6a59d8ef74f30e2ca15a5758ba97917fe6f8f4e1b1d4661fce6631",
+      "v2_resultant": 24
+    },
+    {
+      "N": 4,
+      "odd_square_root": "33851",
+      "resultant_bits": 79,
+      "sha256_decimal_resultant": "a687cb0595a2c915a40b3dd7cf320abf769545cfc37b0b7e92531053ab0f083e",
+      "v2_resultant": 48
+    },
+    {
+      "N": 5,
+      "odd_square_root": "17800634521",
+      "resultant_bits": 149,
+      "sha256_decimal_resultant": "6947432f3bf6cf6c9afb22473a804851292984ed845448ed9b261d8fe5b79f24",
+      "v2_resultant": 80
+    },
+    {
+      "N": 6,
+      "odd_square_root": "6755514593297802025",
+      "resultant_bits": 246,
+      "sha256_decimal_resultant": "8ccf6b53d930e9bf96fd36fbf662392ce7c5ee342ffca77ec8c7c15421e83239",
+      "v2_resultant": 120
+    },
+    {
+      "N": 7,
+      "odd_square_root": "3847803982441557603274539804411",
+      "resultant_bits": 372,
+      "sha256_decimal_resultant": "67c67b15d3b49c551e64d64c37764e7be7ba18c55470835287a81f76c11d1c01",
+      "v2_resultant": 168
+    },
+    {
+      "N": 8,
+      "odd_square_root": "6112699161900316909611658427900541003289268851",
+      "resultant_bits": 529,
+      "sha256_decimal_resultant": "03998ec86aee629d94e5f0b9a050000535644638ad4ecb73972dfaf5b2d29dce",
+      "v2_resultant": 224
+    }
+  ],
+  "split_rows": [
+    {
+      "H": 149,
+      "J": 1,
+      "N": 73,
+      "S": 149
+    },
+    {
+      "H": 241,
+      "J": 1,
+      "N": 119,
+      "S": 241
+    },
+    {
+      "H": 149,
+      "J": 1,
+      "N": 147,
+      "S": 149
+    },
+    {
+      "H": 149,
+      "J": 1,
+      "N": 221,
+      "S": 149
+    },
+    {
+      "H": 241,
+      "J": 1,
+      "N": 239,
+      "S": 241
+    },
+    {
+      "H": 149,
+      "J": 1,
+      "N": 295,
+      "S": 149
+    },
+    {
+      "H": 241,
+      "J": 1,
+      "N": 359,
+      "S": 241
+    },
+    {
+      "H": 149,
+      "J": 1,
+      "N": 369,
+      "S": 149
+    },
+    {
+      "H": 149,
+      "J": 1,
+      "N": 443,
+      "S": 149
+    },
+    {
+      "H": 241,
+      "J": 1,
+      "N": 479,
+      "S": 241
+    },
+    {
+      "H": 149,
+      "J": 1,
+      "N": 517,
+      "S": 149
+    },
+    {
+      "H": 149,
+      "J": 1,
+      "N": 591,
+      "S": 149
+    },
+    {
+      "H": 241,
+      "J": 1,
+      "N": 599,
+      "S": 241
+    },
+    {
+      "H": 149,
+      "J": 1,
+      "N": 665,
+      "S": 149
+    },
+    {
+      "H": 241,
+      "J": 1,
+      "N": 719,
+      "S": 241
+    },
+    {
+      "H": 149,
+      "J": 1,
+      "N": 739,
+      "S": 149
+    },
+    {
+      "H": 149,
+      "J": 1,
+      "N": 813,
+      "S": 149
+    },
+    {
+      "H": 241,
+      "J": 1,
+      "N": 839,
+      "S": 241
+    },
+    {
+      "H": 149,
+      "J": 1,
+      "N": 887,
+      "S": 149
+    },
+    {
+      "H": 241,
+      "J": 1,
+      "N": 959,
+      "S": 241
+    },
+    {
+      "H": 149,
+      "J": 1,
+      "N": 961,
+      "S": 149
+    }
+  ],
+  "theorem_identity": {
+    "asymptotic_reduction": "log(G_N)=log(J_N)+O(N)",
+    "factor_separation": "G_N=H_N*gcd(A_N,abs(E_{2N+2})/H_N)",
+    "periodic_split": "H_N=S_N*J_N and S_N divides lcm(1,...,3N+3)",
+    "sandwich": "H_N divides G_N divides A_N*H_N"
+  }
+}

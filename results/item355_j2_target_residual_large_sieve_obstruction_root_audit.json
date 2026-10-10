@@ -1,0 +1,71 @@
+{
+  "item": 355,
+  "schema": "item355-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_TARGET_RESIDUAL_PARSEVAL_AND_FIXED_M_SELECTOR_OBSTRUCTION",
+  "scope": "independent root audit of the actual ordinary-j2 target residual, fixed-M selector, exact finite-field and Jacobi Parseval identities, and the scoped insufficiency of within-prime second moments",
+  "checks": {
+    "certificate_sha256": "e246cfcec626d662d970a5a7a63da38914e9e0c98225e35f3ec7f80f5a30d3f2",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_checks": 22,
+    "work_manifest_failures": 0,
+    "frozen_dependencies_checked": 16,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 7,
+    "work_hash_list_match": true,
+    "declared_actual_rows": 7,
+    "declared_combinatorial_instances": 6,
+    "independent_weighted_Parseval_checks": 6,
+    "independent_zero_inversion_checks": 6,
+    "independent_full_Jacobi_energy_checks": 6,
+    "independent_prefix_and_fixed_target_checks": 27,
+    "independent_moving_target_checks": 27,
+    "independent_selector_algebra_checks": 1053,
+    "all_independent_checks": true,
+    "prime_or_collision_census_performed": false,
+    "report_display_plain_delimiters": "45/45",
+    "report_display_blockquote_delimiters": "8/8",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "residual": "Delta_p(L) retains both actual moving target coordinates, and its zero cell is exactly the nondegenerate ordinary-j2 collision",
+    "Parseval": "two-dimensional additive orthogonality gives the weighted occupancy energy, while zero-cell inversion is the distinct phase-sensitive first moment",
+    "selector": "the tied equations give L_(M,p)=(5p-4M-1)/2, hence at most one row per fixed M and p",
+    "saturation": "the normalized magnitude-square moment of a singleton additive character is identically one independently of whether its residual is zero",
+    "minimum_energy_scope": "a formal injective residual map can place its sole zero at any prescribed selector, proving insufficiency of the energy statistic but not modeling the actual targets",
+    "Jacobi_energy": "the two exceptional Jacobi modes have norm one and all others norm p, yielding the stated full, prefix, fixed-target, and moving-target formulas",
+    "almost_all_scope": "the current bound E_p=O(p^2) gives only O(X^2), whereas a little-o cross-prime energy bound would be genuinely new",
+    "overlap": "nondegenerate and degenerate charts partition one raw interval, so their 1/105 capacities are not additive",
+    "scope_warning": "selector-aware cross-prime arithmetic and actual residual nonconcentration remain open"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "target-retaining weighted residual Parseval and zero inversion",
+      "fixed-M singleton second-moment saturation",
+      "minimum-energy selector method obstruction",
+      "exact Kummer/Jacobi energy identities",
+      "raw-capacity and chart-overlap audit",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "seven declared actual rows and independent algebraic controls; no collision census"
+    ],
+    "OPEN": [
+      "power-saving actual residual energy",
+      "selector-aware cross-prime cancellation",
+      "admissibility of an almost-all-M theorem",
+      "weighted Item349 degenerate support",
+      "any reduction of 1/105",
+      "Route 1",
+      "e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_fixed_M_chebyshev_mass": "(2/35)M+o(M)",
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

@@ -1,0 +1,519 @@
+{
+  "common_initial_line_s_at_least_2": "lambda*(0,4s-2,2s-5,-(52s^2-36s-27)/(4(s-1)))",
+  "compatibility": {
+    "beta": "bottom functional of the canonical recurrence solution U",
+    "canonical_clearing": "4(s-1)*r!*product_(d=1)^(2s-3)(p-d)",
+    "clearing_is_p_unit": true,
+    "height_scope": "the clearing and recurrence give O(p log p) bit height; this does not imply p-nondivisibility or a zero-rate theorem",
+    "necessary_condition": "omega=0 mod p, with beta and tau nonzero",
+    "omega": "7*(-1)^r*beta-11*tau",
+    "tau": "top functional of U"
+  },
+  "dependencies": {
+    "item219_checker": "item219_common_log_j2_certificate.py",
+    "item219_checker_sha256": "bf9ee30675b5745225f08d2d82e500fd1f6797d69f94ab5949602e266f8b38cc",
+    "item221_checker": "item221_j2_twisted_cohomology_certificate.py",
+    "item221_checker_sha256": "8ef696188337f9ecc7f77e66c296973897ce443b143f72fc0c468fd3f9354a36"
+  },
+  "finite_classification": {
+    "counts": {
+      "actual_common_zero_rows": 0,
+      "formal_compatible_rows": 7,
+      "omega_nonzero_exclusions": 1108,
+      "regularization_crosschecks": 74,
+      "rows": 1153,
+      "s_at_least_2_rows": 1115,
+      "s_equals_1_rows": 38
+    },
+    "formal_compatible_rows": [
+      {
+        "S1_actual": 13,
+        "T0_actual": 4,
+        "actual_collision": false,
+        "beta_mod_p": 5,
+        "beta_rational": "-18/1",
+        "clearing_p_unit_mod_p": 21,
+        "m": 27,
+        "omega_mod_p": 0,
+        "omega_numerator_bits": 29,
+        "omega_numerator_divisible_by_p": true,
+        "p": 23,
+        "r": 1,
+        "s": 3,
+        "tau_mod_p": 1,
+        "tau_rational": "-21955/56"
+      },
+      {
+        "S1_actual": 36,
+        "T0_actual": 146,
+        "actual_collision": false,
+        "beta_mod_p": 84,
+        "beta_rational": "32842829242684528067567672915323343278276/1",
+        "clearing_p_unit_mod_p": 73,
+        "m": 194,
+        "omega_mod_p": 0,
+        "omega_numerator_bits": 480,
+        "omega_numerator_divisible_by_p": true,
+        "p": 157,
+        "r": 65,
+        "s": 4,
+        "tau_mod_p": 75,
+        "tau_rational": "99576828367/64433655"
+      },
+      {
+        "S1_actual": 161,
+        "T0_actual": 133,
+        "actual_collision": false,
+        "beta_mod_p": 116,
+        "beta_rational": "-112717216504552/5",
+        "clearing_p_unit_mod_p": 178,
+        "m": 228,
+        "omega_mod_p": 0,
+        "omega_numerator_bits": 465,
+        "omega_numerator_divisible_by_p": true,
+        "p": 193,
+        "r": 17,
+        "s": 26,
+        "tau_mod_p": 49,
+        "tau_rational": "-781828298026803818861041741745766697877813872330751/68394847172663930891896367373130633660475642850"
+      },
+      {
+        "S1_actual": 124,
+        "T0_actual": 212,
+        "actual_collision": false,
+        "beta_mod_p": 64,
+        "beta_rational": "1543932733461353031353045079404052362923642322003686462901938879941/2",
+        "clearing_p_unit_mod_p": 73,
+        "m": 299,
+        "omega_mod_p": 0,
+        "omega_numerator_bits": 837,
+        "omega_numerator_divisible_by_p": true,
+        "p": 241,
+        "r": 107,
+        "s": 4,
+        "tau_mod_p": 25,
+        "tau_rational": "5266777328493/1515011440"
+      },
+      {
+        "S1_actual": 152,
+        "T0_actual": 126,
+        "actual_collision": false,
+        "beta_mod_p": 272,
+        "beta_rational": "321294057783030/23",
+        "clearing_p_unit_mod_p": 305,
+        "m": 365,
+        "omega_mod_p": 0,
+        "omega_numerator_bits": 819,
+        "omega_numerator_divisible_by_p": true,
+        "p": 311,
+        "r": 13,
+        "s": 47,
+        "tau_mod_p": 251,
+        "tau_rational": "-1135533939614887682625042456506672441445497436510167011407730936494992200190748976211060364421051/37313900977898683137530812896452411909155772374672408010450956865020965370118877178775796600"
+      },
+      {
+        "S1_actual": 198,
+        "T0_actual": 240,
+        "actual_collision": false,
+        "beta_mod_p": 270,
+        "beta_rational": "-4513055544681132496043/49",
+        "clearing_p_unit_mod_p": 107,
+        "m": 411,
+        "omega_mod_p": 0,
+        "omega_numerator_bits": 949,
+        "omega_numerator_divisible_by_p": true,
+        "p": 349,
+        "r": 23,
+        "s": 50,
+        "tau_mod_p": 82,
+        "tau_rational": "-122220612566585147279690799252071620478440768143727700220547367214001322208859115743624407088936240792262069/3240684322343255034764188324257118062018634478977830378258205973824668126848556599596156536313838313600"
+      },
+      {
+        "S1_actual": 123,
+        "T0_actual": 314,
+        "actual_collision": false,
+        "beta_mod_p": 166,
+        "beta_rational": "4518057699117835963759527858223080/43",
+        "clearing_p_unit_mod_p": 153,
+        "m": 474,
+        "omega_mod_p": 0,
+        "omega_numerator_bits": 1139,
+        "omega_numerator_divisible_by_p": true,
+        "p": 397,
+        "r": 65,
+        "s": 44,
+        "tau_mod_p": 147,
+        "tau_rational": "-250967443470955090460932737031547173414850924760546206861956684095833865501277769320853206248646678276912955213/5783707854033212290555507035538169830878578178464263515143912362538530188657741823253828127464963632802625"
+      }
+    ],
+    "interpretation": "formal compatibility is necessary only; all listed formal-compatible rows are explicit non-collisions",
+    "row_digest_sha256": "f26052349a6471f532a8de0a16c02fb7c3f7b8e4d54c9b74c281515d908d27e6",
+    "s_equals_1_rows": [
+      {
+        "S1": 10,
+        "T0": 6,
+        "m": 13,
+        "p": 11,
+        "s": 1
+      },
+      {
+        "S1": 1,
+        "T0": 13,
+        "m": 23,
+        "p": 19,
+        "s": 1
+      },
+      {
+        "S1": 17,
+        "T0": 3,
+        "m": 28,
+        "p": 23,
+        "s": 1
+      },
+      {
+        "S1": 30,
+        "T0": 12,
+        "m": 38,
+        "p": 31,
+        "s": 1
+      },
+      {
+        "S1": 3,
+        "T0": 12,
+        "m": 53,
+        "p": 43,
+        "s": 1
+      },
+      {
+        "S1": 43,
+        "T0": 20,
+        "m": 58,
+        "p": 47,
+        "s": 1
+      },
+      {
+        "S1": 44,
+        "T0": 11,
+        "m": 73,
+        "p": 59,
+        "s": 1
+      },
+      {
+        "S1": 14,
+        "T0": 34,
+        "m": 83,
+        "p": 67,
+        "s": 1
+      },
+      {
+        "S1": 22,
+        "T0": 48,
+        "m": 88,
+        "p": 71,
+        "s": 1
+      },
+      {
+        "S1": 44,
+        "T0": 68,
+        "m": 98,
+        "p": 79,
+        "s": 1
+      },
+      {
+        "S1": 81,
+        "T0": 11,
+        "m": 103,
+        "p": 83,
+        "s": 1
+      },
+      {
+        "S1": 13,
+        "T0": 62,
+        "m": 128,
+        "p": 103,
+        "s": 1
+      },
+      {
+        "S1": 57,
+        "T0": 32,
+        "m": 133,
+        "p": 107,
+        "s": 1
+      },
+      {
+        "S1": 111,
+        "T0": 102,
+        "m": 158,
+        "p": 127,
+        "s": 1
+      },
+      {
+        "S1": 18,
+        "T0": 66,
+        "m": 163,
+        "p": 131,
+        "s": 1
+      },
+      {
+        "S1": 127,
+        "T0": 69,
+        "m": 173,
+        "p": 139,
+        "s": 1
+      },
+      {
+        "S1": 25,
+        "T0": 90,
+        "m": 188,
+        "p": 151,
+        "s": 1
+      },
+      {
+        "S1": 101,
+        "T0": 19,
+        "m": 203,
+        "p": 163,
+        "s": 1
+      },
+      {
+        "S1": 11,
+        "T0": 112,
+        "m": 208,
+        "p": 167,
+        "s": 1
+      },
+      {
+        "S1": 118,
+        "T0": 84,
+        "m": 223,
+        "p": 179,
+        "s": 1
+      },
+      {
+        "S1": 177,
+        "T0": 66,
+        "m": 238,
+        "p": 191,
+        "s": 1
+      },
+      {
+        "S1": 45,
+        "T0": 113,
+        "m": 248,
+        "p": 199,
+        "s": 1
+      },
+      {
+        "S1": 52,
+        "T0": 179,
+        "m": 263,
+        "p": 211,
+        "s": 1
+      },
+      {
+        "S1": 193,
+        "T0": 142,
+        "m": 278,
+        "p": 223,
+        "s": 1
+      },
+      {
+        "S1": 183,
+        "T0": 168,
+        "m": 283,
+        "p": 227,
+        "s": 1
+      },
+      {
+        "S1": 174,
+        "T0": 172,
+        "m": 298,
+        "p": 239,
+        "s": 1
+      },
+      {
+        "S1": 146,
+        "T0": 217,
+        "m": 313,
+        "p": 251,
+        "s": 1
+      },
+      {
+        "S1": 55,
+        "T0": 50,
+        "m": 328,
+        "p": 263,
+        "s": 1
+      },
+      {
+        "S1": 269,
+        "T0": 90,
+        "m": 338,
+        "p": 271,
+        "s": 1
+      },
+      {
+        "S1": 142,
+        "T0": 211,
+        "m": 353,
+        "p": 283,
+        "s": 1
+      },
+      {
+        "S1": 107,
+        "T0": 303,
+        "m": 383,
+        "p": 307,
+        "s": 1
+      },
+      {
+        "S1": 70,
+        "T0": 304,
+        "m": 388,
+        "p": 311,
+        "s": 1
+      },
+      {
+        "S1": 249,
+        "T0": 136,
+        "m": 413,
+        "p": 331,
+        "s": 1
+      },
+      {
+        "S1": 59,
+        "T0": 151,
+        "m": 433,
+        "p": 347,
+        "s": 1
+      },
+      {
+        "S1": 281,
+        "T0": 129,
+        "m": 448,
+        "p": 359,
+        "s": 1
+      },
+      {
+        "S1": 251,
+        "T0": 340,
+        "m": 458,
+        "p": 367,
+        "s": 1
+      },
+      {
+        "S1": 338,
+        "T0": 360,
+        "m": 473,
+        "p": 379,
+        "s": 1
+      },
+      {
+        "S1": 137,
+        "T0": 38,
+        "m": 478,
+        "p": 383,
+        "s": 1
+      }
+    ],
+    "status": "EXACT FINITE ONLY"
+  },
+  "moment_recurrence": {
+    "coefficient_replay": [
+      {
+        "formula": "k+r+1",
+        "linear_coefficients_const_k_r_s": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "shift": 0
+      },
+      {
+        "formula": "1-r",
+        "linear_coefficients_const_k_r_s": [
+          1,
+          0,
+          -1,
+          0
+        ],
+        "shift": 1
+      },
+      {
+        "formula": "4s-r-1",
+        "linear_coefficients_const_k_r_s": [
+          -1,
+          0,
+          -1,
+          4
+        ],
+        "shift": 2
+      },
+      {
+        "formula": "1-r",
+        "linear_coefficients_const_k_r_s": [
+          1,
+          0,
+          -1,
+          0
+        ],
+        "shift": 3
+      },
+      {
+        "formula": "-(k+2r+4s+6)",
+        "linear_coefficients_const_k_r_s": [
+          -6,
+          -1,
+          -2,
+          -4
+        ],
+        "shift": 4
+      }
+    ],
+    "identity": "(k+r+1)T_k+(1-r)T_(k+1)+(4s-r-1)T_(k+2)+(1-r)T_(k+3)-(k+2r+4s+6)T_(k+4)=0 away from resonance",
+    "safe_backward_range": "-r<=k<=-1",
+    "safe_forward_range": "0<=k<=2s-4"
+  },
+  "parameters": {
+    "cell": "4m+1=5p-2s, 1<=s<=(p-3)/6, p>=11, s=(p-1)/2 mod 2",
+    "j": 2,
+    "prime_max_inclusive": 401,
+    "regularization_prime_max_inclusive": 101
+  },
+  "regularized_boundaries": {
+    "bottom_constant": "11 from K(terminal)=0, K(0)=1, and sum of path weights=-11",
+    "bottom_index": "k=-r-1, omitted moment T_(-r-1)",
+    "top_constant": "7*(-1)^r from p*T_(2s+1) and W_chi(p)=7",
+    "top_index": "k=2s-3, omitted moment T_(2s+1)",
+    "warning": "the top equation is inhomogeneous; setting the coefficient -p to zero before regularizing loses the constant 7*(-1)^r"
+  },
+  "schema": "item224-j2-cartier-terminal-v1",
+  "status_ledger": {
+    "EXACT_FINITE": [
+      "formal compatibility classification through the recorded bound",
+      "seven formal-compatible rows are actual non-collisions"
+    ],
+    "OPEN": [
+      "all-prime classification of omega zeros",
+      "the exceptional s=1 family",
+      "a sublinear/zero-rate theorem for formal-compatible rows",
+      "any capacity reduction or conclusion about e+pi"
+    ],
+    "PROVED": [
+      "exact five-term moment recurrence and all pivot units",
+      "inhomogeneous top constant 7*(-1)^r and bottom constant 11",
+      "exact z^3 reduction and common initial line for s>=2",
+      "omega=0 is necessary for a common collision when s>=2",
+      "the canonical clearing is integral and a p-unit"
+    ]
+  },
+  "z3_reduction": {
+    "H3_denominator": "2(s-1)(10s-1)(1+z)",
+    "H3_numerator": "(10s-5)z+4z^2-4z^3+4z^4-(10s-1)z^5",
+    "Q3_denominator": "4(s-1)(10s-1)",
+    "Q3_numerator": "60s^2-20s-5+4(-30s^2+11s+4)z-(20s^2+52s+1)z^2",
+    "s_equals_1_exception": "deg(z^3 f0)=p-1 while deg(Q2 f0)<=p-2 and derivatives have zero z^(p-1) coefficient",
+    "symbolic_numerator_terms_after_cancellation": 0
+  }
+}

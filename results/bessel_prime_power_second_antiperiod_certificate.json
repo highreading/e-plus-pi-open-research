@@ -1,0 +1,930 @@
+{
+  "child_count_checks": [
+    {
+      "M": 3,
+      "R_M": 0,
+      "R_M_squared": 0,
+      "R_pM": 0,
+      "exponent": 1,
+      "fibers": [],
+      "prime": 3
+    },
+    {
+      "M": 9,
+      "R_M": 0,
+      "R_M_squared": 0,
+      "R_pM": 0,
+      "exponent": 2,
+      "fibers": [],
+      "prime": 3
+    },
+    {
+      "M": 5,
+      "R_M": 0,
+      "R_M_squared": 0,
+      "R_pM": 0,
+      "exponent": 1,
+      "fibers": [],
+      "prime": 5
+    },
+    {
+      "M": 25,
+      "R_M": 0,
+      "R_M_squared": 0,
+      "R_pM": 0,
+      "exponent": 2,
+      "fibers": [],
+      "prime": 5
+    },
+    {
+      "M": 7,
+      "R_M": 2,
+      "R_M_squared": 2,
+      "R_pM": 2,
+      "exponent": 1,
+      "fibers": [
+        {
+          "child_count": 1,
+          "first_level_slope_at_same_index_mod_p": 5,
+          "gcd_slope_M": 1,
+          "one_exponent_child_count": 1,
+          "root": 2,
+          "slope_mod_M": 5,
+          "slope_mod_p": 5
+        },
+        {
+          "child_count": 1,
+          "first_level_slope_at_same_index_mod_p": 2,
+          "gcd_slope_M": 1,
+          "one_exponent_child_count": 1,
+          "root": 4,
+          "slope_mod_M": 2,
+          "slope_mod_p": 2
+        }
+      ],
+      "prime": 7
+    },
+    {
+      "M": 49,
+      "R_M": 2,
+      "R_M_squared": 2,
+      "R_pM": 2,
+      "exponent": 2,
+      "fibers": [
+        {
+          "child_count": 1,
+          "first_level_slope_at_same_index_mod_p": 2,
+          "gcd_slope_M": 1,
+          "one_exponent_child_count": 1,
+          "root": 18,
+          "slope_mod_M": 9,
+          "slope_mod_p": 2
+        },
+        {
+          "child_count": 1,
+          "first_level_slope_at_same_index_mod_p": 5,
+          "gcd_slope_M": 1,
+          "one_exponent_child_count": 1,
+          "root": 30,
+          "slope_mod_M": 40,
+          "slope_mod_p": 5
+        }
+      ],
+      "prime": 7
+    },
+    {
+      "M": 11,
+      "R_M": 2,
+      "R_M_squared": 2,
+      "R_pM": 2,
+      "exponent": 1,
+      "fibers": [
+        {
+          "child_count": 1,
+          "first_level_slope_at_same_index_mod_p": 1,
+          "gcd_slope_M": 1,
+          "one_exponent_child_count": 1,
+          "root": 4,
+          "slope_mod_M": 1,
+          "slope_mod_p": 1
+        },
+        {
+          "child_count": 1,
+          "first_level_slope_at_same_index_mod_p": 10,
+          "gcd_slope_M": 1,
+          "one_exponent_child_count": 1,
+          "root": 6,
+          "slope_mod_M": 10,
+          "slope_mod_p": 10
+        }
+      ],
+      "prime": 11
+    },
+    {
+      "M": 121,
+      "R_M": 2,
+      "R_M_squared": 2,
+      "R_pM": 2,
+      "exponent": 2,
+      "fibers": [
+        {
+          "child_count": 1,
+          "first_level_slope_at_same_index_mod_p": 10,
+          "gcd_slope_M": 1,
+          "one_exponent_child_count": 1,
+          "root": 28,
+          "slope_mod_M": 21,
+          "slope_mod_p": 10
+        },
+        {
+          "child_count": 1,
+          "first_level_slope_at_same_index_mod_p": 1,
+          "gcd_slope_M": 1,
+          "one_exponent_child_count": 1,
+          "root": 92,
+          "slope_mod_M": 100,
+          "slope_mod_p": 1
+        }
+      ],
+      "prime": 11
+    }
+  ],
+  "claim": "q[n+2*p^a]+2*q[n+p^a]+q[n] is congruent to 2*p^(2a-1)*q[n] modulo p^(2a)",
+  "ordinary_eleven_branch": {
+    "index": 1359,
+    "stages": [
+      {
+        "child_mod_M_squared": 28,
+        "from_modulus": 11,
+        "root": 6,
+        "unique_digit": 2,
+        "unit_slope_mod_M": 10
+      },
+      {
+        "child_mod_M_squared": 1359,
+        "from_modulus": 121,
+        "root": 28,
+        "unique_digit": 11,
+        "unit_slope_mod_M": 21
+      }
+    ],
+    "v_11_q_index": 5
+  },
+  "slope_claim": "delta_(p^a)(n) is congruent to delta_p(n)-q[n] modulo p for every a>=2",
+  "slope_compatibility_checks": [
+    {
+      "M": 9,
+      "checked_n_through": 12,
+      "exponent": 2,
+      "prime": 3,
+      "root_indices_checked": []
+    },
+    {
+      "M": 27,
+      "checked_n_through": 12,
+      "exponent": 3,
+      "prime": 3,
+      "root_indices_checked": []
+    },
+    {
+      "M": 81,
+      "checked_n_through": 12,
+      "exponent": 4,
+      "prime": 3,
+      "root_indices_checked": []
+    },
+    {
+      "M": 25,
+      "checked_n_through": 20,
+      "exponent": 2,
+      "prime": 5,
+      "root_indices_checked": []
+    },
+    {
+      "M": 125,
+      "checked_n_through": 20,
+      "exponent": 3,
+      "prime": 5,
+      "root_indices_checked": []
+    },
+    {
+      "M": 625,
+      "checked_n_through": 20,
+      "exponent": 4,
+      "prime": 5,
+      "root_indices_checked": []
+    },
+    {
+      "M": 49,
+      "checked_n_through": 28,
+      "exponent": 2,
+      "prime": 7,
+      "root_indices_checked": [
+        2,
+        4,
+        9,
+        11,
+        16,
+        18,
+        23,
+        25
+      ]
+    },
+    {
+      "M": 343,
+      "checked_n_through": 28,
+      "exponent": 3,
+      "prime": 7,
+      "root_indices_checked": [
+        2,
+        4,
+        9,
+        11,
+        16,
+        18,
+        23,
+        25
+      ]
+    },
+    {
+      "M": 2401,
+      "checked_n_through": 28,
+      "exponent": 4,
+      "prime": 7,
+      "root_indices_checked": [
+        2,
+        4,
+        9,
+        11,
+        16,
+        18,
+        23,
+        25
+      ]
+    },
+    {
+      "M": 121,
+      "checked_n_through": 44,
+      "exponent": 2,
+      "prime": 11,
+      "root_indices_checked": [
+        4,
+        6,
+        15,
+        17,
+        26,
+        28,
+        37,
+        39
+      ]
+    },
+    {
+      "M": 1331,
+      "checked_n_through": 44,
+      "exponent": 3,
+      "prime": 11,
+      "root_indices_checked": [
+        4,
+        6,
+        15,
+        17,
+        26,
+        28,
+        37,
+        39
+      ]
+    },
+    {
+      "M": 14641,
+      "checked_n_through": 44,
+      "exponent": 4,
+      "prime": 11,
+      "root_indices_checked": [
+        4,
+        6,
+        15,
+        17,
+        26,
+        28,
+        37,
+        39
+      ]
+    },
+    {
+      "M": 169,
+      "checked_n_through": 52,
+      "exponent": 2,
+      "prime": 13,
+      "root_indices_checked": [
+        4,
+        8,
+        17,
+        21,
+        30,
+        34,
+        43,
+        47
+      ]
+    },
+    {
+      "M": 2197,
+      "checked_n_through": 52,
+      "exponent": 3,
+      "prime": 13,
+      "root_indices_checked": [
+        4,
+        8,
+        17,
+        21,
+        30,
+        34,
+        43,
+        47
+      ]
+    },
+    {
+      "M": 28561,
+      "checked_n_through": 52,
+      "exponent": 4,
+      "prime": 13,
+      "root_indices_checked": [
+        4,
+        8,
+        17,
+        21,
+        30,
+        34,
+        43,
+        47
+      ]
+    },
+    {
+      "M": 289,
+      "checked_n_through": 68,
+      "exponent": 2,
+      "prime": 17,
+      "root_indices_checked": []
+    },
+    {
+      "M": 4913,
+      "checked_n_through": 68,
+      "exponent": 3,
+      "prime": 17,
+      "root_indices_checked": []
+    },
+    {
+      "M": 83521,
+      "checked_n_through": 68,
+      "exponent": 4,
+      "prime": 17,
+      "root_indices_checked": []
+    },
+    {
+      "M": 361,
+      "checked_n_through": 76,
+      "exponent": 2,
+      "prime": 19,
+      "root_indices_checked": []
+    },
+    {
+      "M": 6859,
+      "checked_n_through": 76,
+      "exponent": 3,
+      "prime": 19,
+      "root_indices_checked": []
+    },
+    {
+      "M": 130321,
+      "checked_n_through": 76,
+      "exponent": 4,
+      "prime": 19,
+      "root_indices_checked": []
+    },
+    {
+      "M": 529,
+      "checked_n_through": 92,
+      "exponent": 2,
+      "prime": 23,
+      "root_indices_checked": []
+    },
+    {
+      "M": 12167,
+      "checked_n_through": 92,
+      "exponent": 3,
+      "prime": 23,
+      "root_indices_checked": []
+    },
+    {
+      "M": 279841,
+      "checked_n_through": 92,
+      "exponent": 4,
+      "prime": 23,
+      "root_indices_checked": []
+    },
+    {
+      "M": 1681,
+      "checked_n_through": 164,
+      "exponent": 2,
+      "prime": 41,
+      "root_indices_checked": [
+        15,
+        25,
+        56,
+        66,
+        97,
+        107,
+        138,
+        148
+      ]
+    },
+    {
+      "M": 68921,
+      "checked_n_through": 164,
+      "exponent": 3,
+      "prime": 41,
+      "root_indices_checked": [
+        15,
+        25,
+        56,
+        66,
+        97,
+        107,
+        138,
+        148
+      ]
+    },
+    {
+      "M": 6241,
+      "checked_n_through": 316,
+      "exponent": 2,
+      "prime": 79,
+      "root_indices_checked": [
+        39,
+        118,
+        197,
+        276
+      ]
+    },
+    {
+      "M": 493039,
+      "checked_n_through": 316,
+      "exponent": 3,
+      "prime": 79,
+      "root_indices_checked": [
+        39,
+        118,
+        197,
+        276
+      ]
+    }
+  ],
+  "status": "finite exact diagnostic; the uniform proof is in the companion source note; no prime-power-height bound is claimed",
+  "theorem_checks": [
+    {
+      "D0_mod_M_squared": 6,
+      "D1_minus_D0_mod_M_squared": 0,
+      "M": 3,
+      "checked_n_through": 9,
+      "exponent": 1,
+      "prime": 3
+    },
+    {
+      "D0_mod_M_squared": 54,
+      "D1_minus_D0_mod_M_squared": 0,
+      "M": 9,
+      "checked_n_through": 27,
+      "exponent": 2,
+      "prime": 3
+    },
+    {
+      "D0_mod_M_squared": 486,
+      "D1_minus_D0_mod_M_squared": 0,
+      "M": 27,
+      "checked_n_through": 81,
+      "exponent": 3,
+      "prime": 3
+    },
+    {
+      "D0_mod_M_squared": 10,
+      "D1_minus_D0_mod_M_squared": 0,
+      "M": 5,
+      "checked_n_through": 15,
+      "exponent": 1,
+      "prime": 5
+    },
+    {
+      "D0_mod_M_squared": 250,
+      "D1_minus_D0_mod_M_squared": 0,
+      "M": 25,
+      "checked_n_through": 75,
+      "exponent": 2,
+      "prime": 5
+    },
+    {
+      "D0_mod_M_squared": 6250,
+      "D1_minus_D0_mod_M_squared": 0,
+      "M": 125,
+      "checked_n_through": 375,
+      "exponent": 3,
+      "prime": 5
+    },
+    {
+      "D0_mod_M_squared": 14,
+      "D1_minus_D0_mod_M_squared": 0,
+      "M": 7,
+      "checked_n_through": 21,
+      "exponent": 1,
+      "prime": 7
+    },
+    {
+      "D0_mod_M_squared": 686,
+      "D1_minus_D0_mod_M_squared": 0,
+      "M": 49,
+      "checked_n_through": 147,
+      "exponent": 2,
+      "prime": 7
+    },
+    {
+      "D0_mod_M_squared": 33614,
+      "D1_minus_D0_mod_M_squared": 0,
+      "M": 343,
+      "checked_n_through": 1029,
+      "exponent": 3,
+      "prime": 7
+    },
+    {
+      "D0_mod_M_squared": 22,
+      "D1_minus_D0_mod_M_squared": 0,
+      "M": 11,
+      "checked_n_through": 33,
+      "exponent": 1,
+      "prime": 11
+    },
+    {
+      "D0_mod_M_squared": 2662,
+      "D1_minus_D0_mod_M_squared": 0,
+      "M": 121,
+      "checked_n_through": 363,
+      "exponent": 2,
+      "prime": 11
+    },
+    {
+      "D0_mod_M_squared": 322102,
+      "D1_minus_D0_mod_M_squared": 0,
+      "M": 1331,
+      "checked_n_through": 1200,
+      "exponent": 3,
+      "prime": 11
+    },
+    {
+      "D0_mod_M_squared": 26,
+      "D1_minus_D0_mod_M_squared": 0,
+      "M": 13,
+      "checked_n_through": 39,
+      "exponent": 1,
+      "prime": 13
+    },
+    {
+      "D0_mod_M_squared": 4394,
+      "D1_minus_D0_mod_M_squared": 0,
+      "M": 169,
+      "checked_n_through": 507,
+      "exponent": 2,
+      "prime": 13
+    },
+    {
+      "D0_mod_M_squared": 742586,
+      "D1_minus_D0_mod_M_squared": 0,
+      "M": 2197,
+      "checked_n_through": 1200,
+      "exponent": 3,
+      "prime": 13
+    },
+    {
+      "D0_mod_M_squared": 34,
+      "D1_minus_D0_mod_M_squared": 0,
+      "M": 17,
+      "checked_n_through": 51,
+      "exponent": 1,
+      "prime": 17
+    },
+    {
+      "D0_mod_M_squared": 9826,
+      "D1_minus_D0_mod_M_squared": 0,
+      "M": 289,
+      "checked_n_through": 867,
+      "exponent": 2,
+      "prime": 17
+    },
+    {
+      "D0_mod_M_squared": 2839714,
+      "D1_minus_D0_mod_M_squared": 0,
+      "M": 4913,
+      "checked_n_through": 1200,
+      "exponent": 3,
+      "prime": 17
+    },
+    {
+      "D0_mod_M_squared": 38,
+      "D1_minus_D0_mod_M_squared": 0,
+      "M": 19,
+      "checked_n_through": 57,
+      "exponent": 1,
+      "prime": 19
+    },
+    {
+      "D0_mod_M_squared": 13718,
+      "D1_minus_D0_mod_M_squared": 0,
+      "M": 361,
+      "checked_n_through": 1083,
+      "exponent": 2,
+      "prime": 19
+    },
+    {
+      "D0_mod_M_squared": 4952198,
+      "D1_minus_D0_mod_M_squared": 0,
+      "M": 6859,
+      "checked_n_through": 1200,
+      "exponent": 3,
+      "prime": 19
+    },
+    {
+      "D0_mod_M_squared": 46,
+      "D1_minus_D0_mod_M_squared": 0,
+      "M": 23,
+      "checked_n_through": 69,
+      "exponent": 1,
+      "prime": 23
+    },
+    {
+      "D0_mod_M_squared": 24334,
+      "D1_minus_D0_mod_M_squared": 0,
+      "M": 529,
+      "checked_n_through": 1200,
+      "exponent": 2,
+      "prime": 23
+    },
+    {
+      "D0_mod_M_squared": 12872686,
+      "D1_minus_D0_mod_M_squared": 0,
+      "M": 12167,
+      "checked_n_through": 1200,
+      "exponent": 3,
+      "prime": 23
+    }
+  ],
+  "valuation_lemma_checks": [
+    {
+      "M": 9,
+      "exponent": 2,
+      "indices_with_v_factorial_below_v_index": [
+        [
+          3,
+          -1
+        ]
+      ],
+      "prime": 3,
+      "v_p_of_M_factorial": 4
+    },
+    {
+      "M": 27,
+      "exponent": 3,
+      "indices_with_v_factorial_below_v_index": [
+        [
+          3,
+          -1
+        ]
+      ],
+      "prime": 3,
+      "v_p_of_M_factorial": 13
+    },
+    {
+      "M": 81,
+      "exponent": 4,
+      "indices_with_v_factorial_below_v_index": [
+        [
+          3,
+          -1
+        ]
+      ],
+      "prime": 3,
+      "v_p_of_M_factorial": 40
+    },
+    {
+      "M": 25,
+      "exponent": 2,
+      "indices_with_v_factorial_below_v_index": [
+        [
+          5,
+          -1
+        ]
+      ],
+      "prime": 5,
+      "v_p_of_M_factorial": 6
+    },
+    {
+      "M": 125,
+      "exponent": 3,
+      "indices_with_v_factorial_below_v_index": [
+        [
+          5,
+          -1
+        ]
+      ],
+      "prime": 5,
+      "v_p_of_M_factorial": 31
+    },
+    {
+      "M": 625,
+      "exponent": 4,
+      "indices_with_v_factorial_below_v_index": [
+        [
+          5,
+          -1
+        ]
+      ],
+      "prime": 5,
+      "v_p_of_M_factorial": 156
+    },
+    {
+      "M": 49,
+      "exponent": 2,
+      "indices_with_v_factorial_below_v_index": [
+        [
+          7,
+          -1
+        ]
+      ],
+      "prime": 7,
+      "v_p_of_M_factorial": 8
+    },
+    {
+      "M": 343,
+      "exponent": 3,
+      "indices_with_v_factorial_below_v_index": [
+        [
+          7,
+          -1
+        ]
+      ],
+      "prime": 7,
+      "v_p_of_M_factorial": 57
+    },
+    {
+      "M": 2401,
+      "exponent": 4,
+      "indices_with_v_factorial_below_v_index": [
+        [
+          7,
+          -1
+        ]
+      ],
+      "prime": 7,
+      "v_p_of_M_factorial": 400
+    },
+    {
+      "M": 121,
+      "exponent": 2,
+      "indices_with_v_factorial_below_v_index": [
+        [
+          11,
+          -1
+        ]
+      ],
+      "prime": 11,
+      "v_p_of_M_factorial": 12
+    },
+    {
+      "M": 1331,
+      "exponent": 3,
+      "indices_with_v_factorial_below_v_index": [
+        [
+          11,
+          -1
+        ]
+      ],
+      "prime": 11,
+      "v_p_of_M_factorial": 133
+    },
+    {
+      "M": 14641,
+      "exponent": 4,
+      "indices_with_v_factorial_below_v_index": [
+        [
+          11,
+          -1
+        ]
+      ],
+      "prime": 11,
+      "v_p_of_M_factorial": 1464
+    },
+    {
+      "M": 169,
+      "exponent": 2,
+      "indices_with_v_factorial_below_v_index": [
+        [
+          13,
+          -1
+        ]
+      ],
+      "prime": 13,
+      "v_p_of_M_factorial": 14
+    },
+    {
+      "M": 2197,
+      "exponent": 3,
+      "indices_with_v_factorial_below_v_index": [
+        [
+          13,
+          -1
+        ]
+      ],
+      "prime": 13,
+      "v_p_of_M_factorial": 183
+    },
+    {
+      "M": 28561,
+      "exponent": 4,
+      "indices_with_v_factorial_below_v_index": [
+        [
+          13,
+          -1
+        ]
+      ],
+      "prime": 13,
+      "v_p_of_M_factorial": 2380
+    },
+    {
+      "M": 289,
+      "exponent": 2,
+      "indices_with_v_factorial_below_v_index": [
+        [
+          17,
+          -1
+        ]
+      ],
+      "prime": 17,
+      "v_p_of_M_factorial": 18
+    },
+    {
+      "M": 4913,
+      "exponent": 3,
+      "indices_with_v_factorial_below_v_index": [
+        [
+          17,
+          -1
+        ]
+      ],
+      "prime": 17,
+      "v_p_of_M_factorial": 307
+    },
+    {
+      "M": 83521,
+      "exponent": 4,
+      "indices_with_v_factorial_below_v_index": [
+        [
+          17,
+          -1
+        ]
+      ],
+      "prime": 17,
+      "v_p_of_M_factorial": 5220
+    },
+    {
+      "M": 361,
+      "exponent": 2,
+      "indices_with_v_factorial_below_v_index": [
+        [
+          19,
+          -1
+        ]
+      ],
+      "prime": 19,
+      "v_p_of_M_factorial": 20
+    },
+    {
+      "M": 6859,
+      "exponent": 3,
+      "indices_with_v_factorial_below_v_index": [
+        [
+          19,
+          -1
+        ]
+      ],
+      "prime": 19,
+      "v_p_of_M_factorial": 381
+    },
+    {
+      "M": 130321,
+      "exponent": 4,
+      "indices_with_v_factorial_below_v_index": [
+        [
+          19,
+          -1
+        ]
+      ],
+      "prime": 19,
+      "v_p_of_M_factorial": 7240
+    }
+  ]
+}

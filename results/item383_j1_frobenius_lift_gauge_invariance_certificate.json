@@ -1,0 +1,241 @@
+{
+  "canonical_files_modified": false,
+  "capacity": {
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "new_linear_log_rate": 0,
+    "raw_ceiling_per_6M": "1/36",
+    "raw_log_mass": "M/6+o(M)",
+    "retained_ceiling_per_6M": "1/36",
+    "weighted_target": "W_(H,Q)(M)=o(M)",
+    "weighted_target_proved": false
+  },
+  "checked_date_beijing": "2026-09-01",
+  "classification": "PROVED_RATIONAL_LOG_MODEL_AND_INVARIANT_NO_BOUNDED_SPLITTING",
+  "classification_labels": {
+    "DECLARED_EXACT_CONTROLS_ONLY": [
+      "three finite series controls, exact symbolic logarithmic and matrix identities, and a declared valuation table",
+      "no prime or collision scan"
+    ],
+    "OPEN": [
+      "prime-independent geometry of the actual tied moment map",
+      "a useful nonsplit monodromy statistic on another global base",
+      "geometric conductor, weighted nonconcentration, any strict fixed-j1 ceiling reduction, Route 1, and every conclusion about e+pi"
+    ],
+    "PROVED": [
+      "explicit overconvergent Frobenius lift with rational logarithmic horizontal connection",
+      "noninvariance of the standard-lift lacunary and nonrational presentation",
+      "coordinate- and lift-invariant no bounded-denominator simultaneous splitting",
+      "no global dagger horizontal connection on the full moment disc",
+      "no filtration-preserving split when dq is nonzero",
+      "zero booking"
+    ]
+  },
+  "collision_scans": 0,
+  "declared_series_controls": [
+    {
+      "Phi_mod_p_equals_q_to_p_through_degree": true,
+      "correction_integral_through_degree": true,
+      "degree": 12,
+      "exp_coefficient_p_valuations": [
+        1,
+        2,
+        2,
+        3,
+        4,
+        4,
+        5,
+        6,
+        5,
+        6,
+        7,
+        7
+      ],
+      "lambda": 1,
+      "log_coefficients_at_n=p_have_negative_valuation": true,
+      "log_primitive_coefficient_p_valuations": [
+        0,
+        0,
+        -1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        -2,
+        0,
+        0,
+        -1
+      ],
+      "prime": 3
+    },
+    {
+      "Phi_mod_p_equals_q_to_p_through_degree": true,
+      "correction_integral_through_degree": true,
+      "degree": 15,
+      "exp_coefficient_p_valuations": [
+        1,
+        2,
+        3,
+        4,
+        4,
+        5,
+        6,
+        7,
+        8,
+        8,
+        9,
+        10,
+        11,
+        12,
+        12
+      ],
+      "lambda": 2,
+      "log_coefficients_at_n=p_have_negative_valuation": true,
+      "log_primitive_coefficient_p_valuations": [
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "prime": 5
+    },
+    {
+      "Phi_mod_p_equals_q_to_p_through_degree": true,
+      "correction_integral_through_degree": true,
+      "degree": 16,
+      "exp_coefficient_p_valuations": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        12,
+        13,
+        14
+      ],
+      "lambda": 3,
+      "log_coefficients_at_n=p_have_negative_valuation": true,
+      "log_primitive_coefficient_p_valuations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "prime": 7
+    }
+  ],
+  "dependencies": {
+    "manifests/item380_j1_actual_moment_horizontal_complexity_barrier_manifest.json": "521e28618a87d86d50f8560d9dfa2e8c7442d5492edf5bc979b25256dd14c829",
+    "results/item380_j1_actual_moment_horizontal_complexity_barrier_certificate.json": "5b1fd2b70010bbec53e195b64e824e46ff865b3a5d7d0980af3b0cf002e64e08",
+    "results/item380_j1_actual_moment_horizontal_complexity_barrier_certificate_replay.json": "5b1fd2b70010bbec53e195b64e824e46ff865b3a5d7d0980af3b0cf002e64e08",
+    "results/item380_j1_actual_moment_horizontal_complexity_barrier_ledger_delta.json": "151bf10de7d8bfd5050b739b3cd6cc7ca949ef0ca699bacf840b45e75e181ccb",
+    "results/item380_j1_actual_moment_horizontal_complexity_barrier_root_audit.json": "55b91eb8b88297f40a6a5f723448c0dca2805c17dc958e30b3fede282d7a1b50",
+    "results/item380_j1_actual_moment_horizontal_complexity_barrier_root_replay.json": "5b1fd2b70010bbec53e195b64e824e46ff865b3a5d7d0980af3b0cf002e64e08",
+    "scripts/item380_j1_actual_moment_horizontal_complexity_barrier_certificate.py": "e1bf9c6a1b0a0a57c96351ab294a0f031915ebe2f3897a86e5ba766e89b1ea6f",
+    "sources/item380_j1_actual_moment_horizontal_complexity_barrier_report.md": "35668582bec3086fdb523f38c69df6a31d2557d2538cdb43794224dbfa2b623f"
+  },
+  "exact_logarithmic_model": {
+    "Phi_lambda": "[1-(1-lambda*q)^p*exp(-lambda*p*q)]/lambda",
+    "defining_identity": "1-lambda*Phi_lambda=(1-lambda*q)^p*exp(-lambda*p*q)",
+    "horizontal_identity": "F^*(omega_lambda)/p=omega_lambda+dq",
+    "lambda_scope": "lambda in Z_p^times (residue in F_p^times)",
+    "omega_lambda": "dq/(1-lambda*q)",
+    "primitive": "f_lambda=log(1-lambda*q)/lambda",
+    "splitting_difference_identity": "F(f_lambda)/p-f_lambda=-q",
+    "verified": true
+  },
+  "filtered_gauge": {
+    "consequence": "dc=-omega*a=0 forces omega=0",
+    "dG": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "-omega*a",
+        "-omega*b"
+      ]
+    ],
+    "filtered_split_when_dq_nonzero": false,
+    "filtered_upper_triangular_condition": "c=0",
+    "invertibility_condition": "a!=0 and d!=0"
+  },
+  "gauge_identity": {
+    "splitting_equation": "F(f)/p-f=-q",
+    "transform": "U(f)^-1*A_q*F(U(f))=U(-f+q+F(f)/p)*diag(p,1)",
+    "verified": true
+  },
+  "invariance_theorems": {
+    "bounded_denominator_simultaneous_split_for_any_lift": false,
+    "coordinate_invariant_reason": "d(qbar)!=0",
+    "dagger_connection_on_full_closed_disc": false,
+    "dagger_reason": "dagger Poincare primitive plus constant adjustment would solve the forbidden splitting equation",
+    "explicit_rational_log_connection_constructed": true,
+    "lacunary_nonrational_formula_invariant": false,
+    "rational_pole_divisor": "1-lambda*q=0",
+    "regular_at_Hasse_divisor_q=0": true
+  },
+  "item": 383,
+  "schema": "item383-j1-frobenius-lift-gauge-invariance-certificate-v1",
+  "scope": {
+    "actual_selector": "p=4h+6s+3, M=3h+4s+2, n=2h, r=2s+1",
+    "converse_claimed": false,
+    "gate_direction": "full collision => a_(r,n)=0 and Q0=0 mod p",
+    "general_lift": "F(u)=u^p+p*a(u,v), F(v)=v^p+p*b(u,v)",
+    "moment_coordinates": "u=c_T, v=c_L, q=2u-v"
+  },
+  "valuation_obstruction": {
+    "conclusion": "qbar is not a p-th power; no bounded-denominator f",
+    "dq_coefficients": [
+      2,
+      -1
+    ],
+    "dq_nonzero_for_odd_p": true,
+    "mod_p_consequence": "gbar^p=-qbar",
+    "normal_form": "f=p^m*g with g primitive",
+    "only_possible_m": 1,
+    "valuation_cases": {
+      "-1": "impossible: left valuation m-1<0",
+      "-2": "impossible: left valuation m-1<0",
+      "-3": "impossible: left valuation m-1<0",
+      "0": "impossible: left valuation m-1<0",
+      "1": "forces gbar^p=-qbar",
+      "2": "impossible: left divisible by p",
+      "3": "impossible: left divisible by p",
+      "4": "impossible: left divisible by p",
+      "5": "impossible: left divisible by p"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "status": "pass",
+  "role": "finite computational validation only; not part of the proof",
+  "script": "scripts/critical_quadratic_power_fourier_probe.py",
+  "case_count": 37,
+  "n_values": "even n from 2 through 20",
+  "k_rule": "distinct values among n+1, n+2, ceil(3n/2), and 2n",
+  "checks": [
+    "degree of the Gaussian polynomial is exactly 2k-2",
+    "C_{-m} is the complex conjugate of C_m",
+    "C_0 is a positive integer",
+    "the pair (4T/h, L_k C_0/h) is primitive",
+    "the exact primitive B is at most L_k C_0",
+    "C_0 <= 2^(2k-2) gamma^n",
+    "L_k <= 16^(k-1)",
+    "Fourier coordinate reconstruction agrees with direct 70-digit quadrature"
+  ],
+  "largest_observed_relative_error": "5.2637792e-57",
+  "sample_cases": [
+    {
+      "n": 2,
+      "k": 3,
+      "C0": "8",
+      "Lk": "2",
+      "T": "-12",
+      "primitive_content": "16",
+      "primitive_B": "1"
+    },
+    {
+      "n": 10,
+      "k": 20,
+      "C0": "85185280",
+      "Lk": "232792560",
+      "T": "-15574327193763840",
+      "primitive_content": "61440",
+      "primitive_B": "322762034595"
+    },
+    {
+      "n": 20,
+      "k": 40,
+      "C0": "131519762103418880",
+      "Lk": "5342931457063200",
+      "T": "-551900132730403823676167626424320",
+      "primitive_content": "18350080",
+      "primitive_B": "38294169516853619720712075"
+    }
+  ]
+}

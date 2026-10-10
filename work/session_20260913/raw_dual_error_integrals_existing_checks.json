@@ -1,0 +1,29 @@
+{
+  "scope": "Already saved n=1,2 cofactors only; no new canonical solve.",
+  "checks": {
+    "1": {
+      "V": "2 - t",
+      "U": "3 - 2*t",
+      "Qhat": "-2*z**2 + 6*z - 6",
+      "Pe": "z**2 - 6",
+      "Pa": "6*z**2 - 6*z",
+      "Z": "-2",
+      "exponential_error": "5 - 2*E",
+      "arctangent_error": "-pi/2",
+      "arc_error": "-pi/2",
+      "all_assertions_passed": true
+    },
+    "2": {
+      "V": "49*t**2 - 64*t + 940",
+      "U": "1176*t**2 - 972*t - 118",
+      "Qhat": "940*z**4 - 5832*z**3 + 13404*z**2 - 9720*z + 17640",
+      "Pe": "925*z**4 + 5652*z**3 + 12504*z**2 + 7920*z + 17640",
+      "Pa": "-2592*z**4 + 7524*z**3 - 9720*z**2 + 17640*z",
+      "Z": "16432",
+      "exponential_error": "-44641 + 16432*E",
+      "arctangent_error": "-12852 + 4108*pi",
+      "arc_error": "-12852 + 4108*pi",
+      "all_assertions_passed": true
+    }
+  }
+}

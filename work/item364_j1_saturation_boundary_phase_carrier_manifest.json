@@ -1,0 +1,73 @@
+{
+  "item": 364,
+  "schema": "item364-j1-saturation-boundary-phase-carrier-manifest-v1",
+  "classification": "PROVED_PHASE_CARRIERS_AND_SCOPED_RECURRENCE_HEIGHT_BARRIER",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual fixed-j1 saturation boundaries, tied-phase gcd carriers, and generic recurrence-height obstruction",
+  "dependencies": {
+    "sources/item218_j1_common_log_report.md": "2cabc5a705a974d6989718e24443b59c00715fd4e9aff288e0e17b297096d585",
+    "scripts/item218_j1_common_log_certificate.py": "a238c5ca37263f2553da47bf3f21253aedf1c34f8c57458a4a274fc6cdc9029a",
+    "results/item218_j1_common_log_certificate.json": "963bbb8a9758e55ede72f965693d21fc41aa70d44e2d981d5873685c3f08ea0f",
+    "results/item218_j1_common_log_manifest.json": "e1c6c3d713670c819b5f27b1005db26f9b804ec8ee0766671928fc30c1ff6d8d",
+    "sources/item360_j1_full_gate_transverse_period_report.md": "4468412fb8631924952dc7f70fc4e75433a7524954b89525de508e55feefc8c4",
+    "scripts/item360_j1_full_gate_transverse_period_certificate.py": "84cabfb296a0892e620f252a1c413648c30664c8667245bd6fe444095bcad7e0",
+    "results/item360_j1_full_gate_transverse_period_certificate.json": "a3f9e5b8e55b0a36bf7aef18fd1b81010eef0e8b9c8ade05995e2c4a25f9084d",
+    "results/item360_j1_full_gate_transverse_period_root_audit.json": "7a23e487b4d70d63f9785339344bdc00ae0e8350bcf1d8b1fcf6228c230e5138",
+    "manifests/item360_j1_full_gate_transverse_period_manifest.json": "92f88a56162f3803b8699922da921333f5225c41a32d14c87641dd53c3f8b55b"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item364_j1_saturation_boundary_phase_carrier_report.md",
+      "sha256": "2c18f6ac22220e553349e44a723e200d20f4f3c89cfec5cd83812db260834e92",
+      "bytes": 13437
+    },
+    "certificate_script": {
+      "path": "work/item364_j1_saturation_boundary_phase_carrier_certificate.py",
+      "sha256": "ef9046fc4d7071779a73bf6e1bfd7d312789b994bd3274eec2a78d818d027b07",
+      "bytes": 13737
+    },
+    "certificate": {
+      "path": "work/item364_j1_saturation_boundary_phase_carrier_certificate.json",
+      "sha256": "ca1987d1688789dbf0e64f3eec2c4b771b9873f829e61d1b5f62302f47443926",
+      "bytes": 10322
+    },
+    "replay": {
+      "path": "work/item364_j1_saturation_boundary_phase_carrier_certificate_replay.json",
+      "sha256": "ca1987d1688789dbf0e64f3eec2c4b771b9873f829e61d1b5f62302f47443926",
+      "bytes": 10322
+    },
+    "ledger": {
+      "path": "work/item364_j1_saturation_boundary_phase_carrier_ledger_delta.json",
+      "sha256": "225840be16db3950187672d556065553017b1a76f65641a2c82b67c9227f914f",
+      "bytes": 4882
+    }
+  },
+  "proved": [
+    "exact endpoint-tail meaning of both saturation boundaries and their residual full-gate equations",
+    "tied-phase specialization of all four periods and two fixed-h gcd carrier implications",
+    "exact-zero phase-pair stratification and fixed-finite-h zero rate",
+    "the h=2 all-s degenerate-face identity and exclusion",
+    "complete all-s exclusion of both boundaries for 1<=h<=8",
+    "pointwise O(h log h) height and a generic recurrence-height obstruction"
+  ],
+  "exact_finite_only": [
+    "six predeclared fixed-h carrier controls",
+    "four predeclared comparison rows",
+    "no prime scan or collision census"
+  ],
+  "open": [
+    "classification of the exact-zero phase sets",
+    "occurrence or nonoccurrence of either boundary for unbounded h",
+    "weighted zero density for the actual phase-carrier gcd sequences",
+    "a target-specific unit Casoratian, large-prime-factor, or average-gcd theorem",
+    "any strict fixed-j1 capacity reduction"
+  ],
+  "capacity": {
+    "raw_fixed_j1_mass_per_M": "1/6",
+    "retained_full_fixed_j1_ceiling_per_6M": "1/36",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "overlap_rule": "both boundaries and the nonboundary chart are subsets of one full gate and are not additive"
+  },
+  "replay_command": "python scripts/item364_j1_saturation_boundary_phase_carrier_certificate.py --output results/item364_j1_saturation_boundary_phase_carrier_certificate_replay.json"
+}

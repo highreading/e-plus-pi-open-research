@@ -1,0 +1,71 @@
+{
+  "schema": "item373-beta-symmetric-singleton-first-quotient-ledger-delta-v1",
+  "item": 373,
+  "date": "2026-09-01",
+  "classification": "PROVED_SYMMETRIC_SINGLETON_CARRIER_AND_FIRST_QUOTIENT_NO_GO",
+  "actual_family": {
+    "assumption": "genuine canonical Item316 target",
+    "loads": "retained positive Z_j<A^2 after exact-zero omission",
+    "singleton": "p>A, v_p(Q)=1, p does not divide t, and exactly one p-divisible load",
+    "capacity_admission": "a p-independent nonzero carrier divisible by U_11 needs sub-beta or strict sub-one-copy height"
+  },
+  "symmetric_objects": {
+    "P": "product_j Z_j",
+    "E": "e_(N-1)(Z)=sum_j P/Z_j",
+    "S_sym": "P/gcd(P,(|t|E)^N)"
+  },
+  "proved": {
+    "incidence_detector": "for p>A, E is a p-unit at one hit and p-divisible at two or more hits",
+    "exact_saturation": "v_p(S_sym)=1 exactly for t-away singleton incidences and is zero otherwise for every p>A",
+    "actual_carrier": "U_11=gcd(Q^[1],rad_(>A)(S_sym))",
+    "valuation_one": "at every actual singleton p, v_p(P)=1 because p^2>A^2>Z_j",
+    "first_quotient": "(P/p)E^(-1)=Z_j/p mod p with 1<=Z_j/p<A",
+    "monomial_no_go": "P E^r and p-unit monomial quotients retain exact valuation one",
+    "general_reduction": "for P C(E)/V with V a p-unit, a second p is equivalent to p|C(E)",
+    "positive_mass_E_height": "log U_11>=eta log b forces E>A^(r-1) and log E>=(eta/2+o(1))log b",
+    "bounded_degree_no_go": "nonconstant fixed-degree C(E)/D with coefficient and denominator height b^o is not sub-beta on a positive-mass branch"
+  },
+  "capacity": {
+    "raw_symmetric_carrier": "log S_sym<2N log A<=(2+o(1))log b",
+    "after_Q_intersection": "log U_11<=log Q<=log b",
+    "first_quotient_increment": 0,
+    "constant_content_actual_carrier": "OPEN",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "booking": 0
+  },
+  "scoped_no_go": {
+    "closes": [
+      "top product P as a source of a second singleton digit",
+      "P times powers of E and p-unit monomial quotients",
+      "nonconstant fixed-degree univariate C(E) with sub-beta coefficient and clearing-denominator height as a sub-beta residual",
+      "finite products of that class with a nonconstant factor"
+    ],
+    "does_not_close": [
+      "multivariate elementary-symmetric cancellations",
+      "beta-height denominators or gcd/radical quotient compression",
+      "full-support degree-N recurrence height",
+      "constant/content actual correlations",
+      "the actual U_11 bound or Route 1"
+    ]
+  },
+  "strict_labels": {
+    "PROVED": [
+      "actual symmetric saturation",
+      "valuation-one first quotient",
+      "bounded-degree top-symmetric dominance",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared incidence, saturation, first-quotient, polynomial-box, and height-scale controls; no actual census"
+    ],
+    "OPEN": [
+      "multivariate symmetric cancellation",
+      "beta-height denominator and gcd/radical compression",
+      "full-support recurrence height",
+      "constant/content residual divisibility",
+      "U_11, growing low incidence, Xi_Q, squarefull excess, beta capacity, Route 1, e+pi"
+    ]
+  },
+  "canonical_files_modified": false
+}

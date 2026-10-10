@@ -1,0 +1,101 @@
+{
+  "admission": {
+    "actual_counterexample": "NONE PRODUCED",
+    "actual_half_bound": "OPEN",
+    "item282_product_baseline": "OPEN AND SEPARATE",
+    "linear_depth_or_seed_phase_invariant": "OPEN",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "positive_linear_capacity_admission": "FAIL",
+    "proper_target_large_factor_bound": "OPEN",
+    "stronger_item295_inequality": "OPEN",
+    "sublinear_depth_phase_blind_affine_strip": "PROVED SCOPED NOT SUFFICIENT"
+  },
+  "bounded_exact_checks": {
+    "actual_half_bound_scan": false,
+    "counterexample_search": false,
+    "depth_widths": {
+      "asymptotic_extrapolation": false,
+      "digest": "0870710bd5de390a642b811817d1197b5a80f643e4bc7d2cfa1d20a208f551b4",
+      "label": "EXACT FINITE ONLY",
+      "max_depth": 8,
+      "range": [
+        8,
+        40
+      ],
+      "rows": 258
+    },
+    "exceptional_prime_search": false,
+    "label": "EXACT FINITE ONLY",
+    "normalized_state": {
+      "digest": "609601ebe803e21c805f94ed87dfcb2173b10d5fc4b1a8d2d0ac80b94d8af442",
+      "half_bound_scan": false,
+      "label": "EXACT FINITE ONLY",
+      "range": [
+        4,
+        72
+      ],
+      "rows": 69
+    },
+    "opposite_phases": {
+      "actual_counterexample": false,
+      "digest": "404c0d679d3bde063627f465cac443b5d369aca5fcb746490f10bfea6ea4c67a",
+      "label": "PROVED MODEL CONSTRUCTION; BOUNDED REPLAY EXACT FINITE ONLY",
+      "max_depth": 8,
+      "primitive_all_levels_claim": false,
+      "range": [
+        8,
+        40
+      ],
+      "rows": 402
+    },
+    "strip_inclusion": {
+      "counterexample_search": false,
+      "digest": "9cc7efd8d7b33be2626de6ac5a9d9d2047c2ddea515aa41535d3885e6479c599",
+      "label": "EXACT FINITE ONLY",
+      "range": [
+        4,
+        72
+      ],
+      "rows": 69
+    }
+  },
+  "description": "Exact normalized beta state, seed strip, affine inclusion, sublinear-depth transported-width divergence, and opposite denominator-grid phase construction",
+  "schema": "item300-beta-short-branch-strip-certificate-v1",
+  "symbolic_proof_data": {
+    "label": "PROVED SYMBOLIC IN REPORT",
+    "one_step_width": {
+      "base_margin_for_c_bound": 355435,
+      "base_n": 8,
+      "formula": "q_(n-1)q_(n-2)/[q_n(4n-6)(4n-5)]",
+      "persistence": "(A-4)^2*(A-3)>A*(A+5) for A>=30"
+    },
+    "strip_width": {
+      "base_margin": 317,
+      "base_n": 5,
+      "formula": "q_(n-1)/[(4n-2)(4n-1)]",
+      "persistence": "q_n>A*q_(n-1) and A^2*(A+1)>(A+4)*(A+5) for A>=18"
+    },
+    "sublinear_depth": {
+      "conclusion": "log width>(n/6)log n and width tends to infinity for every L(n)=o(n)",
+      "eventual_conditions": [
+        "L<=n/4",
+        "m>=3n/4",
+        "floor(m/2)>=n/3",
+        "L+2<=n/12",
+        "log(2m-2)>=log(n)",
+        "log(4n+1)<=2log(n)"
+      ],
+      "exact_width": "q_(n-L)q_(n-L-1)/[q_n(4(n-L)-2)(4(n-L)-1)]",
+      "explicit_lower_bound": "(2m-2)^floor(m/2)/(4n+1)^(L+2), m=n-L"
+    }
+  },
+  "theorem": {
+    "affine_inclusion": "F_n(I_(n-1)) is a strict subset of I_n",
+    "depth_width": "|J_(n,L)|=q_(n-L)q_(n-L-1)/[q_n A_(n-L)(A_(n-L)+1)]",
+    "normalized_state": "theta_n=1/(A-4+theta_(n-1)); y_n=(4-theta_(n-1)y_(n-1))/(A+theta_n)",
+    "scope_limit": "model witnesses preserve grids and strips but not the actual Turan seed numerator or primitivity at every level",
+    "strip": "I_n=((4c-d)/A,(5c-d)/(A+1)), length a/[A(A+1)]",
+    "sublinear_no_go": "for L(n)=o(n), transported width tends to infinity; the declared model class contains close and far phases"
+  }
+}

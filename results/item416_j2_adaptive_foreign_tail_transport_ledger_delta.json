@@ -1,0 +1,50 @@
+{
+  "item": 416,
+  "title": "adaptive selected-prime saturation and forward foreign-tail transport",
+  "checked_date_beijing": "2026-09-01",
+  "status": "PROVED_ADAPTIVE_CUTOFF_AND_FORWARD_GATE_TRANSPORT_ETA_ZERO",
+  "route": "Route 1",
+  "role": "Closer",
+  "frozen_ledger": {
+    "T": "1.1561471519642446123307302239",
+    "r1": "0.1365141682948128184504238226",
+    "deficit_T_minus_r1": "1.0196329836694317938803064012",
+    "ordinary_j2_ceiling_per_6M": "1/105",
+    "one_j2_ray_raw_mass_per_M": "1/35"
+  },
+  "new_booking": 0,
+  "delta_r1": 0,
+  "new_capacity_reduction": 0,
+  "retained_ordinary_j2_ceiling_per_6M": "1/105",
+  "proved_results": {
+    "adaptive_cutoff": "for every actual row and every Y>=p, L_Y=rad(J_(C_(p,Y))) has support in {p} union {q>Y} and factors as j_tie*F_Y",
+    "cutoff_invariance": "A_Y-B_Y=J_e=D_e-G_e for every cutoff; raising Y removes identical pure-foreign mass from A and B",
+    "selected_prime_cutoff": "taking Y=p removes all foreign factors 2r+3<q<p at no matched-margin cost",
+    "aligned_transport": "an aligned q>p in F_p maps uniquely to a future actual degenerate-gate row with the same r and M_q=(r+7q)/6>M",
+    "transport_limit": "the map transports gate status only, not collision or rejection status",
+    "unconditional_foreign_radical_bound": "B_p(M)=O(M^2)",
+    "unconditional_foreign_factor_incidence_bound": "sum omega(F_p)=O(M^2/log M)",
+    "capacity_formula": "A_Y>=aM, B_Y<=bM, G<=gM, N<=nM imply saving at least max(0,a-b,1/35-g-n)/6"
+  },
+  "capacity_screen": {
+    "proved_linear_foreign_upper_per_M": null,
+    "proved_adaptive_tail_lower_per_M": 0,
+    "proved_matched_rejection_lower_per_M": 0,
+    "why_no_booking": "the unconditional O(M^2) bound is superlinear; no a>b, useful g+n<1/35, or A_p=o(M) theorem is proved"
+  },
+  "smallest_open_lemmas": {
+    "foreign_closer": "B_p(M)=sum log rad_(q>p) J_(r,s)=o(M), or separate o(M) bounds for aligned and transverse support",
+    "builder_pair": "A_p(M)>=aM+o(M) and B_p(M)<=bM+o(M) with a>b",
+    "direct_channel_closer": "A_p(M)=o(M)"
+  },
+  "scope": {
+    "no_prime_or_collision_census": true,
+    "no_finite_extrapolation": true,
+    "no_foreign_factor_booking": true,
+    "no_target_status_transport": true,
+    "no_claim_of_exhaustive_impossibility": true,
+    "canonical_or_central_files_modified": true
+  },
+  "route_status_after_item": "ACTIVE",
+  "route2_status_after_item": "QUEUED"
+}

@@ -1,0 +1,56 @@
+{
+  "item": 383,
+  "schema": "item383-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_RATIONAL_LOG_MODEL_AND_INVARIANT_NO_BOUNDED_SPLITTING",
+  "scope": "independent root audit of the changed Frobenius lift, rational logarithmic connection, bounded-splitting valuation obstruction, coordinate invariance, global dagger consequence, capacity, and zero booking",
+  "checks": {
+    "work_hash_list_entries": 6,
+    "work_hash_list_failures": 0,
+    "frozen_dependencies_checked": 8,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "independent_Phi_mod_p_check": true,
+    "independent_logarithmic_derivative_check": true,
+    "independent_minimum_valuation_argument_check": true,
+    "independent_general_matrix_gauge_reduction_check": true,
+    "actual_prime_or_collision_census_performed": false,
+    "density_inference_from_controls": false,
+    "canonical_format_repair": "one malformed TeX exponent in equation (4.6) repaired"
+  },
+  "mathematical_audit": {
+    "explicit_lift": "For unit lambda, exp(-lambda*p*q) is integral and overconvergent, and Fermat reduction gives Phi_lambda(q)=q^p mod p. In q,t coordinates this induces an integral overconvergent lift on u,v.",
+    "rational_connection": "Logarithmically differentiating 1-lambda*Phi=(1-lambda*q)^p exp(-lambda*p*q) gives C_F(dq/(1-lambda*q))-dq/(1-lambda*q)=dq exactly. The connection is rational and regular at q=0, with one pole on the unit boundary.",
+    "bounded_split_obstruction": "If a bounded solution of F(f)/p-f=-q is written f=p^m g with primitive integral g, the bracket F(g)-p*g is primitive. Minimum-valuation comparison forces m=1; reduction then gives gbar^p=-qbar, impossible because d qbar is nonzero.",
+    "general_gauge": "The upper-right equation for a bounded isomorphism to diag(p,1) forces that entry to vanish; invertibility leaves a nonzero constant diagonal entry, and the lower-left equation reduces after division to the same forbidden scalar equation.",
+    "dagger_scope": "A flat lower dagger connection on the full dagger polydisc would have a dagger primitive. Horizontality makes the transformed extension coefficient constant, and a constant adjustment produces the forbidden bounded splitting. This is a global full-disc statement, not a no-go for a nonsplit model on another base.",
+    "correction_to_standard_lift_intuition": "Item380's lacunarity and nonrationality are properties of the standard coordinatewise lift, not lift invariants. What survives every allowed lift is failure of bounded simultaneous splitting and of a full-disc dagger horizontal presentation.",
+    "capacity": "The model supplies no prime-independent actual-family origin or weighted nonconcentration theorem. The fixed-j=1 ceiling remains 1/36 and zero is booked."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "explicit overconvergent Frobenius lift with rational logarithmic connection",
+      "noninvariance of the standard-lift lacunary and nonrational presentation",
+      "lift- and coordinate-invariant no bounded-denominator simultaneous splitting",
+      "no filtration-preserving splitting when dq is nonzero",
+      "no global dagger horizontal connection on the full moment disc",
+      "zero booking and zero capacity reduction"
+    ],
+    "DECLARED_EXACT_CONTROLS_ONLY": [
+      "symbolic and truncated-series checks; no prime or collision scan"
+    ],
+    "OPEN": [
+      "a prime-independent geometric realization of the actual tied moment map",
+      "a useful nonsplit monodromy statistic on another global base",
+      "weighted joint-zero density for the full fixed-j=1 gate"
+    ]
+  },
+  "capacity": {
+    "retained_shared_fixed_j1_ceiling_per_6M": "1/36",
+    "new_route1_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

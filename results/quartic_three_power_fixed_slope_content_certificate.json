@@ -1,0 +1,527 @@
+{
+  "boundary_exact_and_dyadic_diagnostic": {
+    "boundary_formula_failures_through_m16": [],
+    "conjectural_endpoint_pattern_failures": [],
+    "m_max": 30,
+    "proved_cross_theorem_failures": [],
+    "selected_records": [
+      {
+        "cross_v2": [
+          0,
+          3,
+          6
+        ],
+        "m": 1,
+        "n": 4,
+        "pi_denominator_v2": 4,
+        "primitive_cross_max_bits": 7,
+        "primitive_pair_max_bits": 4,
+        "rational_denominator_v2": 3
+      },
+      {
+        "cross_v2": [
+          0,
+          3,
+          5
+        ],
+        "m": 2,
+        "n": 8,
+        "pi_denominator_v2": 6,
+        "primitive_cross_max_bits": 14,
+        "primitive_pair_max_bits": 13,
+        "rational_denominator_v2": 4
+      },
+      {
+        "cross_v2": [
+          0,
+          3,
+          5
+        ],
+        "m": 4,
+        "n": 16,
+        "pi_denominator_v2": 11,
+        "primitive_cross_max_bits": 33,
+        "primitive_pair_max_bits": 37,
+        "rational_denominator_v2": 6
+      },
+      {
+        "cross_v2": [
+          0,
+          3,
+          5
+        ],
+        "m": 8,
+        "n": 32,
+        "pi_denominator_v2": 22,
+        "primitive_cross_max_bits": 63,
+        "primitive_pair_max_bits": 81,
+        "rational_denominator_v2": 10
+      },
+      {
+        "cross_v2": [
+          0,
+          3,
+          5
+        ],
+        "m": 16,
+        "n": 64,
+        "pi_denominator_v2": 45,
+        "primitive_cross_max_bits": 132,
+        "primitive_pair_max_bits": 185,
+        "rational_denominator_v2": 18
+      },
+      {
+        "cross_v2": [
+          0,
+          3,
+          5
+        ],
+        "m": 30,
+        "n": 120,
+        "pi_denominator_v2": 87,
+        "primitive_cross_max_bits": 244,
+        "primitive_pair_max_bits": 356,
+        "rational_denominator_v2": 35
+      }
+    ],
+    "status": "The cross-vector law is proved in the source; the terminating formula is exact; the endpoint A,B valuation laws remain conjectural."
+  },
+  "exact_clearing_checks": [
+    {
+      "full_pair_content_bits": 63,
+      "integer_pair_identity": true,
+      "k": 3,
+      "n": 4
+    },
+    {
+      "full_pair_content_bits": 124,
+      "integer_pair_identity": true,
+      "k": 5,
+      "n": 8
+    },
+    {
+      "full_pair_content_bits": 181,
+      "integer_pair_identity": true,
+      "k": 7,
+      "n": 12
+    },
+    {
+      "full_pair_content_bits": 208,
+      "integer_pair_identity": true,
+      "k": 10,
+      "n": 12
+    },
+    {
+      "full_pair_content_bits": 310,
+      "integer_pair_identity": true,
+      "k": 16,
+      "n": 16
+    }
+  ],
+  "exact_primitive_diagnostics": [
+    {
+      "k": 11,
+      "kappa": 0.55,
+      "n": 20,
+      "normalized_error_log_over_n": "-1.3030393546682328",
+      "primitive_cross_max_bits": 36,
+      "primitive_pi_height_log_over_n": "1.50811919263187098",
+      "primitive_value_log_over_n": "0.205079837963638182"
+    },
+    {
+      "k": 21,
+      "kappa": 0.525,
+      "n": 40,
+      "normalized_error_log_over_n": "-1.32385969116894839",
+      "primitive_cross_max_bits": 80,
+      "primitive_pi_height_log_over_n": "1.80048280496897703",
+      "primitive_value_log_over_n": "0.476623113800028647"
+    },
+    {
+      "k": 31,
+      "kappa": 0.5166666666666667,
+      "n": 60,
+      "normalized_error_log_over_n": "-1.33868816016883245",
+      "primitive_cross_max_bits": 117,
+      "primitive_pi_height_log_over_n": "1.85217696452903495",
+      "primitive_value_log_over_n": "0.513488804360202503"
+    },
+    {
+      "k": 30,
+      "kappa": 0.75,
+      "n": 40,
+      "normalized_error_log_over_n": "-1.12608788175679114",
+      "primitive_cross_max_bits": 111,
+      "primitive_pi_height_log_over_n": "2.36300920944589576",
+      "primitive_value_log_over_n": "1.23692132768910462"
+    },
+    {
+      "k": 40,
+      "kappa": 1.0,
+      "n": 40,
+      "normalized_error_log_over_n": "-0.999817633099736004",
+      "primitive_cross_max_bits": 121,
+      "primitive_pi_height_log_over_n": "2.83131092152073201",
+      "primitive_value_log_over_n": "1.83149328842099601"
+    },
+    {
+      "k": 80,
+      "kappa": 2.0,
+      "n": 40,
+      "normalized_error_log_over_n": "-0.769795573719847465",
+      "primitive_cross_max_bits": 140,
+      "primitive_pi_height_log_over_n": "5.47047250720190792",
+      "primitive_value_log_over_n": "4.70067693348206045"
+    }
+  ],
+  "quartic_refinement_mod_8_table_audit": {
+    "component_table": {
+      "m0_K0": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "m0_K1": [
+        [
+          1,
+          1
+        ],
+        [
+          7,
+          3
+        ]
+      ],
+      "m0_K2": [
+        [
+          1,
+          1
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "m0_K3": [
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "m1_K0": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "m1_K1": [
+        [
+          7,
+          5
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "m1_K2": [
+        [
+          7,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "m1_K3": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "m2_K0": [
+        [
+          7,
+          7
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "m2_K1": [
+        [
+          7,
+          7
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "m2_K2": [
+        [
+          7,
+          7
+        ],
+        [
+          7,
+          7
+        ]
+      ],
+      "m2_K3": [
+        [
+          7,
+          7
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "m3_K0": [
+        [
+          5,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "m3_K1": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "m3_K2": [
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "m3_K3": [
+        [
+          5,
+          7
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    "determinant_formula": "det(A_mK,B_mK) == 4*(m+K) mod 8",
+    "failures_for_1_le_m_le_8_0_le_K_le_7": [],
+    "four_successive_Q_factors_mod_16_failures": [],
+    "h0_fourth_exact_residue_expected": [
+      1,
+      8,
+      0,
+      24
+    ],
+    "h0_fourth_identity_holds": true,
+    "h0_fourth_mod_32": [
+      1,
+      8,
+      0,
+      24
+    ],
+    "proof_modulus_before_division_by_4m": 32,
+    "special_rho_mod_32_failures": []
+  },
+  "raw_wronskian_theorem_finite_audit": {
+    "failures": [],
+    "m_max": 30,
+    "selected_records": [
+      {
+        "K_range": [
+          0,
+          4
+        ],
+        "adjacent_minor_v2": 4,
+        "m": 1,
+        "pair_v2": [
+          1,
+          1
+        ],
+        "skip_minor_v2": 5
+      },
+      {
+        "K_range": [
+          0,
+          6
+        ],
+        "adjacent_minor_v2": 7,
+        "m": 2,
+        "pair_v2": [
+          2,
+          2
+        ],
+        "skip_minor_v2": 8
+      },
+      {
+        "K_range": [
+          0,
+          10
+        ],
+        "adjacent_minor_v2": 12,
+        "m": 4,
+        "pair_v2": [
+          4,
+          4
+        ],
+        "skip_minor_v2": 13
+      },
+      {
+        "K_range": [
+          0,
+          18
+        ],
+        "adjacent_minor_v2": 21,
+        "m": 8,
+        "pair_v2": [
+          8,
+          8
+        ],
+        "skip_minor_v2": 22
+      },
+      {
+        "K_range": [
+          0,
+          34
+        ],
+        "adjacent_minor_v2": 38,
+        "m": 16,
+        "pair_v2": [
+          16,
+          16
+        ],
+        "skip_minor_v2": 39
+      },
+      {
+        "K_range": [
+          0,
+          62
+        ],
+        "adjacent_minor_v2": 63,
+        "m": 30,
+        "pair_v2": [
+          30,
+          30
+        ],
+        "skip_minor_v2": 64
+      }
+    ],
+    "status": "Finite audit of the all-m raw Wronskian theorem proved in the source."
+  },
+  "schema": "quartic-three-power-fixed-slope-content-v1",
+  "symbolic_checks": {
+    "quadrature_determinant": true,
+    "real_value_determinant": true,
+    "transition_b_elimination": true,
+    "transition_imag_equation": true,
+    "transition_real_equation": true
+  },
+  "transition_and_fixed_slope_saddles": [
+    {
+      "approximation_exponent_ell_minus_j": "1.388912660352581880431925",
+      "e_rate": "0.4233243331471585738504376",
+      "ell_rate": "-0.02471081454483155251478678",
+      "j_rate": "-1.413623474897413432946712",
+      "kappa": 0.5,
+      "universal_fully_cleared_rate": "10.64387312706458544489233",
+      "x_minus": "0.4746266175626055503294132",
+      "y_plus": "1.395336994467073018793144",
+      "z_complex": "(1.139317680301922563619309 + 0.4603551884522337342318652j)"
+    },
+    {
+      "approximation_exponent_ell_minus_j": "1.345197750946122586880835",
+      "e_rate": "0.3543481806646492355784873",
+      "ell_rate": "-0.07087871773586495504735681",
+      "j_rate": "-1.416076468681987541928192",
+      "kappa": 0.55,
+      "universal_fully_cleared_rate": "11.09216438594243578075667",
+      "x_minus": "0.4724585470194012693998636",
+      "y_plus": "1.24589525972009749370765",
+      "z_complex": "(1.127857425504285647187399 + 0.3659214563921027216542223j)"
+    },
+    {
+      "approximation_exponent_ell_minus_j": "1.203029562649008618744397",
+      "e_rate": "0.173286795139986327354308",
+      "ell_rate": "-0.2224444351765779591742353",
+      "j_rate": "-1.425473997825586577918633",
+      "kappa": 0.75,
+      "universal_fully_cleared_rate": "13.01369298717732957501653",
+      "x_minus": "0.4643126132081269473385941",
+      "y_plus": "1.0",
+      "z_complex": "(0.9815933432753204730513534 + 0.1909830056250525758977066j)"
+    },
+    {
+      "approximation_exponent_ell_minus_j": "1.088090381650657969191331",
+      "e_rate": "0.03376683324478656561067227",
+      "ell_rate": "-0.3483031502206357847915324",
+      "j_rate": "-1.436393531871293753982864",
+      "kappa": 1.0,
+      "universal_fully_cleared_rate": "15.56683631787220073984306",
+      "x_minus": "0.4551569019303389666166912",
+      "y_plus": "0.8720933414040522431122085",
+      "z_complex": "(0.8626911101251438675194878 + 0.1313904742966206319039138j)"
+    },
+    {
+      "approximation_exponent_ell_minus_j": "0.8644431187453471963179353",
+      "e_rate": "-0.2544009867965861121568648",
+      "ell_rate": "-0.6088027141013370326890474",
+      "j_rate": "-1.473245832846684229006983",
+      "kappa": 2.0,
+      "universal_fully_cleared_rate": "26.29908279969408005216068",
+      "x_minus": "0.4265170736917298618808847",
+      "y_plus": "0.6793135012737226945434967",
+      "z_complex": "(0.6696758925924771499921903 + 0.07670472365537986832069076j)"
+    },
+    {
+      "approximation_exponent_ell_minus_j": "0.6921281591229659313920153",
+      "e_rate": "-0.5097972368300954675576835",
+      "ell_rate": "-0.835259910993466639449444",
+      "j_rate": "-1.527388070116432570841459",
+      "kappa": 4.0,
+      "universal_fully_cleared_rate": "48.39861944893738017417855",
+      "x_minus": "0.3898217029279662960745381",
+      "y_plus": "0.5515764788411139115848089",
+      "z_complex": "(0.5403291755121128908455644 + 0.05311346488546925952527119j)"
+    }
+  ],
+  "warnings": [
+    "The raw Wronskian and primitive cross-vector dyadic laws are proved in the source; their finite audit is not the proof.",
+    "The boundary hypergeometric formula is exact, but the endpoint A,B valuation laws remain finite diagnostics.",
+    "The saddle numbers certify algebraic stationary equations numerically; the theorem in the source retains its projected-contour hypothesis.",
+    "Universal full clearing is not primitive clearing; the determinant gcd may remove an exponential factor.",
+    "Nothing in this certificate classifies e+pi."
+  ]
+}

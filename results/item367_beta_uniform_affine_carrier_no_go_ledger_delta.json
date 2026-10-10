@@ -1,0 +1,70 @@
+{
+  "schema": "item367-beta-uniform-affine-carrier-no-go-ledger-delta-v1",
+  "item": 367,
+  "date": "2026-09-01",
+  "classification": "PROVED_SUB_BETA_AFFINE_RATIONAL_CARRIER_DICHOTOMY",
+  "actual_family": {
+    "assumption": "the genuine canonical Item316 target at n",
+    "data": "unique actual canonical word, nonzero loads Z_j, t, Q^[1], and U_11",
+    "uniformity": "H_n may depend on all actual n-data but is independent of the candidate prime",
+    "capacity_admission": "U_11|H_n with H_n nonzero and log|H_n|=o(log b), or a fixed strict-fraction height, is required for a new bound"
+  },
+  "carrier_class": {
+    "identity": "D_n H_n=alpha_n a_n+beta_n c_n+gamma_n",
+    "envelope": "1<=D_n<=B_n and max(|alpha_n|,|beta_n|,|gamma_n|)<=B_n",
+    "height_hypothesis": "log B_n=o(log b_n)",
+    "coefficient_dependence": "arbitrary prime-independent functions of n and actual canonical data subject only to the height envelope"
+  },
+  "proved": {
+    "continued_fraction": "a/c=[w_m;...;w_1] and every partial quotient is at most A",
+    "linear_form_bound": "for nonzero (alpha,beta) of height at most B<c, |alpha a+beta c|>=c/((A+2)B)",
+    "rational_carrier_bound": "when 2(A+2)B^2<c, every q-dependent carrier has |H|>=c/(2(A+2)B^2)",
+    "height_dichotomy": "q-dependent carriers have log|H|=(1+o(1))log b; q-free residuals have log|H|=o(log b)",
+    "fixed_window_corollary": "every fixed q-window with sub-beta coefficient height reduces to the carrier class",
+    "bounded_actual_input_corollary": "fixed-degree formulas in a bounded number of digits and loads have sub-beta coefficient height",
+    "fixed_order_limitation": "fixed recurrence order alone is insufficient because an order-one product accumulator has beta-height output"
+  },
+  "scoped_no_go": {
+    "closes": [
+      "q-dependent p-independent affine-rational carriers with sub-beta reduced coefficients and denominator",
+      "bounded fixed q-windows in that class",
+      "bounded-order affine recurrences whose unrolled coefficient height is sub-beta",
+      "any zero-rate or fixed-fraction capacity claim from those q-dependent carriers"
+    ],
+    "does_not_close": [
+      "q-free residuals with an actual singleton divisibility implication",
+      "iterated recurrences with beta-height coefficients",
+      "nonlinear polynomial, gcd/radical, trace, or quotient formulas outside the class",
+      "the actual singleton mass or Route 1"
+    ]
+  },
+  "strict_labels": {
+    "PROVED": [
+      "cross-n actual-family formulation",
+      "short-linear-form lower bound",
+      "affine-rational height dichotomy",
+      "fixed-window reduction",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared continued-fraction, coefficient-box, and fixed-window controls; no prime or target census"
+    ],
+    "OPEN": [
+      "q-free actual singleton carrier",
+      "beta-height iterated recurrence arithmetic",
+      "nonlinear and gcd/radical carriers",
+      "weighted singleton and growing low-incidence bounds",
+      "Xi_Q, squarefull excess, centered half-bound, beta capacity, Route 1, e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_singleton_maximum": "log b",
+    "q_dependent_carrier_height": "(1+o(1))log b",
+    "q_dependent_fixed_fraction_saving": 0,
+    "q_free_residual_height": "o(log b), actual divisibility OPEN",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "booking": 0
+  },
+  "canonical_files_modified": false
+}

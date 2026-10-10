@@ -1,0 +1,49 @@
+{
+  "schema": "item243-root-audit-v1",
+  "audit_date": "2026-08-31",
+  "auditor": "root",
+  "verdict": "PASS_WITH_STRICT_SCOPE",
+  "substantive_checks": {
+    "endpoint_audit": "PASS: both residue classes have exact Gosper endpoint certificates; the residue-two n=0 unreduced v-pole is replaced by a direct exact recurrence check",
+    "ambient_relation": "PASS: the seven transported defect covectors have cleared coordinate degree at most 2240, and the signed-cofactor relation is certified at 2241 consecutive regular points",
+    "forward_cofactor": "PASS: degree at most 1806, 1807th forward difference zero, all 1807 Newton coefficients nonpositive, and the separately checked constant coefficient is strictly negative in both residues",
+    "transition_poles": "PASS: every primitive transition divisor and structural denominator is nonzero on n>=0",
+    "defect_initials": "PASS: six exact defect zeros in each residue propagate through the order-six recurrence",
+    "gauge_transfer": "PASS: three separate gauge initials in each residue and Item 237's positive leading coefficient propagate c_h^*=R_h E_h^* for every h>=1 with 3 not dividing h",
+    "ambient_no_go": "PASS: the original one-step defect covector is nonzero in every coordinate, so the theorem is an actual-orbit order-six closure rather than an ambient one-step identity",
+    "capacity_booking": "PASS: the gauge identity proves no moving-row prime nonvanishing, simultaneous endpoint theorem, density saving, or positive linear mass; booking is zero"
+  },
+  "independent_replay": {
+    "canonical_sha256": "0ec0052ea270a84828cb1934373ad05e8e5b00cbf72e0d970ff805e716078546",
+    "root_replay_sha256": "0ec0052ea270a84828cb1934373ad05e8e5b00cbf72e0d970ff805e716078546",
+    "byte_identical": true,
+    "initial_layers_sha256": "70329fcd98c88da6b3121877a899a9fda9ff63ecc3029202c4e0f699130db8d0",
+    "initial_layers_root_replay_sha256": "70329fcd98c88da6b3121877a899a9fda9ff63ecc3029202c4e0f699130db8d0",
+    "initial_layers_byte_identical": true
+  },
+  "package_checks": {
+    "manifest_files_checked": 38,
+    "frozen_dependencies_checked": 6,
+    "json_files_parsed": 23,
+    "all_hashes_and_dependencies_match": true
+  },
+  "report_checks": {
+    "sha256": "bb680eb8b905f11a27251aa28059b2bf77fde378ceb7eca171d528e4a0b33ff5",
+    "bytes": 5882,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "display_delimiters": "9/9",
+    "inline_delimiters": "53/53"
+  },
+  "reproducibility_scope": {
+    "canonical": "PASS: the archive-root closure assembler is standard-library-only and reproduced the canonical certificate byte for byte.",
+    "supporting_sources": "The manifest also pins the exact intermediate certificates and their reconstruction scripts. Some supporting reconstruction scripts assume inputs beside the script or an optional SymPy installation; they are not advertised as the canonical archive-root replay command.",
+    "effect": "This is a portability limitation of supporting reconstruction sources, not a contradiction of the hash-pinned exact inputs or the independently replayed final closure assembler."
+  },
+  "strict_scope": {
+    "proved": "The actual defect orbit has a globally regular order-six recurrence, yielding the all-h gauge identity on both nonzero residue classes modulo three.",
+    "finite_only": "The six modular orbit samples are retained only as finite evidence and are not used in the proof.",
+    "open": "Moving-row simultaneous K/E nonvanishing, a fixed collision divisor, weighted zero density, and every positive capacity consequence remain open.",
+    "route_status": "Route 1 ACTIVE; Route 2 QUEUED"
+  }
+}

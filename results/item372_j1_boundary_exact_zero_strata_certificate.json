@@ -1,0 +1,1059 @@
+{
+  "capacity_replay": {
+    "exact_zero_indicator": 0,
+    "former_target": "sum log(p_h)*(exact-zero indicator + nonzero-carrier divisibility indicator)=o(M)",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "retained_shared_fixed_j1_ceiling_per_6M": "1/36",
+    "sharpened_target": "sum log(p_h)*1_(p_h divides mathfrak_G0(h)*mathfrak_G1(h))=o(M)",
+    "weighted_divisibility_proved": false
+  },
+  "classification": "PROVED_BOTH_EXACT_ZERO_PHASE_STRATA_EMPTY",
+  "dependencies": {
+    "manifests/item364_j1_saturation_boundary_phase_carrier_manifest.json": "bd0c5435fe4d0b7266d81b4f97dfacf8b2fca55fb2c95770e7cb853c2f77426c",
+    "manifests/item368_j1_boundary_whipple_rank_obstruction_manifest.json": "eec70fc17c33e4ec7d3f8851a423debcca5abb333bbbe58decd3ab14736fd11a",
+    "results/item218_j1_common_log_certificate.json": "963bbb8a9758e55ede72f965693d21fc41aa70d44e2d981d5873685c3f08ea0f",
+    "results/item218_j1_common_log_manifest.json": "e1c6c3d713670c819b5f27b1005db26f9b804ec8ee0766671928fc30c1ff6d8d",
+    "results/item364_j1_saturation_boundary_phase_carrier_certificate.json": "ca1987d1688789dbf0e64f3eec2c4b771b9873f829e61d1b5f62302f47443926",
+    "results/item364_j1_saturation_boundary_phase_carrier_root_audit.json": "fa6170a0c014cee655ba00c5288905344a969aa22b141d44b64ae4a2d3219a89",
+    "results/item368_j1_boundary_whipple_rank_obstruction_certificate.json": "8814c95cca55bf80b735668813909ed7e0f85ff30a1926a0df4b5b0c6f3c396d",
+    "results/item368_j1_boundary_whipple_rank_obstruction_root_audit.json": "f20929fc3aa756419cf4263b439d90e6c44084c63f9acf64a4540134e3198321",
+    "scripts/item218_j1_common_log_certificate.py": "a238c5ca37263f2553da47bf3f21253aedf1c34f8c57458a4a274fc6cdc9029a",
+    "scripts/item364_j1_saturation_boundary_phase_carrier_certificate.py": "ef9046fc4d7071779a73bf6e1bfd7d312789b994bd3274eec2a78d818d027b07",
+    "scripts/item368_j1_boundary_whipple_rank_obstruction_certificate.py": "f9d72b05fd24d62aa58fbca72221ff246a4d270b1eefb9023351cfd1aff932c5",
+    "sources/item218_j1_common_log_report.md": "2cabc5a705a974d6989718e24443b59c00715fd4e9aff288e0e17b297096d585",
+    "sources/item364_j1_saturation_boundary_phase_carrier_report.md": "2c18f6ac22220e553349e44a723e200d20f4f3c89cfec5cd83812db260834e92",
+    "sources/item368_j1_boundary_whipple_rank_obstruction_report.md": "34bfdc2b2e4035ae78c0147d0a22f442e7f0fd148103e5eeee44d62042768cc6"
+  },
+  "dependency_hashes_verified": true,
+  "exact_zero_replay": {
+    "all_h_lemma": {
+      "U": "for t<n=h+2, v3(S_t/S_n)>=n-t because every sigma+j has v3=-1 while 3sigma+j and the integer kernel coefficient have v3>=0",
+      "X": "for t<h, v3(T_t/T_h)>=h-t because every A_x+j has v3=-1 while B_x+j and the integer kernel coefficient have v3>=0",
+      "ultrametric_consequence": "the terminal term is uniquely lowest, so the full rational sum has its finite valuation and is nonzero"
+    },
+    "classification": "EXACT PREDECLARED SUMMAND CONTROLS; NO PRIME SCAN",
+    "exact_zero_sets": {
+      "Z0": "empty",
+      "Z1": "empty"
+    },
+    "global_conclusion": "X_h!=0 and U_h!=0 for every h>=1 with 3 not dividing h",
+    "rows": [
+      {
+        "U": {
+          "earlier_terms": [
+            {
+              "kernel_coefficient": 1,
+              "proved_lower_bound": 3,
+              "ratio_to_terminal_v3": 4,
+              "t": 0,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -1,
+              "proved_lower_bound": 2,
+              "ratio_to_terminal_v3": 3,
+              "t": 1,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -1,
+              "proved_lower_bound": 1,
+              "ratio_to_terminal_v3": 2,
+              "t": 2,
+              "zero_term": false
+            }
+          ],
+          "label": "U",
+          "sum_nonzero": true,
+          "sum_v3": -4,
+          "terminal_coefficient": 1,
+          "terminal_degree": 6,
+          "terminal_index": 3,
+          "terminal_v3": -4
+        },
+        "X": {
+          "earlier_terms": [
+            {
+              "kernel_coefficient": -1,
+              "proved_lower_bound": 1,
+              "ratio_to_terminal_v3": 2,
+              "t": 0,
+              "zero_term": false
+            }
+          ],
+          "label": "X",
+          "sum_nonzero": true,
+          "sum_v3": -2,
+          "terminal_coefficient": 1,
+          "terminal_degree": 3,
+          "terminal_index": 1,
+          "terminal_v3": -2
+        },
+        "h": 1,
+        "h_mod_3": 1
+      },
+      {
+        "U": {
+          "earlier_terms": [
+            {
+              "kernel_coefficient": 1,
+              "proved_lower_bound": 4,
+              "ratio_to_terminal_v3": 6,
+              "t": 0,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -4,
+              "proved_lower_bound": 3,
+              "ratio_to_terminal_v3": 5,
+              "t": 1,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 6,
+              "proved_lower_bound": 2,
+              "ratio_to_terminal_v3": 3,
+              "t": 2,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -4,
+              "proved_lower_bound": 1,
+              "ratio_to_terminal_v3": 1,
+              "t": 3,
+              "zero_term": false
+            }
+          ],
+          "label": "U",
+          "sum_nonzero": true,
+          "sum_v3": -6,
+          "terminal_coefficient": 1,
+          "terminal_degree": 8,
+          "terminal_index": 4,
+          "terminal_v3": -6
+        },
+        "X": {
+          "earlier_terms": [
+            {
+              "kernel_coefficient": -3,
+              "proved_lower_bound": 2,
+              "ratio_to_terminal_v3": 3,
+              "t": 0,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 2,
+              "proved_lower_bound": 1,
+              "ratio_to_terminal_v3": 1,
+              "t": 1,
+              "zero_term": false
+            }
+          ],
+          "label": "X",
+          "sum_nonzero": true,
+          "sum_v3": -2,
+          "terminal_coefficient": 1,
+          "terminal_degree": 5,
+          "terminal_index": 2,
+          "terminal_v3": -2
+        },
+        "h": 2,
+        "h_mod_3": 2
+      },
+      {
+        "U": {
+          "earlier_terms": [
+            {
+              "kernel_coefficient": 1,
+              "proved_lower_bound": 6,
+              "ratio_to_terminal_v3": 9,
+              "t": 0,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 2,
+              "proved_lower_bound": 5,
+              "ratio_to_terminal_v3": 8,
+              "t": 1,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -17,
+              "proved_lower_bound": 4,
+              "ratio_to_terminal_v3": 7,
+              "t": 2,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 28,
+              "proved_lower_bound": 3,
+              "ratio_to_terminal_v3": 5,
+              "t": 3,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -17,
+              "proved_lower_bound": 2,
+              "ratio_to_terminal_v3": 4,
+              "t": 4,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 2,
+              "proved_lower_bound": 1,
+              "ratio_to_terminal_v3": 3,
+              "t": 5,
+              "zero_term": false
+            }
+          ],
+          "label": "U",
+          "sum_nonzero": true,
+          "sum_v3": -9,
+          "terminal_coefficient": 1,
+          "terminal_degree": 12,
+          "terminal_index": 6,
+          "terminal_v3": -9
+        },
+        "X": {
+          "earlier_terms": [
+            {
+              "kernel_coefficient": -7,
+              "proved_lower_bound": 4,
+              "ratio_to_terminal_v3": 7,
+              "t": 0,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -28,
+              "proved_lower_bound": 3,
+              "ratio_to_terminal_v3": 5,
+              "t": 1,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 14,
+              "proved_lower_bound": 2,
+              "ratio_to_terminal_v3": 4,
+              "t": 2,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 20,
+              "proved_lower_bound": 1,
+              "ratio_to_terminal_v3": 3,
+              "t": 3,
+              "zero_term": false
+            }
+          ],
+          "label": "X",
+          "sum_nonzero": true,
+          "sum_v3": -7,
+          "terminal_coefficient": 1,
+          "terminal_degree": 9,
+          "terminal_index": 4,
+          "terminal_v3": -7
+        },
+        "h": 4,
+        "h_mod_3": 1
+      },
+      {
+        "U": {
+          "earlier_terms": [
+            {
+              "kernel_coefficient": 1,
+              "proved_lower_bound": 7,
+              "ratio_to_terminal_v3": 9,
+              "t": 0,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 11,
+              "proved_lower_bound": 6,
+              "ratio_to_terminal_v3": 8,
+              "t": 1,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -39,
+              "proved_lower_bound": 5,
+              "ratio_to_terminal_v3": 7,
+              "t": 2,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 27,
+              "proved_lower_bound": 4,
+              "ratio_to_terminal_v3": 8,
+              "t": 3,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 27,
+              "proved_lower_bound": 3,
+              "ratio_to_terminal_v3": 7,
+              "t": 4,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -39,
+              "proved_lower_bound": 2,
+              "ratio_to_terminal_v3": 3,
+              "t": 5,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 11,
+              "proved_lower_bound": 1,
+              "ratio_to_terminal_v3": 1,
+              "t": 6,
+              "zero_term": false
+            }
+          ],
+          "label": "U",
+          "sum_nonzero": true,
+          "sum_v3": -9,
+          "terminal_coefficient": 1,
+          "terminal_degree": 14,
+          "terminal_index": 7,
+          "terminal_v3": -9
+        },
+        "X": {
+          "earlier_terms": [
+            {
+              "kernel_coefficient": -9,
+              "proved_lower_bound": 5,
+              "ratio_to_terminal_v3": 8,
+              "t": 0,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -75,
+              "proved_lower_bound": 4,
+              "ratio_to_terminal_v3": 6,
+              "t": 1,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -42,
+              "proved_lower_bound": 3,
+              "ratio_to_terminal_v3": 5,
+              "t": 2,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 90,
+              "proved_lower_bound": 2,
+              "ratio_to_terminal_v3": 4,
+              "t": 3,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 35,
+              "proved_lower_bound": 1,
+              "ratio_to_terminal_v3": 1,
+              "t": 4,
+              "zero_term": false
+            }
+          ],
+          "label": "X",
+          "sum_nonzero": true,
+          "sum_v3": -6,
+          "terminal_coefficient": 1,
+          "terminal_degree": 11,
+          "terminal_index": 5,
+          "terminal_v3": -6
+        },
+        "h": 5,
+        "h_mod_3": 2
+      },
+      {
+        "U": {
+          "earlier_terms": [
+            {
+              "kernel_coefficient": 1,
+              "proved_lower_bound": 9,
+              "ratio_to_terminal_v3": 14,
+              "t": 0,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 41,
+              "proved_lower_bound": 8,
+              "ratio_to_terminal_v3": 13,
+              "t": 1,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 36,
+              "proved_lower_bound": 7,
+              "ratio_to_terminal_v3": 14,
+              "t": 2,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -364,
+              "proved_lower_bound": 6,
+              "ratio_to_terminal_v3": 8,
+              "t": 3,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 286,
+              "proved_lower_bound": 5,
+              "ratio_to_terminal_v3": 7,
+              "t": 4,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 286,
+              "proved_lower_bound": 4,
+              "ratio_to_terminal_v3": 6,
+              "t": 5,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -364,
+              "proved_lower_bound": 3,
+              "ratio_to_terminal_v3": 4,
+              "t": 6,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 36,
+              "proved_lower_bound": 2,
+              "ratio_to_terminal_v3": 5,
+              "t": 7,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 41,
+              "proved_lower_bound": 1,
+              "ratio_to_terminal_v3": 2,
+              "t": 8,
+              "zero_term": false
+            }
+          ],
+          "label": "U",
+          "sum_nonzero": true,
+          "sum_v3": -14,
+          "terminal_coefficient": 1,
+          "terminal_degree": 18,
+          "terminal_index": 9,
+          "terminal_v3": -14
+        },
+        "X": {
+          "earlier_terms": [
+            {
+              "kernel_coefficient": -13,
+              "proved_lower_bound": 7,
+              "ratio_to_terminal_v3": 12,
+              "t": 0,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -273,
+              "proved_lower_bound": 6,
+              "ratio_to_terminal_v3": 9,
+              "t": 1,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -1001,
+              "proved_lower_bound": 5,
+              "ratio_to_terminal_v3": 7,
+              "t": 2,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -429,
+              "proved_lower_bound": 4,
+              "ratio_to_terminal_v3": 7,
+              "t": 3,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 1001,
+              "proved_lower_bound": 3,
+              "ratio_to_terminal_v3": 4,
+              "t": 4,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 637,
+              "proved_lower_bound": 2,
+              "ratio_to_terminal_v3": 3,
+              "t": 5,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 77,
+              "proved_lower_bound": 1,
+              "ratio_to_terminal_v3": 2,
+              "t": 6,
+              "zero_term": false
+            }
+          ],
+          "label": "X",
+          "sum_nonzero": true,
+          "sum_v3": -12,
+          "terminal_coefficient": 1,
+          "terminal_degree": 15,
+          "terminal_index": 7,
+          "terminal_v3": -12
+        },
+        "h": 7,
+        "h_mod_3": 1
+      },
+      {
+        "U": {
+          "earlier_terms": [
+            {
+              "kernel_coefficient": 1,
+              "proved_lower_bound": 10,
+              "ratio_to_terminal_v3": 15,
+              "t": 0,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 62,
+              "proved_lower_bound": 9,
+              "ratio_to_terminal_v3": 14,
+              "t": 1,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 237,
+              "proved_lower_bound": 8,
+              "ratio_to_terminal_v3": 13,
+              "t": 2,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -664,
+              "proved_lower_bound": 7,
+              "ratio_to_terminal_v3": 11,
+              "t": 3,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -494,
+              "proved_lower_bound": 6,
+              "ratio_to_terminal_v3": 10,
+              "t": 4,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 1716,
+              "proved_lower_bound": 5,
+              "ratio_to_terminal_v3": 7,
+              "t": 5,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -494,
+              "proved_lower_bound": 4,
+              "ratio_to_terminal_v3": 5,
+              "t": 6,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -664,
+              "proved_lower_bound": 3,
+              "ratio_to_terminal_v3": 4,
+              "t": 7,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 237,
+              "proved_lower_bound": 2,
+              "ratio_to_terminal_v3": 3,
+              "t": 8,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 62,
+              "proved_lower_bound": 1,
+              "ratio_to_terminal_v3": 1,
+              "t": 9,
+              "zero_term": false
+            }
+          ],
+          "label": "U",
+          "sum_nonzero": true,
+          "sum_v3": -15,
+          "terminal_coefficient": 1,
+          "terminal_degree": 20,
+          "terminal_index": 10,
+          "terminal_v3": -15
+        },
+        "X": {
+          "earlier_terms": [
+            {
+              "kernel_coefficient": -15,
+              "proved_lower_bound": 8,
+              "ratio_to_terminal_v3": 13,
+              "t": 0,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -440,
+              "proved_lower_bound": 7,
+              "ratio_to_terminal_v3": 11,
+              "t": 1,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -2548,
+              "proved_lower_bound": 6,
+              "ratio_to_terminal_v3": 10,
+              "t": 2,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -3432,
+              "proved_lower_bound": 5,
+              "ratio_to_terminal_v3": 7,
+              "t": 3,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 1430,
+              "proved_lower_bound": 4,
+              "ratio_to_terminal_v3": 5,
+              "t": 4,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 3640,
+              "proved_lower_bound": 3,
+              "ratio_to_terminal_v3": 4,
+              "t": 5,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 1260,
+              "proved_lower_bound": 2,
+              "ratio_to_terminal_v3": 4,
+              "t": 6,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 104,
+              "proved_lower_bound": 1,
+              "ratio_to_terminal_v3": 1,
+              "t": 7,
+              "zero_term": false
+            }
+          ],
+          "label": "X",
+          "sum_nonzero": true,
+          "sum_v3": -12,
+          "terminal_coefficient": 1,
+          "terminal_degree": 17,
+          "terminal_index": 8,
+          "terminal_v3": -12
+        },
+        "h": 8,
+        "h_mod_3": 2
+      },
+      {
+        "U": {
+          "earlier_terms": [
+            {
+              "kernel_coefficient": 1,
+              "proved_lower_bound": 12,
+              "ratio_to_terminal_v3": 18,
+              "t": 0,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 116,
+              "proved_lower_bound": 11,
+              "ratio_to_terminal_v3": 17,
+              "t": 1,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 1346,
+              "proved_lower_bound": 10,
+              "ratio_to_terminal_v3": 16,
+              "t": 2,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 1444,
+              "proved_lower_bound": 9,
+              "ratio_to_terminal_v3": 14,
+              "t": 3,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -8721,
+              "proved_lower_bound": 8,
+              "ratio_to_terminal_v3": 16,
+              "t": 4,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -2584,
+              "proved_lower_bound": 7,
+              "ratio_to_terminal_v3": 12,
+              "t": 5,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 16796,
+              "proved_lower_bound": 6,
+              "ratio_to_terminal_v3": 10,
+              "t": 6,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -2584,
+              "proved_lower_bound": 5,
+              "ratio_to_terminal_v3": 9,
+              "t": 7,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -8721,
+              "proved_lower_bound": 4,
+              "ratio_to_terminal_v3": 11,
+              "t": 8,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 1444,
+              "proved_lower_bound": 3,
+              "ratio_to_terminal_v3": 4,
+              "t": 9,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 1346,
+              "proved_lower_bound": 2,
+              "ratio_to_terminal_v3": 3,
+              "t": 10,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 116,
+              "proved_lower_bound": 1,
+              "ratio_to_terminal_v3": 2,
+              "t": 11,
+              "zero_term": false
+            }
+          ],
+          "label": "U",
+          "sum_nonzero": true,
+          "sum_v3": -18,
+          "terminal_coefficient": 1,
+          "terminal_degree": 24,
+          "terminal_index": 12,
+          "terminal_v3": -18
+        },
+        "X": {
+          "earlier_terms": [
+            {
+              "kernel_coefficient": -19,
+              "proved_lower_bound": 10,
+              "ratio_to_terminal_v3": 16,
+              "t": 0,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -950,
+              "proved_lower_bound": 9,
+              "ratio_to_terminal_v3": 14,
+              "t": 1,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -10659,
+              "proved_lower_bound": 8,
+              "ratio_to_terminal_v3": 14,
+              "t": 2,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -38760,
+              "proved_lower_bound": 7,
+              "ratio_to_terminal_v3": 13,
+              "t": 3,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -41990,
+              "proved_lower_bound": 6,
+              "ratio_to_terminal_v3": 10,
+              "t": 4,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 16796,
+              "proved_lower_bound": 5,
+              "ratio_to_terminal_v3": 9,
+              "t": 5,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 48450,
+              "proved_lower_bound": 4,
+              "ratio_to_terminal_v3": 9,
+              "t": 6,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 23256,
+              "proved_lower_bound": 3,
+              "ratio_to_terminal_v3": 6,
+              "t": 7,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 3705,
+              "proved_lower_bound": 2,
+              "ratio_to_terminal_v3": 4,
+              "t": 8,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 170,
+              "proved_lower_bound": 1,
+              "ratio_to_terminal_v3": 2,
+              "t": 9,
+              "zero_term": false
+            }
+          ],
+          "label": "X",
+          "sum_nonzero": true,
+          "sum_v3": -16,
+          "terminal_coefficient": 1,
+          "terminal_degree": 21,
+          "terminal_index": 10,
+          "terminal_v3": -16
+        },
+        "h": 10,
+        "h_mod_3": 1
+      },
+      {
+        "U": {
+          "earlier_terms": [
+            {
+              "kernel_coefficient": 1,
+              "proved_lower_bound": 13,
+              "ratio_to_terminal_v3": 20,
+              "t": 0,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 149,
+              "proved_lower_bound": 12,
+              "ratio_to_terminal_v3": 19,
+              "t": 1,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 2454,
+              "proved_lower_bound": 11,
+              "ratio_to_terminal_v3": 17,
+              "t": 2,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 7238,
+              "proved_lower_bound": 10,
+              "ratio_to_terminal_v3": 15,
+              "t": 3,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -12749,
+              "proved_lower_bound": 9,
+              "ratio_to_terminal_v3": 14,
+              "t": 4,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -31977,
+              "proved_lower_bound": 8,
+              "ratio_to_terminal_v3": 14,
+              "t": 5,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 34884,
+              "proved_lower_bound": 7,
+              "ratio_to_terminal_v3": 14,
+              "t": 6,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 34884,
+              "proved_lower_bound": 6,
+              "ratio_to_terminal_v3": 13,
+              "t": 7,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -31977,
+              "proved_lower_bound": 5,
+              "ratio_to_terminal_v3": 10,
+              "t": 8,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -12749,
+              "proved_lower_bound": 4,
+              "ratio_to_terminal_v3": 7,
+              "t": 9,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 7238,
+              "proved_lower_bound": 3,
+              "ratio_to_terminal_v3": 6,
+              "t": 10,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 2454,
+              "proved_lower_bound": 2,
+              "ratio_to_terminal_v3": 3,
+              "t": 11,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 149,
+              "proved_lower_bound": 1,
+              "ratio_to_terminal_v3": 1,
+              "t": 12,
+              "zero_term": false
+            }
+          ],
+          "label": "U",
+          "sum_nonzero": true,
+          "sum_v3": -20,
+          "terminal_coefficient": 1,
+          "terminal_degree": 26,
+          "terminal_index": 13,
+          "terminal_v3": -20
+        },
+        "X": {
+          "earlier_terms": [
+            {
+              "kernel_coefficient": -21,
+              "proved_lower_bound": 11,
+              "ratio_to_terminal_v3": 17,
+              "t": 0,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -1309,
+              "proved_lower_bound": 10,
+              "ratio_to_terminal_v3": 15,
+              "t": 1,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -19019,
+              "proved_lower_bound": 9,
+              "ratio_to_terminal_v3": 14,
+              "t": 2,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -95931,
+              "proved_lower_bound": 8,
+              "ratio_to_terminal_v3": 15,
+              "t": 3,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -177650,
+              "proved_lower_bound": 7,
+              "ratio_to_terminal_v3": 11,
+              "t": 4,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": -58786,
+              "proved_lower_bound": 6,
+              "ratio_to_terminal_v3": 10,
+              "t": 5,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 149226,
+              "proved_lower_bound": 5,
+              "ratio_to_terminal_v3": 9,
+              "t": 6,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 149226,
+              "proved_lower_bound": 4,
+              "ratio_to_terminal_v3": 8,
+              "t": 7,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 48279,
+              "proved_lower_bound": 3,
+              "ratio_to_terminal_v3": 7,
+              "t": 8,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 5775,
+              "proved_lower_bound": 2,
+              "ratio_to_terminal_v3": 3,
+              "t": 9,
+              "zero_term": false
+            },
+            {
+              "kernel_coefficient": 209,
+              "proved_lower_bound": 1,
+              "ratio_to_terminal_v3": 1,
+              "t": 10,
+              "zero_term": false
+            }
+          ],
+          "label": "X",
+          "sum_nonzero": true,
+          "sum_v3": -16,
+          "terminal_coefficient": 1,
+          "terminal_degree": 23,
+          "terminal_index": 11,
+          "terminal_v3": -16
+        },
+        "h": 11,
+        "h_mod_3": 2
+      }
+    ]
+  },
+  "item": 372,
+  "schema": "item372-j1-boundary-exact-zero-strata-v1",
+  "scope_warning": "This is a characteristic-zero theorem. A nonzero rational phase value can still vanish modulo an actual tied prime, so no weighted modular mass is booked.",
+  "strict_labels": {
+    "finite_only": [
+      "eight predeclared exact summand controls",
+      "no prime scan, boundary census, or extrapolation"
+    ],
+    "open": [
+      "weighted zero density or average gcd for the nonzero primitive carriers",
+      "modular occurrence or nonoccurrence of either boundary for unbounded h",
+      "the nonboundary full-gate chart and any strict fixed-j1 capacity reduction"
+    ],
+    "proved": [
+      "unique terminal-term 3-adic minimality for X_h on every potentially prime ray",
+      "unique terminal-term 3-adic minimality for U_h on every potentially prime ray",
+      "X_h and U_h are nonzero over Q for all h>=1 with 3 not dividing h",
+      "Z0 and Z1 are empty",
+      "the exact weighted target is now pure nonzero-carrier divisibility",
+      "zero booking and retention of the shared 1/36 ceiling"
+    ]
+  },
+  "verdict": "Both exact-zero phase strata are globally empty by unique terminal-term 3-adic minimality; only nonzero-carrier divisibility remains, with no ledger change."
+}

@@ -1,0 +1,162 @@
+{
+  "admission": {
+    "actual_family_implication": "collision forces the already known Item250 determinant D=0",
+    "all_prime_nonvanishing": false,
+    "booking": 0,
+    "fixed_lisse_or_crystalline_realization": false,
+    "new_capacity_reduction": 0,
+    "new_divisor": false,
+    "raw_capacity": "2/35 per M = 1/105 per 6M",
+    "weighted_zero_density": false
+  },
+  "all_r_termwise_proof": {
+    "base_identities": "ca1=2*beta and ca0=ca1*(1+A_0)",
+    "classification": "SYMBOLIC FORMULAS RECORDED; bounded grid is an independent replay of the direct proof",
+    "cleared_degree_bound": 2,
+    "complementary_factor_map": "j=r+1-i sends 3j-2r-3 to -(3i-r); r+2 is odd",
+    "grid_checks": 28,
+    "nu0_term_ratio": "(w_(t+1)+w_(t+2))/(w_t+w_(t+1))=(r/3-t)/(t-r)",
+    "nu1_term_ratio": "lower_(t+1)/lower_t=A_t",
+    "odd_chain_ratio": "A_t=-(q+1+2t)/(3q+1+2t)=(r/3-t)/(t-r-1)",
+    "phase_identity": "q=-(2r+3)/3 and n_a=r+q+1=r/3"
+  },
+  "dependency": {
+    "item250_j2_ordinary_phase_certificate.py": "2364a9e9c9be0ea0827c2b12137883ad326d77017a53bb4f242be300335e90ce"
+  },
+  "exact_consequences": {
+    "H": "H_nu^flat=9*d_nu-10*lowerB_nu=-11*d_nu",
+    "U": "U_nu=9*c*b_nu-11*d_nu (b_nu is distinct from lowerB_nu)",
+    "actual_rank": "because z1 is a p-unit, rank(R)=2 iff D!=0; on D=0 rank is 1 except f=U=0 gives rank 0",
+    "collision": "G0=G1=0 implies D=0; D=0 alone is not sufficient for R*x_p=0",
+    "determinant": "D=f0*U1-f1*U0=9*c*det(f,b)-11*det(f,d)",
+    "lower_tail": "lowerB_nu=2*d_nu",
+    "row_minors": "minor(0,1)=-z1*D, minor(0,2)=-z2*D, minor(1,2)=0"
+  },
+  "experimental_recurrence": {
+    "candidate_coefficient_degree": 17,
+    "candidate_conjugacy": "the same P_j(n) is tested on L_n and 16^n M_n; equivalently M has P_j/16^(3-j)",
+    "candidate_order": 3,
+    "candidate_verified_rows_per_sequence": 79,
+    "classification": "candidate agreement is EXACT FINITE ONLY; exclusions are exact for the stated bounded classes",
+    "full_rank_exclusions": [
+      "no nonzero recurrence of order<=2 and coefficient degree<=17",
+      "no nonzero recurrence of order<=3 and coefficient degree<=16"
+    ],
+    "missing_for_all_n": "no symbolic telescoping, de-Rham, or annihilating-operator certificate is present",
+    "primes": [
+      1000000007,
+      1000000009
+    ],
+    "row_digest_sha256": "4bf6f36587df37c455648c2a3c2895f73f3e7106b4f24c9c03b128a18eb61e8c",
+    "rows": [
+      [
+        1000000007,
+        5,
+        "L",
+        79,
+        54,
+        68
+      ],
+      [
+        1000000007,
+        5,
+        "16^n M",
+        79,
+        54,
+        68
+      ],
+      [
+        1000000007,
+        1,
+        "L",
+        79,
+        54,
+        68
+      ],
+      [
+        1000000007,
+        1,
+        "16^n M",
+        79,
+        54,
+        68
+      ],
+      [
+        1000000009,
+        5,
+        "L",
+        79,
+        54,
+        68
+      ],
+      [
+        1000000009,
+        5,
+        "16^n M",
+        79,
+        54,
+        68
+      ],
+      [
+        1000000009,
+        1,
+        "L",
+        79,
+        54,
+        68
+      ],
+      [
+        1000000009,
+        1,
+        "16^n M",
+        79,
+        54,
+        68
+      ]
+    ],
+    "terms_per_phase": 82
+  },
+  "rank_replay": {
+    "actual_rows": 1153,
+    "common_collision_rows": 0,
+    "prime_max_inclusive": 401,
+    "rank_drop_rows": 3,
+    "role": "EXACT FINITE replay of the all-prime rank theorem",
+    "row_digest_sha256": "e6254287a2787584733452c575c47948be4e29a584f54fb55dda242dd93f70a0"
+  },
+  "schema": "item291-j2-connection-plane-v1",
+  "strict_labels": {
+    "EXACT_FINITE_ONLY": [
+      "the displayed order-three degree-seventeen candidate and its L versus 16^n*M conjugacy",
+      "bounded rational/modular row replays at the recorded bounds"
+    ],
+    "OPEN": [
+      "an all-n symbolic telescoping or de-Rham certificate for the reconstructed operator",
+      "a complete bounded-rank update for W=(f0,f1,U0,U1)",
+      "any all-prime or weighted-density theorem for D=0",
+      "any capacity reduction, Route-1 completion, or conclusion about e+pi"
+    ],
+    "PROVED": [
+      "lowerB_nu=2*d_nu termwise and H_nu^flat=-11*d_nu",
+      "D=9*c*det(f,b)-11*det(f,d)",
+      "z1 is a p-unit and the complete actual-row rank stratification",
+      "collision implies D=0, with every f=0/U=0 chart retained",
+      "the two explicitly bounded recurrence-class exclusions"
+    ]
+  },
+  "termwise_replay": {
+    "admissible_r_rows": 67,
+    "r_max_inclusive": 199,
+    "role": "EXACT FINITE replay of the all-r termwise proof",
+    "row_digest_sha256": "565730bf59f6bb61e3ba4c23b997a1e18ee98ba8036ac46e4bcd498444e7130c",
+    "term_equalities": 7001
+  },
+  "unit_and_boundary_audit": {
+    "B_s": "factorial arguments are <=3s-1<p",
+    "kappa_denominators": "constants 2,3 and factors through 2r+1 are p-units; Item250 audited the same denominators",
+    "kappa_numerators": "raw rising numerators 6-r+6i are nonzero and lie between 6-r and 2r-3; 2r+3<p",
+    "r1_endpoint": "h=0 has an empty rising product and is included",
+    "warning": "lowerB_nu is not b_nu; no (18c-11) scalar factor exists",
+    "z1": "B_s*(9*kappa/2)*sigma_m*epsilon is a p-unit"
+  }
+}

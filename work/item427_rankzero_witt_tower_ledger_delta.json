@@ -1,0 +1,61 @@
+{
+  "schema": "route1-ledger-delta-v1",
+  "item": 427,
+  "status": "WORK_ONLY_UNAUDITED_ALL_LEVEL_THEOREM_SCOPED_AMBIENT_NO_GO_NO_BOOKING",
+  "component": "complete ordinary q=p rank-zero integral Witt-error tower",
+  "actual_family_all_level_theorem": {
+    "scope": "odd p in Item200 P_m with p^2>4m+1; the omitted q>p initial-scaling support has fixed-layer radical mass o(m)",
+    "Bockstein_rows": "Y_s=(R_s,L_s/p,E_s)=(-pR(eta_s),-L(eta_s),-pE(eta_s)) in Z_p^3",
+    "determinantal_ideal": "I_m,p=(A_m/p,8B_m/p)=(K_m,pX_m) in Z_p",
+    "exact_depth": "v_p(c_m)-b_m,p=v_p(I_m,p)=min(v_p(K_m),1+v_p(X_m)), where b_m,p=v_p(K_m clearing) is 0 or 1",
+    "digit_series": "G_m,p(z)=dig_p(K_m)(z)e_1+z dig_p(X_m)(z)e_2 and ord_z G_m,p=v_p(c_m)-b_m,p",
+    "level_n_gate": "depth>=n iff K digits kappa_0,...,kappa_(n-1) and X digits xi_0,...,xi_(n-2) all vanish",
+    "tower_structure": "one forced Jordan delay on the X stream; every later level introduces the genuinely new pair (kappa_n,xi_(n-1))"
+  },
+  "actual_family_successive_gate_rows": {
+    "13_11": "K digits begin (0,4), X digit xi_0=8, depth 1",
+    "24_11": "K digits begin (0,10), X digits begin (0,0,8), depth 1",
+    "89_19": "K digits begin (0,0,6), X digits begin (0,0,12), depth 2"
+  },
+  "ambient_model_only": {
+    "rows": "in coordinates (R,L/p,E), Y_0=(0,1,0), Y_1=(-K,1,-pX)",
+    "minors": "Delta_RL=K and Delta_LE=pX",
+    "conclusion": "rank-zero endpoint divisibility alone permits arbitrary independent K and X digit streams",
+    "qualification": "this is not claimed to be an actual mixed-cubic realization"
+  },
+  "capacity_screen": {
+    "Item418_outside_large_admission_residual": "0.59085909833077392493454601829037809174677496455608",
+    "per_whole_support_layer": "C_F/6=0.3895079179997942811851475804...",
+    "per_booked_overlap_layer": "(C_F-2)/6=0.0561745846664609478518142471...",
+    "minimum_perfectly_saturated_whole_layers_to_reach_residual": 2,
+    "minimum_perfectly_saturated_booked_overlap_layers_to_reach_residual": 11,
+    "one_whole_layer_residual": "0.20135118033097964374939843789037809174677496455608...",
+    "two_whole_layer_capacity_excess": "0.18815673766881463743574914250962190825322503544392...",
+    "all_level_warning": "support gives a ceiling for each fixed layer but no finite ceiling for the infinite layer cake without aggregate depth control"
+  },
+  "de_overlap": [
+    "G_m=F_m was divided out before c_m was defined and is not rebooked",
+    "on j>=1 q=p cells, b_m,p=1 is exactly the Item149 booked copy and tower depth begins after it",
+    "on the j=0 cell, b_m,p=0 and tower depth begins with the first actual post-G_m content copy",
+    "the p^2<=4m+1 support is zero-rate only at each fixed radical layer; multiplicities there remain open",
+    "Item418's outside-large residual is an admission comparison, not a global ceiling subtraction"
+  ],
+  "ceilings": {
+    "small_remainder_ceiling_delta": 0,
+    "strictly_large_component_ceiling_delta": 0,
+    "global_total_content_ceiling_delta": 0
+  },
+  "booking": {
+    "route1_rate_delta": 0,
+    "mixed_cubic_divisor_lower_bound_delta": 0,
+    "frozen_deficit_delta": 0
+  },
+  "smallest_live_lemma": "an aggregate theorem such as sum_(n>=2) log R_n(m)=o(m), or another explicit weighted upper bound for the paired digit streams",
+  "open": [
+    "actual-family distribution or recurrence for the K and X digit streams",
+    "aggregate higher-layer depth control",
+    "exact q>p initial scaling beyond its fixed-layer zero-rate support",
+    "non-rank-zero small-prime content",
+    "Route 1 and irrationality of e+pi"
+  ]
+}

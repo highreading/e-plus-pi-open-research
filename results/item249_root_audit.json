@@ -1,0 +1,62 @@
+{
+  "item": 249,
+  "auditor": "root",
+  "verdict": "accepted_with_stated_scope",
+  "scope": {
+    "proved": [
+      "For the Item244 j=2 singular family r=1, p=6s+5, s>=2, the inherited lower index is L=1 and D1=(3-2t-t^2)(1+t)^(2s-1).",
+      "The displayed coefficient formula, exact triangular/prefix functional, and order-three coefficient recurrence are identities over Q.",
+      "Modulo p the coefficients through M=(p-2)/3 agree termwise with those of (1-t)(3+t)(1+t)^(-8/3), yielding B1=Theta_M mod p.",
+      "Every denominator used through M is a p-unit, the two terminal coefficient congruences hold, and vanishing is equivalent to p dividing the reduced numerator of Theta_M.",
+      "At the excluded boundary p=11,s=1, both the actual value 88/945 and universal value -49676/25515 vanish modulo 11."
+    ],
+    "exact_finite_only": [
+      "The direct actual-polynomial replay through p<=401.",
+      "The rational replay through p<=101 and universal recurrence census through p<=20000.",
+      "The independent-root prime-row comparison through p<=1000."
+    ],
+    "open": [
+      "Nonvanishing of Theta_((p-2)/3) modulo every admissible p=6s+5 with s>=2, or an admissible counterexample.",
+      "A factorization or invariant controlling the moving-prime numerator.",
+      "Any Route-1 rate, divisibility exponent, capacity reduction, or conclusion about e+pi."
+    ]
+  },
+  "proof_review": {
+    "coefficient_identity": "Direct expansion of (3-2t-t^2)(1+t)^n gives the stated d_v. The independent audit also multiplied out the logarithmic-derivative identity (3+t-3t^2-t^3)D'=[3n-2-(2n+4)t-(n+2)t^2]D before extracting the recurrence.",
+    "functional_identity": "Reordering the exact triangular sum over 0<=k<v<=M gives the alternating odd-denominator prefix h_v and the displayed one-sum formula without a finite-scan inference.",
+    "universal_reduction": "Because n=(p-8)/3=-8/3 in F_p and v! is a unit for v<=M<p, binomial coefficients agree termwise; the independent audit verified the resulting p-independent recurrence directly over Q through degree 160.",
+    "unit_audit": "For s>=2, M>=5 and p=3M+2, so M<p and 2M+3<p. Denominators divide products of 3, v!, and positive odd integers at most 2M+3, all p-units.",
+    "endpoint_audit": "The leading two terms of the degree-M actual polynomial are -t^M-Mt^(M-1), hence c_M=-1 and c_(M-1)=-M modulo p.",
+    "scope_caveat": "The fixed recurrence has a genuine zero at the excluded p=11 boundary. No invariant rules out zeros on all admissible moving indices, and this residual belongs only to the stronger p^3 carry rather than the ordinary p^2 gate."
+  },
+  "replay": {
+    "canonical_sha256": "2f3c36427366d38f7bc0306eba002092cd7413114f016d1fbbe400784511680b",
+    "agent_replay_sha256": "2f3c36427366d38f7bc0306eba002092cd7413114f016d1fbbe400784511680b",
+    "root_replay_sha256": "2f3c36427366d38f7bc0306eba002092cd7413114f016d1fbbe400784511680b",
+    "archive_layout_replay_sha256": "2f3c36427366d38f7bc0306eba002092cd7413114f016d1fbbe400784511680b",
+    "byte_identical": true
+  },
+  "independent_probe": {
+    "description": "Exact polynomial/Fraction implementation importing no Item246--249 code.",
+    "script_sha256": "c33b031886ac15d7cf805b2aa60b75fceab7050bbc09023da51dd8a370a98bc8",
+    "result_sha256": "5f74bc9702ee737d6ad943df7fb268371c10151ab782f9f713e3bc8c5ec59911",
+    "exact_s_rows": 80,
+    "universal_degree": 160,
+    "prime_max_inclusive": 1000,
+    "prime_rows": 84,
+    "zero_count": 0,
+    "boundary_both_zero_mod_11": true
+  },
+  "manifest_validation": {
+    "artifact_mismatch_count": 0,
+    "dependency_mismatch_count": 0
+  },
+  "frozen_hashes": {
+    "report": "a4ddf5d2588b9bf7a6cee8e163231ce8a868bda6479262f3dcf52a2382e293c6",
+    "checker": "bee2ea2763946a8f254bbc246c1a3cdfa55cf5aee62bff36d1ec202e0badf0c3",
+    "canonical_and_replay": "2f3c36427366d38f7bc0306eba002092cd7413114f016d1fbbe400784511680b",
+    "ledger": "a1cb0d7d9682d3b8225f1b9deb5feedbc56daa44b3d67b9abd7ad39747cac5fc",
+    "manifest": "092e3e710f248a90c06ceb05ac87b7d45afd5bb860860773e016178456da491b",
+    "hash_ledger": "33d463871b00d794ab9aa5c9ac5fb61c7cb5f6dc3ac72d420cc0731c358cfbdc"
+  }
+}

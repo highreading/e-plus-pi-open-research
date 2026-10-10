@@ -1,0 +1,306 @@
+{
+  "bernstein_ledger": {
+    "representative_rows": [
+      {
+        "D": 12870,
+        "L_n_plus_5": 360360,
+        "N": 2,
+        "Z": -3008908,
+        "c": -107461,
+        "d0": 28,
+        "g": 1,
+        "n": 8,
+        "primitive_approximant_coefficients": [
+          107461,
+          25740
+        ],
+        "reduced_rational_coordinate": "-107461/12870",
+        "response_count": 9,
+        "scaled_response_gcd_diagnostic": 4
+      },
+      {
+        "D": 3465,
+        "L_n_plus_5": 360360,
+        "N": 3,
+        "Z": -11701664,
+        "c": -112516,
+        "d0": 104,
+        "g": 2,
+        "n": 9,
+        "primitive_approximant_coefficients": [
+          56258,
+          10395
+        ],
+        "reduced_rational_coordinate": "-112516/3465",
+        "response_count": 10,
+        "scaled_response_gcd_diagnostic": 8
+      },
+      {
+        "D": 495,
+        "L_n_plus_5": 360360,
+        "N": 4,
+        "Z": -49407176,
+        "c": -67867,
+        "d0": 728,
+        "g": 1,
+        "n": 10,
+        "primitive_approximant_coefficients": [
+          67867,
+          11880
+        ],
+        "reduced_rational_coordinate": "-67867/495",
+        "response_count": 11,
+        "scaled_response_gcd_diagnostic": 56
+      },
+      {
+        "D": 69615,
+        "L_n_plus_5": 12252240,
+        "N": 8,
+        "Z": -2893863516368,
+        "c": -16442406343,
+        "d0": 176,
+        "g": 1,
+        "n": 12,
+        "primitive_approximant_coefficients": [
+          16442406343,
+          2806876800
+        ],
+        "reduced_rational_coordinate": "-16442406343/69615",
+        "response_count": 13,
+        "scaled_response_gcd_diagnostic": 176
+      }
+    ],
+    "scope": "The finite scaled-response gcd entries are diagnostics only; no all-n gcd claim is inferred from them."
+  },
+  "control_audit": [
+    {
+      "bytes": 11629,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "sources/common_kernel_native_output_bernstein_congruence_isolation.md"
+    },
+    {
+      "bytes": 16661,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "scripts/common_kernel_native_output_bernstein_congruence_certificate.py"
+    }
+  ],
+  "dependency_audit": {
+    "results/common_kernel_native_sign_integer_bernstein_hashes.sha256": "337f9276d17304927c34427277fbc62f8bb99642cf525a69aa01c6eed818a2f9"
+  },
+  "derivative_and_sharpness": {
+    "finite_identity_instances_checked": 5724,
+    "logical_scope": "m_n=o(n) is sharp for a guarantee uniform over arbitrary coefficientwise residue patterns, not for adaptive sparse choices",
+    "scaled_k4_limit": "-exp(-1)",
+    "scaled_k4_third_derivative": "-n*(1 - 1/n)**(n - 4)*(n**2 - 39*n - 22)/(n - 1)**3",
+    "third_derivative_error_multiplier": "96*m_n/(n-3)"
+  },
+  "farey_isolation": {
+    "equivalence": "q=N!*D/g <= (N!)^(1/2) iff g/D >= (N!)^(1/2)",
+    "exact_N_ge_14_checks": [
+      {
+        "N": 14,
+        "strictly_below_one": true,
+        "upper_factor_after_e_lt_3": "14/15"
+      },
+      {
+        "N": 15,
+        "strictly_below_one": true,
+        "upper_factor_after_e_lt_3": "7/8"
+      },
+      {
+        "N": 16,
+        "strictly_below_one": true,
+        "upper_factor_after_e_lt_3": "14/17"
+      },
+      {
+        "N": 20,
+        "strictly_below_one": true,
+        "upper_factor_after_e_lt_3": "2/3"
+      },
+      {
+        "N": 50,
+        "strictly_below_one": true,
+        "upper_factor_after_e_lt_3": "14/51"
+      },
+      {
+        "N": 100,
+        "strictly_below_one": true,
+        "upper_factor_after_e_lt_3": "14/101"
+      }
+    ],
+    "normalization_rows": [
+      {
+        "D": 19,
+        "N": 14,
+        "c": 37,
+        "g": 1,
+        "p": -37,
+        "q": 1656387532800
+      },
+      {
+        "D": 27,
+        "N": 15,
+        "c": -44,
+        "g": 44,
+        "p": 1,
+        "q": 802436544000
+      },
+      {
+        "D": 64,
+        "N": 20,
+        "c": 105,
+        "g": 105,
+        "p": -1,
+        "q": 1482911700221952000
+      },
+      {
+        "D": 243,
+        "N": 50,
+        "c": -1001,
+        "g": 1001,
+        "p": 1,
+        "q": 7383241406609741123474389394958780049134632268988416000000000000
+      }
+    ],
+    "separation": "distinct reduced rationals with denominators <=sqrt(N!) are separated by at least 1/N!"
+  },
+  "reference_coordinate_checks": [
+    {
+      "A": 3,
+      "I_N": -2,
+      "N": 2,
+      "R_N": 0,
+      "a": 2,
+      "b": 1,
+      "degree_P0": "1",
+      "degree_base_quotient": "-oo",
+      "rational_boundary_plus_moment": "-1087/840",
+      "rho_changed_direct": "-2137/210",
+      "rho_changed_single_moment": "-2137/210",
+      "rho_reference": "-2"
+    },
+    {
+      "A": 6,
+      "I_N": -2,
+      "N": 3,
+      "R_N": -2,
+      "a": 2,
+      "b": 4,
+      "degree_P0": "2",
+      "degree_base_quotient": "1",
+      "rational_boundary_plus_moment": "-47/15",
+      "rho_changed_direct": "-518/15",
+      "rho_changed_single_moment": "-518/15",
+      "rho_reference": "-16"
+    },
+    {
+      "A": 14,
+      "I_N": 0,
+      "N": 4,
+      "R_N": -4,
+      "a": 0,
+      "b": 14,
+      "degree_P0": "3",
+      "degree_base_quotient": "2",
+      "rational_boundary_plus_moment": "-103/12",
+      "rho_changed_direct": "-142",
+      "rho_changed_single_moment": "-142",
+      "rho_reference": "-281/3"
+    },
+    {
+      "A": 20152,
+      "I_N": 0,
+      "N": 8,
+      "R_N": 16,
+      "a": 0,
+      "b": 20152,
+      "degree_P0": "7",
+      "degree_base_quotient": "6",
+      "rational_boundary_plus_moment": "-259457/21",
+      "rho_changed_direct": "-25166317/105",
+      "rho_changed_single_moment": "-25166317/105",
+      "rho_reference": "-5953739/35"
+    },
+    {
+      "A": 181448,
+      "I_N": -16,
+      "N": 9,
+      "R_N": 16,
+      "a": 16,
+      "b": 181432,
+      "degree_P0": "8",
+      "degree_base_quotient": "7",
+      "rational_boundary_plus_moment": "-3893419/35",
+      "rho_changed_direct": "-452996851/210",
+      "rho_changed_single_moment": "-452996851/210",
+      "rho_reference": "-64290143/42"
+    },
+    {
+      "A": 1814432,
+      "I_N": -32,
+      "N": 10,
+      "R_N": 0,
+      "a": 32,
+      "b": 1814400,
+      "degree_P0": "9",
+      "degree_base_quotient": "8",
+      "rational_boundary_plus_moment": "-116803144/105",
+      "rho_changed_direct": "-6794959456/315",
+      "rho_changed_single_moment": "-6794959456/315",
+      "rho_reference": "-4821775648/315"
+    },
+    {
+      "A": 19958448,
+      "I_N": -32,
+      "N": 11,
+      "R_N": -32,
+      "a": 32,
+      "b": 19958416,
+      "degree_P0": "10",
+      "degree_base_quotient": "9",
+      "rational_boundary_plus_moment": "-1284824174/105",
+      "rho_changed_direct": "-74744558783/315",
+      "rho_changed_single_moment": "-74744558783/315",
+      "rho_reference": "-1515421645/9"
+    },
+    {
+      "A": 239500832,
+      "I_N": 0,
+      "N": 12,
+      "R_N": -64,
+      "a": 0,
+      "b": 239500832,
+      "degree_P0": "11",
+      "degree_base_quotient": "10",
+      "rational_boundary_plus_moment": "-3083573212/21",
+      "rho_changed_direct": "-9866281714129/3465",
+      "rho_changed_single_moment": "-9866281714129/3465",
+      "rho_reference": "-7001253011329/3465"
+    }
+  ],
+  "rss_guard_kib": 41943040,
+  "rss_guard_passed": true,
+  "scope": {
+    "all_parameter_claims": [
+      "integration-by-parts and beta-response identities",
+      "m_n=o(n) suffices uniformly over arbitrary residue patterns",
+      "that scale is necessary for such a uniform guarantee",
+      "for N>=14 there is at most one sqrt-factorial candidate"
+    ],
+    "not_claimed": [
+      "adaptive sparse central-channel impossibility",
+      "existence or nonexistence of the isolated candidate",
+      "the primitive-decay or Roth threshold",
+      "any arithmetic classification of e+pi"
+    ]
+  },
+  "symbolic_integration": {
+    "W_expansion": "a*t**3 - 4*a*t**2 + 4*a*t + b*t**4 - 4*b*t**3 + 4*b*t**2",
+    "boundary_values": "Y(0)=-K(0), so the exponential boundary is K(0) and four times the rational boundary is 4*K(0)",
+    "exponential_pointwise_difference": "0",
+    "rational_pointwise_difference": "0"
+  },
+  "theorem": "exact native single-moment ledger; sharp coefficientwise full-residue rounding scale; sqrt-factorial Farey isolation"
+}

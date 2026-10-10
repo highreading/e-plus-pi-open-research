@@ -1,0 +1,106 @@
+{
+  "read_at_utc": "2026-10-04T06:37:48.853792+00:00",
+  "read_only": true,
+  "rows": [
+    {
+      "id": 2476,
+      "representative": "work/session_20261001_astra/agent2/LARGE_SELECTOR_RELATIVE_SADDLE.md",
+      "sha256": "bd8d7f8d9ac3d04624a9195813832dbb0416f0cd1634ebaf2c13193a3f7f3d74",
+      "status": "pending",
+      "review_id": null,
+      "verdict": null,
+      "scope": null,
+      "reason": null
+    },
+    {
+      "id": 2399,
+      "representative": "work/session_20261001_astra/LARGE_SELECTOR_WEIGHTED_DIFFERENCE_DRAFT.md",
+      "sha256": "9fb855362fe367db5723ddd0ab562ce9f8d5004ba3b652e30c9667bdaa2dfe21",
+      "status": "pending",
+      "review_id": null,
+      "verdict": null,
+      "scope": null,
+      "reason": null
+    },
+    {
+      "id": 2336,
+      "representative": "work/session_20260913/unequal_degree_hp_attempt.md",
+      "sha256": "848c7b0239e7b0fc7c0f7362eace3a04d55a84bb810f9c956996d1b35896be46",
+      "status": "audited",
+      "review_id": 30,
+      "verdict": "all-degree b0 primitive-growth obstruction, exact positive-b projection and Wronskian bounds accepted",
+      "scope": "All analytic and arithmetic proofs; original finite profile table is retained as historical diagnostic rather than newly certified",
+      "reason": "The vertical-segment integral gives F's exact Taylor moments and reversed high equations. Explicit alternating nonzero Legendre norms justify projection without positive complex-measure assumptions. The b0 endpoint fixes the unique kernel direction. Its Legendre-square Padé identity has sign(-1)^n and an exponential lower bound; integer Legendre coefficients and F's dyadic-LCM clearer give the ordinary logarithmic companion exponential rational height. The remaining rational companion approximates e with exp(-n log n+O(n)) error. Euler's linear-growth partial quotients, checked against the cited Cohn primary source, give all-rational lower bound q^-(2+epsilon), yielding the fully reduced endpoint denominator and primitive form growth with liminf>=1/2. For positive b the exact b equations in b+1 coefficients and the stated coefficient amplification follow from projection and coefficient bounds; neither supplies endpoint arithmetic. Wronskian expansion retains both column subtractions, its degree bounds and order lower bound yield a cubic quotient and dimension<=4, without normality. The explicit n>=512 b1 rank bound is safe. The exponential and logarithmic complete-tail estimates follow by summing their separate coefficient multiplicities and cannot turn lower amplification into an upper bound."
+    },
+    {
+      "id": 1907,
+      "representative": "work/session_20260913/hp_b1_special_gcd_and_denominator.md",
+      "sha256": "9c8cbb558ba33dabeb1b5adb13dd5433a69e37da327b4300e094a3e35b2d2422",
+      "status": "pending",
+      "review_id": null,
+      "verdict": null,
+      "scope": null,
+      "reason": null
+    },
+    {
+      "id": 2622,
+      "representative": "work/session_20261002_codex_continuation/agent1_arithmetic/WEIGHTED_REGULAR_ENDPOINT_DYADIC_RATE.md",
+      "sha256": "86776d9845443387e757333673a9e95263f3d88b299ebc7a8e3e0ca5ed987bd4",
+      "status": "audited",
+      "review_id": 18,
+      "verdict": "all-degree lower dyadic rate correct; exact next digit belongs to the later finite-state theorem",
+      "scope": "Sections 1-7, including shifted Gram scalar, doubled endpoint depth and multiplication operator",
+      "reason": "The orthogonal constant-term ratio applies to the actual signed moments, and the same monic basis/scales cancel exactly. The shifted nonconstant Gram has unit residue; replacing the constant by 1+z^2 leaves its sole radical direction, so the full Schur scalar has the endpoint valuation and is nonzero by real positivity. Orthogonality against f=(1-z^2)^m gives the exact coupled endpoint identity. The common difference filtration and odd binom(m+d,m) make every lower term divisible by D_m^2; the leading term has one extra2. The signed Gram's isolated constant response makes eta0 even. Computing the complete-pair inverse with alternating H_A shows its quadratic residue is a_(2m-1)=0, giving v2(P_n(0))>=2sigma+1 and v2(q_center)>=n+1 after the full pair gcd. The divided basis is stable under multiplication; its sole degree-n boundary adds 2m eta e_last^T, so its characteristic polynomial is P_n, det=-P_n(0), and the exact zero-vector polynomial is f. Reduction on the power-of-two subfamily gives z+z^n and one simple root near0. None of these arguments supplies the next digit. The conjectural wording is an intermediate version superseded in author scope by WEIGHTED_REGULAR_EXACT_DYADIC_ENDPOINT_THEOREM.md, whose computational proof still needs separate main verification."
+    },
+    {
+      "id": 2267,
+      "representative": "work/session_20260913/raw_positive_weight_channel_angle_closure.md",
+      "sha256": "c346568fde282c54db2f7380ef7511c2f9dfc6bf03c3b78981f9089181540653",
+      "status": "audited",
+      "review_id": 115,
+      "verdict": "supported positive-weight angle closure and reoptimized sublinear rank defect accepted",
+      "scope": "Complete original for sufficiently large n and its new n^(3/4) cutoff/metric. The supported surrogate angle and actual restricted energy estimates do not control all remaining directions, the physical endpoint metric or primitive error.",
+      "reason": "Main read the full reflection norm/involution, high ratio, finite module and spectral parents. Reflection commutes with powers of H only while the explicit half-power paths stay inside the finite compression; positive polynomial energy forms need precisely those half-powers. Main checked even and odd quadratic terms, cond(H)<=28n², the exact supported involution and resulting1/A_n angle. The new cutoff gives a positive expansion of F and support s+h<2n. Chebyshev localization on the enlarged gap supplies exp(-4 sqrt(6n)), and the separately normalized perturbation returns to the actual channels without assuming a bound for the full conjugated reflection. Weyl and exact combined normalization prove the stated angle and all-but-O(n^3/4) retained energy singular values. The original cardinal/amplitude and physical normalization remain separate."
+    },
+    {
+      "id": 2277,
+      "representative": "work/session_20260913/raw_reflection_convention_bridge.md",
+      "sha256": "15274c40caa0d5985f6548a5711585378ec542425e635687402cbfa41c99744d",
+      "status": "audited",
+      "review_id": 170,
+      "verdict": "exact reflection conventions, spectral norm transfer and signed endpoint distinction accepted",
+      "scope": "Complete original. This transfers unitary norms and principal angles only; signed endpoint and odd seed equations keep the reflected signs. Actual two-measure seed norms are 1 and 1/4, as in the separately reviewed parent.",
+      "reason": "Main read every line. Substitution P(t)=U(1-t) gives the reflected high tests and derivatives with the stated alternating signs; the factorial derivative evaluations give the same endpoint scalar. The already main-reviewed self-adjoint boundary-free T has simple reflection parities, so reflection commutes with its and Legendre spectral projections. Conjugation by the two diagonal sign matrices preserves singular values and squared cofactor norms. The v1 seed is odd and changes sign while either positive measure and its norm remain unchanged. No claim identifying unreflected high tests or signed endpoints is adopted."
+    },
+    {
+      "id": 1906,
+      "representative": "work/session_20260913/hp_b1_primitive_arithmetic_attempt.md",
+      "sha256": "72d609bf2fca29c5cd4b14a4a15cb5f7e8f544e3a31fea0d152af7e561865992",
+      "status": "audited",
+      "review_id": 34,
+      "verdict": "folding, full-depth endpoint-gcd and companion-height arguments valid with a required n>=2 denominator-support qualification; old coefficient-clearer target is closed",
+      "scope": "Every proof and exact formula; correct support is primes<=max(n,2); numerical resultant and diagnostic values remain historical",
+      "reason": "The Legendre parameter symmetry pairs k,p-1-k and gives the exact cutoff m=p-2-n. Pole thresholds and Wilson contractions retain the first lift. Thus every odd p>n cancels from elementary projection denominators; dyadic factors remain, so the unqualified support<=n sentence is false at n=1. Direct K1=-1+3t+3s-6ts gives C0=-1/2,C1=-z/2; the uniform correction is support<=max(n,2), or n>=2. At p>2n+2 the divided full primitive triple has a unit constant exponential coefficient; its two higher Rodrigues tests give the exact Hn/Jn+1 gcd bound. Exact companion expansion yields (14), with factorially small e-error and the stated height bound because S delta is integral and f* is bounded. The continued-fraction inequality and conditional3/2 threshold follow. The source already flags this target as subsequently impossible; the main-reviewed reproducing-kernel obstruction proves minimum coefficient-clearer log2n log n+O(n), without deciding the reduced endpoint height."
+    },
+    {
+      "id": 2756,
+      "representative": "work/session_20261002_codex_continuation/main/INFINITE_INTEGRAL_JET_PULLBACK_EXISTENCE.md",
+      "sha256": "123faa23409fed5279d0f8ffc3665a5138ad713d4c6cea84c1bec01a356486c2",
+      "status": "audited",
+      "review_id": 50,
+      "verdict": "infinite holomorphic construction and polynomial radii approaching2.65 and2.665 accepted",
+      "scope": "Complete body, including the later2.665 refinement. Existence for each r below the stated radius; no entire limit map, displayed polynomial at the limit radius, sharp class supremum or arithmetic endpoint bound.",
+      "reason": "Main reconstructed all fields of both finite trees and prefixes from fresh elliptic inputs, confirming |T9|<1/4,F9<1/40 at53/20 and |T10|<1/4,F10<1/40 at533/200. Nearest-integer choice gives |b−T|<=F/2, |b|<=21/80 and1−bT>=299/320; the exact endpoint and spacing constants contract for all subsequent orders. Every finite chain reverses from its final prescribed constant, preserving the endpoint and integral jets. Schwarz |f_N(w)|<=|w|/R keeps compact images inside the covering disk; Montel and eventually fixed derivatives give a real holomorphic omitted-value limit. The endpoint correction to a Taylor polynomial has integral(M+1)st derivative and converges uniformly on r<r2<R. Positive compact puncture distance supplies zero-free closed disks and hence polynomial composition radius>r. Bell polynomials and the integer F-jet recurrence give all-order integrality, while the real path fixes value pi. This proof still supplies no small primitive linear forms."
+    },
+    {
+      "id": 2745,
+      "representative": "work/session_20261002_codex_continuation/main/EXPLICIT_DEGREE81_HURWITZ_PULLBACK.md",
+      "sha256": "d06a18ee913f8bed7196c99d04c2840b19e10ec9d80bf83b35a4a79c355e4c31",
+      "status": "audited",
+      "review_id": 55,
+      "verdict": "explicit degree81 integral polynomial and composition radius>401/200 accepted",
+      "scope": "Complete body and frozen80-entry endpoint-basis vector. Exact zero-free closed disk and all-order composition integrality; no reliance on candidate-generation diagnostics or an irrationality inference.",
+      "reason": "Main independently reconstructs the endpoint polynomial and its integral jets, then the cleared Gaussian reciprocal at401/200. All81 saved stages, leading/constant norm bits, gap hashes, primitive content removals,128-bit dyadic bounds, next-state hashes and final constant agree. The exact positive gaps prove disk stability by the separately checked Cohn/Rouche induction. Real conjugation, genuine logarithmic puncture preimages, Bell composition and the real endpoint path give Taylor radius>401/200 and value pi. POLYNOMIAL_PULLBACK_MAIN_RECONSTRUCTION.json records this reconstruction without executing an archived generator."
+    }
+  ]
+}

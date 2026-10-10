@@ -1,0 +1,74 @@
+{
+  "item": 325,
+  "schema": "item325-j2-conic-involution-recurrence-ledger-v1",
+  "classification": "PROVED_SUMMATION_SPECIFIC_COMPLETION_AND_SCOPED_LINEAR_COMPLEXITY_NO_GO",
+  "actual_family": {
+    "row_prime": "p=2r+6s+3",
+    "fixed_M_relation": "2M=5r+14s+7",
+    "m": "s-1",
+    "n": "(p-1)/2",
+    "q": "n-m=r+2s+2=2(M-p)+1",
+    "q_constraints": "q is odd and p/3<q<=n"
+  },
+  "admission": {
+    "prior_gate": "D_(r,s)=0",
+    "chart": "ell_r nonzero modulo p",
+    "actual_implication": "original collision iff H_(s-1)=Theta_(r,s) modulo p",
+    "new_condition": false,
+    "role": "Closer theorem internal to the retained ordinary-j2 branch"
+  },
+  "summation_specific_completion": {
+    "kernel": "K_p(x)=chi(x*(1-x/2))",
+    "involution": "x->2-x",
+    "orbit_polynomial": "R_q(x)=(x^q-(2-x)^q)/(2*(1-x))",
+    "endpoint": "R_q(1)=-q and K_p(1)=epsilon",
+    "complete_identity": "H_(n-q)=epsilon-sum_[x in F_p] R_q(x)*K_p(x)",
+    "centered_expansion": "R_q(1+y)=-sum_j binom(q,2j+1)*y^(2j)",
+    "complete_even_moment": "sum_y y^(2j)*chi(1-y^2)=-(-1)^(n-j)*binom(n,j)",
+    "final_convolution": "H_(n-q)=epsilon*(1-(-1)^n*sum_j (-1)^j*binom(q,2j+1)*binom(n,j))"
+  },
+  "moving_exponent_state": {
+    "coordinates": [
+      "Y_q=H_(n-q)",
+      "T_q=sum_x x^q*K_p(x)=-h_(n-q)"
+    ],
+    "transfer": "Y_(q+1)=Y_q+T_q; T_(q+1)=((2q+1)/(q+1))*T_q",
+    "seed": "Y_0=epsilon; T_0=-(-1)^n*epsilon",
+    "dimension": 2,
+    "triangular": true,
+    "all_actual_factors_units": true
+  },
+  "scoped_no_go": {
+    "pointwise_fourier_support": "exactly p-1 nonzero modes",
+    "orbit_polynomial_minimal_degree": "q-1>p/3-1",
+    "centered_nonzero_mode_count": "(q+1)/2>p/6",
+    "rank_one_gauge_equation": "((2x+1)/(x+1))*R(x+1)-R(x)=1",
+    "characteristic_zero_gauge": "no rational solution",
+    "characteristic_p_gauge": "every rational solution, if any, has denominator degree at least (p-1)/2",
+    "closed_methods": [
+      "bounded-support pointwise multiplicative Fourier completion",
+      "bounded-degree polynomial compression after conic orbit averaging",
+      "bounded-degree rational rank-one scalarization of the moving-exponent recurrence"
+    ],
+    "not_closed": [
+      "higher-rank arithmetic coupling to Theta_(r,s)",
+      "nonlinear factorization of the terminating convolution",
+      "average gcd or weighted zero-density methods",
+      "degenerate connection charts"
+    ]
+  },
+  "capacity": {
+    "raw_isolated_ordinary_j2_ceiling_per_6M": "1/105",
+    "raw_decimal": "0.0095238095238095238095238095...",
+    "adjacent_prime_transfer_mass": "o(M) by Item322",
+    "isolated_single_row_mass_controlled": false,
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  },
+  "master_ledger": {
+    "booked_r1_unchanged": "0.1365141682948128184504238226...",
+    "threshold_T_unchanged": "1.1561471519642446123307302239...",
+    "deficit_unchanged": "1.0196329836694317938803064012..."
+  },
+  "smallest_open_arithmetic_theorem": "prove o(M) logarithmic mass for fixed-M primes satisfying both the determinant gate and the exact target convolution on every relevant chart"
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "research-artifact-manifest-v1",
+  "item": 424,
+  "title": "First-Witt small-prime escape: the missing rational endpoint digit and its exact capacity",
+  "status": "ROOT_AUDITED_CANONICAL_EXACT_BRIDGE_CAPACITY_SCREEN_NO_BOOKING",
+  "scope": "Actual ordinary rank-zero mixed-cubic small-prime rows. The theorem constructs an integral first-Witt endpoint error, classifies the first escape beyond the clearing/Cartier baseline, and capacity-screens one radical layer. It does not bound arbitrary deeper valuations.",
+  "artifacts": [
+    "sources/item424_small_prime_witt_escape_report.md",
+    "scripts/item424_small_prime_witt_escape_certificate.py",
+    "results/item424_small_prime_witt_escape_certificate.json",
+    "results/item424_small_prime_witt_escape_certificate_replay.json",
+    "results/item424_small_prime_witt_escape_root_replay.json",
+    "results/item424_small_prime_witt_escape_ledger_delta.json",
+    "manifests/item424_small_prime_witt_escape_manifest.json",
+    "results/item424_small_prime_witt_escape_root_audit.json",
+    "results/item424_small_prime_witt_escape_hashes.sha256"
+  ],
+  "dependencies": [
+    "sources/mixed_cubic_small_prime_rank_one_cartier_mass.md",
+    "sources/item200_common_log_gcd_report.md",
+    "sources/item393_mixed_cubic_small_prime_strata_ceiling_report.md",
+    "results/item393_mixed_cubic_small_prime_strata_ceiling_ledger.json",
+    "sources/item415_marked_selector_compulsory_strip_report.md",
+    "results/item415_marked_selector_compulsory_strip_ledger_delta.json",
+    "sources/item417_mixed_strip_multiplicity_report.md",
+    "results/item417_mixed_strip_multiplicity_ledger_delta.json",
+    "sources/item418_normalized_large_carrier_report.md",
+    "results/item418_normalized_large_carrier_ledger_delta.json",
+    "sources/witt_endpoint_first_lift.md",
+    "sources/item421_small_prime_primitive_layer_report.md",
+    "results/item421_small_prime_primitive_layer_certificate.json",
+    "results/mixed_cubic_positive_match_exact_scan_m100_N6m.json"
+  ],
+  "proved": [
+    "integral first-Witt vector W_s=(R_s,L_s/p,E_s/p) mod p from the exact Bockstein omega_s=d(F_s^pT_s)-p eta_s",
+    "for p in P_m with p^2>4m+1 and b=v_p(K_m), the exact equivalence v_p(c_m)>=b+1 iff kappa=A_m/p=0 mod p",
+    "if kappa=0 and xi=8B_m/p^2 is nonzero mod p, the content depth is exactly b+1",
+    "on the booked P_m intersect H_m overlap, the postbooking escape is exactly kappa=0",
+    "exact endpoint-error explanations of (m,p)=(2,11),(9,47),(13,11)",
+    "one-layer support ceilings C_F/6 and (C_F-2)/6",
+    "zero ledger delta"
+  ],
+  "finite_only": [
+    "the m<=100 incidence counts and depth distribution",
+    "the observed kappa- and xi-zero frequencies",
+    "all finite stream digests"
+  ],
+  "not_claimed": [
+    "positive weighted density of kappa-zero rows",
+    "an upper bound for arbitrary multiplicities after kappa vanishes",
+    "a reduced small-prime or global ceiling",
+    "new booked content",
+    "Route-1 closure",
+    "irrationality of e+pi"
+  ]
+}

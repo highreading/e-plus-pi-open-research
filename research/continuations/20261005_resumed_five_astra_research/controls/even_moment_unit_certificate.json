@@ -1,0 +1,282 @@
+{
+  "source_sha256": "820239425e1a895071ef408764bad8ef93e6c94c5745d40ecd3cb45d05482d54",
+  "gamma_direct_cases": 48,
+  "unit_and_pivot_cases": [
+    {
+      "n": 1,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 2,
+      "det_mod3": 2,
+      "expected": 2,
+      "terminal_pivot_mod3": 2
+    },
+    {
+      "n": 3,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 4,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 5,
+      "det_mod3": 2,
+      "expected": 2,
+      "terminal_pivot_mod3": 2
+    },
+    {
+      "n": 6,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 7,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 8,
+      "det_mod3": 2,
+      "expected": 2,
+      "terminal_pivot_mod3": 2
+    },
+    {
+      "n": 9,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 10,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 11,
+      "det_mod3": 2,
+      "expected": 2,
+      "terminal_pivot_mod3": 2
+    },
+    {
+      "n": 12,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 13,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 14,
+      "det_mod3": 2,
+      "expected": 2,
+      "terminal_pivot_mod3": 2
+    },
+    {
+      "n": 15,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 16,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 17,
+      "det_mod3": 2,
+      "expected": 2,
+      "terminal_pivot_mod3": 2
+    },
+    {
+      "n": 18,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 19,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 20,
+      "det_mod3": 2,
+      "expected": 2,
+      "terminal_pivot_mod3": 2
+    },
+    {
+      "n": 21,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 22,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 23,
+      "det_mod3": 2,
+      "expected": 2,
+      "terminal_pivot_mod3": 2
+    },
+    {
+      "n": 24,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 25,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 26,
+      "det_mod3": 2,
+      "expected": 2,
+      "terminal_pivot_mod3": 2
+    },
+    {
+      "n": 27,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 28,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 29,
+      "det_mod3": 2,
+      "expected": 2,
+      "terminal_pivot_mod3": 2
+    },
+    {
+      "n": 30,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 31,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 32,
+      "det_mod3": 2,
+      "expected": 2,
+      "terminal_pivot_mod3": 2
+    },
+    {
+      "n": 47,
+      "det_mod3": 2,
+      "expected": 2,
+      "terminal_pivot_mod3": 2
+    },
+    {
+      "n": 48,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 49,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 80,
+      "det_mod3": 2,
+      "expected": 2,
+      "terminal_pivot_mod3": 2
+    },
+    {
+      "n": 81,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 82,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 120,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 121,
+      "det_mod3": 1,
+      "expected": 1
+    },
+    {
+      "n": 122,
+      "det_mod3": 2,
+      "expected": 2,
+      "terminal_pivot_mod3": 2
+    }
+  ],
+  "exact_signed_cases": [
+    {
+      "n": 2,
+      "eta_v3": 0,
+      "xi_v3": 1,
+      "terminal_correction_v3": 0,
+      "rank_one_formula_pass": true,
+      "actual_force_identity_pass": true,
+      "scope": "Auxiliary finite order; retained original order-six congruence is not assumed here."
+    },
+    {
+      "n": 5,
+      "eta_v3": 1,
+      "xi_v3": 0,
+      "terminal_correction_v3": 1,
+      "rank_one_formula_pass": true,
+      "actual_force_identity_pass": true,
+      "scope": "Auxiliary finite order; retained original order-six congruence is not assumed here."
+    },
+    {
+      "n": 8,
+      "eta_v3": 1,
+      "xi_v3": 0,
+      "terminal_correction_v3": 2,
+      "rank_one_formula_pass": true,
+      "actual_force_identity_pass": true,
+      "scope": "Auxiliary finite order; retained original order-six congruence is not assumed here."
+    },
+    {
+      "n": 11,
+      "eta_v3": 1,
+      "xi_v3": 0,
+      "terminal_correction_v3": 4,
+      "rank_one_formula_pass": true,
+      "actual_force_identity_pass": true,
+      "scope": "Auxiliary finite order; retained original order-six congruence is not assumed here."
+    },
+    {
+      "n": 14,
+      "eta_v3": 1,
+      "xi_v3": 0,
+      "terminal_correction_v3": 2,
+      "rank_one_formula_pass": true,
+      "actual_force_identity_pass": true,
+      "scope": "Auxiliary finite order; retained original order-six congruence is not assumed here."
+    },
+    {
+      "n": 17,
+      "eta_v3": 1,
+      "xi_v3": 0,
+      "terminal_correction_v3": 2,
+      "rank_one_formula_pass": true,
+      "actual_force_identity_pass": true,
+      "scope": "Auxiliary finite order; retained original order-six congruence is not assumed here."
+    }
+  ],
+  "scope": "Finite exact audit; general unit/localization theorem still needs its proof."
+}

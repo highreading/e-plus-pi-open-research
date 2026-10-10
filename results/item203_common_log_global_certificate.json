@@ -1,0 +1,260 @@
+{
+  "definitions": {
+    "A": "(1-v)(1-2v)=1-3v+2v^2",
+    "D": "1-2v+2v^2",
+    "E_pj": "(F_pj(v)^p-F_pj(v^p))/p",
+    "F_pj": "A(v)^(3j+1)/D(v)^(2j+1)",
+    "P_ps": "A(v)^((p-6s-3)/2)*D(v)^(2s-1)",
+    "common_log_three_equations": "e_0=0, e_-1=2e_-3, e_-2=2e_-3 (mod p)",
+    "divided_line_parameter": "e_-3 is arbitrary; the support-gap lambda=0 statement concerns the undivided state modulo p",
+    "five_coordinates": "e_d=[v^(4m+d)]E_pj(v)P_ps(v), d=-3,-2,-1,0,1",
+    "global_gauge": "all same-g0 solutions through degree <p^2 differ by multiplication by 1+pH(v^p), H(0)=0",
+    "undivided_actual_state_mod_p": "(g_4m,g_(4m-1),g_(4m-2),g_(4m-3))=(0,0,0,0)"
+  },
+  "exact_identities": {
+    "Delta_p": "(R(v)^p-R(v^p))/p",
+    "defect_mod_p": "E_pj = a*A(v^p)^(a-1)*D(v^p)^(-c)*Delta_p(A)-c*A(v^p)^a*D(v^p)^(-c-1)*Delta_p(D)",
+    "degree_witnesses": "[v^(2p-1)]Delta_p(A)=-3 and [v^(2p-1)]Delta_p(D)=-2 (mod p)",
+    "factorization": "G_m(v)=F_pj(v)^p P_ps(v)",
+    "moving_degree": "deg(P_ps)=p-2s-5",
+    "support_gap_residues": "p-2s-4,...,p-2s are strictly above deg(P_ps)",
+    "truncated_A_kernel": "[v^k]Delta_p(A)=-(1+2^k)/k for 1<=k<p (mod p)",
+    "truncated_D_kernel": "[v^k]Delta_p(D)=-tau_k/k, tau_0=tau_1=2, tau_k=2tau_(k-1)-2tau_(k-2)"
+  },
+  "external_numeric_backend": null,
+  "finite_replay": {
+    "common_log_zero": 0,
+    "delta_degree_checks": [
+      [
+        11,
+        21
+      ],
+      [
+        13,
+        25
+      ],
+      [
+        17,
+        33
+      ],
+      [
+        19,
+        37
+      ],
+      [
+        23,
+        45
+      ],
+      [
+        29,
+        57
+      ],
+      [
+        31,
+        61
+      ],
+      [
+        37,
+        73
+      ],
+      [
+        41,
+        81
+      ],
+      [
+        43,
+        85
+      ],
+      [
+        47,
+        93
+      ],
+      [
+        53,
+        105
+      ],
+      [
+        59,
+        117
+      ],
+      [
+        61,
+        121
+      ],
+      [
+        67,
+        133
+      ],
+      [
+        71,
+        141
+      ],
+      [
+        73,
+        145
+      ],
+      [
+        79,
+        157
+      ],
+      [
+        83,
+        165
+      ],
+      [
+        89,
+        177
+      ],
+      [
+        97,
+        193
+      ],
+      [
+        101,
+        201
+      ],
+      [
+        103,
+        205
+      ],
+      [
+        107,
+        213
+      ],
+      [
+        109,
+        217
+      ],
+      [
+        113,
+        225
+      ],
+      [
+        127,
+        253
+      ],
+      [
+        131,
+        261
+      ],
+      [
+        137,
+        273
+      ],
+      [
+        139,
+        277
+      ],
+      [
+        149,
+        297
+      ],
+      [
+        151,
+        301
+      ],
+      [
+        157,
+        313
+      ],
+      [
+        163,
+        325
+      ],
+      [
+        167,
+        333
+      ],
+      [
+        173,
+        345
+      ],
+      [
+        179,
+        357
+      ],
+      [
+        181,
+        361
+      ],
+      [
+        191,
+        381
+      ],
+      [
+        193,
+        385
+      ],
+      [
+        197,
+        393
+      ],
+      [
+        199,
+        397
+      ],
+      [
+        211,
+        421
+      ],
+      [
+        223,
+        445
+      ],
+      [
+        227,
+        453
+      ],
+      [
+        229,
+        457
+      ],
+      [
+        233,
+        465
+      ],
+      [
+        239,
+        477
+      ]
+    ],
+    "distinct_primes": 48,
+    "e0_zero": 11,
+    "five_coordinate_checks": 3505,
+    "gauge_recurrence_checks": 299557,
+    "gauge_target_checks": 3505,
+    "line_membership": 0,
+    "m_max": 160,
+    "maximum_prime": 239,
+    "minimum_prime": 11,
+    "row_digest": "620b73874430c1ff60f77c0f53cc2260f679ec5263637ef162bdb1dfc8fd23d8",
+    "rows": 701,
+    "warning": "all row counts and nonoccurrence statements are exact finite diagnostics only"
+  },
+  "pinned_dependencies": {
+    "scripts/item194_rankzero_pnt_certificate.py": "ef23f22deea2fa4053ee8af24f9e73e70a2e50a74e805ddcc04426100ebdf02e",
+    "scripts/item197_common_log_locus_certificate.py": "f85c36169c7eb0aee3fb73f8030d3ddb2296b00077370012be84479eea9aeeb9",
+    "scripts/item200_common_log_gcd_certificate.py": "26ef60a6f89d569d7f22fdd504dd76f5b3b6a2c11d9b99f2c56a0be645c1396b",
+    "sources/item194_rankzero_pnt_report.md": "9062718b5dbb0781f1084b6496adbf0dfffb836838e2f202a1257c5f23b095b0",
+    "sources/item197_common_log_locus_report.md": "2241656ac9c47e81b5026449a97c15bed7d35290bf2b6a91cdfed4bb3fe3683c",
+    "sources/item200_common_log_gcd_report.md": "06003e9fd03f74b2406330a81d49493fa2f4390c82f359be39bf328184605c68"
+  },
+  "schema": "item203-common-log-global-v1",
+  "scope": {
+    "alternative_representation": "not ruled out",
+    "bounded_degree_claim": "none; the displayed direct kernels have degree at least 2p-1",
+    "mass_or_density_claim": "none",
+    "what_is_removed": "the apparent factorial/nonunit-division ambiguity in the full recurrence transfer",
+    "what_remains": "membership of an explicit five-coordinate Frobenius defect in a fixed local line"
+  },
+  "status": {
+    "A1_digit": "SEPARATE_NOT_USED",
+    "actual_target_support_gap": "PROVED_IN_REPORT",
+    "cancellation_aware_global_transfer_uniqueness": "PROVED_IN_REPORT",
+    "common_log_exclusion_or_sublinear_mass": "OPEN",
+    "common_log_local_line_equivalence": "PROVED_IN_REPORT",
+    "direct_defect_kernel_degree_growth": "PROVED_IN_REPORT",
+    "finite_nonoccurrence": "EXACT_FINITE_ONLY",
+    "five_coordinate_frobenius_defect": "PROVED_IN_REPORT"
+  }
+}

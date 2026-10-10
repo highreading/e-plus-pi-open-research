@@ -1,0 +1,58 @@
+{
+  "artifact": "item414_mixed_scalar_forced_interval_normalization_ledger_delta",
+  "item": 414,
+  "status": "WORK_ONLY_UNAUDITED_NO_BOOKING",
+  "booking": {
+    "route1_rate_delta": 0,
+    "mixed_cubic_divisor_lower_bound_delta": 0,
+    "beta_matching_lower_bound_delta": 0,
+    "total_capacity_ceiling_delta_proved": 0
+  },
+  "capacity_admission": {
+    "inherited_combined_large_component_ceiling": "log(136)/6 = 0.8187758142893420014...",
+    "raw_Item410_height_upper_constant": "(14 log 2 + 4 log(3e/2))/6 = 2.554320160045315...",
+    "forced_interval_stripped_height_upper_constant": "(14 log 2 + 4 log(3e/2))/6 - 1/3 = 2.220986826711981...",
+    "competitive_with_inherited_ceiling": false,
+    "reason_no_capacity_reduction": "the stripped height bound remains larger than the inherited combined ceiling, and H-only exclusion has no disjoint primitive-G lower bound to subtract"
+  },
+  "provenance_and_overlap": {
+    "canonical_Item200": "the earlier raw residue pair already has the full forced Cartier divisor F_m=G_m",
+    "full_forced_rate": "log F_m/m = -4 log 2 + pi/sqrt(3) + 3 log 3 = 2.337047507998765...",
+    "Item200_j0_strip": "D_m=product of primes p with 4m+1<p<=6m",
+    "new_scalar_strip_relation": "Q_m=D_m times the optional boundary prime 4m+1 when that integer is prime",
+    "new_content_scope": "transport of the j=0 strip into W_m,J_(m,0),J_(m,2), plus correction of their raw-radical target; not discovery of a new lambda/Cartier source"
+  },
+  "proved_actual_family_results": {
+    "forced_product": "Q_m=product of primes ell with 4m<ell<6m",
+    "phase_independent_divisibility": "Q_m divides num(E_m) and num(O_m), hence W_m whenever W_m is nonzero",
+    "both_phase_divisibility": "Q_m divides J_(m,0) and J_(m,2); the opposite phase follows from an exact two-coefficient gap",
+    "corrected_weighted_carrier": "sum over actual compatible H-collision primes log p <= log rad_(>6m)(W_m)",
+    "full_radical_obstruction": "on every nonresonant sequence, the full radicals of W_m and both J phases are at least theta(6m)-theta(4m)=2m+o(m) by the classical PNT"
+  },
+  "corrected_smallest_open_lemmas": [
+    "uniform exclusion of E_m=O_m=0",
+    "log rad_(>6m)(W_m)=o(m)",
+    "the corresponding phasewise large-prime radical bound for J_(m,delta)",
+    "rad_(>6m)(J_(m,delta))=1 for both phases, which would close the compatible H stratum"
+  ],
+  "overlap_rules": [
+    "every forced prime in Q_m is at most 6m and cannot be an actual compatible collision prime, which is strictly larger than 6m",
+    "Q_m is transported compulsory normalization content, already represented by Item200's forced Cartier architecture, not a new bookable divisor factor",
+    "W_m is phase independent, and the whole Q_m is proved to divide each phase carrier J_(m,delta)",
+    "an H-only upper bound cannot be subtracted from the combined H/primitive-G ceiling without a disjoint primitive-G lower bound"
+  ],
+  "strict_nonclaims": [
+    "the full radical of W_m has zero rate",
+    "the full radical of either J phase has zero rate",
+    "the corrected large-prime radical has zero rate",
+    "a positive Route-1 booking or a proved capacity reduction",
+    "Route-1 closure or irrationality of e+pi"
+  ],
+  "open": [
+    "compatible H support",
+    "primitive and marked mixed-cubic support",
+    "c_m^>=1",
+    "Route 1",
+    "irrationality of e+pi"
+  ]
+}

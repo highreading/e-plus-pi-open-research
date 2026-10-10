@@ -1,0 +1,42 @@
+{
+  "schema": "item417-mixed-strip-multiplicity-manifest-v2",
+  "item": 417,
+  "status": "CANONICAL_ROOT_AUDITED_ZERO_ASYMPTOTIC_DELTA",
+  "artifacts": {
+    "sources/item417_mixed_strip_multiplicity_report.md": "40397f0f04482162933f129e43e57ca4de4244b06755ba728e19ab551a8b534e",
+    "scripts/item417_mixed_strip_multiplicity_certificate.py": "4a1bd6d0e9caca950cc3063c600f010fb8dee04a42bfeee8528cfcefa6e162b2",
+    "results/item417_mixed_strip_multiplicity_certificate.json": "11e7046e1f8430ec6961aa0baf9172d75d97c66596fc781849d4722384b03209",
+    "results/item417_mixed_strip_multiplicity_certificate_replay.json": "11e7046e1f8430ec6961aa0baf9172d75d97c66596fc781849d4722384b03209",
+    "results/item417_mixed_strip_multiplicity_ledger_delta.json": "39be69d2d935d3115ff69d64fe642f7cc99626991eb0fafa30bad9c4f95de60d"
+  },
+  "dependencies": {
+    "sources/mixed_cubic_small_prime_rank_one_cartier_mass.md": "593e1f69809c44245bd2d79bf1a503f96d1972a39ba17ea43ba7cd9f4b0e124b",
+    "sources/item200_common_log_gcd_report.md": "06003e9fd03f74b2406330a81d49493fa2f4390c82f359be39bf328184605c68",
+    "sources/item390_mixed_cubic_fresh_primitive_saturation_report.md": "5bfb3c871b12524f672df515e920236f2470145d4f68bdcd7b47f29408692f46",
+    "sources/item415_marked_selector_compulsory_strip_report.md": "da79ea786471a6abb35288f242a0b0b2307a695bd9352eaa3c4e2033fc701777",
+    "results/item415_marked_selector_compulsory_strip_certificate.json": "af731cf70e9a6d40cab380d38d5b404786cefef196eb42f743634b8d390cb29e",
+    "manifests/item415_marked_selector_compulsory_strip_manifest.json": "8ae673cec3d739af76f3e73eaeb9266868431a77ab9bcaffd72a42cf522780b1",
+    "results/item415_marked_selector_compulsory_strip_root_audit.json": "123576c914528abdc1e3ffa3993e5161c56f92ac21e4ec33b9c6f450edfa653c",
+    "sources/item418_normalized_large_carrier_report.md": "5b490e38d127deec51cac34a80c6856ed824534daad8fc3a387fe6cbb7f7db68",
+    "results/item418_normalized_large_carrier_certificate.json": "bcea1e6be723e48e3d1ca63bc5644b208059e5138799108ea403b0ba5d789075",
+    "results/item418_normalized_large_carrier_root_audit.json": "530eb0827398480fcff5c8afb564c174d6f9cab8f6be00f5e965ed796eb29c63"
+  },
+  "claim_boundary": {
+    "proved": [
+      "F_m times the de-overlapped squarefree all-level Cartier-zero tower product divides both residue integers; the two row-witness levels may differ",
+      "the extra tower support lies below sqrt(6m) and has logarithmic mass o(m)",
+      "F_m does not have uniform multiplicity two in the actual family",
+      "a genuinely higher-level zero witness need not force a second p-adic digit",
+      "no current Item418 component-ceiling or central-ledger change"
+    ],
+    "exact_finite_only": [
+      "incidence counts and valuations through m=160"
+    ],
+    "open": [
+      "positive-linear weighted multiplicity from an integral lift",
+      "arithmetic common factors outside degree-zero Cartier images",
+      "weighted o(m) for the fully normalized p>6m carrier",
+      "Route 1 and irrationality of e+pi"
+    ]
+  }
+}

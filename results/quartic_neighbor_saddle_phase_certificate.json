@@ -1,0 +1,205 @@
+{
+  "critical_three_power_hankel_and_positive_kernel": {
+    "first_positive_after_last_nonpositive_in_scan": 20,
+    "n_max": 160,
+    "negative_pairs": [
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        10,
+        23
+      ],
+      [
+        12,
+        30
+      ],
+      [
+        18,
+        52
+      ]
+    ],
+    "positive_count": 74,
+    "positive_integer_kernel_records": [
+      {
+        "height_ratio_over_H_eta_inverse": "1.362551266575135",
+        "k": 60,
+        "log_tail_ratio_upper_exponent": "-9.08908734898781",
+        "log_vector_height_digits": 44,
+        "n": 20,
+        "negative_quadratic_discriminant": true,
+        "positive_kernel_coefficient_digit_counts": [
+          45,
+          45,
+          45
+        ],
+        "positive_kernel_coefficient_signs": [
+          1,
+          -1,
+          1
+        ],
+        "root_interval_width": "0.195844773965793",
+        "stable_root_distance_from_one": "0.06781747291970318",
+        "u": 16,
+        "v": 17
+      },
+      {
+        "height_ratio_over_H_eta_inverse": "0.3776746008512119",
+        "k": 148,
+        "log_tail_ratio_upper_exponent": "-41.177055740848225",
+        "log_vector_height_digits": 105,
+        "n": 40,
+        "negative_quadratic_discriminant": true,
+        "positive_kernel_coefficient_digit_counts": [
+          106,
+          106,
+          106
+        ],
+        "positive_kernel_coefficient_signs": [
+          1,
+          -1,
+          1
+        ],
+        "root_interval_width": "0.1885251151762173",
+        "stable_root_distance_from_one": "0.09092339973349139",
+        "u": 11,
+        "v": 12
+      },
+      {
+        "height_ratio_over_H_eta_inverse": "1.8187351987639",
+        "k": 351,
+        "log_tail_ratio_upper_exponent": "-123.37917205872799",
+        "log_vector_height_digits": 247,
+        "n": 80,
+        "negative_quadratic_discriminant": true,
+        "positive_kernel_coefficient_digit_counts": [
+          249,
+          249,
+          249
+        ],
+        "positive_kernel_coefficient_signs": [
+          1,
+          -1,
+          1
+        ],
+        "root_interval_width": "0.07993162576518921",
+        "stable_root_distance_from_one": "0.003288405336141611",
+        "u": 71,
+        "v": 70
+      },
+      {
+        "height_ratio_over_H_eta_inverse": "0.3252974749250163",
+        "k": 812,
+        "log_tail_ratio_upper_exponent": "-323.9805740680553",
+        "log_vector_height_digits": 577,
+        "n": 160,
+        "negative_quadratic_discriminant": true,
+        "positive_kernel_coefficient_digit_counts": [
+          578,
+          578,
+          578
+        ],
+        "positive_kernel_coefficient_signs": [
+          1,
+          -1,
+          1
+        ],
+        "root_interval_width": "0.09119897990983932",
+        "stable_root_distance_from_one": "0.05662754152078971",
+        "u": 17,
+        "v": 16
+      }
+    ],
+    "zero_pairs": []
+  },
+  "double_integral_diagnostics": [
+    {
+      "direct": "0.000064187372699162225440078018086336354",
+      "double_integral": "0.000064187372699162225440078018086336354",
+      "k": 4,
+      "n": 4,
+      "relative_error": "5.166575e-71"
+    },
+    {
+      "direct": "-0.000000051895336197832606501214845769546543",
+      "double_integral": "-0.000000051895336197832606501214845769546543",
+      "k": 7,
+      "n": 8,
+      "relative_error": "1.0400945e-71"
+    },
+    {
+      "direct": "2.400858567442629778968399470722231e-11",
+      "double_integral": "2.400858567442629778968399470722231e-11",
+      "k": 11,
+      "n": 12,
+      "relative_error": "1.0428653e-69"
+    }
+  ],
+  "dyadic_wronskian": {
+    "finite_conjectural_valuation_failures": [],
+    "identity_failures": [],
+    "pairs_checked": 3980,
+    "zero_wronskians": []
+  },
+  "exact_beta_coordinate_reconstruction": true,
+  "parameters": {
+    "k_max": 120,
+    "n_max": 80
+  },
+  "saddle_diagnostics": [
+    {
+      "D_over_r5": "(-1.6916822532123813268 - 0.90496254739444885953j)",
+      "I_relative_error": "0.001542211964",
+      "J_relative_error": "0.003986732638",
+      "k": 148,
+      "n": 40,
+      "phase_mesh_over_r5": "-0.983798217230849",
+      "r": "0.50984078147497986543"
+    },
+    {
+      "D_over_r5": "(-1.6753978931657835902 - 0.91406962819007952404j)",
+      "I_relative_error": "0.000669853711",
+      "J_relative_error": "0.001906462026",
+      "k": 351,
+      "n": 80,
+      "phase_mesh_over_r5": "-0.979569175747496",
+      "r": "0.4885744139976471317"
+    },
+    {
+      "D_over_r5": "(-1.6606040773224370437 - 0.92124484561051559792j)",
+      "I_relative_error": "0.0003007639245",
+      "J_relative_error": "0.0009195772051",
+      "k": 812,
+      "n": 160,
+      "phase_mesh_over_r5": "-0.977350923055525",
+      "r": "0.47111397857550102009"
+    }
+  ],
+  "schema": "quartic-neighbor-saddle-phase-certificate-v1",
+  "symbolic_series_checks": {
+    "complex_exponent_through_r4": true,
+    "complex_hessian_through_r3": true,
+    "complex_saddle_equation_through_r4": true,
+    "complex_tail_scaled_log_derivative_identity": true,
+    "minus_multiplier_through_r7": true,
+    "phase_independent_three_power_hankel_identity": true,
+    "plus_exponent_through_r4": true,
+    "plus_multiplier_through_r7": true,
+    "real_exponent_through_r4": true,
+    "real_hessian_through_r3": true,
+    "real_saddle_equation_through_r4": true
+  },
+  "warnings": [
+    "Numerical quadratures and bounded scans are diagnostics, not proofs.",
+    "The all-parameter dyadic valuation pattern remains conjectural.",
+    "The bounded Hankel sign scan is diagnostic; eventual positivity is proved by the saddle theorem.",
+    "The symmetric positive-form ratio is an analytic obstruction, not a quadratic-field primitive-content theorem.",
+    "The saddle theorem does not give uniform arithmetic separation from every integer-power phase zero.",
+    "Nothing in this certificate classifies e+pi."
+  ]
+}

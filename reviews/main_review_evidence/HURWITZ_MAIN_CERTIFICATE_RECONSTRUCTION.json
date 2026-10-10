@@ -1,0 +1,38 @@
+{
+  "reviewer": "main Codex",
+  "checked_at": "2026-10-04T00:12:29.803263+00:00",
+  "program_sha256": "9d586389fc4752c3f4dd1ec0a868f50b1e8d10b4e2021ba5eb94ae19fa1d87cf",
+  "implementation": "Main-authored standard-library polynomial convolution and exact Gaussian-integer certificate reconstruction",
+  "archived_programs_executed": false,
+  "cases": [
+    {
+      "receipt": "nonpolynomial_integral_hurwitz_pullback_certificate.json",
+      "receipt_sha256": "9d24c15e4f69fc5e8e1618f812e95ffa9d0351b401951795a023c4eaff9afb15",
+      "radius": [
+        707,
+        400
+      ],
+      "degree": 61,
+      "all_stage_fields_match": true,
+      "exact_boundary_lower_exceeds_tail": true,
+      "computed_121_jets_match": true,
+      "original_receipt_preserved": true
+    },
+    {
+      "receipt": "nonpolynomial_integral_hurwitz_radius_17679119_10000000_certificate.json",
+      "receipt_sha256": "62ce908eef68dd3472f0841c6c20b09a94f8356465812aa19c204026d9dacdc0",
+      "radius": [
+        17679119,
+        10000000
+      ],
+      "degree": 65,
+      "all_stage_fields_match": true,
+      "exact_boundary_lower_exceeds_tail": true,
+      "computed_121_jets_match": true,
+      "original_receipt_preserved": true
+    }
+  ],
+  "scope": "Two finite root-exclusion certificates and121 jets; all-order integrality and analytic implications are independently proved by the main reviewer, not inferred from the finite data",
+  "hp_diagnostics_reproduced": false,
+  "e_plus_pi_resolved": false
+}

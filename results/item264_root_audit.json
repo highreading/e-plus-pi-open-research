@@ -1,0 +1,73 @@
+{
+  "schema": "item264-root-audit-v1",
+  "audited": "2026-08-31 Asia/Shanghai",
+  "status": "PASS_WITH_SCOPE_AND_LAYOUT_REPAIR",
+  "booking": {
+    "new_unconditional_route1_rate": 0,
+    "new_j1_capacity_reduction": 0,
+    "retained_ceiling_per_6M": "1/36"
+  },
+  "root_findings": [
+    "The exact reindex gives a bijection with primes in [(4M+3)/3,(3M-1)/2], whose PNT mass is M/6+o(M), or 1/36 per 6M.",
+    "Fixed-j prime intervals are disjoint, but valuation overlap with the already booked Cartier product prevents automatic additive booking.",
+    "A full collision gives R_M^2 divisibility; the inherited componentwise Cauchy bound yields H/2 per M, much weaker than raw support.",
+    "The bounded-degree statement is only an inherited-estimate ceiling. A separately proved exponentially cancelling low-height recombination remains open.",
+    "The p=59 individual-seed zero and p=109,149 Wronskian-root zeros are not full-gate collisions.",
+    "The fixed h<=8 exclusion has only O(log M) weight and therefore zero linear capacity.",
+    "A bare carriage return in equation (1.8) was repaired, and the initial overbroad bounded-degree claim was narrowed before resealing."
+  ],
+  "independent_probe": {
+    "script": "scripts/item264_root_independent_probe.py",
+    "script_sha256": "daee526cf5c4eb47f89623222d92d424f6e49dadfc73b6c534bab689cacfa149",
+    "result": "results/item264_root_independent_probe.json",
+    "result_sha256": "504b684ecd17dbd4708cbf3faaad35c7066f5b5c6d15e9462dffdafd48c5cd29",
+    "M_range": [
+      9,
+      600
+    ],
+    "prime_rows": 4631,
+    "adjacent_interval_checks": 1000,
+    "witness_gate_rows": [
+      [
+        59,
+        2,
+        8,
+        40,
+        39,
+        11,
+        36
+      ],
+      [
+        109,
+        4,
+        15,
+        74,
+        71,
+        106,
+        87
+      ],
+      [
+        149,
+        26,
+        7,
+        108,
+        42,
+        106,
+        3
+      ]
+    ],
+    "collision_scan_performed": false,
+    "label": "EXACT FINITE independent replay supporting separately proved reindex and height comparisons"
+  },
+  "sealed_package": {
+    "report_sha256": "767005f8fad07b1fa633bfdd23436e36c7cdef346d032030390c437f207c9344",
+    "checker_sha256": "a91d0905ecd73ba8406902a5c33ff5f6c21c5b67fce65a91b087ec6cf79bf733",
+    "canonical_sha256": "08010c633f3baf5e075e892c5c786a5d9f686bf26d940fb10da6b9f46de196d2",
+    "workspace_replay_sha256": "08010c633f3baf5e075e892c5c786a5d9f686bf26d940fb10da6b9f46de196d2",
+    "archive_replay_sha256": "08010c633f3baf5e075e892c5c786a5d9f686bf26d940fb10da6b9f46de196d2",
+    "ledger_sha256": "bd5db6e6a3215025e41507d45c8190398c74f00eabe07e250923618136113076",
+    "manifest_sha256": "9ff5fb02deb8e1acd8499f3481be306ca4539d0a7f0bc1ce45b55b449a25b18b",
+    "hash_ledger_sha256": "c4167049e48c2ead4537e274a25186ba15948604c54967908ffd177b01594b8e"
+  },
+  "strict_scope": "Item 264 globalizes the j=1 cell and proves that existing componentwise height information cannot reduce its raw ceiling. It does not rule out a new low-height cancellation or prove weighted zero density."
+}

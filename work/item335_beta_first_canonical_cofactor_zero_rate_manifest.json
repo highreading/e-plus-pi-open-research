@@ -1,0 +1,109 @@
+{
+  "schema": "item335-beta-first-canonical-cofactor-zero-rate-manifest-v1",
+  "item": 335,
+  "title": "The first canonical beta cofactor has zero divisor rate",
+  "date": "2026-09-01",
+  "status": "PROVED_GLOBAL_FIRST_CANONICAL_COFACTOR_ZERO_RATE_NO_GO",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item265_beta_squarefull_capacity_report.md": "c41d8d2c813d4952ce5a038f291b932817c28ae5b0b1512df0a6bf0ba92a8daa",
+    "results/item265_root_audit.json": "72e5f43c554e326d101d1b2c55de76f277a5a817eaa6b0fc2837dd8f6bbee24a",
+    "sources/item316_beta_intermediate_ostrowski_no_go_report.md": "8d6dce8354f08e94a252a2120cf677d9a374df95507a9297dcb064a1982fb6b0",
+    "results/item316_root_audit.json": "6cad978132f5f09c687aa8fcf8dcd92a7d917cf9411a69f679c7757139229175",
+    "sources/item323_beta_all_depth_dual_transducer_no_go_report.md": "e0b5e7279079a17556a0b287ea18a40e461b6fdb8e45d8ef5a357434b8e6d9ef",
+    "results/item323_beta_all_depth_dual_transducer_no_go_root_audit.json": "2455ebbc739cc235bea44e0d220dae6d29be73eac5a9e8a846465366562ca6c2",
+    "sources/item330_beta_divided_quotient_resonance_no_go_report.md": "fc5d30d59e96a40fdf77a1b9557235e54dcf784d888ed81a517736496dbc4116",
+    "sources/item333_beta_nonlinear_state_saturation_no_go_report.md": "8f4bc0a6f93cbd4882392ade311d68e25be1ceb282db71cc5e1ef2f70aee75d6"
+  },
+  "artifacts": [
+    {
+      "path": "work/item335_beta_first_canonical_cofactor_zero_rate_report.md",
+      "role": "capacity-first cofactor selection, exact load formula, first-survivor theorem, and zero-rate closure",
+      "bytes": 13191,
+      "sha256": "15bd02042bf8a11e774faeed48e21e3de9d89087e04e88df06d0db664041693c"
+    },
+    {
+      "path": "work/item335_beta_first_canonical_cofactor_zero_rate_certificate.py",
+      "role": "standard-library exact deterministic replay",
+      "bytes": 16903,
+      "sha256": "7ea3e71ad21b2ff1d4162d19db46847eea6fd655a10ad05f0429ff3a31eff1b6"
+    },
+    {
+      "path": "work/item335_beta_first_canonical_cofactor_zero_rate_certificate.json",
+      "role": "work-package certificate output",
+      "bytes": 44045,
+      "sha256": "43471c9f193257d9e901b2b65fa3850d5b42be4be034d7399cd3ade62c3a8345"
+    },
+    {
+      "path": "work/item335_beta_first_canonical_cofactor_zero_rate_certificate.replay.json",
+      "role": "independent byte-identical replay output",
+      "bytes": 44045,
+      "sha256": "43471c9f193257d9e901b2b65fa3850d5b42be4be034d7399cd3ade62c3a8345"
+    },
+    {
+      "path": "work/item335_beta_first_canonical_cofactor_zero_rate_ledger_delta.json",
+      "role": "proposed ledger delta; no canonical edit",
+      "bytes": 3183,
+      "sha256": "5ccf6a0c686da29bea5c818520313fcd1ba2386b4a1e6047315e8e9b71931a0e"
+    }
+  ],
+  "replay": {
+    "command": "python work/item335_beta_first_canonical_cofactor_zero_rate_certificate.py --output work/item335_beta_first_canonical_cofactor_zero_rate_certificate.replay.json",
+    "expected_stdout": {
+      "capacity_reduction": "ZERO",
+      "centered_half_bound": "OPEN",
+      "first_canonical_cofactor": "PROVED_NONZERO_BELOW_A_SQUARED",
+      "fixed_complexity_portfolio": "PROVED_ZERO_RATE",
+      "item": 335,
+      "status": "PROVED_GLOBAL_FIRST_CANONICAL_COFACTOR_ZERO_RATE_NO_GO"
+    },
+    "expected_replay_sha256": "43471c9f193257d9e901b2b65fa3850d5b42be4be034d7399cd3ade62c3a8345",
+    "dependency_hashes_verified_before_output": 8
+  },
+  "proved": [
+    "The first surviving top coordinate is z_m=epsilon(delta_m-w_m delta_(m-1)).",
+    "Every adjacent cofactor has the exact three-depth J-state formula.",
+    "After removing Delta, the top numerator is exactly A z_m.",
+    "The target half-language gives z_m=0 iff the top two digits vanish.",
+    "Continuing one depth at a time yields a canonical first nonzero survivor z_* with 1<=|z_*|<A^2.",
+    "For every Q|b, captured mass is log gcd(Q,|z_*|)<2 log A=o(log b).",
+    "Every fixed-cardinality bounded-degree polynomial-height boundary-cofactor portfolio has zero nonzero divisor rate."
+  ],
+  "strict_scope": {
+    "closes": [
+      "the primitive top quotient as a positive-mass reservoir",
+      "zero-top continuation to the first nonzero adjacent cofactor",
+      "fixed-cardinality bounded-degree polynomial-height boundary-cofactor portfolios",
+      "proper-target valuation mass supported only on those nonzero values"
+    ],
+    "does_not_close": [
+      "the original exact target or centered half-bound",
+      "growing-depth, growing-degree, or growing-height portfolios",
+      "exact target-specific sign or nonvanishing contradictions",
+      "full-word lower-coordinate arithmetic or complement redigitization",
+      "proper-target residue lower bounds, beta capacity, Route 1, or e+pi"
+    ]
+  },
+  "strict_labels": {
+    "PROVED": [
+      "load identity, target quotient, zero-top equivalence, first-survivor theorem, height and proper-target mass bounds"
+    ],
+    "PROVED_GLOBAL_ZERO_RATE_SCOPED_NO_GO": [
+      "first canonical cofactor and fixed-complexity boundary-cofactor divisor reservoirs"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared canonical control rows, cofactor identities, and factorizations"
+    ],
+    "OPEN": [
+      "half-bound, growing/global cofactors, complement redigitization, proper targets, beta capacity, Route 1, and e+pi"
+    ]
+  },
+  "capacity": {
+    "first_survivor_height": "<A^2",
+    "proper_target_mass": "<2 log A",
+    "beta_normalization": "n log n+O(n)",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "booking": 0
+  }
+}

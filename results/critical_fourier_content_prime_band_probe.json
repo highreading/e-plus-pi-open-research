@@ -1,0 +1,189 @@
+{
+  "all_degree_exact_identities_tested": [
+    "C0 = sum_j binomial(2r,2j) super_catalan(r+j,K-r-j)",
+    "v2(C0) = r + s2(K) + (r mod 2) v2(K)",
+    "2^K divides T_{n,k}"
+  ],
+  "exhaustive_box": {
+    "case_count": 1490,
+    "forced_prime_incidence_count": 2495,
+    "k": "all n+1..160",
+    "n": "even 2..20",
+    "nonempty_prime_band_case_count": 1002
+  },
+  "global_exact_identity_tested": "denominator(4T/(L_k C0)) = L_k C0 / h_{n,k}",
+  "large_prime_example": {
+    "content": "37350144",
+    "factorization": "2^8 * 3^2 * 13 * 29 * 43",
+    "k": 26,
+    "n": 2,
+    "prime_above_k_minus_one": 43
+  },
+  "matching_content_warning": {
+    "final_content": 7,
+    "k": 10,
+    "matching_gcd": 7,
+    "n": 2,
+    "primitive_pi_pair": [
+      "-149056",
+      "135135"
+    ],
+    "proved_identity_tested": "g = gcd(M,d)",
+    "scope": "shows that odd final content remains uncontrolled"
+  },
+  "proved_claim_tested": "product of primes (k-1)/2 < p <= 2(k-n-1)/3 divides h_{n,k}",
+  "role": "finite exact validation only; no finite scan is used in the proof",
+  "square_ray_records": [
+    {
+      "content": "16",
+      "forced_prime_count": 0,
+      "forced_prime_product": "1",
+      "k": 4,
+      "log_content": "2.772588722240",
+      "log_content_over_n_log_n": "2.000000000000",
+      "log_forced_prime_product": "0.000000000000",
+      "n": 2
+    },
+    {
+      "content": "512",
+      "forced_prime_count": 0,
+      "forced_prime_product": "1",
+      "k": 16,
+      "log_content": "6.238324625040",
+      "log_content_over_n_log_n": "1.125000000000",
+      "log_forced_prime_product": "0.000000000000",
+      "n": 4
+    },
+    {
+      "content": "2918400",
+      "forced_prime_count": 1,
+      "forced_prime_product": "19",
+      "k": 36,
+      "log_content": "14.886546078862",
+      "log_content_over_n_log_n": "1.384723259876",
+      "log_forced_prime_product": "2.944438979166",
+      "n": 6
+    },
+    {
+      "content": "557056",
+      "forced_prime_count": 0,
+      "forced_prime_product": "1",
+      "k": 64,
+      "log_content": "13.230421052455",
+      "log_content_over_n_log_n": "0.795310951719",
+      "log_forced_prime_product": "0.000000000000",
+      "n": 8
+    },
+    {
+      "content": "7684915200",
+      "forced_prime_count": 2,
+      "forced_prime_product": "3127",
+      "k": 100,
+      "log_content": "22.762525179393",
+      "log_content_over_n_log_n": "0.988563907959",
+      "log_forced_prime_product": "8.047829357458",
+      "n": 10
+    },
+    {
+      "content": "788844107353817088",
+      "forced_prime_count": 3,
+      "forced_prime_product": "478661",
+      "k": 144,
+      "log_content": "41.209345113667",
+      "log_content_over_n_log_n": "1.381988370911",
+      "log_forced_prime_product": "13.078747901412",
+      "n": 12
+    },
+    {
+      "content": "969281290670896986718208",
+      "forced_prime_count": 5,
+      "forced_prime_product": "13710311357",
+      "k": 196,
+      "log_content": "55.230841812290",
+      "log_content_over_n_log_n": "1.494874736209",
+      "log_forced_prime_product": "23.341414040474",
+      "n": 14
+    },
+    {
+      "content": "10450261654084350825808906944512",
+      "forced_prime_count": 6,
+      "forced_prime_product": "8811899415119",
+      "k": 256,
+      "log_content": "71.424179806587",
+      "log_content_over_n_log_n": "1.610051718852",
+      "log_forced_prime_product": "29.807124130269",
+      "n": 16
+    },
+    {
+      "content": "16865907253158334456117105339447906425372672",
+      "forced_prime_count": 9,
+      "forced_prime_product": "220491455010479533763",
+      "k": 324,
+      "log_content": "99.533868167845",
+      "log_content_over_n_log_n": "1.913130837773",
+      "log_forced_prime_product": "46.842390615242",
+      "n": 18
+    },
+    {
+      "content": "18697352169947127667169749184350946565814513009950720",
+      "forced_prime_count": 8,
+      "forced_prime_product": "8239355544127721383",
+      "k": 400,
+      "log_content": "120.360221661341",
+      "log_content_over_n_log_n": "2.008861451403",
+      "log_forced_prime_product": "43.555453804091",
+      "n": 20
+    },
+    {
+      "content": "990163505949327619173021350351928355825047289653954785064271761899520",
+      "forced_prime_count": 10,
+      "forced_prime_product": "2450545014212368058748439",
+      "k": 484,
+      "log_content": "158.868486224623",
+      "log_content_over_n_log_n": "2.336200468727",
+      "log_forced_prime_product": "56.158352686455",
+      "n": 22
+    },
+    {
+      "content": "4901952955926990874550792447427372042014688419053051415988136669347840",
+      "forced_prime_count": 12,
+      "forced_prime_product": "1743885630918114517880031513289",
+      "k": 576,
+      "log_content": "160.468005104735",
+      "log_content_over_n_log_n": "2.103855767173",
+      "log_forced_prime_product": "69.633668534556",
+      "n": 24
+    },
+    {
+      "content": "12592223210942289317631968698651848958224245959751313093152793357122593671543175249920",
+      "forced_prime_count": 15,
+      "forced_prime_product": "587243357988089495336057414557956765271",
+      "k": 676,
+      "log_content": "195.950227229427",
+      "log_content_over_n_log_n": "2.313174920749",
+      "log_forced_prime_product": "89.268502660896",
+      "n": 26
+    },
+    {
+      "content": "3040048463097577637412628954409755491166751669527688686392913772102631844228839667057480306030725300224",
+      "forced_prime_count": 19,
+      "forced_prime_product": "245111424903469761943175856985643654355645702817231",
+      "k": 784,
+      "log_content": "235.975552942492",
+      "log_content_over_n_log_n": "2.529165990155",
+      "log_forced_prime_product": "116.025797366395",
+      "n": 28
+    },
+    {
+      "content": "323441305150708420515111523800958878403444093068570060871858665333616853110145182456018567648784378886562932326400",
+      "forced_prime_count": 19,
+      "forced_prime_product": "3159796096470859521744295122692568481915073317295419",
+      "k": 900,
+      "log_content": "261.365962982881",
+      "log_content_over_n_log_n": "2.561509312299",
+      "log_forced_prime_product": "118.582347241780",
+      "n": 30
+    }
+  ],
+  "status": "pass"
+}

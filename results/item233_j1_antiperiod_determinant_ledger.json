@@ -1,0 +1,61 @@
+{
+  "schema": "item233-j1-antiperiod-determinant-ledger-v1",
+  "item": 233,
+  "route": "Route 1",
+  "cell": "normalized common-log j=1 fixed cell",
+  "status": "structural theorem and scoped no-go; no all-prime exclusion",
+  "proved": [
+    "the generalized endpoint map on the 1,i,-i phase modes is an isomorphism",
+    "N=M+b*a has N^4=I, characteristic polynomial (x-1)(x^2+1), and invertible observability matrix O=(a;aN;aN^2)",
+    "with h_q=a*N^q*b, h_3=1 and h_2=1+h_1-h_0",
+    "for the lower 2x2 block B, tr(B)=1-h_0 and det(B)=1+h_1-h_0",
+    "det(I+M^2)=(h_0-h_1)^2+(1-h_0)^2",
+    "the determinant has an explicit finite-binomial numerator through Phi, its phase-shift matrix, and 3x3 adjugates",
+    "if s is even (p=3 mod 4), singularity is equivalent to h_0=h_1=1 and rank(I+M^2)=1",
+    "if s is odd (p=1 mod 4), the singular locus is the union of the two sqrt(-1) linear factors; its rank is two off their intersection",
+    "the affine antiperiod closure is consistent on every singular row",
+    "a*N^3*v=Delta_minus and t_0-t_1+t_2-t_3=0 for t_q=a*N^q*v",
+    "the three antiperiod coordinate residuals are exact linear combinations of the bottom, 2p, and 3p terminal residuals without division by det(I+M^2)",
+    "Item230's six formal equations are solvable iff Delta_plus is nonzero and Theta=Psi=0"
+  ],
+  "exact_finite": {
+    "endpoint_closed_formula_replay": "184 actual rows through p<=151",
+    "determinant_census": "2435 actual rows through p<=601",
+    "singular_rows": [
+      [
+        349,
+        2,
+        57
+      ],
+      [
+        457,
+        128,
+        33
+      ],
+      [
+        577,
+        86,
+        67
+      ]
+    ],
+    "singular_summary": "all three are p=1 mod 4, rank two, affine-consistent, and have nonzero Theta and Psi",
+    "formal_six_equation_survivors": 0
+  },
+  "open": [
+    "all-prime nonvanishing of the two exact p=1 mod 4 singular factors",
+    "all-prime exclusion or zero-rate control of the singular locus",
+    "all-prime inconsistency of Theta=Psi=0",
+    "sufficiency of the formal terminal criterion on singular rows",
+    "any new Route-1 rate or divisibility exponent"
+  ],
+  "no_go_scope": "determinant singularity and further antiperiod coordinate propagation cannot alone produce an invariant beyond the existing terminal conditions; arithmetic analysis of Theta and Psi remains necessary",
+  "booking": {
+    "new_unconditional_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "capacity_reduction": 0,
+    "conclusion_about_e_plus_pi": "none"
+  },
+  "dependency": {
+    "scripts/item230_j1_phase_closure_certificate.py": "0722964a47817ca2dcd93cc9013339f16d2d6a6271893938c7d473cc6115fe0b"
+  }
+}

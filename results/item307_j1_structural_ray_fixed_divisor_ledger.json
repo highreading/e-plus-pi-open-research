@@ -1,0 +1,57 @@
+{
+  "schema": "item307-j1-structural-ray-fixed-divisor-ledger-v1",
+  "scope": "Exact pinned-E residue formulas and fixed-divisor weighted closure on the three coefficient-singular fixed-j1 rays, with fixed-M capacity correction",
+  "claims": [
+    {
+      "id": "I307-C1",
+      "label": "PROVED",
+      "claim": "For s=2,4,6 and each parity of h, the actual pinned coefficient has the exact form c_h^*=gamma_s(a_(s,epsilon)+b_(s,epsilon)w_h) modulo p, with w_h=(-1)^floor(h/2)2^h.",
+      "evidence": "report Sections 2--5; exact rational partial-fraction certificate"
+    },
+    {
+      "id": "I307-C2",
+      "label": "PROVED",
+      "claim": "The Item-243 gauge from c_h^* to E_h^* is a p-unit on every actual row, so the displayed linear residue is equivalent to the actual pinned E gate on these rays.",
+      "evidence": "report Section 1; pinned Items 243 and 288"
+    },
+    {
+      "id": "I307-C3",
+      "label": "PROVED",
+      "claim": "Euler's criterion gives 2^(3s+1)w_h^2=delta_(s,epsilon), so every collision prime divides one of six explicit positive nonzero integers D_(s,epsilon).",
+      "evidence": "report Sections 1 and 5; certificate closed_residue_and_divisor_rows"
+    },
+    {
+      "id": "I307-C4",
+      "label": "PROVED",
+      "claim": "The collision log mass on the union s=2,4,6, with ray multiplicity retained, is bounded by a fixed sum of six radical logarithms and hence is O(1)=o(H).",
+      "evidence": "report equation (1.9)"
+    },
+    {
+      "id": "I307-C5",
+      "label": "PROVED EXACT WITNESS",
+      "claim": "Universal structural-ray nonvanishing is false: (h,s,p)=(8,2,47) has E_8^*=0 modulo 47.",
+      "evidence": "preselected exact control, not a scan inference"
+    },
+    {
+      "id": "I307-C6",
+      "label": "PROVED CAPACITY SCOPE",
+      "claim": "At fixed M the three fixed-s rays contribute at most three candidates and O(log M)=o(M) raw support; the theorem therefore changes no master capacity and leaves the 1/36 ceiling intact.",
+      "evidence": "report Section 6; Item 264 normalization"
+    },
+    {
+      "id": "I307-C7",
+      "label": "OPEN",
+      "claim": "The off-ray fixed-M mass for s varying through S_M\\{2,4,6} remains the live fixed-j1 weighted zero-density target."
+    }
+  ],
+  "strict_labels": {
+    "structural_ray_residue_formula": "PROVED",
+    "actual_E_gate_bridge": "PROVED",
+    "six_fixed_divisor_implications": "PROVED",
+    "structural_ray_weighted_mass": "O(1)=o(H) PROVED",
+    "universal_nonvanishing": "FALSE BY EXACT WITNESS",
+    "off_ray_weighted_density": "OPEN",
+    "fixed_M_master_capacity_reduction": "ZERO",
+    "booking": "zero new Route-1 rate"
+  }
+}

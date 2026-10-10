@@ -1,0 +1,84 @@
+{
+  "item": 383,
+  "schema": "item383-j1-frobenius-lift-gauge-invariance-manifest-v1",
+  "classification": "PROVED_RATIONAL_LOG_MODEL_AND_INVARIANT_NO_BOUNDED_SPLITTING",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual two-moment Hasse coordinate, general integral Frobenius lifts, explicit overconvergent lift, rational logarithmic connection, analytic coordinates, filtered and unfiltered gauges, global dagger obstruction, and capacity",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item380_j1_actual_moment_horizontal_complexity_barrier_report.md": "35668582bec3086fdb523f38c69df6a31d2557d2538cdb43794224dbfa2b623f",
+    "scripts/item380_j1_actual_moment_horizontal_complexity_barrier_certificate.py": "e1bf9c6a1b0a0a57c96351ab294a0f031915ebe2f3897a86e5ba766e89b1ea6f",
+    "results/item380_j1_actual_moment_horizontal_complexity_barrier_certificate.json": "5b1fd2b70010bbec53e195b64e824e46ff865b3a5d7d0980af3b0cf002e64e08",
+    "results/item380_j1_actual_moment_horizontal_complexity_barrier_certificate_replay.json": "5b1fd2b70010bbec53e195b64e824e46ff865b3a5d7d0980af3b0cf002e64e08",
+    "results/item380_j1_actual_moment_horizontal_complexity_barrier_root_replay.json": "5b1fd2b70010bbec53e195b64e824e46ff865b3a5d7d0980af3b0cf002e64e08",
+    "results/item380_j1_actual_moment_horizontal_complexity_barrier_ledger_delta.json": "151bf10de7d8bfd5050b739b3cd6cc7ca949ef0ca699bacf840b45e75e181ccb",
+    "results/item380_j1_actual_moment_horizontal_complexity_barrier_root_audit.json": "55b91eb8b88297f40a6a5f723448c0dca2805c17dc958e30b3fede282d7a1b50",
+    "manifests/item380_j1_actual_moment_horizontal_complexity_barrier_manifest.json": "521e28618a87d86d50f8560d9dfa2e8c7442d5492edf5bc979b25256dd14c829"
+  },
+  "artifacts": {
+    "report": {
+      "path": "sources/item383_j1_frobenius_lift_gauge_invariance_report.md",
+      "sha256": "840e76e85c1a8ebbc8fe3c1b21432c91f7745b2ea18d3f6b51d6612caee7c066",
+      "bytes": 14077
+    },
+    "certificate_script": {
+      "path": "scripts/item383_j1_frobenius_lift_gauge_invariance_certificate.py",
+      "sha256": "9084dfc9f0ce3605f22a8af8e590e1d4aeaaf4ffc977f83091158c2b1cf19630",
+      "bytes": 12081
+    },
+    "certificate": {
+      "path": "results/item383_j1_frobenius_lift_gauge_invariance_certificate.json",
+      "sha256": "1c72215e36bd1bb1d24f0e86e2941cc29a5d32f6ff434f22d7c598be3507a80f",
+      "bytes": 7344
+    },
+    "replay": {
+      "path": "results/item383_j1_frobenius_lift_gauge_invariance_certificate_replay.json",
+      "sha256": "1c72215e36bd1bb1d24f0e86e2941cc29a5d32f6ff434f22d7c598be3507a80f",
+      "bytes": 7344,
+      "byte_identical_to_certificate": true
+    },
+    "ledger": {
+      "path": "results/item383_j1_frobenius_lift_gauge_invariance_ledger_delta.json",
+      "sha256": "4450c7682dee46d8545ebbd9aed963c3488bed48ab944b1ff6111f22374b51bf",
+      "bytes": 3040
+    }
+  },
+  "theorems": [
+    "for every unit lambda the explicit integral overconvergent lift Phi_lambda(q)=[1-(1-lambda q)^p exp(-lambda p q)]/lambda has the rational horizontal connection dq/(1-lambda q)",
+    "the rational connection is regular at the Hasse divisor q=0 and has one fixed logarithmic pole, so standard-lift lacunarity and nonrationality are not invariant",
+    "for every integral Frobenius lift a bounded simultaneous splitting gauge would force -qbar to be a p-th power, impossible because d qbar is nonzero",
+    "the bounded-splitting obstruction is invariant under integral analytic coordinate changes preserving the Hasse coordinate",
+    "no filtration-preserving gauge splits the connection when dq is nonzero",
+    "no horizontal dagger connection exists on the full moment disc because a dagger primitive and constant adjustment would contradict the bounded-splitting theorem",
+    "global non-overconvergence survives even though the local presentation can be made rational",
+    "the full 1/36 ceiling is retained and zero is booked"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "explicit overconvergent Frobenius lift and rational logarithmic horizontal model",
+      "noninvariance of lacunarity and nonrationality",
+      "coordinate- and lift-invariant no bounded-denominator simultaneous splitting",
+      "no filtered splitting when dq is nonzero",
+      "no global dagger connection on the full closed moment disc",
+      "zero booking"
+    ],
+    "DECLARED_EXACT_CONTROLS_ONLY": [
+      "three finite series controls, exact symbolic logarithmic and matrix identities, and a declared valuation table; no prime or collision scan"
+    ],
+    "OPEN": [
+      "prime-independent geometry of the actual tied moment map",
+      "a useful nonsplit monodromy statistic on another global base and any genuine conductor theorem",
+      "weighted nonconcentration, any strict fixed-j1 ceiling reduction, Route 1, and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_log_mass": "M/6+o(M)",
+    "raw_ceiling_per_6M": "1/36",
+    "weighted_target": "W_(H,Q)(M)=o(M)",
+    "weighted_target_proved": false,
+    "new_linear_log_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0,
+    "retained_ceiling_per_6M": "1/36"
+  }
+}

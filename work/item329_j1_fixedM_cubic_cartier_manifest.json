@@ -1,0 +1,90 @@
+{
+  "schema": "item329-j1-fixedM-cubic-cartier-manifest-v1",
+  "item": 329,
+  "title": "A fixed-M cubic Cartier carrier for the actually selected fixed-j1 factor",
+  "date": "2026-09-01",
+  "status": "PROVED_FIXED_M_CUBIC_CARTIER_BRIDGE_AND_DUAL_CARRIER_SCOPED_SHARED_HEIGHT_NO_GO",
+  "canonical_files_modified": false,
+  "artifacts": [
+    {
+      "path": "work/item329_j1_fixedM_cubic_cartier_report.md",
+      "role": "single-row fixed-M cubic carrier theorem, dual container carrier, capacity audit, and scoped shared-height no-go",
+      "sha256": "ba042d98a2c12cdeaf1858ea604488b0f5ae65406c1a8b450ccae90ed00f71e8"
+    },
+    {
+      "path": "work/item329_j1_fixedM_cubic_cartier_certificate.py",
+      "role": "exact deterministic symbolic replay",
+      "sha256": "01a779fb9420d39ce9728d6d46f008871dcc438b9b4aed2ba97cb2db5f294e40"
+    },
+    {
+      "path": "work/item329_j1_fixedM_cubic_cartier_certificate.json",
+      "role": "canonical work-package certificate output",
+      "sha256": "4c89f82c9f83dccfb3a32540532e5c986bff1043ec7bfd6f5584500bd7ecc7fc"
+    },
+    {
+      "path": "work/item329_j1_fixedM_cubic_cartier_certificate.replay.json",
+      "role": "independent byte-identical replay output",
+      "sha256": "4c89f82c9f83dccfb3a32540532e5c986bff1043ec7bfd6f5584500bd7ecc7fc"
+    },
+    {
+      "path": "work/item329_j1_fixedM_cubic_cartier_ledger_delta.json",
+      "role": "proposed ledger delta; no canonical edit",
+      "sha256": "cead11e57e2a307bd18563b19b98871b519ccb39aa544b1e1749ac670c7da9dd"
+    }
+  ],
+  "pinned_canonical_dependencies": {
+    "sources/item308_j1_all_s_fixed_divisor_no_go_report.md": "4eb8f8c37dfde9d19e57c8df5ff8090bd95f03be59fff7d6aede55d02993bdc8",
+    "scripts/item308_j1_all_s_fixed_divisor_no_go_certificate.py": "9b60d380b503c7ac9fed13792fae67735cfcf6b0f376581a0076fde16a82f0b9",
+    "results/item308_j1_all_s_fixed_divisor_no_go_certificate.json": "4efff9ca2fb1bc11cc6030e260ff73aae89c28bd157bb41fa6bbc3b32e41e5cf",
+    "results/item308_root_audit.json": "11feb8105ea46c27d83df2449404297fe74709eceaa8be6a21bd9484cbffba22",
+    "manifests/item308_j1_all_s_fixed_divisor_no_go_manifest.json": "1c4721f43b5bbdc0c68e4d9fd689562a32a4af4fbbab2a9e7075da96b151b4d5",
+    "sources/item326_j1_selected_factor_step12_no_go_report.md": "12f42dff3d52ab5d257eac675d9cff6888925568d29ea4894cad5e37c0c31b37",
+    "scripts/item326_j1_selected_factor_step12_no_go_certificate.py": "5293dcbeffdd3f69706a1b2ef164215d50b22a282f314b506754896c089e1e49",
+    "results/item326_j1_selected_factor_step12_no_go_certificate.json": "9378b4078db1385f60a5128617f6e99c75cd282b6be3e5b0be95410da979450f",
+    "results/item326_j1_selected_factor_step12_no_go_certificate_replay.json": "9378b4078db1385f60a5128617f6e99c75cd282b6be3e5b0be95410da979450f",
+    "results/item326_j1_selected_factor_step12_no_go_ledger_delta.json": "2c8998fed0f0dd997c7a105431dfbd78d264eb79436009b45dcf95bacc56cc8a",
+    "results/item326_j1_selected_factor_step12_no_go_root_audit.json": "e862c02a708e30df2b528a8d498c40d9c92944e53e1d5799113b5abebe816f20",
+    "manifests/item326_j1_selected_factor_step12_no_go_manifest.json": "d3ee4d8afc71dbf4591a863b4d18877e497e2d6f7c56f8fc1e43fd8ea163bdd6"
+  },
+  "replay": {
+    "command": "python work/item329_j1_fixedM_cubic_cartier_certificate.py --output work/item329_j1_fixedM_cubic_cartier_certificate.replay.json",
+    "expected_replay_sha256": "4c89f82c9f83dccfb3a32540532e5c986bff1043ec7bfd6f5584500bd7ecc7fc",
+    "byte_identical": true,
+    "prime_scans": 0
+  },
+  "proved": [
+    "The factor actually selected by every ordinary fixed-j1 collision equals a p-unit times one tied coefficient K_(M,2h) of the fixed cubic power P(t)^(4M).",
+    "Every original ordinary collision therefore forces p to divide K_(M,6M-4p) on that same row.",
+    "A dual carrier L gives the opposite factor and the exact full-container union p|D iff p|K or p|L.",
+    "The K-array has one fixed rational generating function, one fixed Laurent Cartier readout, and an exact four-term coefficient recurrence.",
+    "Shared degree, integrality, alternating signs, and exp(O(M)) l1 height alone cannot reduce the raw fixed-j1 capacity."
+  ],
+  "scoped_shared_carrier_height_no_go": {
+    "reason": "a primitive degree-12M comparison carrier with strict alternating signs and log l1 norm O(log M) can force divisibility at every tied candidate coefficient",
+    "retained_mass": "M/6+o(M), the full raw 1/36-per-6M ceiling",
+    "does_not_cover": [
+      "the actual fixed cubic power structure",
+      "the fixed rational Cartier orbit",
+      "the exact coefficient recurrence",
+      "a weighted zero-density theorem for K or L"
+    ]
+  },
+  "capacity": {
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "original_selected_collision_mass": "UNCONTROLLED; bounded above by W_K(M)",
+    "full_container_mass": "UNCONTROLLED; bounded above by W_K(M)+W_L(M)",
+    "retained_ceiling_per_6M": "1/36"
+  },
+  "open": [
+    "W_K(M)=o(M) for the specific cubic Cartier coefficient",
+    "W_L(M)=o(M) for the dual carrier",
+    "W_off(M)=o(M), W_D(M)=o(M), fixed-j1 closure, Route 1, and every conclusion about e+pi"
+  ],
+  "not_claimed": [
+    "universal nonvanishing or a Frobenius non-concentration theorem",
+    "that either zero replay control is a new full Item-264 collision",
+    "a prime scan or finite zero census",
+    "positive capacity or a ledger improvement"
+  ]
+}

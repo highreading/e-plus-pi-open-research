@@ -1,0 +1,60 @@
+{
+  "item": 344,
+  "schema": "item344-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_MAXIMAL_MOVING_CUTOFF_COMPLEXITY_AND_BOUNDED_COMPLETION_NO_GO",
+  "scope": "independent root audit of the ordinary-j2 recurrence, quadratic Frobenius carrier, exact cutoff complexity, sublinear-edge mass theorem, and stated method-class boundary",
+  "checks": {
+    "certificate_sha256": "f390d14d2b14ce965a33da8499e450294be3a038be2269d564d3cc3fda5f1179",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_sha256": "20f665c9e18de2a3f779c13ff1be753f615ac896a4e3b2060f9be34aba750b90",
+    "work_manifest_artifacts_match": true,
+    "frozen_dependencies_checked": 4,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 6,
+    "work_hash_list_match": true,
+    "declared_actual_rows": 7,
+    "declared_recurrence_rows": 120,
+    "independent_actual_formula_rows": 71,
+    "independent_stress_range": "odd 1<=r<=21 and 1<=s<=15, tied-prime rows",
+    "zero_census_performed": false,
+    "report_inline_delimiters": "84/84",
+    "report_display_delimiters": "35/35",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "recurrence": "the generating function gives the displayed order-two recurrence, whose transfer determinant is a p-unit on every actual row",
+    "frobenius": "the half-binomial congruence turns H_m into the m-th prefix coefficient of (1-z/2)^((p-1)/2); the quadratic Frobenius quotient contributes only its constant numerator term because m<p and returns the same moving coefficient",
+    "additive_completion": "orthogonality gives the exact p-mode formula, and every interval Fourier coefficient is nonzero because 1<=m+1<p; division by p creates a genuine mod-p^2 recovery cost",
+    "cutoff_degree": "the unique reduced indicator polynomial has leading coefficient -(m+1) and exact degree p-1",
+    "edge_mass": "the fixed-M identities place m=o(M) and r=o(M) rows in intervals of o(M) length; endpoint PNT gives o(M) logarithmic prime mass",
+    "scope_warning": "the result closes exact cutoff-first bounded-mode or bounded-degree replacements and sublinear edges only; it does not rule out target-specific full-mode cancellation, a joint moving sheaf, or weighted nonconcentration"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "reversible recurrence",
+      "quadratic Frobenius carrier",
+      "all-mode additive completion",
+      "maximal cutoff degree",
+      "zero-rate sublinear edges",
+      "scoped bounded-completion no-go",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared replays and 71 independent formula rows"
+    ],
+    "OPEN": [
+      "joint moving-target weighted nonconcentration",
+      "full-mode target-specific cancellation",
+      "degenerate triple-minor support",
+      "any strict reduction of 1/105"
+    ]
+  },
+  "capacity": {
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

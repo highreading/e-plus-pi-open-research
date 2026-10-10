@@ -1,0 +1,216 @@
+{
+  "actual_affine_replay": {
+    "classification": "EXACT FINITE REPLAY ONLY",
+    "row_digest_sha256": "7a5ea85ed65dfa7be56ee2f03a6b19e4c2e1d015abcca9c28addc301c86b4961",
+    "rows": [
+      [
+        11,
+        1,
+        1,
+        0,
+        6,
+        4,
+        4,
+        0,
+        1,
+        3,
+        8
+      ],
+      [
+        17,
+        1,
+        2,
+        1,
+        7,
+        4,
+        16,
+        4,
+        14,
+        9,
+        12
+      ],
+      [
+        29,
+        1,
+        4,
+        3,
+        6,
+        3,
+        24,
+        20,
+        22,
+        5,
+        25
+      ],
+      [
+        271,
+        113,
+        7,
+        6,
+        0,
+        134,
+        124,
+        124,
+        81,
+        180,
+        31
+      ],
+      [
+        367,
+        65,
+        39,
+        38,
+        0,
+        338,
+        362,
+        362,
+        234,
+        37,
+        111
+      ],
+      [
+        383,
+        109,
+        27,
+        26,
+        0,
+        373,
+        293,
+        293,
+        166,
+        233,
+        265
+      ],
+      [
+        599,
+        7,
+        97,
+        96,
+        48,
+        14,
+        489,
+        214,
+        486,
+        534,
+        85
+      ]
+    ]
+  },
+  "capacity": {
+    "missing_input": "moving mod-p correlation for the actual state (4^s,H_m) against (c_star,Theta), plus weighted control of the degenerate triple-minor content",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "raw_ordinary_j2_ceiling_per_6M": "1/105"
+  },
+  "classification": "PROVED_DIAGONAL_AFFINE_COORDINATES_AND_FIXED_CURVE_NO_GO",
+  "dependencies": {
+    "manifests/item338_j2_secondary_cartier_saturation_manifest.json": "d3ecc6c74e3dbd3b921a3f5c3aa363eac10e68322536c88ced5e6972785a6573",
+    "results/item338_j2_secondary_cartier_saturation_certificate.json": "accf5bf87b148c73117f05b8d9f7eee92af1d59611871498593cc992c758450d",
+    "scripts/item338_j2_secondary_cartier_saturation_certificate.py": "5209d57fee32a6bad74e8f5b933116aa4d62448b1f9ca44e539cadf7f95fe6bd",
+    "sources/item338_j2_secondary_cartier_saturation_report.md": "14aa87b718b4bb83dd3e5371412fd231829f809b853d1a52eabba6181650ac33"
+  },
+  "dependency_hashes_verified": true,
+  "generic_affine_replay": {
+    "classification": "SYMBOLIC EXACT RATIONAL IDENTITIES",
+    "row_digest_sha256": "92902cc2f2eefcd67c85f4427b97da6b9adfb403faf075921294e40543d727ef",
+    "rows": 3
+  },
+  "pluecker_replay": {
+    "classification": "SYMBOLIC EXACT RATIONAL IDENTITIES",
+    "impossible_C_chart_checked": true,
+    "rank_one_examples": 3,
+    "row_digest_sha256": "ce08012f9e65a1eb7f528bfa35cfa0f131e39e5030989aaeb41f352d28287572"
+  },
+  "proved_formulae": {
+    "D_centered": "D=9*ell*(c-c_star)",
+    "H_centered_mod_p": "T_ell=-epsilon*(9*kappa*B/2)*ell*(H_m-Theta)",
+    "Jacobian": "81*kappa*B*ell^2/2, a unit on the ell chart",
+    "T_centered": "T_ell=(9*kappa*B/2)*ell*(Phi-Phi_star)",
+    "c_star": "11*mu/(9*ell)",
+    "degenerate_localization": "for p>11, a collision with ell=0 forces ell=mu=C=0",
+    "phi_star": "(-1)^(m+1)*(2/(9*kappa))*(tau-11*C/(ell*B))"
+  },
+  "schema": "item341-j2-diagonal-affine-state-v1",
+  "scope_warning": "The affine ideal and fixed characteristic-zero curve classes are closed. Moving p-dependent Frobenius relations and weighted zero density remain open.",
+  "state_replay": {
+    "actual_r1_digest_sha256": "b42c3b268c559816b59ca8fb023a23f6f860474bb75ba905f7c677bcad808f5c",
+    "actual_r1_prime_rows": 65,
+    "actual_r1_sample": [
+      [
+        11,
+        0,
+        4,
+        1,
+        1
+      ],
+      [
+        17,
+        1,
+        16,
+        5,
+        4
+      ],
+      [
+        23,
+        2,
+        64,
+        43,
+        32
+      ],
+      [
+        29,
+        3,
+        256,
+        177,
+        128
+      ],
+      [
+        41,
+        5,
+        4096,
+        11531,
+        8192
+      ],
+      [
+        47,
+        6,
+        16384,
+        92479,
+        65536
+      ],
+      [
+        53,
+        7,
+        65536,
+        370345,
+        262144
+      ],
+      [
+        59,
+        8,
+        262144,
+        11857475,
+        8388608
+      ],
+      [
+        71,
+        10,
+        4194304,
+        379582629,
+        268435456
+      ],
+      [
+        83,
+        12,
+        67108864,
+        24295375159,
+        17179869184
+      ]
+    ],
+    "asymptotic_ordering_checks": 169,
+    "classification": "EXACT FINITE REPLAY ONLY",
+    "m_max_inclusive": 120,
+    "state_digest_sha256": "865c771d242529089930afb872c9c8c5f87882b9188c728164cf9ccb7696105f",
+    "state_rows": 121
+  }
+}

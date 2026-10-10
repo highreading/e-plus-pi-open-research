@@ -1,0 +1,47 @@
+{
+  "schema": "item310-root-audit-v1",
+  "item": 310,
+  "auditor": "root",
+  "date": "2026-08-31",
+  "verdict": "PASS WITH GLOBAL P-RECURSIVENESS, AUTOMATIC ACTUAL-CLASS NORM SPLITTING, A FIRST-ORDER HYPERGEOMETRIC INFORMATION-CLASS NO-GO, OPEN EXACT OPERATOR ARITHMETIC, AND ZERO BOOKING",
+  "package": {
+    "manifest_files_checked": 5,
+    "manifest_file_hash_mismatches": 0,
+    "frozen_dependencies_checked": 5,
+    "manifest_dependency_hash_mismatches": 0,
+    "hash_list_entries_checked": 6,
+    "hash_list_mismatches": 0,
+    "canonical_root_replay_byte_identical": true,
+    "canonical_and_root_replay_sha256": "025ac9ae87cbec544877e072dc5c79fad82039d4d85e4d1abe73d0ffadc77d16",
+    "report_sha256": "35537c7908392d860ea58334f0ea5fe728f7158a7338992ab091df89d8742eb0",
+    "script_sha256": "b03b91da941b22eef55f7a3bb5e91fd8abdcbf249ce89677e1e2ac497ca71880",
+    "ledger_sha256": "610d70ae0d64c5339231bdde37f293c22134cbd70b94f4b6917ec7d6a99daa9c",
+    "manifest_sha256": "6c2162f0ab9e514c179b38bc3fa4e4380e0b85ff45338abe4463fe57573ac011",
+    "hash_list_sha256": "786e540fbde50b083ae2f29e88b6ebf3a6c1836b80574c093ae371b97cbcc583"
+  },
+  "independent_mathematical_checks": {
+    "constant_term_rays": "PASS: the s-affine numerator split and the two base/ratio decompositions convert the moving coefficient extractions to generalized diagonals of algebraic series regular at (x,z)=(0,0).",
+    "D_finite_closure": "PASS: generalized diagonals, conjugation, rational linear combination, C-finite Hadamard factors, and Hadamard squares give P-recursiveness of A,U,V,a,b and both integer D sequences. No algebraicity or favorable minimal operator is inferred.",
+    "norm_splitting": "PASS: all eight (s mod 4, h mod 2) rows give d=delta*eta in {1,-1,2,-2} with Legendre symbol +1 at the corresponding p mod 8; p>=13 excludes ramification. This removes no candidate class.",
+    "comparison_recurrence_and_height": "PASS: the product of binomial sequences has the stated exact first-order factorial-ratio recurrence, equal numerator/denominator degrees, and logarithmic rate s(K log K-6 log 6)+O_K(log s).",
+    "prime_coverage": "PASS: for 6s<p<=Ks, k=ceil(p/s) lies in [7,K], the numerator interval of binomial(ks,s) contains p while both denominator intervals do not, and ks<2p gives exact valuation one.",
+    "fixed_M_mass": "PASS: p_s<=Ks is equivalent to s>=(4M+1)/(3K-2); the induced prime interval has Chebyshev mass ((K-6)/(2(3K-2)))M+o(M), tending to M/6, or 1/36 per 6M.",
+    "scope": "PASS: the comparison operator degree grows with K and its coefficients are not the actual Item308 operator. Exact recurrence coefficients, moving-prime gcd control, factor localization, and W_D(M)=o(M) remain admissible and open."
+  },
+  "format": {
+    "report_bytes": 17169,
+    "report_lines": 572,
+    "forbidden_control_characters": 0,
+    "inline_math_open": 80,
+    "inline_math_close": 80,
+    "display_math_open": 50,
+    "display_math_close": 50
+  },
+  "capacity": {
+    "new_route1_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "smallest_remaining_lemma": "A sequence-specific theorem for the exact annihilator or diagonal proving W_D(M)=o(M), or exact rational-prime factor localization",
+    "ledger_changed": false
+  }
+}

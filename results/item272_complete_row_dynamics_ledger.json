@@ -1,0 +1,95 @@
+{
+  "schema": "item272-complete-row-dynamics-ledger-v1",
+  "scope": "Complete-row translation-difference admission for the actual ordinary-j=2 matrix under the fixed-prime odd-delta shift",
+  "claims": [
+    {
+      "id": "I272-C1",
+      "label": "PROVED",
+      "claim": "The same-prime phase shift is delta->delta+2, r->r+6, s->s-2 with q, phase, epsilon, and (-1)^m fixed.",
+      "evidence": "report equations (1.1)-(1.2)",
+      "scope_limit": "the forward shift is used only for s>=3"
+    },
+    {
+      "id": "I272-C2",
+      "label": "PROVED_POSITIVE_RECOGNITION",
+      "claim": "The coordinates (1,c,B_s,kappa_r,tau_(r,s),D_delta,Delta_delta) form an explicit rank-seven translation-difference module over Q(q,delta).",
+      "evidence": "report equations (3.1)-(3.6); elementary factorial/Pochhammer cancellations and Item271's proved D-block",
+      "scope_limit": "this module does not contain f0,f1,U0,U1"
+    },
+    {
+      "id": "I272-C3",
+      "label": "PROVED_UNIT_AUDIT",
+      "claim": "The c, B_s, kappa_r, and tau_(r,s) forward multipliers introduce no mod-p pole on actual rows with s>=3.",
+      "evidence": "report Section 4 and exact endpoint inequalities",
+      "scope_limit": "the D-block retains Item271's separate P2(delta)=0 singular divisor"
+    },
+    {
+      "id": "I272-C4",
+      "label": "PROVED_SCOPED_NO_GO",
+      "claim": "In both phases, none of f0,f1,P0flat,P1flat,H0flat,H1flat satisfies A(n)a_n+B(n)a_(n+1)=0 with rational A,B of degree at most seven, unless A=B=0.",
+      "evidence": "twelve exact 27x16 evaluation matrices have full rank 16 over each of F_1000000007 and F_1000000009; every reduced sequence denominator is a unit at both primes",
+      "scope_limit": "does not exclude higher degree, higher rank, a direct U-module, or a new creative-telescoping compression"
+    },
+    {
+      "id": "I272-C5",
+      "label": "PROVED_SCOPED_LITERAL_BASIS_OBSTRUCTION",
+      "claim": "The literal Item250 affine-J state is growing and not invariant: it contains indices 0<=k<=r+4, gains six indices, and its Qbar parameter changes by -4 under the row shift.",
+      "evidence": "report equations (5.4)-(5.5)",
+      "scope_limit": "does not prove that every possible compressed bounded-rank module is impossible"
+    },
+    {
+      "id": "I272-C6",
+      "label": "PROVED_RANK_BRANCH",
+      "claim": "At the exact e=5, delta=1 endpoint, f0=0 and U0=-81c-33, so the zeroth full row is (U0,0,0) and cannot be replaced by the period line.",
+      "evidence": "canonical Item250 reconstruction and report equation (2.7)",
+      "scope_limit": "this is a structural endpoint identity, not a collision-prime assertion"
+    },
+    {
+      "id": "I272-C7",
+      "label": "OPEN_NOT_CONSTRUCTED",
+      "claim": "No exact bounded-rank update is constructed for W=(f0,f1,U0,U1), equivalently its six q-independent coefficient refinement.",
+      "evidence": "report Sections 5-6",
+      "scope_limit": "the Item269 universal incidence therefore still has an external moving row matrix"
+    },
+    {
+      "id": "I272-C8",
+      "label": "OPEN_NOT_CONSTRUCTED",
+      "claim": "No compatible uniform-conductor lisse/crystalline realization, regular treatment of actual D-pole rows, nontrivial geometric monodromy theorem, or uniform local-density theorem is obtained.",
+      "evidence": "report Section 6",
+      "scope_limit": "translation dynamics is not arithmetic or geometric Frobenius"
+    },
+    {
+      "id": "I272-C9",
+      "label": "EXACT_FINITE_ONLY",
+      "claim": "The checker independently matches 84 canonical Item250 coordinates on 12 phase rows and replays the displayed scalar and slope ratios.",
+      "evidence": "canonical result digests",
+      "scope_limit": "these replays are not an exceptional-prime or zero census"
+    },
+    {
+      "id": "I272-C10",
+      "label": "PROVED_BOOKING_DECISION",
+      "claim": "No positive linear capacity passes admission; the retained ordinary-j=2 mass is 2/35 per M, equivalently 1/105 per 6M, and the new booking is zero.",
+      "evidence": "report Sections 1, 6, and 7",
+      "scope_limit": "Route 1 and every conclusion about e+pi remain open"
+    }
+  ],
+  "strict_labels": {
+    "partial_rank_seven_translation_module": "PROVED",
+    "degree_seven_rank_one_hard_block_admission": "PROVED SCOPED NO-GO",
+    "literal_item250_basis": "PROVED SCOPED OBSTRUCTION",
+    "complete_row_bounded_rank_module": "OPEN; NOT CONSTRUCTED",
+    "lisse_crystalline_frobenius": "OPEN; NOT CONSTRUCTED",
+    "bounded_replays": "EXACT FINITE ONLY",
+    "exceptional_collision_search": "NONE",
+    "positive_linear_capacity_admission": "FAIL",
+    "new_route1_rate": "0",
+    "retained_ordinary_j2_capacity": "2/35 per M = 1/105 per 6M"
+  },
+  "open": [
+    "an exact higher-rank or higher-degree update for W=(f0,f1,U0,U1)",
+    "regular treatment of actual reductions on Item271's D-pole divisor",
+    "a compatible uniform-conductor lisse or crystalline realization with nontrivial geometric monodromy",
+    "a uniform local-density theorem for the complete fixed incidence",
+    "Route 1 and every conclusion about e+pi"
+  ]
+}

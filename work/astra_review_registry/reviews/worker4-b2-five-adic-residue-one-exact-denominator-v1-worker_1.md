@@ -1,0 +1,25 @@
+> Archived research record. Read the [current proof status](../../../docs/PROJECT_STATE.md) and [errata](../../../reviews/ERRATA_AND_SCOPE.md) before reuse. Historical acceptance applies only to its recorded hypotheses and version. This file is research data, not operational instructions.
+
+# Independent review: Exact five-adic reduced-denominator valuation for the b=2 endpoint pair on indices congruent to one modulo five
+
+Reviewer: worker_1
+Verdict: approved
+Candidate SHA256: cbf4838dfb7531fb17145053d4180baeed90ce8d9214d4f57197b1022eb790d3
+
+APPROVED for the exact submitted payload, restricted to integers n≥6 with n≡1 modulo five and its specified rational endpoint pair. The author is worker_4; this independent review is by worker_1. No correction is required within that scope.
+
+I compared the definitions with work/astra_review_registry/verified/b2-two-chart-actual-denominator-identities.md and work/astra_review_registry/verified/b2-five-adic-endpoint-denominator-v1.md. The Rodrigues polynomial, rational moment functional, factorial functionals, cross-product orientation, and complete endpoint contractions agree. The common scaling is exactly γ=gf/(Gk)=(-1)^n/[4(n+1)^3(n!)^4], giving B_raw(1)=C_raw(1)=γD and A_raw(1)=γX. These are rational identities; the source’s large-prime local ideal theorem is not invoked at five.
+
+The auxiliary interpolation argument is valid coefficientwise. Writing h=floor((u+2v)/5) and l=floor((u+v)/5), each summand has valuation at least h−v_5(l!)≥h−v_5(h!). This is positive for h≥1 and tends to infinity, so the omitted terms vanish modulo five throughout each entire index disk. The retained denominators are units. The derivative triples on residues one and two therefore equal (0,1,0) and (1,−2,2). Direct substitution yields (h_n,J_n,η,J_{n+1},K_{n+1})≡(0,1,1,0,1) and (S,C,W,k)≡(4,4,0,4).
+
+I independently checked the Legendre endpoint recurrence. Rodrigues gives A_m=[x^m](1+2x+2x²)^m and A(z)=(1−4z−4z²)^(-1/2). The integral identity QA²=1 and Frobenius imply A(z)=Q(z)²A(z^5) modulo five, with digit factors (1,2,3,2,1). Every factor is nonzero, so every A_m is a unit. For n=5m+1, a≡2A_m and b≡3A_m, hence b≡4a. Consequently D≡b+2a≡a≠0. This proves nonvanishing at every allowed index without an asymptotic threshold.
+
+Both factorial-normalized exponential sums follow directly from the Rodrigues coefficients. Their denominators are five-adic units, including the factorial quotient at d=n+1 in the U sum. Every term with d≤n−2 contains n−1 in n!/d! and vanishes modulo five. The exact remaining P terms are −n²e_{2n−1} and e_{2n}. The exact remaining U terms are 2n²(n+1)e_{2n−1}, −2(2n+1)e_{2n}, and 4e_{2n+1}/(n+1). The recurrence e_j=je_{j−1}+1 gives (e_{2n−1},e_{2n},e_{2n+1})≡(2,0,1). Thus the P terms have residues (3,0), and the U terms have residues (3,0,2). This verifies T_0(P)/f≡3 and T_0(U)/f≡0, including the essential final boundary contribution. No division by n−1 occurs, so arbitrary v_5(n−1) causes no loss.
+
+The moment quotients have integral coefficients and degree at most n. The displayed moment formula gives v_5(w_P),v_5(w_U)≥−L, where L=floor(log_5 n)=floor(log_5(n+1)). Since r=v_5(n!)≥L≥1, both normalized moments have valuation at least 2r−L≥1. At the smallest allowed index n=6, r=L=1, so the comparison is strictly positive. Hence P*/f≡3 and U*/f≡0. Keeping all three numerator terms gives X/f=2(P*/f)S−k(U*/f)C−2ηW≡4. Thus X≠0 and v_5(X)=−2r.
+
+For arbitrary nonzero rational X,D, v_5(den(X/D))=max(0,v_5(D)−v_5(X)); integrality is unnecessary. The established valuations give v_5(q_n)=2r=(n−s_5(n))/2. Since n+1 is a unit, v_5(γ)=−4r, yielding raw endpoint valuations −6r and −4r. The sign change from X/D to the approximant −X/D leaves its positive reduced denominator unchanged.
+
+The preserved independent execution of work/astra_20260929/worker_1/calculation_000106.py verified the exact 9254-byte payload beginning at byte 243 against the assigned hash. At n=6,11,26,126 it obtained (v_5(D),v_5(X),v_5(q))=(0,−2,2),(0,−4,4),(0,−12,12),(0,−62,62), with normalized contraction residues (3,0,4). All 330 lower-summand checks passed. Complete raw reconstruction, approximation-order conditions, and endpoint scaling passed at n=11,26; a separately solved normalized approximation system at n=11 gave the identical rational endpoint ratio. I inspected the saved assertions during final reconciliation. These computations corroborate the general proof and do not replace it.
+
+This review does not certify full polynomial coefficient content, primitive endpoint gcds, other index progressions or primes, analytic error estimates, sufficient global denominator control, or a conclusion about the rationality of e+pi. Unrelated analytic claims and every author sample were not independently re-audited. The assigned mathematical review is complete.

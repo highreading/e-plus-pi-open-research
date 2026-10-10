@@ -1,0 +1,255 @@
+{
+  "denominator_inequality_diagnostic_grid": {
+    "finite_diagnostic_only": true,
+    "maximum_two_centered_gain_over_log_Q": {
+      "D": 12,
+      "centered_radius": "25.3333333333333333333333333333",
+      "log_Q": "448.8403038367631673878014749944636",
+      "m": 3,
+      "n": 12,
+      "ratio": "0.122912784049154154363675584002",
+      "two_centered_gain": "55.168211338044808031723994143701882"
+    },
+    "range": "2<=m<=20, 2<=n<=30, 2<=D<=n, nu=2",
+    "row_count": 8265
+  },
+  "exact_denominator_proof_checks": {
+    "S_n_strictly_greater_than_n_log_2_for_n_at_least_4": true,
+    "all_parameter_proof_is_in_source": true,
+    "exp_cubic_lower_bound_exact": "12013/6000>2",
+    "log_2_upper_bound": "log(2)<7/10",
+    "n_at_least_8_scaled_gap": "115*n^2-602*n-397",
+    "scaled_gap_at_n_8": 2147,
+    "scaled_gap_strictly_increasing_for_n_at_least_8": true,
+    "small_n_node_term_minimum_integer_gap": 2
+  },
+  "exact_frequency_algebra": {
+    "all_frequency_height_and_i_pi_identities_exact": true,
+    "row_count": 12,
+    "rows": [
+      {
+        "centered_frequency_interval": [
+          -2,
+          2
+        ],
+        "coefficient_count": 19,
+        "coefficient_height": 1300,
+        "i_pi_multiplier": 1,
+        "m": 2,
+        "n": 2,
+        "polynomial_degree": 4,
+        "raw_frequency_interval": [
+          0,
+          4
+        ]
+      },
+      {
+        "centered_frequency_interval": [
+          -2,
+          2
+        ],
+        "coefficient_count": 29,
+        "coefficient_height": 4290,
+        "i_pi_multiplier": 1,
+        "m": 2,
+        "n": 3,
+        "polynomial_degree": 6,
+        "raw_frequency_interval": [
+          0,
+          4
+        ]
+      },
+      {
+        "centered_frequency_interval": [
+          -2,
+          2
+        ],
+        "coefficient_count": 39,
+        "coefficient_height": 9620,
+        "i_pi_multiplier": 1,
+        "m": 2,
+        "n": 4,
+        "polynomial_degree": 8,
+        "raw_frequency_interval": [
+          0,
+          4
+        ]
+      },
+      {
+        "centered_frequency_interval": [
+          -3,
+          3
+        ],
+        "coefficient_count": 29,
+        "coefficient_height": 3120,
+        "i_pi_multiplier": -1,
+        "m": 3,
+        "n": 2,
+        "polynomial_degree": 4,
+        "raw_frequency_interval": [
+          0,
+          6
+        ]
+      },
+      {
+        "centered_frequency_interval": [
+          -3,
+          3
+        ],
+        "coefficient_count": 43,
+        "coefficient_height": 4290,
+        "i_pi_multiplier": -1,
+        "m": 3,
+        "n": 3,
+        "polynomial_degree": 6,
+        "raw_frequency_interval": [
+          0,
+          6
+        ]
+      },
+      {
+        "centered_frequency_interval": [
+          -3,
+          3
+        ],
+        "coefficient_count": 57,
+        "coefficient_height": 10400,
+        "i_pi_multiplier": -1,
+        "m": 3,
+        "n": 4,
+        "polynomial_degree": 8,
+        "raw_frequency_interval": [
+          0,
+          6
+        ]
+      },
+      {
+        "centered_frequency_interval": [
+          -4,
+          4
+        ],
+        "coefficient_count": 39,
+        "coefficient_height": 6825,
+        "i_pi_multiplier": 1,
+        "m": 4,
+        "n": 2,
+        "polynomial_degree": 4,
+        "raw_frequency_interval": [
+          0,
+          8
+        ]
+      },
+      {
+        "centered_frequency_interval": [
+          -4,
+          4
+        ],
+        "coefficient_count": 57,
+        "coefficient_height": 6825,
+        "i_pi_multiplier": 1,
+        "m": 4,
+        "n": 3,
+        "polynomial_degree": 6,
+        "raw_frequency_interval": [
+          0,
+          8
+        ]
+      },
+      {
+        "centered_frequency_interval": [
+          -4,
+          4
+        ],
+        "coefficient_count": 75,
+        "coefficient_height": 10400,
+        "i_pi_multiplier": 1,
+        "m": 4,
+        "n": 4,
+        "polynomial_degree": 8,
+        "raw_frequency_interval": [
+          0,
+          8
+        ]
+      },
+      {
+        "centered_frequency_interval": [
+          -5,
+          5
+        ],
+        "coefficient_count": 49,
+        "coefficient_height": 12480,
+        "i_pi_multiplier": -1,
+        "m": 5,
+        "n": 2,
+        "polynomial_degree": 4,
+        "raw_frequency_interval": [
+          0,
+          10
+        ]
+      },
+      {
+        "centered_frequency_interval": [
+          -5,
+          5
+        ],
+        "coefficient_count": 71,
+        "coefficient_height": 13520,
+        "i_pi_multiplier": -1,
+        "m": 5,
+        "n": 3,
+        "polynomial_degree": 6,
+        "raw_frequency_interval": [
+          0,
+          10
+        ]
+      },
+      {
+        "centered_frequency_interval": [
+          -5,
+          5
+        ],
+        "coefficient_count": 93,
+        "coefficient_height": 13520,
+        "i_pi_multiplier": -1,
+        "m": 5,
+        "n": 4,
+        "polynomial_degree": 8,
+        "raw_frequency_interval": [
+          0,
+          10
+        ]
+      }
+    ]
+  },
+  "general_endpoint_radius_grid": {
+    "finite_check_only_source_proves_radius_at_least_4": true,
+    "minimum_centered_radius": "4.0",
+    "minimum_parameters": {
+      "D": 2,
+      "m": 2,
+      "n": 2,
+      "nu": 3
+    },
+    "range": "2<=m<=12, 2<=n<=15, 2<=D<=n, 2<=nu<=D+1",
+    "row_count": 7315,
+    "strict_gain_monotonicity_checks_as_nu_increases": 6160
+  },
+  "schema": "root-unity-centered-frequency-schwarz-correction-v1",
+  "scope": {
+    "all_parameter_inequality": "2*G_centered<log(Q_mn)",
+    "centered_type": "m",
+    "coefficient_height_is_unchanged_by_frequency_relabeling": true,
+    "leading_n_log_n_threshold_unchanged_for_fixed_m_and_D_over_n": true,
+    "no_irrationality_or_transcendence_conclusion": true,
+    "no_nonvanishing_rank_gap_content_or_classification_theorem": true,
+    "supersedes_uncentered_frequency_2m_circle_ledger": true
+  },
+  "symbolic_optimization": {
+    "boundary_total_gain_when_2*A/m<=pi": "-2*n*log(pi)-m*pi",
+    "circle_exponent_variable_part": "2*A*log(rho)-m*rho",
+    "improvement_over_uncentered_total_gain": "2*A*log(2)",
+    "stationary_and_boundary_match_at_2*A/m=pi": true,
+    "stationary_radius": "2*A/m",
+    "total_centered_gain": "2*A*log(2*A/(e*pi*m))-2*n*log(pi)"
+  }
+}

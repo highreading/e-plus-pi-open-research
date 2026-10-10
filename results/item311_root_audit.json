@@ -1,0 +1,47 @@
+{
+  "schema": "item311-root-audit-v1",
+  "item": 311,
+  "auditor": "root",
+  "date": "2026-08-31",
+  "verdict": "PASS AS A STRICT OPEN CHECKPOINT WITH AN EXACT SEED-MULTIPLIER REDUCTION, FALSE-SPLIT QUARANTINE, AN EXPLICIT INTERMEDIATE GAP, AND ZERO BOOKING",
+  "package": {
+    "manifest_files_checked": 5,
+    "manifest_file_hash_mismatches": 0,
+    "frozen_dependencies_checked": 12,
+    "manifest_dependency_hash_mismatches": 0,
+    "hash_list_entries_checked": 6,
+    "hash_list_mismatches": 0,
+    "canonical_root_replay_byte_identical": true,
+    "canonical_and_root_replay_sha256": "a4d6aecd652c7f975ebac327840bc178d8a87ffc4e973e9a128f9eb2b4112814",
+    "report_sha256": "6b0bcc27beb4798c58e1fbf513c427a679beb04801d3d57c97db0676d8c87202",
+    "script_sha256": "6b1fbf7543d431a9bde0e3bc1bcf5a1320ae818498a42762cd7e48c2b6d9668f",
+    "ledger_sha256": "508abf7cdfaabc4505b721bab778209a2336b0c61e6d842e0fcbbdc857c13840",
+    "manifest_sha256": "f3abd25903b5d91a042b94fa2b3bcb7bdaa1d127f31306e996b974f8b5eb29f1",
+    "hash_list_sha256": "97a4989f94dd3c903699308daf47f01c68f48d320e037a40e49dc9140327e989"
+  },
+  "independent_mathematical_checks": {
+    "companion_tail": "PASS: S_n and (3q_n-p_n)/2 have the same recurrence and bases; the adjacent Wronskian fixes the sign and inverse orientation.",
+    "continuant_indices": "PASS: Q_k,P_k,D_k,Dhat_k use the exact first-removed and terminal-appended tails. Euler splitting gives both the Pade cross-determinant and bD_k+(-1)^(n+k)Q_k=aDhat_k.",
+    "small_window_necessity": "PASS: Item305 gives R=gQ_k and kappa=gD_k; substitution into the actual centered square and the appended-tail identity forces a=gDhat_k and Dhat_k>2cQ_k.",
+    "small_window_sufficiency": "PASS: if Dhat_k divides a and exceeds 2cQ_k, multiplying the appended-tail identity yields a centered remainder of magnitude gQ_k<b/2, so it is the actual nearest residue.",
+    "parity": "PASS: a divisibility branch requires the even-entry appended tail to have even length; hence n+k is even, D_k is even, and the signed remainder is positive and odd while kappa is even.",
+    "false_split": "PASS: the tempting identity confuses first-removed and last-removed tails; the exact n=9,k=1 values give unequal sides and quarantine every deduction using it.",
+    "scope": "PASS: the unresolved divisibility implication would prove only R>=a/(2c). The whole interval a/(2c)<=R<a/2 lies outside the Legendre classification, so the actual centered half-bound remains open."
+  },
+  "format": {
+    "report_bytes": 11305,
+    "report_lines": 513,
+    "forbidden_control_characters": 0,
+    "inline_math_open": 71,
+    "inline_math_close": 71,
+    "display_math_open": 54,
+    "display_math_close": 54
+  },
+  "capacity": {
+    "new_route1_rate": 0,
+    "new_beta_capacity_reduction": 0,
+    "smallest_remaining_lemma": "For the actual continuant seed, Dhat_k>2cQ_k implies Dhat_k does not divide a; a further bridge is still required for the intermediate half-bound gap",
+    "ledger_changed": false,
+    "checkpoint_status": "OPEN"
+  }
+}

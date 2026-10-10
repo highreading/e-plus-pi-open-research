@@ -1,0 +1,43 @@
+{
+  "schema": "item312-A-telescoper-singular-no-go-ledger-delta-v1",
+  "item": 312,
+  "date": "2026-08-31",
+  "canonical_edit_performed": false,
+  "proposed_status": "PROVED_ALL_S_OPERATOR_AND_SCOPED_BOUNDED_RECURRENCE_NO_GO",
+  "proposed_ledger_entry": "Item 312 proves an exact all-s order-three, degree-seven recurrence for the Item-310 rational aggregate A_s by a rational hypergeometric telescoping certificate with all removable and terminal endpoints closed. The trailing and leading coefficients factor completely. Under the actual fixed-M relation 3p_s=4M+2s+1, every prime dividing a pivot divides one of two explicit nonzero degree-seven integers R_0(M),R_3(M), so singular-pivot logarithmic mass is O(log M)=o(M). This localizes only recurrence singularities, not collision primes p_s|D_s,epsilon. The positive comparison C_s=binomial(7s,s) has an order-one degree-seven recurrence and retains exact tied-prime mass M/38+o(M); hence bounded order/degree, integrality, nonvanishing, and exponential height alone cannot imply o(M). This is strictly an information-class no-go, not a claim about the actual sequence or exact operator. Booking is zero; W_D(M) remains open and the fixed-j=1 ceiling remains 1/36 per 6M.",
+  "capacity": {
+    "new_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "singular_pivot_mass": "O(log M)=o(M)",
+    "retained_ceiling_per_6M": "1/36"
+  },
+  "proved": [
+    "the exact finite hypergeometric summand representation for A_s",
+    "the all-s order-three degree-seven recurrence and rational telescoping certificate",
+    "removability at m=s+3,s+4,s+5 and zero endpoints m=0,s+6",
+    "the complete leading/trailing factorization",
+    "the fixed-M degree-seven localization containers R_0(M),R_3(M)",
+    "O(log M) weighted mass for actual-prime pivot singularities"
+  ],
+  "scoped_information_class_no_go": [
+    "order at most three and polynomial-coefficient degree at most seven",
+    "integrality, nonvanishing, and exponential height",
+    "the comparison has tied-prime mass M/38+o(M)",
+    "the comparison is not the actual A_s or D_s,epsilon sequence and does not use the exact operator coefficients"
+  ],
+  "exact_finite_only": [],
+  "open": [
+    "absolute minimality of the displayed A_s operator",
+    "a useful exact annihilator or invariant for B_s or D_s,epsilon",
+    "moving-prime control of the exact paired state a_s,b_s,epsilon",
+    "W_D(M)=o(M), the full fixed-j=1 closer, Route 1, and every conclusion about e+pi"
+  ],
+  "not_claimed": [
+    "a prime scan",
+    "a factor census",
+    "that collision primes must divide recurrence pivots",
+    "that the comparison sequence is the actual sequence",
+    "positive capacity"
+  ]
+}

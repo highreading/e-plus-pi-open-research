@@ -1,0 +1,587 @@
+{
+  "conditional_all_parameter_lemma": {
+    "identity": "r=R-G*(c0+c1*x)",
+    "item96_target": "r_E=0 and r_O=-2*epsilon, hence both ITEM96 residues vanish.",
+    "matrix_orientation": "Rows extract degrees E=2p-2 and O=2p-1 from G=A_m*u*x^L*(1-x)^L; RHS is (R_E,2*epsilon).",
+    "positivity": "Nonnegative integer CRT representatives obeying c0+c1<=4^(L-1) give 0<=1-u^2*w*(c0+c1*x)<=1."
+  },
+  "control_audit": {
+    "script": {
+      "bytes": 15709,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "scripts/common_kernel_positive_crt_all_window_cancellation_certificate.py"
+    },
+    "source": {
+      "bytes": 11369,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "sources/common_kernel_positive_crt_all_window_cancellation_barrier.md"
+    }
+  },
+  "dependency_checks": {
+    "results/common_kernel_nonsymmetric_two_moment_residue_hashes.sha256": {
+      "actual": "14edc755bb18e6726f6e1e5f6006afcc76950e2d3206dd3d2b942e10ee471081",
+      "expected": "14edc755bb18e6726f6e1e5f6006afcc76950e2d3206dd3d2b942e10ee471081"
+    }
+  },
+  "explicit_construction": {
+    "crt_reconstruction": {
+      "least_nonnegative_c0": 139574584508098815002244647712452355913710915,
+      "least_nonnegative_c1": 92665357687907045832657432294875741514399515,
+      "modulus": 237359812447644832129693355690076072498951997
+    },
+    "crt_table": [
+      {
+        "E": 716,
+        "O": 717,
+        "c0_mod_p": 3,
+        "c1_mod_p": 278,
+        "determinant_mod_p": 257,
+        "epsilon": 1,
+        "matrix_row_major_mod_p": [
+          149,
+          358,
+          314,
+          149
+        ],
+        "p": 359,
+        "rhs_mod_p": [
+          169,
+          2
+        ]
+      },
+      {
+        "E": 732,
+        "O": 733,
+        "c0_mod_p": 306,
+        "c1_mod_p": 133,
+        "determinant_mod_p": 180,
+        "epsilon": 1,
+        "matrix_row_major_mod_p": [
+          226,
+          352,
+          228,
+          226
+        ],
+        "p": 367,
+        "rhs_mod_p": [
+          0,
+          2
+        ]
+      },
+      {
+        "E": 744,
+        "O": 745,
+        "c0_mod_p": 75,
+        "c1_mod_p": 321,
+        "determinant_mod_p": 325,
+        "epsilon": -1,
+        "matrix_row_major_mod_p": [
+          331,
+          232,
+          130,
+          331
+        ],
+        "p": 373,
+        "rhs_mod_p": [
+          79,
+          371
+        ]
+      },
+      {
+        "E": 756,
+        "O": 757,
+        "c0_mod_p": 27,
+        "c1_mod_p": 326,
+        "determinant_mod_p": 1,
+        "epsilon": 1,
+        "matrix_row_major_mod_p": [
+          372,
+          357,
+          239,
+          372
+        ],
+        "p": 379,
+        "rhs_mod_p": [
+          219,
+          2
+        ]
+      },
+      {
+        "E": 764,
+        "O": 765,
+        "c0_mod_p": 318,
+        "c1_mod_p": 92,
+        "determinant_mod_p": 171,
+        "epsilon": 1,
+        "matrix_row_major_mod_p": [
+          33,
+          309,
+          29,
+          33
+        ],
+        "p": 383,
+        "rhs_mod_p": [
+          239,
+          2
+        ]
+      },
+      {
+        "E": 776,
+        "O": 777,
+        "c0_mod_p": 254,
+        "c1_mod_p": 8,
+        "determinant_mod_p": 127,
+        "epsilon": -1,
+        "matrix_row_major_mod_p": [
+          189,
+          179,
+          138,
+          189
+        ],
+        "p": 389,
+        "rhs_mod_p": [
+          35,
+          387
+        ]
+      },
+      {
+        "E": 792,
+        "O": 793,
+        "c0_mod_p": 391,
+        "c1_mod_p": 12,
+        "determinant_mod_p": 208,
+        "epsilon": -1,
+        "matrix_row_major_mod_p": [
+          216,
+          176,
+          300,
+          216
+        ],
+        "p": 397,
+        "rhs_mod_p": [
+          22,
+          395
+        ]
+      },
+      {
+        "E": 800,
+        "O": 801,
+        "c0_mod_p": 137,
+        "c1_mod_p": 15,
+        "determinant_mod_p": 362,
+        "epsilon": -1,
+        "matrix_row_major_mod_p": [
+          42,
+          342,
+          51,
+          42
+        ],
+        "p": 401,
+        "rhs_mod_p": [
+          57,
+          399
+        ]
+      },
+      {
+        "E": 816,
+        "O": 817,
+        "c0_mod_p": 51,
+        "c1_mod_p": 29,
+        "determinant_mod_p": 172,
+        "epsilon": -1,
+        "matrix_row_major_mod_p": [
+          203,
+          193,
+          77,
+          203
+        ],
+        "p": 409,
+        "rhs_mod_p": [
+          408,
+          407
+        ]
+      },
+      {
+        "E": 836,
+        "O": 837,
+        "c0_mod_p": 401,
+        "c1_mod_p": 192,
+        "determinant_mod_p": 167,
+        "epsilon": 1,
+        "matrix_row_major_mod_p": [
+          285,
+          24,
+          200,
+          285
+        ],
+        "p": 419,
+        "rhs_mod_p": [
+          316,
+          2
+        ]
+      },
+      {
+        "E": 840,
+        "O": 841,
+        "c0_mod_p": 335,
+        "c1_mod_p": 254,
+        "determinant_mod_p": 260,
+        "epsilon": -1,
+        "matrix_row_major_mod_p": [
+          403,
+          387,
+          221,
+          403
+        ],
+        "p": 421,
+        "rhs_mod_p": [
+          69,
+          419
+        ]
+      },
+      {
+        "E": 860,
+        "O": 861,
+        "c0_mod_p": 89,
+        "c1_mod_p": 239,
+        "determinant_mod_p": 253,
+        "epsilon": 1,
+        "matrix_row_major_mod_p": [
+          299,
+          405,
+          185,
+          299
+        ],
+        "p": 431,
+        "rhs_mod_p": [
+          140,
+          2
+        ]
+      },
+      {
+        "E": 864,
+        "O": 865,
+        "c0_mod_p": 90,
+        "c1_mod_p": 361,
+        "determinant_mod_p": 251,
+        "epsilon": -1,
+        "matrix_row_major_mod_p": [
+          193,
+          252,
+          164,
+          193
+        ],
+        "p": 433,
+        "rhs_mod_p": [
+          92,
+          431
+        ]
+      },
+      {
+        "E": 876,
+        "O": 877,
+        "c0_mod_p": 43,
+        "c1_mod_p": 15,
+        "determinant_mod_p": 286,
+        "epsilon": 1,
+        "matrix_row_major_mod_p": [
+          99,
+          82,
+          282,
+          99
+        ],
+        "p": 439,
+        "rhs_mod_p": [
+          219,
+          2
+        ]
+      },
+      {
+        "E": 884,
+        "O": 885,
+        "c0_mod_p": 347,
+        "c1_mod_p": 380,
+        "determinant_mod_p": 92,
+        "epsilon": 1,
+        "matrix_row_major_mod_p": [
+          290,
+          163,
+          105,
+          290
+        ],
+        "p": 443,
+        "rhs_mod_p": [
+          432,
+          2
+        ]
+      },
+      {
+        "E": 896,
+        "O": 897,
+        "c0_mod_p": 143,
+        "c1_mod_p": 77,
+        "determinant_mod_p": 227,
+        "epsilon": -1,
+        "matrix_row_major_mod_p": [
+          440,
+          77,
+          278,
+          440
+        ],
+        "p": 449,
+        "rhs_mod_p": [
+          152,
+          447
+        ]
+      },
+      {
+        "E": 912,
+        "O": 913,
+        "c0_mod_p": 303,
+        "c1_mod_p": 394,
+        "determinant_mod_p": 368,
+        "epsilon": -1,
+        "matrix_row_major_mod_p": [
+          344,
+          84,
+          251,
+          344
+        ],
+        "p": 457,
+        "rhs_mod_p": [
+          228,
+          455
+        ]
+      }
+    ],
+    "item96_residue_orientation": {
+      "I0": "2*r_(p-1)+r_(2p-1)",
+      "I1": "r_(2p-2)",
+      "rows": [
+        {
+          "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+          "p": 359,
+          "r_2pminus2_mod_p": 0
+        },
+        {
+          "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+          "p": 367,
+          "r_2pminus2_mod_p": 0
+        },
+        {
+          "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+          "p": 373,
+          "r_2pminus2_mod_p": 0
+        },
+        {
+          "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+          "p": 379,
+          "r_2pminus2_mod_p": 0
+        },
+        {
+          "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+          "p": 383,
+          "r_2pminus2_mod_p": 0
+        },
+        {
+          "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+          "p": 389,
+          "r_2pminus2_mod_p": 0
+        },
+        {
+          "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+          "p": 397,
+          "r_2pminus2_mod_p": 0
+        },
+        {
+          "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+          "p": 401,
+          "r_2pminus2_mod_p": 0
+        },
+        {
+          "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+          "p": 409,
+          "r_2pminus2_mod_p": 0
+        },
+        {
+          "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+          "p": 419,
+          "r_2pminus2_mod_p": 0
+        },
+        {
+          "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+          "p": 421,
+          "r_2pminus2_mod_p": 0
+        },
+        {
+          "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+          "p": 431,
+          "r_2pminus2_mod_p": 0
+        },
+        {
+          "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+          "p": 433,
+          "r_2pminus2_mod_p": 0
+        },
+        {
+          "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+          "p": 439,
+          "r_2pminus2_mod_p": 0
+        },
+        {
+          "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+          "p": 443,
+          "r_2pminus2_mod_p": 0
+        },
+        {
+          "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+          "p": 449,
+          "r_2pminus2_mod_p": 0
+        },
+        {
+          "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+          "p": 457,
+          "r_2pminus2_mod_p": 0
+        }
+      ]
+    },
+    "parameters": {
+      "L": 75,
+      "c0": 139574584508098815002244647712452355913710915,
+      "c1": 92665357687907045832657432294875741514399515,
+      "d": 1075,
+      "m": 115,
+      "n": 460
+    },
+    "polynomial_hashes": {
+      "A_m": "c79b44d45efdb19efae2ee898a14baac4eb22b683ecda89bb5f9f28ba99e827b",
+      "C": "8206bf2cc5a5e35507433b7100598bbcb1f298ecebb1918a4c292b693d3cdc86",
+      "G_m_L": "d6b2132accdaa9b2d7e011735ed4e6f9a801c93e6405789909b6a4da1bcd4ec8",
+      "R_m": "cc86194e0e0dd6058b4ee591daae6997442609ff204107fdd94b4e1a995a70d3",
+      "h": "c105892bcd8bf53b0cbc98b62a8102cdc7c6232f75229c5b71e9e19b92737fee",
+      "q": "5dcaf61f85cc6fee8bb0c8f74fb867c4523fd9c6595eee7413f6d3ea58ff4963",
+      "r": "2d9d17b3a8f1240e4839bce2f79cc09c535e7152d29d498047cbc353bd5c9cb9",
+      "s": "1a631c8232fb5557e7d6b7869a789ee068f17a88e2f02bd6a0b1291272a107f7",
+      "w_L": "f36fd5ff37adeb89602620ebfdf0aeb9bcd8f0dc1414e232dd4f92d2363341b8"
+    },
+    "positivity_capacity": {
+      "c0_plus_c1": 232239942196005860834902080007328097428110430,
+      "exact_bound": "u^2*x^L*(1-x)^L*(c0+c1*x) <=4*4^(-L)*(c0+c1)<=1",
+      "four_to_L_minus_1": 356811923176489970264571492362373784095686656,
+      "margin": 124571980980484109429669412355045686667576226
+    },
+    "reduced_moments": {
+      "I0_denominator_bits": 1396,
+      "I0_numerator_bits": 1395,
+      "I0_sha256": "aef2ae245548bf03e850e07a50bb8b22b945e5b98dbf530f2f7b6c41aba7976e",
+      "I1_denominator_bits": 1382,
+      "I1_numerator_bits": 1381,
+      "I1_sha256": "4b5fe85b8de6ceedffff360b23f73909abd14611b0ee3fb4e530bd6e34aeb6ef",
+      "common_denominator_bits": 1411,
+      "common_denominator_mod_primes": [
+        {
+          "common_denominator_mod_p": 278,
+          "p": 359
+        },
+        {
+          "common_denominator_mod_p": 319,
+          "p": 367
+        },
+        {
+          "common_denominator_mod_p": 152,
+          "p": 373
+        },
+        {
+          "common_denominator_mod_p": 26,
+          "p": 379
+        },
+        {
+          "common_denominator_mod_p": 47,
+          "p": 383
+        },
+        {
+          "common_denominator_mod_p": 7,
+          "p": 389
+        },
+        {
+          "common_denominator_mod_p": 36,
+          "p": 397
+        },
+        {
+          "common_denominator_mod_p": 36,
+          "p": 401
+        },
+        {
+          "common_denominator_mod_p": 316,
+          "p": 409
+        },
+        {
+          "common_denominator_mod_p": 115,
+          "p": 419
+        },
+        {
+          "common_denominator_mod_p": 170,
+          "p": 421
+        },
+        {
+          "common_denominator_mod_p": 148,
+          "p": 431
+        },
+        {
+          "common_denominator_mod_p": 235,
+          "p": 433
+        },
+        {
+          "common_denominator_mod_p": 35,
+          "p": 439
+        },
+        {
+          "common_denominator_mod_p": 302,
+          "p": 443
+        },
+        {
+          "common_denominator_mod_p": 171,
+          "p": 449
+        },
+        {
+          "common_denominator_mod_p": 191,
+          "p": 457
+        }
+      ],
+      "gcd_common_denominator_window_product": 1
+    },
+    "window_log_product_float": 102.17815109157226,
+    "window_prime_count": 17,
+    "window_primes": [
+      359,
+      367,
+      373,
+      379,
+      383,
+      389,
+      397,
+      401,
+      409,
+      419,
+      421,
+      431,
+      433,
+      439,
+      443,
+      449,
+      457
+    ],
+    "window_product": 237359812447644832129693355690076072498951997
+  },
+  "logical_scope": "Exact positive integral cancellation of every prime in one 17-prime d/3<p<n window. This is a finite aggregate barrier, not an infinite positive-density construction, an asymptotic impossibility theorem, or an e+pi classification.",
+  "missing_lemma": "An asymptotic restriction on CRT matrix nonvanishing or least representatives versus padding degree, or a further output channel which recovers the cancelled window product.",
+  "resource_policy": {
+    "RSS_guard_kib": 41943040,
+    "hardware_accelerator": "Not used: the replay is exact integer/rational arithmetic.",
+    "meaning": "The 40-GiB value is a failure guard only; it neither allocates nor limits the approximately 50 GiB available Colab RAM."
+  },
+  "schema": "common_kernel_positive_crt_all_window_cancellation_certificate_v1",
+  "source_sha256": "271a0184572a5e203f56564c9db789410dc34eec18488c28f880d31bbfc015e2"
+}

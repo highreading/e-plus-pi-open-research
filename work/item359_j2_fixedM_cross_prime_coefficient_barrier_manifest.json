@@ -1,0 +1,82 @@
+{
+  "item": 359,
+  "schema": "item359-j2-fixedM-cross-prime-coefficient-barrier-manifest-v1",
+  "classification": "PROVED_FIXED_M_CROSS_PRIME_COEFFICIENT_BRIDGE_AND_SELECTOR_BARRIER",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual fixed-M ordinary-j2 selector, common cross-prime coefficient kernel, and matched-modulus barrier",
+  "dependencies": {
+    "sources/item314_j2_two_branch_gate_report.md": "266f70523770a2a4147ee75289885fcb8dc945a65b650f2c8411e005ba110faa",
+    "scripts/item314_j2_two_branch_gate_certificate.py": "cc5f155e5f3248c500cd2101e401c25cec37ce43b31fbb4582843fc33a9b2f0e",
+    "results/item314_j2_two_branch_gate_certificate.json": "77de2dd46726a5a48e9adc4e40f96341d5da6c8db304d79f0ef8eeb7807245b1",
+    "manifests/item314_j2_two_branch_gate_manifest.json": "ad5c5435aa169c4fb3e235a1293975f191cee27b1e56ed439988c6b43eac5e14",
+    "sources/item352_j2_nonsemisimple_transition_no_go_report.md": "c60e1ba7771314c77b3fbe5d06f9c13c51a8c7e4d15f2589298641ff0f38e794",
+    "results/item352_j2_nonsemisimple_transition_no_go_certificate.json": "8f06da2f8b4265156d02d2da393c0aedb74db55db3649589163866ffd0badc31",
+    "results/item352_j2_nonsemisimple_transition_no_go_root_audit.json": "6acd46c106c21a963e0476e49d25c71305682c061e1df507ac8e332f4433d609",
+    "manifests/item352_j2_nonsemisimple_transition_no_go_manifest.json": "c970d5b2dec42ec47f40078b49219cbac99e871b464a54f95be352729347ce54",
+    "sources/item355_j2_target_residual_large_sieve_obstruction_report.md": "ea2f5f43a14a411849bc310409939891bfb496b681b028c20fcb3b990dd3377b",
+    "results/item355_j2_target_residual_large_sieve_obstruction_certificate.json": "e246cfcec626d662d970a5a7a63da38914e9e0c98225e35f3ec7f80f5a30d3f2",
+    "results/item355_j2_target_residual_large_sieve_obstruction_root_audit.json": "40bea19e6d09e7bbdd3945d9fc6e8a1f95c1cd8b5f906f5b6e2a57fea3924175",
+    "manifests/item355_j2_target_residual_large_sieve_obstruction_manifest.json": "fa7554389223e4fa96f6e58c2766abacc4ad3c7e56df4c68a74d2f440ea8aaff"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item359_j2_fixedM_cross_prime_coefficient_barrier_report.md",
+      "sha256": "8fc3e4a16c71aeb50f7516e5e81572ea3d7265f30104707fc988945155759a77",
+      "bytes": 16112
+    },
+    "certificate_script": {
+      "path": "work/item359_j2_fixedM_cross_prime_coefficient_barrier_certificate.py",
+      "sha256": "ec07fcb23d72e42e17f6f53f7263dc4aa2c9e611c02f355389566c927216b28e",
+      "bytes": 18624
+    },
+    "certificate": {
+      "path": "work/item359_j2_fixedM_cross_prime_coefficient_barrier_certificate.json",
+      "sha256": "b8ad2ebf3cc93b43649ff26d3c6deba888b4046d39224193b1c2ea53afa98227",
+      "bytes": 6847
+    },
+    "replay": {
+      "path": "work/item359_j2_fixedM_cross_prime_coefficient_barrier_certificate.replay.json",
+      "sha256": "b8ad2ebf3cc93b43649ff26d3c6deba888b4046d39224193b1c2ea53afa98227",
+      "bytes": 6847
+    },
+    "ledger": {
+      "path": "work/item359_j2_fixedM_cross_prime_coefficient_barrier_ledger.json",
+      "sha256": "3d0f585b05669159a1d3c80674ce97e16edc19397f354030d4e416258c3dd2cd",
+      "bytes": 5572
+    },
+    "self_audit": {
+      "path": "work/item359_j2_fixedM_cross_prime_coefficient_barrier_self_audit.json",
+      "sha256": "da0daa90ee3623d9156584e5366d39c6ab4757ccd84901d7c0b6757126b48807",
+      "bytes": 2967
+    }
+  },
+  "proved": [
+    "exact fixed-M selector and Fermat collapse of the exponential endpoint",
+    "all determinant gates on a fixed M are selected coefficients of one rational K_M",
+    "the complete K_M family is the coefficient array of one fixed bivariate rational function",
+    "K_M has exact poles of order 6M at both X=1 and X=-1 and recurrence order at least 12M",
+    "the selected coefficient window lies wholly before the natural homogeneous recurrence range",
+    "one fixed rational comparison kernel has coefficient p at every tied selector",
+    "rationality, holonomicity, and pointwise height alone cannot control matched-modulus divisibility",
+    "raw-capacity and chart-overlap audit"
+  ],
+  "exact_finite_only": [
+    "seven predeclared actual selector rows",
+    "forty-eight declared parameter pairs on each of two comparison rays",
+    "no prime scan and no collision census"
+  ],
+  "open": [
+    "matched-modulus divisibility nonconcentration for the actual coefficient diagonal",
+    "joint cross-prime theorem retaining the moving H-Theta target",
+    "selector-aware average gcd or reciprocity law",
+    "almost-all-M energy saving admissible in the final construction"
+  ],
+  "capacity": {
+    "raw_fixed_M_chebyshev_mass": "(2/35)M+o(M)",
+    "ordinary_j2_ceiling_per_6M": "1/105",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "overlap_rule": "nondegenerate and degenerate charts partition one raw interval and are not additive"
+  },
+  "replay_command": "python scripts/item359_j2_fixedM_cross_prime_coefficient_barrier_certificate.py --output results/item359_j2_fixedM_cross_prime_coefficient_barrier_certificate.replay.json"
+}

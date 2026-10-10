@@ -1,0 +1,1389 @@
+{
+  "actual_selector_replay": {
+    "classification": "EXACT PREDECLARED ACTUAL-ROW CONTROLS; NO SCAN",
+    "global_theorem": "every prime divisor of g_x or g_u is at most 4h+3, whereas every actual selected prime is at least 4h+9; therefore p|N_x iff p|A_x and p|N_u iff p|A_u",
+    "rows": [
+      {
+        "h": 1,
+        "p": 13,
+        "s": 1,
+        "u_gcd_p_unit": true,
+        "x_gcd_p_unit": true
+      },
+      {
+        "h": 2,
+        "p": 17,
+        "s": 1,
+        "u_gcd_p_unit": true,
+        "x_gcd_p_unit": true
+      },
+      {
+        "h": 4,
+        "p": 43,
+        "s": 4,
+        "u_gcd_p_unit": true,
+        "x_gcd_p_unit": true
+      },
+      {
+        "h": 8,
+        "p": 47,
+        "s": 2,
+        "u_gcd_p_unit": true,
+        "x_gcd_p_unit": true
+      }
+    ]
+  },
+  "capacity_replay": {
+    "aggregate_over_O(M)_rows": "O(M^2), not O(M) and not o(M)",
+    "gcd_selector_effect": "none: primitive reduction changes no actual selected-prime event",
+    "individual_primitive_height": "O(h)",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "shared_full_fixed_j1_ceiling_per_6M": "1/36"
+  },
+  "classification": "PROVED_LOCAL_GCD_FORMULA_LCM_HEIGHT_AND_SELECTOR_INVISIBILITY",
+  "dependencies": {
+    "manifests/item376_j1_terminal_normalized_carrier_recurrence_barrier_manifest.json": "b7bba97013ed32ccae2228aff337493bda0478c50dcc49b6be885c901f77a733",
+    "results/item376_j1_terminal_normalized_carrier_recurrence_barrier_certificate.json": "d6a367da2b86a0cdbcf6e7f1f284ed98875a27a98bcc4f90efe25f02ee68dadf",
+    "results/item376_j1_terminal_normalized_carrier_recurrence_barrier_ledger_delta.json": "f6b126b39bacc59fec3cf78e1911884f8b6c319675417743f05e5627b34ba9a3",
+    "results/item376_j1_terminal_normalized_carrier_recurrence_barrier_root_audit.json": "9f8eacb9ba180e5cd5f9999aa49631998f129c78e15386ee9063a83b20adc489",
+    "scripts/item376_j1_terminal_normalized_carrier_recurrence_barrier_certificate.py": "828b19188cf954b15fc19aa4bbc803da9cbcb62421c20591ea148c5fc5042551",
+    "sources/item376_j1_terminal_normalized_carrier_recurrence_barrier_report.md": "6104750dae85ecbb1fe3b0a0f1a702d7edd3ecbab33098e0f665a6438d49be37"
+  },
+  "dependency_hashes_verified": true,
+  "item": 379,
+  "local_replay": {
+    "classification": "EXACT PREDECLARED LOCAL CONTROLS; NO PRIME SCAN",
+    "prime_by_prime_identity": "lambda_q=max_r max(0,-v_q(rho_r)); Z_q=q^lambda_q sum rho_r; v_q(E)=max(0,lambda_q-v_q(Z_q)); v_q(g)=v_q(D)-v_q(E)",
+    "rows": [
+      {
+        "absolute_denominator_factors_distinct": true,
+        "archimedean_majorant_verified": true,
+        "family": "x",
+        "h": 1,
+        "lcm_divisibility": true,
+        "local_prime_records": [],
+        "primitive_denominator": 1,
+        "primitive_gcd": 1,
+        "primitive_numerator_digits": 2
+      },
+      {
+        "absolute_denominator_factors_distinct": true,
+        "archimedean_majorant_verified": true,
+        "family": "u",
+        "h": 1,
+        "lcm_divisibility": true,
+        "local_prime_records": [
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 5,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 7,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          }
+        ],
+        "primitive_denominator": 5,
+        "primitive_gcd": 7,
+        "primitive_numerator_digits": 3
+      },
+      {
+        "absolute_denominator_factors_distinct": true,
+        "archimedean_majorant_verified": true,
+        "family": "x",
+        "h": 2,
+        "lcm_divisibility": true,
+        "local_prime_records": [
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 1,
+            "prime": 5,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          }
+        ],
+        "primitive_denominator": 1,
+        "primitive_gcd": 5,
+        "primitive_numerator_digits": 3
+      },
+      {
+        "absolute_denominator_factors_distinct": true,
+        "archimedean_majorant_verified": true,
+        "family": "u",
+        "h": 2,
+        "lcm_divisibility": true,
+        "local_prime_records": [
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 5,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 7,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 11,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          }
+        ],
+        "primitive_denominator": 7,
+        "primitive_gcd": 55,
+        "primitive_numerator_digits": 5
+      },
+      {
+        "absolute_denominator_factors_distinct": true,
+        "archimedean_majorant_verified": true,
+        "family": "x",
+        "h": 4,
+        "lcm_divisibility": true,
+        "local_prime_records": [
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 1,
+            "prime": 5,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 7,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 13,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          }
+        ],
+        "primitive_denominator": 1,
+        "primitive_gcd": 455,
+        "primitive_numerator_digits": 4
+      },
+      {
+        "absolute_denominator_factors_distinct": true,
+        "archimedean_majorant_verified": true,
+        "family": "u",
+        "h": 4,
+        "lcm_divisibility": true,
+        "local_prime_records": [
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 5,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 7,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 11,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 13,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 19,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          }
+        ],
+        "primitive_denominator": 385,
+        "primitive_gcd": 247,
+        "primitive_numerator_digits": 8
+      },
+      {
+        "absolute_denominator_factors_distinct": true,
+        "archimedean_majorant_verified": true,
+        "family": "x",
+        "h": 5,
+        "lcm_divisibility": true,
+        "local_prime_records": [
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 1,
+            "prime": 5,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 7,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 11,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 17,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          }
+        ],
+        "primitive_denominator": 7,
+        "primitive_gcd": 935,
+        "primitive_numerator_digits": 7
+      },
+      {
+        "absolute_denominator_factors_distinct": true,
+        "archimedean_majorant_verified": true,
+        "family": "u",
+        "h": 5,
+        "lcm_divisibility": true,
+        "local_prime_records": [
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 5,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 1,
+            "prime": 7,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 11,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 13,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 17,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 23,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          }
+        ],
+        "primitive_denominator": 13,
+        "primitive_gcd": 150535,
+        "primitive_numerator_digits": 8
+      },
+      {
+        "absolute_denominator_factors_distinct": true,
+        "archimedean_majorant_verified": true,
+        "family": "x",
+        "h": 7,
+        "lcm_divisibility": true,
+        "local_prime_records": [
+          {
+            "clearing_denominator_exponent": 3,
+            "lambda": 0,
+            "local_sum_valuation": 1,
+            "prime": 5,
+            "primitive_gcd_exponent": 3,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 7,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 11,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 13,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 19,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          }
+        ],
+        "primitive_denominator": 11,
+        "primitive_gcd": 216125,
+        "primitive_numerator_digits": 8
+      },
+      {
+        "absolute_denominator_factors_distinct": true,
+        "archimedean_majorant_verified": true,
+        "family": "u",
+        "h": 7,
+        "lcm_divisibility": true,
+        "local_prime_records": [
+          {
+            "clearing_denominator_exponent": 3,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 5,
+            "primitive_gcd_exponent": 3,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 7,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 11,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 13,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 17,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 19,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 31,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          }
+        ],
+        "primitive_denominator": 2431,
+        "primitive_gcd": 515375,
+        "primitive_numerator_digits": 10
+      },
+      {
+        "absolute_denominator_factors_distinct": true,
+        "archimedean_majorant_verified": true,
+        "family": "x",
+        "h": 8,
+        "lcm_divisibility": true,
+        "local_prime_records": [
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 1,
+            "prime": 5,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 7,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 11,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 13,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 17,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 23,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 29,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          }
+        ],
+        "primitive_denominator": 143,
+        "primitive_gcd": 396865,
+        "primitive_numerator_digits": 11
+      },
+      {
+        "absolute_denominator_factors_distinct": true,
+        "archimedean_majorant_verified": true,
+        "family": "u",
+        "h": 8,
+        "lcm_divisibility": true,
+        "local_prime_records": [
+          {
+            "clearing_denominator_exponent": 2,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 5,
+            "primitive_gcd_exponent": 2,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 2,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 7,
+            "primitive_gcd_exponent": 2,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 11,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 13,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 17,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 19,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 23,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 29,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          }
+        ],
+        "primitive_denominator": 2717,
+        "primitive_gcd": 13890275,
+        "primitive_numerator_digits": 13
+      },
+      {
+        "absolute_denominator_factors_distinct": true,
+        "archimedean_majorant_verified": true,
+        "family": "x",
+        "h": 10,
+        "lcm_divisibility": true,
+        "local_prime_records": [
+          {
+            "clearing_denominator_exponent": 3,
+            "lambda": 0,
+            "local_sum_valuation": 1,
+            "prime": 5,
+            "primitive_gcd_exponent": 3,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 7,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 11,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 13,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 17,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 19,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 31,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 37,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          }
+        ],
+        "primitive_denominator": 2431,
+        "primitive_gcd": 19068875,
+        "primitive_numerator_digits": 14
+      },
+      {
+        "absolute_denominator_factors_distinct": true,
+        "archimedean_majorant_verified": true,
+        "family": "u",
+        "h": 10,
+        "lcm_divisibility": true,
+        "local_prime_records": [
+          {
+            "clearing_denominator_exponent": 3,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 5,
+            "primitive_gcd_exponent": 3,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 7,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 1,
+            "prime": 11,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 13,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 17,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 19,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 23,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 31,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 37,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 43,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          }
+        ],
+        "primitive_denominator": 96577,
+        "primitive_gcd": 474714625,
+        "primitive_numerator_digits": 17
+      },
+      {
+        "absolute_denominator_factors_distinct": true,
+        "archimedean_majorant_verified": true,
+        "family": "x",
+        "h": 11,
+        "lcm_divisibility": true,
+        "local_prime_records": [
+          {
+            "clearing_denominator_exponent": 2,
+            "lambda": 0,
+            "local_sum_valuation": 1,
+            "prime": 5,
+            "primitive_gcd_exponent": 2,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 2,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 7,
+            "primitive_gcd_exponent": 2,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 11,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 13,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 17,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 19,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 23,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 1,
+            "prime": 29,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 41,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          }
+        ],
+        "primitive_denominator": 4199,
+        "primitive_gcd": 368500825,
+        "primitive_numerator_digits": 16
+      },
+      {
+        "absolute_denominator_factors_distinct": true,
+        "archimedean_majorant_verified": true,
+        "family": "u",
+        "h": 11,
+        "lcm_divisibility": true,
+        "local_prime_records": [
+          {
+            "clearing_denominator_exponent": 4,
+            "lambda": 2,
+            "local_sum_valuation": 0,
+            "prime": 5,
+            "primitive_gcd_exponent": 2,
+            "reduced_denominator_exponent": 2
+          },
+          {
+            "clearing_denominator_exponent": 2,
+            "lambda": 1,
+            "local_sum_valuation": 1,
+            "prime": 7,
+            "primitive_gcd_exponent": 2,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 2,
+            "prime": 11,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 13,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 17,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 19,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 1,
+            "prime": 23,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 29,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 41,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 47,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          }
+        ],
+        "primitive_denominator": 104975,
+        "primitive_gcd": 17319538775,
+        "primitive_numerator_digits": 18
+      },
+      {
+        "absolute_denominator_factors_distinct": true,
+        "archimedean_majorant_verified": true,
+        "family": "x",
+        "h": 13,
+        "lcm_divisibility": true,
+        "local_prime_records": [
+          {
+            "clearing_denominator_exponent": 3,
+            "lambda": 0,
+            "local_sum_valuation": 1,
+            "prime": 5,
+            "primitive_gcd_exponent": 3,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 3,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 7,
+            "primitive_gcd_exponent": 3,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 11,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 13,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 17,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 1,
+            "prime": 19,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 23,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 31,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 37,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 43,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          }
+        ],
+        "primitive_denominator": 391,
+        "primitive_gcd": 5745471106375,
+        "primitive_numerator_digits": 17
+      },
+      {
+        "absolute_denominator_factors_distinct": true,
+        "archimedean_majorant_verified": true,
+        "family": "u",
+        "h": 13,
+        "lcm_divisibility": true,
+        "local_prime_records": [
+          {
+            "clearing_denominator_exponent": 4,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 5,
+            "primitive_gcd_exponent": 3,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 3,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 7,
+            "primitive_gcd_exponent": 3,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 2,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 11,
+            "primitive_gcd_exponent": 2,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 13,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 17,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 1,
+            "prime": 19,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 23,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 29,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 31,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 37,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 43,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          }
+        ],
+        "primitive_denominator": 56695,
+        "primitive_gcd": 63200182170125,
+        "primitive_numerator_digits": 20
+      },
+      {
+        "absolute_denominator_factors_distinct": true,
+        "archimedean_majorant_verified": true,
+        "family": "x",
+        "h": 14,
+        "lcm_divisibility": true,
+        "local_prime_records": [
+          {
+            "clearing_denominator_exponent": 4,
+            "lambda": 2,
+            "local_sum_valuation": 1,
+            "prime": 5,
+            "primitive_gcd_exponent": 3,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 2,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 7,
+            "primitive_gcd_exponent": 2,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 11,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 13,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 17,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 19,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 23,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 29,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 41,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 47,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 53,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          }
+        ],
+        "primitive_denominator": 37145,
+        "primitive_gcd": 2594165699125,
+        "primitive_numerator_digits": 19
+      },
+      {
+        "absolute_denominator_factors_distinct": true,
+        "archimedean_majorant_verified": true,
+        "family": "u",
+        "h": 14,
+        "lcm_divisibility": true,
+        "local_prime_records": [
+          {
+            "clearing_denominator_exponent": 4,
+            "lambda": 2,
+            "local_sum_valuation": 0,
+            "prime": 5,
+            "primitive_gcd_exponent": 2,
+            "reduced_denominator_exponent": 2
+          },
+          {
+            "clearing_denominator_exponent": 2,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 7,
+            "primitive_gcd_exponent": 2,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 11,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 13,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 17,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 19,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 23,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 29,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 1,
+            "local_sum_valuation": 0,
+            "prime": 31,
+            "primitive_gcd_exponent": 0,
+            "reduced_denominator_exponent": 1
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 41,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 47,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 53,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          },
+          {
+            "clearing_denominator_exponent": 1,
+            "lambda": 0,
+            "local_sum_valuation": 0,
+            "prime": 59,
+            "primitive_gcd_exponent": 1,
+            "reduced_denominator_exponent": 0
+          }
+        ],
+        "primitive_denominator": 5757475,
+        "primitive_gcd": 30611155249675,
+        "primitive_numerator_digits": 23
+      }
+    ],
+    "uniform_height": "|N_x|<=lcm(1,...,4h+3)*2^(2h+1)*exp(12h+9), and the same bound with 2^(2h+4) holds for |N_u|; therefore log|N|=O(h)",
+    "uniform_local_bound": "lambda_q<=floor(log_q(4h+3)), hence E_x and E_u divide lcm(1,...,4h+3)"
+  },
+  "schema": "item379-j1-primitive-gcd-local-height-v1",
+  "scope_warning": "The O(h) individual height sums to O(M^2) over O(M) rows and gives no weighted capacity reduction.  Local gcd primes are below the actual selector and cannot decide selected-prime divisibility.",
+  "smallest_missing_local_lemma": "evaluate or uniformly bound v_q(Z_q), the cancellation among the least-q-adic reverse-sum terms, for primes q<=4h+3",
+  "strict_labels": {
+    "finite_only": [
+      "ten declared h controls and four declared actual rows",
+      "no prime scan, collision census, recurrence guess, or extrapolation"
+    ],
+    "open": [
+      "uniform evaluation of the local residue Z_q for q<=4h+3",
+      "a closed product formula for the full primitive gcd",
+      "a recurrence for the primitive reduced numerators",
+      "selector-aware weighted zero density for the actual paired gates"
+    ],
+    "proved": [
+      "exact prime-by-prime local gcd identity",
+      "E_x and E_u divide lcm(1,...,4h+3)",
+      "uniform exponential height for N_x and N_u",
+      "primitive gcd reduction is invisible to every actual selected prime",
+      "zero booking and zero capacity reduction"
+    ]
+  },
+  "verdict": "The primitive denominators and numerators have uniform exponential height, but primitive gcd reduction removes only sub-selector primes. It is therefore arithmetically invisible to the actual collision set."
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "item306-root-audit-v1",
+  "item": 306,
+  "auditor": "root",
+  "date": "2026-08-31",
+  "verdict": "PASS WITH ALL-N NORMALIZED-M BRIDGE, EXACT MEROMORPHIC ENDPOINT FUNCTIONAL, FULL TENSOR CANCELLATION, COMPLETE ACTUAL-RAY POLE AUDIT, AND ZERO BOOKING",
+  "package": {
+    "manifest_files_checked": 5,
+    "manifest_file_hash_mismatches": 0,
+    "frozen_dependencies_checked": 9,
+    "manifest_dependency_hash_mismatches": 0,
+    "canonical_root_replay_byte_identical": true,
+    "canonical_and_root_replay_sha256": "cd48ec7f4cec273c72371d554c9a4ec55ed3cacde0108f4dc92975ba93dbbc55",
+    "report_sha256": "72aac7fc8f1d283067c429caef7c52dd9956f3f9dc2d0c2dd239ea3f6e48fc66",
+    "script_sha256": "c54c6f7c2990cefd63d39b5b33de4c82b199d0c1c8f62071f6f271d4fc1d15ad",
+    "ledger_sha256": "1a1f8263d02c667bff45a68c871fc67bc51cae4a8d450848d5e5c77c2a584aab",
+    "manifest_sha256": "6c3d8e9af2ede3ca6762884bc9b81f285ba8ea752a165dddea31ff81028988b7"
+  },
+  "independent_mathematical_checks": {
+    "beta_endpoint": "PASS: differentiating u^L(1-u^2)^gamma gives the two beta shifts, and L B(L/2,gamma+1)=2 gamma B(L/2+1,gamma) is the exact meromorphic recurrence. No divergent endpoint value is discarded.",
+    "hermite_reductions": "PASS: the production checker verifies each compact coordinate table by a cleared triangular primitive recurrence with three terminal zero polynomials; negative indices are explicitly zero.",
+    "tensor_dimension": "PASS: in conjugate x=plus/minus i u charts the (p,q) coefficient is i^p(-i)^q/(2i) times A_p B_q-B_p A_q. The diagonal vanishes and the six off-diagonal entries reduce with signs to three exterior coordinates; all nine entries are recorded and zero after clearing.",
+    "normalization": "PASS: the beta determinant coefficients agree after the stated beta quotient, while eta(r+6)/eta(r) supplies the missing six-step scalar. Combining eta with 16 and the Item-294 gauge gives exactly the certified tau ratio.",
+    "recurrence_membership": "PASS: the four shift reductions and full tensor identity give Item-237's order-three step-six recurrence for Z_n=16^n M_(6n+e)/g_n without a fitted row.",
+    "all_n_identification": "PASS: three exact original-tail initials on each of e=1,5 identify the normalized M solution with lambda_e[x^(6n+e)]C(x), because the common forward coefficient p_3(r/2) is strictly positive for every actual r.",
+    "pole_audit": "PASS: all beta resonances, Hermite denominators, primitive pivots, eta/gauge factors, and forward factors avoid r=6n+1,6n+5 with n>=0.",
+    "gate_scope": "PASS: only M=-11 det(f,d) is realized. The full necessary determinant D=cL+M still contains the independent L=9 det(f,b), so no moving-prime zero-density or capacity theorem follows."
+  },
+  "format": {
+    "report_bytes": 13588,
+    "report_lines": 460,
+    "forbidden_control_characters": 0,
+    "inline_math_open": 85,
+    "inline_math_close": 85,
+    "display_math_open": 34,
+    "display_math_close": 34
+  },
+  "capacity": {
+    "new_route1_rate": 0,
+    "new_ordinary_j2_capacity_reduction": 0,
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "ledger_changed": false
+  }
+}

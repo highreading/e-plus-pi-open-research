@@ -1,0 +1,54 @@
+{
+  "item": 401,
+  "schema": "item401-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_ALGEBRAIC_VERTICAL_TRANSPORT_AND_SCOPED_RECURRENCE_NO_GO",
+  "scope": "independent root audit of the fixed-prime phase interval, constant-term and residue representation, algebraicity and recurrence consequence, divided same-characteristic transport, CRT countermodel, sharp threshold, replay, and capacity interpretation",
+  "checks": {
+    "canonical_dependencies_checked": 8,
+    "canonical_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "control_characters": 0,
+    "actual_gate_scan_used": false,
+    "finite_to_infinite_inference_used": false,
+    "root_repairs": "Canonicalized paths, deterministic output, and replay instructions. No mathematical repair was required."
+  },
+  "mathematical_audit": {
+    "fixed_prime_column": "Solving the two tied equations gives h=3M-2p and s=(3p-4M-1)/2. The positivity interval has exactly floor(p/12) integers for every prime p>3, with consecutive shift (M,h,s)->(M+1,h+3,s-2).",
+    "constant_term": "The displayed w_nu and K reproduce Item 197's coefficient as CT_z w_nu K^M, and summing geometrically yields the rational constant-term generating function.",
+    "residue_algebraicity": "After multiplication by dz/z the integrand is N_nu/Delta. Four roots of Delta tend to zero; their residue sum is the generating function. The product over all four-subset residue sums is symmetric in the twelve roots, giving a nonzero annihilator over Q(t) of Y-degree at most 495.",
+    "recurrence": "An algebraic power series is D-finite. Clearing a linear differential relation and comparing coefficients gives a homogeneous polynomial-coefficient recurrence of absolute order and degree, independent of p.",
+    "divided_transport": "On a recurrence window contained in I_p every C_nu term has the same compulsory p factor. Dividing the integral recurrence by p and reducing modulo p gives exact same-characteristic transport of the divided coordinates; no invertibility is claimed at singular steps.",
+    "information_no_go": "The recurrence operators do not couple different prime columns. Their homogeneous output equations admit zero output on every column, and CRT combines those solutions into the full candidate-support countermodel.",
+    "threshold": "For D asymptotic to log M, Item 400's full-support witness has clustered coefficient at least 1/12, exactly saturating rather than beating Item 395's strict admission threshold.",
+    "scope": "The countermodel is not the actual distinguished recurrence orbit. Actual initial-state arithmetic, cross-prime reciprocity, a common low-height carrier, or a horizontal distribution theorem remains outside the closed class."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact fixed-prime candidate blocks",
+      "algebraic generating functions of degree at most 495",
+      "absolute polynomial-recurrence existence",
+      "exact divided same-prime transport",
+      "scoped recurrence-existence and finite-rank information no-go",
+      "zero booking and retained fixed-j1 ceiling 1/36"
+    ],
+    "OPEN": [
+      "actual distinguished initial-orbit nonconcentration",
+      "cross-prime reciprocity or a common low-height carrier",
+      "a strict fixed-j1 capacity saving",
+      "Route 1 and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "admission_coefficient_at_c_1_per_M": "strictly below 1/12",
+    "countermodel_coefficient_per_M": "at least 1/12",
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "new_route1_rate": 0,
+    "new_booking": 0,
+    "new_unconditional_capacity_reduction": 0
+  }
+}

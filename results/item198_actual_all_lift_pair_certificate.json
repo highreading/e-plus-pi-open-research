@@ -1,0 +1,137 @@
+{
+  "actual_root_regression": {
+    "actual_paired_cube_rows": [],
+    "actual_paired_square_rows": [],
+    "central_root_rows": [
+      [
+        79,
+        39,
+        12
+      ]
+    ],
+    "label": "EXPERIMENTAL_FINITE_IDENTITY_REGRESSION_NOT_EXISTENCE_PROOF",
+    "noncentral_lower_root_rows": 20,
+    "prime_limit": 251,
+    "row_stream_sha256": "7e7d8c5d89551889472c658b10f805fce82ea9af10df98ab60310c674cd26e4d",
+    "slope_and_wronskian_checks": 20,
+    "square_cube_pair_checks": 20
+  },
+  "classification": {
+    "EXPERIMENTAL_FINITE": [
+      "actual-root identity regression through p<=251"
+    ],
+    "OPEN": [
+      "existence of an actual noncentral all-lift beta pair",
+      "a useful all-prime product bound or positive logarithmic mass",
+      "actual mixed-coefficient valuation",
+      "same-index divided matching and small moving-CRT synchronization"
+    ],
+    "PROVED": [
+      "gcd(q_r,q_s)=gcd(q_r,K_h(2p)) for the actual beta pair",
+      "p^2 divides both paired values iff p^2 divides q_r and p divides D_h",
+      "p^3 divides both paired values iff p^3 divides q_r and p^2 divides D_h",
+      "q_s/p^2=q_r/p^2+2(D_h/p)q_(r-1) mod p on an all-lift pair",
+      "the prescribed-index all-lift radical satisfies R_N^2|q_N",
+      "transfer/continuant/unit-Wronskian data admit the modified-seed simultaneous countermodel"
+    ]
+  },
+  "dependency_sha256": {
+    "sources/bessel_denominator_all_lift_branching_wieferich_barrier.md": "f02b4b936c2ca810299f037e158e7406214e89ef77e8ca98dcd67b2a9bd00911",
+    "sources/item165_noncentral_singular_report.md": "d7b4475d2adfeff9a5f1c70a9c6b318d0c2b140bf90b194aa9acb6fdddcc2650",
+    "sources/item166_actual_singular_report.md": "2a8f1c84b91fa7d18fb02417cf480baae819afa795968375e5a3767fc0f52f76"
+  },
+  "exact_identities": {
+    "common_gcd": "gcd(q_r,q_s)=gcd(q_r,K_h(2p))",
+    "continuant_expansion": "K_h(2p)=2p*D_h+8p^3*E_h+...",
+    "next_square_digit": "q_s/p^2=q_r/p^2+2(D_h/p)q_(r-1) mod p",
+    "paired_cube_iff": "p^3|q_r,q_s iff p^3|q_r and p^2|D_h",
+    "paired_square_iff": "p^2|q_r,q_s iff p^2|q_r and p|D_h",
+    "transfer": "q_s=A*q_r+K_h(2p)*q_(r-1), A=1 mod p",
+    "wronskian": "P_r*q_(r-1)-P_(r-1)*q_r=2*(-1)^(r-1)"
+  },
+  "item": 198,
+  "logical_separation": [
+    "actual root existence at the prescribed lower index",
+    "local all-lift criterion",
+    "actual mixed-coefficient p^2 valuation",
+    "same-index divided matching",
+    "saddle-compatible small moving-CRT representative"
+  ],
+  "mass_ledger": {
+    "R_squared_required_log_R_per_m": "0.05889895100829538164",
+    "beta_log_q_N_per_6m": "1.1685311871794864979",
+    "post_3m_gap_per_6m": "0.01963298366943179388",
+    "proved_ceiling_only": "R_N^2 divides q_N; no positive lower mass follows"
+  },
+  "modified_seed_countermodel": {
+    "classification": "PROVED_MODIFIED_SEED_COUNTERMODEL_NOT_ACTUAL_BETA_SEED",
+    "companion_seed": [
+      0,
+      1
+    ],
+    "initial_seed": [
+      1,
+      5278458409
+    ],
+    "lower_index": 1,
+    "lower_value_R_squared": 5278458409,
+    "radical_R": 72653,
+    "row_stream_sha256": "b48252170883e5cbdfe6ebce9eca63dd0ec6e0cc0ea2460c16f2c52adbc4ee53",
+    "rows": [
+      {
+        "h": 1,
+        "lower_divided_square_digit": 4,
+        "p": 7,
+        "paired_divided_square_digit": 0,
+        "paired_index": 5,
+        "v_p_D_h": 1,
+        "v_p_K_h_2p": 2,
+        "v_p_paired_value": 3
+      },
+      {
+        "h": 46,
+        "lower_divided_square_digit": 50,
+        "p": 97,
+        "paired_divided_square_digit": 1,
+        "paired_index": 95,
+        "v_p_D_h": 1,
+        "v_p_K_h_2p": 2,
+        "v_p_paired_value": 2
+      },
+      {
+        "h": 51,
+        "lower_divided_square_digit": 85,
+        "p": 107,
+        "paired_divided_square_digit": 22,
+        "paired_index": 105,
+        "v_p_D_h": 1,
+        "v_p_K_h_2p": 2,
+        "v_p_paired_value": 2
+      }
+    ],
+    "scope_warning": "This solution has u_1=R^2, not the actual seed q_1=1; it does not assert the global actual-seed anti-period/reflection law.",
+    "witness_list_scope": "FINITE_EXPLICIT_FIXTURE_NOT_AN_EXISTENCE_SCAN",
+    "witness_primes": [
+      7,
+      97,
+      107
+    ],
+    "wronskian_checks": 105
+  },
+  "polynomial_regression": {
+    "all_exact": true,
+    "evaluation_checks": 45,
+    "h_range": [
+      0,
+      8
+    ],
+    "oddness_and_derivative_checks": 9,
+    "row_stream_sha256": "606a1a6a0a633714aeac769341985525ec503ba4d39f4860a3c1afc89d237c9d"
+  },
+  "transfer_gcd_regression": {
+    "all_exact": true,
+    "prime_limit": 43,
+    "row_stream_sha256": "96f294de6b18ec036649afc07db29a70b81ee1a0073a330a239fd3ea941e23b7",
+    "transfer_gcd_checks": 119
+  }
+}

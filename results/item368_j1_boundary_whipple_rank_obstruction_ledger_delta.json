@@ -1,0 +1,103 @@
+{
+  "item": 368,
+  "schema": "item368-j1-boundary-whipple-rank-obstruction-ledger-v1",
+  "classification": "PROVED_WHIPPLED_CROSSES_AND_LINEAR_PARAMETER_STATE_BARRIER",
+  "dependencies": {
+    "sources/item218_j1_common_log_report.md": "2cabc5a705a974d6989718e24443b59c00715fd4e9aff288e0e17b297096d585",
+    "scripts/item218_j1_common_log_certificate.py": "a238c5ca37263f2553da47bf3f21253aedf1c34f8c57458a4a274fc6cdc9029a",
+    "results/item218_j1_common_log_certificate.json": "963bbb8a9758e55ede72f965693d21fc41aa70d44e2d981d5873685c3f08ea0f",
+    "results/item218_j1_common_log_manifest.json": "e1c6c3d713670c819b5f27b1005db26f9b804ec8ee0766671928fc30c1ff6d8d",
+    "sources/item360_j1_full_gate_transverse_period_report.md": "4468412fb8631924952dc7f70fc4e75433a7524954b89525de508e55feefc8c4",
+    "results/item360_j1_full_gate_transverse_period_root_audit.json": "7a23e487b4d70d63f9785339344bdc00ae0e8350bcf1d8b1fcf6228c230e5138",
+    "manifests/item360_j1_full_gate_transverse_period_manifest.json": "92f88a56162f3803b8699922da921333f5225c41a32d14c87641dd53c3f8b55b",
+    "sources/item364_j1_saturation_boundary_phase_carrier_report.md": "2c18f6ac22220e553349e44a723e200d20f4f3c89cfec5cd83812db260834e92",
+    "scripts/item364_j1_saturation_boundary_phase_carrier_certificate.py": "ef9046fc4d7071779a73bf6e1bfd7d312789b994bd3274eec2a78d818d027b07",
+    "results/item364_j1_saturation_boundary_phase_carrier_certificate.json": "ca1987d1688789dbf0e64f3eec2c4b771b9873f829e61d1b5f62302f47443926",
+    "results/item364_j1_saturation_boundary_phase_carrier_root_audit.json": "fa6170a0c014cee655ba00c5288905344a969aa22b141d44b64ae4a2d3219a89",
+    "manifests/item364_j1_saturation_boundary_phase_carrier_manifest.json": "bd0c5435fe4d0b7266d81b4f97dfacf8b2fca55fb2c95770e7cb853c2f77426c"
+  },
+  "actual_family": {
+    "parameters": "p=4h+6s+3, M=3h+4s+2, h,s>=1",
+    "fixed_M_selector": "h=3M-2p and p=(3M-h)/2",
+    "boundaries": "B_xy={x=y=0}, B_uv={u=v=0}",
+    "actual_prime_lower_bound": "p>=4h+9",
+    "overlap_rule": "both boundaries and the nonboundary chart partition/overlap one full gate; their capacities are not additive"
+  },
+  "cleared_periods": {
+    "recurrence": "Q_0=k_epsilon; Q_t=(B+t-1)Q_(t-1)+(-1)^t(A)_t*k_(epsilon+2t)",
+    "quotient": "S=Q_n/(B)_n",
+    "X_hat": "Q_(K0,odd,h)(s+1,3s+2)",
+    "Y_hat": "Q_(K0,odd,h)(h+1,2s+h+2)",
+    "U_hat": "Q_(K1,even,h+2)(s,3s)",
+    "V_hat": "Q_(K1,odd,h+1)(h+1,2s+h+1)",
+    "target_line": "L_h(s)=6s+4h+3 and sigma_h=-(4h+3)/6",
+    "linear_resultant": "Res_s(L_h,P)=6^(deg P)P(sigma_h)"
+  },
+  "primitive_carriers": {
+    "definition": "radical of the phase numerator gcd after removing every prime <=4h+3",
+    "exact_zero_strata": "Z0={h:X_h=Y_h=0 in Q}, Z1={h:U_h=V_h=0 in Q} are kept separately",
+    "xy_implication": "outside Z0, B_xy implies p divides mathfrak_G0(h)",
+    "uv_implication": "outside Z1, B_uv implies p divides mathfrak_G1(h)",
+    "target_line_equivalence": "the paired linear resultants have exactly the same >4h+3 prime support as the Item364 phase carrier"
+  },
+  "whipple_rectangle": {
+    "family": "F_h(A;B)=4F3(-h,1/2-h,(5-2h)/4,A;3/2,(1-2h)/4,B;-1)",
+    "actual_diagonal": "X_h=(1-2h)F_h(A_s;B_s), Y_h=(1-2h)F_h(A_h;B_h)",
+    "parameters": "A_s=(3-4h)/6, A_h=h+1, B_s=(1-4h)/2, B_h=1-h/3",
+    "cross_1": "F_h(A_s;B_h)=(3/2-h)_h/(1-h/3)_h",
+    "cross_2": "F_h(A_h;B_s)=(3/2-h)_h/(1/2-2h)_h",
+    "unit_property": "both crossed normalized values are p-units for every actual p>=4h+9",
+    "contiguity_gap": "A_h-A_s=B_h-B_s=(10h+3)/6 is nonintegral on every potentially prime ray",
+    "consequence": "classical integer-contiguous transfer cannot reach either actual diagonal entry from its Whipple companion"
+  },
+  "rank_theorems": {
+    "K0": "span_A F_h(A;B)=span{1/(B)_t:0<=t<=h}, exact dimension h+1",
+    "K1_coefficient": "K1_j=(-1)^j*C(2h,j)*P_h(j)/(2h-j+1)_4 with quartic P_h for 0<=j<=2h",
+    "K1_even_rank": ">=h-3",
+    "K1_odd_rank": ">=h-4",
+    "scope": "bounded coefficient-state or matched-value interpolation uniform in the numerator parameter; target-specific identities at A_s,A_h remain open"
+  },
+  "method_class_closure": {
+    "ordinary_resultant_height": "O(h^2 log(h+2)); it is weaker than imposing the tied linear target first",
+    "target_line_height": "O(h log(h+2)) pointwise, but O(M^2 log M) after direct fixed-M summation",
+    "saturated_comparison": "Sat_>4h+3((18h)!/(4h)!) retains every actual p on M/12<=h<=M/3",
+    "comparison_mass": "M/8+o(M), or 1/48 per 6M",
+    "closed": "natural crossed Whipple completion, classical integer contiguity, bounded parameter-uniform state, ordinary resultant height, and generic saturated recurrence-height-divisor-sieve reasoning",
+    "not_closed": "target-specific large-prime factors, selector-aware large sieve, average gcd, or a new identity specialized to the actual two moving parameters"
+  },
+  "remaining_target": {
+    "weighted_goal": "sum_h log(p_h)*(1_(h in Z0 union Z1)+1_(outside exact-zero strata)*1_(p_h divides mathfrak_G0(h)mathfrak_G1(h)))=o(M)",
+    "status": "OPEN",
+    "consequence_if_proved": "both boundary charts become zero rate, but the nonboundary full-gate chart remains"
+  },
+  "capacity": {
+    "raw_fixed_j1_mass_per_M": "1/6",
+    "retained_shared_full_fixed_j1_ceiling_per_6M": "1/36",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "reason": "no actual-family weighted-divisibility theorem was proved"
+  },
+  "master_ledger": {
+    "booked_r1_unchanged": "0.1365141682948128184504238226...",
+    "threshold_T_unchanged": "1.1561471519642446123307302239...",
+    "deficit_unchanged": "1.0196329836694317938803064012..."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact clearing recurrence and target-line saturation",
+      "crossed Whipple evaluations and their p-unit property",
+      "nonintegral contiguity separation",
+      "exact K0 and linear K1 parameter-state ranks",
+      "scoped method-class closure and zero ledger change"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "predeclared symbolic controls only; no prime scan or collision census"
+    ],
+    "OPEN": [
+      "exact-zero phase classification",
+      "weighted zero density or average gcd for the actual saturated carriers",
+      "unbounded-h occurrence or nonoccurrence of either boundary",
+      "any strict fixed-j1 capacity reduction"
+    ]
+  }
+}

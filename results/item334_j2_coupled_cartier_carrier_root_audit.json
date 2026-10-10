@@ -1,0 +1,59 @@
+{
+  "item": 334,
+  "schema": "item334-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_COUPLED_TARGET_AND_EXACT_ROWWISE_INTEGER_CARRIER",
+  "scope": "independent root audit of the chart-free target-retaining ordinary-j2 carrier and its fixed-M capacity ledger",
+  "checks": {
+    "certificate_sha256": "238046186f90bdffb2e9b4c72994bac4f0c2ba7e377b42f04753b5502ea861e2",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_sha256": "782feb5d21bc64149012139acb78f976d085af05baad575d43074a31224ab85e",
+    "work_manifest_artifacts_match": true,
+    "frozen_dependencies_checked": 9,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 6,
+    "work_hash_list_match": true,
+    "root_stress_sha256": "27a2787358f69aff260992fefc3b3e8d7773e202ee033977e63584960e4d4575",
+    "root_stress_rows": 1153,
+    "root_stress_ell_chart_rows": 1151,
+    "root_stress_mu_chart_rows": 2,
+    "root_stress_fixed_M_slices": 441,
+    "root_stress_declared_old_gate_hits": 3,
+    "root_stress_actual_collisions": 0,
+    "report_inline_delimiters": "75/75",
+    "report_display_delimiters": "41/41",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "target_retention": "W^C is congruent to the actual Item-318 period after substituting the exact Item-328 Cartier digit; the moving affine target is retained",
+    "coordinate_identity": "T_nu=(-1)^(m+1)(f_nu W^C+9cb_nu-11v_nu) over Q, so the original collision is exactly T_0=T_1=0 modulo the tied prime on every chart",
+    "carrier": "gcd(|num D|,|num T_0|,|num T_1|) has exactly the original rowwise tied-prime support because every cleared denominator is a p-unit",
+    "charts": "the exterior targets and determinant syzygy give one post-gate condition on each rank-two chart and preserve all rank-deficient charts without division",
+    "height": "primitive clearing proves only O(M log M) pointwise and O(M^2 log M) direct aggregate height; the required squarefree aggregate o(M) theorem is not inferred",
+    "scope_warning": "the finite small-carrier census is diagnostic only; target-retaining average gcd, weighted zero density, and every capacity reduction remain open"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "target-retaining Cartier representative",
+      "chart-free coordinate equivalence",
+      "exact primitive row carrier and all-chart stratification",
+      "pointwise and direct aggregate height bounds",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "canonical replay and enlarged root stress rows"
+    ],
+    "OPEN": [
+      "fixed-M squarefree carrier mass o(M)",
+      "target-retaining average gcd and weighted zero density",
+      "any ordinary-j2 capacity reduction"
+    ]
+  },
+  "capacity": {
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

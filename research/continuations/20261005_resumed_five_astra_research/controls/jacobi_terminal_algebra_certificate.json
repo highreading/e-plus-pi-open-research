@@ -1,0 +1,138 @@
+{
+  "status": "EXACT_TERMINAL_ALGEBRA_PASS",
+  "fixed_coefficient_check": [
+    {
+      "name": "C",
+      "valuation": 1,
+      "normalized_modulus": 9,
+      "normalized_residue": 7
+    },
+    {
+      "name": "rho",
+      "valuation": 4,
+      "normalized_modulus": 27,
+      "normalized_residue": 7
+    },
+    {
+      "name": "D",
+      "valuation": 0,
+      "normalized_modulus": 27,
+      "normalized_residue": 1
+    },
+    {
+      "name": "E",
+      "valuation": 0,
+      "normalized_modulus": 27,
+      "normalized_residue": 4
+    },
+    {
+      "name": "rho_D",
+      "valuation": 4,
+      "normalized_modulus": 27,
+      "normalized_residue": 7
+    },
+    {
+      "name": "rho2_E",
+      "valuation": 8,
+      "normalized_modulus": 27,
+      "normalized_residue": 7
+    }
+  ],
+  "cartier_polynomial_check": {
+    "identities": [
+      {
+        "state": "G",
+        "digit": 0,
+        "output": "z**2 - z + 1"
+      },
+      {
+        "state": "G",
+        "digit": 1,
+        "output": "-z**3 - z**2 + z + 1"
+      },
+      {
+        "state": "G",
+        "digit": 2,
+        "output": "z**4 - z**3 + z - 1"
+      },
+      {
+        "state": "U",
+        "digit": 0,
+        "output": "z + 1"
+      },
+      {
+        "state": "U",
+        "digit": 1,
+        "output": "z**2 - z + 1"
+      },
+      {
+        "state": "U",
+        "digit": 2,
+        "output": "0"
+      },
+      {
+        "state": "V",
+        "digit": 0,
+        "output": "z + 1"
+      },
+      {
+        "state": "V",
+        "digit": 1,
+        "output": "-z**2 + z - 1"
+      },
+      {
+        "state": "V",
+        "digit": 2,
+        "output": "0"
+      }
+    ],
+    "resonant_low_digits": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  "auxiliary_gram_checks": [
+    {
+      "A": 3,
+      "m": 2,
+      "h_auxiliary": 7,
+      "exact_norm_integral": true,
+      "normalized_norm_identity": true,
+      "original_monomial_inverse_identity": true,
+      "endpoint_quadratic_identity": true
+    },
+    {
+      "A": 9,
+      "m": 5,
+      "h_auxiliary": 7,
+      "exact_norm_integral": true,
+      "normalized_norm_identity": true,
+      "original_monomial_inverse_identity": true,
+      "endpoint_quadratic_identity": true
+    },
+    {
+      "A": 15,
+      "m": 8,
+      "h_auxiliary": 7,
+      "exact_norm_integral": true,
+      "normalized_norm_identity": true,
+      "original_monomial_inverse_identity": true,
+      "endpoint_quadratic_identity": true
+    }
+  ],
+  "scope": "Finite rational and polynomial identities. No infinite endpoint-unit population or actual residual-transfer assertion."
+}

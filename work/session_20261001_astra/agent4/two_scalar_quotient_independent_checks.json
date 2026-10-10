@@ -1,0 +1,602 @@
+{
+  "status": "PASS_INDEPENDENT_EXACT_CHECKS",
+  "scope": "Actual HP controls exactly n=4,6,8,10; no new canonical solve or prime scan.",
+  "construction": "Monic rational recurrence, direct moments, finite kernel and projection, direct determinants, frozen full triples.",
+  "reference_polynomial_max_degree": 17,
+  "reference_degree_scope": "Degrees above the frozen approximation indices only support finite-support shifts and scalar identities.",
+  "check_counts": {
+    "frozen index domain": 6,
+    "source certificate provenance": 2,
+    "reference polynomial norm": 18,
+    "reference coefficient and endpoint bounds": 18,
+    "reference second-kind determinant": 17,
+    "reference polynomial orthogonality": 17,
+    "reference endpoint ratio": 17,
+    "independent constant intervals": 1,
+    "factorial functional domain": 86,
+    "high-row rank": 4,
+    "partial-sum domain": 8,
+    "rational quotient coordinates": 4,
+    "finite-kernel Christoffel-Darboux identity": 4,
+    "projection remainder rational identity": 4,
+    "kernel row from two tails": 4,
+    "projection row from two tails": 4,
+    "D_V determinant sign and scale": 4,
+    "D_W rational coefficient": 4,
+    "T rational coefficient and negative orientation": 4,
+    "cofactor sign and endpoint": 4,
+    "augmented rank and selected kernel": 4,
+    "integer high-row clearers": 4,
+    "positive row contents": 4,
+    "positive maximal-minor content": 4,
+    "positive rational determinant scale": 4,
+    "all basis determinant scales": 34,
+    "primitive contractions and common scale": 4,
+    "decomposable primitive alternating form": 4,
+    "conditioning eligibility": 4,
+    "conditioning lower bound": 4,
+    "tail Plucker identity including zero kappa": 18,
+    "exponential coefficient of companion Plucker identity": 18,
+    "rational companion identities": 4,
+    "author exact scalar fields": 48,
+    "author second-kind fields": 4,
+    "author row and minor contents": 4,
+    "author minor key domain": 34,
+    "author primitive minor coefficients": 4,
+    "author primitive contraction values": 4,
+    "author exact sign evidence": 4,
+    "author fully reduced quotient": 4,
+    "frozen polynomial degree caps": 4,
+    "frozen integral primitive triple": 4,
+    "frozen endpoint matching": 4,
+    "frozen endpoint quotient and complete cancellation": 4,
+    "frozen endpoint gcd": 4,
+    "frozen saved endpoints": 4,
+    "frozen fully reduced q": 4,
+    "frozen determinant endpoint": 4,
+    "frozen companion coordinates": 4,
+    "frozen polynomial versus selected cofactor": 4,
+    "frozen high equations and endpoint equation": 4,
+    "frozen order convention": 4,
+    "original formal HP residual": 74,
+    "finite complete evaluated remainder nonzero": 4,
+    "saved and independent integer-form interval consistency": 4,
+    "saved finite nonzero sign consistency": 4,
+    "endpoint bridge Wronskian sign and scale": 8,
+    "endpoint bridge D_V formula": 4,
+    "adjacent-difference determinant orientation": 8,
+    "all coordinate Plucker relations": 21,
+    "ordered-minor endpoint bridge at frozen n=6": 2,
+    "saved bridge E_6": 1,
+    "saved bridge E_7": 1,
+    "Q initial conditions": 5,
+    "Q shift with omitted negative index": 5,
+    "factorial-array recurrence": 75,
+    "H recurrence domain k>=1": 75,
+    "two-shift array formula domain k>=2": 70,
+    "enlarged factorial window domain": 3,
+    "saved shifted-minor transition": 6,
+    "explicit finite Cauchy-Binet expansion at 4->6": 2,
+    "universal quotient Plucker identity": 1,
+    "Plucker with zero first coordinate": 1,
+    "Plucker with zero second coordinate": 1,
+    "formal coefficient determinant orientation": 1,
+    "abstract conditioning determinant orientation": 1,
+    "abstract conditioning kappa": 1,
+    "abstract conditioning rank-two identity": 1,
+    "abstract conditioning companion": 1,
+    "protected files unchanged": 33
+  },
+  "total_checks": 907,
+  "records": [
+    {
+      "n": 4,
+      "b": 2,
+      "z0": "-309857/2633637888000",
+      "z1": "90073/146313216000",
+      "Delta": "1",
+      "A0": "17/140",
+      "A1": "37/504",
+      "h_n": "1/22050",
+      "second_kind_rational_parts": [
+        "8/21",
+        "218/945"
+      ],
+      "D_V": "135377/103219200",
+      "cofactor_Y": "-135377/103219200",
+      "row_contents": [
+        1
+      ],
+      "minor_content": 1,
+      "gamma_high": "1/3628800",
+      "primitive_high_minors": {
+        "(0, 1)": "-1510",
+        "(0, 2)": "1515",
+        "(1, 2)": "-494"
+      },
+      "primitive_contractions": {
+        "Z0": "-309857/725760",
+        "Z1": "90073/40320",
+        "K_tail": "-858450113/1463132160",
+        "d_endpoint": "135377/627200"
+      },
+      "author_primitive_contraction_labels": {
+        "Z0": "-309857/725760",
+        "Z1": "90073/40320",
+        "K": "-858450113/1463132160",
+        "d": "135377/627200"
+      },
+      "kappa": [
+        "-5",
+        "-1016",
+        "1021"
+      ],
+      "absolute_row_sums": [
+        "3025",
+        "2004",
+        "2009"
+      ],
+      "eligible_coordinates": [
+        0,
+        1,
+        2
+      ],
+      "C": "2009/1021",
+      "C_minimizers": [
+        2
+      ],
+      "rational_pi_companion": "34444072/10965537",
+      "rational_e_companion": "4292250565/1579037328",
+      "p": -9252196933,
+      "q": 1579037328,
+      "q_digits": 10,
+      "primitive_endpoint_gcd": 3,
+      "complete_normalized_error_interval": [
+        "1208982739421770669120435490950673041/2500000000000000000000000000000000000000",
+        "967186191537416535296348392760538433/2000000000000000000000000000000000000000"
+      ],
+      "integer_form_interval": [
+        "7636115497818692089586818271308475754012370243/10000000000000000000000000000000000000000",
+        "1909028874454673022396704567827118938503092561/2500000000000000000000000000000000000000"
+      ],
+      "interval_scope": "Fresh certified bounds; saved large endpoints checked for overlap and sign, not identical derivation.",
+      "bridge_E": {
+        "4": "90073/254016000",
+        "5": "309857/4572288000"
+      },
+      "difference_minors": {
+        "0": "309857/2633637888000",
+        "1": "-90073/146313216000"
+      },
+      "actual_rank": 2,
+      "all_checks_pass": true
+    },
+    {
+      "n": 6,
+      "b": 3,
+      "z0": "-181648924564193/26292053990045546855792640000000",
+      "z1": "1355870278086451/27303286835816529427169280000000",
+      "Delta": "1",
+      "A0": "41/924",
+      "A1": "23/858",
+      "h_n": "1/5549544",
+      "second_kind_rational_parts": [
+        "23/165",
+        "843/10010"
+      ],
+      "D_V": "19532105792367929/2149019034696302985216000000",
+      "cofactor_Y": "-19532105792367929/2149019034696302985216000000",
+      "row_contents": [
+        1,
+        16
+      ],
+      "minor_content": 2,
+      "gamma_high": "1/57000408424139980800000",
+      "primitive_high_minors": {
+        "(0, 1)": "13487466931134",
+        "(0, 2)": "-4492586096985",
+        "(0, 3)": "516736769500",
+        "(1, 2)": "943990577649",
+        "(1, 3)": "-148609807206",
+        "(2, 3)": "13334432115"
+      },
+      "primitive_contractions": {
+        "Z0": "-181648924564193/461260800",
+        "Z1": "1355870278086451/479001600",
+        "K_tail": "-126150793435010600528929/497125487738880000",
+        "d_endpoint": "19532105792367929/209227898880"
+      },
+      "author_primitive_contraction_labels": {
+        "Z0": "-181648924564193/461260800",
+        "Z1": "1355870278086451/479001600",
+        "K": "-126150793435010600528929/497125487738880000",
+        "d": "19532105792367929/209227898880"
+      },
+      "kappa": [
+        "-9511617603649",
+        "12692086160691",
+        "-3561929951451",
+        "381461394409"
+      ],
+      "absolute_row_sums": [
+        "18496789797619",
+        "14580067315989",
+        "5449911106749",
+        "678681008821"
+      ],
+      "eligible_coordinates": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "C": "694288919809/604385055271",
+      "C_minimizers": [
+        1
+      ],
+      "rational_pi_companion": "674979809337789048/214853163716047219",
+      "rational_e_companion": "126150793435010600528929/46408283362666199304000",
+      "p": -271946432251973034896929,
+      "q": 46408283362666199304000,
+      "q_digits": 23,
+      "primitive_endpoint_gcd": 20,
+      "complete_normalized_error_interval": [
+        "3050970492429691227048213872816457/500000000000000000000000000000000000000",
+        "61019409848593824540964277456329141/10000000000000000000000000000000000000000"
+      ],
+      "integer_form_interval": [
+        "566361212575241362982400743240159967191462929744117931433/2000000000000000000000000000000000000000",
+        "1415903031438103407456001858100399917978657324360294828583/5000000000000000000000000000000000000000"
+      ],
+      "interval_scope": "Fresh certified bounds; saved large endpoints checked for overlap and sign, not identical derivation.",
+      "bridge_E": {
+        "6": "1355870278086451/73150524144312975360000",
+        "7": "181648924564193/70441245472301383680000"
+      },
+      "difference_minors": {
+        "0": "-181648924564193/26292053990045546855792640000000",
+        "1": "1355870278086451/27303286835816529427169280000000"
+      },
+      "actual_rank": 3,
+      "all_checks_pass": true
+    },
+    {
+      "n": 8,
+      "b": 4,
+      "z0": "-15250610568884708725111998302207/28081320857894055703471252742073078097484074199285760000000000000",
+      "z1": "7580716307439772111744651966079/1651842403405532688439485455416063417499063188193280000000000000",
+      "Delta": "1",
+      "A0": "1667/102960",
+      "A1": "3803/388960",
+      "h_n": "1/1407913650",
+      "second_kind_rational_parts": [
+        "11456/225225",
+        "117608/3828825"
+      ],
+      "D_V": "44330101813057528422601086454649153/586735008424653635587340821104606830502497746944000000000000",
+      "cofactor_Y": "-44330101813057528422601086454649153/586735008424653635587340821104606830502497746944000000000000",
+      "row_contents": [
+        1,
+        20,
+        22
+      ],
+      "minor_content": 42,
+      "gamma_high": "1/947393198850365105825500199421242737950720000000000",
+      "primitive_high_minors": {
+        "(0, 1)": "-184315004042293844978332734000",
+        "(0, 2)": "61293111729126013656693500760",
+        "(0, 3)": "-7800743215604020639090524840",
+        "(0, 4)": "395994349219396011869224260",
+        "(1, 2)": "-12116358167973958540404927648",
+        "(1, 3)": "2059741681771993512169525632",
+        "(1, 4)": "-118090916318182575862982898",
+        "(2, 3)": "-172158411205938815949837456",
+        "(2, 4)": "13239021820976358748439193",
+        "(3, 4)": "-572665519058555786954831"
+      },
+      "primitive_contractions": {
+        "Z0": "-15250610568884708725111998302207/29640619008000",
+        "Z1": "7580716307439772111744651966079/1743565824000",
+        "K_tail": "-7142184564959321832212029357592732179961921/51680370304553582592000000",
+        "d_endpoint": "44330101813057528422601086454649153/871942323732480000"
+      },
+      "author_primitive_contraction_labels": {
+        "Z0": "-15250610568884708725111998302207/29640619008000",
+        "Z1": "7580716307439772111744651966079/1743565824000",
+        "K": "-7142184564959321832212029357592732179961921/51680370304553582592000000",
+        "d": "44330101813057528422601086454649153/871942323732480000"
+      },
+      "kappa": [
+        "130426641179552455948860533820",
+        "-174140296639773697374234349086",
+        "49335672950537017573489971375",
+        "-5912587279518907387083881833",
+        "290569789203131238967725724"
+      ],
+      "absolute_row_sums": [
+        "253804853336243275285985983860",
+        "198609194808357979606770170178",
+        "73594867330126887371796705057",
+        "10033215974101011522996842759",
+        "527896952877613502267601182"
+      ],
+      "eligible_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "C": "11033844156019887755931676121/9674460924431872076346352727",
+      "C_minimizers": [
+        1
+      ],
+      "rational_pi_companion": "4874349157314376876219191227322068224/1551553563457013494791038025912720355",
+      "rational_e_companion": "7142184564959321832212029357592732179961921/2627462866500644932618935434601637157971200",
+      "p": -15396602401921780209476656549589015393212481,
+      "q": 2627462866500644932618935434601637157971200,
+      "q_digits": 43,
+      "primitive_endpoint_gcd": 140,
+      "complete_normalized_error_interval": [
+        "192216078027012128546541788018241/2500000000000000000000000000000000000000",
+        "153772862421609702837233430414593/2000000000000000000000000000000000000000"
+      ],
+      "integer_form_interval": [
+        "1010081214720729836239533247571203956610433162541196226423710594328300925521/5000000000000000000000000000000000000000",
+        "2020162429441459672479066495142407913220866325082392452847421188656601851043/10000000000000000000000000000000000000000"
+      ],
+      "interval_scope": "Fresh certified bounds; saved large endpoints checked for overlap and sign, not identical derivation.",
+      "bridge_E": {
+        "8": "7580716307439772111744651966079/625009353352136637060909157715017728000000000",
+        "9": "15250610568884708725111998302207/10625159006986322830035455681155301376000000000"
+      },
+      "difference_minors": {
+        "0": "15250610568884708725111998302207/28081320857894055703471252742073078097484074199285760000000000000",
+        "1": "-7580716307439772111744651966079/1651842403405532688439485455416063417499063188193280000000000000"
+      },
+      "actual_rank": 4,
+      "all_checks_pass": true
+    },
+    {
+      "n": 10,
+      "b": 5,
+      "z0": "-340167929986094559743523677308906740396072672301643/20195147303564404590155116715034548346699545610095250022575282691570603656620235816960000000000000000000000",
+      "z1": "362554503474229537925307471759060254526116692627963799/2362351397676474279796002105261065143507973037676141984783627711040151803927981394493440000000000000000000000",
+      "Delta": "1",
+      "A0": "4363/739024",
+      "A1": "5029/1410864",
+      "h_n": "1/358415185128",
+      "second_kind_rational_parts": [
+        "24532/1322685",
+        "3421486/305540235"
+      ],
+      "D_V": "585233916851807514551890501481680454970056078076642850459/2525695041683511604944688722862575792064192546166212932194189478645203380878704640000000000000000000000",
+      "cofactor_Y": "-585233916851807514551890501481680454970056078076642850459/2525695041683511604944688722862575792064192546166212932194189478645203380878704640000000000000000000000",
+      "row_contents": [
+        1,
+        24,
+        26,
+        2184
+      ],
+      "minor_content": 2700,
+      "gamma_high": "1/23304034997581767778758480545356048487695465167851873739568104334273019904000000000000000000",
+      "primitive_high_minors": {
+        "(0, 1)": "3148771017068176616270286038628245293694032650136320",
+        "(0, 2)": "-1041315012494309768636100839336143275047696431594560",
+        "(0, 3)": "142077862390770408190963032146738337518704338702720",
+        "(0, 4)": "-9604841989063668430728700957635362693118863482080",
+        "(0, 5)": "276805287729300148583259155492918093680831528656",
+        "(1, 2)": "197759382209299083306067703533412517709103909198400",
+        "(1, 3)": "-36001131881310778804058847002093460828985825632000",
+        "(1, 4)": "2740488726202993289262791145716009462643844723920",
+        "(1, 5)": "-84358958748741067958491222167007962313094354112",
+        "(2, 3)": "2982525166763031126740400981800521159253518989600",
+        "(2, 4)": "-303059329820666031899982414774229760890298518260",
+        "(2, 5)": "10513119979318535803386384845972753136617741076",
+        "(3, 4)": "13839557319753670847601612926906021609421909320",
+        "(3, 5)": "-641595356599364360277690988095865426879564752",
+        "(4, 5)": "16410433940092536165593602939197131070106717"
+      },
+      "primitive_contractions": {
+        "Z0": "-98308531765981327765878342742274047974465002295174827/250445794959360000",
+        "Z1": "362554503474229537925307471759060254526116692627963799/101370917007360000",
+        "K_tail": "-22954777935655437163718797004983756646528063304453887863849172556713/560512517177076485361500160000000",
+        "d_endpoint": "585233916851807514551890501481680454970056078076642850459/38845095110602260480000"
+      },
+      "author_primitive_contraction_labels": {
+        "Z0": "-98308531765981327765878342742274047974465002295174827/250445794959360000",
+        "Z1": "362554503474229537925307471759060254526116692627963799/101370917007360000",
+        "K": "-22954777935655437163718797004983756646528063304453887863849172556713/560512517177076485361500160000000",
+        "d": "585233916851807514551890501481680454970056078076642850459/38845095110602260480000"
+      },
+      "kappa": [
+        "-2240205830263302887543002789636697911565602525291056",
+        "2984356636972734059546972882173377235313583816200112",
+        "-846245609241932368960676940754603021490092360608576",
+        "109046057714259506207157262204506587692789489715752",
+        "-7153589445795527595054456207369616166886965473817",
+        "202334264037218344604042220786726216208545457585"
+      ],
+      "absolute_row_sums": [
+        "4342045539230049761676661870224255187047233115444336",
+        "3385356378843738212737633871531634289657079324044752",
+        "1242370492320171867636612312650976516430080776041896",
+        "181076000591520571156970159434547321393979984798392",
+        "12662246012841021515275241724655447135393498740297",
+        "372335372247899209241580047096933871688493295313"
+      ],
+      "eligible_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "C": "6411659808416170857457639908203852821320225992509/5652190600327147840051085004116244763851484500379",
+      "C_minimizers": [
+        1
+      ],
+      "rational_pi_companion": "5212336235178642728925404024737312687525654049733049759352704/1659138154274874303754609571700564089840108981347282481051265",
+      "rational_e_companion": "252502557292209808800906767054821323111808696348992766502340898123843/92890499671018242619170077012713821810696149560486573723113383808000",
+      "p": -544326668558403514993799147268594196010844994762206969989172607512643,
+      "q": 92890499671018242619170077012713821810696149560486573723113383808000,
+      "q_digits": 68,
+      "primitive_endpoint_gcd": 28224,
+      "complete_normalized_error_interval": [
+        "4767027329866640201889349759703/5000000000000000000000000000000000000000",
+        "9534054659733280403778699519407/10000000000000000000000000000000000000000"
+      ],
+      "integer_form_interval": [
+        "110702887654178028302907530909475533165990630951881379534804316578030969333193435156279813963077559/1250000000000000000000000000000000000000",
+        "885623101233424226423260247275804265327925047615051036278434532624247754665547481250238511704620473/10000000000000000000000000000000000000000"
+      ],
+      "interval_scope": "Fresh certified bounds; saved large endpoints checked for overlap and sign, not identical derivation.",
+      "bridge_E": {
+        "10": "362554503474229537925307471759060254526116692627963799/3754303122265186348826031480918327812730738188250069920548651008000000000000",
+        "11": "340167929986094559743523677308906740396072672301643/32094592130091151363870002482916704281435172787808454439862272000000000000"
+      },
+      "difference_minors": {
+        "0": "-340167929986094559743523677308906740396072672301643/20195147303564404590155116715034548346699545610095250022575282691570603656620235816960000000000000000000000",
+        "1": "362554503474229537925307471759060254526116692627963799/2362351397676474279796002105261065143507973037676141984783627711040151803927981394493440000000000000000000000"
+      },
+      "actual_rank": 5,
+      "all_checks_pass": true
+    }
+  ],
+  "shifted_minor_transfers": [
+    {
+      "from_n": 4,
+      "to_n": 6,
+      "s": 0,
+      "determinant": "-181648924564193/26292053990045546855792640000000",
+      "largest_reference_degree": 11,
+      "support": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "nonzero_left_minor_terms": 54
+    },
+    {
+      "from_n": 4,
+      "to_n": 6,
+      "s": 1,
+      "determinant": "1355870278086451/27303286835816529427169280000000",
+      "largest_reference_degree": 11,
+      "support": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "nonzero_left_minor_terms": 54
+    },
+    {
+      "from_n": 6,
+      "to_n": 8,
+      "s": 0,
+      "determinant": "15250610568884708725111998302207/28081320857894055703471252742073078097484074199285760000000000000",
+      "largest_reference_degree": 14
+    },
+    {
+      "from_n": 6,
+      "to_n": 8,
+      "s": 1,
+      "determinant": "-7580716307439772111744651966079/1651842403405532688439485455416063417499063188193280000000000000",
+      "largest_reference_degree": 14
+    },
+    {
+      "from_n": 8,
+      "to_n": 10,
+      "s": 0,
+      "determinant": "-340167929986094559743523677308906740396072672301643/20195147303564404590155116715034548346699545610095250022575282691570603656620235816960000000000000000000000",
+      "largest_reference_degree": 17
+    },
+    {
+      "from_n": 8,
+      "to_n": 10,
+      "s": 1,
+      "determinant": "362554503474229537925307471759060254526116692627963799/2362351397676474279796002105261065143507973037676141984783627711040151803927981394493440000000000000000000000",
+      "largest_reference_degree": 17
+    }
+  ],
+  "abstract_conditioning_example": {
+    "domain": "integer m>=2",
+    "high_row": [
+      "m",
+      "m-1",
+      "m"
+    ],
+    "primitivity_certificate": "m-(m-1)=1 for row entries and signed minors",
+    "kappa": [
+      -1,
+      0,
+      1
+    ],
+    "absolute_row_sums": [
+      "2m-1",
+      "2m",
+      "2m-1"
+    ],
+    "C": "2m-1",
+    "z0": -1,
+    "z1": 1,
+    "Delta": 1,
+    "companion": "(1-m)/(A0+A1), for arbitrary fixed positive A0,A1",
+    "scope": "Abstract decomposable primitive forms; not actual HP factorial-tail data."
+  },
+  "source_and_completed_artifact_sha256": {
+    "work/session_20261001_astra/agent2/TWO_SCALAR_DETERMINANT_QUOTIENT.md": "255b1cd643eda15efc4d8fc1e0f54a45cf59961e6e711fcb75b2f716d735ab9d",
+    "work/session_20261001_astra/agent2/TWO_SCALAR_DETERMINANT_QUOTIENT_REPORT.md": "3c596b136ed325da6d01920540722f45250c37d4d87c68f3abd97b4291d06550",
+    "work/session_20261001_astra/agent2/REPORT.md": "e232df40c5fda2fe88b6b5d833f57c6bab0de8380a9b943b975bc8b47a382081",
+    "work/session_20261001_astra/agent2/check_two_scalar_quotient.py": "c555974876d9330d1ffa9c0566c5ec5c5c7758156ec75b848d99d4cb50db9e74",
+    "work/session_20261001_astra/agent2/two_scalar_quotient_evidence.json": "48c2038aaeb717fb7592162935063189c1668c482e23a850ed973d510dc4fab4",
+    "work/session_20261001_astra/agent2/growing_regime_certificates.json": "1c5463569780e398a55ca511f6c9354cdc78b61081452a8d4981013278b49c5b",
+    "work/session_20261001_astra/agent2/ACTUAL_PROJECTION_REMAINDER.md": "26fb1db97884a4b900ffc6df102a417388eff9ac57fb55c52e9f755deb1cd028",
+    "work/session_20261001_astra/agent3/BERNSTEIN_DIFFERENCE_CONTINUATION.md": "a97c7981d30214861320918ea556da1dede230f658ddf07e1b4fca43a8831ea7",
+    "work/session_20261001_astra/PRIMITIVE_CONDITIONING_LIMITATION.md": "fc0f4de6895a1f224cedd0dc247a2b417e4599f57394e399508e54031c54019b",
+    "work/session_20261001_astra/agent4/audit_rate_count_stdout.txt": "30dd2c819bc8d22a5df32df33fa612558d36e53d7437a18685f8e6b7cc40b01e",
+    "work/session_20261001_astra/agent4/REPORT.md": "233e0183a82b9f5bde7bf5fc4147aa9050d18bfbb35b754b25bcd5730015d38a",
+    "work/session_20261001_astra/agent4/check_inherited_rates_counts.py": "d8c4881c0e0d1b48c1b715f13c57cbd3e91fbc5b8a6dccdbb86832940551015d",
+    "work/session_20261001_astra/agent4/whole_family_checks.json": "86b8e1b5067dbcd273460ef8339ea2e19b9fc933ddc19743aa84c0efe84e0a3a",
+    "work/session_20261001_astra/agent4/B2_WHOLE_FAMILY_REVIEW.md": "a02fe2a4ce8890ea0c9f55e58f9fe05da2b1b45b6e94456d482cf7eb4bace682",
+    "work/session_20261001_astra/agent4/check_whole_family.py": "e10c150d17e28cbeb59c5a0eecf0dc34ac5d617a2327524c2e7c1444b0a647e9",
+    "work/session_20261001_astra/agent4/check_two_scalar_quotient_independent.py": "d6a3b4363d2141b4c606f522efc00d36966e37c4ca482ef2cee7419a05e98bb7",
+    "work/session_20261001_astra/agent4/b2_whole_family_checks.json": "b846c970a8df5d026ade45006aa9f154929f5a9de48d8f59ba5123d5f04aed1a",
+    "work/session_20261001_astra/agent4/additional_growing_independent_checks.json": "b0f75a0557eeea4db56ae3daab6efe16021f4fb043b7d6c2b871c076aa6df296",
+    "work/session_20261001_astra/agent4/B1_WHOLE_FAMILY_REVIEW.md": "d66f6ba0d37b55ffd101540737a15a7c34b0c0aca51a4d51b5f103ca457c6224",
+    "work/session_20261001_astra/agent4/whole_family_check_stdout.txt": "d6c64487f69af779a85ec17c73296b007dfec169281ad686f811510652369db3",
+    "work/session_20261001_astra/agent4/DRAFT_OBSERVATIONS_REVIEW.md": "b14b4593502dd7b54538e1b2e8e1fa9cd67a51b5f6850fded593a763d122d6ec",
+    "work/session_20261001_astra/agent4/check_additional_growing_independent.py": "9bf1ee4fbbcb287c0a323502d4d7a824b0c2fae9196f707fea3888a664cac9c2",
+    "work/session_20261001_astra/agent4/b2_whole_family_check_stdout.txt": "f785c66d68d5f9cdca53c579ba77028e334a68ecc8140caa8e12c9a7a749a686",
+    "work/session_20261001_astra/agent4/growing_content_scale_checks.json": "50f9d58372cb359f6796086fb5268d772cde3736e807ce506a52595f59014f5a",
+    "work/session_20261001_astra/agent4/check_growing_content_scales.py": "affe14c9c32cc6881f8d216a86964795b1e3e9f71bb5d2d58dd8c18dcda6bdb7",
+    "work/session_20261001_astra/agent4/INHERITED_SYNTHESIS_REVIEW.md": "208dacc3655a688d89ca29ede544723f00502c7b69cfe1ecb83ce771985e76ec",
+    "work/session_20261001_astra/agent4/ADDITIONAL_GROWING_REVIEW.md": "794412902e3b0f93368f73fe2466ccc5846ac5c0ae6d2077b15daf81f06b5be1",
+    "work/session_20261001_astra/agent4/growing_content_scale_stdout.txt": "50f9d58372cb359f6796086fb5268d772cde3736e807ce506a52595f59014f5a",
+    "work/session_20261001_astra/agent4/GROWING_ARITHMETIC_CONTENT_REVIEW.md": "7fef02412af19deca716d4605de5279a416b9ce13f56038cabbfa586f82dc6f2",
+    "work/session_20261001_astra/agent4/additional_growing_independent_stdout.txt": "9e742c6541ce2b41e129af08a76f31928312eca8d33811439bc017c9e080ba61",
+    "work/session_20261001_astra/agent4/audit_rate_count_certificate.json": "41282bc8dd52b75152c3969940c59f9f2c5884287e12e74139e5016a4b5f8f8a",
+    "work/session_20261001_astra/agent4/check_b2_whole_family.py": "adf92b90d1088db51099b034ac19f947a660dfebd6adfab6389fa8e9bdab70c1",
+    "work/session_20261001_astra/agent4/growing_content_completion_verification.json": "2ffb7320524682b26911ad8915a0413c3a1c210bcfc1f76e652622762f4dacb3"
+  },
+  "all_protected_files_unchanged": true,
+  "uncertified": [
+    "Unbounded opposite-sign law or quantitative projective separation",
+    "Uniform upper control of C for the actual factorial array",
+    "Adequate asymptotic growth of the fully reduced q",
+    "Full-remainder nonvanishing on an unbounded index sequence",
+    "Agent 1 detailed revised reference estimates",
+    "Bernstein recurrences outside the endpoint bridge in Sections 6-7"
+  ]
+}

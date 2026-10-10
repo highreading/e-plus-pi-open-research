@@ -1,0 +1,171 @@
+{
+  "generator": {
+    "filename": "mixed_cubic_equal_valuation_crt_replay.py",
+    "sha256": "2f3b60c2bd43256ab558b912406688c97f94af189cce92eea92bb6ce6fac8b0a"
+  },
+  "ordinary_cases": [
+    {
+      "B": 1,
+      "checks": [
+        {
+          "epsilon": -1,
+          "j": 1,
+          "period": 98,
+          "unique_index": 51
+        },
+        {
+          "epsilon": 1,
+          "j": 1,
+          "period": 98,
+          "unique_index": 2
+        }
+      ],
+      "prime": 7,
+      "root_mod_p_to_B": 2,
+      "slope_mod_p_to_B": 5
+    },
+    {
+      "B": 1,
+      "checks": [
+        {
+          "epsilon": -1,
+          "j": 1,
+          "period": 242,
+          "unique_index": 81
+        },
+        {
+          "epsilon": 1,
+          "j": 1,
+          "period": 242,
+          "unique_index": 202
+        }
+      ],
+      "prime": 11,
+      "root_mod_p_to_B": 4,
+      "slope_mod_p_to_B": 1
+    },
+    {
+      "B": 1,
+      "checks": [
+        {
+          "epsilon": -1,
+          "j": 1,
+          "period": 338,
+          "unique_index": 69
+        },
+        {
+          "epsilon": 1,
+          "j": 1,
+          "period": 338,
+          "unique_index": 238
+        }
+      ],
+      "prime": 13,
+      "root_mod_p_to_B": 4,
+      "slope_mod_p_to_B": 12
+    },
+    {
+      "B": 1,
+      "checks": [
+        {
+          "epsilon": -1,
+          "j": 1,
+          "period": 1922,
+          "unique_index": 199
+        },
+        {
+          "epsilon": 1,
+          "j": 1,
+          "period": 1922,
+          "unique_index": 1160
+        }
+      ],
+      "prime": 31,
+      "root_mod_p_to_B": 13,
+      "slope_mod_p_to_B": 11
+    },
+    {
+      "B": 2,
+      "checks": [
+        {
+          "epsilon": -1,
+          "j": 1,
+          "period": 686,
+          "unique_index": 557
+        },
+        {
+          "epsilon": -1,
+          "j": 2,
+          "period": 4802,
+          "unique_index": 3301
+        },
+        {
+          "epsilon": 1,
+          "j": 1,
+          "period": 686,
+          "unique_index": 214
+        },
+        {
+          "epsilon": 1,
+          "j": 2,
+          "period": 4802,
+          "unique_index": 900
+        }
+      ],
+      "prime": 7,
+      "root_mod_p_to_B": 18,
+      "slope_mod_p_to_B": 9
+    },
+    {
+      "B": 2,
+      "checks": [
+        {
+          "epsilon": -1,
+          "j": 1,
+          "period": 4394,
+          "unique_index": 1529
+        },
+        {
+          "epsilon": -1,
+          "j": 2,
+          "period": 57122,
+          "unique_index": 32287
+        },
+        {
+          "epsilon": 1,
+          "j": 1,
+          "period": 4394,
+          "unique_index": 3726
+        },
+        {
+          "epsilon": 1,
+          "j": 2,
+          "period": 57122,
+          "unique_index": 3726
+        }
+      ],
+      "prime": 13,
+      "root_mod_p_to_B": 8,
+      "slope_mod_p_to_B": 105
+    }
+  ],
+  "schema": "mixed-cubic-equal-valuation-crt-replay-v1",
+  "singular_case": {
+    "constant_first_lift_checks": [
+      {
+        "candidate_count": 79,
+        "constant_H_mod_p": 68,
+        "epsilon": -1
+      },
+      {
+        "candidate_count": 79,
+        "constant_H_mod_p": 68,
+        "epsilon": 1
+      }
+    ],
+    "prime": 79,
+    "root": 39,
+    "slope_mod_p": 0
+  },
+  "warning": "finite replay; the theorem is the symbolic congruence proof"
+}

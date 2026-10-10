@@ -1,0 +1,59 @@
+{
+  "item": 385,
+  "schema": "item385-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_FIXED_J2_BOUNDED_WINDOW_AGGREGATE_NO_GO",
+  "scope": "independent root audit of the fixed-M alignment lattice, fixed-offset prime-pair estimate, isolated raw mass, rank-two comparison module, chart aggregation, and zero booking",
+  "checks": {
+    "work_hash_list_entries": 6,
+    "work_hash_list_failures": 0,
+    "frozen_dependencies_checked": 17,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "independent_linear_system_check": true,
+    "independent_alignment_diophantine_check": true,
+    "independent_chebyshev_interval_check": true,
+    "independent_comparison_module_check": true,
+    "actual_carrier_scan_performed": false,
+    "density_inference_from_finite_controls": false,
+    "canonical_format_repair": "Restored the missing TeX separator in implication (5.2); no mathematical content changed."
+  },
+  "mathematical_audit": {
+    "parametrization": "Solving the two row equations gives r=6M-7p and s=(5p-4M-1)/2. Positivity gives the interval [(4M+3)/5,(6M-1)/7], whose Chebyshev mass is (2/35)M+o(M).",
+    "alignment": "Combining the fixed-M displacement (2d,-14d,5d) with r-shift 6j gives 3j=-7d. Hence j=7k,d=-3k and the returned row is (r+42k,s-15k,p-6k).",
+    "prime_pairs": "For each fixed nonzero offset h, the unconditional Brun-Selberg upper-bound sieve gives O_h(M/log^2 M) prime pairs in the interval, hence O_h(M/log M) logarithmic mass. A fixed finite union is o(M).",
+    "isolated_mass": "Subtracting the fixed-offset pair support from the full interval leaves (2/35)M+o(M), so a mechanism requiring a second prime row at one of finitely many offsets cannot constrain the full-capacity isolated complement.",
+    "comparison_module": "V_M(r)=(1,6M-r)^T transforms by an integral unipotent matrix under every translation. On a selected row 6M-r=7p, and saturation by the fixed unit factor 7 leaves carrier p on every candidate row.",
+    "scope_limit": "No value of either actual target-retaining carrier is replaced by the comparison module. The theorem closes fixed bounded-window propagation as a black-box mechanism, not the actual fixed-j=2 collision set."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "complete fixed-M and same-ray alignment lattice",
+      "all-fixed-finite-offset prime-pair zero-rate theorem",
+      "full raw mass of the isolated complement",
+      "rank-two full-mass comparison module",
+      "aggregate bounded-window propagation no-go",
+      "zero booking and zero capacity reduction"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared lattice, row, prime-pair, isolated-mass, and carrier diagnostics"
+    ],
+    "OPEN": [
+      "a one-row theorem for the actual aggregate carrier",
+      "cross-characteristic forced propagation",
+      "growing-window mechanisms",
+      "any strict fixed-j=2 retained-capacity saving"
+    ]
+  },
+  "capacity": {
+    "raw_chebyshev_mass_per_M": "2/35",
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_route1_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

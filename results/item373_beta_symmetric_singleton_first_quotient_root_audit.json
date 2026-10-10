@@ -1,0 +1,66 @@
+{
+  "item": 373,
+  "schema": "item373-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_ACTUAL_SYMMETRIC_SINGLETON_CARRIER_AND_SCOPED_FIRST_QUOTIENT_NO_GO",
+  "scope": "independent root audit of the actual top-symmetric incidence detector, exact t-avoiding singleton saturation, first quotient, bounded-degree univariate height obstruction, capacity, and zero booking",
+  "checks": {
+    "work_hash_list_entries": 6,
+    "work_hash_list_failures": 0,
+    "frozen_dependencies_checked": 24,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "independent_declared_saturation_rows": 64,
+    "independent_saturation_rows_digest": "941fc91fc1b781a80674ba3d066d0158948a8e88e78a987572ee6fcca380dda2",
+    "independent_polynomial_dominance_boxes": 3,
+    "independent_height_scale_rows": 9,
+    "actual_prime_or_target_census_performed": false,
+    "density_inference_from_controls": false,
+    "canonical_format_repair": "none"
+  },
+  "mathematical_audit": {
+    "incidence": "For p>A and 0<Z_j<A^2, every hit is simple. If exactly one load is hit, E=sum(P/Z_j) has exactly one p-unit summand; if at least two loads are hit, every summand is divisible by p.",
+    "saturation": "With N nonzero loads, P/gcd(P,(|t|E)^N) has p-valuation one exactly for t-avoiding singleton hits. The exponent N is sufficient because v_p(P)=k_p<=N.",
+    "actual_carrier": "Intersecting the large-prime radical of that saturation with Q^[1] gives the existing actual U_11 carrier exactly. Its raw height is below two beta copies, while the Q intersection still supplies only the old one-copy ceiling.",
+    "first_quotient": "At a singleton hit j, (P/p)E^{-1}=Z_j/p mod p and 1<=Z_j/p<A<p. Thus P and every p-unit monomial quotient P E^r/V have valuation exactly one.",
+    "univariate_reduction": "For P C(E)/V with V a p-unit, the second digit is equivalent to p dividing C(E). Positive singleton mass forces linearly many distinct hit rows and hence positive beta-scale log E.",
+    "height_no_go": "For fixed positive degree and sub-beta coefficient/denominator height, leading-term dominance gives log|C(E)/D| bounded below by a positive multiple of log b. Such a residual is not sub-beta.",
+    "scope_warning": "The result does not close multivariate symmetric cancellation, beta-height gcd or denominator cancellation, full-support degree-N states, or the constant/content branch.",
+    "capacity": "No sub-beta actual carrier or weighted estimate is obtained, so beta capacity and booking remain unchanged."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "actual symmetric singleton incidence detector and saturation",
+      "exact U_11 carrier formula",
+      "valuation-one first quotient",
+      "positive-mass lower bound for E",
+      "bounded-degree univariate dominance",
+      "zero booking"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "P, P E^r, and p-unit monomial quotients as second-digit mechanisms",
+      "nonconstant fixed-degree C(E)/D with sub-beta coefficient and denominator height",
+      "finite product portfolios in that class with a nonconstant factor"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared incidence, saturation, quotient, coefficient-box, and height-scale controls; no actual census"
+    ],
+    "OPEN": [
+      "multivariate elementary-symmetric cancellation",
+      "beta-height denominators and gcd/radical compression",
+      "full-support degree-N recurrence height",
+      "constant/content actual divisibility",
+      "the singleton bound, beta capacity, Route 1, and e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_symmetric_carrier": "log S_sym<2N log A<=(2+o(1))log b",
+    "post_Q_intersection": "log U_11<=log Q<=log b",
+    "constructed_sub_beta_actual_carrier": false,
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "new_booking": 0
+  }
+}

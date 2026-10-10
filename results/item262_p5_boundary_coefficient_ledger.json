@@ -1,0 +1,81 @@
+{
+  "schema": "item262-p5-boundary-coefficient-ledger-v1",
+  "scope": "Arithmetic of K_delta=B_delta^(5) on actual p=5 mod 6 ordinary-j=2 rows, including its exact insertion into the Item-251 affine period",
+  "claims": [
+    {
+      "id": "I262-C1",
+      "label": "PROVED",
+      "claim": "K_delta has the displayed order-two recurrence and hypergeometric-prefix generating function.",
+      "evidence": "report Sections 2-3; certificate recurrence replay",
+      "scope_limit": "rational sequence identity over Q"
+    },
+    {
+      "id": "I262-C2",
+      "label": "PROVED",
+      "claim": "No rational Gosper solution exists for either the full sequence or its actual odd-delta section, so both scalar order-two recurrences are minimal against order-one rational-ratio reduction.",
+      "evidence": "report Sections 2.1 and 3; complete pole-orbit and polynomial remainders",
+      "scope_limit": "does not rule out higher-dimensional or non-rational transformations"
+    },
+    {
+      "id": "I262-C3",
+      "label": "PROVED",
+      "claim": "Every denominator prime of K_delta is at most 3delta-2; actual odd delta has K_delta=1 mod 3 and v3(K_delta)=0; the reverse recurrence gives exact reduced v2 numerator and denominator exponents.",
+      "evidence": "report Section 4; certificate valuation replay",
+      "scope_limit": "deeper delta=5 mod 8 cancellations are left in exact recursive form"
+    },
+    {
+      "id": "I262-C4",
+      "label": "PROVED",
+      "claim": "The reduced numerator and denominator of K_delta have logarithmic height O(delta).",
+      "evidence": "report Section 5; residue-class valuation count, lcm container, and Chebyshev bound",
+      "scope_limit": "summing this bound over moving delta gives O(M^2), not a useful O(M) exceptional-weight bound"
+    },
+    {
+      "id": "I262-C5",
+      "label": "PROVED",
+      "claim": "Any common prime divisor of num(K_delta) and num(K_(delta+2)) is at most 6delta+5.",
+      "evidence": "report Section 5; recurrence plus the unit increment c_delta",
+      "scope_limit": "compares values modulo one fixed prime; actual neighboring global rows use different primes"
+    },
+    {
+      "id": "I262-C6",
+      "label": "PROVED_COUNTEREXAMPLES",
+      "claim": "K-numerator divisibility is neither necessary nor sufficient for H_(q-delta)=0: p=47,delta=3 has H=0 and K nonzero, while p=59,delta=3 has K=0 and H=57.",
+      "evidence": "report Section 6; exact modular evaluations in the certificate",
+      "scope_limit": "counterexamples reject the proposed container but are not a density theorem"
+    },
+    {
+      "id": "I262-C7",
+      "label": "PROVED",
+      "claim": "The Item-251 period localizes as A_s=(-1)^m{epsilon[H_q-D_delta h_q]-1}, with D_delta=K_delta+c_delta Pi_delta and every displayed denominator a p-unit.",
+      "evidence": "report Section 6.1; 2,420 independent finite localization equalities supplement the exact termwise proof",
+      "scope_limit": "the full affine gate retains the moving pair (H_q,h_q) and the rank-zero branch"
+    },
+    {
+      "id": "I262-C8",
+      "label": "EXACT_FINITE_ONLY",
+      "claim": "Through p<=401 the checker covers 605 actual p=5 mod 6 rows, finding one H-zero, two K-numerator zeros, one affine determinant row, and no common gate.",
+      "evidence": "certificate actual_rows_replay",
+      "scope_limit": "no all-prime or weighted inference"
+    },
+    {
+      "id": "I262-C9",
+      "label": "PROVED_BOOKING_DECISION",
+      "claim": "The positive-linear-capacity admission test fails; Item 262 books zero new Route-1 rate and zero j=2 capacity reduction.",
+      "evidence": "report Sections 1 and 7",
+      "scope_limit": "no conclusion about e+pi"
+    }
+  ],
+  "strict_labels": {
+    "recurrences_minimality_valuations_height_gcd_and_localization": "PROVED",
+    "bounded_scans": "EXACT FINITE ONLY",
+    "all_prime_H_or_affine_gate_exclusion": "OPEN",
+    "positive_linear_capacity_admission": "FAIL",
+    "new_bookable_rate": "0"
+  },
+  "open": [
+    "all-prime or weighted control of H_q/h_q=K_delta",
+    "a positive-density theorem for the simultaneous Item-251 affine gate",
+    "any new Route-1 capacity or conclusion about e+pi"
+  ]
+}

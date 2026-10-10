@@ -1,0 +1,57 @@
+{
+  "item": 247,
+  "auditor": "root",
+  "verdict": "accepted_with_stated_scope",
+  "scope": {
+    "proved": [
+      "On the actual Item-244 j=2 locus, r is positive odd; r=1 is admissible, r=3 cannot give a prime, and every regular row has r>=5.",
+      "The two residual polynomials admit the exact determinant-two common-state elimination and the stated parity differential/one-seed formulas.",
+      "The bookkeeping determinant for the two algebraic elimination steps is 2(r-1), a p-unit on regular rows, with singular locus exactly r=1.",
+      "After the specified common denominator is cleared, simultaneous modular vanishing is exactly p divisibility of gcd(I0,I1)."
+    ],
+    "exact_finite_only": [
+      "All zero counts through p<=401 and exact-rational counts through p<=101.",
+      "The absence of a singular-family zero through p<=20000."
+    ],
+    "open": [
+      "All-prime nonvanishing of the singular scalar or of the regular residual pair.",
+      "A Bezout unit, content factorization, density theorem, Route-1 rate, or conclusion about e+pi."
+    ]
+  },
+  "proof_review": {
+    "parameter_parity": "Substitution p=2r+6s+3 turns the original congruence into 2(5r+14s+7)=0 mod 4, hence r is odd; the original inequality gives r>=1.",
+    "pair_elimination": "For odd r, Item246 has D0=(1+t)A and D1=(1+3t)A+(3+t)C. Linearity gives the determinant-two matrix and B1-3B0=B[(3+t)C-2A].",
+    "parity_identity": "Differentiating (1-z)^R=E(z^2)-zO(z^2) and comparing even parts gives R E=[1+(R-1)t]O+2t(1-t)O'. Direct substitution yields both one-seed formulas.",
+    "singular_locus": "The only division introduced after the determinant-two system is by R=r-1. Since 0<R<p on regular rows, only r=1 is singular; direct specialization gives D0=0 and D1=(1-t)(1+t)^(2s-1)(3+t).",
+    "content": "All denominators N_k are positive and below p. Q^2 clears each N_k N_v, so Q is a p-unit and the gcd criterion is equivalent to simultaneous rational reduction modulo p.",
+    "scope_caveat": "The factor 2(r-1) is the determinant of the algebraic elimination bookkeeping block, not a determinant or resultant of the two final scalar functionals; it therefore supplies no nonvanishing theorem."
+  },
+  "replay": {
+    "canonical_sha256": "dc99caff5315580defdff46d873b495a3304f132ef0584d49308d4cb4c356e69",
+    "agent_replay_sha256": "dc99caff5315580defdff46d873b495a3304f132ef0584d49308d4cb4c356e69",
+    "root_replay_sha256": "dc99caff5315580defdff46d873b495a3304f132ef0584d49308d4cb4c356e69",
+    "archive_layout_replay_sha256": "dc99caff5315580defdff46d873b495a3304f132ef0584d49308d4cb4c356e69",
+    "byte_identical": true
+  },
+  "independent_probe": {
+    "description": "Exact-integer and Fraction implementation importing neither Item246 nor Item247.",
+    "script_sha256": "f68935743aaae697845b7672db820bc07afc7de52dc8f6cf86c730ba436b6bf3",
+    "result_sha256": "a19fc88aba7f4cb564efedc5a18443fa5541417a7c6ea6e8743f34360f2440a4",
+    "rows_through_151": 169,
+    "singular_rows_through_1000": 84,
+    "simultaneous_zeros": 0,
+    "witness_127_11": [
+      97,
+      37,
+      0
+    ]
+  },
+  "frozen_hashes": {
+    "report": "31bc3b1aac154984a72295070b30fce1ab236a8c323bd5be693106221149d180",
+    "checker": "0d0ccdec9c0406834cde31a912702dcc999d1a65a3edcac64040c500cf0fa1f9",
+    "canonical_and_replay": "dc99caff5315580defdff46d873b495a3304f132ef0584d49308d4cb4c356e69",
+    "ledger": "298e525009b004b06ce53c36c408ee061911603ff9dbee87a596261f49d3966e",
+    "manifest": "e249d886a100ffff1737e62f11bc5d6ee0a01341737f0ef34b812a4eff963316",
+    "hash_ledger": "a989d4120b6b8a4a709db4b65d7f5ccdb98d328c1422152abe7811c73e92c385"
+  }
+}

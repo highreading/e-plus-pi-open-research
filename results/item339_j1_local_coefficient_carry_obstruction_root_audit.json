@@ -1,0 +1,55 @@
+{
+  "item": 339,
+  "schema": "item339-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_LOCAL_COEFFICIENT_CARRY_CLASSIFICATION_AND_GROWING_RANK_NO_GO",
+  "scope": "independent root audit of the actual fixed-j1 coefficient reduction, termwise carry classification, and zero-rate low-complexity support",
+  "checks": {
+    "certificate_sha256": "9d023a49aade705caf3bad274e9af30fb47172ebe18c1f9ba00b1a43f27d4ea3",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_sha256": "accd2fd23e777dd214c1726b59d7368fcccac4d00c9dd0aa74996b2fcb422420",
+    "work_manifest_artifacts_match": true,
+    "frozen_dependencies_checked": 11,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 6,
+    "work_hash_list_match": true,
+    "declared_control_rows": 5,
+    "prime_scans": 0,
+    "report_stray_carriage_returns_repaired_before_canonicalization": 2,
+    "report_display_delimiters": "40/40",
+    "report_control_characters_after_repair": 0
+  },
+  "mathematical_audit": {
+    "frobenius": "because the target degree n is below p, the cubic unit branch contributes only its constant term and leaves b_h congruent to [t^n]F(t)^(-r)",
+    "integral_prefix": "the scale u=t/2 gives G(u)=(1-u)^4-u^4 and the stated positive hypergeometric-prefix formula for the integral a_(r,n)",
+    "carry_classification": "Lucas reduction shows every term is p-divisible exactly when r=n+1 and n is 2 modulo 4, equivalently h=s odd; this is at most one fixed-M row and has zero logarithmic rate",
+    "cancellation_warning": "outside the forced ray surviving unit terms can cancel, as the preselected p=47 control demonstrates; universal nonvanishing is not inferred",
+    "recurrence": "G has degree three and nonzero leading coefficient over every actual field, so the reduced generating function G^(-r) has exact minimal constant-coefficient recurrence order 3r",
+    "capacity": "sublinear recurrence rank or surviving-tail length restricts candidates to finitely many intervals of total o(M) length; a split trivial-count/Brun-Titchmarsh argument gives o(M) logarithmic mass",
+    "scope_warning": "global mod-p nonconcentration, average gcd, and W_b(M)=o(M) remain open; no selected-factor zero is promoted to a full collision"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "actual-row local coefficient and integral normalization",
+      "positive prefix and fixed rational carrier",
+      "complete termwise carry classification and zero-rate forced ray",
+      "exact recurrence rank and scoped low-complexity no-go",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "five preselected controls, including the p=47 cancellation"
+    ],
+    "OPEN": [
+      "W_b(M)=o(M)",
+      "global cancellation or average-gcd theorem",
+      "any strict fixed-j1 ceiling reduction"
+    ]
+  },
+  "capacity": {
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "scope": "Two original-family infinity controls plus all-q cutoff identities",
+  "actual_cases": [
+    {
+      "n": 1,
+      "q": 3,
+      "algebraic_rank": 3,
+      "exponential_rank": 4,
+      "actual_Laurent_plane_matches": true,
+      "actual_exponential_line_matches": true,
+      "operator_conjugations_match": true
+    },
+    {
+      "n": 3,
+      "q": 3,
+      "algebraic_rank": 3,
+      "exponential_rank": 4,
+      "actual_Laurent_plane_matches": true,
+      "actual_exponential_line_matches": true,
+      "operator_conjugations_match": true
+    }
+  ],
+  "all_q_cutoff_controls": [
+    {
+      "q": 0,
+      "tested_excess_coefficient_count": 5,
+      "passed": true
+    },
+    {
+      "q": 1,
+      "tested_excess_coefficient_count": 4,
+      "passed": true
+    },
+    {
+      "q": 2,
+      "tested_excess_coefficient_count": 3,
+      "passed": true
+    },
+    {
+      "q": 3,
+      "tested_excess_coefficient_count": 2,
+      "passed": true
+    }
+  ],
+  "status": "passed"
+}

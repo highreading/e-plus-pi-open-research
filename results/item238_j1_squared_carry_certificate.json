@@ -1,0 +1,125 @@
+{
+  "dependencies": {
+    "results/item234_j1_first_witt_certificate.json": "6797c1f2cd072ec92d311e01b596c3ac95888ce9b761bc325a625ef6f9f0c748",
+    "scripts/item233_j1_antiperiod_determinant_certificate.py": "f3196c577a0083e6b429b30c56a71bca03ad15330e09f7044453a681dab2a5b9",
+    "scripts/item234_j1_first_witt_certificate.py": "8d41a5a73e9467cf4c998d3e345767c04c68ab6467605290480825b15b08e125",
+    "sources/item233_j1_antiperiod_determinant_report.md": "7f595b7d4100fa069d90dea1b899864cba2238070e3e9bd919fdf4cb380badfd",
+    "sources/item234_j1_first_witt_report.md": "9bd5bb91fe813622db0c15d8bfc25714bcefb00512ed8f5eafddacd8cfb9b016"
+  },
+  "exact_finite_only": {
+    "K_stream_sha256": "bb6448a2c6d8f50a17922d737f75887984667430243a6f35b57e2dc64d5d959e",
+    "endpoint_map_rows": 2435,
+    "psi_rank_counts_rank_0_through_3": [
+      0,
+      0,
+      7,
+      2428
+    ]
+  },
+  "exact_replay": {
+    "arbitrary_mode_phase_checks": 13248,
+    "coupled_recurrence_checks": 17610,
+    "rows": 184,
+    "sample_rows": [
+      {
+        "K": [
+          [
+            5,
+            3,
+            1
+          ],
+          [
+            5,
+            12,
+            2
+          ],
+          [
+            7,
+            5,
+            0
+          ]
+        ],
+        "det_phi": 6,
+        "row": [
+          13,
+          2,
+          1
+        ],
+        "terminal_mode_vectors": 12
+      },
+      {
+        "K": [
+          [
+            5,
+            14,
+            11
+          ],
+          [
+            12,
+            4,
+            14
+          ],
+          [
+            11,
+            10,
+            15
+          ]
+        ],
+        "det_phi": 12,
+        "row": [
+          17,
+          4,
+          1
+        ],
+        "terminal_mode_vectors": 12
+      },
+      {
+        "K": [
+          [
+            0,
+            7,
+            6
+          ],
+          [
+            9,
+            17,
+            0
+          ],
+          [
+            1,
+            0,
+            18
+          ]
+        ],
+        "det_phi": 11,
+        "row": [
+          19,
+          2,
+          2
+        ],
+        "terminal_mode_vectors": 12
+      }
+    ],
+    "terminal_free_digit_checks": 2208
+  },
+  "item": 238,
+  "open": [
+    "whether the corrected carry yields an additional invariant after imposing p^3 divisibility/Omega^W=0",
+    "a full p^2 lift of the Item233 terminal-residual redundancy identity",
+    "any all-prime common-log exclusion or Route-1 rate consequence"
+  ],
+  "parameters": {
+    "direct_limit": 151,
+    "endpoint_map_limit": 601,
+    "row": "p=2r+6s+3, r even positive, s positive"
+  },
+  "proved": {
+    "actual_closure": "for q=ell, U_(t+2p)+U_t=2pV_t and U_(t+4p)-U_t=-4pV_t mod p^2",
+    "arbitrary_mode_phase_law": "U_(t+kp)(q)=U_t(sigma^k q)-kp V_t(sigma^k q) mod p^2; V_(t+kp)(q)=V_t(sigma^k q) mod p for k=1,2,4",
+    "coupled_recurrence": "B_t v_t-C_t v_(t+1)+D_t v_(t+2)-A_t v_(t+3)=u_t-u_(t+1)+u_(t+2)-u_(t+3) mod p",
+    "mode_redundancy": "on E=span(1,cos(pi n/2),sin(pi n/2)), Phi is invertible and K=Psi Phi^-1 gives V_a=K*bar(U_a) at every terminal phase",
+    "scoped_no_go": "v adds no independent endpoint Fourier mode and one terminal adds no scalar compatibility; relation to the extra p^3/Omega^W gate is not proved",
+    "terminal_law": "at t_a=2s+1+(a-2)p, A_t=0 mod p; the v equation determines the formerly free u_(t+3), while v_(t+3) remains free"
+  },
+  "title": "squared-denominator recurrence and corrected lifted phase closure"
+}

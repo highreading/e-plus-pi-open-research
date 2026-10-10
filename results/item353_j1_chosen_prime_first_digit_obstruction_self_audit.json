@@ -1,0 +1,50 @@
+{
+  "schema": "item353-j1-chosen-prime-first-digit-obstruction-self-audit-v1",
+  "item": 353,
+  "date": "2026-09-01",
+  "verdict": "PASS_SCOPED_ZERO_BOOKING_PACKAGE",
+  "mathematical_checks": {
+    "split_completion": "p splits completely in Q(zeta_(p-1)), so the chosen completion is Q_p",
+    "Teichmueller_mod_p2": "a^p is the unique Teichmueller lift modulo p^2",
+    "weight_absorption": "multiplicativity of Teichmueller lifts absorbs the four scalar coefficients exactly",
+    "digit_formula": "canonical residue carry plus delta_p sum reproduces the direct Teichmueller sum modulo p^2",
+    "degree_theorem": "Lagrange indicator leading coefficient and paired pth-power sum give degree p-1",
+    "selected_zero_controls": "p=13 and p=47 have nonzero first quotient digits and therefore valuation exactly 1"
+  },
+  "logical_checks": {
+    "ordinary_collision_direction_preserved": true,
+    "selected_zero_not_promoted_to_full_collision": true,
+    "mod_p2_digit_not_credited_to_mod_p_gate": true,
+    "valuation_one_not_claimed_universal": true,
+    "maximal_polynomial_degree_not_promoted_to_no_rational_representation": true,
+    "section_dependent_carry_correction_split_not_called_invariant": true,
+    "Gross_Koblitz_not_invoked_without_factorization": true,
+    "finite_controls_not_used_as_density_evidence": true,
+    "weighted_nonconcentration_not_claimed": true
+  },
+  "reproducibility": {
+    "prime_scans": 0,
+    "predeclared_Kummer_rows": 5,
+    "declared_field_function_primes": [
+      13,
+      17,
+      43,
+      47
+    ],
+    "certificate_replay_required_byte_identical": true,
+    "canonical_files_modified": false
+  },
+  "capacity": {
+    "raw_support": "all actual rows",
+    "new_forced_condition": 0,
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "booking": 0,
+    "retained_ceiling_per_6M": "1/36"
+  },
+  "open_risks": [
+    "special composed cancellation could lower the actual first-digit complexity",
+    "a new additive-character decomposition could enable a specialized Gross-Koblitz theorem",
+    "full-collision information absent from the selected gate could impose an extra p^2 condition"
+  ]
+}

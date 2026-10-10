@@ -1,0 +1,39 @@
+{
+  "schema": "item273-root-audit-v1",
+  "date": "2026-08-31",
+  "scope": "Root deterministic replay, package-integrity, denominator, degree-grid, normalization, and strict-label audit of Item 273",
+  "checks": {
+    "root_replay_byte_identical": true,
+    "certificate_sha256": "5a37a46d5b454a36eb56d8c44891e09673ae520c446454fa020d57aceb95b834",
+    "payload_sha256": "6c427c4b735ccb54db50b40aac308a08b38b01b290a5fc3d22ca0bade4bde197",
+    "hash_ledger_entries_checked": 7,
+    "hash_ledger_mismatches": 0,
+    "frozen_dependencies_checked": 5,
+    "frozen_dependency_mismatches": 0,
+    "json_files_parsed": 5,
+    "determinant_identity_grid": "4 identities x 25 x 25 exact rational points",
+    "cleared_bidegree_bound": 24,
+    "direct_gate_rows": 329,
+    "reduced_rank_rows_by_rank_0_1_2": [
+      0,
+      0,
+      6258
+    ],
+    "reduced_rank_census_label": "EXACT FINITE ONLY",
+    "report_control_characters": 0,
+    "report_display_delimiters": "47/47",
+    "report_inline_delimiters": "96/96",
+    "capacity_normalization": "1/36 per 6M",
+    "new_route1_booking": 0
+  },
+  "classification": {
+    "rank_two_eight_state_incidence": "PROVED",
+    "rank_four_tail_module": "PROVED",
+    "rank_at_most_eight_parameter_realization": "PROVED",
+    "generic_principal_divisor_exact_encoding": "PROVED SCOPED NO-GO",
+    "weighted_zero_density": "OPEN",
+    "all_prime_reduced_rank_two": "OPEN"
+  },
+  "scope_guard": "The codimension-two/nonprincipal theorem excludes one exact polynomial hypersurface on the generic algebraically closed graph chart only; it does not exclude finite-field norms, determinantal or sheaf encodings, or density bounds for a larger necessary divisor.",
+  "verdict": "PASS. Item 273 is deterministic, its degree-certified grid is a proof rather than an extrapolation, and it correctly leaves the raw fixed-j=1 ceiling unchanged."
+}

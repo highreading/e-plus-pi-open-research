@@ -1,0 +1,106 @@
+{
+  "base_sign_checks": 948,
+  "coefficient_budget_checks": 79,
+  "derivative_bound_checks": 79,
+  "description": "Exact rational replay for the endpoint-layer slope, CRT coefficient budget, perturbation bound, and uniform native sign obstruction.",
+  "exact_digest_sha256": "9d125396398741edd466d621b2e7beedc10034be3e6933bc20b702beea642cd3",
+  "native_differential_identity_checks": 1,
+  "nonpositive_imaginary_indices_through_32": [
+    2,
+    3,
+    4,
+    8,
+    9,
+    10,
+    11,
+    12,
+    16,
+    17,
+    18,
+    19,
+    20,
+    24,
+    25,
+    26,
+    27,
+    28,
+    32
+  ],
+  "perturbed_negative_checks_q_ge_60": 252,
+  "positive_imaginary_endpoint_checks": 12,
+  "schema": "common_kernel_native_crt_endpoint_layer_sign_obstruction_v1",
+  "scope": "The theorem covers the existing beta-base/padded full-window CRT family with its uniform coefficient budget. It does not exclude every localizer with order/degree ratio between one third and one half.",
+  "selected_rows": [
+    {
+      "J_less_than_one_quarter": true,
+      "coefficient_budget_bits": 7,
+      "epsilon_denominator_bits": 216,
+      "epsilon_numerator_bits": 206,
+      "q": 2,
+      "t_lambda": "151316/39951",
+      "window_prime_count": 1,
+      "window_product_bits": 6
+    },
+    {
+      "J_less_than_one_quarter": true,
+      "coefficient_budget_bits": 16,
+      "epsilon_denominator_bits": 690,
+      "epsilon_numerator_bits": 645,
+      "q": 5,
+      "t_lambda": "765037/223422",
+      "window_prime_count": 2,
+      "window_product_bits": 14
+    },
+    {
+      "J_less_than_one_quarter": true,
+      "coefficient_budget_bits": 65,
+      "epsilon_denominator_bits": 1632,
+      "epsilon_numerator_bits": 1542,
+      "q": 10,
+      "t_lambda": "98980596/29899751",
+      "window_prime_count": 8,
+      "window_product_bits": 61
+    },
+    {
+      "J_less_than_one_quarter": true,
+      "coefficient_budget_bits": 107,
+      "epsilon_denominator_bits": 3776,
+      "epsilon_numerator_bits": 3502,
+      "q": 20,
+      "t_lambda": "1591921196/489099501",
+      "window_prime_count": 12,
+      "window_product_bits": 103
+    },
+    {
+      "J_less_than_one_quarter": true,
+      "coefficient_budget_bits": 215,
+      "epsilon_denominator_bits": 8628,
+      "epsilon_numerator_bits": 7929,
+      "q": 40,
+      "t_lambda": "25535682396/7912399001",
+      "window_prime_count": 22,
+      "window_product_bits": 209
+    },
+    {
+      "J_less_than_one_quarter": true,
+      "coefficient_budget_bits": 349,
+      "epsilon_denominator_bits": 13897,
+      "epsilon_numerator_bits": 12740,
+      "q": 60,
+      "t_lambda": "129383283596/40203898501",
+      "window_prime_count": 34,
+      "window_product_bits": 343
+    },
+    {
+      "J_less_than_one_quarter": true,
+      "coefficient_budget_bits": 458,
+      "epsilon_denominator_bits": 19441,
+      "epsilon_numerator_bits": 17761,
+      "q": 80,
+      "t_lambda": "409086724796/127297598001",
+      "window_prime_count": 43,
+      "window_product_bits": 452
+    }
+  ],
+  "slope_checks": 79
+}

@@ -1,0 +1,49 @@
+{
+  "schema": "item316-root-audit-v1",
+  "item": 316,
+  "auditor": "root",
+  "date": "2026-08-31",
+  "verdict": "PASS AS AN EXACT ALL-DIGIT INTERMEDIATE-WINDOW CLASSIFICATION, ENDPOINT-CARRY EXCLUSION, SCOPED FIXED-PRECISION 2-ADIC NO-GO, AND ZERO BOOKING",
+  "package": {
+    "manifest_files_checked": 5,
+    "manifest_file_hash_mismatches": 0,
+    "frozen_dependencies_checked": 16,
+    "manifest_dependency_hash_mismatches": 0,
+    "hash_list_entries_checked": 6,
+    "hash_list_mismatches": 0,
+    "canonical_replay_byte_identical": true,
+    "canonical_root_replay_byte_identical": true,
+    "canonical_replay_and_root_sha256": "5167e9d160fcecac86791944e41a176d3400f2a6856090de7cf78d55984e7aa4",
+    "report_sha256": "8d6dce8354f08e94a252a2120cf677d9a374df95507a9297dcb064a1982fb6b0",
+    "script_sha256": "b7e25ea7248dbc774da7f3bd98a8665058117de84a2342009f8669bf5438cf6f",
+    "ledger_sha256": "b78f5301204bda6c4fbf758117722fb749386c7bb0620aa722659e8da98672a6",
+    "manifest_sha256": "aac741658430fb661de078adfeafdbc3a9d20312a8fd8725cb4244d406d9bcf6"
+  },
+  "independent_mathematical_checks": {
+    "continuants": "PASS: Q_m=a, Q_(m-1)=c, the Euler dual-tail identity, and the appended-tail bridge have the stated signs and include the empty-tail endpoint.",
+    "ostrowski_language": "PASS: the greedy digit bounds and Markov carry convention give unique representations below Q_m; the alternating half-word is exactly (Q_m-1)/2.",
+    "dual_error": "PASS: the even and odd tail sums telescope to -S<=E<=a-S, and gcd(S,a)=1 excludes both endpoints on R<a/2.",
+    "nearest_quotient_range": "PASS: b<a^2 and bc-a^2>b/2 give 1<=kappa<=c-1 for every n>=5.",
+    "carry_exclusion": "PASS: S>c and a>S+c force the congruence carry in E=sigma*kappa+za to be z=0.",
+    "two_way_target": "PASS: the master identity aU=(-1)^n bE+R converts an actual failure to U=(-1)^n sign(E)a and conversely reconstructs the unique nearest quotient and centered square.",
+    "fixed_precision_no_go": "PASS: the top-two-digit family is canonical, lies strictly in the intermediate window, has the correct sign and small dual error, meets the target modulo every preassigned 2^s, and avoids the exact target by construction.",
+    "scope": "PASS: the theorem does not exclude the exact all-digit target, prove the half-bound, descend to proper targets, or reduce beta capacity."
+  },
+  "format": {
+    "report_bytes": 14388,
+    "report_lines": 699,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "inline_math_open": 92,
+    "inline_math_close": 92,
+    "display_math_open": 66,
+    "display_math_close": 66
+  },
+  "capacity": {
+    "new_route1_rate": 0,
+    "new_beta_capacity_reduction": 0,
+    "closed_sublemma": "exact endpoint-carry ambiguity and every fixed-precision 2-adic target truncation",
+    "smallest_remaining_problem": "exclude the exact signed all-digit target U=(-1)^n sign(E)a throughout a/(2c)<=R<a/2, or prove a proper-target weighted consequence",
+    "route_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "exact_grid": {
+    "D_rule": "2 <= D <= min(5,n)",
+    "all_beta_hat_maps_reverse_parity": true,
+    "all_endpoint_ranks_D_minus_1": true,
+    "all_gamma_coefficients_equal_bordered_minor_sums_up_to_one_scalar": true,
+    "all_predicted_parity_nullities": true,
+    "all_top_cardinal_closed_forms_and_residues": true,
+    "exact_row_digest_sha256": "41e5b516efca487f5e54256e8dca0f21c5fb97131601b1367729c425398aa97b",
+    "m_range": [
+      1,
+      4
+    ],
+    "n_range": [
+      2,
+      5
+    ],
+    "row_count": 40
+  },
+  "logical_scope": {
+    "analytic_companion": "The companion source proves the all-parameter rank/parity theorem by the sech/csch bi-moment representation and Andreief identity.",
+    "exact": "Every recorded rank, nullity, parity, Hermite-cardinal, residue, Gamma, determinant, and negative-minor assertion is exact over Q.",
+    "finite_grid": "The grid replays the identities and examples.  It is not used as an all-parameter proof of Gamma nonvanishing."
+  },
+  "schema": "root-unity-gamma-logistic-minor-certificate-v1",
+  "selected_rows": [
+    {
+      "D": 4,
+      "even_endpoint_nullity": 1,
+      "first_nonzero_gamma_index": 8,
+      "gamma_degree": 8,
+      "gamma_equals_bordered_sums_up_to_scalar": true,
+      "gamma_is_zero": false,
+      "m": 1,
+      "n": 4,
+      "odd_endpoint_nullity": 1,
+      "parity_defect": false,
+      "primitive_gamma_sha256": "dddb8ee3a90d7afafa7729023549a5b157aebed1c1088bb60eda4421ee3ee017",
+      "rank": 3
+    },
+    {
+      "D": 4,
+      "even_endpoint_nullity": 1,
+      "first_nonzero_gamma_index": 0,
+      "gamma_degree": 8,
+      "gamma_equals_bordered_sums_up_to_scalar": true,
+      "gamma_is_zero": false,
+      "m": 2,
+      "n": 4,
+      "odd_endpoint_nullity": 1,
+      "parity_defect": false,
+      "primitive_gamma_sha256": "01825134e9fca2876a307bd36e6a5c56bd17d8c313cc933e0b1737aec89eb409",
+      "rank": 3
+    },
+    {
+      "D": 2,
+      "even_endpoint_nullity": 2,
+      "first_nonzero_gamma_index": 1,
+      "gamma_degree": 5,
+      "gamma_equals_bordered_sums_up_to_scalar": true,
+      "gamma_is_zero": false,
+      "m": 3,
+      "n": 3,
+      "odd_endpoint_nullity": 0,
+      "parity_defect": true,
+      "primitive_gamma_sha256": "94832da53ee1e9e4bc52f08092e697f796371e1953ec7f52a90ababcf20406ae",
+      "rank": 1
+    },
+    {
+      "D": 4,
+      "even_endpoint_nullity": 2,
+      "first_nonzero_gamma_index": 1,
+      "gamma_degree": 9,
+      "gamma_equals_bordered_sums_up_to_scalar": true,
+      "gamma_is_zero": false,
+      "m": 3,
+      "n": 5,
+      "odd_endpoint_nullity": 0,
+      "parity_defect": true,
+      "primitive_gamma_sha256": "82283499643dacf4df5e24ee662bb3653e506a1b4f625c7b4f5d2a4d701d831e",
+      "rank": 3
+    },
+    {
+      "D": 5,
+      "even_endpoint_nullity": 1,
+      "first_nonzero_gamma_index": 0,
+      "gamma_degree": 10,
+      "gamma_equals_bordered_sums_up_to_scalar": true,
+      "gamma_is_zero": false,
+      "m": 4,
+      "n": 5,
+      "odd_endpoint_nullity": 1,
+      "parity_defect": false,
+      "primitive_gamma_sha256": "e60a2c22bb71dc46c28ebf9d09d55451312e25d0a1c1cec135e854cd1197cf2f",
+      "rank": 4
+    }
+  ],
+  "strict_total_positivity_counterexample": {
+    "column_signs": [
+      1,
+      -1,
+      1
+    ],
+    "entrywise_positive_normalization": [
+      [
+        304,
+        3000,
+        29640
+      ],
+      [
+        4644,
+        45834,
+        452310
+      ]
+    ],
+    "negative_minor": -145920,
+    "negative_minor_columns": [
+      0,
+      2
+    ],
+    "raw_odd_block": [
+      [
+        304,
+        -3000,
+        29640
+      ],
+      [
+        -4644,
+        45834,
+        -452310
+      ]
+    ],
+    "row_signs": [
+      1,
+      -1
+    ],
+    "tuple": [
+      2,
+      4,
+      5
+    ]
+  },
+  "versions": {
+    "sympy": "1.14.0"
+  }
+}

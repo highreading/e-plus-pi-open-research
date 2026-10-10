@@ -1,0 +1,60 @@
+{
+  "schema": "item256-root-audit-v1",
+  "item": 256,
+  "audited_date_beijing": "2026-08-31",
+  "disposition": "accepted for archive with zero rate booking",
+  "sealed_artifacts": {
+    "report_sha256": "42257c8f94d1531efcbc6f477feb941ab9f80ce18c49d84e73c1ef0ae52739cd",
+    "checker_sha256": "583414535a23a715223919cee5b3333ba31186d9cc52fbe733f6224a06d43495",
+    "canonical_sha256": "5fc92b61618e1611df1ea7172a7084d5b7eb9d3c2cbd2d22aee43b5064bc6399",
+    "replay_sha256": "5fc92b61618e1611df1ea7172a7084d5b7eb9d3c2cbd2d22aee43b5064bc6399",
+    "strict_ledger_sha256": "8270ad9d074c304c1077f4807088f0e542f3ccd9b60ce93e458fff2d630c99d1",
+    "manifest_sha256": "db97047d10c3fe699e811f68e2b14acb59030248543d7dd916af872bac3b56bb",
+    "hash_ledger_sha256": "f5033ac88e0fe67083d0878b32e9a4556693a16733a9cb8f0bdcead1824588d5"
+  },
+  "dependencies": {
+    "runtime_files": [],
+    "standard_library_only": true
+  },
+  "portable_replay": {
+    "isolated_archive_style_runs": 2,
+    "canonical_replay_byte_identical": true,
+    "output_matches_sealed_canonical": true,
+    "output_sha256": "5fc92b61618e1611df1ea7172a7084d5b7eb9d3c2cbd2d22aee43b5064bc6399",
+    "manifest_validation_failures": 0,
+    "control_bytes": 0
+  },
+  "independent_formula_probe": {
+    "imports_item_code": false,
+    "script_sha256": "dc0a0b9f98daf953eceef077ea85b82339817d469c485c756720d67adf815daf",
+    "result_sha256": "6bc17c30e449a07b0b077354d1ec26d50a14ebd041637e504faea007fa8a214a",
+    "exact_value_and_jet_recurrence_checks": 1890,
+    "actual_rows_through_p_401": 1153,
+    "mod_p2_reflection_and_rank_checks": 1153,
+    "rank_two_on_every_independent_row": true,
+    "p23_first_Hasse_nonunit_reproduced": true
+  },
+  "root_mathematical_audit": {
+    "mod_p2_reflection_sign_and_jet_coefficient_checked": true,
+    "formal_parameter_derivative_includes_b_equals_a_plus_L": true,
+    "value_endpoint_retained_and_jet_endpoint_derivative_zero_checked": true,
+    "triangular_transfer_and_B_formula_checked": true,
+    "multiplier_and_determinant_expansion_checked": true,
+    "reciprocal_B_exact_relation_checked": true,
+    "four_by_four_row_dependencies_checked": true,
+    "first_and_third_rows_independent_by_nonzero_jet_block": true,
+    "affine_endpoint_compatibilities_checked": true,
+    "full_mod_p2_value_equations_checked": true,
+    "all_unit_ranges_checked": true
+  },
+  "labels": {
+    "proved": "mod-p^2 reflection, first-jet recurrence, first-Hasse determinant digit, and exact rank-two augmented resonance",
+    "exact_finite_only": "2,440 rows through p<=601; independent 1,153-row replay through p<=401",
+    "open": "second and higher jets, arithmetic control of the harmonic interval, actual gate control, and every rate consequence"
+  },
+  "booking": {
+    "new_unconditional_linear_log_rate": 0,
+    "capacity_reduction": 0,
+    "route1_conclusion": "none"
+  }
+}

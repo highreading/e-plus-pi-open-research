@@ -1,0 +1,86 @@
+{
+  "item": 352,
+  "schema": "item352-j2-nonsemisimple-transition-no-go-manifest-v1",
+  "classification": "PROVED_EXACT_JORDAN_TRANSITION_AND_FORMAL_WINDOW_NO_GO",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual tied-prime ordinary-j2 chosen-prime nonsemisimple transition, outer-chart split, and natural companion-window complexity",
+  "dependencies": {
+    "sources/item341_j2_diagonal_affine_state_report.md": "42f6ccd326e385f8034abe322756517a30a93d7468b3e6f85cbca3dba8080cb4",
+    "results/item341_j2_diagonal_affine_state_certificate.json": "75c05cb486e5a5a6f9af5dda2e62f2a4b81cb888a15eb19ecabd10a382625cb4",
+    "results/item341_j2_diagonal_affine_state_root_audit.json": "d5c810346f9181f10d38e9f5ae2e250a8c880e32f97cbc5bef91f6bd37f61a27",
+    "manifests/item341_j2_diagonal_affine_state_manifest.json": "fc073e4c11a2d9ab519f0b5babae6f9f95e2e8cf9e8cbcf05c4c8ca8ba155000",
+    "sources/item344_j2_frobenius_cutoff_obstruction_report.md": "1671dec30de80c047c52b6b4bf13157025ea631869f5ccacc73169002ec287a9",
+    "results/item344_j2_frobenius_cutoff_obstruction_certificate.json": "f390d14d2b14ce965a33da8499e450294be3a038be2269d564d3cc3fda5f1179",
+    "results/item344_j2_frobenius_cutoff_obstruction_root_audit.json": "1de770fc9f8cf23ec215d936e31b08bb59b5aad2ce8fb3480a0bd835011b5376",
+    "manifests/item344_j2_frobenius_cutoff_obstruction_manifest.json": "9824b1a18fd645e729e103e32d0911d2392edc7b6c6642e5bea28d97489ef286",
+    "sources/item347_j2_chosen_prime_kummer_conductor_obstruction_report.md": "7845d01648f4860dee7cee0c12b5711693183015c99e25e923a9e49f316f5eea",
+    "results/item347_j2_chosen_prime_kummer_conductor_obstruction_certificate.json": "bd861233e0a37c6cd6e0d091d244f67e42c7bd65702d77f951e9341ad681159d",
+    "results/item347_j2_chosen_prime_kummer_conductor_obstruction_root_audit.json": "f9029fceae9662dbf8645a0d49eeaf9f5df85a204a8d94996e3d10e66f57a851",
+    "manifests/item347_j2_chosen_prime_kummer_conductor_obstruction_manifest.json": "f6bd289bd06d96e1a832208d07815fb4b6e9a4678a6cb022d6302299bebbd5b9",
+    "sources/item349_j2_degenerate_triple_minor_carrier_report.md": "ca3141156cb5034012a174377c3596e22d22cae924625649b6d620d510f4790c",
+    "results/item349_j2_degenerate_triple_minor_carrier_certificate.json": "b26294d51b1844aeee04146004b2ecec9b6e1ff81aa271a3167e5d86c11bce44",
+    "results/item349_j2_degenerate_triple_minor_carrier_root_audit.json": "e717c01d7429f7821a7ee75e8d979bc1362107bd70466af6af54d9748299a894",
+    "manifests/item349_j2_degenerate_triple_minor_carrier_manifest.json": "1c1dec25ac00ea5adb2befe885c9c96ba805564651b6e90c73ef2506d30e7f4f"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item352_j2_nonsemisimple_transition_no_go_report.md",
+      "sha256": "c60e1ba7771314c77b3fbe5d06f9c13c51a8c7e4d15f2589298641ff0f38e794",
+      "bytes": 17074
+    },
+    "certificate_script": {
+      "path": "work/item352_j2_nonsemisimple_transition_no_go_certificate.py",
+      "sha256": "ee7a884fa798d1c768107f97b6e16fa1b00c313cf608e90a716f8db044ff0285",
+      "bytes": 22047
+    },
+    "certificate": {
+      "path": "work/item352_j2_nonsemisimple_transition_no_go_certificate.json",
+      "sha256": "8f06da2f8b4265156d02d2da393c0aedb74db55db3649589163866ffd0badc31",
+      "bytes": 10329
+    },
+    "replay": {
+      "path": "work/item352_j2_nonsemisimple_transition_no_go_certificate.replay.json",
+      "sha256": "8f06da2f8b4265156d02d2da393c0aedb74db55db3649589163866ffd0badc31",
+      "bytes": 10329
+    },
+    "ledger": {
+      "path": "work/item352_j2_nonsemisimple_transition_no_go_ledger.json",
+      "sha256": "1e9decfc345cd190d466a448e499fb0d87a06b752e0c14661c30a59c5a437407",
+      "bytes": 7056
+    },
+    "self_audit": {
+      "path": "work/item352_j2_nonsemisimple_transition_no_go_self_audit.json",
+      "sha256": "8473bc3e4ec0dc2dae77d054a3b8ee54d1c654e983623793b08dafba6876cfae",
+      "bytes": 2782
+    }
+  },
+  "proved": [
+    "A_x^L is an exact rank-two nonsemisimple transition whose quadratic-character moment is [[-h_L,-H_(L-1)],[0,-1]]",
+    "the nondegenerate collision prescribes exactly the old local determinant and global extension coordinates and no third coordinate",
+    "the unique fiberwise Jordan contribution is L*(2/p), while the global moment has at most one extension coordinate",
+    "all fixed polynomial, tensor, symmetric, and exterior nilpotent readouts of the target-shifted moment lie in the old extension ideal",
+    "the fixed quadratic rank-one connection has zero p-curvature after a tame degree-two cover",
+    "an exact n-state bounded-pole companion retaining determinant x^-L satisfies n*K>=L",
+    "sublinear truncation windows have only zero-rate formal/uniform exact reach; positive-rate symbolic realizations have linear rank or pole/transition complexity",
+    "degenerate and nondegenerate outer charts, and Item349's two internal charts, partition rather than add raw capacity"
+  ],
+  "exact_finite_only": [
+    "seven declared actual-row matrix-moment, target, p-step, power, Jordan, and window-tail replays",
+    "four synthetic finite-field instances covering both global eigenvalue strata",
+    "no prime scan and no collision census"
+  ],
+  "open": [
+    "weighted nonconcentration of the actual nondegenerate moving joint state",
+    "weighted support of Item349's safely saturated degenerate carrier",
+    "weighted zero density for accidental vanishing of proper truncation tails",
+    "target-specific chosen-prime constructions outside the exact transition/Kummer/window classes"
+  ],
+  "capacity": {
+    "raw_fixed_M_chebyshev_mass": "(2/35)M+o(M)",
+    "ordinary_j2_ceiling_per_6M": "1/105",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "overlap_rule": "all outer and internal chart masses lie in one raw interval and are not additive"
+  },
+  "replay_command": "python scripts/item352_j2_nonsemisimple_transition_no_go_certificate.py --output results/item352_j2_nonsemisimple_transition_no_go_certificate.replay.json"
+}

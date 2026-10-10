@@ -1,0 +1,107 @@
+{
+  "scope": "Only the already saved n=2,4,8,16 exact triples; no new canonical degree or root computation.",
+  "status": "pass",
+  "Hessian_symbolic_identity": "pass",
+  "cases": [
+    {
+      "n": 2,
+      "coefficient_identity": "pass",
+      "monic_valuations_ascending": [
+        3,
+        0,
+        1,
+        0
+      ],
+      "discriminant_valuation": 3,
+      "discriminant_nonzero": true,
+      "quadratic_cancellation_valuation": 1,
+      "discriminant_combined_first_pair_valuation": 3,
+      "last_three_term_valuations": [
+        8,
+        6,
+        5
+      ],
+      "leading_gate_valuations": {
+        "b1/b0": 3,
+        "b2/b0": 1,
+        "kappa1/kappa0": 2,
+        "kappa2/kappa0": 0
+      }
+    },
+    {
+      "n": 4,
+      "coefficient_identity": "pass",
+      "monic_valuations_ascending": [
+        2,
+        0,
+        1,
+        0
+      ],
+      "discriminant_valuation": 4,
+      "discriminant_nonzero": true,
+      "quadratic_cancellation_valuation": 2,
+      "discriminant_combined_first_pair_valuation": 4,
+      "last_three_term_valuations": [
+        7,
+        4,
+        4
+      ],
+      "leading_gate_valuations": {
+        "b1/b0": 2,
+        "b2/b0": 2,
+        "kappa1/kappa0": 6,
+        "kappa2/kappa0": 0
+      }
+    },
+    {
+      "n": 8,
+      "coefficient_identity": "pass",
+      "monic_valuations_ascending": [
+        3,
+        0,
+        1,
+        0
+      ],
+      "discriminant_valuation": 5,
+      "discriminant_nonzero": true,
+      "quadratic_cancellation_valuation": 12,
+      "discriminant_combined_first_pair_valuation": 14,
+      "last_three_term_valuations": [
+        8,
+        6,
+        5
+      ],
+      "leading_gate_valuations": {
+        "b1/b0": 3,
+        "b2/b0": 3,
+        "kappa1/kappa0": 5,
+        "kappa2/kappa0": 0
+      }
+    },
+    {
+      "n": 16,
+      "coefficient_identity": "pass",
+      "monic_valuations_ascending": [
+        4,
+        0,
+        1,
+        0
+      ],
+      "discriminant_valuation": 6,
+      "discriminant_nonzero": true,
+      "quadratic_cancellation_valuation": 5,
+      "discriminant_combined_first_pair_valuation": 7,
+      "last_three_term_valuations": [
+        9,
+        8,
+        6
+      ],
+      "leading_gate_valuations": {
+        "b1/b0": 4,
+        "b2/b0": 4,
+        "kappa1/kappa0": 6,
+        "kappa2/kappa0": 0
+      }
+    }
+  ]
+}

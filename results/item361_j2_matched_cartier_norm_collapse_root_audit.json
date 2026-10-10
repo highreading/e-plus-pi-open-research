@@ -1,0 +1,63 @@
+{
+  "item": 361,
+  "schema": "item361-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_MATCHED_CARTIER_REDUCTION_COLLAPSES_TO_OLD_ENDPOINT_NORM",
+  "scope": "independent root audit of the actual fixed-M j2 selector, both rational Cartier branches, low-digit Lagrange identification, phase elimination, digit exhaustion, and capacity scope",
+  "checks": {
+    "work_manifest_checks": 15,
+    "work_manifest_failures": 0,
+    "frozen_dependencies_checked": 10,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "declared_certificate_rows": 7,
+    "independent_actual_rows": 1100,
+    "independent_cartier_branch_checks": 2200,
+    "independent_low_digit_checks": 2200,
+    "independent_phase_cube_checks": 1100,
+    "independent_matched_coefficient_checks": 1100,
+    "independent_elimination_identity": true,
+    "prime_or_collision_census_performed": false,
+    "all_independent_checks": true
+  },
+  "mathematical_audit": {
+    "digit_geometry": "t=M-p gives p=6t-r and s=(p-4t-1)/2; the actual interval implies 0<t,r<p and k=r-1,m=s-1 are single low digits",
+    "frobenius": "for k<p, U(X)^p=U(X^p) modulo p and U(0)=1, so the high exponent digit contributes only the constant term in both branches",
+    "low_digit": "independent generalized-binomial extraction from the two Item314 Lagrange parametrizations gives A^-=-r*a_r/12 and A^+=-r*b_r/12 on all 1100 tested actual rows",
+    "phase": "p=6t-r gives 12t=2p+2r, hence (16^t)^3=2^(2r+2) by Fermat",
+    "elimination": "the contraction of <A+Bz,z^3-c> is the principal resultant ideal <A^3+B^3c>; retaining z is the old selected component and eliminating z is exactly Item315's N_r",
+    "exhaustion": "ordinary base-p Cartier reduction has no further high digit after t,r,k,m<p; this does not cover p-adic derivatives or transverse parameters",
+    "target_retention": "the moving H_(s-1)-Theta_(r,s) coordinate remains part of the actual gate and is never replaced by N_r",
+    "scope_warning": "the principal target-free eliminant and characteristic-zero nonvanishing do not imply weighted nonconcentration at the matched moving primes"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "complete one-high-digit Cartier reduction of both rational summands",
+      "low digit equals the old two-branch selected gate",
+      "phase cube and exact collapse to the old endpoint norm",
+      "ordinary digit exhaustion within the stated algebra",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "seven predeclared certificate rows plus independent audit controls; no collision census"
+    ],
+    "OPEN": [
+      "weighted selected-component nonconcentration",
+      "joint correlation with the moving H-Theta target",
+      "selected-component reciprocity or average gcd",
+      "higher p-adic or transverse forced information",
+      "any reduction of 1/105",
+      "Route 1",
+      "e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_fixed_M_chebyshev_mass": "(2/35)M+o(M)",
+    "each_mod6_ray_capacity_per_6M": "1/210",
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

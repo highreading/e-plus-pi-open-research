@@ -1,0 +1,47 @@
+{
+  "schema": "item308-root-audit-v1",
+  "item": 308,
+  "auditor": "root",
+  "date": "2026-08-31",
+  "verdict": "PASS WITH ALL-S PINNED RESIDUES, QUADRATIC-NORM CONTAINERS, LINEAR HEIGHT, A HEIGHT-ONLY INFORMATION-CLASS NO-GO, OPEN EXACT WEIGHTED DENSITY, AND ZERO BOOKING",
+  "package": {
+    "manifest_files_checked": 5,
+    "manifest_file_hash_mismatches": 0,
+    "frozen_dependencies_checked": 5,
+    "manifest_dependency_hash_mismatches": 0,
+    "hash_list_entries_checked": 6,
+    "hash_list_mismatches": 0,
+    "canonical_root_replay_byte_identical": true,
+    "canonical_and_root_replay_sha256": "4efff9ca2fb1bc11cc6030e260ff73aae89c28bd157bb41fa6bbc3b32e41e5cf",
+    "report_sha256": "4eb8f8c37dfde9d19e57c8df5ff8090bd95f03be59fff7d6aede55d02993bdc8",
+    "script_sha256": "9b60d380b503c7ac9fed13792fae67735cfcf6b0f376581a0076fde16a82f0b9",
+    "ledger_sha256": "eb5625613423ad5de16546d6c13860ef8e055867816648646b8a500cb00ad134",
+    "manifest_sha256": "1c4721f43b5bbdc0c68e4d9fd689562a32a4af4fbbab2a9e7075da96b151b4d5",
+    "hash_list_sha256": "8de9a61e2bf8262bc33b0a55510d37680dda8e12474b8fbbaa2a5d16018ac83e"
+  },
+  "independent_mathematical_checks": {
+    "actual_gate_bridge": "PASS: p=4h+6s+3 exceeds every gauge numerator and denominator prime support bound, so the Item-243 gauge is a p-unit; the pinned residue remains a necessary condition for the actual ordinary collision.",
+    "frobenius_reduction": "PASS: with (4h+3)/3=p/3-2s and 2h<p, the unique constant-one cubic branch contributes only its constant term at the target coefficient.",
+    "all_s_source_and_coefficients": "PASS: the symbolic rational source has denominator degree 6s+8; the exact coefficient extractions and Gaussian partial fractions reproduce all preselected controls without a prime scan.",
+    "euler_and_container": "PASS: direct p mod 8 reduction gives delta_(s,epsilon)=(-1)^(s(s+1)/2+1+epsilon)=(2/p); squaring the pinned linear residue yields the stated necessary divisor.",
+    "norm_and_height": "PASS: separating the square part of 2^(3s+1) gives the four quadratic etale cases and the displayed norm identity; coefficient l1 bounds give exponential size and hence O(s) logarithmic height.",
+    "fixed_M_no_go": "PASS: for each rho in (0,1/4), the fixed-in-s primorial comparison has the same denominator support, norm shape, and O_rho(s) height, yet contains every candidate with s>=rho M and retains 1/36-rho/9+o(1) per 6M. Thus those qualitative data alone yield no strict saving.",
+    "scope": "PASS: the comparison family is not the actual E sequence; exact factor localization and W_D(M)=o(M) remain open, so the fixed-j1 ceiling is unchanged."
+  },
+  "format": {
+    "report_bytes": 18590,
+    "report_lines": 628,
+    "forbidden_control_characters": 0,
+    "inline_math_open": 140,
+    "inline_math_close": 140,
+    "display_math_open": 62,
+    "display_math_close": 62
+  },
+  "capacity": {
+    "new_route1_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "smallest_remaining_lemma": "W_D(M)=o(M) for the exact all-s containers, or directly W_off(M)=o(M)",
+    "ledger_changed": false
+  }
+}

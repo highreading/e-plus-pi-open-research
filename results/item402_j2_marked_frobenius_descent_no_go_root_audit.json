@@ -1,0 +1,52 @@
+{
+  "item": 402,
+  "schema": "item402-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_SCOPED_MARKED_FROBENIUS_DESCENT_INFORMATION_NO_GO",
+  "scope": "independent root audit of the ordered-cutoff stabilizer, formal Kummer-mode descent obstruction, split-cyclotomic invariant countermodel, marked/unmarked distinction, chart accounting, replay, and capacity interpretation",
+  "checks": {
+    "canonical_dependencies_checked": 12,
+    "canonical_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "control_characters": 0,
+    "prime_or_collision_census_used": false,
+    "finite_to_infinite_inference_used": false,
+    "root_repairs": "Canonicalized the package and replay command, and narrowed the field-of-definition language to the formal mode-labelled cutoff support. The theorem does not exclude accidental formula-specific identities among evaluated conjugates."
+  },
+  "mathematical_audit": {
+    "stabilizer": "If a unit a stabilizes {0,...,m}, its least positive residue A lies in [1,m]. For A>=2, k=floor(m/A)+1 lies in [1,m], while m<Ak<=2m<N, contradicting stabilization. Thus A=1.",
+    "formal_orbit": "Distinct Kummer modes and the trivial support stabilizer give orbit size phi(p-1) for the formal ordered-cutoff support. This is not promoted to an unconditional orbit-size assertion for the evaluated residual.",
+    "proper_descent": "Every nontrivial descent subgroup moves the formal cutoff support, so no proper subfield preserves the exact mode-labelled prefix. A formula-specific coincidence among specialized conjugates remains logically possible.",
+    "split_model": "Since p is congruent to 1 modulo p-1, p splits completely in Q(mu_(p-1)). CRT tuples related by a nontrivial H-conjugation have identical complete unmarked H-invariant data but opposite vanishing at the selected coordinate.",
+    "trace_norm_slopes": "Trace can cancel; norm detects a zero somewhere in the conjugate packet; symmetric, characteristic-polynomial, Newton-slope, and unmarked unit-root data forget which factor is selected. A marked factor retains the condition but is not a descent.",
+    "scope": "The CRT models close only the unmarked invariant-information class. They are not asserted to be values of the actual residual Xi, so an actual formula-specific relation or marked nonconcentration theorem remains live.",
+    "chart_accounting": "The chosen-prime residual is the nondegenerate chart, while Item 349 supplies a distinct degenerate gate. Controlling only one chart cannot book a whole-ray saving; the full one-ray reward remains 1/210 and the proved gain is zero."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "trivial multiplicative stabilizer of the ordered cutoff",
+      "no proper formal mode-labelled descent preserving that support",
+      "complete unmarked invariant-information countermodel",
+      "marked versus unmarked Frobenius and unit-root dichotomy",
+      "zero booking and retained ordinary-j2 ceiling 1/105"
+    ],
+    "OPEN": [
+      "actual selected-prime weighted nonconcentration",
+      "formula-specific relations among evaluated conjugates",
+      "the degenerate target-retaining moving-divisor theorem",
+      "a positive-mass exclusion for a complete ray",
+      "Route 1 and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "one_complete_ray_normalized_per_6M": "1/210",
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_route1_rate": 0,
+    "new_booking": 0,
+    "new_unconditional_capacity_reduction": 0
+  }
+}

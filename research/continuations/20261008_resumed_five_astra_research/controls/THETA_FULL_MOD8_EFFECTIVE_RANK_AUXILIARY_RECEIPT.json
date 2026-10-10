@@ -1,0 +1,112 @@
+{
+  "scope": "New auxiliary complete normalized MINIMAL theta matrices modulo8 only; not original indices, all-pattern/tied/paired upper or e+pi proof.",
+  "coordinator_authored": true,
+  "network_and_credentials_denied_by_sandbox": true,
+  "period_checks": [
+    {
+      "precision": 3,
+      "period": 12,
+      "checks": 14
+    },
+    {
+      "precision": 4,
+      "period": 24,
+      "checks": 26
+    },
+    {
+      "precision": 5,
+      "period": 48,
+      "checks": 50
+    },
+    {
+      "precision": 6,
+      "period": 96,
+      "checks": 98
+    },
+    {
+      "precision": 7,
+      "period": 192,
+      "checks": 194
+    },
+    {
+      "precision": 8,
+      "period": 384,
+      "checks": 386
+    },
+    {
+      "precision": 9,
+      "period": 768,
+      "checks": 770
+    },
+    {
+      "precision": 10,
+      "period": 1536,
+      "checks": 1538
+    }
+  ],
+  "six_step_phase_checks": 4,
+  "results": [
+    {
+      "d": 144,
+      "L": 64,
+      "rho": 16,
+      "p": 36,
+      "complete_dimension": 146,
+      "parity_rank": 133,
+      "corank": 13,
+      "expected_corank": 13,
+      "capped_invariant_counts_v0_v1_v2_vge3": [
+        133,
+        4,
+        6,
+        3
+      ],
+      "complete_mod4_effective_rank": 4,
+      "complete_next_mod8_effective_rank": 6,
+      "determinant_valuation_lower_at_capped_precision": 25,
+      "matrix_mod8_sha256": "f6872c8db2e29adcfa6cd670755b7885801a1a39297369922b0d932f3c969578"
+    },
+    {
+      "d": 272,
+      "L": 128,
+      "rho": 16,
+      "p": 67,
+      "complete_dimension": 274,
+      "parity_rank": 190,
+      "corank": 84,
+      "expected_corank": 84,
+      "capped_invariant_counts_v0_v1_v2_vge3": [
+        190,
+        48,
+        20,
+        16
+      ],
+      "complete_mod4_effective_rank": 48,
+      "complete_next_mod8_effective_rank": 20,
+      "determinant_valuation_lower_at_capped_precision": 136,
+      "matrix_mod8_sha256": "b7c18f09fa89cee417e0c4216e16f48def9cb1953bed552f715f0e259d61fda9"
+    },
+    {
+      "d": 272,
+      "L": 128,
+      "rho": 16,
+      "p": 68,
+      "complete_dimension": 274,
+      "parity_rank": 189,
+      "corank": 85,
+      "expected_corank": 85,
+      "capped_invariant_counts_v0_v1_v2_vge3": [
+        189,
+        49,
+        19,
+        17
+      ],
+      "complete_mod4_effective_rank": 49,
+      "complete_next_mod8_effective_rank": 19,
+      "determinant_valuation_lower_at_capped_precision": 138,
+      "matrix_mod8_sha256": "95617a6df099e72a4b341d5657072890495671b4b5084dd21573fc36f5ae94c5"
+    }
+  ],
+  "seconds": 2.08,
+  "script_sha256": "92848ef3c960e2a4dc22e89a1c0eebee8d93b74d10dedc5beb75e10534c3580e"
+}

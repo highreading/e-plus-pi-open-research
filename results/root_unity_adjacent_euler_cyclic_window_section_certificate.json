@@ -1,0 +1,341 @@
+{
+  "all_parameter_theorem": {
+    "anchor_section": "Under the six disjoint-sum conditions, a_u=1 and a_(t-u)=(c_t-B_t)/2 give a polynomial section.",
+    "arbitrary_interval_threshold": "r>3L+11K+7",
+    "cyclic_equations": "F_t=sum_i a_i a_(t-i mod r)=delta_(t,0)",
+    "elimination": "The bounded-window convolution ideal intersects the prescribed low-data ring in zero; after any base low-data ideal J, the intersection is exactly J.",
+    "initial_interval_threshold": "r>2L+3K+2",
+    "product_scale": "For L=K=N+1, primes p<=10N+15 have total log O(N), while every p>10N+15 lies in the section regime."
+  },
+  "arbitrary_interval_section_grid": [
+    {
+      "S_cardinality": 4,
+      "S_start": 11,
+      "T_cardinality": 3,
+      "T_start": 47,
+      "admissible_anchor_count": 76,
+      "all_target_convolutions_verified": true,
+      "completion_digest": "fbbe6917ee8cc2d2b73f5b18d9cf55f9aaf8b0785fd42bbf0795cd61e33302f3",
+      "first_anchor": 0,
+      "forbidden_union_bound": 38,
+      "partner_count": 3,
+      "period": 97
+    },
+    {
+      "S_cardinality": 7,
+      "S_start": 131,
+      "T_cardinality": 5,
+      "T_start": 61,
+      "admissible_anchor_count": 110,
+      "all_target_convolutions_verified": true,
+      "completion_digest": "668da0b98061df318a660d5ef0eb9edaf32ee77eecb89dd4f67ad2c53b878aa2",
+      "first_anchor": 0,
+      "forbidden_union_bound": 69,
+      "partner_count": 5,
+      "period": 149
+    },
+    {
+      "S_cardinality": 9,
+      "S_start": 205,
+      "T_cardinality": 7,
+      "T_start": 103,
+      "admissible_anchor_count": 156,
+      "all_target_convolutions_verified": true,
+      "completion_digest": "0265ff4d6bcad9161fea4c191ff8bb5c8e0d74e0cda6ee738bae8aa1f8cb3cdd",
+      "first_anchor": 9,
+      "forbidden_union_bound": 97,
+      "partner_count": 7,
+      "period": 211
+    }
+  ],
+  "control_audit": {
+    "script": {
+      "bytes": 17867,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "scripts/root_unity_adjacent_euler_cyclic_window_section_certificate.py"
+    },
+    "source": {
+      "bytes": 12634,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "sources/root_unity_adjacent_euler_cyclic_window_section_no_go.md"
+    }
+  },
+  "dependency_checks": {
+    "results/root_unity_adjacent_euler_first_period_moment_hashes.sha256": {
+      "actual": "af340ed10de55eb9587fdb3167d475b7f5cda405367fedb3ca00244ed1b23adf",
+      "expected": "af340ed10de55eb9587fdb3167d475b7f5cda405367fedb3ca00244ed1b23adf"
+    }
+  },
+  "initial_interval_section_grid": [
+    {
+      "K": 4,
+      "L": 3,
+      "all_target_convolutions_verified": true,
+      "anchor": 8,
+      "completion_digest": "f19385eb9b82dc6f0e506e693f7b32e9251485cf28a8e4a8255672eb4daa9b2f",
+      "partner_interval": [
+        23,
+        27
+      ],
+      "period": 31,
+      "prescribed_digest": "08e5c461d78c3b5f92a421b0018092234e54ea0cb6b40793e4b61193bb789eaf",
+      "target_digest": "e822f56b1a437b6362344324c152952cbc4d6e49415c88c822ca61891a5487a3",
+      "threshold_rhs": 20
+    },
+    {
+      "K": 5,
+      "L": 6,
+      "all_target_convolutions_verified": true,
+      "anchor": 12,
+      "completion_digest": "60c35b31d023dfa5fa7d5315c73b676d691622350bd7f2ae934684703725f125",
+      "partner_interval": [
+        35,
+        40
+      ],
+      "period": 47,
+      "prescribed_digest": "fa46b4ba478a90f29cd6577fb4271db4987f792e5bec2659f477d84c221cae83",
+      "target_digest": "b73104b0cdc726430c577508087629bef22c2bf1efc5ac991a02d3afe523002d",
+      "threshold_rhs": 29
+    },
+    {
+      "K": 9,
+      "L": 8,
+      "all_target_convolutions_verified": true,
+      "anchor": 18,
+      "completion_digest": "2c1a481a80082537fede36f31dff2fe6f8ee108ca6265efeb89b44a50222178e",
+      "partner_interval": [
+        55,
+        64
+      ],
+      "period": 73,
+      "prescribed_digest": "2a64d885b29e1e5d3cbecb1cc3a249c80582b45a8ae468b240446d2ca739cafd",
+      "target_digest": "d4da0483da94ec72fe44f7d11c1d053db2f72fadf623a2ef9854f1653bd6d59f",
+      "threshold_rhs": 45
+    },
+    {
+      "K": 10,
+      "L": 12,
+      "all_target_convolutions_verified": true,
+      "anchor": 23,
+      "completion_digest": "6ccbf02840c257fd756981a96574365067a41e55ebbf64ae10d31e5d7618a9a3",
+      "partner_interval": [
+        78,
+        88
+      ],
+      "period": 101,
+      "prescribed_digest": "88258339137ee41e48eb0e4779dab4a6b9b49d9ff01f7249d32ae466d9ef64fd",
+      "target_digest": "3989cf47438f19e13f03933fbb418825cc3c5c60e768b33237fecd71e805d64c",
+      "threshold_rhs": 56
+    },
+    {
+      "K": 13,
+      "L": 17,
+      "all_target_convolutions_verified": true,
+      "anchor": 31,
+      "completion_digest": "4db0c3457dc70bbfddea4b93d486ea55deeb8f3e6d98a98e5da3888063d85687",
+      "partner_interval": [
+        120,
+        133
+      ],
+      "period": 151,
+      "prescribed_digest": "977a6141dd15f57a205c1f58ced03f2a5fae017f6f965511336458acce7a64f6",
+      "target_digest": "a9a1651f3ed94b70fff987e7c9f419ab7c79aa435b19088140d3b3df72805f7e",
+      "threshold_rhs": 75
+    }
+  ],
+  "logical_scope": "Exact replay for an all-parameter polynomial-section theorem for bounded cyclic-convolution windows. It proves that these windows add no low-coefficient eliminant, but proves no bound for J_N, no global full-system obstruction, and no classification of e+pi.",
+  "missing_lemma": "A genuinely nonlocal cross-prime coupling using the full cyclic system or arithmetic of the actual alternating sign assignment, with a subfactorial-height integer consequence.",
+  "prime_grid_cyclic_euler_checks": [
+    {
+      "A_squared_is_1_mod_X_to_r_minus_1": true,
+      "Kummer_reflection_match_half_indices": [],
+      "a_0_E_p_minus_1_mod_p": 2,
+      "coefficient_sha256_u32le": "26b25d457597a7b0463f9620f666dd10aa2c4373a505967c7c8d70922a2d6ece",
+      "cyclic_convolution_sha256_u32le": "67abdd721024f0ff4e0b3f4c2fc13bc5bad42d0b7851d456d88d203d15aaa450",
+      "p": 3,
+      "r": 1
+    },
+    {
+      "A_squared_is_1_mod_X_to_r_minus_1": true,
+      "Kummer_reflection_match_half_indices": [
+        1
+      ],
+      "a_0_E_p_minus_1_mod_p": 0,
+      "coefficient_sha256_u32le": "1b03ab083d0fb41e44d480f48d5bba181c623c0594bda1aa8ea71a3b67dbf3b1",
+      "cyclic_convolution_sha256_u32le": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8",
+      "p": 5,
+      "r": 2
+    },
+    {
+      "A_squared_is_1_mod_X_to_r_minus_1": true,
+      "Kummer_reflection_match_half_indices": [],
+      "a_0_E_p_minus_1_mod_p": 2,
+      "coefficient_sha256_u32le": "0d50accef71803a37ac42c6b8275bb2e805d438dd8561d34567a69c98ebbd1b7",
+      "cyclic_convolution_sha256_u32le": "ca888f40c3caca805b37a5434c75de5550616e0795e7602fb91156f22dd90851",
+      "p": 7,
+      "r": 3
+    },
+    {
+      "A_squared_is_1_mod_X_to_r_minus_1": true,
+      "Kummer_reflection_match_half_indices": [],
+      "a_0_E_p_minus_1_mod_p": 2,
+      "coefficient_sha256_u32le": "03d2731959f9e17e2bf2cb11bcf9eb4fbc154e5134df85fc7390074153fd10c2",
+      "cyclic_convolution_sha256_u32le": "21fc3f955c14305ed66b2f6064de082e8447f29048da3ab7c5c01090c1b722ab",
+      "p": 11,
+      "r": 5
+    },
+    {
+      "A_squared_is_1_mod_X_to_r_minus_1": true,
+      "Kummer_reflection_match_half_indices": [
+        3
+      ],
+      "a_0_E_p_minus_1_mod_p": 0,
+      "coefficient_sha256_u32le": "50566f215fb7a2e5785fa148a7c9c167093e7c2b21512a815d917af21fa051a9",
+      "cyclic_convolution_sha256_u32le": "32edb6022c0921d99aa347e9cda5dc2db413f5574eebaaa8592234308ffebd2b",
+      "p": 13,
+      "r": 6
+    },
+    {
+      "A_squared_is_1_mod_X_to_r_minus_1": true,
+      "Kummer_reflection_match_half_indices": [
+        4
+      ],
+      "a_0_E_p_minus_1_mod_p": 0,
+      "coefficient_sha256_u32le": "6163709721a7dd435abbbf61973944f5c9aae9429b11c60e25384a29d1437a37",
+      "cyclic_convolution_sha256_u32le": "01d0fabd251fcbbe2b93b4b927b26ad2a1a99077152e45ded1e678afa45dbec5",
+      "p": 17,
+      "r": 8
+    },
+    {
+      "A_squared_is_1_mod_X_to_r_minus_1": true,
+      "Kummer_reflection_match_half_indices": [],
+      "a_0_E_p_minus_1_mod_p": 2,
+      "coefficient_sha256_u32le": "b5b73ca2d98fb78b8c5740da593e17425ac5aefa154a3828e7b2fd8170c64331",
+      "cyclic_convolution_sha256_u32le": "11bc115c0226329c9a35a7fee1d29c1f5248e0f7841d57829b50278263149113",
+      "p": 19,
+      "r": 9
+    },
+    {
+      "A_squared_is_1_mod_X_to_r_minus_1": true,
+      "Kummer_reflection_match_half_indices": [],
+      "a_0_E_p_minus_1_mod_p": 2,
+      "coefficient_sha256_u32le": "f8b20acf7d5ff9b1aa4058dfdaa5e3f5a4344771d5ac107159997c9dff20f20a",
+      "cyclic_convolution_sha256_u32le": "8c63f77e4a89707a17ed42972517700bc8913315f36c72fcfe833910a506cd8f",
+      "p": 23,
+      "r": 11
+    },
+    {
+      "A_squared_is_1_mod_X_to_r_minus_1": true,
+      "Kummer_reflection_match_half_indices": [
+        7
+      ],
+      "a_0_E_p_minus_1_mod_p": 0,
+      "coefficient_sha256_u32le": "57e85f6f92a9e6497ad88be3d17c43e8fa18292ceba8f1693c92044cd954d6cd",
+      "cyclic_convolution_sha256_u32le": "5f8d14ee73b1430f37ca4128cd581ecae4318f4186f5d73058b853739761d075",
+      "p": 29,
+      "r": 14
+    },
+    {
+      "A_squared_is_1_mod_X_to_r_minus_1": true,
+      "Kummer_reflection_match_half_indices": [],
+      "a_0_E_p_minus_1_mod_p": 2,
+      "coefficient_sha256_u32le": "e358021134131d653551a140312d1e919dfd47f99d10fd4b7d986e1cc398c6f3",
+      "cyclic_convolution_sha256_u32le": "86cbf2e8054051e9f22ecc62f0d480bc8e54e21795b832cee8a61d4116254eec",
+      "p": 31,
+      "r": 15
+    },
+    {
+      "A_squared_is_1_mod_X_to_r_minus_1": true,
+      "Kummer_reflection_match_half_indices": [],
+      "a_0_E_p_minus_1_mod_p": 2,
+      "coefficient_sha256_u32le": "2ff7aea9f040b15a64313cebb0114f705523fa14937a7f798bbf1c9c8900bafa",
+      "cyclic_convolution_sha256_u32le": "de938df27da90d5fd251e357ef6f320b02a38a4ffe166384b4234aae3101e761",
+      "p": 43,
+      "r": 21
+    },
+    {
+      "A_squared_is_1_mod_X_to_r_minus_1": true,
+      "Kummer_reflection_match_half_indices": [
+        15
+      ],
+      "a_0_E_p_minus_1_mod_p": 0,
+      "coefficient_sha256_u32le": "074d228b6090283c0269e0b006aa9792dc6945bf0211740f0572ea3c6ff970f4",
+      "cyclic_convolution_sha256_u32le": "939ad11b0a55ef10955d7d1c7912d40e0e0b34a20162d6e114966c398e4c45d3",
+      "p": 61,
+      "r": 30
+    },
+    {
+      "A_squared_is_1_mod_X_to_r_minus_1": true,
+      "Kummer_reflection_match_half_indices": [
+        25
+      ],
+      "a_0_E_p_minus_1_mod_p": 0,
+      "coefficient_sha256_u32le": "8f63065be37b7917d18e6a01e1abf7eacbccc2bde2bc5781fb194b33e8002e89",
+      "cyclic_convolution_sha256_u32le": "7e8a22ccc2f35a098159029dfaea4b85e5c2fa5d8585728be9debee9b22cc746",
+      "p": 101,
+      "r": 50
+    }
+  ],
+  "resource_policy": {
+    "RSS_guard_kib": 8388608,
+    "hardware_accelerator": "Not used: exact modular sparse convolution and recurrence are CPU-suitable and small.",
+    "meaning": "Failure guard only; it neither allocates nor limits the approximately 50 GiB available Colab RAM."
+  },
+  "schema": "root_unity_adjacent_euler_cyclic_window_section_certificate_v1",
+  "seed_section": {
+    "K": 1644,
+    "L": 1644,
+    "N": 1643,
+    "a_0": 2,
+    "a_N": 0,
+    "a_N_plus_1": 0,
+    "anchor": 3289,
+    "following_convolution_values": {
+      "1645": 131736,
+      "1646": 106699,
+      "1647": 150023,
+      "1648": 75844,
+      "1649": 107713,
+      "1650": 114504,
+      "1651": 133366,
+      "1652": 23197,
+      "1653": 24653
+    },
+    "low_prefix_sha256_u32le": "2cbee2570902d4d972707627142d2e4b01278678aaa914fb4999051c3f9fe28e",
+    "next_equation_fails": true,
+    "p": 151483,
+    "partner_count": 1645,
+    "partner_interval": [
+      72452,
+      74096
+    ],
+    "r": 75741,
+    "scope": "A synthetic section of the stated window, not the actual global Euler square root.",
+    "section_threshold_rhs": 8222,
+    "selected_partner_values_first_five": [
+      75740,
+      2,
+      75731,
+      127,
+      72898
+    ],
+    "selected_partner_values_last_five": [
+      89182,
+      6184,
+      18295,
+      111215,
+      63080
+    ],
+    "selected_partner_values_sha256_u32le": "9a12b27530f781c2020eef659584adbf1446509cf1e1e89364118b4e8e6cd041",
+    "sparse_completion_entry_count": 3291,
+    "sparse_completion_sha256_index_u32le": "ec9288c0314d9ef80aa8856d060292cd94ae7c2236e1b620c067d2698c05ffbb",
+    "verified_window": [
+      0,
+      1644
+    ],
+    "verified_window_digest_u32le": "0dba0a6a6e8e35a676ae5fee1f23d84825d857d9df0e170165bef2dfadd2745e"
+  },
+  "source_sha256": "e783aeb445472e0630e7945931a5978b9a0a15180dee03e1409cb59693f8b1b8"
+}

@@ -1,0 +1,91 @@
+{
+  "actual_recurrence_deoverlap": {
+    "Q0_drop_rows_by_s": {
+      "2": [
+        19,
+        103423
+      ],
+      "4": [
+        15131
+      ],
+      "6": []
+    },
+    "classification": "PROVED EXACT ACTUAL-RECURRENCE DE-OVERLAP",
+    "definition": "L_j=(Q_j/p)B_(h+3j)+sum_(k=1,k!=j)^3 Q_k E_(h+3k), s=2j",
+    "drop_rows": "when Q_0=0 mod p, the recurrence makes L_j=0 automatically and therefore L_j imposes no condition on E_h",
+    "identity": "L_j=-Q_0(h)E_h on every valid actual orbit",
+    "s6_scope": "on s=6, L_3 uses B_(h+9) and the two neighboring actual values E_(h+3),E_(h+6), but the identity still makes it a re-encoding, not an independent gate",
+    "unit_rows": "if Q_0 is a p-unit, L_j=0 iff E_h=0, so the boundary-neighbor condition is exactly the old target gate and adds no codimension"
+  },
+  "capacity_first": {
+    "admission_rule": "only an all-H identity or weighted zero-density can matter",
+    "retained_conditional_j1_capacity_per_6m": "1/36",
+    "union_boundary_diagonal_raw_chebyshev_mass": "~2H"
+  },
+  "dependencies": {
+    "item297_j1_structural_ray_boundary_certificate.json": "aa84dde588a119c67b868266ca536699b3675d2e53cb62ad8f1df66705ca7e6b",
+    "item297_j1_structural_ray_boundary_certificate.py": "6baec559198b0055096717f3e2fb7551707a17b64f520e499e585c73a4441cb5"
+  },
+  "exact_replay": {
+    "actual_prime_scan": false,
+    "classification": "EXACT REPLAY; NOT THE LOGICAL BASIS OF THE ALL-H PROOF",
+    "consecutive_H": [
+      1,
+      80
+    ],
+    "row_stream_sha256": "1d6847a2fa0e0c14248a7d900274f1579fbc15e7d96320c9ba8d0dd5eba279bb",
+    "rows": 80
+  },
+  "item": 301,
+  "schema": "item301-j1-boundary-scalar-reduction-v1",
+  "strict_labels": {
+    "B_parity_reduction": "PROVED ALL ACTUAL BOUNDARY PRIMES",
+    "X_U_V_closed_forms": "PROVED ALL H",
+    "Y_moment_representation": "PROVED ALL H; RESIDUAL",
+    "Y_or_E_nonvanishing_or_weighted_density": "OPEN",
+    "actual_prime_scan": "NONE",
+    "actual_recurrence_deoverlap": "PROVED",
+    "capacity_booking": 0,
+    "new_divisibility_exponent": 0,
+    "new_rate": 0,
+    "retained_conditional_j1_capacity_per_6m": "1/36"
+  },
+  "symbolic_reduction": {
+    "X_integral_derivation": {
+      "antiderivative": "with w=1-iu, integral K0(iu)du = i[2w^(2H+1)/(2H+1)-w^(2H+2)/(2H+2)] from w=1 to 1-i",
+      "filter": "X=(1/i) integral_0^1 [K0(iu)-K0(-iu)]du",
+      "parity": "substitution (1-i)^(2H)=(-2i)^H gives the displayed X"
+    },
+    "classification": "PROVED ALL-H ROOT-OF-UNITY AND INTEGRAL REDUCTION",
+    "even_H": {
+      "B_mod_p": "6(2e_H-1)Y",
+      "U": "(2-4e_H)/3",
+      "V": "0",
+      "X": "4(e_H-1)/(2H+1)+1/(H+1)",
+      "e_H": "(-1)^(H/2)2^H",
+      "unit_proof": "p=8m+3 gives (2/p)=-1; Euler yields e_H^2=-1/2. If 2e_H-1=0, then 1/4=-1/2, forcing p=3, impossible.",
+      "zero_equivalence": "B_H=0 mod p iff Y=0 mod p"
+    },
+    "odd_H": {
+      "B_mod_p": "-6(Y+4+6d_H)",
+      "Euler_reduction": "p=8m+7 gives d_H^2=1/2; H=-3/4 mod p then gives d_H X=8+12d_H",
+      "U": "2/3",
+      "V": "4d_H",
+      "X": "-(2d_H+2H+3)/[(2H+1)(H+1)]",
+      "d_H": "(-1)^((H-1)/2)2^H",
+      "zero_equivalence": "B_H=0 mod p iff Y=-4-6d_H mod p"
+    },
+    "residual_Y": {
+      "exact_recurrence": "J_0=1 and (1-i)^n(1-2i)=nJ_(n-1)-i(4n+2)J_n for n>=1",
+      "integral": "Y=2(H+1) Im integral_0^1 u^(2H)(1-iu)^(2H)(1+iu)du",
+      "quadratic_moment": "for q=u(1-iu), J_n=integral_0^1 q^n du: Y=-(H+1)Im((1-i)^(2H+1))/(2H+1)+3(H+1)Im(J_(2H))",
+      "scope": "Y remains one explicit sequence-specific moment. No nonvanishing or weighted-density claim is inferred from this representation."
+    },
+    "root_filters": {
+      "K1_values": "K1(i)=-4(-2i)^H and K1(-i)=-4(2i)^H",
+      "even": "sum_t (-1)^t K_(2t)=[K(i)+K(-i)]/2",
+      "odd": "sum_t (-1)^t K_(2t+1)=[K(i)-K(-i)]/(2i)"
+    }
+  },
+  "title": "exact boundary-scalar reduction and actual-gate de-overlap"
+}

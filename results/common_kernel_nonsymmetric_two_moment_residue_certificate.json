@@ -1,0 +1,190 @@
+{
+  "all_parameter_residue_criterion": {
+    "I0": "I0 is p-integral iff 2*r_(p-1)+r_(2p-1)=0 mod p; r_(p-1)=(-1)^((p+1)/2).",
+    "I1": "I1 is p-integral iff r_(2p-2)=0 mod p because the forced coefficient r_(p-2) vanishes.",
+    "hypotheses": "odd p with d/3<p<n",
+    "proof_location": "Section 3 of the companion source."
+  },
+  "control_audit": {
+    "script": {
+      "bytes": 13041,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "scripts/common_kernel_nonsymmetric_two_moment_residue_certificate.py"
+    },
+    "source": {
+      "bytes": 9844,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "sources/common_kernel_nonsymmetric_two_moment_residue_counterexample.md"
+    }
+  },
+  "dependency_checks": {
+    "results/common_kernel_even_nonlocal_moment_denominator_hashes.sha256": {
+      "actual": "bc6aae22ca67cb7e04678432e3befdd33b7072ab3cc67b1d656134fd7e0a1806",
+      "expected": "bc6aae22ca67cb7e04678432e3befdd33b7072ab3cc67b1d656134fd7e0a1806"
+    }
+  },
+  "logical_scope": "Exact positive counterexample to prime-by-prime one-third-window survival for the two isolated moments. It does not disprove an aggregate surviving-prime bound, a third-channel theorem, or any classification of e+pi.",
+  "missing_lemma": "An aggregate bound on primes for which both high-coefficient congruences cancel, or a further output channel which recovers them.",
+  "positive_counterexample": {
+    "A_coefficients": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      -1
+    ],
+    "B_coefficients": [
+      1,
+      0,
+      0,
+      -1,
+      2,
+      -3,
+      4,
+      -3,
+      2,
+      -1
+    ],
+    "I0": "-9392594521692168961341691/12850727001117633342514800",
+    "I0_denominator_mod_p": 22,
+    "I0_residue_numerator_mod_p": 0,
+    "I0_sha256": "e1eafe4d4473c7b37e43c30d17cdec03e428627183eead8863b589364ea24294",
+    "I1": "-1690320846078465619890203/5711434222718948152228800",
+    "I1_denominator_mod_p": 20,
+    "I1_residue_numerator_mod_p": 0,
+    "I1_sha256": "2c68762c2c7bc7b963e2c2d0913da5b837987c6aed8553afbca0fb07cbd15c60",
+    "common_denominator_mod_p": 19,
+    "h_degree": 66,
+    "h_order_at_zero": 24,
+    "h_sha256": "7f997dc7376e42b98d2b5c34f256ebd63db5f92d7cd269e7bee1ee39e6e9cfaa",
+    "n_minus_p": 1,
+    "positivity_proof_data": {
+      "A_identity": "A=1-(1-x^4)^2",
+      "B_identity": "B=1-(1+x^2)^2*x^3*(1-x)^2",
+      "bound": "0<=x^3(1-x)^2<=x(1-x)<=1/4 and (1+x^2)^2<=4 on [0,1]"
+    },
+    "prime": 23,
+    "q_sha256": "01fb7dd901655e65d3eae8223610374f1870fe169f421dbb32ae4e0dfe304627",
+    "r_sha256": "be6e2a24e2a885bc06c27f0c7734a3142a4e377942417ffc538ed947b7e134bf",
+    "relevant_r_coefficients": {
+      "r_22": 1,
+      "r_44": 3887,
+      "r_45": -1520
+    },
+    "three_p_minus_d": 3
+  },
+  "ratio_four_H_power_checks": {
+    "H_coefficients": [
+      0,
+      0,
+      1,
+      -4,
+      7,
+      -8,
+      7,
+      -4,
+      2
+    ],
+    "H_q_coefficients": [
+      -1,
+      0,
+      3,
+      -4,
+      2
+    ],
+    "all_parameter_reason": "The nonzero lowest and highest coefficients give n=2k,d=8k for every k>=1, hence d/3>n and the tested prime window is empty.",
+    "all_rows_sha256": "8f2fbfcea0ffb7cb02fc156812cd83a2b07f7c9cfe0f5e1b913dd836d32e58f5",
+    "finite_scope": "The row hashes check normalization only; emptiness of the window is the symbolic degree/order identity.",
+    "k_range": [
+      1,
+      120
+    ],
+    "selected_rows": [
+      {
+        "d": 8,
+        "d_minus_3n": 2,
+        "h_sha256": "df51ab9572706f1bc6eafa73cd5769ba46acea0b60bc1baaae2c3e728a41fec8",
+        "k": 1,
+        "n": 2,
+        "q_sha256": "9c94f74482b58ce9a3b9114a267a84e0c41c111abb34653a0a08d5df19cbcbaa"
+      },
+      {
+        "d": 16,
+        "d_minus_3n": 4,
+        "h_sha256": "e75413b5fdd8f60f51f6c920517bd658e5222acebd3931a060475bf4bba17dcc",
+        "k": 2,
+        "n": 4,
+        "q_sha256": "9b65ec622c8f8030a8e6d7f1c01d1bc5176ccc1aa9e2d9efba7935f5e644016c"
+      },
+      {
+        "d": 24,
+        "d_minus_3n": 6,
+        "h_sha256": "1ce55eb5f54b7fcfcf8d3b1cce149885c5e2f43321ad6950e3758ac8d466c109",
+        "k": 3,
+        "n": 6,
+        "q_sha256": "74b451fadd64f26ecaa3527b82aac83ebd0322802e0ece0f7907f069e2ab7fd0"
+      },
+      {
+        "d": 40,
+        "d_minus_3n": 10,
+        "h_sha256": "68b56e72a015c9de78d4dbed78108374318e7e30adc2f7a2e9f40e9b8dbfc535",
+        "k": 5,
+        "n": 10,
+        "q_sha256": "e2aed43951a67f58a0dd77e1131f919d101c962d6d70e74b9621690139e41eb9"
+      },
+      {
+        "d": 80,
+        "d_minus_3n": 20,
+        "h_sha256": "e2890eea77d239218675b0ace80b5d03161fada157b3589e981ec60e56d5ff5f",
+        "k": 10,
+        "n": 20,
+        "q_sha256": "2f500ee21ed743fdcaaf4124edd3f080a4ef6ed957b68c64983175080c6628c5"
+      },
+      {
+        "d": 160,
+        "d_minus_3n": 40,
+        "h_sha256": "c1154605bbe179e537723020526992bdeb774542a766ebc21a3c8610cf27dc03",
+        "k": 20,
+        "n": 40,
+        "q_sha256": "c245b29bb06d09ce6453444560879a26219b1a782974bf3b0cbdcf2faa5df1e6"
+      },
+      {
+        "d": 320,
+        "d_minus_3n": 80,
+        "h_sha256": "c8a0b2a78f539545d122ddce3a483f304fb28716b5217a4318f9e9c9c3b022f9",
+        "k": 40,
+        "n": 80,
+        "q_sha256": "683d0bd184afbdea6c9e4a6fe7efbc85090f9454e71edd8306881ceb7c90748c"
+      },
+      {
+        "d": 640,
+        "d_minus_3n": 160,
+        "h_sha256": "9708e647fd73c279f568ae0f5ab9114bdd18154e5457c4591b47a971d81a2468",
+        "k": 80,
+        "n": 160,
+        "q_sha256": "1cd774f95da221525d11c3e819cfd24abcbe40f87a4b586ebadf67d4c6af9627"
+      },
+      {
+        "d": 960,
+        "d_minus_3n": 240,
+        "h_sha256": "611bceb61acd2459dfddb0770ab2f7880d79f87f894a0d9d4b9b774bceb1e5ab",
+        "k": 120,
+        "n": 240,
+        "q_sha256": "27b516921304247064cc51f7a562ff3a3c49bf4d81ba408352e4e5677a4127a8"
+      }
+    ]
+  },
+  "resource_policy": {
+    "RSS_guard_kib": 41943040,
+    "hardware_accelerator": "Not used: the replay is small exact integer/rational arithmetic.",
+    "meaning": "The 40-GiB value is a failure guard only; it neither allocates nor limits the approximately 50 GiB available Colab RAM."
+  },
+  "schema": "common_kernel_nonsymmetric_two_moment_residue_certificate_v1",
+  "source_sha256": "d91d09a05d767e31ef968f72813191421803e766c20c0407c0c69f39152b80fb"
+}

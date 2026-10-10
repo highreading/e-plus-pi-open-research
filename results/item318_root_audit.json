@@ -1,0 +1,56 @@
+{
+  "schema": "item318-root-audit-v1",
+  "item": 318,
+  "auditor": "root",
+  "date": "2026-08-31",
+  "verdict": "PASS AS AN EXACT ACTUAL-PERIOD INCIDENCE THEOREM, ONE-TRANSVERSE-EXTERIOR-CONDITION CLASSIFICATION, RANK-ONE DETERMINANT NO-GO, AND ZERO BOOKING",
+  "package": {
+    "manifest_files_checked": 5,
+    "manifest_file_hash_mismatches": 0,
+    "frozen_dependencies_checked": 8,
+    "manifest_dependency_hash_mismatches": 0,
+    "hash_list_entries_checked": 6,
+    "hash_list_mismatches": 0,
+    "canonical_replay_byte_identical": true,
+    "canonical_root_replay_byte_identical": true,
+    "canonical_replay_and_root_sha256": "75e84016af2c7580f1954f795ed080d25083345578558aae49f6df4253891fd7",
+    "report_sha256": "e89f4892b3c2b9b999321de0ec6973547903b755f07b0d34be7f0da634ecd4db",
+    "script_sha256": "334bade7313a2fb750874dfd53216cd5f1028afbc837473cdd19b365ca820e82",
+    "ledger_sha256": "a7f8a5c02a90b665270a66319d77c5ae954e3cda8273dbf5b38560a4d671238f",
+    "manifest_sha256": "57c92a589a466e8046c52fb3db7c30affa3a4df3fac65bd382a83da410ddf5ea"
+  },
+  "independent_mathematical_checks": {
+    "plucker_identities": "PASS: direct determinant expansion gives D=9c*ell-11m, E_b=ell*Z+11C, E_d=m*Z+9cC and 11E_d-9cE_b=-DZ over every commutative ring.",
+    "ell_chart": "PASS: on D=0 and ell nonzero, f and b form a basis, so g is zero exactly when E_b is zero; substitution gives the division-free actual-period equation.",
+    "m_chart": "PASS: the identical basis argument with f and d gives the second chart and covers characteristic 11 without dividing by 11.",
+    "rank_strata": "PASS: on rank two, D=E_b=E_d=0 is equivalent to g=0; on rank at most one every exterior minor vanishes although a collinear g may be nonzero.",
+    "formal_transversality": "PASS: explicit universal rank-two examples keep D zero while E_b varies. This is correctly separated from arithmetic independence on the actual family.",
+    "clearing": "PASS: the product Q contains every reduced denominator and 6; Q is a p-unit on every actual row, and Q^2 D plus Q^4 E_b,E_d are safe integral clearings.",
+    "finite_replay": "PASS: all nine declared determinant-zero rows reproduce as actual-collision false positives; the p<=401 census remains diagnostic only.",
+    "overlap": "PASS: the transverse condition is logically forced by the original collision but is internal to the same j=2 cell; neither the Item250/314 resultant nor Item315 factors are rebooked."
+  },
+  "finite_replay": {
+    "declared_D_zero_rows": 9,
+    "declared_actual_collisions": 0,
+    "bounded_prime_max": 401,
+    "classification": "EXACT FINITE ONLY / DIAGNOSTIC"
+  },
+  "format": {
+    "report_bytes": 9809,
+    "report_lines": 347,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "inline_math_open": 78,
+    "inline_math_close": 78,
+    "display_math_open": 26,
+    "display_math_close": 26
+  },
+  "capacity": {
+    "new_route1_rate": 0,
+    "new_ordinary_j2_capacity_reduction": 0,
+    "retained_ceiling_per_6M": "1/105",
+    "closed_sublemma": "exact actual-period incidence after D=0 and determinant-only codimension on every rank chart",
+    "smallest_remaining_problem": "prove fixed-M weighted control of the cleared transverse residual on determinant-zero rows, or supply a non-exterior coordinate theorem on the rank-at-most-one chart",
+    "route_status": "ACTIVE"
+  }
+}

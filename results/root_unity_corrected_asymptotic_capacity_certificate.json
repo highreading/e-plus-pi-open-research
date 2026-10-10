@@ -1,0 +1,590 @@
+{
+  "conditional_degree_two_parity_pair_lambda_thresholds": [
+    {
+      "hypothetical_algebraic_degree_r": 1,
+      "m": 2,
+      "required_lambda_strictly_below": "1/3"
+    },
+    {
+      "hypothetical_algebraic_degree_r": 2,
+      "m": 2,
+      "required_lambda_strictly_below": "1/10"
+    },
+    {
+      "hypothetical_algebraic_degree_r": 3,
+      "m": 2,
+      "required_lambda_strictly_below": "1/21"
+    },
+    {
+      "hypothetical_algebraic_degree_r": 1,
+      "m": 3,
+      "required_lambda_strictly_below": "2/3"
+    },
+    {
+      "hypothetical_algebraic_degree_r": 2,
+      "m": 3,
+      "required_lambda_strictly_below": "1/5"
+    },
+    {
+      "hypothetical_algebraic_degree_r": 3,
+      "m": 3,
+      "required_lambda_strictly_below": "2/21"
+    },
+    {
+      "hypothetical_algebraic_degree_r": 1,
+      "m": 5,
+      "required_lambda_strictly_below": "4/3"
+    },
+    {
+      "hypothetical_algebraic_degree_r": 2,
+      "m": 5,
+      "required_lambda_strictly_below": "2/5"
+    },
+    {
+      "hypothetical_algebraic_degree_r": 3,
+      "m": 5,
+      "required_lambda_strictly_below": "4/21"
+    }
+  ],
+  "conditional_nondecomposable_exterior_sum_dimensions": [
+    {
+      "D": 20,
+      "endpoint_dimension_nu": 13,
+      "endpoint_space_mode": "D_equals_n",
+      "exterior_variables_N": 78,
+      "high_coefficient_constraints_S": 38,
+      "n": 20,
+      "origin_order_loss_versus_E2": 11,
+      "siegel_exponent_S_over_N_minus_S": "19/20",
+      "target_degree": 2
+    },
+    {
+      "D": 11,
+      "endpoint_dimension_nu": 12,
+      "endpoint_space_mode": "full_D_equals_nu_minus_1",
+      "exterior_variables_N": 66,
+      "high_coefficient_constraints_S": 29,
+      "n": 20,
+      "origin_order_loss_versus_E2": 10,
+      "remainder_origin_order": "M",
+      "saturated_monomial_basis_height": 1,
+      "siegel_exponent_S_over_N_minus_S": "29/37",
+      "target_degree": 2
+    },
+    {
+      "D": 100,
+      "endpoint_dimension_nu": 29,
+      "endpoint_space_mode": "D_equals_n",
+      "exterior_variables_N": 406,
+      "high_coefficient_constraints_S": 198,
+      "n": 100,
+      "origin_order_loss_versus_E2": 27,
+      "siegel_exponent_S_over_N_minus_S": "99/104",
+      "target_degree": 2
+    },
+    {
+      "D": 22,
+      "endpoint_dimension_nu": 23,
+      "endpoint_space_mode": "full_D_equals_nu_minus_1",
+      "exterior_variables_N": 253,
+      "high_coefficient_constraints_S": 120,
+      "n": 100,
+      "origin_order_loss_versus_E2": 21,
+      "remainder_origin_order": "M",
+      "saturated_monomial_basis_height": 1,
+      "siegel_exponent_S_over_N_minus_S": "120/133",
+      "target_degree": 2
+    },
+    {
+      "D": 500,
+      "endpoint_dimension_nu": 64,
+      "endpoint_space_mode": "D_equals_n",
+      "exterior_variables_N": 2016,
+      "high_coefficient_constraints_S": 998,
+      "n": 500,
+      "origin_order_loss_versus_E2": 62,
+      "siegel_exponent_S_over_N_minus_S": "499/509",
+      "target_degree": 2
+    },
+    {
+      "D": 47,
+      "endpoint_dimension_nu": 48,
+      "endpoint_space_mode": "full_D_equals_nu_minus_1",
+      "exterior_variables_N": 1128,
+      "high_coefficient_constraints_S": 545,
+      "n": 500,
+      "origin_order_loss_versus_E2": 46,
+      "remainder_origin_order": "M",
+      "saturated_monomial_basis_height": 1,
+      "siegel_exponent_S_over_N_minus_S": "545/583",
+      "target_degree": 2
+    }
+  ],
+  "conditional_nondecomposable_exterior_sum_thresholds": [
+    {
+      "D_over_n_limit": "0/1",
+      "hypothetical_algebraic_degree_r": 1,
+      "m": 2,
+      "matched_height_lambda_strictly_below": "1/3",
+      "target_degree_d": 2
+    },
+    {
+      "D_over_n_limit": "1/1",
+      "hypothetical_algebraic_degree_r": 1,
+      "m": 2,
+      "matched_height_lambda_strictly_below": "2/3",
+      "target_degree_d": 2
+    },
+    {
+      "D_over_n_limit": "0/1",
+      "hypothetical_algebraic_degree_r": 2,
+      "m": 2,
+      "matched_height_lambda_strictly_below": "1/10",
+      "target_degree_d": 2
+    },
+    {
+      "D_over_n_limit": "1/1",
+      "hypothetical_algebraic_degree_r": 2,
+      "m": 2,
+      "matched_height_lambda_strictly_below": "1/5",
+      "target_degree_d": 2
+    },
+    {
+      "D_over_n_limit": "0/1",
+      "hypothetical_algebraic_degree_r": 3,
+      "m": 2,
+      "matched_height_lambda_strictly_below": "1/21",
+      "target_degree_d": 2
+    },
+    {
+      "D_over_n_limit": "1/1",
+      "hypothetical_algebraic_degree_r": 3,
+      "m": 2,
+      "matched_height_lambda_strictly_below": "2/21",
+      "target_degree_d": 2
+    },
+    {
+      "D_over_n_limit": "0/1",
+      "hypothetical_algebraic_degree_r": 1,
+      "m": 3,
+      "matched_height_lambda_strictly_below": "2/3",
+      "target_degree_d": 2
+    },
+    {
+      "D_over_n_limit": "1/1",
+      "hypothetical_algebraic_degree_r": 1,
+      "m": 3,
+      "matched_height_lambda_strictly_below": "1/1",
+      "target_degree_d": 2
+    },
+    {
+      "D_over_n_limit": "0/1",
+      "hypothetical_algebraic_degree_r": 2,
+      "m": 3,
+      "matched_height_lambda_strictly_below": "1/5",
+      "target_degree_d": 2
+    },
+    {
+      "D_over_n_limit": "1/1",
+      "hypothetical_algebraic_degree_r": 2,
+      "m": 3,
+      "matched_height_lambda_strictly_below": "3/10",
+      "target_degree_d": 2
+    },
+    {
+      "D_over_n_limit": "0/1",
+      "hypothetical_algebraic_degree_r": 3,
+      "m": 3,
+      "matched_height_lambda_strictly_below": "2/21",
+      "target_degree_d": 2
+    },
+    {
+      "D_over_n_limit": "1/1",
+      "hypothetical_algebraic_degree_r": 3,
+      "m": 3,
+      "matched_height_lambda_strictly_below": "1/7",
+      "target_degree_d": 2
+    },
+    {
+      "D_over_n_limit": "0/1",
+      "hypothetical_algebraic_degree_r": 1,
+      "m": 5,
+      "matched_height_lambda_strictly_below": "4/3",
+      "target_degree_d": 2
+    },
+    {
+      "D_over_n_limit": "1/1",
+      "hypothetical_algebraic_degree_r": 1,
+      "m": 5,
+      "matched_height_lambda_strictly_below": "5/3",
+      "target_degree_d": 2
+    },
+    {
+      "D_over_n_limit": "0/1",
+      "hypothetical_algebraic_degree_r": 2,
+      "m": 5,
+      "matched_height_lambda_strictly_below": "2/5",
+      "target_degree_d": 2
+    },
+    {
+      "D_over_n_limit": "1/1",
+      "hypothetical_algebraic_degree_r": 2,
+      "m": 5,
+      "matched_height_lambda_strictly_below": "1/2",
+      "target_degree_d": 2
+    },
+    {
+      "D_over_n_limit": "0/1",
+      "hypothetical_algebraic_degree_r": 3,
+      "m": 5,
+      "matched_height_lambda_strictly_below": "4/21",
+      "target_degree_d": 2
+    },
+    {
+      "D_over_n_limit": "1/1",
+      "hypothetical_algebraic_degree_r": 3,
+      "m": 5,
+      "matched_height_lambda_strictly_below": "5/21",
+      "target_degree_d": 2
+    }
+  ],
+  "conditional_parity_pair_segre_diagnostics": [
+    {
+      "has_degree_one_component": true,
+      "n": 4,
+      "observed_eliminant_component_degrees": [
+        1,
+        2
+      ],
+      "s": 2,
+      "segre_degree": 3,
+      "segre_dimension": 3
+    },
+    {
+      "has_degree_one_component": false,
+      "n": 6,
+      "observed_eliminant_component_degrees": [
+        4,
+        6
+      ],
+      "s": 3,
+      "segre_degree": 10,
+      "segre_dimension": 5
+    },
+    {
+      "has_degree_one_component": false,
+      "n": 8,
+      "observed_eliminant_component_degrees": [
+        15,
+        20
+      ],
+      "s": 4,
+      "segre_degree": 35,
+      "segre_dimension": 7
+    }
+  ],
+  "fixed_m_asymptotic_constants": [
+    {
+      "G1_over_logQ_coefficient_of_1_over_n": "1/1",
+      "delta": "0/1",
+      "m": 2,
+      "r1_analytic_amplification_coefficient_of_n_squared": "1/1"
+    },
+    {
+      "G1_over_logQ_coefficient_of_1_over_n": "2/1",
+      "delta": "1/1",
+      "m": 2,
+      "r1_analytic_amplification_coefficient_of_n_squared": "1/1"
+    },
+    {
+      "G1_over_logQ_coefficient_of_1_over_n": "4/3",
+      "delta": "0/1",
+      "m": 3,
+      "r1_analytic_amplification_coefficient_of_n_squared": "3/4"
+    },
+    {
+      "G1_over_logQ_coefficient_of_1_over_n": "2/1",
+      "delta": "1/1",
+      "m": 3,
+      "r1_analytic_amplification_coefficient_of_n_squared": "1/1"
+    },
+    {
+      "G1_over_logQ_coefficient_of_1_over_n": "8/5",
+      "delta": "0/1",
+      "m": 5,
+      "r1_analytic_amplification_coefficient_of_n_squared": "5/8"
+    },
+    {
+      "G1_over_logQ_coefficient_of_1_over_n": "2/1",
+      "delta": "1/1",
+      "m": 5,
+      "r1_analytic_amplification_coefficient_of_n_squared": "1/1"
+    }
+  ],
+  "global_symbolic_checks": {
+    "conditional_parity_pair_policy": "degree two and all-even-n existence are hypotheses, not inferred from n=4",
+    "even_m_forced_degree_policy": "Delta nonzero and d <= n+D only; no exact degree assumed",
+    "gap_polynomial_has_positive_coefficients": true,
+    "proved_content_lower_bound_used": "log(c_Q) >= 0 only",
+    "section_4_gap_identity": "32(n^2+n+2)-9(n+1)^2=23n^2+14n+55"
+  },
+  "representative_rows": [
+    {
+      "bit_lengths": {
+        "C_B": 47,
+        "H_N_hat": 74,
+        "H_W_hat": 126,
+        "P0": 24,
+        "Q": 9
+      },
+      "degree_regime": "top_exact",
+      "diagnostic_logs": {
+        "G1": -8.431655541575024,
+        "chi_required_fraction_of_log_H_N_hat_r1": 1.1997158760478626,
+        "chi_required_leading_r1": 61.0793008665269,
+        "log_H_N_hat": 50.91147169589523,
+        "log_H_W_hat": 87.2136080855149,
+        "log_Q": 5.545177444479562,
+        "two_G1_over_log_Q": -3.0410769090785585,
+        "universal_absolute_exponent_chi_0": -101.75061754905359
+      },
+      "exact_checks": {
+        "B0_power_covers_vandermonde": true,
+        "H_W_hat_at_least_Q_squared": true,
+        "section_4_polynomial_gap_positive": true,
+        "two_G1_less_than_log_Q": true,
+        "universal_absolute_exponent_negative": true
+      },
+      "parameters": {
+        "D": 2,
+        "m": 2,
+        "n": 2
+      },
+      "proved_exact_degree": 4,
+      "stationary_radius": 2.5,
+      "stationary_radius_admissible": false,
+      "unknown_degree_test_uses_upper_bound": null
+    },
+    {
+      "bit_lengths": {
+        "C_B": 166,
+        "H_N_hat": 275,
+        "H_W_hat": 448,
+        "P0": 105,
+        "Q": 27
+      },
+      "degree_regime": "even_m_forced_nonzero_degree_unknown",
+      "diagnostic_logs": {
+        "G1": -10.646403741233676,
+        "chi_required_fraction_of_log_H_N_hat_r1": 1.0833000678754598,
+        "chi_required_leading_r1": 205.90808917586904,
+        "log_H_N_hat": 190.0748419407844,
+        "log_H_W_hat": 309.89874261509493,
+        "log_Q": 18.257392765871344,
+        "two_G1_over_log_Q": -1.1662567462682913,
+        "universal_absolute_exponent_chi_0": -316.7408198214613
+      },
+      "exact_checks": {
+        "B0_power_covers_vandermonde": true,
+        "H_W_hat_at_least_Q_squared": true,
+        "section_4_polynomial_gap_positive": true,
+        "two_G1_less_than_log_Q": true,
+        "universal_absolute_exponent_negative": true
+      },
+      "parameters": {
+        "D": 3,
+        "m": 2,
+        "n": 4
+      },
+      "proved_exact_degree": null,
+      "stationary_radius": 4.0,
+      "stationary_radius_admissible": true,
+      "unknown_degree_test_uses_upper_bound": 7
+    },
+    {
+      "bit_lengths": {
+        "C_B": 257,
+        "H_N_hat": 315,
+        "H_W_hat": 580,
+        "P0": 55,
+        "Q": 43
+      },
+      "degree_regime": "even_m_forced_nonzero_degree_unknown",
+      "diagnostic_logs": {
+        "G1": -11.791133627083077,
+        "chi_required_fraction_of_log_H_N_hat_r1": 1.1043488238178465,
+        "chi_required_leading_r1": 240.76524638220712,
+        "log_H_N_hat": 218.01557731537858,
+        "log_H_W_hat": 401.64200002316363,
+        "log_Q": 29.21867061255533,
+        "two_G1_over_log_Q": -0.8070958315274207,
+        "universal_absolute_exponent_chi_0": -400.0129298500069
+      },
+      "exact_checks": {
+        "B0_power_covers_vandermonde": true,
+        "H_W_hat_at_least_Q_squared": true,
+        "section_4_polynomial_gap_positive": true,
+        "two_G1_less_than_log_Q": true,
+        "universal_absolute_exponent_negative": true
+      },
+      "parameters": {
+        "D": 2,
+        "m": 2,
+        "n": 5
+      },
+      "proved_exact_degree": null,
+      "stationary_radius": 4.0,
+      "stationary_radius_admissible": true,
+      "unknown_degree_test_uses_upper_bound": 7
+    },
+    {
+      "bit_lengths": {
+        "C_B": 502,
+        "H_N_hat": 679,
+        "H_W_hat": 1188,
+        "P0": 172,
+        "Q": 65
+      },
+      "degree_regime": "odd_m_next_exact",
+      "diagnostic_logs": {
+        "G1": -13.398026165125248,
+        "chi_required_fraction_of_log_H_N_hat_r1": 1.103084921004885,
+        "chi_required_leading_r1": 518.6475067517916,
+        "log_H_N_hat": 470.1791284385573,
+        "log_H_W_hat": 823.2333582373609,
+        "log_Q": 44.71476866280565,
+        "two_G1_over_log_Q": -0.599266263285844,
+        "universal_absolute_exponent_chi_0": -809.4577766311972
+      },
+      "exact_checks": {
+        "B0_power_covers_vandermonde": true,
+        "H_W_hat_at_least_Q_squared": true,
+        "section_4_polynomial_gap_positive": true,
+        "two_G1_less_than_log_Q": true,
+        "universal_absolute_exponent_negative": true
+      },
+      "parameters": {
+        "D": 3,
+        "m": 3,
+        "n": 4
+      },
+      "proved_exact_degree": 6,
+      "stationary_radius": 4.333333333333333,
+      "stationary_radius_admissible": true,
+      "unknown_degree_test_uses_upper_bound": null
+    },
+    {
+      "bit_lengths": {
+        "C_B": 756,
+        "H_N_hat": 855,
+        "H_W_hat": 1619,
+        "P0": 95,
+        "Q": 100
+      },
+      "degree_regime": "top_exact",
+      "diagnostic_logs": {
+        "G1": -14.183637257878518,
+        "chi_required_fraction_of_log_H_N_hat_r1": 1.1041422594360695,
+        "chi_required_leading_r1": 653.894100915886,
+        "log_H_N_hat": 592.2190689901286,
+        "log_H_W_hat": 1121.6895488775679,
+        "log_Q": 68.78130441899103,
+        "two_G1_over_log_Q": -0.4124271087235243,
+        "universal_absolute_exponent_chi_0": -1085.6193243961875
+      },
+      "exact_checks": {
+        "B0_power_covers_vandermonde": true,
+        "H_W_hat_at_least_Q_squared": true,
+        "section_4_polynomial_gap_positive": true,
+        "two_G1_less_than_log_Q": true,
+        "universal_absolute_exponent_negative": true
+      },
+      "parameters": {
+        "D": 2,
+        "m": 3,
+        "n": 5
+      },
+      "proved_exact_degree": 7,
+      "stationary_radius": 4.666666666666667,
+      "stationary_radius_admissible": true,
+      "unknown_degree_test_uses_upper_bound": null
+    },
+    {
+      "bit_lengths": {
+        "C_B": 1538,
+        "H_N_hat": 1844,
+        "H_W_hat": 3390,
+        "P0": 302,
+        "Q": 214
+      },
+      "degree_regime": "top_exact",
+      "diagnostic_logs": {
+        "G1": -15.94018742341022,
+        "chi_required_fraction_of_log_H_N_hat_r1": 1.0834235487782178,
+        "chi_required_leading_r1": 1384.774167046594,
+        "log_H_N_hat": 1278.1466385959682,
+        "log_H_W_hat": 2349.212880572124,
+        "log_Q": 147.89398061747866,
+        "two_G1_over_log_Q": -0.21556235563959592,
+        "universal_absolute_exponent_chi_0": -2237.7943946516
+      },
+      "exact_checks": {
+        "B0_power_covers_vandermonde": true,
+        "H_W_hat_at_least_Q_squared": true,
+        "section_4_polynomial_gap_positive": true,
+        "two_G1_less_than_log_Q": true,
+        "universal_absolute_exponent_negative": true
+      },
+      "parameters": {
+        "D": 3,
+        "m": 4,
+        "n": 5
+      },
+      "proved_exact_degree": 8,
+      "stationary_radius": 5.25,
+      "stationary_radius_admissible": true,
+      "unknown_degree_test_uses_upper_bound": null
+    },
+    {
+      "bit_lengths": {
+        "C_B": 6208,
+        "H_N_hat": 8421,
+        "H_W_hat": 14638,
+        "P0": 2205,
+        "Q": 968
+      },
+      "degree_regime": "odd_m_next_exact",
+      "diagnostic_logs": {
+        "G1": -8.855449438162534,
+        "chi_required_fraction_of_log_H_N_hat_r1": 1.0418210898374554,
+        "chi_required_leading_r1": 6080.874326466025,
+        "log_H_N_hat": 5836.774073574151,
+        "log_H_W_hat": 10146.024619969,
+        "log_Q": 670.688760509903,
+        "two_G1_over_log_Q": -0.026407030979406967,
+        "universal_absolute_exponent_chi_0": -9498.277866952276
+      },
+      "exact_checks": {
+        "B0_power_covers_vandermonde": true,
+        "H_W_hat_at_least_Q_squared": true,
+        "section_4_polynomial_gap_positive": true,
+        "two_G1_less_than_log_Q": true,
+        "universal_absolute_exponent_negative": true
+      },
+      "parameters": {
+        "D": 7,
+        "m": 5,
+        "n": 8
+      },
+      "proved_exact_degree": 14,
+      "stationary_radius": 8.6,
+      "stationary_radius_admissible": true,
+      "unknown_degree_test_uses_upper_bound": null
+    }
+  ],
+  "resource_audit": {
+    "peak_rss_below_2_GiB": true,
+    "peak_rss_kib": 16512
+  },
+  "scope": "Finite exact-integer replay of universal majorants; all-parameter proofs are in the companion source."
+}

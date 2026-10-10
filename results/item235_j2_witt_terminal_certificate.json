@@ -1,0 +1,145 @@
+{
+  "booking": {
+    "capacity_reduction": 0,
+    "conclusion_about_e_plus_pi": "none",
+    "new_divisibility_exponent": 0,
+    "new_unconditional_linear_log_rate": 0
+  },
+  "cell": {
+    "j": 2,
+    "r": "(p-6s-3)/2, necessarily positive and odd",
+    "range": "p prime, s>=2, 4m+1=5p-2s, 1<=s<=(p-3)/6",
+    "ring": "Z/(p^2)"
+  },
+  "dependencies": {
+    "item227_checker": "item227_j2_phase_control_certificate.py",
+    "item227_checker_sha256": "54b51d51653d1c3c613907f8b8a6b9c959446b61ae2228139b7e4e11ed1af41b"
+  },
+  "exact_finite": {
+    "Omega_zero_count": 7,
+    "Omega_zero_rows": [
+      {
+        "Psi_mod_p": 15,
+        "canonical_Omega_second_digit": 21,
+        "p": 23,
+        "r": 1,
+        "s": 3
+      },
+      {
+        "Psi_mod_p": 130,
+        "canonical_Omega_second_digit": 80,
+        "p": 157,
+        "r": 65,
+        "s": 4
+      },
+      {
+        "Psi_mod_p": 79,
+        "canonical_Omega_second_digit": 69,
+        "p": 193,
+        "r": 17,
+        "s": 26
+      },
+      {
+        "Psi_mod_p": 71,
+        "canonical_Omega_second_digit": 87,
+        "p": 241,
+        "r": 107,
+        "s": 4
+      },
+      {
+        "Psi_mod_p": 185,
+        "canonical_Omega_second_digit": 215,
+        "p": 311,
+        "r": 13,
+        "s": 47
+      },
+      {
+        "Psi_mod_p": 292,
+        "canonical_Omega_second_digit": 69,
+        "p": 349,
+        "r": 23,
+        "s": 50
+      },
+      {
+        "Psi_mod_p": 230,
+        "canonical_Omega_second_digit": 282,
+        "p": 397,
+        "r": 65,
+        "s": 44
+      }
+    ],
+    "naive_bridge_counterexample": {
+      "C_nu_mod_p_cubed": 3808,
+      "actual_C_nu_over_p_mod_p_squared": 224,
+      "difference": 51,
+      "difference_over_p_mod_p": 3,
+      "naive_beta_lift_mod_p_squared": 173,
+      "nu": 0,
+      "p": 17,
+      "r": 1,
+      "s": 2
+    },
+    "prime_max_inclusive": 401,
+    "row_count": 1115,
+    "row_digest_sha256": "361f4ced76a24b47962fdb80417eb0e32edd02172bf99f95280c667e0874f192",
+    "status": "EXACT FINITE ONLY"
+  },
+  "item": 235,
+  "proof_replay": {
+    "checks": [
+      "all exact finite-part recurrences from the lower regular range through four phases",
+      "all four q*p pole multiplicities and sources",
+      "four required 4p carry coordinates",
+      "reduction of every lifted affine row and transfer to frozen Item 226",
+      "p-unit lifted observability and exact closure-row combinations"
+    ],
+    "prime_max_inclusive": 101,
+    "row_count": 74,
+    "row_digest_sha256": "604c0a6b4efc199b3678055e781d11d2ce2c155c1aa0fd42d9f218d1a53bb904"
+  },
+  "proved": {
+    "actual_defect_expansion": "with X=((1-z)^p-(1-z^p))/(p(1-z^p)) and Y=((1+z^2)^p-(1+z^(2p)))/(p(1+z^(2p))), Delta_p G=G(z^p)*(7X-5Y+p*(21X^2+15Y^2-35XY)) mod p^2",
+    "closure_no_go": "the corrected four-phase closure residual is (P-I)*K^(-1) times the four terminal residuals over Z/(p^2); it gives no additional invariant",
+    "exact_recurrence": "sum_(j=0)^4 A_j(k) T2_(k+j)=-sum_(a>=1) [z^(ap)]K_k W(ap) mod p^2",
+    "finite_part": "T2_k=sum_(p does not divide d) g_l W(d)/d in Z/(p^2), d=r+l+k+1",
+    "four_p_carry": "T2_(k+4p)-T2_k=-4p*sum g_l W(d)/d^2 mod p^2",
+    "rational_pole_audit": "A_4(k_q)=-q*p and the pole is (-1)^r*z^(q*p)/(q*p) before reduction",
+    "terminal": "a_q Y_q-q*p*x_q=(-1)^r W(qp), q=1,2,3,4",
+    "terminal_weights": [
+      7,
+      29,
+      11,
+      -11
+    ],
+    "witt_rows": "inside the canonical lift, if lambda0 solves c_i lambda=d_i mod p, then lambda0+p lambda1 solves mod p^2 iff cbar_i lambda1=(d_i-c_i lambda0)/p for every row"
+  },
+  "route": "Route 1A",
+  "schema": "item235-j2-witt-terminal-v1",
+  "scope_barrier": {
+    "consequence": "an ordinary collision does not force the canonical p^2 rows, and they are not yet proved necessary even under an extra-digit p^3-divisibility hypothesis",
+    "counterexample": "at (p,s,nu)=(17,2,0), the two natural p^2 lifts differ by 3p",
+    "frozen_input": "Item 219 identifies C_nu/p with the beta period only modulo p, and Item 224 fixes the displayed common line only after reducing r modulo p",
+    "status": "PROVED OBSTRUCTION TO THE NAIVE LIFT; ACTUAL BRIDGE OPEN"
+  },
+  "status_ledger": {
+    "EXACT_FINITE": [
+      "the proof replay through the stated proof bound",
+      "the canonical Omega second digits on the seven frozen Omega-zero rows through p<=401"
+    ],
+    "OPEN": [
+      "translate the actual second digit C_nu/p mod p^2 into a corrected terminal functional",
+      "derive the true p-carry in the common initial line",
+      "prove that any terminal Witt minor is necessary for an actual extra common-log digit",
+      "classify simultaneous zeros of the corrected second-digit conditions",
+      "obtain any all-prime j=2 exclusion, zero-rate theorem, or Route-1 gain"
+    ],
+    "PROVED": [
+      "the exact localized p^2 finite-part recurrence and every q*p terminal multiplicity",
+      "the nonzero harmonic 4p carry replacing mod-p periodicity",
+      "the canonical bottom-plus-terminal Witt/Hensel row criterion",
+      "the exact redundancy of corrected order-four closure over Z/(p^2)",
+      "the quadratic Frobenius-defect expansion showing the missing Witt correction",
+      "a concrete exact counterexample to the naive p^2 beta-period bridge"
+    ]
+  }
+}

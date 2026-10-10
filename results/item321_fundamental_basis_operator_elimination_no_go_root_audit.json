@@ -1,0 +1,54 @@
+{
+  "item": 321,
+  "schema": "item321-root-audit-v1",
+  "checked_date_beijing": "2026-08-31",
+  "verdict": "PASS_SCOPED_NO_GO_WITH_ZERO_BOOKING",
+  "scope": "independent root audit of the actual Casoratian basis, split factor solutions, and common-operator elimination no-go",
+  "checks": {
+    "certificate_sha256": "c196625c48a6e1f154cbbed29bc938eff53a318f172bb7679ade099aa5da3c35",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "manifest_artifacts_match": true,
+    "frozen_dependencies_match": true,
+    "work_hash_list_match": true,
+    "independent_casoratian_rows": 12,
+    "independent_actual_split_prime_rows": 150,
+    "division_free_fixed_M_identity": true,
+    "report_inline_delimiters": "115/115",
+    "report_display_delimiters": "46/46",
+    "report_control_characters": 0,
+    "report_bare_cr": 0
+  },
+  "mathematical_audit": {
+    "casoratian": "W_(s+1)=-(P0/P3)W_s and the telescoping quadratic give the exact displayed all-s product",
+    "fixed_M_localization": "for h>=2 all numerator factors except Q(s) lie strictly below p; the division-free identity sends Q(s) zeros into one nonzero quadratic in M, while h=1 contributes at most one row",
+    "factor_basis": "each period quadric factors into two constant-coefficient common-operator solutions, and the basis-change determinant has only 2-power norm",
+    "frobenius": "the eight actual congruence classes all have Legendre symbol (delta*eta/p)=+1, so the norm is always split and yields no forced double zero",
+    "elimination": "an explicit invertible isotropic fundamental state shows that regular single-row common-operator elimination has zero coefficient ideal",
+    "scope_warning": "the isotropic witness is not the actual initial state; actual factor arithmetic, a sublinear fixed-M resultant, and weighted density remain open"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "actual Casoratian and zero-rate exceptional support",
+      "eight genuine common-operator factor bases",
+      "universal split norm on actual rows",
+      "transported-invariant and single-row operator-elimination no-go",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "the root stress evaluation of twelve Casoratians and 150 prime rows"
+    ],
+    "OPEN": [
+      "arithmetic of the actual factor-solution initial values",
+      "sublinear fixed-M gcd or resultant",
+      "W_D(M)=o(M) and fixed-j1 closure"
+    ]
+  },
+  "capacity": {
+    "basis_exception_mass": "O(log M)=o(M)",
+    "new_capacity_reduction": 0,
+    "new_booking": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36"
+  }
+}

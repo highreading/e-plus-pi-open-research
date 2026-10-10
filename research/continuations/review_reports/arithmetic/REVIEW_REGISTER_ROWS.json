@@ -1,0 +1,1038 @@
+[
+  {
+    "document_id": 1986,
+    "path": "work/session_20260913/raw_actual_endpoint_integral_dual_numerators.md",
+    "sha256": "e87e3f5fb982dd8a1affcf248e3872b38b8943fc18f2996c42a7ffb17dcb4efd",
+    "reviewer": "/root/literature_map",
+    "read_in_full": true,
+    "claim_verdict": "成立（按原稿实际断言及列明前提）",
+    "scope": "完整阅读原稿1–279行。审核§1–8中实际端点、全局整数性、完整gcd约去、饱和p族单位分子与已明确7例外；§7既有小控制不作为任意阶证明输入。",
+    "reason": "Pe/Pa逐项的j!/n!整数式及实际端点交叉积给N=Pe(1)+4Pa(1)、A(1)=−N/Z。原附加行约定给ΔA=(−1)^n n!FN、ΔB=(−1)^(n+1)FZ，所以整个n!F从最终gcd取消。饱和n=mp^ν、p奇、ν≥1、3m<p时完整cofactor式和Lucas给Pe(1)为单位，n>p时Pa(1)=0模p，故vq=vZ。边界n=p由Wilson得N≡(1+8χp)ηᵘ，仅7为例外。这与原稿全部明确条件一致。",
+    "route_followup": [
+      "非饱和素数处仍需单独控制v_p(N)相对v_p(Z)，以评价更强分母目标；这是原稿§8明确留下的任务，不是其错误。",
+      "本稿固定p族的精确赋值不宣称全局q的sharp height；也不构成本轮已闭合raw排除链的缺口。"
+    ],
+    "full_read_line_ranges": [
+      [
+        1,
+        279
+      ]
+    ],
+    "judgment_principle": "文稿正确性与整条路线完成情况分开；未证明未声称的更强结论不是错误；条件未解不判条件命题错误。",
+    "definite_errors": [],
+    "original_change_required": false,
+    "usable_parent_inputs": [
+      "主已审：1986§1–3整数端点和实际cross-product；2123§1–5原始归一化。",
+      "本轮：2089完整scalar身份、2119饱和Cauchy块、2085种子非零判据。"
+    ],
+    "claims": [
+      {
+        "assertion": "实际q以及饱和族q/Z身份",
+        "source_line_start": 6,
+        "source_line_end": 29,
+        "source_excerpt_verbatim": "This note proves an exact global bridge from the primitive simultaneous polynomial to the actual selected rational approximation. Let \\(q_n\\) be the positive reduced denominator of the actual canonical \\(A_n(1)\\), with \\(B_n(1)=1,\\ C_n(1)=4\\). Then\n\\[\n\\boxed{\nA_n(1)=-\\frac{N_n}{Z_n},\\qquad\nN_n\\in\\mathbb Z,\\qquad\nq_n=\\frac{|Z_n|}{\\gcd(|Z_n|,|N_n|)}\\mid |Z_n|.\n}\n\\tag{1}\n\\]\nThe numerator is explicitly the sum of the two simultaneous Taylor numerators at 1. No denominator for all coefficients of the type-I triple is identified with the simultaneous denominator.\n\nMore strongly, on the saturated family\n\\[\nn=mp^\\nu,\\quad p\\ {\\rm odd},\\quad \\nu\\ge1,\\quad3m<p,\\quad n>p,\n\\]\nthe numerator \\(N_n\\) is a \\(p\\)-adic unit. Hence the exact actual denominator valuation is\n\\[\n\\boxed{\nv_p(q_n)=v_p(Z_n)\n=\\frac{n-m}{p-1}+v_p(d_n^{II}).\n}\n\\tag{2}\n\\]\nHere \\(d_n^{II}\\) is the least positive coefficient denominator of the actual normalized simultaneous polynomial. Its unitness does not imply unitness of \\(q_n\\); (2) provides infinitely many actual counterexamples to that implication.",
+        "conditions": "n≥1；饱和族p奇、ν≥1、3m<p、n>p",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R5、R8",
+        "definite_error": false
+      },
+      {
+        "assertion": "Pe与Pa全局整系数",
+        "source_line_start": 53,
+        "source_line_end": 81,
+        "source_excerpt_verbatim": "## 2. Both actual simultaneous numerator polynomials are integral\n\nDefine\n\\[\n\\widehat P_{e,n}=T_{2n}(\\widehat Q_ne^z),\\qquad\n\\widehat P_{a,n}=T_{2n}(\\widehat Q_n\\arctan z).\n\\tag{4}\n\\]\nThe simultaneous Taylor equations say that both omitted blocks of coefficients at degrees \\(2n+1,\\ldots,3n\\) vanish.\n\nFor a coefficient of degree \\(0\\le t\\le2n\\), put \\(j=3n-t\\), so \\(n\\le j\\le3n\\). Only \\(k\\ge j\\) can contribute to the exponential coefficient. Its term is\n\\[\n\\frac{k!}{n!(k-j)!}w_k\n=\\frac{j!}{n!}\\binom kj w_k\\in\\mathbb Z.\n\\tag{5}\n\\]\nFor the arctangent coefficient, only positive odd \\(k-j\\) contribute, and the term is\n\\[\n\\frac{k!}{n!}\\tau_{k-j}w_k\n=\\frac{j!}{n!}\\binom kj (k-j-1)!\n (-1)^{(k-j-1)/2}w_k\\in\\mathbb Z.\n\\tag{6}\n\\]\nHere \\(j!/n!\\) is integral because \\(j\\ge n\\). These identities prove\n\\[\n\\boxed{\\widehat P_{e,n},\\widehat P_{a,n}\\in\\mathbb Z[z].}\n\\tag{7}\n\\]\nThey avoid a loss of \\(n!\\) in the endpoint denominator. Merely noting that \\(k!\\) clears the Taylor coefficients would give the weaker bound \\(q_n\\mid n!|Z_n|\\).",
+        "conditions": "j=3n−t≥n，0≤t≤2n",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R5",
+        "definite_error": false
+      },
+      {
+        "assertion": "完整F及物理n!的gcd约去",
+        "source_line_start": 133,
+        "source_line_end": 147,
+        "source_excerpt_verbatim": "There is also an exact global gcd identity in the archive's augmented-determinant convention. In raw_arctan_endpoint_dyadic_attempt.md, \\(\\Delta_A\\) appends \\(n!A(1)\\) and \\(\\Delta_B\\) appends \\(B(1)\\), after the common row \\(C(1)-4B(1)\\). Thus\n\\[\n\\Delta_B=-\\mathcal E_n=(-1)^{n+1}F_nZ_n,\\qquad\n\\frac{\\Delta_A}{n!\\Delta_B}=A_n(1).\n\\]\nConsequently\n\\[\n\\boxed{\n\\Delta_A=(-1)^n n!F_nN_n,\\qquad\n\\gcd(|\\Delta_A|,n!|\\Delta_B|)\n=n!F_n\\gcd(|N_n|,|Z_n|).\n}\n\\tag{11a}\n\\]\nIn particular the complete extremal content \\(F_n\\), with every prime-power exponent, cancels from the actual reduced endpoint denominator. The factor \\(n!\\) in (11a) belongs to the appended row normalization and is not an extra factor in (1).",
+        "conditions": "采用原稿ΔA/ΔB附加行顺序及n!A行",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R5",
+        "definite_error": false
+      },
+      {
+        "assertion": "饱和cofactor、N单位及7例外",
+        "source_line_start": 149,
+        "source_line_end": 216,
+        "source_excerpt_verbatim": "## 4. A primitive cofactor congruence on the saturated family\n\nAssume \\(n=mp^\\nu,\\ 3m<p\\). Write \\(T=p^\\nu\\), and retain the notation from raw_endpoint_scalar_cauchy_restriction.md:\n\\[\nc_r=\\frac{(2n)!}{(n+r)!},\\quad\n\\delta_r=\\det\\mathsf Z[\\widehat r,:],\\quad\nh_n=\\gcd_r|c_r\\delta_r|.\n\\]\nThe exact cofactor transport there states\n\\[\nw_{n+t}\n=\\frac{(-1)^t}{h_n}\n \\sum_{\\substack{0\\le r\\le n\\\\0\\le t-r\\le n}}\n \\binom n{t-r}c_r\\delta_r.\n\\tag{12}\n\\]\nThe independently reviewed Cauchy-block theorem gives\n\\[\np\\nmid\\delta_n,\\qquad p\\nmid h_n.\n\\tag{13}\n\\]\nFor every \\(r<n\\), the factorial ratio \\(c_r\\) contains the factor \\(2n\\); hence \\(p\\mid c_r\\). Since \\(c_n=1\\), (12) implies\n\\[\nw_k\\equiv0\\quad(k<2n),\\qquad\nw_{2n+s}\\equiv(-1)^{n+s}\\binom ns\\,\\eta_n\n\\quad(0\\le s\\le n),\n\\quad\n\\eta_n=\\delta_n/h_n\\in\\mathbb Z_p^\\times.\n\\tag{14}\n\\]\nIn particular the exact normalization retains \\(h_n\\); it may not be silently set equal to 1. If\n\\(W_n(z)=\\sum_{k=n}^{3n}w_kz^k\\), then\n\\[\n\\boxed{W_n(z)\\equiv\\eta_n z^{2n}(z-1)^n\\pmod p.}\n\\tag{15}\n\\]\nSince \\(p\\mid n\\), Lucas's theorem (or \\((z-1)^n=((z^p-1)^{n/p})\\) in characteristic \\(p\\)) also implies that the surviving coefficients in (15) have \\(p\\mid k\\).\n\n## 5. The exponential and arctangent endpoints modulo \\(p\\)\n\nIn the endpoint sum of the coefficients (5), indices satisfy \\(n\\le j\\le k\\le3n\\). The factor \\(j!/n!\\) is divisible by \\(p\\) whenever \\(j\\ge n+p\\). For \\(j=n+a,\\ 1\\le a<p\\), any \\(k\\) with \\(w_k\\not\\equiv0\\pmod p\\) is divisible by \\(p\\), and\n\\(\\binom{k}{n+a}\\equiv0\\pmod p\\), again by Lucas. Thus only \\(j=n\\) remains:\n\\[\n\\widehat P_{e,n}(1)\n\\equiv\\sum_k\\binom kn w_k\n=[y^n]W_n(1+y)\n\\equiv\\eta_n\\pmod p.\n\\tag{16}\n\\]\nThis is a Hasse coefficient identity and does not divide an ordinary derivative by a nonunit factorial.\n\nThe same argument applies to (6), since every extra factorial there is integral. Only \\(j=n\\) can remain, and every surviving \\(k\\) satisfies \\(k\\ge2n\\). If \\(n>p\\), then \\(k-n>p\\), so \\((k-n-1)!\\) is divisible by \\(p\\). Therefore\n\\[\n\\boxed{\nn>p\\quad\\Longrightarrow\\quad\n\\widehat P_{a,n}(1)\\equiv0,\\qquad N_n\\equiv\\eta_n\\not\\equiv0\\pmod p.\n}\n\\tag{17}\n\\]\nCombining (1) and (17) gives \\(v_p(q_n)=v_p(Z_n)\\).\n\nThe remaining saturated case \\(n=p\\) can also be evaluated exactly at this first layer. Only \\(j=p,k=2p\\) survives the arctangent sum: \\(w_{2p}\\equiv-\\eta_n\\), \\(\\binom{2p}{p}\\equiv2\\), and Wilson gives \\((p-1)!\\equiv-1\\). Hence, with \\(\\chi_p=(-1)^{(p-1)/2}\\),\n\\[\n\\widehat P_{a,p}(1)\\equiv2\\chi_p\\eta_p,\\qquad\nN_p\\equiv(1+8\\chi_p)\\eta_p\\pmod p.\n\\tag{18}\n\\]\nFor \\(p>3\\), \\(1+8\\chi_p\\) is a unit except at \\(p=7\\). This is a finite symbolic exception obtained from (18), not a prime scan.",
+        "conditions": "沿用文首饱和前提；n>p与n=p分开",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R6、R8",
+        "definite_error": false
+      },
+      {
+        "assertion": "精确无限族实际q赋值",
+        "source_line_start": 228,
+        "source_line_end": 247,
+        "source_excerpt_verbatim": "The separately reviewed p-adic nonvanishing criterion in raw_endpoint_padic_limit_nonvanishing_criterion.md gives concrete families:\n\n- For \\(n=p^\\nu,\\ p>3,\\ \\nu\\ge2\\), one has \\(e_{n,p}=0\\), so\n  \\[\n  \\boxed{v_p(q_{p^\\nu})=(p^\\nu-1)/(p-1).}\n  \\]\n  The simultaneous denominator is a \\(p\\)-unit but the actual selected denominator has the displayed positive valuation.\n- For \\(n=p,\\ p>3,\\ p\\ne7\\), equations (18)–(19) give \\(v_p(q_p)=1\\).\n- At the single degree \\(n=p=7\\), \\(v_7(Z_7)=1\\) and (18) gives \\(v_7(N_7)\\ge1\\), so\n  \\[\n  \\boxed{v_7(q_7)=0.}\n  \\]\n  This does not require solving the degree-7 system.\n- For \\(n=4\\cdot17^\\nu,\\ \\nu\\ge2\\), the reviewed \\(p^2\\) coefficient-ray criterion gives \\(e_{n,17}=1\\), hence\n  \\[\n  \\boxed{v_{17}(q_n)=(n-4)/16+1.}\n  \\]\n- More generally, on a saturated family with \\(n>p\\), any known exact value of \\(e_{n,p}\\) transfers without further loss to (2). In particular a unit fixed Legendre seed gives \\(e=0\\), and a seed of valuation exactly 1 gives \\(e=1\\) from the second level onward.\n\nThese are local exact valuations. The displayed explicit families with \\(e_{n,p}=0\\) or \\(1\\) have a contribution linear in \\(n\\) for a fixed \\(p\\). The general formula (2) does not bound an unknown \\(e_{n,p}\\), and no global sharp height estimate for \\(q_n\\) is inferred.",
+        "conditions": "普通p幂p>3、ν≥2；4·17^ν且ν≥2；n=p另列7",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R6、R7、R8",
+        "definite_error": false
+      }
+    ],
+    "independent_finite_interface_ids": [
+      "n25p5_dII_unit_q_not_unit",
+      "n7p7_actual_gcd_exception"
+    ],
+    "whole_sealed_original_entry": "[private local path removed]",
+    "whole_sealed_original_sha_verified": true,
+    "old_full_packet_spans": [
+      {
+        "pack_absolute_path": "[private local path removed]",
+        "pack_start_character": 984,
+        "pack_end_character": 13373,
+        "source_start_character": 0,
+        "source_end_character": 12389,
+        "pack_start_line": 15,
+        "pack_end_line": 293,
+        "source_start_line": 1,
+        "source_end_line": 279,
+        "pack_characters": 44122,
+        "pack_raw_sha256": "48c8d7ac07c0cab88e219150e524b53f0e7d37ec0b083a8dfc6b9b1c37a90f0e",
+        "source_span_raw_sha256": "e87e3f5fb982dd8a1affcf248e3872b38b8943fc18f2996c42a7ffb17dcb4efd"
+      }
+    ],
+    "per_file_report": "reviews/DOC_1986.md",
+    "proof_reason_entry": "DECISIVE_REDERIVATIONS.md",
+    "finite_evidence_entry": "INDEPENDENT_EXACT_CONTROLS.json",
+    "math_review_authorized_on_this_turn": true,
+    "historical_PASS_adopted": false,
+    "main_status_or_database_modified": false
+  },
+  {
+    "document_id": 2154,
+    "path": "work/session_20260913/raw_high_content_extremal_valuation_bound.md",
+    "sha256": "4b54aaa3eb11cae88e3430faab70aa2c2d3133417fee50cefb5e7f006fb9316b",
+    "reviewer": "/root/literature_map",
+    "read_in_full": true,
+    "claim_verdict": "成立（按原稿实际断言及列明前提）",
+    "scope": "完整阅读1–170行。审核§1特征零满秩、§2–4任意e的Smith/双shift证明、§5 eta/theta接口及边界n=1。",
+    "reason": "在已主审非零端点系统下，X右核T将给非零(z−1)T并违反B(1)=C(1)=0系统，故X满列秩。2192的秩界使H只有一个非单位因子p^e。除去单位k!后，primitive w在完整p^e深度消去H；(0,w)、(w,0)同时消去X且最早非零坐标给单位2次子式。完成为单位行变换后每个X最大子式至少含一条p^e行，得vD≤vF，等价vηᴴ≤vθ。没有把modp零向量提升成未经证明的深度。",
+    "route_followup": [
+      "此成立的传递界尚不估计θ/F本身的大小、端点限制content或混合余项。原稿行23–25、166–170明确没有声称这些结论。"
+    ],
+    "full_read_line_ranges": [
+      [
+        1,
+        170
+      ]
+    ],
+    "judgment_principle": "文稿正确性与整条路线完成情况分开；未证明未声称的更强结论不是错误；条件未解不判条件命题错误。",
+    "definite_errors": [],
+    "original_change_required": false,
+    "usable_parent_inputs": [
+      "主已审：实际高行加B(1)、C(1)的非零端点系统；不从待证F反推此输入。",
+      "本轮独立前件：2192的H模p秩界、2163有限差分。2290不是双shift前提。"
+    ],
+    "claims": [
+      {
+        "assertion": "完整v_p(D)≤v_p(F)",
+        "source_line_start": 8,
+        "source_line_end": 25,
+        "source_excerpt_verbatim": "Let H_n be the actual integer high matrix, with rows k=n+1,...,3n\nand B,C columns of degrees at most n. Let X_n be the actual extremal\nmatrix, with rows k=n,...,3n and B,C columns of degrees at most n-1.\nIn either matrix the entries are\n\n    (k)_j and k! tau_(k-j).\n\nWrite D_n for the positive maximal-minor gcd of H_n and F_n for\nthe positive maximal-minor gcd of X_n. The latter matrix is\n(2n+1)-by-(2n). Its full characteristic-zero column rank is proved\nbelow, so F_n is well defined and nonzero. For every n>=1 and\nevery prime p>3n, this note proves\n\n    v_p(D_n) <= v_p(F_n).                              (1)\n\nThis includes the full prime-power exponent, rather than just the\nimplication between defective ranks modulo p. It gives no upper\nbound on F_n itself and does not assert the converse divisibility.",
+        "conditions": "n≥1、p>3n、原始全行H和X",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R3",
+        "definite_error": false
+      },
+      {
+        "assertion": "X特征零满列秩",
+        "source_line_start": 27,
+        "source_line_end": 57,
+        "source_excerpt_verbatim": "## 1. No lower-degree extremal triple exists in characteristic zero\n\nThe established actual endpoint determinant Delta_B is nonzero:\nsee `sources/raw_arctan_endpoint_arithmetic.md`, Theorem 2.1, and\nthe explicitly retained determinant normalization in\n`raw_B_coefficient_dyadic_divisibility.md`. Its square system\nconsists of the high rows H_n and the two rows\n\n    B(1), C(1)-4B(1).\n\nEquivalently it consists of H_n and B(1),C(1), by an invertible\nconstant row operation. Thus the only degree-at-most-n triple\nwith order 3n+1 and B(1)=C(1)=0 is the zero triple. The low\npolynomial A is uniquely reconstructed from B,C in this assertion.\n\nSuppose X_n had a nonzero rational kernel vector. Reconstruct A\nthrough degree n-1. The row k=n, which has been retained in X_n,\nand all subsequent rows through 3n give a nonzero triple T of\ndegree at most n-1 with remainder order at least 3n+1. The triple\n(z-1)T has degree at most n, the same required order at the origin,\nand both B,C endpoints zero. It is nonzero, contradicting the\nendpoint determinant. Hence X_n has full column rank over Q.\n\nThis also shows that the characteristic-zero reduced module degrees\nin `raw_shared_core_large_prime_saturation.md` are exactly\n(n,n,n+1): its degree-at-most-n-1 slice is zero, so every reduced\nbasis row has degree at least n and their sum is 3n+1. The other\ntwo listed profiles remain possible after reduction at a prime;\nthe characteristic-zero argument does not assert that Delta_B is\na unit at every such prime.\n",
+        "conditions": "主已审核的实际端点行列式非零",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R3",
+        "definite_error": false
+      },
+      {
+        "assertion": "完整e的本原左消去与双shift",
+        "source_line_start": 58,
+        "source_line_end": 138,
+        "source_excerpt_verbatim": "## 2. A primitive left annihilator at the full Smith depth\n\nFix p>3n and put e=v_p(D_n). If e=0, (1) is immediate. Assume\ne>=1 and work over Z_p and its quotient R_e=Z_p/p^e Z_p.\n\nAll k! in the row range are units. Replace the integer matrices\nby their unscaled Taylor matrices without changing any local\ndeterminantal ideal. The entries in the B column j are\n1/(k-j)! and those in the C column j are tau_(k-j). Every\nsubscript is positive in the respective ranges.\n\nThe reviewed high-rank theorem says that H_n has at most one\nnonunit Smith invariant at p. Its local Smith form therefore has\nan identity block of size 2n-1 and a final invariant p^e, with\ntwo extra zero columns. Invertible row operations giving that\nform supply a row vector\n\n    w=(w_(n+1),...,w_(3n)) in Z_p^(2n)\n\nsuch that\n\n    w H_n=0 mod p^e,\n\nand at least one coordinate of w is a unit. Indeed the last row\nof a unimodular row transformation is primitive, and multiplication\nby the invertible column transformation preserves the annihilation\ncongruence. This uses the full exponent e, not only the existence\nof a left null vector modulo p.\n\n## 3. The two shifted annihilators of the extremal matrix\n\nIndex the 2n+1 rows of X_n by n,...,3n. The two vectors\n\n    u=(0,w_(n+1),...,w_(3n)),\n    v=(w_(n+1),...,w_(3n),0)                           (2)\n\nboth annihilate the unscaled X_n modulo p^e.\n\nFor u, restrict the H_n equations to its B,C columns j=0,...,n-1.\nThose columns coincide with X_n on the overlapping rows, and the\ncoefficient of its extra first row is zero.\n\nFor v, instead use columns j+1 of H_n, again for 0<=j<=n-1.\nThe Taylor coefficient of z times either basis function in row k\nis its original Taylor coefficient in row k-1. Thus these H_n\ncolumns on rows n+1,...,3n are exactly the X_n columns on rows\nn,...,3n-1. This proves the second assertion without inserting\nrow-dependent factorial factors: those factors were already\nremoved by unit operations in Section 2.\n\nThe rows u,v have a unit 2-by-2 minor. To see this, reduce modulo\np and let r be the earliest nonzero coordinate of w, using indices\n0,...,2n-1 for w. The two columns r,r+1 of the rows (u,v) have\nmatrix, modulo p,\n\n    [[0,w_r],[w_r,w_(r+1)]],\n\nwith the absent final coordinate interpreted as zero if necessary.\nIts determinant is -w_r^2, a unit. Earlier coordinates of w need\nonly vanish modulo p, which is enough to prove this minor is a\nunit in Z_p.\n\nConsequently u,v can be extended to the rows of an invertible\n(2n+1)-by-(2n+1) matrix over Z_p. One direct construction keeps\nthe two pivot columns of their unit minor and appends coordinate\nrows for all other columns; after a column permutation the\ndeterminant is that unit minor up to sign.\n\n## 4. Every extremal maximal minor has the required divisibility\n\nApply this row transformation to X_n. Its first two rows are\nentrywise divisible by p^e, because of (2). Any selection of 2n\nrows out of 2n+1 must include at least one of those first two\nrows. Every maximal minor of the transformed X_n is therefore\ndivisible by p^e. Unimodular row operations preserve its maximal\ndeterminantal ideal, so every maximal minor of X_n has that\ndivisibility as well. This gives v_p(F_n)>=e and proves (1).\n\nNo implication from the number of nonunit factors to their sizes\nwas used. The size e was carried explicitly through the two\nannihilator congruences and the unit-minor completion.",
+        "conditions": "p>3n，e=v_p(D)；e=0单独即时成立",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R1、R3",
+        "definite_error": false
+      },
+      {
+        "assertion": "等价eta/theta不等式",
+        "source_line_start": 140,
+        "source_line_end": 170,
+        "source_excerpt_verbatim": "## 5. Relation to the smaller integer matrices and the remaining target\n\nThe independently reviewed finite-difference reduction gives,\nat p>3n,\n\n    v_p(D_n)=v_p(eta_n),\n\nwhere eta_n is the maximal-minor content of the (n-1)-by-(n+1)\nmatrix G_n, with eta_1=1 for the empty 0-by-2 matrix G_1.\nThe corresponding extremal reduction with m=n\ngives an identity block I_n and the (n+1)-by-n integer matrix\nmathcal G^(n) in that note. Let theta_n be its positive\nmaximal-minor content; characteristic-zero full rank follows\nfrom Section 1 and the reduction. Thus the equivalent smaller\ncontent statement is\n\n    v_p(eta_n)<=v_p(theta_n), p>3n,                    (3)\n\nor (eta_n)_(>3n) divides (theta_n)_(>3n).\n\nThe earlier argument only forced a nonzero extremal solution\nwhen H_n lost rank modulo p. Equation (3) now retains arbitrary\nprime-power depth. It makes any future bound on the actual\nextremal content sufficient for the unbordered high content.\nThe reverse implication or reverse inequality is not proved.\n\nThe all-index saturation of the augmented shared core remains a\nseparate theorem: its content zeta_n has no prime factors above\n3n, whereas theta_n and eta_n may still have such factors. The\nnew result does not estimate their total logarithmic size, the\nendpoint restriction content, or the primitive mixed remainder.",
+        "conditions": "2163局部整数Smith身份；ηᴴ_1=1",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R2、R3",
+        "definite_error": false
+      }
+    ],
+    "independent_finite_interface_ids": [],
+    "whole_sealed_original_entry": "[private local path removed]",
+    "whole_sealed_original_sha_verified": true,
+    "old_full_packet_spans": [
+      {
+        "pack_absolute_path": "[private local path removed]",
+        "pack_start_character": 29402,
+        "pack_end_character": 36679,
+        "source_start_character": 0,
+        "source_end_character": 7277,
+        "pack_start_line": 709,
+        "pack_end_line": 878,
+        "source_start_line": 1,
+        "source_end_line": 170,
+        "pack_characters": 41946,
+        "pack_raw_sha256": "bdfddb53e64ecae3731ea1e51f103b99c7131597f816531cc7109249b120e494",
+        "source_span_raw_sha256": "4b54aaa3eb11cae88e3430faab70aa2c2d3133417fee50cefb5e7f006fb9316b"
+      }
+    ],
+    "per_file_report": "reviews/DOC_2154.md",
+    "proof_reason_entry": "DECISIVE_REDERIVATIONS.md",
+    "finite_evidence_entry": null,
+    "math_review_authorized_on_this_turn": true,
+    "historical_PASS_adopted": false,
+    "main_status_or_database_modified": false
+  },
+  {
+    "document_id": 2123,
+    "path": "work/session_20260913/raw_extremal_dual_polynomial_and_content_identity.md",
+    "sha256": "90565fe4f2f7bf99812a454b76dbc2e5f9f1b15af35403967720cf83d1656df2",
+    "reviewer": "/root/literature_map",
+    "read_in_full": true,
+    "claim_verdict": "成立（按原稿实际断言及列明前提）",
+    "scope": "完整阅读1–396行。§1–5采用主已核对的精确对象并独立检查本原性、符号/行因子和type-II唯一性接口；§6完整赋值ledger与§8有理Legendre基限制本轮复核。",
+    "reason": "整数本原w及monic因子给W=z^n(z−1)^nV、本原V。factorial reversal给Qhat，其系数content在p>3n为单位。完整端点列变换和Cauchy–Binet给E=(−1)^nFZ；cross-product给S0=Qhat/Z。故dII=|Z|/cQ，p>3n下vE=vθ+v(dII)。式24的vZ=vE等价vθ=0；再由2154足以保证H饱和，作者已经明说这是充分而较强的目标。Q_n到Q_2n的一般有理基变化可能含大于3n的分母，不可当作在所有这些p处单位。",
+    "route_followup": [
+      "原稿式24的θ单位目标仍未由本轮证明；这是一个正确陈述的充分条件，不是错误。",
+      "ordinary Legendre条目的三项递推未形成全block cofactor/content跨n身份；原稿§8已经把它列作下一步。",
+      "实际q另需1986的N/Z及最终gcd，不能直接将dII与q等同。"
+    ],
+    "full_read_line_ranges": [
+      [
+        1,
+        396
+      ]
+    ],
+    "judgment_principle": "文稿正确性与整条路线完成情况分开；未证明未声称的更强结论不是错误；条件未解不判条件命题错误。",
+    "definite_errors": [],
+    "original_change_required": false,
+    "usable_parent_inputs": [
+      "主已审：本稿§1–5的精确cofactor、factorial inverse-Borel、type-II唯一性与endpoint sign/factor。",
+      "本轮：2154特征零满秩证明/赋值传递；2163精确local content。"
+    ],
+    "claims": [
+      {
+        "assertion": "W的双端点因子及整数本原V",
+        "source_line_start": 20,
+        "source_line_end": 72,
+        "source_excerpt_verbatim": "## 1. Matrices, cofactor orientation and primitive polynomial\n\nLet X_n have rows k=n,...,3n and columns\nB_0,...,B_(n−1),C_0,...,C_(n−1), with integer entries\n\n\\[\n(X_n)_{k,B_j}=(k)_j,\\qquad\n(X_n)_{k,C_j}=k!\\tau_{k-j},\\qquad\n\\tau_s=[z^s]\\arctan z.\n\\tag{1}\n\\]\n\nAll subscripts k−j are positive. Its full characteristic-zero\ncolumn rank is proved in raw_high_content_extremal_valuation_bound.md.\nDefine its signed cofactor vector, with row positions starting at0,\nby\n\n\\[\nu_k=(-1)^{k-n}\\det X_n[\\text{all rows except }k],\\quad\nF_n=\\gcd_{k=n}^{3n}|u_k|>0,\\quad w_k=u_k/F_n.\n\\tag{2}\n\\]\n\nThen w is an integer primitive vector, its sign fixed by (2), and\nw^T X_n=0. Its rational span is the complete left nullspace.\nPut\n\n\\[\nW_n(z)=\\sum_{k=n}^{3n}w_kz^k.\n\\tag{3}\n\\]\n\nThe exponential-column equations say exactly\nW_n^(j)(1)=0 for j=0,...,n−1. Its support already supplies a zero\nof order at least n at0. Hence\n\n\\[\n\\boxed{W_n(z)=z^n(z-1)^nV_n(z),\\qquad\nV_n\\in\\mathbb Z[z],\\quad \\deg V_n\\le n,\\quad\n\\operatorname{content}(V_n)=1.}\n\\tag{4}\n\\]\n\nPolynomial division by the monic factors is integral; Gauss's\ncontent lemma then proves primitivity because z^n(z−1)^n is\nprimitive. No assertion that V_n has full degree, or nonzero values\nat0 or1, is made. Those would be additional normality statements.\n\nThis ordinary polynomial uses the left vector for the integer\nrow-scaled matrix. For the unscaled Taylor matrix the left vector\nis proportional to (k!w_k). Confusing these two vectors would give\nthe wrong derivative and shift identities below.\n",
+        "conditions": "X特征零满列秩；固定全部signed maximal cofactors",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R3、R5",
+        "definite_error": false
+      },
+      {
+        "assertion": "Qhat整数、large-prime coefficient unit与type-II唯一性",
+        "source_line_start": 128,
+        "source_line_end": 171,
+        "source_excerpt_verbatim": "## 3. Reversal gives the simultaneous type-II denominator\n\nIntroduce an integer reciprocal polynomial\n\n\\[\n\\widehat Q_n(z)=\\sum_{k=n}^{3n}\\frac{k!}{n!}\\,w_k z^{3n-k}\n=\\frac{z^{2n}}{n!}T_n(1/z),\\qquad\nZ_n=\\widehat Q_n(1).\n\\tag{10}\n\\]\n\nEvery multiplier k!/n! is an integer supported on primes at most3n.\nConsequently\n\n\\[\n\\min_jv_p([z^j]\\widehat Q_n)=0\\qquad(p>3n).\n\\tag{11}\n\\]\n\nFor j=0,...,n−1, the coefficient of degree 3n−j in\nwidehat(Q)_n exp(z) is\n\n    (1/n!) sum_(k=n)^(3n) k!w_k/(k−j)!,\n\nwhich is zero by (1). The arctangent counterpart is the same\ncalculation with tau_(k−j). Thus\n\n\\[\n\\boxed{\n\\begin{aligned}\n\\deg\\widehat Q_n&\\le2n,\\\\\n[z^s](\\widehat Q_ne^z)&=[z^s](\\widehat Q_n\\arctan z)=0,\n\\quad 2n+1\\le s\\le3n.\n\\end{aligned}}\n\\tag{12}\n\\]\n\nConversely reversing the coefficients in any solution of (12)\nand undoing the nonzero factorials produces a left annihilator of\nX_n. Hence the solution space of (12) is exactly one-dimensional\nover Q. These are the simultaneous Padé conditions: both truncated\nnumerators have degree at most2n and their errors have order at\nleast3n+1. They are not assertions about the values e or pi.\n",
+        "conditions": "n≥1；单位结论p>3n",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R5",
+        "definite_error": false
+      },
+      {
+        "assertion": "实际E=±FZ与cross-product端点归一化",
+        "source_line_start": 172,
+        "source_line_end": 298,
+        "source_excerpt_verbatim": "## 4. Exact endpoint determinant factorization\n\nLet H_n be the actual integer high matrix with rows n+1,...,3n\nand B,C degrees at most n. Define the nonzero integer determinant\n\n\\[\n\\mathcal E_n=\\det\\begin{pmatrix}H_n\\\\ B(1)\\\\ C(1)\\end{pmatrix},\n\\tag{13}\n\\]\n\nwhere the columns have the usual order B_0,...,B_n,C_0,...,C_n.\nThis order of the last two rows is part of the definition. In the\narchive convention appending B(1) after C(1)−4B(1), its Delta_B\nis −mathcal(E)_n. Only this sign differs.\n\nThe exact identity is\n\n\\[\n\\boxed{\\mathcal E_n=(-1)^nF_nZ_n.}\n\\tag{14}\n\\]\n\nIn particular Z_n is a nonzero integer and F_n divides the actual\nendpoint determinant globally, not just at primes above3n.\n\nHere is a proof with all row factors retained. Divide high row k\nby k!, and denote the unscaled X_n by X_n^0. Let\nP_n=product_(k=n)^(3n)k!. Its signed cofactor in row k is\n\n\\[\nu_k^0=\\frac{k!}{P_n}\\,u_k.\n\\tag{15}\n\\]\n\nIn the endpoint system make the integral polynomial change of\ncoordinates\n\n\\[\nB=(z-1)b+\\beta,\\qquad C=(z-1)c+\\gamma,\n\\quad\\deg b,\\deg c<n,\n\\tag{16}\n\\]\n\nusing new column order b_0,...,b_(n−1),c_0,...,c_(n−1),beta,gamma.\nIts determinant relative to the old coefficient columns is (−1)^n.\nTo check the sign, the single-polynomial basis\n((z−1),z(z−1),...,z^(n−1)(z−1),1) has determinant (−1)^n;\nthe two such blocks have combined determinant1, and moving beta\npast the n c columns adds the factor (−1)^n.\n\nThe two endpoint rows become the identity on beta,gamma. On the\nremaining columns, high row k is exactly row(k−1)−row(k) of\nX_n^0. Thus its square high block is D X_n^0, where D is the\n2n-by-(2n+1) consecutive-difference matrix with rows e_r−e_(r+1).\nFor this even number of rows,\n\n    det D[all columns except r]=(-1)^r.\n\nFinite Cauchy–Binet therefore gives\n\n\\[\n\\det(DX_n^0)=\\sum_{k=n}^{3n}u_k^0\n=\\frac{F_n}{P_n}\\sum_{k=n}^{3n}k!w_k.\n\\tag{17}\n\\]\n\nThe coordinate change (16) shows that the unscaled endpoint\ndeterminant is (−1)^n times (17). Restoring its row factors\nproduct_(k=n+1)^(3n)k!=P_n/n! proves exactly (14).\nThis argument also fixes the cofactor orientation in (2).\n\nAn alternative exact expression for the scalar is\n\n\\[\n\\boxed{\nZ_n=\\frac1{n!}\\int_0^\\infty e^{-t}W_n(t)dt\n=\\frac1{n!}\\int_0^\\infty\ne^{-t}t^n(t-1)^nV_n(t)dt.}\n\\tag{18}\n\\]\n\nThis is simply the factorial moment integral of a polynomial.\nThe integral converges absolutely, but its integrand is not asserted\npositive. Its nonzero value follows from (14), not from a sign\nassumption about V_n.\n\n## 5. The normalized denominator is an actual type-I cross product\n\nLet T_E=(A_E,B_E,C_E) and T_F=(A_F,B_F,C_F) be the rational\ndegree-at-most-n high solutions with endpoints respectively\n(B_E(1),C_E(1))=(1,0) and (B_F(1),C_F(1))=(0,1). They exist\nuniquely because the determinant in (13) is nonzero. Their\nremainders have order at least3n+1.\n\nTheir polynomial cross product is\n\n\\[\nS_0=B_EC_F-C_EB_F,\\qquad\nS_1=C_EA_F-A_EC_F,\\qquad\nS_2=A_EB_F-B_EA_F.\n\\tag{19}\n\\]\n\nSubstituting A_E=−B_Ee^z−C_E arctan(z)+O(z^(3n+1)), and the\nsame identity for F, gives\n\n\\[\nS_1-S_0e^z=O(z^{3n+1}),\\qquad\nS_2-S_0\\arctan z=O(z^{3n+1}).\n\\tag{20}\n\\]\n\nAll three polynomials have degree at most2n, and S_0(1)=1.\nThus S_0 is a nonzero solution of (12). One-dimensionality and\n(14) imply the exact identification\n\n\\[\n\\boxed{S_0(z)=\\widehat Q_n(z)/Z_n.}\n\\tag{21}\n\\]\n\nOne may equivalently use the existing canonical solution with\nendpoints (1,4) instead of T_E, since it is T_E+4T_F and the\nsame cross product with T_F is unchanged. This relates the dual\nobject to the actual type-I family rather than to an arbitrary\nsolution of a differential equation.\n",
+        "conditions": "已主审实际E≠0；原B/C列顺序和B(1)、C(1)行顺序",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R5",
+        "definite_error": false
+      },
+      {
+        "assertion": "type-II分母与完整large-prime ledger",
+        "source_line_start": 299,
+        "source_line_end": 341,
+        "source_excerpt_verbatim": "## 6. A new exact large-prime ledger and its missing scalar gate\n\nLet d_n^II be the least positive integer making every coefficient\nof S_0 in (21) integral. If c_n^Q is the integer coefficient content\nof widehat(Q)_n, elementary reduction gives\n\n\\[\nd_n^{II}=\\frac{|Z_n|}{c_n^Q}.\n\\tag{22}\n\\]\n\nBy (11), c_n^Q has no prime factor above3n. Hence for every p>3n,\n\n\\[\n\\boxed{\nv_p(d_n^{II})=v_p(Z_n),\\qquad\nv_p(\\mathcal E_n)=v_p(F_n)+v_p(d_n^{II})\n=v_p(\\theta_n)+v_p(d_n^{II}).}\n\\tag{23}\n\\]\n\nHere c_n^Q divides Z_n because Z_n is the sum of the integer\ncoefficients of widehat(Q)_n. The last equality in (23) uses the\nreviewed finite-difference Smith\nequivalence between F_n and theta_n at these primes. This gives\nan exact complement to the root theorem\nv_p(eta_n)<=v_p(theta_n), including all prime-power multiplicities.\n\nConsequently the sufficient saturation target for the original\nunbordered high matrix can now be stated as the concrete scalar\ncondition\n\n\\[\nv_p(Z_n)=v_p(\\mathcal E_n)\\quad\\text{for every }p>3n,\n\\tag{24}\n\\]\n\nor equivalently that the normalized simultaneous denominator\nS_0 has exactly those large-prime denominator exponents of the\nendpoint determinant. Neither (18) nor (21) proves (24). The\ncondition concerns the extremal matrix and remains stronger than\nmerely excluding a rank defect of H_n.\n",
+        "conditions": "p>3n；θ由2163差分定义",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R2、R5",
+        "definite_error": false
+      },
+      {
+        "assertion": "ordinary Legendre基不能自动作large-prime单位变换",
+        "source_line_start": 367,
+        "source_line_end": 396,
+        "source_excerpt_verbatim": "## 8. Why a scalar orthogonal recurrence has not yet closed the gate\n\nThe dual construction does not identify V_n, T_n or S_0 with a\nsingle ordinary Legendre polynomial. In (7) there are n+1 Legendre\ncoordinates, determined by the additional n shifted-factorial\nconditions (8). Their cofactors remain determinants of that whole\nsystem. The three-term recurrence for Q_l acts on its basis entries;\nit does not supply a recurrence for these cofactor coordinates or\ntheir common content when n changes.\n\nThere is also a precise localization issue. The monic Legendre\nbasis through degree2n has recurrence coefficients\nl²/(4l²−1). Its construction can involve denominator primes\nup to4n−1, while the associated norms can involve primes up\nto4n+1, including the very range p>3n under\ninvestigation. Thus the rational basis change in (7) is not\nautomatically unimodular at every p>3n. The polynomial moment\nidentities (6) remain valid at that prime threshold, but invoking\nthe ordinary monic recurrence as though all its outer coefficients\nwere products of units there would lose actual primes. This is\nwhy (7) has explicitly been used over Q.\n\nA useful next step is therefore an integral determinant or\ncontiguous relation for the combined shifted-factorial system\n(7)–(9), or an arithmetic evaluation of the scalar (18), with\nall multipliers localized only at primes<=3n. No such relation\nhas been proved in this bounded task. The new output is the exact\nprimitive dual object, the simultaneous type-II identification,\nand the content factorization (14), (23), rather than a claimed\nlarge-prime valuation bound.",
+        "conditions": "基经过n,…,2n整个block，不是单个Legendre多项式",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R5及逐稿说明",
+        "definite_error": false
+      }
+    ],
+    "independent_finite_interface_ids": [
+      "n25p5_dII_unit_q_not_unit"
+    ],
+    "whole_sealed_original_entry": "[private local path removed]",
+    "whole_sealed_original_sha_verified": true,
+    "old_full_packet_spans": [
+      {
+        "pack_absolute_path": "[private local path removed]",
+        "pack_start_character": 999,
+        "pack_end_character": 13411,
+        "source_start_character": 0,
+        "source_end_character": 12412,
+        "pack_start_line": 15,
+        "pack_end_line": 410,
+        "source_start_line": 1,
+        "source_end_line": 396,
+        "pack_characters": 42359,
+        "pack_raw_sha256": "e435eac1abc34fc9e1f36aa78e1d419fb5f0e45458f72defba4ca59af5df5ed3",
+        "source_span_raw_sha256": "90565fe4f2f7bf99812a454b76dbc2e5f9f1b15af35403967720cf83d1656df2"
+      }
+    ],
+    "per_file_report": "reviews/DOC_2123.md",
+    "proof_reason_entry": "DECISIVE_REDERIVATIONS.md",
+    "finite_evidence_entry": "INDEPENDENT_EXACT_CONTROLS.json",
+    "math_review_authorized_on_this_turn": true,
+    "historical_PASS_adopted": false,
+    "main_status_or_database_modified": false
+  },
+  {
+    "document_id": 2089,
+    "path": "work/session_20260913/raw_endpoint_scalar_cauchy_restriction.md",
+    "sha256": "50b9054c0b0789bb28eba3a456592f735d8f8a3d7a13a2eedcb48c80a5d54d37",
+    "reviewer": "/root/literature_map",
+    "read_in_full": true,
+    "claim_verdict": "成立（按原稿实际断言及列明前提）",
+    "scope": "完整阅读1–309行。逐式复核全部cofactor符号、hQhat=R𝒫、content、bordered scalar、modn及饱和族；保留m=4,p=17只得首层的历史强度。",
+    "reason": "有限差分的单位U对左cofactor按U^(−T)作用，回到原行给原式5。高次首n+1系数是对δ向量整数三角且对角±1，所以content(𝒫)=Θ；进而cQ=RΘ/h、hZ=RK、dII=|K|/Θ。整数binomial-factorial身份给𝖹=(−1)^n𝖢模n及K≡det[𝖢|1]模n，Legendre/Hankel列反序符号和norm符号恰抵消。饱和Cauchy块的首n行可逆，δ_n、h、Θ为单位，K首层由Q_m(1)控制。完整vZ包含R的factorial贡献，dII不包含；原稿行307明确不等同实际q。",
+    "route_followup": [
+      "在Q_m(1)不是p单位时，此稿只给首层下界；2085于seed赋值1、ν≥2补精确深度，无需修改这里保守陈述。",
+      "p>3n时modn同余不给自动p信息；K/Θ及实际N是后续scalar任务。"
+    ],
+    "full_read_line_ranges": [
+      [
+        1,
+        309
+      ]
+    ],
+    "judgment_principle": "文稿正确性与整条路线完成情况分开；未证明未声称的更强结论不是错误；条件未解不判条件命题错误。",
+    "definite_errors": [],
+    "original_change_required": false,
+    "usable_parent_inputs": [
+      "本轮：2163差分；支持2129全局/权重content身份，已独立重推。",
+      "本轮：2119 Cauchy rank/block；主已审非零实际E及2123对象。"
+    ],
+    "claims": [
+      {
+        "assertion": "cofactor transport与完整coefficient content",
+        "source_line_start": 71,
+        "source_line_end": 127,
+        "source_excerpt_verbatim": "## 2. Exact cofactor transport, including its sign\n\nLet \\(U\\) be the unimodular row transformation keeping the first \\(n\\) rows of \\(X_n\\) and taking the consecutive \\(n\\)-th differences for the remaining \\(n+1\\) rows. Then\n\\[\nUX_n=\\begin{pmatrix}V&C_0\\\\0&G\\end{pmatrix},\n\\qquad \\det U=1,\\qquad \\det V=\\prod_{j=0}^{n-1}j!>0.\n\\]\nSigned cofactor vectors transform by \\(u'=U^{-T}u\\). The top \\(n\\) coordinates of \\(u'\\) are zero. Its bottom coordinate \\(r\\) is\n\\[\nu'_{n+r}=(-1)^{n+r}\\det V\\,\\det G[\\widehat r].\n\\]\nDividing by (4), with the exact row-factor identity for \\(\\det G[\\widehat r]\\), gives\n\\[\nw'_{n+r}=(-1)^{n+r}\\frac{c_r\\delta_r}{h_n}.\n\\]\nSince \\(w=U^Tw'\\), the original coordinate with \\(k=n+t\\) is\n\\[\n\\boxed{\nw_{n+t}=\\frac{(-1)^t}{h_n}\n\\sum_{\\substack{0\\le r\\le n\\\\0\\le t-r\\le n}}\n\\binom n{t-r}c_r\\delta_r,\\qquad0\\le t\\le2n.\n}\n\\tag{5}\n\\]\nThis identity does not rescale the primitive left vector or the chosen endpoint pair.\n\nDefine the integer polynomial\n\\[\n\\mathscr P_n(z)=\n\\sum_{r=0}^n\\sum_{s=0}^n\n(-1)^{r+s}\\binom ns\\,\\delta_r\n\\frac{(n+r+s)!}{(n+r)!}\\,z^{2n-r-s}.\n\\tag{6}\n\\]\nSubstituting (5) into (2) yields the exact polynomial identity\n\\[\n\\boxed{h_n\\widehat Q_n(z)=R_n\\mathscr P_n(z).}\n\\tag{7}\n\\]\nEvery exponent in (6) is nonnegative and every coefficient multiplier is integral.\n\nThe coefficient content of \\(\\mathscr P_n\\) is precisely \\(\\Theta_n\\). One divisibility follows because every coefficient is an integer combination of the \\(\\delta_r\\). For the reverse divisibility, the first \\(n+1\\) coefficients, indexed by powers \\(z^{2n-t}\\), \\(0\\le t\\le n\\), are\n\\[\n(-1)^t\\delta_t\n+\\sum_{r<t}(-1)^t\\binom n{t-r}\\delta_r\n\\frac{(n+t)!}{(n+r)!}.\n\\]\nThis is an integer triangular transformation of \\((\\delta_0,\\ldots,\\delta_n)\\), with diagonal entries \\((-1)^t\\). Its inverse is integral. Consequently, if \\(c_n^Q\\) denotes the coefficient content of the actual integer polynomial \\(\\widehat Q_n\\), then\n\\[\n\\boxed{\nc_n^Q=\\frac{R_n\\Theta_n}{h_n},\\qquad\n\\frac{h_n}{\\Theta_n}\\mid R_n.\n}\n\\tag{8}\n\\]\nThe first equality can first be read in positive rational contents; integrality of \\(c_n^Q\\), already guaranteed by (2), proves the stated integer divisibility.\n",
+        "conditions": "固定u_k符号，h保留；不假设小素数h=Θ",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R6",
+        "definite_error": false
+      },
+      {
+        "assertion": "endpoint bordered K、hZ=RK、dII=|K|/Θ",
+        "source_line_start": 128,
+        "source_line_end": 155,
+        "source_excerpt_verbatim": "## 3. A single exact bordered determinant for the endpoint\n\nPut\n\\[\nv_r=\\sum_{s=0}^n(-1)^s\\binom ns\n\\frac{(n+r+s)!}{(n+r)!},\n\\qquad\nK_n=\\mathscr P_n(1)=\\sum_{r=0}^n(-1)^r\\delta_r v_r.\n\\]\nLaplace expansion along the last column gives\n\\[\n\\boxed{\nK_n=(-1)^n\\det[\\mathsf Z\\mid v],\\quad\nh_n Z_n=R_nK_n,\\quad\nd_n^{II}=\\frac{|K_n|}{\\Theta_n}.\n}\n\\tag{9}\n\\]\nHere \\(d_n^{II}\\) is the least positive denominator making all coefficients of the actual normalized simultaneous polynomial\n\\[\nS_0(z)=\\widehat Q_n(z)/Z_n\n\\]\nintegral. The last formula follows from (8) and the reviewed equality \\(d_n^{II}=|Z_n|/c_n^Q\\). Since \\(\\Theta_n\\mid K_n\\), its right side is an integer.\n\nThe nonvanishing \\(K_n\\ne0\\) follows from the known nonzero actual endpoint determinant in (2). It is not inferred from a sign for the newly bordered matrix.\n\nEquation (9) is a restriction of an explicit integer functional \\(v\\) to the primitive left kernel of \\(\\mathsf Z\\). It retains the endpoint information that the maximal-minor content alone does not contain.\n",
+        "conditions": "实际E≠0给K≠0；Z为标量，𝖹为矩阵",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R6",
+        "definite_error": false
+      },
+      {
+        "assertion": "完整modn与bordered Cauchy/Legendre值",
+        "source_line_start": 156,
+        "source_line_end": 197,
+        "source_excerpt_verbatim": "## 4. An exact congruence modulo the entire degree\n\nFor \\(s\\ge1\\),\n\\[\n\\binom ns\\frac{(n+r+s)!}{(n+r)!}\n=n(s-1)!\\binom{n-1}{s-1}\\binom{n+r+s}{s}.\n\\tag{10}\n\\]\nThus every positive-\\(s\\) summand in (6) is divisible by \\(n\\). Therefore\n\\[\n\\boxed{\n\\mathscr P_n(z)\\equiv\n\\sum_{r=0}^n(-1)^r\\delta_r z^{2n-r}\\pmod n,\n\\qquad v_r\\equiv1\\pmod n.\n}\n\\tag{11}\n\\]\nLet \\(\\mathsf C_{rj}=L\\tau_{n+r-j}\\). The same identity gives\n\\(\\mathsf Z\\equiv(-1)^n\\mathsf C\\pmod n\\). Consequently\n\\[\n\\boxed{K_n\\equiv\\det[\\mathsf C\\mid\\mathbf1]\\pmod n.}\n\\tag{12}\n\\]\nThe signs cancel: the first \\(n\\) columns contribute \\((-1)^{n^2}=(-1)^n\\), and (9) contributes another \\((-1)^n\\).\n\nThis remaining bordered determinant has a closed rational evaluation that is an integer:\n\\[\n\\boxed{\n\\det[\\mathsf C\\mid\\mathbf1]\n=L^n\\left(\\prod_{j=0}^{n-1}|h_j^{\\rm Leg}|\\right)Q_n(1),\n\\quad\nh_j^{\\rm Leg}\n=\\frac{(-1)^j4^j(j!)^4}{((2j)!)^2(2j+1)}.\n}\n\\tag{13}\n\\]\nTo prove it, reverse the \\(n\\) moment columns. This gives entries\n\\(L\\mathcal L(t^{r+j})\\), where\n\\(\\mathcal L(t^a)=\\tau_{a+1}\\). The standard monic orthogonal-polynomial determinant, obtained directly by solving its \\(n\\) moment equations, is the Hankel determinant times \\(Q_n(1)\\). The Hankel determinant is \\(\\prod h_j^{\\rm Leg}\\). The column-reversal sign \\((-1)^{n(n-1)/2}\\) cancels exactly the product of the signs of these norms. This proves (13) over \\(\\mathbb Q\\); its left side establishes its integrality, so no unjustified localization of the monic Legendre basis is used.\n\nFor any \\(p^\\nu\\mid n\\), (12) determines \\(v_p(K_n)\\) exactly whenever the right side of (13) has valuation less than \\(\\nu\\). Otherwise it supplies only a lower bound of \\(\\nu\\). It is not an upper bound at arbitrarily large depth.\n",
+        "conditions": "决定赋值需要右边赋值严格小于v_p(n)",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R6",
+        "definite_error": false
+      },
+      {
+        "assertion": "饱和精确local separation",
+        "source_line_start": 198,
+        "source_line_end": 264,
+        "source_excerpt_verbatim": "## 5. The saturated family reduces the endpoint to a fixed-degree Legendre value\n\nSuppose \\(n=mT\\), \\(T=p^\\nu\\), \\(\\nu\\ge1\\), \\(3m<p\\). The exact Cauchy-block analysis in raw_extremal_cauchy_congruence_rank_and_depth.md proves:\n\\[\n\\delta_n\\not\\equiv0\\pmod p,\\qquad\n\\Theta_n,\\ h_n\\in\\mathbb Z_p^\\times.\n\\tag{14}\n\\]\nFor clarity, the part of that analysis needed here can be read directly. Since \\(v_p(L)=\\nu\\), the only nonzero entries of \\(\\mathsf C\\bmod p\\) have \\(n+r-j=T\\ell\\), \\(\\ell\\) odd. The index is at most \\(2n=2mT<pT\\). On these entries\n\\[\nL\\tau_{T\\ell}\n=\\frac LT(-1)^{(T-1)/2}\\tau_\\ell\\pmod p.\n\\]\nThus, after grouping indices modulo \\(T\\), every block is a nonzero common scalar times a small moment matrix. The residue-0 block has rows \\(r=uT\\), \\(0\\le u\\le m\\), columns \\(j=vT\\), \\(0\\le v<m\\), and entries\n\\[\n\\tau_{m+u-v}.\n\\tag{15}\n\\]\nEvery other residue block is square \\(m\\)-by-\\(m\\) and invertible. The first \\(m\\) rows of (15) are also invertible. This follows by parity separation into signed Cauchy matrices: all positive denominators and nonzero row/column differences have magnitude less than \\(p\\). In particular the cofactor \\(\\delta_n\\) is a unit.\n\nThe signed vector \\(((-1)^r\\delta_r)_r\\) is a left annihilator of \\(\\mathsf Z\\bmod p\\). Invertibility of the square blocks forces it to vanish outside \\(r=uT\\). Within (15), the monic left-annihilating polynomial is exactly \\(Q_m(t)\\): reversing the column order changes its equations to\n\\(\\mathcal L(t^jQ_m(t))=0\\), \\(0\\le j<m\\).\nAll denominators needed for this fixed-degree moment argument are \\(p\\)-units because \\(p>3m>2m\\). Writing \\(Q_m(t)=\\sum_{u=0}^m q_ut^u\\), \\(q_m=1\\), gives\n\\[\n(-1)^{uT}\\delta_{uT}\n=(-1)^n\\delta_nq_u\\pmod p.\n\\tag{16}\n\\]\nCombining with (11),\n\\[\n\\boxed{\n\\mathscr P_n(z)\\equiv\n(-1)^n\\delta_n z^{2n}Q_m(z^{-T})\\pmod p,\n\\qquad\nK_n\\equiv(-1)^n\\delta_nQ_m(1)\\pmod p.\n}\n\\tag{17}\n\\]\nThe apparent reciprocal expression in (17) is a polynomial, with lowest possible exponent \\(n\\) and a unit coefficient at that exponent.\n\nThis gives the exact local separation of the two quantities:\n\\[\n\\boxed{\nv_p(c_n^Q)=v_p(R_n)=\\frac{n-m}{p-1},\\qquad\nv_p(Z_n)=\\frac{n-m}{p-1}+v_p(K_n),\\qquad\nv_p(d_n^{II})=v_p(K_n).\n}\n\\tag{18}\n\\]\nIndeed \\(h_n,\\Theta_n\\) are units. The factorial evaluation follows from \\(2m<p\\):\n\\[\nv_p(n!)=\\frac{n-m}{p-1},\\qquad\nv_p((2n)!)=\\frac{2(n-m)}{p-1}.\n\\]\nThus (1) follows precisely when \\(Q_m(1)\\) is a unit.\n\nIf it is a unit, the actual normalized simultaneous polynomial has the explicit reduction\n\\[\n\\boxed{\nS_0(z)\\equiv\n\\frac{z^{2n}Q_m(z^{-T})}{Q_m(1)}\n\\pmod p.\n}\n\\tag{19}\n\\]\nThis congruence is meaningful coefficientwise over \\(\\mathbb Z_p\\), as (18) has already proved its integrality.\n",
+        "conditions": "n=mp^ν、ν≥1、p奇、3m<p；Q_m(1)单位时K单位",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R6",
+        "definite_error": false
+      },
+      {
+        "assertion": "p幂单位dII与17异常首层",
+        "source_line_start": 265,
+        "source_line_end": 309,
+        "source_excerpt_verbatim": "## 6. Two infinite-family consequences and a genuine limitation\n\nFor \\(m=1\\), \\(Q_1(t)=t\\), so every \\(p>3\\) and \\(\\nu\\ge1\\) satisfies\n\\[\n\\boxed{\nv_p(Z_{p^\\nu})=\\frac{p^\\nu-1}{p-1},\\quad\nv_p(c_{p^\\nu}^Q)=\\frac{p^\\nu-1}{p-1},\\quad\nv_p(d_{p^\\nu}^{II})=0,\\quad\nS_0(z)\\equiv z^{p^\\nu}\\pmod p.\n}\n\\tag{20}\n\\]\nCombining with the already proved extremal-content valuation gives the actual endpoint determinant valuation\n\\[\nv_p(\\mathcal E_n)\n=\\frac{(2n+1)(n-1)}{p-1}-2\\nu n,\\qquad n=p^\\nu.\n\\tag{21}\n\\]\nMore generally, if the unit condition in (1) holds, the corresponding exact formula is\n\\[\nv_p(\\mathcal E_n)\n=\\frac{(2n+1)(n-m)}{p-1}-2\\nu n.\n\\tag{22}\n\\]\n\nSaturation does not automatically force this unit condition. One exact symbolic diagnostic is enough:\n\\[\nQ_4(t)=t^4+\\frac67t^2+\\frac3{35},\\qquad Q_4(1)=\\frac{68}{35}.\n\\]\nFor \\(m=4,\\ p=17>3m\\), equation (17) gives \\(K_n\\equiv0\\pmod{17}\\) for every \\(n=4\\cdot17^\\nu\\). Hence\n\\[\n\\boxed{\nv_{17}(d_n^{II})\\ge1,\\qquad\nv_{17}(Z_n)\\ge\\frac{n-4}{16}+1.\n}\n\\tag{23}\n\\]\nThis is a proved infinite family, not a scan or a guessed valuation at the next depth. The exact higher valuation remains unresolved.\n\nThe cross-product interpretation remains the reviewed actual one:\n\\(S_0=B_EC_F-C_EB_F\\), where the high solutions have endpoints\n\\((B_E(1),C_E(1))=(1,0)\\), \\((B_F(1),C_F(1))=(0,1)\\).\nThe actual selected \\((1,4)\\) solution is \\(T_E+4T_F\\), and its cross product with \\(T_F\\) gives the same \\(S_0\\). Thus (19)–(20) concern this actual endpoint normalization. They do not assert that each individual type-I triple is \\(p\\)-integral, or identify \\(d_n^{II}\\) with the primitive rational denominator in the linear form approximating \\(e+\\pi\\).\n\nThe useful remaining scalar is now completely explicit: \\(K_n/\\Theta_n\\), the last expression in (9). At saturated primes it is governed initially by \\(Q_m(1)\\); beyond the known congruence depth its factorial-difference corrections must still be retained. Above \\(3n\\), congruence modulo \\(n\\) gives no automatic information. No estimate that resolves the main irrationality problem is claimed.",
+        "conditions": "m=1,p>3；m=4,p=17给下界；不称dII为q",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R6、R7",
+        "definite_error": false
+      }
+    ],
+    "independent_finite_interface_ids": [
+      "n25p5_dII_unit_q_not_unit"
+    ],
+    "whole_sealed_original_entry": "[private local path removed]",
+    "whole_sealed_original_sha_verified": true,
+    "old_full_packet_spans": [
+      {
+        "pack_absolute_path": "[private local path removed]",
+        "pack_start_character": 12969,
+        "pack_end_character": 25429,
+        "source_start_character": 0,
+        "source_end_character": 12460,
+        "pack_start_line": 279,
+        "pack_end_line": 587,
+        "source_start_line": 1,
+        "source_end_line": 309,
+        "pack_characters": 38419,
+        "pack_raw_sha256": "11ec1b7155da7900586ec58c870aaedb1df01d4cc66db21a052cf7557011fed2",
+        "source_span_raw_sha256": "50b9054c0b0789bb28eba3a456592f735d8f8a3d7a13a2eedcb48c80a5d54d37"
+      }
+    ],
+    "per_file_report": "reviews/DOC_2089.md",
+    "proof_reason_entry": "DECISIVE_REDERIVATIONS.md",
+    "finite_evidence_entry": "INDEPENDENT_EXACT_CONTROLS.json",
+    "math_review_authorized_on_this_turn": true,
+    "historical_PASS_adopted": false,
+    "main_status_or_database_modified": false
+  },
+  {
+    "document_id": 2155,
+    "path": "work/session_20260913/raw_high_content_extremal_valuation_independent_review.md",
+    "sha256": "18c17a1c22db822d3c5a3329d209922567c858eb2f4a62547c3ff8cee73fa249",
+    "reviewer": "/root/literature_map",
+    "read_in_full": true,
+    "claim_verdict": "成立（按原稿实际断言及列明前提）",
+    "scope": "完整阅读1–138行。评价其打印的proof与不等式，不将历史“passes”标签继承为本轮审核；补全n=1空content约定。",
+    "reason": "§1保留X最低行k=n和实际端点系统；§2先正确除单位k!再从唯一非单位Smith因子取得完整e的primitive annihilator；§3两个shift与单位2次子式含最早/最后坐标边界；§4覆盖全部最大子式，不依赖单个preferred minor；§5两个尺寸不同的差分矩阵恰有正确identity block和content。与本轮R1–R3逐步相符，数学主体成立。",
+    "route_followup": [
+      "此review未声称逆不等式、全large-prime单位性或F大小界；这些不能作为判错项。它正确地保留endpoint restriction和log-size任务。"
+    ],
+    "full_read_line_ranges": [
+      [
+        1,
+        138
+      ]
+    ],
+    "judgment_principle": "文稿正确性与整条路线完成情况分开；未证明未声称的更强结论不是错误；条件未解不判条件命题错误。",
+    "definite_errors": [],
+    "original_change_required": false,
+    "usable_parent_inputs": [
+      "本轮重新数学核对2154、2192、2163；历史review状态不作证明前提。"
+    ],
+    "claims": [
+      {
+        "assertion": "完整prime-power inequality及空矩阵clarification",
+        "source_line_start": 11,
+        "source_line_end": 22,
+        "source_excerpt_verbatim": "**Verdict: the full prime-power inequality passes.** For every\nn>=1 and p>3n, the actual maximal-minor contents satisfy\n\n    v_p(D_n) <= v_p(F_n).\n\nNo converse, all-prime unit statement, or bound on the size of\nF_n follows. No new degree or prime scan was performed.\n\nThe only suggested wording clarification is the conventional\neta_1=1 for the empty 0-by-2 reduced high matrix in Section 5;\nthe earlier finite-difference note defined eta_n explicitly\nonly for n>=2. This does not affect the main inequality.",
+        "conditions": "n≥1、p>3n；ηᴴ_1=1",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R2、R3",
+        "definite_error": false
+      },
+      {
+        "assertion": "特征零满秩、完整Smith annihilator和所有最大子式",
+        "source_line_start": 24,
+        "source_line_end": 110,
+        "source_excerpt_verbatim": "## 1. Actual endpoint determinant and characteristic-zero rank\n\nThe archive defines J_n as the integer high rows H_n followed\nby the row C(1)-4B(1), and Delta_B as the determinant after\nappending B(1). Its all-degree finite dyadic valuation proves\nDelta_B is nonzero. Adding four times the B(1) row to the\nmatching row changes it into C(1). Thus the high system with\nB(1)=C(1)=0 has only the zero B,C vector over Q. This uses\nthe actual endpoint rows, not a different coefficient minor.\n\nA nonzero rational kernel vector of X_n has B,C of degree\nat most n-1. Reconstructing A through degree n-1, including\nthe retained row k=n, gives order at least 3n+1. Multiplying\nthe whole triple by z-1 preserves that order, since z-1 is a\nunit at the origin, and raises each degree by at most one.\nIts B and C values at 1 are zero. The resulting triple remains\nnonzero in Q[z]^3 and contradicts the endpoint system. Thus\nX_n has full column rank and its positive maximal-minor gcd\nis finite and nonzero.\n\nFor the characteristic-zero approximation module, this also\nmakes its degree-at-most-n-1 slice zero. Each reduced module\nbasis row must therefore have degree at least n. The previously\nproved determinant-degree sum is 3n+1, so the sorted profile is\nexactly (n,n,n+1). This statement is in characteristic zero;\nthe argument does not assert that Delta_B remains a unit after\nreduction at the primes under discussion.\n\n## 2. The annihilator carries the entire Smith exponent\n\nAt p>3n, every factorial in the row range is a p-unit.\nDividing row k by k! leaves the same local determinantal\nideals in both matrices. The arctangent coefficient denominator\nk-j is also at most 3n and positive, so the unscaled Taylor\nentries all belong to Z_p.\n\nThe characteristic-zero full row rank of H_n and the reviewed\nmod-p rank lower bound 2n-1 imply that only its last Smith\nfactor can be a nonunit. Its valuation is the valuation e of\nthe maximal-minor gcd, not merely a lower exponent. If\nU H_n V has final invariant p^e, its last row is divisible\nby p^e. The last row w of the unimodular U is primitive, and\nmultiplication by V^(-1) proves w H_n=0 modulo p^e in the\noriginal unscaled columns. This is valid over Z_p at arbitrary\nfinite e. The case e=0 is immediate and need not construct w.\n\n## 3. Exact shifts and the unit two-minor\n\nFor the columns of degrees j=0,...,n-1, the unshifted H_n\nequations are the X_n equations on rows n+1,...,3n. They\ngive the annihilator u=(0,w). The H_n columns of degree j+1\nare the original degree-j Taylor columns shifted by one row:\n\n    [z^k](z z^j exp(z))=[z^(k-1)](z^j exp(z)),\n\nand identically for arctan(z). On the stated ranges this\ngives the X_n rows n,...,3n-1 and hence v=(w,0). No boundary\ncoefficient or high-degree condition is omitted. Performing\nthis step on the integer factorial-scaled rows without first\nunscaling would introduce row factors; the proof correctly\nremoves them before using the shift.\n\nIf r is the earliest nonzero coordinate of w modulo p, then\nthe columns r,r+1 of (u,v) have determinant -w_r^2 modulo p.\nThis includes r=0 and r=2n-1, with the absent endpoint entry\ninterpreted as zero. Earlier coordinates need vanish only\nmodulo p, since only a unit minor is being claimed. The two\nrows therefore form a primitive rank-two direct summand.\nAppending coordinate rows for every nonpivot column gives\nan explicit unimodular completion; its determinant is the\nunit minor up to a sign after permuting columns.\n\n## 4. Divisibility of all maximal minors\n\nAfter that row transformation, the first two rows of X_n\nare divisible entrywise by p^e. A maximal minor has 2n rows\nchosen from 2n+1, so it must include at least one of these\ntwo rows. It is consequently divisible by p^e. Unimodular\nrow operations preserve the ideal generated by all maximal\nminors, proving v_p(F_n)>=e for the original matrix.\n\nThe use of all maximal minors is essential and correctly\nimplemented; no preferred minor is assumed to be nonzero\nor to realize a particular valuation. Full column rank\nproved earlier ensures their gcd is nonzero, so the\ninequality has finite quantities on both sides.\n",
+        "conditions": "主非零端点输入，H只有一个非单位因子",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R1、R3",
+        "definite_error": false
+      },
+      {
+        "assertion": "eta/theta身份和augmented content区别",
+        "source_line_start": 111,
+        "source_line_end": 138,
+        "source_excerpt_verbatim": "## 5. The smaller contents eta_n and theta_n\n\nThe finite-difference row transformation is integral and\nunimodular. For H_n its exponential pivot block has size n+1\nand determinant prod_(j=0)^n j!, a unit at p>3n. Eliminating\nthis block leaves precisely the (n-1)-by-(n+1) G_n.\nThus its maximal-minor content has valuation v_p(D_n).\n\nFor X_n, substitute m=n into the extremal formula. Its row\nrange is m,...,3m and its degree range is j<m, exactly the\nX_n defined in the new note. The same reduction leaves I_n\nand the (n+1)-by-n matrix mathcal G^(n); its pivot factorials\nare again units. The maximal 2n-minor ideal equals the\nmaximal n-minor ideal of that remaining matrix. Hence\nv_p(F_n)=v_p(theta_n), with no missing factorial or endpoint\nfactor. The stated inequality v_p(eta_n)<=v_p(theta_n) is\ntherefore exactly equivalent at these primes.\n\nFor n=1, G_1 has zero rows, and its maximal zero-order\nminor is 1 by convention. Stating eta_1=1 explicitly extends\nthe smaller-content notation to the full range of the theorem.\n\nThe separately saturated augmented core has a different\ncontent. Its unit property does not imply theta_n or eta_n\nis a unit and is not used that way. The new result transfers\nthe full high Smith exponent into the actual extremal\ncontent, while leaving the endpoint restriction exponent\nand all logarithmic-size estimates unresolved.",
+        "conditions": "两个实际矩阵及完整row/column范围",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R2、R4",
+        "definite_error": false
+      }
+    ],
+    "independent_finite_interface_ids": [],
+    "whole_sealed_original_entry": "[private local path removed]",
+    "whole_sealed_original_sha_verified": true,
+    "old_full_packet_spans": [
+      {
+        "pack_absolute_path": "[private local path removed]",
+        "pack_start_character": 26535,
+        "pack_end_character": 32939,
+        "source_start_character": 0,
+        "source_end_character": 6404,
+        "pack_start_line": 551,
+        "pack_end_line": 688,
+        "source_start_line": 1,
+        "source_end_line": 138,
+        "pack_characters": 41801,
+        "pack_raw_sha256": "e6d1600288449c1dd9c6f6f1032ba7dfa37060185660ce7b5d1353a18cb6850e",
+        "source_span_raw_sha256": "18c17a1c22db822d3c5a3329d209922567c858eb2f4a62547c3ff8cee73fa249"
+      }
+    ],
+    "per_file_report": "reviews/DOC_2155.md",
+    "proof_reason_entry": "DECISIVE_REDERIVATIONS.md",
+    "finite_evidence_entry": null,
+    "math_review_authorized_on_this_turn": true,
+    "historical_PASS_adopted": false,
+    "main_status_or_database_modified": false
+  },
+  {
+    "document_id": 2290,
+    "path": "work/session_20260913/raw_shared_core_large_prime_saturation.md",
+    "sha256": "44ad96b818ba1180910d9535534a4b681557f5ef955fdfe9111407011e9780e4",
+    "reviewer": "/root/literature_map",
+    "read_in_full": true,
+    "claim_verdict": "成立（按原稿实际断言及列明前提）",
+    "scope": "完整阅读1–206行。§1–3模块、degree profile和rank证明独立重推；§4所用1995整除/Schur等式已读取完整原稿并核对所需§2–4；§5固定jet范围核对。",
+    "reason": "实际接触模的显式基行列式z^M，leading-row reduction终止且predictable degree给维数公式。2192的n−1切片≤1只允许三个sorted profiles；n+1切片维数恰5。恢复A后与C_n^+核双射，故rank=2n−1、ζ在所有p>3n为单位。单位chart的Schur式使旧core deficient时至少一个新列恢复共享行。作者正确保留D/eta、两新列2次pivot及最后新增/删去行；没有把ζ下整除关系读成上界。",
+    "route_followup": [
+      "C_n^+的单位性已收束，勿继续记作未证明。更强H/D/eta饱和或lifting exponent仍未由本稿断言为已解决。",
+      "单位单new-column不自动给单位2×2 new-column pivot；相邻exterior-coordinate的upper propagation仍是单独后续任务。",
+      "固定M=3n+1的eventual-degree满秩不能在n变化时当成固定jet递推。"
+    ],
+    "full_read_line_ranges": [
+      [
+        1,
+        206
+      ]
+    ],
+    "judgment_principle": "文稿正确性与整条路线完成情况分开；未证明未声称的更强结论不是错误；条件未解不判条件命题错误。",
+    "definite_errors": [],
+    "original_change_required": false,
+    "usable_parent_inputs": [
+      "本轮2192的独立Wronskian/minimal-degree证明。",
+      "支持1995§2–4中actual Laplace divisibility、unit-chart Schur等式；独立复核，不继承其历史PASS。"
+    ],
+    "claims": [
+      {
+        "assertion": "module determinant-degree与predictable-degree公式",
+        "source_line_start": 25,
+        "source_line_end": 81,
+        "source_excerpt_verbatim": "## 1. An elementary polynomial-module degree lemma\n\nWork over any field K. For fixed polynomials E,F and an integer\nM>=1, define the K[z]-module\n\n    A_M={(A,B,C): A+BE+CF is divisible by z^M}.\n\nIt has the explicit polynomial row basis\n\n    (z^M,0,0), (-E,1,0), (-F,0,1).                    (3)\n\nIndeed every member equals ((A+BE+CF)/z^M) times the first\nrow plus B times the second and C times the third. The coefficient\nis a polynomial by definition. The determinant of (3) is z^M.\n\nThis basis can be transformed by invertible polynomial row\noperations to a basis T_1,T_2,T_3 with independent leading row\nvectors. Here the degree of a nonzero vector polynomial is the\nmaximum of its component degrees, and its leading row vector is\nits coefficient at that degree.\n\nFor completeness, if the three leading vectors are dependent,\nchoose a nontrivial constant linear relation among them and choose\na row T_i of maximal degree d_i among the rows occurring in that\nrelation. Subtract appropriate scalar multiples of\nz^(d_i-d_j)T_j for the other participating rows. The leading term\nof T_i cancels and its degree strictly decreases. This is an\nelementary invertible row operation; T_i cannot become zero since\nthe rows remain a module basis. The sum of the three nonnegative\nrow degrees decreases, so the process terminates. At termination\nthe leading vectors are independent. Permute rows to arrange\n\n    d_1<=d_2<=d_3.\n\nThe determinant has nonzero leading coefficient equal to the\ndeterminant of those leading row vectors. Elementary operations\npreserve the determinant up to a nonzero constant. Hence\n\n    d_1+d_2+d_3=M.                                    (4)\n\nThere is also an exact predictable-degree identity: for polynomials\nf_i, not all zero,\n\n    deg(sum_i f_i T_i)=max_i(deg f_i+d_i).              (5)\n\nAt the maximal candidate degree, the leading term is a nontrivial\nlinear combination of a subset of the independent leading row\nvectors, with the nonzero leading coefficients of the relevant\nf_i. It cannot vanish. This proves (5) and, by counting the allowed\ncoefficients of the f_i, the dimension formula\n\n    dim_K {T in A_M: deg T<=D}\n       =sum_(i=1)^3 max(0,D-d_i+1).                   (6)\n\nThus no unproved normality theorem or field-specific polynomial\nreduction algorithm is required for the degree argument below.\n",
+        "conditions": "任意域K，M≥1，实际多项式E/F",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R4",
+        "definite_error": false
+      },
+      {
+        "assertion": "所有p>3n的C_n^+满秩及ζ单位",
+        "source_line_start": 82,
+        "source_line_end": 152,
+        "source_excerpt_verbatim": "## 2. Apply the already verified minimal-degree bound\n\nNow fix n>=1 and p>3n, and take K=F_p, M=3n+1. Let E,F be the\nactual Taylor polynomials of exp(z), arctan(z) through degree 3n,\nreduced modulo p. Every denominator used is a unit because its\nindex is at most 3n<p. The module A_M depends only on these jets.\n\nThe verified theorem in `raw_large_prime_nullity_and_smith.md`\ngives exactly\n\n    dim_K {T in A_M: deg T<=n-1} <= 1.                (7)\n\nIts proof used the nonzero cleared Wronskian and the injective\nleading B coefficient on that degree slice. The bounded-degree\nslice here is the same space: for degree at most n-1 it is a\nsubspace of the degree-n high kernel, with the uniquely recovered\nA polynomial. No assumption about a particular endpoint-selected\ncanonical triple is needed.\n\nIf d_1<=n-2, the independent vectors T_1,zT_1 both have degree\nat most n-1, contradicting (7). If d_2<=n-1, the independent\nvectors T_1,T_2 likewise contradict (7). Therefore\n\n    d_1>=n-1,  d_2>=n,  d_3<=n+2,                   (8)\n\nwhere the last inequality follows from (4). The only possible\nsorted degree profiles are\n\n    (n,n,n+1), (n-1,n+1,n+1), (n-1,n,n+2).           (9)\n\nTo see the exhaustiveness, if d_1>=n then (4) forces d_1=d_2=n.\nIf d_1=n-1, the ordered remaining pair has sum 2n+2 and its\nsmaller member is n or n+1. These are precisely the other two\nprofiles. This is a classification of the possible degrees, not\nan assertion that every profile occurs in the actual family.\n\nSince each d_i<=n+2, (6) now gives the exact dimension\n\n    dim_K {T in A_M: deg T<=n+1}\n       =3(n+2)-(3n+1)=5.                             (10)\n\nThe equality remains valid when d_3=n+2: its contribution is\nzero in both expressions.\n\n## 3. The exact bridge to the shared integer matrix\n\nChoose arbitrary polynomials B,C of degrees at most n+1. The\nequations of A+BE+CF=0 through degree n+1 determine a unique\npolynomial A of degree at most n+1: its coefficients are the\nnegatives of those of BE+CF in that range. The remaining\nequations through degree 3n are exactly\n\n    [z^k](BE+CF)=0, k=n+2,...,3n.                    (11)\n\nMultiplying row k by k!, a unit modulo p, gives exactly C_n^+.\nAll its Taylor subscripts k-j are positive. Consequently its\nkernel is in linear bijection with the space in (10), and it\nhas dimension five. There are 2n+4 columns, so its rank is\n2n+4-5=2n-1, the number of rows. This proves (1).\n\nFull rank modulo p means at least one maximal minor is a unit\nat p. Thus its maximal-minor gcd has valuation zero, proving\n(2) with all prime-power multiplicities excluded at once.\nThe characteristic-zero full row rank needed to define the\npositive gcd also follows from any one of these finite-field\nfull-rank statements, or from the previously known high rank.\n\nThe n=1 case is included: C_1^+ has one row and six columns,\nand (10) gives its kernel dimension five. No empty or negative\ndegree needs to be inserted into the module basis argument.\n",
+        "conditions": "n≥1；M=3n+1；依赖2192切片≤1",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R1、R4",
+        "definite_error": false
+      },
+      {
+        "assertion": "adjacent unit-column restoration",
+        "source_line_start": 153,
+        "source_line_end": 182,
+        "source_excerpt_verbatim": "## 4. Consequences for the adjacent condensation\n\nFor p>3n+3, choose any unit (2n-2)-minor of the old shared core\nas in `raw_adjacent_high_content_condensation.md`. Write rho\nfor the one remaining shared row and E_(rho,c) for its six\ninteger bordered entries, four in old columns and two in new\ncolumns. The exact Schur-content identity there gives\n\n    min_(all six c) v_p(E_(rho,c))=v_p(zeta_n)=0.       (12)\n\nIf the old shared core has rank only 2n-2 modulo p, all four\nold-column entries are divisible by p. Equation (12) therefore\nforces at least one of the two new-column entries to be a unit.\nAdding the two new columns always restores full shared-row rank.\nThis is stronger than treating restoration as merely possible.\n\nIt follows that the next high matrix H_(n+1) can always be\ncondensed using a unit full shared-row pivot of size 2n-1,\nleaving a 3-by-5 carrier for its last three rows. That pivot\nmay require a new column, so it does not automatically serve\nas a pivot of the old matrix H_n.\n\nThe already proved integer relation zeta_n | gcd(D_n,D_(n+1))\nhas only primes at most 3n in its lower divisor. This does not\nimply that the gcd on the right has no larger prime factors;\ndivisibility is in that direction only. Nor does the unit\nsingle new-column pivot imply a unit 2-by-2 new-column pivot.\nThe lost low row and the Schur correction terms in the two\nexterior vectors still require separate control.\n",
+        "conditions": "p>3n+3；单位2n−2 pivot chart；整除方向保留",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R4",
+        "definite_error": false
+      },
+      {
+        "assertion": "fixed-jet eventual-degree结论及未覆盖high content",
+        "source_line_start": 183,
+        "source_line_end": 206,
+        "source_excerpt_verbatim": "## 5. An eventual-degree consequence and the remaining arithmetic problem\n\nFor the same fixed jets of order M=3n+1, (8) and (6) imply\n\n    dim_K {T in A_M: deg T<=D}=3(D+1)-M, D>=n+1.      (13)\n\nFor n+1<=D<=3n this says that the actual remaining coefficient\nmatrix with rows k=D+1,...,3n and B,C degrees at most D has\nfull row rank. At D=3n the row set is empty, consistently.\nThis is a statement at fixed jet order; it must not be applied\nas though the order stayed fixed when n is incremented in H_n.\n\nAt degree n, the three profiles (9) give respectively dimensions\n2,2,3. Thus the only defective high-rank profile is\n(n-1,n,n+2), exactly consistent with the previous description\nspan{T,zT,S}. The new theorem does not exclude that profile or\nbound its lifting exponent over Z_p.\n\nThe remaining arithmetic targets are therefore the full high\ncontent D_n (equivalently eta_n at p>3n), the separate endpoint\nrestriction content, and the size of the primitive endpoint\ncarrier. The shared augmented core is now saturated at all\nlarge primes; it should no longer be listed as an unresolved\nlarge-prime support obstruction.",
+        "conditions": "固定M，不随n变动；D≥n+1",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R4",
+        "definite_error": false
+      }
+    ],
+    "independent_finite_interface_ids": [
+      "generic_augmented_unit_not_high_unit"
+    ],
+    "whole_sealed_original_entry": "[private local path removed]",
+    "whole_sealed_original_sha_verified": true,
+    "old_full_packet_spans": [
+      {
+        "pack_absolute_path": "[private local path removed]",
+        "pack_start_character": 20519,
+        "pack_end_character": 29328,
+        "source_start_character": 0,
+        "source_end_character": 8809,
+        "pack_start_line": 382,
+        "pack_end_line": 587,
+        "source_start_line": 1,
+        "source_end_line": 206,
+        "pack_characters": 39255,
+        "pack_raw_sha256": "3801f3d37e70caa62f360a3e529c91e8cebeab051093993eff766ec9ea94d0e9",
+        "source_span_raw_sha256": "44ad96b818ba1180910d9535534a4b681557f5ef955fdfe9111407011e9780e4"
+      }
+    ],
+    "per_file_report": "reviews/DOC_2290.md",
+    "proof_reason_entry": "DECISIVE_REDERIVATIONS.md",
+    "finite_evidence_entry": "INDEPENDENT_EXACT_CONTROLS.json",
+    "math_review_authorized_on_this_turn": true,
+    "historical_PASS_adopted": false,
+    "main_status_or_database_modified": false
+  },
+  {
+    "document_id": 2163,
+    "path": "work/session_20260913/raw_high_smith_finite_difference_reduction.md",
+    "sha256": "befa645d7ceabe79bd9ac2569ee815a6bd55a25f0621d06d4c092de4958659fb",
+    "reviewer": "/root/literature_map",
+    "read_in_full": true,
+    "claim_verdict": "成立（按原稿实际断言及列明前提）",
+    "scope": "完整阅读1–231行。§2 integer unimodular elimination、§3/4实际矩阵尺寸和完整局部深度、§5全部条目递推逐项核对。",
+    "reason": "新差分行对最新原行系数1，U在整数上det1；first m falling-factorial列消失，V行列式∏j!。在这些factorials为单位的localization，合法行列消元给diag(I_m,G)，保留完整Smith。H取m=n+1、X取m=n，严格保留最低A-degree行。式9/10是Δ和乘k的移位commutator，式11来自τ，式12是对第二阶序列施Δ^(m+2)的Leibniz展开，全部成立。原稿正确未把它们称为content递推。",
+    "route_followup": [
+      "原稿未证明H对所有p>3n满秩；需要etaᴴ无large-prime content或更强明确identity。这是原稿行5–11、119–126及末段明说的后续目标。",
+      "端点row不在此Smith消元中；若研究J必须同列变换并保留其restriction content。"
+    ],
+    "full_read_line_ranges": [
+      [
+        1,
+        231
+      ]
+    ],
+    "judgment_principle": "文稿正确性与整条路线完成情况分开；未证明未声称的更强结论不是错误；条件未解不判条件命题错误。",
+    "definite_errors": [],
+    "original_change_required": false,
+    "usable_parent_inputs": [
+      "主已审非零端点系统给H特征零满行秩。",
+      "2192提供非单位因子数，差分证明本身为elementary integer operations。"
+    ],
+    "claims": [
+      {
+        "assertion": "整数det1差分及local diag(I_m,G)",
+        "source_line_start": 42,
+        "source_line_end": 76,
+        "source_excerpt_verbatim": "## 2. A unimodular elimination lemma\n\nLet a,m,L be positive integers with L>=m. Consider a matrix whose\nrows are indexed k=a,...,a+L-1. Its first m columns are\n\n    (k)_j=k(k-1)...(k-j+1),  j=0,...,m-1.\n\nLet any additional columns have entries f_j(k). Keep the first m\nrows unchanged, and replace the remaining rows by\n\n\\[\n\\Delta^m f_j(a+r)=\n\\sum_{s=0}^m(-1)^{m-s}\\binom ms f_j(a+r+s),\n\\quad 0\\le r<L-m.\n\\tag{1}\n\\]\n\nThis row transformation has determinant one over Z. In increasing\nrow order, each new row has coefficient one on its latest original\nrow a+r+m and uses only preceding rows otherwise. Every first-block\nentry in the new rows is zero, since its degree in k is <m.\nThe resulting block form is\n\n\\[\n\\begin{pmatrix}V&C_0\\\\0&G\\end{pmatrix},\n\\qquad \\det V=\\prod_{j=0}^{m-1}j!.\n\\tag{2}\n\\]\n\nThe determinant follows from the monic falling-factorial columns\nand the consecutive Vandermonde. Therefore over any localization\nwhere those factorials are units, invertible row and column operations\ngive precisely diag(I_m,G). This preserves all remaining Smith\ninvariants and determinantal ideals, not merely the rank.\n",
+        "conditions": "a,m,L正整数、L≥m；∏j!在localization为单位",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R2",
+        "definite_error": false
+      },
+      {
+        "assertion": "H的完整Smith/depth身份",
+        "source_line_start": 77,
+        "source_line_end": 127,
+        "source_excerpt_verbatim": "## 3. The exact smaller matrix for the actual H_n\n\nWrite tau_l=[z^l]arctan(z), with tau_l=0 for even l and\ntau_l=(-1)^((l-1)/2)/l for odd positive l. The actual integer\nhigh matrix H_n has rows k=n+1,...,3n and entries\n\n\\[\n(H_n)_{k,B_j}=(k)_j,\\qquad\n(H_n)_{k,C_j}=k!\\tau_{k-j},\\quad 0\\le j\\le n.\n\\tag{3}\n\\]\n\nAll k-j are positive. Apply the lemma with a=m=n+1 and L=2n.\nDefine\n\n\\[\n\\boxed{\n(G_n)_{r,j}=\\sum_{s=0}^{n+1}(-1)^{n+1-s}\\binom{n+1}s\n(n+1+r+s)!\\,\\tau_{n+1+r+s-j},\n}\n\\tag{4}\n\\]\n\nwhere 0<=r<=n-2 and 0<=j<=n. Every entry is an integer.\nThe largest factorial index is 3n. For every p>3n,\n\n\\[\n\\boxed{H_n\\ \\sim_{\\mathbb Z_p}\\ \\operatorname{diag}(I_{n+1},G_n).}\n\\tag{5}\n\\]\n\nFor n=1, G_n is the empty matrix and (5) proves full row rank.\nFor n>=2, let eta_n be the positive gcd of the (n-1)-by-(n-1)\nminors of G_n. It is nonzero because the characteristic-zero\nhigh matrix has full row rank. The exact unbordered Smith valuation\ne_n(p) in raw_large_prime_nullity_and_smith.md consequently satisfies\n\n\\[\n\\boxed{e_n(p)=v_p(\\eta_n),\\qquad p>3n.}\n\\tag{6}\n\\]\n\nEquivalently, the missing full-rank theorem is precisely that eta_n\nhas no prime divisor greater than 3n. This is a smaller explicit\ninteger-content problem; equation (6) does not establish that claim.\n\nThe endpoint functional has not been included in (5). It must be\ntransformed by the same column operations if one studies the\nbordered matrix. Its restriction content remains the separate s\nin the reviewed formula v_p(delta_n)=e_n(p)+s_n(p).\n",
+        "conditions": "n≥1、p>3n；ηᴴ定义n≥2，n=1按空minor1",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R2",
+        "definite_error": false
+      },
+      {
+        "assertion": "extremal完整行矩阵与rational differential式",
+        "source_line_start": 128,
+        "source_line_end": 166,
+        "source_excerpt_verbatim": "## 4. The all-A-degree extremal matrix\n\nFor the degree-d extremal triple, retain every row\nk=d+1,...,3d+3, in columns B_0,...,B_d,C_0,...,C_d. Put m=d+1.\nThis is a (2m+1)-by-(2m) matrix. The same integral transformation\nproduces I_m and the (m+1)-by-m matrix\n\n\\[\n\\boxed{\n\\mathcal G^{(m)}_{r,j}\n=\\sum_{s=0}^m(-1)^{m-s}\\binom ms\n(m+r+s)!\\,\\tau_{m+r+s-j},\n\\quad 0\\le r\\le m,\\quad0\\le j<m.\n}\n\\tag{7}\n\\]\n\nFor p>3d+3=3m, all entries and transformations are legitimate in\nZ_p, and full column rank of (7) is equivalent to nonexistence\nof an extremal triple. The lowest retained row is k=m, exactly\nthe condition that A has degree at most d. The largest row index\nis 3m, still less than p, even in the allowed case p=3m+1.\n\nThere is an equivalent rational differential formulation. Let\nD_z denote differentiation, not the polynomial 1+z^2. For C of\ndegree <m, the r-th entry of (7) times its coefficient vector is\n\n\\[\n\\left[D_z^r\\,D_z^m(D_z-1)^m(C(z)\\arctan z)\\right]_{z=0}.\n\\tag{8}\n\\]\n\nThe operator D_z^m(D_z-1)^m annihilates both A and B exp(z)\nfor deg A,deg B<m. Its action on C arctan(z) is a rational\nfunction: the remaining arctangent coefficient is\nD_z^m(D_z-1)^m C=0. Formula (8) can alternatively be defined\nby the finite sum (7) in characteristic p, so no analytic\nexponential series or factorial at or above p is introduced.\n",
+        "conditions": "m=d+1，行m..3m全部保留、p>3m",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R2",
+        "definite_error": false
+      },
+      {
+        "assertion": "实际条目全部recurrences",
+        "source_line_start": 167,
+        "source_line_end": 231,
+        "source_excerpt_verbatim": "## 5. Exact recurrences, and why they do not yet control the content\n\nFor general nonnegative m and indices where k>=j+1, put\n\n\\[\nF^{(m)}_{k,j}=\\Delta^m\\bigl(k!\\tau_{k-j}\\bigr).\n\\]\n\nThe construction gives the exact lattice identities\n\n\\[\nF^{(m+1)}_{k,j}=F^{(m)}_{k+1,j}-F^{(m)}_{k,j},\n\\tag{9}\n\\]\n\\[\nF^{(m)}_{k,j+1}\n=kF^{(m)}_{k-1,j}+mF^{(m-1)}_{k,j}.\n\\tag{10}\n\\]\n\nEquation (10) is stated for m>=1; at m=0 its corresponding\nidentity is simply the defining column shift without the second term.\nUse (k!tau_(k-j-1))=k((k-1)!tau_((k-1)-j))\nand the commutator Delta k=k Delta+S, with S the forward shift.\nThus all entries are generated by the scalar factorial-arctangent\nsequence y_k=k!tau_k, which obeys\n\n\\[\ny_{k+2}=-k(k+1)y_k,\\qquad k>=1.\n\\tag{11}\n\\]\n\nFor completeness, the first-column finite differences\nf_k=F^{(m)}_{k,0} satisfy the fixed-order recurrence\n\n\\[\n\\begin{aligned}\n0={}&f_{k+4}-2f_{k+3}\n+[(k+m+2)(k+m+3)+1]f_{k+2}\\\\\n&-2(k+1)(k+m+2)f_{k+1}+k(k+1)f_k,\n\\qquad k>=1.\n\\end{aligned}\n\\tag{12}\n\\]\n\nTo derive it, apply Delta^(m+2) to (11) and use\n\n    Delta^r k(k+1)=k(k+1)Delta^r\n       +2r(k+1)S Delta^(r-1)+r(r-1)S^2 Delta^(r-2).\n\nEquations (9)--(12) are exact identities for the actual entry\nfamily. They do not imply a corresponding scalar recurrence for\neta_n: both matrix dimensions and selected row/column sets change\nwith n, and column updates in (10) use another difference level.\nMoreover (12) alone has additional solutions not satisfying the\noriginal second-order sequence and finite-difference initialization.\nIt must not be used as an invertible replacement for that definition.\n\nThe concrete unresolved step is an identity among the maximal minors\nof (4), with coefficients in Z[1/(3n)!], generating one. An\nequivalent saturated elimination using (7) could prove the stronger\nabsence of all extremal triples. The bounded-entry recurrences above\nhave not supplied such an identity or a restricted infinite class.\nThe all-prime degree-zero and degree-one exclusions in the prior\nnote therefore remain finite-degree results, without extrapolation.",
+        "conditions": "定义τ为arctan系数；k≥j+1；式10 m≥1，式11/12 k≥1",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R2",
+        "definite_error": false
+      }
+    ],
+    "independent_finite_interface_ids": [],
+    "whole_sealed_original_entry": "[private local path removed]",
+    "whole_sealed_original_sha_verified": true,
+    "old_full_packet_spans": [
+      {
+        "pack_absolute_path": "[private local path removed]",
+        "pack_start_character": 33662,
+        "pack_end_character": 41771,
+        "source_start_character": 0,
+        "source_end_character": 8109,
+        "pack_start_line": 702,
+        "pack_end_line": 932,
+        "source_start_line": 1,
+        "source_end_line": 231,
+        "pack_characters": 41801,
+        "pack_raw_sha256": "e6d1600288449c1dd9c6f6f1032ba7dfa37060185660ce7b5d1353a18cb6850e",
+        "source_span_raw_sha256": "befa645d7ceabe79bd9ac2569ee815a6bd55a25f0621d06d4c092de4958659fb"
+      }
+    ],
+    "per_file_report": "reviews/DOC_2163.md",
+    "proof_reason_entry": "DECISIVE_REDERIVATIONS.md",
+    "finite_evidence_entry": null,
+    "math_review_authorized_on_this_turn": true,
+    "historical_PASS_adopted": false,
+    "main_status_or_database_modified": false
+  },
+  {
+    "document_id": 2192,
+    "path": "work/session_20260913/raw_large_prime_nullity_and_smith.md",
+    "sha256": "b61456e4018830804fd8fd0fd4531da4d796c8f8f4ae00a84d02706abca348f9",
+    "reviewer": "/root/literature_map",
+    "read_in_full": true,
+    "claim_verdict": "成立（按原稿实际断言及列明前提）",
+    "scope": "完整阅读1–227行。§1–2重新证明Wronskian前件、minimal-degree注入及high rank；§3/4逐项核对J rank、local two-row carrier；§5保留不估计指数的范围。",
+    "reason": "非零B/C及rational log derivative/residue证明cleared Wronskian非零；truncated jet给原点阶≥3n−1而次数≤3d+2，n−1切片的leading B coefficient单射，故≤1维。三个三元组行列式原点阶超过次数给leading coefficient map秩≤2，从而H模p秩≥2n−1。H特征零fullrank⇒至多一个非单位；J消去单位块后为[[p^e,0,0],[a,b,c]]，entries与2次minors给r,e+s−r以及vδᴶ=e+s，故J至多两个。其nullity3可能性被精确描述，没有误作已排除。",
+    "route_followup": [
+      "H/J的因子数界已经成立；剩下e与s的深度/大小控制是原稿§5的明确后续任务，不能用数目替代。",
+      "本轮不宣称H缺秩profile或J nullity3在实际族出现，也不把尚未排除误判为错误。"
+    ],
+    "full_read_line_ranges": [
+      [
+        1,
+        227
+      ]
+    ],
+    "judgment_principle": "文稿正确性与整条路线完成情况分开；未证明未声称的更强结论不是错误；条件未解不判条件命题错误。",
+    "definite_errors": [],
+    "original_change_required": false,
+    "usable_parent_inputs": [
+      "支持2188§2与2189§2–3的实际N定义及truncated finite-field bridge已独立重推。",
+      "主已审实际非零endpoint determinant给特征零H/J fullrowrank。"
+    ],
+    "claims": [
+      {
+        "assertion": "n−1切片维数≤1",
+        "source_line_start": 18,
+        "source_line_end": 71,
+        "source_excerpt_verbatim": "## 1. A sharp bound on the minimal-degree subspace\n\nLet (V_n=\\ker_K H_n), viewed as triples of degree at most (n)\nwith\n\n\\[\nA+BE_T+CF_T=O(z^{3n+1}),\n\\tag{1}\n\\]\n\nwhere (E_T,F_T) are the Taylor polynomials through degree (3n).\nThe carrier review proves for every nonzero member that (B,C\\ne0)\nindividually and that\n\n\\[\n0\\ne\\mathcal N(A,B,C),\\qquad\nz^{3n-1}\\mid\\mathcal N(A,B,C).\n\\tag{2}\n\\]\n\nFor a triple of degree at most (d), the universal degree bound is\n(\\deg\\mathcal N\\le3d+2). Consequently no nonzero member of\n(V_n) has degree at most (n-2).\n\nLet (V_n^-\\subset V_n) consist of triples of degree at most (n-1).\nThen\n\n\\[\n\\boxed{\\dim_K V_n^-\\le1.}\n\\tag{3}\n\\]\n\nIndeed, (2) and the degree bound force every nonzero such triple (T)\nto satisfy\n\n\\[\n\\mathcal N(T)=\\kappa z^{3n-1},\\qquad \\kappa\\ne0.\n\\tag{4}\n\\]\n\nThe universal leading coefficient identity, with degree parameter\n(d=n-1), reads\n\n\\[\n\\kappa=b_{n-1}\n\\bigl(a_{n-1}c_{n-2}-a_{n-2}c_{n-1}+c_{n-1}^{,2}\\bigr).\n\\tag{5}\n\\]\n\nMissing coefficients are interpreted as zero. In particular the linear\nfunctional (b_{n-1}) is nonzero on every nonzero element of (V_n^-).\nIt is therefore injective on this vector space, proving (3). Such a\ntriple has degree exactly (n-1).\n",
+        "conditions": "p>3n，nonzero Wronskian、degree/origin-order身份",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R1",
+        "definite_error": false
+      },
+      {
+        "assertion": "H核维数2..3与exceptional profile",
+        "source_line_start": 72,
+        "source_line_end": 121,
+        "source_excerpt_verbatim": "## 2. The unbordered high matrix loses at most one row rank\n\nFor any three members (T_i=(A_i,B_i,C_i)\\in V_n),\n\n\\[\n\\det\\begin{pmatrix}A_1&B_1&C_1\\\\A_2&B_2&C_2\\\\A_3&B_3&C_3\\end{pmatrix}=0\n\\quad\\text{in }K[z].\n\\tag{6}\n\\]\n\nTo prove this, replace the first column by (A_i+B_iE_T+C_iF_T).\nThe determinant does not change, and (1) makes it divisible by\n(z^{3n+1}). Its original polynomial degree is at most (3n), so it\nis zero. This is a polynomial identity and does not need formal\nexponentials past the allowed truncation.\n\nLet (\\tau:V_n\\to K^3) take the three degree-(n) coefficients.\nEquation (6), at the leading coefficient, implies\n(\\operatorname{rank}\\tau\\le2), while (3) gives\n(\\dim\\ker\\tau\\le1). Thus\n\n\\[\n\\boxed{2\\le\\dim_K V_n\\le3,\n\\qquad \\operatorname{rank}_K H_n\\ge2n-1.}\n\\tag{7}\n\\]\n\nThe lower bound is ordinary dimension counting. If (\\dim V_n=3),\nthen (V_n^-=KT) for a nonzero triple (T) of degree (n-1),\nand (\\operatorname{rank}\\tau=2). Both (T) and (zT) belong\nto (V_n): their degrees are at most (n), and multiplication by\n(z) preserves the required Taylor vanishing. They are linearly\nindependent. Therefore\n\n\\[\n\\boxed{V_n=\\operatorname{span}_K\\{T,zT,S\\}}\n\\tag{8}\n\\]\n\nfor a suitable third triple (S) of degree (n). The triple (T)\nhas no nonconstant common polynomial factor. Indeed, let such a\nfactor (f) have degree (m\\ge1) and origin order (h\\le m).\nThe divided triple has degree at most (n-1-m) and remainder order\nat least (3n+1-h). The same truncated-jet argument gives its\nnonzero determinant origin order at least (3n-1-h): the previously\nbounded derivative errors are still of sufficient order. Its degree\nis at most (3n-1-3m), which would require (3m\\le h), impossible.\nNonvanishing of the determinant is preserved since division does\nnot make either (B) or (C) zero.\n",
+        "conditions": "实际degree-n高kernel、全部Taylor rows保留",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R1",
+        "definite_error": false
+      },
+      {
+        "assertion": "J nullity3的准确未排除条件",
+        "source_line_start": 122,
+        "source_line_end": 156,
+        "source_excerpt_verbatim": "## 3. What the endpoint row adds, and what is not excluded\n\nSince (J_n) adds one row,\n\n\\[\n\\dim\\ker J_n=\\dim V_n-operatorname{rank}(\\ell|_{V_n})\\le3.\n\\tag{9}\n\\]\n\nThis agrees with the bound supplied by the three-row augmented full\nrank theorem. The unbordered estimate (7) is additional information.\n\nThe only remaining route to nullity three for (J_n) is completely\nexplicit: (8) must hold and\n\n\\[\n\\ell(T)=0,\\qquad \\ell(S)=0.\n\\tag{10}\n\\]\n\nSince (z=1) at the endpoint, (\\ell(zT)=\\ell(T)); hence (10)\nis equivalent to the endpoint row vanishing on all of (V_n).\nThe carrier theorem alone does not exclude these two conditions.\nThey are conditions on a *linear combination* (C(1)-4B(1)), not\nthe simultaneous vanishing of all three polynomial endpoints.\n\nFor example, if (10) holds then ((z-1)T\\in\\ker J_n) has all\nthree endpoints zero, and its nonzero top (B) coefficient in (5)\nis exactly consistent with the carrier theorem. It is not a\ncontradiction. Nor does (T\\in\\ker J_n) have zero endpoints:\nthat would force a common factor (z-1) in (T), which (4) rules\nout. Thus the available arguments do not reduce (9) to a universal\nbound of two. This note does not assert that nullity three actually\noccurs; an exclusion theorem or a counterexample remains open here.\n",
+        "conditions": "ell=C(1)−4B(1)；并非B/C都为零端点条件",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R1",
+        "definite_error": false
+      },
+      {
+        "assertion": "H至多1、J至多2及完整e+s carrier",
+        "source_line_start": 157,
+        "source_line_end": 217,
+        "source_excerpt_verbatim": "## 4. At most two nonunit Smith invariants, with an exact local form\n\nThe characteristic-zero high matrix has full row rank (2n), since\nthe reviewed characteristic-zero bordered matrix (J_n) has rank\n(2n+1). Over (\\mathbb Z_p), (7) says that at most one Smith\ninvariant of (H_n) is a nonunit. Let its valuation be (e\\ge0),\nwhere (e=0) includes the case in which all invariants are units.\n\nAfter invertible integral row and column operations, (H_n) has\nan identity block of size (2n-1) and the final row\n((p^e,0,0)) in its three remaining columns; a unit factor has been\nabsorbed. Apply the same column operations to the endpoint row and\neliminate its first (2n-1) coordinates using the identity rows.\nThe entire nonunit part of (J_n) is then the explicit matrix\n\n\\[\n\\boxed{\\begin{pmatrix}p^e&0&0\\\\a&b&c\\end{pmatrix}.}\n\\tag{11}\n\\]\n\nHere (a,b,c\\in\\mathbb Z_p), and (b,c) are not both zero\nbecause the characteristic-zero bordered matrix has full row rank.\nPut (s=\\min\\{v_p(b),v_p(c)\\}\\ge0). Its two Smith invariant\nvaluations are\n\n\\[\n\\boxed{r=\\min\\{e,v_p(a),v_p(b),v_p(c)\\},\n\\qquad e+s-r.}\n\\tag{12}\n\\]\n\nThis follows by taking respectively the gcd of entries and the gcd\nof its (2\\)-by-(2) minors. The latter minors are (p^eb,p^ec,0).\nConsequently the full maximal-minor content in the carrier note obeys\n\n\\[\n\\boxed{v_p(\\delta_n)=e+s.}\n\\tag{13}\n\\]\n\nHere (e) is exactly the valuation of the gcd of the maximal minors\nof the *unbordered* high matrix. The quantity (s) is the content of\nthe endpoint functional restricted to the integral free kernel of\nthat high matrix, in a primitive basis. It does not depend on the\ntorsion-coupling entry (a), though (a) affects how the total\nvaluation is distributed between the two Smith invariants.\n\nIn particular, at (p>3n):\n\n- (H_n) has at most one nonunit Smith invariant;\n- (J_n) has at most two;\n- if (H_n) has full row rank modulo (p), then (J_n) has at\n  most one nonunit Smith invariant;\n- nullity three for (J_n) is equivalent in (11) to\n  (e\\ge1) and (a,b,c\\in p\\mathbb Z_p).\n\nThe entry (a) is why merely knowing that the endpoint vanishes on\nthe two-dimensional *integral* kernel is insufficient to diagnose\nthe rank in the exceptional reduction: a new modular kernel\ndirection appears when (e\\ge1).\n",
+        "conditions": "H/J特征零fullrowrank；p>3n",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R1",
+        "definite_error": false
+      }
+    ],
+    "independent_finite_interface_ids": [],
+    "whole_sealed_original_entry": "[private local path removed]",
+    "whole_sealed_original_sha_verified": true,
+    "old_full_packet_spans": [
+      {
+        "pack_absolute_path": "[private local path removed]",
+        "pack_start_character": 949,
+        "pack_end_character": 8883,
+        "source_start_character": 0,
+        "source_end_character": 7934,
+        "pack_start_line": 15,
+        "pack_end_line": 241,
+        "source_start_line": 1,
+        "source_end_line": 227,
+        "pack_characters": 40728,
+        "pack_raw_sha256": "7678508e7f94f562542c3b0fbd5715b46d79c8c9745bfb33e26353c8c91db22c",
+        "source_span_raw_sha256": "b61456e4018830804fd8fd0fd4531da4d796c8f8f4ae00a84d02706abca348f9"
+      }
+    ],
+    "per_file_report": "reviews/DOC_2192.md",
+    "proof_reason_entry": "DECISIVE_REDERIVATIONS.md",
+    "finite_evidence_entry": null,
+    "math_review_authorized_on_this_turn": true,
+    "historical_PASS_adopted": false,
+    "main_status_or_database_modified": false
+  },
+  {
+    "document_id": 2119,
+    "path": "work/session_20260913/raw_extremal_cauchy_congruence_rank_and_depth.md",
+    "sha256": "462ab4f308e2abe75e47eb676de9245b4740756fb8f3b312529b521e2e40011d",
+    "reviewer": "/root/literature_map",
+    "read_in_full": true,
+    "claim_verdict": "成立（按原稿实际断言及列明前提）",
+    "scope": "完整阅读1–284行。§1/2 global normalization和modn、§3–5所有residue/parity块的rank计数、§6饱和完整F、§7截断depth、§8任意高精度有限和均核对。",
+    "reason": "binomial-factorial整数身份使所有positive-s项含n，得𝖹=(−1)^n𝖢+n𝖠。模p存活项按T余类拆成signed parity Cauchy blocks，每块rank=min(R,C)，缺列块数min(b,T−1−b)，得精确首层rank。饱和b=0时首n行单位，weighted cofactor content h为单位，从阶乘valuation求和得到F完整depth。一般模p^ν矩阵同余只给min(e_i,ν)=min(a_i,ν)，原稿证明的pivot消元合法；高精度s-cutoff来自n(s−1)!赋值下界。作者清楚区分下界、截断identity和完整饱和identity。",
+    "route_followup": [
+      "首层rank不足以估计一般fullcontent；a_i≥ν的更深值及higher precision singular correction另行处理。",
+      "∏gcd(d_i,n)≤n^n是已显示截断下除子的size，不能把它当完整content上界；原稿没有这样声称。"
+    ],
+    "full_read_line_ranges": [
+      [
+        1,
+        284
+      ]
+    ],
+    "judgment_principle": "文稿正确性与整条路线完成情况分开；未证明未声称的更强结论不是错误；条件未解不判条件命题错误。",
+    "definite_errors": [],
+    "original_change_required": false,
+    "usable_parent_inputs": [
+      "本轮2163 integer row operations；支持2129全局X和weighted content已重推。"
+    ],
+    "claims": [
+      {
+        "assertion": "𝖹与𝖢的完整modn同余",
+        "source_line_start": 60,
+        "source_line_end": 77,
+        "source_excerpt_verbatim": "## 2. The entire nonconstant sum is divisible by n\n\nFor every \\(1\\le s\\le n\\), the following is an identity of integers:\n\\[\n\\boxed{\n\\binom ns\\frac{(n+r+s)!}{(n+r)!}\n=n(s-1)!\\binom{n-1}{s-1}\\binom{n+r+s}{s}.\n}\n\\tag{2}\n\\]\nAll factors \\(L\\tau_{n+r+s-j}\\) are integers. Separating the \\(s=0\\) term therefore gives\n\\[\n\\boxed{Z=(-1)^n\\mathcal C_n+n\\mathcal A_n,\\qquad\n\\mathcal A_n\\in\\operatorname{Mat}_{n+1,n}(\\mathbb Z).}\n\\tag{3}\n\\]\nThis proves the congruence modulo \\(n\\), including all its prime-power factors. It avoids any dependence on a finite-field exponential or a guessed divisibility of a rational summand.\n",
+        "conditions": "全部integer positive-s summands，无rational-denominator漏项",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R6",
+        "definite_error": false
+      },
+      {
+        "assertion": "任意odd p|n的精确modp rank及首层下界",
+        "source_line_start": 78,
+        "source_line_end": 188,
+        "source_excerpt_verbatim": "## 3. The exact finite-field support and its coefficients\n\nFix an odd prime \\(p\\mid n\\), and write\n\\[\nT=p^a,\\qquad a=\\lfloor\\log_p(3n)\\rfloor.\n\\]\nThen \\(v_p(L)=a\\), and\n\\[\n3n<pT,\\qquad 2n/T<2p/3<p.\n\\]\nFor \\(1\\le m\\le2n\\), the value \\(L\\tau_m\\) is zero modulo \\(p\\) unless \\(m\\) is an odd multiple of \\(T\\). If \\(m=T h\\), then \\(1\\le h<p\\), and\n\\[\nL\\tau_{Th}=\n\\frac{L}{T}(-1)^{(T-1)/2}\\tau_h\n\\quad\\hbox{in }\\mathbb F_p,\n\\tag{4}\n\\]\nwhere the right side is zero for even \\(h\\). For odd \\(h\\), the sign identity follows by writing\n\\[\n(Th-1)/2=(T-1)/2+T(h-1)/2.\n\\]\nThe scalar \\(L/T\\) is a \\(p\\)-unit.\n\nBy (3), \\(Z\\bmod p\\) is therefore supported on\n\\[\nr-j\\equiv-n\\pmod T.\n\\tag{5}\n\\]\nAfter permuting rows and columns by their residues modulo \\(T\\), it is a direct sum of small rectangular blocks. No approximation is involved in this block decomposition.\n\n## 4. Every surviving block has its full possible rank\n\nWrite \\(n=qT+b\\), \\(0\\le b<T\\), and fix a column residue \\(j_0\\), \\(0\\le j_0<T\\). Its columns have the form\n\\[\nj=j_0+vT,\\qquad0\\le v<C,\n\\]\nwhere\n\\[\nC=\n\\begin{cases}q+1,&j_0<b,\\\\q,&j_0\\ge b.\\end{cases}\n\\]\nIgnore a block with \\(C=0\\). The associated row residue is\n\\[\nr_0=j_0-b+\\epsilon T,\\qquad\n\\epsilon=\\begin{cases}1,&j_0<b,\\\\0,&j_0\\ge b.\\end{cases}\n\\]\nIts rows are \\(r=r_0+uT\\), \\(0\\le u<R\\), with\n\\[\nR=\n\\begin{cases}q+1,&r_0\\le b,\\\\q,&r_0>b.\\end{cases}\n\\]\nIn particular \\(R,C\\in\\{q,q+1\\}\\), and\n\\[\n\\frac{n+r-j}{T}=q+\\epsilon+u-v=C+u-v.\n\\]\nUp to the common nonzero scalar in (4) and the factor \\((-1)^n\\), the block is exactly\n\\[\n\\bigl(\\tau_{C+u-v}\\bigr)_{0\\le u<R,\\ 0\\le v<C}.\n\\tag{6}\n\\]\n\nAll occurring positive indices in (6) are less than \\(p\\). Split rows and columns by the parity of \\(u,v\\). Each nonzero parity block, after row and column sign changes, is a Cauchy matrix \\(1/(C+u-v)\\). Its denominators are nonzero modulo \\(p\\), and its row and column parameters are distinct modulo \\(p\\). The Cauchy determinant formula therefore makes every square submatrix of an allowed parity block nonsingular.\n\nIf \\(R=C\\), the parity counts match: for odd \\(C\\) the nonzero blocks match equal parities, and for even \\(C\\) they match opposite parities, each of equal size. Thus the square block is invertible. If \\(R=C+1\\), its first \\(C\\) rows already give this invertible square. If \\(R=C-1\\), the two parity blocks have row counts no larger than their corresponding column counts, so both have full row rank. The zero-size cases obey the same conclusion. Therefore\n\\[\n\\boxed{\\operatorname{rank}(6)=\\min(R,C).}\n\\tag{7}\n\\]\n\n## 5. Counting the deficient blocks\n\nA block loses one column rank precisely when \\(j_0<b\\) but \\(r_0>b\\). In that case\n\\[\n0\\le j_0<b,\\qquad j_0>2b-T.\n\\]\nTheir number is\n\\[\nb-\\max(0,2b-T+1)=\\min(b,T-1-b).\n\\]\nEvery other block has full column rank. Since the original column count is \\(n\\), this proves\n\\[\n\\boxed{\n\\operatorname{rank}_{\\mathbb F_p} Z\n=n-\\min(b,T-1-b).\n}\n\\tag{8}\n\\]\n\nFor \\(n<T\\), the formula reduces to\n\\(\\max(0,2n-T+1)\\), as in root's proposed shifted-identity case. For \\(T=n\\), it gives rank \\(n\\), with the prior scalar \\([I_n;0]\\) matrix. For \\(T<n\\), (6)–(7) account for all the additional blocks rather than treating them as one diagonal.\n\nBecause both \\(n\\) and \\(T\\) are divisible by \\(p\\), so is \\(b\\). The alternative \\(b=T-1\\) is impossible. Thus full rank occurs if and only if \\(b=0\\).\n\nWriting \\(n=mp^\\nu\\) with \\(p\\nmid m\\), one always has \\(a\\ge\\nu\\). The condition \\(T\\mid n\\) is therefore \\(a=\\nu\\), equivalently\n\\[\n\\boxed{Z\\bmod p\\text{ has full column rank }\n\\Longleftrightarrow 3m<p.}\n\\tag{9}\n\\]\nThere is no such full-rank case for \\(p=3\\).\n\nFor the normalized maximal-minor content\n\\(\\Theta_Z=\\operatorname{content}_n(Z)\\), the rank formula yields the rigorous first-layer divisor\n\\[\n\\boxed{\nv_p(\\Theta_Z)\\ge \\min(b,T-1-b).\n}\n\\tag{10}\n\\]\nIndeed there are exactly this many nonunit Smith invariant factors, each contributing at least one to their sum. Equation (10) is a lower bound on the full valuation, not an equality unless the rank is full.\n",
+        "conditions": "T=p^floor(log_p(3n))、b=n modT、p奇",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R6",
+        "definite_error": false
+      },
+      {
+        "assertion": "饱和族F完整valuation",
+        "source_line_start": 189,
+        "source_line_end": 217,
+        "source_excerpt_verbatim": "## 6. Exact original depth in the larger saturated family\n\nSuppose \\(n=mp^\\nu\\) and \\(3m<p\\). Then \\(T=p^\\nu\\), \\(b=0\\). The first \\(n\\) rows \\(r=0,\\ldots,n-1\\) contain exactly \\(m\\) rows and \\(m\\) columns in each residue block. By the square case of (7), their determinant is a \\(p\\)-unit.\n\nIn the global weighted-minor identity from the preceding note,\n\\[\nF_n=\\left(\\prod_{j=0}^{n-1}j!\\right)\n\\frac{P_n}{L^n}h_n,\\qquad\nP_n=\\prod_{r=0}^{n-1}(n+r)!,\n\\]\nthe associated weight is \\(c_n=1\\). Hence \\(h_n\\) is a \\(p\\)-unit and\n\\[\nv_p(F_n)=\\sum_{k=0}^{2n-1}v_p(k!)-\\nu n.\n\\]\nSince \\(2n<p^{\\nu+1}\\) and \\(p^e\\mid2n\\) for \\(1\\le e\\le\\nu\\),\n\\[\n\\sum_{k=0}^{2n-1}v_p(k!)\n=2n^2\\sum_{e=1}^{\\nu}p^{-e}-\\nu n\n=\\frac{2n(n-m)}{p-1}-\\nu n.\n\\]\nTherefore\n\\[\n\\boxed{\nv_p(F_n)=\\frac{2n(n-m)}{p-1}-2\\nu n.\n}\n\\tag{11}\n\\]\nThe same visible smooth divisor is saturated at \\(p\\), and the first \\(2n\\) original rows \\(n,\\ldots,3n-1\\) form a nonzero minor attaining this valuation. The row-restriction argument is the same unimodular triangular one used in the prime-power note.\n",
+        "conditions": "n=mp^ν、ν≥1、3m<p，p奇",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R6",
+        "definite_error": false
+      },
+      {
+        "assertion": "Smith指数截断identity与全局下除子",
+        "source_line_start": 218,
+        "source_line_end": 254,
+        "source_excerpt_verbatim": "## 7. A Smith-depth lift through the whole modulus n\n\nThe congruence (3) gives more than (8). Let \\(\\nu=v_p(n)\\), now allowing any prime divisor \\(p\\) of \\(n\\), and let\n\\[\na_1\\le\\cdots\\le a_n\n\\]\nbe the Smith exponents of the integer matrix \\(\\mathcal C_n\\) over \\(\\mathbb Z_p\\). It has full rational column rank: its first \\(n\\) rows split into square parity Cauchy blocks with nonzero rational determinants. Let \\(e_i\\) be the corresponding exponents of \\(Z\\).\n\nThen\n\\[\n\\boxed{\\min(e_i,\\nu)=\\min(a_i,\\nu)\n\\quad(1\\le i\\le n).}\n\\tag{12}\n\\]\nHere the sign \\((-1)^n\\) is a unit and has no effect.\n\nA direct proof avoids assuming that determinantal congruences alone identify every exponent. Put \\(\\mathcal C_n\\) in Smith form by invertible row and column operations over \\(\\mathbb Z_p\\); (3) becomes a diagonal Smith matrix plus a matrix divisible by \\(p^\\nu\\). For every diagonal exponent \\(a_i<\\nu\\), its pivot is \\(p^{a_i}\\) times a unit. The off-pivot entries in its row and column are divisible by \\(p^\\nu\\), so eliminating them uses integral coefficients and changes the remaining block only by terms still divisible by \\(p^\\nu\\). Remove these pivots successively. All entries in the remaining block are divisible by \\(p^\\nu\\). This proves exactly (12).\n\nIn particular\n\\[\nv_p(\\Theta_Z)\\ge\\sum_i\\min(a_i,\\nu).\n\\tag{13}\n\\]\nIf every \\(a_i<\\nu\\), all Smith exponents, and hence the complete content valuation, agree with those of \\(\\mathcal C_n\\). If any \\(a_i\\ge\\nu\\), their deeper values are not determined by (12).\n\nFor a global formulation, let \\(d_i(\\mathcal C_n)\\) be its positive integer Smith invariant factors. Then\n\\[\n\\boxed{\n\\prod_{i=1}^n\\gcd(d_i(\\mathcal C_n),n)\\mid\\Theta_Z.\n}\n\\tag{14}\n\\]\nThis product is at most \\(n^n\\). Its logarithm is therefore at most \\(n\\log n\\), so even a full evaluation of this particular truncated divisor would not remove the leading \\(n^2\\log n\\) height term.\n\nThe Smith data in (12) are data of an explicit Cauchy matrix, without factorial differences. If desired they can be computed from exact product formulas: a nonzero minor of \\(\\mathcal C_n\\) splits by original row parity \\(n+r\\) against the opposite column parity. Its absolute determinant is \\(L^k\\) times the products of the corresponding row and column Vandermondes divided by\n\\(\\prod(n+r-j)\\). Apart from the separately displayed factor \\(L^k\\), every factor in those Cauchy products is an integer of magnitude at most \\(2n\\). Taking valuations of these product formulas and their determinantal minima gives the \\(a_i\\). No closed minimization beyond the first-layer formula (8) is claimed here.\n",
+        "conditions": "任意p|n，ν=v_p(n)；a_i≥ν不决定深度",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R6",
+        "definite_error": false
+      },
+      {
+        "assertion": "任意精度的有限shift sum",
+        "source_line_start": 255,
+        "source_line_end": 284,
+        "source_excerpt_verbatim": "## 8. A finite formula at every higher precision\n\nThe exact expansion (2) also controls which difference levels can survive modulo \\(p^h\\). If \\(h>\\nu=v_p(n)\\), any term with\n\\[\ns\\ge p(h-\\nu)+1\n\\]\nhas\n\\[\nv_p\\bigl(n(s-1)!\\bigr)\\ge\n\\nu+\\left\\lfloor\\frac{s-1}{p}\\right\\rfloor\\ge h.\n\\]\nAll other factors in (2), including \\(L\\tau\\), are integers. Hence modulo \\(p^h\\) it suffices to retain the terms\n\\[\n\\boxed{0\\le s\\le\\min\\{n,p(h-\\nu)\\}.}\n\\tag{15}\n\\]\nFor \\(h\\le\\nu\\), only \\(s=0\\) is needed, as in (3).\n\nThe retained positive-\\(s\\) term is explicitly\n\\[\n(-1)^{n-s}n(s-1)!\n\\binom{n-1}{s-1}\n\\binom{n+r+s}{s}\nL\\tau_{n+r+s-j}.\n\\]\nThus (15) is a finite sum of shifted arctangent Cauchy matrices multiplied by known integer row factors. It is an exact congruence of the original normalized matrix; no lift, carry, or unspecified polynomial part is dropped.\n\nFormula (15) is not an upper bound for the eventual content depth. As \\(h\\) increases, more shifts can contribute, and the singular part still needs to be analyzed. It provides a concrete next finite-level problem, with controlled truncation, instead of assuming that the first-layer rank determines all multiplicities.\n\nNo new finite-degree or prime scan is used anywhere in this note. The primitive-dual endpoint scalar remains separate, and no irrationality conclusion follows from these small-prime results.",
+        "conditions": "h>ν时保留s≤min(n,p(h−ν))；h≤ν只s0",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R6",
+        "definite_error": false
+      }
+    ],
+    "independent_finite_interface_ids": [
+      "generic_congruence_not_full_depth"
+    ],
+    "whole_sealed_original_entry": "[private local path removed]",
+    "whole_sealed_original_sha_verified": true,
+    "old_full_packet_spans": [
+      {
+        "pack_absolute_path": "[private local path removed]",
+        "pack_start_character": 9846,
+        "pack_end_character": 21785,
+        "source_start_character": 0,
+        "source_end_character": 11939,
+        "pack_start_line": 228,
+        "pack_end_line": 511,
+        "source_start_line": 1,
+        "source_end_line": 284,
+        "pack_characters": 43089,
+        "pack_raw_sha256": "8bc9d9e5ff88247ded11b58995a37d8f48d612128ccb8dd713f38da680987ee1",
+        "source_span_raw_sha256": "462ab4f308e2abe75e47eb676de9245b4740756fb8f3b312529b521e2e40011d"
+      }
+    ],
+    "per_file_report": "reviews/DOC_2119.md",
+    "proof_reason_entry": "DECISIVE_REDERIVATIONS.md",
+    "finite_evidence_entry": "INDEPENDENT_EXACT_CONTROLS.json",
+    "math_review_authorized_on_this_turn": true,
+    "historical_PASS_adopted": false,
+    "main_status_or_database_modified": false
+  },
+  {
+    "document_id": 2085,
+    "path": "work/session_20260913/raw_endpoint_padic_limit_nonvanishing_criterion.md",
+    "sha256": "89f3db021f17af4f09f1c0bb3c0fd86d83c6a308c8b257bf80d4b48f754e0a89",
+    "reviewer": "/root/literature_map",
+    "read_in_full": true,
+    "claim_verdict": "成立（按原稿实际断言及列明前提）",
+    "scope": "完整阅读1–251行。独立复核§1 CT/Gauss接续、§2 all-odd-p finite-log专门证明、§3/4全m congruence、§5 seed0/1判据及严格ν界、§6完整Witt表示。Dwork外部旁支只按primary条件定位，不将其单位函数充当主系数射线输入。",
+    "reason": "f=2+z+2/z的integer Frobenius给Gauss。finite-log分支在étale Z_p[i]成立，p=3也由独立专门证明覆盖；degree<p使微分证明无charp常数漏洞。f^p−f(z^p)仅三个p倍数指数参与constant term，g0≡q_p(2)，symmetry给A_m=2A_(m−1)+4B_(m−1)，由此A_mp≡A_m(1+mp q/2)modp²对所有m≥1成立、无需m<p或除A_m。Gauss将limit锁定modp²，seed赋值0/1保持并非零。K/A桥仅ν>e可解精确深度，原稿seed1保留ν≥2。Witt表示是精确收敛和，没有无依据排除抵消。",
+    "route_followup": [
+      "seed valuation≥2的nonzero/full-depth未由本稿断言；需要更高relative congruence或其他证明，不能因这个条件尚未解决判错。",
+      "m=4,p=17的ν=1边界只知下界，原稿正确排除；ν≥2由A4=136直接闭合。",
+      "Dwork analytic truncation-ratio unit与coefficient-ray limit不同，原稿已明确分开。"
+    ],
+    "full_read_line_ranges": [
+      [
+        1,
+        251
+      ]
+    ],
+    "judgment_principle": "文稿正确性与整条路线完成情况分开；未证明未声称的更强结论不是错误；条件未解不判条件命题错误。",
+    "definite_errors": [],
+    "original_change_required": false,
+    "usable_parent_inputs": [
+      "支持2083§1–4、§6 Gauss与K/A scalar transfer已读取并复核；68阶旧数值证书未执行且非必要。",
+      "本轮2089、2119。primary Mellit–Vlasenko/Tauraso/Belbachir–Otmani条目为已保存来源旁支；主结论另有本稿和本轮独立证明。"
+    ],
+    "claims": [
+      {
+        "assertion": "全m模p²及seed0/1非零",
+        "source_line_start": 6,
+        "source_line_end": 26,
+        "source_excerpt_verbatim": "The main new arithmetic statement is\n\\[\n\\boxed{\nA_{mp}\\equiv A_m\\left(1+\\frac{mp}{2}q_p(2)\\right)\\pmod{p^2}\n\\qquad(p\\ {\\rm odd},\\ m\\ge1),\n}\n\\tag{1}\n\\]\nwhere \\(A_n=\\binom{2n}{n}Q_n(1)\\) is the actual integer endpoint sequence and \\(q_p(2)=(2^{p-1}-1)/p\\). Combined with root's already proved Gauss congruences, this gives\n\\[\n\\boxed{\nv_p(A_m)\\le1\n\\ \\Longrightarrow\\\n\\mathcal A_{m,p}:=\\lim_{r\\to\\infty}A_{mp^r}\\ne0,\\qquad\nv_p(\\mathcal A_{m,p})=v_p(A_m).\n}\n\\tag{2}\n\\]\nThus seeds with exactly one factor of \\(p\\) are settled uniformly, without computing a new degree-\\(mp\\) seed. Higher initial valuations are not settled here.\n\nThe literature supplies an applicable finite-binomial identity and a distinct Dwork analytic limit. I retain the distinction: the Dwork unit function is not the individual coefficient-ray limit in (2). An exact convergent Witt-coordinate representation of the latter is given in Section 6; it does not by itself exclude cancellation.",
+        "conditions": "p奇，m≥1；seed v_p(A_m)≤1",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R7",
+        "definite_error": false
+      },
+      {
+        "assertion": "finite-log专门证明含p3",
+        "source_line_start": 70,
+        "source_line_end": 112,
+        "source_excerpt_verbatim": "## 2. The applicable primary finite-binomial congruence\n\nFor every odd \\(p\\),\n\\[\n\\sum_{j=1}^{p-1}\\binom{2j}{j}\\frac1{j2^j}\n\\equiv q_p(2)\\pmod p.\n\\tag{8}\n\\]\nFor \\(p\\ge5\\), this is recorded as Lemma 5, equation (12), of Belbachir–Otmani, which cites Tauraso. Tauraso's equation (8) gives the underlying polynomial finite-logarithm identity. The original source and its parameter specialization are therefore available, rather than only a search-result statement. [Belbachir–Otmani, pp.6–7](https://math.colgate.edu/~integers/x27/x27.pdf), [Tauraso, Section 3, equation (8)](https://cs.uwaterloo.ca/journals/JIS/VOL19/Tauraso/taur31.pdf).\n\nHere is an independent elementary specialization, to check all branches and signs. In characteristic \\(p\\), put\n\\[\nS(X)=\\sum_{j=1}^{(p-1)/2}\\binom{2j}{j}\\frac{X^j}{j},\n\\quad \\mathfrak l(X)=\\sum_{j=1}^{p-1}\\frac{X^j}{j},\n\\quad \\alpha+\\beta=1,\\quad\\alpha\\beta=X.\n\\]\nThe polynomial \\(\\mathfrak l(\\alpha)+\\mathfrak l(\\beta)\\) has degree at most \\((p-1)/2\\) in \\(X\\). Its derivative is\n\\[\n\\frac{-1+(\\alpha-\\beta)^{p-1}}X\n=\\frac{(1-4X)^{(p-1)/2}-1}X\n=S'(X).\n\\]\nThe constant terms agree because \\(\\mathfrak l(1)=0\\) modulo \\(p\\). Since the degrees are below \\(p\\), differentiation proves equality.\n\nNow take \\(X=1/2\\) and, in \\(\\mathbb Z_p[i]\\), choose\n\\(\\alpha=(1+i)/2,\\ \\beta=(1-i)/2\\). This étale algebra is valid for every odd \\(p\\), whether split or unramified. The elementary binomial congruence\n\\[\n\\mathfrak l(x)\\equiv\\frac{1-x^p-(1-x)^p}{p}\\pmod p\n\\]\ngives\n\\[\nS(1/2)\\equiv\\frac{2(1-\\alpha^p-\\beta^p)}p\\pmod p.\n\\]\nThe exact root-of-unity evaluation is\n\\[\n\\alpha^p+\\beta^p=\\left(\\frac2p\\right)2^{-(p-1)/2}=:u.\n\\]\nThis \\(u\\) is rational, \\(u\\equiv1\\pmod p\\), and\n\\(u^2=2^{1-p}=(1+pq_p(2))^{-1}\\). Hence\n\\(u\\equiv1-pq_p(2)/2\\pmod{p^2}\\), proving (8). Terms with \\(j>(p-1)/2\\) vanish modulo \\(p\\) because their central binomial coefficient is divisible by \\(p\\), while \\(j\\) is a unit. The same argument covers \\(p=3\\); its single retained term is also an immediate check.\n\nThis proof does not assume that \\(i\\) lies in \\(\\mathbb Z_p\\), or take an ambiguous square root of a \\(p\\)-adic unit.\n",
+        "conditions": "p奇；α+β=1、αβ=1/2，étale Z_p[i]",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R7",
+        "definite_error": false
+      },
+      {
+        "assertion": "实际三个coefficients与all-m congruence",
+        "source_line_start": 113,
+        "source_line_end": 168,
+        "source_excerpt_verbatim": "## 3. The degree-p seed has an exact first correction\n\nFor \\(1\\le j\\le(p-1)/2\\),\n\\[\n\\binom p{2j}\\equiv-\\frac p{2j}\\pmod{p^2}.\n\\]\nSubstituting into (3) and using (8) gives\n\\[\nA_p\\equiv 2^p-p2^{p-1}q_p(2)\n\\equiv2+pq_p(2)=1+2^{p-1}\\pmod{p^2}.\n\\tag{9}\n\\]\nIn particular, with \\(g_0=(A_p-2)/p\\),\n\\[\ng_0\\equiv q_p(2)\\pmod p.\n\\tag{10}\n\\]\nThe quantities in (9) are actual integers; all denominators used to derive the congruence are units at the odd prime.\n\n## 4. A three-coefficient calculation proves the all-m congruence\n\nDefine the integer Laurent polynomial\n\\[\nG(z)=\\frac{f(z)^p-f(z^p)}p.\n\\]\nIt has support in \\([-p,p]\\). Among exponents divisible by \\(p\\), its only coefficients are\n\\[\n[z^p]G=0,\\qquad\n[z^0]G=g_0,\\qquad\n[z^{-p}]G=\\frac{2^p-2}{p}=2q_p(2).\n\\tag{11}\n\\]\nFor arbitrary \\(m\\ge1\\), binomial expansion gives\n\\[\nf(z)^{mp}\\equiv\nf(z^p)^m+mp\\,G(z)f(z^p)^{m-1}\\pmod{p^2}.\n\\]\nOnly the three exponents in (11) contribute to its constant term. Write\n\\(B_{m-1}=[z^1]f(z)^{m-1}\\). Then\n\\[\nA_{mp}\\equiv A_m+\nmp\\left(g_0A_{m-1}+2q_p(2)B_{m-1}\\right)\\pmod{p^2}.\n\\tag{12}\n\\]\n\nThe symmetry \\(f(2/z)=f(z)\\) gives\n\\([z^{-1}]f^{m-1}=2B_{m-1}\\), and therefore the exact identity\n\\[\nA_m=2A_{m-1}+4B_{m-1}.\n\\tag{13}\n\\]\nUsing (10) in (12), the bracket becomes\n\\(q_p(2)(A_{m-1}+2B_{m-1})=q_p(2)A_m/2\\) modulo \\(p\\). This proves (1).\n\nThis argument does not require \\(m<p\\), does not divide by \\(A_m\\), and remains valid when \\(p\\mid m\\) or \\(A_m\\equiv0\\pmod p\\). Terms of order at least two in \\(pG\\) are all divisible by \\(p^2\\).\n",
+        "conditions": "integer Laurent f；m任意≥1，不除A_m",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R7",
+        "definite_error": false
+      },
+      {
+        "assertion": "saturated endpoint depth与17族",
+        "source_line_start": 169,
+        "source_line_end": 205,
+        "source_excerpt_verbatim": "## 5. Nonvanishing and actual endpoint-depth consequences\n\nEquations (1) and (6) give the explicit limiting congruence\n\\[\n\\boxed{\n\\mathcal A_{m,p}\n\\equiv A_m\\left(1+\\frac{mp}{2}q_p(2)\\right)\\pmod{p^2}.\n}\n\\tag{14}\n\\]\nThe factor in parentheses is a unit. If \\(v_p(A_m)=0\\), the limit is a unit. If \\(v_p(A_m)=1\\), its correction term is already divisible by \\(p^2\\), so\n\\(\\mathcal A_{m,p}\\equiv A_m\\pmod{p^2}\\), with exact valuation one. This proves (2).\n\nFor the actual saturated degree \\(n=mp^\\nu,\\ 3m<p\\), root's Gauss-stability note and the reviewed Cauchy scalar formula show that the valuation of the normalized simultaneous denominator is determined by \\(A_n\\) whenever that valuation is less than \\(\\nu\\). Consequently:\n\\[\n\\boxed{\n\\begin{array}{ll}\nv_p(A_m)=0:& v_p(d_n^{II})=0\\quad(\\nu\\ge1),\\\\[2mm]\nv_p(A_m)=1:& v_p(d_n^{II})=1\\quad(\\nu\\ge2).\n\\end{array}}\n\\tag{15}\n\\]\nIn the second line,\n\\[\nv_p(Z_n)=\\frac{n-m}{p-1}+1,\\qquad\nv_p(c_n^Q)=\\frac{n-m}{p-1}.\n\\]\nThe congruence depth does not determine \\(v_p(d_n^{II})\\) at \\(\\nu=1\\) in that line.\n\nSince \\(A_4=136=8\\cdot17\\), (15) yields\n\\[\nv_{17}(d_{4\\cdot17^\\nu}^{II})=1\\qquad(\\nu\\ge2)\n\\]\nfrom the degree-four seed alone. It agrees with root's independent degree-68 certificate, but does not depend on computing that certificate. No new numerical seed or scan is used here.\n\nFor \\(v_p(A_m)\\ge2\\), (14) says only that the limit is divisible by \\(p^2\\). It does not prove that the limit is nonzero, that the initial valuation persists, or that all endpoint depths are bounded.\n",
+        "conditions": "3m<p；seed0 ν≥1；seed1 ν≥2；17族m4",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R6、R7",
+        "definite_error": false
+      },
+      {
+        "assertion": "整数H、Witt ghost和convergent limit",
+        "source_line_start": 206,
+        "source_line_end": 240,
+        "source_excerpt_verbatim": "## 6. An exact convergent representation, with its cancellation limitation\n\nThere is an elementary integral formal unit behind (4):\n\\[\nH(t)=\\frac{1-2t+\\sqrt{1-4t-4t^2}}2\\in1+t\\mathbb Z[[t]].\n\\]\nIntegrality follows recursively from\n\\(H^2-(1-2t)H+2t^2=0\\), whose coefficient multiplying each new unknown coefficient is \\(2H(0)-1=1\\). Direct differentiation gives\n\\[\nF(t)-1=-t\\frac{H'(t)}{H(t)}.\n\\]\nEvery integral formal unit has a unique factorization\n\\[\nH(t)=\\prod_{d\\ge1}(1-b_dt^d),\\qquad b_d\\in\\mathbb Z.\n\\]\nThis can be proved by successively removing its first nonzero coefficient; each coefficient requires only finitely many factors. Logarithmic differentiation gives the exact ghost-coordinate identity\n\\[\nA_n=\\sum_{d\\mid n}d\\,b_d^{\\,n/d}.\n\\tag{16}\n\\]\n\nFor \\(p\\nmid m\\), split \\(d=ep^j\\), \\(e\\mid m\\). Let \\(\\omega_p(b)\\) denote the Teichmüller unit congruent to \\(b\\) modulo \\(p\\), and put \\(\\omega_p(b)=0\\) if \\(p\\mid b\\). Taking the limit in (16) yields\n\\[\n\\boxed{\n\\mathcal A_{m,p}\n=\\sum_{e\\mid m}e\\sum_{j\\ge0}\np^j\\,\\omega_p(b_{ep^j})^{\\,m/e}.\n}\n\\tag{17}\n\\]\nFor each fixed \\(j\\), the limit\n\\(b^{p^{r-j}}\\to\\omega_p(b)\\) is elementary. The tails with \\(j\\ge J\\) are uniformly divisible by \\(p^J\\), so the interchange of the limit and sum is justified. Formula (17) is a usual Witt-coordinate representation, derived here for the actual algebraic unit rather than asserted from a generic formal analogy.\n\nIt represents the limit exactly and converges at a controlled rate. Its summands can cancel, so it supplies no extra nonvanishing statement for seeds with valuation at least two. Positivity of the original integer constant terms does not give a \\(p\\)-adic sign or prevent this cancellation.\n",
+        "conditions": "p∤m作d=e p^j分解；p奇；允许summand cancellation",
+        "claim_verdict": "成立（原文条件范围内）",
+        "reason_entry": "DECISIVE_REDERIVATIONS.md",
+        "reason_units": "R7",
+        "definite_error": false
+      }
+    ],
+    "independent_finite_interface_ids": [
+      "all_m_mod_p2_boundary_controls"
+    ],
+    "whole_sealed_original_entry": "[private local path removed]",
+    "whole_sealed_original_sha_verified": true,
+    "old_full_packet_spans": [
+      {
+        "pack_absolute_path": "[private local path removed]",
+        "pack_start_character": 993,
+        "pack_end_character": 12256,
+        "source_start_character": 0,
+        "source_end_character": 11263,
+        "pack_start_line": 15,
+        "pack_end_line": 265,
+        "source_start_line": 1,
+        "source_end_line": 251,
+        "pack_characters": 38419,
+        "pack_raw_sha256": "11ec1b7155da7900586ec58c870aaedb1df01d4cc66db21a052cf7557011fed2",
+        "source_span_raw_sha256": "89f3db021f17af4f09f1c0bb3c0fd86d83c6a308c8b257bf80d4b48f754e0a89"
+      }
+    ],
+    "per_file_report": "reviews/DOC_2085.md",
+    "proof_reason_entry": "DECISIVE_REDERIVATIONS.md",
+    "finite_evidence_entry": "INDEPENDENT_EXACT_CONTROLS.json",
+    "math_review_authorized_on_this_turn": true,
+    "historical_PASS_adopted": false,
+    "main_status_or_database_modified": false
+  }
+]

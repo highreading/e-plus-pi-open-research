@@ -1,0 +1,52 @@
+{
+  "item": 335,
+  "schema": "item335-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_GLOBAL_FIRST_CANONICAL_COFACTOR_ZERO_RATE_NO_GO",
+  "scope": "independent root audit of the exact adjacent cofactor, canonical first-survivor theorem, and beta-scale capacity conclusion",
+  "checks": {
+    "certificate_sha256": "43471c9f193257d9e901b2b65fa3850d5b42be4be034d7399cd3ade62c3a8345",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_sha256": "72acbb727f40f2a717b774edbaff45be03b0216d8d660acc0c6f901c158b4db9",
+    "work_manifest_artifacts_match": true,
+    "frozen_dependencies_checked": 8,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 6,
+    "work_hash_list_match": true,
+    "exact_control_rows": 18,
+    "target_census_performed": false,
+    "report_inline_delimiters": "59/59",
+    "report_display_delimiters": "51/51",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "load_identity": "the homogeneous suffix contribution cancels exactly, leaving z_j=epsilon(delta_j-w_j delta_(j-1))",
+    "target_quotient": "the Item-333 defect decomposition gives L-a+epsilon delta_(m-1)=Delta+A z_m without dividing by an unproved unit",
+    "first_survivor": "the actual intermediate-window lower bound forces a nonzero digit at depth at least two; stripping zero top pairs therefore reaches a nonzero z_* with absolute value below A^2",
+    "capacity": "for every Q dividing b, log gcd(Q,abs(z_*)) is below 2 log A=o(log b); the same height argument closes every fixed-cardinality bounded-degree polynomial-height portfolio when nonzero",
+    "scope_warning": "the theorem does not control a growing tower, the full lower coordinate, complement redigitization, or an exact zero contradiction; it proves no centered half-bound and books no mass"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact adjacent cofactor and target quotient identities",
+      "canonical first-survivor existence and A^2 height bound",
+      "proper-target gcd bound and fixed-complexity zero-rate closure",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "18 declared control rows and their exact factorizations"
+    ],
+    "OPEN": [
+      "growing-depth or global cofactor arithmetic",
+      "centered half-bound and actual target exclusion",
+      "any beta capacity reduction"
+    ]
+  },
+  "capacity": {
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "new_booking": 0
+  }
+}

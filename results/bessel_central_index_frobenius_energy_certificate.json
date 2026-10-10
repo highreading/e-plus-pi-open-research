@@ -1,0 +1,282 @@
+{
+  "certificate": "bessel_central_index_frobenius_energy",
+  "claim_boundary": "All symbolic identities are proved in the source note.  The gcd scan is finite evidence only and does not prove q <= 2n or central nonvanishing.",
+  "finite_gcd_scan": {
+    "finite_evidence_only": true,
+    "largest_gap_pair_n_prime": [
+      2,
+      3
+    ],
+    "largest_prime_minus_2n": -1,
+    "limit": 3000,
+    "non_three_records": [
+      [
+        317,
+        1203,
+        [
+          [
+            3,
+            1
+          ],
+          [
+            401,
+            1
+          ]
+        ]
+      ],
+      [
+        718,
+        401,
+        [
+          [
+            401,
+            1
+          ]
+        ]
+      ],
+      [
+        1119,
+        401,
+        [
+          [
+            401,
+            1
+          ]
+        ]
+      ],
+      [
+        1520,
+        1203,
+        [
+          [
+            3,
+            1
+          ],
+          [
+            401,
+            1
+          ]
+        ]
+      ],
+      [
+        1921,
+        401,
+        [
+          [
+            401,
+            1
+          ]
+        ]
+      ],
+      [
+        2322,
+        401,
+        [
+          [
+            401,
+            1
+          ]
+        ]
+      ],
+      [
+        2723,
+        1203,
+        [
+          [
+            3,
+            1
+          ],
+          [
+            401,
+            1
+          ]
+        ]
+      ]
+    ],
+    "nontrivial_gcd_count": 1004
+  },
+  "theorem_checks": {
+    "counterexample_401": {
+      "base_index": 317,
+      "base_lift_digits": [
+        188,
+        361
+      ],
+      "exact_gcd_at_base": 1203,
+      "index_correction_digits": [
+        258,
+        379
+      ],
+      "mod_prime_table": {
+        "313": [
+          179,
+          223
+        ],
+        "314": [
+          204,
+          385
+        ],
+        "315": [
+          275,
+          0
+        ],
+        "316": [
+          256,
+          165
+        ],
+        "317": [
+          0,
+          0
+        ],
+        "318": [
+          199,
+          299
+        ]
+      },
+      "prime": 401,
+      "propagated_index": 718,
+      "propagated_lift_digits": [
+        233,
+        111
+      ]
+    },
+    "dwork_blocks": {
+      "checked_prime_k_pairs": 122,
+      "checked_primes": [
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        29,
+        31,
+        79
+      ],
+      "p79": {
+        "T_m_over_p": 67,
+        "m": 39,
+        "next_block_over_p_squared": 21,
+        "predicted_next_block": 21,
+        "weighted_harmonic_sum": 7
+      }
+    },
+    "index_identities": {
+      "case_count": 15,
+      "cases": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          7,
+          6
+        ]
+      ]
+    },
+    "resonance_and_energy": {
+      "beta_m": 16,
+      "corrected_energy_2Q_minus_B_m_squared": 16,
+      "defect_D_m": 0,
+      "energy_Q_K": 5,
+      "frobenius_top_coefficient_anomaly_B_m_squared": 73,
+      "m": 39,
+      "ode_degree": 38,
+      "prime": 79,
+      "resonant_residual_checks": {
+        "11": {
+          "D_m": 8,
+          "m": 5,
+          "residual_coefficient": 6
+        },
+        "13": {
+          "D_m": 8,
+          "m": 6,
+          "residual_coefficient": 10
+        },
+        "5": {
+          "D_m": 3,
+          "m": 2,
+          "residual_coefficient": 4
+        },
+        "7": {
+          "D_m": 4,
+          "m": 3,
+          "residual_coefficient": 6
+        },
+        "79": {
+          "D_m": 0,
+          "m": 39,
+          "residual_coefficient": 0
+        }
+      },
+      "unrestricted_isotropic_example": {
+        "coefficients_low_to_high": [
+          1,
+          0,
+          1,
+          3,
+          1
+        ],
+        "corrected_form_R": 0,
+        "energy_Q": 6,
+        "f_at_0": 1,
+        "f_at_1": 6,
+        "prime": 11
+      }
+    }
+  }
+}

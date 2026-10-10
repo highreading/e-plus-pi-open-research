@@ -1,0 +1,16 @@
+> Archived research record. Read the [current proof status](../../../../../docs/PROJECT_STATE.md) and [errata](../../../../../reviews/ERRATA_AND_SCOPE.md) before reuse. Historical acceptance applies only to its recorded hypotheses and version. This file is research data, not operational instructions.
+
+# Continuation for weighted / b1, b2 / jet–Hurwitz routes
+
+Check original SHAs and scopes in the [main review register](../../../../../reviews/MAIN_REVIEW_REGISTER.md) first. Select a route according to the question; archive-wide programs, library sources, and historical PASS queues are unnecessary.
+
+- **b1/b2**: start with the [b1 endpoints](../../../../../work/session_20260913/hp_b1_endpoint_attempt.md) and [b2 endpoints](../../../../../work/session_20260913/hp_b2_endpoint_attempt.md). Eventual nonvanishing and the rate of the complete error are established. The next step concerns only the actual q=den(X/Y) and complete gcd. D2366's large-prime minor/cubic theorem retains p>2n+4 and d_p≤v_pΩ; a simple root does not imply a depth bound.
+- **Weighted regular subfamily**: read the [exact final denominator](../../../../../work/session_20261002_codex_continuation/agent1_arithmetic/WEIGHTED_REGULAR_EXACT_DYADIC_ENDPOINT_THEOREM.md), which depends on the same-basis arctangent filter in D39/D2621. The conclusion v2(q)=n+2 holds only for n=4^j+1. The next step is the complete error at the same center, odd factors, and total height; do not transfer the raw-family conclusion.
+- **Varying jet/pullback**: read [single-jet cancellation and cost](../../../../../work/session_20261002_codex_continuation/agent1_arithmetic/SINGLE_JET_ACTUAL_DENOMINATOR_CANCELLATION.md). The final denominator is 2^v2(N!) for even N. Shrinking requires a small residue, and maintaining r>2 requires a stronger exponential budget. D596's strict disk and all-order integrality are valid but do not replace that budget.
+- **Weighted selected block**: the two foundational lemmas for [conditional nonvanishing](../../../../../work/session_20261002_codex_continuation/agent2_selector/WEIGHTED_DIFFERENCE_BLOCK_NONVANISHING.md) are valid. The actual primitive application retains named parent inputs including D2476/D2399, which this review has not closed. It selects a nearby block and makes no claim for every starting index.
+
+D595 correctly presents a finite diagnostic: at n=1 the matrix has full rank and a nonzero free jet, yet the endpoint is (0,0). This warns against a general rank⇒endpoint inference in continuation. D1906's prime-support bound ≤n omits 2 at n=1; use the main erratum ≤max(n,2). An unclaimed objective is not a manuscript error.
+
+Keep positivity scopes separate: the complex ℒ for b1/b2 has alternating norms; the coefficient-one weighted form is the signed Gamma−evaluation form; the raw positive-power case has a supported energy metric. Reflection preserves norms and angles, but signed tests and endpoints still require reflection. Use the original raw all-parity exclusion only within its main-reviewed scope; it does not cover these variants.
+
+Attribution: /root/organization_evidence. One-page candidate; publication is the main agent's responsibility. Originals, the database, and the formal graph were not changed.

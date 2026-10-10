@@ -1,0 +1,83 @@
+{
+  "item": 377,
+  "schema": "item377-j1-horizontal-filtered-hasse-neutrality-manifest-v1",
+  "classification": "PROVED_SCOPED_HORIZONTALITY_INFORMATION_NEUTRAL_NO_GO",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual fixed-j1 filtered Hasse extension on a formal two-parameter Frobenius base, general Griffiths-transverse connection, Frobenius horizontality, integrability, dense coefficient-moment support, and capacity",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item374_j1_filtered_hasse_extension_realization_report.md": "ac04f52132e3355692b1744d625f765dd6b0d1e74f90b123ebd599c135b009d2",
+    "scripts/item374_j1_filtered_hasse_extension_realization_certificate.py": "45802992e5347d83660a520db3cebd72681908bf80b3406795a594fb514fdfbe",
+    "results/item374_j1_filtered_hasse_extension_realization_certificate.json": "609f378221a2aafa823947dd967fe0c626df3c74ff726681e406d9b1d4a4fcaf",
+    "results/item374_j1_filtered_hasse_extension_realization_certificate_replay.json": "609f378221a2aafa823947dd967fe0c626df3c74ff726681e406d9b1d4a4fcaf",
+    "results/item374_j1_filtered_hasse_extension_realization_root_replay.json": "609f378221a2aafa823947dd967fe0c626df3c74ff726681e406d9b1d4a4fcaf",
+    "results/item374_j1_filtered_hasse_extension_realization_ledger_delta.json": "3f7fbd0dc0801d84f324fc5f2f426fd00567cb7d79cff895c1c7e09abe5dcfd1",
+    "results/item374_j1_filtered_hasse_extension_realization_root_audit.json": "c66909a9599e760addcbcc79239646d36889cf7eb6118b97800e5474bf871b6a",
+    "manifests/item374_j1_filtered_hasse_extension_realization_manifest.json": "5963968673fdb77e53ab4acdce5c1eb5e323491c79ef27a45f5f6ee39d73fcd5"
+  },
+  "artifacts": {
+    "report": {
+      "path": "sources/item377_j1_horizontal_filtered_hasse_neutrality_report.md",
+      "sha256": "3ec49699b97447b12b7b00389be52372efee193ab673859b7e454142a09440c3",
+      "bytes": 11059
+    },
+    "certificate_script": {
+      "path": "scripts/item377_j1_horizontal_filtered_hasse_neutrality_certificate.py",
+      "sha256": "e80706033c5d5e05fbec2668da53cb5f50f07d476a5350d54c37543967c832ba",
+      "bytes": 10879
+    },
+    "certificate": {
+      "path": "results/item377_j1_horizontal_filtered_hasse_neutrality_certificate.json",
+      "sha256": "299663f4f520ff77760ff4ee4b6d554b7d59b9c36e04e7f2be25026022eab9af",
+      "bytes": 5252
+    },
+    "replay": {
+      "path": "results/item377_j1_horizontal_filtered_hasse_neutrality_certificate_replay.json",
+      "sha256": "299663f4f520ff77760ff4ee4b6d554b7d59b9c36e04e7f2be25026022eab9af",
+      "bytes": 5252,
+      "byte_identical_to_certificate": true
+    },
+    "ledger": {
+      "path": "results/item377_j1_horizontal_filtered_hasse_neutrality_ledger_delta.json",
+      "sha256": "153ac70b32d36eac7b9a89594d9bd9dccf2eab263c10754b8eb10a9e433fada9",
+      "bytes": 3343
+    }
+  },
+  "theorems": [
+    "the general Frobenius-horizontality matrix equations force a=b=d=0 under p-adic separation and leave C(c)-c=dq",
+    "on W(k)[[H,S]] with standard Frobenius the normalized pullback C is adically topologically nilpotent, so every analytic q has the unique connection c=-sum_(j>=0) C^j(dq)",
+    "the unique connection is integral, flat, Griffiths-transverse, and compatible with both full and divided Frobenius",
+    "ordinary fixed-rank fixed-Hodge horizontality imposes no new differential or difference condition on q",
+    "on the universal coefficient-moment base q=sum_i y_i, the connection has cotangent term -sum_i dy_i, retaining every independent local direction",
+    "the inherited p^2-O(p) pointwise support is a coefficient-support obstruction, not a claimed geometric conductor bound after pullback",
+    "the full 1/36 ceiling is retained and zero is booked"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "general matrix horizontality equations",
+      "unique integral flat connection for every q",
+      "full and divided Frobenius compatibility",
+      "fixed-rank fixed-Hodge horizontality-information-neutral no-go",
+      "dense cotangent support on the universal coefficient-moment base",
+      "zero booking"
+    ],
+    "DECLARED_EXACT_CONTROLS_ONLY": [
+      "three polynomial normalized-Frobenius resolvent controls and one eleven-coordinate cotangent control; no prime or collision scan"
+    ],
+    "OPEN": [
+      "a prime-independent bounded-complexity geometric family realizing the actual cross-prime Q0",
+      "bounded conductor or bounded support after pullback to the tied selector",
+      "weighted nonconcentration, any strict fixed-j1 ceiling reduction, Route 1, and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_log_mass": "M/6+o(M)",
+    "raw_ceiling_per_6M": "1/36",
+    "weighted_target": "W_(H,Q)(M)=o(M)",
+    "weighted_target_proved": false,
+    "new_linear_log_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0,
+    "retained_ceiling_per_6M": "1/36"
+  }
+}

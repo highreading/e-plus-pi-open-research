@@ -1,0 +1,87 @@
+{
+  "item": 400,
+  "schema": "item400-j1-discriminant-energy-sieve-threshold-no-go-manifest-v1",
+  "classification": "PROVED_DISCRIMINANT_ENERGY_AND_AMBIENT_SIEVE_THRESHOLD_NO_GO",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual fixed-j=1 root-polynomial discriminant and derivative coprimality, logarithmic short-gap Vandermonde, multiplicative and graph energy, and sharp support-only sieve threshold",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item384_j1_universal_filtered_selector_capacity_no_go_report.md": "9a7340ec9960ad6278e47c63de728048b52cfe59fc957ca93ea32558c6c39342",
+    "manifests/item384_j1_universal_filtered_selector_capacity_no_go_manifest.json": "f0894c311c76a44c7ffb87d6a885dd0b05e4bd5ba4d3727cd0e8dbe3ffd57f21",
+    "sources/item391_j1_logarithmic_spacing_resultant_criterion_report.md": "304713605fcf33675a882b4f333d60cc35fd36bc6b860353eff36472d4a27564",
+    "manifests/item391_j1_logarithmic_spacing_resultant_criterion_manifest.json": "07e4a438dbc32e52e67587d7a0fe4886d23e584fd7fae34aafe7f234c334e511",
+    "sources/item395_j1_logscale_cluster_radical_height_obstruction_report.md": "af0d85607d665f5d6c12c2695a44a89d984abffb008bbd1318978471e79f4487",
+    "manifests/item395_j1_logscale_cluster_radical_height_obstruction_manifest.json": "3ef54ba9d3caa5af1b76bde52822447e253256c4c0ebb30dd6bb8a6200502cbd",
+    "sources/item398_j1_aggregate_endpoint_resultant_graph_valuation_no_go_report.md": "3773d8209ea6e5b08f524cc44f582739baa6393a9cb362a8e5cc0f9f34f13da4",
+    "manifests/item398_j1_aggregate_endpoint_resultant_graph_valuation_no_go_manifest.json": "d62e46075fd88086ffdba4b05545cf57ac52ab9dc981941faf5352b71cf9a69f"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item400_j1_discriminant_energy_sieve_threshold_no_go_report.md",
+      "sha256": "e7475ed8297dbc83fbf9558298be0a04b7a404d5d352f4090faa3a1a2925d251",
+      "bytes": 18280
+    },
+    "certificate_script": {
+      "path": "work/item400_j1_discriminant_energy_sieve_threshold_no_go_certificate.py",
+      "sha256": "0b98d6c5883d3d2a75c87cdb22c86ecd569fc1e1ad8adb9affd496628f121c08",
+      "bytes": 11001
+    },
+    "certificate": {
+      "path": "work/item400_j1_discriminant_energy_sieve_threshold_no_go_certificate.json",
+      "sha256": "410e8913986896beb8f4eed47238312827867c212e3818cab786643e98ef6216",
+      "bytes": 10270
+    },
+    "replay": {
+      "path": "work/item400_j1_discriminant_energy_sieve_threshold_no_go_certificate_replay.json",
+      "sha256": "410e8913986896beb8f4eed47238312827867c212e3818cab786643e98ef6216",
+      "bytes": 10270,
+      "byte_identical_to_certificate": true
+    },
+    "ledger": {
+      "path": "work/item400_j1_discriminant_energy_sieve_threshold_no_go_ledger_delta.json",
+      "sha256": "eb63553926a4512cf4b96a18e5b7cccace096bd79998dc232674eb924d915951",
+      "bytes": 3043
+    }
+  },
+  "theorems": [
+    "the actual root radical is coprime to the Vandermonde, discriminant, product of root derivatives, and derivative at zero",
+    "the logarithmic-window short-gap Vandermonde has o(M) height by the Selberg pair bound but is coprime to every endpoint prime",
+    "the ordered multiplicative energy of any n distinct primes is exactly 2n^2-n and is independent of gaps",
+    "universal graph-energy and degree inequalities do not upper-bound the positive-degree vertex radical below the admission coefficient",
+    "for the full ambient prime set and D~c log M, the cluster radical has liminf logarithmic coefficient at least (2c-1)/(12c)",
+    "at c=1 the ambient lower coefficient is 1/12, exactly saturating the Item395 strict-saving threshold",
+    "generic discriminant, energy, Vandermonde, fixed-rank selector, and support-only sieve information cannot yield a strict fixed-j1 capacity saving"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "exact discriminant, derivative, and Vandermonde candidate-prime coprimality",
+      "sublinear short-gap label product with zero endpoint-prime content",
+      "exact multiplicative-energy blindness",
+      "universal graph-energy limitations",
+      "sharp ambient-prime threshold saturation",
+      "scoped discriminant-energy-Vandermonde-support-only-sieve no-go",
+      "zero booking and retained 1/36 ceiling"
+    ],
+    "CONDITIONAL_OR_OUTSIDE_CLOSED_CLASS": [
+      "a gate-specific larger-sieve or monodromy theorem",
+      "a special carrier from the original Hasse-transverse moments",
+      "cross-M arithmetic restrictions on the actual selector",
+      "any strict actual cluster-radical upper bound"
+    ],
+    "DECLARED_EXACT_CONTROLS_ONLY": [
+      "four abstract prime-root sets inside actual tied intervals",
+      "no actual collision scan or finite-to-infinite inference"
+    ],
+    "OPEN": [
+      "logarithmic-window weighted zero density for the actual fixed-j1 gate",
+      "W(M)=o(M) or any strict fixed-j1 retained constant",
+      "any new Route-1 booking and every conclusion about e+pi"
+    ]
+  },
+  "ledger": {
+    "new_route1_booking": 0,
+    "new_whole_cell_capacity_reduction": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "conclusion_about_e_plus_pi": "OPEN"
+  }
+}

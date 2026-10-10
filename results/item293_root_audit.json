@@ -1,0 +1,45 @@
+{
+  "schema": "item293-root-audit-v1",
+  "audit_date": "2026-08-31",
+  "auditor": "root",
+  "verdict": "PASS_WITH_STRICT_INFORMATION_CLASS_SCOPE",
+  "substantive_checks": {
+    "symbolic_recurrence": "PASS: substituting the proved gauge c_h=G_h E_h^* into Item237's exact step-three recurrence and clearing one common rational multiplier gives the displayed integral Q_k; the independent replay verifies that Q_k divided by p_k times the accumulated gauge quotient is independent of k",
+    "operator_primitivity": "PASS: all four Q_k have degree 22, their individual contents are (4096,512,4,27) with joint gcd one, and their common polynomial gcd over Q[h] is one; this is not promoted to a value-gcd theorem",
+    "sign_propagation": "PASS: Q_0,Q_1,Q_2 are negative and Q_3 is positive for h>=1; three exact initial values in each nonzero residue class modulo three therefore propagate the asserted rational signs",
+    "moving_prime_warning": "PASS: rational sign-definiteness does not imply nonvanishing modulo p; moreover Q_3 contains 4h+39, which equals the actual prime on s=6, with the genuine witness (h,s,p)=(1,6,43)",
+    "large_prime_bridge": "PASS: the proved gauge is a unit after localizing at primes <=4h+3, so valuations of the reduced numerators of E_h^* and c_h agree at every larger prime; the threshold extraction M_h is correctly kept nonlinear",
+    "algebraic_height": "PASS: fixed algebraicity supplies an exponential common denominator and the local analytic branch supplies exponential coefficient size, hence log|num(c_h)|=O(h), only the collective O(H^2) radical bound",
+    "comparison_no_go": "PASS WITH NARROW SCOPE: a_h=4h+9 has a rational generating function, an integral fixed-order recurrence, and smaller height, while its prime values are actual s=1 rows; PNT in the progression 1 mod 4 gives theta(4H+9;4,1)+O(1)~2H",
+    "capacity": "PASS: no sequence-specific weighted o(H) theorem is proved, so the retained conditional j=1 ceiling remains 1/36 per 6m and the new booking is zero"
+  },
+  "independent_replay": {
+    "canonical_sha256": "7af9fd9fe5e6bff2a0402c142479bbca0632c9b5e0f8591a29b41741e1be81f7",
+    "root_replay_sha256": "7af9fd9fe5e6bff2a0402c142479bbca0632c9b5e0f8591a29b41741e1be81f7",
+    "byte_identical": true
+  },
+  "package_checks": {
+    "manifest_files_checked": 6,
+    "frozen_dependencies_checked": 8,
+    "hash_list_entries_checked": 7,
+    "json_files_parsed": 4,
+    "all_hashes_and_dependencies_match": true
+  },
+  "report_checks": {
+    "sha256": "d87baac933defb82511f50942a9d3ab09ef1dcdc341be507e163b04050537804",
+    "bytes": 13632,
+    "lines": 452,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "display_delimiters": "37/37",
+    "inline_delimiters": "76/76",
+    "text_fences": 2
+  },
+  "strict_scope": {
+    "proved": "An exact primitive integral recurrence and rational sign theorem for the sole E_h^* gate, the exact large-prime algebraic-coefficient bridge, and a no-go for deriving horizontal o(H) from generic algebraicity/holonomy/integrality/height information alone.",
+    "not_proved": "Any sequence-specific moving-prime zero-density, radical, monodromy, Cartier, or auxiliary-local theorem for M_h.",
+    "next_exact_target": "Analyze the actual-row modular singular rays of the Q_k recurrence and seek sequence-specific fixed-diagonal or auxiliary-local information.",
+    "open": "The weighted actual-prime bound, the retained 1/36 fixed-j1 ceiling, Route 1, and every conclusion about e+pi.",
+    "route_status": "Route 1 ACTIVE; Route 2 QUEUED"
+  }
+}

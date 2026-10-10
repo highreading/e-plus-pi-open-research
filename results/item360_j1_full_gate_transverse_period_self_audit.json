@@ -1,0 +1,45 @@
+{
+  "schema": "item360-j1-full-gate-transverse-period-self-audit-v1",
+  "item": 360,
+  "date": "2026-09-01",
+  "verdict": "PASS_TRANSVERSE_CONDITION_ZERO_BOOKING_PACKAGE",
+  "mathematical_checks": {
+    "original_coordinates": "Q0=2Ax-By and Q1=2Cu-Dv",
+    "actual_ratios": "lambda=B/A, alpha=C/A, beta=D/B with exact Item218 formulas",
+    "resultant": "Res_lambda(f0,f1)=2H",
+    "universal_elimination": "I_univ intersect K[x,y,u,v]=<H>",
+    "actual_ideal": "<f0,f1> is prime codimension two",
+    "syzygy": "beta*v*f0-y*f1=2H",
+    "primary_decompositions": "both x,y and u,v boundary charts verified by Groebner elimination",
+    "parameter_derivative": "direct exact coefficient extraction equals Q0",
+    "actual_separation": "p=13 and p=47 selected-Hasse zeros have transverse residues 9 and 30"
+  },
+  "logical_checks": {
+    "full_collision_direction_preserved": true,
+    "selected_Hasse_converse_not_used": true,
+    "actual_lambda_fixed_before_codimension_claim": true,
+    "ambient_period_ring_scope_stated": true,
+    "chart_boundaries_retained": true,
+    "finite_separation_controls_not_used_as_density_evidence": true,
+    "algebraic_codimension_not_booked_as_mass": true
+  },
+  "reproducibility": {
+    "prime_scans": 0,
+    "predeclared_rows": 5,
+    "selected_zero_separation_controls": 2,
+    "certificate_replay_required_byte_identical": true,
+    "canonical_files_modified": false
+  },
+  "capacity": {
+    "additional_collision_forced_algebraic_condition": 1,
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "booking": 0,
+    "retained_ceiling_per_6M": "1/36"
+  },
+  "open_risks": [
+    "the joint zero set still lacks a weighted nonconcentration theorem",
+    "the two chart boundary components may carry unknown moving-prime mass",
+    "actual-family identities among the four periods may further alter geometric codimension"
+  ]
+}

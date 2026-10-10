@@ -1,0 +1,55 @@
+{
+  "item": 333,
+  "schema": "item333-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_SCOPED_ALL_MODULUS_NONLINEAR_STATE_SATURATION_NO_GO",
+  "scope": "independent root audit of the integral target-coordinate theorem and the all-degree, all-depth, all-modulus formal nonlinear-state no-go",
+  "checks": {
+    "certificate_sha256": "933120c05e0f67663608e9e53354407f4593718c149941942d070f4af3c0a76a",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_sha256": "2e64022796f8b5a8f7fa7e810c18390388b555d361d87a37be0dcec438deac6b",
+    "work_manifest_artifacts_match": true,
+    "frozen_dependencies_checked": 13,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 6,
+    "work_hash_list_match": true,
+    "coordinate_control_rows": 12,
+    "modular_control_rows": 40,
+    "report_inline_delimiters": "61/61",
+    "report_display_delimiters": "45/45",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "defect": "in each sign chamber Delta_sigma=sigma E_(m+1)-a is exactly the old Item-316 target defect",
+    "bezout": "the coefficients u=s(Aw_m+1), v=-sA of the top two digits obey s*u+s*w_m*v=1",
+    "coordinate": "the affine change t=Delta_sigma, z=-s*w_m d_(m-1)+s d_m has determinant one and an integral inverse",
+    "ideal": "the quotient by Delta_sigma is a polynomial ring over Z, so the target ideal is prime, radical, and Z-saturated",
+    "all_moduli": "for every modulus Q>=2, formal target specialization has kernel exactly (Q,Delta_sigma)",
+    "state_pullback": "after substituting every all-depth N/J and prefix/suffix state, a recurrence-only polynomial congruence forced by the target is a universal syzygy or Delta_sigma*C+Q*D",
+    "scope_warning": "canonical cofactor sign, nonvanishing, size, gcd and exact valuations, floors, absolute values, complement redigitization, proper targets, and the centered half-bound remain open"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "integral defect coordinate and saturated target ideal",
+      "all-composite-modulus kernel",
+      "all-degree and all-depth recurrence-state pullback",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared coordinate and modular controls"
+    ],
+    "OPEN": [
+      "arithmetic of canonical cofactors",
+      "complement redigitization and non-polynomial operations",
+      "the centered half-bound and any beta capacity reduction"
+    ]
+  },
+  "capacity": {
+    "raw_height_admission": "PASSES_WITHOUT_BOOKING",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "new_booking": 0
+  }
+}

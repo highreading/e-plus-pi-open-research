@@ -1,0 +1,103 @@
+{
+  "description": "Exact finite regression checks for the identity f_p'(n)=(-1)^(n+1)(p_n*K_p-b_n) and its ordinary-root next-digit consequence.",
+  "initial_linear_forms": {
+    "n=0": "-K_p",
+    "n=1": "3*K_p-4"
+  },
+  "ordinary_lift_records": [
+    {
+      "jet_unit_mod_p": 2,
+      "kappa_mod_p": 6,
+      "lifted_index_mod_p_power": 30,
+      "n": 2,
+      "predicted_unique_next_digit": 4,
+      "prime": 7,
+      "q_quotient_mod_p": 1,
+      "valuation": 1
+    },
+    {
+      "jet_unit_mod_p": 12,
+      "kappa_mod_p": 10,
+      "lifted_index_mod_p_power": 346,
+      "n": 8,
+      "predicted_unique_next_digit": 2,
+      "prime": 13,
+      "q_quotient_mod_p": 11,
+      "valuation": 2
+    },
+    {
+      "jet_unit_mod_p": 5,
+      "kappa_mod_p": 6,
+      "lifted_index_mod_p_power": 361,
+      "n": 18,
+      "predicted_unique_next_digit": 1,
+      "prime": 7,
+      "q_quotient_mod_p": 5,
+      "valuation": 3
+    },
+    {
+      "jet_unit_mod_p": 1,
+      "kappa_mod_p": 1,
+      "lifted_index_mod_p_power": 1359,
+      "n": 28,
+      "predicted_unique_next_digit": 1,
+      "prime": 11,
+      "q_quotient_mod_p": 1,
+      "valuation": 3
+    },
+    {
+      "jet_unit_mod_p": 2,
+      "kappa_mod_p": 6,
+      "lifted_index_mod_p_power": 324,
+      "n": 30,
+      "predicted_unique_next_digit": 6,
+      "prime": 7,
+      "q_quotient_mod_p": 5,
+      "valuation": 2
+    }
+  ],
+  "sample_sequences": {
+    "b_0_to_10": [
+      0,
+      4,
+      28,
+      312,
+      4680,
+      88556,
+      2025268,
+      54341360,
+      1673830160,
+      58213085396,
+      2256262271564
+    ],
+    "p_0_to_10": [
+      1,
+      3,
+      19,
+      193,
+      2721,
+      49171,
+      1084483,
+      28245729,
+      848456353,
+      28875761731,
+      1098127402131
+    ],
+    "q_0_to_10": [
+      1,
+      1,
+      7,
+      71,
+      1001,
+      18089,
+      398959,
+      10391023,
+      312129649,
+      10622799089,
+      403978495031
+    ]
+  },
+  "scope_warning": "The certificate verifies exact identities and lift digits. It does not prove irrationality of K_p or an upper bound for v_p(q_n).",
+  "sequence_limit": 80,
+  "tail_derivative_checks": 156
+}

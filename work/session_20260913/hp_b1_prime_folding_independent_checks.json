@@ -1,0 +1,128 @@
+{
+  "status": "PASS",
+  "scope": "Selected exact checks support symbolic proofs; no prime scan or uniform nonvanishing inferred.",
+  "n_equals_p_minus_one": [
+    {
+      "n": 2,
+      "p": 3,
+      "delta_mod_p": 2,
+      "q": "28",
+      "prime_excluded": true
+    },
+    {
+      "n": 4,
+      "p": 5,
+      "delta_mod_p": 2,
+      "q": "71872",
+      "prime_excluded": true
+    },
+    {
+      "n": 6,
+      "p": 7,
+      "delta_mod_p": 4,
+      "q": "389565936000",
+      "prime_excluded": true
+    },
+    {
+      "n": 10,
+      "p": 11,
+      "delta_mod_p": 6,
+      "q": "546392884125661977600000",
+      "prime_excluded": true
+    }
+  ],
+  "explicit_harmonic_defects": [
+    {
+      "p": 5,
+      "k": 0,
+      "degree": 4,
+      "all_coefficients_checked": true
+    },
+    {
+      "p": 5,
+      "k": 1,
+      "degree": 3,
+      "all_coefficients_checked": true
+    },
+    {
+      "p": 7,
+      "k": 0,
+      "degree": 6,
+      "all_coefficients_checked": true
+    },
+    {
+      "p": 7,
+      "k": 2,
+      "degree": 4,
+      "all_coefficients_checked": true
+    },
+    {
+      "p": 11,
+      "k": 1,
+      "degree": 9,
+      "all_coefficients_checked": true
+    },
+    {
+      "p": 11,
+      "k": 4,
+      "degree": 6,
+      "all_coefficients_checked": true
+    }
+  ],
+  "fixed_offset_gates": [
+    {
+      "n": 3,
+      "p": 5,
+      "h": 2,
+      "delta_gate_mod_p": 2,
+      "X_mod_p": 0,
+      "q": "2322",
+      "valuation_q": 0
+    },
+    {
+      "n": 5,
+      "p": 7,
+      "h": 2,
+      "delta_gate_mod_p": 0,
+      "X_mod_p": 2,
+      "q": "744912000",
+      "valuation_q": 1
+    },
+    {
+      "n": 9,
+      "p": 11,
+      "h": 2,
+      "delta_gate_mod_p": 0,
+      "X_mod_p": 8,
+      "q": "1875304533871377100800",
+      "valuation_q": 1
+    },
+    {
+      "n": 11,
+      "p": 13,
+      "h": 2,
+      "delta_gate_mod_p": 7,
+      "X_mod_p": 5,
+      "q": "242740830273457513136832000000",
+      "valuation_q": 0
+    },
+    {
+      "n": 4,
+      "p": 7,
+      "h": 3,
+      "delta_gate_mod_p": 4,
+      "X_mod_p": 6,
+      "q": "71872",
+      "valuation_q": 0
+    },
+    {
+      "n": 8,
+      "p": 11,
+      "h": 3,
+      "delta_gate_mod_p": 0,
+      "X_mod_p": 3,
+      "q": "1738576641689395200",
+      "valuation_q": 1
+    }
+  ]
+}

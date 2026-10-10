@@ -1,0 +1,639 @@
+{
+  "classification": {
+    "EXPERIMENTAL": [
+      "All finite frequencies and decreasing block rates in m<=100.",
+      "Only ten candidate-prime events with p>6m entered Delta, and none entered g, in the exact scan.",
+      "Repeated fixed-index plateaus dominate the late finite maxima."
+    ],
+    "OPEN": [
+      "Any positive asymptotic lower bound for actual log(Delta_m*g_m)/(6m), or any nontrivial upper bound below the universal 2*log(q_N) capacity.",
+      "A positive-density actual prime family simultaneously dividing b_m and q_N at saddle-compatible N.",
+      "Exclusion or construction of exponentially small ordinary CRT representatives; abundance and synchronization of first-level singular primes; and, separately, an exponential contribution from deeper all-lift/Wieferich branches."
+    ],
+    "PROVED": [
+      "The separate capacity envelope Delta*g | gcd(b,q_N)^2.",
+      "A bounded (or N*log N=o(m)) beta-index family has zero exponential matching rate.",
+      "Any squarefree positive-mass prime family forced into Delta must consume the same logarithmic mass inside q_N.",
+      "Primitivity and positivity alone do not force g and do not improve the q_N^2 envelope.",
+      "Products of distinct certified all-even antiperiod blocks have forced-divisor rate at most (log 3/6) times their forward shift span."
+    ]
+  },
+  "finite_exact_diagnostics": {
+    "Delta_prime_frequency": {
+      "7": 4308,
+      "11": 2695,
+      "13": 2328,
+      "31": 929,
+      "41": 738,
+      "71": 424,
+      "79": 190,
+      "97": 307,
+      "101": 587,
+      "103": 288,
+      "107": 265,
+      "157": 180,
+      "173": 164,
+      "181": 153,
+      "199": 405,
+      "227": 111,
+      "233": 110,
+      "239": 107,
+      "281": 87,
+      "283": 165,
+      "293": 83,
+      "313": 68,
+      "331": 66,
+      "337": 61,
+      "349": 63,
+      "367": 51,
+      "373": 108,
+      "379": 87,
+      "383": 45,
+      "409": 40,
+      "421": 38,
+      "433": 39,
+      "439": 24,
+      "443": 37,
+      "499": 16,
+      "521": 24,
+      "523": 18,
+      "557": 10,
+      "587": 2,
+      "691": 4,
+      "797": 1
+    },
+    "block_best_matching_rates": [
+      {
+        "distinct_optimizing_N": [
+          1,
+          4,
+          17,
+          30
+        ],
+        "m_range": [
+          1,
+          10
+        ],
+        "maximum_best_matching_rate": "0.466490657485836307002477519115",
+        "mean_best_matching_rate": "0.203900988430050147365042502006"
+      },
+      {
+        "distinct_optimizing_N": [
+          4,
+          25,
+          30,
+          32,
+          37,
+          48,
+          56,
+          59
+        ],
+        "m_range": [
+          11,
+          20
+        ],
+        "maximum_best_matching_rate": "0.127313330373143585626811298059",
+        "mean_best_matching_rate": "0.092170813755133249588333906022"
+      },
+      {
+        "distinct_optimizing_N": [
+          4,
+          37,
+          59,
+          138
+        ],
+        "m_range": [
+          21,
+          30
+        ],
+        "maximum_best_matching_rate": "0.092121708250249120134502123133",
+        "mean_best_matching_rate": "0.077995986812614022932872911186"
+      },
+      {
+        "distinct_optimizing_N": [
+          37,
+          138,
+          234
+        ],
+        "m_range": [
+          31,
+          40
+        ],
+        "maximum_best_matching_rate": "0.074428021955972878727236032904",
+        "mean_best_matching_rate": "0.065499052276056713725272334143"
+      },
+      {
+        "distinct_optimizing_N": [
+          37,
+          66,
+          79,
+          121,
+          234
+        ],
+        "m_range": [
+          41,
+          50
+        ],
+        "maximum_best_matching_rate": "0.057202471523800185439908611104",
+        "mean_best_matching_rate": "0.052677144227300568811433324415"
+      },
+      {
+        "distinct_optimizing_N": [
+          37,
+          66,
+          121,
+          234,
+          312
+        ],
+        "m_range": [
+          51,
+          60
+        ],
+        "maximum_best_matching_rate": "0.050832417492756840007035376264",
+        "mean_best_matching_rate": "0.046918293047876207621836880595"
+      },
+      {
+        "distinct_optimizing_N": [
+          41,
+          121,
+          312
+        ],
+        "m_range": [
+          61,
+          70
+        ],
+        "maximum_best_matching_rate": "0.047989842376283268998665540028",
+        "mean_best_matching_rate": "0.041794270261971266998166693638"
+      },
+      {
+        "distinct_optimizing_N": [
+          41,
+          312,
+          331
+        ],
+        "m_range": [
+          71,
+          80
+        ],
+        "maximum_best_matching_rate": "0.044172156974693140701821627883",
+        "mean_best_matching_rate": "0.037075620924107198177019282117"
+      },
+      {
+        "distinct_optimizing_N": [
+          41,
+          138,
+          312
+        ],
+        "m_range": [
+          81,
+          90
+        ],
+        "maximum_best_matching_rate": "0.033787136428120652893101965423",
+        "mean_best_matching_rate": "0.032222698451005397348377204182"
+      },
+      {
+        "distinct_optimizing_N": [
+          41,
+          141,
+          544
+        ],
+        "m_range": [
+          91,
+          100
+        ],
+        "maximum_best_matching_rate": "0.036604738862564996950495046570",
+        "mean_best_matching_rate": "0.031824263673504699168927317953"
+      }
+    ],
+    "candidates_with_g_gt_1": 234,
+    "conditional_g_hit_fraction": "0.038632986627043090638930163447",
+    "equal_level_candidates": 6057,
+    "equal_prime_slots": 7393,
+    "g_prime_frequency": {
+      "7": 68,
+      "11": 77,
+      "13": 20,
+      "31": 18,
+      "41": 20,
+      "71": 5,
+      "79": 1,
+      "97": 7,
+      "101": 5,
+      "103": 2,
+      "107": 2,
+      "157": 1,
+      "173": 1,
+      "199": 4,
+      "233": 1,
+      "239": 1,
+      "293": 1,
+      "349": 1,
+      "373": 1
+    },
+    "g_prime_slots": 236,
+    "largest_Delta": {
+      "N": 544,
+      "factorization": {
+        "31": 1,
+        "97": 1,
+        "379": 1,
+        "523": 1
+      },
+      "g": 1,
+      "m": 92,
+      "value": 596038519
+    },
+    "largest_g": {
+      "Delta": 12463,
+      "N": 455,
+      "factorization": {
+        "11": 1,
+        "103": 1
+      },
+      "m": 91,
+      "value": 1133
+    },
+    "last_twenty_maximum_total_rate": {
+      "Delta": 3060971,
+      "Delta_rate": "0.024890404573090958793956451903",
+      "N": 141,
+      "c_rate": "0.227281092818479758322864490889",
+      "g": 31,
+      "g_rate": "0.005723312007475243743215273874",
+      "m": 100,
+      "matching_rate": "0.030613716580566202537171725778",
+      "row_nontrivial_g_candidates": 2,
+      "total_rate": "0.257894809399045960860036216667"
+    },
+    "last_twenty_mean_rates": {
+      "Delta_rate": "0.030313549993199468339518881985",
+      "c_rate": "0.184573355032842270372617470779",
+      "g_rate": "0.001709931069055579919133379082",
+      "matching_rate": "0.032023481062255048258652261067",
+      "total_rate": "0.216596836095097318631269731846"
+    },
+    "outside_p_gt_6m_Delta_events": [
+      {
+        "N": 13,
+        "m": 3,
+        "p": 31,
+        "vp_Delta": 1,
+        "vp_g": 0
+      },
+      {
+        "N": 17,
+        "m": 3,
+        "p": 31,
+        "vp_Delta": 1,
+        "vp_g": 0
+      },
+      {
+        "N": 37,
+        "m": 14,
+        "p": 97,
+        "vp_Delta": 1,
+        "vp_g": 0
+      },
+      {
+        "N": 59,
+        "m": 14,
+        "p": 97,
+        "vp_Delta": 1,
+        "vp_g": 0
+      },
+      {
+        "N": 37,
+        "m": 16,
+        "p": 173,
+        "vp_Delta": 1,
+        "vp_g": 0
+      },
+      {
+        "N": 15,
+        "m": 69,
+        "p": 691,
+        "vp_Delta": 1,
+        "vp_g": 0
+      },
+      {
+        "N": 181,
+        "m": 69,
+        "p": 691,
+        "vp_Delta": 1,
+        "vp_g": 0
+      },
+      {
+        "N": 303,
+        "m": 69,
+        "p": 691,
+        "vp_Delta": 1,
+        "vp_g": 0
+      },
+      {
+        "N": 387,
+        "m": 69,
+        "p": 691,
+        "vp_Delta": 1,
+        "vp_g": 0
+      },
+      {
+        "N": 208,
+        "m": 70,
+        "p": 797,
+        "vp_Delta": 1,
+        "vp_g": 0
+      }
+    ],
+    "outside_p_gt_6m_g_events": [],
+    "prime_slot_hit_fraction": "0.031922088462058704179629379142",
+    "repeated_fixed_index_maximizers_count_at_least_4": [
+      {
+        "Delta": 16572763,
+        "N": 41,
+        "count": 19,
+        "fixed_index_capacity_qN_squared_digits": 146,
+        "g": 1,
+        "m_values": [
+          63,
+          65,
+          67,
+          69,
+          71,
+          74,
+          76,
+          78,
+          80,
+          82,
+          83,
+          85,
+          87,
+          89,
+          91,
+          93,
+          94,
+          96,
+          98
+        ]
+      },
+      {
+        "Delta": 5149067,
+        "N": 312,
+        "count": 10,
+        "fixed_index_capacity_qN_squared_digits": 1661,
+        "g": 1,
+        "m_values": [
+          53,
+          55,
+          57,
+          64,
+          66,
+          68,
+          73,
+          75,
+          77,
+          81
+        ]
+      },
+      {
+        "Delta": 5088629,
+        "N": 121,
+        "count": 8,
+        "fixed_index_capacity_qN_squared_digits": 545,
+        "g": 1,
+        "m_values": [
+          47,
+          49,
+          50,
+          52,
+          56,
+          58,
+          60,
+          61
+        ]
+      },
+      {
+        "Delta": 416273,
+        "N": 138,
+        "count": 8,
+        "fixed_index_capacity_qN_squared_digits": 637,
+        "g": 1,
+        "m_values": [
+          24,
+          26,
+          28,
+          29,
+          31,
+          33,
+          35,
+          37
+        ]
+      },
+      {
+        "Delta": 1292137,
+        "N": 37,
+        "count": 7,
+        "fixed_index_capacity_qN_squared_digits": 129,
+        "g": 1,
+        "m_values": [
+          30,
+          32,
+          34,
+          36,
+          38,
+          41,
+          45
+        ]
+      },
+      {
+        "Delta": 109901,
+        "N": 59,
+        "count": 5,
+        "fixed_index_capacity_qN_squared_digits": 229,
+        "g": 1,
+        "m_values": [
+          19,
+          21,
+          23,
+          25,
+          27
+        ]
+      },
+      {
+        "Delta": 1001,
+        "N": 4,
+        "count": 4,
+        "fixed_index_capacity_qN_squared_digits": 7,
+        "g": 1,
+        "m_values": [
+          4,
+          15,
+          18,
+          22
+        ]
+      },
+      {
+        "Delta": 416273,
+        "N": 138,
+        "count": 4,
+        "fixed_index_capacity_qN_squared_digits": 637,
+        "g": 41,
+        "m_values": [
+          84,
+          86,
+          88,
+          90
+        ]
+      },
+      {
+        "Delta": 566711,
+        "N": 234,
+        "count": 4,
+        "fixed_index_capacity_qN_squared_digits": 1188,
+        "g": 1,
+        "m_values": [
+          39,
+          42,
+          44,
+          46
+        ]
+      },
+      {
+        "Delta": 596038519,
+        "N": 544,
+        "count": 4,
+        "fixed_index_capacity_qN_squared_digits": 3159,
+        "g": 1,
+        "m_values": [
+          92,
+          95,
+          97,
+          99
+        ]
+      }
+    ],
+    "scope": {
+      "N": "parity-compatible, 1<=N<=6m",
+      "m": [
+        1,
+        100
+      ]
+    }
+  },
+  "pinned_inputs": {
+    "results/mixed_cubic_matching_factor_two_and_classification_barrier_certificate.json": "8591bc62937f6e07eea35cd903e2cc32f3e72d970f59e584cc1768da349898a2",
+    "results/mixed_cubic_positive_match_exact_scan_m100_N6m.json": "7284ea76cef084e7cb0faeba172454ebe2825a9dd60682c7d1b91c3f78852e96",
+    "sources/bessel_all_even_antiperiod_higher_threshold_exclusivity.md": "c0c834ca8851ddc8dba9edbc9ec74461c0d3aa1b553f79c2320b3d083a0c37de",
+    "sources/bessel_denominator_zero_gap_smooth_radical_barrier.md": "dac7cd496b4342a8afc6d379274986d2030bc327c9017b3f6fa877108e62e1fc",
+    "sources/mixed_cubic_equal_valuation_crt_reduction.md": "56b2b3297e5c2d780ad8c7dd5c8605f7c8fdba51fca7786d2669758b3ed1ba93",
+    "sources/modp2_bounded_jet_and_sequential_mass_adversary.md": "2f228328337b558e04fc3786416b546f5cdb1d13f8ea07f8f8d12caef929bad3"
+  },
+  "proved_replay": {
+    "abstract_exponent_cases": 117,
+    "beta_wronskian_checks": 600,
+    "candidate_count": 15150,
+    "capacity_envelope": "Delta*g divides gcd(b,q_N)^2, hence log(Delta*g) <= 2*min(log b,log q_N); c*Delta*g divides abs(V)*q_N",
+    "fixed_index_no_go": "For bounded N, Delta*g <= q_N^2 is bounded, so its rate per 6m tends to zero. More generally N*log(N)=o(m) implies log(Delta*g)=o(m).",
+    "multi_index_antiperiod_replay": [
+      {
+        "base_indices_checked": [
+          0,
+          10
+        ],
+        "blocks": [
+          {
+            "k": 1,
+            "p": 3
+          }
+        ],
+        "forced_divisor_D": 3,
+        "log_3_over_6_ceiling": "0.183102048111351615232540872820",
+        "log_D_over_W": "0.183102048111351615232540872820",
+        "span_W": 6
+      },
+      {
+        "base_indices_checked": [
+          0,
+          10
+        ],
+        "blocks": [
+          {
+            "k": 2,
+            "p": 5
+          },
+          {
+            "k": 3,
+            "p": 7
+          }
+        ],
+        "forced_divisor_D": 8575,
+        "log_3_over_6_ceiling": "0.183102048111351615232540872820",
+        "log_D_over_W": "0.146074294710228075234154466077",
+        "span_W": 62
+      },
+      {
+        "base_indices_checked": [
+          0,
+          10
+        ],
+        "blocks": [
+          {
+            "k": 1,
+            "p": 3
+          },
+          {
+            "k": 1,
+            "p": 5
+          },
+          {
+            "k": 2,
+            "p": 7
+          },
+          {
+            "k": 5,
+            "p": 11
+          },
+          {
+            "k": 6,
+            "p": 13
+          }
+        ],
+        "forced_divisor_D": 571361375950365,
+        "log_3_over_6_ceiling": "0.183102048111351615232540872820",
+        "log_D_over_W": "0.109609816154754547783346298698",
+        "span_W": 310
+      }
+    ],
+    "multi_index_antiperiod_value_checks": 33,
+    "multi_index_span_no_go": "For distinct blocks (1+S^p)^(2k_p), p>2k_p, the forced raw-Q divisor D=product p^k has span W=sum 2*k*p and log D <= (log 3/6)*W. If W=O(m/log m), even optimistically granting primitive survival and full g-doubling gives o(m).",
+    "positive_mass_floor": "If a squarefree prime family S is forced into Delta, then product(S) divides q_N and sum(log p for p in S) <= log q_N.",
+    "sharpness_example": {
+      "N": 2,
+      "p_N": 19,
+      "q_N": 7,
+      "same_b_nonforcing_pair": {
+        "Delta": 7,
+        "a": 20,
+        "b": 7,
+        "g": 1
+      },
+      "saturating_primitive_pair": {
+        "Delta": 7,
+        "Delta_times_g": 49,
+        "a": 19,
+        "b": 7,
+        "g": 7
+      }
+    },
+    "stored_row_maxima_replayed": 100
+  },
+  "rate_capacity_at_balanced_beta_scale": {
+    "interpretation": "Necessary capacity conditions only; neither fraction is proved attainable or impossible for the actual coordinates.",
+    "minimum_fraction_if_every_synchronized_digit_is_doubled_by_g": "0.436288305719313280818841040621",
+    "minimum_fraction_of_total_qN_log_height_if_Delta_alone_supplies_remainder": "0.872576611438626561637682081243",
+    "rank_one_rate": "0.136514168294812818450423822617",
+    "remaining_weight_after_rank_one": "1.019632983669431793880306401240",
+    "theta_log_q_per_6m": "1.168531187179486497926964890273"
+  },
+  "schema": "item163-sequential-matching-adversary-v1",
+  "status": "PASS"
+}

@@ -1,0 +1,103 @@
+{
+  "schema": "item300-beta-short-branch-strip-ledger-v1",
+  "scope": "Normalized actual-strip state, exact affine strip inclusion, sublinear-depth transported-width divergence, denominator-grid opposite-phase model orbits, proper-target asymmetry, and zero-booking verdict",
+  "claims": [
+    {
+      "id": "I300-C1",
+      "label": "PROVED",
+      "claim": "For theta_n=c/a and y_n=x_n/c, theta_n=1/(A-4+theta_(n-1)) and y_n=(4-theta_(n-1)y_(n-1))/(A+theta_n).",
+      "evidence": "report Section 2"
+    },
+    {
+      "id": "I300-C2",
+      "label": "PROVED",
+      "claim": "The half-bound is |s_n|>=1/2 for s_n=r_n/a, the stronger target is |s_n|>=1/2+theta_n/A, and the exact phase update is s_(n-1)=-cent(s_n-theta_n t_n)/theta_n.",
+      "evidence": "report equations (2.6)-(2.9)"
+    },
+    {
+      "id": "I300-C3",
+      "label": "PROVED",
+      "claim": "The seed-specific strip I_n=((4c-d)/A,(5c-d)/(A+1)) has exact width a/[A(A+1)] and width greater than 2 for every n>=5.",
+      "evidence": "report Section 3, exact base and persistence"
+    },
+    {
+      "id": "I300-C4",
+      "label": "PROVED",
+      "claim": "For F_n(z)=(a/b)(4c-z), one has the strict endpoint inclusion F_n(I_(n-1)) subset I_n for every n>=4.",
+      "evidence": "report equations (4.5)-(4.11), including both exact endpoint differences"
+    },
+    {
+      "id": "I300-C5",
+      "label": "PROVED",
+      "claim": "The one-step transported width is ac/[b(A-4)(A-3)] and exceeds 2 for every n>=8.",
+      "evidence": "report equations (4.12)-(4.15), exact base and persistence"
+    },
+    {
+      "id": "I300-C6",
+      "label": "PROVED",
+      "claim": "At depth L, the transported strip has exact width q_(n-L)q_(n-L-1)/[q_n(4(n-L)-2)(4(n-L)-1)].",
+      "evidence": "report equations (5.1)-(5.4)"
+    },
+    {
+      "id": "I300-C7",
+      "label": "PROVED",
+      "claim": "For every integer depth function L(n)=o(n), the transported width tends to infinity.",
+      "evidence": "report explicit inequalities (5.5)-(5.11)"
+    },
+    {
+      "id": "I300-C8",
+      "label": "PROVED MODEL CONSTRUCTION",
+      "claim": "Whenever a transported interval has length greater than 2, it contains current primitive denominator-q_n grid states with centered numerators -1 and -(q_n-1)/2; their inverse affine orbits remain in every propagated strip and on every moving denominator grid.",
+      "evidence": "report Section 6"
+    },
+    {
+      "id": "I300-C9",
+      "label": "PROVED SCOPED NO-GO",
+      "claim": "Sublinear-depth phase-blind affine-strip arguments, as defined in report Section 7, do not force the current half-bound on their declared model state class.",
+      "scope_limit": "witnesses are not the actual Turan seed-numerator orbit and do not necessarily have primitive denominator at every earlier level"
+    },
+    {
+      "id": "I300-C10",
+      "label": "OPEN",
+      "claim": "The actual all-n half-bound, stronger Item295 inequality, seed-numerator phase invariant, and linear-depth/base-reaching route remain open.",
+      "scope_limit": "no finite observation is promoted"
+    },
+    {
+      "id": "I300-C11",
+      "label": "PROVED ASYMMETRIC",
+      "claim": "A full-q_n lower bound would not transfer to a proper divisor target Q, while a full-q_n actual upper construction would.",
+      "evidence": "report Section 8"
+    },
+    {
+      "id": "I300-C12",
+      "label": "PROVED",
+      "claim": "The additive centered quotient remains separate from the Item282 common coefficient/product baseline.",
+      "evidence": "report Section 8"
+    },
+    {
+      "id": "I300-C13",
+      "label": "EXACT FINITE ONLY",
+      "claim": "The checker replays bounded instances of universal normalized-state, endpoint, inclusion, width, grid, inverse-orbit, and opposite-phase identities.",
+      "scope_limit": "no actual half-bound scan, actual counterexample search, asymptotic extrapolation from rows, or exceptional-prime search"
+    }
+  ],
+  "strict_labels": {
+    "normalized_actual_state": "PROVED",
+    "actual_strip_width": "PROVED",
+    "affine_strip_inclusion": "PROVED",
+    "depth_width_formula": "PROVED",
+    "sublinear_depth_width_divergence": "PROVED",
+    "opposite_phase_orbits": "PROVED MODEL CONSTRUCTION",
+    "sublinear_depth_phase_blind_affine_strip": "PROVED SCOPED NOT SUFFICIENT",
+    "actual_turan_seed_orbit_counterexample": "NONE PRODUCED",
+    "primitive_denominator_all_levels": "NOT CLAIMED",
+    "linear_depth_seed_phase_invariant": "OPEN",
+    "actual_half_bound": "OPEN",
+    "stronger_item295_inequality": "OPEN",
+    "proper_target_transfer": "PROVED ASYMMETRIC",
+    "item282_product_baseline": "OPEN AND SEPARATE",
+    "bounded_checks": "EXACT FINITE ONLY",
+    "positive_linear_capacity_admission": "FAIL",
+    "booking": "zero new Route-1 rate and zero new beta capacity reduction"
+  }
+}

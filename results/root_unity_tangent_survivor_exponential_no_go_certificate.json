@@ -1,0 +1,260 @@
+{
+  "all_r_theorem_proved_in_source": {
+    "adjacent_determinant": "D_r=P_r*Q_(r+1)-P_(r+1)*Q_r>0 and v2(D_r)=1",
+    "adjacent_product_floor": "Q_r*Q_(r+1)>(4/(5*pi^2))*9^r",
+    "error_asymptotic": "P_r/Q_r-pi^2=(8*pi^2/9)*9^(-r)*(1+O((9/25)^r))",
+    "exact_ratio": "P_r/Q_r=pi^2*A_r/A_(r+1)>pi^2",
+    "individual_floor": "for every epsilon>0, log Q_r >= (log(9)/(5.095412+epsilon))*r+O_epsilon(1)",
+    "no_small_subsequence": "no infinite subsequence has log Q_r=o(r)",
+    "uniform_error": "0<P_r/Q_r-pi^2<(5*pi^2/2)*9^(-r)"
+  },
+  "barrier": "The individual exponential floor rules out the required log Q_r=o(r) subsequence. It is smaller by a factor log r than the full 2r log r tangent scale. Adjacent irregular Bernoulli pairs refute universal odd coprimality but do not preclude a deeper factorial-scale lower bound.",
+  "definitions": {
+    "A_r": "sum_(j>=0) (2j+1)^(-2r)",
+    "G_r": "gcd(tau_(r+1),8*r*(2r+1)*tau_r)",
+    "P_r": "8*r*(2r+1)*tau_r/G_r",
+    "Q_r": "tau_(r+1)/G_r",
+    "tau_r": "tan(z)=sum_(r>=1) tau_r*z^(2r-1)/(2r-1)!"
+  },
+  "finite_grid": {
+    "adjacent_determinant_rows_sha256": "408a79ee3a55657b47465d0fc35d80ba8f0c8f9d5bf71e8178a72b4232b8a73e",
+    "adjacent_product_log_margin_min": "0.315378745676790721262659319170900517374209595733131453229145",
+    "all_reconstructions_match": true,
+    "normalized_error_max": "2.1855238125440392304313547799819081268795911226779556847415",
+    "normalized_error_min": "1.0",
+    "odd_consecutive_gcd_hits_in_grid": [
+      {
+        "full_gcd": "181667700765129555341446479872",
+        "odd_part": "587",
+        "r": 45,
+        "two_adic_valuation": 88
+      },
+      {
+        "full_gcd": "2147880211736917709733797187029504180776812381137134612570106735494573845213787156605489939836638855168",
+        "odd_part": "491",
+        "r": 168,
+        "two_adic_valuation": 331
+      }
+    ],
+    "precision_decimal_digits": 300,
+    "r_max": 200,
+    "r_min": 1,
+    "reduced_rows_sha256": "4f1a0c30f915f55a0992d3a53cea4fb6f590184c6131e372daac364763ac8a26",
+    "selected_adjacent_rows": [
+      {
+        "Q_next_digits": 1,
+        "Q_r_digits": 1,
+        "determinant_digits": 1,
+        "determinant_v2": 1,
+        "product_log_margin": "0.315378745676790721262659319170900517374209595733131453229145",
+        "r": 1
+      },
+      {
+        "Q_next_digits": 2,
+        "Q_r_digits": 1,
+        "determinant_digits": 1,
+        "determinant_v2": 1,
+        "product_log_margin": "0.951367512396787418721703463198975643667431492673377337056994",
+        "r": 2
+      },
+      {
+        "Q_next_digits": 4,
+        "Q_r_digits": 3,
+        "determinant_digits": 3,
+        "determinant_v2": 1,
+        "product_log_margin": "6.67000746225173678322873881467578948664042007608846613914591",
+        "r": 5
+      },
+      {
+        "Q_next_digits": 12,
+        "Q_r_digits": 10,
+        "determinant_digits": 14,
+        "determinant_v2": 1,
+        "product_log_margin": "30.4147747113346598355791703954223542274061572961022553684882",
+        "r": 10
+      },
+      {
+        "Q_next_digits": 99,
+        "Q_r_digits": 93,
+        "determinant_digits": 150,
+        "determinant_v2": 1,
+        "product_log_margin": "343.576130342640876234693372390506711598243148186162255280534",
+        "r": 45
+      },
+      {
+        "Q_next_digits": 282,
+        "Q_r_digits": 278,
+        "determinant_digits": 465,
+        "determinant_v2": 1,
+        "product_log_margin": "1070.57390007582630887482714561639533430718298488229081820933",
+        "r": 100
+      },
+      {
+        "Q_next_digits": 545,
+        "Q_r_digits": 538,
+        "determinant_digits": 923,
+        "determinant_v2": 1,
+        "product_log_margin": "2123.95099347757349515892133872708243652634332101783109589479",
+        "r": 168
+      },
+      {
+        "Q_next_digits": 677,
+        "Q_r_digits": 673,
+        "determinant_digits": 1160,
+        "determinant_v2": 1,
+        "product_log_margin": "2670.25213759673383099934892757581067034752198398771352659591",
+        "r": 200
+      }
+    ],
+    "selected_rows": [
+      {
+        "G": "2",
+        "P_digits": 2,
+        "P_v2": 2,
+        "Q_digits": 1,
+        "Q_is_odd": true,
+        "normalized_error": "2.1855238125440392304313547799819081268795911226779556847415",
+        "r": 1,
+        "strict_upper_margin": "0.6111611791697360129551829442861931173453"
+      },
+      {
+        "G": "16",
+        "P_digits": 2,
+        "P_v2": 1,
+        "Q_digits": 1,
+        "Q_is_odd": true,
+        "normalized_error": "1.20392859408029422823516084986431095159693342008466763556123",
+        "r": 2,
+        "strict_upper_margin": "0.1742218208760672181812345492550446888728"
+      },
+      {
+        "G": "512",
+        "P_digits": 4,
+        "P_v2": 2,
+        "Q_digits": 3,
+        "Q_is_odd": true,
+        "normalized_error": "1.00678082149424573878552968717567336188156864088984907823642",
+        "r": 5,
+        "strict_upper_margin": "0.0002682778927679551021784328377062570047126"
+      },
+      {
+        "G": "1048576",
+        "P_digits": 11,
+        "P_v2": 1,
+        "Q_digits": 10,
+        "Q_is_odd": true,
+        "normalized_error": "1.0000395349612314892450994712124541314314972173478800146186",
+        "r": 10,
+        "strict_upper_margin": "0.000000004560271196812434006352233549269113655012"
+      },
+      {
+        "G": "363335401530259110682892959744",
+        "P_digits": 94,
+        "P_v2": 2,
+        "Q_digits": 93,
+        "Q_is_odd": true,
+        "normalized_error": "1.00000000000000000001166907120734950017468980142382349525464",
+        "r": 45,
+        "strict_upper_margin": "1.821848726661228212218292669966921807276e-42"
+      },
+      {
+        "G": "1606938044258990275541962092341162602522202993782792835301376",
+        "P_digits": 279,
+        "P_v2": 1,
+        "Q_digits": 278,
+        "Q_is_odd": true,
+        "normalized_error": "1.0000000000000000000000000000000000000000000046097124171699",
+        "r": 100,
+        "strict_upper_margin": "5.986518021946866732691924373054179792945e-95"
+      },
+      {
+        "G": "68732166775581366711481509984944133784857996196388307602243415535826363046841189011375678074772443365376",
+        "P_digits": 539,
+        "P_v2": 1,
+        "Q_digits": 538,
+        "Q_is_odd": true,
+        "normalized_error": "1.0",
+        "r": 168,
+        "strict_upper_margin": "7.738978718268681867378160512411295297287e-160"
+      },
+      {
+        "G": "2582249878086908589655919172003011874329705792829223512830659356540647622016841194629645353280137831435903171972747493376",
+        "P_digits": 674,
+        "P_v2": 1,
+        "Q_digits": 673,
+        "Q_is_odd": true,
+        "normalized_error": "1.0",
+        "r": 200,
+        "strict_upper_margin": "2.253841391141658791994019646438594617075e-190"
+      }
+    ],
+    "tangent_reconstruction_methods": [
+      "quadratic recurrence from tan'=1+tan^2",
+      "Bernoulli closed formula using exact FLINT rationals"
+    ]
+  },
+  "irrationality_measure": {
+    "liminf_log_Q_over_r_lower_decimal": "0.431216274039512287287169413159338520475867528601317990276231",
+    "published_mu_upper": "5.09541178...",
+    "safe_decimal_upper_used": "5.095412",
+    "source": "W. Zudilin, Russian Math. Surveys 68:6 (2013), 1133-1135, doi:10.1070/RM2013v068n06ABEH004872"
+  },
+  "irregular_pair_certificates": {
+    "cyclotomic_gcds": [
+      "gcd(2^90-1,2^92-1)=3",
+      "gcd(2^336-1,2^338-1)=3"
+    ],
+    "exact_bernoulli_seeds": [
+      {
+        "B_denominator": "272118",
+        "B_numerator": "1179057279021082799884123351249215083775254949669647116231545215727922535",
+        "bernoulli_index": 90,
+        "denominator_mod_p": 337,
+        "numerator_mod_p_squared": 282934,
+        "numerator_v_p": 1,
+        "prime": 587,
+        "two_to_index_mod_p": 234
+      },
+      {
+        "B_denominator": "1410",
+        "B_numerator": "-1295585948207537527989427828538576749659341483719435143023316326829946247",
+        "bernoulli_index": 92,
+        "denominator_mod_p": 236,
+        "numerator_mod_p_squared": 93333,
+        "numerator_v_p": 1,
+        "prime": 587,
+        "two_to_index_mod_p": 349
+      },
+      {
+        "B_denominator": "2203871994870",
+        "B_numerator": "-110968358518556750910569006059104612436322304793290197896476208195051113971187304256671882613201063543710887491006989203213468862095728086421327649757926706375373160032479060881414285316805050049998250096629298691714712337731033133063244894833650574221421335477496494331790029997128928883270452912343595756835759921082499027715633187483508227173954421007445739076452215234463953952029377612275096135644427285378787750547213980148328191792731369493029",
+        "bernoulli_index": 336,
+        "denominator_mod_p": 373,
+        "numerator_mod_p_squared": 87889,
+        "numerator_v_p": 1,
+        "prime": 491,
+        "two_to_index_mod_p": 208
+      },
+      {
+        "B_denominator": "6",
+        "B_numerator": "871667613876289947152259213998641324359438367113245978510277002562210922288209180150151793852558736029189876363096736208315035600167649273464678134646229708161579214485318416128870291425640987624153304026736765522468963515580422620761261195314156252082303726799452238319359220112879725078451979791840912313059346932550771416018721541922207119333620480831014488368439858212426770461809324187079997350701358985200574078187666941445255865364959",
+        "bernoulli_index": 338,
+        "denominator_mod_p": 6,
+        "numerator_mod_p_squared": 11293,
+        "numerator_v_p": 1,
+        "prime": 491,
+        "two_to_index_mod_p": 341
+      }
+    ],
+    "exact_tangent_gcds": [
+      "gcd(tau_45,tau_46)=2^88*587",
+      "gcd(tau_168,tau_169)=2^331*491"
+    ],
+    "kummer_progressions_proved_in_source": [
+      "587 divides gcd(tau_r,tau_(r+1)) for r=45+293k when 587 does not divide r(r+1)",
+      "491 divides gcd(tau_r,tau_(r+1)) for r=168+245k when 491 does not divide r(r+1)"
+    ]
+  },
+  "logical_scope": "Finite exact/high-precision replay supporting analytic all-r odd-zeta, adjacent-determinant, and irrationality-measure theorems. The finite grid does not prove an all-r gcd law, a factorial lower bound, or any classification of e+pi.",
+  "schema": "root_unity_tangent_survivor_exponential_no_go_v1"
+}

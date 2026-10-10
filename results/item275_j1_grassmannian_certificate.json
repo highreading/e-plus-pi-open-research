@@ -1,0 +1,124 @@
+{
+  "capacity": {
+    "fixed_window_exceptional_weight": "O_L(log M), inherited from Item273",
+    "item149_first_post_cartier_copy_already_booked": true,
+    "new_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "new_weighted_zero_theorem": 0,
+    "raw_j1_capacity_per_6M": "1/36"
+  },
+  "exterior_transport": {
+    "coordinate_formula": "(wedge^2 U)_(ij,ab)=U_ia U_jb-U_ib U_ja",
+    "determinant": "det(wedge^2 U)=det(U)^3",
+    "fixed_M_prime_tied_witness": {
+      "new_h_s_p_M": [
+        1,
+        4,
+        31,
+        21
+      ],
+      "old_h_s_p_M": [
+        5,
+        1,
+        29,
+        21
+      ],
+      "old_kernel_plucker": [
+        966875,
+        -83743035,
+        -928364750,
+        8571696,
+        84169225,
+        940218807
+      ],
+      "pulled_kernel_plucker": [
+        1162220187,
+        411657489,
+        -1265521434,
+        -8518535856,
+        9022899625,
+        -6079782117
+      ],
+      "stack_determinant": "-585482135072/1165539375"
+    },
+    "local_nonhorizontal_witnesses": {
+      "h": {
+        "pulled_kernel_plucker": [
+          1565,
+          -5870,
+          -17959,
+          -12915,
+          -42296,
+          10439
+        ],
+        "stack_determinant": "604/1365",
+        "target_h_s": [
+          2,
+          1
+        ]
+      },
+      "s": {
+        "pulled_kernel_plucker": [
+          595,
+          -427,
+          1090,
+          812,
+          -1475,
+          -429
+        ],
+        "stack_determinant": "-7568/1365",
+        "target_h_s": [
+          1,
+          2
+        ]
+      }
+    },
+    "rank": 6,
+    "singular_support": "exactly the Item273 support, with multiplicities tripled"
+  },
+  "labels": {
+    "exterior_square_module": "PROVED rank 6 with inherited fixed singular support",
+    "fixed_flag_incidence": "PROVED on the rank-two, nonzero-state chart",
+    "lisse_or_frobenius_nonexistence": "NOT CLAIMED",
+    "natural_plucker_line_horizontal": false,
+    "new_route1_rate": 0,
+    "new_weighted_zero_theorem": 0
+  },
+  "payload_sha256": "f5b704ce5696129c6d616d84032ac7a0a082394f83427c5c692f0fdc39b6effd",
+  "plucker": {
+    "coordinate_order": [
+      "12",
+      "13",
+      "14",
+      "23",
+      "24",
+      "34"
+    ],
+    "diagonal_family": {
+      "G_t_t": "[[0,1,0,0],[4t+3,22t+5,12t-3,-6t+3]]",
+      "K_t_t": "(0,6t-3,12t-3,0,0,-4t-3)",
+      "exact_replay_sha256": "4a761091ed7b21d770c913ccb178c08fd73f31e8e1ed3387bfa9efa0017013f3"
+    },
+    "incidence": [
+      "x1*K23-x2*K13+x3*K12",
+      "x1*K24-x2*K14+x4*K12",
+      "x1*K34-x3*K14+x4*K13",
+      "x2*K34-x3*K24+x4*K23"
+    ],
+    "independent_incidence_codimension": 2,
+    "kernel_from_row_minors": "(Delta34,-Delta24,Delta23,Delta14,-Delta13,Delta12)",
+    "quadric": "K12*K34-K13*K24+K14*K23=0"
+  },
+  "rank_strata": {
+    "rank_0": "the same K=0 apex; the four-plane kernel is not distinguished",
+    "rank_1": "all six maximal minors vanish; the three-plane kernel is not encoded by K=0",
+    "rank_2": "nonzero decomposable Plucker line encoding a two-plane kernel",
+    "state_zero": "x=0 lies in the affine incidence but has no projective state point"
+  },
+  "schema": "item275-j1-grassmannian-certificate-v1",
+  "scope": {
+    "not_proved": "nonexistence of an enlarged sheaf, a different connection, or a finite-field-specific incidence theorem",
+    "prime_tied_issue": "the fixed-M step changes p from 29 to 31 in the exact witness, so it is not an orbit inside one finite field",
+    "proved_no_go": "the natural Plucker line is not a horizontal rank-one subobject of the exact Item273 exterior-square transports"
+  }
+}

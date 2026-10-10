@@ -1,0 +1,29 @@
+{
+  "status": "PASS_SYMBOLIC_STRUCTURAL_IDENTITIES",
+  "checks": {
+    "F_operator_from_H_recurrence": true,
+    "F_third_order_ODE": true,
+    "endpoint_derivative_recurrence": true,
+    "spectral_row_factor": true,
+    "column_shift_k_minus_r": true,
+    "factorial_normalized_integral_recurrence": true,
+    "integral_three_state_transition": true,
+    "three_state_determinant": true,
+    "formal_columns_unitriangular_over_Z_n": true,
+    "formal_column_change_determinant_one": true,
+    "monic_cleared_endpoint_X_scale": true,
+    "monic_cleared_endpoint_Y_scale": true
+  },
+  "scope": "Symbolic recurrences, twelve abstract columns, and endpoint scale. No actual HP degree, prime list, or numerical content scan.",
+  "column_recurrence": "R_(l,m+4)=2(n-m)R_(l,m+3)-(n-m)(n-m+3)R_(l,m+2)+2(n-m)(n-m+2)R_(l,m+1)+2[lambda_l+m(2n+1-m)]R_(l,m)",
+  "lambda_l": "l(l+2n+1)",
+  "transformed_column_j": "(2 diag(lambda_l))^floor(j/4) times original column (j mod 4)",
+  "paper_proofs_required": [
+    "All-size unimodular transformation by induction",
+    "Four-group generalized Vandermonde minor expansion",
+    "No double counting of A_b^2 within Crows*mu",
+    "Integrality of the translated endpoint pair and exact gcd factorization"
+  ],
+  "new_positive_quadratic_log_divisor_claimed": false,
+  "independent_review": false
+}

@@ -1,0 +1,48 @@
+{
+  "schema": "route1-ledger-delta-v1",
+  "item": 418,
+  "status": "CANONICAL_ROOT_AUDITED_COMPONENT_CEILING_REDUCED_NO_BOOKING",
+  "component": "complete strictly-large-prime mixed-cubic common content c_m^>",
+  "inherited_exact_carrier": "c_m^> is the p>6m part of gcd(mu_0,m,mu_1,m), where mu_s,m=lambda_s,m/F_m and canonical Item200 proves F_m=G_m divides both lambda coordinates",
+  "old_component_ceiling": {
+    "exact": "(log(136)-C_F)/6",
+    "decimal": "0.42926789628954772023172424994510494431502767192442"
+  },
+  "new_component_ceiling": {
+    "exact": "(log(rho_star)-C_F)/6",
+    "rho_star_definition": "unique real root of 262144*t^3-35555328*t^2+1259712*t-531441",
+    "rho_star_decimal": "135.59748390085482125022597033065136045349825862440822",
+    "decimal": "0.42877388533865786894576038290962190825322503544392"
+  },
+  "component_ceiling_decrease": {
+    "exact": "log(136/rho_star)/6",
+    "decimal": "0.00049401095088985128596386703548303606180263648050"
+  },
+  "admission_residual_outside_this_component": {
+    "calculation": "(T-r_1)-(log(rho_star)-C_F)/6",
+    "decimal": "0.59085909833077392493454601829037809174677496455608",
+    "warning": "comparison only; not a global ceiling reduction and not an additive de-overlap theorem for remaining branches"
+  },
+  "method_class_closed": "centered circular Cauchy bounds that take absolute values and vary only the radius cannot lower the exponential base below rho_star",
+  "nearby_rational_witness": {
+    "radius": "5413/10000",
+    "base": "678/5",
+    "ceiling": "0.42877697791792158461382733936558495521703039041625",
+    "distance_above_sharp_circular_ceiling": "0.00000309257926371566806695645596304696380535497233"
+  },
+  "booked_lower_bound_delta": 0,
+  "global_total_content_ceiling_delta": 0,
+  "frozen_deficit_delta": 0,
+  "de_overlap": [
+    "F_m is inherited forced Cartier content and is not rebooked",
+    "all factors of F_m are at most 6m whereas this component contains only p>6m",
+    "Item390 owns all p-adic depths in the strictly-large component",
+    "the result is an upper component ceiling, not a positive divisor"
+  ],
+  "open": [
+    "valuation-weighted o(m) for the normalized carrier",
+    "uniform c_m^>=1",
+    "noncircular or cancellation-aware height bounds",
+    "Route 1 and irrationality of e+pi"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "item": 359,
+  "schema": "item359-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_FIXED_M_CROSS_PRIME_COEFFICIENT_BRIDGE_AND_MATCHED_SELECTOR_BARRIER",
+  "scope": "independent root audit of the actual ordinary-j2 fixed-M coefficient bridge, fixed bivariate kernel, pole/recurrence complexity, comparison kernel, and matched-modulus scope",
+  "checks": {
+    "certificate_sha256": "b8ad2ebf3cc93b43649ff26d3c6deba888b4046d39224193b1c2ea53afa98227",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_checks": 18,
+    "work_manifest_failures": 0,
+    "frozen_dependencies_checked": 12,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 7,
+    "work_hash_list_match": true,
+    "declared_actual_rows": 7,
+    "declared_comparison_ray_rows": 96,
+    "independent_cross_prime_rows": 133,
+    "independent_Fermat_selector_checks": 133,
+    "independent_comparison_kernel_ray_checks": 1500,
+    "independent_pole_and_denominator_checks": 4,
+    "all_independent_checks": true,
+    "prime_or_collision_census_performed": false,
+    "canonical_typographic_repair_operations": 6,
+    "work_report_sha256_before_typographic_repair": "8fc3e4a16c71aeb50f7516e5e81572ea3d7265f30104707fc988945155759a77",
+    "canonical_report_sha256": "f9dac057bcbbab144f5cc38964f997e5fcef14ff718a1ebd7615bc4fc6869edb",
+    "report_display_delimiters": "44/44",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "selector": "solving the tied equations gives r=6M-7p, s=(5p-4M-1)/2, and k=r-1 on the exact raw interval",
+    "Fermat": "the identity s-2(1-M)=5(p-1)/2 and the square base 4 give 4^s=16^(1-M) modulo p",
+    "coefficient_bridge": "the truncated-exponent lemma converts both Item314 Lagrange branches through degree r-1<p into the single prime-independent K_M at fixed M",
+    "bivariate_kernel": "geometric summation in M and the constant-term selector give one fixed rational kernel for the entire coefficient array",
+    "target_retention": "the first coefficient condition is paired with the unchanged moving H-Theta coordinate; no fixed-target surrogate is substituted",
+    "recurrence": "uncancelled poles of order 6M at both X=1 and X=-1 force eventual scalar recurrence order at least 12M, beyond the selected window",
+    "height": "pointwise exponential height aggregates to O(M^2/log M), which is weaker than the existing O(M) prime-interval ceiling",
+    "comparison": "the fixed rational comparison kernel has coefficient exactly the matched prime on both residue rays, so rationality, holonomicity, and small height alone cannot imply nondivisibility",
+    "scope_warning": "actual matched-modulus arithmetic, average gcds, reciprocity, and joint moving-target nonconcentration remain open"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact fixed-M selector and Fermat collapse",
+      "common fixed-M and fixed bivariate coefficient kernels",
+      "linear pole and recurrence obstruction",
+      "fixed rational full-selector comparison kernel",
+      "height and chart-overlap audits",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "seven declared actual rows and independent algebraic controls; no collision census"
+    ],
+    "OPEN": [
+      "matched-modulus divisibility nonconcentration",
+      "joint cross-prime H-Theta theorem",
+      "selector-aware average gcd or reciprocity",
+      "an admissible almost-all-M energy theorem",
+      "weighted degenerate-chart support",
+      "any reduction of 1/105",
+      "Route 1",
+      "e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_fixed_M_chebyshev_mass": "(2/35)M+o(M)",
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

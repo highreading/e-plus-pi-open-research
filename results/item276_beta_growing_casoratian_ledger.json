@@ -1,0 +1,100 @@
+{
+  "schema": "item276-beta-growing-casoratian-ledger-v1",
+  "scope": "Primitive two-state growing-gap Casoratian/continuant admission for the overlap-normalized beta high-singleton problem",
+  "claims": [
+    {
+      "id": "I276-C1",
+      "label": "PROVED",
+      "claim": "The transfer rows satisfy q_(n+d)=P_d(n)q_(n+1)+P_(d-1)(n+1)q_n and det(r_e,r_d)=(-1)^d P_(e-d)(n+d).",
+      "evidence": "report Section 2; exact continuant induction",
+      "scope_limit": "the admissible primitive class is one 2x2 transition-row minor with a possibly growing gap"
+    },
+    {
+      "id": "I276-C2",
+      "label": "PROVED",
+      "claim": "For every divisor p^s of q_n, p^s divides the scalar Casoratian C_h(n) iff it divides P_h(n) iff it divides q_(n+h).",
+      "evidence": "report equations (3.2)-(3.4), using gcd(q_n,q_(n+1))=1",
+      "scope_limit": "this is a level-transport equivalence, not an upper bound for v_p(q_n)"
+    },
+    {
+      "id": "I276-C3",
+      "label": "PROVED",
+      "claim": "If a=v_p(q_n) and b=v_p(P_h(n))<a, then v_p(C_h(n))=b exactly.",
+      "evidence": "report equation (3.5), distinct-valuation argument",
+      "scope_limit": "when b>=a the theorem asserts divisibility to level a, not an exact value above a"
+    },
+    {
+      "id": "I276-C4",
+      "label": "PROVED",
+      "claim": "The primitive residual coefficient satisfies (4n+6)^(h-1)<=P_h(n)<=[4(n+h)]^(h-1); hence log P_h(n)=O(n) exactly on the scale h=O(n/log n).",
+      "evidence": "report Section 4, positivity and one-step continuant bounds",
+      "scope_limit": "height refers to the primitive gap coefficient, the most optimistic residual after the boundary p-unit is removed"
+    },
+    {
+      "id": "I276-C5",
+      "label": "PROVED_SCOPED_NO_GO",
+      "claim": "A primitive growing Casoratian cannot reach a level supported only at one index inside a window containing both endpoints.",
+      "evidence": "level equivalence I276-C2",
+      "scope_limit": "a short same-depth return outside the chosen window is not excluded"
+    },
+    {
+      "id": "I276-C6",
+      "label": "PROVED_SCOPED_HEIGHT_NO_GO",
+      "claim": "The universal odd-modulus construction h=M reaches every M|q_n but costs log P_M(n)>=(M-1)log(4n+6); for an Item265 high level p^a>N this is at least N log(4N+6).",
+      "evidence": "archived odd-modulus anti-period plus report Section 5",
+      "scope_limit": "no minimal-period claim is made; a shorter return is a separate open arithmetic input"
+    },
+    {
+      "id": "I276-C7",
+      "label": "PROVED_DEOVERLAP",
+      "claim": "For qbar_(m,n)=q_n/gcd(q_n,D_m), qbar divides C_h(n) iff it divides P_h(n) iff it divides q_(n+h), primewise at every surviving exponent.",
+      "evidence": "report equations (1.9) and (6.3)",
+      "scope_limit": "this reproduces the normalized beta level and creates no factor independent of the Item265 two-copy reservoir"
+    },
+    {
+      "id": "I276-C8",
+      "label": "EXACT_FINITE_ONLY",
+      "claim": "The deterministic checker replays polynomial, transfer, gcd, minor, Casoratian, valuation, height, anti-period, and de-overlap identities on bounded exact ranges.",
+      "evidence": "canonical certificate row digests",
+      "scope_limit": "no exceptional-singleton search or asymptotic extrapolation is performed"
+    },
+    {
+      "id": "I276-C9",
+      "label": "OPEN_NOT_PROVED",
+      "claim": "Growing products or sums, arbitrary growing Hankel determinants, a short-return theorem, and the uniform prime-power-height theorem remain open.",
+      "evidence": "report Sections 5 and 7",
+      "scope_limit": "Item276 is not a general no-go for every growing auxiliary"
+    },
+    {
+      "id": "I276-C10",
+      "label": "PROVED_BOOKING_DECISION",
+      "claim": "The positive-linear capacity admission test fails; no new Route-1 rate or beta capacity reduction is booked.",
+      "evidence": "report Section 7",
+      "scope_limit": "the Item265 high-singleton ceiling and two-copy overlap normalization remain unchanged"
+    }
+  ],
+  "strict_labels": {
+    "primitive_transfer_minor_reduction": "PROVED",
+    "singleton_depth_transport": "PROVED",
+    "primitive_residual_height_bounds": "PROVED",
+    "in_window_singleton": "PROVED SCOPED NO-GO",
+    "universal_gap_height": "PROVED SCOPED HEIGHT NO-GO",
+    "clearing_reservoir_deoverlap": "PROVED",
+    "growing_products_and_sums": "OPEN; NOT PROVED",
+    "arbitrary_growing_hankel_determinants": "OPEN; NOT PROVED",
+    "uniform_prime_power_height_O_N": "OPEN; NOT PROVED",
+    "bounded_checks": "EXACT FINITE ONLY",
+    "exceptional_singleton_search": "NONE",
+    "positive_linear_capacity_admission": "FAIL",
+    "new_route1_rate": "0",
+    "new_beta_capacity_reduction": "0"
+  },
+  "open": [
+    "products or sums of a growing number of primitive minors",
+    "arbitrary growing Hankel or block determinants",
+    "a uniform short same-depth return theorem or exclusion",
+    "the uniform v_p(q_n) log p=O(n) theorem or sufficient little-oh aggregate",
+    "the actual correlation with the clearing divisor and transverse matching factor",
+    "Route 1 and every conclusion about e+pi"
+  ]
+}

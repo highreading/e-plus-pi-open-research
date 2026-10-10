@@ -1,0 +1,212 @@
+{
+  "algebraic_kernel_replay": {
+    "C_adjacent_generating_function": "A1=w_C*A0",
+    "C_base_generating_function": "A0=3*w_C/(x*(3H-2w_C H'))",
+    "C_kernel": "w_C^3=x^3*H(w_C)^2",
+    "T_adjacent_generating_function": "B1=w_T*B0",
+    "T_base_generating_function": "B0=3*w_T*(1-w_T)/(x*(3-6w_T-w_T^2-2w_T^3))",
+    "T_kernel": "w_T^3*(1-w_T)^3=x^3*(1+w_T^2)^2",
+    "actual_C0_generating_function": "C0=3*w_C*(2+w_C)/(x*D_C)",
+    "actual_C1_generating_function": "C1=3*w_C*(2+w_C)^4/(2*x*H(w_C)*D_C)",
+    "actual_T0_generating_function": "T0=3*w_T*(1-w_T)*(1+w_T)/(x*D_T)",
+    "actual_T1_generating_function": "T1=3*w_T*(1-w_T)*(1+w_T)^4/(x*(1+w_T^2)*D_T)",
+    "all_four_direct_actual_row_formulas_vanish_to_replay_order": true,
+    "both_degree_six_resultants_vanish_to_replay_order": true,
+    "normalization_only_not_uniform_proof": true,
+    "series_order": 24,
+    "series_witness_sha256": "ab1ec62a2fa76ec808c139e420bbe44052ab006f14c51dfd9a3ba8d6c5a92288"
+  },
+  "assertions": {
+    "actual_rows_distinguished_from_formal_extension_indices": true,
+    "all_finite_rows_are_normalization_only": true,
+    "ambient_perturbations_excluded": true,
+    "booking_delta_is_zero": true,
+    "no_isolated_prime_scan_used_as_progress": true
+  },
+  "capacity": {
+    "H_only_success_numeric_ceiling_reduction": 0,
+    "admission_residual_after_granting_full_large_ceiling": "0.2008571693800897924634345708...",
+    "booking_delta": 0,
+    "combined_large_component_ceiling": "log(136)/6 = 0.8187758142893420014168718304...",
+    "frozen_booked_deficit_unchanged": "1.0196329836694317938803064012",
+    "reason": "primitive G can still occupy the full combined Item390 ceiling; no disjoint positive lower bound is known"
+  },
+  "compatible_reciprocal_normalization_rows": [
+    {
+      "R_adjacent": [
+        10,
+        10
+      ],
+      "S_adjacent": [
+        0,
+        5
+      ],
+      "alpha_mod_p": 6,
+      "k": 5,
+      "m": 1,
+      "n": 4,
+      "normalization_only_not_prime_scan": true,
+      "p": 11,
+      "q": 5
+    },
+    {
+      "R_adjacent": [
+        4,
+        12
+      ],
+      "S_adjacent": [
+        3,
+        9
+      ],
+      "alpha_mod_p": 8,
+      "k": 5,
+      "m": 1,
+      "n": 6,
+      "normalization_only_not_prime_scan": true,
+      "p": 13,
+      "q": 7
+    },
+    {
+      "R_adjacent": [
+        21,
+        21
+      ],
+      "S_adjacent": [
+        0,
+        21
+      ],
+      "alpha_mod_p": 18,
+      "k": 13,
+      "m": 3,
+      "n": 12,
+      "normalization_only_not_prime_scan": true,
+      "p": 31,
+      "q": 13
+    }
+  ],
+  "dependency_sha256": {
+    "manifests/item403_mixed_cubic_exact_smith_and_finite_local_data_no_go_manifest.json": "71ad98ae5ff23cca6ebc32ad534879e6fac29ec0cbcb034838412f25e2f98f68",
+    "results/item403_mixed_cubic_exact_smith_and_finite_local_data_no_go_certificate.json": "c7516c720ba6a3bdb0f8803f0199fb6d137f593d3ef07fc9cd2205a73eb2a1fa",
+    "results/item403_mixed_cubic_exact_smith_and_finite_local_data_no_go_root_audit.json": "a8cdc2a03f597ddcac48119b9afd5c331597dff6e0f035491d8db4753a1ee80d",
+    "scripts/item403_mixed_cubic_exact_smith_and_finite_local_data_no_go_certificate.py": "90c7f5d38b168e9999b220e52d565fb77faa4b9872b2ffb70a66387f1caecd3a",
+    "sources/item387_mixed_kernel_quotient_and_claim_audit_report.md": "061e29589d427ccb5c8549c8344781c0c8f0e674d2fa525da03325312ce40625",
+    "sources/item390_mixed_cubic_fresh_primitive_saturation_report.md": "5bfb3c871b12524f672df515e920236f2470145d4f68bdcd7b47f29408692f46",
+    "sources/item393_mixed_cubic_small_prime_strata_ceiling_report.md": "5e2c92f87075cbe3ac8af3191d8df7485ac6efd13609ede5f82819e355ae5f96",
+    "sources/item396_fixed_gap_resultant_3adic_report.md": "7355b6909994357583f799e627e1ff19edb230a6a9002ee845be585057726aca",
+    "sources/item403_mixed_cubic_exact_smith_and_finite_local_data_no_go_report.md": "245bf2e557dd81ac88c94e9d0adc8990f203e3ab40680d23bd50f8e435240c48",
+    "sources/mixed_cubic_connection_determinant_3adic_nonvanishing.md": "984445948c10e423cf752af580c80345b6d3d861c41db043312d49c1e81dedcc",
+    "sources/mixed_cubic_cube_smith_reduction.md": "b44cc15d1a846d5298d61b9e53539116b31bbab0338dbc6e320fb0a875b0d0a0"
+  },
+  "exact_change_matrices": {
+    "C": "[[2,1],[10n-8,5n-1]], determinant 6",
+    "T": "[[1,1],[5n-1,5n-7]], determinant -6"
+  },
+  "hermite_normalization_rows": [
+    {
+      "A=2n-1": -1,
+      "C_change_determinant": 6,
+      "T_change_determinant": -6,
+      "n": 0,
+      "normalization_only_not_support_evidence": true,
+      "q": 1,
+      "row_sha256": "c0d1c0218efa8a7f7c247cb5464fa7180540670781ee9a5c87433ec4abec01ff"
+    },
+    {
+      "A=2n-1": 7,
+      "C_change_determinant": 6,
+      "T_change_determinant": -6,
+      "n": 4,
+      "normalization_only_not_support_evidence": true,
+      "q": 5,
+      "row_sha256": "500c2ea451752f97fd5250bbe7192e6111d3ee02bcdd9be0c37fb169223d22c3"
+    },
+    {
+      "A=2n-1": 11,
+      "C_change_determinant": 6,
+      "T_change_determinant": -6,
+      "n": 6,
+      "normalization_only_not_support_evidence": true,
+      "q": 7,
+      "row_sha256": "16351cbb61dfd2663b6d28ec0159122172b87f9c196e4ef8d4cbab42f276f0da"
+    },
+    {
+      "A=2n-1": 19,
+      "C_change_determinant": 6,
+      "T_change_determinant": -6,
+      "n": 10,
+      "normalization_only_not_support_evidence": true,
+      "q": 11,
+      "row_sha256": "25e54675e5720ef6be509775adddff5fb59c6d68b0ab875e0f306202379a8eda"
+    },
+    {
+      "A=2n-1": 23,
+      "C_change_determinant": 6,
+      "T_change_determinant": -6,
+      "n": 12,
+      "normalization_only_not_support_evidence": true,
+      "q": 13,
+      "row_sha256": "3379833754a8f967ae4d57276918cb909c8a49dd0f6fc3f0a000bcd9e3d698c0"
+    },
+    {
+      "A=2n-1": 47,
+      "C_change_determinant": 6,
+      "T_change_determinant": -6,
+      "n": 24,
+      "normalization_only_not_support_evidence": true,
+      "q": 25,
+      "row_sha256": "e96d9e2570e8cd5a52791d1f8b58ce7de23e0ca8ff4e0f91e359f025829e5458"
+    },
+    {
+      "A=2n-1": 71,
+      "C_change_determinant": 6,
+      "T_change_determinant": -6,
+      "n": 36,
+      "normalization_only_not_support_evidence": true,
+      "q": 37,
+      "row_sha256": "2bfcfba7fbdbf3025652468f923cc9dc75ff93cb28ea201b23836f98e6ea6632"
+    },
+    {
+      "A=2n-1": 83,
+      "C_change_determinant": 6,
+      "T_change_determinant": -6,
+      "n": 42,
+      "normalization_only_not_support_evidence": true,
+      "q": 43,
+      "row_sha256": "bb43997e03f70f8f38a9134e0c8f2ee5882e7e038f1ffd0a59f4e7162fcfe258"
+    },
+    {
+      "A=2n-1": 95,
+      "C_change_determinant": 6,
+      "T_change_determinant": -6,
+      "n": 48,
+      "normalization_only_not_support_evidence": true,
+      "q": 49,
+      "row_sha256": "92462b602b01d32e78b8a7801e9537dcb0f10b080f6b133746441ca0f9ec077e"
+    }
+  ],
+  "item": 406,
+  "labels": {
+    "CONDITIONAL": [
+      "the four-adjacent nonvanishing lemma would exclude compatible primes from H_q",
+      "the combined unmarked H and primitive-G support theorem would give c_m^>=1 and is stronger than the marked target in q=1 mod 6"
+    ],
+    "OPEN": [
+      "exclusion of simultaneous vanishing of the two adjacent R and S pairs for every compatible prime with m>=1 and q>=5",
+      "H_q divides P_q with multiplicities",
+      "primitive G_q support after H_q is removed",
+      "the distinguished marked cube-root branch in q=1 mod 6",
+      "H_q*G_q^prim divides P_q",
+      "Route 1 and irrationality of e+pi"
+    ],
+    "PROVED": [
+      "all-q coefficientwise Hermite identities for the actual C and T pairs",
+      "local ideal equivalence between actual coefficient pairs and four adjacent base diagonals away from 6(2q-3)",
+      "degree-six algebraic diagonal kernels, direct actual-row formulas, and exact Euler-operator recurrences",
+      "compatible-prime Frobenius/Cayley reduction to adjacent coefficients of R and S for q>=5, with q=1 trivial"
+    ]
+  },
+  "schema": "item406-actual-adjacent-recurrence-v1",
+  "smallest_missing_H_only_lemma": "For p=6m+q prime with m>=1 and q>=5, n=q-1, k=4m+1, R=(1-z)^(6m)/(1+z^2)^k and S=R/(1+z)^k, the coefficient pairs at degrees n-1,n are not simultaneously zero for both R and S modulo p.",
+  "status": "CANONICAL_ROOT_AUDITED_NO_BOOKING",
+  "witness_sha256": "a91fadabaed58f23024e4576e635b37ffc5d50c8b557ccc4dee52bfd46b5fa7f"
+}

@@ -1,0 +1,135 @@
+{
+  "affected_capacity": {
+    "boundary": "p=3s+c, c in {3,4,5}; product divides (6M)(6M-1)(6M-2), hence O(log M)",
+    "decimal_per_M": "0.125432927950090",
+    "exact_per_M": "1139587/9085230"
+  },
+  "degree_le_4_ansatz": {
+    "matrix_sha256": "9c650138817c5ea8d36649ba38472ff0a079b9e13d430614d100dec2f847d037",
+    "matrix_shape": [
+      25,
+      20
+    ],
+    "nullity": 1,
+    "primitive_generator": [
+      144,
+      5040,
+      11696,
+      9200,
+      2400,
+      -3840,
+      -16960,
+      -25920,
+      -16640,
+      -3840,
+      59880,
+      172338,
+      184971,
+      87750,
+      15525,
+      -97200,
+      -278820,
+      -298200,
+      -140940,
+      -24840
+    ],
+    "rank": 19,
+    "scope": "linear adjacent identities with four Q[s] coefficients of degree at most 4"
+  },
+  "finite_affected_replay": {
+    "M_range": [
+      25,
+      240
+    ],
+    "boundary_rows": 56,
+    "far_rows": 718,
+    "label": "EXACT FINITE ONLY",
+    "purpose": "verify phase-preserving adjacency and boundary identity; not scan common zeros",
+    "row_sha256": "e3c4d079873d33c277a9cf812513a223813e040b2b5218d8123562dfb4a715ef"
+  },
+  "height_and_overlap": {
+    "A1_implication": false,
+    "cross_layer_height": "log|V_s|=O(s), hence the inherited all-layer product is O(M^2)",
+    "dependence": "the adjacent line is exactly proportional to a current-layer linear combination",
+    "item149": "first post-Cartier copy already booked; no second booking from the transported line",
+    "new_rate_booking": 0
+  },
+  "labels": {
+    "adjacent_identity": "PROVED by exact constant-term telescoping",
+    "affected_mass": "PROVED: full far coefficient up to zero-rate boundary",
+    "bounded_replay": "EXACT FINITE ONLY",
+    "degree_le_4_uniqueness": "PROVED only in the explicitly declared linear polynomial ansatz",
+    "higher_degree_or_nonlinear_invariant": "OPEN",
+    "new_route1_rate": 0,
+    "phase_relocation": "PROVED"
+  },
+  "mandatory_nonpropagation_witness": {
+    "adjacent_g0_g1_mod_p": [
+      2105,
+      1694
+    ],
+    "adjacent_line_coefficients_mod_p": [
+      966,
+      128
+    ],
+    "adjacent_row_M_s_p_j_q_b_r": [
+      3448,
+      300,
+      2399,
+      2,
+      1,
+      895,
+      2
+    ],
+    "adjacent_terminal_mod_p": [
+      395,
+      2267,
+      148,
+      1694
+    ],
+    "current_g0_g1_mod_p": [
+      0,
+      0
+    ],
+    "current_row_M_s_p_j_q_b_r": [
+      2249,
+      299,
+      2399,
+      1,
+      1,
+      900,
+      3
+    ],
+    "current_terminal_mod_p": [
+      7,
+      2392,
+      0,
+      0
+    ]
+  },
+  "payload_sha256": "47371eb87c56fe5b41253fb9ae1ecb40e1a849cb738d3eb6abcfc9066d53e434",
+  "phase_map": {
+    "adjacent": "(s,b,r)->(s+1,b-5,r+3 mod 4)",
+    "adjacent_b_prime_functional": "5(23b'^2+109b'+116)g0_next-4(46b'^2+213b'+216)g1_next",
+    "cross_j": "(M,j)->(M+(p-1)/2,j+1)",
+    "current_b_functional": "5(3b^2+4b-29)g0-4(6b^2-7b-24)g1",
+    "phase_substitution_sha256": "824c60535f6e894155d1d1e0ec1762725e4ac72bd097bd84b2ae3d568b356276"
+  },
+  "resultants": {
+    "Res(a,b0)": -3051,
+    "Res(c,d)": 1564,
+    "factorization_adjacent": "2^2*17*23",
+    "factorization_current": "-3^3*113"
+  },
+  "schema": "item268-cross-b-contiguous-obstruction-certificate-v1",
+  "telescoping": {
+    "identity": "16(s+1)(2s+3)(a*g0-20*b0*g1)+3(3s+4)(3s+5)(c*g0_next-20*d*g1_next)=0",
+    "polynomials": {
+      "a": "75s^2+100s+3",
+      "b0": "6s^2+11s+4",
+      "c": "575s^2+1525s+998",
+      "d": "46s^2+123s+81"
+    },
+    "symbolic_identity_sha256": "ebe7a65870448b67812d333e5c02bcbfcc65996e6b888272eb9a5fe9a6273698"
+  }
+}

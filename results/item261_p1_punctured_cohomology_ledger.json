@@ -1,0 +1,73 @@
+{
+  "schema": "item261-p1-punctured-cohomology-ledger-v1",
+  "scope": "the p=1 mod 6 ordinary-j=2 punctured Kummer/elliptic reduction, including the Item-251 affine period",
+  "claims": [
+    {
+      "id": "I261-C1",
+      "label": "PROVED",
+      "claim": "The sextic Kummer curve is birational to E:Z^2=X^3-1/2 with x=X^-3, and the omitted x=1 point becomes the six geometric logarithmic punctures over X^3=1.",
+      "evidence": "report Sections 1-2; root symbolic audit",
+      "scope_limit": "the actual p=1 mod 6 phase"
+    },
+    {
+      "id": "I261-C2",
+      "label": "PROVED",
+      "claim": "Exact Hermite reduction sends every fixed-r weight to one compact coordinate and one logarithmic coordinate, with every pole and p-unit denominator retained.",
+      "evidence": "report Section 3; canonical checker; independent root probe",
+      "scope_limit": "bounded cohomological dimension is not an arithmetic evaluation"
+    },
+    {
+      "id": "I261-C3",
+      "label": "PROVED",
+      "claim": "The finite-field exact-form functional has the stated Laurent-resonance and omitted-endpoint correction; exact differentials do not vanish under the punctured point sum.",
+      "evidence": "report Section 4; 1,150 canonical and 488 independent endpoint checks",
+      "scope_limit": "all actual endpoint and Laurent terms are retained"
+    },
+    {
+      "id": "I261-C4",
+      "label": "PROVED",
+      "claim": "The two residual coordinates evaluate to U=-h_q/5-epsilon and V=-H_q+2epsilon/3, and the reduction exactly recovers H_(q-delta)=H_q-K_delta h_q.",
+      "evidence": "report Section 5; canonical and independent row identities",
+      "scope_limit": "the moving base prefix H_q remains"
+    },
+    {
+      "id": "I261-C5",
+      "label": "PROVED",
+      "claim": "Item 251's surviving integer period and the full rank-aware affine gate reduce to the same pair (H_q,h_q) plus explicit fixed-r coefficients, without deleting the f_0=f_1=0 branch.",
+      "evidence": "report Section 6; 1,644 canonical and 678 independent period equalities",
+      "scope_limit": "this is a reduction, not a nonvanishing theorem"
+    },
+    {
+      "id": "I261-C6",
+      "label": "PROVED_SHARPLY_SCOPED_NO_GO",
+      "claim": "The logarithmic form has nonzero residues -alpha/beta at the six punctures, so compact elliptic H^1 or its full unpunctured Frobenius data cannot replace this coordinate.",
+      "evidence": "report Section 7; root residue calculation",
+      "scope_limit": "does not rule out punctured Frobenius, nonlinear, or other arithmetic methods"
+    },
+    {
+      "id": "I261-C7",
+      "label": "EXACT_FINITE_ONLY",
+      "claim": "All bounded row and zero counts, including the three listed prefix zeros through p<=401, are finite observations only.",
+      "evidence": "byte-identical canonical/replay certificates",
+      "scope_limit": "no density or nonoccurrence inference"
+    },
+    {
+      "id": "I261-C8",
+      "label": "PROVED_BOOKING_DECISION",
+      "claim": "The exact p=43 zero rules out uniform prefix nonvanishing and no weighted theorem follows; rate, exponent, and capacity booking are zero.",
+      "evidence": "report Sections 1 and 8-9",
+      "scope_limit": "no conclusion about e+pi"
+    }
+  ],
+  "open": [
+    "arithmetic control of the logarithmic puncture coordinate",
+    "a uniform theorem as r moves through the positive-mass cell",
+    "a positive or zero weighted-rate theorem for the full affine gate",
+    "any new Route-1 exponent, rate, capacity reduction, or conclusion about e+pi"
+  ],
+  "booking": {
+    "new_unconditional_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "capacity_reduction": 0
+  }
+}

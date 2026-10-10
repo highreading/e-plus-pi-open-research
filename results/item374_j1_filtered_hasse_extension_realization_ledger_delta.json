@@ -1,0 +1,97 @@
+{
+  "schema": "item374-j1-filtered-hasse-extension-realization-ledger-delta-v1",
+  "item": 374,
+  "date": "2026-09-01",
+  "branch": "Route 1 / fixed-j1 / filtered Hasse and unipotent extension",
+  "status": "PROVED_EXACT_RANK_TWO_FILTERED_HASSE_REALIZATION_AND_HORIZONTAL_INFORMATION_NEUTRALITY",
+  "proved": {
+    "actual_family": "p=4h+6s+3, M=3h+4s+2, n=2h, r=2s+1",
+    "filtered_module": "rank two, Fil^1=W e1, phi1(e1)=e1+Qtilde e2, phi0(e1)=p phi1(e1), phi0(e2)=e2",
+    "fixed_Hodge_weights": [
+      0,
+      1
+    ],
+    "strong_generation": "det[phi1(e1),phi0(e2)]=1",
+    "full_Frobenius": "determinant p, invertible after p, characteristic polynomial (X-p)(X-1)",
+    "graded_Hasse": "the map Fil^1/p to M/(Fil^1+pM) is multiplication by Q0",
+    "local_product": "product_x U(-R(x))=U(Q0), with all factors determinant one",
+    "local_product_support": "at least p^2-1-[4+2(p-1)+2|h-s|] factors are nonidentity",
+    "rank_minimality": "rank two is minimal for a nontrivial scalar graded Hasse map",
+    "information_neutrality": "every residue q occurs with the same rank, Hodge polygon, and semisimple full Frobenius data",
+    "naive_lift_barrier": "actual controls have nontrivial Teichmueller additive carry modulo p^2",
+    "new_independent_condition": 0
+  },
+  "scope": {
+    "full_collision_implication": "full ordinary collision implies selected Hasse a=0 and graded Hasse Q0=0",
+    "joint_converse_to_full_collision_claimed": false,
+    "geometric_compatible_system_claimed": false,
+    "bounded_support_claimed": false,
+    "literal_Kummer_and_Artin_Schreier": "separate inherited closures, not reopened",
+    "not_ruled_out": "a nonliteral prime-independent geometric filtered extension with bounded conductor and horizontal monodromy"
+  },
+  "capacity": {
+    "raw_log_mass": "M/6+o(M)",
+    "raw_ceiling_per_6M": "1/36",
+    "weighted_target": "W_filt(M)=W_(H,Q)(M)=o(M)",
+    "weighted_target_proved": false,
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "booking": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36"
+  },
+  "controls": {
+    "classification": "EXACT FINITE ONLY; PREDECLARED; NO PRIME SCAN",
+    "Hasse_values": [
+      9,
+      14,
+      30,
+      0
+    ],
+    "Teichmueller_carry_digits": [
+      2,
+      11,
+      17,
+      0
+    ],
+    "rows": [
+      [
+        1,
+        1,
+        13,
+        0,
+        9
+      ],
+      [
+        2,
+        1,
+        17,
+        8,
+        14
+      ],
+      [
+        8,
+        2,
+        47,
+        0,
+        30
+      ],
+      [
+        10,
+        11,
+        109,
+        70,
+        0
+      ]
+    ]
+  },
+  "open": [
+    "a prime-independent geometric filtered/crystalline compatible extension realizing Q0",
+    "a nonliteral bounded-conductor unipotent or cohomological compression",
+    "horizontal distribution of the filtered extension/Hasse coordinate",
+    "weighted joint-zero density or any strict fixed-j1 ceiling reduction",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "ledger_action": "RECORD_EXACT_FILTERED_HASSE_REALIZATION_AND_HORIZONTAL_INFORMATION_NEUTRALITY_BOOK_ZERO",
+  "route_1_status": "ACTIVE",
+  "canonical_files_modified": false
+}

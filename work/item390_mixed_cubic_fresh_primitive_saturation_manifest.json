@@ -1,0 +1,28 @@
+{
+  "artifact": "item390_mixed_cubic_fresh_primitive_saturation_manifest",
+  "audit_status": "WORK_ONLY_UNAUDITED",
+  "files": [
+    "work/item390_mixed_cubic_fresh_primitive_saturation_report.md",
+    "work/item390_mixed_cubic_fresh_primitive_saturation_certificate.py",
+    "work/item390_mixed_cubic_fresh_primitive_saturation_certificate.json",
+    "work/item390_mixed_cubic_fresh_primitive_saturation_certificate.replay.json",
+    "work/item390_mixed_cubic_fresh_primitive_saturation_ledger.json",
+    "work/item390_mixed_cubic_fresh_primitive_saturation_manifest.json",
+    "work/item390_mixed_cubic_fresh_primitive_saturation_hashes.sha256"
+  ],
+  "dependencies": [
+    "ROUTE1_MASTER_CAPACITY.md",
+    "sources/mixed_cubic_coordinates_and_synchronization_audit.md",
+    "sources/mixed_cubic_large_prime_log_residue_theorem.md",
+    "sources/mixed_cubic_fresh_prime_coprimality_supplement.md",
+    "work/item388_mixed_cubic_local_data_nonexhaustion_report.md"
+  ],
+  "replay": "python work/item390_mixed_cubic_fresh_primitive_saturation_certificate.py --output work/item390_mixed_cubic_fresh_primitive_saturation_certificate.replay.json",
+  "result": {
+    "all_depth_saturation": "on every nonzero row, v_p(c_m)=min(v_p(lambda0),v_p(lambda1)) for every p>6m; this includes all sufficiently large m",
+    "global_carrier": "on those rows c_{m,>6m}=(gcd(|lambda0|,|lambda1|))_{p>6m}",
+    "ceiling": "limsup log(c_{m,>6m})/(6m)<=log(136)/6",
+    "booking_delta": 0
+  },
+  "scope": "Actual normalized mixed-cubic family, strictly large-prime internal common content on nonzero rows (hence all sufficiently large rows). No central file is edited, no mass is booked, and no statement is made for undeclared p<=6m content or beta multi-parent matching."
+}

@@ -1,0 +1,211 @@
+{
+  "determinant_grid": {
+    "D_rule": "2 <= D <= min(5,n)",
+    "all_appropriate_bordered_minors_nonzero": true,
+    "all_shifted_coordinate_minors_nonzero": true,
+    "m_range": [
+      2,
+      6
+    ],
+    "n_range": [
+      2,
+      5
+    ],
+    "row_count": 50
+  },
+  "logical_scope": {
+    "all_parameter_part": "The companion source proves the shifted coordinate-border minor for all m,n,D by a Toeplitz/Andreief argument.",
+    "exact_finite_theorem": "Every positivity assertion is an exact rational comparison. The Coxian identities prove complete monotonicity for every recorded rational function, with no sampled-t positivity step.",
+    "open_part": "The finite Newton grid is not an all-parameter proof of strict Newton positivity; that universal lemma remains isolated."
+  },
+  "newton_grid": {
+    "all_cardinal_congruences": true,
+    "all_centered_factorizations": true,
+    "all_coxian_identities_exact": true,
+    "all_newton_coefficients_strictly_positive": true,
+    "all_numerator_degrees_rate_count_minus_one": true,
+    "defect_m_rule": "odd 3 <= m <= 10",
+    "defect_n_rule": "odd 3 <= n <= 7",
+    "defect_row_count": 12,
+    "exact_row_digest_sha256": "1c61f1716d1aa825a01133e3e5067383ac357c43a9a77495047ed2bcf486e217",
+    "generic_m_range": [
+      2,
+      10
+    ],
+    "generic_n_range": [
+      2,
+      7
+    ],
+    "generic_row_count": 54
+  },
+  "schema": "root-unity-gamma-augmented-newton-certificate-v1",
+  "selected_determinant_rows": [
+    {
+      "D": 4,
+      "appropriate_bordered_minor_nonzero": true,
+      "bordered_minor_sign": 1,
+      "defect": false,
+      "m": 2,
+      "n": 4,
+      "shifted_coordinate_minor_nonzero": true,
+      "shifted_minor_sign": 1
+    },
+    {
+      "D": 2,
+      "appropriate_bordered_minor_nonzero": true,
+      "bordered_minor_sign": 1,
+      "defect": true,
+      "m": 3,
+      "n": 3,
+      "shifted_coordinate_minor_nonzero": true,
+      "shifted_minor_sign": 1
+    },
+    {
+      "D": 4,
+      "appropriate_bordered_minor_nonzero": true,
+      "bordered_minor_sign": 1,
+      "defect": true,
+      "m": 3,
+      "n": 5,
+      "shifted_coordinate_minor_nonzero": true,
+      "shifted_minor_sign": 1
+    },
+    {
+      "D": 4,
+      "appropriate_bordered_minor_nonzero": true,
+      "bordered_minor_sign": -1,
+      "defect": true,
+      "m": 5,
+      "n": 5,
+      "shifted_coordinate_minor_nonzero": true,
+      "shifted_minor_sign": -1
+    },
+    {
+      "D": 5,
+      "appropriate_bordered_minor_nonzero": true,
+      "bordered_minor_sign": -1,
+      "defect": false,
+      "m": 6,
+      "n": 5,
+      "shifted_coordinate_minor_nonzero": true,
+      "shifted_minor_sign": 1
+    }
+  ],
+  "selected_newton_rows": [
+    {
+      "all_newton_coefficients_strictly_positive": true,
+      "central_order": 1,
+      "discarded_global_sign": -1,
+      "family": "generic-even-m-Lambda0",
+      "first_newton_coefficient": "2",
+      "h": 3,
+      "last_newton_coefficient": "12",
+      "m": 2,
+      "n": 2,
+      "newton_sha256": "b58e377849da651da1f69f177a980351bf1cb24b50dafe9fb645812e4d3b033d",
+      "numerator_degree": 2,
+      "rate_count": 3
+    },
+    {
+      "all_newton_coefficients_strictly_positive": true,
+      "central_order": 1,
+      "discarded_global_sign": 1,
+      "family": "generic-even-m-Lambda0",
+      "first_newton_coefficient": "2",
+      "h": 4,
+      "last_newton_coefficient": "2576/2187",
+      "m": 4,
+      "n": 3,
+      "newton_sha256": "20757c755c338bcb9304416fed70d9c67458f509a5103820a99f824f2f034e09",
+      "numerator_degree": 7,
+      "rate_count": 8
+    },
+    {
+      "all_newton_coefficients_strictly_positive": true,
+      "central_order": 1,
+      "discarded_global_sign": 1,
+      "family": "generic-even-m-Lambda0",
+      "first_newton_coefficient": "2",
+      "h": 4,
+      "last_newton_coefficient": "10520224/759834228234375",
+      "m": 8,
+      "n": 3,
+      "newton_sha256": "bb920fa9e32d918a45f6010c49103bf361904fae54f79058a41fead519bcd3a7",
+      "numerator_degree": 15,
+      "rate_count": 16
+    },
+    {
+      "all_newton_coefficients_strictly_positive": true,
+      "central_order": 8,
+      "discarded_global_sign": -1,
+      "family": "generic-odd-m-Lambda0",
+      "first_newton_coefficient": "2",
+      "h": 7,
+      "last_newton_coefficient": "396124279604/19637688925051982259521484375",
+      "m": 9,
+      "n": 6,
+      "newton_sha256": "9f385232d2b836749dcfff60dc34a265e32dcbae2f784d7d4fb660d939dcbb11",
+      "numerator_degree": 27,
+      "rate_count": 28
+    },
+    {
+      "all_newton_coefficients_strictly_positive": true,
+      "central_order": 1,
+      "discarded_global_sign": -1,
+      "family": "generic-even-m-Lambda0",
+      "first_newton_coefficient": "2",
+      "h": 8,
+      "last_newton_coefficient": "76505344394536516576/428032876402473971613008072207865875244140625",
+      "m": 10,
+      "n": 7,
+      "newton_sha256": "8a85dbd194e836124065d1f24ccdf0e0e244442ffcd0eafeec61067c138404fe",
+      "numerator_degree": 39,
+      "rate_count": 40
+    },
+    {
+      "all_newton_coefficients_strictly_positive": true,
+      "central_order": 5,
+      "discarded_global_sign": 1,
+      "family": "defect-odd-m-odd-n-Lambda1",
+      "first_newton_coefficient": "1",
+      "h": 4,
+      "last_newton_coefficient": "23/16",
+      "m": 3,
+      "n": 3,
+      "newton_sha256": "19413c1d277dc259ec180f16f15846977e468a6406bc8b9843eadb3e479af5ae",
+      "numerator_degree": 3,
+      "rate_count": 4
+    },
+    {
+      "all_newton_coefficients_strictly_positive": true,
+      "central_order": 7,
+      "discarded_global_sign": 1,
+      "family": "defect-odd-m-odd-n-Lambda1",
+      "first_newton_coefficient": "1",
+      "h": 6,
+      "last_newton_coefficient": "32595018211427/15045919506432000000000",
+      "m": 7,
+      "n": 5,
+      "newton_sha256": "a57145ab2081397202aacdf5956eb47e945e771e664e2db7ad33eace36297adb",
+      "numerator_degree": 17,
+      "rate_count": 18
+    },
+    {
+      "all_newton_coefficients_strictly_positive": true,
+      "central_order": 9,
+      "discarded_global_sign": -1,
+      "family": "defect-odd-m-odd-n-Lambda1",
+      "first_newton_coefficient": "1",
+      "h": 8,
+      "last_newton_coefficient": "6888603060877772109866826349117/2921195465391606269319976534558365450240000000000000",
+      "m": 9,
+      "n": 7,
+      "newton_sha256": "2fad92621bef1857a3dc58badbbe1b35540b77ba6f204fb70a6f4538a5bdc793",
+      "numerator_degree": 31,
+      "rate_count": 32
+    }
+  ],
+  "versions": {
+    "sympy": "1.14.0"
+  }
+}

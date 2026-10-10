@@ -1,0 +1,37 @@
+{
+  "scope": "Exact symbolic identity controls, no recurrence fitting",
+  "ladder": [
+    1,
+    2,
+    4,
+    7,
+    9
+  ],
+  "moment_transfer": [
+    {
+      "polynomial": "-x**2 + 2*x + 1",
+      "k": 3,
+      "common_value": "1229/6300"
+    },
+    {
+      "polynomial": "3*x + (1 - x)**7",
+      "k": 5,
+      "common_value": "63020569/77837760"
+    }
+  ],
+  "green": [
+    [
+      0,
+      3
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      8
+    ]
+  ],
+  "status": "passed"
+}

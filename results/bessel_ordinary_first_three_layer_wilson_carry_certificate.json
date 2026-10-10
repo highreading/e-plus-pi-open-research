@@ -1,0 +1,104 @@
+{
+  "description": "Deterministic exact replay for the first three ordinary Bessel harmonic layers and their Wilson carry.",
+  "finite_field_grid": {
+    "base_orbit_count": 82,
+    "direct_layer_polynomial_checks": 246,
+    "endpoint_evaluation_checks": 984,
+    "exact_zero_endpoint_checks": 246,
+    "left_factorial_specialization_checks": 9,
+    "prime_bound_exclusive": 32,
+    "root_records": [
+      {
+        "delta_mod_p": 5,
+        "prime": 7,
+        "root": 2
+      },
+      {
+        "delta_mod_p": 1,
+        "prime": 11,
+        "root": 4
+      },
+      {
+        "delta_mod_p": 12,
+        "prime": 13,
+        "root": 4
+      },
+      {
+        "delta_mod_p": 11,
+        "prime": 31,
+        "root": 13
+      }
+    ],
+    "root_slope_checks": 4
+  },
+  "frozen_dependencies": {
+    "sources/bessel_large_prime_four_point_exclusivity.md": "1e8fed0a5ab04c97c4e0749d40304d6398f9fd32d55c7b49085fb4b4ecca4e41",
+    "sources/bessel_large_prime_ordinary_harmonic_expansion_barrier.md": "28a91596edafac946448ea68f4c95dfdcd94e63bcf7586394c464a69d6a76e3d"
+  },
+  "scope_warning": "The layer and Wilson-carry formulas are symbolic all-prime theorems. Finite grids and the two square witnesses do not imply a uniform valuation bound. Every positive raw layer vanishes at endpoint Z=0, and raw layers do not include carries.",
+  "square_witnesses": [
+    {
+      "R": 12,
+      "blocks_A": [
+        0,
+        10,
+        0,
+        0
+      ],
+      "blocks_B": [
+        2,
+        3,
+        10
+      ],
+      "blocks_G": [
+        3,
+        2
+      ],
+      "carried_F_over_p2_mod_p": 11,
+      "endpoint": -1,
+      "index": 8,
+      "kappa_2": 8,
+      "prime": 13,
+      "q_over_p2_mod_p": 11,
+      "root": 4,
+      "second_layer": 3,
+      "third_layer": 3,
+      "unreduced_low_P_mod_p2": 142,
+      "valuation": 2
+    },
+    {
+      "R": 16091,
+      "blocks_A": [
+        0,
+        34845,
+        16631,
+        11785
+      ],
+      "blocks_B": [
+        31094,
+        10624,
+        6887
+      ],
+      "blocks_G": [
+        24501,
+        31115
+      ],
+      "carried_F_over_p2_mod_p": 11300,
+      "endpoint": 1,
+      "index": 66831,
+      "kappa_2": 22712,
+      "prime": 52453,
+      "q_over_p2_mod_p": 41153,
+      "root": 14378,
+      "second_layer": 41041,
+      "third_layer": 9258,
+      "unreduced_low_P_mod_p2": 783294135,
+      "valuation": 2
+    }
+  ],
+  "wilson_lift_grid": {
+    "prime_bound_exclusive": 50,
+    "root_wilson_cancellation_checks": 5,
+    "termwise_wilson_lift_checks": 1473
+  }
+}

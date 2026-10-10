@@ -1,0 +1,44 @@
+{
+  "schema": "item229-root-independent-audit-v1",
+  "status": "PASS_AFTER_SCOPE_CORRECTION_WITH_OPEN_PHASE_IDENTITY",
+  "canonical_sha256": "3dcde380403f3e2080f87d8bb9cd81b55f5a9bfd34f3544a04a7d3acfa65b589",
+  "root_replay_sha256": "3dcde380403f3e2080f87d8bb9cd81b55f5a9bfd34f3544a04a7d3acfa65b589",
+  "byte_identical_replay": true,
+  "independent_checks": {
+    "gosper_operator": "t_(j+1)/t_j=-(2s+j)/(j+1), so t_j L_s R telescopes exactly to the stated upper boundary",
+    "triangular_uniqueness": "L_s(j^d) has leading term -2 j^(d+1); together with the constant column this is an invertible triangular basis through degree 2h",
+    "degree_leading_term": "the coefficient formula has per-s logarithmic linear term 4y and a bracket leading value -4s at y=0, giving -4*4^(2h)/(2h)!",
+    "scope_correction": "a nonzero residual S_s coefficient proves only failure of this displayed polynomial Gosper/direct-decomposition ansatz; it does not prove non-rationality or exclude another cancellation",
+    "extended_decomposition_grid_rows": 144,
+    "extended_decomposition_grid_h_s_max": 12,
+    "extended_degree_grid_h_max": 10,
+    "finite_phase_factorization_h_max": 80,
+    "finite_actual_rows": 22934,
+    "finite_theta_zeros": 22,
+    "finite_eliminant_zeros": 58,
+    "finite_joint_zeros": 0,
+    "hash_ledger_entries_checked": 5,
+    "hash_mismatches": 0,
+    "dependency_hashes_checked": 6,
+    "python_compile": true,
+    "control_character_scan": "clean",
+    "host_path_scan": "clean"
+  },
+  "classification": {
+    "PROVED": [
+      "the exact all-h polynomial Gosper decomposition of corrected Theta",
+      "deg_s(c_h)=2h+1 and its nonzero leading coefficient",
+      "the displayed direct decomposition retains an incomplete-binomial coordinate"
+    ],
+    "EXACT_FINITE": [
+      "the phase proportionality c_h(s*)=R_h E_h* and its step-three ratio through h<=80",
+      "the empty Theta/E intersection through p<=2000"
+    ],
+    "OPEN": [
+      "an all-h certificate for the phase proportionality",
+      "any alternate identity controlling or cancelling S_s and the boundary coordinate",
+      "all-prime or zero-rate control and any conclusion about e+pi"
+    ]
+  },
+  "audit_conclusion": "The corrected package proves a useful exact decomposition and a narrowly scoped ansatz obstruction. Its attractive phase factorization and empty joint census remain finite evidence only."
+}

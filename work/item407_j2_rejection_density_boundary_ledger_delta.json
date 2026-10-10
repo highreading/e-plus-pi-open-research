@@ -1,0 +1,108 @@
+{
+  "item": 407,
+  "schema": "item407-j2-rejection-density-boundary-ledger-v1",
+  "classification": "PROVED_EXACT_REJECTION_CARRIER_AND_SHARP_UNION_INFORMATION_BOUNDARY_ETA_ZERO",
+  "checked_date_beijing": "2026-09-01",
+  "branch": "ordinary fixed-j=2 degenerate target rejection coupled to the nondegenerate selected-prime chart on one full ray",
+  "capacity_first": {
+    "ordinary_j2_raw_mass_per_M": "2/35",
+    "one_complete_ray_mass_per_M": "1/35",
+    "one_complete_ray_normalized_per_6M": "1/210",
+    "maximum_one_ray_reward": "1/210",
+    "proved_eta_per_M": 0,
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "retained_ordinary_j2_ceiling_per_6M": "1/105"
+  },
+  "actual_rowwise_carriers": {
+    "degenerate_gate": "p divides Pi_sat_(r,s)",
+    "degenerate_collision": "p divides Gamma_sat_(r,s), where Gamma=gcd(Pi_r,abs(num T_0),abs(num T_1))",
+    "degenerate_target_rejection": "p divides J_(r,s), where J=(Pi_sat)_(Gamma_sat)",
+    "nondegenerate_collision": "p divides E_(p,r,s) and the selected Teichmuller prime P_p divides Xi_(p,r,s)",
+    "height": "log^+(J)<=log^+(Pi)=O(r log r); no weighted density follows"
+  },
+  "exact_union_accounting": {
+    "degenerate_rejection_mass": "F_deg=D_e-G_e",
+    "collision_union_mass": "W_e=G_e+N_e",
+    "full_rejection_identity": "R_e-W_e=F_deg+F_nd+O_e",
+    "no_double_counting": true
+  },
+  "sharp_density_boundary": {
+    "assumptions": "D_e>=dM+o(M), G_e<=gM+o(M), N_e<=nM+o(M)",
+    "maximum_collision_mass_per_M": "min(1/35,g+n,1/35-d+g)",
+    "forced_excluded_mass_per_M": "max(0,d-g,1/35-g-n)",
+    "normalized_saving": "max(0,d-g,1/35-g-n)/6",
+    "degenerate_only_threshold": "d>g; reward (d-g)/6",
+    "two_chart_threshold": "g+n<1/35; reward (1/35-g-n)/6",
+    "sharpness": "attained by abstract weighted information models, explicitly not actual rows"
+  },
+  "gate_rarity_rule": {
+    "gate_rarity_only": "zero booking when the selected-prime chart has only its trivial full-ray bound",
+    "coupled_rule": "D_e<=qM+o(M) and N_e<=nM+o(M) imply excluded mass at least max(0,1/35-q-n)M+o(M)",
+    "warning": "no gate-rarity-only booking is admitted"
+  },
+  "information_class": {
+    "name": "I_407(d,g,n)",
+    "includes": [
+      "actual ray parametrization and raw mass 1/35",
+      "exact rowwise carrier equivalences",
+      "chart inclusions, disjointness, and aggregate d,g,n bounds",
+      "safe saturation and pointwise height",
+      "unmarked invariant information already closed by Item 402"
+    ],
+    "excludes": [
+      "formula-specific weighted distribution for actual Pi_sat, Gamma_sat, or selected ideal (E,Xi)",
+      "cross-row arithmetic forcing extra rejection"
+    ],
+    "no_go": "no saving larger than max(0,d-g,1/35-g-n)/6 follows inside this information class"
+  },
+  "proved": [
+    "exact target-rejection carrier J=(Pi_sat)_(Gamma_sat)",
+    "exact coupling to the Item 399 selected-prime collision chart",
+    "sharp joint aggregate threshold and linear-program dual bound",
+    "gate rarity requires complementary selected-prime control",
+    "precise information-class boundary",
+    "eta zero and no capacity reduction"
+  ],
+  "conditional": [
+    "D>=dM+o(M), G<=gM+o(M), d>g imply normalized saving at least (d-g)/6",
+    "G<=gM+o(M), N<=nM+o(M), g+n<1/35 imply normalized saving at least (1/35-g-n)/6",
+    "joint bounds imply normalized saving at least max(0,d-g,1/35-g-n)/6",
+    "G=o(M) and N=o(M) on one ray remove its full 1/210 capacity"
+  ],
+  "open": [
+    "actual positive lower density for tied-prime divisors of J",
+    "actual moving-divisor or average-gcd theorem for Gamma_sat",
+    "actual weighted selected-prime theorem for (E,Xi)",
+    "positive full-ray saving and positive eta",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "exact support-difference carrier",
+      "exact full-union accounting",
+      "sharp aggregate criterion and no-go boundary",
+      "eta zero"
+    ],
+    "CONDITIONAL": [
+      "only implications from explicitly assumed actual weighted theorems with positive margin"
+    ],
+    "EXACT_INTEGER_ALGEBRA_REPLAY_ONLY_NOT_ACTUAL": [
+      "declared Item 404 support packets; no prime census and no extrapolation"
+    ],
+    "ABSTRACT_INFORMATION_MODEL_NOT_ACTUAL": [
+      "weighted-ray extremizers used only to prove sharpness"
+    ],
+    "OPEN": [
+      "all actual weighted density inputs",
+      "positive capacity reduction",
+      "Route 1 and every conclusion about e+pi"
+    ]
+  },
+  "evidence_policy": {
+    "no_prime_or_collision_census": true,
+    "no_finite_extrapolation": true,
+    "no_ambient_tuple_claimed_actual": true,
+    "canonical_files_modified": false
+  }
+}

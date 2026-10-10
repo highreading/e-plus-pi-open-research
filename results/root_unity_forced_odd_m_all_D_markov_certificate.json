@@ -1,0 +1,171 @@
+{
+  "abstract_external_node_replay": {
+    "all_Schur_determinant_identities_exact": true,
+    "all_divisor_Markov_transforms_J_strictly_positive": true,
+    "all_external_node_Stieltjes_kernels_K_strictly_positive": true,
+    "all_generalized_Andreief_identities_exact": true,
+    "all_interpolation_identities_exact": true,
+    "all_mixed_moment_determinants_have_expected_sign": true,
+    "d_rule": "1 <= d <= 5",
+    "exact_value_digest_sha256": "5a70272d71d9494ee16f3129d11b528c3bd7aa5aaeb0e95227dad039d34a90c9",
+    "row_count": 5
+  },
+  "abstract_rows": [
+    {
+      "J_digest_sha256": "7c5f1dc698637cd3b113f72a5fa338e75d70497e94a26b7b5fcea6f800e6d02a",
+      "K_digest_sha256": "79358cdca04abd6353f8e374d0ba8f436134160da18fcd6f48e779d419f50c0d",
+      "all_J_strictly_positive": true,
+      "all_external_K_strictly_positive": true,
+      "d": 1,
+      "generalized_andreief_checks": 5,
+      "mixed_moment_sign": 1,
+      "support_size": 4
+    },
+    {
+      "J_digest_sha256": "68442dd8c2674b57b0636d165db95261071fb1a34d3920d6a15a2d8dbb4e1d2f",
+      "K_digest_sha256": "7ccb75905134febd15edc9d6a53b0d48a3c1662285ea81f26234f4394370303f",
+      "all_J_strictly_positive": true,
+      "all_external_K_strictly_positive": true,
+      "d": 2,
+      "generalized_andreief_checks": 5,
+      "mixed_moment_sign": -1,
+      "support_size": 5
+    },
+    {
+      "J_digest_sha256": "1745800203f927c85ef2fd6666f376287b4cc9549d99e3a3f744e8bc61cc887b",
+      "K_digest_sha256": "f85b7a7a9fa5e5b3c9fad5170f5dfcd808215256e223528bdbb3003cc6709c9a",
+      "all_J_strictly_positive": true,
+      "all_external_K_strictly_positive": true,
+      "d": 3,
+      "generalized_andreief_checks": 5,
+      "mixed_moment_sign": -1,
+      "support_size": 6
+    },
+    {
+      "J_digest_sha256": "2c9beaef8a6c59f7654053f81dc66b052bb306671ba69596b35a4a4bb24c6fe3",
+      "K_digest_sha256": "26ce0ec3e00b8a198a7fe6e729054a9adb3fec82b6ebcb20228e0ab1b8a65c2c",
+      "all_J_strictly_positive": true,
+      "all_external_K_strictly_positive": true,
+      "d": 4,
+      "generalized_andreief_checks": 5,
+      "mixed_moment_sign": 1,
+      "support_size": 7
+    },
+    {
+      "J_digest_sha256": "c2f0e07a31a97859b069921da8cd90e6e024530c87ef04c134b9ead409f8ca2d",
+      "K_digest_sha256": "7d05657f1025d33136e6b8796435ee36660159bfb5be6c62e5695d8fd55e1376",
+      "all_J_strictly_positive": true,
+      "all_external_K_strictly_positive": true,
+      "d": 5,
+      "generalized_andreief_checks": 5,
+      "mixed_moment_sign": 1,
+      "support_size": 8
+    }
+  ],
+  "logical_scope": {
+    "arithmetic_limit": "The theorem proves corrected endpoint nonvanishing and degree, not the primitive content or value/height inequality needed to decide the arithmetic nature of e+pi.",
+    "finite_replay": "The exact grids here audit determinant orientation, normalized-border normalization, pole signs, and rho linearity; they are not extrapolated.",
+    "universal_source": "The source proves the external-node Stieltjes-kernel lemma, the negative-node moment representation, and the polewise Euler-border inequality for all parameters in its scope."
+  },
+  "root_unity_normalization_replay": {
+    "all_central_and_noncentral_pole_differences_strictly_negative": true,
+    "all_positive_cardinal_aggregate_differences_strictly_negative": true,
+    "all_positive_cardinal_aggregate_reconstructions_exact": true,
+    "case_count": 8,
+    "exact_value_digest_sha256": "7bdb35942545cd7b8341de22d5313f0a4f239b7893369eed6d4071c0fc26ba7b"
+  },
+  "root_unity_rows": [
+    {
+      "D": 3,
+      "aggregate_NB_A_minus_NB_G": "-2115/271544",
+      "aggregate_reconstruction_exact": true,
+      "all_polewise_NB_A_minus_NB_G_strictly_negative": true,
+      "h": 5,
+      "m": 3,
+      "n": 4,
+      "pole_count_including_central": 2,
+      "pole_difference_digest_sha256": "88559f43703a83845ff2d758896a21801bad61abbdfbff53c34248435fb54cc9"
+    },
+    {
+      "D": 5,
+      "aggregate_NB_A_minus_NB_G": "-55064079/8102568580",
+      "aggregate_reconstruction_exact": true,
+      "all_polewise_NB_A_minus_NB_G_strictly_negative": true,
+      "h": 7,
+      "m": 3,
+      "n": 6,
+      "pole_count_including_central": 2,
+      "pole_difference_digest_sha256": "03beafe2eb45bad2d86a3f289eff9bdc8cd2b86c7620905a4e92a31b6e6d6e7b"
+    },
+    {
+      "D": 7,
+      "aggregate_NB_A_minus_NB_G": "-1999343519487/466215733865840",
+      "aggregate_reconstruction_exact": true,
+      "all_polewise_NB_A_minus_NB_G_strictly_negative": true,
+      "h": 9,
+      "m": 3,
+      "n": 8,
+      "pole_count_including_central": 2,
+      "pole_difference_digest_sha256": "76b4a77f806a0ac1458d11855108a2d43f4303884f0d82428346ee8567f45665"
+    },
+    {
+      "D": 3,
+      "aggregate_NB_A_minus_NB_G": "-498607578125/7673497433184",
+      "aggregate_reconstruction_exact": true,
+      "all_polewise_NB_A_minus_NB_G_strictly_negative": true,
+      "h": 5,
+      "m": 5,
+      "n": 4,
+      "pole_count_including_central": 3,
+      "pole_difference_digest_sha256": "6feff796c450ec530e43e094504b5215dcf91ee02c4e5468198432f95897d447"
+    },
+    {
+      "D": 5,
+      "aggregate_NB_A_minus_NB_G": "-1862093230692718625/60451278758628610176",
+      "aggregate_reconstruction_exact": true,
+      "all_polewise_NB_A_minus_NB_G_strictly_negative": true,
+      "h": 7,
+      "m": 5,
+      "n": 6,
+      "pole_count_including_central": 3,
+      "pole_difference_digest_sha256": "f88d4c83ec64a7f9e3434aba8dbf02a58b715e4c9620fb259e61a197b6cdb381"
+    },
+    {
+      "D": 7,
+      "aggregate_NB_A_minus_NB_G": "-13712981091525800066455059375/893857945167208408692674905088",
+      "aggregate_reconstruction_exact": true,
+      "all_polewise_NB_A_minus_NB_G_strictly_negative": true,
+      "h": 9,
+      "m": 5,
+      "n": 8,
+      "pole_count_including_central": 3,
+      "pole_difference_digest_sha256": "a87b661da5a597b9c5de94ec7473cf5cb91db39931ccdd75642c7989aab608dc"
+    },
+    {
+      "D": 3,
+      "aggregate_NB_A_minus_NB_G": "-4684522582961312245/8745426817405937847",
+      "aggregate_reconstruction_exact": true,
+      "all_polewise_NB_A_minus_NB_G_strictly_negative": true,
+      "h": 5,
+      "m": 7,
+      "n": 4,
+      "pole_count_including_central": 4,
+      "pole_difference_digest_sha256": "dd9eac889eb5af58e7921ce518ed2ca3e642e9ab8f1c0bdd5dd3035cd4c45a09"
+    },
+    {
+      "D": 5,
+      "aggregate_NB_A_minus_NB_G": "-144030309923825243104891238933/1093354121761451628175236240720",
+      "aggregate_reconstruction_exact": true,
+      "all_polewise_NB_A_minus_NB_G_strictly_negative": true,
+      "h": 7,
+      "m": 7,
+      "n": 6,
+      "pole_count_including_central": 4,
+      "pole_difference_digest_sha256": "b647fb0f88a018460daf4e35f30842009fd2dc6ba286bfdb02815d2e48900d34"
+    }
+  ],
+  "schema": "root-unity-forced-odd-m-all-D-markov-certificate-v1",
+  "versions": {
+    "sympy": "1.14.0"
+  }
+}

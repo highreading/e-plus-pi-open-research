@@ -1,0 +1,107 @@
+{
+  "booking": {
+    "capacity_reduction": 0,
+    "conclusion_about_e_plus_pi": "none",
+    "new_divisibility_exponent": 0,
+    "new_unconditional_linear_log_rate": 0
+  },
+  "cell": "normalized common-log j=2 fixed cell, Item247 singular family r=1",
+  "dependencies": {
+    "item247_checker": "item247_j2_bulk_pair_eliminant_certificate.py",
+    "item247_checker_sha256": "0d0ccdec9c0406834cde31a912702dcc999d1a65a3edcac64040c500cf0fa1f9"
+  },
+  "exact_witnesses": {
+    "admissible_nonzero_p17": {
+      "degree": 5,
+      "p": 17,
+      "residue_mod_p": 9,
+      "s": 2
+    },
+    "admissible_nonzero_p23": {
+      "degree": 7,
+      "p": 23,
+      "residue_mod_p": 3,
+      "s": 3
+    },
+    "excluded_boundary_zero": {
+      "actual_bulk_denominator": "945",
+      "actual_bulk_numerator": "88",
+      "admissible": false,
+      "degree": 3,
+      "p": 11,
+      "reason_excluded": "Item244 requires s>=2",
+      "residue_mod_p": 0,
+      "s": 1,
+      "terminal_coefficient": "-808/27",
+      "theta_denominator": "25515",
+      "theta_numerator": "-49676"
+    }
+  },
+  "finite_direct_crosscheck": {
+    "prime_max_inclusive": 401,
+    "row_count": 38,
+    "row_digest_sha256": "f4491329772df31eac8aacedc377c58c1b95a3e2f87e06f06579f62a7788155b",
+    "status": "EXACT FINITE DIRECT CROSSCHECK",
+    "zero_count": 0
+  },
+  "finite_extended_scan": {
+    "prime_max_inclusive": 20000,
+    "row_count": 1134,
+    "row_digest_sha256": "87803a7d292f2aba9b66303d7d625aae176591f69e766bdb965e001131acc38a",
+    "status": "EXACT FINITE ONLY",
+    "zero_count": 0,
+    "zero_rows": []
+  },
+  "finite_rational_replay": {
+    "prime_max_inclusive": 101,
+    "row_count": 11,
+    "row_digest_sha256": "f6248c1e86cd27107e8df202ef6334f6705929bedceec00980f11bc60d091f85",
+    "status": "EXACT FINITE RATIONAL REPLAY",
+    "zero_count": 0
+  },
+  "global_interface": "the singular bulk residual belongs only to the stronger Item239 p^3 carry and does not strengthen the ordinary p^2 common-log gate",
+  "item": 249,
+  "parameters": {
+    "D1": "(1-t)(1+t)^(2s-1)(3+t)",
+    "L": 1,
+    "M": "2s+1=(p-2)/3",
+    "item244_r": 1,
+    "n": "2s-1=M-2=(p-8)/3",
+    "p": "6s+5 prime",
+    "s_minimum": 2
+  },
+  "proved": {
+    "exact_bulk_sum": "B1=sum_(v=1)^M (-1)^(v-1)d_v*h_v/(2v+3), h_v=sum_(k=0)^(v-1)(-1)^k/(2k+3)",
+    "exact_coefficient_recurrence": "3(v+1)d_(v+1)=(3n-v-2)d_v+(3v-2n-7)d_(v-1)+(v-n-4)d_(v-2)",
+    "exact_coefficients": "d_v=3*C(n,v)-2*C(n,v-1)-C(n,v-2), with out-of-range binomial coefficients zero",
+    "moving_prime_criterion": "B1=0 modulo p iff p divides the numerator of reduced rational Theta_((p-2)/3)",
+    "terminal_coefficients": "c_M=-1 and c_(M-1)=-M modulo p",
+    "unit_audit": "L=1; M<p, 2M+3<p, v! is a p-unit for v<=M, and every coefficient, prefix, and outer denominator is a p-unit",
+    "universal_algebraic_series": "modulo p, d_v equals c_v=[t^v](1-t)(3+t)(1+t)^(-8/3) for every 0<=v<=M",
+    "universal_coefficient_recurrence": "9v*c_v=-3(v+9)c_(v-1)+(9v-14)c_(v-2)+(3v-7)c_(v-3), c_0=3 and negative-index terms zero",
+    "universal_theta": "B1=Theta_M modulo p, where Theta_m is the p-independent rational recurrence obtained from c_v and h_v"
+  },
+  "route": "Route 1A",
+  "schema": "item249-j2-singular-bulk-hypergeometric-v1",
+  "scoped_consequence": {
+    "boundary_obstruction": "Theta_3 vanishes modulo 11 on the excluded s=1 boundary, so the recurrence does allow exact moving-prime cancellation",
+    "not_proved": "no invariant is known that prevents cancellation for every admissible M>=5",
+    "proved": "the singular family is a universal moving-index algebraic-hypergeometric numerator problem with no row-dependent coefficient recurrence"
+  },
+  "status_ledger": {
+    "EXACT_FINITE": [
+      "the bounded direct, rational, and extended recurrence scans"
+    ],
+    "OPEN": [
+      "prove or disprove Theta_((p-2)/3) nonzero modulo every prime p=6s+5 with s>=2",
+      "factor or control the moving-prime numerator of Theta_M",
+      "obtain any Route-1 rate or capacity reduction"
+    ],
+    "PROVED": [
+      "the exact coefficient sum and coefficient ODE recurrence",
+      "the universal algebraic-series and p-independent recurrence reduction",
+      "the complete denominator-unit and terminal-coefficient audit",
+      "the exact excluded-boundary zero and admissible nonzero witnesses"
+    ]
+  }
+}

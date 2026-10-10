@@ -1,0 +1,42 @@
+{
+  "certificate": "explicit_low_order_mixed_pair",
+  "checks": {
+    "B_sigma_at_one": "sigma/2 - pi/2",
+    "B_sigma_residue_at_minus_one": "-sigma",
+    "L_sigma_is_claimed_linear_combination": true,
+    "closed_E_system_residual_zero": true,
+    "inverse_borel_checked_through_degree": 30,
+    "inverse_borel_coefficients_match": true,
+    "laplace_L_sigma": "sigma/2 - pi/2",
+    "laplace_Si": "pi/4",
+    "laplace_one_minus_exp": "1/2",
+    "mixed_fundamental_at_zero_is_identity": true,
+    "mixed_fundamental_system_residual_zero": true,
+    "mixed_solution_system_residual_zero": true,
+    "rational_gauge_vanishes_at_one": true,
+    "scalar_operator_annihilates_atan": true,
+    "scalar_operator_annihilates_exp": true,
+    "scalar_operator_annihilates_one": true,
+    "twice_borel_minus_atan_interpolant_is_rational_gauge": true
+  },
+  "exact_data": {
+    "B_sigma_ccw_jump_at_i": "-2*pi",
+    "B_sigma_ccw_jump_at_minus_i": "2*pi",
+    "atan_ccw_jump_at_i": "pi",
+    "atan_ccw_jump_at_minus_i": "-pi",
+    "atan_log_formula": "atan(z)=(log(1+i*z)-log(1-i*z))/(2*i)",
+    "closed_E_matrix": "Matrix([[0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0], [0, 0, -1, 0, 0, 0], [0, 0, 0, 0, 1/z, 0], [0, 0, 0, 0, 0, 1], [0, 0, 0, 0, -1, 0]])",
+    "inverse_borel": "sigma*t/(t + 1) - 2*atan(t)",
+    "mixed_connection_at_one": "Matrix([[1, 0, 0], [0, E, 0], [-pi, 0, 1]])",
+    "mixed_fundamental": "Matrix([[1, 0, 0], [0, exp(z), 0], [-4*atan(z), 0, 1]])",
+    "mixed_matrix": "Matrix([[0, 0, 0], [0, 1, 0], [-4/(z**2 + 1), 0, 0]])",
+    "mixed_monodromy_ccw_at_i": "I_3-4*pi*E_31",
+    "mixed_monodromy_ccw_at_minus_i": "I_3+4*pi*E_31",
+    "mixed_solution_at_one": "Matrix([[1], [E], [sigma - pi]])",
+    "scalar_A": "-(z - 1)*(z**2 - 3)/((z + 1)*(z**2 + 1))",
+    "scalar_B": "-2*(z**2 + 2*z - 1)/((z + 1)*(z**2 + 1))",
+    "twice_inverse_borel_minus_original": "sigma*(t - 1)/(t + 1)",
+    "wronskian_1_exp_atan": "(-z**2 - 2*z - 1)*exp(z)/(z**4 + 2*z**2 + 1)"
+  },
+  "sympy_version": "1.14.0"
+}

@@ -1,0 +1,73 @@
+{
+  "n": 15,
+  "prime": 17,
+  "b": 6,
+  "metric": "diag((17!/(17-j)!)^2), j0..6",
+  "high_normalized_rank": 4,
+  "matching_rank": 5,
+  "appended_endpoint_sum_rank": 6,
+  "appended_A_endpoint_rank": 6,
+  "complete_matching_unit_pivot_columns": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "endpoint_rows_p_integral": true,
+  "tail_system": {
+    "s": 2,
+    "d": [
+      1,
+      14,
+      12,
+      8,
+      3
+    ],
+    "e": [
+      1,
+      0,
+      10,
+      9,
+      0
+    ],
+    "f": [
+      0,
+      14,
+      9,
+      0,
+      3
+    ],
+    "g": [
+      0,
+      0,
+      10,
+      2,
+      2
+    ],
+    "Theta": 13,
+    "H_s": 5,
+    "fit_A_B_C": [
+      7,
+      11,
+      14
+    ],
+    "obstruction_residues": [
+      5,
+      11
+    ]
+  },
+  "zero_endpoint_metric": {
+    "valuation": 2,
+    "norm_div_p2_mod_p": 5,
+    "five_tail_plus_rank_one_prediction": 5,
+    "rank_one_term_retained": true
+  },
+  "actual_center": {
+    "numerator": "707551479148579160819377161843872163521784664303445338639688047697725022587636062422357194587085813974511870073583366305834769438794020761339107435965891746416010177758691632888855896496153579098337060473949963855061093082447",
+    "denominator": "120745159527917577696295109328904959219874300641102574119033081723022876624125298526817042927094731272018681053839110618468505294459437585410370955838804863397569045630935065205595374890223353504536586128161521375697049600000",
+    "v_p_actual_q": 0,
+    "actual_normalized_Psi_endpoint_tests_pass": true
+  },
+  "finite_only": true
+}

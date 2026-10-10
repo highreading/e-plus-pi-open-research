@@ -1,0 +1,310 @@
+{
+  "action_matrices": {
+    "1": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "3": [
+      [
+        -1,
+        -1,
+        -1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "7": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        -1,
+        -1,
+        -1
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "9": [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        -1,
+        -1,
+        -1
+      ]
+    ]
+  },
+  "all_exact_checks_pass": true,
+  "coefficient_rate_ties_over_Q": [
+    {
+      "contained_in_quadratic_line": true,
+      "pair": [
+        1,
+        3
+      ],
+      "rank": 3,
+      "solution": "{(0, 0, 0)}"
+    },
+    {
+      "contained_in_quadratic_line": true,
+      "pair": [
+        1,
+        7
+      ],
+      "rank": 3,
+      "solution": "{(0, 0, 0)}"
+    },
+    {
+      "contained_in_quadratic_line": true,
+      "pair": [
+        1,
+        9
+      ],
+      "rank": 2,
+      "solution": "{(-r9, -r9, r9)}"
+    },
+    {
+      "contained_in_quadratic_line": true,
+      "pair": [
+        3,
+        7
+      ],
+      "rank": 2,
+      "solution": "{(-r9, -r9, r9)}"
+    },
+    {
+      "contained_in_quadratic_line": true,
+      "pair": [
+        3,
+        9
+      ],
+      "rank": 3,
+      "solution": "{(0, 0, 0)}"
+    },
+    {
+      "contained_in_quadratic_line": true,
+      "pair": [
+        7,
+        9
+      ],
+      "rank": 3,
+      "solution": "{(0, 0, 0)}"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/sources/cyclotomic_unit_rational_ray_tropical.md",
+      "sha256": "cebada6f0121bd46f1a5b068844c169e73e88ffb1e7d255f621805cd947dc925"
+    },
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/scripts/cyclotomic_unit_rational_ray_tropical.py",
+      "sha256": "bbb57891f41ff75da7b4eebabc67d2fac827ee272d41ffb6b20dc9eb74c765ae"
+    },
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/results/cyclotomic_unit_rational_ray_tropical.json",
+      "sha256": "79e186bc751d4de1e74968a949e20bfa2621e9dc16c4b6c2964701c6dd6fab8f"
+    },
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/sources/cyclotomic_unit_quadratic_ray_primitive.md",
+      "sha256": "31adb6350e33e7efcecba1f25eabb19cddf08592f53472ae3993e278ea85962d"
+    }
+  ],
+  "description": "Exact rational coefficient-tie, zero-gap, and negative-gap chamber certificate for the n=5 cyclotomic-unit trace.",
+  "negative_gap_cone_logic": {
+    "coefficient_max_1": {
+      "lambda_1_below_mu_1": "automatic: mu_1-L < mu_1",
+      "lambda_3_below_mu_1": "mu_1-mu_3 > L",
+      "lambda_7_below_mu_1": "mu_1-mu_7 > L",
+      "lambda_9_below_mu_1": "mu_1 > mu_9"
+    },
+    "coefficient_max_3": "Delta >= L > 0 because lambda_3=mu_3+L",
+    "coefficient_max_7": "Delta >= L > 0 because lambda_7=mu_7+L",
+    "coefficient_max_9": "Delta >= 0 because lambda_9=mu_9",
+    "equivalence": "Delta<0 iff all three displayed cone inequalities hold"
+  },
+  "ordered_zero_gap_solutions_over_Q": [
+    {
+      "augmented_rank": 1,
+      "coefficient_dominant_candidate": 1,
+      "matrix_rank": 0,
+      "only_family_not_contained_in_quadratic_line": false,
+      "raw_dominant_candidate": 1,
+      "solution": "EmptySet"
+    },
+    {
+      "augmented_rank": 3,
+      "coefficient_dominant_candidate": 3,
+      "matrix_rank": 3,
+      "only_family_not_contained_in_quadratic_line": false,
+      "raw_dominant_candidate": 1,
+      "solution": "{(1/4, 1/4, -1/4)}"
+    },
+    {
+      "augmented_rank": 3,
+      "coefficient_dominant_candidate": 7,
+      "matrix_rank": 3,
+      "only_family_not_contained_in_quadratic_line": false,
+      "raw_dominant_candidate": 1,
+      "solution": "{(1/4, 1/4, -1/4)}"
+    },
+    {
+      "augmented_rank": 3,
+      "coefficient_dominant_candidate": 9,
+      "matrix_rank": 2,
+      "only_family_not_contained_in_quadratic_line": false,
+      "raw_dominant_candidate": 1,
+      "solution": "EmptySet"
+    },
+    {
+      "augmented_rank": 3,
+      "coefficient_dominant_candidate": 1,
+      "matrix_rank": 3,
+      "only_family_not_contained_in_quadratic_line": false,
+      "raw_dominant_candidate": 3,
+      "solution": "{(1/4, 1/4, -1/4)}"
+    },
+    {
+      "augmented_rank": 1,
+      "coefficient_dominant_candidate": 3,
+      "matrix_rank": 0,
+      "only_family_not_contained_in_quadratic_line": false,
+      "raw_dominant_candidate": 3,
+      "solution": "EmptySet"
+    },
+    {
+      "augmented_rank": 3,
+      "coefficient_dominant_candidate": 7,
+      "matrix_rank": 2,
+      "only_family_not_contained_in_quadratic_line": false,
+      "raw_dominant_candidate": 3,
+      "solution": "EmptySet"
+    },
+    {
+      "augmented_rank": 3,
+      "coefficient_dominant_candidate": 9,
+      "matrix_rank": 3,
+      "only_family_not_contained_in_quadratic_line": false,
+      "raw_dominant_candidate": 3,
+      "solution": "{(1/4, 1/4, -1/4)}"
+    },
+    {
+      "augmented_rank": 3,
+      "coefficient_dominant_candidate": 1,
+      "matrix_rank": 3,
+      "only_family_not_contained_in_quadratic_line": false,
+      "raw_dominant_candidate": 7,
+      "solution": "{(1/4, 1/4, -1/4)}"
+    },
+    {
+      "augmented_rank": 3,
+      "coefficient_dominant_candidate": 3,
+      "matrix_rank": 2,
+      "only_family_not_contained_in_quadratic_line": false,
+      "raw_dominant_candidate": 7,
+      "solution": "EmptySet"
+    },
+    {
+      "augmented_rank": 1,
+      "coefficient_dominant_candidate": 7,
+      "matrix_rank": 0,
+      "only_family_not_contained_in_quadratic_line": false,
+      "raw_dominant_candidate": 7,
+      "solution": "EmptySet"
+    },
+    {
+      "augmented_rank": 3,
+      "coefficient_dominant_candidate": 9,
+      "matrix_rank": 3,
+      "only_family_not_contained_in_quadratic_line": false,
+      "raw_dominant_candidate": 7,
+      "solution": "{(1/4, 1/4, -1/4)}"
+    },
+    {
+      "augmented_rank": 2,
+      "coefficient_dominant_candidate": 1,
+      "matrix_rank": 2,
+      "only_family_not_contained_in_quadratic_line": false,
+      "raw_dominant_candidate": 9,
+      "solution": "{(-r9, -r9, r9)}"
+    },
+    {
+      "augmented_rank": 3,
+      "coefficient_dominant_candidate": 3,
+      "matrix_rank": 3,
+      "only_family_not_contained_in_quadratic_line": false,
+      "raw_dominant_candidate": 9,
+      "solution": "{(0, 0, 0)}"
+    },
+    {
+      "augmented_rank": 3,
+      "coefficient_dominant_candidate": 7,
+      "matrix_rank": 3,
+      "only_family_not_contained_in_quadratic_line": false,
+      "raw_dominant_candidate": 9,
+      "solution": "{(0, 0, 0)}"
+    },
+    {
+      "augmented_rank": 0,
+      "coefficient_dominant_candidate": 9,
+      "matrix_rank": 0,
+      "only_family_not_contained_in_quadratic_line": true,
+      "raw_dominant_candidate": 9,
+      "solution": "{(r3, r7, r9)}"
+    }
+  ],
+  "raw_endpoint_shifts_in_units_of_log_phi": {
+    "1": -1,
+    "3": 1,
+    "7": 1,
+    "9": 0
+  },
+  "same_embedding_9_endpoint_ratio": "(4*pi/e^2)/(2/e^2)=2*pi",
+  "scope_warning": "This certificate proves no primitive conclusion inside the three-inequality open cone; a traced-coordinate gcd bound remains missing.",
+  "script_sha256": "823b62087b2a875cf048b1902738dff3e49951455e3eb037f44e6a040cfedb1d",
+  "source_path": "/content/drive/MyDrive/e_pi_research_20260826/sources/cyclotomic_unit_rational_primitive_chambers.md",
+  "source_sha256": "32b919f0b7168df458e9ef77540c4730969eb76c3dcf5747e232402ef7a82cca",
+  "unique_zero_gap_family_outside_quadratic_line": [
+    9,
+    9
+  ],
+  "unresolved_cone": [
+    "mu_1-mu_3 > log(phi)",
+    "mu_1-mu_7 > log(phi)",
+    "mu_1 > mu_9"
+  ]
+}

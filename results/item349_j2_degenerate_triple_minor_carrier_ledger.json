@@ -1,0 +1,108 @@
+{
+  "item": 349,
+  "schema": "item349-j2-degenerate-triple-minor-carrier-ledger-v1",
+  "classification": "PROVED_EXACT_DEGENERATE_CARRIER_AND_HEIGHT_PRODUCT_NO_GO",
+  "dependencies": {
+    "sources/item315_j2_resultant_arithmetic_report.md": "3ce61af707268ceed6db0355a31333492bd8b07ec34e455cbee874fc6a2291b8",
+    "scripts/item315_j2_resultant_arithmetic_certificate.py": "42def823c42497fa9ce4c5513c348464511a56cc6ff12480bec60408c9733b81",
+    "results/item315_j2_resultant_arithmetic_certificate.json": "09fdd67a6535a043bcbd1e2a46c4b14a633b9928a5f1c65618c34fab65cfabb6",
+    "results/item315_root_audit.json": "b764ea214de0c99a6398c981a5d35ca5b911c4d08e7e128f55276a30b1ea66d6",
+    "manifests/item315_j2_resultant_arithmetic_manifest.json": "698abf2124e564c63cf4d1142cd33e872d6fb6b4da21e4e6ec7ac26c43c7a8c1",
+    "sources/item319_j2_third_minor_elimination_report.md": "75b4a3303e3cd216aebeb5189d8c97ef20f261bfd8ea400638214e96a0cc25a0",
+    "scripts/item319_j2_third_minor_elimination_certificate.py": "d5d283930062c6de55e0c338a152cc96502b72f62cc9f74af0623247307d91f7",
+    "results/item319_j2_third_minor_elimination_certificate.json": "c4ce360823dd2d781bebc492e79b65d6ea183a7dada1d4cbee1b1c37334ec194",
+    "results/item319_j2_third_minor_elimination_root_audit.json": "73c5418a83e8aff962993e0d3358e65122471ff98e4e174835b85222bb159a8c",
+    "manifests/item319_j2_third_minor_elimination_manifest.json": "1795f625a0f8f26a51670a73635624c17c37d9fc01c810abe4dcc52ae535a174",
+    "sources/item341_j2_diagonal_affine_state_report.md": "42f6ccd326e385f8034abe322756517a30a93d7468b3e6f85cbca3dba8080cb4",
+    "results/item341_j2_diagonal_affine_state_certificate.json": "75c05cb486e5a5a6f9af5dda2e62f2a4b81cb888a15eb19ecabd10a382625cb4",
+    "results/item341_j2_diagonal_affine_state_root_audit.json": "d5c810346f9181f10d38e9f5ae2e250a8c880e32f97cbc5bef91f6bd37f61a27",
+    "manifests/item341_j2_diagonal_affine_state_manifest.json": "fc073e4c11a2d9ab519f0b5babae6f9f95e2e8cf9e8cbcf05c4c8ca8ba155000",
+    "sources/item344_j2_frobenius_cutoff_obstruction_report.md": "1671dec30de80c047c52b6b4bf13157025ea631869f5ccacc73169002ec287a9",
+    "results/item344_j2_frobenius_cutoff_obstruction_certificate.json": "f390d14d2b14ce965a33da8499e450294be3a038be2269d564d3cc3fda5f1179",
+    "results/item344_j2_frobenius_cutoff_obstruction_root_audit.json": "1de770fc9f8cf23ec215d936e31b08bb59b5aad2ce8fb3480a0bd835011b5376",
+    "manifests/item344_j2_frobenius_cutoff_obstruction_manifest.json": "9824b1a18fd645e729e103e32d0911d2392edc7b6c6642e5bea28d97489ef286"
+  },
+  "actual_family": {
+    "tied_phase": "p=2r+6s+3, r odd, 3 not dividing r",
+    "fixed_M": "2M=5r+14s+7; r=6M-7p; s=(5p-4M-1)/2",
+    "raw_prime_interval": "(4M+3)/5 <= p <= (6M-1)/7",
+    "raw_chebyshev_mass": "(2/35)M+o(M)",
+    "raw_capacity_per_6M": "1/105"
+  },
+  "normalized_minors": {
+    "ell": "2*sigma_(e,n)*a_r",
+    "mu": "-sigma_(e,n)*b_r",
+    "C": "beta_r*K_r",
+    "sigma_unit": "PROVED on every actual tied row",
+    "beta": "-3*(r+1)!/[2*(2r+3)*(-r/3)_(r+1)]",
+    "beta_unit": "PROVED on every actual tied row"
+  },
+  "primitive_carrier": {
+    "definition": "Pi_r=gcd(abs(num(a_r)),abs(num(b_r)),abs(num(K_r)))",
+    "global_nonzero": "Item315's exact sign induction gives a_r<0 on both complete admissible rays, hence Pi_r>=1 on every row",
+    "equivalence": "ell=mu=C=0 mod p iff p divides Pi_r",
+    "role": "exact necessary gate for degenerate original collisions; not sufficient for the remaining coordinate equation",
+    "primitive_division_warning": "Pi_r is the target condition itself and must not be divided out"
+  },
+  "safe_saturation": {
+    "connection_support": "S_conn_r=6*product den(f0,f1,b0,b1,v0,v1)",
+    "r_only_saturation": "Pi_conn_r=(Pi_r)_(S_conn_r)",
+    "full_Item338_saturation": "Pi_sat_(r,s)=(Pi_r)_(S_(r,s))",
+    "tied_prime_equivalence": "p divides Pi_r iff p divides Pi_conn_r iff p divides Pi_sat_(r,s)",
+    "central_binomial": "included in S_(r,s) and never reintroduced"
+  },
+  "internal_chart_split": {
+    "f_nonzero": "triple-minor vanishing iff a_r=b_r=0; K_r is automatic",
+    "f_zero": "ell=mu=0 automatically and the remaining condition is K_r=0",
+    "integer_AB_carrier": "A_r=gcd(abs(num(a_r)),abs(num(b_r)))",
+    "integer_f_carrier": "F_r=gcd(abs(num(f0)),abs(num(f1)))",
+    "integer_fK_carrier": "FK_r=gcd(F_r,abs(num(K_r)))",
+    "exact_support": "(p not dividing F_r and p dividing A_r) or p dividing FK_r"
+  },
+  "fixed_M_target": {
+    "gate_mass": "sum log p over actual interval rows with p dividing Pi_sat_(6M-7p,(5p-4M-1)/2)",
+    "required_closure": "gate_mass=o(M)",
+    "status": "OPEN",
+    "overlap": "degenerate and nondegenerate charts partition the same raw interval; their raw ceilings are not additive",
+    "consequence_of_closure": "would close this chart but does not numerically reduce 1/105 while the nondegenerate chart can fill the raw interval"
+  },
+  "height_obstruction": {
+    "well_defined_all_rows": "Pi_r>=1 globally; there is no exact-zero carrier stratum",
+    "pointwise": "log^+(Pi_r)=O(r log r)",
+    "fixed_M_product": "sum_r log^+(Pi_r)=O(M^2 log M)",
+    "comparison": "weaker than the existing O(M) raw Chebyshev ceiling",
+    "closed_scope": [
+      "individual carrier-height bounds",
+      "the raw product of the r-only carriers",
+      "recurrence or D-finiteness without modular zero-density"
+    ]
+  },
+  "declared_saturation_witness": {
+    "classification": "EXACT FINITE ONLY",
+    "row": [
+      251,
+      121,
+      1
+    ],
+    "Pi_121": 7,
+    "gcd_with_connection_denominator_support": 7,
+    "Pi_conn_121": 1,
+    "use": "demonstrates required foreign-factor removal only"
+  },
+  "open": [
+    "weighted o(M) moving-divisor theorem",
+    "average gcd for (a_r,b_r,K_r)",
+    "good-reduction or small-prime-support theorem for Pi_conn_r",
+    "separate weighted control of the f-nonzero and f-zero branches"
+  ],
+  "capacity": {
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "ordinary_j2_ceiling_per_6M": "1/105"
+  },
+  "master_ledger": {
+    "booked_r1_unchanged": "0.1365141682948128184504238226...",
+    "threshold_T_unchanged": "1.1561471519642446123307302239...",
+    "deficit_unchanged": "1.0196329836694317938803064012..."
+  }
+}

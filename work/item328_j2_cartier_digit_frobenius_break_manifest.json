@@ -1,0 +1,83 @@
+{
+  "item": 328,
+  "schema": "item328-j2-cartier-digit-frobenius-break-manifest-v1",
+  "classification": "PROVED_ACTUAL_CARTIER_DIGIT_AND_SUBLINEAR_RECURRENCE_NO_GO",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual isolated-row arithmetic of the ordinary-j2 conic period after the determinant gate",
+  "dependencies": {
+    "sources/item322_j2_fixedM_period_transfer_report.md": "8b2ad1806d972ea7ed2b49f488e124ac4609e68758d08690ce3f26f30aae8459",
+    "scripts/item322_j2_fixedM_period_transfer_certificate.py": "96c9b0f801077904b3e892cdb49fde8ea0f62aa3cb87f594866579b86fde993f",
+    "results/item322_j2_fixedM_period_transfer_certificate.json": "5266eab4b8856e4c4e3c78e261f85ff11977e06ff64169f602c474f83f06e5cf",
+    "sources/item325_j2_conic_involution_recurrence_report.md": "a70b204ab2c8e426039f6b0b457edd55bd1eb7735a0fd655b910eccda0b37838",
+    "scripts/item325_j2_conic_involution_recurrence_certificate.py": "38c283d4a93afb891ee673f8931e780f3c96e7974757080064c6aa003f895e96",
+    "results/item325_j2_conic_involution_recurrence_certificate.json": "6ff7d4e393a70cd44b143cae227e7a04452c0c5af2ab7a3a287a2074d6275fde",
+    "manifests/item325_j2_conic_involution_recurrence_manifest.json": "4863c3a367c6b811faa127fb88f01983059faf26b88eaf83f7d7b62f033cb5f9"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item328_j2_cartier_digit_frobenius_break_report.md",
+      "sha256": "18a7344f27dba7e036938b474389cc047196c4c0e868507f988cc4436b292526",
+      "bytes": 13186
+    },
+    "certificate_script": {
+      "path": "work/item328_j2_cartier_digit_frobenius_break_certificate.py",
+      "sha256": "cb89184298d97a056628dfa0adb15a9ac0a65763b9e64268bf0ab9810842bf63",
+      "bytes": 14434
+    },
+    "certificate": {
+      "path": "work/item328_j2_cartier_digit_frobenius_break_certificate.json",
+      "sha256": "5b372bd499c433695ab0dd487c78b6426386c500aaf249fe9944431d6e363b46",
+      "bytes": 7425
+    },
+    "replay": {
+      "path": "work/item328_j2_cartier_digit_frobenius_break_certificate.replay.json",
+      "sha256": "5b372bd499c433695ab0dd487c78b6426386c500aaf249fe9944431d6e363b46",
+      "bytes": 7425,
+      "byte_identical_to_certificate": true
+    },
+    "ledger": {
+      "path": "work/item328_j2_cartier_digit_frobenius_break_ledger.json",
+      "sha256": "be9a9d3f988e89716de6de4882c3cab8f9a3841ec72900212db1dbc5d2df51a7",
+      "bytes": 3150
+    }
+  },
+  "theorems": [
+    "the Item325 convolution equals both (-1)^n times the p-th coefficient and the reciprocal coefficient c_(q-1)",
+    "the actual half-binomial period is epsilon*(1-c_p) modulo p",
+    "the actual ell-chart collision is the affine Cartier condition c_p=1-epsilon*Theta_(r,s)",
+    "the coefficient recurrence has exactly one Frobenius break before its endpoint",
+    "a unit change in c_p propagates as the shifted low coefficient sequence",
+    "the endpoint is q>p/3 steps away and has p-unit multiplier 2^(-q)*binom(2q,q)",
+    "every bounded-depth or o(p)-depth local recurrence/endpoint method is eventually blind to c_p"
+  ],
+  "exact_replay": {
+    "actual_rows": 331,
+    "coefficient_recurrence_checks": 64000,
+    "impulse_transfer_checks": 18939,
+    "generic_tied_integer_rows": 72,
+    "classification": "EXACT FINITE REPLAY OF THE SYMBOLIC IDENTITIES"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "actual Cartier-digit localization",
+      "coefficient recurrence and unique Frobenius break",
+      "self-similar impulse and unit endpoint multiplier",
+      "sublinear-depth local-recurrence no-go",
+      "zero booking"
+    ],
+    "EXACT_FINITE_REPLAY": [
+      "the declared row counts, samples, and digests"
+    ],
+    "OPEN": [
+      "weighted zero density for the affine Cartier target",
+      "divisor localization or target-specific Frobenius monodromy",
+      "degenerate-chart arithmetic",
+      "any reduction of the ordinary-j2 ceiling"
+    ]
+  },
+  "capacity": {
+    "raw_isolated_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

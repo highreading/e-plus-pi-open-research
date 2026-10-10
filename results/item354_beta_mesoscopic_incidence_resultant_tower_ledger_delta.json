@@ -1,0 +1,85 @@
+{
+  "schema": "item354-beta-mesoscopic-incidence-resultant-tower-ledger-delta-v1",
+  "item": 354,
+  "date": "2026-09-01",
+  "classification": "PROVED_INCIDENCE_RESULTANT_TOWER_LOW_MULTIPLICITY_SCOPED_NO_GO",
+  "actual_item316_input": {
+    "exact_zero_rows_omitted": true,
+    "mesoscopic_row_carrier": "C_j=1 or one prime A<p<A^2",
+    "common_divisor": "p|Q|b",
+    "quotient_localization": "p does not divide t",
+    "canonical_hit": "w_j*delta_(j-1)-delta_j=p*h_j with 1<=h_j<A"
+  },
+  "admission": {
+    "raw_maximum": "Xi_Q<=log rad(Q)<=log Q<=log b",
+    "candidate": "complete specialized pairwise and r-wise common-prime resultant tower",
+    "required_outcome": "a strict aggregate restriction across linearly many actual depths",
+    "squarefull_overlap_removed_before_booking": true
+  },
+  "proved": {
+    "incidence_multiplicity": "nu_p=# actual nonzero mesoscopic rows with C_j=p",
+    "first_hit_product": "product_j D_j^(>A)=R_1=product_p p",
+    "r_wise_gcd_product": "G_r=product_p p^binom(nu_p,r)",
+    "r_wise_radical": "R_r=rad(G_r)=product_(nu_p>=r) p",
+    "layer_cake": "product_j C_j=product_(r>=1) R_r",
+    "exact_multiplicity_layer": "R_r/R_(r+1)=product_(nu_p=r) p",
+    "pair_matching": "R_2 is an exact product of gcds over vertex-disjoint representative pairs",
+    "height": "log R_r<2*N_A*log(A)/r",
+    "pairwise_ceiling": "log R_2<N_A*log(A)<=(1+o(1))*log(b)",
+    "growing_threshold": "R_1=S_(<L)*R_L",
+    "zero_rate_equivalence": "Xi_Q=o(log b) iff some L(n)->infinity has log S_(<L)=o(log b)",
+    "squarefull_deoverlap": "log R_1<=log S_(<L)^(v_Q=1)+log E(Q)+2*N_A*log(A)/L"
+  },
+  "scoped_no_go": {
+    "D_j_pairwise_gcds": "identically one by first-hit construction",
+    "raw_pairwise_shared_support": "exactly R_2 and still one-copy capacity",
+    "fixed_orders_closed": "every fixed order r>=2 sees only support with nu_p>=r",
+    "singleton_actual_existence_claim": false,
+    "item350_first_occurrence_claim_used": false,
+    "canonical_low_incidence_distribution_closed": false
+  },
+  "fresh_arithmetic_statistic": {
+    "name": "weighted growing low-incidence squarefree support",
+    "formula": "Sigma_(<L)^(1)=sum log p over v_p(Q)=1 and 1<=nu_p<L",
+    "target": "Sigma_(<L(n))^(1)=o(n log n) for some L(n)->infinity",
+    "requires": [
+      "the unique canonical Item316 word",
+      "the small positive h_j quotients",
+      "arithmetic distribution of squarefree divisors of Q|b"
+    ]
+  },
+  "strict_labels": {
+    "PROVED": [
+      "actual incidence and first-hit identities",
+      "complete r-wise gcd/resultant tower",
+      "all-layer height theorem",
+      "growing low-incidence equivalence",
+      "squarefull-de-overlapped inequality"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared incidence, clique, matching, layer-cake, height, and squarefull controls"
+    ],
+    "OPEN": [
+      "actual growing low-incidence squarefree mass",
+      "Xi_Q",
+      "Item265 excess theorem",
+      "H_Q",
+      "K_Q",
+      "Gamma_Q",
+      "centered half-bound",
+      "beta capacity",
+      "Route 1",
+      "e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_Xi_Q_maximum": "log b",
+    "pairwise_R_2_maximum": "(1+o(1))*log b",
+    "growing_high_multiplicity_tail_rate": 0,
+    "actual_low_incidence_rate": "OPEN",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "booking": 0
+  },
+  "canonical_files_modified": false
+}

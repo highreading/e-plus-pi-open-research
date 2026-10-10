@@ -1,0 +1,590 @@
+{
+  "coefficient_formulas": {
+    "lambda0": "[y^(4m)] (1-y)^(6m)(1+y)/(1+y^2)^(4m+1)",
+    "lambda1": "[y^(4m+1)] (1-y)^(6m)(1+y)^4/(1+y^2)^(4m+2)"
+  },
+  "exact_primality_boundary": "All factor primality claims are deterministic because max(factor)<2^64; no claim is made that the witness set is deterministic beyond 2^64.",
+  "exceptional_ray_reduction": {
+    "degree_five_map": "t*A(t)*R(t)=(1-t)^5-(1-t)",
+    "identity": "For f=A^(6m)/R^(4m+2), f_j=(1/2)[t^j]A^(6m)R^(6m+1) mod p for j<p.",
+    "ray": "p=10m+3",
+    "status": "unresolved; this reduction is not a nonvanishing proof"
+  },
+  "generator": "mixed_cubic_large_prime_log_residue_fixed_gap_certificate.py",
+  "generator_sha256": "272913d09c4a2f7d7d844f78dee9a900d47f0793c89d4f76b32da59273054769",
+  "independent_small_formula_replays": {
+    "all_fixed_gap_formulas_equal_scalar_recurrence": true,
+    "m_range": "1..50",
+    "number_of_prime_cases": 455
+  },
+  "lambda0": "2^(2m)*L0",
+  "lambda1": "2^(2m+2)*L1",
+  "omitted_odd_gaps": "q divisible by 3 makes p=6m+q a composite multiple of 3",
+  "primality_certificate": "Every listed resultant factor is below 2^64 and passes the deterministic seven-base Miller-Rabin theorem for that range.",
+  "rows": [
+    {
+      "C0": "2",
+      "C1": "8",
+      "T0": "1",
+      "T1": "1",
+      "absolute_numerator_prime_factors_with_multiplicity": [
+        2,
+        3
+      ],
+      "candidate_primes_compatible_with_p=6m+q": [],
+      "exceptional_checks": [],
+      "q": 1,
+      "resultant": "-6"
+    },
+    {
+      "C0": "14777/486",
+      "C1": "36251/486",
+      "T0": "1379/9",
+      "T1": "3383/9",
+      "absolute_numerator_prime_factors_with_multiplicity": [
+        7,
+        11
+      ],
+      "candidate_primes_compatible_with_p=6m+q": [
+        11
+      ],
+      "exceptional_checks": [
+        {
+          "independent_linear_recurrence_replay": true,
+          "lambda0_mod_p": 9,
+          "lambda1_mod_p": 8,
+          "m": 1,
+          "p": 11
+        }
+      ],
+      "q": 5,
+      "resultant": "77/729"
+    },
+    {
+      "C0": "1362823/6561",
+      "C1": "3366262/6561",
+      "T0": "213664/81",
+      "T1": "527764/81",
+      "absolute_numerator_prime_factors_with_multiplicity": [
+        2,
+        2,
+        11,
+        653
+      ],
+      "candidate_primes_compatible_with_p=6m+q": [],
+      "exceptional_checks": [],
+      "q": 7,
+      "resultant": "-28732/177147"
+    },
+    {
+      "C0": "212678340017/19131876",
+      "C1": "131999129171/4782969",
+      "T0": "653456284/729",
+      "T1": "1622274472/729",
+      "absolute_numerator_prime_factors_with_multiplicity": [
+        2,
+        7,
+        13,
+        13,
+        19,
+        659
+      ],
+      "candidate_primes_compatible_with_p=6m+q": [
+        659
+      ],
+      "exceptional_checks": [
+        {
+          "independent_linear_recurrence_replay": true,
+          "lambda0_mod_p": 233,
+          "lambda1_mod_p": 4,
+          "m": 108,
+          "p": 659
+        }
+      ],
+      "q": 11,
+      "resultant": "-29624686/1162261467"
+    },
+    {
+      "C0": "347815385865185/4132485216",
+      "C1": "864536694649913/4132485216",
+      "T0": "112202918135/6561",
+      "T1": "278893757771/6561",
+      "absolute_numerator_prime_factors_with_multiplicity": [
+        5,
+        7,
+        17,
+        17,
+        23,
+        31,
+        97,
+        491
+      ],
+      "candidate_primes_compatible_with_p=6m+q": [
+        31,
+        97
+      ],
+      "exceptional_checks": [
+        {
+          "independent_linear_recurrence_replay": true,
+          "lambda0_mod_p": 11,
+          "lambda1_mod_p": 16,
+          "m": 3,
+          "p": 31
+        },
+        {
+          "independent_linear_recurrence_replay": true,
+          "lambda0_mod_p": 54,
+          "lambda1_mod_p": 56,
+          "m": 14,
+          "p": 97
+        }
+      ],
+      "q": 13,
+      "resultant": "343485685865/2259436291848"
+    },
+    {
+      "C0": "10053878686068865705/2008387814976",
+      "C1": "12513662827146271025/1004193907488",
+      "T0": "381365935700635/59049",
+      "T1": "949342016575075/59049",
+      "absolute_numerator_prime_factors_with_multiplicity": [
+        5,
+        5,
+        5,
+        7,
+        11,
+        13,
+        19,
+        19,
+        31,
+        859667
+      ],
+      "candidate_primes_compatible_with_p=6m+q": [
+        859667
+      ],
+      "exceptional_checks": [
+        {
+          "independent_linear_recurrence_replay": true,
+          "lambda0_mod_p": 384753,
+          "lambda1_mod_p": 650528,
+          "m": 143275,
+          "p": 859667
+        }
+      ],
+      "q": 17,
+      "resultant": "-1203769241299625/39531097362172608"
+    },
+    {
+      "C0": "6359975698790066474905/162679413013056",
+      "C1": "3959940417681413698783/40669853253264",
+      "T0": "202635618799985420/1594323",
+      "T1": "504671725145491232/1594323",
+      "absolute_numerator_prime_factors_with_multiplicity": [
+        5,
+        7,
+        13,
+        23,
+        23,
+        29,
+        29,
+        3673,
+        1669951
+      ],
+      "candidate_primes_compatible_with_p=6m+q": [
+        3673,
+        1669951
+      ],
+      "exceptional_checks": [
+        {
+          "independent_linear_recurrence_replay": true,
+          "lambda0_mod_p": 1257,
+          "lambda1_mod_p": 1422,
+          "m": 609,
+          "p": 3673
+        },
+        {
+          "independent_linear_recurrence_replay": true,
+          "lambda0_mod_p": 115224,
+          "lambda1_mod_p": 147512,
+          "m": 278322,
+          "p": 1669951
+        }
+      ],
+      "q": 19,
+      "resultant": "-1241617202372113385/5403406870691968356"
+    },
+    {
+      "C0": "191747366325108930920515375/79062194724345216",
+      "C1": "477891024630283362100472905/79062194724345216",
+      "T0": "718360813501874759600/14348907",
+      "T1": "1790367147137710743620/14348907",
+      "absolute_numerator_prime_factors_with_multiplicity": [
+        5,
+        5,
+        5,
+        17,
+        19,
+        31,
+        31,
+        37,
+        37,
+        43,
+        997,
+        9086729
+      ],
+      "candidate_primes_compatible_with_p=6m+q": [
+        9086729
+      ],
+      "exceptional_checks": [
+        {
+          "independent_linear_recurrence_replay": null,
+          "lambda0_mod_p": 6968972,
+          "lambda1_mod_p": 3280064,
+          "m": 1514451,
+          "p": 9086729
+        }
+      ],
+      "q": 23,
+      "resultant": "20692385512763475376625/94538006609626678356576"
+    },
+    {
+      "C0": "164170159440533566478357736121/8538717030229283328",
+      "C1": "204633977631777948022439875169/4269358515114641664",
+      "T0": "129151521692381332400828/129140163",
+      "T1": "321968251613741020016036/129140163",
+      "absolute_numerator_prime_factors_with_multiplicity": [
+        7,
+        11,
+        11,
+        13,
+        19,
+        29,
+        29,
+        41,
+        41,
+        47,
+        647,
+        3817515241
+      ],
+      "candidate_primes_compatible_with_p=6m+q": [
+        3817515241
+      ],
+      "exceptional_checks": [
+        {
+          "independent_linear_recurrence_replay": null,
+          "lambda0_mod_p": 2876431221,
+          "lambda1_mod_p": 2504630867,
+          "m": 636252536,
+          "p": 3817515241
+        }
+      ],
+      "q": 25,
+      "resultant": "34334204618175948107663041/91890942424557131362591872"
+    },
+    {
+      "C0": "364559986953936224697646252413465905/298786786321783082213376",
+      "C1": "909203036773933352325150090115378805/298786786321783082213376",
+      "T0": "468376078804868725347184405/1162261467",
+      "T1": "1168117644395959653640324465/1162261467",
+      "absolute_numerator_prime_factors_with_multiplicity": [
+        5,
+        5,
+        7,
+        7,
+        11,
+        13,
+        17,
+        23,
+        31,
+        31,
+        37,
+        37,
+        43,
+        43,
+        71,
+        1109014802531
+      ],
+      "candidate_primes_compatible_with_p=6m+q": [
+        71,
+        1109014802531
+      ],
+      "exceptional_checks": [
+        {
+          "independent_linear_recurrence_replay": true,
+          "lambda0_mod_p": 47,
+          "lambda1_mod_p": 62,
+          "m": 7,
+          "p": 71
+        },
+        {
+          "independent_linear_recurrence_replay": null,
+          "lambda0_mod_p": 868855144685,
+          "lambda1_mod_p": 741687535349,
+          "m": 184835800417,
+          "p": 1109014802531
+        }
+      ],
+      "q": 29,
+      "resultant": "-13119229280629859905804889527925/14469515357940464132879166532608"
+    },
+    {
+      "C0": "9840505854158197810803135697830141275/1008405403836017902470144",
+      "C1": "3068247290811307968684657495415168831/126050675479502237808768",
+      "T0": "84954265664106600908329516960/10460353203",
+      "T1": "211908370833692120210423489392/10460353203",
+      "absolute_numerator_prime_factors_with_multiplicity": [
+        5,
+        7,
+        11,
+        19,
+        19,
+        41,
+        41,
+        47,
+        47,
+        53,
+        53,
+        59,
+        1215685868497699
+      ],
+      "candidate_primes_compatible_with_p=6m+q": [
+        1215685868497699
+      ],
+      "exceptional_checks": [
+        {
+          "independent_linear_recurrence_replay": null,
+          "lambda0_mod_p": 489392167152882,
+          "lambda1_mod_p": 715760424865233,
+          "m": 202614311416278,
+          "p": 1215685868497699
+        }
+      ],
+      "q": 31,
+      "resultant": "-103981596202589003256278224981985/219755764498720799018102341713984"
+    },
+    {
+      "C0": "2462805833571382370974105396456111468623731/3920680210114437604803919872",
+      "C1": "1536207039430684427619001801616019070246373/980170052528609401200979968",
+      "T0": "312507790338973929889504263009628/94143178827",
+      "T1": "779723128557784560789929582997424/94143178827",
+      "absolute_numerator_prime_factors_with_multiplicity": [
+        7,
+        7,
+        11,
+        13,
+        23,
+        29,
+        31,
+        37,
+        37,
+        43,
+        43,
+        61,
+        61,
+        67,
+        139705851698215541
+      ],
+      "candidate_primes_compatible_with_p=6m+q": [
+        139705851698215541
+      ],
+      "exceptional_checks": [
+        {
+          "independent_linear_recurrence_replay": null,
+          "lambda0_mod_p": 118104015550411676,
+          "lambda1_mod_p": 130851404347489278,
+          "m": 23284308616369251,
+          "p": 139705851698215541
+        }
+      ],
+      "q": 35,
+      "resultant": "12773475359081103074873597583388270333/3844846855669619099620718570627864064"
+    },
+    {
+      "C0": "6419152714658557272032119374137285849231377855/1270300388077077783956470038528",
+      "C1": "16017906123795771946967853793552375722596478469/1270300388077077783956470038528",
+      "T0": "171041093289150146723023836349854185/2541865828329",
+      "T1": "426804018754791562386217467245806949/2541865828329",
+      "absolute_numerator_prime_factors_with_multiplicity": [
+        5,
+        13,
+        13,
+        17,
+        19,
+        31,
+        41,
+        41,
+        47,
+        47,
+        53,
+        53,
+        59,
+        59,
+        71,
+        101,
+        211,
+        306055151354467
+      ],
+      "candidate_primes_compatible_with_p=6m+q": [
+        211,
+        306055151354467
+      ],
+      "exceptional_checks": [
+        {
+          "independent_linear_recurrence_replay": true,
+          "lambda0_mod_p": 108,
+          "lambda1_mod_p": 155,
+          "m": 29,
+          "p": 211
+        },
+        {
+          "independent_linear_recurrence_replay": null,
+          "lambda0_mod_p": 122420954951607,
+          "lambda1_mod_p": 6676729950836,
+          "m": 51009191892405,
+          "p": 306055151354467
+        }
+      ],
+      "q": 37,
+      "resultant": "-142266284178435418564496028688645339721395/538155524694365246135712736893640877309952"
+    },
+    {
+      "C0": "202785246078373016082023071384255714706449891293847/617365988605459803002844438724608",
+      "C1": "253055981962164144776730663461222685849389868650777/308682994302729901501422219362304",
+      "T0": "635348494818605972759705192938820375392/22876792454961",
+      "T1": "1585704486433565004361280023090445046136/22876792454961",
+      "absolute_numerator_prime_factors_with_multiplicity": [
+        7,
+        7,
+        7,
+        11,
+        19,
+        23,
+        29,
+        37,
+        43,
+        43,
+        43,
+        61,
+        61,
+        67,
+        67,
+        73,
+        73,
+        79,
+        6819625707194544521
+      ],
+      "candidate_primes_compatible_with_p=6m+q": [
+        6819625707194544521
+      ],
+      "exceptional_checks": [
+        {
+          "independent_linear_recurrence_replay": null,
+          "lambda0_mod_p": 3407067723498951783,
+          "lambda1_mod_p": 117576888476636043,
+          "m": 1136604284532424080,
+          "p": 6819625707194544521
+        }
+      ],
+      "q": 41,
+      "resultant": "-6745528119579028552978988039631533787280709749/588473066253288396649401877793196299338432512"
+    },
+    {
+      "C0": "44227755262347340734963907748340423151010500696955305/16668881692347414681076799845564416",
+      "C1": "27598172219612942071132281994640274754702012293887413/4167220423086853670269199961391104",
+      "T0": "116391863576563255557463927469969752305140/205891132094649",
+      "T1": "290514648721713422241064553742082804725656/205891132094649",
+      "absolute_numerator_prime_factors_with_multiplicity": [
+        5,
+        5,
+        11,
+        11,
+        13,
+        17,
+        17,
+        31,
+        37,
+        47,
+        47,
+        53,
+        53,
+        59,
+        59,
+        71,
+        71,
+        83,
+        7756733,
+        2006447,
+        449595109
+      ],
+      "candidate_primes_compatible_with_p=6m+q": [
+        449595109
+      ],
+      "exceptional_checks": [
+        {
+          "independent_linear_recurrence_replay": null,
+          "lambda0_mod_p": 313264361,
+          "lambda1_mod_p": 405930302,
+          "m": 74932511,
+          "p": 449595109
+        }
+      ],
+      "q": 43,
+      "resultant": "824336202238646755956519066869771722969645583075/142998955099549080385804656303746700739239100416"
+    },
+    {
+      "C0": "4221429972429639969895706606499796283773843329695393711399/24303229507442530605009974174832918528",
+      "C1": "10291201999998998569006171456427920179614730777760922489/23733622565861846293955052905110272",
+      "T0": "435430608088114929346901114038306813060682624/1853020188851841",
+      "T1": "1086989688106044173920811905284225153452046944/1853020188851841",
+      "absolute_numerator_prime_factors_with_multiplicity": [
+        7,
+        7,
+        7,
+        11,
+        13,
+        17,
+        17,
+        19,
+        29,
+        41,
+        43,
+        61,
+        61,
+        67,
+        67,
+        73,
+        73,
+        79,
+        79,
+        1772711,
+        221691347,
+        5885768887
+      ],
+      "candidate_primes_compatible_with_p=6m+q": [
+        1772711,
+        221691347
+      ],
+      "exceptional_checks": [
+        {
+          "independent_linear_recurrence_replay": true,
+          "lambda0_mod_p": 1106710,
+          "lambda1_mod_p": 1593221,
+          "m": 295444,
+          "p": 1772711
+        },
+        {
+          "independent_linear_recurrence_replay": null,
+          "lambda0_mod_p": 68343263,
+          "lambda1_mod_p": 93076840,
+          "m": 36948550,
+          "p": 221691347
+        }
+      ],
+      "q": 47,
+      "resultant": "17694201812227603985812839232333958865557818641350327/469108072204070758205632175004441051775073868914688"
+    }
+  ],
+  "schema": "mixed-cubic-large-prime-log-residue-fixed-gap-v2",
+  "theorem": "For m>=1 and prime p with 6m<p<6m+49, p does not divide both lambda0 and lambda1.",
+  "warning": "This proves only a fixed-width fresh-prime exclusion, not p>6m for all p."
+}

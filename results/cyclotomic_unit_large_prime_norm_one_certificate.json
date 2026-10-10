@@ -1,0 +1,334 @@
+{
+  "all_exact_checks_pass": true,
+  "dependencies": [
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/scripts/algebraic_unit_two_log_n5_ideal_content.py",
+      "sha256": "120ea17e9c27a2b0ebaa48e3e651220bfe59f06bc028b6d764dcd0798570bb80"
+    },
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/scripts/cyclotomic_unit_large_prime_boundary_resultant.py",
+      "sha256": "d7f8a2e191f04f2ff5a677954087cb7cba2b5ba4eed1d3baaf385e0822a624d0"
+    },
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/results/cyclotomic_unit_large_prime_boundary_resultant_p2000.json",
+      "sha256": "ef9ae8f082329c5024d370f92b138f78f6389a444fbc0c0019b73ad558bf06fe"
+    },
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/sources/cyclotomic_unit_large_prime_boundary_resultant.md",
+      "sha256": "b1bc06b4915b0e014cb5bd52433345aa130834b09ec6d932cf968504fc880838"
+    }
+  ],
+  "description": "Exact divided-difference, primitive-height, bounded-recurrence, factorial-resultant cancellation, and norm-one torus certificate.",
+  "edge_case_reconstructions": [
+    {
+      "adjacent_difference": 1,
+      "content": 1,
+      "corrected_upper_bound": 5040,
+      "d": 6,
+      "height": 873,
+      "leading_coefficient": 720,
+      "p": 7,
+      "r": 0
+    },
+    {
+      "adjacent_difference": 1,
+      "content": 1,
+      "corrected_upper_bound": 12,
+      "d": 1,
+      "height": 7,
+      "leading_coefficient": 6,
+      "p": 7,
+      "r": 5
+    }
+  ],
+  "finite_ambient_coefficient_support_diagnostic": {
+    "records": [
+      {
+        "leading_prime_support": [
+          2,
+          3,
+          5,
+          7
+        ],
+        "p": 11,
+        "r": 1
+      },
+      {
+        "leading_prime_support": [
+          2,
+          3,
+          5,
+          7,
+          11
+        ],
+        "p": 13,
+        "r": 1
+      },
+      {
+        "leading_prime_support": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13
+        ],
+        "p": 17,
+        "r": 1
+      },
+      {
+        "leading_prime_support": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17
+        ],
+        "p": 19,
+        "r": 1
+      },
+      {
+        "leading_prime_support": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19
+        ],
+        "p": 23,
+        "r": 1
+      },
+      {
+        "leading_prime_support": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23
+        ],
+        "p": 29,
+        "r": 1
+      },
+      {
+        "leading_prime_support": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          29
+        ],
+        "p": 31,
+        "r": 1
+      },
+      {
+        "leading_prime_support": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          29,
+          31
+        ],
+        "p": 37,
+        "r": 1
+      },
+      {
+        "leading_prime_support": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          29,
+          31,
+          37
+        ],
+        "p": 41,
+        "r": 1
+      },
+      {
+        "leading_prime_support": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          29,
+          31,
+          37,
+          41
+        ],
+        "p": 43,
+        "r": 1
+      },
+      {
+        "leading_prime_support": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19,
+          23,
+          29,
+          31,
+          37,
+          41,
+          43
+        ],
+        "p": 47,
+        "r": 1
+      }
+    ],
+    "union": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43
+    ],
+    "warning": "The all-family non-fixed-S statement follows from the interval product, not from this finite list; no root-subsequence claim is made."
+  },
+  "finite_torus_surjectivity_enumerations": [
+    {
+      "F_split": false,
+      "delta_image_size": 14,
+      "expected_torus_size": 14,
+      "norm_one_torus_size": 14,
+      "p": 13,
+      "quadratic_algebra_unit_count": 168,
+      "surjective": true
+    },
+    {
+      "F_split": true,
+      "delta_image_size": 30,
+      "expected_torus_size": 30,
+      "norm_one_torus_size": 30,
+      "p": 31,
+      "quadratic_algebra_unit_count": 900,
+      "surjective": true
+    }
+  ],
+  "proved_identities": {
+    "coefficient_formula": "c_j=sum_(k=max(r,j+1))^(p-1) k!/r!",
+    "height_bounds": "(p-1)!/r! <= H(R) <= (p-r)*(p-1)!/r!",
+    "integer_divided_difference": "Qhat_(p,r)=sum_(k=r)^(p-1) k!*L_k(Y)",
+    "primitive_normalization": "R_(p,r)=Qhat_(p,r)/r!",
+    "primitivity": "c_(r-1)-c_r=1 for 1<=r<=p-2; c_0-c_1=1 for r=0",
+    "recurrence": "R_(p,r)=L_r+(r+1)*R_(p,r+1), R_(p,p)=0",
+    "resultant_scaling": "N_(p,r)=(r!)^2*M_(p,r) mod p",
+    "torus_map": "delta_p(x)=iota(x)/x is surjective"
+  },
+  "scope_warning": "The identities and height bounds are all-degree statements. Finite witness/support/enumeration records illustrate them only; no uniform large-prime gcd bound is asserted.",
+  "script_sha256": "caa7c133bc41684bc34c14d3228fbc1576e21171bcfb5f2e9568828adc779e5a",
+  "source_path": "/content/drive/MyDrive/e_pi_research_20260826/sources/cyclotomic_unit_large_prime_norm_one_obstruction.md",
+  "source_sha256": "d072cc5adf7634ca2a046db02608fbe85d6f5e6ea6e9fb4843e9ccad05deaf0c",
+  "witness_reconstructions": [
+    {
+      "Q_equals_r_factorial_times_R_mod_p": true,
+      "adjacent_coefficients_differ_by_one": true,
+      "coefficient_content": 1,
+      "coefficient_count": 12,
+      "conjugate_ratio_unchanged": true,
+      "d": 8,
+      "height_over_leading_upper_multiplier": "1",
+      "leading_coefficient_digits": 8,
+      "log_factorial_quotient": "16.809160665313939",
+      "log_height": "16.896954639433691",
+      "p": 13,
+      "primitive_R_coefficients_sha256": "5261c5d54ad014023f39e532b4e45d58d43c6c8b26f57ff01db7a5415715bcef",
+      "projective_height_digits": 8,
+      "r": 4,
+      "resultant_Q_equals_r_factorial_squared_times_resultant_R": true
+    },
+    {
+      "Q_equals_r_factorial_times_R_mod_p": true,
+      "adjacent_coefficients_differ_by_one": true,
+      "coefficient_content": 1,
+      "coefficient_count": 30,
+      "conjugate_ratio_unchanged": true,
+      "d": 28,
+      "height_over_leading_upper_multiplier": "1",
+      "leading_coefficient_digits": 33,
+      "log_factorial_quotient": "73.965089168270225",
+      "log_height": "73.999031930247568",
+      "p": 31,
+      "primitive_R_coefficients_sha256": "7458728ed717d9680a9fedf83c2510a199da5455f4b6d3f74fba4214e4f8627f",
+      "projective_height_digits": 33,
+      "r": 2,
+      "resultant_Q_equals_r_factorial_squared_times_resultant_R": true
+    },
+    {
+      "Q_equals_r_factorial_times_R_mod_p": true,
+      "adjacent_coefficients_differ_by_one": true,
+      "coefficient_content": 1,
+      "coefficient_count": 276,
+      "conjugate_ratio_unchanged": true,
+      "d": 199,
+      "height_over_leading_upper_multiplier": "1",
+      "leading_coefficient_digits": 443,
+      "log_factorial_quotient": "1018.3951388643685",
+      "log_height": "1018.3987686805058",
+      "p": 277,
+      "primitive_R_coefficients_sha256": "226f8410b8376b7a83cfb1121b68070c14cbbd716479b87c7a121b09c324b1a9",
+      "projective_height_digits": 443,
+      "r": 77,
+      "resultant_Q_equals_r_factorial_squared_times_resultant_R": true
+    },
+    {
+      "Q_equals_r_factorial_times_R_mod_p": true,
+      "adjacent_coefficients_differ_by_one": true,
+      "coefficient_content": 1,
+      "coefficient_count": 1878,
+      "conjugate_ratio_unchanged": true,
+      "d": 1427,
+      "height_over_leading_upper_multiplier": "1",
+      "leading_coefficient_digits": 4332,
+      "log_factorial_quotient": "9973.7352121880213",
+      "log_height": "9973.7357448113544",
+      "p": 1879,
+      "primitive_R_coefficients_sha256": "210bcd7d4e9ddb95507acee8b3d48934f75b3ad0f84d1305c8d19775753081f5",
+      "projective_height_digits": 4332,
+      "r": 451,
+      "resultant_Q_equals_r_factorial_squared_times_resultant_R": true
+    }
+  ]
+}

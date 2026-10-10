@@ -1,0 +1,142 @@
+{
+  "CRT_norm": {
+    "candidate_set": "all primes (4M+3)/3 <= p <= (3M-1)/2",
+    "coefficient": "d_M is the least positive CRT representative of least local nonsquares",
+    "coefficient_bound": "1 <= d_M < B_M=product(candidate primes)",
+    "normalized_equivalence": "p divides Cbar0^2-d_M Cbar1^2 iff the full gate collides",
+    "raw_equivalence": "p^4 divides C0^2-d_M C1^2 iff the full gate collides",
+    "replay": {
+      "M_bound": 220,
+      "candidate_rows": 708,
+      "declared_M100_example": {
+        "B_M": 2837407,
+        "CRT_coefficient": 828442,
+        "M": 100,
+        "candidate_primes": [
+          137,
+          139,
+          149
+        ],
+        "least_local_nonsquares": [
+          3,
+          2,
+          2
+        ]
+      },
+      "maximum_CRT_coefficient_bits": 56
+    },
+    "replay_sha256": "a38bdf7897b013261ebf5f3f1cab9e04a62b2f60396031ce101d938335533893"
+  },
+  "capacity": {
+    "new_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "raw_j1_capacity_per_6M": "1/36"
+  },
+  "height": {
+    "CRT_delta_upper_bound": 0.16666666666666666,
+    "H": 6.327627545440858,
+    "height_admission_passed": false,
+    "kappa": 2.337047507998766,
+    "normalized_norm_ratio_CRT": 4.073913370775426,
+    "raw_j1_log_mass_per_M": 0.16666666666666666,
+    "raw_norm_ratio_CRT": 3.2054804393870957,
+    "raw_norm_ratio_if_subexponential_coefficient": 3.163813772720429
+  },
+  "labels": {
+    "all_candidate_prime_CRT_norm": "PROVED exact construction",
+    "bounded_height_norm_size_method": "PROVED insufficient",
+    "construction_uses_unknown_collision_set": false,
+    "isolated_prime_weighted_mass": "OPEN",
+    "least_simultaneous_nonsquare_replay": "EXACT FINITE ONLY",
+    "new_route1_rate": 0
+  },
+  "least_coefficient": {
+    "replay": {
+      "M_bound": 300,
+      "candidate_count_there": 8,
+      "maximum_at_M": 259,
+      "maximum_least_coefficient": 881,
+      "nonempty_prime_intervals": 282
+    },
+    "replay_label": "EXACT FINITE ONLY",
+    "replay_sha256": "304ec45bc14fafc589960b7cfecc867761a3617886d989e85658a95b384027a0",
+    "status": "asymptotic height OPEN"
+  },
+  "payload_sha256": "8436a09bf9ed9602523d31c48efb3080d029d5267d33600f4fec4f6cd8b050ad",
+  "schema": "item284-j1-parameter-norm-certificate-v1",
+  "simple_parameter_rules": {
+    "actual_false_positive_witnesses": [
+      {
+        "M": 9,
+        "U0": 2,
+        "U1": 11,
+        "d_mod_p": 1,
+        "h": 1,
+        "p": 13,
+        "rule": "h",
+        "s": 1
+      },
+      {
+        "M": 9,
+        "U0": 2,
+        "U1": 11,
+        "d_mod_p": 1,
+        "h": 1,
+        "p": 13,
+        "rule": "s",
+        "s": 1
+      },
+      {
+        "M": 95,
+        "U0": 107,
+        "U1": 62,
+        "d_mod_p": 25,
+        "h": 7,
+        "p": 139,
+        "rule": "h+s",
+        "s": 18
+      },
+      {
+        "M": 21,
+        "U0": 13,
+        "U1": 1,
+        "d_mod_p": 14,
+        "h": 1,
+        "p": 31,
+        "rule": "2h+3s",
+        "s": 4
+      },
+      {
+        "M": 50,
+        "U0": 46,
+        "U1": 30,
+        "d_mod_p": 50,
+        "h": 8,
+        "p": 71,
+        "rule": "M",
+        "s": 6
+      },
+      {
+        "M": 200,
+        "U0": 154,
+        "U1": 100,
+        "d_mod_p": 199,
+        "h": 34,
+        "p": 283,
+        "rule": "M-1",
+        "s": 24
+      },
+      {
+        "M": 320,
+        "U0": 195,
+        "U1": 44,
+        "d_mod_p": 321,
+        "h": 74,
+        "p": 443,
+        "rule": "M+1",
+        "s": 24
+      }
+    ],
+    "inference": "witnesses only; no universal rational-function no-go"
+  }
+}

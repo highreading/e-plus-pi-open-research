@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "scope": "Two complete auxiliary normalized binary adjoint audits; no original exponential-index Gram law",
+  "source_sha256": "13fd72affe0c8857879eb4649c9d8c8163b59e311b2b3e92fb7f020900f2f3a2",
+  "input_certificate_sha256": "934edb586653e3ce35c71a1cd73173b03acf4275fbbec92901d951b07769cc1c",
+  "cases": [
+    {
+      "b": 81,
+      "n": 324162,
+      "precision": 13,
+      "bandwidth": 48,
+      "endpoint_rank": 48,
+      "complete_contact_factorization_zero": true,
+      "complete_adjoint_residual_zero": true,
+      "adjoint_norm_and_mixed_match": true,
+      "independent_high_moment_comparisons": 315,
+      "first_force_cutoff": 32,
+      "whole_raw_norm": 4248,
+      "whole_raw_mixed": 3888,
+      "true_endpoint_contribution": 0,
+      "interior_high_moment_sum": 3888,
+      "scope": "Auxiliary complete finite system; no original-family contraction/invariant theorem"
+    },
+    {
+      "b": 209,
+      "n": 836418,
+      "precision": 13,
+      "bandwidth": 48,
+      "endpoint_rank": 48,
+      "complete_contact_factorization_zero": true,
+      "complete_adjoint_residual_zero": true,
+      "adjoint_norm_and_mixed_match": true,
+      "independent_high_moment_comparisons": 315,
+      "first_force_cutoff": 32,
+      "whole_raw_norm": 2240,
+      "whole_raw_mixed": 2432,
+      "true_endpoint_contribution": 0,
+      "interior_high_moment_sum": 2432,
+      "scope": "Auxiliary complete finite system; no original-family contraction/invariant theorem"
+    }
+  ]
+}

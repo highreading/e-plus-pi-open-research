@@ -1,0 +1,70 @@
+{
+  "item": 318,
+  "schema": "item318-j2-actual-period-plucker-ledger-v1",
+  "classification": "PROVED_EXACT_ACTUAL_INCIDENCE_AND_SCOPED_EXTERIOR_NO_GO",
+  "actual_family": {
+    "row_prime": "p=2r+6s+3",
+    "parameters": "r=2h+1, c=2^(2s)",
+    "fixed_M_relation": "2M=5r+14s+7",
+    "gate_vector": "g=f*Z+9*c*b-11*d"
+  },
+  "plucker_coordinates": {
+    "ell": "det(f,b)",
+    "m": "det(f,d)",
+    "C": "det(b,d)",
+    "old_determinant": "D=det(f,g)=9*c*ell-11*m",
+    "transverse_b": "E_b=det(g,b)=ell*Z+11*C",
+    "transverse_d": "E_d=det(g,d)=m*Z+9*c*C",
+    "syzygy": "11*E_d-9*c*E_b=-D*Z"
+  },
+  "actual_period": {
+    "Z_actual": "B_s*((9*kappa_r/2)*A_s-tau_(r,s))",
+    "ell_chart_formal_value": "Z_form=-11*C/ell",
+    "ell_chart_division_free_test": "ell*Z_actual+11*C=0",
+    "m_chart_formal_value": "Z_form=-9*c*C/m",
+    "m_chart_division_free_test": "m*Z_actual+9*c*C=0"
+  },
+  "logic": {
+    "forced_by_original_collision": true,
+    "reason": "g=0 forces D=E_b=E_d=0",
+    "universally_independent_on_D_zero": true,
+    "independence_scope": "universal rank-two connection plane only, not weighted arithmetic independence on the actual family",
+    "independent_exterior_conditions_after_D_zero": "at most one"
+  },
+  "degenerate_charts": {
+    "rank_two": "g=0 iff D=E_b=E_d=0",
+    "rank_at_most_one": "all exterior minors vanish identically and an original coordinate equation is unavoidable",
+    "f_zero": "Z is irrelevant; g=9*c*b-11*d",
+    "characteristic_11": "D=0 forces ell=0; E_b is automatic and E_d is the surviving exterior chart"
+  },
+  "p_unit_clearing": {
+    "Q": "6 times the product of reduced denominators of f_0,f_1,b_0,b_1,d_0,d_1,B_s,kappa_r,tau_(r,s)",
+    "all_actual_rows_unit": true,
+    "cleared_old_determinant": "Q^2*D is an integer",
+    "cleared_actual_residuals": [
+      "Q^4*E_b(Z_actual) is an integer",
+      "Q^4*E_d(Z_actual) is an integer"
+    ],
+    "unsafe_division": false
+  },
+  "nonduplication": {
+    "item250_or_314_endpoint_resultant_rebooked": false,
+    "item315_cubic_character_factor_rebooked": false,
+    "new_condition_role": "actual-period incidence after the old determinant gate"
+  },
+  "finite_diagnostics": {
+    "declared_D_zero_rows": 9,
+    "all_declared_rows_have_ell_nonzero": true,
+    "all_declared_rows_are_actual_collision_false_positives": true,
+    "bounded_prime_max": 401,
+    "classification": "EXACT FINITE ONLY / DIAGNOSTIC"
+  },
+  "strategic_effect": {
+    "new_weighted_divisor_bound": false,
+    "new_capacity_reduction": 0,
+    "new_booking": 0,
+    "ordinary_j2_ceiling_per_6M_after_item318": "1/105"
+  },
+  "smallest_open_arithmetic_theorem": "on fixed-M rows 2M=5r+14s+7 satisfying D=0, prove weighted logarithmic mass o(M) for the cleared actual-period residual",
+  "warning": "formal transversality is not a fixed-M weighted zero-density theorem; height or P-recursiveness alone cannot reduce the ceiling"
+}

@@ -1,0 +1,66 @@
+{
+  "item": 352,
+  "schema": "item352-j2-nonsemisimple-transition-no-go-self-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "status": "PASS",
+  "dependency_audit": {
+    "canonical_dependency_entries": 16,
+    "all_sha256_verified_by_certificate": true,
+    "item349_root_audited_pins_frozen": true,
+    "unresolved_placeholders": 0
+  },
+  "replay_audit": {
+    "primary_sha256": "8f06da2f8b4265156d02d2da393c0aedb74db55db3649589163866ffd0badc31",
+    "replay_sha256": "8f06da2f8b4265156d02d2da393c0aedb74db55db3649589163866ffd0badc31",
+    "byte_identical": true,
+    "dependency_hashes_verified_field": true,
+    "actual_declared_rows": 7,
+    "synthetic_Jordan_rows": 4,
+    "prime_or_collision_census": false
+  },
+  "artifact_inputs": {
+    "report_sha256": "c60e1ba7771314c77b3fbe5d06f9c13c51a8c7e4d15f2589298641ff0f38e794",
+    "script_sha256": "ee7a884fa798d1c768107f97b6e16fa1b00c313cf608e90a716f8db044ff0285",
+    "certificate_sha256": "8f06da2f8b4265156d02d2da393c0aedb74db55db3649589163866ffd0badc31",
+    "replay_sha256": "8f06da2f8b4265156d02d2da393c0aedb74db55db3649589163866ffd0badc31",
+    "ledger_sha256": "1e9decfc345cd190d466a448e499fb0d87a06b752e0c14661c30a59c5a437407"
+  },
+  "report_audit": {
+    "display_math_plain_open": 37,
+    "display_math_plain_close": 37,
+    "display_math_blockquote_open": 9,
+    "display_math_blockquote_close": 9,
+    "equation_tags": 37,
+    "duplicate_equation_tags": 0,
+    "strict_labels_present": [
+      "PROVED",
+      "EXACT FINITE ONLY",
+      "OPEN"
+    ]
+  },
+  "mathematical_scope_audit": {
+    "actual_family_only": true,
+    "moving_target_retained": true,
+    "chosen_prime_mod_p_scope_explicit": true,
+    "rank_pole_hypothesis_explicit": "exact companion retaining determinant x^-L with entry pole order at most K",
+    "rank_pole_conclusion": "n*K>=L",
+    "truncation_scope": "zero-rate conclusion is only for formal/uniform exactness; pointwise D<L tail cancellation is explicitly open",
+    "p_curvature_scope": "fixed quadratic rank-one connection after tame degree-two pullback",
+    "degenerate_matrix_gate_not_asserted": true,
+    "outer_chart_capacity_not_double_counted": true,
+    "internal_Item349_charts_not_double_counted": true,
+    "unproved_weighted_mass_claim": false
+  },
+  "capacity_audit": {
+    "raw_chebyshev_mass": "(2/35)M+o(M)",
+    "ordinary_j2_ceiling_per_6M": "1/105",
+    "new_booking": 0,
+    "new_capacity_reduction": 0
+  },
+  "open_inputs_preserved": [
+    "weighted nonconcentration for the moving nondegenerate joint state",
+    "weighted support of Item349's safely saturated degenerate carrier",
+    "weighted zero density for accidental vanishing of proper truncation tails",
+    "target-specific chosen-prime constructions outside the closed exact natural class"
+  ]
+}

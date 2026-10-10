@@ -1,0 +1,61 @@
+{
+  "item": 399,
+  "schema": "item399-j2-raywise-chosen-prime-invariant-ledger-v1",
+  "classification": "PROVED_CHOSEN_PRIME_INVARIANT_AND_NORM_SELECTOR_OBSTRUCTION_WITH_ETA_ZERO",
+  "branch": "ordinary fixed-j=2 atomic collision factors on the two mod-6 rays",
+  "proved": {
+    "nondegenerate_affine_pair": "the actual nondegenerate collision is exactly p|E_(p,r,s) together with P_p|Xi_(p,r,s)",
+    "chosen_prime_integer": "Xi=-Q sum_(u=0)^m B_u(2)J(B_u,phi)-A is an algebraic integer in Q(mu_(p-1))",
+    "selected_reduction": "Xi mod P_p equals Q(H_m-Theta_(r,s)), retaining the actual ordered cutoff, selected Teichmuller prime, and moving target",
+    "galois_selector_obstruction": "sigma_a replaces {0,...,m} by a{0,...,m}; an ordinary norm existentially unions the conjugate cutoffs",
+    "norm_height": "the presently certified per-row norm bound is O(M^2 log M), which cannot control an O(M) ray mass",
+    "proved_eta": 0
+  },
+  "scope": {
+    "closed_as_sufficient_by_itself": [
+      "complex nonvanishing or Weil size of individual Jacobi sums",
+      "taking the ordinary rational norm of the selected residual",
+      "a theorem at an unspecified prime above p",
+      "a nondegenerate theorem without a quantitative degenerate-chart bound",
+      "endpoint local solubility alone"
+    ],
+    "not_closed": [
+      "chosen-prime p-adic or unit-root nonconcentration for the selected ideal (E,Xi)",
+      "target-specific compression preserving the ordered cutoff",
+      "the degenerate Pi_hat gate plus the surviving Item334 coordinate",
+      "a positive-density exclusion on either full ray",
+      "Route 1 and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "one_complete_ray_mass_per_M": "1/35",
+    "one_complete_ray_normalized_per_6M": "1/210",
+    "half_one_ray_saving_per_M": "1/70",
+    "half_one_ray_normalized_saving": "1/420",
+    "both_rays_normalized_ceiling": "1/105",
+    "eta_per_M": 0,
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "chart_warning": "an o(M) theorem on only one chart has zero fixed booking while the complementary chart may fill the ray"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact selected-prime algebraic integer and its reduction",
+      "exact nondegenerate two-coordinate collision ideal",
+      "Galois cutoff permutation and norm-selector obstruction",
+      "noncompetitive O(M^2 log M) norm-height bound",
+      "ray capacity audit with eta zero"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared actual rows, Jacobi reductions, target reconstructions, and cutoff-orbit checks"
+    ],
+    "OPEN": [
+      "any positive eta on either actual ray",
+      "weighted selected-prime nonconcentration",
+      "weighted degenerate-chart nonconcentration",
+      "Route 1 and every conclusion about e+pi"
+    ]
+  },
+  "smallest_next_input": "for one ray, prove both the selected-prime nondegenerate zero mass and the degenerate target-retaining zero mass are o(M), or prove a strict Chebyshev-mass exclusion across their union",
+  "central_files_modified": false
+}

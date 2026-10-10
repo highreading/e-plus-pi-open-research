@@ -1,0 +1,48 @@
+{
+  "schema": "item249-j2-singular-bulk-hypergeometric-ledger-v1",
+  "item": 249,
+  "route": "Route 1A",
+  "cell": "normalized common-log j=2 fixed cell, Item247 singular family r=1",
+  "status": "exact rational sum and universal algebraic-hypergeometric moving-prime reduction proved; admissible all-prime nonvanishing remains open",
+  "proved": [
+    "the Item244 j=2 singular family has r=1, p=6s+5 prime, s>=2, inherited lower index L=1, degree M=2s+1=(p-2)/3, and exponent n=M-2",
+    "D1=(1-t)(1+t)^n(3+t) has coefficients d_v=3*C(n,v)-2*C(n,v-1)-C(n,v-2)",
+    "B1 is exactly sum over 1<=v<=M of (-1)^(v-1)*d_v*h_v/(2v+3), where h_v is the alternating odd-denominator prefix beginning at 3",
+    "the exact d_v obey the order-three coefficient recurrence in report equation (1.7)",
+    "modulo p, d_v is coefficient c_v of the fixed algebraic series (1-t)(3+t)(1+t)^(-8/3) for every 0<=v<=M",
+    "the fixed c_v obey the p-independent recurrence in report equation (4.3)",
+    "B1 is congruent modulo p to the universal rational value Theta_M with M=(p-2)/3",
+    "all coefficient, prefix, and outer denominators are p-units because M<p and 2M+3<p",
+    "the terminal congruences are c_M=-1 and c_(M-1)=-M modulo p",
+    "B1 vanishes modulo p exactly when p divides the reduced numerator of Theta_((p-2)/3)",
+    "at the excluded boundary s=1,p=11, the actual value 88/945 and the universal value -49676/25515 both vanish modulo 11"
+  ],
+  "exact_finite": {
+    "direct_actual_prime_bound": 401,
+    "direct_actual_rows": 38,
+    "direct_actual_zeros": 0,
+    "rational_prime_bound": 101,
+    "rational_rows": 11,
+    "rational_zeros": 0,
+    "universal_recurrence_prime_bound": 20000,
+    "universal_recurrence_rows": 1134,
+    "universal_recurrence_zeros": 0,
+    "role": "bounded replay and census only; no all-prime or asymptotic inference"
+  },
+  "open": [
+    "prove or disprove Theta_((p-2)/3) nonzero modulo every admissible prime p=6s+5 with s>=2",
+    "factor or control the moving-prime numerator of Theta_M",
+    "obtain any Route-1 rate, divisibility exponent, or capacity reduction"
+  ],
+  "scoped_consequence": "the singular family is reduced to a fixed p-independent algebraic-hypergeometric recurrence whose moving terminal numerator is the only remaining obstruction; the exact p=11 excluded-boundary zero shows genuine cancellation is possible",
+  "global_interface": "the singular bulk residual belongs only to the stronger Item239 p^3 carry and does not strengthen the ordinary p^2 common-log gate",
+  "booking": {
+    "new_unconditional_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "capacity_reduction": 0,
+    "conclusion_about_e_plus_pi": "none"
+  },
+  "dependency": {
+    "scripts/item247_j2_bulk_pair_eliminant_certificate.py": "0d0ccdec9c0406834cde31a912702dcc999d1a65a3edcac64040c500cf0fa1f9"
+  }
+}

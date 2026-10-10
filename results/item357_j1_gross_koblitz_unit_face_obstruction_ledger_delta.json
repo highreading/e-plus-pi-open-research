@@ -1,0 +1,45 @@
+{
+  "schema": "item357-j1-gross-koblitz-unit-face-obstruction-ledger-delta-v1",
+  "item": 357,
+  "date": "2026-09-01",
+  "branch": "Route 1 / fixed-j1 / target-specific finite-field hypergeometric and Gross-Koblitz",
+  "status": "PROVED_TARGET_SPECIFIC_JACOBI_TRANSFORM_AND_COMPLETE_STICKELBERGER_FACE_SCOPED_NO_GO",
+  "actual_family": {
+    "parameters": "n=2h, r=2s+1, p=2n+3r, 2M=3n+4r",
+    "one_way_gate": "ordinary collision implies p divides the selected Hasse coordinate a_(r,n)",
+    "converse_or_full_collision_claimed": false
+  },
+  "proved": {
+    "target_specific_transform": "exact two-frequency Jacobi/Appell expansion of the F_(p^2) coefficient-isolating Kummer lift",
+    "unit_criterion": "v_p J(Omega^(-m),Omega^E)=0 iff 0<=m<=E",
+    "complete_first_face": "s,t,u>=0 with s+t+u=n",
+    "first_face_size": "(n+1)(n+2)/2",
+    "first_face_reduction": "the whole first face is exactly -[u^n]G(u)^E=-a_(r,n) mod p",
+    "selected_zero_lift": "two predeclared selected zeros have valuation exactly one in the target-specific extension lift",
+    "classical_skeleton": "upper and lower-plus-factorial fractional parameter multisets coincide; total discarded integer shift is p-n+1"
+  },
+  "capacity": {
+    "raw_support": "all actual fixed-j1 rows",
+    "raw_prime_mass": "M/6+o(M)",
+    "new_forced_independent_condition": 0,
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "booking": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36"
+  },
+  "closed_method_class": [
+    "unique-minimal-term or bounded-leading-face Gross-Koblitz on the exact F_(p^2) transform",
+    "promoting the first Stickelberger face to a second collision condition",
+    "naive finite-character translation of the classical 4F3 after discarding integer shifts"
+  ],
+  "open": [
+    "weighted nonconcentration for the triangular Hasse face",
+    "higher-face average cancellation",
+    "a p-adic transformation exploiting the moving integer shifts",
+    "an additional gate from full-collision information",
+    "W_b(M)=o(M), any fixed-j1 ceiling reduction, Route 1, and every conclusion about e+pi"
+  ],
+  "ledger_action": "BOOK_ZERO_RETAIN_1_OVER_36_CEILING",
+  "route_1_status": "ACTIVE",
+  "canonical_files_modified": false
+}

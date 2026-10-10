@@ -1,0 +1,57 @@
+{
+  "item": 341,
+  "schema": "item341-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_DIAGONAL_AFFINE_COORDINATES_AND_FIXED_CURVE_NO_GO",
+  "scope": "independent root audit of the actual ordinary-j2 affine state normal form, degenerate localization, and characteristic-zero curve obstruction",
+  "checks": {
+    "certificate_sha256": "75c05cb486e5a5a6f9af5dda2e62f2a4b81cb888a15eb19ecabd10a382625cb4",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_sha256": "4cca04e235eb859a888afa2e7449223565ef67e19f2562885c559ea4ae8aba21",
+    "work_manifest_artifacts_match": true,
+    "frozen_dependencies_checked": 4,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 6,
+    "work_hash_list_match": true,
+    "actual_affine_control_rows": 7,
+    "state_control_rows": 121,
+    "actual_r1_prime_rows": 65,
+    "asymptotic_ordering_checks": 169,
+    "report_missing_display_closures_repaired_before_canonicalization": 3,
+    "report_inline_delimiters": "69/69",
+    "report_display_delimiters_after_repair": "38/38",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "normal_form": "on the ell chart, direct centering makes D and T_ell unit multiples of c-c_star and H_m-Theta respectively; the diagonal Jacobian is a p-unit",
+    "ideal": "the localized ideal is exactly (c-c_star,H-Theta), so connection-only elimination has zero intersection with the coefficient field and supplies no third divisor",
+    "degenerate_chart": "when ell=0 and p>11, D forces mu=0; C nonzero would make b,v independent and f=0, contradicting the original affine vector equation, so every collision is supported on the r-only triple-minor content",
+    "zariski_density": "the tail sqrt(2)-H_m is asymptotic to 2^(-m)/(sqrt(pi m)); ordering monomials by (2i-k,-k) gives a unique dominant term for every nonzero polynomial along every unbounded subsequence",
+    "actual_prime_subsequence": "r=1 gives p=6m+11, and Dirichlet supplies an unbounded actual-prime subsequence, so fixed characteristic-zero state curves are excluded even there",
+    "scope_warning": "moving finite-field/Frobenius relations and both weighted supports remain open; no fixed-curve obstruction is promoted to zero density"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "affine state coordinates",
+      "unit Jacobian and full localized ideal",
+      "degenerate triple-minor localization",
+      "actual-state Zariski density",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "generic, actual-row, Pluecker, and state controls"
+    ],
+    "OPEN": [
+      "nondegenerate moving mod-p correlation",
+      "degenerate weighted support",
+      "any strict reduction of 1/105"
+    ]
+  },
+  "capacity": {
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

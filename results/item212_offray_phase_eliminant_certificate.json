@@ -1,0 +1,249 @@
+{
+  "arithmetic": "exact integers, fractions, and prime fields; Python standard library only",
+  "finite_rational_eliminant_audit": {
+    "label": "FINITE rational audit; not an all-b nonvanishing theorem",
+    "max_b": 400,
+    "simultaneous_zero_phases": [
+      [
+        0,
+        2,
+        true,
+        true
+      ],
+      [
+        0,
+        3,
+        true,
+        true
+      ],
+      [
+        1,
+        3,
+        true,
+        true
+      ]
+    ],
+    "stream_sha256": "8c0c33ed38a9bb6e35f86bfd58c9a755668b0717c24d952c3b4c4354a144f1d9"
+  },
+  "finite_stable_band_crosscheck": {
+    "common_zero_nodes": [
+      [
+        3,
+        19,
+        1,
+        0,
+        3
+      ],
+      [
+        11,
+        59,
+        1,
+        0,
+        3
+      ],
+      [
+        15,
+        79,
+        1,
+        0,
+        3
+      ],
+      [
+        27,
+        139,
+        1,
+        0,
+        3
+      ],
+      [
+        35,
+        179,
+        1,
+        0,
+        3
+      ],
+      [
+        39,
+        199,
+        1,
+        0,
+        3
+      ],
+      [
+        47,
+        239,
+        1,
+        0,
+        3
+      ],
+      [
+        71,
+        359,
+        1,
+        0,
+        3
+      ],
+      [
+        75,
+        379,
+        1,
+        0,
+        3
+      ]
+    ],
+    "label": "FINITE; exact recurrence/direct coefficient/eliminant equivalence, not extrapolated",
+    "max_s": 80,
+    "prime_limit": 1010,
+    "q_counts": {
+      "1": 1688,
+      "2": 622
+    },
+    "stable_nodes": 2310,
+    "stream_sha256": "7fd6c98c2dc1eb954035055f021cb2aa309b40ff473449f263d3d88c90d10f36"
+  },
+  "first_singularity_compatibility": {
+    "exact_false_positive": {
+      "actual_g0": 4,
+      "actual_g1": 5,
+      "actual_terminal_state": [
+        29,
+        50,
+        26,
+        5
+      ],
+      "b": 37,
+      "compatibility": 0,
+      "p": 53,
+      "q": 2,
+      "r": 1,
+      "s": 13,
+      "survivor_state_at_p_minus_1": [
+        40,
+        27,
+        13,
+        49
+      ]
+    },
+    "mandatory_pass": {
+      "obstruction": 0,
+      "state_at_p_minus_1": [
+        0,
+        1,
+        2398,
+        0
+      ]
+    },
+    "necessary_scalar": "propagate W[k-4..k]=(0,1,-1,0,0) to n=p-1 and require (5s+3)(W[p-1]+W[p-2]+W[p-3])+(p-1-3s)W[p-4]=0 mod p",
+    "scope": "the terminal line plus first-singularity solvability is necessary but not sufficient; this does not exclude a global fixed-initial-state eliminant"
+  },
+  "item": 212,
+  "mandatory_counterexample": {
+    "actual_mod_p": {
+      "g0": 0,
+      "g1": 0,
+      "terminal_state": [
+        7,
+        2392,
+        0,
+        0
+      ]
+    },
+    "b": 900,
+    "k": 899,
+    "numerator_gcd_digits": 169,
+    "numerator_gcd_mod_2399": 0,
+    "numerator_gcd_sha256": "59df2adb4632cb4d7f97ee1f4b4ae146f66c53318349e2050277c235127ebbed",
+    "p": 2399,
+    "q": 1,
+    "r": 3,
+    "relation": "b=k+1 and p=8s+7",
+    "s": 299,
+    "stable_eliminants": [
+      {
+        "component": "g1",
+        "cutoff": 224,
+        "denominator_digits": 340,
+        "denominator_mod_2399": 1434,
+        "denominator_sha256": "8ef4f131ae238b749f742a1966e2bea169f9ff7a159517471390400a01160987",
+        "numerator_digits": 581,
+        "numerator_mod_2399": 0,
+        "numerator_sha256": "505c864b4ee50c0ee78c0197d7a3471e9997221f467d5dd7a17011693f1e9623"
+      },
+      {
+        "component": "g0",
+        "cutoff": 224,
+        "denominator_digits": 337,
+        "denominator_mod_2399": 1544,
+        "denominator_sha256": "92d64981c6f8673e8a4bdceca69ebb4adda23bc6f05689e752d57ea10e00b725",
+        "numerator_digits": 578,
+        "numerator_mod_2399": 0,
+        "numerator_sha256": "469e3ce63c3ebb25daee9ffebfceb4ffb14b79510ce73598884984727053553c"
+      }
+    ]
+  },
+  "phase_rate_ledger": {
+    "coefficient_per_m": 0,
+    "examples": [
+      {
+        "b": 0,
+        "identity": "171=9*19",
+        "j": 1,
+        "m": 17,
+        "p": 19,
+        "q": 1,
+        "s": 3
+      },
+      {
+        "b": 37,
+        "identity": "424=8*53",
+        "j": 1,
+        "m": 46,
+        "p": 53,
+        "q": 2,
+        "s": 13
+      },
+      {
+        "b": 900,
+        "identity": "21591=9*2399",
+        "j": 1,
+        "m": 2249,
+        "p": 2399,
+        "q": 1,
+        "s": 299
+      }
+    ],
+    "full_kappa1_cell_coefficient_per_m": "0.4820375017701112...",
+    "gap_coefficient_needed_per_m": "0.1177979020165907632818384072...",
+    "identity": "10m+1-b=(5j+5-q)*p",
+    "near_phase_bound": "for 0<=b<=B<=5m, total log-prime weight is at most (B+1)*log(10m+1); hence B=o(m/log m) contributes o(m)",
+    "q1_quotient": "5j+4",
+    "q2_quotient": "5j+3",
+    "unresolved": "far moving-b phases are not bounded; they could still exceed the missing coefficient"
+  },
+  "proved_all_prime_reduction": {
+    "components": "D_a=[x^k](1-x^4)^(2s+a)(1-x)^(b+1-a), so D_0=g1 and D_1=g0",
+    "normalized_sum": "if r<=B_a, D_a=(-1)^(t+r)*C(2s+a,t)*Phi_a; Phi_a=sum_{h=0}^{min(t,floor((B_a-r)/4))} (-1)^h C(B_a,r+4h)*(t)_fall_h/(2s+a-t+1)_rise_h",
+    "phase": "q=1 if p>=5s+4 else q=2; b=q*p-5s-4; r=(3s+2) mod 4",
+    "stable_band": "if b<=k+2, both cutoffs are b,r-dependent; modulo p substitute s=-(b+4)/5, so D_a=0 iff p divides the reduced numerator N_a(b,r)",
+    "support_gap": "D_a=0 identically when r>B_a"
+  },
+  "support_gap_classification": {
+    "all_simultaneous_gap_pairs": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "consequence": "every other common-content node is a genuine cancellation",
+    "prime_feasibility": "parity/divisibility excludes (b,r)=(0,2),(1,3); only b=0,r=3,q=1 remains, namely p=5s+4 with s=3 mod 4"
+  },
+  "verdict": "PROVED an exact all-prime coefficient normalization and a b-only eliminant in the stable band b<=k+2; PROVED the only forced support-gap ray is b=0; PROVED all b=o(m/log m) phases have zero Route-1 rate; REPRODUCED the off-ray cancellation (299,2399,900); PROVED first-singularity compatibility alone has an actual-family false positive; far moving-b cancellation remains OPEN."
+}

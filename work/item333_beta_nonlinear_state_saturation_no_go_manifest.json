@@ -1,0 +1,116 @@
+{
+  "schema": "item333-beta-nonlinear-state-saturation-no-go-manifest-v1",
+  "item": 333,
+  "title": "All-modulus saturation of nonlinear beta load invariants",
+  "date": "2026-09-01",
+  "status": "PROVED_SCOPED_ALL_MODULUS_NONLINEAR_STATE_SATURATION_NO_GO",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item265_beta_squarefull_capacity_report.md": "c41d8d2c813d4952ce5a038f291b932817c28ae5b0b1512df0a6bf0ba92a8daa",
+    "results/item265_root_audit.json": "72e5f43c554e326d101d1b2c55de76f277a5a817eaa6b0fc2837dd8f6bbee24a",
+    "sources/item316_beta_intermediate_ostrowski_no_go_report.md": "8d6dce8354f08e94a252a2120cf677d9a374df95507a9297dcb064a1982fb6b0",
+    "scripts/item316_beta_intermediate_ostrowski_no_go_certificate.py": "b7e25ea7248dbc774da7f3bd98a8665058117de84a2342009f8669bf5438cf6f",
+    "results/item316_beta_intermediate_ostrowski_no_go_certificate.json": "5167e9d160fcecac86791944e41a176d3400f2a6856090de7cf78d55984e7aa4",
+    "manifests/item316_beta_intermediate_ostrowski_no_go_manifest.json": "aac741658430fb661de078adfeafdbc3a9d20312a8fd8725cb4244d406d9bcf6",
+    "results/item316_root_audit.json": "6cad978132f5f09c687aa8fcf8dcd92a7d917cf9411a69f679c7757139229175",
+    "sources/item323_beta_all_depth_dual_transducer_no_go_report.md": "e0b5e7279079a17556a0b287ea18a40e461b6fdb8e45d8ef5a357434b8e6d9ef",
+    "scripts/item323_beta_all_depth_dual_transducer_no_go_certificate.py": "385d57dca299737c3a7feb0523192e81032de865a8862e126f5ec8a0723779cc",
+    "results/item323_beta_all_depth_dual_transducer_no_go_certificate.json": "680c7e2c3d5dfdeae2b61e37e38a81a363cf3aa25a5229062e3620c727c77bc6",
+    "manifests/item323_beta_all_depth_dual_transducer_no_go_manifest.json": "dcf9a3e8087bc849a7a9cfd3807635520d7e5af0b63ae3e88d4e2a33154d8200",
+    "results/item323_beta_all_depth_dual_transducer_no_go_root_audit.json": "2455ebbc739cc235bea44e0d220dae6d29be73eac5a9e8a846465366562ca6c2",
+    "sources/item330_beta_divided_quotient_resonance_no_go_report.md": "fc5d30d59e96a40fdf77a1b9557235e54dcf784d888ed81a517736496dbc4116"
+  },
+  "artifacts": [
+    {
+      "path": "work/item333_beta_nonlinear_state_saturation_no_go_report.md",
+      "role": "capacity-first integral-coordinate theorem, all-modulus nonlinear saturation, and strict scope",
+      "bytes": 14522,
+      "sha256": "8f4bc0a6f93cbd4882392ade311d68e25be1ceb282db71cc5e1ef2f70aee75d6"
+    },
+    {
+      "path": "work/item333_beta_nonlinear_state_saturation_no_go_certificate.py",
+      "role": "standard-library exact deterministic replay",
+      "bytes": 19691,
+      "sha256": "26fd21d0df6bc3771efcc9c442c89def052bf5846bedf2a5f3e2a6d668ba82ba"
+    },
+    {
+      "path": "work/item333_beta_nonlinear_state_saturation_no_go_certificate.json",
+      "role": "work-package certificate output",
+      "bytes": 59316,
+      "sha256": "933120c05e0f67663608e9e53354407f4593718c149941942d070f4af3c0a76a"
+    },
+    {
+      "path": "work/item333_beta_nonlinear_state_saturation_no_go_certificate.replay.json",
+      "role": "independent byte-identical replay output",
+      "bytes": 59316,
+      "sha256": "933120c05e0f67663608e9e53354407f4593718c149941942d070f4af3c0a76a"
+    },
+    {
+      "path": "work/item333_beta_nonlinear_state_saturation_no_go_ledger_delta.json",
+      "role": "proposed ledger delta; no canonical edit",
+      "bytes": 3634,
+      "sha256": "39ccf3fe8b81b9598b1df70a11bcfbea70ab5a5f58fe6639a99dcbc196987b91"
+    }
+  ],
+  "replay": {
+    "command": "python work/item333_beta_nonlinear_state_saturation_no_go_certificate.py --output work/item333_beta_nonlinear_state_saturation_no_go_certificate.replay.json",
+    "expected_stdout": {
+      "all_modulus_kernel": "PROVED",
+      "capacity_reduction": "ZERO",
+      "centered_half_bound": "OPEN",
+      "item": 333,
+      "nonlinear_state_class": "PROVED_SCOPED_NO_GO",
+      "status": "PROVED_SCOPED_ALL_MODULUS_NONLINEAR_STATE_SATURATION_NO_GO",
+      "target_ideal": "PRIME_RADICAL_SATURATED"
+    },
+    "expected_replay_sha256": "933120c05e0f67663608e9e53354407f4593718c149941942d070f4af3c0a76a",
+    "dependency_hashes_verified_before_output": 13
+  },
+  "proved": [
+    "Delta_sigma is exactly the original Item-316 defect in each sign chamber.",
+    "Its two top digit coefficients have an explicit uniform Bezout combination equal to one.",
+    "An explicit affine unimodular transformation makes Delta_sigma an integral polynomial coordinate.",
+    "The exact target ideal is prime, radical, and saturated over Z.",
+    "For every composite M, the formal target-specialization kernel is exactly (M,Delta_sigma).",
+    "Every all-depth recurrence-only nonlinear N/J congruence forced by the target pulls back to Delta_sigma*C+M*D.",
+    "The admitted nonlinear state class has zero incremental formal codimension and zero booking."
+  ],
+  "strict_scope": {
+    "closes": [
+      "recurrence-only polynomial nonlinear invariants of all-depth suffix loads and first quotients",
+      "determinant and resultant portfolios obtained only by polynomial state algebra",
+      "formal congruence lifts modulo b, declared divisors, composite moduli, and prime powers",
+      "formal valuation gains with no independent cofactor theorem"
+    ],
+    "does_not_close": [
+      "the original exact all-digit target or centered half-bound",
+      "canonical cofactor sign, size, nonvanishing, gcd, or exact valuation arithmetic",
+      "floors, absolute values, minimum valuations, or canonical complement redigitization",
+      "a proper-target residue lower bound or weighted zero-density theorem",
+      "any beta capacity reduction, Route 1, or conclusion about e+pi"
+    ]
+  },
+  "strict_labels": {
+    "PROVED": [
+      "integral coordinate, saturated ideal, all-modulus kernel, all-depth state pullback, actual-family audit, and raw-height admission"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "recurrence-only polynomial nonlinear and formal modular/valuation invariant class"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared coefficient, coordinate, state, height, and modular replay controls"
+    ],
+    "OPEN": [
+      "the centered half-bound and exact all-digit exclusion",
+      "canonical arithmetic of cofactors and complement redigitization",
+      "proper targets, beta capacity, Route 1, and e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_height_admission": "PASSES",
+    "raw_height_promoted_to_mass": false,
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "booking": 0
+  }
+}

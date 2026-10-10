@@ -1,0 +1,47 @@
+{
+  "artifact": "item411_mixed_primitive_boundary_transport_ledger_delta",
+  "item": 411,
+  "status": "WORK_ONLY_UNAUDITED_NO_BOOKING",
+  "booking": {
+    "route1_rate_delta": 0,
+    "mixed_cubic_divisor_lower_bound_delta": 0,
+    "strictly_large_prime_content_ceiling_delta_proved": 0,
+    "total_capacity_ceiling_delta_proved": 0
+  },
+  "proved_actual_family_results": {
+    "generator_transport": "away from 6(2q-3), the actual generators C0*Z-T0 and C1*Z-T1 are invertibly equivalent to s-Z*u and r-Z*(u+v)",
+    "primitive_carrier": "after local content removal, v_ell(G_q^prim)=min(v_ell(D*),v_ell(V0*),v_ell(V1*)) with D=u*r-s*(u+v), V0=s^3-K*u^3, V1=r^3-K*(u+v)^3",
+    "marked_collision": "at p=6m+q, the actual first-digit collision is s=X_p*u and r=X_p*(u+v)",
+    "unmarked_support": "p divides H_q*G_q^prim iff the same two equations hold with X_p replaced by zeta*X_p for some zeta in mu_3(F_p)",
+    "positive_exponent_boundary": "for F=(1-z)^(6m)*(1+z^2)^E and J=F*(1+z)^E, the selected collision is F_(n-1)=4^m*(J_n-J_(n-1)) and F_n=4^m*(J_n+J_(n-1)) modulo p",
+    "transform_only_no_go": "for arbitrary normalized R with S=(1+z)^(-k)R, the two boundary functionals have rank two, with minor Y^2*k^2*(k^2-1)/6, so transform and normalization alone admit collisions for every compatible parameter"
+  },
+  "smallest_open_actual_lemma": "the selected two-boundary polynomial equations never hold simultaneously for an actual compatible p=6m+q with m>=1 and q>=5",
+  "conditional_consequence": {
+    "conclusion": "c_m^>=1 for every m, with q=1 already excluded by the nonzero connection determinant",
+    "separate_large_component_ceiling_closed": "log(136)/6 = 0.8187758142893420014168718304...",
+    "route1_booking_increment": 0,
+    "frozen_booked_deficit_after_success": "1.0196329836694317938803064012..."
+  },
+  "capacity_accounting": {
+    "frozen_threshold_minus_rank_one": "1.0196329836694317938803064012...",
+    "combined_large_component_ceiling": "0.8187758142893420014168718304...",
+    "proved_ceiling_reduction": 0,
+    "radical_zero_density_alone_controls_all_depth": false,
+    "sufficient_weighted_target": "sum_{p>6m} min(v_p(lambda0_m),v_p(lambda1_m))*log(p)=o(m), or radical control plus an independent depth bound"
+  },
+  "overlap_rules": [
+    "partition compatible primes into p|H_q and p not dividing H_q with p|G_q^prim; do not add raw H and G logarithms",
+    "in q=1 mod 6, unmarked G support includes two wrong cube-root branches and is not automatically an actual common-log collision",
+    "Item390 owns all valuation depths of actual strictly large-prime content; the Smith carrier is first-digit only",
+    "p>6m is disjoint from booked p<2m Cartier support and the small-prime remainder",
+    "large-prime beta matching on the primitive residual target is not automatically removed"
+  ],
+  "open": [
+    "selected actual two-boundary noncollision",
+    "unmarked primitive-G support and H_q*G_q^prim divisibility by P_q",
+    "valuation-weighted o(m) control of c_m^>",
+    "c_m^>=1",
+    "Route 1 and irrationality of e+pi"
+  ]
+}

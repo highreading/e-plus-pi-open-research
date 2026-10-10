@@ -1,0 +1,193 @@
+{
+  "classification": {
+    "EXACT_FINITE_ONLY": [
+      "absence of j=1,j=2 collisions through p<=199"
+    ],
+    "OPEN": [
+      "all-prime exclusion for the j=1 and j=2 frozen-cell congruences",
+      "any positive linear-rate saving from the normalized common-log radical",
+      "a subexponential bound for gcd(C_0/F_m,C_1/F_m)"
+    ],
+    "PROVED": [
+      "the exact all-m constant-term contiguous relation and rational telescoper",
+      "factorization and finite resultant support of both primitive coefficient covectors",
+      "the exact scalar five-coordinate incidence M_(p,s)J_j=0 retaining the initial state",
+      "j=1 reduces to 2Y'_nu-Y_nu=0 for nu=0,1",
+      "j=2 reduces to 9X_nu-10Y_nu+Y'_nu=0 for nu=0,1",
+      "both lower and upper o(m/log m) phase edges have zero linear log rate"
+    ]
+  },
+  "contiguous_relation": {
+    "bounded_ansatz_uniqueness": {
+      "ansatz": "sum over nu=0,1 and i=0,1 of P_(nu,i)(m) C_nu(m+i), deg P<=7",
+      "matrix_columns": 32,
+      "matrix_rows": 40,
+      "modulus": 1000000007,
+      "nullity_over_Q": 1,
+      "rank": 31,
+      "scope": "uniqueness only in this bounded order/degree ansatz"
+    },
+    "constant_term_basis": {
+      "Cnu": "CT R^m fnu",
+      "R": "(1-z)^6/(z^4(1+z^2)^4)",
+      "f0": "(1+z)/(1+z^2)",
+      "f1": "(1+z)^4/(z(1+z^2)^2)"
+    },
+    "finite_regression": {
+      "row_stream_sha256": "d0fe5d1eae2ba286acdb044ed1cde01c5e882ab82a353691b5f902cd54f05254",
+      "verified_m_max": 80,
+      "verified_rows": 80
+    },
+    "formula": "A_m C0(m)+B_m C0(m+1)+D_m C1(m)+E_m C1(m+1)=0",
+    "normalization_counterexample": {
+      "F_m": 1,
+      "F_m_plus_1": 11,
+      "conclusion": "the raw contiguous relation does not survive division by F_m",
+      "m": 1,
+      "normalized_relation_residue": -73214064000,
+      "raw_relation_residue": 0
+    },
+    "resultants": {
+      "current_primitive_resultant": 280702518317929709568000,
+      "current_primitive_resultant_factorization": {
+        "2": 17,
+        "3": 4,
+        "5": 3,
+        "7": 2,
+        "19": 2,
+        "41": 1,
+        "71": 1,
+        "1531": 1,
+        "2683": 1
+      },
+      "interpretation": "outside the displayed finite prime support and the explicit common linear factors, each side of the one-row relation is a nonzero projective covector",
+      "next_primitive_resultant": -229348099537920,
+      "next_primitive_resultant_factorization": {
+        "2": 10,
+        "3": 3,
+        "5": 1,
+        "11": 1,
+        "29": 1,
+        "43": 1,
+        "79": 1,
+        "1531": 1
+      }
+    },
+    "scoped_no_go": "one primitive order-one scalar relation supplies only one projective condition on the neighboring divided pair; nonzero resultants do not turn that one covector into a zero-propagation theorem",
+    "telescoper": {
+      "degree_bound_in_m": 7,
+      "identity": "with F=(1-z)N and d=1+z^2: d(zF'-5F)-10z^2F+m(-6zdN-4dF-8z^2F)=Hnum",
+      "interpolation_m_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "maximum_z_degree": 16,
+      "rational_certificate": "S=(1-z)N/(z^5(1+z^2)^5)",
+      "specialization_digest": "23543cec95ff37e44a451f2185734142813fd8617c6acc9d73befe5b3fa97ef1"
+    }
+  },
+  "dependency_sha256": {
+    "scripts/item197_common_log_locus_certificate.py": "f85c36169c7eb0aee3fb73f8030d3ddb2296b00077370012be84479eea9aeeb9",
+    "scripts/item200_common_log_gcd_certificate.py": "26ef60a6f89d569d7f22fdd504dd76f5b3b6a2c11d9b99f2c56a0be645c1396b",
+    "scripts/item203_common_log_global_certificate.py": "711a8fe500caf934cff62373f062f13abb9fa4c9f0306d0e795ac0a27b992df0",
+    "sources/item197_common_log_locus_report.md": "2241656ac9c47e81b5026449a97c15bed7d35290bf2b6a91cdfed4bb3fe3683c",
+    "sources/item200_common_log_gcd_report.md": "06003e9fd03f74b2406330a81d49493fa2f4390c82f359be39bf328184605c68",
+    "sources/item203_common_log_global_report.md": "dd48928d9e9535e1ffbbc960df4db9acbd161760a5aa06fca28e6f34f8993f67"
+  },
+  "finite_cell_replay": {
+    "classification": "EXACT_FINITE_ONLY",
+    "incidence_crosscheck_prime_max": 61,
+    "incidence_crosscheck_rows": 67,
+    "integer_bridge_prime_max": 31,
+    "integer_bridge_rows": 17,
+    "j1": {
+      "common_zero": 0,
+      "q0_zero": 1,
+      "q1_zero": 2,
+      "rows": 329
+    },
+    "j2": {
+      "common_zero": 0,
+      "q0_zero": 3,
+      "q1_zero": 1,
+      "rows": 331
+    },
+    "prime_max": 199,
+    "row_stream_sha256": "6d9585d438c637231b7fb1a858982dca26ecb003a255a60b7874a5b15dc920f0",
+    "scope_warning": "zero observed collisions is not an all-prime theorem"
+  },
+  "five_coordinate_incidence": {
+    "J_definition": "(a[y^(c-1)]A^(a-1)/D^c, a[y^(c-2)]A^(a-1)/D^c, -c[y^(c-1)]A^a/D^(c+1), -c[y^(c-2)]A^a/D^(c+1))",
+    "common_log_matrix": "rows w4, w3-2w1, w2-2w1 annihilate J_j",
+    "row_definition": "w_t=([v^(L+t)]DeltaA P,[v^(p+L+t)]DeltaA P,[v^(L+t)]DeltaD P,[v^(p+L+t)]DeltaD P), t=1..5",
+    "vectors": {
+      "j1": [
+        -12,
+        -12,
+        6,
+        12
+      ],
+      "j2": [
+        -245,
+        70,
+        315,
+        -35
+      ]
+    }
+  },
+  "frozen_item197_coordinates": {
+    "UVW": {
+      "j1": [
+        0,
+        2,
+        -4
+      ],
+      "j2": [
+        -45,
+        -70,
+        7
+      ]
+    },
+    "admissibility_outcome": "the primitive scalar factors are 6 and -35, so admissibility does not restrict p to finite support; moving truncated-log moments remain",
+    "finite_log_functional_equations": {
+      "identities": [
+        "A_p(z)=A_p(1-z)",
+        "A_p(z)=-z^p A_p(1/z)",
+        "B_p(z)=A_p(-z^2)=A_p(1+z^2)"
+      ],
+      "outcome": "the identities are exact, but after multiplication by P_nu and coefficient extraction they do not identify the two required moments",
+      "prime_checks": 12,
+      "prime_max": 43
+    },
+    "j1_primitive_conditions": "2Y'_0-Y_0=2Y'_1-Y_1=0 mod p",
+    "j2_primitive_conditions": "9X_0-10Y_0+Y'_0=9X_1-10Y_1+Y'_1=0 mod p"
+  },
+  "item": 217,
+  "rate_ledger": {
+    "actual_j1_j2_all_prime_exclusion": "OPEN",
+    "gap_per_6m": "0.01963298366943179388",
+    "j1_cell_mass_per_6m": "1/36",
+    "j2_cell_mass_per_6m": "1/105",
+    "margin_below_gap_if_j1_j2_excluded": "0.000759986304558095467301587301587301587301587301588",
+    "new_divisibility_exponent": 0,
+    "new_unconditional_linear_log_rate": 0,
+    "raw_j_ge_1_ceiling_per_6m": "0.0561745846664610",
+    "remaining_if_j1_j2_excluded_per_6m": "0.018872997364873698412698412698412698412698412698412",
+    "two_edge_thin_phase_bound": "lower s<=S contributes <=S log(4m+1+2S); upper distance t<=T contributes <=2(T+1)log(6m); hence zero linear rate if S,T=o(m/log m)"
+  },
+  "runtime": {
+    "external_numeric_backend": null
+  },
+  "two_edge_phase_theorem": {
+    "lower_identity": "4m+1+2s=(2j+1)p",
+    "scope": "all candidate primes, hence also all common-log primes",
+    "upper_p_1_mod_6_identity": "6m-2-3t=(3j+1)p",
+    "upper_p_5_mod_6_identity": "6m-1-3t=(3j+1)p"
+  }
+}

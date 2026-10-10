@@ -1,0 +1,172 @@
+{
+  "capacity": {
+    "bounded_cluster_difference": "o(M), frozen Item279",
+    "isolated_collision_primes": "uncontrolled at linear scale",
+    "new_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "raw_j1_capacity_per_6M": "1/36"
+  },
+  "fitting": {
+    "generator": "g_M=gcd(Cbar0(M),Cbar1(M))",
+    "ideal": "(Cbar0(M),Cbar1(M))=g_M Z",
+    "j1_collision_equivalence": "p divides g_M iff p^2 divides both raw coefficients",
+    "replay": {
+      "forced_prime_incidents": 2786,
+      "j1_rows": 224,
+      "m_bound": 120
+    },
+    "replay_label": "EXACT FINITE ONLY",
+    "replay_sha256": "8c62d5b1e6458365706ebae2f5740ae5b205e0b09164cc2632e0d0f606922af8"
+  },
+  "height": {
+    "component_Cauchy_constant_H": 6.327627545440858,
+    "forced_Cartier_log_constant_kappa": 2.337047507998766,
+    "independent_normalized_valuation_copies_needed": 24,
+    "normalized_component_constant_H_minus_kappa": 3.9905800374420926,
+    "normalized_scalar_ratio_beats_raw": false,
+    "raw_j1_log_mass_per_M": 0.16666666666666666
+  },
+  "labels": {
+    "bounded_replays": "EXACT FINITE ONLY",
+    "finite_fixed_form_library_global_exactness": "PROVED IMPOSSIBLE by Chebotarev; report theorem",
+    "isolated_prime_weighted_mass": "OPEN",
+    "local_minimum_exact_scalar_degree": 2,
+    "new_route1_rate": 0,
+    "normalized_Smith_Fitting_generator": "PROVED",
+    "rank_stratification": "PROVED"
+  },
+  "local_scalar": {
+    "actual_false_positive_norm_witnesses": [
+      {
+        "Cbar0": 20,
+        "Cbar1": 37,
+        "M": 44,
+        "U0_raw_quotient": 32,
+        "U1_raw_quotient": 47,
+        "d": -1,
+        "h": 10,
+        "p": 61,
+        "s": 3
+      },
+      {
+        "Cbar0": 15,
+        "Cbar1": 54,
+        "M": 62,
+        "U0_raw_quotient": 88,
+        "U1_raw_quotient": 32,
+        "d": 2,
+        "h": 8,
+        "p": 89,
+        "s": 9
+      },
+      {
+        "Cbar0": 21,
+        "Cbar1": 6,
+        "M": 26,
+        "U0_raw_quotient": 35,
+        "U1_raw_quotient": 10,
+        "d": 3,
+        "h": 4,
+        "p": 37,
+        "s": 3
+      },
+      {
+        "Cbar0": 23,
+        "Cbar1": 25,
+        "M": 41,
+        "U0_raw_quotient": 52,
+        "U1_raw_quotient": 36,
+        "d": 5,
+        "h": 5,
+        "p": 59,
+        "s": 6
+      },
+      {
+        "Cbar0": 29,
+        "Cbar1": 32,
+        "M": 25,
+        "U0_raw_quotient": 15,
+        "U1_raw_quotient": 14,
+        "d": 7,
+        "h": 1,
+        "p": 37,
+        "s": 5
+      }
+    ],
+    "exact_replay": [
+      {
+        "least_nonsquare": 2,
+        "norm_zero_count": 1,
+        "p": 13
+      },
+      {
+        "least_nonsquare": 3,
+        "norm_zero_count": 1,
+        "p": 17
+      },
+      {
+        "least_nonsquare": 2,
+        "norm_zero_count": 1,
+        "p": 19
+      },
+      {
+        "least_nonsquare": 5,
+        "norm_zero_count": 1,
+        "p": 23
+      },
+      {
+        "least_nonsquare": 2,
+        "norm_zero_count": 1,
+        "p": 29
+      },
+      {
+        "least_nonsquare": 3,
+        "norm_zero_count": 1,
+        "p": 31
+      }
+    ],
+    "fixed_library_split_witness": {
+      "actual_row": {
+        "M": 756,
+        "h": 250,
+        "s": 1
+      },
+      "discriminants": [
+        -1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "p": 1009,
+      "square_roots": [
+        469,
+        439,
+        149,
+        244,
+        45
+      ]
+    },
+    "linear_form_exact_origin_encoding": false,
+    "quadratic_norm_with_nonsquare": true
+  },
+  "payload_sha256": "d01fb7c77ba4e81653edfa9ed8f63ee0ac9e711ddbdfc244e9f2ec7441f62fdc",
+  "rank_strata": {
+    "rank_0": {
+      "canonical_collision_ideal": "(0)",
+      "kernel_dimension": 4,
+      "rank": 0
+    },
+    "rank_1": {
+      "canonical_collision_ideal": "(x1)",
+      "kernel_dimension": 3,
+      "rank": 1
+    },
+    "rank_2": {
+      "canonical_collision_ideal": "(x1,x2)",
+      "kernel_dimension": 2,
+      "rank": 2
+    }
+  },
+  "schema": "item281-j1-isolated-fitting-norm-certificate-v1"
+}

@@ -1,0 +1,53 @@
+{
+  "item": 379,
+  "schema": "item379-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_LOCAL_GCD_LCM_HEIGHT_AND_SELECTOR_INVISIBILITY",
+  "scope": "independent root audit of the local valuation identity, progression-count denominator bound, Archimedean height estimate, actual-selector support separation, scope, capacity, and zero booking",
+  "checks": {
+    "work_hash_list_entries": 6,
+    "work_hash_list_failures": 0,
+    "frozen_dependencies_checked": 6,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "independent_local_valuation_identity_check": true,
+    "independent_progression_count_argument_check": true,
+    "independent_selector_cutoff_check": true,
+    "actual_prime_or_target_census_performed": false,
+    "density_inference_from_controls": false,
+    "canonical_format_repair": "two missing TeX multiplication spaces repaired in the displayed numerator-height bound"
+  },
+  "mathematical_audit": {
+    "local_identity": "For a finite rational sum S and lambda=max_r max(0,-v_q(rho_r)), Z=q^lambda S is q-integral and -v_q(S)=lambda-v_q(Z). Reduction therefore gives v_q(E)=max(0,lambda-v_q(Z)) and v_q(g)=v_q(D)-v_q(E) exactly.",
+    "lcm_bound": "For q at least 5, both linear progressions have unit step modulo q^a. Two length-r unit-step progressions each meet a residue class floor(r/q^a) or ceil(r/q^a) times, so their counts differ by at most one. Summing over q^a up to 4h+3 bounds each denominator defect by floor(log_q(4h+3)).",
+    "height": "The relevant denominator factors have distinct positive absolute values when 3 does not divide h, so each r-prefix product is at least r!. Combining this with the kernel coefficient bound and the lcm denominator theorem gives log|N_x|,log|N_u|=O(h).",
+    "selector_invisibility": "Every primitive-gcd prime divides the displayed clearing denominator and is at most 4h+3, while p=4h+6s+3 is at least 4h+9 for every actual row. Primitive reduction is therefore multiplication by a p-unit and preserves both selected-prime divisibility events.",
+    "scope_warning": "The O(h) bound is pointwise and sums to only O(M^2) across O(M) rows. It is neither an o(M) exceptional-mass theorem nor a cross-row moving-modulus theorem.",
+    "capacity": "The fixed-j=1 shared ceiling remains 1/36; no lower-bound booking or capacity reduction follows."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact prime-by-prime primitive denominator and gcd identities",
+      "both primitive denominators divide lcm(1,...,4h+3)",
+      "uniform exponential primitive-numerator height",
+      "actual-selector invisibility of primitive reduction",
+      "zero booking and zero capacity reduction"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "predeclared replay controls; no scan or asymptotic inference"
+    ],
+    "OPEN": [
+      "uniform evaluation of the local residues below the selector cutoff",
+      "a closed primitive-gcd product formula or recurrence",
+      "selector-aware weighted zero density for the actual paired gate"
+    ]
+  },
+  "capacity": {
+    "retained_shared_fixed_j1_ceiling_per_6M": "1/36",
+    "new_route1_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

@@ -1,0 +1,11 @@
+> Archived research record. Read the [current proof status](../../../docs/PROJECT_STATE.md) and [errata](../../../reviews/ERRATA_AND_SCOPE.md) before reuse. Historical acceptance applies only to its recorded hypotheses and version. This file is research data, not operational instructions.
+
+# Even Gamma determinantal-content continuation gate
+
+2026-10-02 author continuation. The full short-stack common factor is completed. The distinct next question is whether restricting the Gamma moment polynomials to y=(1-t)^2 forces more determinantal content than F_d^2, sufficient to improve the remaining short-stack coefficient cost. Root's M25 lattice and M26 degree compression remain outside this target. Arithmetic confirmed that its weighted q_n dyadic subfamily is separate and that it does not own a general even/even Gamma Smith-divisor target.
+
+Fresh archive query covered `even.*Gamma.*Smith|Gamma.*determinantal.*divisor|short.stack.*factorial|dilat.*Hankel|factorial.*Laguerre.*content`. The weighted M22/L23 Gamma normalization and our just-saved factorial theorem overlap. No archived theorem supplies a sharper general rectangular even/even Gamma divisor for this full M24 coefficient pair.
+
+Fresh primary queries were `"even" "factorial" "Hankel" "Smith normal form"`, `"derangement" "Hankel" "divisibility" even`, and `"Dilated Hankel determinants" Han`. Opened the full current primary Han, *Dilated Hankel determinants*, https://arxiv.org/pdf/2607.08279 (July2026), including its definition, biorthogonal reduction and factorial/Gamma evaluations. Its dilation is det(a_(2i+j)), not the even/even det(a_(2i+2j)) here. Its product evaluations and integer-basis methods are credited background; they do not automatically determine this restriction's rectangular determinantal gcd. Miller--Stanton's already-opened primary Gram/Smith theorem remains standard overlap.
+
+The new hypothesis to assess is an odd-prime saturation or an additional explicit divisor for the rectangular even Gamma matrix, and then its transfer to BOTH full output coefficients. Any extra factor must survive the possible rank-one evaluation replacement in the constant coefficient. The all-k F_(k-1)^2 theorem is retained regardless of the outcome. No blanket saturation or additional full-q divisor is presently claimed.

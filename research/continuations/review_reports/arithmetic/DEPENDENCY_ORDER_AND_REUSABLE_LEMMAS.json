@@ -1,0 +1,112 @@
+{
+  "reviewer": "/root/literature_map",
+  "scope": "独立逻辑重推次序，不是将文件互引自动作数学依赖。",
+  "lemmas": [
+    {
+      "id": "R1",
+      "statement": "minimal-degree≤1、H模p秩≥2n−1、H/J不同因子数、J full-depth two-row carrier",
+      "selected_document_ids": [
+        2192
+      ],
+      "proof_inputs": "主已审核实际非零endpoint系统；2188/2189所需前件本轮独立重推",
+      "proof_entry": "DECISIVE_REDERIVATIONS.md",
+      "judgment": "成立（列出条件范围内）"
+    },
+    {
+      "id": "R2",
+      "statement": "integer finite-difference full Smith identity与global F=(∏j!)θ",
+      "selected_document_ids": [
+        2163
+      ],
+      "proof_inputs": "elementary integer operations；特征零满秩用主非零endpoint",
+      "proof_entry": "DECISIVE_REDERIVATIONS.md",
+      "judgment": "成立（列出条件范围内）"
+    },
+    {
+      "id": "R3",
+      "statement": "完整vD≤vF及vηᴴ≤vθ",
+      "selected_document_ids": [
+        2154,
+        2155
+      ],
+      "proof_inputs": "R1、R2；主endpoint非零→X full-column-rank",
+      "proof_entry": "DECISIVE_REDERIVATIONS.md",
+      "judgment": "成立（列出条件范围内）"
+    },
+    {
+      "id": "R4",
+      "statement": "shared augmented core ζ在p>3n无因子",
+      "selected_document_ids": [
+        2290
+      ],
+      "proof_inputs": "R1 degree slice；module determinant-degree独立推导",
+      "proof_entry": "DECISIVE_REDERIVATIONS.md",
+      "judgment": "成立（列出条件范围内）"
+    },
+    {
+      "id": "R5",
+      "statement": "E=(−1)^nFZ；Pe/Pa整数；n!F取消；q=|Z|/gcd(N,Z)",
+      "selected_document_ids": [
+        2123,
+        1986
+      ],
+      "proof_inputs": "主已审实际primitive/cross-product；本轮符号和物理行尺度重推",
+      "proof_entry": "DECISIVE_REDERIVATIONS.md",
+      "judgment": "成立（列出条件范围内）"
+    },
+    {
+      "id": "R6",
+      "statement": "hQhat=R𝒫；dII=|K|/Θ；modn truncated depths与saturated full depth",
+      "selected_document_ids": [
+        2089,
+        2119
+      ],
+      "proof_inputs": "R2及全局weighted minors；signed Cauchy rank直接推导",
+      "proof_entry": "DECISIVE_REDERIVATIONS.md",
+      "judgment": "成立（列出条件范围内）"
+    },
+    {
+      "id": "R7",
+      "statement": "all-m modp²、seed0/1 nonzero、Witt exact limit",
+      "selected_document_ids": [
+        2085
+      ],
+      "proof_inputs": "integer Frobenius Gauss与finite-log独立specialization；R6 K/A unit桥",
+      "proof_entry": "DECISIVE_REDERIVATIONS.md",
+      "judgment": "成立（列出条件范围内）"
+    },
+    {
+      "id": "R8",
+      "statement": "saturated actual N unit、n=p的7例外、actual q depth",
+      "selected_document_ids": [
+        1986
+      ],
+      "proof_inputs": "R5、R6、R7；Lucas/Hasse与Wilson",
+      "proof_entry": "DECISIVE_REDERIVATIONS.md",
+      "judgment": "成立（列出条件范围内）"
+    }
+  ],
+  "nonimplications": [
+    {
+      "id": "generic_augmented_unit_not_high_unit",
+      "scope": "一般整数线性代数；非actual Taylor family；selected original不作该断言",
+      "is_counterexample_to_selected_assertion": false
+    },
+    {
+      "id": "generic_congruence_not_full_depth",
+      "example": "列矩阵C=[p^ν,0]^T与Z=[p^M,0]^T，M>ν。modp^ν同余且截断指数ν相同，但完整指数ν与M不同。",
+      "is_counterexample_to_selected_assertion": false
+    },
+    {
+      "id": "n25p5_dII_unit_q_not_unit",
+      "scope": "actual index；1986原文已声称这种区别",
+      "is_counterexample_to_selected_assertion": false
+    },
+    {
+      "id": "n7p7_actual_gcd_exception",
+      "scope": "actual index；1986已明确p7例外",
+      "is_counterexample_to_selected_assertion": false
+    }
+  ],
+  "whole_route_status": "原始raw排除已主独立闭合；本轮stronger arithmetic followup不是其缺口。"
+}

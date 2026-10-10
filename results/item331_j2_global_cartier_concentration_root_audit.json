@@ -1,0 +1,58 @@
+{
+  "item": 331,
+  "schema": "item331-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_GLOBAL_COEFFICIENT_CONCENTRATION_AND_FIXED_TARGET_DICHOTOMY",
+  "scope": "independent root audit of the globally visible ordinary-j2 Cartier coefficient, its fixed-ray concentration, and the fixed-target dichotomy",
+  "checks": {
+    "certificate_sha256": "08739a4a4061d5b9d78328aa52b6355711657d75259a133660a3181404f640b2",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_artifacts_match": true,
+    "frozen_dependencies_checked": 4,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 6,
+    "work_hash_list_match": true,
+    "root_stress_sha256": "e7ca1ca1d057da7ec539b2be41803a1b58b66a537d9a6ec54d8c13a973dc4d3a",
+    "root_stress_actual_rows": 1792,
+    "root_stress_numerator_collapse_checks": 1792,
+    "root_stress_fixed_ray_rows": 3669,
+    "root_stress_fixed_target_divisor_checks": 25683,
+    "root_stress_kernel_rows": 72,
+    "root_stress_kernel_identity_checks": 144,
+    "report_inline_delimiters": "83/83",
+    "report_display_delimiters": "33/33",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "global_coefficient": "A_m=sum_(j=0)^m 8^(m-j)binom(2j,j) and 8^m c_p=8^m-epsilon A_m modulo p on every actual row",
+    "ray_classes": "for fixed m, the two signs occupy exact residue classes modulo 8: 7 and 3 when m is even, 1 and 5 when m is odd",
+    "positive_mass": "the prime number theorem in arithmetic progressions gives Chebyshev mass X/4 on each fixed sign/ray class",
+    "fixed_target": "for a fixed rational target u/v, the condition is p|v(8^m-epsilon A_m)-u8^m; unless that numerator vanishes identically, only finitely many primes occur",
+    "counterexample": "at m=0, c_p is identically 0 on one full residue progression and 2 on the other, so coefficient-only fixed-target nonconcentration cannot solve the moving target problem",
+    "scope_warning": "the actual target 1-epsilon Theta_(r,s) moves and remains coupled to the determinant gate; neither its weighted density nor degenerate charts are controlled"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "global coefficient collapse",
+      "fixed-ray residue classification and positive Chebyshev mass",
+      "fixed rational target divisor dichotomy",
+      "coefficient-only fixed-target no-go",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "canonical replay and enlarged root stress rows"
+    ],
+    "OPEN": [
+      "weighted zero density for the moving affine target after the determinant gate",
+      "target-retaining divisor localization or average gcd",
+      "degenerate connection charts and any capacity reduction"
+    ]
+  },
+  "capacity": {
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

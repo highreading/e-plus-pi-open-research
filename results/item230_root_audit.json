@@ -1,0 +1,45 @@
+{
+  "schema": "item230-root-independent-audit-v1",
+  "status": "PASS_WITH_SINGULAR_ROWS_OPEN",
+  "canonical_sha256": "05d77dfbc5a4df07dbcc1faae0adf8ec4c023f0705d1a8dd3d6bb703296abd88",
+  "root_replay_sha256": "05d77dfbc5a4df07dbcc1faae0adf8ec4c023f0705d1a8dd3d6bb703296abd88",
+  "byte_identical_replay": true,
+  "independent_checks": {
+    "terminal_multiplicity": "Substitution of t_a=2s+1+(a-2)p into A_t gives A_(t_a)=a*p exactly. The unique pole has p-residue ell_(a*p-1)/a, so multiplication by a*p restores the source ell_(a*p-1).",
+    "fixed_transfer": "Every open-phase pivot is j modulo p, the deleted coefficient depends only on local phase position, and the post-terminal homogeneous response is W. Since deg(W)<p-3, its three output coordinates vanish, leaving one fixed affine phase map.",
+    "antiperiod": "In the direct regularized coefficient sum, shifting t by 2p preserves every denominator and deleted-pole position modulo p while ell_(n+2)=-ell_n; shifting by 4p fixes every summand.",
+    "rank_criterion": "The lower terminal, two upper terminals, and three antiperiod coordinates are six equations in one scalar. Solvability is exactly rank([c|d])=rank(c)=1; the first old minors replay as 2*Theta and -epsilon*Psi.",
+    "regular_completeness": "When det(I+M^2) is a unit, the affine antiperiod equation has a unique terminal state. Equality with the direct state propagates backward through unit pivots to the original common-line gate.",
+    "extended_prime_max_inclusive": 701,
+    "extended_rows": 3295,
+    "extended_source_prime_max_inclusive": 181,
+    "extended_source_rows": 266,
+    "extended_terminal_source_rows": 1064,
+    "extended_determinant_zero_rows": 5,
+    "extended_formally_solvable_rows": 0,
+    "python_compile": true,
+    "canonical_replay": "byte-identical",
+    "control_character_scan": "clean",
+    "host_path_scan": "clean",
+    "artifact_hashes": "match the frozen manifest and SHA-256 ledger"
+  },
+  "classification": {
+    "PROVED": [
+      "the exact a*p terminal multiplier and correctly normalized source",
+      "the fixed affine phase transfer and loss of the free column",
+      "coefficientwise 2p antiperiodicity and 4p periodicity",
+      "the six-equation necessary rank criterion",
+      "equivalence to the original collision gate on det(I+M^2)!=0 rows"
+    ],
+    "EXACT_FINITE": [
+      "the frozen source replay through p<=151 and census through p<=601",
+      "the independent extended source replay and census through the recorded bounds"
+    ],
+    "OPEN": [
+      "all-prime augmented-rank inconsistency",
+      "classification or zero-rate control of det(I+M^2)=0",
+      "any positive Route-1 rate or conclusion about e+pi"
+    ]
+  },
+  "audit_conclusion": "The phase closure is a complete reformulation on regular rows and a necessary test on singular rows. The finite empty solvability census is evidence only and books no rate."
+}

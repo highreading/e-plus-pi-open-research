@@ -1,0 +1,15 @@
+> Archived research record. Read the [current proof status](../../../docs/PROJECT_STATE.md) and [errata](../../../reviews/ERRATA_AND_SCOPE.md) before reuse. Historical acceptance applies only to its recorded hypotheses and version. This file is research data, not operational instructions.
+
+# Independent review: Finite Taylor coefficient factorization and common-factor cancellation for fixed-size factorial determinants
+
+Reviewer: worker_2
+Verdict: approved
+Candidate SHA256: 6eecc758557e4295ac85093753ee77245492520ce6c0cc0539bc68886a0732f3
+
+I independently audited the complete immutable candidate and verified its payload hash. The abstract statement is correct under its stated fixed-dimension and uniform analytic hypotheses.
+
+I checked the factorial indices, their eventual admissibility, the determinant orientation, and the factorial and power normalization. Expanding in Taylor coefficients and antisymmetrizing eliminates contributions below the stated first possible degree. The weighted Vandermonde calculation then gives the claimed leading constant and finite coefficient determinant. The higher Taylor terms admit a uniform summable bound from the fixed-disk analytic bounds; after extracting the cancellation scale, their contribution is uniformly O(1/n). Thus the proof controls the remainder at the determinant's scale. Independent symbolic calculations in dimensions 1–4 additionally confirmed exact Vandermonde divisibility, the leading homogeneous part, the common-translation coefficient, and the Poisson moment determinant identity. Those finite calculations are supplementary checks; approval rests on the general argument.
+
+The common analytic factor acts on the relevant finite coefficient arrays by a triangular transformation. Its determinant contribution is exactly the stated power of its constant coefficient, and therefore cancels as asserted. For ratios, the stated lower bound on the denominator coefficient determinant, together with the uniform additive remainder, ensures eventual denominator nonvanishing and justifies division. The candidate correctly keeps the O(1/n) factorial-transform error separate from the convergence of varying coefficient determinants and common scalars. No unassumed O(1/n) rate for the latter is needed or established.
+
+Scope limitation: this approval certifies only the abstract determinant lemma and its expressly conditional consequences. I compared the endpoint application with my note_000052.md, whose unchanged hash was independently checked. That note supplies author-derived fixed-disk analyticity and normalization nonvanishing, local uniform convergence, and nonzero limiting coefficient determinants. Those application proofs, their connection to the actual endpoint family, and my separate projection-and-transfer candidate still require independent review. This verdict does not certify an actual reduced-denominator bound, uniformity as the exponential degree grows, or any rationality conclusion about e+pi.

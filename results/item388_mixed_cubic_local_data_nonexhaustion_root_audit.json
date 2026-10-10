@@ -1,0 +1,55 @@
+{
+  "item": 388,
+  "schema": "item388-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_SCOPED_LOCAL_DATA_AND_MATCHING_NONEXHAUSTION",
+  "scope": "independent root audit of fresh-scalar blindness, height-compatible fibers, complete-graph multi-parent packing, forest loss, actual-family disclaimers, and zero booking",
+  "checks": {
+    "work_hash_list_entries": 6,
+    "work_hash_list_failures": 0,
+    "frozen_dependencies_checked": 6,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "independent_scalar_gcd_check": true,
+    "independent_height_fiber_check": true,
+    "independent_complete_graph_gcd_lcm_check": true,
+    "actual_mixed_cubic_or_beta_rows_scanned": false,
+    "density_inference_from_controls": false,
+    "canonical_format_repairs": "Restored the missing TeX separator in the triple-gcd formula and corrected exponent ell_ij^2; no mathematical content changed."
+  },
+  "mathematical_audit": {
+    "fresh_scalar": "For M supported on the declared primes, lambda=1+tM is coprime to M and congruent to one modulo every declared prime power. Scaling both coordinates preserves the full finite residue package and multiplies their gcd by lambda, whose prime support is fresh.",
+    "height_fiber": "If B>=2(1+M), the pairs (1,2) and (1+M,2(1+M)) lie in the same height box and residue fiber but have gcds 1 and 1+M.",
+    "multi_parent": "With pairwise coprime edge labels ell_ij and P_i the product of incident labels, pair gcds are ell_ij and every triple gcd is one. The parent product is the square of the edge product, while the lcm is the edge product, so R=L exactly.",
+    "forest": "A forest contains at most r-1 of binomial(r,2) comparable edge labels. Choosing labels in [X,2X] makes its logarithmic fraction at most (2/r)(1+log(2)/log(X)), tending to zero.",
+    "scope_limit": "The comparison pairs and parents do not satisfy the actual period or beta formulas. They prove logical nonexhaustion of the listed local consequences only and do not bound or construct an actual collision."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "finite-local-digit fresh-content nonexhaustion",
+      "height-compatible two-realization theorem",
+      "sharp R=L complete-graph multi-parent packing",
+      "vanishing one-parent forest fraction",
+      "zero booking and zero numerical ceiling change"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared scalar fibers, capacities, graph parents, gcds, lcms, and forests"
+    ],
+    "OPEN": [
+      "actual support and valuation control for complete primitive content",
+      "actual recurrence-specific multi-parent lcm control",
+      "any exhaustive compatible Route-1 upper bound"
+    ]
+  },
+  "capacity": {
+    "pre_item390_inherited_content_ceiling_per_6m": "1.99566316016...",
+    "multi_parent_information_class_ceiling": "R<=L, sharp",
+    "new_route1_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

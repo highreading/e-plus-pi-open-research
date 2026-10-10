@@ -1,0 +1,36 @@
+{
+  "scope": "Only formal coefficients0..6 in the symbolic spectral parameter; no spectral eigenvalues sampled and no canonical HP degree solve.",
+  "status": "pass",
+  "branches": [
+    {
+      "sigma": 0,
+      "normalized_branch_coefficients": [
+        "1",
+        "1/2",
+        "3*xi/4 + 1/8",
+        "5*xi/8 + 1/3",
+        "35*xi**2/192 + 25*xi/32 + 33/128",
+        "21*xi**2/128 + 133*xi/128 + 319/960",
+        "77*xi**3/3840 + 2527*xi**2/7680 + 4249*xi/3840 + 209/512"
+      ],
+      "second_order_V_equation": "pass",
+      "Abel_fourth_order_equation": "pass",
+      "row_recurrence_match": "pass"
+    },
+    {
+      "sigma": 1,
+      "normalized_branch_coefficients": [
+        "0",
+        "1",
+        "3/4",
+        "5*xi/12 + 2/3",
+        "35*xi/96 + 185/192",
+        "21*xi**2/320 + 581*xi/960 + 89/96",
+        "77*xi**2/1280 + 91*xi/120 + 4781/3840"
+      ],
+      "second_order_V_equation": "pass",
+      "Abel_fourth_order_equation": "pass",
+      "row_recurrence_match": "pass"
+    }
+  ]
+}

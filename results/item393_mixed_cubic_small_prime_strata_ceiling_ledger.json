@@ -1,0 +1,47 @@
+{
+  "artifact": "item393_mixed_cubic_small_prime_strata_ceiling_ledger",
+  "audit_status": "ROOT_AUDITED_CANONICAL",
+  "booking": {
+    "route1_rate_delta": 0,
+    "mixed_cubic_divisor_lower_bound_delta": 0,
+    "beta_matching_lower_bound_delta": 0
+  },
+  "primewise_decomposition": {
+    "baseline": "2*product_{p in H_m}p",
+    "small_remainder": "product_{p<=6m} p^(v_p(c_m)-1_{p=2}-1_{p in H_m})",
+    "large_component": "product_{p>6m}p^v_p(c_m)",
+    "identity": "c_m=baseline*small_remainder*large_component",
+    "clearing_rule": "G_m is already divided out; no full M, T, or K factor is removed again"
+  },
+  "ceilings": {
+    "small_remainder_symbolic": "(h-d/mu_pi)-r1",
+    "small_remainder_explicit_safe": "<1.859148991866686",
+    "compatible_total_content": "h-d/mu_pi=1.9956631601614... (unchanged)",
+    "large_component_item390": "<=log(136)/6; upper only, therefore not subtractable"
+  },
+  "decisive_strata": {
+    "postbook_first_layer_ceiling": "1",
+    "postbook_j_ge_2_required_if_small_only_succeeds": "0.0196329836694317938803064013",
+    "raw_k_ge_2_required_if_small_only_succeeds": "0.1561471519642446123307302239",
+    "forced_radical_layer_ceiling": "0.2849081299217216643204548279",
+    "forced_first_four_layers_ceiling": "1.1396325196868866572818193116",
+    "forced_k_ge_5_required_if_forced_only_succeeds": "0.0165146322773579550489109123",
+    "first_forced_depth_not_capacity_excluded": 5
+  },
+  "closed": [
+    "absence of any quantitative upper bound for the complete p<=6m primitive remainder",
+    "the first post-book residual layer as a sufficient small-content mechanism",
+    "the first four raw forced Cartier/Witt layers as a sufficient forced-only mechanism",
+    "double counting between the booked baseline, small remainder, and Item390 large component"
+  ],
+  "open": [
+    "aggregate postbook depth j>=2",
+    "aggregate raw multiplicity depth k>=2",
+    "weighted fifth Item163 gate",
+    "off-forced p<=6m content",
+    "uniform small-prime valuation bounds",
+    "an exhaustive total-content ceiling below the Route-1 threshold",
+    "Route 1 and irrationality of e+pi"
+  ],
+  "strategic_verdict": "QUANTITATIVE_COMPONENT_CEILING_AND_STRATUM_LOCALIZATION_NO_BOOKING"
+}

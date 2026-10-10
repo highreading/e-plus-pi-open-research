@@ -1,0 +1,347 @@
+{
+  "actual_family": "p=4h+6s+3, M=3h+4s+2, n=2h, r=2s+1",
+  "actual_target_bridge": {
+    "choice": "q=Q0=2c_T-c_L in F_p",
+    "full_collision_implication": "full ordinary collision implies selected Hasse a=0 and graded Hasse q=0",
+    "joint_converse_to_full_collision_claimed": false,
+    "new_independent_condition": 0
+  },
+  "canonical_files_modified": false,
+  "capacity": {
+    "actual_support": "all fixed-j1 selector rows",
+    "booking": 0,
+    "desired_theorem": "weighted joint vanishing of selected Hasse a and graded Hasse Q0 is o(M)",
+    "desired_theorem_proved": false,
+    "new_fixed_j1_capacity_reduction": 0,
+    "new_linear_log_rate": 0,
+    "raw_ceiling_per_6M": "1/36",
+    "raw_log_mass": "M/6+o(M)",
+    "route_1_status": "ACTIVE"
+  },
+  "classification": {
+    "EXACT_FINITE_ONLY": [
+      "four predeclared filtered-module and Witt-carry controls; no prime scan"
+    ],
+    "OPEN": [
+      "a prime-independent geometric filtered/crystalline compatible extension realizing Q0",
+      "a nonliteral bounded-conductor unipotent or cohomological compression",
+      "horizontal distribution of the filtered extension/Hasse coordinate",
+      "weighted joint-zero density, any fixed-j1 ceiling reduction, Route 1, and every conclusion about e+pi"
+    ],
+    "PROVED": [
+      "exact rank-two strongly generated filtered Frobenius module with graded Hasse Q0",
+      "full Frobenius isogeny determinant p and fixed Hodge weights 0,1",
+      "exact residue-level unipotent local-product realization of the additive transverse coordinate",
+      "quadratic lower bound for the number of nonidentity pointwise unipotent factors",
+      "full characteristic-polynomial and semisimplification blindness to Q0",
+      "fixed-rank/fixed-Hodge information-neutrality",
+      "nontrivial naive Teichmueller lift carry on declared actual controls",
+      "zero booking"
+    ]
+  },
+  "collision_scans": 0,
+  "compatibility_barrier": {
+    "compatible_extension_target": "a bounded-conductor nonsemisimple extension of the Tate-type graded factors with local Fontaine--Laffaille class Q0",
+    "density_translation": "Q0=0 is local splitting of that extension; semisimple Chebotarev data are constant and cannot count the splitting primes",
+    "full_characteristic_polynomial": "(X-p)(X-1), independent of Q0",
+    "moduli_flexibility": "the fixed rank-two Hodge type admits every residue q, so rank and Hodge polygon alone impose no horizontal zero restriction",
+    "naive_local_lift": "Teichmueller representatives are not additive; actual controls exhibit a nonzero first Witt carry",
+    "not_proved": "one prime-independent geometric filtered F-crystal, connection, compatible lattice, or horizontal monodromy law",
+    "selector_map": "the tied row is sent to the affine Hasse coordinate q=Q0; bounding the pullback of q=0 is exactly the original open problem",
+    "semisimplification": "the same split slopes 1 and p for every Q0",
+    "standard_compatible_data": "trace and determinant do not see the filtered extension coordinate"
+  },
+  "date": "2026-09-01",
+  "dependencies": {
+    "manifests/item369_j1_cyclic_companion_compatibility_barrier_manifest.json": "dd602f42797fe29bef053373eff93ef7ddd13422bd93ad914a31195be64f9b1d",
+    "manifests/item371_j1_determinant_horizontal_compatibility_no_go_manifest.json": "c55bd136dac9c8bc8be84d8f1bd0049256880814c1297f257918c3612c741af8",
+    "results/item369_j1_cyclic_companion_compatibility_barrier_certificate.json": "24ce6c7dae148763699358971170e7cfae6a72a4313b4344c4fb3e4244133d83",
+    "results/item369_j1_cyclic_companion_compatibility_barrier_certificate_replay.json": "24ce6c7dae148763699358971170e7cfae6a72a4313b4344c4fb3e4244133d83",
+    "results/item369_j1_cyclic_companion_compatibility_barrier_ledger_delta.json": "87175da5ed0b16419d4d463e02fe96f7b7c3f30c8cf5b876a24b6d8f6702a468",
+    "results/item369_j1_cyclic_companion_compatibility_barrier_root_audit.json": "a8e84b3ad547c41deb6b4eac2066ae097cef88cf6943ec3aead9da1d3d357b59",
+    "results/item369_j1_cyclic_companion_compatibility_barrier_root_replay.json": "24ce6c7dae148763699358971170e7cfae6a72a4313b4344c4fb3e4244133d83",
+    "results/item371_j1_determinant_horizontal_compatibility_no_go_certificate.json": "e0eb9298d30cd3938d3be409d90444700c4f03b312269100d756ac62d9e0b8fb",
+    "results/item371_j1_determinant_horizontal_compatibility_no_go_certificate_replay.json": "e0eb9298d30cd3938d3be409d90444700c4f03b312269100d756ac62d9e0b8fb",
+    "results/item371_j1_determinant_horizontal_compatibility_no_go_ledger_delta.json": "1892db2b67ab145ca24eadde59af314267a4afd78e22047df271c73a4ee12309",
+    "results/item371_j1_determinant_horizontal_compatibility_no_go_root_audit.json": "7aa4a6f8199c6046ac50616de523fb50b68d8c2837522ba557522072e66df13f",
+    "results/item371_j1_determinant_horizontal_compatibility_no_go_root_replay.json": "e0eb9298d30cd3938d3be409d90444700c4f03b312269100d756ac62d9e0b8fb",
+    "scripts/item369_j1_cyclic_companion_compatibility_barrier_certificate.py": "cd9ef9480809552083b667ea7fcc2c4657ffb104f1558a5f0b5920e6bf7171ea",
+    "scripts/item371_j1_determinant_horizontal_compatibility_no_go_certificate.py": "2105cf70cd15b3f272f99e76605aa4fec661037e839172c93b6faeb755bcd83f",
+    "sources/item369_j1_cyclic_companion_compatibility_barrier_report.md": "676b7f68b3602c1ebbd743779845fd4fe3f511484a3f2e7033ac5ff27d0544b9",
+    "sources/item371_j1_determinant_horizontal_compatibility_no_go_report.md": "9d4ece939ce2d644058f9d8da27f2c2d9697e6674d3c2bb8543d42f87a1713d9"
+  },
+  "direct_controls": [
+    {
+      "M": 9,
+      "c_L": 9,
+      "c_T": 9,
+      "classification": "PREDECLARED EXACT CONTROL; NOT A PRIME SCAN",
+      "filtered_module": {
+        "full_determinant": 13,
+        "graded_Hasse": 9,
+        "phi0_integer_lift": [
+          [
+            13,
+            0
+          ],
+          [
+            117,
+            1
+          ]
+        ],
+        "phi1_e1_residue": [
+          1,
+          9
+        ]
+      },
+      "grouped_extension_entries": {
+        "-c_L": 4,
+        "2c_T": 5
+      },
+      "h": 1,
+      "naive_Teichmueller_lift": {
+        "additive_without_carry": false,
+        "carry_digit_mod_p": 2,
+        "lift_2c_T_mod_p2": 70,
+        "lift_Q0_mod_p2": 22,
+        "lift_minus_c_L_mod_p2": 147,
+        "sum_minus_target_mod_p2": 26
+      },
+      "p": 13,
+      "pointwise_support_bound": {
+        "P0_distinct_zero_upper_bound": 4,
+        "finite_log_z2_zero_upper_bound": 24,
+        "frequency_factor_zero_upper_bound": 0,
+        "nonidentity_factor_lower_bound_over_Fp2": 140,
+        "total_zero_upper_bound": 28
+      },
+      "s": 1,
+      "selected_Hasse": 0,
+      "transverse_Q0": 9,
+      "unipotent_product_mod_p": [
+        [
+          1,
+          0
+        ],
+        [
+          9,
+          1
+        ]
+      ]
+    },
+    {
+      "M": 12,
+      "c_L": 7,
+      "c_T": 2,
+      "classification": "PREDECLARED EXACT CONTROL; NOT A PRIME SCAN",
+      "filtered_module": {
+        "full_determinant": 17,
+        "graded_Hasse": 14,
+        "phi0_integer_lift": [
+          [
+            17,
+            0
+          ],
+          [
+            238,
+            1
+          ]
+        ],
+        "phi1_e1_residue": [
+          1,
+          14
+        ]
+      },
+      "grouped_extension_entries": {
+        "-c_L": 10,
+        "2c_T": 4
+      },
+      "h": 2,
+      "naive_Teichmueller_lift": {
+        "additive_without_carry": false,
+        "carry_digit_mod_p": 11,
+        "lift_2c_T_mod_p2": 38,
+        "lift_Q0_mod_p2": 65,
+        "lift_minus_c_L_mod_p2": 214,
+        "sum_minus_target_mod_p2": 187
+      },
+      "p": 17,
+      "pointwise_support_bound": {
+        "P0_distinct_zero_upper_bound": 4,
+        "finite_log_z2_zero_upper_bound": 32,
+        "frequency_factor_zero_upper_bound": 2,
+        "nonidentity_factor_lower_bound_over_Fp2": 250,
+        "total_zero_upper_bound": 38
+      },
+      "s": 1,
+      "selected_Hasse": 8,
+      "transverse_Q0": 14,
+      "unipotent_product_mod_p": [
+        [
+          1,
+          0
+        ],
+        [
+          14,
+          1
+        ]
+      ]
+    },
+    {
+      "M": 34,
+      "c_L": 42,
+      "c_T": 36,
+      "classification": "PREDECLARED EXACT CONTROL; NOT A PRIME SCAN",
+      "filtered_module": {
+        "full_determinant": 47,
+        "graded_Hasse": 30,
+        "phi0_integer_lift": [
+          [
+            47,
+            0
+          ],
+          [
+            1410,
+            1
+          ]
+        ],
+        "phi1_e1_residue": [
+          1,
+          30
+        ]
+      },
+      "grouped_extension_entries": {
+        "-c_L": 5,
+        "2c_T": 25
+      },
+      "h": 8,
+      "naive_Teichmueller_lift": {
+        "additive_without_carry": false,
+        "carry_digit_mod_p": 17,
+        "lift_2c_T_mod_p2": 2093,
+        "lift_Q0_mod_p2": 1064,
+        "lift_minus_c_L_mod_p2": 1979,
+        "sum_minus_target_mod_p2": 799
+      },
+      "p": 47,
+      "pointwise_support_bound": {
+        "P0_distinct_zero_upper_bound": 4,
+        "finite_log_z2_zero_upper_bound": 92,
+        "frequency_factor_zero_upper_bound": 12,
+        "nonidentity_factor_lower_bound_over_Fp2": 2100,
+        "total_zero_upper_bound": 108
+      },
+      "s": 2,
+      "selected_Hasse": 0,
+      "transverse_Q0": 30,
+      "unipotent_product_mod_p": [
+        [
+          1,
+          0
+        ],
+        [
+          30,
+          1
+        ]
+      ]
+    },
+    {
+      "M": 76,
+      "c_L": 11,
+      "c_T": 60,
+      "classification": "PREDECLARED EXACT CONTROL; NOT A PRIME SCAN",
+      "filtered_module": {
+        "full_determinant": 109,
+        "graded_Hasse": 0,
+        "phi0_integer_lift": [
+          [
+            109,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "phi1_e1_residue": [
+          1,
+          0
+        ]
+      },
+      "grouped_extension_entries": {
+        "-c_L": 98,
+        "2c_T": 11
+      },
+      "h": 10,
+      "naive_Teichmueller_lift": {
+        "additive_without_carry": true,
+        "carry_digit_mod_p": 0,
+        "lift_2c_T_mod_p2": 3717,
+        "lift_Q0_mod_p2": 0,
+        "lift_minus_c_L_mod_p2": 8164,
+        "sum_minus_target_mod_p2": 0
+      },
+      "p": 109,
+      "pointwise_support_bound": {
+        "P0_distinct_zero_upper_bound": 4,
+        "finite_log_z2_zero_upper_bound": 216,
+        "frequency_factor_zero_upper_bound": 2,
+        "nonidentity_factor_lower_bound_over_Fp2": 11658,
+        "total_zero_upper_bound": 222
+      },
+      "s": 11,
+      "selected_Hasse": 70,
+      "transverse_Q0": 0,
+      "unipotent_product_mod_p": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  ],
+  "filtered_module_theorem": {
+    "Fontaine_Laffaille_relation": "phi0|Fil^1=p*phi1",
+    "Hodge_weights": [
+      0,
+      1
+    ],
+    "base": "W(F_p)=Z_p; Witt Frobenius is the identity",
+    "conclusion": "q lives in filtered/divided-Frobenius extension data and is invisible to the full isocrystal characteristic polynomial",
+    "filtration": "Fil^0=M, Fil^1=W*e1, Fil^2=0",
+    "full_Frobenius_characteristic_polynomial": "(X-p)(X-1)",
+    "full_Frobenius_determinant": "p",
+    "graded_Hasse_coordinate": "q mod p",
+    "local_product_law": "U(x)U(y)=U(x+y)",
+    "phi0": "[[p,0],[p*q_tilde,1]]",
+    "phi1_e1": "e1+q_tilde*e2",
+    "principal_minor_alternative": "[[q,-1],[1,0]] has determinant one and principal 1x1 minor q",
+    "rank_minimality": "rank one cannot have both nonzero Fil^1 and nonzero M/Fil^1, so rank two is minimal for this graded Hasse map",
+    "residue_full_determinant": 1,
+    "residue_unipotent": "U(q)=[[1,0],[q,1]]",
+    "strong_generation_determinant": 1,
+    "unfiltered_diagonalization": "U(p*q/(p-1))^(-1)*phi0*U(p*q/(p-1))=diag(p,1)"
+  },
+  "item": 374,
+  "literal_cases": {
+    "Artin_Schreier": "literal polynomial pullback has Swan conductor 2(p-1)",
+    "Kummer": "literal full-order Kummer support grows at least p-2",
+    "classification": "SEPARATE INHERITED CLOSURES; NOT REPROVED HERE",
+    "live_nonliteral_route": "a different bounded-conductor unipotent/cohomological extension with an exact selector bridge"
+  },
+  "local_extension_product": {
+    "Item369_local_entry": "R(x)=2x^(-T)F_Q(x)-x^(-L)F_Q(x), with sum_x R(x)=-Q0",
+    "classification": "exact residue-field unipotent extension product, not a characteristic-zero compatible lift",
+    "factor": "U(-R(x))",
+    "full_determinant": 1,
+    "order_independent": true,
+    "product": "product_x U(-R(x))=U(Q0)",
+    "support_theorem": "R(x)=x^(-L)P0(x)L_p(x^2)(2x^(L-T)-1), so at most 4+2(p-1)+2|h-s| points vanish and at least p^2-1-[that] factors are nonidentity"
+  },
+  "schema": "item374-j1-filtered-hasse-extension-realization-certificate-v1",
+  "status": "PROVED_EXACT_RANK_TWO_FILTERED_HASSE_REALIZATION_AND_HORIZONTAL_INFORMATION_NEUTRALITY"
+}

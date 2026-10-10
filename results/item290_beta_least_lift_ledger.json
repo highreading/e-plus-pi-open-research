@@ -1,0 +1,115 @@
+{
+  "schema": "item290-beta-least-lift-ledger-v1",
+  "scope": "Full-target least absolute degree-one lift of the beta boundary unit, its exact continuant and centered-Euclidean reduction, the generic-continuant barrier, and asymmetric transfer to proper Item265 de-overlapped targets",
+  "claims": [
+    {
+      "id": "I290-C1",
+      "label": "PROVED",
+      "claim": "At n=2, q_2=K(7) and q_1/q_2=[0;7]. For n>=3, q_n=K(7,10,14,...,4n-2) and q_(n-1)/q_n=[0;4n-2,4n-6,...,10,7].",
+      "evidence": "report Section 2, recurrence induction and continuant matrix",
+      "scope_limit": "this is an exact all-n description, not an asymptotic estimate for the centered square residue"
+    },
+    {
+      "id": "I290-C2",
+      "label": "PROVED_CENTERED_REMAINDER",
+      "claim": "With a=q_(n-1), b=q_n and kappa=floor((2a^2+b)/(2b)), r_n=a^2-kappa*b is the unique centered residue of q_(n+1)^2 modulo b and rho_n=|r_n|.",
+      "evidence": "report Sections 1 and 3",
+      "scope_limit": "the exact formula alone gives only 1<=rho_n< b/2"
+    },
+    {
+      "id": "I290-C3",
+      "label": "PROVED_DEGREE_ONE_EQUIVALENCE",
+      "claim": "The minimum absolute coefficient of a monic linear annihilator of -q_(n+1)^2 modulo q_n is exactly rho_n, so its minimum logarithmic height is log rho_n.",
+      "evidence": "report equation (3.8)",
+      "scope_limit": "neither log rho_n=O(n) nor its negation is proved"
+    },
+    {
+      "id": "I290-C4",
+      "label": "PROVED_EUCLIDEAN_DETERMINANT",
+      "claim": "Writing A=4n-2, b=Aa+c and h=a-Akappa gives r_n=a*h-c*kappa, A*r_n=b*h-a*c, the constrained arithmetic-progression minimum, and the two exact rational-approximation determinant formulas.",
+      "evidence": "report Section 4",
+      "scope_limit": "ordinary rational separation yields only rho_n>=1"
+    },
+    {
+      "id": "I290-C5",
+      "label": "PROVED_COPRIMALITY",
+      "claim": "gcd(rho_n,q_n)=1 and 1<=rho_n<q_n/2 for every n>=2.",
+      "evidence": "report Section 3 and adjacent-term coprimality",
+      "scope_limit": "this lower bound has no useful beta-saddle height"
+    },
+    {
+      "id": "I290-C6",
+      "label": "PROVED_SCOPED_METHOD_BARRIER",
+      "claim": "For every palindromic positive continued-fraction word, the numerator square is congruent to plus or minus 1 modulo the denominator; such words can have arbitrary length and large entries.",
+      "evidence": "report Section 5, symmetry and determinant of the continuant matrix",
+      "scope_limit": "the beta arithmetic-progression word is not palindromic, so a theorem exploiting its exact asymmetry is not excluded"
+    },
+    {
+      "id": "I290-C7",
+      "label": "PROVED_PROPER_TARGET_REDUCTION",
+      "claim": "For every Q>1 dividing q_n, the signed least residue is the centered reduction of r_n modulo Q and rho_(n,Q)<=min(rho_n,(Q-1)/2).",
+      "evidence": "report Section 7",
+      "scope_limit": "full-target upper bounds transfer to proper Q; full-target lower bounds do not"
+    },
+    {
+      "id": "I290-C8",
+      "label": "PROVED_DEOVERLAP_AND_BASELINE_SPLIT",
+      "claim": "Proper Q may be any divisor of q_n/gcd(q_n,D_m), while the common coefficient/product factor gcd(Q,B_n) remains the separate Item282 baseline.",
+      "evidence": "report Sections 7-8",
+      "scope_limit": "no weighted-return cover is proved"
+    },
+    {
+      "id": "I290-C9",
+      "label": "EXACT_FINITE_ONLY",
+      "claim": "On the replay rows 2<=n<=160, 2*rho_n>=q_(n-1), with the smallest checked ratio at n=4 where q_3=71 and rho_4=36.",
+      "evidence": "canonical certificate bounded row and digest",
+      "scope_limit": "the half-bound is unproved globally and is not used for asymptotic inference"
+    },
+    {
+      "id": "I290-C10",
+      "label": "OPEN_EXACT_MISSING_LEMMA",
+      "claim": "The precise remaining full-target problem is to prove log rho_n=O(n), or instead a lower bound with log rho_n/n tending to infinity, using the exact arithmetic-progression word.",
+      "evidence": "report Sections 1, 5, and 6",
+      "scope_limit": "generic continuant size bounds cannot decide it"
+    },
+    {
+      "id": "I290-C11",
+      "label": "EXACT_FINITE_ONLY",
+      "claim": "The checker replays exact beta continuants, centered quotients, Euclidean determinants, proper-target reductions, and a palindromic counterfamily.",
+      "evidence": "canonical certificate row digests",
+      "scope_limit": "no exceptional-prime search or asymptotic extrapolation is performed"
+    },
+    {
+      "id": "I290-C12",
+      "label": "PROVED_BOOKING_DECISION",
+      "claim": "No all-n full or large proper-target lift bound and no product-baseline theorem is proved; booking remains zero.",
+      "evidence": "report Sections 8-9",
+      "scope_limit": "Route 1 and every conclusion about e+pi remain open"
+    }
+  ],
+  "strict_labels": {
+    "continuant_and_cf_description": "PROVED",
+    "centered_remainder_formula": "PROVED",
+    "degree_one_height_equivalence": "PROVED",
+    "euclidean_determinant": "PROVED",
+    "generic_continuant_lower_bound": "PROVED SHARP AT 1 IN THE DECLARED COARSE CLASS",
+    "beta_arithmetic_progression_word_bound": "OPEN",
+    "observed_half_bound": "EXACT FINITE ONLY; UNPROVED",
+    "proper_target_transfer": "PROVED ASYMMETRIC",
+    "full_degree_one_O_n_lift": "OPEN",
+    "full_degree_one_O_n_exclusion": "OPEN",
+    "common_product_baseline": "OPEN VIA ITEM282",
+    "clearing_reservoir_deoverlap": "PROVED",
+    "positive_linear_capacity_admission": "FAIL",
+    "new_route1_rate": "0",
+    "new_beta_capacity_reduction": "0"
+  },
+  "open": [
+    "an all-n upper bound log rho_n=O(n)",
+    "or a lower bound with log rho_n/n tending to infinity",
+    "a theorem exploiting the exact descending arithmetic-progression word",
+    "a large proper de-overlapped target least-residue theorem",
+    "the Item282 product baseline and weighted-return cover",
+    "Route 1 and every conclusion about e+pi"
+  ]
+}

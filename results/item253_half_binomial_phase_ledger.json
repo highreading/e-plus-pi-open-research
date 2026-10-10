@@ -1,0 +1,67 @@
+{
+  "item": 253,
+  "schema": "item253-strict-ledger-v1",
+  "scope": "the universal half-binomial prefix on actual ordinary-j=2 phase rows p=6m+2delta+1, delta=r+4",
+  "PROVED": [
+    {
+      "id": "I253-P1",
+      "claim": "K_(delta,m)=sum_(k<=m) binom(3m+delta,k)(-1/2)^k is congruent to H_m, and H_m=epsilon_2(B_(delta,m)+1) modulo p for the exact integer B_(delta,m)=2^(3m+delta)K_(delta,m)-1.",
+      "evidence": "report Sections 2 and 5; termwise phase comparison, integer coefficient identity, portable replay, and independent root probe",
+      "scope_limit": "The identity normalizes the prefix but does not evaluate it."
+    },
+    {
+      "id": "I253-P2",
+      "claim": "B_(delta,m+1)-B_(delta,m) has the exact hypergeometric formula in report equation (1.8), with quadratic Q_delta(m).",
+      "evidence": "report Section 3; direct three-coefficient derivation; 300 exact portable and 195 independent root increment checks",
+      "scope_limit": "B remains an incomplete sum of these increments."
+    },
+    {
+      "id": "I253-P3",
+      "claim": "On every actual row, the terminal increment is zero modulo p exactly when p divides 2m^2-m+3, equivalently when p divides 2r^2+21r+81.",
+      "evidence": "the two exact multiples-of-p identities in report equation (1.9), the all-row unit audit, portable replay, and independent root probe",
+      "scope_limit": "For fixed r this controls only terminal-increment zeros, not zeros of H_m or of the Item-251 gate."
+    },
+    {
+      "id": "I253-P4",
+      "claim": "The exact Cartier polynomial satisfies (1-z)C_p(z)=(1-z/2)^n-epsilon_2 z^(n+1), with C_p(1)=0 and the six Fourier-section formula.",
+      "evidence": "report Section 6; coefficientwise portable checks and independent root checks through p<=101",
+      "scope_limit": "Value-only sixth-root data do not isolate the target coefficient; the explicit ambient kernel z^m-z^(m+6) proves only this scoped no-go."
+    }
+  ],
+  "EXACT_FINITE": [
+    {
+      "id": "I253-F1",
+      "bound": "p<=601",
+      "actual_rows": 2440,
+      "terminal_increment_zero_count": 7,
+      "H_m_zero_count": 6,
+      "status": "EXACT FINITE ONLY; no density or rate inference"
+    },
+    {
+      "id": "I253-F2",
+      "bound": "independent root replay p<=401",
+      "actual_rows": 1153,
+      "terminal_increment_zero_count": 5,
+      "H_m_zero_count": 4,
+      "status": "bounded independent implementation only"
+    }
+  ],
+  "OPEN": [
+    "evaluation or sufficiently strong weighted-zero theorem for the incomplete prefix",
+    "a link from terminal-increment control to the actual Item-251 collision gate",
+    "a derivative, Hasse-jet, higher-rank, or nonlinear invariant determining H_m",
+    "any capacity reduction, Route-1 rate gain, or conclusion about e+pi"
+  ],
+  "booking": {
+    "new_unconditional_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "capacity_reduction": 0
+  },
+  "dependencies": {
+    "external_files": [],
+    "python": "3.11+ standard library only",
+    "mathematical_provenance_only": [
+      "Item 252 universal half-binomial normal form"
+    ]
+  }
+}

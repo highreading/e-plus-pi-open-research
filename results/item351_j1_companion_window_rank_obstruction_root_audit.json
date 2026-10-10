@@ -1,0 +1,69 @@
+{
+  "item": 351,
+  "schema": "item351-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_ALL_WINDOW_HASSE_TAYLOR_RANK_AND_SCOPED_COMPANION_TRANSFER_NO_GO",
+  "scope": "independent root audit of the selected fixed-j1 Hasse equation, all Taylor windows, sub-p Frobenius transfer, local contiguous state, and bounded neighboring actual rows",
+  "checks": {
+    "certificate_sha256": "1bf092c3778ac6377de00ef6d087c2e68d107bbd2041f150f462bce0326bd07b",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_checks": 24,
+    "work_manifest_failures": 0,
+    "frozen_dependencies_checked": 18,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 7,
+    "work_hash_list_match": true,
+    "declared_actual_rows": 1,
+    "declared_pascal_minors": 7,
+    "independent_pascal_widths": 18,
+    "independent_actual_rows": 65,
+    "independent_recurrence_coefficients": 1524,
+    "independent_frobenius_coefficients": 4185,
+    "all_independent_checks": true,
+    "zero_census_performed": false,
+    "report_inline_delimiters": "89/89",
+    "report_display_delimiters": "42/42",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "Taylor_rank": "the leading Pascal minor for D_0,...,D_w is triangular with determinant one, so derivative companions are independent ambient coordinates rather than consequences of H(1)=0",
+    "forced_condition": "linear duality proves that a linear functional vanishes on ker H(1) only when it is a scalar copy of H(1); the report correctly leaves special arithmetic of the actual orbit open",
+    "Frobenius": "G^(p-r)=G(u^p)G^(-r) copies every coefficient below p and creates no neighboring zero equation",
+    "contiguous_state": "coefficient extraction gives the stated order-three recurrence; its determinant 4(m+3r-2)/(m+1) is a p-unit through the target-centered range",
+    "three_zero": "backward propagation from any three consecutive zeros in the stated range contradicts a_(r,0)=1",
+    "capacity": "fixed nonzero row offsets require a prime pair p,p-2q; the upper-bound sieve gives O(M/log M) logarithmic mass for every bounded offset collection",
+    "scope_warning": "ambient full rank is not actual-orbit nonconcentration, and paired-row zero rate cannot be credited against isolated selected zeros"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "all-window Hasse-Taylor rank",
+      "multiplicity criterion",
+      "rank-one formally forced module",
+      "sub-p Frobenius identity",
+      "nonsingular three-state transfer",
+      "three-zero theorem",
+      "bounded actual-neighbor zero-rate reach",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "one predeclared p=47 selected zero plus independent formula controls; no prime-zero or collision census"
+    ],
+    "OPEN": [
+      "a second condition from full-collision information",
+      "multiple-root weighted density",
+      "global actual-orbit arithmetic",
+      "W_b(M)=o(M)",
+      "any reduction of 1/36",
+      "Route 1",
+      "e+pi"
+    ]
+  },
+  "capacity": {
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "new_forced_independent_condition": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

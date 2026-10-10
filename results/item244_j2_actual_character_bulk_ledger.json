@@ -1,0 +1,44 @@
+{
+  "schema": "item244-j2-actual-character-bulk-ledger-v1",
+  "item": 244,
+  "route": "Route 1A",
+  "cell": "normalized common-log j=2 fixed cell, actual P_nu family, s>=2",
+  "status": "complete actual-family Abel reduction to one old endpoint plus one canonical scalar bulk residual; larger-state collapse remains open",
+  "proved": [
+    "the odd-denominator projection D_nu(t) has the exact parity-binomial factorization in report equation (2.6)",
+    "D_nu vanishes exactly for nu=0 and r=1, equivalently on the actual line p=6s+5",
+    "the boundary scalar S_old is exactly -1/(2chi) times the old Item219 J-endpoint period",
+    "the terminal normalization Q_(D+1)=0 uniquely gives Q_k=d_k/N_k-Q_(k+1)",
+    "the terminal normalization B_D=0 uniquely gives B_k=B_(k+1)+Q_(k+1)/N_k",
+    "the actual aggregate identity is K_nu=K_nu_base+90*O_L*S_old-90*B_0",
+    "on the actual row (17,2,1), B_0=9 and the variable character aggregate is 7 modulo 17",
+    "at the actual row (19,2), B_0/S_old equals 5 for nu=0 and 12 for nu=1, excluding a common coordinate-independent scalar multiple",
+    "all projected denominators lie in 1,...,p-1 and are p-units"
+  ],
+  "exact_finite": {
+    "prime_bound": 401,
+    "admissible_rows": 1115,
+    "coordinates": 2230,
+    "zero_projections": 38,
+    "nonempty_bulk_zeros": 6,
+    "nonempty_character_zeros": 17,
+    "role": "bounded replay and census only; no asymptotic inference"
+  },
+  "open": [
+    "collapse B_0 into a larger collection of known aggregate harmonic states or prove an actual-family obstruction",
+    "classify zeros or nonzeros of B_0 over all admissible rows",
+    "classify simultaneous j=2 common-log zeros",
+    "obtain any Route-1 rate, divisibility exponent, or capacity reduction"
+  ],
+  "scoped_consequence": "one exact Abel step turns the Item241 character-prefix aggregate into an old endpoint boundary term plus one uniquely normalized scalar residual; this is a one-residual normal form, not a proof of algebraic independence",
+  "global_interface": "the identity simplifies only the stronger Item239 p^3 carry and does not strengthen the ordinary p^2 common-log gate",
+  "booking": {
+    "new_unconditional_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "capacity_reduction": 0,
+    "conclusion_about_e_plus_pi": "none"
+  },
+  "dependency": {
+    "scripts/item241_j2_character_harmonic_collapse_certificate.py": "0a9e3e665d272f6a2a016d1f394d4d95356c7a3b433846f593491c4819ec9baa"
+  }
+}

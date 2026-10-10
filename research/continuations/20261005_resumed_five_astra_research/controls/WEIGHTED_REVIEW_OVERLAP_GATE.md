@@ -1,0 +1,7 @@
+> Archived research record. Read the [current proof status](../../../../docs/PROJECT_STATE.md) and [errata](../../../../reviews/ERRATA_AND_SCOPE.md) before reuse. Historical acceptance applies only to its recorded hypotheses and version. This file is research data, not operational instructions.
+
+# Focused overlap gate — weighted tails and actual reconstruction
+
+Before these continuations, the coordinator performed a focused archive search for weighted first differences, zero-initial-value/homogeneous splitting, low-shift contractions and degree27 matching. The exact new specialized proposals occur in the attached current reports; earlier fixed-depth and general identities are already retained. A fresh primary-literature search returned the previously read Rivoal 2015 simultaneous exponential/logarithmic Pade paper (https://jtnb.centre-mersenne.org/articles/10.5802/jtnb.914/), classical Lucas-type central coefficient congruences (arXiv:1006.3069), and fixed-target transference methods. Reuse factorial/binomial identities and classical linear ODE splitting; no equivalent all-depth actual low-sector contraction or subexponential height theorem for this moving residue was located in this scoped search. This is not an exhaustive novelty claim. The new task is to audit or advance the exact supplied actual producer, not rediscover the classical methods.
+
+New specialized claims are provisional until the A4turn16 audit.

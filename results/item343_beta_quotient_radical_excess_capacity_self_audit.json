@@ -1,0 +1,40 @@
+{
+  "schema": "item343-beta-quotient-radical-excess-capacity-self-audit-v1",
+  "item": 343,
+  "date": "2026-09-01",
+  "status": "PASS",
+  "auditor_role": "author-side mechanical and scope check; root remains the independent auditor",
+  "checks": {
+    "json_files_parse": true,
+    "certificate_script_compiles": true,
+    "certificate_replay_succeeds": true,
+    "certificate_replay_byte_identical": true,
+    "manifest_artifact_hashes_verified": 5,
+    "manifest_dependency_hashes_verified": 8,
+    "report_inline_delimiters": "94/94",
+    "report_display_delimiters": "40/40",
+    "report_fences": "2/2",
+    "report_control_characters": 0,
+    "canonical_files_modified": false
+  },
+  "mathematical_scope_checks": {
+    "actual_item316_implication_is_assumed_before_quotient_analysis": true,
+    "Q_divides_b_hypothesis_explicit": true,
+    "primewise_H_K_formula_exact": true,
+    "support_saturation_exponent_covers_every_Q_valuation": true,
+    "K_radical_excess_factorization_exact": true,
+    "J_divides_Q_over_radical_primewise": true,
+    "squarefull_overlap_not_rebooked": true,
+    "all_precision_quotient_equivalence_exact": true,
+    "finite_rows_not_promoted": true,
+    "Xi_Q_open": true,
+    "actual_Gamma_Q_open": true,
+    "booking_zero": true
+  },
+  "manifest": {
+    "path": "work/item343_beta_quotient_radical_excess_capacity_manifest.json",
+    "bytes": 5365,
+    "sha256": "07701a1727611d5fe59dee7ac5c31b73b3d6a10e5d872e2f4eabbe321dd75951"
+  },
+  "independent_audit_required": true
+}

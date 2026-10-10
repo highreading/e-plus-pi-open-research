@@ -1,0 +1,171 @@
+{
+  "actual_family": {
+    "K0": "4m+1",
+    "K1": "4m+2",
+    "N": "6m",
+    "carrier_identity": "on those rows c_{m,>6m}=(gcd(|lambda0|,|lambda1|))_{>6m}",
+    "fresh_factor": "c_{m,>6m}=product_{p>6m} p^{v_p(c_m)}",
+    "lambda0": "2^(2m) L0",
+    "lambda1": "2^(2m+2) L1",
+    "saturation_identity": "for every row with (U_m,V_m) nonzero, v_p(c_m)=min(v_p(lambda0),v_p(lambda1)) for every p>6m; frozen saddle nonvanishing covers all sufficiently large m"
+  },
+  "capacity": {
+    "booked_plus_large_prime_fresh_decimal": "0.95528998258415481986729565297460937330245056927775",
+    "component_ceiling_decrease_decimal": "1.1768873458706579985831281696253906266975494307222",
+    "inherited_full_content_ceiling_decimal": "1.99566316016",
+    "remaining_margin_if_only_these_two_sources_decimal": "0.20085716938008979246343457092539062669754943072225",
+    "rigorous_large_prime_fresh_ceiling_decimal": "0.81877581428934200141687183037460937330245056927775",
+    "rigorous_large_prime_fresh_ceiling_exact": "log(136)/6",
+    "route1_booking_delta": "0",
+    "threshold_decimal": "1.1561471519642446123307302239"
+  },
+  "fixed_circle_certificate": {
+    "P_at_minus_one": "2392451831534343930833264720314645377/125000000000000000000000000000000000",
+    "P_at_plus_one": "4065168785672395430833264720314645377/125000000000000000000000000000000000",
+    "P_at_zero": "94488816526994204984060513778645377/125000000000000000000000000000000000",
+    "conclusion": "max_{|z|=r} r^(-4)*|(1-z)^6/(1+z^2)^4| < 136",
+    "degree": 4,
+    "height_base": 136,
+    "left_endpoint_signs": [
+      1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "left_variations": 2,
+    "polynomial_coefficients_ascending": [
+      "94488816526994204984060513778645377/125000000000000000000000000000000000",
+      "2712072224276103/500000000000000",
+      "142297949002080870875036525817/15625000000000000000000000000",
+      "158340421/125000000",
+      "124746118753733031803057/7812500000000000000000"
+    ],
+    "polynomial_definition": "P(c)=136*r^4*((1-r^2)^2+4*r^2*c^2)^2-(1+r^2-2*r*c)^3",
+    "positivity_certified": true,
+    "radius": "541/1000",
+    "real_roots_in_closed_interval": 0,
+    "right_endpoint_signs": [
+      1,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "right_variations": 2,
+    "sturm_degrees": [
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "sturm_length": 5
+  },
+  "fixed_prefactors": {
+    "global_bound": "max(|lambda0|,|lambda1|) < 21*136^m",
+    "lambda0_bound": "1000/459",
+    "lambda0_integer_upper": 3,
+    "lambda1_bound": "2374681000/113978421",
+    "lambda1_integer_upper": 21
+  },
+  "generator": "item390_mixed_cubic_fresh_primitive_saturation_certificate.py",
+  "generator_sha256": "813c72596afbc7e4371a66ddbf23630e49cdc2f83234c354c2a99279805e3b85",
+  "normalization_crosscheck": {
+    "all_equal": true,
+    "methods": [
+      "scalar integer recurrence",
+      "direct rational coefficient extraction"
+    ],
+    "range": "1<=m<=12",
+    "rows": [
+      {
+        "gcd": "1",
+        "lambda0": "-35",
+        "lambda1": "-102",
+        "m": 1
+      },
+      {
+        "gcd": "11",
+        "lambda0": "2475",
+        "lambda1": "6952",
+        "m": 2
+      },
+      {
+        "gcd": "136",
+        "lambda0": "-144976",
+        "lambda1": "-414392",
+        "m": 3
+      },
+      {
+        "gcd": "437",
+        "lambda0": "141151",
+        "lambda1": "4001172",
+        "m": 4
+      },
+      {
+        "gcd": "10005",
+        "lambda0": "2049154065",
+        "lambda1": "4895826690",
+        "m": 5
+      },
+      {
+        "gcd": "32364",
+        "lambda0": "-489394653300",
+        "lambda1": "-1215561806208",
+        "m": 6
+      },
+      {
+        "gcd": "564324",
+        "lambda0": "85986654528300",
+        "lambda1": "215882897879568",
+        "m": 7
+      },
+      {
+        "gcd": "3065857",
+        "lambda0": "-13115629949671953",
+        "lambda1": "-33080725415827732",
+        "m": 8
+      },
+      {
+        "gcd": "399638603",
+        "lambda0": "1819545849335647615",
+        "lambda1": "4600971186676958366",
+        "m": 9
+      },
+      {
+        "gcd": "44237669",
+        "lambda0": "-232910833726432908725",
+        "lambda1": "-590010473225181739752",
+        "m": 10
+      },
+      {
+        "gcd": "42171872736",
+        "lambda0": "27448529611119430413600",
+        "lambda1": "69654637456875141101088",
+        "m": 11
+      },
+      {
+        "gcd": "61702076572",
+        "lambda0": "-2919834071855631567326620",
+        "lambda1": "-7427078352496387296925328",
+        "m": 12
+      }
+    ],
+    "warning": "The finite rows certify normalization/replay only; they are not a prime-support scan."
+  },
+  "schema": "item390-mixed-cubic-fresh-primitive-saturation-v1",
+  "scope": {
+    "not_proved": [
+      "c_{m,>6m}=1",
+      "control of undeclared primes p<=6m",
+      "a beta matching or multi-parent ceiling",
+      "Route 1 closure or irrationality of e+pi"
+    ],
+    "proved": [
+      "all-depth primitive saturation at every p>6m on every nonzero row",
+      "exact global large-prime carrier on those rows",
+      "uniform exponential height ceiling for all sufficiently large rows"
+    ]
+  }
+}

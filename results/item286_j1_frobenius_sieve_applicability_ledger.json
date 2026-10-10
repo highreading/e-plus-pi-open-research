@@ -1,0 +1,83 @@
+{
+  "schema": "item286-j1-frobenius-sieve-applicability-ledger-v1",
+  "checked": "2026-08-31 Asia/Shanghai",
+  "scope": {
+    "excluded": "Applying Kowalski's fixed-finite-field Frobenius large sieve from the currently sealed rational finite module, Pluecker incidence, normalized gcd, or CRT recognition alone.",
+    "not_excluded": [
+      "a new compatible bounded-complexity system over a fixed or arithmetic base",
+      "a direct horizontal Chebotarev or large-sieve theorem for diagonal congruences",
+      "a special exact-zero, Weil-smallness, or auxiliary-local bridge for the actual normalized pair",
+      "a rigorously framed sheaf incidence with its own equidistribution theorem"
+    ]
+  },
+  "literature_theorem": {
+    "source": "Emmanuel Kowalski, The large sieve, monodromy and zeta functions of curves, arXiv:math/0503714",
+    "result": "Theorem 3.1 and Proposition 3.3 give a Frobenius large sieve over U(F_q) for a fixed finite-field base under the stated lisse-sheaf, compatibility or prime-to-characteristic, bounded-twist, linear-disjointness, and uniform cohomological hypotheses.",
+    "sifted_bound": "|S(U,Omega;L)| <= (kappa q^d + C q^(d-1/2) L^A)/P(L)",
+    "archive_extension_claimed": false
+  },
+  "proved_in_archive": [
+    "The actual fixed-M tied rows satisfy 4M+1=3p-2s and lie in [(4M+3)/3,(3M-1)/2], an interval of exact length (M-9)/6 and PNT log mass M/6+o(M).",
+    "The full residual ceiling is 1/36 per 6M after normalization, and fixed-diameter clusters have only o(M) weight by Item279.",
+    "The normalized pair recognizes every full collision by p|Cbar0(M),Cbar1(M), with every affine and rank branch retained.",
+    "At fixed M, varying a candidate prime p varies the base characteristic; Kowalski's cited theorem instead averages points of one U(F_q) with q fixed within an application.",
+    "The Item273 rational difference module is not a pi_1 representation, and fixed rational singular support is not a uniform l-adic conductor or cohomological-complexity theorem.",
+    "The Item275 flag incidence is exact but its natural kernel Pluecker line is non-horizontal; no conjugacy-stable Frobenius local set for the full gate is attached.",
+    "No compatible integral auxiliary-ell system, monodromy group, pairwise linear-disjointness theorem, or uniform local-density theorem for the fixed-j=1 endpoint state is currently sealed.",
+    "For distinct primes p and ell, p|a,b does not imply ell|a,b; the universal witness (a,b)=(p,p) proves that diagonal divisibility recognition alone gives no auxiliary-ell localization.",
+    "A characteristic-p matrix coefficient equal to the gate is still insufficient unless a conjugacy-invariant exact-zero lift or a rigorously framed horizontal theorem is supplied.",
+    "Conditionally, if collision forces two conjugacy-invariant compatible integral Frobenius coefficients to be exactly zero, and the complement of their simultaneous auxiliary zero locus has uniformly positive density, then P(L) grows at least as L/log L.",
+    "Under the preceding conditional hypotheses, L=q^(1/(2A)) in Kowalski's bound gives |target| << q^(d-1/(2A)) log q.",
+    "For the actual horizontal family, N(M)=o(M/log M) implies collision log weight o(M); any power-saving count O(M^(1-delta)) is sufficient.",
+    "No implication from Kowalski's vertical bound to the actual horizontal tied family is claimed.",
+    "Item149 de-overlap leaves the fixed-j=1 ceiling unchanged at 1/36 per 6M and the new booking at zero."
+  ],
+  "hypothesis_audit": {
+    "fixed_U_over_fixed_Fq": "MISSING",
+    "lisse_fixed_rank_auxiliary_sheaves": "MISSING",
+    "compatible_integral_system": "MISSING",
+    "uniform_cohomological_complexity_or_conductor": "MISSING",
+    "geometric_and_arithmetic_monodromy": "MISSING",
+    "cross_ell_linear_disjointness": "MISSING",
+    "fixed_conjugacy_stable_full_gate_condition": "MISSING",
+    "collision_to_all_auxiliary_ell_bridge": "MISSING",
+    "uniform_positive_local_density": "MISSING"
+  },
+  "available_recognition": {
+    "item273": "rank-at-most-eight rational translation-difference module with fixed finite singular support",
+    "item275": "rank-six exterior square and fixed stratified codimension-two flag incidence, with non-horizontal natural kernel line",
+    "item281": "all-branch normalized gcd/Fitting recognition",
+    "item284": "exact parameter-dependent CRT norm recognition",
+    "density_consequence": "none without new arithmetic input"
+  },
+  "conditional_bridge": {
+    "required_exactness": "collision implies two conjugacy-invariant compatible integral Frobenius coefficients vanish as integers, or an equally rigorous framed replacement",
+    "required_geometry": "fixed base or a proved horizontal analogue, compatible auxiliary system, controlled complexity, monodromy, and cross-ell independence",
+    "required_local_density": "positive-density complements Omega(ell) in the correct arithmetic monodromy cosets",
+    "vertical_payoff": "power saving q^(-1/(2A)) up to log q under Kowalski Proposition 3.3",
+    "horizontal_capacity_threshold": "N(M)=o(M/log M)",
+    "actual_bridge_status": "OPEN"
+  },
+  "capacity": {
+    "candidate_log_mass_per_M": "1/6",
+    "raw_j1_capacity_per_6M": "1/36",
+    "item149_first_post_cartier_copy_already_booked": true,
+    "new_weighted_collision_theorem": false,
+    "new_capacity_reduction": 0,
+    "new_unconditional_route1_rate": 0
+  },
+  "replay": {
+    "collision_census_performed": false,
+    "diagonal_constructor_replay": "EXACT FINITE ONLY and only checks the universal proof witness, not gate values",
+    "certificate_status": "PASS"
+  },
+  "forbidden_inference": [
+    "Do not identify a rational coefficient-index difference matrix with geometric Frobenius.",
+    "Do not identify fixed rational singular support with bounded l-adic conductor.",
+    "Do not infer p^-2 distribution from codimension two of the flag incidence.",
+    "Do not infer auxiliary-ell local conditions from p-divisibility of the normalized pair or CRT norm.",
+    "Do not apply a fixed-q vertical theorem directly to the varying-characteristic tied family.",
+    "Do not discard rank-drop or affine branches from a future sheaf container.",
+    "Do not book the conditional power-saving calculation as an actual weighted theorem."
+  ]
+}

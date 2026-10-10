@@ -1,0 +1,93 @@
+{
+  "item": 376,
+  "schema": "item376-j1-terminal-normalized-carrier-recurrence-barrier-ledger-v1",
+  "classification": "PROVED_TERMINAL_NORMALIZED_CARRIERS_AND_SCOPED_RECURRENCE_BARRIER",
+  "dependencies": {
+    "sources/item364_j1_saturation_boundary_phase_carrier_report.md": "2c18f6ac22220e553349e44a723e200d20f4f3c89cfec5cd83812db260834e92",
+    "scripts/item364_j1_saturation_boundary_phase_carrier_certificate.py": "ef9046fc4d7071779a73bf6e1bfd7d312789b994bd3274eec2a78d818d027b07",
+    "results/item364_j1_saturation_boundary_phase_carrier_certificate.json": "ca1987d1688789dbf0e64f3eec2c4b771b9873f829e61d1b5f62302f47443926",
+    "results/item364_j1_saturation_boundary_phase_carrier_root_audit.json": "fa6170a0c014cee655ba00c5288905344a969aa22b141d44b64ae4a2d3219a89",
+    "results/item364_j1_saturation_boundary_phase_carrier_ledger_delta.json": "225840be16db3950187672d556065553017b1a76f65641a2c82b67c9227f914f",
+    "manifests/item364_j1_saturation_boundary_phase_carrier_manifest.json": "bd0c5435fe4d0b7266d81b4f97dfacf8b2fca55fb2c95770e7cb853c2f77426c",
+    "sources/item368_j1_boundary_whipple_rank_obstruction_report.md": "34bfdc2b2e4035ae78c0147d0a22f442e7f0fd148103e5eeee44d62042768cc6",
+    "scripts/item368_j1_boundary_whipple_rank_obstruction_certificate.py": "f9d72b05fd24d62aa58fbca72221ff246a4d270b1eefb9023351cfd1aff932c5",
+    "results/item368_j1_boundary_whipple_rank_obstruction_certificate.json": "8814c95cca55bf80b735668813909ed7e0f85ff30a1926a0df4b5b0c6f3c396d",
+    "results/item368_j1_boundary_whipple_rank_obstruction_root_audit.json": "f20929fc3aa756419cf4263b439d90e6c44084c63f9acf64a4540134e3198321",
+    "results/item368_j1_boundary_whipple_rank_obstruction_ledger_delta.json": "30a39fc4bdb919d53864a3f56f180dfe95dcb98dd58ffc87b9185fceeeb33bc8",
+    "manifests/item368_j1_boundary_whipple_rank_obstruction_manifest.json": "eec70fc17c33e4ec7d3f8851a423debcca5abb333bbbe58decd3ab14736fd11a",
+    "sources/item372_j1_boundary_exact_zero_strata_report.md": "70908ecaac3940afbadc9abe752b904972c17b20058782d0b10840c0da245e11",
+    "scripts/item372_j1_boundary_exact_zero_strata_certificate.py": "6c05f7446a246c4efe91cda75f2c6e7f315f267a7a75110fa6ce542b87c6cb5e",
+    "results/item372_j1_boundary_exact_zero_strata_certificate.json": "22521478fac4e39d00c071c679b5e2bb34543ae4232e4cc196c9fd6e44e9fbd5",
+    "results/item372_j1_boundary_exact_zero_strata_root_audit.json": "fbfda454f9ba31c2bc6af23fdf868fdcc16edfe628c21e4f6905d6cce0b334c7",
+    "results/item372_j1_boundary_exact_zero_strata_ledger_delta.json": "5481ddd7e9cd38afa7f746984371b0b8f3088ef0fbabbdade866be796fc12398",
+    "manifests/item372_j1_boundary_exact_zero_strata_manifest.json": "2cd8c4a7f8902e2decbfd4848b443e9672abe3dfcf85ae99696e6ca8f04effd8"
+  },
+  "actual_family": {
+    "parameters": "p=4h+6s+3, M=3h+4s+2, h,s>=1",
+    "potentially_prime_rays": "3 does not divide h",
+    "fixed_M_selector": "p_h=(3M-h)/2",
+    "consecutive_actual_parameters": "h maps to h+4, s maps to s-3, and p_h maps to p_h-2"
+  },
+  "terminal_normalization": {
+    "x": "x_h=X_h/T_h=sum_(r=0)^h (-1)^r k0_(2r)*(h+1/2)_r/(1/2-h/3)_r",
+    "u": "u_h=U_h/S_(h+2)=sum_(r=0)^(h+2) (-1)^r k1_(2r)*(h+1/2)_r/(-1/2-h/3)_r",
+    "three_adic_conclusion": "x_h and u_h belong to 1+3Z_3 for every h>=1 with 3 not dividing h"
+  },
+  "primitive_carriers": {
+    "x_clearing_denominator": "D_x=product_(j=0)^(h-1)(3-2h+6j)",
+    "u_clearing_denominator": "D_u=product_(j=0)^(h+1)(-3-2h+6j)",
+    "primitive_reduction": "N_x/E_x=A_x/D_x and N_u/E_u=A_u/D_u in lowest terms with positive denominators",
+    "mod_3": "A_x=D_x nonzero mod 3 and A_u=D_u nonzero mod 3",
+    "height": "log max(|N_x|,E_x,|N_u|,E_u)=O(h log(h+2))",
+    "actual_prime_bridge": "X_h=0 mod p iff p divides N_x(h), and U_h=0 mod p iff p divides N_u(h)",
+    "scope": "N_x and N_u are one-coordinate overcarriers; they do not retain Y_h or V_h and are not additive to the paired boundary carriers"
+  },
+  "holonomic_scope": {
+    "proved": "on each h mod 3 class, the unreduced cleared sequences are proper-hypergeometric finite sums and admit fixed-order polynomial recurrences",
+    "open": "fixed-order polynomial recurrence for the primitive numerators after nonlinear gcd reduction",
+    "selector_mismatch": "ordinary recurrence propagation works modulo a fixed prime, while the actual fixed-M modulus changes by 2 between consecutive actual h values"
+  },
+  "comparison_obstruction": {
+    "sequence": "C_h=(product_(4h<k<=18h, 3 does not divide k) k)^2",
+    "unit": "C_h is an integer congruent to 1 mod 3",
+    "height": "log C_h=O(h log(h+2))",
+    "recurrence": "E_h^2 C_(h+3)=R_h^2 C_h, with E_h a product of 8 and R_h a product of 36 integer-linear factors",
+    "actual_bulk": "M/12<=h<=M/3",
+    "weighted_mass": "M/8+o(M)",
+    "capacity_per_6M": "1/48",
+    "scope": "the generic package of primitive integrality, 1 mod 3 normalization, fixed-order recurrence, and pointwise height cannot imply selector-weighted zero density"
+  },
+  "capacity": {
+    "raw_fixed_j1_mass_per_M": "1/6",
+    "retained_shared_full_fixed_j1_ceiling_per_6M": "1/36",
+    "comparison_mass_per_M": "1/8",
+    "comparison_capacity_per_6M": "1/48",
+    "comparison_is_not_actual_booking": true,
+    "new_booking": 0,
+    "new_capacity_reduction": 0
+  },
+  "master_ledger": {
+    "booked_r1_unchanged": "0.1365141682948128184504238226...",
+    "threshold_T_unchanged": "1.1561471519642446123307302239...",
+    "deficit_unchanged": "1.0196329836694317938803064012..."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact terminal-normalized reverse sums",
+      "3-adic unit normalization",
+      "primitive actual-prime one-coordinate carriers",
+      "unreduced holonomicity",
+      "positive-rate comparison and scoped recurrence-unit-height barrier",
+      "zero booking and zero capacity reduction"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "predeclared symbolic and actual-row controls only; no prime scan, collision census, recurrence guess promotion, or extrapolation"
+    ],
+    "OPEN": [
+      "primitive-numerator fixed-order recurrence",
+      "target-specific resultant or selector-aware cross-prime average gcd",
+      "weighted zero density for the actual paired boundary gates",
+      "any strict fixed-j1 capacity reduction"
+    ]
+  }
+}

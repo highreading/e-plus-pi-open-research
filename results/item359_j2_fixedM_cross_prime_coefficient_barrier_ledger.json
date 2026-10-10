@@ -1,0 +1,98 @@
+{
+  "item": 359,
+  "schema": "item359-j2-fixedM-cross-prime-coefficient-barrier-ledger-v1",
+  "classification": "PROVED_FIXED_M_CROSS_PRIME_COEFFICIENT_BRIDGE_AND_SELECTOR_BARRIER",
+  "dependencies": {
+    "sources/item314_j2_two_branch_gate_report.md": "266f70523770a2a4147ee75289885fcb8dc945a65b650f2c8411e005ba110faa",
+    "scripts/item314_j2_two_branch_gate_certificate.py": "cc5f155e5f3248c500cd2101e401c25cec37ce43b31fbb4582843fc33a9b2f0e",
+    "results/item314_j2_two_branch_gate_certificate.json": "77de2dd46726a5a48e9adc4e40f96341d5da6c8db304d79f0ef8eeb7807245b1",
+    "manifests/item314_j2_two_branch_gate_manifest.json": "ad5c5435aa169c4fb3e235a1293975f191cee27b1e56ed439988c6b43eac5e14",
+    "sources/item352_j2_nonsemisimple_transition_no_go_report.md": "c60e1ba7771314c77b3fbe5d06f9c13c51a8c7e4d15f2589298641ff0f38e794",
+    "results/item352_j2_nonsemisimple_transition_no_go_certificate.json": "8f06da2f8b4265156d02d2da393c0aedb74db55db3649589163866ffd0badc31",
+    "results/item352_j2_nonsemisimple_transition_no_go_root_audit.json": "6acd46c106c21a963e0476e49d25c71305682c061e1df507ac8e332f4433d609",
+    "manifests/item352_j2_nonsemisimple_transition_no_go_manifest.json": "c970d5b2dec42ec47f40078b49219cbac99e871b464a54f95be352729347ce54",
+    "sources/item355_j2_target_residual_large_sieve_obstruction_report.md": "ea2f5f43a14a411849bc310409939891bfb496b681b028c20fcb3b990dd3377b",
+    "results/item355_j2_target_residual_large_sieve_obstruction_certificate.json": "e246cfcec626d662d970a5a7a63da38914e9e0c98225e35f3ec7f80f5a30d3f2",
+    "results/item355_j2_target_residual_large_sieve_obstruction_root_audit.json": "40bea19e6d09e7bbdd3945d9fc6e8a1f95c1cd8b5f906f5b6e2a57fea3924175",
+    "manifests/item355_j2_target_residual_large_sieve_obstruction_manifest.json": "fa7554389223e4fa96f6e58c2766abacc4ad3c7e56df4c68a74d2f440ea8aaff"
+  },
+  "actual_family": {
+    "tied_phase": "p=2r+6s+3 and 2M=5r+14s+7",
+    "selector": "r=6M-7p, s=(5p-4M-1)/2, k=r-1=6M-7p-1",
+    "prime_interval": "(4M+3)/5 <= p <= (6M-1)/7",
+    "raw_chebyshev_mass": "(2/35)M+o(M)",
+    "raw_capacity_per_6M": "1/105",
+    "nondegenerate_collision": "4^s=c_star_r and H_(s-1)=Theta_(r,s) mod p"
+  },
+  "cross_prime_bridge": {
+    "Fermat_collapse": "4^s=16^(1-M) mod p",
+    "old_gate": "G_(r,s)=18*4^s*a_r+11*b_r",
+    "kernel": "K_M=18R_-U_-^M+11*16^(M-1)R_+U_+^M",
+    "congruence": "16^(M-1)*r*G_(r,s)=-12*[X^(r-1)]K_M mod p",
+    "primitive_coefficient": "U_(M,k)=num([X^k]K_M)",
+    "gate_equivalence": "D_(r,s)=0 mod p iff p divides U_(M,6M-7p-1)",
+    "bivariate_rationality": "sum_(M>=1)K_M(X)Y^M is one fixed rational function"
+  },
+  "target_retention": {
+    "joint_residual": "Delta_M(p)=(U_(M,6M-7p-1), H_((5p-4M-3)/2)-Theta_(6M-7p,(5p-4M-1)/2))",
+    "actual_equivalence": "nondegenerate original collision iff Delta_M(p)=(0,0) mod p",
+    "fixed_target_surrogate_used": false
+  },
+  "recurrence_obstruction": {
+    "exact_poles": "order 6M at X=1 and order 6M at X=-1",
+    "minimal_eventual_constant_recurrence_order": ">=12M",
+    "common_denominator_degree": "12M+24",
+    "common_numerator_degree": "14M+21",
+    "selected_window": "0 <= k <= (2M-26)/5",
+    "scope": "closes bounded/sublinear constant-coefficient propagation; special selector arithmetic remains open"
+  },
+  "height_and_rational_metadata_obstruction": {
+    "actual_coefficient_height": "log ht([X^k]K_M)=O(M) for selected k",
+    "aggregate_product_height": "O(M^2/log M), noncompetitive with the O(M) raw mass",
+    "comparison_kernel": "V=(X^4Y^2(1+5Y^7)+Y^6(5+Y^7))/((1-X^6Y)(1-Y^7)^2)",
+    "comparison_selector": "[X^(r-1)Y^M]V=p on every tied selector on the two prime rays",
+    "comparison_height": "O(log M)",
+    "scope": "fixed rationality, holonomicity, and pointwise height alone do not control matched-modulus divisibility"
+  },
+  "missing_statistic": {
+    "sufficient_first_coordinate_target": "sum_p log(p)*1_(p divides U_(M,6M-7p-1))=o(M)",
+    "desired_joint_target": "W_j2_nd(M)=sum_p log(p)*1_(Delta_M(p)=0)=o(M)",
+    "almost_all_M_input": "sum_(p asymptotic X) log(p)*sqrt(E_p)=o(X^2)",
+    "status": "OPEN"
+  },
+  "chart_overlap": {
+    "nondegenerate_scope": "Item359 continues Item355's nondegenerate chart",
+    "degenerate_scope": "Item349 remains open",
+    "partition": "the two charts are disjoint subsets of one raw interval",
+    "nonadditivity": "their capacities sum to at most 1/105, not 2/105"
+  },
+  "capacity": {
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "ordinary_j2_ceiling_per_6M": "1/105",
+    "reason": "no matched-modulus or joint actual-family weighted nonconcentration theorem is proved"
+  },
+  "master_ledger": {
+    "booked_r1_unchanged": "0.1365141682948128184504238226...",
+    "threshold_T_unchanged": "1.1561471519642446123307302239...",
+    "deficit_unchanged": "1.0196329836694317938803064012..."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact fixed-M selector and Fermat collapse",
+      "common fixed-M and fixed bivariate rational coefficient bridges",
+      "linear pole and recurrence obstruction",
+      "fixed rational full-selector comparison kernel",
+      "height scale, capacity, and chart-overlap audits"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "seven predeclared actual rows and ninety-six declared comparison-ray rows; no scan or census"
+    ],
+    "OPEN": [
+      "matched-modulus divisibility nonconcentration",
+      "joint moving-target cross-prime theorem",
+      "selector-aware average gcd or reciprocity law",
+      "admissibility and proof of the almost-all-M energy route"
+    ]
+  }
+}

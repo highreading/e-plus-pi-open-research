@@ -1,0 +1,87 @@
+{
+  "admission": {
+    "actual_counterexample": "NONE PRODUCED",
+    "actual_short_branch_invariant": "OPEN",
+    "all_n_half_bound": "OPEN",
+    "bounded_forward_carry": "PROVED FALSE FOR ACTUAL FAMILY",
+    "item282_product_baseline": "OPEN AND SEPARATE",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "positive_linear_capacity_admission": "FAIL",
+    "proper_target_large_factor_bound": "OPEN",
+    "row_dependent_rescaled_lyapunov": "OPEN"
+  },
+  "bounded_exact_checks": {
+    "actual_dynamics": {
+      "counterexample_search": false,
+      "digest": "a0950ad7193c8c37f61e3759387b1b968b0b25f805c672c34c383253d205b7c4",
+      "half_bound_scan": false,
+      "label": "EXACT FINITE ONLY",
+      "range": [
+        3,
+        72
+      ],
+      "rows": 70
+    },
+    "counterexample_search": false,
+    "exceptional_prime_search": false,
+    "fixed_norm_witness": {
+      "constructed_ambient_family": true,
+      "digest": "81ec71450eac263cac9df5db5ccfa5a2359046e0c8c31062d1077dbf1c77b75b",
+      "label": "PROVED CONSTRUCTION; BOUNDED REPLAY EXACT FINITE ONLY",
+      "range": [
+        4,
+        72
+      ],
+      "rows": 69
+    },
+    "half_bound_scan": false,
+    "label": "EXACT FINITE ONLY",
+    "pair_bijection": {
+      "digest": "6b65991e35d1de6f5178e1aa82a5fb903d55e131e0728c2de7011864dc71d0dd",
+      "identity_regression_only": true,
+      "label": "EXACT FINITE ONLY",
+      "range": [
+        4,
+        36
+      ],
+      "rows": 33
+    },
+    "primitive_collapse": {
+      "actual_counterexample": false,
+      "constructed_ambient_family": true,
+      "digest": "67fa0aef3c8f6cfd3e753141484126982dc2fcb6c24bbe885d620eb12caf6de3",
+      "label": "PROVED CONSTRUCTION; BOUNDED REPLAY EXACT FINITE ONLY",
+      "range": [
+        4,
+        72
+      ],
+      "rows": 69
+    }
+  },
+  "description": "Exact rank-one Turan state, centered pair bijection, actual unbounded carry, primitive-denominator collapse family, and ambient fixed-norm expansion witnesses",
+  "schema": "item298-beta-centered-dynamics-certificate-v1",
+  "symbolic_proof_data": {
+    "actual_carry": {
+      "base_A": 26,
+      "base_c": 18089,
+      "base_margin_6c_minus_A_Aminus3_Aplus1": 92388,
+      "base_n": 7,
+      "conclusion": "u_n<0 for n>=6 and u_n tends to -infinity",
+      "forward_difference": "3*A^2-13*A-4",
+      "forward_difference_at_26": 1686,
+      "growth_bound": "q_(n-2)>7*product_(j=3)^(n-2)(4j-2)",
+      "label": "PROVED SYMBOLIC IN REPORT",
+      "persistence_polynomial": "A^3-8*A^2+3*A-20",
+      "polynomial_at_26": 12226
+    }
+  },
+  "theorem": {
+    "actual_forward_carry": "u_n=A*t_n-4c+t_(n-1), r_n=a*u_n+c*t_n-r_(n-1), u_n<0 for n>=6 and u_n tends to -infinity",
+    "pair_map": "m=nint((r-ct)/a), Phi_n(r,t)=(ct-r+am,4c-At+m), with explicit inverse",
+    "primitive_collapse": "there are exact-denominator affine states with previous centered numerator (a-1)/2 and current numerator -1",
+    "rank_one_state": "w_n=T_n/b=t_n-r_n/b and w_(n-1)=4c-(b/a)w_n",
+    "scope_limit": "collapse and norm witnesses are not actual Turan-orbit counterexamples and need not satisfy the short digit interval",
+    "scoped_obstruction": "affine contraction, recurrence, coprimality, or a fixed unscaled ambient norm does not prove the actual half-bound"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "item": 355,
+  "schema": "item355-j2-target-residual-large-sieve-obstruction-ledger-v1",
+  "classification": "PROVED_EXACT_TARGET_RESIDUAL_PARSEVAL_AND_FIXED_M_SELECTOR_OBSTRUCTION",
+  "dependencies": {
+    "sources/item341_j2_diagonal_affine_state_report.md": "42f6ccd326e385f8034abe322756517a30a93d7468b3e6f85cbca3dba8080cb4",
+    "results/item341_j2_diagonal_affine_state_certificate.json": "75c05cb486e5a5a6f9af5dda2e62f2a4b81cb888a15eb19ecabd10a382625cb4",
+    "results/item341_j2_diagonal_affine_state_root_audit.json": "d5c810346f9181f10d38e9f5ae2e250a8c880e32f97cbc5bef91f6bd37f61a27",
+    "manifests/item341_j2_diagonal_affine_state_manifest.json": "fc073e4c11a2d9ab519f0b5babae6f9f95e2e8cf9e8cbcf05c4c8ca8ba155000",
+    "sources/item347_j2_chosen_prime_kummer_conductor_obstruction_report.md": "7845d01648f4860dee7cee0c12b5711693183015c99e25e923a9e49f316f5eea",
+    "results/item347_j2_chosen_prime_kummer_conductor_obstruction_certificate.json": "bd861233e0a37c6cd6e0d091d244f67e42c7bd65702d77f951e9341ad681159d",
+    "results/item347_j2_chosen_prime_kummer_conductor_obstruction_root_audit.json": "f9029fceae9662dbf8645a0d49eeaf9f5df85a204a8d94996e3d10e66f57a851",
+    "manifests/item347_j2_chosen_prime_kummer_conductor_obstruction_manifest.json": "f6bd289bd06d96e1a832208d07815fb4b6e9a4678a6cb022d6302299bebbd5b9",
+    "sources/item349_j2_degenerate_triple_minor_carrier_report.md": "ca3141156cb5034012a174377c3596e22d22cae924625649b6d620d510f4790c",
+    "results/item349_j2_degenerate_triple_minor_carrier_certificate.json": "b26294d51b1844aeee04146004b2ecec9b6e1ff81aa271a3167e5d86c11bce44",
+    "results/item349_j2_degenerate_triple_minor_carrier_root_audit.json": "e717c01d7429f7821a7ee75e8d979bc1362107bd70466af6af54d9748299a894",
+    "manifests/item349_j2_degenerate_triple_minor_carrier_manifest.json": "1c1dec25ac00ea5adb2befe885c9c96ba805564651b6e90c73ef2506d30e7f4f",
+    "sources/item352_j2_nonsemisimple_transition_no_go_report.md": "c60e1ba7771314c77b3fbe5d06f9c13c51a8c7e4d15f2589298641ff0f38e794",
+    "results/item352_j2_nonsemisimple_transition_no_go_certificate.json": "8f06da2f8b4265156d02d2da393c0aedb74db55db3649589163866ffd0badc31",
+    "results/item352_j2_nonsemisimple_transition_no_go_root_audit.json": "6acd46c106c21a963e0476e49d25c71305682c061e1df507ac8e332f4433d609",
+    "manifests/item352_j2_nonsemisimple_transition_no_go_manifest.json": "c970d5b2dec42ec47f40078b49219cbac99e871b464a54f95be352729347ce54"
+  },
+  "actual_family": {
+    "tied_phase": "p=2r+6L+3, L=s=m+1",
+    "nondegenerate_gate": "Delta_p(L)=(4^L-c_star_(r(L)),H_(L-1)-Theta_(r(L),L))=(0,0)",
+    "matrix_coordinates": "(det(A_(1/4)^L)-c_star,(M_L)_12+Theta)=(Delta_1,-Delta_2)",
+    "parameter_to_M": "M=(5p-2L-1)/4",
+    "fixed_M_selector": "L_(M,p)=(5p-4M-1)/2",
+    "raw_prime_interval": "(4M+3)/5 <= p <= (6M-1)/7",
+    "raw_chebyshev_mass": "(2/35)M+o(M)",
+    "raw_capacity_per_6M": "1/105"
+  },
+  "finite_field_Parseval": {
+    "weighted_identity": "p^-2 sum_(a,b)|sum_L alpha_L e_p(<(a,b),Delta_p(L)>)|^2=sum_y|sum_(Delta=y)alpha_L|^2",
+    "unweighted_energy": "E_p=sum_y N_p(y)^2=#{(L,L'):Delta_p(L)=Delta_p(L')}",
+    "zero_inversion": "N_p(0)=p^-2 sum_(a,b)sum_L e_p(<(a,b),Delta_p(L)>)",
+    "phase_warning": "the second moment discards exactly the coherent phases used by zero inversion",
+    "trivial_range": "|A_p^nd| <= E_p <= |A_p^nd|^2"
+  },
+  "fixed_M_obstruction": {
+    "singleton": "one admissible L_(M,p) per selected prime",
+    "second_moment": "p^-2 sum_(a,b)|e_p(<(a,b),delta_(M,p)>)|^2=1 independently of collision",
+    "weighted_energy": "sum_p log(p)*singleton_second_moment=sum_p log p, potentially the full raw mass",
+    "minimal_energy_example": "pairwise distinct residuals give E_p=|A_p^nd| while the unique zero can lie at any prescribed selector",
+    "scope": "proves insufficiency of within-prime energy alone, not adversarial behavior of the actual target"
+  },
+  "Kummer_Jacobi_energy": {
+    "modes": "j_u=-omega^(-u)(2)J(omega^(-u),phi), N=p-1",
+    "full": "sum_(u=0)^(N-1)|j_u|^2=N(N-1)",
+    "prefix": "sum_a|P_L(a)|^2=N*(1+(L-1)p) for actual L<N/2",
+    "fixed_target": "sum_a|P_L(a)-theta|^2=N*((L-1)p+|1-theta|^2)",
+    "moving_target": "sum_a|P_L(a)-theta_a|^2=N*sum_u|1_(u<L)j_u-theta_hat_u|^2",
+    "obstruction": "the clean average is transverse and Archimedean; the moving-target cross term is uncontrolled and the actual state is a=0 at a selected prime"
+  },
+  "almost_all_M_route": {
+    "reindexing": "sum_M W_nd(M)=sum_p log(p)N_p(0) over matching dyadic ranges",
+    "Cauchy": "N_p(0)<=sqrt(E_p)",
+    "needed_power_saving": "sum_(p asymptotic X) log(p)*sqrt(E_p)=o(X^2)",
+    "current_bound": "E_p=O(p^2), yielding only O(X^2)",
+    "status": "OPEN",
+    "additional_management_question": "whether an almost-all-M theorem suffices for the final irrationality construction"
+  },
+  "chart_overlap": {
+    "nondegenerate_scope": "Item355 controls only ell_r nonzero rows",
+    "degenerate_scope": "Item349 carrier remains separate and open",
+    "partition": "the two outer charts are disjoint subsets of one raw interval",
+    "nonadditivity": "their capacities sum to at most 1/105, not 2/105"
+  },
+  "capacity": {
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "ordinary_j2_ceiling_per_6M": "1/105",
+    "reason": "no residual-energy power saving, selector-aware cross-prime estimate, or actual-family exceptional-set theorem is proved"
+  },
+  "master_ledger": {
+    "booked_r1_unchanged": "0.1365141682948128184504238226...",
+    "threshold_T_unchanged": "1.1561471519642446123307302239...",
+    "deficit_unchanged": "1.0196329836694317938803064012..."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact target-retaining finite-field weighted Parseval and zero inversion",
+      "fixed-M singleton second-moment saturation",
+      "minimal transverse energy does not uniformly control a prescribed selector",
+      "exact full, prefix, fixed-target, and moving-target Kummer/Jacobi energies",
+      "raw-capacity and chart-overlap audit"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "seven declared actual rows and six declared combinatorial energy instances; no scan or census"
+    ],
+    "OPEN": [
+      "power-saving actual residual energy",
+      "selector-aware cross-prime cancellation",
+      "admissibility of an almost-all-M result",
+      "weighted degenerate-carrier support"
+    ]
+  }
+}

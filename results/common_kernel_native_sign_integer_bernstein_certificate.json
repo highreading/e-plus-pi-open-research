@@ -1,0 +1,1084 @@
+{
+  "all_parameter_theorem": {
+    "admissible_output": "h in Z[x], h=1 mod (1+x^2)^2, h(0)=0, 0<=h<=1 and F_N,h>=0 on [0,1]",
+    "equivalent_mod_8_classes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "existence_condition": "I_N<=0",
+    "impossible_mod_8_classes_from_dependency": [
+      5,
+      6,
+      7
+    ],
+    "proof_location": "Sections 2--7 of the companion source",
+    "quantitative_degree_claim": "none; prior lower bound still applies"
+  },
+  "control_audit": {
+    "script": {
+      "bytes": 13943,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "scripts/common_kernel_native_sign_integer_bernstein_certificate.py"
+    },
+    "source": {
+      "bytes": 16041,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "sources/common_kernel_native_sign_integer_bernstein_existence.md"
+    }
+  },
+  "crossing_inequality_checks": {
+    "N2_strict_comparison": "(27/64)*exp(-1/4) > 21/64 because exp(1/4)<9/7",
+    "N3_left_lower": "27/64",
+    "N_ge_4_left_lower_using_b_ge_14": "63/128",
+    "exp_one_quarter_target": "9/7",
+    "exp_one_quarter_upper": "113/88",
+    "parameter_rows_N_2_through_100": [
+      {
+        "I_N": -2,
+        "N": 2,
+        "R_N": 0,
+        "a": 2,
+        "b": 1,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -2,
+        "N": 3,
+        "R_N": -2,
+        "a": 2,
+        "b": 4,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": 0,
+        "N": 4,
+        "R_N": -4,
+        "a": 0,
+        "b": 14,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": 4,
+        "N": 5,
+        "R_N": -4,
+        "a": -4,
+        "b": 62,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 8,
+        "N": 6,
+        "R_N": 0,
+        "a": -8,
+        "b": 360,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 8,
+        "N": 7,
+        "R_N": 8,
+        "a": -8,
+        "b": 2516,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 0,
+        "N": 8,
+        "R_N": 16,
+        "a": 0,
+        "b": 20152,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -16,
+        "N": 9,
+        "R_N": 16,
+        "a": 16,
+        "b": 181432,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -32,
+        "N": 10,
+        "R_N": 0,
+        "a": 32,
+        "b": 1814400,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -32,
+        "N": 11,
+        "R_N": -32,
+        "a": 32,
+        "b": 19958416,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": 0,
+        "N": 12,
+        "R_N": -64,
+        "a": 0,
+        "b": 239500832,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": 64,
+        "N": 13,
+        "R_N": -64,
+        "a": -64,
+        "b": 3113510432,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 128,
+        "N": 14,
+        "R_N": 0,
+        "a": -128,
+        "b": 43589145600,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 128,
+        "N": 15,
+        "R_N": 128,
+        "a": -128,
+        "b": 653837183936,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 0,
+        "N": 16,
+        "R_N": 256,
+        "a": 0,
+        "b": 10461394943872,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -256,
+        "N": 17,
+        "R_N": 256,
+        "a": 256,
+        "b": 177843714047872,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -512,
+        "N": 18,
+        "R_N": 0,
+        "a": 512,
+        "b": 3201186852864000,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -512,
+        "N": 19,
+        "R_N": -512,
+        "a": 512,
+        "b": 60822550204416256,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": 0,
+        "N": 20,
+        "R_N": -1024,
+        "a": 0,
+        "b": 1216451004088320512,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": 1024,
+        "N": 21,
+        "R_N": -1024,
+        "a": -1024,
+        "b": 25545471085854720512,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 2048,
+        "N": 22,
+        "R_N": 0,
+        "a": -2048,
+        "b": 562000363888803840000,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 2048,
+        "N": 23,
+        "R_N": 2048,
+        "a": -2048,
+        "b": 12926008369442488318976,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 0,
+        "N": 24,
+        "R_N": 4096,
+        "a": 0,
+        "b": 310224200866619719677952,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -4096,
+        "N": 25,
+        "R_N": 4096,
+        "a": 4096,
+        "b": 7755605021665492991997952,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -8192,
+        "N": 26,
+        "R_N": 0,
+        "a": 8192,
+        "b": 201645730563302817792000000,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -8192,
+        "N": 27,
+        "R_N": -8192,
+        "a": 8192,
+        "b": 5444434725209176080384004096,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": 0,
+        "N": 28,
+        "R_N": -16384,
+        "a": 0,
+        "b": 152444172305856930250752008192,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": 16384,
+        "N": 29,
+        "R_N": -16384,
+        "a": -16384,
+        "b": 4420880996869850977271808008192,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 32768,
+        "N": 30,
+        "R_N": 0,
+        "a": -32768,
+        "b": 132626429906095529318154240000000,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 32768,
+        "N": 31,
+        "R_N": 32768,
+        "a": -32768,
+        "b": 4111419327088961408862781439983616,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 0,
+        "N": 32,
+        "R_N": 65536,
+        "a": 0,
+        "b": 131565418466846765083609006079967232,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -65536,
+        "N": 33,
+        "R_N": 65536,
+        "a": 65536,
+        "b": 4341658809405943247759097200639967232,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -131072,
+        "N": 34,
+        "R_N": 0,
+        "a": 131072,
+        "b": 147616399519802070423809304821760000000,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -131072,
+        "N": 35,
+        "R_N": -131072,
+        "a": 131072,
+        "b": 5166573983193072464833325668761600065536,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": 0,
+        "N": 36,
+        "R_N": -262144,
+        "a": 0,
+        "b": 185996663394950608733999724075417600131072,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": 262144,
+        "N": 37,
+        "R_N": -262144,
+        "a": -262144,
+        "b": 6881876545613172523157989790790451200131072,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 524288,
+        "N": 38,
+        "R_N": 0,
+        "a": -524288,
+        "b": 261511308733300555880003612050037145600000000,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 524288,
+        "N": 39,
+        "R_N": 524288,
+        "a": -524288,
+        "b": 10198941040598721679320140869951448678399737856,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 0,
+        "N": 40,
+        "R_N": 1048576,
+        "a": 0,
+        "b": 407957641623948867172805634798057947135999475712,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -1048576,
+        "N": 41,
+        "R_N": 1048576,
+        "a": 1048576,
+        "b": 16726263306581903554085031026720375832575999475712,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -2097152,
+        "N": 42,
+        "R_N": 0,
+        "a": 2097152,
+        "b": 702503058876439949271571303122255784968192000000000,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -2097152,
+        "N": 43,
+        "R_N": -2097152,
+        "a": 2097152,
+        "b": 30207631531686917818677566034256998753632256001048576,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": 0,
+        "N": 44,
+        "R_N": -4194304,
+        "a": 0,
+        "b": 1329135787394224384021812905507307945159819264002097152,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": 4194304,
+        "N": 45,
+        "R_N": -4194304,
+        "a": -4194304,
+        "b": 59811110432740097280981580747828857532191866880002097152,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 8388608,
+        "N": 46,
+        "R_N": 0,
+        "a": -8388608,
+        "b": 2751311079906044474925152714400127446480825876480000000000,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 8388608,
+        "N": 47,
+        "R_N": 8388608,
+        "a": -8388608,
+        "b": 129311620755584090321482177576805989984598816194559995805696,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 0,
+        "N": 48,
+        "R_N": 16777216,
+        "a": 0,
+        "b": 6206957796268036335431144523686687519260743177338879991611392,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -16777216,
+        "N": 49,
+        "R_N": 16777216,
+        "a": 16777216,
+        "b": 304140932017133780436126081660647688443776415689605119991611392,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -33554432,
+        "N": 50,
+        "R_N": 0,
+        "a": 33554432,
+        "b": 15207046600856689021806304083032384422188820784480256000000000000,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -33554432,
+        "N": 51,
+        "R_N": -33554432,
+        "a": 33554432,
+        "b": 775559376643691140112121508234651605531629860008493056000016777216,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": 0,
+        "N": 52,
+        "R_N": -67108864,
+        "a": 0,
+        "b": 40329087585471939285830318428201883487644752720441638912000033554432,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": 67108864,
+        "N": 53,
+        "R_N": -67108864,
+        "a": -67108864,
+        "b": 2137441642030012782149006876694699824845171894183406862336000033554432,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 134217728,
+        "N": 54,
+        "R_N": 0,
+        "a": -134217728,
+        "b": 115421848669620690236046371341513790541639282285903970566144000000000000,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 134217728,
+        "N": 55,
+        "R_N": 134217728,
+        "a": -134217728,
+        "b": 6348201676829137962982550423783258479790160525724718381137919999932891136,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 0,
+        "N": 56,
+        "R_N": 268435456,
+        "a": 0,
+        "b": 355499293902431725927022823731862474868248989440584229343723519999865782272,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -268435456,
+        "N": 57,
+        "R_N": 268435456,
+        "a": 268435456,
+        "b": 20263459752438608377840300952716161067490192398113301072592240639999865782272,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -536870912,
+        "N": 58,
+        "R_N": 0,
+        "a": 536870912,
+        "b": 1175280665641439285914737455257537341914431159090571462210349957120000000000000,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -536870912,
+        "N": 59,
+        "R_N": -536870912,
+        "a": 536870912,
+        "b": 69341559272844917868969509860194703172951438386343716270410647470080000268435456,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": 0,
+        "N": 60,
+        "R_N": -1073741824,
+        "a": 0,
+        "b": 4160493556370695072138170591611682190377086303180622976224638848204800000536870912,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": 1073741824,
+        "N": 61,
+        "R_N": -1073741824,
+        "a": -1073741824,
+        "b": 253790106938612399400428406088312613613002264494018001549702969740492800000536870912,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 2147483648,
+        "N": 62,
+        "R_N": 0,
+        "a": -2147483648,
+        "b": 15734986630193968762826561177475382044006140398629116096081584123910553600000000000000,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 2147483648,
+        "N": 63,
+        "R_N": 2147483648,
+        "a": -2147483648,
+        "b": 991304157702220032058073354180949068772386845113634314053139799806364876799998926258176,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 0,
+        "N": 64,
+        "R_N": 4294967296,
+        "a": 0,
+        "b": 63443466092942082051716694667580740401432758087272596099400947187607352115199997852516352,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -4294967296,
+        "N": 65,
+        "R_N": 4294967296,
+        "a": 4294967296,
+        "b": 4123825296041235333361585153392748126093129275672718746461061567194477887487999997852516352,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -8589934592,
+        "N": 66,
+        "R_N": 0,
+        "a": 8589934592,
+        "b": 272172469538721532001864620123921376322146532194399437266430063434835540574208000000000000000,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -8589934592,
+        "N": 67,
+        "R_N": -8589934592,
+        "a": 8589934592,
+        "b": 18235555459094342644124929548302732213583817657024762296850814250133981218471936000004294967296,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": 0,
+        "N": 68,
+        "R_N": -17179869184,
+        "a": 0,
+        "b": 1240017771218415299800495209284585790523699600677683836185855369009110722856091648000008589934592,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": 17179869184,
+        "N": 69,
+        "R_N": -17179869184,
+        "a": -17179869184,
+        "b": 85561226214070655686234169440636419546135272446760184696824020461628639877070323712000008589934592,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 34359738368,
+        "N": 70,
+        "R_N": 0,
+        "a": -34359738368,
+        "b": 5989285834984945898036391860844549368229469071273212928777681432314004791394922659840000000000000000,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 34359738368,
+        "N": 71,
+        "R_N": 34359738368,
+        "a": -34359738368,
+        "b": 425239294283931158760583822119963005144292304060398117943215381694294340189039508848639999982820130816,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 0,
+        "N": 72,
+        "R_N": 68719476736,
+        "a": 0,
+        "b": 30617229188443043430762035192637336370389045892348664491911507481989192493610844637102079999965640261632,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -68719476736,
+        "N": 73,
+        "R_N": 68719476736,
+        "a": 68719476736,
+        "b": 2235057730756342170445628569062525555038400350141452507909540046185211052033591658508451839999965640261632,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -137438953472,
+        "N": 74,
+        "R_N": 0,
+        "a": 137438953472,
+        "b": 165394272075969320612976514110626891072841625910467485585305963417705617850485782729625436160000000000000000,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -137438953472,
+        "N": 75,
+        "R_N": -137438953472,
+        "a": 137438953472,
+        "b": 12404570405697699045973238558297016830463121943285061418897947256327921338786433704721907712000000068719476736,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": 0,
+        "N": 76,
+        "R_N": -274877906944,
+        "a": 0,
+        "b": 942747350833025127493966130430573279115197267689664667836243991480922021747768961558864986112000000137438953472,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": 274877906944,
+        "N": 77,
+        "R_N": -274877906944,
+        "a": -274877906944,
+        "b": 72591546014142934817035392043154142491870189612104179423390787344030995674578210040032603930624000000137438953472,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 549755813888,
+        "N": 78,
+        "R_N": 0,
+        "a": -549755813888,
+        "b": 5662140589103148915728760579366023114365874789744125995024481412834417662617100383122543106588672000000000000000000,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 549755813888,
+        "N": 79,
+        "R_N": 549755813888,
+        "a": -549755813888,
+        "b": 447309106539148764342572085769915826034904108389785953606934031613918995346750930266680905420505087999999725122093056,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 0,
+        "N": 80,
+        "R_N": 1099511627776,
+        "a": 0,
+        "b": 35784728523131901147405766861593266082792328671182876288554722529113519627740074421334472433640407039999999450244186112,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -1099511627776,
+        "N": 81,
+        "R_N": 1099511627776,
+        "a": 1099511627776,
+        "b": 2898563010373683992939867115789054552706178622365812979372932524858195089846946028128092267124872970239999999450244186112,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -2199023255552,
+        "N": 82,
+        "R_N": 0,
+        "a": 2199023255552,
+        "b": 237682166850642087421069103494702473321906647033996664308580467038371997367449574306503565904239583559680000000000000000000,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -2199023255552,
+        "N": 83,
+        "R_N": -2199023255552,
+        "a": 2199023255552,
+        "b": 19727619848603293255948735590060305285718251703821723137612178764184875781498314667439795970051885435453440000001099511627776,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": 0,
+        "N": 84,
+        "R_N": -4398046511104,
+        "a": 0,
+        "b": 1657120067282676633499693789565065644000333143121024743559423016191529565645858432064942861484358376578088960000002199023255552,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": 4398046511104,
+        "N": 85,
+        "R_N": -4398046511104,
+        "a": -4398046511104,
+        "b": 140855205719027513847473972113030579740028317165287103202550956376280013079897966725520143226170462009137561600000002199023255552,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 8796093022208,
+        "N": 86,
+        "R_N": 0,
+        "a": -8796093022208,
+        "b": 12113547691836366190882761601720629857642435276214690875419382248360081124871225138394732317450659732785830297600000000000000000000,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 8796093022208,
+        "N": 87,
+        "R_N": 8796093022208,
+        "a": -8796093022208,
+        "b": 1053878649189763858606800259349694797614891869030678106161486255607327057863796587040341711618207396752367235891199999995601953488896,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 0,
+        "N": 88,
+        "R_N": 17592186044416,
+        "a": 0,
+        "b": 92741321128699219557398422822773142190110484474699673342210790493444781092014099659550070622402250914208316758425599999991203906977792,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -17592186044416,
+        "N": 89,
+        "R_N": 17592186044416,
+        "a": 17592186044416,
+        "b": 8253977580454230540608459631226809654919833118248270927456760353916585517189254869699956285393800331364540191499878399999991203906977792,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -35184372088832,
+        "N": 90,
+        "R_N": 0,
+        "a": 35184372088832,
+        "b": 742857982240880748654761366810412868942784980642344383471108431852492696547032938272996065685442029822808617234989056000000000000000000000,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -35184372088832,
+        "N": 91,
+        "R_N": -35184372088832,
+        "a": 35184372088832,
+        "b": 67600076383920148127583284379747571073793433238453338895870867298576835385779997382842641977375224713875584168384004096000000017592186044416,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": 0,
+        "N": 92,
+        "R_N": -70368744177664,
+        "a": 0,
+        "b": 6219207027320653627737662162936776538788995857937707178420119791469068855491759759221523061918520673676553743491328376832000000035184372088832,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": 70368744177664,
+        "N": 93,
+        "R_N": -70368744177664,
+        "a": -70368744177664,
+        "b": 578386253540820787379602581153120218107376614788206767593071140606623403560733657607601644758422422651919498144693539045376000000035184372088832,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 140737488355328,
+        "N": 94,
+        "R_N": 0,
+        "a": -140737488355328,
+        "b": 54368307832837154013682642628393300502093401790091436153748687217022599934708963815114554607291707729280432825601192670265344000000000000000000000,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 140737488355328,
+        "N": 95,
+        "R_N": 140737488355328,
+        "a": -140737488355328,
+        "b": 5164989244119529631299851049697363547698873170058686434606125285617146993797351562435882687692712234281641118432113303675207679999999929631255822336,
+        "expected_allowed_mod_8": false,
+        "sign_allowed": false
+      },
+      {
+        "I_N": 0,
+        "N": 96,
+        "R_N": 281474976710656,
+        "a": 0,
+        "b": 495838967435474844604785700770946900579091824325633897722188027419246111404545749993844738018500374491037547369482877152819937279999999859262511644672,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -281474976710656,
+        "N": 97,
+        "R_N": 281474976710656,
+        "a": 281474976710656,
+        "b": 48096379841241059926664212974781849356171906959586488079052238659666872806240937749402939587794536325630642094839839083823533916159999999859262511644672,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -562949953421312,
+        "N": 98,
+        "R_N": 0,
+        "a": 562949953421312,
+        "b": 4713445224441623872813092871528621236904846882039475831747119388647353535011611899441488079603864559911802925294304230214706323783680000000000000000000000,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": -562949953421312,
+        "N": 99,
+        "R_N": -562949953421312,
+        "a": 562949953421312,
+        "b": 466631077219720763408496194281333502453579841321908107342964819476087999966149578044707319880782591431268489604136118791255926054584320000000281474976710656,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      },
+      {
+        "I_N": 0,
+        "N": 100,
+        "R_N": -1125899906842624,
+        "a": 0,
+        "b": 46663107721972076340849619428133350245357984132190810734296481947608799996614957804470731988078259143126848960413611879125592605458432000000000562949953421312,
+        "expected_allowed_mod_8": true,
+        "sign_allowed": true
+      }
+    ]
+  },
+  "dependency_checks": {
+    "results/common_kernel_native_sign_endpoint_degree_hashes.sha256": {
+      "actual": "400b4e5ae612683394a657c69f6aee4e1e2369b0d518f8c6027d51aa26c3efc3",
+      "expected": "400b4e5ae612683394a657c69f6aee4e1e2369b0d518f8c6027d51aa26c3efc3"
+    }
+  },
+  "endpoint_series_checks": {
+    "integral_jet_statement": "q^(j)(0)/j! and q^(j)(1)/j! are integers for 0<=j<=3",
+    "left_q_through_cubic": "-2*t**3 - t**2",
+    "right_H_coefficients_s2_s3": [
+      "A",
+      "-A**3 + A*(1 - N) + b"
+    ],
+    "right_q_coefficients_s0_s1_s2_s3": [
+      "-1",
+      "0",
+      "A + 2",
+      "-A**3 + A*(1 - N) + b"
+    ]
+  },
+  "external_primary_theorem": {
+    "arxiv": "1804.08248",
+    "author": "Borislav R. Draganov",
+    "coefficient_scope": "ordinary monomial coefficients in Z, not merely integer-valued",
+    "doi": "10.1016/j.jat.2018.08.003",
+    "journal": "Journal of Approximation Theory 237 (2019), 1--16",
+    "title": "Simultaneous approximation by Bernstein polynomials with integer coefficients",
+    "used_result": "Theorem 1.3 for the nearest-integer Bernstein operator, s=3"
+  },
+  "finite_numerical_crossing_diagnostics_nonproof": [
+    {
+      "N": 2,
+      "a_bracketed_crossing_root": "0.06741891889485923016000052497195211567583",
+      "difference_at_one_quarter": "0.204677704965154507153588857785"
+    },
+    {
+      "N": 3,
+      "a_bracketed_crossing_root": "0.05045431082553073029314205340518020709215",
+      "difference_at_one_quarter": "0.334318996185110281988590414522"
+    },
+    {
+      "N": 4,
+      "a_bracketed_crossing_root": "0.08283433430795354185232238432731061588685",
+      "difference_at_one_quarter": "0.425247969118851406734830634095"
+    },
+    {
+      "N": 8,
+      "a_bracketed_crossing_root": "0.001501566472658722129604744919195572257886",
+      "difference_at_one_quarter": "735.629321879524401863125273101"
+    },
+    {
+      "N": 9,
+      "a_bracketed_crossing_root": "0.000430143712992510660551622353669374182145",
+      "difference_at_one_quarter": "6625.70457807628855207085680713"
+    },
+    {
+      "N": 10,
+      "a_bracketed_crossing_root": "0.0001332238160915188568659421017458665223989",
+      "difference_at_one_quarter": "66241.6429436040270837147643772"
+    },
+    {
+      "N": 11,
+      "a_bracketed_crossing_root": "0.00003998962324026759544376998786448370503794",
+      "difference_at_one_quarter": "728612.296312502806820377191555"
+    },
+    {
+      "N": 12,
+      "a_bracketed_crossing_root": "0.00001127816315508293964366439005627624691045",
+      "difference_at_one_quarter": "8743286.00896717425644472066453"
+    }
+  ],
+  "integral_hermite_crt_checks": {
+    "explicit_bezout_right_coefficient": "20*t**3 + 10*t**2 + 4*t + 1",
+    "inverse_t4_mod_t_minus_1_4": "-20*t**3 + 70*t**2 - 84*t + 35",
+    "representative_instances": [
+      {
+        "A": 3,
+        "N": 2,
+        "b": 1,
+        "coefficient_sha256": "9eadc23dd0b5263442371569c48db5c5984e106e6e02d4e434f02ed3090415d7",
+        "degree": 7
+      },
+      {
+        "A": 6,
+        "N": 3,
+        "b": 4,
+        "coefficient_sha256": "b2e37e65e85f9c39e308e73e3b8002ad9590baddabbbc8231c6f79051a504552",
+        "degree": 7
+      },
+      {
+        "A": 14,
+        "N": 4,
+        "b": 14,
+        "coefficient_sha256": "81670f6d9d36cded7ee41e30ea8f3fbbb598a0655425866f077276d48a1fd724",
+        "degree": 7
+      },
+      {
+        "A": 20152,
+        "N": 8,
+        "b": 20152,
+        "coefficient_sha256": "7c79b802484b78c425ecbdb5113f9d5f2868d874cfb34565f4a5ae5985f3eb96",
+        "degree": 7
+      },
+      {
+        "A": 181448,
+        "N": 9,
+        "b": 181432,
+        "coefficient_sha256": "8aa5bd9e2d476aebce05f4a1e3e33d8c775365d863b3da1f2225832693f03d6a",
+        "degree": 7
+      },
+      {
+        "A": 1814432,
+        "N": 10,
+        "b": 1814400,
+        "coefficient_sha256": "3806ed1be7028d17d2fb02a2d89d8b708f919d3f9b18c8ce28e0e600defd52a1",
+        "degree": 7
+      },
+      {
+        "A": 19958448,
+        "N": 11,
+        "b": 19958416,
+        "coefficient_sha256": "e7ba9a6307f769b80a70d7cc1d7fd59e71e016bd62bf7d93939bdaeebe450176",
+        "degree": 7
+      },
+      {
+        "A": 239500832,
+        "N": 12,
+        "b": 239500832,
+        "coefficient_sha256": "c18c8d0cd81e596c4f4198746bce42eade824ecb7e6cbf02adf74beb23662d52",
+        "degree": 7
+      }
+    ],
+    "symbolic_coefficient_count": 8,
+    "symbolic_hermite_degree": 7
+  },
+  "logical_scope": "Exact algebraic replay for an all-parameter sign-existence theorem. The published simultaneous integer-Bernstein theorem supplies the all-degree approximation step; finite diagnostics do not replace it. No degree, denominator/content, or e+pi classification follows.",
+  "remaining_gap": "The construction supplies no useful degree/height bound and no control of the reduced output denominator D or primitive content g.",
+  "resource_policy": {
+    "RSS_guard_kib": 41943040,
+    "hardware_accelerator": "Not used because every replay check is exact symbolic, integer, rational, or low-dimensional high-precision CPU arithmetic.",
+    "meaning": "The 40-GiB value is a failure guard, not an allocation or a 2-GiB cap; the Colab instance has approximately 50 GiB RAM."
+  },
+  "schema": "common_kernel_native_sign_integer_bernstein_certificate_v1",
+  "source_sha256": "283641248f64788c69516874407882efebd5393871ebc23a98a71bd66f30ffbc",
+  "symbolic_differential_checks": {
+    "integrating_factor_difference": "0",
+    "left_log_derivative": "1/t+b/(a+b*t)-1-8*t/(1-4*t^2)",
+    "mu_prime": "exp(-t)*(a*(1-t)+b*t*(2-t))",
+    "phi_prime": "1-epsilon^2/(y+epsilon)^2"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "item278-root-audit-v1",
+  "audit_date": "2026-08-31",
+  "auditor": "root",
+  "verdict": "PASS_WITH_STRICT_SCOPE",
+  "substantive_checks": {
+    "portfolio_height": "PASS: multiplying the positive continuant bounds gives L log(4n+6)<=H<=L log(4(n+L+1)), hence H=O(n) exactly when L=O(n/log n)",
+    "truncated_depth": "PASS: valuation additivity gives the exact truncated weighted sum of the return depths for both residual and scalar-Casoratian products",
+    "bounded_multiplicity": "PASS: for total multiplicity at most fixed K, full depth s forces one O(n/log n) return at level p^ceil(s/K)",
+    "antiperiod_optimizer": "PASS: the convex exchange argument gives (K-r)(p^q-1)+r(p^(q+1)-1) for s=Kq+r",
+    "fixed_K_no_go": "PASS WITH SCOPE: canonical anti-period portfolios of fixed K and O(n) height force only s log p=O_K(log n); accidental shorter actual returns are not excluded",
+    "reservoir_deoverlap": "PASS: the depth formula uses precisely s=(v_p(q_n)-v_p(D_m))_+ after the Item 265 clearing reservoir",
+    "capacity_booking": "PASS: no uniform short-return theorem, unbounded-portfolio theorem, sum-cancellation theorem, or beta-capacity reduction is proved; booking is zero"
+  },
+  "independent_replay": {
+    "canonical_sha256": "c262123352ac0439b40c519e0c69993f311be6e25fc9fa96e9881f4fe01f7451",
+    "root_replay_sha256": "c262123352ac0439b40c519e0c69993f311be6e25fc9fa96e9881f4fe01f7451",
+    "byte_identical": true
+  },
+  "package_checks": {
+    "manifest_files_checked": 5,
+    "frozen_dependencies_checked": 7,
+    "json_files_parsed": 4,
+    "all_hashes_and_dependencies_match": true
+  },
+  "report_checks": {
+    "sha256": "6db2301e7e05f1e1c1feb8f3c94890653972f8d39661d8e4a4d8d40bc6a1d314",
+    "bytes": 13517,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "display_delimiters": "35/35",
+    "inline_delimiters": "88/88"
+  },
+  "strict_scope": {
+    "proved": "Bounded-multiplicity products have an exact height-depth tradeoff and the canonical anti-period construction cannot reach dangerous singleton depths at linear height.",
+    "not_proved": "Actual short returns, sums with cancellation, arbitrary growing block determinants, and genuinely unbounded independent portfolios remain open.",
+    "finite_only": "The deterministic replay checks exact bounded identities and makes no exceptional-prime or distributional extrapolation.",
+    "route_status": "Route 1 ACTIVE; Route 2 QUEUED"
+  }
+}

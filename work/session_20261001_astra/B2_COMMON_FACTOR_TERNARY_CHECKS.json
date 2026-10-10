@@ -1,0 +1,90 @@
+{
+  "status": "PASS_EXACT_ALGEBRA_AND_THREE_SCALAR_SEEDS",
+  "independent_researcher_review": false,
+  "scope": "Formal identities and complete ternary scalar seeds; infinite conclusions require the separately written transfer and valuation proofs.",
+  "formal_identities": {
+    "J_factor": true,
+    "K_factor": true,
+    "S_factor": true,
+    "W_factor": true,
+    "C_identity": true,
+    "complete_numerator_factor": true,
+    "denominator_factor": true
+  },
+  "seed_fields": [
+    "h",
+    "u",
+    "v",
+    "Acal",
+    "Bcal",
+    "a",
+    "k",
+    "ell",
+    "sigma",
+    "C",
+    "omega",
+    "Vtilde"
+  ],
+  "seed_rows": [
+    {
+      "r": 0,
+      "h": 1,
+      "u": 0,
+      "v": 0,
+      "Acal": 1,
+      "Bcal": 3,
+      "a": 0,
+      "k": 1,
+      "ell": 2,
+      "sigma": 1,
+      "C": -1,
+      "omega": -2,
+      "Vtilde": 4,
+      "unnormalized_V": 4
+    },
+    {
+      "r": 1,
+      "h": 0,
+      "u": 1,
+      "v": 0,
+      "Acal": 3,
+      "Bcal": 10,
+      "a": 1,
+      "k": 0,
+      "ell": -2,
+      "sigma": 2,
+      "C": -1,
+      "omega": 0,
+      "Vtilde": 16,
+      "unnormalized_V": 32
+    },
+    {
+      "r": 2,
+      "h": 1,
+      "u": -2,
+      "v": 2,
+      "Acal": 21,
+      "Bcal": 133,
+      "a": -5,
+      "k": -1,
+      "ell": 10,
+      "sigma": 53,
+      "C": -33,
+      "omega": -10,
+      "Vtilde": 5452,
+      "unnormalized_V": 16356
+    }
+  ],
+  "Vtilde_mod_3": [
+    1,
+    1,
+    1
+  ],
+  "Dtilde_mod_3_in_terms_of_P_m": [
+    "-P_m",
+    "0",
+    "P_m"
+  ],
+  "actual_HP_degree_scan": false,
+  "checker_sha256": "fab2f265a13b4cae8fa2572e25c9f28eed7abe35eaa6ccf17d3c0cefaf11a706"
+}

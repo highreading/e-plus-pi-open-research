@@ -1,0 +1,1222 @@
+{
+  "adaptive_degree_60_case": {
+    "K": {
+      "coefficient_count": 61,
+      "max_coefficient_bits": 86,
+      "sha256": "0518f89562491beb7f7e1da1a9949876d21f681f40e4fa7646f58d0127cabdd3"
+    },
+    "branch_counts": {
+      "H0_rank2": 2,
+      "H2_class3": 3,
+      "H3_class2": 3,
+      "automatic_structural": 2
+    },
+    "capacity": {
+      "left_bits": 829,
+      "right_bits": 854,
+      "strict": true
+    },
+    "global_coefficients": {
+      "max_bits": 86,
+      "nonzero_count": 5,
+      "sha256": "41bdea968783813b7c7c1390097c7c89f7eb364f022eba7549af2a18d7f9d575",
+      "sum_bits": 88
+    },
+    "local_rows": [
+      {
+        "alpha_mod_p": 2,
+        "branch": "H3_class2",
+        "chosen_channels": [
+          1,
+          2
+        ],
+        "chosen_full_responses": {
+          "1": 277,
+          "2": 2
+        },
+        "chosen_local_residues": {
+          "1": 228,
+          "2": 1
+        },
+        "chosen_moment_responses": {
+          "1": 277,
+          "2": 0
+        },
+        "epsilon": 1,
+        "full_target": 4,
+        "moment_target": 2,
+        "p": 347,
+        "t": 30,
+        "t0": 13
+      },
+      {
+        "alpha_mod_p": 347,
+        "branch": "H2_class3",
+        "chosen_channels": [
+          1,
+          3
+        ],
+        "chosen_full_responses": {
+          "1": 236,
+          "3": 97
+        },
+        "chosen_local_residues": {
+          "1": 136,
+          "3": 288
+        },
+        "chosen_moment_responses": {
+          "1": 272,
+          "3": 0
+        },
+        "epsilon": -1,
+        "full_target": 4,
+        "moment_target": 347,
+        "p": 349,
+        "t": 31,
+        "t0": 14
+      },
+      {
+        "alpha_mod_p": 0,
+        "branch": "H0_rank2",
+        "chosen_channels": [
+          1,
+          5
+        ],
+        "chosen_full_responses": {
+          "1": 14,
+          "5": 73
+        },
+        "chosen_local_residues": {
+          "1": 96,
+          "5": 146
+        },
+        "chosen_moment_responses": {
+          "1": 39,
+          "5": 308
+        },
+        "epsilon": -1,
+        "full_target": 0,
+        "moment_target": 351,
+        "p": 353,
+        "t": 33,
+        "t0": 16
+      },
+      {
+        "alpha_mod_p": 0,
+        "branch": "automatic_structural",
+        "chosen_channels": [
+          1
+        ],
+        "chosen_full_responses": {
+          "1": 0
+        },
+        "chosen_local_residues": {
+          "1": 65
+        },
+        "chosen_moment_responses": {
+          "1": 232
+        },
+        "epsilon": 1,
+        "full_target": 0,
+        "moment_target": 2,
+        "p": 359,
+        "t": 36,
+        "t0": 19
+      },
+      {
+        "alpha_mod_p": 2,
+        "branch": "H3_class2",
+        "chosen_channels": [
+          1,
+          2
+        ],
+        "chosen_full_responses": {
+          "1": 254,
+          "2": 13
+        },
+        "chosen_local_residues": {
+          "1": 341,
+          "2": 226
+        },
+        "chosen_moment_responses": {
+          "1": 254,
+          "2": 0
+        },
+        "epsilon": 1,
+        "full_target": 4,
+        "moment_target": 2,
+        "p": 367,
+        "t": 40,
+        "t0": 23
+      },
+      {
+        "alpha_mod_p": 371,
+        "branch": "H2_class3",
+        "chosen_channels": [
+          1,
+          3
+        ],
+        "chosen_full_responses": {
+          "1": 303,
+          "3": 337
+        },
+        "chosen_local_residues": {
+          "1": 60,
+          "3": 49
+        },
+        "chosen_moment_responses": {
+          "1": 87,
+          "3": 0
+        },
+        "epsilon": -1,
+        "full_target": 4,
+        "moment_target": 371,
+        "p": 373,
+        "t": 43,
+        "t0": 26
+      },
+      {
+        "alpha_mod_p": 0,
+        "branch": "H0_rank2",
+        "chosen_channels": [
+          1,
+          5
+        ],
+        "chosen_full_responses": {
+          "1": 293,
+          "5": 242
+        },
+        "chosen_local_residues": {
+          "1": 197,
+          "5": 283
+        },
+        "chosen_moment_responses": {
+          "1": 63,
+          "5": 149
+        },
+        "epsilon": 1,
+        "full_target": 0,
+        "moment_target": 2,
+        "p": 379,
+        "t": 46,
+        "t0": 29
+      },
+      {
+        "alpha_mod_p": 0,
+        "branch": "automatic_structural",
+        "chosen_channels": [
+          1
+        ],
+        "chosen_full_responses": {
+          "1": 0
+        },
+        "chosen_local_residues": {
+          "1": 275
+        },
+        "chosen_moment_responses": {
+          "1": 78
+        },
+        "epsilon": 1,
+        "full_target": 0,
+        "moment_target": 2,
+        "p": 383,
+        "t": 48,
+        "t0": 31
+      },
+      {
+        "alpha_mod_p": 2,
+        "branch": "H3_class2",
+        "chosen_channels": [
+          1,
+          2
+        ],
+        "chosen_full_responses": {
+          "1": 294,
+          "2": 76
+        },
+        "chosen_local_residues": {
+          "1": 172,
+          "2": 174
+        },
+        "chosen_moment_responses": {
+          "1": 294,
+          "2": 0
+        },
+        "epsilon": -1,
+        "full_target": 385,
+        "moment_target": 387,
+        "p": 389,
+        "t": 51,
+        "t0": 34
+      },
+      {
+        "alpha_mod_p": 395,
+        "branch": "H2_class3",
+        "chosen_channels": [
+          1,
+          3
+        ],
+        "chosen_full_responses": {
+          "1": 362,
+          "3": 385
+        },
+        "chosen_local_residues": {
+          "1": 314,
+          "3": 341
+        },
+        "chosen_moment_responses": {
+          "1": 177,
+          "3": 0
+        },
+        "epsilon": -1,
+        "full_target": 4,
+        "moment_target": 395,
+        "p": 397,
+        "t": 55,
+        "t0": 38
+      }
+    ],
+    "name": "adaptive_all_four_branches_degree_60",
+    "parameters": {
+      "A": 43,
+      "E": 17,
+      "channel_count": 54,
+      "degree_K": 60,
+      "degree_S": 1032,
+      "degree_h": 973,
+      "q": 20
+    },
+    "pascal_block_checks": [
+      {
+        "absolute_formula_mod_p": 128,
+        "direct_determinant_mod_p": 128,
+        "e": 17,
+        "formula_bits": 603,
+        "n": 80,
+        "nonzero": true,
+        "p": 347,
+        "start": 13
+      },
+      {
+        "absolute_formula_mod_p": 169,
+        "direct_determinant_mod_p": 169,
+        "e": 17,
+        "formula_bits": 1013,
+        "n": 80,
+        "nonzero": true,
+        "p": 397,
+        "start": 37
+      }
+    ],
+    "polynomial_hashes": {
+      "S": "a289a65398c0f5c18d9fb9007ed9a94c67be950e759e9cde0dbe94aae894a55d",
+      "h": "3a4e745e846bd3f64c4cbb86587039239bae5acbcd66c95d4fd0fac093ba12ef",
+      "q_h": "bdee81bc882424e03fad7d74d4285dbfb1ebe516fe82255340c1ad5c8d9b47c1",
+      "r": "70eea1973178b8ea4283c6eaa52eccf98f8fe9b6173683694e51a16ac28a4dac"
+    },
+    "reduced_coordinates": {
+      "I0_sha256": "16be530ba10acccb08966ad4236a1592d355aee1a1c9ca0ce84927b34024ad4d",
+      "I1_sha256": "8e2daf75fb711b93d3867bcf2d549ebe3e6cb9266a05e4be4d359cb43c0466a5",
+      "J_sha256": "4aa83a1cdd20b8ca82a48e99059f2d7a87d662750e32cab356fdd6fb5fcb61f4",
+      "common_denominator_bits": 1334,
+      "gcd_common_denominator_window_product": 1
+    },
+    "residue_rows": [
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 347
+      },
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 349
+      },
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 353
+      },
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 359
+      },
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 367
+      },
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 373
+      },
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 379
+      },
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 383
+      },
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 389
+      },
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 397
+      }
+    ],
+    "window_primes": [
+      347,
+      349,
+      353,
+      359,
+      367,
+      373,
+      379,
+      383,
+      389,
+      397
+    ],
+    "window_product": 47095243185365705264031551,
+    "window_product_bits": 86
+  },
+  "all_parameter_theorem": {
+    "K_scope": "arbitrary nonzero K_q in Z[x] with deg K_q <= 12q-10",
+    "active_CRT_channel_bound": "2*(number of window primes)+1",
+    "capacity_inputs": "PNT at positive A/q; parity plus Montgomery-Vaughan Brun-Titchmarsh at A/q tending to zero",
+    "channel_count": "3(floor((deg(K_q)+5)/4)+2)",
+    "coefficient_height_restriction": "none",
+    "complete_nonvacuous_range": "yes; the window is empty once deg K_q >= 12q-13",
+    "degree_S_plus_one": "48q+deg(K_q)+13",
+    "degree_h": "48q+13",
+    "natural_linear_threshold": 12,
+    "order_h": "20q",
+    "proof_location": "Sections 2--7 of the companion source",
+    "window": "(48q+deg(K_q)+13)/3 < p < 20q",
+    "window_exceptional_primes": "none"
+  },
+  "constant_gap_endpoint_case": {
+    "K": {
+      "coefficient_count": 236,
+      "max_coefficient_bits": 24,
+      "sha256": "e8dc484dc73f34df54034a8ea174f0bfa671f6ba90fcc9e64b7aaa30a2432659"
+    },
+    "branch_counts": {
+      "H3_class2": 1
+    },
+    "capacity": {
+      "left_bits": 551,
+      "right_bits": 553,
+      "strict": true
+    },
+    "global_coefficients": {
+      "max_bits": 9,
+      "nonzero_count": 3,
+      "sha256": "2271bf79cc63552bb7b2a7f435427a2dfc4494ab88c5a92fee0eb7721f229782",
+      "sum_bits": 10
+    },
+    "local_rows": [
+      {
+        "alpha_mod_p": 212,
+        "branch": "H3_class2",
+        "chosen_channels": [
+          65,
+          2
+        ],
+        "chosen_full_responses": {
+          "2": 94,
+          "65": 221
+        },
+        "chosen_local_residues": {
+          "2": 164,
+          "65": 8
+        },
+        "chosen_moment_responses": {
+          "2": 0,
+          "65": 105
+        },
+        "epsilon": 1,
+        "full_target": 5,
+        "moment_target": 2,
+        "p": 419,
+        "t": 102,
+        "t0": 41
+      }
+    ],
+    "name": "constant_gap_endpoint_degree_235_q21",
+    "parameters": {
+      "A": 2,
+      "E": 61,
+      "channel_count": 186,
+      "degree_K": 235,
+      "degree_S": 1255,
+      "degree_h": 1021,
+      "q": 21
+    },
+    "pascal_block_checks": [
+      {
+        "absolute_formula_mod_p": 332,
+        "direct_determinant_mod_p": 332,
+        "e": 61,
+        "formula_bits": 2560,
+        "n": 84,
+        "nonzero": true,
+        "p": 419,
+        "start": 41
+      },
+      {
+        "absolute_formula_mod_p": 315,
+        "direct_determinant_mod_p": 315,
+        "e": 61,
+        "formula_bits": 2556,
+        "n": 84,
+        "nonzero": true,
+        "p": 419,
+        "start": 40
+      }
+    ],
+    "polynomial_hashes": {
+      "S": "563ff26212e99e431de145adec0a899590ad6f73ba6b46e644bead04b2c23805",
+      "h": "1974de36ae100f363a3b985930471c9764ac8773bd7fdef0e6053e461b45c0e8",
+      "q_h": "d198386d29993d80ca44b0a643d29c612b8f71c7bbe07360e5889a40028826f1",
+      "r": "456bf83fbb7654e6b82858153a4932bfe30c80d65e976f86f846f5f11bef9b0b"
+    },
+    "reduced_coordinates": {
+      "I0_sha256": "a291d0d7b490f40d2789a41d991adf38b6042cf5098a6a5c2faecbdffeedc160",
+      "I1_sha256": "db9a21246724212094d1da8c4e0634036e89ecd555ba1100cf8e2433d0c71ce3",
+      "J_sha256": "b0e924f9b7197eef64371a5811979d966b6c9092c3546015e396a51327c7829c",
+      "common_denominator_bits": 1789,
+      "gcd_common_denominator_window_product": 1
+    },
+    "residue_rows": [
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 419
+      }
+    ],
+    "window_primes": [
+      419
+    ],
+    "window_product": 419,
+    "window_product_bits": 9
+  },
+  "control_audit": {
+    "script": {
+      "bytes": 26736,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "scripts/common_kernel_growing_correction_full_window_certificate.py"
+    },
+    "source": {
+      "bytes": 22262,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "sources/common_kernel_growing_correction_full_window_cancellation.md"
+    }
+  },
+  "dependency_checks": {
+    "results/common_kernel_positive_crt_full_correction_hashes.sha256": {
+      "actual": "227318fce04df7c79dafb4a570ede3f0767c1c75b084aaaefe746b55a7c1a99a",
+      "expected": "227318fce04df7c79dafb4a570ede3f0767c1c75b084aaaefe746b55a7c1a99a"
+    },
+    "scripts/common_kernel_positive_crt_full_correction_certificate.py": {
+      "actual": "64fd00d3c07ed7685362ee0df7c3872be7815c03360b9b6e67ae461d41644207",
+      "expected": "64fd00d3c07ed7685362ee0df7c3872be7815c03360b9b6e67ae461d41644207"
+    }
+  },
+  "high_ratio_degree_300_case": {
+    "K": {
+      "coefficient_count": 301,
+      "max_coefficient_bits": 25,
+      "sha256": "7e829f3468e84cc3ccac7e6c3ada13a9b5421e549ebefb9110e4d3fdcc6dde9a"
+    },
+    "branch_counts": {
+      "H3_class2": 3
+    },
+    "capacity": {
+      "left_bits": 909,
+      "right_bits": 939,
+      "strict": true
+    },
+    "global_coefficients": {
+      "max_bits": 28,
+      "nonzero_count": 5,
+      "sha256": "0a16eeb04d8754159537c0629088f148ed8fdb665546c2f79929ddbb209aad4b",
+      "sum_bits": 30
+    },
+    "local_rows": [
+      {
+        "alpha_mod_p": 333,
+        "branch": "H3_class2",
+        "chosen_channels": [
+          33,
+          2
+        ],
+        "chosen_full_responses": {
+          "2": 355,
+          "33": 507
+        },
+        "chosen_local_residues": {
+          "2": 378,
+          "33": 407
+        },
+        "chosen_moment_responses": {
+          "2": 0,
+          "33": 150
+        },
+        "epsilon": 1,
+        "full_target": 79,
+        "moment_target": 2,
+        "p": 587,
+        "t": 130,
+        "t0": 53
+      },
+      {
+        "alpha_mod_p": 515,
+        "branch": "H3_class2",
+        "chosen_channels": [
+          45,
+          2
+        ],
+        "chosen_full_responses": {
+          "2": 501,
+          "45": 46
+        },
+        "chosen_local_residues": {
+          "2": 576,
+          "45": 253
+        },
+        "chosen_moment_responses": {
+          "2": 0,
+          "45": 150
+        },
+        "epsilon": -1,
+        "full_target": 156,
+        "moment_target": 591,
+        "p": 593,
+        "t": 133,
+        "t0": 56
+      },
+      {
+        "alpha_mod_p": 36,
+        "branch": "H3_class2",
+        "chosen_channels": [
+          57,
+          2
+        ],
+        "chosen_full_responses": {
+          "2": 596,
+          "57": 553
+        },
+        "chosen_local_residues": {
+          "2": 53,
+          "57": 8
+        },
+        "chosen_moment_responses": {
+          "2": 0,
+          "57": 150
+        },
+        "epsilon": 1,
+        "full_target": 72,
+        "moment_target": 2,
+        "p": 599,
+        "t": 136,
+        "t0": 59
+      }
+    ],
+    "name": "high_linear_ratio_degree_300_q30",
+    "parameters": {
+      "A": 13,
+      "E": 77,
+      "channel_count": 234,
+      "degree_K": 300,
+      "degree_S": 1752,
+      "degree_h": 1453,
+      "q": 30
+    },
+    "pascal_block_checks": [
+      {
+        "absolute_formula_mod_p": 420,
+        "direct_determinant_mod_p": 420,
+        "e": 77,
+        "formula_bits": 4772,
+        "n": 120,
+        "nonzero": true,
+        "p": 587,
+        "start": 53
+      },
+      {
+        "absolute_formula_mod_p": 431,
+        "direct_determinant_mod_p": 431,
+        "e": 77,
+        "formula_bits": 4826,
+        "n": 120,
+        "nonzero": true,
+        "p": 599,
+        "start": 58
+      }
+    ],
+    "polynomial_hashes": {
+      "S": "d4fd1ee3f5370f4d7504918cfb0a12b467bdd937e74fb9340a90cd6835027aa3",
+      "h": "acf135b41d7e703faed202c288e2d1cdd0f47976b941aae65ec0797e01f66e38",
+      "q_h": "96f7c0c29f7b847f2580ddde4394e0a0674cc20644016ba95482e58187192871",
+      "r": "12d1b8e4c1724abfb7d3fc2263d02537934ac5d8c4f39f849d79c3aedabb09a3"
+    },
+    "reduced_coordinates": {
+      "I0_sha256": "62bf3c15c54a464aca3e6719a76d87ede95b97761d7e0fabb35a134418ae844f",
+      "I1_sha256": "ec9bf556e548f293d652334526d5a1c7009914c6b54e46adfbe6c277a372c8bd",
+      "J_sha256": "a44b74f7ea556cb8e88e57e7f42ea0a22bfcf578fa34ae75f2c60c75abf5886a",
+      "common_denominator_bits": 2512,
+      "gcd_common_denominator_window_product": 1
+    },
+    "residue_rows": [
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 587
+      },
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 593
+      },
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 599
+      }
+    ],
+    "window_primes": [
+      587,
+      593,
+      599
+    ],
+    "window_product": 208506509,
+    "window_product_bits": 28
+  },
+  "logical_scope": "Replay of an unconditional construction canceling every prime in the complete one-third window for arbitrary coefficient-height corrections of degree at most 12q-10, which covers every potentially nonempty window. It does not prove positivity of the corrected Taylor residual or classify e+pi.",
+  "native_N200_case": {
+    "K": {
+      "coefficient_count": 2,
+      "max_coefficient_bits": 1245,
+      "sha256": "bc4340eeaf7966221dbd51c12c7e7bb0635ea7b0364f52b8f1337738e886871a"
+    },
+    "branch_counts": {
+      "H2_class3": 12
+    },
+    "capacity": {
+      "left_bits": 951,
+      "right_bits": 981,
+      "strict": true
+    },
+    "global_coefficients": {
+      "max_bits": 103,
+      "nonzero_count": 4,
+      "sha256": "0bbdc2a8cef0929f1175d4a378bdcbd11178cfdd7d2a1f90f06759ad6bb50264",
+      "sum_bits": 104
+    },
+    "local_rows": [
+      {
+        "alpha_mod_p": 138,
+        "branch": "H2_class3",
+        "chosen_channels": [
+          5,
+          3
+        ],
+        "chosen_full_responses": {
+          "3": 300,
+          "5": 227
+        },
+        "chosen_local_residues": {
+          "3": 123,
+          "5": 123
+        },
+        "chosen_moment_responses": {
+          "3": 0,
+          "5": 35
+        },
+        "epsilon": 1,
+        "full_target": 276,
+        "moment_target": 2,
+        "p": 331,
+        "t": 7,
+        "t0": 5
+      },
+      {
+        "alpha_mod_p": 200,
+        "branch": "H2_class3",
+        "chosen_channels": [
+          1,
+          3
+        ],
+        "chosen_full_responses": {
+          "1": 95,
+          "3": 63
+        },
+        "chosen_local_residues": {
+          "1": 92,
+          "3": 331
+        },
+        "chosen_moment_responses": {
+          "1": 315,
+          "3": 0
+        },
+        "epsilon": -1,
+        "full_target": 274,
+        "moment_target": 335,
+        "p": 337,
+        "t": 10,
+        "t0": 8
+      },
+      {
+        "alpha_mod_p": 124,
+        "branch": "H2_class3",
+        "chosen_channels": [
+          1,
+          3
+        ],
+        "chosen_full_responses": {
+          "1": 14,
+          "3": 9
+        },
+        "chosen_local_residues": {
+          "1": 325,
+          "3": 216
+        },
+        "chosen_moment_responses": {
+          "1": 63,
+          "3": 0
+        },
+        "epsilon": 1,
+        "full_target": 248,
+        "moment_target": 2,
+        "p": 347,
+        "t": 15,
+        "t0": 13
+      },
+      {
+        "alpha_mod_p": 259,
+        "branch": "H2_class3",
+        "chosen_channels": [
+          1,
+          3
+        ],
+        "chosen_full_responses": {
+          "1": 31,
+          "3": 272
+        },
+        "chosen_local_residues": {
+          "1": 257,
+          "3": 83
+        },
+        "chosen_moment_responses": {
+          "1": 129,
+          "3": 0
+        },
+        "epsilon": -1,
+        "full_target": 180,
+        "moment_target": 347,
+        "p": 349,
+        "t": 16,
+        "t0": 14
+      },
+      {
+        "alpha_mod_p": 21,
+        "branch": "H2_class3",
+        "chosen_channels": [
+          1,
+          3
+        ],
+        "chosen_full_responses": {
+          "1": 176,
+          "3": 42
+        },
+        "chosen_local_residues": {
+          "1": 140,
+          "3": 236
+        },
+        "chosen_moment_responses": {
+          "1": 237,
+          "3": 0
+        },
+        "epsilon": -1,
+        "full_target": 311,
+        "moment_target": 351,
+        "p": 353,
+        "t": 18,
+        "t0": 16
+      },
+      {
+        "alpha_mod_p": 310,
+        "branch": "H2_class3",
+        "chosen_channels": [
+          1,
+          3
+        ],
+        "chosen_full_responses": {
+          "1": 109,
+          "3": 160
+        },
+        "chosen_local_residues": {
+          "1": 356,
+          "3": 246
+        },
+        "chosen_moment_responses": {
+          "1": 119,
+          "3": 0
+        },
+        "epsilon": 1,
+        "full_target": 261,
+        "moment_target": 2,
+        "p": 359,
+        "t": 21,
+        "t0": 19
+      },
+      {
+        "alpha_mod_p": 189,
+        "branch": "H2_class3",
+        "chosen_channels": [
+          1,
+          3
+        ],
+        "chosen_full_responses": {
+          "1": 18,
+          "3": 254
+        },
+        "chosen_local_residues": {
+          "1": 128,
+          "3": 82
+        },
+        "chosen_moment_responses": {
+          "1": 281,
+          "3": 0
+        },
+        "epsilon": 1,
+        "full_target": 11,
+        "moment_target": 2,
+        "p": 367,
+        "t": 25,
+        "t0": 23
+      },
+      {
+        "alpha_mod_p": 276,
+        "branch": "H2_class3",
+        "chosen_channels": [
+          1,
+          3
+        ],
+        "chosen_full_responses": {
+          "1": 41,
+          "3": 295
+        },
+        "chosen_local_residues": {
+          "1": 148,
+          "3": 104
+        },
+        "chosen_moment_responses": {
+          "1": 126,
+          "3": 0
+        },
+        "epsilon": -1,
+        "full_target": 194,
+        "moment_target": 371,
+        "p": 373,
+        "t": 28,
+        "t0": 26
+      },
+      {
+        "alpha_mod_p": 135,
+        "branch": "H2_class3",
+        "chosen_channels": [
+          1,
+          3
+        ],
+        "chosen_full_responses": {
+          "1": 57,
+          "3": 231
+        },
+        "chosen_local_residues": {
+          "1": 134,
+          "3": 101
+        },
+        "chosen_moment_responses": {
+          "1": 198,
+          "3": 0
+        },
+        "epsilon": 1,
+        "full_target": 270,
+        "moment_target": 2,
+        "p": 379,
+        "t": 31,
+        "t0": 29
+      },
+      {
+        "alpha_mod_p": 90,
+        "branch": "H2_class3",
+        "chosen_channels": [
+          1,
+          3
+        ],
+        "chosen_full_responses": {
+          "1": 65,
+          "3": 343
+        },
+        "chosen_local_residues": {
+          "1": 157,
+          "3": 107
+        },
+        "chosen_moment_responses": {
+          "1": 61,
+          "3": 0
+        },
+        "epsilon": 1,
+        "full_target": 180,
+        "moment_target": 2,
+        "p": 383,
+        "t": 33,
+        "t0": 31
+      },
+      {
+        "alpha_mod_p": 125,
+        "branch": "H2_class3",
+        "chosen_channels": [
+          1,
+          3
+        ],
+        "chosen_full_responses": {
+          "1": 30,
+          "3": 11
+        },
+        "chosen_local_residues": {
+          "1": 173,
+          "3": 142
+        },
+        "chosen_moment_responses": {
+          "1": 371,
+          "3": 0
+        },
+        "epsilon": -1,
+        "full_target": 139,
+        "moment_target": 387,
+        "p": 389,
+        "t": 36,
+        "t0": 34
+      },
+      {
+        "alpha_mod_p": 219,
+        "branch": "H2_class3",
+        "chosen_channels": [
+          1,
+          3
+        ],
+        "chosen_full_responses": {
+          "1": 306,
+          "3": 385
+        },
+        "chosen_local_residues": {
+          "1": 301,
+          "3": 169
+        },
+        "chosen_moment_responses": {
+          "1": 91,
+          "3": 0
+        },
+        "epsilon": -1,
+        "full_target": 356,
+        "moment_target": 395,
+        "p": 397,
+        "t": 40,
+        "t0": 38
+      }
+    ],
+    "name": "native_factorial_height_N200_q20",
+    "parameters": {
+      "A": 58,
+      "E": 2,
+      "channel_count": 9,
+      "degree_K": 1,
+      "degree_S": 973,
+      "degree_h": 973,
+      "q": 20
+    },
+    "pascal_block_checks": [
+      {
+        "absolute_formula_mod_p": 7,
+        "direct_determinant_mod_p": 324,
+        "e": 2,
+        "formula_bits": 67,
+        "n": 80,
+        "nonzero": true,
+        "p": 331,
+        "start": 5
+      },
+      {
+        "absolute_formula_mod_p": 314,
+        "direct_determinant_mod_p": 83,
+        "e": 2,
+        "formula_bits": 217,
+        "n": 80,
+        "nonzero": true,
+        "p": 397,
+        "start": 37
+      }
+    ],
+    "polynomial_hashes": {
+      "S": "6884e7af793573744fa2be902cbdea3728210b18228a65f8c9e87e4965cc83e8",
+      "h": "975a0b6e67c42df17cfb7c6a6ab8fd42135b8428aec033759752f3a8a8474c9f",
+      "q_h": "9897a0f848a301becdaa8d865100ee1a3e76c2980756b3d6d123c356fc6353b2",
+      "r": "6691638e4e31bba7c5aa1f46b36521a6f322add58deacffbf8c145add2291793"
+    },
+    "reduced_coordinates": {
+      "I0_sha256": "4cb8a85ccdcd8ccbc427a716ea64206d0790d899279cd0954c9dec4ab6096e06",
+      "I1_sha256": "3be7b94aab520bff17653854a5824a9ddd4c8a71aebf2d30369f749761ccf269",
+      "J_sha256": "85f4ae169e6529d72e3a7de654f575388bffd399911d017990738749f1b5a5e5",
+      "common_denominator_bits": 1076,
+      "gcd_common_denominator_window_product": 1
+    },
+    "residue_rows": [
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 331
+      },
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 337
+      },
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 347
+      },
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 349
+      },
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 353
+      },
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 359
+      },
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 367
+      },
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 373
+      },
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 379
+      },
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 383
+      },
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 389
+      },
+      {
+        "I0": 0,
+        "I1": 0,
+        "full_S": 0,
+        "p": 397
+      }
+    ],
+    "window_primes": [
+      331,
+      337,
+      347,
+      349,
+      353,
+      359,
+      367,
+      373,
+      379,
+      383,
+      389,
+      397
+    ],
+    "window_product": 5253333091597988325086927419397,
+    "window_product_bits": 103
+  },
+  "native_parameters": {
+    "I_N_bits": 0,
+    "M_N_bits": 1246,
+    "N": 200,
+    "R_N_bits": 101
+  },
+  "native_target_zero_output_check": {
+    "K_max_coefficient_bits": 1245,
+    "N": 200,
+    "base_coordinate": "integral_0^1 (F_N^*-N!)/(1+x^2) dx",
+    "base_coordinate_sha256": "cb714a747cc82b7ef0282071746ea418aef02506a70ffe6ebd5aaab701ee57f2",
+    "base_denominator_bits": 289,
+    "base_quotient_degree": 198,
+    "gcd_base_denominator_window_product": 1,
+    "gcd_localized_denominator_window_product": 1,
+    "localized_constant_coefficient": 1,
+    "localized_coordinate": "integral_0^1 (F_{N,q}-N!)/(1+x^2) dx",
+    "localized_coordinate_sha256": "30e1fcf14fae9c51bcd0a5fc33a143e28742e5a8192006ac9f7edce7d0ac2034",
+    "localized_denominator_bits": 593,
+    "localized_form_sha256": "0aff6ab7563bbd467f6877f01a700b3b5d03c0a82834d9f41c3a852334ca9f69",
+    "localized_polynomial_content": 1,
+    "target_factorial_bits": 1246
+  },
+  "remaining_scope": "The analytic sign of the localized Taylor residual and a genuinely shrinking primitive output remain unresolved.",
+  "resource_policy": {
+    "RSS_guard_kib": 41943040,
+    "hardware_accelerator": "Not used: all decisive computations are exact integer, modular, polynomial, determinant, or rational arithmetic.",
+    "meaning": "The 40-GiB value is a failure guard only; it neither allocates nor limits the approximately 50 GiB available Colab RAM."
+  },
+  "schema": "common_kernel_growing_correction_full_window_certificate_v1",
+  "source_sha256": "d1cd0012c8457ced0f064f23a8bf3256e91ff26730b8eaf5bcd7d984836f6ca7"
+}

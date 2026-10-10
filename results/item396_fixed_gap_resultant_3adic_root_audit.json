@@ -1,0 +1,56 @@
+{
+  "item": 396,
+  "schema": "item396-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_LOGARITHMIC_CORRIDOR_FIXED_GAP_HEIGHT_NO_GO_AND_PRIMITIVE_CUBIC_CARRIER",
+  "scope": "independent root audit of provenance, the moving corridor, the general exponential-height capacity theorem, primitive cubic radical saturation, congruence-class boundary, witnesses, replay, and ledger interpretation",
+  "checks": {
+    "canonical_dependencies_checked": 6,
+    "canonical_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "control_characters": 0,
+    "finite_to_infinite_inference_used": false,
+    "item148_rebooked": false,
+    "all_depth_fixed_gap_claim_made": false,
+    "root_repairs": "Promoted the work-only package, replaced its status and paths, and rebuilt the manifest against immutable canonical dependencies. The inherited Item 148 theorem remains explicitly uncredited."
+  },
+  "mathematical_audit": {
+    "provenance": "The exact v3 formula and nonvanishing of the connection determinant are canonical Item 148, while the exponential numerator bound is Item 146. Item 396 uses but does not rebook either theorem.",
+    "corridor": "For q<=Q_m, 62208^q is at most m/(129 log^4 m) and q^3 is at most log^3 m, so the inherited height is below m/log m<6m<p. Every prime in the displayed interval is therefore excluded.",
+    "height_no_go": "If q<=m, the successful comparison A q^C B^q<p<=7m forces q=O(log m). If q>m, then p<7q while A q^C B^q exceeds 7q for all sufficiently large q. At most O(log m) gaps remain, carrying O(log^2 m)=o(m) log mass.",
+    "primitive_carrier": "After a 2,3-supported clearing, c_s and t_s are integral and W_s=(t_s^3-4^(q-1)c_s^3)/g_s^2 is integral. If p divides their gcd, the remaining p valuation survives; otherwise, bijectivity of cubing for q=5 mod 6 makes p|W_s equivalent to t_s=Xc_s, including zero-coordinate cases.",
+    "congruence_boundary": "For q=5 mod 6 the cube map is bijective, so W0 and W1 exactly detect the two residue equations and the determinant is redundant. For q=1 mod 6, different cube-root branches can satisfy both cubics, and the determinant is needed to align them.",
+    "witnesses": "The three exact examples separately refute sufficiency of the determinant alone, one cubic row alone, and the two cubic rows without the branch selector. They are minimality witnesses, not actual common-zero counterexamples.",
+    "scope": "The fixed-gap equations are modulo p only; no valuation-depth identity is inferred. The logarithmic corridor has zero normalized capacity and the proportional moving-gap support conjecture remains open."
+  },
+  "strict_labels": {
+    "PROVED_NEW": [
+      "logarithmically widening fresh-prime exclusion corridor",
+      "zero-capacity theorem for ordinary exponential fixed-gap height",
+      "exact primitive two-cubic radical carrier on q=5 mod 6",
+      "sharp congruence-class carrier minimality"
+    ],
+    "INHERITED_NO_CREDIT": [
+      "Item 148 determinant nonvanishing",
+      "Item 146 numerator height",
+      "Item 390 all-depth large-prime saturation"
+    ],
+    "OPEN": [
+      "the full p>6m support conjecture",
+      "uniform power-of-two incompatibility at determinant divisors",
+      "uniform cubic Smith support or a radical weakening",
+      "weighted zero density for proportional moving gaps",
+      "any conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "height_only_method_capacity": 0,
+    "new_route1_rate": 0,
+    "new_booking": 0,
+    "new_total_route1_capacity_reduction": 0
+  }
+}

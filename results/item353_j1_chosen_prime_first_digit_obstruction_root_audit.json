@@ -1,0 +1,66 @@
+{
+  "item": 353,
+  "schema": "item353-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_EXACT_CHOSEN_PRIME_FIRST_DIGIT_AND_MAXIMAL_DEGREE_SCOPED_NO_GO",
+  "scope": "independent root audit of the chosen split-prime Teichmuller expansion, four-coordinate carry, first quotient digit, and canonical Fermat-correction interpolation degree",
+  "checks": {
+    "certificate_sha256": "7a427d4c4a7f4ac7bc1f8a86e742b482b2fab83b5f2145f577159c5d844d87ca",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_checks": 30,
+    "work_manifest_failures": 0,
+    "frozen_dependencies_checked": 24,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 7,
+    "work_hash_list_match": true,
+    "declared_kummer_rows": 5,
+    "declared_field_primes": 4,
+    "independent_extra_primes": 10,
+    "independent_residue_checks": 256,
+    "independent_additional_actual_rows": 25,
+    "all_independent_teichmueller_interpolation_and_digit_checks": true,
+    "prime_scan_for_density": false,
+    "report_inline_delimiters": "106/106",
+    "report_display_delimiters": "46/46",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "Teichmueller": "a^p is the unique Teichmuller lift modulo p^2, giving [a]=a+p(a^p-a)/p exactly to the first quotient digit",
+    "weight_absorption": "multiplicativity of Teichmuller lifts absorbs each of the four scalar weights into the corresponding Kummer residue without adding a Galois trace or unselected split coordinate",
+    "carry": "termwise lifting gives the canonical integer carry plus the sum of Fermat corrections; the zeroth selected equation controls neither component",
+    "valuation_controls": "the predeclared p=13 and p=47 selected zeros have nonzero quotient digits, so selected-factor vanishing does not imply valuation at least two; neither is promoted to a full collision",
+    "interpolation": "the Lagrange indicator formula makes the leading coefficient minus the sum of delta_p; pairing a with p-a modulo p^2 gives degree exactly p-1 and leading coefficient (p-1)/2",
+    "scope_warning": "maximal degree applies to the canonical universal polynomial correction before composition; rational compression, special composed cancellation, and justified Gross-Koblitz factorizations remain open",
+    "ledger_warning": "an extra p-adic digit not forced by the ordinary p-level collision receives no capacity credit"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "chosen-prime first-digit formula",
+      "four-coordinate carry decomposition",
+      "maximal canonical interpolation degree",
+      "scoped direct polynomial-phase no-go",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "five predeclared Kummer controls, four declared field controls, and independent formula checks; no density inference"
+    ],
+    "OPEN": [
+      "zeroth-digit nonconcentration",
+      "special composed or rational compression",
+      "bounded-length Gross-Koblitz/Jacobi factorization",
+      "any extra p^2 gate from full collision",
+      "W_b(M)=o(M)",
+      "any reduction of 1/36",
+      "Route 1",
+      "e+pi"
+    ]
+  },
+  "capacity": {
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "new_forced_condition": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

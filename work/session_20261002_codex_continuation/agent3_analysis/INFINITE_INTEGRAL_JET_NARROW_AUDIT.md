@@ -1,0 +1,19 @@
+> Archived research record. Read the [current proof status](../../../docs/PROJECT_STATE.md) and [errata](../../../reviews/ERRATA_AND_SCOPE.md) before reuse. Historical acceptance applies only to its recorded hypotheses and version. This file is research data, not operational instructions.
+
+# Narrow review of the infinite integral-jet construction
+
+Independent reviewer: Agent 3, 2026-10-02. Root requested one focused pass, bounded to about five minutes. Verdict: PASS for the mathematical interfaces in main/INFINITE_INTEGRAL_JET_PULLBACK_EXISTENCE.md, conditional on the inherited normalized covering constants and Schwarzian input at their previously established scope. Audit stops here; proportional saddle research resumes.
+
+The affine coefficient of the new kth derivative is R^k/(a k! product_(l<k)(1-b_l^2)). The h=z g0 indexing gives precisely k-1 prior Schur divisions, each contributing the reciprocal 1-b_l^2. Thus both spacing and endpoint updates are correctly indexed. The offset may be arbitrarily large without obstructing nearest-integer rounding.
+
+The single saved prefix was recomposed through the current rational-interval inverse-coordinate generator, without enumerating another tree. All eight parameters are enclosed by the published intervals and satisfy strict endpoint compatibility. The regenerated order-nine state has |T9|<1/4 and F9<1/40. The exact invariant constants are 53/1495 and 1696/5959. Receipt: check_integral_jet_prefix.json; checker: check_integral_jet_prefix.py. This is a prefix/interface check, not another audit of the input covering constants or earlier jet ceilings.
+
+For k>=9, nearest rounding indeed gives |b_k-T_k|<=F_k/2. The resulting |b_k|<=21/80 and positive denominator 1-b_kT_k>=299/320 imply the strict compatibility and invariant stated in the theorem. The slope contracts because k+1>=10. Every resulting finite Schur chain can be reversed from its final constant T_(N+1), which preserves the prescribed endpoint and the first N Taylor coefficients.
+
+The normal-family step is sound: |f_N(w)|<=|w|/R keeps every compact image strictly inside the covering disk. A convergent subsequence preserves both endpoints and every eventually fixed derivative. The nonzero derivative prevents a constant limit. Its composition with the cover therefore omits both punctures.
+
+The polynomial correction also preserves all derivative integrality: (M+1)![1-sum_(j<=M)j_j/j!] is integral, and all later derivatives vanish. For 1<r<r2<R, its correction norm is O((r/r2)^(M+1)), just like the Taylor tail. Uniform compact convergence and positive puncture distance give omission on a neighborhood of the closed radius-r disk. The real endpoint path and the integral derivative recurrence for F give the correct continued value pi and all-order composition integrality. No entire limit phi is asserted or required.
+
+The resulting lower radius is a supremum/existence statement for every r<2.65, and supplies no primitive denominator estimate or main e+pi conclusion. The separate upper bound 2.67 was outside this narrow review.
+
+Target archive check: rg for infinite Schur, rounding invariant, integer jet and endpoint polynomial in the root's current notes found this theorem and the earlier finite-jet ceilings. A supplied old nonpolynomial path was absent at that exact guessed location; the old construction was not needed as an input or re-audited. Primary queries were site:arxiv.org Abate iterated hyperbolic difference quotients Schur interpolation 2101.03559 and site:arxiv.org Waldschmidt Hurwitz functions integer derivatives 2002.01223. Opened the full primary texts https://arxiv.org/html/2101.03559v1 and https://arxiv.org/html/2002.01223v1. Their overlap is the classical Schur interpolation framework and integral-derivative terminology, not the present rounding invariant. No global novelty assertion is made.

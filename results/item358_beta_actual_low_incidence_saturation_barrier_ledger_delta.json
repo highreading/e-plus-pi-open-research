@@ -1,0 +1,88 @@
+{
+  "schema": "item358-beta-actual-low-incidence-saturation-barrier-ledger-delta-v1",
+  "item": 358,
+  "date": "2026-09-01",
+  "classification": "PROVED_ACTUAL_INCIDENCE_SATURATION_SINGLETON_SQUAREFREE_SCOPED_NO_GO",
+  "actual_item316_input": {
+    "canonical_word": true,
+    "exact_zero_rows_omitted": true,
+    "cofactors": "Z_j=|epsilon*(delta_j-w_j*delta_(j-1))|<A^2",
+    "common_divisor": "Q|b",
+    "quotient_localization": "p does not divide t",
+    "genuine_occurrence_set": "Occ(p)={j:p|Z_j}"
+  },
+  "admission": {
+    "target": "Sigma_(<L)^(1)=sum log p for v_p(Q)=1 and 1<=nu_p<L",
+    "raw_maximum": "Sigma_(<L)^(1)<=log Q<=log b",
+    "required_outcome": "o(log b) or a rigorous barrier for available pairwise/squarefull/height data",
+    "squarefull_overlap_removed": true
+  },
+  "proved": {
+    "incidence_set_saturation": "s_S=gcd(Z_j:j in S)/gcd(gcd(Z_j:j in S),(abs(t)*product_(i outside S)Z_i)^M_A)",
+    "prime_support_equivalence": "p|s_S iff p does not divide t and Occ(p)=S",
+    "genuine_singleton": "s_j imposes avoidance at every earlier and later row",
+    "fresh_Q_part": "Q^[1]=product_(v_p(Q)=1)p",
+    "fresh_low_incidence_carrier": "U_(<L)^(1)=gcd(Q^[1],rad_(>A)(product_(0<|S|<L)s_S))",
+    "carrier_identity": "log U_(<L)^(1)=Sigma_(<L)^(1)",
+    "four_quadrants": "R_1=U_11*U_12*U_21*U_22",
+    "pairwise_support": "R_2=U_21*U_22",
+    "squarefull_support": "gcd(R_1,rad E(Q))=U_12*U_22",
+    "fresh_orthogonality": "gcd(U_11,R_2*E(Q))=1",
+    "union_ideal": "intersection_j (Y_j)=(product_j Y_j) and intersection_j(Q,Y_j)=(Q,product_j Y_j)",
+    "disjoint_windows": "window singleton products multiply back to the global product"
+  },
+  "scoped_no_go": {
+    "pairwise_moment": "fresh singletons contribute zero",
+    "squarefull_E_Q": "fresh v_p(Q)=1 singletons contribute zero",
+    "uniform_algebraic_ideal_union": "requires either the original full-height Q carrier or linear row degree and the full product factor; finite-field polynomial functions are outside scope",
+    "disjoint_window_height": "local bounds sum to at most 2N_A log A=(2+o(1))log b",
+    "global_Q_intersection": "only restores the full log b ceiling",
+    "large_sieve_or_distribution_theorem_closed": false
+  },
+  "missing_arithmetic": {
+    "first": "log gcd(Q^[1],rad_(>A) product_j s_j)=o(log b)",
+    "complete": "log U_(<L(n))^(1)=o(log b) for some L(n)->infinity",
+    "requires": [
+      "the unique canonical word",
+      "genuine outside-row avoidance",
+      "a new divisor-incidence correlation or large-sieve theorem"
+    ]
+  },
+  "strict_labels": {
+    "PROVED": [
+      "actual incidence-set saturation",
+      "fresh low-incidence carrier",
+      "four-quadrant overlap separation",
+      "pairwise-moment orthogonality",
+      "uniform union-ideal barrier",
+      "disjoint-window height barrier"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared saturation, quadrant, moment, union-ideal, and window controls"
+    ],
+    "OPEN": [
+      "actual singleton gcd correlation",
+      "actual growing low-incidence mass",
+      "Xi_Q",
+      "Item265 squarefull excess",
+      "H_Q",
+      "K_Q",
+      "Gamma_Q",
+      "centered half-bound",
+      "beta capacity",
+      "Route 1",
+      "e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_fresh_singleton_maximum": "log b",
+    "row_product_maximum": "(2+o(1))*log b",
+    "pairwise_rate_on_fresh_singletons": 0,
+    "squarefull_rate_on_fresh_singletons": 0,
+    "actual_singleton_rate": "OPEN",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "booking": 0
+  },
+  "canonical_files_modified": false
+}

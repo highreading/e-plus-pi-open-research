@@ -1,0 +1,477 @@
+{
+  "booking": {
+    "capacity_reduction": 0,
+    "new_divisibility_exponent": 0,
+    "new_unconditional_linear_log_rate": 0
+  },
+  "dependency": {
+    "item250_j2_ordinary_phase_certificate.py": "2364a9e9c9be0ea0827c2b12137883ad326d77017a53bb4f242be300335e90ce"
+  },
+  "exact_formulas": {
+    "beta": "B_s=(2s-1)!(s-1)!/(3s-1)!",
+    "diagonal": "A_s=[x^(s-1)](((2+x)^(3s-1)-1)/(1+x))",
+    "exceptional_rank_one": "if f0*U1-f1*U0=0 and (f0,f1)!=(0,0) mod p, collision iff f_nu*B_s*((9*kappa/2)A_s-tau)+U_nu=0 for one/every nonzero f_nu",
+    "generating_function": "w=t(2+w)^3; sum_(s>=1)A_s*t^(s-1)=(2+w)^3/(2(1-w^2))-1/(1+t)",
+    "increment": "Delta_s=A_(s+1)+A_s; Delta_(s+1)/Delta_s=6(3s+1)(3s+2)(28s+39)/((s+1)(2s+3)(28s+11)) over Q",
+    "initial_values": "A_1=3, A_2=49",
+    "integer_period": "A_s=sum_(j=0)^(2s-1) C(3s-1,s+j)C(s+j-1,j)",
+    "period": "e=J_0=B_s*A_s/2",
+    "rank_zero_branch": "if f0=f1=0 mod p, collision requires U0=U1=0 and Z is irrelevant",
+    "recurrence": "(s+1)(2s+3)(28s+11)A_(s+2)-(1456s^3+3456s^2+2303s+435)A_(s+1)-6(3s+1)(3s+2)(28s+39)A_s=0",
+    "surviving_period": "Z=B_s*((9*kappa_r/2)*A_s-tau_(r,s))",
+    "tail_ratio": "mathfrak_f=B_s*tau_(r,s), tau=(-1)^(s+h)*(2/3)*(s)_(h+1)/(3s+1)_(h+1)"
+  },
+  "explicit_affine_false_positives": [
+    {
+      "A": 501,
+      "W": 164,
+      "Z": 108,
+      "beta": 605,
+      "f0": 0,
+      "f1": 573,
+      "g0": 0,
+      "g1": 374,
+      "linear": 0,
+      "p": 953,
+      "r": 1,
+      "rank_zero": false,
+      "s": 158,
+      "tau": 671,
+      "u0": 0,
+      "u1": 435
+    },
+    {
+      "A": 2242,
+      "W": 192,
+      "Z": 1353,
+      "beta": 1896,
+      "f0": 320,
+      "f1": 1029,
+      "g0": 1645,
+      "g1": 1690,
+      "linear": 0,
+      "p": 2281,
+      "r": 5,
+      "rank_zero": false,
+      "s": 378,
+      "tau": 322,
+      "u0": 2075,
+      "u1": 863
+    },
+    {
+      "A": 89,
+      "W": 2094,
+      "Z": 3760,
+      "beta": 1420,
+      "f0": 3491,
+      "f1": 3353,
+      "g0": 519,
+      "g1": 4302,
+      "linear": 0,
+      "p": 5711,
+      "r": 31,
+      "rank_zero": false,
+      "s": 941,
+      "tau": 5656,
+      "u0": 3948,
+      "u1": 1199
+    },
+    {
+      "A": 920,
+      "W": 518,
+      "Z": 85,
+      "beta": 373,
+      "f0": 439,
+      "f1": 34,
+      "g0": 982,
+      "g1": 953,
+      "linear": 0,
+      "p": 1279,
+      "r": 41,
+      "rank_zero": false,
+      "s": 199,
+      "tau": 175,
+      "u0": 758,
+      "u1": 621
+    },
+    {
+      "A": 3498,
+      "W": 1379,
+      "Z": 3466,
+      "beta": 390,
+      "f0": 3691,
+      "f1": 3090,
+      "g0": 3118,
+      "g1": 1945,
+      "linear": 0,
+      "p": 3929,
+      "r": 55,
+      "rank_zero": false,
+      "s": 636,
+      "tau": 876,
+      "u0": 2936,
+      "u1": 2459
+    },
+    {
+      "A": 1591,
+      "W": 1021,
+      "Z": 363,
+      "beta": 570,
+      "f0": 10,
+      "f1": 1273,
+      "g0": 1420,
+      "g1": 153,
+      "linear": 0,
+      "p": 1657,
+      "r": 59,
+      "rank_zero": false,
+      "s": 256,
+      "tau": 358,
+      "u0": 1104,
+      "u1": 357
+    },
+    {
+      "A": 124,
+      "W": 41,
+      "Z": 55,
+      "beta": 64,
+      "f0": 216,
+      "f1": 201,
+      "g0": 238,
+      "g1": 354,
+      "linear": 0,
+      "p": 367,
+      "r": 65,
+      "rank_zero": false,
+      "s": 39,
+      "tau": 319,
+      "u0": 102,
+      "u1": 309
+    }
+  ],
+  "parameters": {
+    "cell": "p=2r+6s+3, r odd, Q=2s",
+    "identity_s_max_inclusive": 1000,
+    "phase_prime_max_inclusive": 401,
+    "scalar_prime_max_inclusive": 20000
+  },
+  "phase_replay": {
+    "counts": {
+      "common_gate_zeros": 0,
+      "linear_exceptional_rows": 3,
+      "period_identity_rows": 1153,
+      "rank_zero_rows": 0,
+      "rows": 1153
+    },
+    "linear_hits": [
+      {
+        "A": 24,
+        "W": 260,
+        "Z": 246,
+        "beta": 224,
+        "f0": 98,
+        "f1": 135,
+        "g0": 173,
+        "g1": 136,
+        "linear": 0,
+        "p": 271,
+        "r": 113,
+        "rank_zero": false,
+        "s": 7,
+        "tau": 199,
+        "u0": 184,
+        "u1": 259
+      },
+      {
+        "A": 124,
+        "W": 41,
+        "Z": 55,
+        "beta": 64,
+        "f0": 216,
+        "f1": 201,
+        "g0": 238,
+        "g1": 354,
+        "linear": 0,
+        "p": 367,
+        "r": 65,
+        "rank_zero": false,
+        "s": 39,
+        "tau": 319,
+        "u0": 102,
+        "u1": 309
+      },
+      {
+        "A": 114,
+        "W": 334,
+        "Z": 371,
+        "beta": 266,
+        "f0": 324,
+        "f1": 159,
+        "g0": 382,
+        "g1": 152,
+        "linear": 0,
+        "p": 383,
+        "r": 109,
+        "rank_zero": false,
+        "s": 27,
+        "tau": 53,
+        "u0": 57,
+        "u1": 145
+      }
+    ],
+    "role": "bounded exact replay only",
+    "row_digest_sha256": "4097e9c33b691a68ef2aaf6aa7b8c8dbc1361cd5e755db98970c56b7e92c7010"
+  },
+  "scalar_zero_scan": {
+    "A_zero_count": 185,
+    "first_A_zeros": [
+      [
+        31,
+        3,
+        5
+      ],
+      [
+        151,
+        11,
+        41
+      ],
+      [
+        151,
+        21,
+        11
+      ],
+      [
+        173,
+        28,
+        1
+      ],
+      [
+        251,
+        35,
+        19
+      ],
+      [
+        313,
+        22,
+        89
+      ],
+      [
+        367,
+        13,
+        143
+      ],
+      [
+        461,
+        64,
+        37
+      ],
+      [
+        643,
+        67,
+        119
+      ],
+      [
+        743,
+        67,
+        169
+      ],
+      [
+        821,
+        122,
+        43
+      ],
+      [
+        859,
+        33,
+        329
+      ],
+      [
+        967,
+        51,
+        329
+      ],
+      [
+        1061,
+        40,
+        409
+      ],
+      [
+        1069,
+        168,
+        29
+      ],
+      [
+        1163,
+        65,
+        385
+      ],
+      [
+        1303,
+        43,
+        521
+      ],
+      [
+        1549,
+        26,
+        695
+      ],
+      [
+        1607,
+        165,
+        307
+      ],
+      [
+        1607,
+        257,
+        31
+      ]
+    ],
+    "first_increment_zeros": [
+      [
+        41,
+        4,
+        7
+      ],
+      [
+        97,
+        10,
+        17
+      ],
+      [
+        151,
+        5,
+        59
+      ],
+      [
+        263,
+        9,
+        103
+      ],
+      [
+        431,
+        15,
+        169
+      ],
+      [
+        433,
+        46,
+        77
+      ],
+      [
+        487,
+        17,
+        191
+      ],
+      [
+        599,
+        21,
+        235
+      ],
+      [
+        601,
+        64,
+        107
+      ],
+      [
+        769,
+        82,
+        137
+      ],
+      [
+        823,
+        29,
+        323
+      ],
+      [
+        881,
+        94,
+        157
+      ],
+      [
+        937,
+        100,
+        167
+      ],
+      [
+        991,
+        35,
+        389
+      ],
+      [
+        1049,
+        112,
+        187
+      ],
+      [
+        1103,
+        39,
+        433
+      ],
+      [
+        1217,
+        130,
+        217
+      ],
+      [
+        1327,
+        47,
+        521
+      ],
+      [
+        1439,
+        51,
+        565
+      ],
+      [
+        1553,
+        166,
+        277
+      ]
+    ],
+    "increment_zero_count": 194,
+    "prime_max_inclusive": 20000,
+    "role": "bounded exact replay only",
+    "row_digest_sha256": "455b48e4e2cedfe0737ef32053e4575eb2162ba6469ae5c47b160cc8b8225070",
+    "rows": 1763142
+  },
+  "schema": "item251-j2-exceptional-period-v1",
+  "status": {
+    "EXACT_FINITE": [
+      "the phase identity and exceptional-row replay through the recorded phase prime bound",
+      "the recorded larger affine false positives",
+      "the separate scalar zero census through the recorded scalar prime bound"
+    ],
+    "OPEN": [
+      "all-prime nonvanishing or zero-density control of the second residual on affine-exceptional rows",
+      "all-prime classification of the rank-zero branch",
+      "a rowwise theorem for the incomplete hypergeometric sum A_s modulo p",
+      "any capacity reduction, Route-1 gain, or conclusion about e+pi"
+    ],
+    "PROVED": [
+      "the exact beta normalization e=B_s*A_s/2 and tail ratio mathfrak_f=B_s*tau",
+      "the exact rank-aware formula for the surviving period Z on Item250's exceptional locus",
+      "the coefficient, diagonal, algebraic generating-function, and telescoping-recurrence descriptions of A_s",
+      "the first-order hypergeometric recurrence for A_(s+1)+A_s and the resulting alternating incomplete-sum structure",
+      "the complete denominator audit stated in this certificate"
+    ]
+  },
+  "symbolic_replay": {
+    "direct_sum_diagonal_integral_checks": 300,
+    "generating_function_coefficients": 30,
+    "increment_ratio_checks": 999,
+    "recurrence_checks": 999,
+    "telescoping": {
+      "max_s_degree": 5,
+      "max_u_degree": 6,
+      "nonzero_monomials": 41
+    }
+  },
+  "unit_audit": {
+    "beta_factorials": "all arguments <=3s-1<p",
+    "division_by_f_vector": false,
+    "recurrence_reduction_warning": "28s+11 and other displayed recurrence factors are not asserted p-units; the recurrence is used integrally",
+    "tail_factorials": "all arguments <=3s+h+1<p",
+    "tau_denominators": "3 and 3s+j (1<=j<=h+1) are in [1,p-1]",
+    "telescoper_denominators": "4s(2s+1) is a p-unit because 1<=2s+1<p"
+  }
+}

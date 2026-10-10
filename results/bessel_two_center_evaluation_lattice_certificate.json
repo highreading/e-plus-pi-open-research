@@ -1,0 +1,200 @@
+{
+  "Bessel_cross_determinant": {
+    "common_prime_valuation_checks": 168,
+    "denominator_gcd_identity_checks": 1200,
+    "primitive_and_Pade_cross_determinant_checks": 1200,
+    "representatives": [
+      {
+        "C_h_n": 1,
+        "gcd": 1,
+        "h": 1,
+        "n": 0,
+        "primitive_cross_determinant": 1,
+        "q_n": 1,
+        "q_n_plus_h": 1
+      },
+      {
+        "C_h_n": 10340,
+        "gcd": 1,
+        "h": 4,
+        "n": 3,
+        "primitive_cross_determinant": -10340,
+        "q_n": 71,
+        "q_n_plus_h": 10391023
+      },
+      {
+        "C_h_n": 66470718073,
+        "gcd": 1,
+        "h": 7,
+        "n": 12,
+        "primitive_cross_determinant": 66470718073,
+        "q_n": 781379079653017,
+        "q_n_plus_h": 2599031470043405251089952039
+      },
+      {
+        "C_h_n": 19550470806821514827142592757743792,
+        "gcd": 1,
+        "h": 16,
+        "n": 40,
+        "primitive_cross_determinant": 19550470806821514827142592757743792,
+        "q_n": 53118799672103032679656568470993981903265675730523638890005371087315761,
+        "q_n_plus_h": 168249430136590070897030603124419069820693666157441242334097639630241033289949719881238748407269259487365009
+      }
+    ],
+    "three_solution_transfer_checks": 3600,
+    "transfer_height_checks": 1200
+  },
+  "description": "Exact finite diagnostics for two-center evaluation lattices and the primitive Bessel cross-determinant",
+  "single_vector_interpolation": {
+    "primitive_adjacent_center_interpolation_checks": 186,
+    "representatives": [
+      {
+        "H1": 6,
+        "P": 8,
+        "R": 9,
+        "coefficients": [
+          5,
+          1
+        ],
+        "n": 3
+      },
+      {
+        "H1": 3799,
+        "P": 125,
+        "R": 343,
+        "coefficients": [
+          -3581,
+          218
+        ],
+        "n": 17
+      },
+      {
+        "H1": 35029,
+        "P": 1024,
+        "R": 2187,
+        "coefficients": [
+          -33866,
+          1163
+        ],
+        "n": 30
+      }
+    ]
+  },
+  "status": "finite diagnostic; the all-parameter two-center index, rank-two determinant divisibility, transfer determinant and gcd law are proved symbolically in the companion source; no individual digit-depth bound is claimed",
+  "two_center_lattice": {
+    "exact_finite_image_checks": 6,
+    "explicit_basis_checks": 6,
+    "primitive_content_checks": 24,
+    "rank_two_determinant_checks": 24,
+    "representatives": [
+      {
+        "P": 5,
+        "R": 7,
+        "basis_columns": [
+          [
+            5,
+            -5
+          ],
+          [
+            0,
+            7
+          ]
+        ],
+        "delta": 1,
+        "h": 1,
+        "index": 35,
+        "n": 0
+      },
+      {
+        "P": 8,
+        "R": 12,
+        "basis_columns": [
+          [
+            20,
+            -4
+          ],
+          [
+            -18,
+            6
+          ]
+        ],
+        "delta": 2,
+        "h": 2,
+        "index": 48,
+        "n": 3
+      },
+      {
+        "P": 18,
+        "R": 24,
+        "basis_columns": [
+          [
+            33,
+            -3
+          ],
+          [
+            -20,
+            4
+          ]
+        ],
+        "delta": 6,
+        "h": 6,
+        "index": 72,
+        "n": 5
+      },
+      {
+        "P": 25,
+        "R": 14,
+        "basis_columns": [
+          [
+            275,
+            -25
+          ],
+          [
+            938,
+            -84
+          ]
+        ],
+        "delta": 1,
+        "h": 4,
+        "index": 350,
+        "n": 7
+      },
+      {
+        "P": 27,
+        "R": 45,
+        "basis_columns": [
+          [
+            60,
+            -3
+          ],
+          [
+            -55,
+            5
+          ]
+        ],
+        "delta": 9,
+        "h": 9,
+        "index": 135,
+        "n": 11
+      },
+      {
+        "P": 32,
+        "R": 75,
+        "basis_columns": [
+          [
+            368,
+            -16
+          ],
+          [
+            5325,
+            -225
+          ]
+        ],
+        "delta": 1,
+        "h": 10,
+        "index": 2400,
+        "n": 13
+      }
+    ]
+  }
+}

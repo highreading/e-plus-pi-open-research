@@ -1,0 +1,59 @@
+{
+  "artifact": "item410_mixed_cubic_compatible_scalar_carrier_ledger_delta",
+  "item": 410,
+  "status": "CANONICAL_ROOT_AUDITED_NO_BOOKING",
+  "booking": {
+    "route1_rate_delta": 0,
+    "mixed_cubic_divisor_lower_bound_delta": 0,
+    "beta_matching_lower_bound_delta": 0,
+    "total_capacity_ceiling_delta_proved": 0
+  },
+  "capacity_admission": {
+    "H_only_perfect_success_numeric_ceiling_reduction": 0,
+    "combined_large_component_ceiling": "log(136)/6 = 0.8187758142893420014...",
+    "new_carrier_normalized_height_upper_constant": "(14 log 2 + 4 log(3e/2))/6 = 2.55...",
+    "reason": "primitive G can still occupy the full combined Item390 ceiling, and the explicit W_m height bound is weaker than that ceiling"
+  },
+  "proved_actual_family_results": {
+    "S_normal_form": "S_m=(1-z)^(10m+1)/(1-z^4)^(4m+1), R_m=(1+z)^(4m+1)S_m",
+    "S_recurrence": "(j+1)s_(j+1)+(10m+1)(s_j+s_(j-1)+s_(j-2))-(j+6m)s_(j-3)=0",
+    "R_scalar_collapse": "[z^n]R=(-1)^(n/2)E_m and [z^(n-1)]R=(-1)^(n/2)O_m modulo every compatible p",
+    "S_scalar_collapse": "[z^n]S=U_(m,delta) and [z^(n-1)]S=V_(m,delta), delta=n mod 4",
+    "carrier": "p|H_q implies p|J_(m,delta)|W_m",
+    "weighted_mass": "if (E_m,O_m)!=(0,0), sum over compatible H-collision primes log p <= log rad(W_m) <= log W_m",
+    "height": "|num E_m|,|num O_m| <= 2^(14m)(6m)^(4m)/(4m)!"
+  },
+  "exact_finite_only": {
+    "range": "1<=m<=128",
+    "observations": [
+      "no E_m=O_m=0",
+      "J_(m,0)=J_(m,2)",
+      "both phase carriers have no prime factor above 6m"
+    ],
+    "rejected_strengthenings": [
+      "W_m divides binomial(6m,2m) fails beginning at m=33",
+      "J_(m,delta) divides binomial(6m,2m) fails at m=109 and m=122"
+    ],
+    "not_promoted_to_theorem": true
+  },
+  "smallest_open_lemmas": [
+    "uniform exclusion of E_m=O_m=0",
+    "log rad(W_m)=o(m)",
+    "rad(J_(m,delta)) divides (6m)! for every m and delta in {0,2}",
+    "the four-adjacent H-only lemma"
+  ],
+  "overlap_rules": [
+    "J_(m,delta) and W_m are exclusion carriers, not new divisor factors",
+    "H and primitive G are a primewise partition only after common content is removed; their raw logarithms are not independent reservoirs",
+    "no upper bound for the H stratum is subtracted from the combined Item390 ceiling without a disjoint primitive-G lower bound",
+    "finite radical support is not booked as an all-m theorem"
+  ],
+  "open": [
+    "compatible H support",
+    "primitive G support",
+    "H_q*G_q^prim divides P_q",
+    "c_m^>=1",
+    "Route 1",
+    "irrationality of e+pi"
+  ]
+}

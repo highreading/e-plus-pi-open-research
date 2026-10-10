@@ -1,0 +1,61 @@
+{
+  "item": 347,
+  "schema": "item347-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_TARGET_FORCED_COMPLETE_SUM_AND_LINEAR_KUMMER_CONDUCTOR_NO_GO",
+  "scope": "independent root audit of the actual ordinary-j2 complete moment, target-retaining collapse, chosen-prime Jacobi lift, Fourier support, and semisimple Kummer-rank bound",
+  "checks": {
+    "certificate_sha256": "bd861233e0a37c6cd6e0d091d244f67e42c7bd65702d77f951e9341ad681159d",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_after_typographic_repair_sha256": "54d4c9530f088a184c9bdd20aa6e383710bbaefecabd2904437c0a1e54eb641b",
+    "work_manifest_artifacts_match": true,
+    "frozen_dependencies_checked": 8,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 6,
+    "work_hash_list_match": true,
+    "report_typographic_repairs_before_canonicalization": 2,
+    "declared_actual_rows": 7,
+    "independent_actual_rows": 42,
+    "independent_termwise_moments": 259,
+    "zero_census_performed": false,
+    "report_inline_delimiters": "93/93",
+    "report_display_delimiters": "31/31",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "complete_moment": "power-sum orthogonality isolates the u-th binomial term and gives the stated complete quadratic moment for every 0<=u<=m",
+    "target_retention": "summing the moments gives H_m, while the p-1 constant terms convert the legitimate Theta to -Theta, so the complete sum is exactly H_m-Theta",
+    "Jacobi_lift": "the Teichmuller characters reduce at the selected prime to the finite-field powers, and the normalization 1/(p-1) is a p-unit",
+    "Fourier_support": "the exponent cutoff has N-gcd(N,m+1)+1 nonzero modes; N>6(m+1) yields the stated greater-than-five-sixths bound",
+    "rank": "the weight has exactly m+1 nonzero multiplicative-character coefficients; orthogonality makes this minimal in the diagonal semisimple Kummer category, and tensoring by the common quadratic factor preserves constituent distinctions",
+    "positive_rate": "Item 344's edge theorem confines sublinear m, and hence sublinear Kummer rank, to o(M) logarithmic mass",
+    "scope_warning": "the lower bound classifies exact diagonal semisimple Kummer/Greene lifts of the cutoff weight only; nonlinear, nonsemisimple, p-dependent chosen-prime crystals and linearly growing-conductor distribution remain open"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "target-retaining complete sum",
+      "chosen-prime Jacobi congruence",
+      "full exponent support",
+      "minimal semisimple Kummer rank",
+      "positive-rate linear-conductor implication",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "seven declared and forty-two independent formula rows"
+    ],
+    "OPEN": [
+      "nonsemisimple target-specific compression",
+      "chosen-prime joint F-crystal",
+      "linearly growing-conductor weighted distribution",
+      "degenerate triple-minor support",
+      "any strict reduction of 1/105"
+    ]
+  },
+  "capacity": {
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

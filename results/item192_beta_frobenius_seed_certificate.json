@@ -1,0 +1,107 @@
+{
+  "classification": {
+    "EXPERIMENTAL_FINITE": [
+      "actual-seed root census through p<=20000",
+      "the archived absence of all-lift roots through p<=200000"
+    ],
+    "OPEN": [
+      "existence of any actual noncentral singular all-lift beta prime",
+      "positive logarithmic mass of actual eligible primes",
+      "simultaneous p^2 divisibility of the mixed coefficient b_m at one saddle index",
+      "matching and small-CRT-representative synchronization"
+    ],
+    "PROVED": [
+      "At an actual beta root, first-Witt seed lifts move (lambda,delta) by (c,-2c); delta+2lambda is invariant.",
+      "A singular dead actual root cannot be converted into an all-lift root by any first-Witt seed lift.",
+      "Pure anti-Frobenius higher seed digits do not change the divided fibre at a root; periodic digits inject a degree-(p-1) parity character and leave the bounded-degree architecture.",
+      "A fixed integral seed congruent to (1,1) at infinitely many primes equals the actual beta seed; prime-dependent local seed engineering is not an infinite-prime construction for q.",
+      "Actual noncentral all-lift primes at index N satisfy p^2|q_N, hence their radical R obeys R^2|q_N."
+    ]
+  },
+  "exact_identities": {
+    "beta_denominator_seed": "q_0=q_1=1",
+    "companion_periodic_seed": "nu_0=1, nu_1=3",
+    "frobenius_branches": "q_(n+p)=-q_n and nu_(n+p)=nu_n mod p",
+    "global_seed_rigidity": "if fixed integers u_0,u_1 are congruent to 1 modulo infinitely many primes, then u_0=u_1=1",
+    "higher_seed_obstruction": "anti branch contributes q_r=0; periodic branch contributes nu_r*(-1)^T of interpolation degree p-1",
+    "seed_lift_invariant": "delta+2lambda",
+    "seed_lift_invariant_as_divided_period": "(q_r-q_(r+p))/p mod p",
+    "seed_lift_law": "q+p(aq+bnu): (lambda,delta)->(lambda+c,delta-2c), c=b*nu_r",
+    "singular_case": "if delta=0, an all-lift seed lift exists iff lambda=0 already; then exactly p of p^2 lifts qualify",
+    "wronskian": "nu_n*q_(n-1)-nu_(n-1)*q_n=2*(-1)^(n-1)"
+  },
+  "exact_wronskian_check": {
+    "all_exact": true,
+    "identity": "nu_n*q_(n-1)-nu_(n-1)*q_n=2*(-1)^(n-1)",
+    "range": [
+      1,
+      80
+    ],
+    "row_stream_sha256": "2001f06518c0c8c5dd2521338a0288d34fd613f300afcb84e099976023b14719"
+  },
+  "finite_actual_seed_scan": {
+    "all_lift_roots": [],
+    "anti_period_checks": 21171181,
+    "higher_branch_degree_checks": 64,
+    "noncentral_singular_roots": [],
+    "period_checks": 21171181,
+    "prime_limit": 20000,
+    "root_count": 2267,
+    "root_stream_sha256": "40b6edc65f4af700e6c64b9b8fbc2320fe9c1e4ba833b1d219be616bef985e36",
+    "roots_with_nonzero_seed_lift_invariant": 2266,
+    "roots_with_zero_seed_lift_invariant": 1,
+    "seed_perturbation_checks": 11335,
+    "singular_roots": [
+      {
+        "all_lift_seed_lifts_mod_p_squared": 0,
+        "central": true,
+        "companion_value_mod_p": 56,
+        "delta": 0,
+        "lambda": 12,
+        "p": 79,
+        "qualifying_periodic_coefficient_b": null,
+        "r": 39,
+        "seed_lift_invariant_delta_plus_2lambda": 24
+      }
+    ],
+    "status": "EXPERIMENTAL_FINITE_FOR_ACTUAL_ROOT_EXISTENCE; EXACT_REPLAY_OF_PROVED_SEED_LAWS",
+    "zero_seed_lift_invariant_roots": [
+      {
+        "all_lift_seed_lifts_mod_p_squared": 7,
+        "central": false,
+        "companion_value_mod_p": 5,
+        "delta": 5,
+        "lambda": 1,
+        "p": 7,
+        "qualifying_periodic_coefficient_b": 4,
+        "r": 2,
+        "representative_seed_a0_mod_p_squared": [
+          29,
+          36
+        ],
+        "seed_lift_invariant_delta_plus_2lambda": 0
+      }
+    ]
+  },
+  "item": 192,
+  "mass_ledger": {
+    "derivation": "2 log(R_m)/(6m) > 0.01963298366943179388",
+    "eligibility_chain": [
+      "an actual noncentral singular or all-lift beta prime exists",
+      "it occurs at the chosen saddle index N",
+      "the actual mixed coefficient b_m has the required valuation (p for dead singular matching; at least p^2 for the first all-lift equal-valuation case)",
+      "the appropriate divided matching congruence holds at that same (m,N)",
+      "the moving CRT system has a sufficiently small representative"
+    ],
+    "post_fully_doubled_support_gap_per_6m": "0.01963298366943179388",
+    "required_log_radical_for_an_R_squared_gain": "log R_m > 0.05889895100829538164 m",
+    "warning": "No stage of this chain implies the next one."
+  },
+  "parity_character_check": {
+    "all_degrees_equal_p_minus_1": true,
+    "prime_limit": 251,
+    "proof_identity": "Delta^k((-1)^T)|_(T=0)=(-2)^k for 0<=k<p",
+    "rows": 51,
+    "stream_sha256": "6be6327070b3b41a73f59388255a171016a1b768618e175ba7e44a84a2336a00"
+  }
+}

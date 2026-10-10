@@ -1,0 +1,71 @@
+{
+  "schema": "item311-beta-seed-multiplier-open-checkpoint-ledger-v1",
+  "status": "OPEN",
+  "scope": "Exact Padé/continuant bridge and reduction of the actual Item-305 Legendre window to one unresolved divisibility implication",
+  "claims": [
+    {
+      "id": "I311-C1",
+      "label": "PROVED",
+      "claim": "For every n>=2, S_n=K(10,14,...,4n-2)=(3q_n-p_n)/2 by a common recurrence and the exact bases S_2=1,S_3=10.",
+      "evidence": "checkpoint Section 2"
+    },
+    {
+      "id": "I311-C2",
+      "label": "PROVED",
+      "claim": "For n>=5 and 1<=k<n-2, p_(k+1)q_n-q_(k+1)p_n=2(-1)^k Dhat_k and q_nD_k+(-1)^(n+k)Q_k=q_(n-1)Dhat_k.",
+      "evidence": "checkpoint Sections 3-4"
+    },
+    {
+      "id": "I311-C3",
+      "label": "PROVED EXACT REDUCTION",
+      "claim": "R<q_(n-1)/(2q_(n-2)) iff some k has Dhat_k dividing q_(n-1) and Dhat_k>2q_(n-2)Q_k.",
+      "evidence": "checkpoint Sections 5-6; Item-305 classification plus the appended-tail bridge"
+    },
+    {
+      "id": "I311-C4",
+      "label": "PROVED",
+      "claim": "Every hypothetical divisor branch in C3 has n+k even, positive signed remainder, odd R, and even nearest quotient kappa.",
+      "evidence": "checkpoint Section 6"
+    },
+    {
+      "id": "I311-C5",
+      "label": "FALSE AND QUARANTINED",
+      "claim": "The first-tail/last-tail shortcut a-Q_kDhat_k=(Q_(k+1)-AQ_k)D_k is false.",
+      "evidence": "checkpoint Section 7; exact n=9,k=1 counterexample"
+    },
+    {
+      "id": "I311-C6",
+      "label": "OPEN",
+      "claim": "Dhat_k>2q_(n-2)Q_k implies Dhat_k does not divide q_(n-1).",
+      "scope_limit": "this would close only the Item-305 Legendre window and prove R>=q_(n-1)/(2q_(n-2))"
+    },
+    {
+      "id": "I311-C7",
+      "label": "OPEN",
+      "claim": "The centered half-bound R>=q_(n-1)/2 remains open even if C6 is later proved.",
+      "scope_limit": "the intermediate region q_(n-1)/(2q_(n-2))<=R<q_(n-1)/2 is outside the classification"
+    },
+    {
+      "id": "I311-C8",
+      "label": "EXACT FINITE ONLY",
+      "claim": "The deterministic checker replays bounded universal identities and exact control rows.",
+      "scope_limit": "no half-bound scan, divisibility search, counterexample search, or finite promotion"
+    }
+  ],
+  "strict_labels": {
+    "checkpoint_status": "OPEN",
+    "companion_tail_identity": "PROVED",
+    "pade_cross_determinant": "PROVED",
+    "appended_tail_bridge": "PROVED",
+    "small_window_divisor_equivalence": "PROVED EXACT REDUCTION",
+    "false_split_identity": "FALSE AND QUARANTINED",
+    "divisibility_exclusion": "OPEN",
+    "small_window_lower_bound": "OPEN",
+    "actual_half_bound": "OPEN",
+    "proper_target_transfer": "OPEN",
+    "item282_product_baseline": "OPEN AND SEPARATE",
+    "bounded_checks": "EXACT FINITE ONLY",
+    "positive_linear_capacity_admission": "FAIL",
+    "booking": "zero new Route-1 rate and zero new beta capacity reduction"
+  }
+}

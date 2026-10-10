@@ -1,0 +1,461 @@
+{
+  "actual_l_initial_identities_and_replay": {
+    "candidate_identity": "16^n*L_(6n+e)/g_n=mu_e*a_(6n+e), mu_1=-729/50, mu_5=6377292/41405",
+    "classification": "FIRST THREE ROWS ARE EXACT INITIAL IDENTITIES; LATER ROWS ARE EXACT FINITE REPLAYS ONLY",
+    "failures": [],
+    "logical_role": "after the independent symbolic recurrence theorem, n=0,1,2 on each ray prove the all-n bridge; n=3,... are replay only",
+    "r_max": 71,
+    "row_stream_sha256": "8f3c5a179360b4d220e459556eadae6f0a473052b7bd989049e29289bc2a132a",
+    "rows": [
+      [
+        1,
+        0,
+        1,
+        "486/5",
+        "486/5",
+        1
+      ],
+      [
+        1,
+        1,
+        7,
+        "33938256/25",
+        "33938256/25",
+        1
+      ],
+      [
+        1,
+        2,
+        13,
+        "10509306796718/675",
+        "10509306796718/675",
+        1
+      ],
+      [
+        1,
+        3,
+        19,
+        "5437377238478672872/32805",
+        "5437377238478672872/32805",
+        1
+      ],
+      [
+        1,
+        4,
+        25,
+        "22551011220654348873092168/13286025",
+        "22551011220654348873092168/13286025",
+        1
+      ],
+      [
+        1,
+        5,
+        31,
+        "3653477303000666201443904288768/215233605",
+        "3653477303000666201443904288768/215233605",
+        1
+      ],
+      [
+        1,
+        6,
+        37,
+        "43689068165651533752457785747560590322/261508830075",
+        "43689068165651533752457785747560590322/261508830075",
+        1
+      ],
+      [
+        1,
+        7,
+        43,
+        "34431828470319523270919101574320242828351128/21182215236075",
+        "34431828470319523270919101574320242828351128/21182215236075",
+        1
+      ],
+      [
+        1,
+        8,
+        49,
+        "5380444079220189556682267794556925260997057979982/343151886824415",
+        "5380444079220189556682267794556925260997057979982/343151886824415",
+        1
+      ],
+      [
+        1,
+        9,
+        55,
+        "37579754817689345568196397666258972720931879419799980144/250157725494998535",
+        "37579754817689345568196397666258972720931879419799980144/250157725494998535",
+        1
+      ],
+      [
+        1,
+        10,
+        61,
+        "5801264129073340239456798445725779046396826504756227850815310/4052555153018976267",
+        "5801264129073340239456798445725779046396826504756227850815310/4052555153018976267",
+        1
+      ],
+      [
+        1,
+        11,
+        67,
+        "4457900091660705034397213391133172856002402844579524745953438948984/328256967394537077627",
+        "4457900091660705034397213391133172856002402844579524745953438948984/328256967394537077627",
+        1
+      ],
+      [
+        5,
+        0,
+        5,
+        "-280600848/455",
+        "-280600848/455",
+        1
+      ],
+      [
+        5,
+        1,
+        11,
+        "-671164056000/91",
+        "-671164056000/91",
+        1
+      ],
+      [
+        5,
+        2,
+        17,
+        "-94672647640224720/1183",
+        "-94672647640224720/1183",
+        1
+      ],
+      [
+        5,
+        3,
+        23,
+        "-139985893633740938112/169",
+        "-139985893633740938112/169",
+        1
+      ],
+      [
+        5,
+        4,
+        29,
+        "-2397557166781062369497291504/287469",
+        "-2397557166781062369497291504/287469",
+        1
+      ],
+      [
+        5,
+        5,
+        35,
+        "-246203981445857486330255795864384/2985255",
+        "-246203981445857486330255795864384/2985255",
+        1
+      ],
+      [
+        5,
+        6,
+        41,
+        "-1518714970768896060116705953446948228736/1886084109",
+        "-1518714970768896060116705953446948228736/1886084109",
+        1
+      ],
+      [
+        5,
+        7,
+        47,
+        "-196110103714186348280818710197575206952696832/25182331785",
+        "-196110103714186348280818710197575206952696832/25182331785",
+        1
+      ],
+      [
+        5,
+        8,
+        53,
+        "-10794293116555505957792353150570324488205442103746624/144370308123405",
+        "-10794293116555505957792353150570324488205442103746624/144370308123405",
+        1
+      ],
+      [
+        5,
+        9,
+        59,
+        "-495241084186205944311574742718885073854609796249466600192/693929371133817",
+        "-495241084186205944311574742718885073854609796249466600192/693929371133817",
+        1
+      ],
+      [
+        5,
+        10,
+        65,
+        "-10616095224156085055400555667659101060577969363628300286417002352/1565802059579805645",
+        "-10616095224156085055400555667659101060577969363628300286417002352/1565802059579805645",
+        1
+      ],
+      [
+        5,
+        11,
+        71,
+        "-26581045668199698104675528017418358478098660537335743373730705720810880/414311224964816573667",
+        "-26581045668199698104675528017418358478098660537335743373730705720810880/414311224964816573667",
+        1
+      ]
+    ],
+    "terms_per_ray": 12
+  },
+  "actual_l_period_and_recurrence_theorem": {
+    "actual_period_determinant": "L_r=eta_L(r)*Delta_r, eta_L=9/[i*s_r*2^q*Beta((r+2)/2,-2r/3)], Delta_r=det(periods over delta=(0,i)-(0,-i), Gamma=(infinity,1))",
+    "classification": "SYMBOLIC EXACT",
+    "common_beta_normalization": "Beta((r+2)/2,-2r/3-1)=rho*Beta((r+2)/2,-2r/3), rho=r/[2(2r+3)]; hence f0 and f1 have the same contour scalar",
+    "conclusion": "Z_n=L_(6n+e)/g_n satisfies sum_(m=0)^3 p_m((6n+e)/2) Z_(n+m)=0 on both rays",
+    "endpoint_audit": [
+      {
+        "finite_part_of_exact_term": "0",
+        "kind": 0,
+        "primitive": "0 (the reduction is the identity)",
+        "shift": 0,
+        "z_0": "trivial",
+        "z_1": "trivial",
+        "z_infinity": "trivial",
+        "z_plus_minus_i": "trivial"
+      },
+      {
+        "finite_part_of_exact_term": "0",
+        "kind": 0,
+        "primitive": "z^(r+1)*(1-z)^(r+1)*(1+z^2)^(-4-2*r/3)*P(z)",
+        "shift": 1,
+        "z_0": "zero of order at least r+1",
+        "z_1": "zero of order at least r+1",
+        "z_infinity": "all local exponents lie in Z+2*r/3, hence never 0",
+        "z_plus_minus_i": "all local exponents lie in Z-2*r/3, hence never 0"
+      },
+      {
+        "finite_part_of_exact_term": "0",
+        "kind": 0,
+        "primitive": "z^(r+1)*(1-z)^(r+1)*(1+z^2)^(-8-2*r/3)*P(z)",
+        "shift": 2,
+        "z_0": "zero of order at least r+1",
+        "z_1": "zero of order at least r+1",
+        "z_infinity": "all local exponents lie in Z+2*r/3, hence never 0",
+        "z_plus_minus_i": "all local exponents lie in Z-2*r/3, hence never 0"
+      },
+      {
+        "finite_part_of_exact_term": "0",
+        "kind": 0,
+        "primitive": "z^(r+1)*(1-z)^(r+1)*(1+z^2)^(-12-2*r/3)*P(z)",
+        "shift": 3,
+        "z_0": "zero of order at least r+1",
+        "z_1": "zero of order at least r+1",
+        "z_infinity": "all local exponents lie in Z+2*r/3, hence never 0",
+        "z_plus_minus_i": "all local exponents lie in Z-2*r/3, hence never 0"
+      },
+      {
+        "finite_part_of_exact_term": "0",
+        "kind": 1,
+        "primitive": "z^(r+1)*(1-z)^(r+1)*(1+z^2)^(-1-2*r/3)*P(z)",
+        "shift": 0,
+        "z_0": "zero of order at least r+1",
+        "z_1": "zero of order at least r+1",
+        "z_infinity": "all local exponents lie in Z+2*r/3, hence never 0",
+        "z_plus_minus_i": "all local exponents lie in Z-2*r/3, hence never 0"
+      },
+      {
+        "finite_part_of_exact_term": "0",
+        "kind": 1,
+        "primitive": "z^(r+1)*(1-z)^(r+1)*(1+z^2)^(-5-2*r/3)*P(z)",
+        "shift": 1,
+        "z_0": "zero of order at least r+1",
+        "z_1": "zero of order at least r+1",
+        "z_infinity": "all local exponents lie in Z+2*r/3, hence never 0",
+        "z_plus_minus_i": "all local exponents lie in Z-2*r/3, hence never 0"
+      },
+      {
+        "finite_part_of_exact_term": "0",
+        "kind": 1,
+        "primitive": "z^(r+1)*(1-z)^(r+1)*(1+z^2)^(-9-2*r/3)*P(z)",
+        "shift": 2,
+        "z_0": "zero of order at least r+1",
+        "z_1": "zero of order at least r+1",
+        "z_infinity": "all local exponents lie in Z+2*r/3, hence never 0",
+        "z_plus_minus_i": "all local exponents lie in Z-2*r/3, hence never 0"
+      },
+      {
+        "finite_part_of_exact_term": "0",
+        "kind": 1,
+        "primitive": "z^(r+1)*(1-z)^(r+1)*(1+z^2)^(-13-2*r/3)*P(z)",
+        "shift": 3,
+        "z_0": "zero of order at least r+1",
+        "z_1": "zero of order at least r+1",
+        "z_infinity": "all local exponents lie in Z+2*r/3, hence never 0",
+        "z_plus_minus_i": "all local exponents lie in Z-2*r/3, hence never 0"
+      }
+    ],
+    "forward_uniqueness": "Item306 audits p_3(r/2)>0 for every r>0, including the half-integer rays",
+    "full_pole_audit": {
+      "actual_exceptional_r": [],
+      "branch_coefficient_denominators": "powers of 3 from A(z), and generalized-binomial denominators with prime factors <=r; all are p-units since p>2r+3",
+      "branch_local_inverse": "X'(0)=1 and D(z-1) has constant term -3",
+      "connection_constants_denominator_primes": [
+        2,
+        5,
+        7,
+        13
+      ],
+      "endpoint_nonresonance": "all nontrivial endpoint exponents lie in Z+-2r/3 and 3 does not divide r",
+      "inherited_item306": {
+        "actual_exceptional_r": [],
+        "actual_pole_or_zero_intersection": [],
+        "actual_rays": "r=6n+1 and r=6n+5, n>=0",
+        "beta_poles": "b0=-2r/3 and b1=b0-1 are nonintegral because 3 does not divide r; all original Pochhammer denominators are nonzero by Items 250 and 291",
+        "classification": "ALL ACTUAL r>=1, r=1 or 5 mod 6",
+        "coordinate_denominator_roots": {
+          "negative_half_integers": [
+            "-3/2",
+            "-9/2",
+            "-15/2",
+            "-21/2",
+            "-27/2",
+            "-33/2",
+            "-39/2"
+          ],
+          "negative_integers": [
+            -3,
+            -6,
+            -9,
+            -12,
+            -15,
+            -18
+          ]
+        },
+        "eta_denominator_roots_for_steps_0_1_2": [
+          0,
+          -2,
+          -4,
+          -6,
+          -8,
+          -10,
+          -12,
+          -14,
+          -16
+        ],
+        "excluded_parameter_classes": [
+          "r not a positive integer congruent to 1 or 5 modulo 6 (outside the theorem domain)",
+          "3 divides r (b0 and b1 hit integral beta/Pochhammer resonance)"
+        ],
+        "forward_coefficient": "p3(h) has strictly positive coefficients, so p3(r/2)>0 for every actual r>=1",
+        "gauge_denominator_roots_for_steps_0_1_2": [
+          -1,
+          -2,
+          -4,
+          -5,
+          -7,
+          -8,
+          -10,
+          -11,
+          -13,
+          -14,
+          -16,
+          -17
+        ],
+        "gauge_or_eta_zero_roots": "all zeros of r+6t, r+6t+3, r+6t+6, 2r+12t+3, 2r+12t+9, and 2r+12t+15 for t=0,1,2 are nonpositive",
+        "hermite_coordinate_poles": "every reduced coordinate denominator has positive constant term and nonnegative coefficients, hence no positive-real zero",
+        "normalization_poles": "eta step divides by r(r+2)(r+4); gauge R divides by 78732(r+1)^2(r+2)(r+4)(r+5)^2; none vanish for r>=1",
+        "primitive_certificate_denominator_roots": "r=-1,-2,...,-38 from (r+1)_(K+1), plus the coordinate roots already listed",
+        "primitive_solver_poles": "the triangular construction divides only by r+k+1 (k>=0), all positive on actual rays; the final 3x3 solution is the displayed pole-free-on-r>0 coordinate family"
+      }
+    },
+    "gauge_match": "R(r)*eta_L(r+6)/eta_L(r) equals the Item306 tensor weight 16*R(r)*eta_M(r+6)/eta_M(r)",
+    "normalization_shift": "eta_L(r+6)/eta_L(r)=16*eta_M(r+6)/eta_M(r)",
+    "tensor_dependency": {
+      "coordinate_stream_sha256": "0ba77284dfa753364605290fd4e886a109103d008615654acfa43017b266ddbb",
+      "independent_zero_coordinates": 3,
+      "restored_zero_coordinates": 9
+    }
+  },
+  "capacity": {
+    "L_alone_is_collision_gate": false,
+    "booking": 0,
+    "full_gate": "D_r=c*L_r+M_r",
+    "proved_capacity_reduction": 0,
+    "proved_translation": "the full gate is a moving linear combination of the y=-1 and y=0 algebraic coefficient branches; a weighted zero-density theorem for that actual combination is still required"
+  },
+  "connection_status": {
+    "classification": "PROVED",
+    "proof_logic": "actual L is an exact two-cycle period determinant; endpoint finite parts kill every Hermite exact term; Item306's full tensor identity proves recurrence membership; three exact initial identities on each ray identify the second branch",
+    "theorem": "for e in {1,5} and every n>=0, 16^n*L_(6n+e)/g_n=mu_e*a_(6n+e), mu_1=-729/50 and mu_5=6377292/41405"
+  },
+  "dependencies": {
+    "results/item237_j1_algebraic_residual_certificate.json": "eba1519f4d376d442f396048528190b474cc5464bbe42c3bdf31a9bdaf39dd6b",
+    "results/item306_j2_normalized_m_bridge_certificate.json": "cd48ec7f4cec273c72371d554c9a4ec55ed3cacde0108f4dc92975ba93dbbc55",
+    "scripts/item237_j1_algebraic_residual_certificate.py": "f89047396e3f6b4644cf0194b7716dfad91b3eb41de7b88c9377cf3e81d09dcf",
+    "scripts/item250_j2_ordinary_phase_certificate.py": "2364a9e9c9be0ea0827c2b12137883ad326d77017a53bb4f242be300335e90ce",
+    "scripts/item294_j2_half_integer_gauge_certificate.py": "ce77a8f1f4cec49ab383659957c19ee7f42795fe8f4e7938ca54f95f99d0f1a7",
+    "scripts/item306_j2_normalized_m_bridge_certificate.py": "c54c6f7c2990cefd63d39b5b33de4c82b199d0c1c8f62071f6f271d4fc1d15ad"
+  },
+  "global_second_branch_theorem": {
+    "A_of_X": "N(z-1)/D(z-1)^3",
+    "D_minus_low_to_high": [
+      "-3",
+      "6",
+      "1",
+      "2"
+    ],
+    "N_minus_low_to_high": [
+      "54",
+      "-144",
+      "258",
+      "-240",
+      "354",
+      "-48",
+      "150",
+      "48"
+    ],
+    "branch_selection": "z(0)=0, hence y(0)=-1 (not the y(0)=0 branch)",
+    "classification": "SYMBOLIC EXACT",
+    "coefficient_scaling": "for r=e+6*n odd, [x^r]C_minus(x)=-2^(-2*e/3)*16^(-n)*a_r; therefore 16^(-n)*a_r obeys the Item237 recurrence",
+    "derivative_identity": "X' = -(2*z^3+z^2+6*z-3)/(3*(1+z^2)^(5/3))",
+    "factored_A": "6*(1+z^2)^2*(8*z^3+25*z^2-24*z+9)/(2*z^3+z^2+6*z-3)^3",
+    "item237_global_operator_dependency": {
+      "classification": "SYMBOLIC_EXACT",
+      "cleared_numerator_zero": true,
+      "logical_use": "the rational-parametric differential numerator is zero as a polynomial in y, so it applies at the y=-1 local branch"
+    },
+    "local_inverse": "unique z(X) in X*Q[[X]] because X'(0)=1",
+    "local_parameter": "X=z*(1-z)/(1+z^2)^(2/3)=z+O(z^2)",
+    "phase_tail_inversion": [
+      {
+        "epsilon_nu": 1,
+        "nu": 0,
+        "one_plus_z_squared_residual_power": "-1",
+        "orientation_sign_for_odd_r": "+1",
+        "q_nu": "-2*r/3-1",
+        "tail_form": "(1+z)^1/(1+z^2)^1 * X(z)^r dz",
+        "z_power_after_inversion": "r"
+      },
+      {
+        "epsilon_nu": 4,
+        "nu": 1,
+        "one_plus_z_squared_residual_power": "-2",
+        "orientation_sign_for_odd_r": "+1",
+        "q_nu": "-2*r/3-2",
+        "tail_form": "(1+z)^4/(1+z^2)^2 * X(z)^r dz",
+        "z_power_after_inversion": "r"
+      }
+    ],
+    "same_curve_branch": "with alpha^3=4 and x=-alpha*X, y=z-1 satisfies x^3*(y^2+2*y+2)^2-4*y^3*(1+y)^3=0"
+  },
+  "schema": "item309-j2-l-second-branch-bridge-v1",
+  "status_ledger": {
+    "EXACT_FINITE_ONLY": [
+      "the comparison rows beyond the three necessary initials on each ray"
+    ],
+    "OPEN": [
+      "any all-prime or weighted-density theorem for D=cL+M"
+    ],
+    "PROVED": [
+      "the y=-1 local branch and its exact phase-tail inversion",
+      "the second branch satisfies the same globally certified Item237 operator",
+      "the actual L period determinant satisfies that operator after the exact gauge",
+      "the all-n actual-L/second-branch bridge on both rays"
+    ]
+  }
+}

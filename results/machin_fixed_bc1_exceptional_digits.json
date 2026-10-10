@@ -1,0 +1,266 @@
+{
+  "exhaustive_scan_below_p_cubed": {
+    "C_N_zero_count": 2,
+    "C_N_zero_records": [
+      {
+        "N": 4569679,
+        "W_N": 4569677,
+        "dominant_kinds": [
+          "r_exact_v0",
+          "star"
+        ]
+      },
+      {
+        "N": 9196483,
+        "W_N": 9196483,
+        "dominant_kinds": [
+          "r_exact_v2",
+          "star"
+        ]
+      }
+    ],
+    "exclusive_upper_bound": 13651919,
+    "leading_ties": 238,
+    "odd_indices_tested": 6825959,
+    "range": "positive odd N < 239^3",
+    "tie_shape_counts": {
+      "r_exact_v0+star": 119,
+      "r_exact_v2+star": 119
+    }
+  },
+  "next_digit_certificates": {
+    "N_equals_p2_times_161_plus_2": {
+      "exact_valuation_conclusion": {
+        "endpoint_ratio_v239": -9196482,
+        "hypothesis_t_less_than_Gamma_verified": true,
+        "primitive_endpoint_beta_v239": 9196482
+      },
+      "leading_data": {
+        "C_N_mod_239_without_common_factor_4": 0,
+        "D": 84575308765771,
+        "N": 9196483,
+        "W_N": 9196483,
+        "a_v239_N_plus_1": 0,
+        "d_v239_D": 0,
+        "dominant_terms": [
+          {
+            "denominator_exponent": 9196483,
+            "kind": "earlier_p_singular_term",
+            "r": 9196481,
+            "residue_without_common_factor_4": 144,
+            "v239_r": 2
+          },
+          {
+            "denominator_exponent": 9196483,
+            "kind": "combined_final_p_singular_term",
+            "residue_without_common_factor_4": 95
+          }
+        ],
+        "star_denominator_exponent": 9196483
+      },
+      "normalized_singular_calculation": {
+        "first_unit_with_factor_4_mod_239_if_detected": 152,
+        "first_unit_without_factor_4_mod_239_if_detected": 38,
+        "included_terms": [
+          {
+            "gap_from_W": 0,
+            "kind": "earlier_p_singular_term",
+            "r": 9196481,
+            "residue_mod_239_power_without_common_factor_4": 31931,
+            "v239_r": 2
+          },
+          {
+            "gap_from_W": 0,
+            "kind": "combined_final_p_singular_term",
+            "residue_mod_239_power_without_common_factor_4": 34272
+          }
+        ],
+        "modulus": 57121,
+        "normalized_full_p_singular_with_factor_4_modulus": 36328,
+        "normalized_singular_without_common_factor_4_modulus": 9082,
+        "precision": 2,
+        "valuation_if_less_than_precision": 1
+      },
+      "regular_term_separation": {
+        "Gamma_N_minimum_regular_gap": 9157843,
+        "floor_log239_N": 2,
+        "individual_scaled_valuation_lower_bounds": {
+          "combined_final_5_power_arctan_term": 9196483,
+          "earlier_5_power_arctan_terms": 9196481,
+          "exponential_partial_sum": 9157843,
+          "last_D_factorial_term": 9157843
+        },
+        "v239_N_plus_2": 0,
+        "v239_factorial_N_plus_1": 38640
+      }
+    },
+    "N_equals_p2_times_80_minus_1": {
+      "exact_valuation_conclusion": {
+        "endpoint_ratio_v239": -4569676,
+        "hypothesis_t_less_than_Gamma_verified": true,
+        "primitive_endpoint_beta_v239": 4569676
+      },
+      "leading_data": {
+        "C_N_mod_239_without_common_factor_4": 0,
+        "D": 20881970732719,
+        "N": 4569679,
+        "W_N": 4569677,
+        "a_v239_N_plus_1": 2,
+        "d_v239_D": 0,
+        "dominant_terms": [
+          {
+            "denominator_exponent": 4569677,
+            "kind": "earlier_p_singular_term",
+            "r": 4569677,
+            "residue_without_common_factor_4": 159,
+            "v239_r": 0
+          },
+          {
+            "denominator_exponent": 4569677,
+            "kind": "combined_final_p_singular_term",
+            "residue_without_common_factor_4": 80
+          }
+        ],
+        "star_denominator_exponent": 4569677
+      },
+      "normalized_singular_calculation": {
+        "first_unit_with_factor_4_mod_239_if_detected": 81,
+        "first_unit_without_factor_4_mod_239_if_detected": 80,
+        "included_terms": [
+          {
+            "gap_from_W": 0,
+            "kind": "earlier_p_singular_term",
+            "r": 4569677,
+            "residue_mod_239_power_without_common_factor_4": 19040,
+            "v239_r": 0
+          },
+          {
+            "gap_from_W": 0,
+            "kind": "combined_final_p_singular_term",
+            "residue_mod_239_power_without_common_factor_4": 80
+          }
+        ],
+        "modulus": 57121,
+        "normalized_full_p_singular_with_factor_4_modulus": 19359,
+        "normalized_singular_without_common_factor_4_modulus": 19120,
+        "precision": 2,
+        "valuation_if_less_than_precision": 1
+      },
+      "regular_term_separation": {
+        "Gamma_N_minimum_regular_gap": 4550477,
+        "floor_log239_N": 2,
+        "individual_scaled_valuation_lower_bounds": {
+          "combined_final_5_power_arctan_term": 4569679,
+          "earlier_5_power_arctan_terms": 4569675,
+          "exponential_partial_sum": 4550477,
+          "last_D_factorial_term": 4550477
+        },
+        "v239_N_plus_2": 0,
+        "v239_factorial_N_plus_1": 19200
+      }
+    },
+    "N_equals_p4_times_283_plus_4": {
+      "exact_valuation_conclusion": {
+        "endpoint_ratio_v239": -923374845406,
+        "hypothesis_t_less_than_Gamma_verified": true,
+        "primitive_endpoint_beta_v239": 923374845406
+      },
+      "leading_data": {
+        "C_N_mod_239_without_common_factor_4": 0,
+        "D": 852621105131324523841055,
+        "N": 923374845407,
+        "W_N": 923374845407,
+        "a_v239_N_plus_1": 0,
+        "d_v239_D": 0,
+        "dominant_terms": [
+          {
+            "denominator_exponent": 923374845407,
+            "kind": "earlier_p_singular_term",
+            "r": 923374845403,
+            "residue_without_common_factor_4": 38,
+            "v239_r": 4
+          },
+          {
+            "denominator_exponent": 923374845407,
+            "kind": "combined_final_p_singular_term",
+            "residue_without_common_factor_4": 201
+          }
+        ],
+        "star_denominator_exponent": 923374845407
+      },
+      "normalized_singular_calculation": {
+        "first_unit_with_factor_4_mod_239_if_detected": 48,
+        "first_unit_without_factor_4_mod_239_if_detected": 12,
+        "included_terms": [
+          {
+            "gap_from_W": 0,
+            "kind": "earlier_p_singular_term",
+            "r": 923374845403,
+            "residue_mod_239_power_without_common_factor_4": 8881,
+            "v239_r": 4
+          },
+          {
+            "gap_from_W": 0,
+            "kind": "combined_final_p_singular_term",
+            "residue_mod_239_power_without_common_factor_4": 51108
+          }
+        ],
+        "modulus": 57121,
+        "normalized_full_p_singular_with_factor_4_modulus": 11472,
+        "normalized_singular_without_common_factor_4_modulus": 2868,
+        "precision": 2,
+        "valuation_if_less_than_precision": 1
+      },
+      "regular_term_separation": {
+        "Gamma_N_minimum_regular_gap": 919495119166,
+        "floor_log239_N": 5,
+        "individual_scaled_valuation_lower_bounds": {
+          "combined_final_5_power_arctan_term": 923374845407,
+          "earlier_5_power_arctan_terms": 923374845402,
+          "exponential_partial_sum": 919495119166,
+          "last_D_factorial_term": 919495119166
+        },
+        "v239_N_plus_2": 0,
+        "v239_factorial_N_plus_1": 3879726241
+      }
+    }
+  },
+  "normalization": "The modular singular sum suppresses the common p-adic unit 4, exactly as C_N in equation (75).",
+  "prime": 239,
+  "recurrence_certificate": {
+    "H_N": "[239^2 D_(N+2) + N(N+3)D_N] / [N D_N D_(N+2)]",
+    "checks_passed": true,
+    "exact_fraction_checks_at_odd_N": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31,
+      33,
+      35,
+      37,
+      39,
+      41
+    ],
+    "expanded_positive_numerator_P_N": "N^4+4N^3+(239^2+2)N^2+(5*239^2-3)N+5*239^2",
+    "identity": "F_(N+2) = 239^2 F_N - s_N H_N"
+  },
+  "scope_warning": "Finite scans certify only their stated ranges.  The recurrence gives an adjacent-pair O(log N) result, not the unresolved pointwise bound at every exceptional index.",
+  "third_certificate_construction": {
+    "283_mod_239": 44,
+    "N": 923374845407,
+    "cancellation_congruence": "283 == -19/5 (mod 239)",
+    "representation": "239^4*283+4"
+  }
+}

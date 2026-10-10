@@ -1,0 +1,37 @@
+{
+  "schema": "item316-beta-intermediate-ostrowski-no-go-ledger-delta-v1",
+  "item": 316,
+  "date": "2026-08-31",
+  "canonical_edit_performed": false,
+  "proposed_status": "PROVED_EXACT_CLASSIFICATION_AND_SCOPED_FIXED_2ADIC_NO_GO",
+  "proposed_ledger_entry": "Item 316 gives an exact all-digit Ostrowski classification of the remaining beta intermediate window. For n>=5, a canonical word represents an actual centered half-bound failure if and only if a/(2c)<=R<a/2, 0<|E|<c, and U=(-1)^n sign(E)a; in that case the actual nearest quotient is kappa=|E|. The strict dual-error lemma -S<E<a-S eliminates every endpoint carry. For each fixed s, exact top-two-digit witnesses satisfy the continued-fraction, admissibility, window, sign, and target-congruence data modulo 2^s while failing the integer target, proving only a scoped fixed-precision information-class no-go. The centered half-bound, growing/full 2-adic and odd-modulus routes, proper targets, and every beta capacity consequence remain open. Booking and capacity reduction are zero.",
+  "proved": [
+    "canonical Ostrowski existence, uniqueness, and the exact half-language",
+    "the strict all-digit dual-error bound -S<E<a-S",
+    "the carry-free equivalence between actual intermediate-window failure and the exact signed U target",
+    "the identity kappa=|E| for every actual half-bound failure",
+    "a global scoped no-go for any fixed 2^s truncation of the exact target"
+  ],
+  "exact_finite_only": [
+    "the declared digit, dual-error, fixed-precision witness, and small-index control rows"
+  ],
+  "open": [
+    "the all-digit exclusion U!=(-1)^n sign(E)a",
+    "the centered half-bound R_actual>=a/2",
+    "a growing/full 2-adic or odd-modulus modular-square invariant",
+    "every proper-target consequence and beta capacity reduction",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "capacity": {
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "booking": 0
+  },
+  "not_claimed": [
+    "the centered half-bound",
+    "that fixed-precision witnesses are actual square counterexamples",
+    "a no-go for precision growing with n or full 2-adic information",
+    "any proper-target bound",
+    "any canonical, master, status, or research-log edit"
+  ]
+}

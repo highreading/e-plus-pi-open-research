@@ -1,0 +1,89 @@
+{
+  "admission": {
+    "all_n_half_bound": "OPEN",
+    "bare_congruence_exclusion": "OPEN",
+    "counterexample": "NONE PRODUCED",
+    "item282_product_baseline": "OPEN AND SEPARATE",
+    "natural_minimal_counterexample_descent": "PROVED NOT CLOSED",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "positive_linear_capacity_admission": "FAIL",
+    "proper_target_large_factor_bound": "OPEN",
+    "sharp_window_exclusion": "OPEN"
+  },
+  "bounded_exact_checks": {
+    "asymptotic_extrapolation": false,
+    "base_cases": {
+      "label": "EXACT BASE CASES",
+      "rows": [
+        {
+          "a": 1,
+          "b": 7,
+          "half_bound": true,
+          "kappa": 0,
+          "n": 2,
+          "signed_r": 1
+        },
+        {
+          "a": 7,
+          "b": 71,
+          "half_bound": true,
+          "kappa": 1,
+          "n": 3,
+          "signed_r": -22
+        },
+        {
+          "a": 71,
+          "b": 1001,
+          "half_bound": true,
+          "kappa": 5,
+          "n": 4,
+          "signed_r": 36
+        }
+      ]
+    },
+    "counterexample_search": false,
+    "descent_identities": {
+      "counterexample_search": false,
+      "digest": "eaf7f82ca14812ed13434138a01ea488ab66318247f31a77310d0056353324ec",
+      "label": "EXACT FINITE ONLY",
+      "range": [
+        3,
+        96
+      ],
+      "rows": 94
+    },
+    "exceptional_prime_search": false,
+    "label": "EXACT FINITE ONLY",
+    "window_identities": {
+      "counterexample_search": false,
+      "digest": "87199ff4cf412c83a3fcfc3dbcdff107da0b151dc2f1a628deeaec11198c43f6",
+      "label": "EXACT FINITE ONLY",
+      "range": [
+        2,
+        96
+      ],
+      "rows": 95
+    }
+  },
+  "description": "Exact sharp nearest-window iff, congruence-only relaxation, unimodular beta descent, Turan defect, and projected previous residue checker",
+  "open": [
+    "exclude the sharp nearest-window congruence for every n",
+    "prove the stronger bound A(2rho_n-a)>=2c without finite extrapolation",
+    "control the coupled Turan defect t through descent",
+    "construct an exact counterexample if the half-bound is false",
+    "a large proper de-overlapped target residue theorem",
+    "the Item282 common product baseline and weighted-return cover",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "schema": "item295-beta-nearest-window-descent-certificate-v1",
+  "theorem": {
+    "bare_relaxation": "H=round(ac/b) congruent a mod A iff rho_n<b/(2A)=a/2+c/(2A)",
+    "defect": "t=c-kappa=round((bc-a^2)/b), and projection to the previous square slice gives c^2-aH=ct-r",
+    "descent": "for B=A-4,d=q_(n-3),K=kappa-BH, r=dH-cK and the defect (K+BH)-c equals -t; the defect is nonzero from n=4 onward",
+    "scope": "no all-n half-bound, exact counterexample, or proper-target capacity theorem is proved",
+    "scoped_obstruction": "the determinant-preserving descent misses the previous affine square slice by t from n=4 onward; projection centers back to the already-known previous residue and introduces ct",
+    "sharp_iff": "rho_n<a/2 iff H=round(ac/b) satisfies H congruent a mod A and |H-ac/b|<Aa/(2b)=1/2-c/(2b)",
+    "turan": "T_n=bc-a^2>0 and T_n+T_(n-1)=4ac"
+  }
+}

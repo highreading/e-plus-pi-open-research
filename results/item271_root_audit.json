@@ -1,0 +1,58 @@
+{
+  "schema": "item271-root-audit-v1",
+  "audited": "2026-08-31 Asia/Shanghai",
+  "status": "PASS",
+  "booking": {
+    "new_unconditional_route1_rate": 0,
+    "new_j2_capacity_reduction": 0,
+    "raw_j2_mass_per_M": "2/35",
+    "auxiliary_dynamics_admission": "FAIL"
+  },
+  "root_findings": [
+    "Both actual odd slope phases satisfy the displayed degree-seven order-two recurrence, and P0+P1+P2=0 converts it exactly into the first-difference update Delta_(delta+2)=(P0/P2)Delta_delta.",
+    "Adjoining delta and Delta gives an autonomous rank-three rational translation-difference system. Translation by two is not arithmetic or geometric Frobenius.",
+    "The canonical WZ grid is a polynomial-identity certificate rather than recurrence fitting. Direct factor-degree counting makes the advertised bidegree (32,16) and boundary degree 64 conservative.",
+    "Independent recomputation from the original finite sums reproduced 47 recurrence rows, 47 orbit rows, and both exact initial states through delta 51.",
+    "The actual rows (167,5,7) and (241,1,11) reproduce P2=0 mod p, P0 nonzero mod p, p-unit adjacent slope denominators, and Delta=0 mod p. These are existence witnesses only.",
+    "The cubic endpoint factors telescope in direct iterates; the remaining numerator and denominator linear factors lie in disjoint translation-by-two root classes. Both cubic factors have no root modulo 31.",
+    "The slope update does not update every entry of the complete two-row matrix R_(r,s). The full fixed-Frobenius collision, a compatible lisse or crystalline realization, uniform conductor, monodromy, and local density all remain open.",
+    "Direct iterate degree growth is a scoped coordinate-complexity theorem and is not an impossibility theorem for alternative lisse or dynamical realizations."
+  ],
+  "independent_probe": {
+    "script": "scripts/item271_root_independent_probe.py",
+    "script_sha256": "2b627785f421fac1cb0e15e5b920c53d81d79ac4ec9b94598c26871f42d6f132",
+    "result": "results/item271_root_independent_probe.json",
+    "result_sha256": "70c200c498ca7161f2f7e35c9fd4f155757a259bcfa97ea0cc83b6a9c8c0b482",
+    "recurrence_rows": 47,
+    "orbit_rows": 47,
+    "singular_actual_rows": 2,
+    "Q_mod_31_no_root_checks": 62,
+    "linear_translation_class_checks": 32,
+    "exceptional_collision_search_performed": false,
+    "label": "EXACT FINITE identity replay plus separately audited degree-bounded all-parameter certificate"
+  },
+  "sealed_package": {
+    "report_sha256": "65c6f694a88a069a6b2ee7e87d8ed28af77255007e11c3a2423594791293aa59",
+    "checker_sha256": "27821646fc3120713082f6f7e848970f16a3ed03cc74d65ccd0cf236a5ff0fdf",
+    "canonical_sha256": "dfafee5b7f647f5adcbe6bc307a4709f9d33822c14ca3451169b732f8e605e8d",
+    "packaged_replay_sha256": "dfafee5b7f647f5adcbe6bc307a4709f9d33822c14ca3451169b732f8e605e8d",
+    "root_replay": "results/item271_root_replay.json",
+    "root_replay_sha256": "dfafee5b7f647f5adcbe6bc307a4709f9d33822c14ca3451169b732f8e605e8d",
+    "ledger_sha256": "37c8d4236e241f675c68c77ba54c0f9fffa6439020268ab1b8f79426952d2561",
+    "manifest_sha256": "fe6b312e41e81dd81a361a10cd67be121096ff09dee36553b16576d50306ef45",
+    "hash_ledger_sha256": "fc433f4ca7571a4adc919d25d72ce7b13ef755abaa1bbb575271d31b37ffd1f2",
+    "hash_ledger_entries_checked": 6,
+    "hash_ledger_entries_matched": 6,
+    "dependency_entries_checked": 5,
+    "dependency_entries_matched": 5,
+    "canonical_packaged_root_replays_byte_identical": true
+  },
+  "layout": {
+    "report_bytes": 16433,
+    "report_lines": 568,
+    "display_delimiters": "44/44",
+    "inline_delimiters": "75/75",
+    "forbidden_control_characters": 0
+  },
+  "strict_scope": "Item 271 proves a rank-three translation-difference realization for D_delta. It does not realize the complete R_(r,s), prove a Frobenius or lisse interpretation, control singular rows in weighted density, reduce the raw 2/35 cell, or settle Route 1."
+}

@@ -1,0 +1,87 @@
+{
+  "schema": "item279-j1-bounded-cluster-ledger-v1",
+  "checked": "2026-08-31 Asia/Shanghai",
+  "scope": "All fixed-size, fixed-diameter non-singleton prime clusters along the fixed-M j=1 parameter line",
+  "quantifiers": {
+    "diameter": "Fix D>=1 before M tends to infinity",
+    "cluster_size": "Fix 2<=t<=D+1",
+    "patterns": "J subset {0,...,D}, 0 in J, |J|=t",
+    "pattern_count": "binomial(D,t-1)",
+    "growing_diameter_claim": false
+  },
+  "proved": [
+    "The exact parameter tower is (h_j,s_j,p_j,M)=(h-4j,s+3j,p+2j,M), with h>=4D+1 for a full forward window.",
+    "The at most 4D phase-boundary rows have O_D(log M) prime-log weight.",
+    "On every unit transport chart, the exact multi-prime solution module is the product over j in J of ker(A_j mod p_j).",
+    "For local ranks r_j in {0,1,2}, the solution count is the product over j in J of p_j^(4-r_j); all rank drops are retained.",
+    "Over Z/N_J Z, every 4x4 minor of the 2t-row CRT idempotent gate matrix vanishes because every four-row selection meets two orthogonal idempotent blocks.",
+    "This mixed-minor obstruction holds regardless of rational multi-plane transversality and prevents the natural plane stack from forcing full product divisibility of the state.",
+    "The exact J={0,1,4}, primes 29,31,37 model has a determinant-one rational substack, all 15 CRT maximal minors zero, and a non-N-divisible vector satisfying every local gate.",
+    "Every collision cluster implies (product p_j)^2 divides gcd(C0(M),C1(M)); this is exactly a subproduct of the existing Item197/264 square radical.",
+    "Overlapping patterns must be radicalized, so repeated cluster membership gives no extra valuation at an endpoint prime.",
+    "For fixed D, all transport singular factors and boundary rows have O_D(log M) prime-log weight.",
+    "For every fixed pattern J of size t, the classical Selberg upper-bound sieve gives O_(D,t)(M/log^t M) ambient prime clusters.",
+    "Uniformly over all patterns of fixed size t and diameter at most D, endpoint prime-log weight is O_(D,t)(M/log^(t-1) M)=o(M).",
+    "The union over all non-singleton patterns of diameter at most D has O_D(M/log M)=o(M) endpoint prime-log weight.",
+    "The bounded-cluster mechanism cannot lower the raw 1/36 per 6M fixed-j=1 ceiling because the isolated-prime gate remains uncontrolled."
+  ],
+  "rank_branches": {
+    "possible_local_ranks": [
+      0,
+      1,
+      2
+    ],
+    "solution_module": "product_j ker(A_j mod p_j)",
+    "solution_count": "product_j p_j^(4-r_j)",
+    "rank_drops_retained": true,
+    "exceptional_transport_charts": "retained by the denominator-free C0,C1 divisibility and isolated in O_D(log M) containers"
+  },
+  "sieve": {
+    "asymptotic_source": "classical unconditional Selberg upper-bound sieve for fixed tuples of distinct linear forms",
+    "fixed_pattern_count": "O_(D,t)(M/log^t M)",
+    "fixed_size_endpoint_log_weight": "O_(D,t)(M/log^(t-1) M)=o(M)",
+    "all_bounded_non_singleton_endpoint_log_weight": "O_D(M/log M)=o(M)",
+    "finite_replay_role": "EXACT FINITE ONLY; no asymptotic inference"
+  },
+  "master_admission_test": {
+    "raw_capacity": "1/36 per 6M",
+    "actual_family_implication": "cluster collisions give the exact CRT product-kernel module and square product divisibility of both fixed coefficients",
+    "de_overlap": "Item149 already books the first copy and Item197/264 already records the square radical; overlapping patterns are radicalized",
+    "quantitative_result": "all fixed-D non-singleton ambient clusters have o(M) endpoint log weight before the gate is imposed",
+    "uncontrolled_remainder": "D-isolated collision primes can still carry linear log weight",
+    "decision": "zero new capacity reduction and zero new Route-1 rate"
+  },
+  "finite_replay": {
+    "label": "EXACT FINITE ONLY",
+    "phase_grid_rows": 12716,
+    "crt_pattern": [
+      0,
+      1,
+      4
+    ],
+    "crt_primes": [
+      29,
+      31,
+      37
+    ],
+    "mixed_maximal_minors_checked": 15,
+    "prime_pattern_diameter": 6,
+    "prime_pattern_bound": 10000,
+    "asymptotic_inference": false
+  },
+  "booking": {
+    "new_unconditional_route1_rate": 0,
+    "new_independent_valuation_copy": 0,
+    "new_weighted_zero_theorem_for_full_j1_cell": 0,
+    "new_j1_capacity_reduction": 0,
+    "j1_raw_ceiling": "unchanged at 1/36 per 6M"
+  },
+  "forbidden_inference": [
+    "Do not combine equations in distinct finite fields as independent equations over one field.",
+    "Do not use a nonzero rational multi-plane minor as a unit minor modulo the product of the cluster primes.",
+    "Do not count an endpoint prime once per overlapping cluster pattern.",
+    "Do not infer a theorem for D growing with M from the fixed-D sieve result.",
+    "Do not extend the o(M) bounded-cluster bound to D-isolated collision primes.",
+    "Do not infer the Selberg asymptotic from the EXACT FINITE ONLY replay."
+  ]
+}

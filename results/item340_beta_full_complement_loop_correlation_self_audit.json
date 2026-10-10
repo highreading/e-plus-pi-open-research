@@ -1,0 +1,41 @@
+{
+  "schema": "item340-beta-full-complement-loop-correlation-self-audit-v1",
+  "item": 340,
+  "date": "2026-09-01",
+  "status": "PASS",
+  "auditor_role": "author-side mechanical and scope check; root remains the independent auditor",
+  "checks": {
+    "json_files_parse": true,
+    "certificate_script_compiles": true,
+    "certificate_replay_succeeds": true,
+    "certificate_replay_byte_identical": true,
+    "manifest_artifact_hashes_verified": 5,
+    "manifest_dependency_hashes_verified": 8,
+    "report_inline_delimiters": "96/96",
+    "report_display_delimiters": "60/60",
+    "report_fences": "2/2",
+    "report_control_characters": 0,
+    "canonical_files_modified": false
+  },
+  "mathematical_scope_checks": {
+    "nearest_remainder_and_sign_exact": true,
+    "Euler_dual_inverse_sign_checked": true,
+    "returned_R_is_R_mod_a": true,
+    "returned_E_and_U_formulas_checked": true,
+    "actual_target_digitwise_identity_is_conditional_not_finite": true,
+    "loop_defect_height_zero_rate": true,
+    "complement_value_height_full_rate": true,
+    "both_small_error_and_appended_target_defects_in_mod_Q_ideal": true,
+    "bQ_quotient_bridge_exact": true,
+    "Gamma_decomposition_exact": true,
+    "finite_rows_not_promoted": true,
+    "actual_Gamma_Q_open": true,
+    "booking_zero": true
+  },
+  "manifest": {
+    "path": "work/item340_beta_full_complement_loop_correlation_manifest.json",
+    "bytes": 5554,
+    "sha256": "d35e5ff874da99665046601336ab836ad0ff0246c6154939f5d9771e24a6e3fa"
+  },
+  "independent_audit_required": true
+}

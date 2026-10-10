@@ -1,0 +1,38 @@
+[
+  {
+    "name": "inside_write",
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "name": "outside_read",
+    "exit": 1,
+    "stdout": "",
+    "stderr": "cat: [private local path removed] Operation not permitted\n"
+  },
+  {
+    "name": "symlink_read",
+    "exit": 1,
+    "stdout": "",
+    "stderr": "cat: [private local path removed] Operation not permitted\n"
+  },
+  {
+    "name": "outside_write",
+    "exit": 1,
+    "stdout": "",
+    "stderr": "touch: [private local path removed] Operation not permitted\n"
+  },
+  {
+    "name": "network",
+    "exit": 6,
+    "stdout": "",
+    "stderr": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: anyrouter.top\n"
+  },
+  {
+    "name": "python",
+    "exit": 1,
+    "stdout": "",
+    "stderr": "xcode-select: error: No developer tools were found and no install could be requested (possibly because there is no active GUI session).\nIf developer tools are located at a non-default location on disk, use `sudo xcode-select --switch path/to/Xcode.app` to specify the Xcode that you wish to use for command line developer tools.\nUse `xcode-select --install` to install the standalone command line developer tools, or visit http://adc.apple.com to download Xcode or the standalone command line tools installation package.\nSee `man xcode-select` for more details.\n"
+  }
+]

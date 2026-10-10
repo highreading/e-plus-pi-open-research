@@ -1,0 +1,65 @@
+{
+  "schema": "item262-root-audit-v1",
+  "audited": "2026-08-31 Asia/Shanghai",
+  "status": "PASS",
+  "booking": {
+    "new_unconditional_route1_rate": 0,
+    "new_ordinary_j2_capacity_reduction": 0,
+    "positive_linear_capacity_admission": "FAIL"
+  },
+  "root_findings": [
+    "The order-two recurrence follows exactly by eliminating c_delta from K_{delta+1}-K_delta=c_delta.",
+    "The pole-orbit arguments exclude rational order-one closure globally and on the actual odd section; the proofs do not rely on finite scans.",
+    "The denominator-support, 3-adic unit, 2-adic cancellation, height, and numerator-gcd arguments have complete unit ranges.",
+    "The large-prime numerator-gcd theorem is correctly scoped to one fixed prime and does not propagate across changing global-row primes.",
+    "The p=47 and p=59 rows prove that K_delta numerator divisibility is neither necessary nor sufficient for the target prefix zero.",
+    "The full Item-251 localization retains the moving pair (H_q,h_q) and the separate rank-zero branch.",
+    "Summing an O(delta) fixed-ray height over linearly many moving delta gives O(M^2), so no linear-capacity reduction follows."
+  ],
+  "independent_probe": {
+    "script": "scripts/item262_root_independent_probe.py",
+    "script_sha256": "51f7408fbf756eaaa4eac05ca72c63a609b582887419831f95a2fb0c122999fa",
+    "result": "results/item262_root_independent_probe.json",
+    "result_sha256": "ff0fdad94bb9593499ab9156fbc53587d8af7918d28c9ebc06f40a4c659075ed",
+    "delta_bound": 127,
+    "prime_bound": 401,
+    "recurrence_checks": 127,
+    "odd_recurrence_checks": 62,
+    "valuation_checks": 127,
+    "denominator_support_checks": 127,
+    "numerator_gcd_checks": 125,
+    "actual_p5_rows": 605,
+    "localization_equalities": 2420,
+    "named_independence_rows": [
+      [
+        47,
+        7,
+        5,
+        4,
+        3,
+        0,
+        21
+      ],
+      [
+        59,
+        7,
+        7,
+        6,
+        3,
+        57,
+        0
+      ]
+    ],
+    "label": "EXACT FINITE independent replay supporting separately proved all-index identities"
+  },
+  "sealed_package": {
+    "report_sha256": "5b0658159484bc1998eba6e6933475b45a85622c0e403fca793f1d373de8469b",
+    "checker_sha256": "8e0ec3267792128bc89e46988924f1e9e79c266e9ee98e65d1d7e63596f65d8f",
+    "canonical_sha256": "76385e14fde1592927d39feee78e51922c931d338d58db9a92de363f8e18ff3e",
+    "replay_sha256": "76385e14fde1592927d39feee78e51922c931d338d58db9a92de363f8e18ff3e",
+    "ledger_sha256": "36c9f52c54c9e9bac8ab35efca87f60c8326df690db1170fa3d20770129ca13b",
+    "manifest_sha256": "052ec79fbd7ac99dc860d69b550f62ac8f7328df387a97016c2717fe18938e21",
+    "hash_ledger_sha256": "90181e474361178e69348ad3bc6cee547afb491deca6e795c0e896d7951d8b78"
+  },
+  "strict_scope": "This closes the present K_delta recurrence/valuation/height package as a positive-capacity mechanism. It does not prove a global theorem for every arithmetic relation involving (H_q,h_q)."
+}

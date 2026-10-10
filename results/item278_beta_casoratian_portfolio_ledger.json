@@ -1,0 +1,100 @@
+{
+  "schema": "item278-beta-casoratian-portfolio-ledger-v1",
+  "scope": "Weighted products of primitive growing beta Casoratians, including fixed-multiplicity height-depth optimization and Item265 de-overlap",
+  "claims": [
+    {
+      "id": "I278-C1",
+      "label": "PROVED",
+      "claim": "For a portfolio A=product P_(h_i)(n)^(w_i), with L=sum w_i(h_i-1) and H=log A, one has L log(4n+6)<=H<=L log(4(n+L+1)).",
+      "evidence": "report Section 3; multiplication of Item276's exact one-gap height bounds",
+      "scope_limit": "H is the primitive residual coefficient height, the optimistic height relevant after removing boundary p-units"
+    },
+    {
+      "id": "I278-C2",
+      "label": "PROVED",
+      "claim": "A moving product portfolio has residual height O(n) iff its total gap budget is O(n/log n).",
+      "evidence": "report equations (3.2)-(3.4)",
+      "scope_limit": "uniformity of constants is preserved between the two big-oh statements"
+    },
+    {
+      "id": "I278-C3",
+      "label": "PROVED",
+      "claim": "For p^s|q_n, the truncated valuations of the residual product and scalar-Casoratian product equal the truncated weighted sum of return depths at q_(n+h_i).",
+      "evidence": "report equations (2.1)-(2.4) and weighted valuation additivity",
+      "scope_limit": "repeated gaps are allowed and represent formal powers of one return factor"
+    },
+    {
+      "id": "I278-C4",
+      "label": "PROVED",
+      "claim": "If total multiplicity is at most fixed K and the product reaches depth s with O(n) height, some gap O(n/log n) carries a return at level p^ceil(s/K).",
+      "evidence": "report Section 4; pigeonhole principle plus the exact gap budget",
+      "scope_limit": "the uniform existence or exclusion of that partial-depth return is open"
+    },
+    {
+      "id": "I278-C5",
+      "label": "PROVED",
+      "claim": "For K canonical anti-period slots and s=Kq+r, the minimum certified gap cost is (K-r)(p^q-1)+r(p^(q+1)-1).",
+      "evidence": "report Section 5; exact discrete balancing exchange",
+      "scope_limit": "no credit is taken for accidental valuation beyond the depth certified by each anti-period factor"
+    },
+    {
+      "id": "I278-C6",
+      "label": "PROVED_SCOPED_HEIGHT_NO_GO",
+      "claim": "For fixed K, an O(n)-height canonical anti-period portfolio forces s log p=O_K(log n), so it cannot cover dangerous super-polynomial singleton depth.",
+      "evidence": "report equations (5.6)-(5.8)",
+      "scope_limit": "actual return gaps shorter than p^b can beat the canonical portfolio and are not ruled out"
+    },
+    {
+      "id": "I278-C7",
+      "label": "PROVED_DEOVERLAP",
+      "claim": "The product depth identity remains exact for the surviving exponent s=(v_p(q_n)-v_p(D_m))_+ after the Item265 clearing reservoir is removed.",
+      "evidence": "report equation (6.4)",
+      "scope_limit": "distinct gaps repackage recurrence overlap; repeated gaps repackage formal powers and create no independent booked source"
+    },
+    {
+      "id": "I278-C8",
+      "label": "EXACT_FINITE_ONLY",
+      "claim": "The deterministic checker replays portfolio valuations, de-overlap, height inequalities, balanced optimizers, and canonical anti-period products on bounded exact ranges.",
+      "evidence": "canonical certificate row digests",
+      "scope_limit": "no exceptional-singleton search or distributional extrapolation is performed"
+    },
+    {
+      "id": "I278-C9",
+      "label": "OPEN_NOT_PROVED",
+      "claim": "Uniform short-return control, sums with cancellation, arbitrary growing block/Hankel determinants, and genuinely unbounded portfolios remain open.",
+      "evidence": "report Sections 3-7",
+      "scope_limit": "Item278 is not a general no-go for every growing auxiliary"
+    },
+    {
+      "id": "I278-C10",
+      "label": "PROVED_BOOKING_DECISION",
+      "claim": "The positive-linear capacity admission test fails; no new Route-1 rate or beta capacity reduction is booked.",
+      "evidence": "report Sections 6-7",
+      "scope_limit": "the Item265 high-singleton ceiling and two-copy overlap normalization remain unchanged"
+    }
+  ],
+  "strict_labels": {
+    "portfolio_height_gap_tradeoff": "PROVED",
+    "portfolio_depth_accounting": "PROVED",
+    "bounded_multiplicity_short_return": "PROVED",
+    "canonical_antiperiod_optimizer": "PROVED",
+    "canonical_fixed_K_height": "PROVED SCOPED HEIGHT NO-GO",
+    "clearing_reservoir_deoverlap": "PROVED",
+    "uniform_actual_short_return_control": "OPEN; NOT PROVED",
+    "sums_and_arbitrary_growing_determinants": "OPEN; NOT PROVED",
+    "uniform_prime_power_height_O_N": "OPEN; NOT PROVED",
+    "bounded_checks": "EXACT FINITE ONLY",
+    "exceptional_singleton_search": "NONE",
+    "positive_linear_capacity_admission": "FAIL",
+    "new_route1_rate": "0",
+    "new_beta_capacity_reduction": "0"
+  },
+  "open": [
+    "a uniform actual short-return lower bound or construction",
+    "sums with cancellation and arbitrary growing block or Hankel determinants",
+    "unbounded portfolios with genuinely independent arithmetic input",
+    "the uniform v_p(q_n) log p=O(n) theorem or a sufficient little-oh aggregate",
+    "the actual correlation with the clearing divisor and transverse matching factor",
+    "Route 1 and every conclusion about e+pi"
+  ]
+}

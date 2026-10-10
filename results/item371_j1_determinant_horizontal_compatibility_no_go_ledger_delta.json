@@ -1,0 +1,83 @@
+{
+  "schema": "item371-j1-determinant-horizontal-compatibility-no-go-ledger-delta-v1",
+  "item": 371,
+  "date": "2026-09-01",
+  "branch": "Route 1 / fixed-j1 / determinant-specific horizontal compatibility",
+  "status": "PROVED_SCOPED_LISSE_CRYSTALLINE_AND_LOCAL_PRODUCT_DETERMINANT_NO_GO",
+  "proved": {
+    "actual_family": "p=4h+6s+3, M=3h+4s+2, n=2h, r=2s+1",
+    "exact_determinant_divisor": "det(C)=Q0=2c_T-c_L, the existing Item360 transverse condition",
+    "new_independent_divisor": 0,
+    "lisse_no_go": "a rank-two lisse mod-p Frobenius is invertible, but the actual companion is singular when Q0=0",
+    "pointwise_product_no_go": "det(product A_x)=product det(A_x), while the transverse selector is additive and fails the multiplicative-separability mixed-derivative identity",
+    "crystalline_no_go": "with one fixed Tate normalization and unit normalized full determinant, mod-p full determinant is uniformly a unit or uniformly zero, unlike Q0",
+    "literal_support_no_go": "full-order Kummer support is at least p-2 and literal Artin-Schreier Swan conductor is 2(p-1)"
+  },
+  "scope": {
+    "full_collision_implication": "full ordinary collision implies trace(C)=det(C)=0",
+    "joint_converse_to_full_collision_claimed": false,
+    "lisse_scope": "literal residue-characteristic lisse realization on a good locus containing all actual rows",
+    "product_scope": "pointwise local determinant factors with independently varying local inputs",
+    "crystalline_scope": "integral bounded-conductor full Frobenius determinants with a fixed Tate normalization and unit normalized determinant",
+    "not_ruled_out": "Hasse subdeterminants, varying slopes or lattices, singular extensions, and nonliteral target-specific cohomological compression"
+  },
+  "capacity": {
+    "raw_log_mass": "M/6+o(M)",
+    "raw_ceiling_per_6M": "1/36",
+    "weighted_target": "W_(det,tr)(M)=W_(H,Q)(M)=o(M)",
+    "weighted_target_proved": false,
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "booking": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36"
+  },
+  "controls": {
+    "classification": "EXACT FINITE ONLY; PREDECLARED; NO PRIME SCAN",
+    "determinant_values": [
+      9,
+      14,
+      30,
+      0
+    ],
+    "rows": [
+      [
+        1,
+        1,
+        13,
+        0,
+        9
+      ],
+      [
+        2,
+        1,
+        17,
+        8,
+        14
+      ],
+      [
+        8,
+        2,
+        47,
+        0,
+        30
+      ],
+      [
+        10,
+        11,
+        109,
+        70,
+        0
+      ]
+    ]
+  },
+  "open": [
+    "an exact Hasse subdeterminant bridge or varying-slope F-crystal realization",
+    "a nonliteral target-specific bounded-conductor compression",
+    "horizontal determinant-trace nonconcentration or an average-gcd theorem",
+    "weighted joint-zero density or any strict fixed-j1 ceiling reduction",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "ledger_action": "RECORD_SCOPED_FULL_DETERMINANT_AND_LOCAL_PRODUCT_NO_GO_BOOK_ZERO",
+  "route_1_status": "ACTIVE",
+  "canonical_files_modified": false
+}

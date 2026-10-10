@@ -1,0 +1,76 @@
+{
+  "item": 346,
+  "schema": "item346-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_EXACT_T_AVOIDING_FIRST_HIT_LOCALIZATION_SCOPED_NO_GO",
+  "scope": "independent root audit of the actual beta t-avoiding radical, its pairwise-coprime first-hit factorization, mesoscopic support bounds, depth-density necessity, and the t-localized constant-ideal obstruction",
+  "checks": {
+    "certificate_sha256": "29a20d6ede62db23658d66db8e57af4a2982c9b66fd12d104f0070b3280aefab",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_artifacts_checked": 5,
+    "work_manifest_artifacts_match": true,
+    "frozen_dependencies_checked": 12,
+    "frozen_dependencies_match": true,
+    "independent_seed_rows": 10,
+    "independent_seed_ns": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      14,
+      18,
+      22,
+      26,
+      30
+    ],
+    "independent_coordinate_rows": 20,
+    "all_independent_carrier_and_first_hit_identities": true,
+    "all_independent_coordinate_identities": true,
+    "zero_census_performed": false,
+    "report_display_delimiters": "42/42",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "exact_carrier": "after omitting exact-zero cofactor rows, saturation by a sufficiently high power of t removes precisely the t-supported prime factors, and intersecting with rad(Q) gives the actual R_perp,Q",
+    "first_hit_split": "assigning each surviving prime to its earliest depth makes the D_j pairwise coprime, with product R_perp,Q and sum log D_j equal to Xi_Q",
+    "mesoscopic_localization": "|z_j|<A^2 implies that each D_j supported above A is either 1 or one distinct prime A<p<A^2; primes at most A contribute theta(A)=O(A)=o(log b)",
+    "density_necessity": "each depth contributes at most 2 log A, so Xi_Q at rate eta forces at least (eta/2+o(1))n active depths, while every o(n)-depth portfolio is zero rate",
+    "localized_ideal": "in the Item333 primitive coordinate, z_m is free and t=t_0+z_m with primitive t_0; Gauss-content plus t-localization gives constant contraction exactly (b), including the raw cofactor-union product",
+    "scope_warning": "the raw product contains exact-zero components and the theorem does not control the specialization-first average, growing zero-pattern stratification, or the actual mesoscopic first-hit distribution"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact t-avoiding carrier",
+      "pairwise-coprime first-hit split",
+      "mesoscopic prime localization",
+      "linear-depth necessity for positive Xi_Q",
+      "localized constant-ideal theorem",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared controls plus ten independent seed rows and twenty independent formal-coordinate rows; no zero census"
+    ],
+    "OPEN": [
+      "mesoscopic first-hit average",
+      "Xi_Q",
+      "H_Q",
+      "squarefull excess",
+      "Gamma_Q",
+      "beta capacity",
+      "Route 1",
+      "e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_Xi_Q_maximum": "log Q<=log b",
+    "small_prime_rate": 0,
+    "sublinear_depth_rate": 0,
+    "actual_Xi_Q": "OPEN",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "new_booking": 0
+  }
+}

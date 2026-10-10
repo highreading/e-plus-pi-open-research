@@ -1,0 +1,76 @@
+{
+  "schema": "item340-beta-full-complement-loop-correlation-ledger-delta-v1",
+  "item": 340,
+  "date": "2026-09-01",
+  "status": "PROVED_FULL_COMPLEMENT_LOOP_RESONANCE_SCOPED_NO_GO",
+  "canonical_files_modified": false,
+  "actual_family": {
+    "source": "Item 316 exact canonical half-bound target and Item 337 primitive lcm tower",
+    "seed_data": "kappa=nint(a^2/b), epsilon R=a^2-kappa b, sigma=(-1)^n epsilon, t=c-kappa",
+    "target_implication": "R<a/2 and the full complement-inverse loop returns the identical canonical delta word and identical Lambda",
+    "actual_Gamma_Q": "OPEN"
+  },
+  "full_complement_loop": {
+    "seed_identity": "b t=T+epsilon R with T=bc-a^2",
+    "dual_inverse_return": "Rbar=res_a(sigma(c-t)S^(-1))=R mod a",
+    "returned_error": "Ebar=sigma kappa",
+    "returned_appended_coordinate": "Ubar=epsilon a-h",
+    "loop_defect": "h=(R-Rbar)/a=floor(R/a), 0<=h<=A/2",
+    "actual_target_specialization": "h=0, Rbar=R, deltabar=delta, Lambdabar=Lambda"
+  },
+  "proved": [
+    "the full value-preserving canonical complement-inverse loop returns R modulo a for every n>=5",
+    "its exact returned dual coordinates are Ebar=sigma kappa and Ubar=epsilon a-floor(R/a)",
+    "under an Item-316 failure the returned digit word and every adjacent cofactor are literally the original ones",
+    "every nonzero loop defect has at most log(A/2)=o(log b) prime-power mass",
+    "the seed complement has log t=log b-3 log A+O(1), so it passes raw height admission",
+    "for every Q|b the undivided complement incidence ideal collapses to the old signed-square ray",
+    "t=ell mod Q iff T+epsilon R=b ell mod bQ",
+    "Gamma_Q splits exactly into complement-covered and valuation-excess mass"
+  ],
+  "scoped_no_go": {
+    "closes": [
+      "the natural value-preserving full canonical complement-inverse loop as an independent cofactor tower",
+      "its nonzero Euclidean equality defect as a positive-rate mechanism",
+      "undivided Q-level congruence consequences of the complete complement incidence"
+    ],
+    "does_not_close": [
+      "non-value-preserving joint statistics of target and complement digits",
+      "arithmetic after the bQ quotient lift",
+      "the actual target-specific size of Gamma_Q"
+    ]
+  },
+  "missing_correlation": {
+    "tower": "Lambda=lcm_{z_j nonzero}|z_j|",
+    "covered": "H_Q=gcd(gcd(Q,Lambda),t)",
+    "excess": "K_Q=gcd(Q,Lambda)/H_Q",
+    "identity": "Gamma_Q=log H_Q+log K_Q",
+    "closer_target": "prove enough of log H_Q=o(log b) and log K_Q=o(log b)",
+    "builder_target": "prove a positive-linear actual-family lower bound for one component after old factors are removed"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "full loop return, returned dual coordinates, target tower identity, loop-defect bound, complement height, mod-Q ideal collapse, bQ quotient bridge, and Gamma decomposition"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "value-preserving complement-inverse reuse and undivided target-modulus complement congruences"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared seed replay rows, canonical redigitizations, lcm/gcd decompositions, and quotient congruences"
+    ],
+    "OPEN": [
+      "the Item-316 half-bound, joint theta/z correlation, quotient-lift distribution, actual Gamma_Q, beta capacity, Route 1, and e+pi"
+    ]
+  },
+  "capacity": {
+    "loop_defect_rate": 0,
+    "complement_value_raw_rate": 1,
+    "returned_tower_incremental_rate": 0,
+    "actual_Gamma_Q": "OPEN",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "booking": 0,
+    "item337_bulk_invariant_rebooked": false
+  },
+  "recommended_next_smallest_lemma": "prove a target-specific weighted correlation between Q-prime-power hits in Lambda and the canonical complement quotient/digits after the bQ lift; do not book the returned loop tower or a theorem about seed-only t"
+}

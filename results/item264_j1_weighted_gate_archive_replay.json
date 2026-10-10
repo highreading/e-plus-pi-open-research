@@ -1,0 +1,95 @@
+{
+  "booking": {
+    "new_j1_capacity_reduction": 0,
+    "new_unconditional_route1_rate": 0,
+    "reason": "no weighted full-gate zero-density theorem and every admitted height ceiling is weaker than raw support",
+    "retained_ceiling_per_6M": "1/36"
+  },
+  "constants": {
+    "H": "6.3276275454408577452954296301125909954837374288768",
+    "minimum_integer_multiplicity": 38,
+    "multiplicity_threshold_strict": "37.965765272645146471772577780675545972902424573261",
+    "raw_per_6M": "0.027777777777777777777777777777777777777777777777778",
+    "raw_per_M": "0.16666666666666666666666666666666666666666666666667",
+    "rho": "0.45742710775633810997510191136982155303671074299713",
+    "square_height_per_6M": "0.52730229545340481210795246917604924962364478573973",
+    "square_height_per_M": "3.1638137727204288726477148150562954977418687144384"
+  },
+  "exact_witnesses": [
+    {
+      "M": 40,
+      "Wronskian_pair": null,
+      "full_gate_Q0_Q1_E": [
+        39,
+        11,
+        36
+      ],
+      "full_gate_collision": false,
+      "h": 2,
+      "local_record": "individual leading pair nu=1 is zero",
+      "p": 59,
+      "root_I": null,
+      "s": 8
+    },
+    {
+      "M": 74,
+      "Wronskian_pair": [
+        88,
+        70
+      ],
+      "full_gate_Q0_Q1_E": [
+        71,
+        106,
+        87
+      ],
+      "full_gate_collision": false,
+      "h": 4,
+      "local_record": "normalized Wronskian vanishes at one root",
+      "p": 109,
+      "root_I": 33,
+      "s": 15
+    },
+    {
+      "M": 108,
+      "Wronskian_pair": [
+        42,
+        60
+      ],
+      "full_gate_Q0_Q1_E": [
+        42,
+        106,
+        3
+      ],
+      "full_gate_collision": false,
+      "h": 26,
+      "local_record": "normalized Wronskian vanishes at one root",
+      "p": 149,
+      "root_I": 44,
+      "s": 7
+    }
+  ],
+  "finite_replay": {
+    "M_range": [
+      9,
+      600
+    ],
+    "collision_scan_performed": false,
+    "label": "EXACT FINITE ONLY",
+    "prime_rows_in_bijection_replay": 4631,
+    "purpose": "arithmetic bijection and three declared counterexamples only"
+  },
+  "payload_sha256": "7e712a15fa42325d7480432b88b017e1fd13ecab673b1226d3f4cff30cbd3e80",
+  "schema": "item264-j1-weighted-gate-v1",
+  "theorem": {
+    "admission_result": "individual observation seeds and the Item-248 Wronskian are not substitutes for the full Q0=Q1 gate",
+    "full_gate": "Q0=Q1=0 iff the two j=1 divided coordinates vanish",
+    "global_relation": "4M+1=3p-2s; M=3h+4s+2",
+    "inherited_estimate_ceiling": "mechanically inheriting the componentwise Cauchy bound for any bounded-degree recombination certifies no better than H/2+o(1)=3.1638...; a separately proved low-height cancellation remains open",
+    "integral_rows": "s>=1, 4s<=M-5, s=M+1 (mod 3); p=(4M+2s+1)/3; h=(M-4s-2)/3",
+    "prime_interval": "(4M+3)/3 <= p <= (3M-1)/2",
+    "raw_weight_per_6M": "1/36",
+    "raw_weight_per_M": "1/6",
+    "square_container": "R_M^2 divides gcd(C_0(M),C_1(M))",
+    "valuation_needed_to_beat_raw": "a same-height divisibility exponent t must satisfy t>6H=37.9657..., hence t>=38"
+  }
+}

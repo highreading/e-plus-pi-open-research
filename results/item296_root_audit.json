@@ -1,0 +1,39 @@
+{
+  "schema": "item296-root-audit-v1",
+  "item": 296,
+  "auditor": "root",
+  "date": "2026-08-31",
+  "verdict": "PASS WITH RECURRENCE-ONLY SCOPE PRESERVED",
+  "package": {
+    "manifest_file_hash_mismatches": 0,
+    "manifest_dependency_hash_mismatches": 0,
+    "hash_list_mismatches": 0,
+    "canonical_root_replay_byte_identical": true,
+    "canonical_and_root_replay_sha256": "909da750976707960c8ba3b01a4e0456d970134bfa32d6e3235472dad4a7a0ab",
+    "report_sha256": "80a4613a0c09c713adaf8c5e3ab10cccb42ece5973e126dc8007d68e813fbf39",
+    "script_sha256": "caa3bc55969e300a3426bd078d78f2ab6003a3e0fae5f65b802c7ca610554646",
+    "ledger_sha256": "3faf9f30481824c32130a4ce6e748b2bbc249a4f0202d9545df30077279dc3b5",
+    "manifest_sha256": "cddee29ee3c5be9196bcb55290f4c97e74fb632250fd8c609f32cb15c1ca8971"
+  },
+  "independent_mathematical_checks": {
+    "linear_atlas": "PASS: slope-one factors are <p; slope-two factors are in (0,2p) and force equality; odd slope-four factors are in (0,4p) and allow only p or 3p. Solving these equations yields exactly s=2,4,6 plus the stated finite rows and composite (4,1,25).",
+    "core_reduction": "PASS: substituting 4h congruent -(6s+3) modulo p gives the displayed primitive-core iff because every scaling/content prime is 2 or 3 while actual p>=13.",
+    "irreducibility": "PASS: the Rabin implementation checks x^(p^d)=x and the required gcd tests for every prime divisor of d; the four pinned mod-prime witnesses retain full degree, hence Gauss reduction proves Q-irreducibility.",
+    "transport": "PASS: s>=7 keeps all four diagonal row parameters positive; the companion determinant is -Q0/Q3 and the linear atlas leaves only the two endpoint-core loci on the interior regularity test.",
+    "scope": "PASS: the dimension-two zero hyperplane is only for unrestricted recurrence states. No zero, nonvanishing, or density claim is transferred to the pinned actual E orbit."
+  },
+  "format": {
+    "report_bytes": 12665,
+    "report_lines": 385,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "display_math_open": 28,
+    "display_math_close": 28
+  },
+  "capacity": {
+    "retained_conditional_j1_capacity_per_6m": "1/36",
+    "new_route1_rate": 0,
+    "new_capacity_reduction": 0,
+    "ledger_changed": false
+  }
+}

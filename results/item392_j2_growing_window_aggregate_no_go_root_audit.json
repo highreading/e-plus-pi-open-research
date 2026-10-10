@@ -1,0 +1,49 @@
+{
+  "item": 392,
+  "schema": "item392-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_GLOBAL_SUBLOG_WINDOW_PROPAGATION_NO_GO",
+  "scope": "independent root audit of the fixed-M return geometry, uniform two-form sieve, singular-factor average, isolated-row packing, chart aggregation, replay, and ledger interpretation",
+  "checks": {
+    "work_hash_list_failures": 0,
+    "canonical_dependencies_checked": 5,
+    "canonical_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "control_characters": 0,
+    "finite_to_infinite_inference_used": false,
+    "root_repairs": "Repinned the dependencies and replay command to canonical files, including the audited Item 322 report hash. No theorem or numerical constant changed."
+  },
+  "mathematical_audit": {
+    "return_geometry": "Solving the fixed-M equations gives p in [(4M+3)/5,(6M-1)/7] and same-ray returns p to p+6k. Degenerate and nondegenerate charts partition this one prime interval and therefore cannot be counted twice.",
+    "sieve": "The Selberg square majorant with z=X^(1/4) yields an absolute uniform upper bound for two linear prime forms. The local correction is exactly the product over q dividing k, q>=5, of (q-1)/(q-2); the z^2 polylog remainder is negligible.",
+    "singular_average": "The squarefree-divisor expansion has nonnegative terms, and summing divisibility over k<=K gives a convergent Euler product times K. Hence complete windows satisfy W_pair << MK/log M.",
+    "sublog_phase": "For K=o(log M), paired endpoint weight is o(M); subtracting it from the prime-number-theorem mass (2/35)M+o(M) leaves the full normalized raw 1/105 ceiling isolated.",
+    "packing_phase": "Within each of the two nonzero residue classes modulo 6, complete-window isolated primes are separated by more than 6K. This gives W_iso << M log M/K+log M and therefore zero isolated rate when K/log M tends to infinity.",
+    "scope": "The critical K comparable to log M regime remains undecided, and no actual carrier implication is proved. The result closes propagation mechanisms requiring a second row only in the stated sublogarithmic or sparse regimes."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "uniform moving-offset prime-pair upper bound",
+      "bounded mean of the singular factor",
+      "zero-rate paired support for complete o(log M) windows",
+      "superlogarithmic isolated-row packing converse",
+      "chart-independent sublogarithmic propagation no-go"
+    ],
+    "OPEN": [
+      "the logarithmic critical window",
+      "an actual cross-prime carrier implication",
+      "a strict ordinary-j=2 capacity saving",
+      "any conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_route1_rate": 0,
+    "new_booking": 0,
+    "new_unconditional_capacity_reduction": 0
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "item283-root-audit-v1",
+  "audit_date": "2026-08-31",
+  "auditor": "root",
+  "verdict": "PASS_WITH_STRICT_SCOPE",
+  "substantive_checks": {
+    "declared_height": "PASS: fixed sparsity and degree, polynomial coefficient height, and O(n/log n) gap budget give conservative residual height O(n)",
+    "homogeneous_reduction": "PASS: equal monomial degree supplies one common q_(n+1) unit modulo every Q dividing q_n, so scalar and primitive residual sums have the same Q-gcd",
+    "cancellation_quotient": "PASS: after dividing by the exact common term gcd B, primewise truncation proves X_Sigma divides R/B",
+    "global_height": "PASS: the entire sum-only quotient has log at most log|R/B|<=O(n)=o(n log n) on the balanced beta scale",
+    "forced_target": "PASS: if Q divides the residual sum, the leftover Q/gcd(Q,B) divides R/B and therefore has only O(n) logarithmic height",
+    "valuation_split": "PASS: a unique least p-adic term gives no sum-only factor; all additional depth lies in tied-minimum cancellation and is covered by R/B",
+    "identity_dichotomy": "PASS: a nonzero O(n)-height residual cannot be divisible by the full q_n for all large n, while an identically zero residual supplies no nonzero height certificate",
+    "product_overlap": "PASS: the baseline gcd(Q,B) is the previously open Item 282 product-return channel up to O(log n) coefficient content, not new additive information",
+    "capacity_booking": "PASS: the declared homogeneous sum-only class has zero global Route-1 rate, but the product baseline and nonhomogeneous or unbounded classes remain open; no retained ceiling is reduced"
+  },
+  "independent_replay": {
+    "canonical_sha256": "ef16bc12b0ff051ae47ef91b614eea9af79782509e852a65b97a514a1e780cbe",
+    "root_replay_sha256": "ef16bc12b0ff051ae47ef91b614eea9af79782509e852a65b97a514a1e780cbe",
+    "byte_identical": true
+  },
+  "package_checks": {
+    "manifest_files_checked": 5,
+    "frozen_dependencies_checked": 8,
+    "json_files_parsed": 4,
+    "all_hashes_and_dependencies_match": true
+  },
+  "report_checks": {
+    "sha256": "174f0622fcc1bb05215a9afea4fc8e42756284ce0e1057e19d19d03650488836",
+    "bytes": 14466,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "display_delimiters": "48/48",
+    "inline_delimiters": "89/89"
+  },
+  "strict_scope": {
+    "proved": "Bounded-sparsity, bounded-degree prime-independent homogeneous sums have only an O(n) sum-only cancellation quotient after exact product-baseline removal.",
+    "not_proved": "The Item 282 high-efficiency product channel, nonhomogeneous sums, unbounded sparsity or degree, and arbitrary growing block determinants remain open.",
+    "finite_only": "Replay examples certify the algebraic identities and valuation split but make no density or exceptional-prime inference.",
+    "route_status": "Route 1 ACTIVE; Route 2 QUEUED"
+  }
+}

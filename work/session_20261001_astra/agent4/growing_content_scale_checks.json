@@ -1,0 +1,19 @@
+{
+  "status": "PASS_FORMAL_ARITHMETIC",
+  "checks": {
+    "endpoint_Y": true,
+    "endpoint_X": true,
+    "partial_row_Y": true,
+    "partial_row_X": true,
+    "monic_cleared_scale": true,
+    "gcd_rational_scale": true,
+    "endpoint_clearer_X": true,
+    "endpoint_clearer_Y": true,
+    "b2_sigma": true,
+    "b2_c": true,
+    "b2_kappa": true,
+    "b1_empty_minor": true
+  },
+  "positive_gcd_scale": "(2n+1)!/[2(n+2)!(n!)^4]",
+  "scope": "Formal endpoint and scale identities only. All-size integrality and divisibility require the written proof. No rank or asymptotic claim."
+}

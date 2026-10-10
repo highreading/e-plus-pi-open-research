@@ -1,0 +1,1661 @@
+{
+  "all_parameter_theorem": {
+    "hankel": "Every full r by r moment Hankel determinant factors as a nonzero weighted Vandermonde square.",
+    "interpolant": "W_p=-2 sum_{k=1}^r E_(2k) X^(r-k), deg W_p=r-1, and W_p^2=4 mod X^r-1.",
+    "minimal_recurrence": "The minimal constant-coefficient recurrence has order r and characteristic polynomial Z^r-1.",
+    "paired_power_sum": "E_(2n) = sum_{j=0}^{r-1} 2(-1)^j ((2j+1)^2)^n mod p for n>=1 and r=(p-1)/2",
+    "scope_boundary": "These statements obstruct the canonical bounded-degree linear-recurrence, interpolation, and rank routes only; they do not exclude nonlinear or other arithmetic coupling.",
+    "support": "The points (2j+1)^2 are exactly the r distinct nonzero quadratic residues and all weights are nonzero."
+  },
+  "control_audit": {
+    "script": {
+      "bytes": 18428,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "scripts/root_unity_adjacent_euler_first_period_moment_certificate.py"
+    },
+    "source": {
+      "bytes": 12998,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "sources/root_unity_adjacent_euler_first_period_moment_obstruction.md"
+    }
+  },
+  "dependency_checks": {
+    "results/root_unity_adjacent_euler_irregular_seed_hashes.sha256": {
+      "actual": "c4e0b694a4f57130370e1f66869f5d862536e21708a78a0fa1c8655463525f0f",
+      "expected": "c4e0b694a4f57130370e1f66869f5d862536e21708a78a0fa1c8655463525f0f"
+    }
+  },
+  "endpoint_rows_through_N_80": [
+    {
+      "E_p_minus_1_mod_p": 0,
+      "E_p_minus_3_mod_p": 4,
+      "N": 1,
+      "endpoint_criterion": false,
+      "p": 5,
+      "p_mod_4": 1,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 2,
+      "E_p_minus_3_mod_p": 5,
+      "N": 2,
+      "endpoint_criterion": false,
+      "p": 7,
+      "p_mod_4": 3,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 2,
+      "E_p_minus_3_mod_p": 10,
+      "N": 4,
+      "endpoint_criterion": false,
+      "p": 11,
+      "p_mod_4": 3,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 0,
+      "E_p_minus_3_mod_p": 10,
+      "N": 5,
+      "endpoint_criterion": false,
+      "p": 13,
+      "p_mod_4": 1,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 0,
+      "E_p_minus_3_mod_p": 8,
+      "N": 7,
+      "endpoint_criterion": false,
+      "p": 17,
+      "p_mod_4": 1,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 2,
+      "E_p_minus_3_mod_p": 7,
+      "N": 8,
+      "endpoint_criterion": false,
+      "p": 19,
+      "p_mod_4": 3,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 2,
+      "E_p_minus_3_mod_p": 22,
+      "N": 10,
+      "endpoint_criterion": false,
+      "p": 23,
+      "p_mod_4": 3,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 0,
+      "E_p_minus_3_mod_p": 26,
+      "N": 13,
+      "endpoint_criterion": false,
+      "p": 29,
+      "p_mod_4": 1,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 2,
+      "E_p_minus_3_mod_p": 22,
+      "N": 14,
+      "endpoint_criterion": false,
+      "p": 31,
+      "p_mod_4": 3,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 0,
+      "E_p_minus_3_mod_p": 33,
+      "N": 17,
+      "endpoint_criterion": false,
+      "p": 37,
+      "p_mod_4": 1,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 0,
+      "E_p_minus_3_mod_p": 37,
+      "N": 19,
+      "endpoint_criterion": false,
+      "p": 41,
+      "p_mod_4": 1,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 2,
+      "E_p_minus_3_mod_p": 4,
+      "N": 20,
+      "endpoint_criterion": false,
+      "p": 43,
+      "p_mod_4": 3,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 2,
+      "E_p_minus_3_mod_p": 14,
+      "N": 22,
+      "endpoint_criterion": false,
+      "p": 47,
+      "p_mod_4": 3,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 0,
+      "E_p_minus_3_mod_p": 7,
+      "N": 25,
+      "endpoint_criterion": false,
+      "p": 53,
+      "p_mod_4": 1,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 2,
+      "E_p_minus_3_mod_p": 12,
+      "N": 28,
+      "endpoint_criterion": false,
+      "p": 59,
+      "p_mod_4": 3,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 0,
+      "E_p_minus_3_mod_p": 45,
+      "N": 29,
+      "endpoint_criterion": false,
+      "p": 61,
+      "p_mod_4": 1,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 2,
+      "E_p_minus_3_mod_p": 25,
+      "N": 32,
+      "endpoint_criterion": false,
+      "p": 67,
+      "p_mod_4": 3,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 2,
+      "E_p_minus_3_mod_p": 49,
+      "N": 34,
+      "endpoint_criterion": false,
+      "p": 71,
+      "p_mod_4": 3,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 0,
+      "E_p_minus_3_mod_p": 48,
+      "N": 35,
+      "endpoint_criterion": false,
+      "p": 73,
+      "p_mod_4": 1,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 2,
+      "E_p_minus_3_mod_p": 75,
+      "N": 38,
+      "endpoint_criterion": false,
+      "p": 79,
+      "p_mod_4": 3,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 2,
+      "E_p_minus_3_mod_p": 60,
+      "N": 40,
+      "endpoint_criterion": false,
+      "p": 83,
+      "p_mod_4": 3,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 0,
+      "E_p_minus_3_mod_p": 33,
+      "N": 43,
+      "endpoint_criterion": false,
+      "p": 89,
+      "p_mod_4": 1,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 0,
+      "E_p_minus_3_mod_p": 55,
+      "N": 47,
+      "endpoint_criterion": false,
+      "p": 97,
+      "p_mod_4": 1,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 0,
+      "E_p_minus_3_mod_p": 15,
+      "N": 49,
+      "endpoint_criterion": false,
+      "p": 101,
+      "p_mod_4": 1,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 2,
+      "E_p_minus_3_mod_p": 57,
+      "N": 50,
+      "endpoint_criterion": false,
+      "p": 103,
+      "p_mod_4": 3,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 2,
+      "E_p_minus_3_mod_p": 89,
+      "N": 52,
+      "endpoint_criterion": false,
+      "p": 107,
+      "p_mod_4": 3,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 0,
+      "E_p_minus_3_mod_p": 86,
+      "N": 53,
+      "endpoint_criterion": false,
+      "p": 109,
+      "p_mod_4": 1,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 0,
+      "E_p_minus_3_mod_p": 75,
+      "N": 55,
+      "endpoint_criterion": false,
+      "p": 113,
+      "p_mod_4": 1,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 2,
+      "E_p_minus_3_mod_p": 69,
+      "N": 62,
+      "endpoint_criterion": false,
+      "p": 127,
+      "p_mod_4": 3,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 2,
+      "E_p_minus_3_mod_p": 129,
+      "N": 64,
+      "endpoint_criterion": false,
+      "p": 131,
+      "p_mod_4": 3,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 0,
+      "E_p_minus_3_mod_p": 131,
+      "N": 67,
+      "endpoint_criterion": false,
+      "p": 137,
+      "p_mod_4": 1,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 2,
+      "E_p_minus_3_mod_p": 84,
+      "N": 68,
+      "endpoint_criterion": false,
+      "p": 139,
+      "p_mod_4": 3,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 0,
+      "E_p_minus_3_mod_p": 0,
+      "N": 73,
+      "endpoint_criterion": true,
+      "p": 149,
+      "p_mod_4": 1,
+      "simultaneous_divisibility": true
+    },
+    {
+      "E_p_minus_1_mod_p": 2,
+      "E_p_minus_3_mod_p": 37,
+      "N": 74,
+      "endpoint_criterion": false,
+      "p": 151,
+      "p_mod_4": 3,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 0,
+      "E_p_minus_3_mod_p": 74,
+      "N": 77,
+      "endpoint_criterion": false,
+      "p": 157,
+      "p_mod_4": 1,
+      "simultaneous_divisibility": false
+    },
+    {
+      "E_p_minus_1_mod_p": 2,
+      "E_p_minus_3_mod_p": 63,
+      "N": 80,
+      "endpoint_criterion": false,
+      "p": 163,
+      "p_mod_4": 3,
+      "simultaneous_divisibility": false
+    }
+  ],
+  "grid_rows": [
+    {
+      "all_weights_nonzero": true,
+      "cyclic_square_is_4": true,
+      "half_degree_lower_bound": 1,
+      "hankel_determinants": [
+        {
+          "direct": 2,
+          "factored": 2,
+          "nonzero": true,
+          "shift": 0
+        },
+        {
+          "direct": 2,
+          "factored": 2,
+          "nonzero": true,
+          "shift": 1
+        },
+        {
+          "direct": 2,
+          "factored": 2,
+          "nonzero": true,
+          "shift": 3
+        }
+      ],
+      "interpolant_degree": 0,
+      "interpolant_leading_coefficient": 2,
+      "interpolant_sha256_u32le": "26b25d457597a7b0463f9620f666dd10aa2c4373a505967c7c8d70922a2d6ece",
+      "minimal_constant_coefficient_recurrence_order": 1,
+      "normalization_rows": [
+        {
+          "E_2n_mod_p": 2,
+          "n": 1,
+          "paired_moment": 2,
+          "primary_full_sum": 2
+        },
+        {
+          "E_2n_mod_p": 2,
+          "n": 2,
+          "paired_moment": 2,
+          "primary_full_sum": 2
+        },
+        {
+          "E_2n_mod_p": 2,
+          "n": 3,
+          "paired_moment": 2,
+          "primary_full_sum": 2
+        },
+        {
+          "E_2n_mod_p": 2,
+          "n": 4,
+          "paired_moment": 2,
+          "primary_full_sum": 2
+        }
+      ],
+      "p": 3,
+      "r": 1,
+      "root_polynomial": "Z^1-1",
+      "support_is_exactly_QR": true
+    },
+    {
+      "all_weights_nonzero": true,
+      "cyclic_square_is_4": true,
+      "half_degree_lower_bound": 1,
+      "hankel_determinants": [
+        {
+          "direct": 4,
+          "factored": 4,
+          "nonzero": true,
+          "shift": 0
+        },
+        {
+          "direct": 1,
+          "factored": 1,
+          "nonzero": true,
+          "shift": 1
+        },
+        {
+          "direct": 1,
+          "factored": 1,
+          "nonzero": true,
+          "shift": 3
+        }
+      ],
+      "interpolant_degree": 1,
+      "interpolant_leading_coefficient": 2,
+      "interpolant_sha256_u32le": "2fcd151b8295e8b3bf8ec64ede173523417960a8db6cbc569de9a25a458f9135",
+      "minimal_constant_coefficient_recurrence_order": 2,
+      "normalization_rows": [
+        {
+          "E_2n_mod_p": 4,
+          "n": 1,
+          "paired_moment": 4,
+          "primary_full_sum": 4
+        },
+        {
+          "E_2n_mod_p": 0,
+          "n": 2,
+          "paired_moment": 0,
+          "primary_full_sum": 0
+        },
+        {
+          "E_2n_mod_p": 4,
+          "n": 3,
+          "paired_moment": 4,
+          "primary_full_sum": 4
+        },
+        {
+          "E_2n_mod_p": 0,
+          "n": 4,
+          "paired_moment": 0,
+          "primary_full_sum": 0
+        },
+        {
+          "E_2n_mod_p": 4,
+          "n": 5,
+          "paired_moment": 4,
+          "primary_full_sum": 4
+        }
+      ],
+      "p": 5,
+      "r": 2,
+      "root_polynomial": "Z^2-1",
+      "support_is_exactly_QR": true
+    },
+    {
+      "all_weights_nonzero": true,
+      "cyclic_square_is_4": true,
+      "half_degree_lower_bound": 2,
+      "hankel_determinants": [
+        {
+          "direct": 6,
+          "factored": 6,
+          "nonzero": true,
+          "shift": 0
+        },
+        {
+          "direct": 6,
+          "factored": 6,
+          "nonzero": true,
+          "shift": 1
+        },
+        {
+          "direct": 6,
+          "factored": 6,
+          "nonzero": true,
+          "shift": 3
+        }
+      ],
+      "interpolant_degree": 2,
+      "interpolant_leading_coefficient": 2,
+      "interpolant_sha256_u32le": "8596d9d6383ada9d06439dba579772917cdc3cdce27b6876bc9bf2cec730b327",
+      "minimal_constant_coefficient_recurrence_order": 3,
+      "normalization_rows": [
+        {
+          "E_2n_mod_p": 6,
+          "n": 1,
+          "paired_moment": 6,
+          "primary_full_sum": 6
+        },
+        {
+          "E_2n_mod_p": 5,
+          "n": 2,
+          "paired_moment": 5,
+          "primary_full_sum": 5
+        },
+        {
+          "E_2n_mod_p": 2,
+          "n": 3,
+          "paired_moment": 2,
+          "primary_full_sum": 2
+        },
+        {
+          "E_2n_mod_p": 6,
+          "n": 4,
+          "paired_moment": 6,
+          "primary_full_sum": 6
+        },
+        {
+          "E_2n_mod_p": 5,
+          "n": 5,
+          "paired_moment": 5,
+          "primary_full_sum": 5
+        },
+        {
+          "E_2n_mod_p": 2,
+          "n": 6,
+          "paired_moment": 2,
+          "primary_full_sum": 2
+        }
+      ],
+      "p": 7,
+      "r": 3,
+      "root_polynomial": "Z^3-1",
+      "support_is_exactly_QR": true
+    },
+    {
+      "all_weights_nonzero": true,
+      "cyclic_square_is_4": true,
+      "half_degree_lower_bound": 3,
+      "hankel_determinants": [
+        {
+          "direct": 10,
+          "factored": 10,
+          "nonzero": true,
+          "shift": 0
+        },
+        {
+          "direct": 10,
+          "factored": 10,
+          "nonzero": true,
+          "shift": 1
+        },
+        {
+          "direct": 10,
+          "factored": 10,
+          "nonzero": true,
+          "shift": 3
+        }
+      ],
+      "interpolant_degree": 4,
+      "interpolant_leading_coefficient": 2,
+      "interpolant_sha256_u32le": "6c2757a0ab49a2cc0005f3c1a560ff4a1de69dc4e2a66c87207d648f95ced840",
+      "minimal_constant_coefficient_recurrence_order": 5,
+      "normalization_rows": [
+        {
+          "E_2n_mod_p": 10,
+          "n": 1,
+          "paired_moment": 10,
+          "primary_full_sum": 10
+        },
+        {
+          "E_2n_mod_p": 5,
+          "n": 2,
+          "paired_moment": 5,
+          "primary_full_sum": 5
+        },
+        {
+          "E_2n_mod_p": 5,
+          "n": 3,
+          "paired_moment": 5,
+          "primary_full_sum": 5
+        },
+        {
+          "E_2n_mod_p": 10,
+          "n": 4,
+          "paired_moment": 10,
+          "primary_full_sum": 10
+        },
+        {
+          "E_2n_mod_p": 2,
+          "n": 5,
+          "paired_moment": 2,
+          "primary_full_sum": 2
+        },
+        {
+          "E_2n_mod_p": 10,
+          "n": 6,
+          "paired_moment": 10,
+          "primary_full_sum": 10
+        },
+        {
+          "E_2n_mod_p": 5,
+          "n": 7,
+          "paired_moment": 5,
+          "primary_full_sum": 5
+        },
+        {
+          "E_2n_mod_p": 5,
+          "n": 8,
+          "paired_moment": 5,
+          "primary_full_sum": 5
+        }
+      ],
+      "p": 11,
+      "r": 5,
+      "root_polynomial": "Z^5-1",
+      "support_is_exactly_QR": true
+    },
+    {
+      "all_weights_nonzero": true,
+      "cyclic_square_is_4": true,
+      "half_degree_lower_bound": 3,
+      "hankel_determinants": [
+        {
+          "direct": 12,
+          "factored": 12,
+          "nonzero": true,
+          "shift": 0
+        },
+        {
+          "direct": 1,
+          "factored": 1,
+          "nonzero": true,
+          "shift": 1
+        },
+        {
+          "direct": 1,
+          "factored": 1,
+          "nonzero": true,
+          "shift": 3
+        }
+      ],
+      "interpolant_degree": 5,
+      "interpolant_leading_coefficient": 2,
+      "interpolant_sha256_u32le": "5496119da64b681a7c6d55fe07ecf160092800077c53fd02e1c9ff85c1c13ee9",
+      "minimal_constant_coefficient_recurrence_order": 6,
+      "normalization_rows": [
+        {
+          "E_2n_mod_p": 12,
+          "n": 1,
+          "paired_moment": 12,
+          "primary_full_sum": 12
+        },
+        {
+          "E_2n_mod_p": 5,
+          "n": 2,
+          "paired_moment": 5,
+          "primary_full_sum": 5
+        },
+        {
+          "E_2n_mod_p": 4,
+          "n": 3,
+          "paired_moment": 4,
+          "primary_full_sum": 4
+        },
+        {
+          "E_2n_mod_p": 7,
+          "n": 4,
+          "paired_moment": 7,
+          "primary_full_sum": 7
+        },
+        {
+          "E_2n_mod_p": 10,
+          "n": 5,
+          "paired_moment": 10,
+          "primary_full_sum": 10
+        },
+        {
+          "E_2n_mod_p": 0,
+          "n": 6,
+          "paired_moment": 0,
+          "primary_full_sum": 0
+        },
+        {
+          "E_2n_mod_p": 12,
+          "n": 7,
+          "paired_moment": 12,
+          "primary_full_sum": 12
+        },
+        {
+          "E_2n_mod_p": 5,
+          "n": 8,
+          "paired_moment": 5,
+          "primary_full_sum": 5
+        },
+        {
+          "E_2n_mod_p": 4,
+          "n": 9,
+          "paired_moment": 4,
+          "primary_full_sum": 4
+        }
+      ],
+      "p": 13,
+      "r": 6,
+      "root_polynomial": "Z^6-1",
+      "support_is_exactly_QR": true
+    },
+    {
+      "all_weights_nonzero": true,
+      "cyclic_square_is_4": true,
+      "half_degree_lower_bound": 4,
+      "hankel_determinants": [
+        {
+          "direct": 16,
+          "factored": 16,
+          "nonzero": true,
+          "shift": 0
+        },
+        {
+          "direct": 1,
+          "factored": 1,
+          "nonzero": true,
+          "shift": 1
+        },
+        {
+          "direct": 1,
+          "factored": 1,
+          "nonzero": true,
+          "shift": 3
+        }
+      ],
+      "interpolant_degree": 7,
+      "interpolant_leading_coefficient": 2,
+      "interpolant_sha256_u32le": "0678c619a3b3dea9453b5ef02173a3b2a01e5b48e82aa842105466c05ecdc1fa",
+      "minimal_constant_coefficient_recurrence_order": 8,
+      "normalization_rows": [
+        {
+          "E_2n_mod_p": 16,
+          "n": 1,
+          "paired_moment": 16,
+          "primary_full_sum": 16
+        },
+        {
+          "E_2n_mod_p": 5,
+          "n": 2,
+          "paired_moment": 5,
+          "primary_full_sum": 5
+        },
+        {
+          "E_2n_mod_p": 7,
+          "n": 3,
+          "paired_moment": 7,
+          "primary_full_sum": 7
+        },
+        {
+          "E_2n_mod_p": 8,
+          "n": 4,
+          "paired_moment": 8,
+          "primary_full_sum": 8
+        },
+        {
+          "E_2n_mod_p": 3,
+          "n": 5,
+          "paired_moment": 3,
+          "primary_full_sum": 3
+        },
+        {
+          "E_2n_mod_p": 3,
+          "n": 6,
+          "paired_moment": 3,
+          "primary_full_sum": 3
+        },
+        {
+          "E_2n_mod_p": 8,
+          "n": 7,
+          "paired_moment": 8,
+          "primary_full_sum": 8
+        },
+        {
+          "E_2n_mod_p": 0,
+          "n": 8,
+          "paired_moment": 0,
+          "primary_full_sum": 0
+        },
+        {
+          "E_2n_mod_p": 16,
+          "n": 9,
+          "paired_moment": 16,
+          "primary_full_sum": 16
+        },
+        {
+          "E_2n_mod_p": 5,
+          "n": 10,
+          "paired_moment": 5,
+          "primary_full_sum": 5
+        },
+        {
+          "E_2n_mod_p": 7,
+          "n": 11,
+          "paired_moment": 7,
+          "primary_full_sum": 7
+        }
+      ],
+      "p": 17,
+      "r": 8,
+      "root_polynomial": "Z^8-1",
+      "support_is_exactly_QR": true
+    },
+    {
+      "all_weights_nonzero": true,
+      "cyclic_square_is_4": true,
+      "half_degree_lower_bound": 5,
+      "hankel_determinants": [
+        {
+          "direct": 18,
+          "factored": 18,
+          "nonzero": true,
+          "shift": 0
+        },
+        {
+          "direct": 18,
+          "factored": 18,
+          "nonzero": true,
+          "shift": 1
+        },
+        {
+          "direct": 18,
+          "factored": 18,
+          "nonzero": true,
+          "shift": 3
+        }
+      ],
+      "interpolant_degree": 8,
+      "interpolant_leading_coefficient": 2,
+      "interpolant_sha256_u32le": "3de662b6174c9180fbdcba150a54a92f249680c36229b09ac9ac10280d84babb",
+      "minimal_constant_coefficient_recurrence_order": 9,
+      "normalization_rows": [
+        {
+          "E_2n_mod_p": 18,
+          "n": 1,
+          "paired_moment": 18,
+          "primary_full_sum": 18
+        },
+        {
+          "E_2n_mod_p": 5,
+          "n": 2,
+          "paired_moment": 5,
+          "primary_full_sum": 5
+        },
+        {
+          "E_2n_mod_p": 15,
+          "n": 3,
+          "paired_moment": 15,
+          "primary_full_sum": 15
+        },
+        {
+          "E_2n_mod_p": 17,
+          "n": 4,
+          "paired_moment": 17,
+          "primary_full_sum": 17
+        },
+        {
+          "E_2n_mod_p": 0,
+          "n": 5,
+          "paired_moment": 0,
+          "primary_full_sum": 0
+        },
+        {
+          "E_2n_mod_p": 15,
+          "n": 6,
+          "paired_moment": 15,
+          "primary_full_sum": 15
+        },
+        {
+          "E_2n_mod_p": 15,
+          "n": 7,
+          "paired_moment": 15,
+          "primary_full_sum": 15
+        },
+        {
+          "E_2n_mod_p": 7,
+          "n": 8,
+          "paired_moment": 7,
+          "primary_full_sum": 7
+        },
+        {
+          "E_2n_mod_p": 2,
+          "n": 9,
+          "paired_moment": 2,
+          "primary_full_sum": 2
+        },
+        {
+          "E_2n_mod_p": 18,
+          "n": 10,
+          "paired_moment": 18,
+          "primary_full_sum": 18
+        },
+        {
+          "E_2n_mod_p": 5,
+          "n": 11,
+          "paired_moment": 5,
+          "primary_full_sum": 5
+        },
+        {
+          "E_2n_mod_p": 15,
+          "n": 12,
+          "paired_moment": 15,
+          "primary_full_sum": 15
+        }
+      ],
+      "p": 19,
+      "r": 9,
+      "root_polynomial": "Z^9-1",
+      "support_is_exactly_QR": true
+    },
+    {
+      "all_weights_nonzero": true,
+      "cyclic_square_is_4": true,
+      "half_degree_lower_bound": 6,
+      "hankel_determinants": [
+        {
+          "direct": 22,
+          "factored": 22,
+          "nonzero": true,
+          "shift": 0
+        },
+        {
+          "direct": 22,
+          "factored": 22,
+          "nonzero": true,
+          "shift": 1
+        },
+        {
+          "direct": 22,
+          "factored": 22,
+          "nonzero": true,
+          "shift": 3
+        }
+      ],
+      "interpolant_degree": 10,
+      "interpolant_leading_coefficient": 2,
+      "interpolant_sha256_u32le": "f582fe34639406ace392cd7a83d2c82baf992857405f4a9fb304513198c92c69",
+      "minimal_constant_coefficient_recurrence_order": 11,
+      "normalization_rows": [
+        {
+          "E_2n_mod_p": 22,
+          "n": 1,
+          "paired_moment": 22,
+          "primary_full_sum": 22
+        },
+        {
+          "E_2n_mod_p": 5,
+          "n": 2,
+          "paired_moment": 5,
+          "primary_full_sum": 5
+        },
+        {
+          "E_2n_mod_p": 8,
+          "n": 3,
+          "paired_moment": 8,
+          "primary_full_sum": 8
+        },
+        {
+          "E_2n_mod_p": 5,
+          "n": 4,
+          "paired_moment": 5,
+          "primary_full_sum": 5
+        },
+        {
+          "E_2n_mod_p": 10,
+          "n": 5,
+          "paired_moment": 10,
+          "primary_full_sum": 10
+        },
+        {
+          "E_2n_mod_p": 12,
+          "n": 6,
+          "paired_moment": 12,
+          "primary_full_sum": 12
+        },
+        {
+          "E_2n_mod_p": 6,
+          "n": 7,
+          "paired_moment": 6,
+          "primary_full_sum": 6
+        },
+        {
+          "E_2n_mod_p": 16,
+          "n": 8,
+          "paired_moment": 16,
+          "primary_full_sum": 16
+        },
+        {
+          "E_2n_mod_p": 6,
+          "n": 9,
+          "paired_moment": 6,
+          "primary_full_sum": 6
+        },
+        {
+          "E_2n_mod_p": 22,
+          "n": 10,
+          "paired_moment": 22,
+          "primary_full_sum": 22
+        },
+        {
+          "E_2n_mod_p": 2,
+          "n": 11,
+          "paired_moment": 2,
+          "primary_full_sum": 2
+        },
+        {
+          "E_2n_mod_p": 22,
+          "n": 12,
+          "paired_moment": 22,
+          "primary_full_sum": 22
+        },
+        {
+          "E_2n_mod_p": 5,
+          "n": 13,
+          "paired_moment": 5,
+          "primary_full_sum": 5
+        },
+        {
+          "E_2n_mod_p": 8,
+          "n": 14,
+          "paired_moment": 8,
+          "primary_full_sum": 8
+        }
+      ],
+      "p": 23,
+      "r": 11,
+      "root_polynomial": "Z^11-1",
+      "support_is_exactly_QR": true
+    },
+    {
+      "all_weights_nonzero": true,
+      "cyclic_square_is_4": true,
+      "half_degree_lower_bound": 7,
+      "hankel_determinants": [
+        {
+          "direct": 28,
+          "factored": 28,
+          "nonzero": true,
+          "shift": 0
+        },
+        {
+          "direct": 1,
+          "factored": 1,
+          "nonzero": true,
+          "shift": 1
+        },
+        {
+          "direct": 1,
+          "factored": 1,
+          "nonzero": true,
+          "shift": 3
+        }
+      ],
+      "interpolant_degree": 13,
+      "interpolant_leading_coefficient": 2,
+      "interpolant_sha256_u32le": "11e0cd66b53a84dc7e32cd43c21964db64db3687a2f98f53af37503a57cf3017",
+      "minimal_constant_coefficient_recurrence_order": 14,
+      "normalization_rows": [
+        {
+          "E_2n_mod_p": 28,
+          "n": 1,
+          "paired_moment": 28,
+          "primary_full_sum": 28
+        },
+        {
+          "E_2n_mod_p": 5,
+          "n": 2,
+          "paired_moment": 5,
+          "primary_full_sum": 5
+        },
+        {
+          "E_2n_mod_p": 26,
+          "n": 3,
+          "paired_moment": 26,
+          "primary_full_sum": 26
+        },
+        {
+          "E_2n_mod_p": 22,
+          "n": 4,
+          "paired_moment": 22,
+          "primary_full_sum": 22
+        },
+        {
+          "E_2n_mod_p": 26,
+          "n": 5,
+          "paired_moment": 26,
+          "primary_full_sum": 26
+        },
+        {
+          "E_2n_mod_p": 23,
+          "n": 6,
+          "paired_moment": 23,
+          "primary_full_sum": 23
+        },
+        {
+          "E_2n_mod_p": 12,
+          "n": 7,
+          "paired_moment": 12,
+          "primary_full_sum": 12
+        },
+        {
+          "E_2n_mod_p": 17,
+          "n": 8,
+          "paired_moment": 17,
+          "primary_full_sum": 17
+        },
+        {
+          "E_2n_mod_p": 28,
+          "n": 9,
+          "paired_moment": 28,
+          "primary_full_sum": 28
+        },
+        {
+          "E_2n_mod_p": 17,
+          "n": 10,
+          "paired_moment": 17,
+          "primary_full_sum": 17
+        },
+        {
+          "E_2n_mod_p": 28,
+          "n": 11,
+          "paired_moment": 28,
+          "primary_full_sum": 28
+        },
+        {
+          "E_2n_mod_p": 2,
+          "n": 12,
+          "paired_moment": 2,
+          "primary_full_sum": 2
+        },
+        {
+          "E_2n_mod_p": 26,
+          "n": 13,
+          "paired_moment": 26,
+          "primary_full_sum": 26
+        },
+        {
+          "E_2n_mod_p": 0,
+          "n": 14,
+          "paired_moment": 0,
+          "primary_full_sum": 0
+        }
+      ],
+      "p": 29,
+      "r": 14,
+      "root_polynomial": "Z^14-1",
+      "support_is_exactly_QR": true
+    },
+    {
+      "all_weights_nonzero": true,
+      "cyclic_square_is_4": true,
+      "half_degree_lower_bound": 8,
+      "hankel_determinants": [
+        {
+          "direct": 30,
+          "factored": 30,
+          "nonzero": true,
+          "shift": 0
+        },
+        {
+          "direct": 30,
+          "factored": 30,
+          "nonzero": true,
+          "shift": 1
+        },
+        {
+          "direct": 30,
+          "factored": 30,
+          "nonzero": true,
+          "shift": 3
+        }
+      ],
+      "interpolant_degree": 14,
+      "interpolant_leading_coefficient": 2,
+      "interpolant_sha256_u32le": "7faecc8e205e88a7f5f99a3c237c728bb9b6aa055345d7ce79365b6273a2ee69",
+      "minimal_constant_coefficient_recurrence_order": 15,
+      "normalization_rows": [
+        {
+          "E_2n_mod_p": 30,
+          "n": 1,
+          "paired_moment": 30,
+          "primary_full_sum": 30
+        },
+        {
+          "E_2n_mod_p": 5,
+          "n": 2,
+          "paired_moment": 5,
+          "primary_full_sum": 5
+        },
+        {
+          "E_2n_mod_p": 1,
+          "n": 3,
+          "paired_moment": 1,
+          "primary_full_sum": 1
+        },
+        {
+          "E_2n_mod_p": 21,
+          "n": 4,
+          "paired_moment": 21,
+          "primary_full_sum": 21
+        },
+        {
+          "E_2n_mod_p": 9,
+          "n": 5,
+          "paired_moment": 9,
+          "primary_full_sum": 9
+        },
+        {
+          "E_2n_mod_p": 30,
+          "n": 6,
+          "paired_moment": 30,
+          "primary_full_sum": 30
+        },
+        {
+          "E_2n_mod_p": 19,
+          "n": 7,
+          "paired_moment": 19,
+          "primary_full_sum": 19
+        },
+        {
+          "E_2n_mod_p": 26,
+          "n": 8,
+          "paired_moment": 26,
+          "primary_full_sum": 26
+        },
+        {
+          "E_2n_mod_p": 3,
+          "n": 9,
+          "paired_moment": 3,
+          "primary_full_sum": 3
+        },
+        {
+          "E_2n_mod_p": 14,
+          "n": 10,
+          "paired_moment": 14,
+          "primary_full_sum": 14
+        },
+        {
+          "E_2n_mod_p": 0,
+          "n": 11,
+          "paired_moment": 0,
+          "primary_full_sum": 0
+        },
+        {
+          "E_2n_mod_p": 25,
+          "n": 12,
+          "paired_moment": 25,
+          "primary_full_sum": 25
+        },
+        {
+          "E_2n_mod_p": 9,
+          "n": 13,
+          "paired_moment": 9,
+          "primary_full_sum": 9
+        },
+        {
+          "E_2n_mod_p": 22,
+          "n": 14,
+          "paired_moment": 22,
+          "primary_full_sum": 22
+        }
+      ],
+      "p": 31,
+      "r": 15,
+      "root_polynomial": "Z^15-1",
+      "support_is_exactly_QR": true
+    },
+    {
+      "all_weights_nonzero": true,
+      "cyclic_square_is_4": true,
+      "half_degree_lower_bound": 11,
+      "hankel_determinants": [],
+      "interpolant_degree": 20,
+      "interpolant_leading_coefficient": 2,
+      "interpolant_sha256_u32le": "024304d8c12e0ade20994a43134a9c3d9951917d05721eedc2fca2e023528183",
+      "minimal_constant_coefficient_recurrence_order": 21,
+      "normalization_rows": [
+        {
+          "E_2n_mod_p": 42,
+          "n": 1,
+          "paired_moment": 42,
+          "primary_full_sum": 42
+        },
+        {
+          "E_2n_mod_p": 5,
+          "n": 2,
+          "paired_moment": 5,
+          "primary_full_sum": 5
+        },
+        {
+          "E_2n_mod_p": 25,
+          "n": 3,
+          "paired_moment": 25,
+          "primary_full_sum": 25
+        },
+        {
+          "E_2n_mod_p": 9,
+          "n": 4,
+          "paired_moment": 9,
+          "primary_full_sum": 9
+        },
+        {
+          "E_2n_mod_p": 4,
+          "n": 5,
+          "paired_moment": 4,
+          "primary_full_sum": 4
+        },
+        {
+          "E_2n_mod_p": 0,
+          "n": 6,
+          "paired_moment": 0,
+          "primary_full_sum": 0
+        },
+        {
+          "E_2n_mod_p": 5,
+          "n": 7,
+          "paired_moment": 5,
+          "primary_full_sum": 5
+        },
+        {
+          "E_2n_mod_p": 31,
+          "n": 8,
+          "paired_moment": 31,
+          "primary_full_sum": 31
+        },
+        {
+          "E_2n_mod_p": 18,
+          "n": 9,
+          "paired_moment": 18,
+          "primary_full_sum": 18
+        },
+        {
+          "E_2n_mod_p": 13,
+          "n": 10,
+          "paired_moment": 13,
+          "primary_full_sum": 13
+        },
+        {
+          "E_2n_mod_p": 6,
+          "n": 11,
+          "paired_moment": 6,
+          "primary_full_sum": 6
+        },
+        {
+          "E_2n_mod_p": 12,
+          "n": 12,
+          "paired_moment": 12,
+          "primary_full_sum": 12
+        },
+        {
+          "E_2n_mod_p": 16,
+          "n": 13,
+          "paired_moment": 16,
+          "primary_full_sum": 16
+        },
+        {
+          "E_2n_mod_p": 30,
+          "n": 14,
+          "paired_moment": 30,
+          "primary_full_sum": 30
+        }
+      ],
+      "p": 43,
+      "r": 21,
+      "root_polynomial": "Z^21-1",
+      "support_is_exactly_QR": true
+    },
+    {
+      "all_weights_nonzero": true,
+      "cyclic_square_is_4": true,
+      "half_degree_lower_bound": 15,
+      "hankel_determinants": [],
+      "interpolant_degree": 29,
+      "interpolant_leading_coefficient": 2,
+      "interpolant_sha256_u32le": "6fef50dc5fb13408ef3b042e1477de56cb40d15220ceb90a4fc8a1bc65748e1c",
+      "minimal_constant_coefficient_recurrence_order": 30,
+      "normalization_rows": [
+        {
+          "E_2n_mod_p": 60,
+          "n": 1,
+          "paired_moment": 60,
+          "primary_full_sum": 60
+        },
+        {
+          "E_2n_mod_p": 5,
+          "n": 2,
+          "paired_moment": 5,
+          "primary_full_sum": 5
+        },
+        {
+          "E_2n_mod_p": 0,
+          "n": 3,
+          "paired_moment": 0,
+          "primary_full_sum": 0
+        },
+        {
+          "E_2n_mod_p": 43,
+          "n": 4,
+          "paired_moment": 43,
+          "primary_full_sum": 43
+        },
+        {
+          "E_2n_mod_p": 48,
+          "n": 5,
+          "paired_moment": 48,
+          "primary_full_sum": 48
+        },
+        {
+          "E_2n_mod_p": 38,
+          "n": 6,
+          "paired_moment": 38,
+          "primary_full_sum": 38
+        },
+        {
+          "E_2n_mod_p": 12,
+          "n": 7,
+          "paired_moment": 12,
+          "primary_full_sum": 12
+        },
+        {
+          "E_2n_mod_p": 44,
+          "n": 8,
+          "paired_moment": 44,
+          "primary_full_sum": 44
+        },
+        {
+          "E_2n_mod_p": 34,
+          "n": 9,
+          "paired_moment": 34,
+          "primary_full_sum": 34
+        },
+        {
+          "E_2n_mod_p": 60,
+          "n": 10,
+          "paired_moment": 60,
+          "primary_full_sum": 60
+        },
+        {
+          "E_2n_mod_p": 29,
+          "n": 11,
+          "paired_moment": 29,
+          "primary_full_sum": 29
+        },
+        {
+          "E_2n_mod_p": 54,
+          "n": 12,
+          "paired_moment": 54,
+          "primary_full_sum": 54
+        },
+        {
+          "E_2n_mod_p": 11,
+          "n": 13,
+          "paired_moment": 11,
+          "primary_full_sum": 11
+        },
+        {
+          "E_2n_mod_p": 23,
+          "n": 14,
+          "paired_moment": 23,
+          "primary_full_sum": 23
+        }
+      ],
+      "p": 61,
+      "r": 30,
+      "root_polynomial": "Z^30-1",
+      "support_is_exactly_QR": true
+    },
+    {
+      "all_weights_nonzero": true,
+      "cyclic_square_is_4": true,
+      "half_degree_lower_bound": 25,
+      "hankel_determinants": [],
+      "interpolant_degree": 49,
+      "interpolant_leading_coefficient": 2,
+      "interpolant_sha256_u32le": "6a4f1d2541bae853755a8a0033b4ae044e959ff34f238305ddedd7f4bd12b9e2",
+      "minimal_constant_coefficient_recurrence_order": 50,
+      "normalization_rows": [
+        {
+          "E_2n_mod_p": 100,
+          "n": 1,
+          "paired_moment": 100,
+          "primary_full_sum": 100
+        },
+        {
+          "E_2n_mod_p": 5,
+          "n": 2,
+          "paired_moment": 5,
+          "primary_full_sum": 5
+        },
+        {
+          "E_2n_mod_p": 40,
+          "n": 3,
+          "paired_moment": 40,
+          "primary_full_sum": 40
+        },
+        {
+          "E_2n_mod_p": 72,
+          "n": 4,
+          "paired_moment": 72,
+          "primary_full_sum": 72
+        },
+        {
+          "E_2n_mod_p": 80,
+          "n": 5,
+          "paired_moment": 80,
+          "primary_full_sum": 80
+        },
+        {
+          "E_2n_mod_p": 5,
+          "n": 6,
+          "paired_moment": 5,
+          "primary_full_sum": 5
+        },
+        {
+          "E_2n_mod_p": 91,
+          "n": 7,
+          "paired_moment": 91,
+          "primary_full_sum": 91
+        },
+        {
+          "E_2n_mod_p": 76,
+          "n": 8,
+          "paired_moment": 76,
+          "primary_full_sum": 76
+        },
+        {
+          "E_2n_mod_p": 15,
+          "n": 9,
+          "paired_moment": 15,
+          "primary_full_sum": 15
+        },
+        {
+          "E_2n_mod_p": 27,
+          "n": 10,
+          "paired_moment": 27,
+          "primary_full_sum": 27
+        },
+        {
+          "E_2n_mod_p": 39,
+          "n": 11,
+          "paired_moment": 39,
+          "primary_full_sum": 39
+        },
+        {
+          "E_2n_mod_p": 32,
+          "n": 12,
+          "paired_moment": 32,
+          "primary_full_sum": 32
+        },
+        {
+          "E_2n_mod_p": 51,
+          "n": 13,
+          "paired_moment": 51,
+          "primary_full_sum": 51
+        },
+        {
+          "E_2n_mod_p": 12,
+          "n": 14,
+          "paired_moment": 12,
+          "primary_full_sum": 12
+        }
+      ],
+      "p": 101,
+      "r": 50,
+      "root_polynomial": "Z^50-1",
+      "support_is_exactly_QR": true
+    }
+  ],
+  "logical_scope": "Exact finite replay for the normalization and the p=151483 seed of an all-prime moment-complexity obstruction. It proves no upper bound for the adjacent first-period prime product and does not classify e+pi.",
+  "missing_lemma": "A global coupling across the deterministic W_p as p varies, strong enough to prove sum log p=o(N log N) over strict adjacent first-period primes; none of the certified identities supplies such a bound.",
+  "primary_reference": {
+    "authors": "J. B. Cosgrave and K. Dilcher",
+    "equation": "2.3",
+    "journal": "Acta Arith. 161 (2013), 47-67",
+    "title": "On a congruence of Emma Lehmer related to Euler numbers",
+    "url": "https://www.impan.pl/shop/publication/transaction/download/product/82378"
+  },
+  "prime_grid": [
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29,
+    31,
+    43,
+    61,
+    101
+  ],
+  "resource_policy": {
+    "RSS_guard_kib": 8388608,
+    "hardware_accelerator": "Not used: exact modular scalar arithmetic is CPU-suitable, and the replay is small.",
+    "meaning": "Failure guard only; it neither allocates nor limits the approximately 50 GiB available Colab RAM."
+  },
+  "schema": "root_unity_adjacent_euler_first_period_moment_certificate_v1",
+  "seed": {
+    "N": 1643,
+    "QR_group_order_is_odd": true,
+    "distinct_support_size": 75741,
+    "full_hankel_dimension": 75741,
+    "interpolant": {
+      "exact_degree_from_all_parameter_theorem": 75740,
+      "half_degree_lower_bound": 37871,
+      "leading_coefficient": 2,
+      "zero_coefficient_exponents": [
+        74098,
+        74097
+      ]
+    },
+    "last_odd_trial_divisor": 389,
+    "minimal_constant_coefficient_recurrence_order": 75741,
+    "normalized_alternating_weights_are_not_a_multiplicative_character": true,
+    "p": 151483,
+    "p_greater_than_2N_plus_3": true,
+    "p_is_prime_by_trial_division": true,
+    "p_mod_4": 3,
+    "paired_moments": {
+      "1": 151482,
+      "1643": 0,
+      "1644": 0
+    },
+    "primary_full_power_sums": {
+      "1643": 0,
+      "1644": 0
+    },
+    "r": 75741,
+    "secant_recurrence": {
+      "E_2_mod_p": 151482,
+      "E_3286_mod_p": 0,
+      "E_3288_mod_p": 0
+    },
+    "support_sha256_u32le": "e0618bd5e4fd5d38089d7b3b0e489276036f5ce47b865a86eae4a8f817f0b275",
+    "support_size": 75741,
+    "weights_sha256_u32le": "b104524c8f424d1abf994a96014cda8240a8e6c899f07740221b908839a2974f"
+  },
+  "source_sha256": "4b24dbecf01e1a06690d4b75b620beb741c6825d6c1e1729cc28c333f020cd4e"
+}

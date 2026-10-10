@@ -1,0 +1,59 @@
+{
+  "item": 314,
+  "schema": "item314-j2-two-branch-gate-ledger-v1",
+  "classification": "PROVED_ALL_LAYER_TRANSLATION_AND_SCOPED_NORM_NO_GO",
+  "actual_family": {
+    "rays": [
+      "r=6n+1",
+      "r=6n+5"
+    ],
+    "n_domain": "n>=0",
+    "row_prime": "p=2r+6s+3",
+    "s_domain": "s>=1",
+    "necessary_gate": "D_(r,s)=2^(2s)*L_r+M_r"
+  },
+  "cleared_gate": {
+    "universal": "G_(r,s)=18*2^(2s)*a_r+11*b_r",
+    "exact_bridge": "D_(r,s)=g_n*kappa_e*G_(r,s)/16^n",
+    "kappa_1": "-81/100",
+    "kappa_5": "354294/41405",
+    "integer_clearer": "H_r=6^(r+3)*r!",
+    "integer_gate": "H_r*G_(r,s) is in Z",
+    "all_row_equivalence": "D=0 mod p iff G=0 mod p iff H_r*G=0 mod p"
+  },
+  "six_singular_layers": {
+    "layers": {
+      "s=1": "p=2r+9",
+      "s=2": "p=2r+15",
+      "s=3": "p=2r+21",
+      "s=4": "p=2r+27",
+      "s=5": "p=2r+33",
+      "s=6": "p=2r+39"
+    },
+    "resolution": "these are current forward-coefficient factors; g_n uses only t<=r-6, where 2t+15<=2r+3<p, so no singular factor is inverted"
+  },
+  "norm_audit": {
+    "forced_norm": "N_r=18^3*a_r^3+11^3*2^(2r+2)*b_r^3",
+    "endpoint_relation": "2^(2r+2)*2^(6s)=2^(p-1)=1 mod p",
+    "old_resultant_identity": "L_r^3+2^(2r+2)*M_r^3=(g_n*kappa_e/16^n)^3*N_r",
+    "new_weighted_divisor": false,
+    "series_norm_no_go": "field norms multiply series and produce convolution coefficients, not products of the same-index coefficients"
+  },
+  "height_audit": {
+    "individual": "h(a_r), h(b_r), h(N_r)=O(r)",
+    "summed_bound": "O(M^2)",
+    "comparison": "weaker than the existing O(M) raw cell ceiling",
+    "capacity_effect": 0
+  },
+  "strategic_effect": {
+    "modular_singular_layer_checkpoint": "closed",
+    "translation_only": true,
+    "all_prime_nonvanishing": false,
+    "weighted_zero_density": false,
+    "capacity_reduction": 0,
+    "booking": 0,
+    "ordinary_j2_ceiling_per_6M_after_item314": "1/105"
+  },
+  "smallest_open_arithmetic_theorem": "weighted logarithmic mass o(M) for actual tied prime rows where 18*2^(2s)*a_(6n+e)+11*b_(6n+e)=0 mod p",
+  "warning": "the cleared determinant gate is necessary but not sufficient for actual period incidence, and the endpoint cubic is not a second independent condition"
+}

@@ -1,0 +1,59 @@
+{
+  "all_h_theorem": {
+    "classification": "EXACT_REPLAY_OF_PROVED_ALL_H_IDENTITY",
+    "cokernel": "Phi_s(j^n)=sum_k Stirling2(n,k)*(-2s)_falling_k/2^k; Phi_s(1)=1 and Phi_s(L_s U)=0",
+    "conclusion": "c_high(h,s*)=c_low(h,s*) for every h>=1",
+    "gosper_square_replay_h_max": 12,
+    "h_max": 80,
+    "phase": "s*=-(4h+3)/6, r=2h, hence 2r+6s*+3=0",
+    "reflection": "Phi_s binom(alpha-2j,r)=Phi_s binom(alpha+4s+2j,r)",
+    "row_stream_sha256": "d18e54c8f360ffaecf818c7182305e9cfc71625a7c0b450f4a820421e06c8e82",
+    "rows": 80
+  },
+  "dependencies": {
+    "item222_j1_phase_resultant_certificate.py": "c16f75156ba8424c567163cedc6a93a7656c8a53036b48ef69b06327d76ad44b",
+    "item229_j1_fixed_h_theta_certificate.py": "a8e2028ca6a53f8c843c25be375feac50e4704538686ee1e3a835f89aa11780f",
+    "item231_j1_second_phase_coefficient_certificate.py": "b2ab5da4624a6b91d10a52976c6996b2e04b077f0b12c02a581a1551f6879045"
+  },
+  "item": 236,
+  "localized_resultant_status": {
+    "classification": "OPEN",
+    "finite_patterns": "not used to infer redundancy or prime exclusion",
+    "missing_inputs": [
+      "an all-h identity relating the common residual c_h(s*) to Item222 E_h*",
+      "a symbolic unit-localized factorization or gcd theorem for the natural endpoint scalar K_h and E_h*"
+    ],
+    "proved_input": "the low and high Gosper residuals coincide at phase for all h"
+  },
+  "rate_ledger": {
+    "new_divisibility_exponent": 0,
+    "new_unconditional_linear_log_rate": 0,
+    "reason": "residual equality synchronizes the two coefficient reductions but does not make the common residual vanish modulo an actual row prime"
+  },
+  "schema": "item236-j1-phase-cokernel-v1",
+  "scope_grid": {
+    "classification": "EXACT_SCOPE_REPLAY",
+    "h_max": 8,
+    "row_stream_sha256": "0c3d243eee782d49e370ea6e4a7ebdb7d2547af4d8625cbce03e435398a8e53a",
+    "rows": 64,
+    "s_max": 8,
+    "scope": "the equality uses 2r+6s+3=0 and is not asserted away from the row phase",
+    "unequal_low_high_residual_rows": 64
+  },
+  "status_ledger": {
+    "EXACT_REPLAY": [
+      "the coefficientwise theorem through h<=80",
+      "independent square-system comparison through h<=12"
+    ],
+    "OPEN": [
+      "an all-h c_h(s*)/E_h* factorization",
+      "a symbolic K_h/E_h* localized resultant or gcd theorem",
+      "all-prime exclusion, weighted exceptional-prime control, or any positive Route-1 rate"
+    ],
+    "PROVED": [
+      "the normalized coefficientwise functional Phi_s is the cokernel of L_s",
+      "the exact positive/negative binomial reflection under Phi_s",
+      "c_high(h,s*)=c_low(h,s*) for every h>=1"
+    ]
+  }
+}

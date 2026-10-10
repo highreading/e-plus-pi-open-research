@@ -1,0 +1,242 @@
+{
+  "boundary_bridge": {
+    "actual_rows": 479,
+    "common_boundary_functional": "L_e(f)=(2e-i)int_0^(-i)f(z)dz+(2e+i)int_0^i f(z)dz",
+    "direct_exact_recurrence_checks": "both terminal shifts on every replayed row",
+    "exact_recurrence_multipliers": "p at the lower pole and 2p at the upper pole",
+    "lower_residue": "p*L_e(z^(p-1)W)=-2e mod p",
+    "prime_max": 251,
+    "row_stream_sha256": "b4d04cc5194da4c506b0bfeec2e8b8b4bb9452ce5487891f009d32d19334a7bb",
+    "terminal_sources": "Delta_minus=-2e and Delta_plus=-4e mod p",
+    "upper_residue": "p*L_e(z^(p+r+2s+4)W)=-2e mod p"
+  },
+  "classification": {
+    "EXACT_FINITE_ONLY": [
+      "transfer survivor replay and direct noncollision through p<=2000"
+    ],
+    "OPEN": [
+      "all-prime noncollision on the remaining off-diagonal transfer survivors",
+      "an independent higher resonance or arithmetic invariant",
+      "any positive Route-1 linear log-rate or radical saving"
+    ],
+    "PROVED": [
+      "the Item220 j=1 pair uses one common boundary functional after reciprocity",
+      "the gcd weight has the stated exact order-three Pearson moment recurrence",
+      "the two collision equations reduce to the initial line <(1,1,-1)>",
+      "the lower and upper Frobenius sources are -2epsilon and -4epsilon",
+      "every collision satisfies Delta_plus=2*Delta_minus!=0",
+      "the closed binomial coefficient formulas for both transfer scalars",
+      "the transfer determinant excludes every actual diagonal row r=2s"
+    ]
+  },
+  "dependency_sha256": {
+    "scripts/item218_j1_common_log_certificate.py": "a238c5ca37263f2553da47bf3f21253aedf1c34f8c57458a4a274fc6cdc9029a",
+    "scripts/item220_twisted_derham_fixed_cells_certificate.py": "3e65aea853529c616398518f6e1c9fa6c8493fc5004d6171f01c926bbbb6cbbe",
+    "sources/item218_j1_common_log_report.md": "2cabc5a705a974d6989718e24443b59c00715fd4e9aff288e0e17b297096d585",
+    "sources/item220_twisted_derham_fixed_cells_report.md": "3ddc253eedb4453370d41953b1b050341e6ec59028059e459b82249d84f340b9"
+  },
+  "diagonal_exclusion": {
+    "classification": "PROVED_ALL_PRIME_DIAGONAL_EXCLUSION",
+    "collision_requirement": "Delta_plus=2*Delta_minus!=0 mod p",
+    "conclusion": "the actual paired common-log collision is impossible on every diagonal row",
+    "family": "r=2s, p=10s+3 prime",
+    "finite_prime_max": 2000,
+    "finite_rows": 77,
+    "involution": "v_t=-v_(3-t) mod p",
+    "row_stream_sha256": "7b146d0d504fb3418224f047f2d8d366e7766ed10a11f1e9a715128de70a3cb3",
+    "transfer_identity": "Delta_plus=Delta_minus identically on this actual family"
+  },
+  "finite_actual_replay": {
+    "Theta_survivor_stream_sha256": "05ebc18f04d538fb4e968b0a8c54c774df3d1d43522455c4d49ab97a76e2d608",
+    "Theta_zero": 22,
+    "Theta_zero_diagonal": 0,
+    "classification": "EXACT_FINITE_ONLY",
+    "delta_minus_zero": 22,
+    "delta_plus_zero": 29,
+    "direct_paired_zero_among_survivors": 0,
+    "first_delta_plus_zero_rows": [
+      [
+        19,
+        2,
+        2,
+        3,
+        14,
+        5
+      ],
+      [
+        47,
+        4,
+        6,
+        34,
+        17,
+        23
+      ],
+      [
+        97,
+        2,
+        15,
+        90,
+        76,
+        10
+      ],
+      [
+        101,
+        10,
+        13,
+        4,
+        38,
+        66
+      ],
+      [
+        157,
+        56,
+        7,
+        139,
+        99,
+        104
+      ],
+      [
+        211,
+        68,
+        12,
+        203,
+        141,
+        190
+      ]
+    ],
+    "first_off_diagonal_Theta_zero_rows": [
+      [
+        223,
+        38,
+        24,
+        123,
+        67,
+        128
+      ],
+      [
+        239,
+        40,
+        26,
+        11,
+        230,
+        178
+      ],
+      [
+        311,
+        16,
+        46,
+        17,
+        214,
+        277
+      ],
+      [
+        331,
+        20,
+        48,
+        276,
+        6,
+        55
+      ],
+      [
+        337,
+        2,
+        55,
+        62,
+        66,
+        22
+      ],
+      [
+        443,
+        112,
+        36,
+        143,
+        31,
+        116
+      ],
+      [
+        463,
+        26,
+        68,
+        239,
+        223,
+        216
+      ],
+      [
+        491,
+        16,
+        76,
+        212,
+        335,
+        297
+      ]
+    ],
+    "prime_max": 2000,
+    "rows": 22934,
+    "scope_warning": "finite survivor counts imply no all-prime density or rate bound",
+    "transfer_necessary_survivors": 22
+  },
+  "frobenius_transfer": {
+    "closed_formulas": {
+      "D_n": "sum_{j=0}^{floor(n/2)} (-1)^j binom(2s+j-1,j) binom(r+n-2j,n-2j)",
+      "actual_rows": 479,
+      "delta_minus_exact": "-(r+3)D_(r+3)+(3r+5)D_(r+2)-(2r+4s+2)D_(r+1)",
+      "delta_plus_mod_p": "(2r+4s-1)D_(2s+4)+(r+1)D_(2s+3)-(r+8s)D_(2s+2)",
+      "exact_minus_formal_grid": "2<=r<=12 even, 1<=s<=6",
+      "prime_max": 251,
+      "row_stream_sha256": "d4b246c86ee674073033f6f6442df6454af3e3343bb7f5d43c995b10c207aadb"
+    },
+    "collision_implication": "Delta_plus=2*Delta_minus!=0 mod p",
+    "lower_resonance_shift": "-r-1",
+    "lower_source": "-2epsilon",
+    "transfer_matrix_determinant": "product_(t=0)^(T-1) (r+t+1)/(2r+4s+t+2), a p-unit",
+    "upper_resonance_shift": "T=2s+1",
+    "upper_source": "-4epsilon"
+  },
+  "initial_line": {
+    "actual_rows": 479,
+    "common_kernel_line": "<(1,1,-1)>",
+    "equivalent_rows": [
+      [
+        "3r+4s+3",
+        "4s",
+        "3r+8s+3"
+      ],
+      [
+        "7r+16s+11",
+        "4s",
+        "-r-4s-1"
+      ]
+    ],
+    "prime_max": 251,
+    "rank_minor": "-16s(r+3s+2)=-8s mod p, hence nonzero",
+    "row_stream_sha256": "09a1306763b657ea36146410c647850fb3f37639227ad765e7a7d4d0869947bf"
+  },
+  "item": 223,
+  "parameters": {
+    "common_exponent": "n*=p+r",
+    "epsilon": "(-1)^((p-1)/2)=(-1)^(s+1)",
+    "gcd_weight": "W=(1-z)^r(1+z^2)^(2s-1)",
+    "j1": "r=2h even, h,s>=1",
+    "prime": "p=2r+6s+3=4h+6s+3"
+  },
+  "pearson_recurrence": {
+    "formula": "(2r+4s+t+2)u_(t+3)=(r+t+1)u_t-(2r+t+2)u_(t+1)+(r+4s+t+1)u_(t+2)",
+    "regression": {
+      "formal_rows": 64,
+      "identity": "((1-z)(1+z^2)W)'=(-r-1+4sz-(r+4s+1)z^2)W",
+      "r_even_max": 16,
+      "row_stream_sha256": "dd9d356cc4de8758d5ac79d670fe13d8e3dcc7714dc1c5ef05c5e53a62e13382",
+      "s_max": 8
+    }
+  },
+  "rate_ledger": {
+    "full_cell_exclusion": "OPEN",
+    "j1_cell_mass_per_m_if_fully_excluded": "1/6",
+    "new_divisibility_exponent": 0,
+    "new_unconditional_linear_log_rate": 0,
+    "reason": "the diagonal is excluded, but no uniform bound is proved for all off-diagonal survivors"
+  },
+  "runtime": {
+    "external_numeric_backend": null
+  }
+}

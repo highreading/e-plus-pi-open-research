@@ -1,0 +1,517 @@
+{
+  "capacity": {
+    "actual_orbit_rank": "at most 1",
+    "booking": 0,
+    "box_interpolation_rank_log": "(1+o(1))*log b",
+    "box_interpolation_total_degree": "2m^2+4m",
+    "candidate_independent_height_rate": "OPEN",
+    "formal_endpoint_gain": 0,
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "pointwise_zero_representative_booking": 0,
+    "raw_singleton_maximum": "log Q<=log b"
+  },
+  "date": "2026-09-01",
+  "declared_controls": {
+    "canonical_language": {
+      "actual_R_has_at_most_one_word": true,
+      "canonical_words_checked": 1001,
+      "distinct_words": 1001,
+      "finite_control_only": true,
+      "n": 5,
+      "window_lower": 8,
+      "window_upper": 500,
+      "window_words": 493,
+      "words_digest": "d1d633e252584b079a1f3dcc75d26eee4adc67b3c358c37e311e959f54005fc9"
+    },
+    "controls_digest": "a0ae1b86bd8bd7076c70ebc7df0a95fdd5d7bd72ac125e168a528ffae3db0b1b",
+    "degree_formulas": {
+      "N_zero_scope": "singleton carrier equals 1; branch trivial",
+      "actual_scope": "1<=N<=m-2=n-4<p, hence exact degree N(p-1)",
+      "ambient_p_divides_N_row_is_completeness_control_only": true,
+      "rows": [
+        {
+          "N": 5,
+          "actual_tied_range_case": true,
+          "endpoint_stratum_row_only_degree": 50,
+          "p": 11,
+          "unconditional_lower": 40
+        },
+        {
+          "N": 13,
+          "actual_tied_range_case": false,
+          "endpoint_stratum_row_only_degree": 144,
+          "p": 13,
+          "unconditional_lower": 144
+        },
+        {
+          "N": 9,
+          "actual_tied_range_case": true,
+          "endpoint_stratum_row_only_degree": 144,
+          "p": 17,
+          "unconditional_lower": 128
+        }
+      ],
+      "rows_digest": "9971ee1bc219386ae33d0c4325b8fd65cb44f1f7d7b675ce57905df761562a18"
+    },
+    "endpoint": {
+      "all_moduli_use_b_squared_without_factoring": true,
+      "prime_or_target_census_performed": false,
+      "rows": [
+        {
+          "all_loads_free_before_solving_d1": true,
+          "d1_solution": "56632833",
+          "d2": 16,
+          "endpoint": 1001,
+          "loads": [
+            17
+          ],
+          "modulus": "327211921",
+          "n": 5,
+          "target_residual_mod_modulus": 0
+        },
+        {
+          "all_loads_free_before_solving_d1": true,
+          "d1_solution": "93676385120",
+          "d2": 19,
+          "endpoint": 18089,
+          "loads": [
+            19,
+            28
+          ],
+          "modulus": "159168283681",
+          "n": 6,
+          "target_residual_mod_modulus": 0
+        },
+        {
+          "all_loads_free_before_solving_d1": true,
+          "d1_solution": "17496217993803",
+          "d2": 22,
+          "endpoint": 398959,
+          "loads": [
+            21,
+            31,
+            41
+          ],
+          "modulus": "107973358986529",
+          "n": 7,
+          "target_residual_mod_modulus": 0
+        },
+        {
+          "all_loads_free_before_solving_d1": true,
+          "d1_solution": "63931307775296877",
+          "d2": 25,
+          "endpoint": 10391023,
+          "loads": [
+            23,
+            34,
+            45,
+            56
+          ],
+          "modulus": "97424917784863201",
+          "n": 8,
+          "target_residual_mod_modulus": 0
+        }
+      ],
+      "rows_digest": "e734f601ebcfd073a263966ac9523dd3cc6dceb0d012b02d22ebec983fbabc36"
+    },
+    "finite_rows_promoted": false,
+    "interpolation": {
+      "coordinate_rows": [
+        {
+          "basis_degrees": [
+            2,
+            2,
+            2
+          ],
+          "evaluation_matrix": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "nodes": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "basis_degrees": [
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "evaluation_matrix": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "nodes": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "coordinate_rows_digest": "a27a439457b8c8607a4a86ef59f10c8f07aa94971e6889ddc529bb61fdd4026c",
+      "evaluation_is_bijective": true,
+      "finite_control_only": true,
+      "p": 11,
+      "tensor_rank": 15,
+      "tensor_total_degree_bound": 6
+    },
+    "prime_or_target_census_performed": false,
+    "word_rows": [
+      {
+        "S": "141",
+        "a": "1001",
+        "actual_orbit_rank_upper": 1,
+        "b": "18089",
+        "box_degree": 30,
+        "box_rank": "1155",
+        "bridge_residual": -1,
+        "c": "71",
+        "capital_A": 18,
+        "gcd_hat_delta_0_b": 1,
+        "hat_delta_0": "2548",
+        "log_window_over_log_b": 0.6325075658265602,
+        "m": 3,
+        "n": 5,
+        "window_lower_R": 8,
+        "window_rank": "493",
+        "window_upper_R": "500"
+      },
+      {
+        "S": "2548",
+        "a": "18089",
+        "actual_orbit_rank_upper": 1,
+        "b": "398959",
+        "box_degree": 48,
+        "box_rank": "21945",
+        "bridge_residual": 1,
+        "c": "1001",
+        "capital_A": 22,
+        "gcd_hat_delta_0_b": 1,
+        "hat_delta_0": "56197",
+        "log_window_over_log_b": 0.7062986648940557,
+        "m": 4,
+        "n": 6,
+        "window_lower_R": 10,
+        "window_rank": "9035",
+        "window_upper_R": "9044"
+      },
+      {
+        "S": "56197",
+        "a": "398959",
+        "actual_orbit_rank_upper": 1,
+        "b": "10391023",
+        "box_degree": 70,
+        "box_rank": "504735",
+        "bridge_residual": -1,
+        "c": "18089",
+        "capital_A": 26,
+        "gcd_hat_delta_0_b": 1,
+        "hat_delta_0": "1463670",
+        "log_window_over_log_b": 0.7553272515135132,
+        "m": 5,
+        "n": 7,
+        "window_lower_R": 12,
+        "window_rank": "199468",
+        "window_upper_R": "199479"
+      },
+      {
+        "S": "1463670",
+        "a": "10391023",
+        "actual_orbit_rank_upper": 1,
+        "b": "312129649",
+        "box_degree": 96,
+        "box_rank": "13627845",
+        "bridge_residual": 1,
+        "c": "398959",
+        "capital_A": 30,
+        "gcd_hat_delta_0_b": 1,
+        "hat_delta_0": "43966297",
+        "log_window_over_log_b": 0.7906006959949181,
+        "m": 6,
+        "n": 8,
+        "window_lower_R": 14,
+        "window_rank": "5195498",
+        "window_upper_R": "5195511"
+      },
+      {
+        "S": "43966297",
+        "a": "312129649",
+        "actual_orbit_rank_upper": 1,
+        "b": "10622799089",
+        "box_degree": 126,
+        "box_rank": "422463195",
+        "bridge_residual": -1,
+        "c": "10391023",
+        "capital_A": 34,
+        "gcd_hat_delta_0_b": 1,
+        "hat_delta_0": "1496317768",
+        "log_window_over_log_b": 0.8171862860654682,
+        "m": 7,
+        "n": 9,
+        "window_lower_R": 16,
+        "window_rank": "156064809",
+        "window_upper_R": "156064824"
+      },
+      {
+        "S": "1496317768",
+        "a": "10622799089",
+        "actual_orbit_rank_upper": 1,
+        "b": "403978495031",
+        "box_degree": 160,
+        "box_rank": "14786211825",
+        "bridge_residual": 1,
+        "c": "312129649",
+        "capital_A": 38,
+        "gcd_hat_delta_0_b": 1,
+        "hat_delta_0": "56904041481",
+        "log_window_over_log_b": 0.837920798552387,
+        "m": 8,
+        "n": 10,
+        "window_lower_R": 18,
+        "window_rank": "5311399527",
+        "window_upper_R": "5311399544"
+      }
+    ],
+    "word_rows_digest": "b39821b83e5dcb80db645978fd2ceba074ea10f2010c48234f9f69d4d9f52962"
+  },
+  "dependencies": {
+    "count": 28,
+    "rows": [
+      {
+        "bytes": 14388,
+        "path": "sources/item316_beta_intermediate_ostrowski_no_go_report.md",
+        "sha256": "8d6dce8354f08e94a252a2120cf677d9a374df95507a9297dcb064a1982fb6b0"
+      },
+      {
+        "bytes": 11912,
+        "path": "results/item316_beta_intermediate_ostrowski_no_go_certificate.json",
+        "sha256": "5167e9d160fcecac86791944e41a176d3400f2a6856090de7cf78d55984e7aa4"
+      },
+      {
+        "bytes": 3018,
+        "path": "results/item316_root_audit.json",
+        "sha256": "6cad978132f5f09c687aa8fcf8dcd92a7d917cf9411a69f679c7757139229175"
+      },
+      {
+        "bytes": 5980,
+        "path": "manifests/item316_beta_intermediate_ostrowski_no_go_manifest.json",
+        "sha256": "aac741658430fb661de078adfeafdbc3a9d20312a8fd8725cb4244d406d9bcf6"
+      },
+      {
+        "bytes": 14522,
+        "path": "sources/item333_beta_nonlinear_state_saturation_no_go_report.md",
+        "sha256": "8f4bc0a6f93cbd4882392ade311d68e25be1ceb282db71cc5e1ef2f70aee75d6"
+      },
+      {
+        "bytes": 59316,
+        "path": "results/item333_beta_nonlinear_state_saturation_no_go_certificate.json",
+        "sha256": "933120c05e0f67663608e9e53354407f4593718c149941942d070f4af3c0a76a"
+      },
+      {
+        "bytes": 2668,
+        "path": "results/item333_beta_nonlinear_state_saturation_no_go_root_audit.json",
+        "sha256": "6ddd4949f5d7f91fdc160634da06079661ebf373ac0f061495a7b41135924ecc"
+      },
+      {
+        "bytes": 4490,
+        "path": "manifests/item333_beta_nonlinear_state_saturation_no_go_manifest.json",
+        "sha256": "a1f55058846bdee5f33848f45af06fed8659f8c3402e4af6896540bf468aae77"
+      },
+      {
+        "bytes": 12193,
+        "path": "sources/item346_beta_t_avoiding_radical_localization_report.md",
+        "sha256": "2ad742c14d0adbc74da6c46394ed89f68cec8888a3c9d22ee4f230a4e16548a5"
+      },
+      {
+        "bytes": 20428,
+        "path": "scripts/item346_beta_t_avoiding_radical_localization_certificate.py",
+        "sha256": "76c020b07d199a7283d7373a3ef677643d3be01adfe7480628f92ccdad7498c0"
+      },
+      {
+        "bytes": 55217,
+        "path": "results/item346_beta_t_avoiding_radical_localization_certificate.json",
+        "sha256": "29a20d6ede62db23658d66db8e57af4a2982c9b66fd12d104f0070b3280aefab"
+      },
+      {
+        "bytes": 3264,
+        "path": "results/item346_beta_t_avoiding_radical_localization_root_audit.json",
+        "sha256": "c9273d7e187ee2c9b4b91bffc65769f1a29f937613c36960e4ed5871c5782089"
+      },
+      {
+        "bytes": 5228,
+        "path": "manifests/item346_beta_t_avoiding_radical_localization_manifest.json",
+        "sha256": "5029cf3483fdf6cce4bbc0d454bca362bb2796104ca36b353d0161e374915530"
+      },
+      {
+        "bytes": 14555,
+        "path": "sources/item350_beta_mesoscopic_first_hit_crt_no_go_report.md",
+        "sha256": "a028d87765b16bf921a219e43314c8020b635e052cf3a653a9213389d81ce532"
+      },
+      {
+        "bytes": 27293,
+        "path": "scripts/item350_beta_mesoscopic_first_hit_crt_no_go_certificate.py",
+        "sha256": "ae4be8e7e4675a30efe01cc1e7e40d57e63bd49590c34aaf9f8c97996038073f"
+      },
+      {
+        "bytes": 26348,
+        "path": "results/item350_beta_mesoscopic_first_hit_crt_no_go_certificate.json",
+        "sha256": "9c30d1c23b741e0e5b7e38ab39b16658f225f9846894b8a2b657bfa4eb145950"
+      },
+      {
+        "bytes": 3374,
+        "path": "results/item350_beta_mesoscopic_first_hit_crt_no_go_root_audit.json",
+        "sha256": "e965a5131ebc4ff9a54b7ae8369b2855e562ebfa9190517817b7d2fd2af7e162"
+      },
+      {
+        "bytes": 5773,
+        "path": "manifests/item350_beta_mesoscopic_first_hit_crt_no_go_manifest.json",
+        "sha256": "19e6e4ab0dfe99b7e6587e66006caa99bd39c368c574fec69762d1aee5cc3b21"
+      },
+      {
+        "bytes": 11855,
+        "path": "sources/item358_beta_actual_low_incidence_saturation_barrier_report.md",
+        "sha256": "681c9f9cbe926978c78f632084c8be83439c2ac3f5e50f2c2697a49f2f0da68d"
+      },
+      {
+        "bytes": 21006,
+        "path": "scripts/item358_beta_actual_low_incidence_saturation_barrier_certificate.py",
+        "sha256": "c997c7f3739fe5dc98ee2e48c3ebfd1a67e74289e175d52bc8d5adfb1f9565bf"
+      },
+      {
+        "bytes": 15507,
+        "path": "results/item358_beta_actual_low_incidence_saturation_barrier_certificate.json",
+        "sha256": "4da88e55dec36f3c130def549007c8ae1509ff0a029dfed9ff25f67a78c2ffa3"
+      },
+      {
+        "bytes": 3638,
+        "path": "results/item358_beta_actual_low_incidence_saturation_barrier_root_audit.json",
+        "sha256": "a1a48f7d7080834ebf3be56b47d8056733e88e1913e8f6ea784f97a5eb2d9172"
+      },
+      {
+        "bytes": 8117,
+        "path": "manifests/item358_beta_actual_low_incidence_saturation_barrier_manifest.json",
+        "sha256": "4ba799fe2fc8cb6063034d844f91bcaec6c3fc84d043b1f46c675fce400acfb1"
+      },
+      {
+        "bytes": 15964,
+        "path": "sources/item362_beta_finite_field_singleton_indicator_barrier_report.md",
+        "sha256": "cf3727b7349d4ae0355aba4f83fe19f7bd56374897224e686352d8d78e9e001b"
+      },
+      {
+        "bytes": 24117,
+        "path": "scripts/item362_beta_finite_field_singleton_indicator_barrier_certificate.py",
+        "sha256": "8d1d09cad7224db2c6ec275e67532f156eb7b77ef7c57a0596cc39762473c61f"
+      },
+      {
+        "bytes": 15768,
+        "path": "results/item362_beta_finite_field_singleton_indicator_barrier_certificate.json",
+        "sha256": "6489c8b8c00fad33247455f5aa82a41bb4cebaf4c8f26b7439c858d8d7de877e"
+      },
+      {
+        "bytes": 3875,
+        "path": "results/item362_beta_finite_field_singleton_indicator_barrier_root_audit.json",
+        "sha256": "2f36a061d77a8804d34e1425bc18b00bab3778fc17615af605a6ecaffe765f7a"
+      },
+      {
+        "bytes": 8350,
+        "path": "manifests/item362_beta_finite_field_singleton_indicator_barrier_manifest.json",
+        "sha256": "d88fc5cf94217a4c453b69f802d92bda6d03e83c1ec7ad046762addb007788f8"
+      }
+    ],
+    "rows_digest": "864f31fa2280fdb5bdb79c406105c840e9e40d9c2d05f365b5405a6ee2be6c51"
+  },
+  "item": 365,
+  "proof_object": {
+    "actual_orbit": "At fixed n the actual centered remainder R_act is unique and has one canonical word, so the actual target orbit is empty or one point. Restriction there makes Phi the zero constant at a hit and Phi/p a candidate-dependent scalar.",
+    "admission": "A useful cancellation must instead yield a candidate-independent nonzero integer H_n divisible by every singleton prime with a new sub-beta-scale height bound. Pointwise interpolation supplies no such H_n.",
+    "box_interpolation": "Since p>A>w_i, tensor Lagrange interpolation on the canonical digit box gives a p-dependent representative with degree at most 6 in d1 and w_i in d_i, total 2m^2+4m.",
+    "endpoint_degree": "After fixing any exact-zero stratum, the endpoint quotient is a polynomial-function algebra in the retained loads; the row-only singleton degree from Item362 is unchanged. If N=0 the carrier is 1. On the actual word 1<=N<=m-2=n-4<p, so the exact degree is N(p-1); the p|N branch is ambient completeness only.",
+    "endpoint_unit": "In load coordinates [d1]Delta_sigma=sigma*hatDelta_0 and a*hatDelta_0=b*S+(-1)^n. Thus hatDelta_0 is a unit modulo every prime power over p|b, so Delta=0 solves d1 and leaves all row loads free.",
+    "rank": "The intermediate half-window contains (a+1)/2-ceil(a/(2c)) canonical words, whose logarithm is asymptotic to log a and log b.",
+    "scope": "Endpoint-only cancellation is closed. Box interpolation and the one-point orbit explain why degree can collapse, but no uniform cross-n height theorem or arbitrary Cartier closure is proved."
+  },
+  "proof_object_digest": "a82a2367098f4bed96afd24bc2dad94afedc5bc6268fa7048a24dc64d8db78cf",
+  "schema": "item365-beta-actual-orbit-interpolation-barrier-certificate-v1",
+  "status": "PROVED_ENDPOINT_FREENESS_AND_ACTUAL_ORBIT_INTERPOLATION_BARRIER",
+  "strict_scope": {
+    "actual_item316_claim_from_declared_rows": false,
+    "canonical_files_modified": false,
+    "closes": [
+      "endpoint equality alone as a source of reduced degree for the externally t-saturated row-only singleton function",
+      "formal exact-zero stratification plus endpoint as a source of load relations",
+      "fixed-n actual-orbit degree as evidence for a low-height common carrier"
+    ],
+    "does_not_close": [
+      "a uniform candidate-independent interpolation across n and p",
+      "a cancellation essentially mixing internal t with the endpoint and box",
+      "a sublinear-height nonzero integer carrier",
+      "canonical inequality or small-quotient distribution",
+      "an arbitrary F-crystal or Cartier-state theorem",
+      "the actual singleton mass, Xi_Q, beta capacity, or Route 1"
+    ]
+  },
+  "theorem": {
+    "candidate_independent_sublinear_height_representative": "OPEN",
+    "canonical_box_tensor_interpolation": "PROVED",
+    "canonical_window_beta_scale_rank": "PROVED",
+    "endpoint_exact_zero_stratum_freeness": "PROVED",
+    "endpoint_load_coordinate_unit": "PROVED",
+    "endpoint_only_external_t_row_singleton_degree_preservation": "PROVED",
+    "fixed_n_actual_orbit_rank_at_most_one": "PROVED",
+    "pointwise_degree_zero_cancellation": "EXACT_BUT_INADMISSIBLE",
+    "uniform_cross_n_orbit_density": "OPEN"
+  }
+}

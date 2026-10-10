@@ -1,0 +1,79 @@
+{
+  "schema": "item369-j1-cyclic-companion-compatibility-barrier-ledger-delta-v1",
+  "item": 369,
+  "date": "2026-09-01",
+  "branch": "Route 1 / fixed-j1 / framed cyclic companion and compatibility barrier",
+  "status": "PROVED_MINIMAL_CYCLIC_COMPANION_AND_SCOPED_COMPATIBILITY_BARRIERS",
+  "proved": {
+    "actual_family": "p=4h+6s+3, M=3h+4s+2, n=2h, r=2s+1",
+    "rank_two_moment": "sum over F_(p^2)^* of [[x^-n G^(p-r),2x^-T F_Q-x^-L F_Q],[-1,0]] equals [[-a,-Q0],[1,0]]",
+    "uniform_cyclicity": "det[e1,C*e1]=1",
+    "characteristic_polynomial": "X^2+a*X+Q0",
+    "coordinate_recovery": "-trace(C)=a and determinant(C)=Q0",
+    "minimality": "rank two is minimal for universal exact recovery of the two algebraically independent characteristic coordinates",
+    "unframed_no_go": "on uv!=0 the original rank-five matrix is conjugate to diag(-a,N(1),N(1)), so unframed conjugacy data cannot see u+v=-Q0",
+    "literal_Kummer_no_go": "the full-order Kummer pullback along L_p(z^2) has at least p-2 finite ramification points",
+    "new_independent_condition": 0
+  },
+  "scope": {
+    "full_collision_implication": "full ordinary collision implies trace(C)=det(C)=0",
+    "joint_converse_to_full_collision_claimed": false,
+    "compatible_system_claimed": false,
+    "companion_classification": "exact target-aware additive moment, not a Frobenius representation",
+    "unframed_no_go_scope": "universal conjugacy-functorial constructions from Item366's rank-five matrix",
+    "Kummer_no_go_scope": "literal full-order Kummerization of the finite-log factor"
+  },
+  "capacity": {
+    "raw_log_mass": "M/6+o(M)",
+    "raw_ceiling_per_6M": "1/36",
+    "weighted_target": "W_cyc(M)=W_(H,Q)(M)=o(M)",
+    "weighted_target_proved": false,
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "booking": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36"
+  },
+  "controls": {
+    "classification": "EXACT FINITE ONLY; PREDECLARED; NO PRIME SCAN",
+    "rows": [
+      [
+        1,
+        1,
+        13,
+        0,
+        9
+      ],
+      [
+        2,
+        1,
+        17,
+        8,
+        14
+      ],
+      [
+        8,
+        2,
+        47,
+        0,
+        30
+      ],
+      [
+        10,
+        11,
+        109,
+        70,
+        0
+      ]
+    ]
+  },
+  "open": [
+    "a prime-independent bounded-conductor compatible system realizing X^2+aX+Q0",
+    "an actual-orbit identity escaping the universal unframed no-go",
+    "horizontal trace-determinant or framed extension-class nonconcentration",
+    "weighted joint-zero density or any strict fixed-j1 ceiling reduction",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "ledger_action": "RECORD_MINIMAL_CYCLIC_COMPANION_AND_SCOPED_COMPATIBILITY_BARRIERS_BOOK_ZERO",
+  "route_1_status": "ACTIVE",
+  "canonical_files_modified": false
+}

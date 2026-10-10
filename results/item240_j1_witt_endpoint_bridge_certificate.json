@@ -1,0 +1,378 @@
+{
+  "dependencies": {
+    "results/item234_j1_first_witt_certificate.json": "6797c1f2cd072ec92d311e01b596c3ac95888ce9b761bc325a625ef6f9f0c748",
+    "results/item238_j1_squared_carry_certificate.json": "a12fd42e9d53b4f50a595b65d2146b16423c8547a2f3348220fc33d976e51b31",
+    "scripts/item234_j1_first_witt_certificate.py": "8d41a5a73e9467cf4c998d3e345767c04c68ab6467605290480825b15b08e125",
+    "scripts/item238_j1_squared_carry_certificate.py": "a2a2519d4f18c9b3bfa4b29c29068fb81b1d53e2abab4cc10cae3520d75cea04",
+    "sources/item234_j1_first_witt_report.md": "9bd5bb91fe813622db0c15d8bfc25714bcefb00512ed8f5eafddacd8cfb9b016",
+    "sources/item238_j1_squared_carry_report.md": "5c2cc3ab4009bef750503588452c0f25e3f33754476edf1fcdba13454fa95c98"
+  },
+  "exact_finite_only": {
+    "interpretation": "E stays outside the tested endpoint denominator-power spans; this does not prove an all-power theorem",
+    "p109_degree65_power_bounds_1_through_12": [
+      [
+        1,
+        3,
+        4
+      ],
+      [
+        2,
+        6,
+        7
+      ],
+      [
+        3,
+        9,
+        10
+      ],
+      [
+        4,
+        12,
+        13
+      ],
+      [
+        5,
+        15,
+        16
+      ],
+      [
+        6,
+        18,
+        19
+      ],
+      [
+        7,
+        21,
+        22
+      ],
+      [
+        8,
+        24,
+        25
+      ],
+      [
+        9,
+        27,
+        28
+      ],
+      [
+        10,
+        30,
+        31
+      ],
+      [
+        11,
+        33,
+        34
+      ],
+      [
+        12,
+        36,
+        37
+      ]
+    ]
+  },
+  "exact_replay": {
+    "E_actual_polynomial_checks": 368,
+    "J_identity_checks": 368,
+    "coordinates": 368,
+    "first_gate_records": [
+      [
+        29,
+        5,
+        1,
+        1,
+        20,
+        21,
+        3,
+        19,
+        28
+      ],
+      [
+        53,
+        11,
+        1,
+        1,
+        27,
+        36,
+        25,
+        30,
+        32
+      ],
+      [
+        109,
+        10,
+        11,
+        0,
+        85,
+        39,
+        67,
+        25,
+        71
+      ]
+    ],
+    "rows": 184,
+    "tower_factorization_checks": 920,
+    "tower_recurrence_checks": 13800
+  },
+  "item": 240,
+  "open": [
+    "an actual-family-specific or nonlinear formula eliminating E_nu",
+    "whether E admits a finite enlarged recurrence with a genuinely new endpoint mode",
+    "an all-power obstruction beyond the exact u/v rank witness and finite K<=12 evidence",
+    "any all-prime common-log exclusion or Route-1 rate consequence"
+  ],
+  "parameters": {
+    "direct_limit": 151,
+    "row": "p=4h+6s+3, r=2h, h,s>=1",
+    "tower_power": 6
+  },
+  "proved": {
+    "Omega_bridge_on_original_gate": "Omega^W_nu=-6epsilon M_nu^(1)+12epsilon V^s_nu+E_nu mod p",
+    "all_power_tower_recurrence": "Rbar_t(V^(k))=V_t^(k-1)-V_(t+1)^(k-1)+V_(t+2)^(k-1)-V_(t+3)^(k-1), k>=2",
+    "extra_p3_compatibility": "on p^2|C_nu, p^3|C_nu iff M_nu^(1)=2V^s_nu+(6epsilon)^(-1)E_nu mod p",
+    "termwise_J_bridge": "J0=2epsilon(vs0+vs1+vs2+vs3), J1=2epsilon(vs0+4vs1+6vs2+4vs3+vs4) mod p",
+    "tower_mode_factorization": "Phi_k=K_k Phi_1 on the three endpoint modes for every fixed k; no denominator-power level adds an endpoint Fourier mode",
+    "u_v_universal_linear_no_go": "over F_29 on degree<=16 polynomial inputs at (p,h,s,nu)=(29,5,1,1), the six power-1/2 endpoint functionals have rank 6 and adjoining E has rank 7"
+  },
+  "rank_witness": {
+    "E_basis_vector_direct_convolution_checks": 17,
+    "augmented_minor": {
+      "determinant_mod_29": 9,
+      "row_indices_zero_based": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "augmented_rank": 7,
+    "column_schema": [
+      "q0/D",
+      "qc/D",
+      "qs/D",
+      "q0/D^2",
+      "qc/D^2",
+      "qs/D^2",
+      "E"
+    ],
+    "denominators": [
+      56,
+      55,
+      54,
+      53,
+      52,
+      51,
+      50,
+      49,
+      48,
+      47,
+      46,
+      45,
+      44,
+      43,
+      42,
+      41,
+      40
+    ],
+    "matrix": [
+      [
+        14,
+        14,
+        0,
+        22,
+        22,
+        0,
+        3
+      ],
+      [
+        19,
+        0,
+        10,
+        13,
+        0,
+        16,
+        10
+      ],
+      [
+        7,
+        22,
+        0,
+        20,
+        9,
+        0,
+        17
+      ],
+      [
+        23,
+        0,
+        23,
+        7,
+        0,
+        7,
+        2
+      ],
+      [
+        24,
+        24,
+        0,
+        25,
+        25,
+        0,
+        8
+      ],
+      [
+        4,
+        0,
+        25,
+        16,
+        0,
+        13,
+        1
+      ],
+      [
+        18,
+        11,
+        0,
+        5,
+        24,
+        0,
+        16
+      ],
+      [
+        16,
+        0,
+        16,
+        24,
+        0,
+        24,
+        20
+      ],
+      [
+        26,
+        26,
+        0,
+        9,
+        9,
+        0,
+        12
+      ],
+      [
+        21,
+        0,
+        8,
+        6,
+        0,
+        23,
+        16
+      ],
+      [
+        12,
+        17,
+        0,
+        28,
+        1,
+        0,
+        26
+      ],
+      [
+        20,
+        0,
+        20,
+        23,
+        0,
+        23,
+        23
+      ],
+      [
+        2,
+        2,
+        0,
+        4,
+        4,
+        0,
+        27
+      ],
+      [
+        27,
+        0,
+        2,
+        4,
+        0,
+        25,
+        23
+      ],
+      [
+        9,
+        20,
+        0,
+        23,
+        6,
+        0,
+        6
+      ],
+      [
+        17,
+        0,
+        17,
+        28,
+        0,
+        28,
+        11
+      ],
+      [
+        8,
+        8,
+        0,
+        6,
+        6,
+        0,
+        24
+      ]
+    ],
+    "matrix_sha256": "90da523107e3f89122e5b33f71dec7fa093b21787ec747a269210832cab51659",
+    "row": [
+      29,
+      5,
+      1,
+      1
+    ],
+    "row_sha256": [
+      "49ec89db71e82126838d994d64be6c578101a1355a0186a1a822e613546236a6",
+      "bada018ba9cee4658b0655d0f95000bf7a5fc0d0ef5ff38928fa870fecc41608",
+      "18779b01e23518eacc1b1aed7b21561ad2ad72bbed3ea1539a0a6da7b280f2c4",
+      "b86e7b099b6f5b7c876d88e74019333b88bd8da31d8d00a5fdbc040b14ca95e1",
+      "88a1f4ae82b1dadc9fdcf13f4416d85a99195087c3e32489d9ba1af85a0430c6",
+      "e17c4096fd90fc0062e33074cd731a3fda122ef6d74d7af0408031812e661786",
+      "09679f04d3c06bf7fded90b2edefe8a78aa856784ad7c71779aa3c2d90faed20",
+      "a7b40fb780c5ee6f2a4abe4d922a456f0fbaaea96aaf6713984f5600b12578cb",
+      "e4014e8b65cff2b75c6293646f93da6e53195700c6c7ad2fb270a0280741c282",
+      "43e69a6c9d2c49510c927a0a1c0942db87da4b485d2946939b0c06f2277b1338",
+      "5d56e8385dd2c60fbce44218a44a37c374a8073a970dd9fffd6bc50e79666284",
+      "2cfe69655151fb569031410a34b152d9ee3a06636087f14bf1997fecb8668b30",
+      "6399db7d0dc0cde4390792d68c14a7795cd8a940d51157f6d202c595c1cbad5f",
+      "858676391a56b985afc563de1f1644ec701060aa92f4fb7e2c7572a9fb645b67",
+      "05ff1d1643e1fc7f2f3c3c1eb96e9dd7f40c84797718243b6df334a3e3d9a9d4",
+      "09a03797ecc9453ecb2f708cb0650e8fa1e3f7cfd6c6a2624888ce0642e7b3a9",
+      "c739d43c0000ab41ac23fe2db955e7f63f201ba04be439c5bacf61b62b77b042"
+    ],
+    "row_stream_encoding": "comma-separated decimal entries, LF after every row",
+    "scope": "universal F_29-linear functionals on coefficient vectors of degree <=16; not actual-family or nonlinear identities",
+    "tower_minor": {
+      "determinant_mod_29": 5,
+      "row_indices_zero_based": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "tower_rank": 6
+  },
+  "title": "j=1 Witt digit versus squared endpoint tower"
+}

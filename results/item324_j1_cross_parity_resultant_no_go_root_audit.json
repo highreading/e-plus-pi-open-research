@@ -1,0 +1,59 @@
+{
+  "item": 324,
+  "schema": "item324-root-audit-v1",
+  "checked_date_beijing": "2026-08-31",
+  "verdict": "PASS_SCOPED_CROSS_PARITY_NO_GO_WITH_ZERO_BOOKING",
+  "scope": "independent root audit of the same-s cross-parity resultant, even-overlap localization, fixed-M parity selection, and declared selected-parity control",
+  "checks": {
+    "certificate_sha256": "e479b217fe07ab9d79d4355b992511febc331fc671e2d64bd9456c9b2e82b28a",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "manifest_artifacts_match": true,
+    "frozen_dependencies_match": true,
+    "work_hash_list_match": true,
+    "root_symbolic_resultants": 4,
+    "root_fixed_M_identity": true,
+    "root_p47_D_residues": [
+      0,
+      19
+    ],
+    "report_inline_delimiters": "74/74",
+    "report_display_delimiters": "30/30",
+    "report_control_characters": 0,
+    "report_bare_cr": 0
+  },
+  "mathematical_audit": {
+    "quadric_table": "direct expansion of the Item-317 readout gives the eight displayed rational quadrics, with every omitted denominator a p-unit on actual rows",
+    "resultant": "for each phase the difference of the two monic A-quadrics is plus or minus 8(X^2+Y^2), hence the resultant is exactly 64(X^2+Y^2)^2",
+    "even_overlap": "even s gives p congruent to 3 modulo 4, so a simultaneous parity zero forces X=Y=A=0 and therefore an Item-321 Casoratian zero",
+    "fixed_M_mass": "Item 321 localizes the Casoratian zero to h=1 or p dividing Q(s); the division-free fixed-M identity places all latter distinct primes in the nonzero quadratic 330M^2-235M+18, giving O(log M) logarithmic mass",
+    "odd_geometry": "odd s gives p congruent to 1 modulo 4 and the four displayed projective representatives exactly solve both quadrics after j^2=-1",
+    "selection_scope": "s increases by 3 at fixed M while h decreases by 4, so the actual gate selects one constant parity; neither Item 308 nor the original gate forces the unused parity",
+    "control_scope": "the exact p=47 row verifies only the selected Item-308 eliminant/container event and is not promoted to a full Item-264 collision"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "all-phase same-s cross-parity resultant",
+      "even-row simultaneous-parity localization to thin Casoratian support",
+      "O(log M) even-overlap mass",
+      "four odd-row projective intersection lines",
+      "fixed-M parity constancy",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "the preselected p=47 eliminant replay control"
+    ],
+    "OPEN": [
+      "an actual bridge forcing the unused parity",
+      "selected-factor arithmetic and weighted zero density",
+      "W_D(M)=o(M), W_off(M)=o(M), and fixed-j1 closure"
+    ]
+  },
+  "capacity": {
+    "even_cross_parity_overlap_mass": "o(M)",
+    "new_capacity_reduction": 0,
+    "new_booking": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36"
+  }
+}

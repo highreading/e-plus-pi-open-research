@@ -1,0 +1,60 @@
+{
+  "item": 381,
+  "schema": "item381-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_LOW_DEGREE_CLASSIFICATION_AND_NEWTON_STABILITY",
+  "scope": "independent root audit of binary discriminant classes, the ternary reciprocal coefficient cone, normalized Newton stability, definite-form separation, live conic scope, capacity, and zero booking",
+  "checks": {
+    "work_hash_list_entries": 6,
+    "work_hash_list_failures": 0,
+    "frozen_dependencies_checked": 26,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "independent_binary_completion_of_square_check": true,
+    "independent_reciprocal_coefficient_table_check": true,
+    "independent_newton_identity_check": true,
+    "independent_conic_rank_and_value_check": true,
+    "actual_prime_or_target_census_performed": false,
+    "density_inference_from_controls": false,
+    "canonical_format_repair": "none"
+  },
+  "mathematical_audit": {
+    "binary": "Negative discriminant gives the exact completed-square lower bound. Square discriminant gives rational linear factors. A nonsquare positive discriminant forbids a rational projective zero, while primitive reduction leaves the sharp integer norm bound |Q(T)| at least gcd(T1,T2)^2; Pell solutions show that positivity alone cannot improve it.",
+    "ternary_coefficient_cone": "Expanding e1*e3 and e2^2 gives weight-four coefficients d, c+2d, and 4c+6d. Hence d>=0 and 2c+3d>=0 are necessary and sufficient there; together with the unmixed weights this gives exactly the six stated sign inequalities.",
+    "newton_stability": "Direct symmetric-polynomial comparison verifies the pair-difference-square identity. Two distinct singleton loads differ, their reciprocal gap exceeds A^(-4), and one outside reciprocal contributes more than A^(-4) to the positive kernel, giving the A^(-12) gap and A^(-12)N^(-2) normalized separation.",
+    "definite_ternary": "The nonzero integral determinant and a 6B operator-norm bound force the smallest eigenvalue above (6B)^(-2), hence |Q(T)|>=M^2/(72B^2).",
+    "live_conic_scope": "At the ambient loads (1,1,2,2), (T1,T2,T3)=(12,13,6), the rank-three form 169*T1*T3-72*T2^2 vanishes while the normalized Newton gap is 28. This is an obstruction to cone-only arguments, not an actual-family carrier or density datum.",
+    "capacity": "No actual sub-beta divisibility carrier or weighted singleton upper bound is produced; beta capacity and the Route-1 ledger remain unchanged."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "complete binary quadratic discriminant classification",
+      "exact ternary reciprocal-positive coefficient cone",
+      "normalized Newton stability and singleton separation",
+      "definite ternary lower bound",
+      "primitive gcd and norm factorizations",
+      "zero booking"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "definite binary and ternary quadratics",
+      "reciprocal-positive and Newton-certified ternary quadratics",
+      "rational split lines uniformly separated from the actual interval"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "predeclared algebraic controls and the ambient conic example; no actual census"
+    ],
+    "OPEN": [
+      "actual split-line correlations and primitive Pell norms",
+      "actual ternary isotropy and primitive conic norms",
+      "higher mixed-sign varieties and the weighted singleton bound"
+    ]
+  },
+  "capacity": {
+    "constructed_actual_sub_beta_carrier": false,
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "new_booking": 0
+  }
+}

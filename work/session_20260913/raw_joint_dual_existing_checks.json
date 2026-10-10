@@ -1,0 +1,22 @@
+{
+  "scope": "Only already saved n=1,2; no new solve or scan.",
+  "checks": {
+    "1": {
+      "H": "x**2/2 + 1",
+      "q": "3*z - 2",
+      "quadratic_value": "3",
+      "all_joint_and_Pearson_controls_pass": true
+    },
+    "2": {
+      "H": "x**4/24 + x**2 + 1",
+      "q": "-118*z**2 - 972*z + 1176",
+      "quadratic_value": "-218300",
+      "all_joint_and_Pearson_controls_pass": true,
+      "A": "Matrix([[5/2, 1, 1], [13/6, 5/2, 1], [49/24, 13/6, 5/2]])",
+      "A_inverse_00": "588/925",
+      "V_endpoint_to_leading": "925/49",
+      "arc_at_outer_endpoint": "-1294",
+      "arc_at_center": "2438-1380*sqrt(2)>0"
+    }
+  }
+}

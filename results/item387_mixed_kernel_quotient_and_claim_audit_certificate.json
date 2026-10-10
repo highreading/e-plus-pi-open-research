@@ -1,0 +1,192 @@
+{
+  "asymptotic_inference_from_controls": false,
+  "automorphism_cases": 63,
+  "classification": "EXACT_INTEGER_RING_CONTROLS_FOR_SYMBOLIC_ALL_DEGREE_THEOREM",
+  "identities_checked": [
+    "U_inverse(U(P))=P",
+    "E(P)=(S_P(1),S_P(0))",
+    "P=P_(A,C)+(1+D)(x(x-1)R)",
+    "degree-one section P_(A,C)=A+(A-C)x"
+  ],
+  "inequality_counterexample": {
+    "bounds": {
+      "e": [
+        "2718/1000",
+        "2719/1000"
+      ],
+      "pi": [
+        "3141/1000",
+        "3142/1000"
+      ]
+    },
+    "conclusion": "|e+1-3*pi/2|<1<2.9<||e-1|-3*pi/2|",
+    "lhs_upper": "199/200",
+    "parameters": {
+      "a": "3*pi/2",
+      "k": 1,
+      "m": 1,
+      "r": 1
+    },
+    "rhs_lower": "1197/400"
+  },
+  "proof_scope": "The report supplies the symbolic all-degree proof; these are deterministic controls only.",
+  "representative_cases": [
+    {
+      "A": -7,
+      "C": -7,
+      "P": [
+        -7
+      ],
+      "R": [
+        0
+      ],
+      "degree": 0
+    },
+    {
+      "A": -7,
+      "C": -5,
+      "P": [
+        -7,
+        -2
+      ],
+      "R": [
+        0
+      ],
+      "degree": 1
+    },
+    {
+      "A": 0,
+      "C": 9,
+      "P": [
+        -7,
+        -2,
+        7
+      ],
+      "R": [
+        7
+      ],
+      "degree": 2
+    },
+    {
+      "A": -6,
+      "C": -9,
+      "P": [
+        -7,
+        -2,
+        7,
+        3
+      ],
+      "R": [
+        1,
+        3
+      ],
+      "degree": 3
+    },
+    {
+      "A": 21,
+      "C": 63,
+      "P": [
+        -7,
+        -2,
+        7,
+        3,
+        3
+      ],
+      "R": [
+        28,
+        -6,
+        3
+      ],
+      "degree": 4
+    },
+    {
+      "A": -287,
+      "C": -777,
+      "P": [
+        -7,
+        -2,
+        7,
+        3,
+        3,
+        7
+      ],
+      "R": [
+        -280,
+        106,
+        -25,
+        7
+      ],
+      "degree": 5
+    },
+    {
+      "A": -817,
+      "C": -2217,
+      "P": [
+        -7,
+        -2,
+        7,
+        3,
+        3,
+        7,
+        -2
+      ],
+      "R": [
+        -810,
+        296,
+        -75,
+        17,
+        -2
+      ],
+      "degree": 6
+    },
+    {
+      "A": 12161,
+      "C": 33063,
+      "P": [
+        -7,
+        -2,
+        7,
+        3,
+        3,
+        7,
+        -2,
+        -7
+      ],
+      "R": [
+        12168,
+        -4366,
+        1143,
+        -235,
+        40,
+        -7
+      ],
+      "degree": 7
+    },
+    {
+      "A": -106503,
+      "C": -289497,
+      "P": [
+        -7,
+        -2,
+        7,
+        3,
+        3,
+        7,
+        -2,
+        -7,
+        -8
+      ],
+      "R": [
+        -106496,
+        38250,
+        -10001,
+        2061,
+        -352,
+        49,
+        -8
+      ],
+      "degree": 8
+    }
+  ],
+  "schema": "item387-mixed-kernel-quotient-and-claim-audit-certificate-v1"
+}

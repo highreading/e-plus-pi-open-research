@@ -1,0 +1,43 @@
+{
+  "schema": "item280-root-audit-v1",
+  "audit_date": "2026-08-31",
+  "auditor": "root",
+  "verdict": "PASS_WITH_STRICT_SCOPE",
+  "substantive_checks": {
+    "collision_input": "PASS: the implication starts from the original actual fixed-j1 common-log collision and uses the previously proved phase eliminant, common lower/upper residual, and completed all-h gauge",
+    "gauge_use": "PASS: Item243 gives c_h^*=R_h E_h^* with R_h an actual-row unit, so the collision-forced E_h^*=0 kills the common residual without an unproved converse",
+    "division_free_elimination": "PASS: eta U Theta-L Xi=c(eta U S-L T)-K is a formal identity and derives K_h=0 without dividing by endpoint coefficients or hypergeometric terms",
+    "denominator_audit": "PASS: the inherited factorial, phase, endpoint-ratio, phase-eliminant, and gauge denominators are all units for p=4h+6s+3 with h,s>=1",
+    "integer_localization": "PASS: reduced rational numerators therefore give the exact necessary condition p divides gcd(N_E(h),N_K(h)) for every original collision",
+    "logical_direction": "PASS: the report does not claim that E_h^*=0 alone implies K_h=0, nor that the pair is independent or redundant",
+    "finite_patterns": "PASS: the h<=40 gcd and denominator patterns are labeled exact finite only and are not promoted to an all-h divisibility theorem",
+    "height_admission": "PASS: the inherited pointwise O(h log h) numerator bound sums to O(H^2 log H), which is not the required o(H) weighted prime-log bound",
+    "capacity_booking": "PASS: no collective radical, resultant, or density theorem is proved; the fixed-j1 ceiling is unchanged and booking is zero"
+  },
+  "independent_replay": {
+    "canonical_sha256": "f8bd3c2da2ddb6b5de2ca8411e918c2ddf6a1b4dbde57e56aded3a7bdba34987",
+    "root_replay_sha256": "f8bd3c2da2ddb6b5de2ca8411e918c2ddf6a1b4dbde57e56aded3a7bdba34987",
+    "byte_identical": true
+  },
+  "package_checks": {
+    "manifest_files_checked": 6,
+    "frozen_dependencies_checked": 6,
+    "json_files_parsed": 5,
+    "all_hashes_and_dependencies_match": true
+  },
+  "report_checks": {
+    "sha256": "f14f413bed40a8aef5f217d0e55b6b07a26d6fcb28799b55891939f4e6c164f0",
+    "bytes": 7829,
+    "lines": 251,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "display_delimiters": "21/21",
+    "inline_delimiters": "65/65"
+  },
+  "strict_scope": {
+    "proved": "Every original actual fixed-j1 collision satisfies the simultaneous integer divisibility p|gcd(N_E(h),N_K(h)).",
+    "finite_only": "The observed support of N_E/gcd(N_E,N_K) below the moving-prime threshold is a bounded replay pattern only.",
+    "open": "Large-prime redundancy versus genuine arithmetic codimension, an all-h localized gcd/resultant identity, weighted zero density, and every positive capacity saving remain open.",
+    "route_status": "Route 1 ACTIVE; Route 2 QUEUED"
+  }
+}

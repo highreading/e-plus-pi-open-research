@@ -1,0 +1,55 @@
+{
+  "schema": "item314-root-audit-v1",
+  "item": 314,
+  "auditor": "root",
+  "date": "2026-08-31",
+  "verdict": "PASS AS AN ALL-ACTUAL-ROW TWO-BRANCH TRANSLATION, SIX-LAYER UNIT THEOREM, EXACT OLD-RESULTANT IDENTIFICATION, SCOPED NORM/HEIGHT NO-GO, AND ZERO BOOKING",
+  "package": {
+    "manifest_files_checked": 5,
+    "manifest_file_hash_mismatches": 0,
+    "frozen_dependencies_checked": 5,
+    "manifest_dependency_hash_mismatches": 0,
+    "hash_list_entries_checked": 6,
+    "hash_list_mismatches": 0,
+    "canonical_replay_byte_identical": true,
+    "canonical_root_replay_byte_identical": true,
+    "canonical_replay_and_root_sha256": "77de2dd46726a5a48e9adc4e40f96341d5da6c8db304d79f0ef8eeb7807245b1",
+    "report_sha256": "266f70523770a2a4147ee75289885fcb8dc945a65b650f2c8411e005ba110faa",
+    "script_sha256": "cc5f155e5f3248c500cd2101e401c25cec37ce43b31fbb4582843fc33a9b2f0e",
+    "ledger_sha256": "10fa5e60c690727aee86318d49a3e4f16263456d53dbe229cece425eb8ab831a",
+    "manifest_sha256": "ad5c5435aa169c4fb3e235a1293975f191cee27b1e56ed439988c6b43eac5e14",
+    "hash_list_sha256": "05415b4f3ebb55b6af9d8b217d03d8b7902d3ad45e3b31de480428fec30531dd"
+  },
+  "independent_mathematical_checks": {
+    "normalization": "PASS: on both rays mu_e=18*kappa_e and lambda_e=11*kappa_e, so the two separately proved connection lines give D_(r,s)=g_n*kappa_e*(18*2^(2s)*a_r+11*b_r)/16^n without fitting.",
+    "coefficient_formula": "PASS: direct rational differentiation reproduces both factored branch derivatives, and Lagrange inversion gives the displayed same-index coefficients.",
+    "integer_clearer": "PASS: through degree d, inverse fourth powers are cleared by 6^(d+4), generalized 2r/3 powers by 6^d*d!, and the final 1/r is cleared by r!; hence H_r=6^(r+3)*r! is valid.",
+    "gauge_unit": "PASS: g_n uses only past steps t<=r-6, whose largest positive linear factor is 2t+15<=2r+3<p; constants, kappa_e, 16, and H_r are p-units on every actual row.",
+    "six_layers": "PASS: p=2r+9 through 2r+39 for s=1 through 6 occurs only in the current forward recurrence coefficient, never in the already evaluated past-step gauge product. No singular forward factor is divided by.",
+    "endpoint_norm": "PASS: 2^(2r+2)*2^(6s)=2^(p-1)=1 mod p and exact substitution yields L_r^3+2^(2r+2)M_r^3=(g_n*kappa_e/16^n)^3*N_r. This is Item250's existing resultant, not a second condition.",
+    "scope": "PASS: field norms of generating series produce convolution coefficients, and individual O(r) height bounds sum to O(M^2); neither observation reduces the already linear raw ceiling. Weighted zero density and actual-period incidence remain open."
+  },
+  "finite_replay": {
+    "r_max": 101,
+    "prime_rows_in_singular_layers": 123,
+    "six_layer_failures": 0,
+    "old_resultant_identity_failures": 0,
+    "classification": "EXACT FINITE ONLY"
+  },
+  "format": {
+    "report_bytes": 11816,
+    "report_lines": 459,
+    "forbidden_control_characters": 0,
+    "inline_math_open": 76,
+    "inline_math_close": 76,
+    "display_math_open": 33,
+    "display_math_close": 33
+  },
+  "capacity": {
+    "new_route1_rate": 0,
+    "ordinary_j2_ceiling_per_6M": "1/105",
+    "smallest_remaining_lemma": "weighted logarithmic mass o(M) for actual rows satisfying 18*2^(2s)*a_r+11*b_r=0 mod p, followed by actual-period incidence on any surviving gate-zero rows",
+    "ledger_changed": false,
+    "route_status": "ACTIVE"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schema": "item343-beta-quotient-radical-excess-capacity-manifest-v1",
+  "item": 343,
+  "title": "The beta quotient lift splits into a t-avoiding radical and old prime-power excess",
+  "date": "2026-09-01",
+  "status": "PROVED_QUOTIENT_RADICAL_EXCESS_SCOPED_NO_GO",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item265_beta_squarefull_capacity_report.md": "c41d8d2c813d4952ce5a038f291b932817c28ae5b0b1512df0a6bf0ba92a8daa",
+    "results/item265_root_audit.json": "72e5f43c554e326d101d1b2c55de76f277a5a817eaa6b0fc2837dd8f6bbee24a",
+    "sources/item337_beta_global_cofactor_lcm_capacity_report.md": "c997cce3ca0808acaa9b4a63e1ea29c68933ec950a48dcf7a6a8d0280b90f6d9",
+    "results/item337_beta_global_cofactor_lcm_capacity_root_audit.json": "ed7457856b921248da95318f6f80acdc3dabbcb60d4c609a0a6f90952b79a2eb",
+    "sources/item340_beta_full_complement_loop_correlation_report.md": "4f3ddc5e09544e7c4d8077413b968f5b8a61694b8872dfdccf89d18dc03018b6",
+    "results/item340_beta_full_complement_loop_correlation_certificate.json": "4be0540e6835c3621482ab42bf5218420d76d7091a827386b1f6978146f6bfd0",
+    "results/item340_beta_full_complement_loop_correlation_root_audit.json": "1b0a53ab7a2c99a5be681a233c1a4c55ff8e6addb702ff287996cab3eb3e1900",
+    "manifests/item340_beta_full_complement_loop_correlation_manifest.json": "3197f620428af855b016842f156f69894f704de2d71846a675860d1a6b679366"
+  },
+  "artifacts": [
+    {
+      "path": "work/item343_beta_quotient_radical_excess_capacity_report.md",
+      "role": "global quotient valuation theorem, capacity audit, exact ledger, and scoped no-go",
+      "bytes": 11239,
+      "sha256": "0fb48e3bbf30d05bcf40d2e4dc9b04e2e80893e6c4fee925d9c6b99b25126c66"
+    },
+    {
+      "path": "work/item343_beta_quotient_radical_excess_capacity_certificate.py",
+      "role": "standard-library exact deterministic replay",
+      "bytes": 14722,
+      "sha256": "77708aa19ae0f9f3b9120b67f78ca985f5d004c3022fb998996ec8d1079897c1"
+    },
+    {
+      "path": "work/item343_beta_quotient_radical_excess_capacity_certificate.json",
+      "role": "work-package certificate output",
+      "bytes": 21725,
+      "sha256": "c700ffaa6898bd50e4d6b790dea307ec883ecab6374e07a7c62622eb5ba7d57b"
+    },
+    {
+      "path": "work/item343_beta_quotient_radical_excess_capacity_certificate.replay.json",
+      "role": "independent byte-identical replay output",
+      "bytes": 21725,
+      "sha256": "c700ffaa6898bd50e4d6b790dea307ec883ecab6374e07a7c62622eb5ba7d57b"
+    },
+    {
+      "path": "work/item343_beta_quotient_radical_excess_capacity_ledger_delta.json",
+      "role": "proposed ledger delta; no canonical edit",
+      "bytes": 3204,
+      "sha256": "cd6df728a1d0fd765cb1d8b491a08159974e032400cb03f9bbbe229a2206e1ff"
+    }
+  ],
+  "replay": {
+    "command": "python work/item343_beta_quotient_radical_excess_capacity_certificate.py --output work/item343_beta_quotient_radical_excess_capacity_certificate.replay.json",
+    "expected_stdout": {
+      "actual_Gamma_Q": "OPEN",
+      "booking": 0,
+      "item": 343,
+      "new_squarefree_branch": "XI_Q",
+      "status": "PROVED_QUOTIENT_RADICAL_EXCESS_SCOPED_NO_GO"
+    },
+    "expected_replay_sha256": "c700ffaa6898bd50e4d6b790dea307ec883ecab6374e07a7c62622eb5ba7d57b",
+    "dependency_hashes_verified_before_output": 8
+  },
+  "proved": [
+    "The primewise quotient-covered and residual valuations are v_p(H_Q)=min(g_p,tau_p) and v_p(K_Q)=max(0,g_p-tau_p).",
+    "The power t^ceil(log_2 Q) exactly saturates the full G_Q-primary components supported on t.",
+    "K_Q=R_perp_Q J_Q, where R_perp_Q is the t-avoiding radical hit product and J_Q divides Q/rad(Q).",
+    "Therefore log K_Q<=Xi_Q+log sqfull(Q).",
+    "For every s>=1 the bQ^s quotient bridge is equivalent to one residue of the same Q-adic scalar t.",
+    "Gamma_Q=log H_Q+Xi_Q+log J_Q is the exact overlap-normalized ledger."
+  ],
+  "strict_scope": {
+    "closes": [
+      "same-quotient lifts at arbitrary growing Q-adic precision as independent target conditions",
+      "quotient-supported K_Q valuation excess as independent of the Item 265 squarefull branch",
+      "raw gcd(Q,t) as additive capacity beyond Gamma_Q"
+    ],
+    "isolates": [
+      "Xi_Q, the weighted t-avoiding radical correlation, as the sole new squarefree K_Q branch",
+      "Item 265 squarefull excess as the sole repeated-prime K_Q branch"
+    ],
+    "does_not_close": [
+      "H_Q, Xi_Q, J_Q, K_Q, or Gamma_Q on the actual family",
+      "the centered half-bound, beta capacity, Route 1, or e+pi"
+    ]
+  },
+  "strict_labels": {
+    "PROVED": [
+      "primewise split, support saturation, radical/excess factorization, global K_Q bound, all-precision quotient saturation, and exact ledger"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "independent same-quotient precision and quotient-supported repeated valuation outside old squarefull excess"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared valuation tuples and seed congruence controls"
+    ],
+    "OPEN": [
+      "H_Q, Xi_Q, J_Q, K_Q, Gamma_Q, squarefull zero rate, half-bound, beta capacity, Route 1, and e+pi"
+    ]
+  },
+  "capacity": {
+    "K_Q_bound": "log K_Q<=Xi_Q+log E(Q)",
+    "new_squarefree_branch": "Xi_Q",
+    "repeated_branch_rebooked": false,
+    "actual_Gamma_Q": "OPEN",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "booking": 0
+  }
+}

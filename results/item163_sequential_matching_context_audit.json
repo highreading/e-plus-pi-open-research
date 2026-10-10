@@ -1,0 +1,206 @@
+{
+  "classification": {
+    "EXPERIMENTAL": [
+      "The selected primitive b_m probes contain nearly every odd prime <= 6m but also retain a large cofactor of rate about 1.1.",
+      "The saddle-window matching increments decrease sharply in the sampled data and remain far below theorem scale."
+    ],
+    "OPEN": [
+      "A theorem coupling the actual large cofactor of b_m to Bessel root classes.",
+      "An asymptotic upper bound excluding rare exponentially small ordinary CRT representatives.",
+      "An all-prime theorem controlling singular branches and excess prime-power valuations."
+    ],
+    "PROVED_FINITE": [
+      "All displayed rates and support counts are exact consequences of pinned integer scans; logarithms are diagnostic floating evaluations.",
+      "Only 13 of 100 unrestricted-window content maximizers equal the saddle-window maximizer; only 5 of the last 20 do."
+    ],
+    "PROVED_GENERAL": [
+      "Delta*g divides q_N^2, so log(Delta*g) <= 2 log(q_N).",
+      "Since q_N < 4^(N-1) N!, every N_m=o(m/log m) has log(Delta*g)/(6m) -> 0.",
+      "The K clearing reservoir has rate at most 1/2. One synchronized copy plus rank one reaches at most 0.6365141683; even full primewise doubling through Delta and g reaches at most 1.1365141683, still below target by 0.0196329837.",
+      "On ordinary root branches, prescribed full local synchronization lies in at most product R_p classes modulo 2*Delta*g; a positive-rate gain at saddle scale requires an exponentially small representative of a moving CRT class."
+    ]
+  },
+  "clearing_reservoir_scoped_capacity": {
+    "K_rate_limit": 0.5,
+    "fully_doubled_gap_to_target": 0.01963298366943178,
+    "fully_doubled_plus_rank_one_ceiling": 1.1365141682948128,
+    "one_copy_gap_to_target": 0.5196329836694317,
+    "one_copy_plus_rank_one_ceiling": 0.6365141682948129,
+    "primewise_accounting": "If k=vp(K_after_Cartier), kappa=vp(c), and r=max(k-kappa,0), then at most min(k,kappa)+2r <= 2k exponents are traceable to this reservoir, even granting full Delta and g recovery.",
+    "rank_one_rate": 0.13651416829481286,
+    "scope": "This is a ceiling only for certificates whose booked mass comes from the rank-one radical and factors traceable to K_after_Cartier. It is not an upper bound on actual c*Delta*g.",
+    "target_rate": 1.1561471519642446
+  },
+  "full_window_vs_saddle_window": {
+    "full_maximizer_inside_saddle_window_rows_m1_100": 13,
+    "full_maximizer_inside_saddle_window_rows_m81_100": 5,
+    "same_maximizer_rows_m1_100": 13,
+    "same_maximizer_rows_m81_100": 5,
+    "warning": "The N <= 6m content maximum is generally not analytically saddle-compatible and must not be used as the applicable rate."
+  },
+  "generator": {
+    "filename": "sequential_matching_context_audit.py",
+    "sha256": "b65ee0623c1529f9ef3e8abc27da233872ca2e8f90451a06d47adb532e32546c"
+  },
+  "pinned_inputs": {
+    "results/mixed_cubic_equal_valuation_m105_200_step5_w20.json": "5558ab9aaf3eed8d0c2f03fa60167ec28917b9a832c49092155cab8889c97b96",
+    "results/mixed_cubic_equal_valuation_m1_100_w20.json": "ff2db605c747501dc87cf80493c3f957d4c80fe55e5805153afda3b364882273",
+    "results/mixed_cubic_primitive_b_support_probe_selected.json": "eb00bd8e8e0d2b2f0368560655f7a99d59a54636ca0a8ca82597683e7548cc98",
+    "sources/mixed_cubic_equal_valuation_crt_reduction.md": "56b2b3297e5c2d780ad8c7dd5c8605f7c8fdba51fca7786d2669758b3ed1ba93"
+  },
+  "primewise_input": {
+    "logical_artifact": "sequential_matching_primewise_audit_m100_N6m.json",
+    "sha256": "ab22c075132c72d9aa80206ef009220d93bc03907bf5b95faf6fb5db730daff9"
+  },
+  "primitive_b_selected_support": [
+    {
+      "large_cofactor_rate": 1.0881697156522658,
+      "m": 10,
+      "missing_odd_primes": [
+        41
+      ],
+      "odd_primes_at_most_6m": 16,
+      "primitive_b_rate": 1.9915705453536363,
+      "small_factor_rate": 0.9034008297013705
+    },
+    {
+      "large_cofactor_rate": 1.094631756238315,
+      "m": 20,
+      "missing_odd_primes": [],
+      "odd_primes_at_most_6m": 29,
+      "primitive_b_rate": 2.0321063785543916,
+      "small_factor_rate": 0.9374746223160766
+    },
+    {
+      "large_cofactor_rate": 1.103993279155483,
+      "m": 30,
+      "missing_odd_primes": [
+        19,
+        67
+      ],
+      "odd_primes_at_most_6m": 40,
+      "primitive_b_rate": 2.0497786633604766,
+      "small_factor_rate": 0.9457853842049937
+    },
+    {
+      "large_cofactor_rate": 1.126012822156361,
+      "m": 40,
+      "missing_odd_primes": [],
+      "odd_primes_at_most_6m": 51,
+      "primitive_b_rate": 2.102763073719042,
+      "small_factor_rate": 0.9767502515626809
+    },
+    {
+      "large_cofactor_rate": 1.1474082035187962,
+      "m": 50,
+      "missing_odd_primes": [],
+      "odd_primes_at_most_6m": 61,
+      "primitive_b_rate": 2.135937662260699,
+      "small_factor_rate": 0.9885294587419027
+    },
+    {
+      "large_cofactor_rate": 1.1547918763791132,
+      "m": 60,
+      "missing_odd_primes": [],
+      "odd_primes_at_most_6m": 71,
+      "primitive_b_rate": 2.1512808530422878,
+      "small_factor_rate": 0.9964889766631746
+    },
+    {
+      "large_cofactor_rate": 1.1310841576284765,
+      "m": 80,
+      "missing_odd_primes": [
+        353
+      ],
+      "odd_primes_at_most_6m": 91,
+      "primitive_b_rate": 2.139785246756742,
+      "small_factor_rate": 1.0087010891282655
+    },
+    {
+      "large_cofactor_rate": 1.139963939997042,
+      "m": 100,
+      "missing_odd_primes": [
+        577
+      ],
+      "odd_primes_at_most_6m": 108,
+      "primitive_b_rate": 2.126093000215571,
+      "small_factor_rate": 0.9861290602185291
+    }
+  ],
+  "saddle_window_m105_200_step5": {
+    "actual_g_nontrivial_rows": 2,
+    "m_values": [
+      105,
+      110,
+      115,
+      120,
+      125,
+      130,
+      135,
+      140,
+      145,
+      150,
+      155,
+      160,
+      165,
+      170,
+      175,
+      180,
+      185,
+      190,
+      195,
+      200
+    ],
+    "max_equal_level_ceiling_rate": 0.23400987643053078,
+    "max_total_rate": {
+      "N": 141,
+      "m": 120,
+      "rate": 0.21326787261962168
+    },
+    "mean_Delta_rate": 0.017132807361681938,
+    "mean_c_rate": 0.17465515547416766,
+    "mean_g_rate": 0.0005127772585611491,
+    "mean_matching_rate": 0.01764558462024309,
+    "mean_total_rate": 0.19230074009441073,
+    "row_count": 20
+  },
+  "saddle_window_m81_100": {
+    "actual_g_nontrivial_rows": 6,
+    "m_values": [
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
+    ],
+    "max_equal_level_ceiling_rate": 0.2770619019646617,
+    "max_total_rate": {
+      "N": 141,
+      "m": 100,
+      "rate": 0.2578948093990459
+    },
+    "mean_Delta_rate": 0.026423700457200265,
+    "mean_c_rate": 0.18457335503284228,
+    "mean_g_rate": 0.0020463053504599558,
+    "mean_matching_rate": 0.028470005807660227,
+    "mean_total_rate": 0.21304336084050252,
+    "row_count": 20
+  },
+  "schema": "item163-sequential-matching-context-audit-v1",
+  "status": "PASS"
+}

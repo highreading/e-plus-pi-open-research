@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "scope": "Local validation of the saved certificate, not an independent researcher audit. No scalar seed scan was repeated or extended.",
+  "certificate_sha256": "a422ac8d69dc74d4f15ce26906216ce4ddbf925e0fd60c676b8c6a59c8399e48",
+  "source_and_checker_hashes_match": true,
+  "complete_modular_rows_checked": 491,
+  "selected_dual_construction_rows_checked": 210,
+  "selected_coordinate_checks": 1050,
+  "exact_rational_seed_payloads_checked": 67,
+  "stored_log_bounds_validated_with_24_term_rational_sums": true,
+  "rate_history": [
+    {
+      "uniform_primes": [
+        5,
+        13
+      ],
+      "W_lower_rational": "123221/100000",
+      "W_upper_rational": "1232211/1000000",
+      "verdict": "below"
+    },
+    {
+      "uniform_primes": [
+        5,
+        13,
+        41
+      ],
+      "W_lower_rational": "1417889/1000000",
+      "W_upper_rational": "141789/100000",
+      "verdict": "below"
+    },
+    {
+      "uniform_primes": [
+        5,
+        13,
+        41,
+        43
+      ],
+      "W_lower_rational": "1596993/1000000",
+      "W_upper_rational": "798497/500000",
+      "verdict": "below"
+    },
+    {
+      "uniform_primes": [
+        5,
+        13,
+        41,
+        43,
+        59
+      ],
+      "W_lower_rational": "868799/500000",
+      "W_upper_rational": "1737599/1000000",
+      "verdict": "below"
+    },
+    {
+      "uniform_primes": [
+        5,
+        13,
+        41,
+        43,
+        59,
+        67
+      ],
+      "W_lower_rational": "1865013/1000000",
+      "W_upper_rational": "932507/500000",
+      "verdict": "above"
+    }
+  ],
+  "certified_gap_lower": "20453/200000",
+  "scan_stopped_at": 67,
+  "unprocessed_candidate_count": 27
+}

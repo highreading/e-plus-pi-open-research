@@ -1,0 +1,48 @@
+{
+  "schema": "item233-portable-manifest-v1",
+  "artifacts": {
+    "sources/item233_j1_antiperiod_determinant_report.md": {
+      "role": "proof report for the exact antiperiod determinant, closed coefficient numerator, singular rank split, affine consistency, and terminal-residual redundancy",
+      "sha256": "7f595b7d4100fa069d90dea1b899864cba2238070e3e9bd919fdf4cb380badfd",
+      "work_source": "item233_j1_antiperiod_determinant_report.md"
+    },
+    "scripts/item233_j1_antiperiod_determinant_certificate.py": {
+      "role": "Python-standard-library generalized endpoint, block determinant, rank, singular consistency, residual identity, and finite-census checker",
+      "sha256": "f3196c577a0083e6b429b30c56a71bca03ad15330e09f7044453a681dab2a5b9",
+      "work_source": "item233_j1_antiperiod_determinant_certificate.py"
+    },
+    "results/item233_j1_antiperiod_determinant_certificate.json": {
+      "role": "canonical deterministic exact output",
+      "sha256": "8ff638431f6ea6a7f384a3eb91e3849e6536bb93dd9f499e6899c088fa1c7f14",
+      "work_source": "item233_j1_antiperiod_determinant_certificate.json"
+    },
+    "results/item233_j1_antiperiod_determinant_certificate_replay.json": {
+      "role": "independent replay output; byte-identical to canonical",
+      "sha256": "8ff638431f6ea6a7f384a3eb91e3849e6536bb93dd9f499e6899c088fa1c7f14",
+      "work_source": "item233_j1_antiperiod_determinant_certificate_replay.json"
+    },
+    "results/item233_j1_antiperiod_determinant_ledger.json": {
+      "role": "strict PROVED, EXACT FINITE, OPEN, scoped no-go, and booking ledger",
+      "sha256": "8097a3a761fb3decd4ae0d19d7fbc6324e2de21c30a0f2238f4ab7bd4fe82a62",
+      "work_source": "item233_j1_antiperiod_determinant_ledger.json"
+    }
+  },
+  "canonical_command_from_archive_root": "python scripts/item233_j1_antiperiod_determinant_certificate.py --output results/item233_j1_antiperiod_determinant_certificate.json",
+  "replay_command_from_archive_root": "python scripts/item233_j1_antiperiod_determinant_certificate.py --output results/item233_j1_antiperiod_determinant_certificate_replay.json",
+  "dependencies": {
+    "archive_files": {
+      "scripts/item230_j1_phase_closure_certificate.py": {
+        "role": "frozen j=1 one-phase transfer, terminal system, and antiperiod closure helper",
+        "sha256": "0722964a47817ca2dcd93cc9013339f16d2d6a6271893938c7d473cc6115fe0b"
+      }
+    },
+    "external_files": [],
+    "python": "3.11+ standard library only"
+  },
+  "portability": {
+    "archive_path_required": false,
+    "host_absolute_paths_embedded": false,
+    "helpers_resolved_beside_checker": true,
+    "explicit_output_makes_archive_root_replay_portable": true
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "item227-portable-manifest-v1",
+  "artifacts": {
+    "sources/item227_j2_phase_control_report.md": {
+      "role": "proof report for order-four endpoint control, singular-Delta left-null classification, and terminal redundancy",
+      "sha256": "59b2632ae5bdc8e8b63d959413a790dfc7ffeb9a61c7b4b6051a04b794d15417",
+      "work_source": "item227_j2_phase_control_report.md"
+    },
+    "scripts/item227_j2_phase_control_certificate.py": {
+      "role": "standard-library generalized endpoint, control-factorization, rank, mismatch, and residual checker",
+      "sha256": "54b51d51653d1c3c613907f8b8a6b9c959446b61ae2228139b7e4e11ed1af41b",
+      "work_source": "item227_j2_phase_control_certificate.py"
+    },
+    "results/item227_j2_phase_control_certificate.json": {
+      "role": "canonical deterministic output",
+      "sha256": "d6f09bb9ad79cd50978c11c25bb8ebab48e6872dbd89da4c4b7b14c258fe1bb7",
+      "work_source": "item227_j2_phase_control_certificate.json"
+    },
+    "results/item227_j2_phase_control_certificate_replay.json": {
+      "role": "independent replay output; byte-identical to canonical",
+      "sha256": "d6f09bb9ad79cd50978c11c25bb8ebab48e6872dbd89da4c4b7b14c258fe1bb7",
+      "work_source": "item227_j2_phase_control_certificate_replay.json"
+    },
+    "results/item227_j2_phase_control_ledger.json": {
+      "role": "strict PROVED, EXACT FINITE, OPEN, structural-no-go, and booking ledger",
+      "sha256": "9d15525bb24d106ddfd797c573b39b24341d992ee1f103bf040e33af49b6f5cb",
+      "work_source": "item227_j2_phase_control_ledger.json"
+    }
+  },
+  "canonical_command_from_archive_root": "python scripts/item227_j2_phase_control_certificate.py --output results/item227_j2_phase_control_certificate.json",
+  "replay_command_from_archive_root": "python scripts/item227_j2_phase_control_certificate.py --output results/item227_j2_phase_control_certificate_replay.json",
+  "dependencies": {
+    "archive_files": {
+      "scripts/item226_j2_four_phase_closure_certificate.py": {
+        "role": "frozen four-phase transfer and closure helper",
+        "sha256": "5fe492dc7940e423c90871463e19013730a517b36e0a0c6ba26c7f3a6de7dd9a"
+      },
+      "scripts/item225_j2_second_cartier_certificate.py": {
+        "role": "frozen second-terminal and reciprocity helper",
+        "sha256": "6fc6454f53bd1cff2db1c1602b2828191ea8ec571c3fa6c80f20c46df1e1b65c"
+      },
+      "scripts/item224_j2_cartier_terminal_certificate.py": {
+        "role": "frozen first-terminal and z3-reduction helper",
+        "sha256": "7fc0dad8a691fce31032db64696c2cc809b39e65b948e0d93e58f8c5a0924bf4"
+      },
+      "scripts/item221_j2_twisted_cohomology_certificate.py": {
+        "role": "frozen j=2 cohomology helper",
+        "sha256": "8ef696188337f9ecc7f77e66c296973897ce443b143f72fc0c468fd3f9354a36"
+      },
+      "scripts/item219_common_log_j2_certificate.py": {
+        "role": "frozen j=2 polynomial and endpoint-weight helper",
+        "sha256": "bf9ee30675b5745225f08d2d82e500fd1f6797d69f94ab5949602e266f8b38cc"
+      }
+    },
+    "external_files": [],
+    "python": "3.11+ standard library only"
+  },
+  "portability": {
+    "archive_path_required": false,
+    "host_absolute_paths_embedded": false,
+    "helpers_resolved_beside_checker": true,
+    "explicit_output_makes_archive_root_replay_portable": true
+  }
+}

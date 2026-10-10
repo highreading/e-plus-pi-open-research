@@ -1,0 +1,42 @@
+{
+  "schema": "item281-root-audit-v1",
+  "audit_date": "2026-08-31",
+  "auditor": "root",
+  "verdict": "PASS_WITH_STRICT_SCOPE",
+  "substantive_checks": {
+    "fitting_generator": "PASS: after division by the squarefree forced Cartier product, the specialized Smith/Fitting generator is exactly gcd(Cbar0,Cbar1), and p divides it exactly when the actual full j1 gate collides",
+    "isolated_reduction": "PASS: Item 279 makes the difference between the full collision radical and every fixed-D isolated subradical o(M), without lowering the isolated ceiling",
+    "state_elimination": "PASS: on the rank-two chart two linear forms in four state variables have a projective line of common zeros, so their elimination ideal in the parameter field is zero; rank-one and rank-zero branches remain retained",
+    "local_scalar_degree": "PASS: no nonzero linear form isolates the origin in F_p^2, while an anisotropic quadratic norm does, making degree two the exact local minimum",
+    "fixed_form_library": "PASS: Chebotarev primes splitting the finite compositum give nonzero projective zeros for every form in any finite fixed integral homogeneous library, and every sufficiently large such prime embeds in the actual tied family",
+    "finite_false_positives": "PASS: the five displayed fixed norm discriminants have exact actual noncollision zeros and are labeled finite witnesses only",
+    "height_admission": "PASS: after forced Cartier normalization the inherited height coefficient H-kappa is 3.99058003744209..., far above the raw 1/6-per-M support; bounded-degree homogeneous forms do not improve this ratio and nonhomogeneous forms are worse",
+    "capacity_booking": "PASS: no c<1/6 isolated weighted bound, subexponential normalized-gcd theorem, or positive fixed-j1 rate is proved; the 1/36-per-6M ceiling and booking are unchanged"
+  },
+  "independent_replay": {
+    "canonical_sha256": "e4717920001236194a8a4127476d3a88c12f5ae04e47dcc413bf9c7eb4c8d4f6",
+    "root_replay_sha256": "e4717920001236194a8a4127476d3a88c12f5ae04e47dcc413bf9c7eb4c8d4f6",
+    "byte_identical": true,
+    "payload_sha256": "d01fb7c77ba4e81653edfa9ed8f63ee0ac9e711ddbdfc244e9f2ec7441f62fdc"
+  },
+  "package_checks": {
+    "manifest_files_checked": 6,
+    "frozen_dependencies_checked": 8,
+    "json_files_parsed": 5,
+    "all_hashes_and_dependencies_match": true
+  },
+  "report_checks": {
+    "sha256": "fcd8f91426edf31a8de5b90dbc986ae04c08865ddfe448fc9e240410c5c1fd80",
+    "bytes": 16962,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "display_delimiters": "32/32",
+    "inline_delimiters": "100/100"
+  },
+  "strict_scope": {
+    "proved": "The natural normalized Fitting scalar is the target gcd itself; generic state elimination yields no resultant; and finite fixed-form norm libraries cannot encode the origin fiberwise on all actual primes.",
+    "finite_only": "The bounded coefficient scans and five norm false positives are exact finite witnesses and are not used to infer density.",
+    "open": "Parameter-dependent scalars, growing-degree indicators, arithmetic-section distribution, subexponential normalized-gcd bounds, and isolated-prime weighted density remain open.",
+    "route_status": "Route 1 ACTIVE; Route 2 QUEUED"
+  }
+}

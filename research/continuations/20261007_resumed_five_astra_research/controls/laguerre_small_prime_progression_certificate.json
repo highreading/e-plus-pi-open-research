@@ -1,0 +1,201 @@
+{
+  "status": "PASS",
+  "scope": "Exact small-prime congruences of the ORIGINAL u=2+29^9*t progression, not an original huge Laguerre-matrix calculation or a global decay proof.",
+  "primes": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29,
+    31,
+    37,
+    41,
+    43,
+    47,
+    53,
+    59,
+    61,
+    67,
+    71,
+    73,
+    79,
+    83,
+    89,
+    97
+  ],
+  "modular_tests": 242,
+  "rows": [
+    {
+      "prime": 2,
+      "order_of_3": 1,
+      "period": 1,
+      "excluded_t_residues": []
+    },
+    {
+      "prime": 3,
+      "period": 1,
+      "excluded_t_residues": [],
+      "reason": "h=2000*3^K+1 is identically 1 modulo3."
+    },
+    {
+      "prime": 5,
+      "order_of_3": 4,
+      "period": 1,
+      "excluded_t_residues": []
+    },
+    {
+      "prime": 7,
+      "order_of_3": 6,
+      "period": 3,
+      "excluded_t_residues": []
+    },
+    {
+      "prime": 11,
+      "order_of_3": 5,
+      "period": 5,
+      "excluded_t_residues": []
+    },
+    {
+      "prime": 13,
+      "order_of_3": 3,
+      "period": 3,
+      "excluded_t_residues": []
+    },
+    {
+      "prime": 17,
+      "order_of_3": 16,
+      "period": 4,
+      "excluded_t_residues": []
+    },
+    {
+      "prime": 19,
+      "order_of_3": 18,
+      "period": 9,
+      "excluded_t_residues": [
+        0
+      ]
+    },
+    {
+      "prime": 23,
+      "order_of_3": 11,
+      "period": 11,
+      "excluded_t_residues": [
+        8
+      ]
+    },
+    {
+      "prime": 29,
+      "order_of_3": 28,
+      "period": 1,
+      "excluded_t_residues": []
+    },
+    {
+      "prime": 31,
+      "order_of_3": 30,
+      "period": 15,
+      "excluded_t_residues": [
+        10
+      ]
+    },
+    {
+      "prime": 37,
+      "order_of_3": 18,
+      "period": 9,
+      "excluded_t_residues": []
+    },
+    {
+      "prime": 41,
+      "order_of_3": 8,
+      "period": 2,
+      "excluded_t_residues": []
+    },
+    {
+      "prime": 43,
+      "order_of_3": 42,
+      "period": 3,
+      "excluded_t_residues": []
+    },
+    {
+      "prime": 47,
+      "order_of_3": 23,
+      "period": 23,
+      "excluded_t_residues": [
+        12
+      ]
+    },
+    {
+      "prime": 53,
+      "order_of_3": 52,
+      "period": 13,
+      "excluded_t_residues": []
+    },
+    {
+      "prime": 59,
+      "order_of_3": 29,
+      "period": 1,
+      "excluded_t_residues": []
+    },
+    {
+      "prime": 61,
+      "order_of_3": 10,
+      "period": 5,
+      "excluded_t_residues": []
+    },
+    {
+      "prime": 67,
+      "order_of_3": 22,
+      "period": 11,
+      "excluded_t_residues": []
+    },
+    {
+      "prime": 71,
+      "order_of_3": 35,
+      "period": 5,
+      "excluded_t_residues": []
+    },
+    {
+      "prime": 73,
+      "order_of_3": 12,
+      "period": 3,
+      "excluded_t_residues": []
+    },
+    {
+      "prime": 79,
+      "order_of_3": 78,
+      "period": 39,
+      "excluded_t_residues": [
+        6
+      ]
+    },
+    {
+      "prime": 83,
+      "order_of_3": 41,
+      "period": 41,
+      "excluded_t_residues": [
+        29
+      ]
+    },
+    {
+      "prime": 89,
+      "order_of_3": 88,
+      "period": 22,
+      "excluded_t_residues": []
+    },
+    {
+      "prime": 97,
+      "order_of_3": 48,
+      "period": 12,
+      "excluded_t_residues": []
+    }
+  ],
+  "combined_period_of_nonempty_exclusions": 6068205,
+  "verified_surviving_t_residue": 1,
+  "surviving_t_progression_modulus": 6068205,
+  "survivor_scope": "Every t congruent to this residue modulo the displayed modulus avoids all prime divisors<=97 of h; no claim about larger primes or unstated additional admissibility conditions.",
+  "request_is_bounded": "At most25*96 modular evaluations plus10000*25 residue tests; primes<=97, modular exponents<=95. No network/key reads."
+}

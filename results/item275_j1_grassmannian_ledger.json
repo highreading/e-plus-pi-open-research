@@ -1,0 +1,57 @@
+{
+  "schema": "item275-j1-grassmannian-ledger-v1",
+  "checked": "2026-08-31 Asia/Shanghai",
+  "scope": "The natural exterior-square and Grassmannian encoding of the full simultaneous fixed-j=1 gate",
+  "proved": [
+    "On the reduced-rank-two chart, the kernel plane has Pluecker coordinates (Delta34,-Delta24,Delta23,Delta14,-Delta13,Delta12).",
+    "The six coordinates satisfy K12*K34-K13*K24+K14*K23=0.",
+    "The collision is the fixed flag incidence x wedge K=0: four displayed bilinear coordinates impose two independent conditions on a nonzero decomposable K.",
+    "The fixed projective incidence has codimension two in Gr(2,4) x P3 and is not a divisor.",
+    "The exact diagonal family is G(t,t)=[[0,1,0,0],[4t+3,22t+5,12t-3,-6t+3]] and K(t,t)=(0,6t-3,12t-3,0,0,-4t-3).",
+    "The Item273 rank-four parameter transport induces a rank-six exterior-square transport with det(wedge^2 U)=det(U)^3.",
+    "The exterior-square construction has exactly Item273's fixed singular support, with multiplicities tripled.",
+    "At (h,s)=(1,1), the pulled h- and s-gate kernel lines are not proportional to the old line; both stacked row-plane determinants are nonzero.",
+    "The local stacked determinants are 604/1365 for the h shift and -7568/1365 for the s shift.",
+    "Along the actual fixed-M step (5,1,p=29,M=21)->(1,4,p=31,M=21), the stacked determinant is -585482135072/1165539375.",
+    "Therefore the natural Pluecker line is not a horizontal rank-one subobject under either generator or the actual fixed-M composite.",
+    "Rank-one and rank-zero gates both map to K=0 and must be retained as distinct determinantal strata.",
+    "The affine state x=0 is an automatic collision and is omitted by projectivization, so it is retained separately.",
+    "The natural exterior-square construction does not supply a fixed flat line, a Frobenius eigenline, or a scalar divisor suitable for weighted density.",
+    "Item149 already books the first post-Cartier copy; the raw fixed-j=1 ceiling remains 1/36 per 6M."
+  ],
+  "rank_and_state_strata": {
+    "rank_2": "nonzero Grassmannian point; two-dimensional kernel",
+    "rank_1": "K=0; three-dimensional kernel, requiring the surviving row frame",
+    "rank_0": "K=0; four-dimensional kernel",
+    "state_zero": "included in the affine cone and absent from projective state space",
+    "all_branches_retained": true
+  },
+  "scope_of_no_go": {
+    "proved": "the natural Item273 kernel Pluecker line is non-horizontal/non-flat under the exact parameter transports",
+    "not_proved": "nonexistence of an enlarged sheaf, a different connection, or a finite-field-specific incidence theorem",
+    "prime_tied_warning": "the exact fixed-M witness changes characteristic from 29 to 31 and is not an orbit in one finite field"
+  },
+  "master_admission_test": {
+    "raw_capacity": "1/36 per 6M",
+    "actual_family_implication": "the full gate is a fixed codimension-two flag incidence with a moving, non-flat plane",
+    "de_overlap": "Item149's first post-Cartier copy is already booked; exterior transport adds no valuation copy",
+    "quantitative_result": "no weighted incidence theorem and no retained ceiling below 1/36 per 6M",
+    "decision": "zero new capacity reduction and zero new Route-1 rate"
+  },
+  "booking": {
+    "new_unconditional_route1_rate": 0,
+    "new_independent_valuation_copy": 0,
+    "new_weighted_zero_theorem": 0,
+    "new_j1_capacity_reduction": 0,
+    "j1_raw_ceiling": "unchanged at 1/36 per 6M"
+  },
+  "forbidden_inference": [
+    "Do not infer a p^-2 density law from codimension two without a distribution theorem for the actual arithmetic section.",
+    "Do not treat the four displayed wedge coordinates as four independent gate conditions; generically only two are independent.",
+    "Do not use K=0 as an encoding of rank one or rank zero without the original row-frame stratum.",
+    "Do not discard x=0 by projectivizing the state.",
+    "Do not extend the natural-line nonhorizontality theorem to nonexistence of every enlarged lisse sheaf or finite-field construction.",
+    "Do not interpret cross-prime fixed-M transversality as a congruence inside one finite field.",
+    "Do not book the exterior-square recognition as another Item149 valuation copy."
+  ]
+}

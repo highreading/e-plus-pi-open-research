@@ -1,0 +1,153 @@
+{
+  "reviewer": "main Codex",
+  "finite_control_only": true,
+  "source": "sources/raw_arctan_bordered_rank_proof.md",
+  "rows": [
+    {
+      "ell": 1,
+      "m": 2,
+      "all_laplace_subsets": 2,
+      "unique_minimum_rows": [
+        2
+      ],
+      "minimum_v2": -1,
+      "det_v2": -1,
+      "square_det": [
+        -1,
+        6
+      ],
+      "border_ranks": {
+        "-4": 3,
+        "0": 3,
+        "7": 3
+      }
+    },
+    {
+      "ell": 2,
+      "m": 3,
+      "all_laplace_subsets": 6,
+      "unique_minimum_rows": [
+        5,
+        6
+      ],
+      "minimum_v2": -5,
+      "det_v2": -5,
+      "square_det": [
+        1027,
+        194400
+      ],
+      "border_ranks": {
+        "-4": 5,
+        "0": 5,
+        "7": 5
+      }
+    },
+    {
+      "ell": 3,
+      "m": 4,
+      "all_laplace_subsets": 20,
+      "unique_minimum_rows": [
+        6,
+        8,
+        9
+      ],
+      "minimum_v2": -13,
+      "det_v2": -13,
+      "square_det": [
+        6569309,
+        222213196800000
+      ],
+      "border_ranks": {
+        "-4": 7,
+        "0": 7,
+        "7": 7
+      }
+    },
+    {
+      "ell": 4,
+      "m": 5,
+      "all_laplace_subsets": 70,
+      "unique_minimum_rows": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "minimum_v2": -25,
+      "det_v2": -25,
+      "square_det": [
+        57602540102364937,
+        27107994532349612851200000000000
+      ],
+      "border_ranks": {
+        "-4": 9,
+        "0": 9,
+        "7": 9
+      }
+    },
+    {
+      "ell": 5,
+      "m": 6,
+      "all_laplace_subsets": 252,
+      "unique_minimum_rows": [
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "minimum_v2": -33,
+      "det_v2": -33,
+      "square_det": [
+        -885513543810756722971177973,
+        188807608235252037725750827180004474880000000000000000
+      ],
+      "border_ranks": {
+        "-4": 11,
+        "0": 11,
+        "7": 11
+      }
+    },
+    {
+      "ell": 6,
+      "m": 7,
+      "all_laplace_subsets": 924,
+      "unique_minimum_rows": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "minimum_v2": -50,
+      "det_v2": -50,
+      "square_det": [
+        6369545548444348141581740768188364764027,
+        144221835865444619144455180832762454346553290995885654461644800000000000000000000
+      ],
+      "border_ranks": {
+        "-4": 13,
+        "0": 13,
+        "7": 13
+      }
+    }
+  ],
+  "general_opposite_parity_signed_identity_example": {
+    "xs": [
+      -1,
+      3
+    ],
+    "poles": [
+      0,
+      2,
+      4
+    ],
+    "det": [
+      32,
+      45
+    ],
+    "signed_Sn": -4
+  },
+  "all_controls_passed": true
+}

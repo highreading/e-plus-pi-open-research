@@ -1,0 +1,906 @@
+{
+  "status": "PASS_INDEPENDENT_STRUCTURAL_CHECKS",
+  "checks": {
+    "author_certificate_payload_read": true,
+    "raw_ODE_from_adjacent_identities": true,
+    "Pcal_adjacent_differential_operator": true,
+    "Pcal_third_order_translation": true,
+    "Taylor_recurrence_extracted_from_operator": true,
+    "Taylor_middle_coefficient_integer_binomial_form": true,
+    "derivative_recurrence_from_general_Leibniz": true,
+    "negative_derivative_term_absent_at_r_zero": true,
+    "column_derivative_index": true,
+    "column_k_minus_r": true,
+    "spectral_coefficient": true,
+    "quadratic_node_Vandermonde_difference": true,
+    "normalized_three_state_transition": true,
+    "normalized_three_state_determinant": true,
+    "free_column_change_upper_unitriangular": true,
+    "free_columns_R_equals_WT": true,
+    "column_change_inverse_integral": true,
+    "column_change_inverse_verified": true,
+    "column_change_determinant_one": true,
+    "Cauchy_Binet_forward_(0, 1, 2)": true,
+    "Cauchy_Binet_backward_(0, 1, 2)": true,
+    "Cauchy_Binet_forward_(0, 1, 3)": true,
+    "Cauchy_Binet_backward_(0, 1, 3)": true,
+    "Cauchy_Binet_forward_(0, 1, 4)": true,
+    "Cauchy_Binet_backward_(0, 1, 4)": true,
+    "Cauchy_Binet_forward_(0, 2, 3)": true,
+    "Cauchy_Binet_backward_(0, 2, 3)": true,
+    "Cauchy_Binet_forward_(0, 2, 4)": true,
+    "Cauchy_Binet_backward_(0, 2, 4)": true,
+    "Cauchy_Binet_forward_(0, 3, 4)": true,
+    "Cauchy_Binet_backward_(0, 3, 4)": true,
+    "Cauchy_Binet_forward_(1, 2, 3)": true,
+    "Cauchy_Binet_backward_(1, 2, 3)": true,
+    "Cauchy_Binet_forward_(1, 2, 4)": true,
+    "Cauchy_Binet_backward_(1, 2, 4)": true,
+    "Cauchy_Binet_forward_(1, 3, 4)": true,
+    "Cauchy_Binet_backward_(1, 3, 4)": true,
+    "Cauchy_Binet_forward_(2, 3, 4)": true,
+    "Cauchy_Binet_backward_(2, 3, 4)": true,
+    "appended_rows_transform_by_T_inverse": true,
+    "unchanged_appended_rows_error_control": true,
+    "unchanged_appended_rows_generally_incorrect": true,
+    "alternant_d0_holes()": true,
+    "alternant_d0_holes(0,)": true,
+    "alternant_d0_holes(0, 1)": true,
+    "alternant_d1_holes()": true,
+    "alternant_d1_holes(0,)": true,
+    "alternant_d1_holes(1,)": true,
+    "alternant_d1_holes(0, 1)": true,
+    "alternant_d1_holes(0, 2)": true,
+    "alternant_d1_holes(1, 2)": true,
+    "alternant_d3_holes()": true,
+    "alternant_d3_holes(0,)": true,
+    "alternant_d3_holes(1,)": true,
+    "alternant_d3_holes(2,)": true,
+    "alternant_d3_holes(3,)": true,
+    "alternant_d3_holes(0, 1)": true,
+    "alternant_d3_holes(0, 2)": true,
+    "alternant_d3_holes(0, 3)": true,
+    "alternant_d3_holes(0, 4)": true,
+    "alternant_d3_holes(1, 2)": true,
+    "alternant_d3_holes(1, 3)": true,
+    "alternant_d3_holes(1, 4)": true,
+    "alternant_d3_holes(2, 3)": true,
+    "alternant_d3_holes(2, 4)": true,
+    "alternant_d3_holes(3, 4)": true,
+    "four_group_expansion_(0, 4)": true,
+    "four_group_expansion_(0, 8)": true,
+    "four_group_expansion_(4, 8)": true,
+    "four_group_expansion_(1, 5)": true,
+    "four_group_expansion_(0, 5)": true,
+    "four_group_expansion_(2, 8)": true,
+    "four_group_controls_include_both_permutation_signs": true,
+    "f_times_F_integral_expression": true,
+    "second_kind_clearance_integral_expression": true,
+    "factorial_term_clearance_integral_expression": true,
+    "denominator_pair_scale_integral_expression": true,
+    "new_pair_to_old_pair_rational_scale": true,
+    "complete_N0_termwise_integer_clearing": true,
+    "monic_X_equals_signed_Gamma_d_N0": true,
+    "monic_Y_equals_signed_Gamma_d_Z0": true,
+    "old_and_new_g_formulas_have_identical_scale": true,
+    "protected_inputs_and_completed_reviews_unchanged": true
+  },
+  "check_count": 83,
+  "author_certificate_checks_recorded": 12,
+  "author_program_executed": false,
+  "scope": "Formal recurrences and exact abstract linear-algebra controls; all-size results require the accompanying proof review.",
+  "actual_HP_indices_evaluated": [],
+  "primes_scanned": [],
+  "abstract_free_column_count": 12,
+  "unitriangular_matrix": [
+    [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1",
+      "0",
+      "0",
+      "2*n**2 + 4*n",
+      "4*n**3 + 4*n**2 - 4*n",
+      "6*n**4 - 10*n**3 - 16*n**2 + 24*n",
+      "8*n**5 - 44*n**4 + 36*n**3 + 112*n**2 - 120*n",
+      "10*n**6 - 104*n**5 + 326*n**4 - 88*n**3 - 824*n**2 + 704*n",
+      "12*n**7 - 196*n**6 + 1152*n**5 - 2468*n**4 - 300*n**3 + 6584*n**2 - 4960*n",
+      "14*n**8 - 326*n**7 + 2966*n**6 - 12386*n**5 + 19972*n**4 + 9696*n**3 - 58448*n**2 + 39648*n",
+      "16*n**9 - 500*n**8 + 6404*n**7 - 41596*n**6 + 137060*n**5 - 173008*n**4 - 151720*n**3 + 571312*n**2 - 356832*n"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "0",
+      "-n**2 - 3*n",
+      "-2*n**3 - 2*n**2 + 6*n - 2",
+      "-3*n**4 + 6*n**3 + 15*n**2 - 26*n + 4",
+      "-4*n**5 + 24*n**4 - 16*n**3 - 104*n**2 + 140*n - 24",
+      "-5*n**6 + 55*n**5 - 177*n**4 - 15*n**3 + 786*n**2 - 852*n + 144",
+      "-6*n**7 + 102*n**6 - 620*n**5 + 1296*n**4 + 942*n**3 - 6446*n**2 + 6116*n - 1000",
+      "-7*n**8 + 168*n**7 - 1574*n**6 + 6688*n**5 - 9815*n**4 - 14408*n**3 + 58260*n**2 - 49904*n + 8016",
+      "-8*n**9 + 256*n**8 - 3360*n**7 + 22304*n**6 - 73512*n**5 + 76192*n**4 + 191648*n**3 - 578272*n**2 + 456912*n - 72128"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "1",
+      "2*n",
+      "3*n**2 - 5*n + 2",
+      "4*n**3 - 18*n**2 + 24*n - 8",
+      "5*n**4 - 42*n**3 + 123*n**2 - 130*n + 36",
+      "6*n**5 - 80*n**4 + 406*n**3 - 900*n**2 + 824*n - 224",
+      "7*n**6 - 135*n**5 + 1045*n**4 - 3933*n**3 + 7312*n**2 - 6048*n + 1560",
+      "8*n**7 - 210*n**6 + 2292*n**5 - 12990*n**4 + 40180*n**3 - 65768*n**2 + 50256*n - 12480",
+      "9*n**8 - 308*n**7 + 4494*n**6 - 35568*n**5 + 163645*n**4 - 438812*n**3 + 651244*n**2 - 467056*n + 112336"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "2*n - 2",
+      "3*n**2 - 11*n + 10",
+      "4*n**3 - 30*n**2 + 72*n - 54",
+      "5*n**4 - 62*n**3 + 279*n**2 - 518*n + 336",
+      "6*n**5 - 110*n**4 + 786*n**3 - 2642*n**2 + 4144*n - 2440",
+      "7*n**6 - 177*n**5 + 1825*n**4 - 9563*n**3 + 26540*n**2 - 36824*n + 20040",
+      "8*n**7 - 266*n**6 + 3720*n**5 - 27800*n**4 + 118500*n**3 - 286038*n**2 + 360860*n - 184184"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "2*n - 4",
+      "3*n**2 - 17*n + 24",
+      "4*n**3 - 40*n**2 + 148*n - 160",
+      "5*n**4 - 74*n**3 + 487*n**2 - 1322*n + 1200",
+      "6*n**5 - 120*n**4 + 1178*n**3 - 5712*n**2 + 12672*n - 10128",
+      "7*n**6 - 179*n**5 + 2375*n**4 - 17509*n**3 + 68646*n**2 - 131268*n + 94976"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "2*n - 6",
+      "2*n**2 - 26*n + 44",
+      "-52*n**2 + 276*n - 352",
+      "-5*n**4 - 50*n**3 + 825*n**2 - 2938*n + 3088",
+      "-14*n**5 + 50*n**4 + 1386*n**3 - 11778*n**2 + 32636*n - 29816"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "4*n - 8",
+      "10*n**2 - 54*n + 72",
+      "20*n**3 - 200*n**2 + 652*n - 680",
+      "35*n**4 - 550*n**3 + 3169*n**2 - 7814*n + 6896"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "4*n - 12",
+      "10*n**2 - 74*n + 136",
+      "20*n**3 - 260*n**2 + 1112*n - 1552"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "4*n - 16",
+      "10*n**2 - 94*n + 220"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "4*n - 20"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1"
+    ]
+  ],
+  "integer_inverse_matrix": [
+    [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1",
+      "0",
+      "0",
+      "-2*n**2 - 4*n",
+      "-4*n",
+      "0",
+      "0",
+      "8*n**3 + 16*n**2",
+      "16*n**2",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "0",
+      "n**2 + 3*n",
+      "2 - 2*n**2",
+      "4 - 8*n",
+      "0",
+      "4*n**4 - 24*n**2 + 4*n",
+      "24*n**3 - 8*n**2 - 24*n + 8",
+      "64*n**2 - 64*n + 16",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "1",
+      "-2*n",
+      "n**2 + n - 2",
+      "-2*n**2 + 4*n",
+      "12 - 12*n",
+      "-4*n**4 - 8*n**3 + 36*n**2 - 16*n",
+      "4*n**4 - 24*n**3 - 8*n**2 + 52*n - 24",
+      "40*n**3 - 112*n**2 + 64*n",
+      "144*n**2 - 288*n + 144"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "2 - 2*n",
+      "n**2 - n - 2",
+      "-2*n**2 + 8*n - 6",
+      "n**4 + 10*n**3 - 17*n**2 - 18*n + 24",
+      "-4*n**4 + 8*n**3 + 52*n**2 - 112*n + 56",
+      "4*n**4 - 48*n**3 + 96*n**2 - 4*n - 56",
+      "56*n**3 - 296*n**2 + 456*n - 216"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "4 - 2*n",
+      "n**2 - 3*n",
+      "-4*n**3 + 20*n - 16",
+      "n**4 + 6*n**3 - 41*n**2 + 34*n + 16",
+      "-4*n**4 + 24*n**3 + 20*n**2 - 208*n + 208",
+      "4*n**4 - 72*n**3 + 288*n**2 - 356*n + 96"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "6 - 2*n",
+      "6*n**2 - 14*n + 4",
+      "-4*n**3 + 12*n**2 + 8*n - 32",
+      "n**4 + 2*n**3 - 53*n**2 + 122*n - 64",
+      "-4*n**4 + 40*n**3 - 60*n**2 - 208*n + 408"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "8 - 4*n",
+      "6*n**2 - 26*n + 24",
+      "-4*n**3 + 24*n**2 - 28*n - 24",
+      "n**4 - 2*n**3 - 53*n**2 + 222*n - 240"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "12 - 4*n",
+      "6*n**2 - 38*n + 56",
+      "-4*n**3 + 36*n**2 - 88*n + 32"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "16 - 4*n",
+      "6*n**2 - 50*n + 100"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "20 - 4*n"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1"
+    ]
+  ],
+  "Cauchy_Binet_control": "Both directions for all ten three-column minors of one arbitrary 3-by-5 matrix.",
+  "endpoint_appended_rows": "det[R;v;w] = det[W;v*T_inverse;w*T_inverse]",
+  "unchanged_appended_rows_error_polynomial": "2*n**2 + 4*n",
+  "abstract_alternant_checks": [
+    {
+      "dimension": 0,
+      "missing_powers": []
+    },
+    {
+      "dimension": 0,
+      "missing_powers": [
+        0
+      ]
+    },
+    {
+      "dimension": 0,
+      "missing_powers": [
+        0,
+        1
+      ]
+    },
+    {
+      "dimension": 1,
+      "missing_powers": []
+    },
+    {
+      "dimension": 1,
+      "missing_powers": [
+        0
+      ]
+    },
+    {
+      "dimension": 1,
+      "missing_powers": [
+        1
+      ]
+    },
+    {
+      "dimension": 1,
+      "missing_powers": [
+        0,
+        1
+      ]
+    },
+    {
+      "dimension": 1,
+      "missing_powers": [
+        0,
+        2
+      ]
+    },
+    {
+      "dimension": 1,
+      "missing_powers": [
+        1,
+        2
+      ]
+    },
+    {
+      "dimension": 3,
+      "missing_powers": []
+    },
+    {
+      "dimension": 3,
+      "missing_powers": [
+        0
+      ]
+    },
+    {
+      "dimension": 3,
+      "missing_powers": [
+        1
+      ]
+    },
+    {
+      "dimension": 3,
+      "missing_powers": [
+        2
+      ]
+    },
+    {
+      "dimension": 3,
+      "missing_powers": [
+        3
+      ]
+    },
+    {
+      "dimension": 3,
+      "missing_powers": [
+        0,
+        1
+      ]
+    },
+    {
+      "dimension": 3,
+      "missing_powers": [
+        0,
+        2
+      ]
+    },
+    {
+      "dimension": 3,
+      "missing_powers": [
+        0,
+        3
+      ]
+    },
+    {
+      "dimension": 3,
+      "missing_powers": [
+        0,
+        4
+      ]
+    },
+    {
+      "dimension": 3,
+      "missing_powers": [
+        1,
+        2
+      ]
+    },
+    {
+      "dimension": 3,
+      "missing_powers": [
+        1,
+        3
+      ]
+    },
+    {
+      "dimension": 3,
+      "missing_powers": [
+        1,
+        4
+      ]
+    },
+    {
+      "dimension": 3,
+      "missing_powers": [
+        2,
+        3
+      ]
+    },
+    {
+      "dimension": 3,
+      "missing_powers": [
+        2,
+        4
+      ]
+    },
+    {
+      "dimension": 3,
+      "missing_powers": [
+        3,
+        4
+      ]
+    }
+  ],
+  "four_group_expansion_controls": [
+    {
+      "deleted_columns": [
+        0,
+        4
+      ],
+      "retained_columns": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "grouped_columns": [
+        8,
+        1,
+        5,
+        2,
+        6,
+        3,
+        7
+      ],
+      "column_permutation_sign": -1,
+      "missing_exponents_by_group": [
+        [
+          0,
+          1
+        ],
+        [],
+        [],
+        []
+      ],
+      "retained_group_sizes": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "power_of_two_exponent": 5,
+      "row_partitions": 630,
+      "nonzero_partition_terms": 288,
+      "direct_determinant": "-25988196878208",
+      "expanded_determinant": "-25988196878208"
+    },
+    {
+      "deleted_columns": [
+        0,
+        8
+      ],
+      "retained_columns": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "grouped_columns": [
+        4,
+        1,
+        5,
+        2,
+        6,
+        3,
+        7
+      ],
+      "column_permutation_sign": 1,
+      "missing_exponents_by_group": [
+        [
+          0,
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "retained_group_sizes": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "power_of_two_exponent": 4,
+      "row_partitions": 630,
+      "nonzero_partition_terms": 288,
+      "direct_determinant": "242815817664",
+      "expanded_determinant": "242815817664"
+    },
+    {
+      "deleted_columns": [
+        4,
+        8
+      ],
+      "retained_columns": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "grouped_columns": [
+        0,
+        1,
+        5,
+        2,
+        6,
+        3,
+        7
+      ],
+      "column_permutation_sign": -1,
+      "missing_exponents_by_group": [
+        [
+          1,
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "retained_group_sizes": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "power_of_two_exponent": 3,
+      "row_partitions": 630,
+      "nonzero_partition_terms": 288,
+      "direct_determinant": "-2369634912",
+      "expanded_determinant": "-2369634912"
+    },
+    {
+      "deleted_columns": [
+        1,
+        5
+      ],
+      "retained_columns": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "grouped_columns": [
+        0,
+        4,
+        8,
+        2,
+        6,
+        3,
+        7
+      ],
+      "column_permutation_sign": -1,
+      "missing_exponents_by_group": [
+        [],
+        [
+          0,
+          1
+        ],
+        [],
+        []
+      ],
+      "retained_group_sizes": [
+        3,
+        0,
+        2,
+        2
+      ],
+      "power_of_two_exponent": 5,
+      "row_partitions": 210,
+      "nonzero_partition_terms": 90,
+      "direct_determinant": "-347262308352",
+      "expanded_determinant": "-347262308352"
+    },
+    {
+      "deleted_columns": [
+        0,
+        5
+      ],
+      "retained_columns": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "grouped_columns": [
+        4,
+        8,
+        1,
+        2,
+        6,
+        3,
+        7
+      ],
+      "column_permutation_sign": -1,
+      "missing_exponents_by_group": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [],
+        []
+      ],
+      "retained_group_sizes": [
+        2,
+        1,
+        2,
+        2
+      ],
+      "power_of_two_exponent": 5,
+      "row_partitions": 630,
+      "nonzero_partition_terms": 288,
+      "direct_determinant": "-8118240318720",
+      "expanded_determinant": "-8118240318720"
+    },
+    {
+      "deleted_columns": [
+        2,
+        8
+      ],
+      "retained_columns": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "grouped_columns": [
+        0,
+        4,
+        1,
+        5,
+        6,
+        3,
+        7
+      ],
+      "column_permutation_sign": 1,
+      "missing_exponents_by_group": [
+        [
+          2
+        ],
+        [],
+        [
+          0
+        ],
+        []
+      ],
+      "retained_group_sizes": [
+        2,
+        2,
+        1,
+        2
+      ],
+      "power_of_two_exponent": 4,
+      "row_partitions": 630,
+      "nonzero_partition_terms": 246,
+      "direct_determinant": "410496257376",
+      "expanded_determinant": "410496257376"
+    }
+  ],
+  "scale_correspondence": {
+    "spectral_Lambda": "diag(l(l+2n+1))",
+    "endpoint_Lambda_clear": "2^(n+1)(n+2)!(2n+1)!(n!)^2",
+    "new_integer_pair": "f F^2 (Nstar,Dstar)",
+    "g0": "F*gamma_end/[2(n+2)!(n!)^4]",
+    "g": "Gamma*d*g0",
+    "Gamma": "Crows*mu",
+    "gamma_min": "Gamma/A_b^2; distinct from gamma_end",
+    "g_over_A_b_squared": "gamma_min*d*g0",
+    "rational_scale_denominator_retained": true
+  },
+  "strict_residual_target_above_one_half_endorsed": false,
+  "growing_degree_nonvanishing_proved": false,
+  "new_content_growth_rate_proved": false,
+  "protected_sha256": {
+    "work/session_20261001_astra/agent1/ADDITIONAL_GROWING_CONTENT.md": "541db73b15956b2e537ad4a1037e7d5508025699d5e5fabbd0c9638dbc21bdd9",
+    "work/session_20261001_astra/agent1/check_additional_growing_content.py": "c19a83b3237b4b9728265474788d99873d5ed51aabdc54ae737aceb989b73340",
+    "work/session_20261001_astra/agent1/additional_growing_content_certificate.json": "ad431b2e72bc1609f91a7e8e4d25dbdd5340854002001507a9e9655a8ff7c31d",
+    "work/session_20261001_astra/agent1/GROWING_DEGREE_ARITHMETIC.md": "ee64c1261362fec9eb35d434186a29e240eeb25556a03cd3bc62367601a3f38b",
+    "work/session_20261001_astra/agent4/B1_WHOLE_FAMILY_REVIEW.md": "d66f6ba0d37b55ffd101540737a15a7c34b0c0aca51a4d51b5f103ca457c6224",
+    "work/session_20261001_astra/agent4/B2_WHOLE_FAMILY_REVIEW.md": "a02fe2a4ce8890ea0c9f55e58f9fe05da2b1b45b6e94456d482cf7eb4bace682",
+    "work/session_20261001_astra/agent4/INHERITED_SYNTHESIS_REVIEW.md": "208dacc3655a688d89ca29ede544723f00502c7b69cfe1ecb83ce771985e76ec",
+    "work/session_20261001_astra/agent4/DRAFT_OBSERVATIONS_REVIEW.md": "b14b4593502dd7b54538e1b2e8e1fa9cd67a51b5f6850fded593a763d122d6ec",
+    "work/session_20261001_astra/agent4/GROWING_ARITHMETIC_CONTENT_REVIEW.md": "7fef02412af19deca716d4605de5279a416b9ce13f56038cabbfa586f82dc6f2",
+    "work/session_20261001_astra/agent4/check_inherited_rates_counts.py": "d8c4881c0e0d1b48c1b715f13c57cbd3e91fbc5b8a6dccdbb86832940551015d",
+    "work/session_20261001_astra/agent4/audit_rate_count_certificate.json": "41282bc8dd52b75152c3969940c59f9f2c5884287e12e74139e5016a4b5f8f8a",
+    "work/session_20261001_astra/agent4/audit_rate_count_stdout.txt": "30dd2c819bc8d22a5df32df33fa612558d36e53d7437a18685f8e6b7cc40b01e",
+    "work/session_20261001_astra/agent4/check_whole_family.py": "e10c150d17e28cbeb59c5a0eecf0dc34ac5d617a2327524c2e7c1444b0a647e9",
+    "work/session_20261001_astra/agent4/whole_family_checks.json": "86b8e1b5067dbcd273460ef8339ea2e19b9fc933ddc19743aa84c0efe84e0a3a",
+    "work/session_20261001_astra/agent4/whole_family_check_stdout.txt": "d6c64487f69af779a85ec17c73296b007dfec169281ad686f811510652369db3",
+    "work/session_20261001_astra/agent4/check_b2_whole_family.py": "adf92b90d1088db51099b034ac19f947a660dfebd6adfab6389fa8e9bdab70c1",
+    "work/session_20261001_astra/agent4/b2_whole_family_checks.json": "b846c970a8df5d026ade45006aa9f154929f5a9de48d8f59ba5123d5f04aed1a",
+    "work/session_20261001_astra/agent4/b2_whole_family_check_stdout.txt": "f785c66d68d5f9cdca53c579ba77028e334a68ecc8140caa8e12c9a7a749a686",
+    "work/session_20261001_astra/agent4/check_growing_content_scales.py": "affe14c9c32cc6881f8d216a86964795b1e3e9f71bb5d2d58dd8c18dcda6bdb7",
+    "work/session_20261001_astra/agent4/growing_content_scale_checks.json": "50f9d58372cb359f6796086fb5268d772cde3736e807ce506a52595f59014f5a",
+    "work/session_20261001_astra/agent4/growing_content_scale_stdout.txt": "50f9d58372cb359f6796086fb5268d772cde3736e807ce506a52595f59014f5a",
+    "work/session_20261001_astra/agent4/growing_content_completion_verification.json": "2ffb7320524682b26911ad8915a0413c3a1c210bcfc1f76e652622762f4dacb3",
+    "work/session_20261001_astra/agent4/REPORT.md": "233e0183a82b9f5bde7bf5fc4147aa9050d18bfbb35b754b25bcd5730015d38a"
+  },
+  "checker_sha256": "9bf1ee4fbbcb287c0a323502d4d7a824b0c2fae9196f707fea3888a664cac9c2"
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "item274-root-audit-v1",
+  "audit_date": "2026-08-31",
+  "auditor": "root",
+  "verdict": "PASS_WITH_STRICT_SCOPE",
+  "substantive_checks": {
+    "reverse_bessel_differential_identity": "PASS: coefficient comparison gives 2 A_N' = A_N - X A_(N-1)",
+    "scaled_jet_recurrence": "PASS: differentiation and multiplication by 2^j gives Z_(i,j+1)=Z_(i,j)+Z_(i-1,j)-2j Z_(i-1,j-1)",
+    "two_generator_reduction": "PASS: fixed forward and backward recurrence shifts are integral polynomial combinations of (q_N,q_(N+1)) with unimodular adjacent transfer",
+    "determinant_expansion": "PASS: determinant multilinearity gives a homogeneous degree-s expansion with C_k in Z[N] and degree at most s(d+L+J)",
+    "singleton_valuation_dichotomy": "PASS: the first nonzero C_k term has unique smaller valuation when v_p(q_N)>v_p(C_k(N)) and p does not divide q_(N+1)",
+    "height_no_go": "PASS SCOPED: a nonzero forced branch is divisible by q_N^k and already pays k N log N+O(N); this does not exclude growing-length or non-height uses",
+    "pade_wronskian_unit_branch": "PASS: specialization gives P_N(1)Q_N'(1)=(-1)^N modulo the full q_N",
+    "reservoir_deoverlap": "PASS: primewise valuation proves qbar_(m,N)^k divides D_N/gcd(D_N,D_m^k)",
+    "capacity_booking": "PASS: zero new Route-1 rate and zero beta-capacity reduction"
+  },
+  "independent_replay": {
+    "canonical_sha256": "fb4ed044e6d665cd5670226dc77cf2979b0cc9efbf6ed3f0825ad824711b6427",
+    "root_replay_sha256": "fb4ed044e6d665cd5670226dc77cf2979b0cc9efbf6ed3f0825ad824711b6427",
+    "byte_identical": true
+  },
+  "package_checks": {
+    "hash_ledger_entries_checked": 6,
+    "frozen_dependencies_checked": 6,
+    "json_files_parsed": 5,
+    "all_hashes_and_dependencies_match": true
+  },
+  "report_checks": {
+    "sha256": "10018f93cb149bc01337fdabd30e94b0681df85330a197d2646a24f04abcb984",
+    "bytes": 13047,
+    "lines": 446,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "display_delimiters": "43/43",
+    "inline_delimiters": "72/72",
+    "presentation_repair_resealed": true
+  },
+  "strict_scope": {
+    "proved": "The fixed-size, fixed-window, fixed-jet-order, fixed-degree rational-polynomial determinant class is reduced exactly and its ordinary singleton-height shortcut is closed.",
+    "finite_only": "The portable certificate replays bounded exact identities; it contains no exceptional-prime census or asymptotic extrapolation.",
+    "open": "Uniform v_p(q_N) log p=O(N), a sufficient squarefull little-oh theorem, growing-length auxiliaries, p-adic zero approximation, and moving overlap correlations remain open.",
+    "route_status": "Route 1 ACTIVE; Route 2 QUEUED"
+  }
+}

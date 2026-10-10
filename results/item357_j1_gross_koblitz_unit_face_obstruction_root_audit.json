@@ -1,0 +1,73 @@
+{
+  "item": 357,
+  "schema": "item357-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_TARGET_SPECIFIC_JACOBI_TRANSFORM_AND_COMPLETE_UNIT_FACE_SCOPED_NO_GO",
+  "scope": "independent root audit of the actual fixed-j1 extension-field Jacobi/Appell transform, complete Stickelberger unit face, its reduction to the selected Hasse coordinate, and the scoped bounded-leading-face no-go",
+  "checks": {
+    "certificate_sha256": "8dd11773d7744fd364402406e88f5d4fcb6dedd7b449000bb11b83996dce3e51",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_checks": 24,
+    "work_manifest_failures": 0,
+    "frozen_dependencies_checked": 18,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 7,
+    "work_hash_list_match": true,
+    "declared_rows": 5,
+    "independent_actual_rows": 162,
+    "independent_Stickelberger_values": 2639040,
+    "independent_unit_face_terms": 102411,
+    "independent_face_coefficient_checks": 162,
+    "independent_full_face_prefactor_checks": 5,
+    "independent_extension_lift_checks": 2,
+    "all_independent_checks": true,
+    "prime_or_collision_census_performed": false,
+    "canonical_typographic_repair_operations": 1,
+    "work_report_sha256_before_typographic_repair": "4e63951583111e7d2cf759a6da696647df60f0deea425139adfdca51557df621",
+    "canonical_report_sha256": "637c5faa455e894a70a3c5963f89f3db51c06651ed591f8714d28fd67e2e398e",
+    "report_inline_delimiters": "100/100",
+    "report_display_delimiters": "46/46",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "transform": "three multiplicative Fourier expansions and character orthogonality give the exact two-frequency Jacobi/Appell identity for the actual coefficient-isolating lift",
+    "unit_criterion": "the two-digit Stickelberger carry formula gives valuation zero exactly for 0<=m<=E",
+    "face": "because E>n and wrapped indices exceed E, all and only triples s,t,u>=0 with s+t+u=n form the minimum face",
+    "face_reduction": "direct Jacobi reduction and (1+z)(1+alpha z)(1+beta z)=G(-z/2) identify the entire face with -a_(r,n)",
+    "no_second_condition": "the first face is a quadratic-size cancellation of the already selected Hasse coordinate, not an independent collision equation",
+    "lift_controls": "independent unramified quadratic-ring evaluation confirms 143=13*11 and 188=47*4, so selected Hasse vanishing does not universally force a second digit",
+    "classical_skeleton": "the upper and lower-plus-factorial fractional parameter multisets coincide; discarding the moving integer shifts loses all target information",
+    "scope_warning": "higher-face averages, transformations retaining integer shifts, triangular-face nonconcentration, and unused full-collision equations remain open"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "target-specific Jacobi/Appell transform",
+      "complete Stickelberger unit criterion",
+      "complete triangular first face and cardinality",
+      "first-face reduction to the selected Hasse coordinate",
+      "naive fractional-character skeleton collapse",
+      "unique-minimum and bounded-leading-face scoped no-go",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "five declared rows and two valuation-one selected-zero lifts; no collision census"
+    ],
+    "OPEN": [
+      "weighted nonconcentration for the triangular face",
+      "higher-face average cancellation",
+      "p-adic transformations retaining moving shifts",
+      "an independent equation from full-collision information",
+      "W_b(M)=o(M) and any reduction of 1/36",
+      "Route 1",
+      "e+pi"
+    ]
+  },
+  "capacity": {
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "new_forced_independent_condition": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

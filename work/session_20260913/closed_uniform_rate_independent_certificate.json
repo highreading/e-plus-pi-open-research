@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "fixed_primes": [
+    3,
+    7,
+    23,
+    43,
+    71,
+    83,
+    101,
+    109,
+    127,
+    151
+  ],
+  "method": "72-term positive -log(1-u) series; independent rational sqrt(5) bracket.",
+  "certified_gap_above": "3/200",
+  "prime_product": 25839289479611181,
+  "source_intervals_independently_verified": {
+    "rate_interval": {
+      "denominator": 1000000000000,
+      "lower_numerator": 2421687921315,
+      "upper_numerator": 2421687921316,
+      "strictly_contains_independent_bounds": true
+    },
+    "threshold_interval": {
+      "denominator": 1000000000000,
+      "lower_numerator": 2406059125298,
+      "upper_numerator": 2406059125299,
+      "strictly_contains_independent_bounds": true
+    },
+    "rate_minus_threshold_interval": {
+      "denominator": 1000000000000,
+      "lower_numerator": 15628796017,
+      "upper_numerator": 15628796018,
+      "strictly_contains_independent_bounds": true
+    }
+  },
+  "scope": "Rate and denominator assembly only; each finite seed certificate retains its own review."
+}

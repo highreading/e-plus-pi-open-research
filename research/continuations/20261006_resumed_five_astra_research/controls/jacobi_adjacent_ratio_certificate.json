@@ -1,0 +1,90 @@
+{
+  "status": "PASS_WITH_REPORT_CORRECTION",
+  "scope": "Exact bounded normalization audit, no original-window inverse evaluation",
+  "corrected_identity": "d_i/c_i=-6(m-i)/(6m+2i-3)",
+  "reported_identity": "d_i/c_i=-3(m-i)/(6m+2i-3)",
+  "impact": "Factor2 propagates to R_i and all evaluated collision minors; structural multiplication identity remains valid",
+  "rows": [
+    {
+      "m": 1,
+      "corrected_all_coefficients_verified": true,
+      "reported_ratio_fails_nonzero_coefficients": 1,
+      "constant_ratio": "-2",
+      "corrected_constant_ratio": "-2",
+      "reported_constant_ratio": "-1"
+    },
+    {
+      "m": 2,
+      "corrected_all_coefficients_verified": true,
+      "reported_ratio_fails_nonzero_coefficients": 2,
+      "constant_ratio": "-4/3",
+      "corrected_constant_ratio": "-4/3",
+      "reported_constant_ratio": "-2/3"
+    },
+    {
+      "m": 3,
+      "corrected_all_coefficients_verified": true,
+      "reported_ratio_fails_nonzero_coefficients": 3,
+      "constant_ratio": "-6/5",
+      "corrected_constant_ratio": "-6/5",
+      "reported_constant_ratio": "-3/5"
+    },
+    {
+      "m": 4,
+      "corrected_all_coefficients_verified": true,
+      "reported_ratio_fails_nonzero_coefficients": 4,
+      "constant_ratio": "-8/7",
+      "corrected_constant_ratio": "-8/7",
+      "reported_constant_ratio": "-4/7"
+    },
+    {
+      "m": 5,
+      "corrected_all_coefficients_verified": true,
+      "reported_ratio_fails_nonzero_coefficients": 5,
+      "constant_ratio": "-10/9",
+      "corrected_constant_ratio": "-10/9",
+      "reported_constant_ratio": "-5/9"
+    },
+    {
+      "m": 8,
+      "corrected_all_coefficients_verified": true,
+      "reported_ratio_fails_nonzero_coefficients": 8,
+      "constant_ratio": "-16/15",
+      "corrected_constant_ratio": "-16/15",
+      "reported_constant_ratio": "-8/15"
+    },
+    {
+      "m": 11,
+      "corrected_all_coefficients_verified": true,
+      "reported_ratio_fails_nonzero_coefficients": 11,
+      "constant_ratio": "-22/21",
+      "corrected_constant_ratio": "-22/21",
+      "reported_constant_ratio": "-11/21"
+    },
+    {
+      "m": 16,
+      "corrected_all_coefficients_verified": true,
+      "reported_ratio_fails_nonzero_coefficients": 16,
+      "constant_ratio": "-32/31",
+      "corrected_constant_ratio": "-32/31",
+      "reported_constant_ratio": "-16/31"
+    },
+    {
+      "m": 23,
+      "corrected_all_coefficients_verified": true,
+      "reported_ratio_fails_nonzero_coefficients": 23,
+      "constant_ratio": "-46/45",
+      "corrected_constant_ratio": "-46/45",
+      "reported_constant_ratio": "-23/45"
+    },
+    {
+      "m": 32,
+      "corrected_all_coefficients_verified": true,
+      "reported_ratio_fails_nonzero_coefficients": 32,
+      "constant_ratio": "-64/63",
+      "corrected_constant_ratio": "-64/63",
+      "reported_constant_ratio": "-32/63"
+    }
+  ],
+  "coefficient_checks": 115
+}

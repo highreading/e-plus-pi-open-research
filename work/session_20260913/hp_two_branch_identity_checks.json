@@ -1,0 +1,41 @@
+{
+  "status": "PASS; fixed exact controls only",
+  "checks": [
+    {
+      "n": 1,
+      "ODE_and_derivative_and_coefficient_recurrences": true
+    },
+    {
+      "n": 2,
+      "ODE_and_derivative_and_coefficient_recurrences": true
+    },
+    {
+      "n": 4,
+      "ODE_and_derivative_and_coefficient_recurrences": true
+    },
+    {
+      "n": 8,
+      "ODE_and_derivative_and_coefficient_recurrences": true
+    },
+    {
+      "p": 3,
+      "C_mod_p": 1,
+      "Gaussian_Euler_and_Wilson_truncated_exponential_formulas": true
+    },
+    {
+      "p": 5,
+      "C_mod_p": 0,
+      "Gaussian_Euler_and_Wilson_truncated_exponential_formulas": true
+    },
+    {
+      "p": 7,
+      "C_mod_p": 5,
+      "Gaussian_Euler_and_Wilson_truncated_exponential_formulas": true
+    },
+    {
+      "p": 13,
+      "C_mod_p": 3,
+      "Gaussian_Euler_and_Wilson_truncated_exponential_formulas": true
+    }
+  ]
+}

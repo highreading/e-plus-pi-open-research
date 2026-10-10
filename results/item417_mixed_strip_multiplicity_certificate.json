@@ -1,0 +1,707 @@
+{
+  "capacity": {
+    "Item415_strictly_large_component_ceiling": "0.429267896289547720231724249945104944315027671924423772561342",
+    "booking_delta": 0,
+    "current_Item418_strictly_large_component_ceiling": "0.42877388533865786894576038290962190825322503544392",
+    "extra_tower_log_bound": "log(E_m)<=sqrt(6m)*log(sqrt(6m))=o(m)",
+    "extra_tower_support_bound": "p<=sqrt(6m)",
+    "frozen_deficit_delta": 0,
+    "global_total_content_ceiling_delta": 0,
+    "new_strictly_large_component_ceiling": "0.42877388533865786894576038290962190825322503544392",
+    "strictly_large_component_ceiling_delta": 0
+  },
+  "dependency_sha256": {
+    "manifests/item415_marked_selector_compulsory_strip_manifest.json": "8ae673cec3d739af76f3e73eaeb9266868431a77ab9bcaffd72a42cf522780b1",
+    "results/item415_marked_selector_compulsory_strip_certificate.json": "af731cf70e9a6d40cab380d38d5b404786cefef196eb42f743634b8d390cb29e",
+    "results/item415_marked_selector_compulsory_strip_root_audit.json": "123576c914528abdc1e3ffa3993e5161c56f92ac21e4ec33b9c6f450edfa653c",
+    "results/item418_normalized_large_carrier_certificate.json": "bcea1e6be723e48e3d1ca63bc5644b208059e5138799108ea403b0ba5d789075",
+    "results/item418_normalized_large_carrier_root_audit.json": "530eb0827398480fcff5c8afb564c174d6f9cab8f6be00f5e965ed796eb29c63",
+    "sources/item200_common_log_gcd_report.md": "06003e9fd03f74b2406330a81d49493fa2f4390c82f359be39bf328184605c68",
+    "sources/item390_mixed_cubic_fresh_primitive_saturation_report.md": "5bfb3c871b12524f672df515e920236f2470145d4f68bdcd7b47f29408692f46",
+    "sources/item415_marked_selector_compulsory_strip_report.md": "da79ea786471a6abb35288f242a0b0b2307a695bd9352eaa3c4e2033fc701777",
+    "sources/item418_normalized_large_carrier_report.md": "5b490e38d127deec51cac34a80c6856ed824534daad8fc3a387fe6cbb7f7db68",
+    "sources/mixed_cubic_small_prime_rank_one_cartier_mass.md": "593e1f69809c44245bd2d79bf1a503f96d1972a39ba17ea43ba7cd9f4b0e124b"
+  },
+  "exact_counterexamples": {
+    "conclusion": "neither the ordinary F factor nor a higher-level rank-zero Cartier witness supplies a uniform second p-adic digit",
+    "rows": [
+      {
+        "lambda_0": "2475",
+        "lambda_0_over_p_mod_p": 5,
+        "lambda_1": "6952",
+        "lambda_1_over_p_mod_p": 5,
+        "m": 2,
+        "ordinary_F_member": true,
+        "p": 11,
+        "purpose": "ordinary F_m has exact multiplicity one",
+        "qualifying_prime_power_levels": [
+          11
+        ],
+        "v_p_lambda_0": 1,
+        "v_p_lambda_1": 1
+      },
+      {
+        "lambda_0": "1819545849335647615",
+        "lambda_0_over_p_mod_p": 2,
+        "lambda_1": "4600971186676958366",
+        "lambda_1_over_p_mod_p": 11,
+        "m": 9,
+        "ordinary_F_member": true,
+        "p": 13,
+        "purpose": "ordinary F_m intersect Item149 rank-one support still has exact multiplicity one",
+        "qualifying_prime_power_levels": [
+          13
+        ],
+        "v_p_lambda_0": 1,
+        "v_p_lambda_1": 1
+      },
+      {
+        "lambda_0": "2049154065",
+        "lambda_0_over_p_mod_p": 3,
+        "lambda_1": "4895826690",
+        "lambda_1_over_p_mod_p": 3,
+        "m": 5,
+        "ordinary_F_member": false,
+        "p": 5,
+        "purpose": "new higher-level tower factor has exact multiplicity one",
+        "qualifying_prime_power_levels": [
+          25
+        ],
+        "v_p_lambda_0": 1,
+        "v_p_lambda_1": 1
+      }
+    ]
+  },
+  "finite_normalization": {
+    "extra_tower_exact_one_incidences": 265,
+    "extra_tower_prime_incidences": 359,
+    "maximum_extra_prime_count_on_one_row": 4,
+    "normalization_stream_sha256": "cf1723ba25cc717e1fe1aada0cc4a7a1ebb339d29c900a9cebd66980ed41d588",
+    "ordinary_F_prime_incidences": 4787,
+    "range": "1<=m<=160",
+    "rows": 160,
+    "rows_with_extra_tower_factor": 151,
+    "selected_rows": [
+      {
+        "extra_exact_one_primes": [],
+        "extra_tower_primes": [],
+        "extra_witness_levels": {},
+        "finite_normalization_only": true,
+        "lambda_0_bit_length": 12,
+        "lambda_1_bit_length": 13,
+        "m": 2,
+        "ordinary_F_primes": [
+          11
+        ],
+        "tower_divisibility_verified": true
+      },
+      {
+        "extra_exact_one_primes": [
+          3,
+          5
+        ],
+        "extra_tower_primes": [
+          3,
+          5
+        ],
+        "extra_witness_levels": {
+          "3": {
+            "row_0": [
+              3,
+              27
+            ],
+            "row_1": [
+              27
+            ],
+            "simultaneous": [
+              27
+            ]
+          },
+          "5": {
+            "row_0": [
+              25
+            ],
+            "row_1": [
+              25
+            ],
+            "simultaneous": [
+              25
+            ]
+          }
+        },
+        "finite_normalization_only": true,
+        "lambda_0_bit_length": 31,
+        "lambda_1_bit_length": 33,
+        "m": 5,
+        "ordinary_F_primes": [
+          23,
+          29
+        ],
+        "tower_divisibility_verified": true
+      },
+      {
+        "extra_exact_one_primes": [],
+        "extra_tower_primes": [
+          3
+        ],
+        "extra_witness_levels": {
+          "3": {
+            "row_0": [
+              9,
+              27
+            ],
+            "row_1": [
+              9,
+              27
+            ],
+            "simultaneous": [
+              9,
+              27
+            ]
+          }
+        },
+        "finite_normalization_only": true,
+        "lambda_0_bit_length": 39,
+        "lambda_1_bit_length": 41,
+        "m": 6,
+        "ordinary_F_primes": [
+          29,
+          31
+        ],
+        "tower_divisibility_verified": true
+      },
+      {
+        "extra_exact_one_primes": [
+          7
+        ],
+        "extra_tower_primes": [
+          7
+        ],
+        "extra_witness_levels": {
+          "7": {
+            "row_0": [
+              49
+            ],
+            "row_1": [
+              49
+            ],
+            "simultaneous": [
+              49
+            ]
+          }
+        },
+        "finite_normalization_only": true,
+        "lambda_0_bit_length": 61,
+        "lambda_1_bit_length": 62,
+        "m": 9,
+        "ordinary_F_primes": [
+          13,
+          41,
+          43,
+          47,
+          53
+        ],
+        "tower_divisibility_verified": true
+      },
+      {
+        "extra_exact_one_primes": [
+          3,
+          5
+        ],
+        "extra_tower_primes": [
+          3,
+          5
+        ],
+        "extra_witness_levels": {
+          "3": {
+            "row_0": [
+              3,
+              81
+            ],
+            "row_1": [
+              81
+            ],
+            "simultaneous": [
+              81
+            ]
+          },
+          "5": {
+            "row_0": [
+              25
+            ],
+            "row_1": [
+              25
+            ],
+            "simultaneous": [
+              25
+            ]
+          }
+        },
+        "finite_normalization_only": true,
+        "lambda_0_bit_length": 117,
+        "lambda_1_bit_length": 118,
+        "m": 17,
+        "ordinary_F_primes": [
+          71,
+          73,
+          79,
+          83,
+          89,
+          97,
+          101
+        ],
+        "tower_divisibility_verified": true
+      },
+      {
+        "extra_exact_one_primes": [
+          13
+        ],
+        "extra_tower_primes": [
+          5,
+          13
+        ],
+        "extra_witness_levels": {
+          "13": {
+            "row_0": [
+              169
+            ],
+            "row_1": [
+              169
+            ],
+            "simultaneous": [
+              169
+            ]
+          },
+          "5": {
+            "row_0": [
+              25,
+              125
+            ],
+            "row_1": [
+              25,
+              125
+            ],
+            "simultaneous": [
+              25,
+              125
+            ]
+          }
+        },
+        "finite_normalization_only": true,
+        "lambda_0_bit_length": 209,
+        "lambda_1_bit_length": 210,
+        "m": 30,
+        "ordinary_F_primes": [
+          41,
+          43,
+          127,
+          131,
+          137,
+          139,
+          149,
+          151,
+          157,
+          163,
+          167,
+          173,
+          179
+        ],
+        "tower_divisibility_verified": true
+      },
+      {
+        "extra_exact_one_primes": [
+          17
+        ],
+        "extra_tower_primes": [
+          3,
+          7,
+          17
+        ],
+        "extra_witness_levels": {
+          "17": {
+            "row_0": [
+              289
+            ],
+            "row_1": [
+              289
+            ],
+            "simultaneous": [
+              289
+            ]
+          },
+          "3": {
+            "row_0": [
+              9,
+              27,
+              81,
+              243
+            ],
+            "row_1": [
+              9,
+              27,
+              81,
+              243
+            ],
+            "simultaneous": [
+              9,
+              27,
+              81,
+              243
+            ]
+          },
+          "7": {
+            "row_0": [
+              49,
+              343
+            ],
+            "row_1": [
+              49,
+              343
+            ],
+            "simultaneous": [
+              49,
+              343
+            ]
+          }
+        },
+        "finite_normalization_only": true,
+        "lambda_0_bit_length": 420,
+        "lambda_1_bit_length": 421,
+        "m": 60,
+        "ordinary_F_primes": [
+          83,
+          89,
+          251,
+          257,
+          263,
+          269,
+          271,
+          277,
+          281,
+          283,
+          293,
+          307,
+          311,
+          313,
+          317,
+          331,
+          337,
+          347,
+          349,
+          353,
+          359
+        ],
+        "tower_divisibility_verified": true
+      },
+      {
+        "extra_exact_one_primes": [],
+        "extra_tower_primes": [
+          3,
+          23
+        ],
+        "extra_witness_levels": {
+          "23": {
+            "row_0": [
+              529
+            ],
+            "row_1": [
+              529
+            ],
+            "simultaneous": [
+              529
+            ]
+          },
+          "3": {
+            "row_0": [
+              27,
+              81
+            ],
+            "row_1": [
+              3,
+              27,
+              81
+            ],
+            "simultaneous": [
+              27,
+              81
+            ]
+          }
+        },
+        "finite_normalization_only": true,
+        "lambda_0_bit_length": 703,
+        "lambda_1_bit_length": 704,
+        "m": 100,
+        "ordinary_F_primes": [
+          13,
+          31,
+          37,
+          59,
+          83,
+          137,
+          139,
+          149,
+          409,
+          419,
+          421,
+          431,
+          433,
+          439,
+          443,
+          449,
+          457,
+          461,
+          463,
+          467,
+          479,
+          487,
+          491,
+          499,
+          503,
+          509,
+          521,
+          523,
+          541,
+          547,
+          557,
+          563,
+          569,
+          571,
+          577,
+          587,
+          593,
+          599
+        ],
+        "tower_divisibility_verified": true
+      },
+      {
+        "extra_exact_one_primes": [
+          5
+        ],
+        "extra_tower_primes": [
+          3,
+          5
+        ],
+        "extra_witness_levels": {
+          "3": {
+            "row_0": [
+              3,
+              27,
+              81,
+              729
+            ],
+            "row_1": [
+              27,
+              81,
+              729
+            ],
+            "simultaneous": [
+              27,
+              81,
+              729
+            ]
+          },
+          "5": {
+            "row_0": [
+              625
+            ],
+            "row_1": [
+              625
+            ],
+            "simultaneous": [
+              625
+            ]
+          }
+        },
+        "finite_normalization_only": true,
+        "lambda_0_bit_length": 987,
+        "lambda_1_bit_length": 988,
+        "m": 140,
+        "ordinary_F_primes": [
+          83,
+          113,
+          191,
+          193,
+          197,
+          199,
+          563,
+          569,
+          571,
+          577,
+          587,
+          593,
+          599,
+          601,
+          607,
+          613,
+          617,
+          619,
+          631,
+          641,
+          643,
+          647,
+          653,
+          659,
+          661,
+          673,
+          677,
+          683,
+          691,
+          701,
+          709,
+          719,
+          727,
+          733,
+          739,
+          743,
+          751,
+          757,
+          761,
+          769,
+          773,
+          787,
+          797,
+          809,
+          811,
+          821,
+          823,
+          827,
+          829,
+          839
+        ],
+        "tower_divisibility_verified": true
+      },
+      {
+        "extra_exact_one_primes": [
+          3,
+          29
+        ],
+        "extra_tower_primes": [
+          3,
+          29
+        ],
+        "extra_witness_levels": {
+          "29": {
+            "row_0": [
+              841
+            ],
+            "row_1": [
+              841
+            ],
+            "simultaneous": [
+              841
+            ]
+          },
+          "3": {
+            "row_0": [
+              729
+            ],
+            "row_1": [
+              3,
+              729
+            ],
+            "simultaneous": [
+              729
+            ]
+          }
+        },
+        "finite_normalization_only": true,
+        "lambda_0_bit_length": 1129,
+        "lambda_1_bit_length": 1130,
+        "m": 160,
+        "ordinary_F_primes": [
+          43,
+          59,
+          73,
+          131,
+          137,
+          223,
+          227,
+          229,
+          233,
+          239,
+          643,
+          647,
+          653,
+          659,
+          661,
+          673,
+          677,
+          683,
+          691,
+          701,
+          709,
+          719,
+          727,
+          733,
+          739,
+          743,
+          751,
+          757,
+          761,
+          769,
+          773,
+          787,
+          797,
+          809,
+          811,
+          821,
+          823,
+          827,
+          829,
+          839,
+          853,
+          857,
+          859,
+          863,
+          877,
+          881,
+          883,
+          887,
+          907,
+          911,
+          919,
+          929,
+          937,
+          941,
+          947,
+          953
+        ],
+        "tower_divisibility_verified": true
+      }
+    ],
+    "warning": "finite incidence counts and valuation patterns are exact finite diagnostics only"
+  },
+  "item": 417,
+  "labels": {
+    "EXACT_FINITE_ONLY": [
+      "all incidence counts and valuation histograms through m=160"
+    ],
+    "NOT_CLAIMED": [
+      "completeness among all possible arithmetic common factors",
+      "one p-adic digit for every qualifying Cartier level",
+      "positive Route-1 mass or an irrationality proof"
+    ],
+    "OPEN": [
+      "any positive-linear-mass higher-multiplicity theorem from an integral lift",
+      "additional arithmetic common factors not forced by degree-zero Cartier images",
+      "weighted o(m) for the fully normalized large-prime carrier",
+      "Route 1 and irrationality of e+pi"
+    ],
+    "PROVED": [
+      "de-overlapped squarefree all-level Cartier-zero tower divisor",
+      "extra support is at most sqrt(6m) and has zero exponential rate",
+      "no uniform F_m squared divisibility in the actual family",
+      "a higher-level tower witness need not give a second digit",
+      "the current Item418 component ceiling and every central ledger quantity are unchanged"
+    ]
+  },
+  "schema": "item417-mixed-strip-multiplicity-v1",
+  "status": "CANONICAL_ROOT_AUDITED_ZERO_ASYMPTOTIC_DELTA",
+  "theorems_proved_in_report": {
+    "multiplicity_counterexamples": "the actual rows (m,p)=(2,11),(9,13),(5,5) have exact common valuation one in the declared ordinary/extra cases",
+    "nested_no_go": "Cartier iterates after a zero image remain zero, so multiple qualifying levels do not constitute independent p-adic digits",
+    "thin_extra_support": "every extra tower prime requires e>=2 and hence p<=sqrt(6m), so its total logarithm is o(m)",
+    "tower_divisor": "if each adjacent row has some (not necessarily equal) q=p^e with its defect at most q-2, then p divides both exact residue integers; F_m times the de-overlapped extra squarefree tower product divides both coordinates"
+  },
+  "witness_sha256": "9de2e6cde73bb1ff390532d5f8b30c23b88d8195661f0da43ad35c248eb40de5"
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "item266-far-offray-weighted-barrier-ledger-v1",
+  "checked": "2026-08-31 Asia/Shanghai",
+  "scope": "Stable off-ray rank-one common moving content, globalized over the moving b layers",
+  "proved": [
+    "For p>=11, actual stable rows are exactly the q=1 and q=2 interval families in report equation (1.3).",
+    "Every stable row satisfies 10M+1-b=(5j+5-q)p, 0<=b<p, and b<=6M/7+1.",
+    "The raw stable log-prime coefficient is C_st=0.239111014698... per M, or 0.039851835783... per 6M.",
+    "The far subcell b>=M/5 has exact raw coefficient 1139587/9085230=0.125432927950... per M.",
+    "That far coefficient exceeds the current 0.117797902016590763... per-M gap by 0.007635025933... .",
+    "The stable eliminant equivalence has only p-unit denominators on actual rows and retains the (M,s,p,j,q,b,r)=(2249,299,2399,1,1,900,3) cancellation witness.",
+    "The exact stable radical is contained in the report's moving-b gcd product.",
+    "The per-layer product estimate is O(M log M), and the inherited eliminant-height sum is O(M^2 log M); neither sharpens the raw stable ceiling.",
+    "A fixed-sequence mock construction proves a scoped information barrier for the phase-layer identity plus inherited componentwise height estimates only.",
+    "The first post-Cartier rank-one copy is already booked by Item 149; common content can support only one candidate additional first-gate copy and does not force A1."
+  ],
+  "master_admission_test": {
+    "actual_family_implication": "The stable eliminant equivalence is exact on actual rows.",
+    "de_overlap": "Do not recount Item 149's first post-Cartier copy; at most one additional common first-gate copy is in scope.",
+    "quantitative_result": "No positive lower bound and no upper ceiling below the relevant 0.117797902016... per-M threshold is proved."
+  },
+  "exact_witness": {
+    "row_M_s_p_j_q_b_r": [
+      2249,
+      299,
+      2399,
+      1,
+      1,
+      900,
+      3
+    ],
+    "terminal_mod_2399": [
+      7,
+      2392,
+      0,
+      0
+    ],
+    "gcd_factorization": "2^449 * 911 * 971 * 991 * 1031 * 1051 * 1091 * 1151 * 1171 * 1231 * 1291 * 2399"
+  },
+  "finite_replay": {
+    "label": "EXACT FINITE ONLY",
+    "M_range": [
+      1,
+      240
+    ],
+    "purpose": "forward/inverse row-map replay plus the declared exact witness; not a common-zero scan",
+    "asymptotic_inference": false
+  },
+  "booking": {
+    "new_unconditional_route1_rate": 0,
+    "new_common_content_lower_bound": 0,
+    "new_weighted_upper_bound_below_gap": 0,
+    "reason": "The admitted all-prime statements neither prove positive common-prime mass nor reduce its ceiling below the relevant gap."
+  },
+  "open": [
+    "An all-b factorization or phase-feasible prime-localization theorem.",
+    "A cancellation-aware cross-b recurrence or low-height resultant.",
+    "An o(M) or sufficiently small explicit weighted upper bound.",
+    "A positive weighted lower bound for the candidate extra copy."
+  ],
+  "forbidden_inference": [
+    "Do not infer actual common-zero density from the raw stable or far support coefficients.",
+    "Do not call the O(M log M) or O(M^2 log M) container failures an impossibility theorem for other invariants.",
+    "Do not treat the scoped mock sequence as satisfying the actual hypergeometric recurrence.",
+    "Do not count Item 149's already booked copy again.",
+    "Do not infer A1 vanishing or a third valuation copy from g0=g1=0.",
+    "Do not extrapolate the bounded replay or the earlier b<=900 factor scan."
+  ]
+}

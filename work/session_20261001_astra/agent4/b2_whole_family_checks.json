@@ -1,0 +1,991 @@
+{
+  "status": "PASS_INDEPENDENT_EXACT_CHECKS",
+  "scope": "Only complete scalar seeds at p=3,7,11 and their existing endpoint controls. Infinite conclusions require the separate proof audit.",
+  "formal_identities": {
+    "J_factor": true,
+    "K_factor": true,
+    "S_factor": true,
+    "W_factor": true,
+    "C_identity": true,
+    "V_factor": true,
+    "complete_numerator_factor": true,
+    "denominator_factor": true,
+    "transition_determinant_identity_only": true,
+    "ODE_from_adjacent_identities": true,
+    "original_endpoint_Y_determinant": true,
+    "original_endpoint_X_determinant": true,
+    "original_endpoint_Y_scale": true,
+    "original_endpoint_X_scale": true
+  },
+  "distinct_scalar_seeds": 11,
+  "complete_residue_row_count": 21,
+  "state_coordinate_count_per_row": 13,
+  "author_7_11_modular_rows_matched": 18,
+  "ternary_exact_Vtilde": [
+    4,
+    16,
+    5452
+  ],
+  "exact_seed_rows": [
+    {
+      "r": 0,
+      "state": {
+        "h": "1",
+        "u": "0",
+        "v": "0",
+        "J": "0",
+        "Acal": "1",
+        "Bcal": "3",
+        "a": "0",
+        "k": "1",
+        "ell": "2",
+        "sigma": "1",
+        "C": "-1",
+        "omega": "-2",
+        "Vtilde": "4"
+      },
+      "endpoint_scalars": {
+        "V_original": "4",
+        "P_n": "1",
+        "P_next": "2",
+        "Qtilde": "8",
+        "Dtilde": "-4",
+        "Xcal_original": "16",
+        "Dcal_original": "-4"
+      }
+    },
+    {
+      "r": 1,
+      "state": {
+        "h": "0",
+        "u": "1",
+        "v": "0",
+        "J": "1",
+        "Acal": "3",
+        "Bcal": "10",
+        "a": "1",
+        "k": "0",
+        "ell": "-2",
+        "sigma": "2",
+        "C": "-1",
+        "omega": "0",
+        "Vtilde": "16"
+      },
+      "endpoint_scalars": {
+        "V_original": "32",
+        "P_n": "2",
+        "P_next": "8",
+        "Qtilde": "80",
+        "Dtilde": "-24",
+        "Xcal_original": "288",
+        "Dcal_original": "-48"
+      }
+    },
+    {
+      "r": 2,
+      "state": {
+        "h": "1",
+        "u": "-2",
+        "v": "2",
+        "J": "0",
+        "Acal": "21",
+        "Bcal": "133",
+        "a": "-5",
+        "k": "-1",
+        "ell": "10",
+        "sigma": "53",
+        "C": "-33",
+        "omega": "-10",
+        "Vtilde": "5452"
+      },
+      "endpoint_scalars": {
+        "V_original": "16356",
+        "P_n": "8",
+        "P_next": "32",
+        "Qtilde": "12576",
+        "Dtilde": "-4016",
+        "Xcal_original": "70440",
+        "Dcal_original": "-12048"
+      }
+    },
+    {
+      "r": 3,
+      "state": {
+        "h": "-5",
+        "u": "12",
+        "v": "-12",
+        "J": "-3",
+        "Acal": "394",
+        "Bcal": "3312",
+        "a": "45",
+        "k": "22",
+        "ell": "-22",
+        "sigma": "2926",
+        "C": "-1009",
+        "omega": "-176",
+        "Vtilde": "4502572"
+      },
+      "endpoint_scalars": {
+        "V_original": "18010288",
+        "P_n": "32",
+        "P_next": "136",
+        "Qtilde": "6945088/3",
+        "Dtilde": "-736160",
+        "Xcal_original": "155382208/9",
+        "Dcal_original": "-2944640"
+      }
+    },
+    {
+      "r": 4,
+      "state": {
+        "h": "45",
+        "u": "-92",
+        "v": "108",
+        "J": "88",
+        "Acal": "13293",
+        "Bcal": "144955",
+        "a": "-494",
+        "k": "-303",
+        "ell": "-302",
+        "sigma": "309857",
+        "C": "-90073",
+        "omega": "-13074",
+        "Vtilde": "17169002260"
+      },
+      "endpoint_scalars": {
+        "V_original": "85845011300",
+        "P_n": "136",
+        "P_next": "592",
+        "Qtilde": "1102210304",
+        "Dtilde": "-350897184",
+        "Xcal_original": "92521969330/9",
+        "Dcal_original": "-1754485920"
+      }
+    },
+    {
+      "r": 5,
+      "state": {
+        "h": "-494",
+        "u": "955",
+        "v": "-1180",
+        "J": "-1515",
+        "Acal": "724281",
+        "Bcal": "9627898",
+        "a": "6655",
+        "k": "4616",
+        "ell": "11422",
+        "sigma": "51831326",
+        "C": "-11704131",
+        "omega": "-1350772",
+        "Vtilde": "150235613460904"
+      },
+      "endpoint_scalars": {
+        "V_original": "901413680765424",
+        "P_n": "592",
+        "P_next": "2624",
+        "Qtilde": "11575756980736/15",
+        "Dtilde": "-245638128448",
+        "Xcal_original": "647743936343888/75",
+        "Dcal_original": "-1473828770688"
+      }
+    },
+    {
+      "r": 6,
+      "state": {
+        "h": "6655",
+        "u": "-12234",
+        "v": "15690",
+        "J": "27696",
+        "Acal": "57774043",
+        "Bcal": "907515015",
+        "a": "-105489",
+        "k": "-78755",
+        "ell": "-293722",
+        "sigma": "12432010117",
+        "C": "-2332528321",
+        "omega": "-226478570",
+        "Vtilde": "2835028070298362116"
+      },
+      "endpoint_scalars": {
+        "V_original": "19845196492088534812",
+        "P_n": "2624",
+        "P_next": "11776",
+        "Qtilde": "4045065089354752/5",
+        "Dtilde": "-257518163650688",
+        "Xcal_original": "21390357774364989326/2025",
+        "Dcal_original": "-1802627145554816"
+      }
+    },
+    {
+      "r": 7,
+      "state": {
+        "h": "-105489",
+        "u": "187138",
+        "v": "-245448",
+        "J": "-551285",
+        "Acal": "6352499616",
+        "Bcal": "115103918968",
+        "a": "1925665",
+        "k": "1510314",
+        "ell": "7387270",
+        "sigma": "4022979744218",
+        "C": "-639683706523",
+        "omega": "-53337728460",
+        "Vtilde": "99186181511690783174452"
+      },
+      "endpoint_scalars": {
+        "V_original": "793489452093526265395616",
+        "P_n": "11776",
+        "P_next": "53344",
+        "Qtilde": "40434669507417368576/35",
+        "Dtilde": "-367735520061925632",
+        "Xcal_original": "1710547756521752184699296/99225",
+        "Dcal_original": "-2941884160495405056"
+      }
+    },
+    {
+      "r": 8,
+      "state": {
+        "h": "1925665",
+        "u": "-3322808",
+        "v": "4425848",
+        "J": "12082512",
+        "Acal": "920833277409",
+        "Bcal": "18906645942187",
+        "a": "-39774860",
+        "k": "-32313463",
+        "ell": "-193940462",
+        "sigma": "1683484295086001",
+        "C": "-232114921619169",
+        "omega": "-16963444701826",
+        "Vtilde": "5938722327144099375079539652"
+      },
+      "endpoint_scalars": {
+        "V_original": "53448500944296894375715856868",
+        "P_n": "53344",
+        "P_next": "243392",
+        "Qtilde": "15131266967158719070208/7",
+        "Dtilde": "-688061807498730305920",
+        "Xcal_original": "3200566255861823586331472113/88200",
+        "Dcal_original": "-6192556267488572753280"
+      }
+    },
+    {
+      "r": 9,
+      "state": {
+        "h": "-39774860",
+        "u": "67152573",
+        "v": "-90420552",
+        "J": "-290821167",
+        "Acal": "170159773704823",
+        "Bcal": "3904323168899370",
+        "a": "917136621",
+        "k": "764998912",
+        "ell": "5417967278",
+        "sigma": "883217151578349802",
+        "C": "-107344367577258733",
+        "omega": "-6978986374539224",
+        "Vtilde": "569395138428215943049951850515360"
+      },
+      "endpoint_scalars": {
+        "V_original": "5693951384282159430499518505153600",
+        "P_n": "243392",
+        "P_next": "1116928",
+        "Qtilde": "1611957557483154635525226496/315",
+        "Dtilde": "-1628895275807239851339008",
+        "Xcal_original": "30686517292378474786419257881060/321489",
+        "Dcal_original": "-16288952758072398513390080"
+      }
+    },
+    {
+      "r": 10,
+      "state": {
+        "h": "917136621",
+        "u": "-1521377090",
+        "v": "2064918690",
+        "J": "7649989120",
+        "Acal": "39043232606130321",
+        "Bcal": "990067657811724073",
+        "a": "-23352677765",
+        "k": "-19881704709",
+        "ell": "-161904893438",
+        "sigma": "567191198460323515421",
+        "C": "-61593999434650718281",
+        "omega": "-3605917819810373082",
+        "Vtilde": "83127204564949693460956418842032136924"
+      },
+      "endpoint_scalars": {
+        "V_original": "914399250214446628070520607262353506164",
+        "P_n": "1116928",
+        "P_next": "5149696",
+        "Qtilde": "1568887310434975515334407028736/105",
+        "Dtilde": "-4756117559466638165481011712",
+        "Xcal_original": "492798866743551098824428961047702040541/1607445000",
+        "Dcal_original": "-52317293154133019820291128832"
+      }
+    }
+  ],
+  "prime_certificates": [
+    {
+      "p": 3,
+      "Vtilde_residues": [
+        1,
+        1,
+        1
+      ],
+      "zero_residues": [],
+      "rows": [
+        {
+          "r": 0,
+          "h": 1,
+          "u": 0,
+          "v": 0,
+          "J": 0,
+          "Acal": 1,
+          "Bcal": 0,
+          "a": 0,
+          "k": 1,
+          "ell": 2,
+          "sigma": 1,
+          "C": 2,
+          "omega": 1,
+          "Vtilde": 1,
+          "Dtilde_P_next_coefficient": 2,
+          "Dtilde_P_n_coefficient": 1,
+          "P_n_seed": 1,
+          "P_next_seed": 2
+        },
+        {
+          "r": 1,
+          "h": 0,
+          "u": 1,
+          "v": 0,
+          "J": 1,
+          "Acal": 0,
+          "Bcal": 1,
+          "a": 1,
+          "k": 0,
+          "ell": 1,
+          "sigma": 2,
+          "C": 2,
+          "omega": 0,
+          "Vtilde": 1,
+          "Dtilde_P_next_coefficient": 1,
+          "Dtilde_P_n_coefficient": 2,
+          "P_n_seed": 2,
+          "P_next_seed": 2
+        },
+        {
+          "r": 2,
+          "h": 1,
+          "u": 1,
+          "v": 2,
+          "J": 0,
+          "Acal": 0,
+          "Bcal": 1,
+          "a": 1,
+          "k": 2,
+          "ell": 1,
+          "sigma": 2,
+          "C": 0,
+          "omega": 2,
+          "Vtilde": 1,
+          "Dtilde_P_next_coefficient": 0,
+          "Dtilde_P_n_coefficient": 2,
+          "P_n_seed": 2,
+          "P_next_seed": 2
+        }
+      ]
+    },
+    {
+      "p": 7,
+      "Vtilde_residues": [
+        4,
+        2,
+        6,
+        4,
+        4,
+        6,
+        3
+      ],
+      "zero_residues": [],
+      "rows": [
+        {
+          "r": 0,
+          "h": 1,
+          "u": 0,
+          "v": 0,
+          "J": 0,
+          "Acal": 1,
+          "Bcal": 3,
+          "a": 0,
+          "k": 1,
+          "ell": 2,
+          "sigma": 1,
+          "C": 6,
+          "omega": 5,
+          "Vtilde": 4,
+          "Dtilde_P_next_coefficient": 6,
+          "Dtilde_P_n_coefficient": 5,
+          "P_n_seed": 1,
+          "P_next_seed": 2
+        },
+        {
+          "r": 1,
+          "h": 0,
+          "u": 1,
+          "v": 0,
+          "J": 1,
+          "Acal": 3,
+          "Bcal": 3,
+          "a": 1,
+          "k": 0,
+          "ell": 5,
+          "sigma": 2,
+          "C": 6,
+          "omega": 0,
+          "Vtilde": 2,
+          "Dtilde_P_next_coefficient": 5,
+          "Dtilde_P_n_coefficient": 3,
+          "P_n_seed": 2,
+          "P_next_seed": 1
+        },
+        {
+          "r": 2,
+          "h": 1,
+          "u": 5,
+          "v": 2,
+          "J": 0,
+          "Acal": 0,
+          "Bcal": 0,
+          "a": 2,
+          "k": 6,
+          "ell": 3,
+          "sigma": 4,
+          "C": 2,
+          "omega": 4,
+          "Vtilde": 6,
+          "Dtilde_P_next_coefficient": 6,
+          "Dtilde_P_n_coefficient": 6,
+          "P_n_seed": 1,
+          "P_next_seed": 4
+        },
+        {
+          "r": 3,
+          "h": 2,
+          "u": 5,
+          "v": 2,
+          "J": 4,
+          "Acal": 2,
+          "Bcal": 1,
+          "a": 3,
+          "k": 1,
+          "ell": 6,
+          "sigma": 0,
+          "C": 6,
+          "omega": 6,
+          "Vtilde": 4,
+          "Dtilde_P_next_coefficient": 3,
+          "Dtilde_P_n_coefficient": 0,
+          "P_n_seed": 4,
+          "P_next_seed": 3
+        },
+        {
+          "r": 4,
+          "h": 3,
+          "u": 6,
+          "v": 3,
+          "J": 4,
+          "Acal": 0,
+          "Bcal": 6,
+          "a": 3,
+          "k": 5,
+          "ell": 6,
+          "sigma": 2,
+          "C": 3,
+          "omega": 2,
+          "Vtilde": 4,
+          "Dtilde_P_next_coefficient": 1,
+          "Dtilde_P_n_coefficient": 3,
+          "P_n_seed": 3,
+          "P_next_seed": 4
+        },
+        {
+          "r": 5,
+          "h": 3,
+          "u": 3,
+          "v": 3,
+          "J": 4,
+          "Acal": 5,
+          "Bcal": 0,
+          "a": 5,
+          "k": 3,
+          "ell": 5,
+          "sigma": 1,
+          "C": 2,
+          "omega": 4,
+          "Vtilde": 6,
+          "Dtilde_P_next_coefficient": 5,
+          "Dtilde_P_n_coefficient": 5,
+          "P_n_seed": 4,
+          "P_next_seed": 6
+        },
+        {
+          "r": 6,
+          "h": 5,
+          "u": 2,
+          "v": 3,
+          "J": 4,
+          "Acal": 5,
+          "Bcal": 1,
+          "a": 1,
+          "k": 2,
+          "ell": 5,
+          "sigma": 2,
+          "C": 3,
+          "omega": 4,
+          "Vtilde": 3,
+          "Dtilde_P_next_coefficient": 0,
+          "Dtilde_P_n_coefficient": 3,
+          "P_n_seed": 6,
+          "P_next_seed": 2
+        }
+      ]
+    },
+    {
+      "p": 11,
+      "Vtilde_residues": [
+        4,
+        5,
+        7,
+        8,
+        3,
+        4,
+        2,
+        7,
+        2,
+        5,
+        5
+      ],
+      "zero_residues": [],
+      "rows": [
+        {
+          "r": 0,
+          "h": 1,
+          "u": 0,
+          "v": 0,
+          "J": 0,
+          "Acal": 1,
+          "Bcal": 3,
+          "a": 0,
+          "k": 1,
+          "ell": 2,
+          "sigma": 1,
+          "C": 10,
+          "omega": 9,
+          "Vtilde": 4,
+          "Dtilde_P_next_coefficient": 10,
+          "Dtilde_P_n_coefficient": 9,
+          "P_n_seed": 1,
+          "P_next_seed": 2
+        },
+        {
+          "r": 1,
+          "h": 0,
+          "u": 1,
+          "v": 0,
+          "J": 1,
+          "Acal": 3,
+          "Bcal": 10,
+          "a": 1,
+          "k": 0,
+          "ell": 9,
+          "sigma": 2,
+          "C": 10,
+          "omega": 0,
+          "Vtilde": 5,
+          "Dtilde_P_next_coefficient": 9,
+          "Dtilde_P_n_coefficient": 7,
+          "P_n_seed": 2,
+          "P_next_seed": 8
+        },
+        {
+          "r": 2,
+          "h": 1,
+          "u": 9,
+          "v": 2,
+          "J": 0,
+          "Acal": 10,
+          "Bcal": 1,
+          "a": 6,
+          "k": 10,
+          "ell": 10,
+          "sigma": 9,
+          "C": 0,
+          "omega": 1,
+          "Vtilde": 7,
+          "Dtilde_P_next_coefficient": 0,
+          "Dtilde_P_n_coefficient": 4,
+          "P_n_seed": 8,
+          "P_next_seed": 10
+        },
+        {
+          "r": 3,
+          "h": 6,
+          "u": 1,
+          "v": 10,
+          "J": 8,
+          "Acal": 9,
+          "Bcal": 1,
+          "a": 1,
+          "k": 0,
+          "ell": 0,
+          "sigma": 0,
+          "C": 3,
+          "omega": 0,
+          "Vtilde": 8,
+          "Dtilde_P_next_coefficient": 1,
+          "Dtilde_P_n_coefficient": 0,
+          "P_n_seed": 10,
+          "P_next_seed": 4
+        },
+        {
+          "r": 4,
+          "h": 1,
+          "u": 7,
+          "v": 9,
+          "J": 0,
+          "Acal": 5,
+          "Bcal": 8,
+          "a": 1,
+          "k": 5,
+          "ell": 6,
+          "sigma": 9,
+          "C": 6,
+          "omega": 5,
+          "Vtilde": 3,
+          "Dtilde_P_next_coefficient": 8,
+          "Dtilde_P_n_coefficient": 4,
+          "P_n_seed": 4,
+          "P_next_seed": 9
+        },
+        {
+          "r": 5,
+          "h": 1,
+          "u": 9,
+          "v": 8,
+          "J": 3,
+          "Acal": 8,
+          "Bcal": 5,
+          "a": 0,
+          "k": 7,
+          "ell": 4,
+          "sigma": 8,
+          "C": 1,
+          "omega": 6,
+          "Vtilde": 4,
+          "Dtilde_P_next_coefficient": 6,
+          "Dtilde_P_n_coefficient": 6,
+          "P_n_seed": 9,
+          "P_next_seed": 6
+        },
+        {
+          "r": 6,
+          "h": 0,
+          "u": 9,
+          "v": 4,
+          "J": 9,
+          "Acal": 8,
+          "Bcal": 0,
+          "a": 1,
+          "k": 5,
+          "ell": 0,
+          "sigma": 10,
+          "C": 9,
+          "omega": 1,
+          "Vtilde": 2,
+          "Dtilde_P_next_coefficient": 8,
+          "Dtilde_P_n_coefficient": 2,
+          "P_n_seed": 6,
+          "P_next_seed": 6
+        },
+        {
+          "r": 7,
+          "h": 1,
+          "u": 6,
+          "v": 6,
+          "J": 2,
+          "Acal": 1,
+          "Bcal": 5,
+          "a": 5,
+          "k": 3,
+          "ell": 0,
+          "sigma": 6,
+          "C": 7,
+          "omega": 6,
+          "Vtilde": 7,
+          "Dtilde_P_next_coefficient": 1,
+          "Dtilde_P_n_coefficient": 10,
+          "P_n_seed": 6,
+          "P_next_seed": 5
+        },
+        {
+          "r": 8,
+          "h": 5,
+          "u": 6,
+          "v": 9,
+          "J": 2,
+          "Acal": 1,
+          "Bcal": 3,
+          "a": 7,
+          "k": 5,
+          "ell": 10,
+          "sigma": 1,
+          "C": 5,
+          "omega": 4,
+          "Vtilde": 2,
+          "Dtilde_P_next_coefficient": 1,
+          "Dtilde_P_n_coefficient": 9,
+          "P_n_seed": 5,
+          "P_next_seed": 6
+        },
+        {
+          "r": 9,
+          "h": 7,
+          "u": 4,
+          "v": 9,
+          "J": 1,
+          "Acal": 1,
+          "Bcal": 8,
+          "a": 5,
+          "k": 7,
+          "ell": 9,
+          "sigma": 5,
+          "C": 2,
+          "omega": 10,
+          "Vtilde": 5,
+          "Dtilde_P_next_coefficient": 9,
+          "Dtilde_P_n_coefficient": 1,
+          "P_n_seed": 6,
+          "P_next_seed": 10
+        },
+        {
+          "r": 10,
+          "h": 5,
+          "u": 9,
+          "v": 10,
+          "J": 4,
+          "Acal": 8,
+          "Bcal": 10,
+          "a": 1,
+          "k": 2,
+          "ell": 9,
+          "sigma": 2,
+          "C": 7,
+          "omega": 7,
+          "Vtilde": 5,
+          "Dtilde_P_next_coefficient": 0,
+          "Dtilde_P_n_coefficient": 7,
+          "P_n_seed": 10,
+          "P_next_seed": 2
+        }
+      ]
+    }
+  ],
+  "ternary_Dtilde_residues": [
+    "2 P_m",
+    "0",
+    "P_m"
+  ],
+  "raw_endpoint_controls": [
+    {
+      "n": 2,
+      "raw_Y": "-251/36",
+      "rational_endpoint": "-2935/502",
+      "reduced_q": "502"
+    },
+    {
+      "n": 3,
+      "raw_Y": "23005/2592",
+      "rational_endpoint": "-2427847/414090",
+      "reduced_q": "414090"
+    },
+    {
+      "n": 4,
+      "raw_Y": "-135377/12800",
+      "rational_endpoint": "-9252196933/1579037328",
+      "reduced_q": "1579037328"
+    },
+    {
+      "n": 5,
+      "raw_Y": "3838095757/466560000",
+      "rational_endpoint": "-40483996021493/6908572362600",
+      "reduced_q": "6908572362600"
+    },
+    {
+      "n": 6,
+      "raw_Y": "-2011860653521/411505920000",
+      "rational_endpoint": "-1527882698168927809/260737140696321600",
+      "reduced_q": "260737140696321600"
+    },
+    {
+      "n": 7,
+      "raw_Y": "53202476860811/23897825280000",
+      "rational_endpoint": "-53454617391304755771853/9122139244536142708800",
+      "reduced_q": "9122139244536142708800"
+    },
+    {
+      "n": 8,
+      "raw_Y": "-1075096574216766103/1337972323516416000",
+      "rational_endpoint": "-3200566255861823586331472113/546183462792492116839296000",
+      "reduced_q": "546183462792492116839296000"
+    },
+    {
+      "n": 9,
+      "raw_Y": "6362872171122030669293/27093939551207424000000",
+      "rational_endpoint": "-1534325864618923739320962894053/261835956661996866283563171456",
+      "reduced_q": "261835956661996866283563171456"
+    },
+    {
+      "n": 10,
+      "raw_Y": "-3096430702777759222318367/54639444761601638400000000",
+      "rational_endpoint": "-44799896976686463529493541913427458231/7645197390376850185911624871395840000",
+      "reduced_q": "7645197390376850185911624871395840000"
+    }
+  ],
+  "finite_actual_denominator_checks": [
+    {
+      "p": 3,
+      "n": 3,
+      "v_p_q": 2,
+      "formula_value": 2
+    },
+    {
+      "p": 3,
+      "n": 4,
+      "v_p_q": 6,
+      "formula_value": 6
+    },
+    {
+      "p": 3,
+      "n": 5,
+      "v_p_q": 2,
+      "formula_value": 2
+    },
+    {
+      "p": 3,
+      "n": 6,
+      "v_p_q": 4,
+      "formula_value": 4
+    },
+    {
+      "p": 3,
+      "n": 7,
+      "v_p_q": 7,
+      "formula_value": 7
+    },
+    {
+      "p": 3,
+      "n": 8,
+      "v_p_q": 4,
+      "formula_value": 4
+    },
+    {
+      "p": 3,
+      "n": 9,
+      "v_p_q": 8,
+      "formula_value": 8
+    },
+    {
+      "p": 3,
+      "n": 10,
+      "v_p_q": 9,
+      "formula_value": 9
+    },
+    {
+      "p": 7,
+      "n": 7,
+      "v_p_q": 2,
+      "formula_value": 2
+    },
+    {
+      "p": 7,
+      "n": 8,
+      "v_p_q": 2,
+      "formula_value": 2
+    },
+    {
+      "p": 7,
+      "n": 9,
+      "v_p_q": 2,
+      "formula_value": 2
+    },
+    {
+      "p": 7,
+      "n": 10,
+      "v_p_q": 2,
+      "formula_value": 2
+    }
+  ],
+  "prime_boundary_consistency_controls": [
+    {
+      "p": 3,
+      "scalar_seed": 2,
+      "v_p_q": 0,
+      "factorial_separation_not_assumed": true
+    },
+    {
+      "p": 7,
+      "scalar_seed": 6,
+      "v_p_q": 0,
+      "factorial_separation_not_assumed": true
+    },
+    {
+      "p": 11,
+      "scalar_seed": 10,
+      "v_p_q": 0,
+      "factorial_separation_not_assumed": true
+    }
+  ],
+  "rate_argument": {
+    "exact_comparisons": {
+      "seven_exceeds_three_halves_cubed": true,
+      "eleven_exceeds_three_halves_fifth": true,
+      "sqrt_two_below_three_halves_by_squaring": true,
+      "ratio_is_27_over_25": true
+    },
+    "seven_power_margin": "29/8",
+    "eleven_power_margin": "109/32",
+    "square_root_squared_margin": "1/4",
+    "lower_W_comparison_base": "27/4",
+    "upper_tau_comparison_base": "25/4",
+    "ratio": "27/25",
+    "integral_interval": [
+      25,
+      27
+    ],
+    "integral_constant_lower_bound": "2/27",
+    "strictness_proof": "On [25,27), 1/x > 1/27; integration gives log(27/25) > 2/27.",
+    "numerical_logarithms_used": false
+  },
+  "input_and_preserved_b1_sha256": {
+    "work/session_20261001_astra/B2_COMMON_FACTOR_TERNARY_CHECKS.json": "612720e43c39064b0fdc5db45c5c4d56d99b8ec9c0c0bfa6bf132d5c20a48a4d",
+    "work/session_20261001_astra/agent1/normalized_prime_seed_certificate.json": "77ae47dd0e5ebff8be1ec7c11805d6e5b9a567b0f3c7b312dcd95bd619d0ce0f",
+    "work/session_20261001_astra/check_b2_common_factor_ternary.py": "fab2f265a13b4cae8fa2572e25c9f28eed7abe35eaa6ccf17d3c0cefaf11a706",
+    "work/session_20261001_astra/agent1/check_normalized_prime_seeds.py": "804608ed8ecd4754c9141294e3baf1d22b5ef7a3a71399b5384257697927da97",
+    "work/session_20261001_astra/agent4/B1_WHOLE_FAMILY_REVIEW.md": "d66f6ba0d37b55ffd101540737a15a7c34b0c0aca51a4d51b5f103ca457c6224",
+    "work/session_20261001_astra/agent4/INHERITED_SYNTHESIS_REVIEW.md": "208dacc3655a688d89ca29ede544723f00502c7b69cfe1ecb83ce771985e76ec",
+    "work/session_20261001_astra/agent4/DRAFT_OBSERVATIONS_REVIEW.md": "b14b4593502dd7b54538e1b2e8e1fa9cd67a51b5f6850fded593a763d122d6ec",
+    "work/session_20261001_astra/agent4/check_whole_family.py": "e10c150d17e28cbeb59c5a0eecf0dc34ac5d617a2327524c2e7c1444b0a647e9",
+    "work/session_20261001_astra/agent4/whole_family_checks.json": "86b8e1b5067dbcd273460ef8339ea2e19b9fc933ddc19743aa84c0efe84e0a3a",
+    "work/session_20261001_astra/agent4/whole_family_check_stdout.txt": "d6c64487f69af779a85ec17c73296b007dfec169281ad686f811510652369db3",
+    "work/session_20261001_astra/agent4/check_inherited_rates_counts.py": "d8c4881c0e0d1b48c1b715f13c57cbd3e91fbc5b8a6dccdbb86832940551015d",
+    "work/session_20261001_astra/agent4/audit_rate_count_certificate.json": "41282bc8dd52b75152c3969940c59f9f2c5884287e12e74139e5016a4b5f8f8a",
+    "work/session_20261001_astra/agent4/audit_rate_count_stdout.txt": "30dd2c819bc8d22a5df32df33fa612558d36e53d7437a18685f8e6b7cc40b01e"
+  },
+  "input_and_b1_artifacts_unchanged": true,
+  "prime_5_lifting_audited": false,
+  "prime_13_certified": false,
+  "new_canonical_HP_solve": false,
+  "checker_sha256": "adf92b90d1088db51099b034ac19f947a660dfebd6adfab6389fa8e9bdab70c1"
+}

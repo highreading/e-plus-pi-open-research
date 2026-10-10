@@ -1,0 +1,91 @@
+{
+  "prime": 7,
+  "rows_checked": 4,
+  "rows": [
+    {
+      "n": 2,
+      "state_mod49": [
+        1,
+        47,
+        2,
+        21,
+        32
+      ],
+      "contractions_mod49": [
+        20,
+        47,
+        42
+      ],
+      "V_mod49": 7
+    },
+    {
+      "n": 9,
+      "state_mod49": [
+        8,
+        33,
+        30,
+        28,
+        11
+      ],
+      "contractions_mod49": [
+        41,
+        47,
+        42
+      ],
+      "V_mod49": 0
+    },
+    {
+      "n": 3,
+      "state_mod49": [
+        44,
+        12,
+        37,
+        2,
+        46
+      ],
+      "contractions_mod49": [
+        31,
+        5,
+        29
+      ],
+      "V_mod49": 35
+    },
+    {
+      "n": 10,
+      "state_mod49": [
+        44,
+        47,
+        37,
+        2,
+        25
+      ],
+      "contractions_mod49": [
+        38,
+        19,
+        43
+      ],
+      "V_mod49": 7
+    }
+  ],
+  "slopes": [
+    {
+      "r": 2,
+      "beta_mod7": 1,
+      "Lambda_mod7": 6,
+      "derivative_circuit_equals_two_point_slope": true,
+      "root_T_mod7": 1,
+      "root_n_mod49": 9,
+      "classification": "unique simple p-adic root, pending paper expansion audit"
+    },
+    {
+      "r": 3,
+      "beta_mod7": 5,
+      "Lambda_mod7": 3,
+      "derivative_circuit_equals_two_point_slope": true,
+      "root_T_mod7": 3,
+      "root_n_mod49": 24,
+      "classification": "unique simple p-adic root, pending paper expansion audit"
+    }
+  ],
+  "status": "finite arithmetic agrees with proposed expansion; analytic extension must still be independently audited"
+}

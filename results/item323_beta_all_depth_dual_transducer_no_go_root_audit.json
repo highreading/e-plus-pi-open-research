@@ -1,0 +1,66 @@
+{
+  "item": 323,
+  "schema": "item323-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_ALL_DEPTH_LITERAL_INHERITANCE_NO_GO_WITH_ZERO_BOOKING",
+  "scope": "independent root audit of the exact suffix transducer, all-depth unit strip, conditional target bridge, and literal-prefix endpoint exclusion",
+  "checks": {
+    "certificate_sha256": "680c7e2c3d5dfdeae2b61e37e38a81a363cf3aa25a5229062e3620c727c77bc6",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "manifest_artifacts_match": true,
+    "frozen_dependencies_checked": 11,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 6,
+    "work_hash_list_match": true,
+    "root_random_all_depth_rows": 1320,
+    "root_random_max_n": 120,
+    "root_inequality_max_n": 500,
+    "root_global_inequality_minimum": {
+      "value": 167,
+      "n": 6,
+      "j": 3
+    },
+    "root_structural_base_R": 7106,
+    "report_inline_delimiters": "87/87",
+    "report_display_delimiters": "71/71",
+    "report_control_characters": 0,
+    "report_bare_cr": 0
+  },
+  "mathematical_audit": {
+    "continuant_split": "the suffix recurrence gives b=H_j Q_(j+1)+H_(j+1)Q_j and the signed cross-determinant by direct continuant induction",
+    "unit_strip": "the alternating suffix load telescopes between -H_j and H_(j+1); canonical prefix bounds then give -b<R H_j-b N_j<b at every depth",
+    "target_bridge": "under the exact Item-316 top boundary, the sign-normalized suffix state and z_j=sigma E_j-aQ_j/b have matching top values and backward recurrences, so |z_j|<1 globally",
+    "interior_exclusion": "the exact inequality (A-w_j-1)Q_(j-1)>A(w_j+1) holds from the symbolic j=3 and j=4 bases and monotone induction, forcing |U_(j-1)|<Q_(j-1) for all j>=3",
+    "bottom_exclusion": "nearest-center integrality and the Markov carry give U_0=0 and U_1 in {0,-10}, never the inherited endpoints",
+    "base_row": "n=5 has centered remainder R=7106>a/2 and therefore no Item-316 target",
+    "scope_warning": "the theorem closes literal prefix inheritance only; it does not exclude the original all-digit equality, redigitized or nonlinear descendants, or prove a half-bound"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact all-depth suffix transducer and unit strip",
+      "conditional all-depth nearest-center confinement",
+      "division-free interior endpoint exclusion",
+      "symbolic bottom-cell exclusion",
+      "zero booking"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "literal canonical prefix truncation cannot inherit an exact earlier Item-316 target at any depth"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "canonical bounded controls and enlarged root regression rows"
+    ],
+    "OPEN": [
+      "the original all-digit equality and centered half-bound",
+      "redigitized or nonlinear transducer invariants",
+      "growing/full 2-adic or odd-modulus constraints",
+      "every proper-target and capacity consequence"
+    ]
+  },
+  "capacity": {
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "new_booking": 0
+  }
+}

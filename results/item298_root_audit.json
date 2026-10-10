@@ -1,0 +1,41 @@
+{
+  "schema": "item298-root-audit-v1",
+  "item": 298,
+  "auditor": "root",
+  "date": "2026-08-31",
+  "verdict": "PASS WITH EXACTLY SCOPED ZERO-BOOKING CONCLUSIONS",
+  "package": {
+    "manifest_file_hash_mismatches": 0,
+    "manifest_dependency_hash_mismatches": 0,
+    "hash_list_mismatches": 0,
+    "canonical_root_replay_byte_identical": true,
+    "canonical_and_root_replay_sha256": "c2c1466482faee7ff6d98ebf2e42097306466841024c94b27988298120b1cb97",
+    "report_sha256": "5dc731d58c27304e4ee21fb11920484f0abe5d83cbbee76281d302fc869f7056",
+    "script_sha256": "bdff4d5ce797e7cca9e770d47ef6c58ef6bc5ab5abead5d349c05376e0aea914",
+    "ledger_sha256": "f1e25b9ecaef458d414d80591d1d11fbf78c66d84c89fa5f43da176525160b8f",
+    "manifest_sha256": "7da4d5cc5f212d20773fc57a517d46762b5ff03ad3375939dc5ca1d8fba74284"
+  },
+  "independent_mathematical_checks": {
+    "rank_one_state": "PASS: T_n+T_(n-1)=4ac and b=Aa+c give w_(n-1)=4c-(b/a)w_n; nearest-integer decomposition gives w_n=t_n-r_n/b exactly.",
+    "centered_bijection": "PASS: substituting the proposed inverse makes m=At-4c+S because |R|<a/2, and then both coordinates reduce identically to (R,S); nearestness gives |r|<b/2.",
+    "actual_carry": "PASS: u_n=-(c/a)x_n+A*epsilon_n+epsilon_(n-1); the Item-295 interval gives x_n>3c/A and c/a>1/(A-3), hence the stated strict upper bound. The n=7 factorial-growth inequality propagates and forces u_n to negative infinity; n=6 is checked exactly.",
+    "primitive_collapse": "PASS: kc+1=(a-1)/2 mod a and b=c mod a give primitive denominator a with centered numerator (a-1)/2, while kb+1 is primitive mod b and maps to current centered numerator -1.",
+    "fixed_norm_obstruction": "PASS: the two exact ambient inputs differ by (0,1), while their outputs differ by (c,-A); c=q_(n-2) tends to infinity, so every fixed norm has unbounded rowwise Lipschitz ratio.",
+    "scope": "PASS: the constructed collapse family is explicitly not the actual Turan orbit, and the actual short-branch invariant, half-bound, stronger inequality, proper-target transfer, and capacity consequences remain OPEN."
+  },
+  "format": {
+    "report_bytes": 15681,
+    "report_lines": 653,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "inline_math_open": 75,
+    "inline_math_close": 75,
+    "display_math_open": 64,
+    "display_math_close": 64
+  },
+  "capacity": {
+    "new_route1_rate": 0,
+    "new_beta_capacity_reduction": 0,
+    "ledger_changed": false
+  }
+}

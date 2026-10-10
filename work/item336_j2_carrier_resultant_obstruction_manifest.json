@@ -1,0 +1,67 @@
+{
+  "item": 336,
+  "schema": "item336-j2-carrier-resultant-obstruction-manifest-v1",
+  "classification": "PROVED_RESULTANT_COLLAPSE_AND_CARRIER_INFORMATION_CLASS_NO_GO",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "global fixed-M analysis of the primitive target-retaining ordinary-j2 carrier",
+  "dependencies": {
+    "sources/item334_j2_coupled_cartier_carrier_report.md": "a9a1b42652e5157b850014758c321ffd8a5734e4f9ea3586510ae0549822357c",
+    "scripts/item334_j2_coupled_cartier_carrier_certificate.py": "b9cab6a6ddc4a0817bae5852e78473ab3144ed9a3b8985c7eacaf27629c90cce",
+    "results/item334_j2_coupled_cartier_carrier_certificate.json": "238046186f90bdffb2e9b4c72994bac4f0c2ba7e377b42f04753b5502ea861e2",
+    "manifests/item334_j2_coupled_cartier_carrier_manifest.json": "518176b7e7cf5908e350bb857063bae47658050ca63c4a0e1976554efac87bc9",
+    "scripts/item318_j2_actual_period_plucker_certificate.py": "334bade7313a2fb750874dfd53216cd5f1028afbc837473cdd19b365ca820e82",
+    "scripts/item331_j2_global_cartier_concentration_certificate.py": "726157af0f7250c42c3594bb45f08074375e4eb5d1e9843cad37f3def85e27ba"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item336_j2_carrier_resultant_obstruction_report.md",
+      "sha256": "761f09e999c0f76139e036f2f4db03743b363087e04f9ed661fe65229cb0b4c2",
+      "bytes": 11994
+    },
+    "certificate_script": {
+      "path": "work/item336_j2_carrier_resultant_obstruction_certificate.py",
+      "sha256": "af5a5ef313df81275f989236cc9a600c1132d90e14a95a4fb2dc508fc7c09022",
+      "bytes": 12665
+    },
+    "certificate": {
+      "path": "work/item336_j2_carrier_resultant_obstruction_certificate.json",
+      "sha256": "2769620afcf258e84dd4713113f32662e4140bfa1706f4983c137aca2d132010",
+      "bytes": 3938
+    },
+    "replay": {
+      "path": "work/item336_j2_carrier_resultant_obstruction_certificate.replay.json",
+      "sha256": "2769620afcf258e84dd4713113f32662e4140bfa1706f4983c137aca2d132010",
+      "bytes": 3938
+    },
+    "ledger": {
+      "path": "work/item336_j2_carrier_resultant_obstruction_ledger.json",
+      "sha256": "e3c0de9d76bdfad07d546b5502a112a2200a668f7415122f4ef0460de7a4a34f",
+      "bytes": 3133
+    }
+  },
+  "proved": [
+    "target-affine resultant Res_X(T_0,T_1)=(-1)^(m+1)*(9*kappa_r*B_s/2)*D",
+    "complete degree-one subresultant collapse to chart pivots and the old gate",
+    "exact fixed-M prime interval and raw Chebyshev mass (2/35)M+o(M)",
+    "full-mass comparison carrier on the exact tied row grid",
+    "information-class no-go for qualitative recurrence, pointwise height, squarefreeness, pairwise gcd, and uncoupled product data"
+  ],
+  "exact_finite_only": [
+    "4 generic resultant and 12 linear subresultant checks",
+    "1184 prime rows over 50<=M<=500",
+    "5124 comparison recurrence and 1387 pairwise gcd checks",
+    "primitive actual carrier examples 3,7,23,173 through p=599"
+  ],
+  "open": [
+    "o(M) weighted tied-prime mass for the actual evaluated carrier",
+    "strict improvement of the 1/105 ceiling",
+    "target-specific factor localization or average gcd",
+    "any new booking"
+  ],
+  "capacity": {
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "ordinary_j2_ceiling_per_6M": "1/105"
+  },
+  "replay_command": "python scripts/item336_j2_carrier_resultant_obstruction_certificate.py --output results/item336_j2_carrier_resultant_obstruction_certificate.replay.json"
+}

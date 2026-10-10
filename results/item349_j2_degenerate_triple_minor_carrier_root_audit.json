@@ -1,0 +1,69 @@
+{
+  "item": 349,
+  "schema": "item349-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_EXACT_DEGENERATE_CARRIER_AND_HEIGHT_PRODUCT_NO_GO",
+  "scope": "independent root audit of the actual ordinary-j2 degenerate triple-minor carrier, all-ray nonzero premise, safe saturation, chart split, fixed-M transfer, and capacity overlap",
+  "checks": {
+    "certificate_sha256": "b26294d51b1844aeee04146004b2ecec9b6e1ff81aa271a3167e5d86c11bce44",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_checks": 23,
+    "work_manifest_failures": 0,
+    "frozen_dependencies_checked": 18,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 6,
+    "work_hash_list_match": true,
+    "declared_rows": 6,
+    "independent_actual_rows": 68,
+    "independent_max_r": 61,
+    "all_independent_sign_normalization_carrier_split_saturation_fixed_M_checks": true,
+    "zero_census_performed": false,
+    "canonical_typographic_repair_operations": 3,
+    "canonical_math_fragments_normalized": 7,
+    "work_report_sha256_before_typographic_repair": "aec5a8bc6dd8996a3578e4cbc7975afad6247ddb32d03f6deca72b97af86b50d",
+    "canonical_report_sha256": "ca3141156cb5034012a174377c3596e22d22cae924625649b6d620d510f4790c",
+    "report_inline_delimiters_after_repair": "80/80",
+    "report_display_delimiters": "45/45",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "global_nonzero": "Item315's exact all-ray sign induction gives a_r<0 for every admissible r, hence Pi_r>=1 and the carrier product has no uncontrolled exact-zero stratum",
+    "normalization": "the tied-prime unit scales identify the three minors with a_r, b_r, and K_r; unit denominators turn simultaneous reduction to zero into divisibility of their numerator gcd Pi_r",
+    "safe_saturation": "Item338 proves the tied prime avoids the full support S_(r,s), so removing all S-supported prime powers from Pi_r preserves exactly its tied-prime support",
+    "chart_split": "two-dimensional linear algebra gives a_r=b_r=0 when f is nonzero and K_r=0 when f is zero; the integer F/A/FK split is equivalent at good reduction",
+    "fixed_M": "solving the tied equations gives r=6M-7p and s=(5p-4M-1)/2, so the degenerate gate is an exact moving-divisor upper carrier on the same raw interval as the nondegenerate chart",
+    "height": "the pointwise O(r log r) numerator height aggregates only to O(M^2 log M), weaker than the existing O(M) Chebyshev ceiling; recurrence or height alone supplies no density gain",
+    "overlap": "degenerate and nondegenerate charts partition one ordinary-j2 carrier interval and their raw ceilings must not be added",
+    "scope_warning": "Pi_sat is an exact necessary triple-minor gate, not a sufficient full original-collision test; weighted moving-divisor control remains open"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "all-ray positive carrier",
+      "exact triple-minor carrier",
+      "tied-prime-safe saturation",
+      "exact internal chart split",
+      "fixed-M moving-divisor localization",
+      "height/product scoped no-go",
+      "nonadditive chart overlap",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "six declared and 68 independent formula rows; no prime or collision census"
+    ],
+    "OPEN": [
+      "o(M) mass for the safely saturated carrier",
+      "average gcd of the normalized sequences",
+      "good-reduction or small-support theorem",
+      "any strict reduction of 1/105",
+      "Route 1",
+      "e+pi"
+    ]
+  },
+  "capacity": {
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

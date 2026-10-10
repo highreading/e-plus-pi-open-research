@@ -1,0 +1,177 @@
+{
+  "classification": {
+    "EXPERIMENTAL_FINITE": [
+      "actual lower-index square scan through p<=20000",
+      "direct Sylvester-resultant replay through N<=8",
+      "the displayed exact Hensel and coefficient-shift fixtures"
+    ],
+    "OPEN": [
+      "whether any prime p>2N+1 satisfies p^2|q_N for the actual seed q_0=q_1=1",
+      "any proper all-N upper bound for the large-prime squarefull radical",
+      "any recurrence-mod-p^2 identity forcing the actual Hensel digit to be nonzero"
+    ],
+    "PROVED": [
+      "q_N=A_N(-1) for the monic scaled reverse-Bessel polynomial A_N",
+      "2*A_N'=A_N-X*A_(N-1) and the exact adjacent, derivative, and discriminant product formulas",
+      "every odd actual root p|q_N is simple as a polynomial root at X=-1",
+      "for p>2N+1, p^2|q_N iff the unique first Hensel evaluation digit is zero",
+      "reverse-Bessel discriminant and mod-p root data alone do not determine that Hensel digit",
+      "multiplicity at T=0 for the all-coefficient-shift continuant is not sufficient for p^2|q_N even in the target range",
+      "multiplicity at T=0 for the all-coefficient-shift continuant is not necessary globally, with no target-range necessity claim"
+    ]
+  },
+  "dependency_sha256": {
+    "sources/item202_actual_squarefull_filter_report.md": "abbc68e283f16871798be0c6da8af5df55ba6bf865a5864eefc0f8e19fe88f62"
+  },
+  "exact_identities": {
+    "adjacent_resultant": "Res(A_N,A_(N-1))=product_(k=1)^(N-1)(((2k)!/k!)^2)",
+    "derivative": "2 A_N'(X)=A_N(X)-X A_(N-1)(X)",
+    "derivative_resultant": "Res(A_N,A_N')=(2N-1)!! product_(k=1)^(N-1)(((2k)!/k!)^2)",
+    "discriminant": "Disc(A_N)=(-1)^(N(N-1)/2) Res(A_N,A_N')",
+    "fixed_point_derivative": "2 A_N'(-1)=q_N+q_(N-1)",
+    "hensel_digit": "if p|q_N, t_p=-(q_N/p)/A_N'(-1)=-2(q_N/p)q_(N-1)^(-1) mod p",
+    "polynomial": "A_N(X)=sum_(k=0)^N (2N-k)!/(k!(N-k)!) X^k; q_N=A_N(-1)",
+    "polynomial_recurrence": "A_0=1, A_1=X+2, A_N=(4N-2)A_(N-1)+X^2 A_(N-2)",
+    "shift_continuant": "Q_0=1,Q_1=T+1,Q_N=(T+4N-2)Q_(N-1)+Q_(N-2); Q_N(0)=q_N and Q_N'(0)=b_N/4",
+    "square_criterion": "p^2|q_N iff t_p=0"
+  },
+  "finite_actual_lower_scan": {
+    "actual_large_prime_square_rows": [],
+    "actual_root_rows": 1133,
+    "classification": "EXPERIMENTAL_FINITE_NOT_AN_ALL_PRIME_THEOREM",
+    "condition": "prime p>2N+1 and p divides q_N",
+    "prime_limit": 20000,
+    "row_stream_sha256": "3c5364aed603e5cee56341ee3963be854657af87ac19e97d417b874449960b89"
+  },
+  "finite_exact_no_go_witnesses": {
+    "classification": "FINITE_EXACT_WITNESSES_SUPPORTING_SCOPED_NO_GO",
+    "coefficient_shift_continuant_fixtures": [
+      {
+        "N": 8,
+        "Q_N_prime_at_0_mod_p": 7,
+        "classification": "SQUARE_WITH_UNIT_SHIFT_DERIVATIVE_OUTSIDE_TARGET_RANGE",
+        "p": 13,
+        "p_gt_2N_plus_1": false,
+        "q_N_over_p_mod_p": 0,
+        "v_p_q_N": 2
+      },
+      {
+        "N": 79,
+        "Q_N_prime_at_0_mod_p": 1,
+        "classification": "SQUARE_WITH_UNIT_SHIFT_DERIVATIVE_OUTSIDE_TARGET_RANGE",
+        "p": 7,
+        "p_gt_2N_plus_1": false,
+        "q_N_over_p_mod_p": 0,
+        "v_p_q_N": 2
+      },
+      {
+        "N": 79,
+        "Q_N_prime_at_0_mod_p": 16,
+        "classification": "SQUARE_WITH_UNIT_SHIFT_DERIVATIVE_OUTSIDE_TARGET_RANGE",
+        "p": 31,
+        "p_gt_2N_plus_1": false,
+        "q_N_over_p_mod_p": 0,
+        "v_p_q_N": 2
+      },
+      {
+        "N": 48,
+        "Q_N_prime_at_0_mod_p": 0,
+        "classification": "MULTIPLE_SHIFT_ROOT_WITH_SIMPLE_VALUE_IN_TARGET_RANGE",
+        "p": 2879,
+        "p_gt_2N_plus_1": true,
+        "q_N_over_p_mod_p": 2248,
+        "v_p_q_N": 1
+      }
+    ],
+    "reverse_bessel_same_mod_p_root_data": {
+      "A_N_at_lifted_argument_over_p_squared": 1271024,
+      "A_N_prime_at_minus_1_mod_p": 3,
+      "N": 4,
+      "hensel_lift_digit": 9,
+      "lifted_argument": 116,
+      "meaning": "same A_N and same root residue modulo p, but the first-Witt evaluation lift changes valuation one into valuation at least two",
+      "p": 13,
+      "p_gt_2N_plus_1": true,
+      "q_N": 1001,
+      "q_N_over_p_mod_p": 12
+    },
+    "scope_warning": "The square-with-unit-derivative rows are outside p>2N+1.  Only (N,p)=(48,2879) is a target-range fixture, and it refutes sufficiency of shift-polynomial multiplicity, not necessity."
+  },
+  "item": 204,
+  "symbolic_resultant_regression": {
+    "N_range": [
+      1,
+      8
+    ],
+    "all_exact": true,
+    "checks": 8,
+    "classification": "FINITE_EXACT_SYMBOLIC_REPLAY_OF_PROVED_IDENTITIES",
+    "row_stream_sha256": "f49c852a4fcb53d2f5eff6fbcdda202a2d6f68b90b425cec13ae43857708a5ca",
+    "rows": [
+      {
+        "A_N_prime_at_minus_1": "1",
+        "N": 1,
+        "adjacent_resultant": "1",
+        "derivative_resultant": "1",
+        "discriminant_sign": 1,
+        "q_N": "1"
+      },
+      {
+        "A_N_prime_at_minus_1": "4",
+        "N": 2,
+        "adjacent_resultant": "4",
+        "derivative_resultant": "12",
+        "discriminant_sign": -1,
+        "q_N": "7"
+      },
+      {
+        "A_N_prime_at_minus_1": "39",
+        "N": 3,
+        "adjacent_resultant": "576",
+        "derivative_resultant": "8640",
+        "discriminant_sign": -1,
+        "q_N": "71"
+      },
+      {
+        "A_N_prime_at_minus_1": "536",
+        "N": 4,
+        "adjacent_resultant": "8294400",
+        "derivative_resultant": "870912000",
+        "discriminant_sign": 1,
+        "q_N": "1001"
+      },
+      {
+        "A_N_prime_at_minus_1": "9545",
+        "N": 5,
+        "adjacent_resultant": "23410114560000",
+        "derivative_resultant": "22122558259200000",
+        "discriminant_sign": 1,
+        "q_N": "18089"
+      },
+      {
+        "A_N_prime_at_minus_1": "208524",
+        "N": 6,
+        "adjacent_resultant": "21407557176262656000000",
+        "derivative_resultant": "222531556847250309120000000",
+        "discriminant_sign": -1,
+        "q_N": "398959"
+      },
+      {
+        "A_N_prime_at_minus_1": "5394991",
+        "N": 7,
+        "adjacent_resultant": "9474930824917675881686630400000000",
+        "derivative_resultant": "1280394777025250130271722799104000000000",
+        "discriminant_sign": -1,
+        "q_N": "10391023"
+      },
+      {
+        "A_N_prime_at_minus_1": "161260336",
+        "N": 8,
+        "adjacent_resultant": "2834860411999144777388347563326161551360000000000",
+        "derivative_resultant": "5746332926632566442385615219551212618645504000000000000",
+        "discriminant_sign": 1,
+        "q_N": "312129649"
+      }
+    ]
+  }
+}

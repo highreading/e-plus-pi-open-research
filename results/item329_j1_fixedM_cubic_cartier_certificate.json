@@ -1,0 +1,191 @@
+{
+  "canonical_files_modified": false,
+  "capacity": {
+    "comparison_family": {
+      "definition": "tilde K_M(t)=sum_(j=0..12M)(-1)^j a_(M,j)t^j, where a_(M,6M-4p)=p for actual candidate primes p and a_(M,j)=1 otherwise",
+      "not_shared_with_comparison": "the specific cubic power, fixed rational Cartier function, and coefficient recurrence remain live arithmetic information",
+      "properties": [
+        "one shared primitive integer polynomial of degree 12M",
+        "strict alternating nonzero coefficient signs",
+        "log l1 norm=O(log M), stronger than the actual O(M) bound",
+        "every candidate prime divides its tied coefficient",
+        "retained weighted mass M/6+o(M), i.e. the full raw 1/36 per 6M ceiling"
+      ],
+      "scope": "shared carrier, degree, integrality, sign, and absolute/l1 height alone cannot prove any strict capacity reduction"
+    },
+    "dual_height": "for tied m<=M on actual rows, log max(1,|J|,|L|)=O(M); direct products over O(M) rows give only O(M^2)",
+    "exact_K_carrier_size": {
+      "degree": "12M",
+      "l1_norm": "10^(4M) exactly",
+      "per_coefficient_log_height": "at most 4M log 10",
+      "reason": "P(-t)=2+4t+3t^2+t^3 has strictly positive coefficients",
+      "sign_pattern": "(-1)^n K_(M,n)>0 for every 0<=n<=12M"
+    },
+    "live_weighted_targets": {
+      "W_K": "sum log p over actual rows with p|K_(M,2h_s)",
+      "W_L": "sum log p over actual rows with p|L_(M,p_s)",
+      "implications": [
+        "W_off(M)<=W_K(M)",
+        "W_D(M)<=W_K(M)+W_L(M)",
+        "W_K=o(M) closes the original fixed-j1 gate",
+        "W_K+W_L=o(M) closes the full Item-308 container envelope"
+      ]
+    },
+    "new_fixed_j1_capacity_reduction": 0,
+    "new_linear_log_rate": 0,
+    "retained_ceiling_per_6M": "1/36"
+  },
+  "classification": {
+    "EXACT_FINITE_ONLY": [
+      "five preselected Item-308 replay rows; no scan or asymptotic inference"
+    ],
+    "OPEN": [
+      "weighted zero density for the specific cubic Cartier coefficient K",
+      "weighted zero density for the dual carrier L",
+      "W_off(M)=o(M), W_D(M)=o(M), fixed-j1 closure, Route 1, and e+pi"
+    ],
+    "PROVED": [
+      "fixed-M Frobenius carrier for the actual selected Item-308 digit",
+      "exact Hermite collapse to one coefficient of P(t)^(4M)",
+      "fixed rational Cartier readout and exact coefficient recurrence",
+      "dual fixed-M carrier and exact zero-union for the full Item-308 container",
+      "scoped shared-carrier/degree/sign/height information-class no-go"
+    ],
+    "SCOPED_NO_GO": [
+      "shared polynomial carrier, degree O(M), integrality, alternating signs, and exp(O(M)) l1 height alone cannot reduce the raw fixed-j1 capacity"
+    ]
+  },
+  "date": "2026-09-01",
+  "dependencies": {
+    "manifests/item308_j1_all_s_fixed_divisor_no_go_manifest.json": "1c4721f43b5bbdc0c68e4d9fd689562a32a4af4fbbab2a9e7075da96b151b4d5",
+    "manifests/item326_j1_selected_factor_step12_no_go_manifest.json": "d3ee4d8afc71dbf4591a863b4d18877e497e2d6f7c56f8fc1e43fd8ea163bdd6",
+    "results/item308_j1_all_s_fixed_divisor_no_go_certificate.json": "4efff9ca2fb1bc11cc6030e260ff73aae89c28bd157bb41fa6bbc3b32e41e5cf",
+    "results/item308_root_audit.json": "11feb8105ea46c27d83df2449404297fe74709eceaa8be6a21bd9484cbffba22",
+    "results/item326_j1_selected_factor_step12_no_go_certificate.json": "9378b4078db1385f60a5128617f6e99c75cd282b6be3e5b0be95410da979450f",
+    "results/item326_j1_selected_factor_step12_no_go_certificate_replay.json": "9378b4078db1385f60a5128617f6e99c75cd282b6be3e5b0be95410da979450f",
+    "results/item326_j1_selected_factor_step12_no_go_ledger_delta.json": "2c8998fed0f0dd997c7a105431dfbd78d264eb79436009b45dcf95bacc56cc8a",
+    "results/item326_j1_selected_factor_step12_no_go_root_audit.json": "e862c02a708e30df2b528a8d498c40d9c92944e53e1d5799113b5abebe816f20",
+    "scripts/item308_j1_all_s_fixed_divisor_no_go_certificate.py": "9b60d380b503c7ac9fed13792fae67735cfcf6b0f376581a0076fde16a82f0b9",
+    "scripts/item326_j1_selected_factor_step12_no_go_certificate.py": "5293dcbeffdd3f69706a1b2ef164215d50b22a282f314b506754896c089e1e49",
+    "sources/item308_j1_all_s_fixed_divisor_no_go_report.md": "4eb8f8c37dfde9d19e57c8df5ff8090bd95f03be59fff7d6aede55d02993bdc8",
+    "sources/item326_j1_selected_factor_step12_no_go_report.md": "12f42dff3d52ab5d257eac675d9cff6888925568d29ea4894cad5e37c0c31b37"
+  },
+  "direct_controls": [
+    {
+      "D_mod_p": 0,
+      "J_mod_p": 7,
+      "K_mod_p": 0,
+      "L_mod_p": 2,
+      "M": 9,
+      "c_minus_mod_p": 3,
+      "c_plus_mod_p": 0,
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "epsilon": 1,
+      "full_collision_claimed": false,
+      "h": 1,
+      "p": 13,
+      "s": 1
+    },
+    {
+      "D_mod_p": 16,
+      "J_mod_p": 16,
+      "K_mod_p": 9,
+      "L_mod_p": 10,
+      "M": 12,
+      "c_minus_mod_p": 16,
+      "c_plus_mod_p": 15,
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "epsilon": 0,
+      "full_collision_claimed": false,
+      "h": 2,
+      "p": 17,
+      "s": 1
+    },
+    {
+      "D_mod_p": 0,
+      "J_mod_p": 6,
+      "K_mod_p": 0,
+      "L_mod_p": 24,
+      "M": 34,
+      "c_minus_mod_p": 30,
+      "c_plus_mod_p": 0,
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "epsilon": 0,
+      "full_collision_claimed": false,
+      "h": 8,
+      "p": 47,
+      "s": 2
+    },
+    {
+      "D_mod_p": 0,
+      "J_mod_p": 12,
+      "K_mod_p": 2,
+      "L_mod_p": 0,
+      "M": 30,
+      "c_minus_mod_p": 0,
+      "c_plus_mod_p": 16,
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "epsilon": 0,
+      "full_collision_claimed": false,
+      "h": 4,
+      "p": 43,
+      "s": 4
+    },
+    {
+      "D_mod_p": 19,
+      "J_mod_p": 0,
+      "K_mod_p": 8,
+      "L_mod_p": 41,
+      "M": 32,
+      "c_minus_mod_p": 7,
+      "c_plus_mod_p": 40,
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "epsilon": 0,
+      "full_collision_claimed": false,
+      "h": 2,
+      "p": 47,
+      "s": 6
+    }
+  ],
+  "dual_carrier": {
+    "J_definition": "J_(M,m)=[x^m]R_M(1+x)(1+x^2)^(4M)(1+x)^(-6M-1)",
+    "L_definition": "L_(M,p)=4J_(M,2s+5)+3(4M+1)K_(M,2h)",
+    "X_fixed_M_carrier": "X_s=-2^(2-4M)J_(M,2s+5)/3 mod p",
+    "container_product": "D_(s,epsilon)=Lambda_s^2*2^(3s+1)c_plus*c_minus mod p",
+    "exact_zero_union": "p|D_(s,epsilon) iff p|K_(M,2h) or p|L_(M,p)",
+    "fixed_rational_J_generating_function": "with Q=(1+x^2)^4/(1+x)^6 and R_M=R_0+MR_1, sum_M J_M(x)z^M=(1+x)^(-1)(R_0(1+x)/(1-zQ)+R_1(1+x)zQ/(1-zQ)^2)",
+    "linear_forms": {
+      "c_minus": "X_s-Y_(s,epsilon)w_h=2X_s-c_plus",
+      "c_plus": "X_s+Y_(s,epsilon)w_h"
+    },
+    "opposite_factor": "c_minus=-2^(1-4M)L_(M,p)/3 mod p",
+    "original_gate": "ordinary collision implies c_plus=0 and hence p|K_(M,2h)"
+  },
+  "item": 329,
+  "prime_scans": 0,
+  "schema": "item329-j1-fixedM-cubic-cartier-certificate-v1",
+  "status": "PROVED_FIXED_M_CUBIC_CARTIER_BRIDGE_AND_DUAL_CARRIER_SCOPED_SHARED_HEIGHT_NO_GO",
+  "symbolic_bridge": {
+    "Cartier_readout": "K_(M,6M-4p)=[z^M u^(4p)]Phi=[z^M u^4]Lambda_p^(u)Phi",
+    "D_t": "t**2 - 2*t + 2",
+    "Frobenius_digit": "K_(M,2h)=8[t^(2h)]P(t)^(-2s-1) mod p because 4M=3p-2s-1 and 2h<p",
+    "K_initial": "K_0=2^(4M), K_n=0 for n<0",
+    "P_t": "-t**3 + 3*t**2 - 4*t + 2",
+    "R_M_t": "-60*M*t**5 + 276*M*t**4 - 512*M*t**3 + 448*M*t**2 - 160*M*t - 12*t**5 + 60*t**4 - 112*t**3 + 104*t**2 - 44*t + 12",
+    "actual_index_identities": {
+      "2s+1": "3p-4M",
+      "2s+6": "3p-4M+5",
+      "M": "3h+4s+2",
+      "m=2s+5": "3p-4M+4",
+      "n=2h": "6M-4p",
+      "p": "4h+6s+3"
+    },
+    "coefficient_recurrence_K_n": "2(n+1)K_(n+1)+(16M-4n)K_n+(3n-3-24M)K_(n-1)+(-n+2+12M)K_(n-2)=0",
+    "exact_Hermite_identity": "R_M/(1-t)^5*P^(4M)=(theta-6M)(2D^2/(1-t)^4*P^(4M))+12(4M+1)P^(4M)",
+    "fixed_Laurent_Cartier_function": "Phi(z,u)=u^6/(u^6-z*(2u^3-4u^2+3u-1)^4)",
+    "fixed_M_Frobenius_carrier": "c_h^*=C_(M,2h)/(3*2^(4M+1)) mod p, C_[M,n]=[t^n]R_M(t)(1-t)^(4M-5)D(t)^(4M)",
+    "fixed_rational_generating_function": "sum_(M,n)K_(M,n)z^M t^n=1/(1-z*P(t)^4)",
+    "selected_factor_collapse": "c_plus=(4M+1)*2^(1-4M)*K_(M,2h) mod p, K_[M,n]=[t^n]P(t)^(4M)",
+    "unit_audit": "4M+1=3p-2s is a p-unit because 0<2s<p; 2 and 3 are p-units for actual p>=13"
+  }
+}

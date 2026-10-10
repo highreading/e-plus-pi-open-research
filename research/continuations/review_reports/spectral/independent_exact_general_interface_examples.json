@@ -1,0 +1,461 @@
+{
+  "reviewer": "/root/proof_inventory",
+  "examples": [
+    {
+      "example": "full_Gram_does_not_bound_retained_Gram",
+      "t": "0/1",
+      "ambient_dimension": 6,
+      "retained_coordinate_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "H": [
+        [
+          "1/1",
+          "0/1"
+        ],
+        [
+          "0/1",
+          "1/1"
+        ]
+      ],
+      "J": [
+        [
+          "0/1",
+          "1/1"
+        ]
+      ],
+      "G": [
+        [
+          "1/1"
+        ]
+      ],
+      "full_U_Gram": [
+        [
+          "1/1"
+        ]
+      ],
+      "good_tail_eta_squared": "0/1",
+      "denominator_tail_alpha_squared": "1/1",
+      "residual_T_D_Gram": [
+        [
+          "0/1"
+        ]
+      ],
+      "all_actual_archive_matrices_used": false
+    },
+    {
+      "example": "full_Gram_does_not_bound_retained_Gram",
+      "t": "1/2",
+      "ambient_dimension": 6,
+      "retained_coordinate_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "H": [
+        [
+          "1/1",
+          "0/1"
+        ],
+        [
+          "0/1",
+          "1/1"
+        ]
+      ],
+      "J": [
+        [
+          "0/1",
+          "1/1"
+        ]
+      ],
+      "G": [
+        [
+          "1/1"
+        ]
+      ],
+      "full_U_Gram": [
+        [
+          "1/1"
+        ]
+      ],
+      "good_tail_eta_squared": "0/1",
+      "denominator_tail_alpha_squared": "9/25",
+      "residual_T_D_Gram": [
+        [
+          "16/25"
+        ]
+      ],
+      "all_actual_archive_matrices_used": false
+    },
+    {
+      "example": "full_Gram_does_not_bound_retained_Gram",
+      "t": "1/10",
+      "ambient_dimension": 6,
+      "retained_coordinate_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "H": [
+        [
+          "1/1",
+          "0/1"
+        ],
+        [
+          "0/1",
+          "1/1"
+        ]
+      ],
+      "J": [
+        [
+          "0/1",
+          "1/1"
+        ]
+      ],
+      "G": [
+        [
+          "1/1"
+        ]
+      ],
+      "full_U_Gram": [
+        [
+          "1/1"
+        ]
+      ],
+      "good_tail_eta_squared": "0/1",
+      "denominator_tail_alpha_squared": "9801/10201",
+      "residual_T_D_Gram": [
+        [
+          "400/10201"
+        ]
+      ],
+      "all_actual_archive_matrices_used": false
+    },
+    {
+      "example": "full_Gram_does_not_bound_retained_Gram",
+      "t": "1/100",
+      "ambient_dimension": 6,
+      "retained_coordinate_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "H": [
+        [
+          "1/1",
+          "0/1"
+        ],
+        [
+          "0/1",
+          "1/1"
+        ]
+      ],
+      "J": [
+        [
+          "0/1",
+          "1/1"
+        ]
+      ],
+      "G": [
+        [
+          "1/1"
+        ]
+      ],
+      "full_U_Gram": [
+        [
+          "1/1"
+        ]
+      ],
+      "good_tail_eta_squared": "0/1",
+      "denominator_tail_alpha_squared": "99980001/100020001",
+      "residual_T_D_Gram": [
+        [
+          "40000/100020001"
+        ]
+      ],
+      "all_actual_archive_matrices_used": false
+    },
+    {
+      "example": "positive_retention_can_vanish_after_good_subtraction",
+      "m": 2,
+      "eta_squared": "16/25",
+      "alpha_squared": "9/25",
+      "before_good_subtraction_Gram": "16/25",
+      "after_good_subtraction_Gram": "0/1",
+      "sharp_lower_formula": "0/1",
+      "all_actual_archive_matrices_used": false
+    },
+    {
+      "example": "positive_retention_can_vanish_after_good_subtraction",
+      "m": 10,
+      "eta_squared": "400/10201",
+      "alpha_squared": "9801/10201",
+      "before_good_subtraction_Gram": "400/10201",
+      "after_good_subtraction_Gram": "0/1",
+      "sharp_lower_formula": "0/1",
+      "all_actual_archive_matrices_used": false
+    },
+    {
+      "example": "positive_retention_can_vanish_after_good_subtraction",
+      "m": 100,
+      "eta_squared": "40000/100020001",
+      "alpha_squared": "99980001/100020001",
+      "before_good_subtraction_Gram": "40000/100020001",
+      "after_good_subtraction_Gram": "0/1",
+      "sharp_lower_formula": "0/1",
+      "all_actual_archive_matrices_used": false
+    },
+    {
+      "example": "energy_conditioning_does_not_bound_physical_endpoint_angle",
+      "M": 1,
+      "T_Gram": [
+        [
+          "1/1",
+          "0/1"
+        ],
+        [
+          "0/1",
+          "1/1"
+        ]
+      ],
+      "M_e": [
+        [
+          "1/1",
+          "0/1",
+          "0/1",
+          "0/1"
+        ],
+        [
+          "0/1",
+          "1/1",
+          "0/1",
+          "0/1"
+        ],
+        [
+          "0/1",
+          "0/1",
+          "1/1",
+          "0/1"
+        ],
+        [
+          "0/1",
+          "0/1",
+          "0/1",
+          "1/1"
+        ]
+      ],
+      "physical_endpoint_angle_squared": "256/625",
+      "all_actual_archive_matrices_used": false
+    },
+    {
+      "example": "energy_conditioning_does_not_bound_physical_endpoint_angle",
+      "M": 10,
+      "T_Gram": [
+        [
+          "1/1",
+          "0/1"
+        ],
+        [
+          "0/1",
+          "1/1"
+        ]
+      ],
+      "M_e": [
+        [
+          "100/1",
+          "0/1",
+          "0/1",
+          "0/1"
+        ],
+        [
+          "0/1",
+          "100/1",
+          "0/1",
+          "0/1"
+        ],
+        [
+          "0/1",
+          "0/1",
+          "1/1",
+          "0/1"
+        ],
+        [
+          "0/1",
+          "0/1",
+          "0/1",
+          "1/1"
+        ]
+      ],
+      "physical_endpoint_angle_squared": "16/52441",
+      "all_actual_archive_matrices_used": false
+    },
+    {
+      "example": "energy_conditioning_does_not_bound_physical_endpoint_angle",
+      "M": 100,
+      "T_Gram": [
+        [
+          "1/1",
+          "0/1"
+        ],
+        [
+          "0/1",
+          "1/1"
+        ]
+      ],
+      "M_e": [
+        [
+          "10000/1",
+          "0/1",
+          "0/1",
+          "0/1"
+        ],
+        [
+          "0/1",
+          "10000/1",
+          "0/1",
+          "0/1"
+        ],
+        [
+          "0/1",
+          "0/1",
+          "1/1",
+          "0/1"
+        ],
+        [
+          "0/1",
+          "0/1",
+          "0/1",
+          "1/1"
+        ]
+      ],
+      "physical_endpoint_angle_squared": "1/31651876",
+      "all_actual_archive_matrices_used": false
+    },
+    {
+      "example": "one_power_and_two_power_weight_are_different",
+      "R": [
+        "1/2",
+        "1/1"
+      ],
+      "mu_orthogonality_pairing": "0/1",
+      "naive_one_power_good_pairing": "1/1",
+      "corrected_polynomial_weight_good_pairing": "0/1",
+      "remaining_cross_pairing_with_Sigma_ab_equal_one_half": "1/1",
+      "all_actual_archive_matrices_used": false
+    },
+    {
+      "example": "minimum_energy_and_Pythagoras_exact_identity",
+      "H": [
+        [
+          "2/1",
+          "1/1"
+        ],
+        [
+          "1/1",
+          "2/1"
+        ]
+      ],
+      "J": [
+        [
+          "1/1",
+          "0/1"
+        ]
+      ],
+      "h": [
+        [
+          "3/1"
+        ]
+      ],
+      "G": [
+        [
+          "2/3"
+        ]
+      ],
+      "minimum_energy_lift": [
+        [
+          "3/1"
+        ],
+        [
+          "-3/2"
+        ]
+      ],
+      "minimum_energy": "27/2",
+      "single_energy": "18/1",
+      "difference_energy": "9/2",
+      "all_actual_archive_matrices_used": false
+    },
+    {
+      "example": "uniform_conditioning_and_small_error_do_not_give_primitive_shrinkage",
+      "n": 1,
+      "A": [
+        [
+          "1/1",
+          "1/2"
+        ],
+        [
+          "0/1",
+          "1/1"
+        ]
+      ],
+      "rational_target": 1,
+      "p": 1,
+      "q": 2,
+      "relative_error": "1/2",
+      "primitive_integer_form": 1,
+      "rigorous_sigma_min_lower": "1/2",
+      "rigorous_sigma_max_upper": "2/1",
+      "all_actual_archive_matrices_used": false
+    },
+    {
+      "example": "uniform_conditioning_and_small_error_do_not_give_primitive_shrinkage",
+      "n": 5,
+      "A": [
+        [
+          "1/1",
+          "1/32"
+        ],
+        [
+          "0/1",
+          "1/1"
+        ]
+      ],
+      "rational_target": 1,
+      "p": 31,
+      "q": 32,
+      "relative_error": "1/32",
+      "primitive_integer_form": 1,
+      "rigorous_sigma_min_lower": "1/2",
+      "rigorous_sigma_max_upper": "2/1",
+      "all_actual_archive_matrices_used": false
+    },
+    {
+      "example": "uniform_conditioning_and_small_error_do_not_give_primitive_shrinkage",
+      "n": 20,
+      "A": [
+        [
+          "1/1",
+          "1/1048576"
+        ],
+        [
+          "0/1",
+          "1/1"
+        ]
+      ],
+      "rational_target": 1,
+      "p": 1048575,
+      "q": 1048576,
+      "relative_error": "1/1048576",
+      "primitive_integer_form": 1,
+      "rigorous_sigma_min_lower": "1/2",
+      "rigorous_sigma_max_upper": "2/1",
+      "all_actual_archive_matrices_used": false
+    }
+  ],
+  "finite_examples_are_not_actual_K_N_counterexamples": true
+}

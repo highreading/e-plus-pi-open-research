@@ -1,0 +1,509 @@
+{
+  "dependencies": {
+    "results/item234_j1_first_witt_certificate.json": "6797c1f2cd072ec92d311e01b596c3ac95888ce9b761bc325a625ef6f9f0c748",
+    "results/item242_j1_E_kernel_state_certificate.json": "77a6ffe1af55e03504def21883af74d6abe07000d75301459fe812b8ca585f73",
+    "scripts/item234_j1_first_witt_certificate.py": "8d41a5a73e9467cf4c998d3e345767c04c68ab6467605290480825b15b08e125",
+    "scripts/item242_j1_E_kernel_state_certificate.py": "6941b01522fd981de0a70139715b57883e15b23fd43858581a8cb4f07bbe1d84",
+    "sources/item234_j1_first_witt_report.md": "9bd5bb91fe813622db0c15d8bfc25714bcefb00512ed8f5eafddacd8cfb9b016",
+    "sources/item242_j1_E_kernel_state_report.md": "174db03d85654f526fa20af1abd135944d2995babd2a682e16d1416bfe9c9d09"
+  },
+  "exact_finite_only": {
+    "coordinate_rank_counts": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 1,
+      "7": 18,
+      "8": 4851
+    },
+    "individual_rank_drop_records": [
+      [
+        53,
+        11,
+        1,
+        0,
+        31,
+        29,
+        7
+      ],
+      [
+        59,
+        2,
+        8,
+        1,
+        0,
+        0,
+        6
+      ],
+      [
+        61,
+        10,
+        3,
+        1,
+        23,
+        9,
+        7
+      ],
+      [
+        73,
+        10,
+        5,
+        0,
+        48,
+        55,
+        7
+      ],
+      [
+        101,
+        20,
+        3,
+        0,
+        95,
+        60,
+        7
+      ],
+      [
+        181,
+        28,
+        11,
+        1,
+        74,
+        139,
+        7
+      ],
+      [
+        229,
+        10,
+        31,
+        1,
+        212,
+        13,
+        7
+      ],
+      [
+        233,
+        32,
+        17,
+        1,
+        166,
+        138,
+        7
+      ],
+      [
+        233,
+        29,
+        19,
+        1,
+        56,
+        91,
+        7
+      ],
+      [
+        257,
+        59,
+        3,
+        0,
+        252,
+        177,
+        7
+      ],
+      [
+        317,
+        11,
+        45,
+        1,
+        237,
+        73,
+        7
+      ],
+      [
+        337,
+        34,
+        33,
+        0,
+        170,
+        222,
+        7
+      ],
+      [
+        349,
+        16,
+        47,
+        1,
+        85,
+        306,
+        7
+      ],
+      [
+        409,
+        64,
+        25,
+        1,
+        15,
+        100,
+        7
+      ],
+      [
+        409,
+        10,
+        61,
+        1,
+        342,
+        174,
+        7
+      ],
+      [
+        433,
+        25,
+        55,
+        1,
+        213,
+        23,
+        7
+      ],
+      [
+        449,
+        26,
+        57,
+        1,
+        30,
+        214,
+        7
+      ],
+      [
+        461,
+        47,
+        45,
+        0,
+        297,
+        35,
+        7
+      ],
+      [
+        557,
+        113,
+        17,
+        1,
+        28,
+        38,
+        7
+      ]
+    ],
+    "interpretation": "no joint rank drop occurs through the stated bound; this is not an all-row nonvanishing theorem",
+    "joint_rank_drop_records": [],
+    "rows_through_census_limit": 2435
+  },
+  "exact_replay": {
+    "Q_adic_checks": 368,
+    "coordinates": 368,
+    "determinant_checks": 368,
+    "old_pair_absence_checks": 368,
+    "reciprocity_checks": 368,
+    "rows": 184,
+    "sample_row_29_5_1": [
+      {
+        "Q_adic_digits_c0_through_c4": [
+          [
+            26,
+            17
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            7,
+            10
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "c4_old_pair_nonzero": false,
+        "leading_norm": 8,
+        "leading_pair": [
+          26,
+          17
+        ],
+        "nu": 0,
+        "state_mod_Q4": [
+          20,
+          1,
+          19,
+          23,
+          5,
+          10,
+          9,
+          0
+        ],
+        "terminal_matrix": [
+          [
+            20,
+            0,
+            20,
+            19,
+            2,
+            17,
+            27,
+            20
+          ],
+          [
+            1,
+            20,
+            0,
+            20,
+            19,
+            2,
+            17,
+            27
+          ],
+          [
+            26,
+            1,
+            20,
+            0,
+            20,
+            19,
+            2,
+            17
+          ],
+          [
+            19,
+            26,
+            1,
+            20,
+            0,
+            20,
+            19,
+            2
+          ],
+          [
+            13,
+            19,
+            26,
+            1,
+            20,
+            0,
+            20,
+            19
+          ],
+          [
+            15,
+            13,
+            19,
+            26,
+            1,
+            20,
+            0,
+            20
+          ],
+          [
+            11,
+            15,
+            13,
+            19,
+            26,
+            1,
+            20,
+            0
+          ],
+          [
+            25,
+            11,
+            15,
+            13,
+            19,
+            26,
+            1,
+            20
+          ]
+        ],
+        "terminal_matrix_determinant": 7,
+        "terminal_matrix_rank": 8,
+        "terminal_matrix_row_sha256": [
+          "70641e3fb9d6aa78228684ef5d200b76221931cba908916f3bf5c631a99fcf57",
+          "9b31c4117951cf9012fe31497d195f96dd0f5b8c3db661a461561c69805a631f",
+          "407d6c506de03886e11338068365d3a44bf3e4c8f2b4bf7bcf71ffbe80189d8e",
+          "4fb969da102a10ab072e713a941ac3eb90869e2b3fd786eaab6bf9673e29fc04",
+          "6a7b0dc1561abc733d0dbbe721fe7d74ec91cd6abacfb284d9007d163e234c1d",
+          "b298d263c7cd992cb6035459e6cc6a6bdd8fdd5d746ff60b36c20be64f7668e1",
+          "503dccc59488387624d82571e5e5a391881b1ff75726f79cf789d30946a2deae",
+          "cb28230dba74a9e5ac59e01a3513978e0f158c4cd5f27e1143486aff28f12e6d"
+        ],
+        "terminal_matrix_sha256": "c1e4fa3e4bbe3dca988b698f8bb42035ba5466520819a7cdcd04bdc61c7ed7ca"
+      },
+      {
+        "Q_adic_digits_c0_through_c4": [
+          [
+            1,
+            16
+          ],
+          [
+            3,
+            23
+          ],
+          [
+            3,
+            26
+          ],
+          [
+            0,
+            24
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "c4_old_pair_nonzero": false,
+        "leading_norm": 25,
+        "leading_pair": [
+          1,
+          16
+        ],
+        "nu": 1,
+        "state_mod_Q4": [
+          7,
+          2,
+          9,
+          2,
+          3,
+          11,
+          0,
+          24
+        ],
+        "terminal_matrix": [
+          [
+            7,
+            5,
+            0,
+            27,
+            26,
+            5,
+            3,
+            28
+          ],
+          [
+            2,
+            7,
+            5,
+            0,
+            27,
+            26,
+            5,
+            3
+          ],
+          [
+            10,
+            2,
+            7,
+            5,
+            0,
+            27,
+            26,
+            5
+          ],
+          [
+            23,
+            10,
+            2,
+            7,
+            5,
+            0,
+            27,
+            26
+          ],
+          [
+            8,
+            23,
+            10,
+            2,
+            7,
+            5,
+            0,
+            27
+          ],
+          [
+            23,
+            8,
+            23,
+            10,
+            2,
+            7,
+            5,
+            0
+          ],
+          [
+            25,
+            23,
+            8,
+            23,
+            10,
+            2,
+            7,
+            5
+          ],
+          [
+            18,
+            25,
+            23,
+            8,
+            23,
+            10,
+            2,
+            7
+          ]
+        ],
+        "terminal_matrix_determinant": 24,
+        "terminal_matrix_rank": 8,
+        "terminal_matrix_row_sha256": [
+          "f913b1803605382b86c581f74bd953d21e3ff96adc437dede764f4a8596caf61",
+          "f8db226bab837665f1560a5a57501443bd18d8eee03230cad5739a63c5c59b77",
+          "5146d07b544fa33fd64bdb67f2ae00348dc42876849696a99d20c57431d17ecb",
+          "4ec1d72ba550863719f0857f8d97f2e020fb55d89293ed59f01f6e3151045199",
+          "d7bd8d628fff7a174d2632fea8bd8e30a8260092d9357a924bea9028493389a0",
+          "172f1ae3d149489f1faf1e5bfa2f61e03584e14103be34ff7b805181c043a711",
+          "6364cfcbd89f4d24b5be315ac3510509f37058732422db28798bcba88ca7dddd",
+          "b02e6895082399b42cc8b78fdc84d8fe5ee8e1fcc97f4a7d232ff9c573dbf0f9"
+        ],
+        "terminal_matrix_sha256": "0bb90a2095993ab011056ec5f27be9a7b8f8dcee050d8934d84a3aea0aa4b528"
+      }
+    ]
+  },
+  "item": 245,
+  "open": [
+    "all-row nonvanishing of at least one of the two coordinate factors",
+    "an exact family-specific identity excluding a joint root of Q",
+    "whether generalized phase observability yields an actual p^3 terminal obstruction",
+    "any all-prime common-log exclusion or Route-1 rate consequence"
+  ],
+  "parameters": {
+    "census_limit": 601,
+    "direct_limit": 151,
+    "row": "p=4h+6s+3, r=2h, h,s>=1"
+  },
+  "proved": {
+    "Q_adic_split": "A mod Q^5=c0+Qc1+Q^2c2+Q^3c3+Q^4c4; c4/Q is the old +/-i pair and A mod Q^4 is the eight-dimensional generalized quotient",
+    "actual_family_old_pair_absence": "deg of the target p-section is at most 7, so c4=0 on every actual row and the independent simple-pole +/-i summand is absent",
+    "actual_observation_determinant": "det T_nu=(alpha_nu^2+beta_nu^2)^4",
+    "joint_rank_criterion": "the stacked two-coordinate matrix has rank 8-min(k0,+,k1,+)-min(k0,-,k1,-)",
+    "leading_pair_formula": "alpha_nu+beta_nu Z=-24 Cartier_a(B0^2 P_nu) mod (1+Z^2), a=p-(2s-nu)-1",
+    "rank_classification": "over an algebraic closure rank T_nu=8-k_+-k_-, where k_+/- are the Q-adic root valuations truncated at 4",
+    "reciprocity_alignment": "Cartier_a(B0^2P_nu)(Z)=Z^3 Cartier_b(B0^2P_nu)(Z^-1), b=p-r-1, for both nu",
+    "universal_terminal_observability": "the first-eight-phase observation matrix for F_p[Z]/(1+Z^2)^4 is unit lower triangular with determinant 1"
+  },
+  "scope": {
+    "comparison_with_Item233": "c4 is the old +/-i pair; the q0 eigenmode is not part of this Q-primary kernel module, and no Item233 M/N matrix identity is assumed",
+    "no_family_wide_dependency": "the exact determinant factors may vanish on special rows; reciprocity aligns the residues but does not itself force a rank loss",
+    "terminal_normalization": "the actual target section begins at phase 2; after applying the canonical Q-primary quotient, any resulting phase-origin translation is a unit and does not change rank or determinant"
+  },
+  "title": "generalized +/-i terminal observations on the actual j=1 family"
+}

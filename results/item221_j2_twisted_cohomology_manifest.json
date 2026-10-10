@@ -1,0 +1,48 @@
+{
+  "schema": "item221-portable-manifest-v1",
+  "artifacts": {
+    "sources/item221_j2_twisted_cohomology_report.md": {
+      "role": "proof report separating the first-resonance theorem from the non-scalar cohomology barrier",
+      "sha256": "ebcbb11ac5e69d604ee73262c90446dd82e59d94dea246e7d0394a5bd634e263",
+      "work_source": "item221_j2_twisted_cohomology_report.md"
+    },
+    "scripts/item221_j2_twisted_cohomology_certificate.py": {
+      "role": "standard-library symbolic contiguity, determinant, phase, and finite-period checker",
+      "sha256": "8ef696188337f9ecc7f77e66c296973897ce443b143f72fc0c468fd3f9354a36",
+      "work_source": "item221_j2_twisted_cohomology_certificate.py"
+    },
+    "results/item221_j2_twisted_cohomology_certificate.json": {
+      "role": "canonical deterministic output",
+      "sha256": "866d71ac6c1259acba17b2ce0f80862ae03cef92551bc38a909a91b5fdc681d7",
+      "work_source": "item221_j2_twisted_cohomology_certificate.json"
+    },
+    "results/item221_j2_twisted_cohomology_certificate_replay.json": {
+      "role": "independent replay output; byte-identical to canonical",
+      "sha256": "866d71ac6c1259acba17b2ce0f80862ae03cef92551bc38a909a91b5fdc681d7",
+      "work_source": "item221_j2_twisted_cohomology_certificate_replay.json"
+    },
+    "results/item221_j2_twisted_cohomology_ledger.json": {
+      "role": "strict PROVED, EXACT FINITE, OPEN, and booking ledger",
+      "sha256": "bd4e6bf7d71870ec665506e04eb2e2dc06463c9b128c9104f2ce68ae6757afc6",
+      "work_source": "item221_j2_twisted_cohomology_ledger.json"
+    }
+  },
+  "canonical_command_from_archive_root": "python scripts/item221_j2_twisted_cohomology_certificate.py --output results/item221_j2_twisted_cohomology_certificate.json",
+  "replay_command_from_archive_root": "python scripts/item221_j2_twisted_cohomology_certificate.py --output results/item221_j2_twisted_cohomology_certificate_replay.json",
+  "dependencies": {
+    "archive_files": {
+      "scripts/item219_common_log_j2_certificate.py": {
+        "role": "frozen j=2 polynomial, four-phase weight, and scalar-minor helper",
+        "sha256": "bf9ee30675b5745225f08d2d82e500fd1f6797d69f94ab5949602e266f8b38cc"
+      }
+    },
+    "external_files": [],
+    "python": "3.11+ standard library only"
+  },
+  "portability": {
+    "archive_path_required": false,
+    "host_absolute_paths_embedded": false,
+    "helper_resolved_beside_checker": true,
+    "explicit_output_makes_archive_root_replay_portable": true
+  }
+}

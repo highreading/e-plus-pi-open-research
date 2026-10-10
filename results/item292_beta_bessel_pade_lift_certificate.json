@@ -1,0 +1,74 @@
+{
+  "admission": {
+    "full_target_O_n_lift": "OPEN",
+    "full_target_degree_one_exclusion": "OPEN",
+    "homogeneous_measure_route": "SCOPED FAIL",
+    "inhomogeneous_ostrowski_route": "OPEN",
+    "item282_product_baseline": "OPEN AND SEPARATE",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "positive_linear_capacity_admission": "FAIL",
+    "proper_target_large_factor_bound": "OPEN"
+  },
+  "bounded_exact_checks": {
+    "asymptotic_extrapolation": false,
+    "bessel": {
+      "digest": "12af38aa3eeb331716ecade4c64557324e703ba0bfec0b458e3b4fd77a260708",
+      "label": "EXACT FINITE ONLY",
+      "range": [
+        0,
+        32
+      ],
+      "rows": 33
+    },
+    "exceptional_prime_search": false,
+    "label": "EXACT FINITE ONLY",
+    "pade_and_lifts": {
+      "digest": "566a09f8f42f8693d31492835cc3da156d314467b26ec0b712d05cb0b5427f51",
+      "label": "EXACT FINITE ONLY",
+      "range": [
+        2,
+        160
+      ],
+      "rows": 159,
+      "solution_family_rows": 1431
+    },
+    "proper_targets": {
+      "digest": "d055605a527b9ea67fe4f47ded74a53eeb9d1df5ad1313f8743e2f83f68a3657",
+      "exceptional_prime_search": false,
+      "fixed_clearing_values": [
+        1,
+        3,
+        5,
+        7,
+        11,
+        35,
+        77
+      ],
+      "label": "EXACT FINITE ONLY",
+      "rows": 550
+    }
+  },
+  "description": "Exact reverse-Bessel companion, every-third e-convergent, fixed-RHS Padé determinant, centered lift family, eta-bound bookkeeping, and proper-target checker",
+  "open": [
+    "the all-n inequality 2*rho_n>=q_(n-1)",
+    "any lower bound log rho_n>=n log n-O(n)",
+    "any construction log rho_n=O(n)",
+    "an inhomogeneous shrinking-target or Ostrowski theorem using the exact endpoint",
+    "a large proper de-overlapped target residue theorem",
+    "the Item282 common product baseline and weighted-return cover",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "schema": "item292-beta-bessel-pade-lift-certificate-v1",
+  "theorem": {
+    "bessel_seed": "with A_n(X)=sum_k (2n-k)!/[k!(n-k)!] X^k, q_n=A_n(-1)=(-1)^n y_n(-2) and p_n=A_n(1)=y_n(2)",
+    "e_convergent": "p_n/q_n is Euler's regular continued-fraction convergent of zero-based index 3n-2",
+    "eta_bound": "eta_n<1/[q_n*Q_(3n-1)], with Q_(3n-1)=2n*q_n+Q_(3n-3)",
+    "eta_identity": "for eta_n=(-1)^n(e-p_n/q_n)>0, (-1)^(n-1)(beta*e-J)=2*q_(n-1)/q_n-beta*eta_n",
+    "homogeneous_measure_barrier": "a fixed-power homogeneous lower bound for |beta*e-J|, combined only with the O(1/n) target size, forces at most a polynomial lower scale for |beta|",
+    "minimum_equivalence": "rho_n=min |beta| over beta,J with p_n*beta-J*q_n=2*(-1)^(n-1)*q_(n-1)",
+    "proper_target": "for Q|q_n, the centered beta is centered(r_n mod Q) and solves p_n*beta-J*Q=2*(-1)^(n-1)*q_(n-1)",
+    "scope": "no all-n half-bound, factorial lower bound, or O(n)-height lift construction is proved",
+    "wronskian": "p_n*q_(n-1)-p_(n-1)*q_n=2*(-1)^(n-1)"
+  }
+}

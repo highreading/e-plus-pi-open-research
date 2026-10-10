@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "scope": "Four selected exact degrees plus the entire n=4 Laplace expansion; no extrapolation.",
+  "degrees": [
+    {
+      "n": 1,
+      "delta_A_v2": 0,
+      "delta_B_v2": 1,
+      "reduced_endpoint_q_v2": 1,
+      "leading_C_minor_v2": 0,
+      "all_claimed_formulas_verified": true
+    },
+    {
+      "n": 2,
+      "delta_A_v2": 3,
+      "delta_B_v2": 6,
+      "reduced_endpoint_q_v2": 4,
+      "leading_C_minor_v2": 0,
+      "all_claimed_formulas_verified": true
+    },
+    {
+      "n": 6,
+      "delta_A_v2": 66,
+      "delta_B_v2": 72,
+      "reduced_endpoint_q_v2": 10,
+      "leading_C_minor_v2": 16,
+      "all_claimed_formulas_verified": true
+    },
+    {
+      "n": 10,
+      "delta_A_v2": 218,
+      "delta_B_v2": 226,
+      "reduced_endpoint_q_v2": 16,
+      "leading_C_minor_v2": 60,
+      "all_claimed_formulas_verified": true
+    }
+  ],
+  "laplace_audit": {
+    "n": 4,
+    "total_terms": 252,
+    "nonzero_terms": 180,
+    "unique_least_exponential_high_rows": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "least_valuation": -31,
+    "case_minima": {
+      "border_to_B=False,A_to_B=False": -31,
+      "border_to_B=True,A_to_B=False": -20,
+      "border_to_B=False,A_to_B=True": -24,
+      "border_to_B=True,A_to_B=True": -12
+    },
+    "all_four_case_bounds_verified": true
+  }
+}

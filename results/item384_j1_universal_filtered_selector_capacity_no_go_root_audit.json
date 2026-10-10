@@ -1,0 +1,55 @@
+{
+  "item": 384,
+  "schema": "item384-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_NONZERO_SELECTOR_FULL_CAPACITY_INFORMATION_CLASS_NO_GO",
+  "scope": "independent root audit of the nonzero shifted CRT selector, exact radical, filtered-Hasse comparison family, fixed-pole connection data, sharp information-class capacity, and zero booking",
+  "checks": {
+    "work_hash_list_entries": 6,
+    "work_hash_list_failures": 0,
+    "frozen_dependencies_checked": 10,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "independent_crt_radical_check": true,
+    "independent_candidate_interval_mass_check": true,
+    "independent_geometric_scope_check": true,
+    "actual_prime_or_collision_census_performed": false,
+    "density_inference_from_controls": false,
+    "root_repair": "The original least-residue construction allowed the full selector to be zero. The canonical theorem uses the nonzero shifted representative Ztilde=Z+P_M, preserving every residue, giving P_M<=Ztilde<2P_M and the same exact radical. Certificate, report, ledger, and manifest were regenerated or updated accordingly."
+  },
+  "mathematical_audit": {
+    "selector": "CRT gives one residue Z modulo the squarefree product P_M. Adding P_M produces a nonzero representative with exactly the same residues at every candidate prime, including the full-zero pattern Ztilde=P_M and empty pattern Ztilde=P_M+1.",
+    "radical": "For p dividing P_M, p divides Ztilde exactly when p lies in the prescribed subset. Squarefreeness therefore gives gcd(P_M,Ztilde,Ztilde) equal to the subset product.",
+    "geometry": "The direct sum of two Item374 rank-two filtered modules has rank four, fixed Hodge data, and joint Hasse divisor q1=q2=0. Item383's lambda=2 lift supplies flat rational logarithmic connections with fixed poles at qi=1/2; selector values 0 and 1 avoid them.",
+    "capacity": "The candidate interval has Chebyshev mass M/6+o(M). The full nonzero selector realizes all candidates while having logarithmic height log(P_M)+O(1), proving sharp full raw capacity for the stated information class.",
+    "scope_limit": "This is a comparison-family no-go. It supplies no restriction on the actual moving moment selector and proves no bound on W_(H,T)(M)."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "all-M all-subset nonzero shifted CRT selector and exact radical",
+      "fixed-rank codimension-two filtered-Hasse comparison and all-fixed-codimension extension",
+      "fixed-pole flat connection and selector regularity",
+      "sharp M/6+o(M) information-class capacity",
+      "zero booking and zero capacity reduction"
+    ],
+    "DECLARED_EXACT_CONTROLS_ONLY": [
+      "five fixed M values and formal-series controls; no actual collision scan"
+    ],
+    "OPEN": [
+      "cross-prime arithmetic of the actual selector",
+      "an actual compatible system, aggregate resultant, or weighted nonconcentration theorem",
+      "any strict fixed-j=1 retained-capacity bound"
+    ]
+  },
+  "capacity": {
+    "information_class_maximal_log_mass": "M/6+o(M)",
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "new_route1_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

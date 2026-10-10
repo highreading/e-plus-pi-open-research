@@ -1,0 +1,175 @@
+{
+  "cohomology_independence": {
+    "basis": [
+      "f0 dz",
+      "z f0 dz",
+      "z^2 f0 dz"
+    ],
+    "conclusion": "no nonzero quadratic remainder is boundary-free sub-Frobenius exact",
+    "minor_coefficients_in_s": [
+      0,
+      0,
+      -36864,
+      221184,
+      1327104,
+      1474560
+    ],
+    "minor_factorization": "36864*s^2*(2s+1)^2*(10s-1)",
+    "unit_audit": "s, 2s+1, and 10s-1 are nonzero mod p on every admissible row"
+  },
+  "dependency": {
+    "item219_checker": "item219_common_log_j2_certificate.py",
+    "item219_checker_sha256": "bf9ee30675b5745225f08d2d82e500fd1f6797d69f94ab5949602e266f8b38cc"
+  },
+  "finite_replay": {
+    "common_zero_rows": [],
+    "counts": {
+      "S1_zero": 6,
+      "T0_zero": 5,
+      "common_zero": 0,
+      "rows": 1153
+    },
+    "row_digest_sha256": "75d447206f96ed7ffbd451831a54d752657e6596565dd391ee525660ac47ca0d",
+    "separate_zero_rows": [
+      {
+        "S1": 0,
+        "T0": 30,
+        "m": 132,
+        "p": 109,
+        "s": 8,
+        "zero": "S1"
+      },
+      {
+        "S1": 4,
+        "T0": 0,
+        "m": 158,
+        "p": 131,
+        "s": 11,
+        "zero": "T0"
+      },
+      {
+        "S1": 103,
+        "T0": 0,
+        "m": 208,
+        "p": 173,
+        "s": 16,
+        "zero": "T0"
+      },
+      {
+        "S1": 164,
+        "T0": 0,
+        "m": 237,
+        "p": 191,
+        "s": 3,
+        "zero": "T0"
+      },
+      {
+        "S1": 0,
+        "T0": 29,
+        "m": 260,
+        "p": 211,
+        "s": 7,
+        "zero": "S1"
+      },
+      {
+        "S1": 0,
+        "T0": 5,
+        "m": 277,
+        "p": 227,
+        "s": 13,
+        "zero": "S1"
+      },
+      {
+        "S1": 0,
+        "T0": 172,
+        "m": 407,
+        "p": 337,
+        "s": 28,
+        "zero": "S1"
+      },
+      {
+        "S1": 0,
+        "T0": 365,
+        "m": 456,
+        "p": 367,
+        "s": 5,
+        "zero": "S1"
+      },
+      {
+        "S1": 235,
+        "T0": 0,
+        "m": 454,
+        "p": 367,
+        "s": 9,
+        "zero": "T0"
+      },
+      {
+        "S1": 0,
+        "T0": 154,
+        "m": 474,
+        "p": 383,
+        "s": 9,
+        "zero": "S1"
+      },
+      {
+        "S1": 332,
+        "T0": 0,
+        "m": 452,
+        "p": 383,
+        "s": 53,
+        "zero": "T0"
+      }
+    ],
+    "status": "EXACT FINITE ONLY"
+  },
+  "frobenius_resonance": {
+    "consequence": "Item219's scalar minor then excludes the reduction on every admissible row",
+    "phase_functional_on_z^p": {
+      "-1": [
+        7,
+        0
+      ],
+      "1": [
+        7,
+        0
+      ]
+    },
+    "scope": "first z^p resonance only; arbitrary higher polynomials in z^p are not claimed impossible",
+    "theorem": "under S0=S1=0, a boundary-free first-resonant scalar primitive F1-RF0+c*z^p forces c=0",
+    "value": 7
+  },
+  "non_scalar_reduction": {
+    "H_denominator": "2s(10s-1)(1+z)",
+    "H_numerator": "(10s-3)z+2z^2-(10s+1)z^3+2z^4",
+    "Q_denominator": "4s(10s-1)",
+    "Q_numerator": "100s^2-12s-3+(10-4s)z+(8s-4)z^2",
+    "symbolic_numerator_terms_after_cancellation": 0
+  },
+  "parameters": {
+    "cell": "4m+1=5p-2s, 1<=s<=(p-3)/6, p>=11, s=(p-1)/2 mod 2",
+    "j": 2,
+    "prime_max_inclusive": 401
+  },
+  "reduced_common_gate": {
+    "T_k": "L_chi integral_0^(1,i,-i) z^k f0 dz, equivalently the shifted four-residue sum",
+    "common_equivalence": "T0=0 and (5-2s)T1+2(2s-1)T2=0",
+    "identity": "4s(10s-1)S1=(100s^2-12s-3)T0+(10-4s)T1+(8s-4)T2"
+  },
+  "schema": "item221-j2-twisted-cohomology-v1",
+  "status_ledger": {
+    "EXACT_FINITE": [
+      "all admissible rows through the recorded bound; no common zero in this finite set"
+    ],
+    "OPEN": [
+      "all-prime nonvanishing of the reduced two-period gate",
+      "higher polynomials in z^p and higher/non-polynomial cohomology mechanisms",
+      "any common-log capacity reduction or conclusion about e+pi"
+    ],
+    "PROVED": [
+      "first z^p resonance collapses to the excluded nonresonant scalar ansatz under the common gate",
+      "exact all-row quadratic-remainder contiguity identity",
+      "three quadratic cohomology classes are independent for every admissible row",
+      "exact one-polynomial reduced common gate"
+    ]
+  }
+}

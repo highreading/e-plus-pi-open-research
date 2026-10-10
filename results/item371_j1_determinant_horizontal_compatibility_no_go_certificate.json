@@ -1,0 +1,225 @@
+{
+  "actual_family": "p=4h+6s+3, M=3h+4s+2, n=2h, r=2s+1",
+  "canonical_files_modified": false,
+  "capacity": {
+    "actual_support": "all fixed-j1 selector rows",
+    "booking": 0,
+    "desired_theorem": "sum_(prime rows with tr(C)=det(C)=0) log p=o(M)",
+    "desired_theorem_proved": false,
+    "new_fixed_j1_capacity_reduction": 0,
+    "new_linear_log_rate": 0,
+    "raw_ceiling_per_6M": "1/36",
+    "raw_log_mass": "M/6+o(M)",
+    "route_1_status": "ACTIVE"
+  },
+  "classification": {
+    "EXACT_FINITE_ONLY": [
+      "four predeclared determinant controls, including both zero and nonzero values; no prime scan"
+    ],
+    "OPEN": [
+      "a Hasse subdeterminant or non-unit varying-slope F-crystal realization",
+      "a target-specific nonlocal identity or bounded-conductor compression",
+      "horizontal determinant/trace nonconcentration or an average-gcd theorem",
+      "weighted joint-zero density, any fixed-j1 ceiling reduction, Route 1, and every conclusion about e+pi"
+    ],
+    "PROVED": [
+      "exact determinant divisor is the existing additive transverse coordinate",
+      "lisse mod-p invertibility obstruction for a literal all-row companion realization",
+      "fixed-normalization full crystalline determinant dichotomy",
+      "universal pointwise local-product separability obstruction",
+      "literal finite-log Kummer and Artin-Schreier conductor-growth obstructions",
+      "zero booking"
+    ]
+  },
+  "collision_scans": 0,
+  "crystalline_obstruction": {
+    "conclusion": "Q0 cannot be the full Frobenius determinant in this fixed-normalization class",
+    "control_pattern": "Q0 is nonzero on three declared rows and zero on one declared row",
+    "dichotomy": "after undoing a fixed Tate twist p^w, the full determinant mod p is everywhere a unit when w=0 and identically zero when w>0",
+    "not_ruled_out": "Hasse subdeterminants, varying lattices or slopes, singular extensions across Q0=0, and a different target-specific F-crystal",
+    "scope": "integral bounded-conductor rank-two F-crystals with one fixed Tate normalization and unit normalized full determinant on a connected good locus"
+  },
+  "date": "2026-09-01",
+  "dependencies": {
+    "manifests/item366_j1_joint_frobenius_extension_obstruction_manifest.json": "91106677a853790eb511fc4efc0da8a5b29976107a17adfb2367b40d916a526e",
+    "manifests/item369_j1_cyclic_companion_compatibility_barrier_manifest.json": "dd602f42797fe29bef053373eff93ef7ddd13422bd93ad914a31195be64f9b1d",
+    "results/item366_j1_joint_frobenius_extension_obstruction_certificate.json": "d6ac566800b010538ebad2b17648a49107f3d3e5ee93cd4b3af377fe851e486c",
+    "results/item366_j1_joint_frobenius_extension_obstruction_certificate_replay.json": "d6ac566800b010538ebad2b17648a49107f3d3e5ee93cd4b3af377fe851e486c",
+    "results/item366_j1_joint_frobenius_extension_obstruction_ledger_delta.json": "d62cf99fc0da6425c383a277b1f86af3ce134f4e11ec36efc446f604c162011d",
+    "results/item366_j1_joint_frobenius_extension_obstruction_root_audit.json": "8d787c37bf513d89cd461a84a77713386bf9c17b9f27d018dd8c3d90c94cbe50",
+    "results/item366_j1_joint_frobenius_extension_obstruction_root_replay.json": "d6ac566800b010538ebad2b17648a49107f3d3e5ee93cd4b3af377fe851e486c",
+    "results/item369_j1_cyclic_companion_compatibility_barrier_certificate.json": "24ce6c7dae148763699358971170e7cfae6a72a4313b4344c4fb3e4244133d83",
+    "results/item369_j1_cyclic_companion_compatibility_barrier_certificate_replay.json": "24ce6c7dae148763699358971170e7cfae6a72a4313b4344c4fb3e4244133d83",
+    "results/item369_j1_cyclic_companion_compatibility_barrier_ledger_delta.json": "87175da5ed0b16419d4d463e02fe96f7b7c3f30c8cf5b876a24b6d8f6702a468",
+    "results/item369_j1_cyclic_companion_compatibility_barrier_root_audit.json": "a8e84b3ad547c41deb6b4eac2066ae097cef88cf6943ec3aead9da1d3d357b59",
+    "results/item369_j1_cyclic_companion_compatibility_barrier_root_replay.json": "24ce6c7dae148763699358971170e7cfae6a72a4313b4344c4fb3e4244133d83",
+    "scripts/item366_j1_joint_frobenius_extension_obstruction_certificate.py": "7157c1a3e1e7c63820d5bf9c29d080c632b6461e9ec9ad803d44c667479c3a3e",
+    "scripts/item369_j1_cyclic_companion_compatibility_barrier_certificate.py": "cd9ef9480809552083b667ea7fcc2c4657ffb104f1558a5f0b5920e6bf7171ea",
+    "sources/item366_j1_joint_frobenius_extension_obstruction_report.md": "50c678cadf4650a68eab772da297021190f06492928ee32bf9ea3c2215b9ea74",
+    "sources/item369_j1_cyclic_companion_compatibility_barrier_report.md": "676b7f68b3602c1ebbd743779845fd4fe3f511484a3f2e7033ac5ff27d0544b9"
+  },
+  "direct_controls": [
+    {
+      "M": 9,
+      "c_L": 9,
+      "c_T": 9,
+      "classification": "PREDECLARED EXACT CONTROL; NOT A PRIME SCAN",
+      "companion_determinant": 9,
+      "companion_invertible": true,
+      "companion_mod_p": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "finite_log_roots": {
+        "degree": 12,
+        "distinct_roots_Lp": 10,
+        "distinct_roots_Lp_z2": 19,
+        "gcd_derivative_degree": 2,
+        "proved_lower_bound_Lp_z2": 11
+      },
+      "h": 1,
+      "p": 13,
+      "s": 1,
+      "selected_Hasse": 0,
+      "transverse_Q0": 9
+    },
+    {
+      "M": 12,
+      "c_L": 7,
+      "c_T": 2,
+      "classification": "PREDECLARED EXACT CONTROL; NOT A PRIME SCAN",
+      "companion_determinant": 14,
+      "companion_invertible": true,
+      "companion_mod_p": [
+        [
+          9,
+          3
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "finite_log_roots": {
+        "degree": 16,
+        "distinct_roots_Lp": 16,
+        "distinct_roots_Lp_z2": 31,
+        "gcd_derivative_degree": 0,
+        "proved_lower_bound_Lp_z2": 15
+      },
+      "h": 2,
+      "p": 17,
+      "s": 1,
+      "selected_Hasse": 8,
+      "transverse_Q0": 14
+    },
+    {
+      "M": 34,
+      "c_L": 42,
+      "c_T": 36,
+      "classification": "PREDECLARED EXACT CONTROL; NOT A PRIME SCAN",
+      "companion_determinant": 30,
+      "companion_invertible": true,
+      "companion_mod_p": [
+        [
+          0,
+          17
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "finite_log_roots": {
+        "degree": 46,
+        "distinct_roots_Lp": 46,
+        "distinct_roots_Lp_z2": 91,
+        "gcd_derivative_degree": 0,
+        "proved_lower_bound_Lp_z2": 45
+      },
+      "h": 8,
+      "p": 47,
+      "s": 2,
+      "selected_Hasse": 0,
+      "transverse_Q0": 30
+    },
+    {
+      "M": 76,
+      "c_L": 11,
+      "c_T": 60,
+      "classification": "PREDECLARED EXACT CONTROL; NOT A PRIME SCAN",
+      "companion_determinant": 0,
+      "companion_invertible": false,
+      "companion_mod_p": [
+        [
+          39,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "finite_log_roots": {
+        "degree": 108,
+        "distinct_roots_Lp": 106,
+        "distinct_roots_Lp_z2": 211,
+        "gcd_derivative_degree": 2,
+        "proved_lower_bound_Lp_z2": 107
+      },
+      "h": 10,
+      "p": 109,
+      "s": 11,
+      "selected_Hasse": 70,
+      "transverse_Q0": 0
+    }
+  ],
+  "exact_determinant_divisor": {
+    "classification": "the already forced Item360 transverse divisor, not a new independent Frobenius divisor",
+    "equation": "Q0=2c_T-c_L=0 mod p",
+    "full_collision_implication": "full ordinary collision implies trace(C)=det(C)=0",
+    "joint_converse_to_full_collision_claimed": false
+  },
+  "item": 371,
+  "lisse_obstruction": {
+    "actual_witness": "(h,s,p)=(10,11,109) has Q0=0, hence the literal companion is singular",
+    "conclusion": "the literal companion cannot be Frobenius of a lisse mod-p system on a good locus containing all actual rows",
+    "removing_zero_divisor_issue": "deleting Q0=0 from the lisse locus removes exactly the rows whose density must be bounded",
+    "statement": "Frobenius on a lisse rank-two mod-p fiber lies in GL_2, so its determinant is nonzero at every unramified point"
+  },
+  "literal_support_obstruction": {
+    "Artin_Schreier_conclusion": "the literal reduced polynomial pullback has Swan conductor 2(p-1) at infinity",
+    "Artin_Schreier_degree": "deg L_p(z^2)=2(p-1), which is not divisible by p",
+    "Kummer_conclusion": "literal full-order Kummer realization has linearly growing conductor support",
+    "finite_log": "L_p(z^2) has at least p-2 distinct roots",
+    "not_ruled_out": "a different unipotent, Artin-Schreier-Witt, or cohomological compression with proved bounded conductor",
+    "ramification": "multiplicities one or two are nonzero modulo p-1 and p^2-1 for p>=13"
+  },
+  "pointwise_product_obstruction": {
+    "determinant_law": "det(product_x A_x)=product_x det(A_x)",
+    "scope": "pointwise local factors whose determinants depend separately on local contributions; target-global factors evade the theorem only by abandoning locality",
+    "universal_separability_test": "(x+y)(x+y)_xy-(x+y)_x(x+y)_y=-1, but the same operator is zero on f(x)g(y)",
+    "zero_locus": "a product determinant vanishes through at least one local factor, whereas Q0 is a selected additive cancellation"
+  },
+  "schema": "item371-j1-determinant-horizontal-compatibility-no-go-certificate-v1",
+  "status": "PROVED_SCOPED_LISSE_CRYSTALLINE_AND_LOCAL_PRODUCT_DETERMINANT_NO_GO",
+  "symbolic_theorem": {
+    "additive_selector_model": "x+y",
+    "characteristic_polynomial": "X^2+a*X+Q0",
+    "companion": "[[-a,-Q0],[1,0]]",
+    "conclusion": "a universal pointwise product of local determinant factors cannot equal the additive transverse selector once two local contributions vary independently",
+    "determinant": "Q0",
+    "determinant_product_identity": "det(A*B)=det(A)*det(B)",
+    "generic_local_matrices": "A and B",
+    "mixed_operator": "F*F_xy-F_x*F_y",
+    "mixed_operator_on_additive_selector": -1,
+    "mixed_operator_on_separable_product": 0,
+    "multiplicatively_separable_model": "f(x)*g(y)"
+  }
+}

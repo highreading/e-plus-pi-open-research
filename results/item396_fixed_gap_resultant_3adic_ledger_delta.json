@@ -1,0 +1,32 @@
+{
+  "schema": "item396-logarithmic-gap-corridor-ledger-v1",
+  "item": 396,
+  "status": "ROOT_AUDITED_CANONICAL_ZERO_BOOKING",
+  "central_edits": false,
+  "booking": {
+    "route1_rate_delta": "0",
+    "fresh_content_lower_bound_delta": "0",
+    "capacity_ceiling_delta": "0",
+    "booked_mass": false
+  },
+  "provenance": {
+    "item148_exact_v3_and_nonvanishing": "INHERITED_CANONICAL_INPUT_NO_NEW_CREDIT",
+    "item146_exponential_resultant_height": "INHERITED_CANONICAL_INPUT_NO_NEW_CREDIT",
+    "item390_all_depth_large_prime_saturation": "INHERITED_WORK_INPUT_NO_NEW_CREDIT"
+  },
+  "new_results": {
+    "moving_gap_corridor": "For Q_m=floor((log m-4 log log m-log 129)/log 62208), every prime 6m<p<=6m+Q_m is excluded once Q_m>=1.",
+    "method_class_no_go": "Any nonzero fixed-gap carrier bounded by A*q^C*B^q and used only through p>A*q^C*B^q can control only O((log m)^2)=o(m) logarithmic mass at row m.",
+    "primitive_cubic_radical_carrier": "For q congruent to 5 mod 6, common actual first-digit support is exactly p|gcd(W0(q),W1(q)); rho is redundant. For q congruent to 1 mod 6, rho is necessary to enforce a common cube-root branch.",
+    "carrier_minimality": "Exact witnesses show that rho alone, one cubic row alone, and two cubic rows in the nonbijective class are each insufficient.",
+    "normalized_chebyshev_capacity_of_height_only_method": "0"
+  },
+  "remaining_open": [
+    "c_{m,>6m}=1",
+    "uniform failure of the final power-of-two compatibility at divisors of the connection determinant",
+    "uniform cubic Smith support d3(q)|P_q, or its compatible-prime radical weakening",
+    "weighted zero density for proportional moving gaps",
+    "a positive-capacity branch-specific Hasse-Witt or character invariant"
+  ],
+  "scope_warning": "The corridor is an exclusion theorem and the method-class result is a scoped no-go. Neither supplies a positive divisor rate or a numerical Route-1 ledger improvement."
+}

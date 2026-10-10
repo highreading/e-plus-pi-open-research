@@ -1,0 +1,63 @@
+{
+  "item": 364,
+  "schema": "item364-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_PHASE_CARRIERS_AND_SCOPED_RECURRENCE_HEIGHT_BARRIER",
+  "scope": "independent root audit of the two actual fixed-j1 saturation boundaries, tied-phase carrier localization, the h=2 degenerate face, the fixed strip, and the generic recurrence-height obstruction",
+  "checks": {
+    "work_hash_list_entries": 6,
+    "work_hash_list_failures": 0,
+    "frozen_dependencies_checked": 9,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "independent_phase_rows": 6,
+    "independent_phase_digest": "266bad80fd6e529a871ab0c14bf5c711c709a076d57e8ca762ec9a474f83184c",
+    "independent_finite_prime_rows": 346,
+    "independent_modular_coordinate_bridges": 1384,
+    "independent_h2_exact_points": 25,
+    "independent_h2_symbolic_identity": true,
+    "independent_comparison_prime_rows": 253,
+    "density_inference_from_finite_controls": false
+  },
+  "mathematical_audit": {
+    "boundary_scope": "The xy and uv boundaries are subsets of the same full fixed-j1 collision gate. On xy the residual equation f1 is still required; on uv the residual equation f0 is still required. Their capacities are therefore nonadditive.",
+    "phase_bridge": "From p=4h+6s+3 one has s=-(4h+3)/6 modulo p. For 3 not dividing h, every terminating-sum denominator is a p-unit; direct independent kernel expansion verifies all four phase congruences.",
+    "carrier_implication": "After reducing each rational phase value to lowest terms, simultaneous boundary vanishing forces p to divide the corresponding numerator gcd. The zero-gcd case is correctly isolated as an exact-zero characteristic-zero stratum rather than silently discarded.",
+    "composite_rays": "If 3 divides h then p is divisible by 3; since actual candidates exceed 3, these rays contain no candidate prime.",
+    "h2": "Independent symbolic simplification gives v=0 and u=4(64s^2+80s+27)/(9(3s+1)(3s+2)). At the tied phase its only nontrivial numerator prime is 859, whose residue 1 modulo 6 is incompatible with p=6s+11 congruent to 5 modulo 6.",
+    "fixed_strip": "The six noncomposite rays through h=8 have exactly the stated carrier gcds, and none of their prime factors lies on an actual positive-s tied row. This is an all-s conclusion for those fixed rays.",
+    "height": "Each terminating phase value has O(h) rational linear factors of O(h) size plus binomial coefficients, giving logarithmic numerator and denominator height O(h log(h+2)); the direct aggregate is only O(M^2 log M).",
+    "method_barrier": "The comparison product (18h)!/(4h)! has the same pointwise height class and a first-order rational recurrence, yet every candidate prime in M/12<=h<=M/3 divides it. That interval has Chebyshev mass M/8+o(M), so generic recurrence order and pointwise height alone cannot prove zero rate.",
+    "weighted_scope": "No classification of exact-zero phase pairs or weighted average-gcd theorem is obtained; the full-cell ceiling 1/36 remains unchanged."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "endpoint-tail meaning and residual full-gate equations",
+      "tied-phase carrier localization with exact-zero stratification",
+      "fixed-finite-h zero rate",
+      "h=2 all-s degenerate-face exclusion",
+      "all-s exclusion of both boundaries through h=8",
+      "pointwise height bound and generic recurrence-height method barrier",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared and independent phase controls; no finite row is promoted to a density statement"
+    ],
+    "OPEN": [
+      "classification of exact-zero phase pairs",
+      "unbounded-h boundary occurrence or nonoccurrence",
+      "weighted zero density for the actual carrier gcds",
+      "any strict fixed-j1 capacity reduction, Route 1, and e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_fixed_j1_mass_per_M": "1/6",
+    "retained_full_fixed_j1_ceiling_per_6M": "1/36",
+    "comparison_method_barrier_capacity_per_6M": "1/48",
+    "new_linear_log_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

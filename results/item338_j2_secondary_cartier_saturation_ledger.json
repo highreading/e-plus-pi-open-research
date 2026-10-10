@@ -1,0 +1,119 @@
+{
+  "item": 338,
+  "schema": "item338-j2-secondary-cartier-saturation-ledger-v1",
+  "classification": "PROVED_SECONDARY_CARTIER_DIAGONAL_COLLAPSE_AND_OFF_DIAGONAL_SATURATION_NO_GO",
+  "actual_family": {
+    "tied_phase": "p=2r+6s+3=6m+2d+1, m=s-1, d=r+4",
+    "fixed_M_relation": "2M=5r+14s+7",
+    "prime_interval_exact": "(4M+3)/5 <= p <= (6M-1)/7",
+    "raw_chebyshev_mass": "(2/35)M+o(M)",
+    "raw_capacity_per_6M": "1/105"
+  },
+  "actual_carrier": {
+    "definition": "G_(r,s)=gcd(abs(num(D)),abs(num(T_0)),abs(num(T_1)))",
+    "rowwise_equivalence": "p is an original collision iff p divides G_(r,s)",
+    "moving_target": "Phi_(r,s)=c_p+epsilon_p*h_m*P_(r+2)(m)=Theta_(r,s) mod p, jointly with D=0",
+    "status": "OPEN_WEIGHTED_DENSITY"
+  },
+  "secondary_cartier": {
+    "local_polynomial": "F_i(X)=(1-X)^(a_i)*(1+X)^(b_i)",
+    "carry_matrix": "M_i[alpha,beta]=[X^(k_i-alpha+ell*beta)]F_i(X)",
+    "exact_product": "[X^k](1-X)^a(1+X)^b=e_0^T product_i M_i e_0 mod ell",
+    "actual_parameters": "a=n=(p-1)/2, b=n+q=p-m-1, k=p",
+    "diagonal_specialization": "at ell=p the unique path is 0->1->0 with weights c_p and 1",
+    "diagonal_consequence": "the global digit factorization returns c_p itself and supplies no independent divisor or nonvanishing condition"
+  },
+  "safe_saturation": {
+    "ingredient_set": [
+      "f_0",
+      "f_1",
+      "b_0",
+      "b_1",
+      "v_0",
+      "v_1",
+      "B_s",
+      "kappa_r",
+      "tau_(r,s)",
+      "h_m",
+      "P_(r+2)(m)"
+    ],
+    "support_integer": "S_(r,s)=6*binom(2m,m)*product_x den(x)",
+    "definition": "G_sat is the largest divisor of G coprime to S",
+    "p_unit_reason": "all ingredient denominators are p-units and p>2m",
+    "equivalence": "p divides G iff p divides G_sat",
+    "capacity_reduction": 0
+  },
+  "finite_hit_anatomy": {
+    "classification": "EXACT FINITE REPLAY ONLY",
+    "rows": [
+      {
+        "row": [
+          331,
+          17,
+          49
+        ],
+        "carrier": 23,
+        "mechanism": "23 divides reduced denominators of b_0,b_1,kappa_r; poles cancel in final D,T_0,T_1",
+        "cartier_contributions_mod_23": [
+          20,
+          0
+        ],
+        "saturated_carrier": 1
+      },
+      {
+        "row": [
+          599,
+          7,
+          97
+        ],
+        "carrier": 173,
+        "mechanism": "v_173(binom(192,96))=1, so h_96=0 and c_599=Theta=162 mod 173",
+        "cartier_contributions_mod_173": [
+          171,
+          164
+        ],
+        "saturated_carrier": 1
+      }
+    ],
+    "character_counterexamples": [
+      [
+        251,
+        1,
+        41,
+        3
+      ],
+      [
+        281,
+        1,
+        46,
+        7
+      ]
+    ],
+    "character_conclusion": "opposite quadratic character is not a universal carrier law"
+  },
+  "scoped_no_go": {
+    "closed_as_sufficient_by_themselves": [
+      "base-prime Frobenius/carry factorization of c_p",
+      "bounded two-state automaton dimension",
+      "finite or asymptotic statistics of unsaturated off-diagonal carrier factors"
+    ],
+    "reason": "at ell=p the exact automaton has the original c_p as its distinguished transition, while the first foreign hits are removed by p-unit-safe saturation",
+    "not_closed": [
+      "target-correlated arithmetic of the distinguished transition",
+      "joint distribution of D and Phi-Theta on actual fixed-M rows",
+      "average gcd or monodromy after safe saturation",
+      "weighted zero density"
+    ]
+  },
+  "capacity": {
+    "raw_isolated_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  },
+  "master_ledger": {
+    "booked_r1_unchanged": "0.1365141682948128184504238226...",
+    "threshold_T_unchanged": "1.1561471519642446123307302239...",
+    "deficit_unchanged": "1.0196329836694317938803064012..."
+  },
+  "smallest_open_arithmetic_theorem": "prove sum log p=o(M) for actual fixed-M rows satisfying D=0 and c_p+epsilon_p*h_m*P_(r+2)(m)=Theta_(r,s) mod p, equivalently p divides G_sat"
+}

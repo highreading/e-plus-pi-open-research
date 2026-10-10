@@ -1,0 +1,63 @@
+{
+  "schema": "item270-root-audit-v1",
+  "audited": "2026-08-31 Asia/Shanghai",
+  "status": "PASS",
+  "booking": {
+    "new_unconditional_route1_rate": 0,
+    "new_independent_valuation_copy": 0,
+    "new_weighted_zero_theorem": 0,
+    "far_raw_ceiling": "unchanged",
+    "affected_far_coefficient_per_M": "1139587/9085230"
+  },
+  "root_findings": [
+    "The infinity-aware twisted-de-Rham reduction has exact rank three over Q(s), with basis X_s=(g0(s),g1(s),g0(s+1)).",
+    "The degree-13 certificate numerator is essential: retaining its constant-at-infinity terms gives nullity two, whereas the certified degree-11 truncation gives nullity zero.",
+    "The two exact three-layer syzygies and the Item-268 adjacent identity define a rational 3x3 transfer with the displayed nonzero determinant.",
+    "After reduction, every transfer, inverse-transfer, basis, and future-minor divisor is linear apart from fixed primes 2,3,5,211.",
+    "The current common gate has codimension two in a rank-three state and leaves the line X_s=(0,0,u). Every defined fixed forward or backward shift window is an invertible image of this same line.",
+    "Transported line equations do not force u=0 and must not be counted as extra scalar conditions or valuation copies. A later common gate would be a new accidental event.",
+    "The exact p=2399 actual row has u=2105 nonzero and adjacent pair (2105,1694), proving actual occupation of the surviving line.",
+    "For every fixed window radius L, p dividing any exceptional a(s+h)+b forces p to divide the fixed-M integer a(2M+1)-ah-b. The finite product has O_L(log M) logarithmic height.",
+    "The far branch passes the raw-capacity screen, but the all-shift theorem supplies no weighted common-zero upper bound. The raw ceiling and booked Route-1 rate are unchanged.",
+    "The no-go is scoped to fixed or uniformly bounded linear contiguous windows; unbounded windows, nonlinear invariants, and external cross-parameter conditions remain open."
+  ],
+  "independent_probe": {
+    "script": "scripts/item270_root_independent_probe.py",
+    "script_sha256": "87599e90e91f11b33245359ebe200f2729fea860c5f7153e5eeb3bf96b5509b7",
+    "result": "results/item270_root_independent_probe.json",
+    "result_sha256": "b9333c081d5d3c72e013cd83a021554404997419dc911c6247ffffb5191bb64e",
+    "adjacent_identity_rows": 25,
+    "three_layer_syzygy_rows": 50,
+    "transfer_rows": 25,
+    "transfer_determinant_rows": 25,
+    "container_identity_rows": 2772,
+    "actual_nonpropagation_witnesses": 1,
+    "common_zero_search_performed": false,
+    "label": "EXACT FINITE identity replay plus the separate exact all-parameter CT reduction and container proof"
+  },
+  "sealed_package": {
+    "report_sha256": "959586afb84560ac695237a0a5438190635b1d2bf33141d5ff0144da9d437143",
+    "checker_sha256": "8c09bf87b2e1129920a1f3d51f0bcb127d0d8647a6d9caf471112d917326f6ba",
+    "canonical_sha256": "275d0de6023350db662da56f5cbab3839e86e02930cfb9e2643bfcf7fa0d2235",
+    "packaged_replay_sha256": "275d0de6023350db662da56f5cbab3839e86e02930cfb9e2643bfcf7fa0d2235",
+    "archive_replay_sha256": "275d0de6023350db662da56f5cbab3839e86e02930cfb9e2643bfcf7fa0d2235",
+    "root_replay": "results/item270_root_replay.json",
+    "root_replay_sha256": "275d0de6023350db662da56f5cbab3839e86e02930cfb9e2643bfcf7fa0d2235",
+    "ledger_sha256": "18c6167e237cedcdc5d3904f9ab80f88364e2f0316b7acd1b9fad2c03f528817",
+    "manifest_sha256": "a2f545f3f08200e774b6e3c885dad3a10200d3a2bfa2851a0c0996ccc8dbf9c1",
+    "hash_ledger_sha256": "c659ebe9cc0733b7d2eed30f55671e90dc65f04b4f29c2810af9a78b2ac70bc2",
+    "hash_ledger_entries_checked": 7,
+    "hash_ledger_entries_matched": 7,
+    "dependency_entries_checked": 4,
+    "dependency_entries_matched": 4,
+    "canonical_packaged_archive_root_replays_byte_identical": true
+  },
+  "layout": {
+    "report_bytes": 15180,
+    "report_lines": 462,
+    "display_delimiters": "36/36",
+    "inline_delimiters": "102/102",
+    "forbidden_control_characters": 0
+  },
+  "strict_scope": "Item 270 closes the entire fixed or uniformly bounded linear contiguous shift tower as a source of collision-forced extra codimension. It does not close unbounded windows, nonlinear invariants, external cross-parameter mechanisms, the weighted common-zero problem, or Route 1."
+}

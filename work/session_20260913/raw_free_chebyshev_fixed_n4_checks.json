@@ -1,0 +1,36 @@
+{
+  "scope": "The predeclared free-model n=4 block f5,f6,f7 only; exact rational symbolic controls.",
+  "polynomials": {
+    "5": "4*x**5/15 + 16*x**3/3 + 6*x",
+    "6": "4*x**6/45 + 10*x**4/3 + 12*x**2 + 1",
+    "7": "8*x**7/315 + 8*x**5/5 + 40*x**3/3 + 8*x"
+  },
+  "ordered_basis": [
+    5,
+    7,
+    6
+  ],
+  "wronskians": [
+    "2*x*(2*x**4 + 40*x**2 + 45)/15",
+    "32*x**3*(2*x**8 + 80*x**6 + 1605*x**4 + 4410*x**2 + 11025)/4725",
+    "-32*x*(8*x**14 + 60*x**12 + 4860*x**10 + 95400*x**8 - 769500*x**6 + 1148175*x**4 + 4961250*x**2 - 1488375)/212625"
+  ],
+  "T_at_zero": "-1488375",
+  "T_at_one": "3951878",
+  "T_derivative_positive_certificate": true,
+  "identities": {
+    "5": {
+      "scalar_operator": true,
+      "actual_averaging_identity": true
+    },
+    "6": {
+      "scalar_operator": true,
+      "actual_averaging_identity": true
+    },
+    "7": {
+      "scalar_operator": true,
+      "actual_averaging_identity": true
+    }
+  },
+  "all_assertions_passed": true
+}

@@ -1,0 +1,150 @@
+{
+  "description": "Exact finite checks for the Bessel high-tail gap/singleton reduction",
+  "finite_identity_audit": {
+    "consecutive_gcd_checks": 90,
+    "continuant_identity_checks": 1035,
+    "exact_q_limit": 90,
+    "gap_upper_bound_checks": 1035,
+    "gcd_identity_checks": 1035
+  },
+  "ordinary_high_tail_example": {
+    "averaging_interval": [
+      1359,
+      2717
+    ],
+    "first_level_delta_mod_prime": 10,
+    "first_tail_exponent": 4,
+    "index": 1359,
+    "indices_divisible_at_first_tail_level": [
+      1359
+    ],
+    "lift_records": [
+      {
+        "child_modulus": 121,
+        "child_residues_mod_child_modulus": [
+          22,
+          110,
+          0,
+          11,
+          99,
+          33,
+          77,
+          55,
+          55,
+          77,
+          33
+        ],
+        "level_exponent": 1,
+        "modulus": 11,
+        "number_of_children": 1,
+        "representative": 6,
+        "root_digits": [
+          2
+        ]
+      },
+      {
+        "child_modulus": 1331,
+        "child_residues_mod_child_modulus": [
+          0,
+          121,
+          1089,
+          363,
+          847,
+          605,
+          605,
+          847,
+          363,
+          1089,
+          121
+        ],
+        "level_exponent": 2,
+        "modulus": 121,
+        "number_of_children": 1,
+        "representative": 28,
+        "root_digits": [
+          0
+        ]
+      },
+      {
+        "child_modulus": 14641,
+        "child_residues_mod_child_modulus": [
+          1331,
+          0,
+          13310,
+          2662,
+          10648,
+          5324,
+          7986,
+          7986,
+          5324,
+          10648,
+          2662
+        ],
+        "level_exponent": 3,
+        "modulus": 1331,
+        "number_of_children": 1,
+        "representative": 28,
+        "root_digits": [
+          1
+        ]
+      },
+      {
+        "child_modulus": 161051,
+        "child_residues_mod_child_modulus": [
+          0,
+          146410,
+          29282,
+          117128,
+          58564,
+          87846,
+          87846,
+          58564,
+          117128,
+          29282,
+          146410
+        ],
+        "level_exponent": 4,
+        "modulus": 14641,
+        "number_of_children": 1,
+        "representative": 1359,
+        "root_digits": [
+          0
+        ]
+      },
+      {
+        "child_modulus": 1771561,
+        "child_residues_mod_child_modulus": [
+          483153,
+          1127357,
+          805255,
+          805255,
+          1127357,
+          483153,
+          1449459,
+          161051,
+          0,
+          1610510,
+          322102
+        ],
+        "level_exponent": 5,
+        "modulus": 161051,
+        "number_of_children": 1,
+        "representative": 1359,
+        "root_digits": [
+          8
+        ]
+      }
+    ],
+    "prime": 11,
+    "q_index_mod_prime_to_6": 483153,
+    "tail_level_count": 2,
+    "valuation": 5
+  },
+  "ordinary_square_example": {
+    "first_level_delta_mod_prime": 1,
+    "index": 8,
+    "prime": 13,
+    "q_index": 312129649,
+    "valuation": 2
+  }
+}

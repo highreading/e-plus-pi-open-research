@@ -1,0 +1,337 @@
+{
+  "actual_prescribed_scan": {
+    "actual_all_lift_rows": [],
+    "classification": "EXPERIMENTAL_FINITE_NOT_AN_ALL_PRIME_THEOREM",
+    "direct_continuant_checks_through_251": 20,
+    "lower_large_prime_square_rows": [],
+    "noncentral_lower_root_rows": 1133,
+    "normalization_target_checks": 1133,
+    "prime_limit": 20000,
+    "row_stream_sha256": "2ca5a5f7703c3c1c625b79362d95f1bcbca1291547bf6a4e1c316e560268568b",
+    "upper_mate_square_rows": [
+      {
+        "D_h_mod_p": 12,
+        "N": 4,
+        "T_N_mod_p": 0,
+        "actual_all_lift": false,
+        "h": 1,
+        "lambda_lower": 12,
+        "lambda_upper": 0,
+        "left_factorial_mod_p": 10,
+        "lower_square": false,
+        "p": 13,
+        "reflected_index": 8,
+        "upper_square": true
+      }
+    ]
+  },
+  "canonical_target_regression": {
+    "N_range": [
+      1,
+      100
+    ],
+    "all_exact": true,
+    "checks": 100,
+    "row_stream_sha256": "21d894fa57ae4169d5438212b932a24d7e7c307a55b4d1927e509efad57a10be",
+    "selected_rows": [
+      {
+        "N": 2,
+        "P_digits": 2,
+        "T_N": "0",
+        "b_digits": 2,
+        "carry_C_N": "-4",
+        "q_digits": 1
+      },
+      {
+        "N": 3,
+        "P_digits": 3,
+        "T_N": "27",
+        "b_digits": 3,
+        "carry_C_N": "69",
+        "q_digits": 2
+      },
+      {
+        "N": 4,
+        "P_digits": 4,
+        "T_N": "26",
+        "b_digits": 4,
+        "carry_C_N": "66",
+        "q_digits": 4
+      },
+      {
+        "N": 8,
+        "P_digits": 9,
+        "T_N": "115842448",
+        "b_digits": 10,
+        "carry_C_N": "314892416",
+        "q_digits": 9
+      },
+      {
+        "N": 20,
+        "P_digits": 30,
+        "T_N": "109338208383162633982592571920",
+        "b_digits": 31,
+        "carry_C_N": "297212065004219432724617704552",
+        "q_digits": 30
+      },
+      {
+        "N": 50,
+        "P_digits": 94,
+        "T_N": "711831259347594517592238258193345216472926038956237517739368033423657854357884803529337203391",
+        "b_digits": 95,
+        "carry_C_N": "1934957977213684060667433927566309186457417893151963416170014207906126675695420018988457452071",
+        "q_digits": 94
+      },
+      {
+        "N": 100,
+        "P_digits": 218,
+        "T_N": "2316932464508397983701425933261445713611696468726405641357006893582519367273262300178073412371253136743154972918028942929475418404222312148448005960272833409345567605547259116129866732102324196082853173589520924870637",
+        "b_digits": 218,
+        "carry_C_N": "6298075416040010000971574742906899051565933277273943003267538552381194993967295544443702188034031591229214107745322292501900950741735982921619150471473185892624791002588786608191214096520166567335435443542247324646397",
+        "q_digits": 217
+      }
+    ]
+  },
+  "classification": {
+    "EXPERIMENTAL_FINITE": [
+      "actual prescribed-index scan through p<=20000",
+      "small-prime square-divisor and formal lift-digit fixtures"
+    ],
+    "OPEN": [
+      "existence of a prime p>2N+1 with p^2|q_N at a lower prescribed index",
+      "existence of any actual noncentral all-lift pair",
+      "any sub-capacity all-N bound for the large-prime squarefull radical",
+      "any nonvanishing or density theorem for the prescribed left-factorial residues or their lift digits",
+      "actual coefficient valuation, divided matching, saddle synchronization, and a small moving-CRT representative"
+    ],
+    "PROVED": [
+      "gcd(P_N,q_N)=1 and the canonical actual-seed target T_N exists modulo q_N",
+      "at a prescribed actual root, gcd(p,D_h)=gcd(p,!p-T_N)",
+      "actual paired all-lift iff p^2|q_N and !p=T_N mod p",
+      "under p^2|q_N the first residual quotient is P_N*(!p-T_N)/p mod p",
+      "the p-adic Euler sum is (1-p)!p mod p^2, so no Wilson quotient occurs at this digit",
+      "the exact local identities alone permit every next left-factorial lift digit and cannot improve the full squarefull-radical ceiling"
+    ]
+  },
+  "dependency_sha256": {
+    "sources/item166_actual_singular_report.md": "2a8f1c84b91fa7d18fb02417cf480baae819afa795968375e5a3767fc0f52f76",
+    "sources/item193_actual_seed_invariant_report.md": "85a0335501e5c81e6d45c2a33139fca2ac24be54324d40fe45d82f891cf51cb9",
+    "sources/item198_actual_all_lift_pair_report.md": "aad8ed39bd63717aae162d0cbcc60ec9d27c023b16c44e554442cd38d49ae749"
+  },
+  "euler_two_digit_regression": {
+    "all_exact": true,
+    "checks": 53,
+    "identity": "sum_(j>=0)j! = (1-p)*sum_(j=0)^(p-1)j! mod p^2",
+    "prime_range": [
+      3,
+      251
+    ],
+    "row_stream_sha256": "98b62b306516357f16268cd655759e91d2bc91a72bdd385fb169fef064ec5eeb",
+    "wilson_quotient_needed_at_this_digit": false
+  },
+  "exact_identities": {
+    "all_lift": "p^2|q_N and p|D_h iff p^2|q_N and !p=T_N mod p",
+    "canonical_target": "P_N*T_N=b_N mod q_N, 0<=T_N<q_N",
+    "next_euler_digit": "(P_N*E_p-b_N)/p=P_N*((!p-T_N)/p-T_N) mod p",
+    "normalization_filter": "if p=2N+2h+3 is prime and p|q_N, then gcd(p,D_h)=gcd(p,!p-T_N)",
+    "p_adic_euler_two_digits": "E_p=sum_(j>=0)j!=(1-p)!p mod p^2",
+    "squarefull_quotient": "if p^2|q_N and !p=T_N mod p, then (P_N*!p-b_N)/p=P_N*(!p-T_N)/p mod p",
+    "target_from_wronskian": "T_N=(-1)^(N-1)*b_N*q_(N-1)/2 mod q_N"
+  },
+  "item": 202,
+  "logical_separation": [
+    "actual root existence at prescribed N",
+    "large-prime square divisibility p^2|q_N",
+    "local singular/all-lift residue !p=T_N mod p",
+    "next left-factorial/Euler lift digit",
+    "actual mixed-coefficient valuation",
+    "same-index divided matching",
+    "saddle-compatible small moving-CRT representative"
+  ],
+  "mass_ledger": {
+    "R_squared_required_log_R_per_m": "0.05889895100829538164",
+    "all_lift_radical": "R_N=product of p>2N+1 with p^2|q_N and !p=T_N mod p",
+    "beta_log_q_N_per_6m": "1.1685311871794864979",
+    "post_3m_gap_per_6m": "0.01963298366943179388",
+    "proved_capacity_only": "R_N^2 divides q_N"
+  },
+  "squarefull_quotient_fixtures": {
+    "N_79_simultaneous_squared_primes": [
+      7,
+      31
+    ],
+    "actual_q_N_square_divisor_rows": 15,
+    "classification": "FINITE_FORMAL_LOCAL_DATA_FIXTURES_NOT_PRESCRIBED_ALL_LIFT_ROWS",
+    "formal_lift_digits_are_arbitrary": true,
+    "index_limit": 200,
+    "prime_limit": 499,
+    "row_stream_sha256": "7d35be2eb491f4839b7361b05a896d753d924fa6710bcc8ad5d2ee357cfd6b8d",
+    "rows": [
+      {
+        "N": 8,
+        "T_N_mod_p_squared": 46,
+        "p": 13,
+        "tested_formal_lift_digits": [
+          0,
+          1,
+          12
+        ],
+        "v_p_at_least_2": true
+      },
+      {
+        "N": 18,
+        "T_N_mod_p_squared": 5,
+        "p": 7,
+        "tested_formal_lift_digits": [
+          0,
+          1,
+          6
+        ],
+        "v_p_at_least_2": true
+      },
+      {
+        "N": 28,
+        "T_N_mod_p_squared": 31,
+        "p": 11,
+        "tested_formal_lift_digits": [
+          0,
+          1,
+          10
+        ],
+        "v_p_at_least_2": true
+      },
+      {
+        "N": 30,
+        "T_N_mod_p_squared": 42,
+        "p": 7,
+        "tested_formal_lift_digits": [
+          0,
+          1,
+          6
+        ],
+        "v_p_at_least_2": true
+      },
+      {
+        "N": 67,
+        "T_N_mod_p_squared": 42,
+        "p": 7,
+        "tested_formal_lift_digits": [
+          0,
+          1,
+          6
+        ],
+        "v_p_at_least_2": true
+      },
+      {
+        "N": 79,
+        "T_N_mod_p_squared": 5,
+        "p": 7,
+        "tested_formal_lift_digits": [
+          0,
+          1,
+          6
+        ],
+        "v_p_at_least_2": true
+      },
+      {
+        "N": 79,
+        "T_N_mod_p_squared": 544,
+        "p": 31,
+        "tested_formal_lift_digits": [
+          0,
+          1,
+          30
+        ],
+        "v_p_at_least_2": true
+      },
+      {
+        "N": 92,
+        "T_N_mod_p_squared": 114,
+        "p": 11,
+        "tested_formal_lift_digits": [
+          0,
+          1,
+          10
+        ],
+        "v_p_at_least_2": true
+      },
+      {
+        "N": 116,
+        "T_N_mod_p_squared": 5,
+        "p": 7,
+        "tested_formal_lift_digits": [
+          0,
+          1,
+          6
+        ],
+        "v_p_at_least_2": true
+      },
+      {
+        "N": 128,
+        "T_N_mod_p_squared": 42,
+        "p": 7,
+        "tested_formal_lift_digits": [
+          0,
+          1,
+          6
+        ],
+        "v_p_at_least_2": true
+      },
+      {
+        "N": 149,
+        "T_N_mod_p_squared": 114,
+        "p": 11,
+        "tested_formal_lift_digits": [
+          0,
+          1,
+          10
+        ],
+        "v_p_at_least_2": true
+      },
+      {
+        "N": 160,
+        "T_N_mod_p_squared": 52,
+        "p": 13,
+        "tested_formal_lift_digits": [
+          0,
+          1,
+          12
+        ],
+        "v_p_at_least_2": true
+      },
+      {
+        "N": 165,
+        "T_N_mod_p_squared": 42,
+        "p": 7,
+        "tested_formal_lift_digits": [
+          0,
+          1,
+          6
+        ],
+        "v_p_at_least_2": true
+      },
+      {
+        "N": 177,
+        "T_N_mod_p_squared": 5,
+        "p": 7,
+        "tested_formal_lift_digits": [
+          0,
+          1,
+          6
+        ],
+        "v_p_at_least_2": true
+      },
+      {
+        "N": 177,
+        "T_N_mod_p_squared": 52,
+        "p": 13,
+        "tested_formal_lift_digits": [
+          0,
+          1,
+          12
+        ],
+        "v_p_at_least_2": true
+      }
+    ]
+  }
+}

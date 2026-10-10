@@ -1,0 +1,115 @@
+{
+  "schema": "item337-beta-global-cofactor-lcm-capacity-manifest-v1",
+  "item": 337,
+  "title": "The global beta cofactor tower has a primitive bulk LCM invariant",
+  "date": "2026-09-01",
+  "status": "PROVED_GLOBAL_LCM_CAPACITY_DECISION_FIRST_BULK_INVARIANT",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item265_beta_squarefull_capacity_report.md": "c41d8d2c813d4952ce5a038f291b932817c28ae5b0b1512df0a6bf0ba92a8daa",
+    "results/item265_root_audit.json": "72e5f43c554e326d101d1b2c55de76f277a5a817eaa6b0fc2837dd8f6bbee24a",
+    "sources/item316_beta_intermediate_ostrowski_no_go_report.md": "8d6dce8354f08e94a252a2120cf677d9a374df95507a9297dcb064a1982fb6b0",
+    "results/item316_root_audit.json": "6cad978132f5f09c687aa8fcf8dcd92a7d917cf9411a69f679c7757139229175",
+    "sources/item323_beta_all_depth_dual_transducer_no_go_report.md": "e0b5e7279079a17556a0b287ea18a40e461b6fdb8e45d8ef5a357434b8e6d9ef",
+    "results/item323_beta_all_depth_dual_transducer_no_go_root_audit.json": "2455ebbc739cc235bea44e0d220dae6d29be73eac5a9e8a846465366562ca6c2",
+    "sources/item335_beta_first_canonical_cofactor_zero_rate_report.md": "15bd02042bf8a11e774faeed48e21e3de9d89087e04e88df06d0db664041693c"
+  },
+  "external_published_input": {
+    "author": "Javier Cilleruelo",
+    "title": "The least common multiple of a quadratic sequence",
+    "url": "https://arxiv.org/abs/1001.3438",
+    "use": "the irreducible-quadratic LCM asymptotic applied to 32r^2-3",
+    "reproved_by_replay": false
+  },
+  "artifacts": [
+    {
+      "path": "work/item337_beta_global_cofactor_lcm_capacity_report.md",
+      "role": "global primitive-lcm theorem, exact overlap ledger, ambient lower bound, and actual-family scope",
+      "bytes": 13069,
+      "sha256": "c997cce3ca0808acaa9b4a63e1ea29c68933ec950a48dcf7a6a8d0280b90f6d9"
+    },
+    {
+      "path": "work/item337_beta_global_cofactor_lcm_capacity_certificate.py",
+      "role": "standard-library exact deterministic replay",
+      "bytes": 16580,
+      "sha256": "88d85e7cd930f3a857c31a48cad5bb583d30945bd2ecaeb762ecdb257d0ec8fc"
+    },
+    {
+      "path": "work/item337_beta_global_cofactor_lcm_capacity_certificate.json",
+      "role": "work-package certificate output",
+      "bytes": 37504,
+      "sha256": "14b33025d307aa9c3bc6a833b59f8e3f44acafc8d33e81fdae02b5fd761e4b4d"
+    },
+    {
+      "path": "work/item337_beta_global_cofactor_lcm_capacity_certificate.replay.json",
+      "role": "independent byte-identical replay output",
+      "bytes": 37504,
+      "sha256": "14b33025d307aa9c3bc6a833b59f8e3f44acafc8d33e81fdae02b5fd761e4b4d"
+    },
+    {
+      "path": "work/item337_beta_global_cofactor_lcm_capacity_ledger_delta.json",
+      "role": "proposed ledger delta; no canonical edit",
+      "bytes": 3234,
+      "sha256": "9d69d37a63c942d6b18ebc165802e4e370c3b4a47e6daa6fc46e824983682af6"
+    }
+  ],
+  "replay": {
+    "command": "python work/item337_beta_global_cofactor_lcm_capacity_certificate.py --output work/item337_beta_global_cofactor_lcm_capacity_certificate.replay.json",
+    "expected_stdout": {
+      "actual_target_mass": "OPEN",
+      "ambient_lcm_lower_rate": "AT_LEAST_ONE_HALF",
+      "booking": 0,
+      "centered_half_bound": "OPEN",
+      "item": 337,
+      "status": "PROVED_GLOBAL_LCM_CAPACITY_DECISION_FIRST_BULK_INVARIANT"
+    },
+    "expected_replay_sha256": "14b33025d307aa9c3bc6a833b59f8e3f44acafc8d33e81fdae02b5fd761e4b4d",
+    "dependency_hashes_verified_before_output": 7
+  },
+  "proved": [
+    "Lambda=lcm|z_j| removes repeated prime powers across every depth exactly.",
+    "Gamma_Q=log gcd(Q,Lambda) is the exact captured mass for one declared de-overlapped target.",
+    "The raw lcm has universal upper rate at most two and one target has ceiling one.",
+    "A canonical exact-intermediate-window family has |z_(2r)|=32r^2-3.",
+    "Cilleruelo's theorem gives ambient primitive-lcm rate at least one half.",
+    "The full growing-depth tower is not zero rate from canonical/window/overlap information alone."
+  ],
+  "strict_scope": {
+    "closes": [
+      "depthwise product booking and repeated prime-power counting",
+      "the proposed extension of Item 335's fixed-complexity zero-rate theorem to every growing-depth canonical tower"
+    ],
+    "isolates": [
+      "Lambda as the first admitted bulk cofactor invariant",
+      "Gamma_Q as the actual target-specific shared-prime problem"
+    ],
+    "does_not_close": [
+      "the Item-316 all-digit target or centered half-bound",
+      "actual target-specific shared mass, old-factor removal, or a capacity reduction",
+      "beta capacity, Route 1, or e+pi"
+    ]
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact lcm overlap identity, universal upper, one-target ceiling, canonical witness, quadratic subsequence, and literature-backed ambient lower bound"
+    ],
+    "PROVED_CAPACITY_DECISION": [
+      "the first bulk invariant survives raw admission, while actual overlap remains unproved"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared canonical rows and exact integer lcm/product/valuation controls"
+    ],
+    "OPEN": [
+      "actual Gamma_Q, half-bound, beta capacity, Route 1, and e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_lcm_universal_upper_rate": 2,
+    "raw_lcm_ambient_lower_rate": "at least 1/2+o(1)",
+    "one_target_universal_upper_rate": 1,
+    "actual_target_rate": "OPEN",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "booking": 0
+  }
+}

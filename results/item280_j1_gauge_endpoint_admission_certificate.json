@@ -1,0 +1,90 @@
+{
+  "all_parameter_theorem": {
+    "actual_rows": "p=4h+6s+3 prime, h,s>=1, 3 does not divide h",
+    "common_residual": "Item236 identifies the lower and upper residuals; Item243 makes their common value zero whenever E_h^*=0 mod p",
+    "conclusion": "original j=1 collision implies E_h^*=K_h=0 mod p",
+    "endpoint_equations_on_a_collision": [
+      "t_(s+1)*L_h=2*d_h",
+      "t_J*U_h=F_h-3*d_h",
+      "t_J/t_(s+1)=eta_h"
+    ],
+    "gauge": "c_h^*=R_h*E_h^*, with R_h a p-unit",
+    "natural_endpoint_scalar": "K_h=2*d_h*U_h*eta_h-L_h*(F_h-3*d_h)",
+    "smallest_integer_restatement": "if N_E,N_K are the reduced numerators, then p divides gcd(N_E(h),N_K(h))"
+  },
+  "capacity": {
+    "booking": 0,
+    "conditional_j1_cell": "1/6 per m = 1/36 per 6m",
+    "new_divisibility_exponent": 0,
+    "new_unconditional_linear_log_rate": 0
+  },
+  "dependencies": {
+    "item222_j1_phase_resultant_certificate.py": "c16f75156ba8424c567163cedc6a93a7656c8a53036b48ef69b06327d76ad44b",
+    "item229_j1_fixed_h_theta_certificate.py": "a8e2028ca6a53f8c843c25be375feac50e4704538686ee1e3a835f89aa11780f",
+    "item231_j1_second_phase_coefficient_certificate.py": "b2ab5da4624a6b91d10a52976c6996b2e04b077f0b12c02a581a1551f6879045",
+    "item236_j1_phase_cokernel_certificate.py": "a1aaa2dc857420b555b52a9d96282a37b193834069815194f3ccc0531b7aed96",
+    "item243_order6_gauge_closure_certificate.json": "0ec0052ea270a84828cb1934373ad05e8e5b00cbf72e0d970ff805e716078546",
+    "item243_order6_gauge_closure_certificate.py": "d619e0809aaa89b5d11cbe30a92a3e7f8cf14237f45dd066aedf84e017bbfdd8"
+  },
+  "divisor_height_weighted_mass_admission": {
+    "admission": "FAIL: no collective gcd/radical estimate and no weighted-density theorem",
+    "divisor_localization": "all surviving collision primes for fixed h divide gcd(N_E(h),N_K(h))",
+    "gcd_height_consequence": "log gcd(N_E,N_K)<=log|A_h|=O(h log h) when A_h is nonzero",
+    "height_bound_when_A_h_nonzero": "|A_h|<=47h*M_h^4, M_h=(h+3)2^(2h+4)(21h)^(h+2)",
+    "inherited_integer_clearing": "E_h^*=A_h/[2(4h+3)D_xD_yD_uD_v]",
+    "small_h_strip": "h=o(H/log H) has zero linear weight, as in Item222; the unbounded-h range remains uncontrolled",
+    "summed_bound": "sum_(h<=H) O(h log h)=O(H^2 log H), not o(H)",
+    "zero_integer_case": "if A_h=0, the individual E-height argument supplies no restriction and a separate K theorem is still required"
+  },
+  "finite_replay": {
+    "admissible_h_count": 27,
+    "classification": "EXACT FINITE ONLY; NOT USED TO INFER THE ALL-h GCD PATTERN",
+    "exact_low_high_and_gauge_equalities": 54,
+    "finite_patterns_only": {
+      "largest_prime_in_E_numerator_after_gcd_with_K": 79,
+      "largest_prime_in_reduced_denominator_of_K_over_c": 79,
+      "pointwise_bounds_checked": "prime(E_num/gcd)<=4h+3 and prime(den(K/c))<4h+9"
+    },
+    "h_max": 40,
+    "max_denominator_prime_in_replay": {
+      "E": 163,
+      "K": 79,
+      "gauge_ratio": 79
+    },
+    "row_stream_sha256": "9d165331a6ede6df7c936585dd526ff3d13d8db15e093d7076543def8a60e080"
+  },
+  "formal_elimination": {
+    "K": "2*d*eta*U-L*(F-3*d)",
+    "Second": "c*T+eta*t*U-F+3*d",
+    "Theta": "c*S+t*L-2*d",
+    "consequence": "Theta=Second=c=0 implies K=0 in every commutative coefficient ring",
+    "division_by_L_U_d_or_t": false,
+    "identity": "eta*U*Theta-L*Second=c*(eta*U*S-L*T)-K",
+    "label": "PROVED FORMAL IDENTITY",
+    "monomial_terms_after_expansion": 5
+  },
+  "open": [
+    "prove a unit-localized all-h gcd or resultant theorem for N_E and N_K",
+    "decide whether K is redundant modulo every moving prime dividing E or adds genuine arithmetic codimension",
+    "prove a collective radical or weighted prime-log-mass bound",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "schema": "item280-j1-gauge-endpoint-admission-v1",
+  "strict_labels": {
+    "K_adds_arithmetic_codimension": "OPEN; NOT PROVED",
+    "K_is_redundant_after_E": "OPEN; NOT PROVED",
+    "all_actual_collision_to_simultaneous_E_K_divisibility": "PROVED",
+    "all_actual_denominators_are_units": "PROVED",
+    "division_free_endpoint_elimination": "PROVED",
+    "finite_gcd_patterns": "EXACT FINITE ONLY",
+    "new_Route_1_booking": 0,
+    "weighted_prime_mass_saving": "FAIL; NOT PROVED"
+  },
+  "unit_audit": {
+    "E": "Item222 clearing factors have absolute value at most 4h+3<p",
+    "Gosper_antidifferences": "binomial-polynomial denominators divide (2h)!; triangular inversion adds only powers of 2; phase substitution adds only powers of 2 and 3",
+    "consequence": "the reduced denominators of E_h^* and K_h are p-units on every actual row",
+    "endpoint_ratio": "its possible denominator factors are powers of 2,3 and the nonzero odd integers 6i-4h+9 (0<=i<=h), all of absolute value <4h+9<=p",
+    "gauge": "Item243/229 transition product has no actual numerator or denominator zero"
+  }
+}

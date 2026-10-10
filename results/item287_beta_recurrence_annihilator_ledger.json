@@ -1,0 +1,115 @@
+{
+  "schema": "item287-beta-recurrence-annihilator-ledger-v1",
+  "scope": "Recurrence-universal polynomial and rational annihilators or lifts for the beta boundary unit, separated from arithmetic congruences special to the seed q_0=q_1=1 and from proper de-overlapped targets",
+  "claims": [
+    {
+      "id": "I287-C1",
+      "label": "PROVED",
+      "claim": "Every fixed beta recurrence window q_(n+j) is an A-linear form in two algebraically free generic state variables X=q_n and Y=q_(n+1).",
+      "evidence": "report Section 2 and exact transfer-matrix inversion",
+      "scope_limit": "the special integral seed may satisfy arithmetic congruences not valid for a generic state"
+    },
+    {
+      "id": "I287-C2",
+      "label": "PROVED_KERNEL_THEOREM",
+      "claim": "For Phi:X->0 and U->-Y^2 on A[X,Y,U], ker Phi is exactly (X,U+Y^2).",
+      "evidence": "report Section 3; the quotient by that ideal is canonically A[Y]",
+      "scope_limit": "A is a polynomial or rational-function coefficient ring with only declared denominator units inverted"
+    },
+    {
+      "id": "I287-C3",
+      "label": "PROVED_SCOPED_NO_GO",
+      "claim": "No positive-degree monic polynomial in A[U], including denominator-cleared rational coefficients in n, is a recurrence-universal annihilator of -Y^2 modulo X.",
+      "evidence": "report equations (3.5)-(3.10); the nonzero leading term is (-1)^d Y^(2d)",
+      "scope_limit": "this does not exclude an orbit-specific congruence on q_0=q_1=1"
+    },
+    {
+      "id": "I287-C4",
+      "label": "PROVED_TAUTOLOGICAL_CLASSIFICATION",
+      "claim": "Every state-dependent recurrence-universal annihilator is (U+Y^2)G+XH, and every universal lift is -Y^2+XH.",
+      "evidence": "report Sections 3-4, monic division by U+Y^2",
+      "scope_limit": "the classification identifies explicit reuse of q_(n+1) or q_n; it does not lower their height"
+    },
+    {
+      "id": "I287-C5",
+      "label": "PROVED_PROPER_TARGET_KERNEL",
+      "claim": "For every integer Q>=2, the formal arbitrary-boundary-state kernel of Z[Y,U] -> (Z/QZ)[Y], U->-Y^2, is exactly (Q,U+Y^2).",
+      "evidence": "report Section 5, exact quotient-ring isomorphism",
+      "scope_limit": "a relation at the one actual residue Y=q_(n+1) may be nonformal and remains open"
+    },
+    {
+      "id": "I287-C6",
+      "label": "PROVED_DEGREE_ONE_EQUIVALENCE",
+      "claim": "A monic linear annihilator U+a exists exactly when a=Y^2-kQ; v=-a is precisely an integer lift of -Y^2 modulo Q.",
+      "evidence": "report Section 6",
+      "scope_limit": "computing k by division merely repackages Y and Q unless a uniform O(n)-height theorem is proved"
+    },
+    {
+      "id": "I287-C7",
+      "label": "PROVED_DENOMINATOR_CONDITION",
+      "claim": "A rational-coefficient monic congruence can be cleared without changing the target condition only where the common denominator is a unit modulo Q.",
+      "evidence": "report equation (3.9)",
+      "scope_limit": "nonunit denominator factors must be explicitly removed or accounted for"
+    },
+    {
+      "id": "I287-C8",
+      "label": "PROVED_REPACKAGING_BARRIER",
+      "claim": "The canonical annihilator U+q_(n+1)^2 and explicit modulus multiples have n log n coefficient height and do not satisfy the Item285 O(n) admission budget.",
+      "evidence": "report Sections 4, 5, and 7",
+      "scope_limit": "an independently simplified orbit-specific coefficient of O(n) height would be new arithmetic, not ruled out"
+    },
+    {
+      "id": "I287-C9",
+      "label": "PROVED_DEOVERLAP_AND_BASELINE_SPLIT",
+      "claim": "All proper-target statements allow Q|q_n/gcd(q_n,D_m), while gcd(Q,B_n) remains the separate Item282 common product baseline.",
+      "evidence": "report Sections 5 and 8",
+      "scope_limit": "no weighted-return cover is proved"
+    },
+    {
+      "id": "I287-C10",
+      "label": "OPEN_EXACT_MISSING_LEMMA",
+      "claim": "The first admissible continuation is an orbit-specific, factorization-independent low-height lift or monic annihilator with nonzero O(n)-height resultant.",
+      "evidence": "report Section 7",
+      "scope_limit": "no such actual-family object is constructed"
+    },
+    {
+      "id": "I287-C11",
+      "label": "EXACT_FINITE_ONLY",
+      "claim": "The deterministic checker replays exact sparse-polynomial kernels, rational denominator units, fixed-window states, degree-one lifts, and resultant repackaging rows.",
+      "evidence": "canonical certificate row digests",
+      "scope_limit": "no exceptional-prime search or asymptotic extrapolation is performed"
+    },
+    {
+      "id": "I287-C12",
+      "label": "PROVED_BOOKING_DECISION",
+      "claim": "The recurrence-universal obstruction proves no actual target ceiling, and both the orbit-specific annihilator and product baseline remain open; booking is zero.",
+      "evidence": "report Sections 8-9",
+      "scope_limit": "Route 1 and every conclusion about e+pi remain open"
+    }
+  ],
+  "strict_labels": {
+    "fixed_window_two_state_representation": "PROVED",
+    "full_recurrence_state_kernel": "PROVED",
+    "n_only_polynomial_rational_annihilator": "PROVED RECURRENCE-UNIVERSAL NO-GO",
+    "state_dependent_universal_annihilator": "PROVED TAUTOLOGICAL IDEAL CLASSIFICATION",
+    "proper_target_formal_kernel": "PROVED",
+    "degree_one_lift_equivalence": "PROVED",
+    "orbit_specific_special_seed_relation": "OPEN; NOT EXCLUDED",
+    "actual_low_height_resultant": "OPEN",
+    "common_product_baseline": "OPEN VIA ITEM282",
+    "clearing_reservoir_deoverlap": "PROVED",
+    "bounded_checks": "EXACT FINITE ONLY",
+    "positive_linear_capacity_admission": "FAIL",
+    "new_route1_rate": "0",
+    "new_beta_capacity_reduction": "0"
+  },
+  "open": [
+    "an orbit-specific polynomial or rational coefficient congruence for q_0=q_1=1",
+    "a factorization-independent O(n)-height lift for a proper de-overlapped Q",
+    "a fixed-degree monic annihilator with nonzero O(n)-height actual resultant",
+    "the Item282 product baseline and weighted-return cover",
+    "the uniform beta prime-power-height or little-oh squarefull theorem",
+    "the clearing-divisor and transverse matching correlation",
+    "Route 1 and every conclusion about e+pi"
+  ]
+}

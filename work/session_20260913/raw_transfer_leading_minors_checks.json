@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "new_degree_samples": 0,
+  "symbolic_Q3": "b*(a*c1 - a1*c + c**2)",
+  "symbolic_N26": "b*(a*f - c*d)",
+  "symbolic_N25": "a*b*f1 + a*b1*f + a1*b*f - b*c*d1 - b*c1*d - b1*c*d",
+  "frozen_controls": [
+    {
+      "n": 1,
+      "frozen_polynomials_only": true,
+      "Q3": "-232",
+      "Xi": "-29",
+      "gamma_N26_over_Q3": "130337/953056",
+      "delta_N25_over_Q3": "3321969/7624448"
+    },
+    {
+      "n": 2,
+      "frozen_polynomials_only": true,
+      "Q3": "669802846545/69325227712",
+      "Xi": "328818285/67502656",
+      "gamma_N26_over_Q3": "-34966701468784943/18144914919726546",
+      "delta_N25_over_Q3": "-455049360576097290289/184805958457414871010"
+    }
+  ]
+}

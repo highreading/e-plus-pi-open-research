@@ -1,0 +1,47 @@
+{
+  "schema": "item324-j1-cross-parity-resultant-no-go-ledger-delta-v1",
+  "item": 324,
+  "date": "2026-08-31",
+  "canonical_edit_performed": false,
+  "proposed_status": "PROVED_CROSS_PARITY_RESULTANT_AND_SCOPED_SELECTED_SLICE_NO_GO",
+  "proposed_ledger_entry": "Item 324 derives the exact two-parity Item-308/321 quadrics in rational coordinates Z=X+iY and proves Res_A(q_(r,0),q_(r,1))=64(X^2+Y^2)^2 for every r=s mod 4. On even actual rows p is 3 mod 4, so simultaneous divisibility of D_(s,0),D_(s,1) forces A=X=Y=0 and hence W_s=0; Item 321 then confines the fixed-M even overlap to the h=1 row or prime divisors of 330M^2-235M+18, total O(log M) mass. Odd actual rows are 1 mod 4 and the two quadrics have four explicit nonzero projective intersection lines, so the resultant geometry gives no actual-state exclusion. Crucially, epsilon=h mod 2 is constant on each fixed-M slice because s->s+3 gives h->h-4, and the pinned eliminant forces only D_(s,epsilon), never the unused parity container. The preselected exact row (M,s,h,p)=(34,2,8,47) has the selected Item-308 linear form and D_(2,0) zero modulo 47 but D_(2,1)=19 modulo 47; it is not claimed to be a full Item-264 collision. Thus cross-parity gcd/resultant mechanisms without a new bridge to the unused parity cannot bound W_D or W_off. Booking is zero and the 1/36 ceiling remains open.",
+  "capacity": {
+    "new_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "even_cross_parity_overlap_mass": "O(log M)=o(M)",
+    "actual_selected_one_parity_mass": "uncontrolled",
+    "retained_ceiling_per_6M": "1/36"
+  },
+  "proved": [
+    "the all-phase cross-parity resultant 64(X^2+Y^2)^2",
+    "complete rational-coordinate quadric table",
+    "even-row simultaneous-parity bridge to the actual Item-321 Casoratian",
+    "O(log M) fixed-M mass for the even cross-parity overlap",
+    "four exact nonzero odd-row intersection lines",
+    "fixed-M constancy of h mod 4 and epsilon"
+  ],
+  "scoped_cross_parity_no_go": [
+    "the actual fixed-M necessary gate selects one constant parity",
+    "the unused parity container is not forced by Item 308",
+    "the exact p=47 selected-parity event does not satisfy the unused container",
+    "therefore a same-s cross-parity gcd or resultant cannot bound the selected W_D set without a new bridge",
+    "this does not close selected-factor arithmetic or an invariant retaining the original full gate"
+  ],
+  "exact_finite_only": [
+    "one preselected p=47 replay control; no scan or asymptotic inference"
+  ],
+  "open": [
+    "odd-row actual cross-parity arithmetic",
+    "a selected-factor fixed-M gcd or resultant",
+    "W_D(M)=o(M) and W_off(M)=o(M)",
+    "fixed-j1 closure, Route 1, and every conclusion about e+pi"
+  ],
+  "not_claimed": [
+    "that the unused parity is forced by an original collision",
+    "that an odd projective intersection is attained by the actual sequence",
+    "that the p=47 row is a full Item-264 collision",
+    "a prime scan",
+    "positive capacity"
+  ]
+}

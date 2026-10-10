@@ -1,0 +1,632 @@
+{
+  "capacity": {
+    "capacity_booked": 0,
+    "new_divisibility_exponent": 0,
+    "new_linear_log_rate": 0,
+    "reason": "the atlas classifies operator singularities but does not bound the moving-prime zero set of the pinned E sequence",
+    "retained_conditional_j1_capacity_per_6m": "1/36"
+  },
+  "complete_modular_criterion": "For each k=0,1,2,3 and every actual row, p divides Q_k(h) if and only if at least one linear factor lies in the proved linear atlas or p divides the corresponding primitive diagonal core Rhat_k(s).",
+  "dependencies": {
+    "item293_j1_E_gate_density_no_go_certificate.json": "7af9fd9fe5e6bff2a0402c142479bbca0632c9b5e0f8591a29b41741e1be81f7",
+    "item293_j1_E_gate_density_no_go_certificate.py": "2aaa465558d224e1115764fd399a33e07cbc411d57085eefdfcf149ccbb14657"
+  },
+  "item": 296,
+  "linear_factor_atlas": {
+    "classification": "PROVED EXACT COMPLETE LINEAR-FACTOR ATLAS",
+    "completeness": "These rays and finite rows are every actual-prime divisibility of every displayed linear factor of Q_0,Q_1,Q_2,Q_3",
+    "eliminated_composite_or_inadmissible_equalities": [
+      {
+        "factor": "2h+17",
+        "h": 4,
+        "h_admissible": true,
+        "occurrences": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "p": 25,
+        "p_prime": false,
+        "s": 1,
+        "source": "slope-2 equality"
+      }
+    ],
+    "factorizations": [
+      {
+        "Q_index": 0,
+        "linear_factors": [
+          {
+            "constant": 1,
+            "factor": "h+1",
+            "multiplicity": 1,
+            "slope": 1
+          },
+          {
+            "constant": 3,
+            "factor": "h+3",
+            "multiplicity": 1,
+            "slope": 1
+          },
+          {
+            "constant": 5,
+            "factor": "h+5",
+            "multiplicity": 1,
+            "slope": 1
+          },
+          {
+            "constant": 6,
+            "factor": "h+6",
+            "multiplicity": 1,
+            "slope": 1
+          },
+          {
+            "constant": 1,
+            "factor": "2h+1",
+            "multiplicity": 2,
+            "slope": 2
+          },
+          {
+            "constant": 3,
+            "factor": "2h+3",
+            "multiplicity": 2,
+            "slope": 2
+          },
+          {
+            "constant": 5,
+            "factor": "2h+5",
+            "multiplicity": 2,
+            "slope": 2
+          },
+          {
+            "constant": 7,
+            "factor": "2h+7",
+            "multiplicity": 1,
+            "slope": 2
+          },
+          {
+            "constant": 9,
+            "factor": "2h+9",
+            "multiplicity": 2,
+            "slope": 2
+          },
+          {
+            "constant": 11,
+            "factor": "2h+11",
+            "multiplicity": 1,
+            "slope": 2
+          },
+          {
+            "constant": 13,
+            "factor": "2h+13",
+            "multiplicity": 1,
+            "slope": 2
+          },
+          {
+            "constant": 17,
+            "factor": "2h+17",
+            "multiplicity": 1,
+            "slope": 2
+          },
+          {
+            "constant": 3,
+            "factor": "4h+3",
+            "multiplicity": 1,
+            "slope": 4
+          }
+        ]
+      },
+      {
+        "Q_index": 1,
+        "linear_factors": [
+          {
+            "constant": 0,
+            "factor": "h",
+            "multiplicity": 1,
+            "slope": 1
+          },
+          {
+            "constant": 6,
+            "factor": "h+6",
+            "multiplicity": 1,
+            "slope": 1
+          },
+          {
+            "constant": 7,
+            "factor": "2h+7",
+            "multiplicity": 1,
+            "slope": 2
+          },
+          {
+            "constant": 9,
+            "factor": "2h+9",
+            "multiplicity": 2,
+            "slope": 2
+          },
+          {
+            "constant": 11,
+            "factor": "2h+11",
+            "multiplicity": 1,
+            "slope": 2
+          },
+          {
+            "constant": 13,
+            "factor": "2h+13",
+            "multiplicity": 1,
+            "slope": 2
+          },
+          {
+            "constant": 17,
+            "factor": "2h+17",
+            "multiplicity": 1,
+            "slope": 2
+          },
+          {
+            "constant": 1,
+            "factor": "4h+1",
+            "multiplicity": 1,
+            "slope": 4
+          },
+          {
+            "constant": 5,
+            "factor": "4h+5",
+            "multiplicity": 1,
+            "slope": 4
+          },
+          {
+            "constant": 7,
+            "factor": "4h+7",
+            "multiplicity": 1,
+            "slope": 4
+          },
+          {
+            "constant": 11,
+            "factor": "4h+11",
+            "multiplicity": 1,
+            "slope": 4
+          },
+          {
+            "constant": 15,
+            "factor": "4h+15",
+            "multiplicity": 1,
+            "slope": 4
+          }
+        ]
+      },
+      {
+        "Q_index": 2,
+        "linear_factors": [
+          {
+            "constant": 0,
+            "factor": "h",
+            "multiplicity": 1,
+            "slope": 1
+          },
+          {
+            "constant": 3,
+            "factor": "h+3",
+            "multiplicity": 1,
+            "slope": 1
+          },
+          {
+            "constant": 13,
+            "factor": "2h+13",
+            "multiplicity": 1,
+            "slope": 2
+          },
+          {
+            "constant": 17,
+            "factor": "2h+17",
+            "multiplicity": 1,
+            "slope": 2
+          },
+          {
+            "constant": 1,
+            "factor": "4h+1",
+            "multiplicity": 1,
+            "slope": 4
+          },
+          {
+            "constant": 5,
+            "factor": "4h+5",
+            "multiplicity": 1,
+            "slope": 4
+          },
+          {
+            "constant": 7,
+            "factor": "4h+7",
+            "multiplicity": 1,
+            "slope": 4
+          },
+          {
+            "constant": 11,
+            "factor": "4h+11",
+            "multiplicity": 1,
+            "slope": 4
+          },
+          {
+            "constant": 13,
+            "factor": "4h+13",
+            "multiplicity": 1,
+            "slope": 4
+          },
+          {
+            "constant": 17,
+            "factor": "4h+17",
+            "multiplicity": 1,
+            "slope": 4
+          },
+          {
+            "constant": 19,
+            "factor": "4h+19",
+            "multiplicity": 1,
+            "slope": 4
+          },
+          {
+            "constant": 23,
+            "factor": "4h+23",
+            "multiplicity": 1,
+            "slope": 4
+          },
+          {
+            "constant": 27,
+            "factor": "4h+27",
+            "multiplicity": 1,
+            "slope": 4
+          }
+        ]
+      },
+      {
+        "Q_index": 3,
+        "linear_factors": [
+          {
+            "constant": 0,
+            "factor": "h",
+            "multiplicity": 1,
+            "slope": 1
+          },
+          {
+            "constant": 3,
+            "factor": "h+3",
+            "multiplicity": 1,
+            "slope": 1
+          },
+          {
+            "constant": 6,
+            "factor": "h+6",
+            "multiplicity": 1,
+            "slope": 1
+          },
+          {
+            "constant": 9,
+            "factor": "h+9",
+            "multiplicity": 1,
+            "slope": 1
+          },
+          {
+            "constant": 1,
+            "factor": "4h+1",
+            "multiplicity": 1,
+            "slope": 4
+          },
+          {
+            "constant": 5,
+            "factor": "4h+5",
+            "multiplicity": 1,
+            "slope": 4
+          },
+          {
+            "constant": 7,
+            "factor": "4h+7",
+            "multiplicity": 1,
+            "slope": 4
+          },
+          {
+            "constant": 11,
+            "factor": "4h+11",
+            "multiplicity": 1,
+            "slope": 4
+          },
+          {
+            "constant": 13,
+            "factor": "4h+13",
+            "multiplicity": 1,
+            "slope": 4
+          },
+          {
+            "constant": 17,
+            "factor": "4h+17",
+            "multiplicity": 1,
+            "slope": 4
+          },
+          {
+            "constant": 19,
+            "factor": "4h+19",
+            "multiplicity": 1,
+            "slope": 4
+          },
+          {
+            "constant": 23,
+            "factor": "4h+23",
+            "multiplicity": 1,
+            "slope": 4
+          },
+          {
+            "constant": 25,
+            "factor": "4h+25",
+            "multiplicity": 1,
+            "slope": 4
+          },
+          {
+            "constant": 29,
+            "factor": "4h+29",
+            "multiplicity": 1,
+            "slope": 4
+          },
+          {
+            "constant": 31,
+            "factor": "4h+31",
+            "multiplicity": 1,
+            "slope": 4
+          },
+          {
+            "constant": 35,
+            "factor": "4h+35",
+            "multiplicity": 1,
+            "slope": 4
+          },
+          {
+            "constant": 39,
+            "factor": "4h+39",
+            "multiplicity": 1,
+            "slope": 4
+          }
+        ]
+      }
+    ],
+    "finite_actual_prime_rows": [
+      {
+        "factor": "2h+11",
+        "h": 1,
+        "h_admissible": true,
+        "occurrences": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "p": 13,
+        "p_prime": true,
+        "s": 1,
+        "source": "slope-2 equality"
+      },
+      {
+        "factor": "4h+35",
+        "factor_over_p": 3,
+        "h": 1,
+        "h_admissible": true,
+        "occurrences": [
+          [
+            3,
+            1
+          ]
+        ],
+        "p": 13,
+        "p_prime": true,
+        "s": 1,
+        "source": "slope-4 exceptional quotient 3"
+      },
+      {
+        "factor": "2h+13",
+        "h": 2,
+        "h_admissible": true,
+        "occurrences": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "p": 17,
+        "p_prime": true,
+        "s": 1,
+        "source": "slope-2 equality"
+      },
+      {
+        "factor": "2h+17",
+        "h": 1,
+        "h_admissible": true,
+        "occurrences": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "p": 19,
+        "p_prime": true,
+        "s": 2,
+        "source": "slope-2 equality"
+      }
+    ],
+    "global_argument": {
+      "scalar": "all scalar primes are 2 or 3, while every actual p is at least 13",
+      "slope_1": "0<h+c<p for every listed factor; never singular",
+      "slope_2": "0<2h+c<2p, so p,2p,3p,... are audited at once: only the equality 2h+c=p is possible",
+      "slope_4": "0<4h+c<4p.  The possibilities p,2p,3p are complete; 2p is excluded because 4h+c is odd, p gives the three rays, and 3p gives the sole finite witness (1,1,13) through 4h+35"
+    },
+    "overlaps": [
+      "At (h,s,p)=(1,1,13), 2h+11 divides Q0,Q1 and 4h+35=3p divides Q3.",
+      "At (h,s,p)=(1,2,19), the finite factor 2h+17 divides Q0,Q1,Q2 and the s=2 ray factor 4h+15 divides Q1."
+    ],
+    "structural_rays": [
+      {
+        "conditions": "h>=1, 3 does not divide h, and p is prime",
+        "factor": "4h+15",
+        "occurrences": [
+          [
+            1,
+            1
+          ]
+        ],
+        "p": "4h+15",
+        "s": 2
+      },
+      {
+        "conditions": "h>=1, 3 does not divide h, and p is prime",
+        "factor": "4h+27",
+        "occurrences": [
+          [
+            2,
+            1
+          ]
+        ],
+        "p": "4h+27",
+        "s": 4
+      },
+      {
+        "conditions": "h>=1, 3 does not divide h, and p is prime",
+        "factor": "4h+39",
+        "occurrences": [
+          [
+            3,
+            1
+          ]
+        ],
+        "p": "4h+39",
+        "s": 6
+      }
+    ]
+  },
+  "positive_core_atlas": {
+    "adjacent_endpoint_identity": "Rhat_0(s)=Rhat_3(s-2), equivalently q_0(h)=q_3(h+3); a trailing core singularity is the next diagonal cell's leading core singularity",
+    "classification": "PROVED EXACT CORE-CONGRUENCE ATLAS",
+    "definition": "R_k(s)=4^deg(q_k)*q_k(-(6s+3)/4); content(R_k)=c_k and primitive part Rhat_k=R_k/c_k",
+    "exact_actual_row_equivalence": "on p=4h+6s+3, p divides q_k(h) iff p divides Rhat_k(s); the only primes in 4*c_k are 2 and 3, while every actual p>=13",
+    "fixed_s_consequence": "for each fixed positive s, Rhat_k(s) is a fixed nonzero integer, so only finitely many row primes on that fixed s can be core-singular",
+    "rows": [
+      {
+        "Q_index": 0,
+        "core_degree": 5,
+        "irreducible_modulus": 17,
+        "primitive_Rhat_irreducible_over_Q": true,
+        "primitive_Rhat_low_to_high": [
+          8020237269,
+          -10999028534,
+          5908858568,
+          -1554373296,
+          200453520,
+          -10153440
+        ],
+        "raw_R_content": 432,
+        "raw_R_content_factorization": "2^4*3^3"
+      },
+      {
+        "Q_index": 1,
+        "core_degree": 9,
+        "irreducible_modulus": 53,
+        "primitive_Rhat_irreducible_over_Q": true,
+        "primitive_Rhat_low_to_high": [
+          170697572048619,
+          -1014517816488354,
+          2244006801245080,
+          -2578054557696720,
+          1747502374047296,
+          -737602478969472,
+          196061674014336,
+          -31894686229248,
+          2898116686080,
+          -112581342720
+        ],
+        "raw_R_content": 62208,
+        "raw_R_content_factorization": "2^8*3^5"
+      },
+      {
+        "Q_index": 2,
+        "core_degree": 9,
+        "irreducible_modulus": 157,
+        "primitive_Rhat_irreducible_over_Q": true,
+        "primitive_Rhat_low_to_high": [
+          274738685610467925,
+          -1331677272537780630,
+          2585017656107807648,
+          -2653425641634319872,
+          1618162491397819040,
+          -617758458754567104,
+          149363074051844096,
+          -22241272046251008,
+          1862398419237120,
+          -67131783544320
+        ],
+        "raw_R_content": 139968,
+        "raw_R_content_factorization": "2^6*3^7"
+      },
+      {
+        "Q_index": 3,
+        "core_degree": 5,
+        "irreducible_modulus": 17,
+        "primitive_Rhat_irreducible_over_Q": true,
+        "primitive_Rhat_low_to_high": [
+          104974345,
+          -413836374,
+          581228072,
+          -356882736,
+          98919120,
+          -10153440
+        ],
+        "raw_R_content": 432,
+        "raw_R_content_factorization": "2^4*3^3"
+      }
+    ],
+    "structural_distinction": "Each primitive Rhat_k is irreducible over Q and has degree 5 or 9, hence has no integer root.  Core singularities are genuine varying-prime congruences, not additional exact fixed-s rays"
+  },
+  "same_characteristic_transport": {
+    "classification": "PROVED EXACT RECURRENCE-ONLY MODULAR OBSTRUCTION",
+    "companion_matrix": "T_h=[[0,1,0],[0,0,1],[-Q0/Q3,-Q1/Q3,-Q2/Q3]] over F_p",
+    "consequence": "the recurrence supplies exact three-state same-characteristic transport but no scalar zero descent or zero propagation.  Excluding the actual E_h state from those hyperplanes requires sequence-specific initial-state, congruence, monodromy, Cartier, or auxiliary-local input",
+    "determinant": "det(T_h)=-Q0(h)/Q3(h)",
+    "interior_relation": "for s>=7 the four entries E_h,E_(h+3),E_(h+6),E_(h+9) are all p-integral and lie on the same actual-prime diagonal",
+    "not_ruled_out": "an argument evaluating the exact Item293 initial state through the transfer, or any new sequence-specific local invariant",
+    "regular_locus": "in the interior s>=7 all linear factors of Q0 and Q3 are p-units; the forward companion step is defined and invertible exactly off Rhat0(s)=0 or Rhat3(s)=0 mod p",
+    "same_prime_diagonal": "(h,s)->(h+3,s-2), preserving p=4h+6s+3",
+    "scope": "the p^2 zero-hyperplane statement concerns the unrestricted module of valid recurrence states.  It does not assert that the pinned actual E initial orbit meets any such hyperplane",
+    "zero_hyperplane": "on every regular finite diagonal interval, the states form F_p^3. Vanishing of any selected scalar coordinate is a dimension-2 hyperplane of p^2 valid recurrence states, and invertible transport pulls it back to another dimension-2 hyperplane"
+  },
+  "schema": "item296-j1-modular-singular-ray-atlas-v1",
+  "strict_labels": {
+    "Route_1": "OPEN",
+    "complete_linear_factor_atlas": "PROVED",
+    "core_congruence_reduction_and_irreducibility": "PROVED",
+    "prime_scan": "NONE",
+    "recurrence_only_scalar_zero_control": "PROVED IMPOSSIBLE IN STATED LOCAL SCOPE",
+    "regular_three_state_transport": "PROVED",
+    "sequence_specific_weighted_density": "OPEN"
+  },
+  "title": "exact modular singular-ray atlas for the primitive E recurrence"
+}

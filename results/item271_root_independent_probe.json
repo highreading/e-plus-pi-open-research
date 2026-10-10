@@ -1,0 +1,56 @@
+{
+  "complexity": {
+    "Q_mod_31_no_root_checks": 62,
+    "iterate_degree": "4n+3 after the cubic endpoint cancellation",
+    "linear_translation_class_checks": 32
+  },
+  "independence": "does not import the canonical Item-271 checker",
+  "schema": "item271-root-independent-audit-v1",
+  "scope": {
+    "exceptional_collision_search": "NOT PERFORMED",
+    "full_two_row_matrix_update": "OPEN",
+    "lisse_or_crystalline_realization": "OPEN",
+    "new_capacity_reduction": "0",
+    "new_route1_rate": "0",
+    "universal_WZ_identity": "audited separately from the canonical degree grid"
+  },
+  "sequence": {
+    "delta_limit": 51,
+    "initial_states": {
+      "1": {
+        "D": "1995557/3247695",
+        "Delta": "-61197448/1666295523189",
+        "delta": 3
+      },
+      "5": {
+        "D": "-37/81",
+        "Delta": "1238050/145083393",
+        "delta": 1
+      }
+    },
+    "label": "EXACT FINITE ONLY",
+    "orbit_rows": 47,
+    "recurrence_rows": 47
+  },
+  "singular_rows": {
+    "label": "EXACT FINITE ONLY existence witnesses",
+    "rows": [
+      {
+        "Delta_mod_p": 0,
+        "P0_mod_p": 157,
+        "P2_mod_p": 0,
+        "delta": 7,
+        "p": 167,
+        "phase": 5
+      },
+      {
+        "Delta_mod_p": 0,
+        "P0_mod_p": 222,
+        "P2_mod_p": 0,
+        "delta": 11,
+        "p": 241,
+        "phase": 1
+      }
+    ]
+  }
+}

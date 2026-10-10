@@ -1,0 +1,66 @@
+{
+  "status": "AUTHOR L24 new coupled endpoint arithmetic, not audit",
+  "theorem": "WEIGHTED_REGULAR_ENDPOINT_DYADIC_RATE.md",
+  "all_degree_proved_bound": "v2(actual q_center)>=n+1 for n=4^j+1",
+  "coupled_residue_receipts": [
+    {
+      "m": 2,
+      "n": 5,
+      "complete_pair_block_unit": true,
+      "coupled_lower_sum_residue": 0,
+      "endpoint_coefficient_a_2m_minus_1": 0,
+      "proved_actual_q2_lower_bound": 6,
+      "next_digit_not_claimed": true
+    },
+    {
+      "m": 8,
+      "n": 17,
+      "complete_pair_block_unit": true,
+      "coupled_lower_sum_residue": 0,
+      "endpoint_coefficient_a_2m_minus_1": 0,
+      "proved_actual_q2_lower_bound": 18,
+      "next_digit_not_claimed": true
+    },
+    {
+      "m": 32,
+      "n": 65,
+      "complete_pair_block_unit": true,
+      "coupled_lower_sum_residue": 0,
+      "endpoint_coefficient_a_2m_minus_1": 0,
+      "proved_actual_q2_lower_bound": 66,
+      "next_digit_not_claimed": true
+    },
+    {
+      "m": 128,
+      "n": 257,
+      "complete_pair_block_unit": true,
+      "coupled_lower_sum_residue": 0,
+      "endpoint_coefficient_a_2m_minus_1": 0,
+      "proved_actual_q2_lower_bound": 258,
+      "next_digit_not_claimed": true
+    }
+  ],
+  "complete_endpoint_schur_receipts": [
+    {
+      "n": 5,
+      "nonconstant_block_determinant_v2": 0,
+      "exact_schur_scalar": "29959290199017369950976/57337649805608993962933",
+      "s_v2": 8,
+      "actual_center_q2_from_full_pair_theorem": 7,
+      "predicted_lower_bound_only": 6,
+      "next_digit_agrees_at_this_degree_only": true
+    },
+    {
+      "n": 17,
+      "nonconstant_block_determinant_v2": 0,
+      "exact_schur_scalar": "1528870110900399484736336060768307037884036202140921041721148862694070125224703909170644187131211717854149458683906066640359060828442754186970558484735077787448246533041024772866847668796734133216389669092366884779303145693165921783841609409883747133460262961229411229478676278162418091531810131413250409297945909971105235933321408109084782815878536282907331754567435840252573395909118127489335427072000000/5413529591805214796319170997707113851054077726875689345567568177777671826437501683196231064946714476032774890609328530444717869714917606689521983859673208207580588918261188746816296439383211415595587477262890516891608705364053924091991027325259218733821299774728568861617330603875459673645745493575993374345639877460733211842903812957962624825918127942731283206531810307474627541498743861328477635644752817",
+      "s_v2": 32,
+      "actual_center_q2_from_full_pair_theorem": 19,
+      "predicted_lower_bound_only": 18,
+      "next_digit_agrees_at_this_degree_only": true
+    }
+  ],
+  "bounded_n65_source": "WEIGHTED_REGULAR_ENDPOINT_N65_PROBE.json",
+  "exact_linear_equality_is_unproved": true,
+  "odd_content_or_irrationality_not_inferred": true
+}

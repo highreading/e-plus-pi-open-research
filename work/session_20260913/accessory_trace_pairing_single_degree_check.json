@@ -1,0 +1,106 @@
+{
+  "scope": "single predeclared degree d=2; exact Sturm and symbolic algebra controls",
+  "degree": 2,
+  "E1_E0": [
+    "beta**3 - 22*beta**2 + 3*beta*gamma + 132*beta - 18*gamma - 224",
+    "-2*beta**3 + beta**2*gamma + 36*beta**2 - 18*beta*gamma - 180*beta + gamma**2 + 54*gamma + 288"
+  ],
+  "beta_eliminant": "beta**6 - 38*beta**5 + 589*beta**4 - 4714*beta**3 + 20344*beta**2 - 44304*beta + 37120",
+  "sturm_degrees": [
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0
+  ],
+  "sturm_leading_signs": [
+    1,
+    1,
+    1,
+    -1,
+    -1,
+    1,
+    1
+  ],
+  "sturm_signs_at_minus_infinity": [
+    1,
+    -1,
+    1,
+    1,
+    -1,
+    -1,
+    1
+  ],
+  "sturm_variations_at_minus_infinity": 4,
+  "sturm_variations_at_plus_infinity": 2,
+  "real_root_count": 2,
+  "nonreal_root_count": 4,
+  "eliminant_discriminant": "91489207070490624",
+  "triangular_basis": [
+    "1",
+    "beta",
+    "gamma",
+    "beta**2",
+    "beta*gamma",
+    "gamma**2"
+  ],
+  "frobenius_gram": [
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "-1",
+      "4"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "-1",
+      "4",
+      "21"
+    ],
+    [
+      "0",
+      "0",
+      "-1",
+      "3",
+      "-16",
+      "1"
+    ],
+    [
+      "0",
+      "-1",
+      "4",
+      "-16",
+      "1",
+      "100"
+    ],
+    [
+      "1",
+      "4",
+      "21",
+      "1",
+      "100",
+      "371"
+    ]
+  ],
+  "frobenius_gram_determinant": "2",
+  "euler_element": "5*beta**2 - 14*beta*gamma + 54*beta + 6*gamma**2 - 21*gamma - 104",
+  "trace_discriminant": "7843724886016",
+  "trace_factorization": "pass",
+  "jacobian_euler_identity": "pass",
+  "coordinate_self_adjointness": "pass",
+  "status": "pass"
+}

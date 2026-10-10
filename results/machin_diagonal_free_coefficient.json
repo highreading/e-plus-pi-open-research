@@ -1,0 +1,247 @@
+{
+  "description": "Exact QQ validation of the determinant proof for the first free diagonal Machin Hermite-Pade coefficient. Finite records are validation only; the source note proves every positive n congruent to 0 or 1 mod 4.",
+  "identity": "det(T_n) = 4^n (D_E + 4 (-1)^n D_G)",
+  "normalization": "Gamma is the coefficient matrix of G(z)/4.",
+  "records": [
+    {
+      "D_E_2_adic_valuation": -4,
+      "D_E_sha256": "dc282802df6b87cd5bb87e8fa34a6728be03e2f8710c2c852965116a460d21a5",
+      "D_E_size": {
+        "denominator_bit_length": 37,
+        "numerator_bit_length": 29
+      },
+      "D_G_2_adic_valuation": -3,
+      "D_G_sha256": "d4c01bc29ebcf759a89a897239ccffa0180ea89728388b009adc8475c1d7b619",
+      "D_G_size": {
+        "denominator_bit_length": 65,
+        "numerator_bit_length": 55
+      },
+      "R": 1,
+      "T_2_adic_valuation": -2,
+      "T_sha256": "49f8888484c54e917cba91b0c45d9ab6691619480623f5e92ce255871d3af75a",
+      "T_size": {
+        "denominator_bit_length": 65,
+        "numerator_bit_length": 56
+      },
+      "determinant_decomposition_exact": true,
+      "formula_D_G_gap_eta": 1,
+      "formula_least_D_E_valuation": -4,
+      "formula_name": "v1 and eta_n^(1) from equations (40d) and (40h)",
+      "matrix_size": 3,
+      "n": 1,
+      "observed_D_G_minus_D_E_valuation": 1,
+      "predicted_T_2_adic_valuation": -2,
+      "residue_class_mod_4": 1
+    },
+    {
+      "D_E_2_adic_valuation": -32,
+      "D_E_sha256": "b0ff53b1822065ad08da71b0fd7d458876d90cbbc028a60a235262dbf59adb79",
+      "D_E_size": {
+        "denominator_bit_length": 517,
+        "numerator_bit_length": 367
+      },
+      "D_G_2_adic_valuation": -24,
+      "D_G_sha256": "88944f842d72dd32867d58aa405410c2a544d760585563201baf59a90a409e89",
+      "D_G_size": {
+        "denominator_bit_length": 550,
+        "numerator_bit_length": 401
+      },
+      "R": 2,
+      "T_2_adic_valuation": -24,
+      "T_sha256": "031b40de8779ed838ffc888a059e1cd4d4caa631471bf913ef12b71505e4620f",
+      "T_size": {
+        "denominator_bit_length": 560,
+        "numerator_bit_length": 421
+      },
+      "determinant_decomposition_exact": true,
+      "formula_D_G_gap_eta": 8,
+      "formula_least_D_E_valuation": -32,
+      "formula_name": "v0 and eta_n from equations (29) and (38)",
+      "matrix_size": 9,
+      "n": 4,
+      "observed_D_G_minus_D_E_valuation": 8,
+      "predicted_T_2_adic_valuation": -24,
+      "residue_class_mod_4": 0
+    },
+    {
+      "D_E_2_adic_valuation": -45,
+      "D_E_sha256": "8df993cd6c237c88331b79c3865398af46648d8e5e16a4891a594d51995cc623",
+      "D_E_size": {
+        "denominator_bit_length": 789,
+        "numerator_bit_length": 549
+      },
+      "D_G_2_adic_valuation": -36,
+      "D_G_sha256": "91eb12f660bffdd674a2217ac0b68e07c03ca1da694694c7f71005bbd8947358",
+      "D_G_size": {
+        "denominator_bit_length": 846,
+        "numerator_bit_length": 606
+      },
+      "R": 3,
+      "T_2_adic_valuation": -35,
+      "T_sha256": "27c45ba75f35dc05f5c9cb2ac56876357d5290500f0a20fc540009e169ce6840",
+      "T_size": {
+        "denominator_bit_length": 848,
+        "numerator_bit_length": 621
+      },
+      "determinant_decomposition_exact": true,
+      "formula_D_G_gap_eta": 9,
+      "formula_least_D_E_valuation": -45,
+      "formula_name": "v1 and eta_n^(1) from equations (40d) and (40h)",
+      "matrix_size": 11,
+      "n": 5,
+      "observed_D_G_minus_D_E_valuation": 9,
+      "predicted_T_2_adic_valuation": -35,
+      "residue_class_mod_4": 1
+    },
+    {
+      "D_E_2_adic_valuation": -106,
+      "D_E_sha256": "96bfb327785e1b31eaae37fcf1fa1c747b0f203d0c87cec239abdd228ca4257d",
+      "D_E_size": {
+        "denominator_bit_length": 2011,
+        "numerator_bit_length": 1378
+      },
+      "D_G_2_adic_valuation": -88,
+      "D_G_sha256": "ea430061828bbfb91b9ff0c3ec3b85b73550a7245bf12de02b75eadcb6fe07f3",
+      "D_G_size": {
+        "denominator_bit_length": 2091,
+        "numerator_bit_length": 1458
+      },
+      "R": 4,
+      "T_2_adic_valuation": -90,
+      "T_sha256": "3c6b2ce4e67228f3a746ea5a3c8d5bcaa3e058ff20eaa516c0e295ee60e86083",
+      "T_size": {
+        "denominator_bit_length": 2098,
+        "numerator_bit_length": 1483
+      },
+      "determinant_decomposition_exact": true,
+      "formula_D_G_gap_eta": 18,
+      "formula_least_D_E_valuation": -106,
+      "formula_name": "v0 and eta_n from equations (29) and (38)",
+      "matrix_size": 17,
+      "n": 8,
+      "observed_D_G_minus_D_E_valuation": 18,
+      "predicted_T_2_adic_valuation": -90,
+      "residue_class_mod_4": 0
+    },
+    {
+      "D_E_2_adic_valuation": -125,
+      "D_E_sha256": "88edfe3f796fd88b89da9eaa031b06b1417e0501e93b35716e64a919f85b95c4",
+      "D_E_size": {
+        "denominator_bit_length": 2541,
+        "numerator_bit_length": 1729
+      },
+      "D_G_2_adic_valuation": -106,
+      "D_G_sha256": "b08fa4a8c930cb89de6593f6d731e17e21a868e422470214c625effb24b902fc",
+      "D_G_size": {
+        "denominator_bit_length": 2628,
+        "numerator_bit_length": 1827
+      },
+      "R": 5,
+      "T_2_adic_valuation": -107,
+      "T_sha256": "e1607becb5134871bb3733ea7033549cf9579b89da465b5325f99996481a515f",
+      "T_size": {
+        "denominator_bit_length": 2640,
+        "numerator_bit_length": 1859
+      },
+      "determinant_decomposition_exact": true,
+      "formula_D_G_gap_eta": 19,
+      "formula_least_D_E_valuation": -125,
+      "formula_name": "v1 and eta_n^(1) from equations (40d) and (40h)",
+      "matrix_size": 19,
+      "n": 9,
+      "observed_D_G_minus_D_E_valuation": 19,
+      "predicted_T_2_adic_valuation": -107,
+      "residue_class_mod_4": 1
+    },
+    {
+      "D_E_2_adic_valuation": -210,
+      "D_E_sha256": "17c3467d5b1e5b7cbc8a20c00c90924ef4a04fcbccb7717ba2704bb0ff2040e4",
+      "D_E_size": {
+        "denominator_bit_length": 4558,
+        "numerator_bit_length": 3078
+      },
+      "D_G_2_adic_valuation": -184,
+      "D_G_sha256": "a466b1b2d5f87b6eecf423592af38cbab31bfb0544ffbe67f6089dac6524e340",
+      "D_G_size": {
+        "denominator_bit_length": 4649,
+        "numerator_bit_length": 3186
+      },
+      "R": 6,
+      "T_2_adic_valuation": -186,
+      "T_sha256": "5153b3c462fec89fbfef0287490550be814cc9056e25a6f639107ff358c49f4b",
+      "T_size": {
+        "denominator_bit_length": 4667,
+        "numerator_bit_length": 3229
+      },
+      "determinant_decomposition_exact": true,
+      "formula_D_G_gap_eta": 26,
+      "formula_least_D_E_valuation": -210,
+      "formula_name": "v0 and eta_n from equations (29) and (38)",
+      "matrix_size": 25,
+      "n": 12,
+      "observed_D_G_minus_D_E_valuation": 26,
+      "predicted_T_2_adic_valuation": -186,
+      "residue_class_mod_4": 0
+    },
+    {
+      "D_E_2_adic_valuation": -243,
+      "D_E_sha256": "bbf1b021fc23dded8525288fd51c2b2f29a6fc352fdf06c2917118435a555d42",
+      "D_E_size": {
+        "denominator_bit_length": 5336,
+        "numerator_bit_length": 3582
+      },
+      "D_G_2_adic_valuation": -216,
+      "D_G_sha256": "89b464667162c4a0c6b0f525a16c3f270576eead4621734cb01a4af3ae654b1f",
+      "D_G_size": {
+        "denominator_bit_length": 5445,
+        "numerator_bit_length": 3719
+      },
+      "R": 7,
+      "T_2_adic_valuation": -217,
+      "T_sha256": "d5275b7b4f2bb07c4b60a3273be4fb3627d3c1a94dce54f9255c6b50001dbc0a",
+      "T_size": {
+        "denominator_bit_length": 5466,
+        "numerator_bit_length": 3767
+      },
+      "determinant_decomposition_exact": true,
+      "formula_D_G_gap_eta": 27,
+      "formula_least_D_E_valuation": -243,
+      "formula_name": "v1 and eta_n^(1) from equations (40d) and (40h)",
+      "matrix_size": 27,
+      "n": 13,
+      "observed_D_G_minus_D_E_valuation": 27,
+      "predicted_T_2_adic_valuation": -217,
+      "residue_class_mod_4": 1
+    },
+    {
+      "D_E_2_adic_valuation": -358,
+      "D_E_sha256": "2b6bfb4ab6d767c69cfd8eb55683079c0e65ed061ea669ad01077e1ae4fa267c",
+      "D_E_size": {
+        "denominator_bit_length": 8143,
+        "numerator_bit_length": 5434
+      },
+      "D_G_2_adic_valuation": -320,
+      "D_G_sha256": "3687dab0badb4a5ad60196af4ae7650151eb70a0a99a2a0256f45e26be1c0c76",
+      "D_G_size": {
+        "denominator_bit_length": 8253,
+        "numerator_bit_length": 5579
+      },
+      "R": 8,
+      "T_2_adic_valuation": -326,
+      "T_sha256": "e819c6105d4d7b741c927796c5eeca281a8b177d96c0b02c6704da82dae488df",
+      "T_size": {
+        "denominator_bit_length": 8280,
+        "numerator_bit_length": 5640
+      },
+      "determinant_decomposition_exact": true,
+      "formula_D_G_gap_eta": 38,
+      "formula_least_D_E_valuation": -358,
+      "formula_name": "v0 and eta_n from equations (29) and (38)",
+      "matrix_size": 33,
+      "n": 16,
+      "observed_D_G_minus_D_E_valuation": 38,
+      "predicted_T_2_adic_valuation": -326,
+      "residue_class_mod_4": 0
+    }
+  ]
+}

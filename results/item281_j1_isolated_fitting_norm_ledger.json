@@ -1,0 +1,94 @@
+{
+  "schema": "item281-j1-isolated-fitting-norm-ledger-v1",
+  "checked": "2026-08-31 Asia/Shanghai",
+  "scope": "Isolated fixed-j=1 full-gate collisions after the frozen bounded-cluster o(M) theorem",
+  "proved": [
+    "For every actual j=1 prime, p divides the normalized Smith generator g_M=gcd(Cbar0(M),Cbar1(M)) if and only if p^2 divides both raw coefficients, equivalently the full gate collides.",
+    "The ideal (Cbar0,Cbar1)=g_M Z is the specialized zeroth Fitting ideal and first Smith ideal; its positive generator is the canonical integral scalar but is exactly the target gcd problem.",
+    "The full collision radical is gcd(rad(abs(g_M)),B_M^(1)) when the specialized pair is nonzero.",
+    "For any fixed isolation diameter D, the full and D-isolated collision radicals differ by only O_D(M/log M)=o(M) log weight, by frozen Item279.",
+    "On the generic rank-two graph chart, the collision ideal is two independent linear forms, has height two, and contracts to zero in the parameter field; a state-free resultant of only those two forms is identically zero.",
+    "The rank-one collision ideal is principal and the rank-zero ideal is zero; neither rank-drop stratum is discarded or given an unproved density bound.",
+    "Over each odd finite field, degree two is the smallest possible fiberwise exact scalar degree: linear forms have nonzero kernels, while X^2-dY^2 is anisotropic for nonsquare d.",
+    "The fixed norms d=-1,2,3,5,7 each have an exact actual noncollision row on which the norm of the two normalized gate values vanishes.",
+    "For every finite library of fixed nonzero integral homogeneous binary forms, Chebotarev gives infinitely many actual phase primes at which every form has a nonzero projective zero; no such library is fiberwise exact on all rows.",
+    "Every prime p>=13 embeds in the actual tied family using s=1 for p=1 mod 4 and s=2 for p=3 mod 4.",
+    "The forced Cartier product has log constant kappa=-4 log 2+pi/sqrt(3)+3 log 3=2.33704750799876..., so the inherited normalized component constant is H-kappa=3.99058003744209....",
+    "A bounded-degree scalar of maximum degree d and minimum degree e has inherited collision-radical ratio at least (d/e)(H-kappa)>=H-kappa, much worse than the raw 1/6 support.",
+    "The raw-coordinate H/2 bound from Item264 remains better than the normalized scalar route, but also exceeds 1/6.",
+    "At the normalized inherited height, at least 24 genuinely independent valuation copies would be needed merely to beat the raw j=1 support; none is proved.",
+    "Item149 de-overlap leaves the fixed-j=1 ceiling unchanged at 1/36 per 6M."
+  ],
+  "rank_strata": {
+    "rank_2": {
+      "collision_ideal": "(x1,x2)",
+      "kernel_dimension": 2,
+      "parameter_elimination_ideal": "(0)",
+      "principal": false
+    },
+    "rank_1": {
+      "collision_ideal": "(x1)",
+      "kernel_dimension": 3,
+      "retained": true
+    },
+    "rank_0": {
+      "collision_ideal": "(0)",
+      "kernel_dimension": 4,
+      "retained": true
+    }
+  },
+  "finite_form_scope": {
+    "excluded": "finite libraries of fixed-coefficient nonzero homogeneous integral binary forms as fiberwise exact gate scalars over every actual prime row",
+    "not_excluded": [
+      "parameter-dependent coefficients",
+      "prime-dependent nonresidues",
+      "growing-degree finite-field indicators",
+      "a scalar whose false-positive fibers are avoided by the actual arithmetic section",
+      "a sheaf, trace, or distribution theorem for the original incidence"
+    ]
+  },
+  "master_admission_test": {
+    "raw_capacity": "1/36 per 6M",
+    "actual_family_implication": "p divides g_M exactly on actual j=1 full-gate collision primes",
+    "de_overlap": "F_M removes forced Cartier content and Item149 already books the first post-Cartier copy",
+    "height": "best inherited raw ratio H/2 and normalized ratio H-kappa both exceed 1/6",
+    "isolated_target": "uncontrolled at linear log-weight scale",
+    "decision": "zero new capacity reduction and zero new Route-1 rate"
+  },
+  "finite_replay": {
+    "label": "EXACT FINITE ONLY",
+    "fitting_bound_M": 120,
+    "local_fields": [
+      13,
+      17,
+      19,
+      23,
+      29,
+      31
+    ],
+    "actual_norm_discriminants": [
+      -1,
+      2,
+      3,
+      5,
+      7
+    ],
+    "split_library_prime": 1009,
+    "asymptotic_inference": false
+  },
+  "booking": {
+    "new_unconditional_route1_rate": 0,
+    "new_independent_valuation_copy": 0,
+    "new_weighted_zero_theorem_for_full_j1_cell": 0,
+    "new_j1_capacity_reduction": 0,
+    "j1_raw_ceiling": "unchanged at 1/36 per 6M"
+  },
+  "forbidden_inference": [
+    "Do not treat the normalized gcd recognition as a bound on that gcd.",
+    "Do not use geometric codimension as a finite-field density theorem for the arithmetic state.",
+    "Do not replace the simultaneous gate by a split fixed norm.",
+    "Do not extend the fixed-form Chebotarev no-go to parameter-dependent or arithmetic-section scalars.",
+    "Do not infer an isolated-prime mass bound from the frozen o(M) bounded-cluster theorem.",
+    "Do not infer any asymptotic statement from the EXACT FINITE ONLY replay."
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "actual_seed_cancellation_witness": {
+    "N": 2,
+    "classification": "FINITE_EXACT_ACTUAL_SEED_WITNESS_FOR_PROVED_SCOPED_NO_GO",
+    "coordinate_change_determinant_mod_p": 2,
+    "h": 0,
+    "nonzero_cancellation": "I_N=0 because tau+2D_h=0, while tau,D_h,rho are all nonzero",
+    "not_a_coupled_all_lift_row": true,
+    "p": 7,
+    "p_gt_2N_plus_1": true,
+    "s": 4,
+    "values": {
+      "D_h": 1,
+      "E_N": 2,
+      "I_N": 0,
+      "I_s": 1,
+      "L_p_integer": 874,
+      "P_N": 19,
+      "T_N": 0,
+      "b_N": 28,
+      "lambda_N": 1,
+      "lambda_s": 3,
+      "q_N": 7,
+      "q_s": 1001,
+      "rho": 6,
+      "tau": 5
+    }
+  },
+  "canonical_actual_seed_regression": {
+    "N_range": [
+      1,
+      100
+    ],
+    "all_exact": true,
+    "checks": 100,
+    "classification": "FINITE_EXACT_REPLAY_OF_PROVED_ACTUAL_SEED_IDENTITIES",
+    "row_stream_sha256": "59dc0cebb49a95769f1b1d82f3ee1924f5917a6ce8a718ced2199677bedc3c80",
+    "selected_rows": [
+      {
+        "N": 2,
+        "P_digits": 2,
+        "T_N": "0",
+        "q_digits": 1,
+        "wronskian": -2
+      },
+      {
+        "N": 4,
+        "P_digits": 4,
+        "T_N": "26",
+        "q_digits": 4,
+        "wronskian": -2
+      },
+      {
+        "N": 8,
+        "P_digits": 9,
+        "T_N": "115842448",
+        "q_digits": 9,
+        "wronskian": -2
+      },
+      {
+        "N": 50,
+        "P_digits": 94,
+        "T_N": "711831259347594517592238258193345216472926038956237517739368033423657854357884803529337203391",
+        "q_digits": 94,
+        "wronskian": -2
+      },
+      {
+        "N": 100,
+        "P_digits": 218,
+        "T_N": "2316932464508397983701425933261445713611696468726405641357006893582519367273262300178073412371253136743154972918028942929475418404222312148448005960272833409345567605547259116129866732102324196082853173589520924870637",
+        "q_digits": 217,
+        "wronskian": -2
+      }
+    ]
+  },
+  "classification": {
+    "EXPERIMENTAL_FINITE": [
+      "actual prescribed lower-root census through p<=20000",
+      "direct continuant cross-checks through p<=251",
+      "the displayed p=7 actual-seed cancellation witness"
+    ],
+    "OPEN": [
+      "existence of any prescribed lower root with p^2|q_N",
+      "existence of any coupled actual all-lift row",
+      "any global exclusion or zero-rate bound for the coupled radical",
+      "any cross-prime theorem controlling the joint actual values tau and L_p-T_N"
+    ],
+    "PROVED": [
+      "the actual-seed maps (lambda,rho) to (tau,D_h) by a diagonal p-unit matrix of determinant -P_N^3/4",
+      "p^2|q_N iff tau=0, and p|D_h iff rho=L_p-T_N=0 mod p",
+      "paired p^2 divisibility is equivalent to tau=D_h=0, tau=rho=0, or p^2|q_N with L_p=T_N mod p",
+      "the lower and upper square lines are tau=0 and tau=4D_h; the paired invariant lines are tau=-2D_h and tau=6D_h",
+      "the actual row (p,N,h)=(7,2,0) is a nonzero cancellation on the lower-invariant line, so a one-invariant collapse is invalid for the actual seed",
+      "the coordinate repackaging contributes zero new exponent to the radical ledger; only R_N^2|q_N follows"
+    ]
+  },
+  "dependency_sha256": {
+    "sources/item165_noncentral_singular_report.md": "d7b4475d2adfeff9a5f1c70a9c6b318d0c2b140bf90b194aa9acb6fdddcc2650",
+    "sources/item193_actual_seed_invariant_report.md": "85a0335501e5c81e6d45c2a33139fca2ac24be54324d40fe45d82f891cf51cb9",
+    "sources/item198_actual_all_lift_pair_report.md": "aad8ed39bd63717aae162d0cbcc60ec9d27c023b16c44e554442cd38d49ae749",
+    "sources/item200_common_log_gcd_report.md": "06003e9fd03f74b2406330a81d49493fa2f4390c82f359be39bf328184605c68",
+    "sources/item202_actual_squarefull_filter_report.md": "abbc68e283f16871798be0c6da8af5df55ba6bf865a5864eefc0f8e19fe88f62",
+    "sources/item204_squarefull_discriminant_report.md": "45ad273d407323902745095bd7abbc1fe5d17cf4d8da35737276eb3e6c7fc665"
+  },
+  "exact_coordinate_identities": {
+    "coordinate_determinant": "-P_N^3/4, a p-unit",
+    "coupled_equivalence": "p^2|q_N,q_s iff tau=D_h=0 iff tau=rho=0 iff p^2|q_N and L_p=T_N mod p",
+    "definitions": "lambda=q_N/p, rho=L_p-T_N, tau=Hensel digit, E_N=P_N L_p-b_N, all modulo p at p|q_N",
+    "euler_continuant": "4(-1)^(N-1)D_h=P_N^2 rho",
+    "hensel_actual_seed": "tau=(-1)^N P_N lambda",
+    "lower_invariant": "I_N=2lambda-E_N=2(-1)^N P_N^(-1)(tau+2D_h)",
+    "lower_invariant_line": "I_N=0 iff tau=-2D_h",
+    "lower_square_line": "p^2|q_N iff tau=0",
+    "upper_divided_value": "lambda_s=q_(N-1)(-tau/2+2D_h), s=p-1-N",
+    "upper_invariant": "I_s=q_(N-1)(-tau+6D_h)",
+    "upper_invariant_line": "I_s=0 iff tau=6D_h",
+    "upper_square_line": "p^2|q_s iff tau=4D_h"
+  },
+  "finite_actual_prescribed_scan": {
+    "classification": "EXPERIMENTAL_FINITE_NOT_AN_ALL_PRIME_OR_RATE_THEOREM",
+    "coupled_all_lift_rows": [],
+    "direct_continuant_checks_through_251": 20,
+    "lower_invariant_zero_rows": [
+      {
+        "D_h": 1,
+        "I_N": 0,
+        "I_s": 1,
+        "N": 2,
+        "T_N_mod_p": 0,
+        "coupled_all_lift": false,
+        "h": 0,
+        "lambda_N": 1,
+        "lambda_s": 3,
+        "left_factorial_mod_p": 6,
+        "lower_square": false,
+        "p": 7,
+        "rho": 6,
+        "s": 4,
+        "singular": false,
+        "tau": 5,
+        "upper_square": false
+      }
+    ],
+    "lower_square_rows": [],
+    "paired_invariant_zero_rows": [],
+    "prescribed_lower_root_rows": 1133,
+    "prime_limit": 20000,
+    "row_stream_sha256": "1aaccf01eb2fa437ea97d739aa0a963ea732c24eb69adf457e0783b95686899a",
+    "scope_warning": "Rows are lower-index roots N<(p-1)/2.  An upper_square row means p^2 divides the reflected q_s, not the prescribed q_N.",
+    "singular_rows": [],
+    "upper_invariant_zero_rows": [],
+    "upper_square_rows": [
+      {
+        "D_h": 12,
+        "I_N": 10,
+        "I_s": 1,
+        "N": 4,
+        "T_N_mod_p": 0,
+        "coupled_all_lift": false,
+        "h": 1,
+        "lambda_N": 12,
+        "lambda_s": 0,
+        "left_factorial_mod_p": 10,
+        "lower_square": false,
+        "p": 13,
+        "rho": 10,
+        "s": 8,
+        "singular": false,
+        "tau": 9,
+        "upper_square": true
+      }
+    ]
+  },
+  "item": 207,
+  "rate_ledger": {
+    "R_squared_required_log_R_per_m": "0.05889895100829538164",
+    "conclusion": "no global exclusion, o(m), or below-threshold bound is proved",
+    "coupled_radical": "R_N=product of p>2N+1 with p^2|q_N and L_p=T_N mod p",
+    "new_exponent_from_coordinate_repackaging": 0,
+    "proved_divisibility": "R_N^2 divides q_N"
+  },
+  "scoped_no_go": {
+    "actual_seed_witness": "(p,N,h)=(7,2,0) gives (tau,D_h)=(5,1) and I_N=0",
+    "rank_statement": "the two filters are related only by an invertible change of first-Witt coordinates; combining them creates no extra divisibility exponent",
+    "scope": "this rules out collapse to the known single invariant and direct discriminant/resultant-height bookkeeping; it does not rule out new arithmetic controlling the joint actual coordinates",
+    "single_invariant_kernel": "I_N has kernel tau+2D_h=0"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "hard_parity_determinant_grid": {
+    "D_rule": "odd 3 <= D <= min(7,n-1)",
+    "all_F_and_remainder_terms_opposite_sign": true,
+    "all_NB_A_euler_strictly_below_NB_G_euler": true,
+    "all_NB_A_psi_positive": true,
+    "all_absolute_ratios_strictly_below_one": true,
+    "all_border_summands_opposite_sign": true,
+    "all_corrected_positive_rho_phases_verified": true,
+    "all_corrected_sigma_identities_verified": true,
+    "all_endpoint_decompositions_exact": true,
+    "all_endpoint_remainder_coefficients_negative": true,
+    "all_even_odd_border_prefactors_opposite": true,
+    "all_targets_have_F_term_sign": true,
+    "m_rule": "odd 3 <= m <= 7",
+    "n_rule": "even 4 <= n <= 8",
+    "row_count": 18
+  },
+  "logical_scope": {
+    "all_parameter_theorem": "The source proves the positive simple-pole/Stieltjes formula for (Lambda_(n-1)-Lambda_n')/Phi for every odd m and even n.",
+    "exact_identities": "The endpoint and Euler-operator decompositions are algebraic identities for every m odd, n even, D odd in range n>=D.",
+    "open_part": "The strict inequality NB_A(E(V*rho)) < NB_G(E(V*rho)), the raw bordered-sign comparison, and the observed sign of the coefficients of D_odd-z*C_even are verified only on the recorded grid.  The weak normalized-border inequality, which is sufficient for the theorem, remains unproved in general."
+  },
+  "schema": "root-unity-gamma-forced-odd-m-next-coefficient-certificate-v1",
+  "selected_determinant_rows": [
+    {
+      "D": 3,
+      "F_and_remainder_terms_opposite_sign": true,
+      "NB_A_euler_strictly_below_NB_G_euler": true,
+      "NB_A_psi_positive": true,
+      "absolute_first_to_second_ratio": "19187/38792",
+      "corrected_positive_rho_phase_verified": true,
+      "corrected_sigma_identity_verified": true,
+      "endpoint_remainder_coefficients_all_negative": true,
+      "even_odd_border_prefactors_opposite": true,
+      "m": 3,
+      "n": 4,
+      "next_coefficient_nonzero": true,
+      "opposite_border_signs": true,
+      "ratio_strictly_between_zero_and_one": true,
+      "target_has_F_term_sign": true
+    },
+    {
+      "D": 7,
+      "F_and_remainder_terms_opposite_sign": true,
+      "NB_A_euler_strictly_below_NB_G_euler": true,
+      "NB_A_psi_positive": true,
+      "absolute_first_to_second_ratio": "1055824318655/1294386389324",
+      "corrected_positive_rho_phase_verified": true,
+      "corrected_sigma_identity_verified": true,
+      "endpoint_remainder_coefficients_all_negative": true,
+      "even_odd_border_prefactors_opposite": true,
+      "m": 3,
+      "n": 8,
+      "next_coefficient_nonzero": true,
+      "opposite_border_signs": true,
+      "ratio_strictly_between_zero_and_one": true,
+      "target_has_F_term_sign": true
+    },
+    {
+      "D": 5,
+      "F_and_remainder_terms_opposite_sign": true,
+      "NB_A_euler_strictly_below_NB_G_euler": true,
+      "NB_A_psi_positive": true,
+      "absolute_first_to_second_ratio": "136856003112295183/362755772689824608",
+      "corrected_positive_rho_phase_verified": true,
+      "corrected_sigma_identity_verified": true,
+      "endpoint_remainder_coefficients_all_negative": true,
+      "even_odd_border_prefactors_opposite": true,
+      "m": 5,
+      "n": 6,
+      "next_coefficient_nonzero": true,
+      "opposite_border_signs": true,
+      "ratio_strictly_between_zero_and_one": true,
+      "target_has_F_term_sign": true
+    },
+    {
+      "D": 7,
+      "F_and_remainder_terms_opposite_sign": true,
+      "NB_A_euler_strictly_below_NB_G_euler": true,
+      "NB_A_psi_positive": true,
+      "absolute_first_to_second_ratio": "14239500450326621938598068872175817129/43595573564538686878001243008871567936",
+      "corrected_positive_rho_phase_verified": true,
+      "corrected_sigma_identity_verified": true,
+      "endpoint_remainder_coefficients_all_negative": true,
+      "even_odd_border_prefactors_opposite": true,
+      "m": 7,
+      "n": 8,
+      "next_coefficient_nonzero": true,
+      "opposite_border_signs": true,
+      "ratio_strictly_between_zero_and_one": true,
+      "target_has_F_term_sign": true
+    }
+  ],
+  "selected_stieltjes_rows": [
+    {
+      "all_regular_parts_strictly_positive": true,
+      "all_stieltjes_residues_strictly_positive": true,
+      "first_residue": "25/48",
+      "h": 5,
+      "last_residue": "25/48",
+      "m": 3,
+      "n": 4,
+      "rate_count": 1,
+      "residue_sha256": "9eef28dc0535e4455cbe4d2ec1e0b93ed283e31cd6d3d17f1fa26ec9875d767a"
+    },
+    {
+      "all_regular_parts_strictly_positive": true,
+      "all_stieltjes_residues_strictly_positive": true,
+      "first_residue": "4028857/2476694568960",
+      "h": 7,
+      "last_residue": "6796783/4953389137920",
+      "m": 5,
+      "n": 6,
+      "rate_count": 2,
+      "residue_sha256": "6859f63d9d6b8b87981445fda9a35079d3e3d7848ec75bfa7eb6715d44f6fa3a"
+    },
+    {
+      "all_regular_parts_strictly_positive": true,
+      "all_stieltjes_residues_strictly_positive": true,
+      "first_residue": "366521298971/58238541551936471040000000000",
+      "h": 9,
+      "last_residue": "299266919183/58238541551936471040000000000",
+      "m": 7,
+      "n": 8,
+      "rate_count": 3,
+      "residue_sha256": "88da1c521b38dacc12dc82b80e3f3a1c2b5364f6b62f9927070bb1b9adb99138"
+    },
+    {
+      "all_regular_parts_strictly_positive": true,
+      "all_stieltjes_residues_strictly_positive": true,
+      "first_residue": "34567668927376644932755487/19551841245516649413239856134453652452011251912891432960000000000000000000000",
+      "h": 11,
+      "last_residue": "61614261469893316415391526487/43796124389957294685657277741176181492505204284876809830400000000000000000000000",
+      "m": 11,
+      "n": 10,
+      "rate_count": 5,
+      "residue_sha256": "e9cdee14d43d7b28b83c909a984d4d817023a8dfd9b3867b20130787e23e3883"
+    }
+  ],
+  "stieltjes_grid": {
+    "all_double_and_central_poles_cancel": true,
+    "all_partial_fraction_reconstructions_exact": true,
+    "all_regular_parts_strictly_positive": true,
+    "all_simple_residues_strictly_positive": true,
+    "exact_row_digest_sha256": "e042972617846c11f34c102176e31c8c67227f1497efa800148b81f8f5d1f125",
+    "m_rule": "odd 3 <= m <= 11",
+    "n_rule": "even 4 <= n <= 10",
+    "row_count": 20
+  },
+  "versions": {
+    "sympy": "1.14.0"
+  }
+}

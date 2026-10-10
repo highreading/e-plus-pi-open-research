@@ -1,0 +1,54 @@
+{
+  "schema": "item380-j1-actual-moment-horizontal-complexity-barrier-ledger-delta-v1",
+  "item": 380,
+  "date": "2026-09-01",
+  "branch": "Route 1 / fixed-j1 / actual finite-log moment horizontal complexity",
+  "status": "PROVED_SCOPED_DIRECT_TWO_MOMENT_GAUGE_COMPLEXITY_BARRIER",
+  "proved": {
+    "actual_family": "p=4h+6s+3, M=3h+4s+2, n=2h, r=2s+1",
+    "selected_moments": "u=c_T, v=c_L, q=2u-v, T=2h+6s+2, L=4h+4s+2",
+    "exact_connection": "omega=-2 sum_(j>=0) u^(p^j-1)du + sum_(j>=0) v^(p^j-1)dv",
+    "formal_splitting_gauge": "f=sum_(j>=0)(2u^(p^j)-v^(p^j))/p^j, df=-omega, F(f)/p-f=-q",
+    "simultaneous_split": "U(f) trivializes the connection and changes full Frobenius to diag(p,1)",
+    "vertical_denominator_lower_bound": "coefficients at u^(p^j),v^(p^j) have p-adic valuation exactly -j; no fixed p-power clears any fundamental gauge",
+    "rational_no_go": "the lacunary one-variable restriction has arbitrarily long zero gaps and is not rational",
+    "overconvergent_no_go": "unit coefficients at exponents p^j-1 give radius exactly one",
+    "direct_gauge_no_go": "no rational or dagger gauge makes the standard two-moment connection rational or dagger",
+    "ambient_vs_actual": "p^2-O(p) independent ambient coefficient directions pull back to cotangent rank at most two on a two-parameter base",
+    "new_independent_condition": 0
+  },
+  "scope": {
+    "full_collision_implication": "full ordinary collision implies selected Hasse a_(r,n)=0 and Q0=0",
+    "joint_converse_to_full_collision_claimed": false,
+    "bounded_dimensional_formal_descent": "exists on moment coordinates u,v",
+    "Frobenius_equivariant_descent_from_pointwise_family_claimed": false,
+    "geometric_conductor_lower_bound_claimed": false,
+    "ambient_support_label": "coefficient support only before actual specialization",
+    "literal_finite_log": "p-1 terms in L_p(x^2) as written; no minimal-complexity claim",
+    "not_ruled_out": "a different prime-independent geometric descent or actual-family cancellation avoiding the direct Mahler primitive"
+  },
+  "capacity": {
+    "raw_log_mass": "M/6+o(M)",
+    "raw_ceiling_per_6M": "1/36",
+    "weighted_target": "W_(H,Q)(M)=o(M)",
+    "weighted_target_proved": false,
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "booking": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36"
+  },
+  "controls": {
+    "classification": "DECLARED EXACT SYMBOLIC AND FINITE-DEPTH CONTROLS ONLY; NO PRIME OR COLLISION SCAN",
+    "asymptotic_inference_from_controls": false
+  },
+  "open": [
+    "a prime-independent bounded-complexity geometric descent of the actual tied coefficient map",
+    "any genuine conductor lower bound after actual h,s specialization",
+    "actual-family cancellation or compression of the moving finite-log coefficients",
+    "weighted joint-zero density or any strict fixed-j1 ceiling reduction",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "ledger_action": "CLOSE_DIRECT_STANDARD_FROBENIUS_TWO_MOMENT_RATIONAL_DAGGER_GAUGE_ROUTE_BOOK_ZERO",
+  "route_1_status": "ACTIVE",
+  "canonical_files_modified": false
+}

@@ -1,0 +1,129 @@
+{
+  "algebraic_local_certificate": {
+    "diagnostic_selected_a": "0.209886201147898499701474253755",
+    "exact_sturm_sign_checks": {
+      "amplitude_no_zero_in_interval": true,
+      "amplitude_positive_at_lower": true,
+      "g_lower_positive": true,
+      "g_upper_negative": true,
+      "lambda_real_no_zero_in_interval": true,
+      "lambda_real_positive_at_lower": true,
+      "one_g_root_in_interval": true,
+      "radius_below_one_quarter": true
+    },
+    "identities": {
+      "amplitude_imag_identity": true,
+      "circle_identity": true,
+      "lambda_imag_identity": true,
+      "lambda_real_identity": true,
+      "saddle_imag_identity": true,
+      "saddle_real_identity": true
+    },
+    "isolating_interval": [
+      "1049431/5000000",
+      "2098863/10000000"
+    ],
+    "scope": "These are independent local checks. The separately pinned exact-algebraic dependency certifies the global unique-circle maximum (UM)."
+  },
+  "exact_algebraic_dependency": {
+    "global_unique_circle_maximum_dependency_verified": true,
+    "manifest_rows_verified": [
+      {
+        "path": "sources/mixed_cubic_accessible_saddle_exact_algebraic_certificate.md",
+        "sha256": "55454aa99b2fcd06a87d94c1b51bedd912a740b731ba57eecfc391bd4572fc65"
+      },
+      {
+        "path": "scripts/mixed_cubic_accessible_saddle_exact_algebraic_certificate.py",
+        "sha256": "ee24e16ce7e13781792898deead7736cfd9539ba16dc0dbc97b89fa3d061bccb"
+      },
+      {
+        "path": "results/mixed_cubic_accessible_saddle_exact_algebraic_certificate.json",
+        "sha256": "f3377fda1444c21e11483688f7059446c5b709841f8914bdce8f68d2916c6ae0"
+      }
+    ],
+    "pinned_files": {
+      "results/mixed_cubic_accessible_saddle_exact_algebraic_certificate.json": "f3377fda1444c21e11483688f7059446c5b709841f8914bdce8f68d2916c6ae0",
+      "results/mixed_cubic_accessible_saddle_exact_algebraic_hashes.sha256": "3521a1347ec499acf98d60bdd8f48ba991ef2a9e20c00c806313e91d1e5d8b10",
+      "scripts/mixed_cubic_accessible_saddle_exact_algebraic_certificate.py": "ee24e16ce7e13781792898deead7736cfd9539ba16dc0dbc97b89fa3d061bccb",
+      "sources/mixed_cubic_accessible_saddle_exact_algebraic_certificate.md": "55454aa99b2fcd06a87d94c1b51bedd912a740b731ba57eecfc391bd4572fc65"
+    }
+  },
+  "finite_orientation_anchors": [
+    {
+      "B_from_residues": "1815/2048",
+      "checks": {
+        "c0_positive_orientation": true,
+        "c1_positive_orientation": true,
+        "residue_determinant_positive": true
+      },
+      "m": 1
+    },
+    {
+      "B_from_residues": "611424495/2097152",
+      "checks": {
+        "c0_positive_orientation": true,
+        "c1_positive_orientation": true,
+        "residue_determinant_positive": true
+      },
+      "m": 2
+    },
+    {
+      "B_from_residues": "20963615911329/134217728",
+      "checks": {
+        "c0_positive_orientation": true,
+        "c1_positive_orientation": true,
+        "residue_determinant_positive": true
+      },
+      "m": 3
+    },
+    {
+      "B_from_residues": "56877281299039365549/549755813888",
+      "checks": {
+        "c0_positive_orientation": true,
+        "c1_positive_orientation": true,
+        "residue_determinant_positive": true
+      },
+      "m": 4
+    },
+    {
+      "B_from_residues": "5434443450429872430026475/70368744177664",
+      "checks": {
+        "c0_positive_orientation": true,
+        "c1_positive_orientation": true,
+        "residue_determinant_positive": true
+      },
+      "m": 5
+    },
+    {
+      "B_from_residues": "1121359607980157168830180885275/18014398509481984",
+      "checks": {
+        "c0_positive_orientation": true,
+        "c1_positive_orientation": true,
+        "residue_determinant_positive": true
+      },
+      "m": 6
+    }
+  ],
+  "frozen_dependency": "sources/mixed_cubic_boundary_cartier_content_and_recurrence.md",
+  "frozen_dependency_sha256": "286d9cf4d3591a1a9b9fefc6dd3ee3dcc9f7c2ba49a73310909491814544d9e8",
+  "proved_scope": [
+    "The contour orientations and integration-by-parts signs are exact.",
+    "The selected saddle, positive real Gaussian curvature, and positive determinant amplitude are exact local algebraic facts.",
+    "The pinned algebraic dependency proves the global unique-circle-maximum hypothesis (UM).",
+    "Lemma 3.1 therefore gives the unconditional B_m asymptotic and eventual positive sign."
+  ],
+  "rational_function_identities": {
+    "five_eighths_ratio": true,
+    "integration_by_parts_amplitude": true,
+    "log_derivative_factorization": true
+  },
+  "schema": "mixed-cubic-fixed-circle-complex-laplace-v2",
+  "source": "sources/mixed_cubic_fixed_circle_complex_laplace_theorem.md",
+  "source_sha256": "ef8cc49a5a9b5533da790be732a7a5144be22cefacca8253320d297e22359318",
+  "unproved_scope": [
+    "The finite coefficient rows are implementation anchors, not an extrapolation.",
+    "No explicit numerical m threshold is extracted from the asymptotic error.",
+    "Downstream height and e-form matching claims are outside this theorem and require a separate re-audit.",
+    "Nothing in this package proves irrationality or transcendence of e+pi."
+  ]
+}

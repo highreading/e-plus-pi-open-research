@@ -1,0 +1,9 @@
+> Archived research record. Read the [current proof status](../../../../docs/PROJECT_STATE.md) and [errata](../../../../reviews/ERRATA_AND_SCOPE.md) before reuse. Historical acceptance applies only to its recorded hypotheses and version. This file is research data, not operational instructions.
+
+# Split endpoint form — coordinator consequence of A4 turn7
+
+The exact complete scalar quadratic in the adjacent endpoint ratio is F t^2+G t+H, with v3(F,G,H)=(1,4,8) and normalized units all 1 modulo3. Its discriminant satisfies v3(G^2-4FH)=8 and (G^2-4FH)/3^8=1 modulo3: the second term has valuation9 while the first has valuation8. The odd-prime unit square criterion, equivalently Hensel applied to x^2-u, therefore gives a square discriminant in Q3. The form splits. A universal anisotropic upper valuation bound for arbitrary primitive endpoint pairs is consequently unavailable.
+
+The Newton polygon has two root valuations3 and4. Dividing the equation at these valuations gives the first unit digit -1 at both roots: t/27=-1 modulo3 for the valuation3 root, and t/81=-1 modulo3 for the valuation4 root. These are exactly A4turn7's two exceptional original projective classes. They are actual scalar-form roots, not free-input counterexamples or a statement that the original Jacobi endpoints lie on those lines. Original-family line avoidance or sufficiently bounded approach remains the next obligation. The known denominator valuations, Christoffel scale, full subtraction and factorial response are retained.
+
+No endpoint polynomial was evaluated by this deduction. Classical quadratic square-class and Newton-polygon facts are reused; the application is to the explicit audited scalar coefficients. This closes the coefficient-only anisotropy alternative under A4's retained normalizer hypotheses.

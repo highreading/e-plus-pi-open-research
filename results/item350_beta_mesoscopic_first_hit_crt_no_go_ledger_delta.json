@@ -1,0 +1,86 @@
+{
+  "schema": "item350-beta-mesoscopic-first-hit-crt-no-go-ledger-delta-v1",
+  "item": 350,
+  "date": "2026-09-01",
+  "classification": "PROVED_MESOSCOPIC_LOAD_CRT_RESULTANT_SCOPED_NO_GO",
+  "actual_item316_input": {
+    "carrier": "Xi_Q=sum_{j in H} log p_j+o(log b)",
+    "hit_relation": "w_j*delta_(j-1)-delta_j=p_j*h_j",
+    "mesoscopic_range": "A<p_j<A^2",
+    "common_divisor": "p_j|Q|b",
+    "quotient_localization": "p_j does not divide t",
+    "small_quotient": "1<=h_j<A"
+  },
+  "admission": {
+    "raw_maximum": "sum log p_j<=log rad(Q)<=log Q<=log b",
+    "raw_scale": "positive linear beta-scale mass remains possible",
+    "booked_overlap_removed_by_item346": true,
+    "candidate": "cross-depth continuant/load recurrence and formal target CRT",
+    "reason_for_decision": "test whether distinct first-hit primes compress into a sublinear-height resultant"
+  },
+  "proved": {
+    "integral_coordinates": "(d_1,...,d_m)<->(d_1,d_2,x_3,...,x_m) is unimodular",
+    "all_window_identity": "d_v=(product w)d_u-sum x_k(product tail w)",
+    "load_elimination_ideal": "zero",
+    "window_carrier_height": "log P_(u,v)<2*|H_(u,v)|*log A",
+    "penultimate_top_gradient_determinant": 0,
+    "penultimate_row_relation": "row_Delta=-A*row_t+row_z",
+    "penultimate_affine_identity": "Delta+A*t-z_(m-1)=A*c-a+rho_lower",
+    "lower_zero_slice_exception": "p|(A^2+1)",
+    "lower_zero_slice_exception_mass": "at most log(A^2+1)=O(log A)=o(log b)",
+    "primitive_lower_escape": "rho_lower is primitive for m>=5; the m=4 coefficient 141 is coprime to q_6",
+    "per_prime_formal_compatibility": "Delta=0, z_j=0, t nonzero over F_p for every p>A dividing b",
+    "exact_integer_formal_CRT": "Delta=0 exactly, p_j|z_j, z_j nonzero, and gcd(t,product p_j)=1"
+  },
+  "scoped_no_go": {
+    "closed_class": "pairwise, bounded-window, and recurrence-only resultants, including exact formal target and t-unit localization",
+    "reason": "the loads are independent triangular coordinates and arbitrary assigned distinct hit congruences remain formally CRT-compatible",
+    "bounded_or_sublinear_window_rate": 0,
+    "linear_window_height": "Theta(n log A)=Theta(log b)",
+    "actual_specialization_bridge_proved": false,
+    "earlier_row_avoidance_imposed": false,
+    "formal_first_occurrence_claim": false,
+    "canonical_digit_box_imposed": false,
+    "small_positive_h_j_imposed": false
+  },
+  "strict_labels": {
+    "PROVED": [
+      "triangular load coordinates",
+      "all-window identity",
+      "zero load-only elimination ideal",
+      "exact window carrier height",
+      "penultimate resonance and affine rho bridge",
+      "lower-zero-slice A^2+1 zero-rate carrier",
+      "primitive lower-coordinate escape",
+      "formal per-prime and exact integer CRT compatibility"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared transition, symbolic identity, resonance, carrier, CRT, exact-lift, and nonzero-row controls"
+    ],
+    "OPEN": [
+      "actual specialization bridge",
+      "earlier-row nondivisibility and genuine first occurrence",
+      "actual weighted first-hit bound",
+      "Xi_Q",
+      "canonical small-h_j matching across linearly many depths",
+      "H_Q",
+      "K_Q",
+      "Gamma_Q",
+      "squarefull excess",
+      "beta capacity",
+      "Route 1",
+      "e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_mesoscopic_maximum": "log b",
+    "lower_zero_slice_exception_rate": 0,
+    "bounded_window_rate": 0,
+    "sublinear_window_rate": 0,
+    "actual_Xi_Q_upper_bound": "OPEN",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "booking": 0
+  },
+  "canonical_files_modified": false
+}

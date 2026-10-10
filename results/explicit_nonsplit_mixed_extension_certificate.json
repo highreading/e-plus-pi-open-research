@@ -1,0 +1,42 @@
+{
+  "certificate": "explicit_nonsplit_mixed_extension",
+  "checks": {
+    "J1_Ei_formula_derivative_normalization": true,
+    "J_Ei_formula_at_zero": true,
+    "J_differential_equation": true,
+    "K_differential_equation": true,
+    "cross_connection_at_one": true,
+    "cross_fundamental_at_zero": true,
+    "cross_fundamental_system": true,
+    "endpoint_connection_target_entry": true,
+    "endpoint_gauge_regular_and_unimodular": true,
+    "endpoint_gauged_fundamental_at_zero": true,
+    "endpoint_gauged_fundamental_system": true,
+    "generic_galois_action_matrix": true,
+    "monodromy_commutator": true,
+    "split_case_decouples": true
+  },
+  "exact_data": {
+    "A_cross": "Matrix([[0, 0, 0], [-4/(z**2 + 1), 0, 0], [4/(z**2 + 1), 1 + 1/(z - 2), 1]])",
+    "A_split_decoupled": "Matrix([[0, 0, 0], [-4/(z**2 + 1), 0, 0], [0, 0, 1]])",
+    "B_value": "-4*pi",
+    "J1_Ei": "(-Ei(2) + Ei(1))*exp(-1)",
+    "J1_integral": "E*Integral(exp(-t)/(t - 2), (t, 0, 1))",
+    "K1": "E*Integral(-4*exp(-t)*atan(t)/(t - 2), (t, 0, 1))",
+    "K1_sign": "positive: r(t)<0 and y(t)<0 for 0<t<1",
+    "Phi_cross": "Matrix([[1, 0, 0], [-4*atan(z), 1, 0], [exp(z)*Integral(-4*exp(-t)*atan(t)/(t - 2), (t, 0, z)) + 4*atan(z), exp(z)*Integral(exp(-t)/(t - 2), (t, 0, z)) + exp(z) - 1, exp(z)]])",
+    "central_commutator_value": "8*pi**2*i*exp(-2)",
+    "endpoint_gauge": "Matrix([[1, 0, 0], [0, 1, 0], [z - 1, 0, 1]])",
+    "endpoint_gauged_connection": "Matrix([[1, 0, 0], [-pi, 1, 0], [-4*E*Integral(exp(-t)*atan(t)/(t - 2), (t, 0, 1)) + E + pi, E*Integral(exp(-t)/(t - 2), (t, 0, 1)) - 1 + E, E]])",
+    "generic_galois_matrix": "Matrix([[1, 0, 0], [b, 1, 0], [-b + d, a + c - 1, a]])",
+    "kappa_value": "2*pi*i*exp(-2)",
+    "monodromy_2_symbolic": "Matrix([[1, 0, 0], [0, 1, 0], [lambda_2, kappa, 1]])",
+    "monodromy_commutator": "Matrix([[1, 0, 0], [0, 1, 0], [-B*kappa, 0, 1]])",
+    "monodromy_i_symbolic": "Matrix([[1, 0, 0], [B, 1, 0], [-B + delta_i, 0, 1]])",
+    "nonsplitting_obstruction": "r1'-r1=1+r forces a rational solution of R'-R=1/(z-2), impossible by pole order at z=2",
+    "q": "-4/(z**2 + 1)",
+    "r": "1/(z - 2)",
+    "target_connection_entry": "-4*E*Integral(exp(-t)*atan(t)/(t - 2), (t, 0, 1)) + E + pi"
+  },
+  "sympy_version": "1.14.0"
+}

@@ -1,0 +1,114 @@
+{
+  "schema": "item327-beta-transducer-congruence-no-go-manifest-v1",
+  "item": 327,
+  "title": "Moving dyadic witnesses and all-degree projective collapse of the beta transducer",
+  "date": "2026-09-01",
+  "status": "PROVED_SCOPED_MOVING_DYADIC_AND_PROJECTIVE_NONLINEAR_NO_GO",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item316_beta_intermediate_ostrowski_no_go_report.md": "8d6dce8354f08e94a252a2120cf677d9a374df95507a9297dcb064a1982fb6b0",
+    "scripts/item316_beta_intermediate_ostrowski_no_go_certificate.py": "b7e25ea7248dbc774da7f3bd98a8665058117de84a2342009f8669bf5438cf6f",
+    "results/item316_beta_intermediate_ostrowski_no_go_certificate.json": "5167e9d160fcecac86791944e41a176d3400f2a6856090de7cf78d55984e7aa4",
+    "manifests/item316_beta_intermediate_ostrowski_no_go_manifest.json": "aac741658430fb661de078adfeafdbc3a9d20312a8fd8725cb4244d406d9bcf6",
+    "results/item316_root_audit.json": "6cad978132f5f09c687aa8fcf8dcd92a7d917cf9411a69f679c7757139229175",
+    "sources/item323_beta_all_depth_dual_transducer_no_go_report.md": "e0b5e7279079a17556a0b287ea18a40e461b6fdb8e45d8ef5a357434b8e6d9ef",
+    "scripts/item323_beta_all_depth_dual_transducer_no_go_certificate.py": "385d57dca299737c3a7feb0523192e81032de865a8862e126f5ec8a0723779cc",
+    "results/item323_beta_all_depth_dual_transducer_no_go_certificate.json": "680c7e2c3d5dfdeae2b61e37e38a81a363cf3aa25a5229062e3620c727c77bc6",
+    "manifests/item323_beta_all_depth_dual_transducer_no_go_manifest.json": "dcf9a3e8087bc849a7a9cfd3807635520d7e5af0b63ae3e88d4e2a33154d8200",
+    "results/item323_beta_all_depth_dual_transducer_no_go_root_audit.json": "2455ebbc739cc235bea44e0d220dae6d29be73eac5a9e8a846465366562ca6c2"
+  },
+  "artifacts": [
+    {
+      "path": "work/item327_beta_transducer_congruence_no_go_report.md",
+      "role": "moving-dyadic construction, projective nonlinear collapse proof, admission, and strict scope",
+      "bytes": 15586,
+      "sha256": "5210f265f531198f0f1d955640eb3027debe046b01c2ec9ed58234421e0218ea"
+    },
+    {
+      "path": "work/item327_beta_transducer_congruence_no_go_certificate.py",
+      "role": "standard-library exact deterministic replay",
+      "bytes": 18928,
+      "sha256": "b96944c91d8bb90dcb2aeb8465aa330ac70d9984722656fd36ee46af63b42427"
+    },
+    {
+      "path": "work/item327_beta_transducer_congruence_no_go_certificate.json",
+      "role": "work-package certificate output",
+      "bytes": 44289,
+      "sha256": "12fadf2ad2b9703cb369cc7e0859bfdf68425f5267581aa6c4d76d9a7b33012a"
+    },
+    {
+      "path": "work/item327_beta_transducer_congruence_no_go_certificate.replay.json",
+      "role": "independent byte-identical replay output",
+      "bytes": 44289,
+      "sha256": "12fadf2ad2b9703cb369cc7e0859bfdf68425f5267581aa6c4d76d9a7b33012a"
+    },
+    {
+      "path": "work/item327_beta_transducer_congruence_no_go_ledger_delta.json",
+      "role": "proposed ledger delta; no canonical edit",
+      "bytes": 3916,
+      "sha256": "2c6c90f6c495c6ab31d15d4008dbcc45c311065511528ba18802ce003e16b82b"
+    }
+  ],
+  "replay": {
+    "command": "python work/item327_beta_transducer_congruence_no_go_certificate.py --output work/item327_beta_transducer_congruence_no_go_certificate.replay.json",
+    "expected_stdout": {
+      "capacity_reduction": "ZERO",
+      "item": 327,
+      "moving_dyadic": "PROVED_SCOPED_NO_GO",
+      "original_all_digit_exclusion": "OPEN",
+      "projective_nonlinear": "PROVED_SCOPED_NO_GO",
+      "status": "PROVED_SCOPED_MOVING_DYADIC_AND_PROJECTIVE_NONLINEAR_NO_GO"
+    },
+    "expected_replay_sha256": "12fadf2ad2b9703cb369cc7e0859bfdf68425f5267581aa6c4d76d9a7b33012a",
+    "dependency_hashes_verified_before_output": 10
+  },
+  "proved": [
+    "For every n>=6 and every moving s with 2^s<=2n-3, an explicit canonical positive-branch witness satisfies U=a mod 2^s but U!=a.",
+    "The witness lies in the exact intermediate window, has 0<|E|<c, and carries Item 323's full universal all-depth unit-strip transducer.",
+    "For every canonical word, L_j-H_jL_m=-bN_j and all two-depth minors have an exact factor b.",
+    "For D|b and unit R, the residual vector has fixed projective direction H modulo D.",
+    "Every homogeneous polynomial of arbitrary degree and depth portfolio collapses by F(L)=R^degree F(H) modulo D.",
+    "Every general polynomial reduces to one scalar R; on an actual target R is the already-known signed square ray modulo D.",
+    "The canonical comparator R=1 lies below the target window but has L=H exactly."
+  ],
+  "strict_scope": {
+    "closes": [
+      "moving dyadic target truncations with 2^s<=2n-3 and no additional odd coprimality input",
+      "all digit-independent projectively homogeneous congruence tests on the Item-323 residual tower, at arbitrary depth and degree"
+    ],
+    "does_not_close": [
+      "the original exact all-digit target",
+      "R_actual>=a/2",
+      "dyadic precision above 2n-3, full dyadic equality, or dyadic/odd coupling",
+      "divided quotients, suffix loads, or mod b^2 and higher information",
+      "integer-size nonlinear invariants or canonical complement redigitization",
+      "a proper-target lower bound or weighted return cover",
+      "any beta capacity reduction",
+      "Route 1 or any conclusion about e+pi"
+    ]
+  },
+  "strict_labels": {
+    "PROVED": [
+      "uniform moving-dyadic witness theorem",
+      "exact projective rank-one and arbitrary-degree polynomial collapse"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "logarithmically growing dyadic information class",
+      "all-depth projective nonlinear residue class"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared replay control rows"
+    ],
+    "OPEN": [
+      "the original all-digit exclusion and centered half-bound",
+      "super-logarithmic/full dyadic, divided-quotient, higher-modulus, integer-size, and redigitized routes",
+      "proper targets and every capacity consequence"
+    ]
+  },
+  "capacity": {
+    "moving_dyadic_raw_mass": "O(log n)=o(n)",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "booking": 0
+  }
+}

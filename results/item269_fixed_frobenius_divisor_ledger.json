@@ -1,0 +1,94 @@
+{
+  "schema": "item269-fixed-frobenius-divisor-ledger-v1",
+  "scope": "Fixed-divisor and large-sieve admission for the actual moving ordinary-j=2 two-coordinate affine gate, starting from the sealed Item-267 Picard 1-motive realization",
+  "claims": [
+    {
+      "id": "I269-C1",
+      "label": "PROVED",
+      "claim": "The full simultaneous collision, including the f_0=f_1=0 branch, is exactly the fixed bilinear incidence R_(r,s)*(1,H_q,h_q)^T=0 in Mat_(2x3) x A^3.",
+      "evidence": "report Section 2; exact expansion of A_s, Z, and both G_nu; deterministic incidence checks",
+      "scope_limit": "R_(r,s) is external row data and is not Frobenius data of the fixed Item-267 motive"
+    },
+    {
+      "id": "I269-C2",
+      "label": "PROVED",
+      "claim": "For either phase, if D_delta=A_delta/B_delta is reduced, then v_3(A_delta)=0 and v_3(B_delta)=L+v_3((2L-1)!!), where L=3 delta in phase 5 and L=3 delta-2 in phase 1.",
+      "evidence": "report equations (3.3)-(3.7); unique lowest 3-adic tail term",
+      "scope_limit": "the formula concerns actual odd delta values and the fixed rational boundary coefficient D_delta"
+    },
+    {
+      "id": "I269-C3",
+      "label": "PROVED",
+      "claim": "The actual D_delta slopes are pairwise distinct in each phase.",
+      "evidence": "the exact valuation in I269-C2 decreases strictly when delta increases by two",
+      "scope_limit": "distinctness is over Q; no claim is made that reductions modulo every p remain pairwise distinct"
+    },
+    {
+      "id": "I269-C4",
+      "label": "PROVED_SCOPED_NO_GO",
+      "claim": "No nonzero fixed polynomial P(T,V) over Q vanishes at (delta,D_delta) on an unbounded infinite set of actual delta values.",
+      "evidence": "report Section 4; rational-root denominator bound O(log delta) contradicts v_3(B_delta)>=3 delta-2, after excluding finitely many leading-coefficient zeros",
+      "scope_limit": "does not rule out a trace function of a new lisse sheaf or a new dynamical-orbit encoding"
+    },
+    {
+      "id": "I269-C5",
+      "label": "PROVED_SCOPED_NO_GO",
+      "claim": "No conjugacy-stable proper divisor in the sealed Item-267 Cartier realization detects H_q-D_delta h_q-epsilon.",
+      "evidence": "report Section 5; exact p=5 normal form and p=1 nonresonant splitting exhibit conjugate matrices with different gate status",
+      "scope_limit": "the canonical framed endpoint remains meaningful; the theorem concerns conjugacy/isomorphism invariants"
+    },
+    {
+      "id": "I269-C6",
+      "label": "PROVED_SCOPED_NO_GO",
+      "claim": "A single nonzero fixed polynomial cannot vanish identically on all moving framed period hyperplanes, and marking three distinct row lines kills projective monodromy on their two-plane.",
+      "evidence": "infinitely many distinct linear factors from I269-C3; elementary PGL_2 stabilizer lemma",
+      "scope_limit": "this is not a theorem that the actual full collision points avoid every conceivable fixed auxiliary divisor"
+    },
+    {
+      "id": "I269-C7",
+      "label": "PROVED_ADMISSION_FAILURE",
+      "claim": "Pulling the fixed Picard 1-motive back to a row line is geometrically constant; the exact universal incidence has no supplied bounded-conductor realization of R_(r,s), no nontrivial row monodromy, and no uniform local-density theorem.",
+      "evidence": "report Sections 1, 2, and 6",
+      "scope_limit": "a future auxiliary compatible system with genuinely new row dynamics is left open"
+    },
+    {
+      "id": "I269-C8",
+      "label": "EXACT_FINITE_ONLY",
+      "claim": "The inherited p=47 rows demonstrate that one fixed prime object does not determine the row-labelled cutoff event.",
+      "evidence": "H_m mod 47 equals 33,0,41,1 for delta=1,3,5,7",
+      "scope_limit": "not a new exceptional-prime search and not a statement about the full-gate density"
+    },
+    {
+      "id": "I269-C9",
+      "label": "CONTEXT_ONLY",
+      "claim": "The contemporaneous Item-268 adjacent-fiber result supports retaining both rows of the full incidence rather than replacing them by one transported line.",
+      "evidence": "cross-branch communication; not frozen as a dependency unless a final hash is later added",
+      "scope_limit": "no Item-269 theorem depends on this contextual input"
+    },
+    {
+      "id": "I269-C10",
+      "label": "PROVED_BOOKING_DECISION",
+      "claim": "The fixed-divisor admission test fails and no strict retained ceiling below the raw 2/35 ordinary-j=2 mass is proved; the booking is zero.",
+      "evidence": "report Sections 1 and 7",
+      "scope_limit": "Route 1 and every conclusion about e+pi remain open"
+    }
+  ],
+  "strict_labels": {
+    "slope_valuation_and_distinctness": "PROVED",
+    "algebraic_correspondence": "PROVED NO-GO IN STATED SCOPE",
+    "conjugacy_stable_divisor": "PROVED NO-GO FOR SEALED REALIZATION",
+    "universal_incidence": "EXACT POSITIVE RECOGNITION; NOT LARGE-SIEVE ADMISSIBLE BY ITSELF",
+    "bounded_replay": "EXACT FINITE ONLY",
+    "exceptional_zero_search": "NONE",
+    "positive_linear_capacity_admission": "FAIL",
+    "new_route1_rate": "0",
+    "new_capacity_reduction": "0"
+  },
+  "open": [
+    "a bounded-conductor lisse or crystalline family encoding the moving row matrices R_(r,s)",
+    "nontrivial geometric monodromy and a fixed conjugacy-stable proper collision divisor for the actual (p,r) family",
+    "a recurrence-orbit equidistribution theorem strong enough for weighted zero density",
+    "any actual elliptic-Wieferich equivalence for the gate",
+    "Route 1 and every conclusion about e+pi"
+  ]
+}

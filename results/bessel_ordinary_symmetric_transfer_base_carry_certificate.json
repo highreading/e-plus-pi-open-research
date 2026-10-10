@@ -1,0 +1,145 @@
+{
+  "affine_carry_witnesses": [
+    {
+      "base_first_digit_c": 12,
+      "base_second_digit_d": 5,
+      "carried_digit": 11,
+      "endpoint": -1,
+      "first_digit_integer_carry_lambda": 0,
+      "index": 8,
+      "low_lift_rho": 10,
+      "prime": 13,
+      "psi": 6,
+      "root": 4,
+      "slope_delta": 12
+    },
+    {
+      "base_first_digit_c": 38967,
+      "base_second_digit_d": 2568,
+      "carried_digit": 11300,
+      "endpoint": 1,
+      "first_digit_integer_carry_lambda": 1,
+      "index": 66831,
+      "low_lift_rho": 14933,
+      "prime": 52453,
+      "psi": 8732,
+      "root": 14378,
+      "slope_delta": 13486
+    }
+  ],
+  "charlier_grid": {
+    "connection_congruence_checks": 390,
+    "evaluation_checks": 195,
+    "partial_injection_symmetry_checks": 195,
+    "prime_bound_exclusive": 55,
+    "root_slope_checks": 5,
+    "root_square_digit_checks": 5
+  },
+  "description": "Deterministic exact replay for the ordinary Bessel symmetric-transfer separation and unavoidable base-carry barrier.",
+  "frozen_dependencies": {
+    "scripts/bessel_ordinary_first_three_layer_wilson_carry_certificate.py": "6284b8afcbfed1349df814a7be0f4e507c59a9202308684ab7f706fbb366ad2a",
+    "sources/bessel_ordinary_first_three_layer_wilson_carry.md": "af171d428ac26019c3d98af3cd46a72cfa64db5a305857f369b05a6cfd5fa44f"
+  },
+  "recurrence_countermodels": {
+    "cube_countermodel": {
+      "altered_over_p3": 457003184,
+      "altered_value": 1004035995248,
+      "coefficient": 7,
+      "index": 8,
+      "prime": 13
+    },
+    "ordinary_base_square_countermodel": {
+      "altered_initial_values": [
+        23,
+        67
+      ],
+      "altered_root_value": 60863,
+      "altered_slope_mod_p": 7,
+      "coefficient_in_p_times_companion": 2,
+      "prime": 11,
+      "root": 4
+    }
+  },
+  "scope_warning": "The matrix, continuant, Charlier, affine-carry, and perturbation statements are symbolically proved in the source. Finite grids are regression checks. No all-prime square or cube exclusion for the original Bessel initial values is proved.",
+  "transfer_and_slope_grid": {
+    "derivative_samples": [
+      {
+        "K_derivative_at_zero": -14,
+        "h": 1,
+        "prime": 5,
+        "root": 0
+      },
+      {
+        "K_derivative_at_zero": 1,
+        "h": 0,
+        "prime": 5,
+        "root": 1
+      },
+      {
+        "K_derivative_at_zero": 963,
+        "h": 2,
+        "prime": 7,
+        "root": 0
+      },
+      {
+        "K_derivative_at_zero": -14,
+        "h": 1,
+        "prime": 7,
+        "root": 1
+      },
+      {
+        "K_derivative_at_zero": 1,
+        "h": 0,
+        "prime": 7,
+        "root": 2
+      },
+      {
+        "K_derivative_at_zero": 36590277,
+        "h": 4,
+        "prime": 11,
+        "root": 0
+      },
+      {
+        "K_derivative_at_zero": -141468,
+        "h": 3,
+        "prime": 11,
+        "root": 1
+      },
+      {
+        "K_derivative_at_zero": 963,
+        "h": 2,
+        "prime": 11,
+        "root": 2
+      },
+      {
+        "K_derivative_at_zero": -14,
+        "h": 1,
+        "prime": 11,
+        "root": 3
+      },
+      {
+        "K_derivative_at_zero": 1,
+        "h": 0,
+        "prime": 11,
+        "root": 4
+      },
+      {
+        "K_derivative_at_zero": -14727258666,
+        "h": 5,
+        "prime": 13,
+        "root": 0
+      },
+      {
+        "K_derivative_at_zero": 36590277,
+        "h": 4,
+        "prime": 13,
+        "root": 1
+      }
+    ],
+    "interior_continuant_checks": 516,
+    "matrix_checks": 516,
+    "odd_derivative_checks": 516,
+    "prime_bound_exclusive": 100,
+    "root_slope_checks": 7
+  }
+}

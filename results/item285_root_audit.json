@@ -1,0 +1,44 @@
+{
+  "schema": "item285-root-audit-v1",
+  "audit_date": "2026-08-31",
+  "auditor": "root",
+  "verdict": "PASS_WITH_STRICT_SCOPE",
+  "substantive_checks": {
+    "arbitrary_sum_divisor": "PASS: prime-by-prime valuations prove gcd(Q,R)/gcd(Q,B) divides R/B for every finite nonzero integer sum, with no sparsity or degree restriction",
+    "conditional_height_ceiling": "PASS: the explicit normalized l1-height hypothesis log(sum |T_j|/B)=O(n) gives only an O(n)=o(n log n) additive quotient; it is not asserted for arbitrary unbounded constructions without that hypothesis",
+    "reservoir_deoverlap": "PASS: targets are declared inside q_n/gcd(q_n,D_m), and gcd(Q,B) is retained as the unresolved Item282 common-product baseline rather than rebooked",
+    "boundary_unit_reduction": "PASS: C_h is congruent to -P_h(n)q_(n+1)^2 modulo q_n, so unequal Casoratian degrees give the exact residual F(u) with u=-q_(n+1)^2, and the prefactor is a Q-unit",
+    "small_lift_criterion": "PASS: a factorization-independent unit lift with O(n) normalized evaluated height closes only the additive quotient; the canonical lift costs at least 2 log q_(n+1)=2n log n+O(n) for a genuinely nonhomogeneous sum",
+    "homogenization_scope": "PASS: multiplication by powers of C_1 creates a different designed homogeneous scalar controlled by F(1); no implication from the original F(u) collision is claimed",
+    "resultant_criterion": "PASS: a monic integer annihilator M(u)=0 modulo Q and the Sylvester-Bezout identity give prime-power divisibility of the additive quotient into Res(M,F/B); nonzero O(n)-height is an explicit conditional requirement",
+    "zero_resultant_scope": "PASS: a zero resultant is explicitly left open and is not used as a height certificate",
+    "target_independence": "PASS: the report excludes constructions chosen from the target factorization or unknown p-adic depths; the bounded checker is labeled exact finite only",
+    "capacity_booking": "PASS: neither a low-height actual-family lift/annihilator nor the product-return theorem is proved, so the Route-1 rate and beta-capacity reduction are both booked as zero"
+  },
+  "independent_replay": {
+    "canonical_sha256": "0af4b01f76b7a51d1bc43b6d9b823e12c9b21d4ad8e3282abaa1fd5e9efde19e",
+    "root_replay_sha256": "0af4b01f76b7a51d1bc43b6d9b823e12c9b21d4ad8e3282abaa1fd5e9efde19e",
+    "byte_identical": true
+  },
+  "package_checks": {
+    "manifest_files_checked": 6,
+    "frozen_dependencies_checked": 10,
+    "json_files_parsed": 5,
+    "all_hashes_and_dependencies_match": true
+  },
+  "report_checks": {
+    "sha256": "a00fa268c89b5d80ca27779506ae8b33ca3915f2d46073c66729cb456dfdb31c",
+    "bytes": 18151,
+    "lines": 664,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "display_delimiters": "59/59",
+    "inline_delimiters": "116/116"
+  },
+  "strict_scope": {
+    "proved": "Arbitrary finite sums have a universal normalized cancellation divisor; actual nonhomogeneous Casoratian sums reduce exactly to a boundary-unit polynomial and admit conditional low-height lift or annihilator-resultant closures.",
+    "finite_only": "Checker examples verify exact identities, non-transfer witnesses, and resultant behavior but imply no asymptotic distribution theorem.",
+    "open": "A factorization-independent O(n)-height lift or nonzero annihilator resultant for the actual unit, the Item282 product baseline, the beta weighted-return theorem, and all positive-rate consequences remain open.",
+    "route_status": "Route 1 ACTIVE; Route 2 QUEUED"
+  }
+}

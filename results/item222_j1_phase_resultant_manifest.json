@@ -1,0 +1,38 @@
+{
+  "artifacts": {
+    "results/item222_j1_phase_resultant_certificate.json": {
+      "role": "canonical deterministic exact output",
+      "sha256": "5c20f2da744823e245617434d24b539cc52160616c0e67a885a99e96ba816329",
+      "work_source": "item222_j1_phase_resultant_certificate.json"
+    },
+    "results/item222_j1_phase_resultant_certificate.replay.json": {
+      "role": "independent replay output; byte-identical to canonical",
+      "sha256": "5c20f2da744823e245617434d24b539cc52160616c0e67a885a99e96ba816329",
+      "work_source": "item222_j1_phase_resultant_certificate_replay.json"
+    },
+    "scripts/item222_j1_phase_resultant_certificate.py": {
+      "role": "Python-standard-library phase-resultant, recurrence-rank, height, and diagonal checker",
+      "sha256": "c16f75156ba8424c567163cedc6a93a7656c8a53036b48ef69b06327d76ad44b",
+      "work_source": "item222_j1_phase_resultant_certificate.py"
+    },
+    "sources/item222_j1_phase_resultant_report.md": {
+      "role": "proof report, unit audit, scoped no-go, diagonal mechanism, and Route-1 rate ledger",
+      "sha256": "9e088b216901a826a516453f133f2e362308154bb16296147d68bc66f2549133",
+      "work_source": "item222_j1_phase_resultant_report.md"
+    }
+  },
+  "canonical_command_from_archive_root": "python scripts/item222_j1_phase_resultant_certificate.py --output results/item222_j1_phase_resultant_certificate.json",
+  "dependencies": {
+    "archive_files": {},
+    "external_files": [],
+    "python": "3.11+ standard library only"
+  },
+  "portability": {
+    "archive_path_required": false,
+    "explicit_output_makes_archive_root_replay_portable": true,
+    "host_absolute_paths_embedded": false,
+    "self_contained_checker": true
+  },
+  "replay_command_from_archive_root": "python scripts/item222_j1_phase_resultant_certificate.py --output results/item222_j1_phase_resultant_certificate.replay.json",
+  "schema": "item222-portable-manifest-v1"
+}

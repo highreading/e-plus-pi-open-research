@@ -1,0 +1,469 @@
+{
+  "all_parameter_theorem": {
+    "CRT": "c=2*epsilon/g_p mod p, with 0<c<P_q",
+    "cancelled_fraction_limit": 1,
+    "cancelled_mass": "4q+o(q)",
+    "capacity_margin_constant": "7log7-3log3-4log4-4",
+    "capacity_margin_float": 0.780356732903301,
+    "d": "48q+11",
+    "determinant": "The ITEM96 matrix is diag(g_p,g_p), with g_p=0 mod p iff p divides K_q.",
+    "exact_padding_maximum": "(3/7)^(3q)*(4/7)^(4q)",
+    "full_window_mass": "4q+o(q)",
+    "n": "20q",
+    "proof_location": "Sections 2--9 of the companion source.",
+    "q_range": "all sufficiently large positive integers q",
+    "remaining_window_denominator_support": "gcd(D_q, product_window_primes) divides K_q",
+    "target_set": "primes (48q+11)/3<p<20q which do not divide K_q=40q^2+44q+5"
+  },
+  "control_audit": {
+    "script": {
+      "bytes": 18998,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "scripts/common_kernel_positive_crt_asymptotic_full_window_certificate.py"
+    },
+    "source": {
+      "bytes": 13419,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "sources/common_kernel_positive_crt_asymptotic_full_window_cancellation.md"
+    }
+  },
+  "dependency_checks": {
+    "results/common_kernel_positive_crt_asymptotic_three_quarter_hashes.sha256": {
+      "actual": "e5e497408f8b6a1ad6c4fc28634e2c5e8805754e3c10bf52e700325033d2625c",
+      "expected": "e5e497408f8b6a1ad6c4fc28634e2c5e8805754e3c10bf52e700325033d2625c"
+    }
+  },
+  "logical_scope": "Replay of an unconditional positive integral construction cancelling asymptotically all d/3<p<n Chebyshev mass from both isolated moment denominators. It does not control the full correction output or classify e+pi.",
+  "remaining_scope": "A third moment or the full correction output may recover arithmetic which the two isolated moments lose.",
+  "representative_q10_instance": {
+    "crt_table": [
+      {
+        "E": 332,
+        "K_mod_p": 103,
+        "O": 333,
+        "epsilon": 1,
+        "g_mod_p": 7,
+        "numerator_mod_p": 135,
+        "p": 167,
+        "p_mod_4": 3,
+        "t": 3,
+        "target_2epsilon_over_g_mod_p": 48
+      },
+      {
+        "E": 344,
+        "K_mod_p": 120,
+        "O": 345,
+        "epsilon": -1,
+        "g_mod_p": 139,
+        "numerator_mod_p": 60,
+        "p": 173,
+        "p_mod_4": 1,
+        "t": 6,
+        "target_2epsilon_over_g_mod_p": 112
+      },
+      {
+        "E": 356,
+        "K_mod_p": 149,
+        "O": 357,
+        "epsilon": 1,
+        "g_mod_p": 83,
+        "numerator_mod_p": 164,
+        "p": 179,
+        "p_mod_4": 3,
+        "t": 9,
+        "target_2epsilon_over_g_mod_p": 41
+      },
+      {
+        "E": 360,
+        "K_mod_p": 101,
+        "O": 361,
+        "epsilon": -1,
+        "g_mod_p": 140,
+        "numerator_mod_p": 141,
+        "p": 181,
+        "p_mod_4": 1,
+        "t": 10,
+        "target_2epsilon_over_g_mod_p": 106
+      },
+      {
+        "E": 380,
+        "K_mod_p": 52,
+        "O": 381,
+        "epsilon": 1,
+        "g_mod_p": 39,
+        "numerator_mod_p": 26,
+        "p": 191,
+        "p_mod_4": 3,
+        "t": 15,
+        "target_2epsilon_over_g_mod_p": 98
+      },
+      {
+        "E": 384,
+        "K_mod_p": 6,
+        "O": 385,
+        "epsilon": -1,
+        "g_mod_p": 76,
+        "numerator_mod_p": 3,
+        "p": 193,
+        "p_mod_4": 1,
+        "t": 16,
+        "target_2epsilon_over_g_mod_p": 66
+      },
+      {
+        "E": 392,
+        "K_mod_p": 111,
+        "O": 393,
+        "epsilon": -1,
+        "g_mod_p": 88,
+        "numerator_mod_p": 154,
+        "p": 197,
+        "p_mod_4": 1,
+        "t": 18,
+        "target_2epsilon_over_g_mod_p": 94
+      },
+      {
+        "E": 396,
+        "K_mod_p": 67,
+        "O": 397,
+        "epsilon": 1,
+        "g_mod_p": 129,
+        "numerator_mod_p": 133,
+        "p": 199,
+        "p_mod_4": 3,
+        "t": 19,
+        "target_2epsilon_over_g_mod_p": 108
+      }
+    ],
+    "degenerate_primes_dividing_K": [],
+    "exact_capacity": {
+      "holds": true,
+      "left_4c_3^(3q)_4^(4q)": 894976972693180178352896454510151796419610642125626015744,
+      "margin": 142608624637175254107250179902160919943657773097120440623505,
+      "right_7^(7q)": 143503601609868434285603076356671071740077383739246066639249
+    },
+    "item96_residue_rows": [
+      {
+        "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+        "p": 167,
+        "r_2pminus2_mod_p": 0
+      },
+      {
+        "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+        "p": 173,
+        "r_2pminus2_mod_p": 0
+      },
+      {
+        "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+        "p": 179,
+        "r_2pminus2_mod_p": 0
+      },
+      {
+        "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+        "p": 181,
+        "r_2pminus2_mod_p": 0
+      },
+      {
+        "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+        "p": 191,
+        "r_2pminus2_mod_p": 0
+      },
+      {
+        "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+        "p": 193,
+        "r_2pminus2_mod_p": 0
+      },
+      {
+        "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+        "p": 197,
+        "r_2pminus2_mod_p": 0
+      },
+      {
+        "2r_pminus1_plus_r_2pminus1_mod_p": 0,
+        "p": 199,
+        "r_2pminus2_mod_p": 0
+      }
+    ],
+    "natural_window_primes": [
+      167,
+      173,
+      179,
+      181,
+      191,
+      193,
+      197,
+      199
+    ],
+    "parameters": {
+      "A": 30,
+      "K": 4445,
+      "L": 40,
+      "c": 898906612637494089,
+      "d": 491,
+      "m": 50,
+      "n": 200,
+      "q": 10
+    },
+    "polynomial_hashes": {
+      "B_q": "c942feb18380f98d0c9129c5b6d3a1e13550b2ee662726e854d91f76facdcb09",
+      "G_q": "2484335f6f0313d416c1bc83754b82c088e8153a63b08a501318396bb2da094a",
+      "R_q": "516a4d8ba72093918c8ffbb2d0e0ac0285801965d48ae049d286dceddf6a0067",
+      "base_q": "a86131c19b6063106d028589ea9ac682ad6b73b58b0239a114005781e83c8bf6",
+      "correction_factor": "211f177b1b3baf8d323b7a818cdb563ab31e583a9f758d37007af511c8b0ce3f",
+      "h_q": "6f8ed9eb35ea356d30d06d3d76508c757d09887336f9ac88974f286b1e3b4b09",
+      "q_h": "94ea54c03391da480148426c88363cdcefd14710e87c3b59faedc97273c10c6f",
+      "r_q": "7d6c075561e2d9977e71c24e999d7545bb531fa37182628167bb70088eb7411b",
+      "w_q": "c77ed4409a1494309cd6ec2e9062e9eabfc4d5591d9cc6a4673d30871a797ef5"
+    },
+    "reduced_moments": {
+      "I0_denominator_bits": 281,
+      "I0_numerator_bits": 280,
+      "I0_sha256": "e4eda25ebe59ad74e38734cd139bfa76dd173659007cac9f53a6fde58fe14b18",
+      "I1_denominator_bits": 312,
+      "I1_numerator_bits": 311,
+      "I1_sha256": "787809f7f4d937a5c876763852aefac8223ebd77b7bb41921e6288d6c595bfa4",
+      "common_denominator_bits": 426,
+      "common_denominator_mod_target_primes": [
+        {
+          "p": 167,
+          "residue": 94
+        },
+        {
+          "p": 173,
+          "residue": 114
+        },
+        {
+          "p": 179,
+          "residue": 38
+        },
+        {
+          "p": 181,
+          "residue": 179
+        },
+        {
+          "p": 191,
+          "residue": 111
+        },
+        {
+          "p": 193,
+          "residue": 115
+        },
+        {
+          "p": 197,
+          "residue": 139
+        },
+        {
+          "p": 199,
+          "residue": 154
+        }
+      ],
+      "gcd_common_denominator_window_product": 1
+    },
+    "target_primes": [
+      167,
+      173,
+      179,
+      181,
+      191,
+      193,
+      197,
+      199
+    ],
+    "target_product": 1352708312947727201
+  },
+  "resource_policy": {
+    "RSS_guard_kib": 41943040,
+    "hardware_accelerator": "Not used: the replay is exact integer/rational arithmetic.",
+    "meaning": "The 40-GiB value is a failure guard only; it neither allocates nor limits the approximately 50 GiB available Colab RAM."
+  },
+  "schema": "common_kernel_positive_crt_asymptotic_full_window_certificate_v1",
+  "source_sha256": "e8cbb912fd801e83d31917ccbe24ff40dc936509e45bd4751ef11b2c7a454215",
+  "symbolic_identity_checks": {
+    "all_rows_sha256": "df01ba2da82205fc6fac9e1941c4fac1aadc2df8d9323714d9d9cc4d436fc510",
+    "finite_scope": "Exact symbolic normalization for varied q and both odd residue classes; the asymptotic quantifiers are proved in the source.",
+    "row_count": 32,
+    "selected_rows": [
+      {
+        "K_mod_p": 68,
+        "g_mod_p": 2,
+        "numerator_mod_p": 34,
+        "p": 89,
+        "p_mod_4": 1,
+        "q": 5,
+        "t": 4
+      },
+      {
+        "K_mod_p": 61,
+        "g_mod_p": 76,
+        "numerator_mod_p": 79,
+        "p": 97,
+        "p_mod_4": 1,
+        "q": 5,
+        "t": 8
+      },
+      {
+        "K_mod_p": 40,
+        "g_mod_p": 17,
+        "numerator_mod_p": 20,
+        "p": 137,
+        "p_mod_4": 1,
+        "q": 8,
+        "t": 4
+      },
+      {
+        "K_mod_p": 137,
+        "g_mod_p": 122,
+        "numerator_mod_p": 138,
+        "p": 139,
+        "p_mod_4": 3,
+        "q": 8,
+        "t": 5
+      },
+      {
+        "K_mod_p": 86,
+        "g_mod_p": 40,
+        "numerator_mod_p": 43,
+        "p": 149,
+        "p_mod_4": 1,
+        "q": 8,
+        "t": 10
+      },
+      {
+        "K_mod_p": 48,
+        "g_mod_p": 117,
+        "numerator_mod_p": 24,
+        "p": 151,
+        "p_mod_4": 3,
+        "q": 8,
+        "t": 11
+      },
+      {
+        "K_mod_p": 91,
+        "g_mod_p": 60,
+        "numerator_mod_p": 124,
+        "p": 157,
+        "p_mod_4": 1,
+        "q": 8,
+        "t": 14
+      },
+      {
+        "K_mod_p": 103,
+        "g_mod_p": 7,
+        "numerator_mod_p": 135,
+        "p": 167,
+        "p_mod_4": 3,
+        "q": 10,
+        "t": 3
+      },
+      {
+        "K_mod_p": 120,
+        "g_mod_p": 139,
+        "numerator_mod_p": 60,
+        "p": 173,
+        "p_mod_4": 1,
+        "q": 10,
+        "t": 6
+      },
+      {
+        "K_mod_p": 149,
+        "g_mod_p": 83,
+        "numerator_mod_p": 164,
+        "p": 179,
+        "p_mod_4": 3,
+        "q": 10,
+        "t": 9
+      },
+      {
+        "K_mod_p": 79,
+        "g_mod_p": 101,
+        "numerator_mod_p": 159,
+        "p": 239,
+        "p_mod_4": 3,
+        "q": 12,
+        "t": 23
+      },
+      {
+        "K_mod_p": 127,
+        "g_mod_p": 222,
+        "numerator_mod_p": 189,
+        "p": 251,
+        "p_mod_4": 3,
+        "q": 15,
+        "t": 5
+      },
+      {
+        "K_mod_p": 156,
+        "g_mod_p": 209,
+        "numerator_mod_p": 78,
+        "p": 257,
+        "p_mod_4": 1,
+        "q": 15,
+        "t": 8
+      },
+      {
+        "K_mod_p": 197,
+        "g_mod_p": 192,
+        "numerator_mod_p": 230,
+        "p": 263,
+        "p_mod_4": 3,
+        "q": 15,
+        "t": 11
+      },
+      {
+        "K_mod_p": 250,
+        "g_mod_p": 139,
+        "numerator_mod_p": 125,
+        "p": 269,
+        "p_mod_4": 1,
+        "q": 15,
+        "t": 14
+      },
+      {
+        "K_mod_p": 180,
+        "g_mod_p": 270,
+        "numerator_mod_p": 90,
+        "p": 271,
+        "p_mod_4": 3,
+        "q": 15,
+        "t": 15
+      },
+      {
+        "K_mod_p": 247,
+        "g_mod_p": 79,
+        "numerator_mod_p": 262,
+        "p": 277,
+        "p_mod_4": 1,
+        "q": 15,
+        "t": 18
+      },
+      {
+        "K_mod_p": 111,
+        "g_mod_p": 110,
+        "numerator_mod_p": 196,
+        "p": 281,
+        "p_mod_4": 1,
+        "q": 15,
+        "t": 20
+      },
+      {
+        "K_mod_p": 43,
+        "g_mod_p": 151,
+        "numerator_mod_p": 163,
+        "p": 283,
+        "p_mod_4": 3,
+        "q": 15,
+        "t": 21
+      },
+      {
+        "K_mod_p": 289,
+        "g_mod_p": 222,
+        "numerator_mod_p": 291,
+        "p": 293,
+        "p_mod_4": 1,
+        "q": 15,
+        "t": 26
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "item": 391,
+  "schema": "item391-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_ACTUAL_SUBLOG_CLUSTER_ZERO_RATE_AND_LOGARITHMIC_SCALE_CRITERION",
+  "scope": "independent root audit of the actual collision-polynomial identities, spacing constants, Selberg pair-sieve aggregation, capacity interpretation, replay, and canonical promotion",
+  "checks": {
+    "frozen_dependencies_checked": 11,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "control_characters_after_repair": 0,
+    "finite_to_infinite_inference_used": false,
+    "actual_collision_census_used": false,
+    "root_repairs": "Repaired TeX operator spacing and two embedded carriage-return corruptions, then repinned the Item 384 dependency and all Item 391 artifacts to their canonical paths. No mathematical statement or constant changed."
+  },
+  "mathematical_audit": {
+    "actual_family": "F_M is formed from the actual Item 363 joint-gate prime set, so every resultant and endpoint radical identity is an exact reformulation of that set rather than an ambient selector claim.",
+    "resultant": "For monic squarefree F_M, Res(F_M(X),F_M(X+2d)) is the product over roots p,q of p+2d-q and vanishes exactly when two actual collision primes differ by 2d.",
+    "endpoint_radicals": "Under the stated tied-interval inequalities, p divides q minus or plus 2d only for the corresponding adjacent endpoint; squarefreeness of R_M then gives the two exact gcd radicals.",
+    "spacing_constant": "The candidate interval has numerical length (M-9)/6. Exclusion through row offset D forces numerical gaps greater than 2D, hence N_M <= 1+floor((M-9)/(12D)) and normalized ceiling 1/(72c) when D is asymptotic to c log M.",
+    "converse": "W/(6M)>=rho implies N_M>=6 rho M/log U_M; pigeonhole in the same interval then forces a vanishing offset d <= (1+o(1))log(U_M)/(72 rho).",
+    "sieve": "The classical uniform Selberg upper-bound sieve for d<=log X, combined with the exact divisor expansion and Wallis bound sum_{d<=D} S(d)<2D, gives clustered endpoint mass O(DM/log M), hence o(M) for D=o(log M).",
+    "capacity": "The unconditional theorem closes only fixed and sublogarithmic cluster carriers. It supplies neither logarithmic-scale nonvanishing nor a strict whole-cell upper bound, so the fixed-j=1 ceiling remains 1/36 and the Route 1 ledger does not move."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact actual-family shifted resultant and endpoint-radical identities",
+      "uniform zero rate for every o(log M) collision window",
+      "exact logarithmic spacing and occupancy criteria",
+      "positive-mass logarithmic-offset converse",
+      "zero booking and zero unconditional capacity reduction"
+    ],
+    "CONDITIONAL_ONLY": [
+      "actual shifted-resultant nonvanishing at logarithmic or larger scale",
+      "a logarithmic-window occupancy bound",
+      "a strict fixed-j=1 whole-cell saving"
+    ],
+    "OPEN": [
+      "weighted zero density for the actual fixed-j=1 gate",
+      "a useful factorization or height theorem for the shifted norm gcds",
+      "any conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "conditional_pair_free_ceiling_per_6M": "1/(72c)",
+    "strict_saving_threshold": "c>1/2",
+    "new_route1_rate": 0,
+    "new_booking": 0,
+    "new_unconditional_capacity_reduction": 0
+  }
+}

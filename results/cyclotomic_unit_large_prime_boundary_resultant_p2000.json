@@ -1,0 +1,354 @@
+{
+  "all_exact_checks_pass": true,
+  "dependencies": [
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/scripts/algebraic_unit_two_log_n5_ideal_content.py",
+      "sha256": "120ea17e9c27a2b0ebaa48e3e651220bfe59f06bc028b6d764dcd0798570bb80"
+    },
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/scripts/cyclotomic_unit_trace_probe.py",
+      "sha256": "fd29f6e616ddc09ddb11ed842d2a64990406554aff0efb255534a4fe48c67eb1"
+    },
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/scripts/cyclotomic_unit_linear_ray_padic_reduction.py",
+      "sha256": "890ce392e9c0473b70fd4b56d15b74ec36aad8dad97d3b5b74eed7beb128333d"
+    },
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/sources/cyclotomic_unit_linear_ray_padic_reduction.md",
+      "sha256": "8b8e6d8bf552501f052caa06a134e3992415fe4eb4e2bb2eed6ce27c5b98cfc3"
+    }
+  ],
+  "description": "Exact factorial-tail, quadratic-resultant, Frobenius-class, and nonzero trace-cancellation certificate for the p>d branch.",
+  "field_data": {
+    "F": "Q(sqrt(5))",
+    "Gal_K_Q_quotient_classes": [
+      [
+        1,
+        19
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        7,
+        13
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "K": "Q(zeta_20)^+",
+    "eta_inverse_coordinates": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "etabar_inverse_coordinates": [
+      0,
+      -1,
+      -1,
+      -1
+    ],
+    "q=eta*etabar_coordinates": [
+      2,
+      0,
+      1,
+      1
+    ],
+    "u7_plus_coordinates": [
+      2,
+      1,
+      -1,
+      -1
+    ],
+    "z=q^-1=eta^-1+etabar^-1_coordinates": [
+      1,
+      0,
+      -1,
+      -1
+    ]
+  },
+  "finite_diagnostics": {
+    "class_counts": {
+      "1": {
+        "E_d(-1)_root_count_for_1<=d<p": 135,
+        "prime_count": 73,
+        "simultaneous_trace_root_count": 1
+      },
+      "3": {
+        "E_d(-1)_root_count_for_1<=d<p": 143,
+        "prime_count": 74,
+        "simultaneous_trace_root_count": 1
+      },
+      "7": {
+        "E_d(-1)_root_count_for_1<=d<p": 166,
+        "prime_count": 81,
+        "simultaneous_trace_root_count": 1
+      },
+      "9": {
+        "E_d(-1)_root_count_for_1<=d<p": 154,
+        "prime_count": 73,
+        "simultaneous_trace_root_count": 1
+      }
+    },
+    "prime_range": "3<=p<2000, p!=5",
+    "prime_rows_sha256": "533da17624ae38fb0d8cdf0479c57278d07f2ded5dd92addf6b691ce4c7fbc46",
+    "simultaneous_root_pairs": [
+      {
+        "d": 8,
+        "p": 13
+      },
+      {
+        "d": 28,
+        "p": 31
+      },
+      {
+        "d": 199,
+        "p": 277
+      },
+      {
+        "d": 1427,
+        "p": 1879
+      }
+    ],
+    "warning": "No finite pattern is extrapolated beyond p<2000.",
+    "witness_records": [
+      {
+        "F_split": false,
+        "Q_1_mod_p": 2,
+        "Q_coefficients_sha256": "e2c46e9d6bb068c3cd3a1fdc905a9bdc66dc7415e4fbef09edd8804a71e3398f",
+        "S_1_mod_p": 0,
+        "W_class_r_F_coordinates": [
+          0,
+          12
+        ],
+        "W_class_r_nonzero": true,
+        "all_boundary_resultant_checks": true,
+        "chi=q^(p-1)_F_coordinates": [
+          5,
+          3
+        ],
+        "component_cancellation": {
+          "F_mod_p": "F_(p^2)",
+          "Frobenius_conjugate_coordinates": [
+            7,
+            1
+          ],
+          "final_coordinates_in_1_t_basis": [
+            6,
+            12
+          ],
+          "relation": "y^p=-y with y nonzero"
+        },
+        "d": 8,
+        "factorial_tail_differential_identity": true,
+        "minus_r_factorial_mod_p": 2,
+        "normalized_final_F_coordinates": [
+          6,
+          12
+        ],
+        "normalized_trace_mod_p": 0,
+        "p": 13,
+        "p_mod_20": 13,
+        "quadratic_remainder_A_coordinates": [
+          2,
+          6
+        ],
+        "quadratic_remainder_B_coordinates": [
+          5,
+          3
+        ],
+        "quotient_frobenius_class": 7,
+        "r=p-1-d": 4,
+        "resultant_F_coordinates": [
+          8,
+          11
+        ],
+        "resultant_nonzero": true
+      },
+      {
+        "F_split": true,
+        "Q_1_mod_p": 29,
+        "Q_coefficients_sha256": "faac1812b96364a9845f9c35525ec8f39401eb7a55ad1a7e8ee41a88ccf22ec2",
+        "S_1_mod_p": 0,
+        "W_class_r_F_coordinates": [
+          12,
+          17
+        ],
+        "W_class_r_nonzero": true,
+        "all_boundary_resultant_checks": true,
+        "chi=q^(p-1)_F_coordinates": [
+          1,
+          0
+        ],
+        "component_cancellation": {
+          "F_mod_p": "F_p x F_p",
+          "final_two_components": [
+            6,
+            25
+          ],
+          "relation": "y_plus+y_minus=0 with both components nonzero",
+          "t_roots": [
+            18,
+            12
+          ]
+        },
+        "d": 28,
+        "factorial_tail_differential_identity": true,
+        "minus_r_factorial_mod_p": 29,
+        "normalized_final_F_coordinates": [
+          1,
+          2
+        ],
+        "normalized_trace_mod_p": 0,
+        "p": 31,
+        "p_mod_20": 11,
+        "quadratic_remainder_A_coordinates": [
+          14,
+          28
+        ],
+        "quadratic_remainder_B_coordinates": [
+          24,
+          7
+        ],
+        "quotient_frobenius_class": 9,
+        "r=p-1-d": 2,
+        "resultant_F_coordinates": [
+          1,
+          3
+        ],
+        "resultant_nonzero": true
+      },
+      {
+        "F_split": false,
+        "Q_1_mod_p": 252,
+        "Q_coefficients_sha256": "74cbd9830653ac5110de3ef6e25783bcace27b10be9081fabd11e574a45efa91",
+        "S_1_mod_p": 0,
+        "W_class_r_F_coordinates": [
+          250,
+          202
+        ],
+        "W_class_r_nonzero": true,
+        "all_boundary_resultant_checks": true,
+        "chi=q^(p-1)_F_coordinates": [
+          5,
+          3
+        ],
+        "component_cancellation": {
+          "F_mod_p": "F_(p^2)",
+          "Frobenius_conjugate_coordinates": [
+            6,
+            12
+          ],
+          "final_coordinates_in_1_t_basis": [
+            271,
+            265
+          ],
+          "relation": "y^p=-y with y nonzero"
+        },
+        "d": 199,
+        "factorial_tail_differential_identity": true,
+        "minus_r_factorial_mod_p": 252,
+        "normalized_final_F_coordinates": [
+          271,
+          265
+        ],
+        "normalized_trace_mod_p": 0,
+        "p": 277,
+        "p_mod_20": 17,
+        "quadratic_remainder_A_coordinates": [
+          273,
+          91
+        ],
+        "quadratic_remainder_B_coordinates": [
+          55,
+          111
+        ],
+        "quotient_frobenius_class": 3,
+        "r=p-1-d": 77,
+        "resultant_F_coordinates": [
+          193,
+          41
+        ],
+        "resultant_nonzero": true
+      },
+      {
+        "F_split": true,
+        "Q_1_mod_p": 333,
+        "Q_coefficients_sha256": "d7cf7023bac34b12826bc10597cdd5233923a8e5c945506ca5567077d3daf5f6",
+        "S_1_mod_p": 0,
+        "W_class_r_F_coordinates": [
+          1571,
+          92
+        ],
+        "W_class_r_nonzero": true,
+        "all_boundary_resultant_checks": true,
+        "chi=q^(p-1)_F_coordinates": [
+          1,
+          0
+        ],
+        "component_cancellation": {
+          "F_mod_p": "F_p x F_p",
+          "final_two_components": [
+            335,
+            1544
+          ],
+          "relation": "y_plus+y_minus=0 with both components nonzero",
+          "t_roots": [
+            422,
+            1456
+          ]
+        },
+        "d": 1427,
+        "factorial_tail_differential_identity": true,
+        "minus_r_factorial_mod_p": 333,
+        "normalized_final_F_coordinates": [
+          245,
+          490
+        ],
+        "normalized_trace_mod_p": 0,
+        "p": 1879,
+        "p_mod_20": 19,
+        "quadratic_remainder_A_coordinates": [
+          1571,
+          778
+        ],
+        "quadratic_remainder_B_coordinates": [
+          1557,
+          518
+        ],
+        "quotient_frobenius_class": 1,
+        "r=p-1-d": 451,
+        "resultant_F_coordinates": [
+          94,
+          11
+        ],
+        "resultant_nonzero": true
+      }
+    ]
+  },
+  "proved_boundary_identities": {
+    "S_p_r": "sum_(k=r)^(p-1) k!*Y^k mod p",
+    "derangement_root": "E_d(-1)=0 iff S_p_r(1)=0",
+    "differential_identity": "Y^2*S'(Y)+(Y-1)*S(Y)=-r!*Y^r mod p",
+    "quadratic_resultant": "E_d(-eta)E_d(-etabar)=q^(p-1)*Res_Y(Y^2-q^-1*Y+q^-1,Q)",
+    "r": "p-1-d",
+    "simple_factor": "S=(Y-1)Q, Q(1)=S'(1)=-r! != 0 mod p",
+    "trace_condition": "tr_(O_F/p over F_p)(q^(p-1)*resultant*Tr_(K/F)(sigma_p(u7)*u7^(-r-1)))=0",
+    "truncation": "E_d(-x)=-x^(p-1)*S_p_r(x^-1)",
+    "unit_boundary": "u7^d=sigma_p(u7)*u7^(-r-1) mod p"
+  },
+  "scope_warning": "The boundary/resultant identities are all-degree theorems for p not dividing 20.  The p<2000 root list is diagnostic only and is not extrapolated to larger primes.",
+  "script_sha256": "d7f8a2e191f04f2ff5a677954087cb7cba2b5ba4eed1d3baaf385e0822a624d0",
+  "source_path": "/content/drive/MyDrive/e_pi_research_20260826/sources/cyclotomic_unit_large_prime_boundary_resultant.md",
+  "source_sha256": "b1bc06b4915b0e014cb5bd52433345aa130834b09ec6d932cf968504fc880838",
+  "trace_does_not_factor": {
+    "all_witnesses_have_nonzero_resultant_and_nonzero_unit_factor": true,
+    "finite_exact_witnesses_cover_all_four_classes": true,
+    "inert_classes": "For p mod 20 in {3,7,13,17}, O_F/p=F_(p^2) and the condition is y+y^p=0, not y=0.",
+    "split_classes": "For p mod 20 in {1,9,11,19}, O_F/p=F_p x F_p and the condition is y_plus+y_minus=0, not y_plus=y_minus=0."
+  }
+}

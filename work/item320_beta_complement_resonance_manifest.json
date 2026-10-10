@@ -1,0 +1,112 @@
+{
+  "schema": "item320-beta-complement-resonance-manifest-v1",
+  "item": 320,
+  "title": "All-prefix complement resonance for the exact beta target",
+  "date": "2026-08-31",
+  "status": "PROVED_SCOPED_SUB_HALF_LINEAR_COMPLEMENT_DESCENT_NO_GO",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item282_beta_unbounded_portfolio_report.md": "71bfa11a3c27dcd5389765659f68f0d2f5d5b08c74ce7a96ef0e8e050e9c5b68",
+    "scripts/item282_beta_unbounded_portfolio_certificate.py": "5170b0587425e0cc5764faecc26e9e2da4052f2014ef9657fe20bb1e7a018725",
+    "results/item282_beta_unbounded_portfolio_certificate.json": "97a9d02a5a2413d4df77bc0aa70e010ff096a6db7f9a9c61af1e5f542b92f384",
+    "manifests/item282_beta_unbounded_portfolio_manifest.json": "dbe86b7d17b1b98116383a0b03add8eb6b809b92664965fd436d9709545352c9",
+    "sources/item295_beta_nearest_window_descent_report.md": "3ecda6865cc7f6faa9b466d4ce3628dfc0043ceb327f8f8e72e86009b87c53a7",
+    "scripts/item295_beta_nearest_window_descent_certificate.py": "7e6961d1c9696cea863e09d286aa70ad24313709be967c3dfea8bc0b09e3e484",
+    "results/item295_beta_nearest_window_descent_certificate.json": "7a19cdcb2f19bee4bf3a64e28f401b82179f40b02ef4ab8870b8c27f896642a0",
+    "manifests/item295_beta_nearest_window_descent_manifest.json": "e66aa4747be711acc72648203bc006fd2a7fc543ffebb27f577b65c8e56f05e3",
+    "results/item295_root_audit.json": "c868af5aec25f28cf1f1b72d885c48f1288208fadac6b05dd55c7482e675565b",
+    "sources/item316_beta_intermediate_ostrowski_no_go_report.md": "8d6dce8354f08e94a252a2120cf677d9a374df95507a9297dcb064a1982fb6b0",
+    "scripts/item316_beta_intermediate_ostrowski_no_go_certificate.py": "b7e25ea7248dbc774da7f3bd98a8665058117de84a2342009f8669bf5438cf6f",
+    "results/item316_beta_intermediate_ostrowski_no_go_certificate.json": "5167e9d160fcecac86791944e41a176d3400f2a6856090de7cf78d55984e7aa4",
+    "results/item316_beta_intermediate_ostrowski_no_go_root_replay.json": "5167e9d160fcecac86791944e41a176d3400f2a6856090de7cf78d55984e7aa4",
+    "manifests/item316_beta_intermediate_ostrowski_no_go_manifest.json": "aac741658430fb661de078adfeafdbc3a9d20312a8fd8725cb4244d406d9bcf6",
+    "results/item316_root_audit.json": "6cad978132f5f09c687aa8fcf8dcd92a7d917cf9411a69f679c7757139229175"
+  },
+  "artifacts": [
+    {
+      "path": "work/item320_beta_complement_resonance_report.md",
+      "role": "all-prefix proof, explicit threshold, scoped no-go, and strict scope",
+      "bytes": 18127,
+      "sha256": "636377ae8ff8b356bdd9ad99587a3ab794b9f53349b40d6d078a1af9433b3d9b"
+    },
+    {
+      "path": "work/item320_beta_complement_resonance_certificate.py",
+      "role": "standard-library exact deterministic replay",
+      "bytes": 14716,
+      "sha256": "31b75360554718aaa5c7f20bb0dbf447b18f5e9c07fe23ee6d924443219fc1cf"
+    },
+    {
+      "path": "work/item320_beta_complement_resonance_certificate.json",
+      "role": "canonical work-package certificate output",
+      "bytes": 19750,
+      "sha256": "89755de7ea6ee90a4d91195d2aef7685fc9d47231a6937d3b73a5c9b8d4637e8"
+    },
+    {
+      "path": "work/item320_beta_complement_resonance_certificate.replay.json",
+      "role": "independent byte-identical replay output",
+      "bytes": 19750,
+      "sha256": "89755de7ea6ee90a4d91195d2aef7685fc9d47231a6937d3b73a5c9b8d4637e8"
+    },
+    {
+      "path": "work/item320_beta_complement_resonance_ledger_delta.json",
+      "role": "proposed ledger delta; no canonical edit",
+      "bytes": 2898,
+      "sha256": "696d7f38064e4f0aeab1d63cd85115ce80c04cbf5b89e0cb21585e3223ee6e71"
+    }
+  ],
+  "replay": {
+    "command": "python work/item320_beta_complement_resonance_certificate.py --output work/item320_beta_complement_resonance_certificate.replay.json",
+    "expected_stdout": {
+      "capacity_reduction": "ZERO",
+      "centered_half_bound": "OPEN",
+      "complement_resonance": "PROVED",
+      "item": 320,
+      "literal_sub_half_linear_descent": "PROVED_SCOPED_NO_GO",
+      "status": "PROVED_SCOPED_SUB_HALF_LINEAR_COMPLEMENT_DESCENT_NO_GO"
+    },
+    "expected_replay_sha256": "89755de7ea6ee90a4d91195d2aef7685fc9d47231a6937d3b73a5c9b8d4637e8"
+  },
+  "proved": [
+    "The top complement c-|E| is Item-295's t_n and has previous-scale leading canonical digit 2 for n=5..8 and 3 for n>=9.",
+    "Every prefix determinant satisfies the exact forced continuant recurrence with its boundary digit retained.",
+    "At depth r, the continuous complement center is C_(r+1)(n-r-2)/q_n and obeys the exact relative bounds (4r+3)/(4n-2) and (4r+5)/(4n-1).",
+    "For every rational lambda<1/2, the explicit threshold N_lambda forces both the prefix error and complement farther than every digit from their endpoints throughout r<=floor(lambda n).",
+    "Every reached truncated appended dual error misses the exact earlier target by the positive carry-aware gap G=g+(-1)^(r+1)epsilon delta."
+  ],
+  "strict_scope": {
+    "closes": "only literal canonical prefix-truncation/complement descent whose terminal step requires inheritance of an exact earlier Item-316 target and whose depth ratio has limsup below one half",
+    "casoratian_orientation": "reverse real-center orientation only; no de-overlapped Item-282 overlap",
+    "does_not_close": [
+      "the original exact all-digit target",
+      "R_actual>=a/2",
+      "depth ratio at least one half or full base-reaching descent",
+      "arbitrary complement redigitization or nonlinear arithmetic invariants",
+      "a proper-target bound or weighted return cover",
+      "any beta capacity reduction",
+      "Route 1 or any conclusion about e+pi"
+    ]
+  },
+  "strict_labels": {
+    "PROVED": [
+      "all-prefix recurrence and boundary signs",
+      "canonical top complement",
+      "Casoratian center and uniform strict-interior theorem"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "sub-half-linear literal prefix/complement target-inheritance descent"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared replay control rows"
+    ],
+    "OPEN": [
+      "the exact all-digit exclusion and centered half-bound",
+      "lambda>=1/2, full-depth, redigitized, and nonlinear routes",
+      "proper targets and every capacity consequence"
+    ]
+  },
+  "capacity": {
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "booking": 0
+  }
+}

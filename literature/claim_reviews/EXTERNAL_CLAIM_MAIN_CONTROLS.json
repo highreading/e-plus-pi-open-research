@@ -1,0 +1,83 @@
+{
+  "author": "main Codex",
+  "arithmetic": "exact Fraction; e Taylor and alternating Machin intervals",
+  "scope": "First six construction coefficients and four e+pi continued-fraction entries only; all-n validity is established in the separate main proof",
+  "e_plus_pi_first_four_partial_quotients": [
+    5,
+    1,
+    6,
+    7
+  ],
+  "convergents": [
+    [
+      5,
+      1
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      41,
+      7
+    ],
+    [
+      293,
+      50
+    ]
+  ],
+  "foukzon_recursive_counterexample_controls": [
+    {
+      "n": 1,
+      "coefficient_sha256": "f5eb5e70c0432310203f85ef5c1bbbc5c98ceeed06f41e55e79f8af633fc4c5e",
+      "positive": true,
+      "entire_majorant_bound": true,
+      "residual_interval_inside_1_over_3n_factorial_and_1_over_2n_factorial": true
+    },
+    {
+      "n": 2,
+      "coefficient_sha256": "be2cbf0e34996cfdac5572664625bd5e477889e874407d629abdf014218da2d2",
+      "positive": true,
+      "entire_majorant_bound": true,
+      "residual_interval_inside_1_over_3n_factorial_and_1_over_2n_factorial": true
+    },
+    {
+      "n": 3,
+      "coefficient_sha256": "cdb3f863f4b4b3d28e3942dff5322c77956797d704860de1db5699428f98b1a6",
+      "positive": true,
+      "entire_majorant_bound": true,
+      "residual_interval_inside_1_over_3n_factorial_and_1_over_2n_factorial": true
+    },
+    {
+      "n": 4,
+      "coefficient_sha256": "5b8b3edc30c1c34f7279436548608804564f6a20ff8aeec30ef878ce2a664a9b",
+      "positive": true,
+      "entire_majorant_bound": true,
+      "residual_interval_inside_1_over_3n_factorial_and_1_over_2n_factorial": true
+    },
+    {
+      "n": 5,
+      "coefficient_sha256": "579762ab6111e5de3254d8b8c86e3c150b396fb25f41372737681af12d3a9f89",
+      "positive": true,
+      "entire_majorant_bound": true,
+      "residual_interval_inside_1_over_3n_factorial_and_1_over_2n_factorial": true
+    },
+    {
+      "n": 6,
+      "coefficient_sha256": "8f4529b9a652b11715343756ef695b491f1e177533a247472980ccc517f6a1ac",
+      "positive": true,
+      "entire_majorant_bound": true,
+      "residual_interval_inside_1_over_3n_factorial_and_1_over_2n_factorial": true
+    }
+  ],
+  "carella_2_4_sqrt2_bounds": {
+    "alpha_lower_7_over_5_square_below_2": true,
+    "alpha_upper_3_over_2_square_above_2": true,
+    "beta_upper_5_over_3_equivalent": true,
+    "product_9_over_4_equals_two_3_over_2_convergents": true
+  },
+  "carella_15_4_golden_ratio_control": {
+    "sqrt5_greater_than_20_over_9": true,
+    "sqrt5_less_than_7_over_3": true
+  }
+}

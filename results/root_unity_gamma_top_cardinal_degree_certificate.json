@@ -1,0 +1,172 @@
+{
+  "complete_monotonicity_grid": {
+    "all_centered_rational_identities_exact": true,
+    "all_even_n_simple_residues_one_strict_sign": true,
+    "all_newton_to_fourier_ratios_constant_in_d": true,
+    "all_odd_n_fourier_sums_strictly_positive": true,
+    "all_odd_n_newton_coefficients_one_strict_sign": true,
+    "exact_row_digest_sha256": "40f45cf25fa2a6fe73b91d3923eba146ffb955d360de7639b7551aa6c00da3b2",
+    "m_range": [
+      2,
+      12
+    ],
+    "n_range": [
+      2,
+      9
+    ],
+    "row_count": 88
+  },
+  "determinant_grid": {
+    "D_rule": "2 <= D <= min(6,n)",
+    "forced_top_zero_next_sum_nonzero_on_grid": true,
+    "m_range": [
+      2,
+      6
+    ],
+    "n_range": [
+      2,
+      7
+    ],
+    "row_count": 100,
+    "top_allowed_rule": "not (n even and D odd), and not (m even and n odd and D even)",
+    "top_nonzero_exactly_when_parity_allowed": true
+  },
+  "logical_scope": {
+    "all_parameter_part": "The companion source proves centered binomial-power positivity, the explicit Fourier-sum formulas, strict complete monotonicity, and top-border nonvanishing whenever parity permits.",
+    "finite_replay_part": "All recorded identities, signs, determinants, and Fourier sums are exact rational computations, with no sampled real-variable step.",
+    "open_part": "In the two parity-forced top-zero families, nonvanishing of the coefficient at n+D-1 is observed exactly on the grid only; it is a sum of two bordered minors and is not asserted universally."
+  },
+  "schema": "root-unity-gamma-top-cardinal-degree-certificate-v1",
+  "selected_complete_monotonicity_rows": [
+    {
+      "discarded_global_sign": 1,
+      "family": "odd-n-positive-ordered-Newton",
+      "first_positive_datum": "1/6",
+      "last_positive_datum": "1/6",
+      "m": 2,
+      "n": 3,
+      "newton_to_fourier_common_ratio": "1/6",
+      "numerator_degree": 0,
+      "positive_data_sha256": "8f854692d8bc8def84a88d511dd150de9dd8b6bfe000d5a417dde49e4a3d12c2",
+      "rate_count": 1,
+      "rho_parity_epsilon": 0
+    },
+    {
+      "discarded_global_sign": -1,
+      "family": "even-n-positive-simple-residues",
+      "first_positive_datum": "1/24",
+      "last_positive_datum": "1/384",
+      "m": 3,
+      "n": 4,
+      "newton_to_fourier_common_ratio": null,
+      "numerator_degree": 1,
+      "positive_data_sha256": "ddc61b9084da4748632d1c5daf50d98c552e058081d94678c09495089e6a6e11",
+      "rate_count": 2,
+      "rho_parity_epsilon": 1
+    },
+    {
+      "discarded_global_sign": -1,
+      "family": "odd-n-positive-ordered-Newton",
+      "first_positive_datum": "1/122880",
+      "last_positive_datum": "2137/1274019840",
+      "m": 5,
+      "n": 5,
+      "newton_to_fourier_common_ratio": "1/955514880",
+      "numerator_degree": 2,
+      "positive_data_sha256": "a2bc250f10ed47ab227cca4bb161cfbbc717eb30f1b965023f002f0f359d503c",
+      "rate_count": 3,
+      "rho_parity_epsilon": 1
+    },
+    {
+      "discarded_global_sign": -1,
+      "family": "odd-n-positive-ordered-Newton",
+      "first_positive_datum": "1/6470949061326274560",
+      "last_positive_datum": "15274540261/14988107257908255365529600000000",
+      "m": 8,
+      "n": 7,
+      "newton_to_fourier_common_ratio": "1/416336312719673760153600000000",
+      "numerator_degree": 3,
+      "positive_data_sha256": "78c5dfdf0995db5e030b8520f631a9198381a747e04d3d955e3eefdae098ed23",
+      "rate_count": 4,
+      "rho_parity_epsilon": 0
+    },
+    {
+      "discarded_global_sign": -1,
+      "family": "odd-n-positive-ordered-Newton",
+      "first_positive_datum": "1/97361378706936834627108517969920000000000000000000",
+      "last_positive_datum": "143269756042677084376051/1344395305506114155130660290906352220033279319646872272896000000000000000000000",
+      "m": 12,
+      "n": 9,
+      "newton_to_fourier_common_ratio": "1/93360785104591260772962520201830015280088841642143907840000000000000000000",
+      "numerator_degree": 5,
+      "positive_data_sha256": "b42e609421884276ec095ae1ef9b2d11316f061b0a9a50dc4bfd7fa56ea0add2",
+      "rate_count": 6,
+      "rho_parity_epsilon": 0
+    }
+  ],
+  "selected_determinant_rows": [
+    {
+      "D": 2,
+      "m": 2,
+      "n": 3,
+      "next_bordered_sum_nonzero": true,
+      "next_bordered_sum_sign": -1,
+      "top_bordered_minor_nonzero": false,
+      "top_bordered_minor_sign": 0,
+      "top_parity_allowed": false
+    },
+    {
+      "D": 3,
+      "m": 2,
+      "n": 4,
+      "next_bordered_sum_nonzero": true,
+      "next_bordered_sum_sign": -1,
+      "top_bordered_minor_nonzero": false,
+      "top_bordered_minor_sign": 0,
+      "top_parity_allowed": false
+    },
+    {
+      "D": 3,
+      "m": 3,
+      "n": 4,
+      "next_bordered_sum_nonzero": true,
+      "next_bordered_sum_sign": 1,
+      "top_bordered_minor_nonzero": false,
+      "top_bordered_minor_sign": 0,
+      "top_parity_allowed": false
+    },
+    {
+      "D": 4,
+      "m": 3,
+      "n": 5,
+      "next_bordered_sum_nonzero": false,
+      "next_bordered_sum_sign": 0,
+      "top_bordered_minor_nonzero": true,
+      "top_bordered_minor_sign": 1,
+      "top_parity_allowed": true
+    },
+    {
+      "D": 4,
+      "m": 6,
+      "n": 5,
+      "next_bordered_sum_nonzero": true,
+      "next_bordered_sum_sign": -1,
+      "top_bordered_minor_nonzero": false,
+      "top_bordered_minor_sign": 0,
+      "top_parity_allowed": false
+    },
+    {
+      "D": 5,
+      "m": 6,
+      "n": 6,
+      "next_bordered_sum_nonzero": true,
+      "next_bordered_sum_sign": -1,
+      "top_bordered_minor_nonzero": false,
+      "top_bordered_minor_sign": 0,
+      "top_parity_allowed": false
+    }
+  ],
+  "versions": {
+    "sympy": "1.14.0"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "item383-j1-frobenius-lift-gauge-invariance-ledger-delta-v1",
+  "item": 383,
+  "date": "2026-09-01",
+  "branch": "Route 1 / fixed-j1 / Frobenius-lift and analytic-coordinate invariance",
+  "status": "PROVED_RATIONAL_LOG_MODEL_AND_INVARIANT_NO_BOUNDED_SPLITTING",
+  "proved": {
+    "actual_family": "p=4h+6s+3, M=3h+4s+2, n=2h, r=2s+1",
+    "Hasse_coordinate": "q=2u-v with u=c_T and v=c_L",
+    "general_lift": "F(u)=u^p+p a(u,v), F(v)=v^p+p b(u,v)",
+    "horizontal_equation": "C_F(omega)-omega=dq",
+    "explicit_overconvergent_lift": "Phi_lambda(q)=[1-(1-lambda q)^p exp(-lambda p q)]/lambda, F(t)=t^p",
+    "rational_connection": "omega_lambda=dq/(1-lambda q), regular at q=0 with one fixed logarithmic pole",
+    "noninvariance": "the standard-lift lacunary and nonrational presentation is not Frobenius-lift invariant",
+    "splitting_equation": "F(f)/p-f=-q",
+    "bounded_splitting_obstruction": "any bounded solution would force -qbar to be a p-th power, impossible because d qbar is nonzero",
+    "coordinate_invariance": "the nonzero Kähler differential criterion survives integral analytic coordinate changes",
+    "global_dagger_no_go": "a dagger connection on the whole disc would have a dagger primitive and reduce to the forbidden bounded splitting equation",
+    "filtered_gauge_no_go": "a filtration-preserving gauge cannot split a nonzero lower connection when dq is nonzero",
+    "new_independent_condition": 0
+  },
+  "scope": {
+    "full_collision_implication": "full ordinary collision implies selected Hasse a_(r,n)=0 and Q0=0",
+    "joint_converse_to_full_collision_claimed": false,
+    "bounded_pole_model": "one rational logarithmic pole at q=lambda^-1; not dagger on the full closed disc",
+    "prime_independent_actual_family_claimed": false,
+    "weighted_distribution_claimed": false,
+    "geometric_conductor_claimed": false,
+    "not_ruled_out": "a nonsplit geometric model on another global base with a useful monodromy statistic"
+  },
+  "capacity": {
+    "raw_log_mass": "M/6+o(M)",
+    "raw_ceiling_per_6M": "1/36",
+    "weighted_target": "W_(H,Q)(M)=o(M)",
+    "weighted_target_proved": false,
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "booking": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36"
+  },
+  "controls": {
+    "classification": "DECLARED EXACT SYMBOLIC AND SERIES-TRUNCATION CONTROLS ONLY; NO PRIME OR COLLISION SCAN",
+    "asymptotic_inference_from_controls": false
+  },
+  "open": [
+    "a prime-independent geometric realization of the actual tied coefficient family",
+    "a useful nonsplit monodromy statistic on another bounded global base",
+    "any genuine geometric conductor or weighted splitting-prime theorem",
+    "weighted joint-zero density or any strict fixed-j1 ceiling reduction",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "ledger_action": "RECORD_RATIONAL_LOG_HORIZONTAL_MODEL_CLOSE_ALL_LIFT_BOUNDED_SPLITTING_AND_GLOBAL_DAGGER_ROUTE_BOOK_ZERO",
+  "route_1_status": "ACTIVE",
+  "canonical_files_modified": false
+}

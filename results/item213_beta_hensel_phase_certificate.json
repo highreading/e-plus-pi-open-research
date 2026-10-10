@@ -1,0 +1,355 @@
+{
+  "charlier_polynomial_regression": {
+    "N_range": [
+      0,
+      14
+    ],
+    "all_exact": true,
+    "checks": 15,
+    "classification": "FINITE_EXACT_REPLAY_OF_PROVED_POLYNOMIAL_IDENTITIES",
+    "row_stream_sha256": "d94012c04ecd74ef43bfb7a8976acfe93e708e425a0b41904f645a3f726f327a",
+    "selected_rows": [
+      {
+        "C_N_at_minus_N_minus_1": 1,
+        "C_N_coefficients_ascending": [
+          1
+        ],
+        "N": 0,
+        "derivative_at_minus_N_minus_1": 0,
+        "signed_q_N": 1
+      },
+      {
+        "C_N_at_minus_N_minus_1": 7,
+        "C_N_coefficients_ascending": [
+          1,
+          1,
+          1
+        ],
+        "N": 2,
+        "derivative_at_minus_N_minus_1": -5,
+        "signed_q_N": 7
+      },
+      {
+        "C_N_at_minus_N_minus_1": 1001,
+        "C_N_coefficients_ascending": [
+          1,
+          0,
+          5,
+          -2,
+          1
+        ],
+        "N": 4,
+        "derivative_at_minus_N_minus_1": -700,
+        "signed_q_N": 1001
+      },
+      {
+        "C_N_at_minus_N_minus_1": 312129649,
+        "C_N_coefficients_ascending": [
+          1,
+          -1624,
+          4458,
+          -4844,
+          2779,
+          -924,
+          182,
+          -20,
+          1
+        ],
+        "N": 8,
+        "derivative_at_minus_N_minus_1": -216821344,
+        "signed_q_N": 312129649
+      },
+      {
+        "C_N_at_minus_N_minus_1": 2111421691000680031,
+        "C_N_coefficients_ascending": [
+          1,
+          -2128047987,
+          6935360496,
+          -9617979007,
+          7642713715,
+          -3928636712,
+          1391839449,
+          -352115335,
+          64784291,
+          -8712704,
+          849849,
+          -58695,
+          2730,
+          -77,
+          1
+        ],
+        "N": 14,
+        "derivative_at_minus_N_minus_1": -1464551737950435717,
+        "signed_q_N": 2111421691000680031
+      }
+    ]
+  },
+  "classification": {
+    "EXPERIMENTAL_FINITE": [
+      "actual prescribed lower-root phase census through p<=20000",
+      "direct harmonic, mirrored-phase, and continuant-gap checks through p<=251",
+      "the three known actual square rows outside p>2N+1"
+    ],
+    "OPEN": [
+      "whether kappa-C_N'(s) is nonzero at every prescribed root",
+      "whether any prescribed lower square or coupled square exists",
+      "any density, product, or zero-rate theorem for the phase collisions",
+      "any proper bound for the large-prime squarefull radical below square capacity"
+    ],
+    "PROVED": [
+      "C_N(X)=sum binom(N,j) X^(falling j) is monic with C_N(-N-1)=(-1)^N q_N",
+      "at a prescribed root p|q_N, s=p-1-N and kappa=C_N(s)/p, the exact phase is q_N/p=(-1)^N(kappa-C_N'(s)) mod p",
+      "the actual Hensel digit is tau=P_N(kappa-C_N'(s)) mod p",
+      "C_N'(s) has the displayed falling-factorial/harmonic formula with only p-units",
+      "the complementary-factorial Wilson quotient cancels at a root and leaves exactly the same carry-minus-slope phase",
+      "the mirrored polynomial C_s(N) has the same carry; lower and upper squares are the two carry/derivative collisions, and coupled squares are their triple collision",
+      "the phase reduction adds no divisibility exponent and gives no improvement over S_N^2|q_N"
+    ]
+  },
+  "complementary_factorial_regression": {
+    "all_exact": true,
+    "classification": "FINITE_EXACT_REPLAY_OF_PROVED_COMPLEMENT_FORMULA",
+    "factorial_complement_checks": 6079,
+    "formula": "(p-1-a)! = (-1)^(a+1)/a! * (1+p(H_a-W_p)) mod p^2",
+    "prime_range": [
+      3,
+      251
+    ]
+  },
+  "dependency_sha256": {
+    "sources/item165_noncentral_singular_report.md": "d7b4475d2adfeff9a5f1c70a9c6b318d0c2b140bf90b194aa9acb6fdddcc2650",
+    "sources/item202_actual_squarefull_filter_report.md": "abbc68e283f16871798be0c6da8af5df55ba6bf865a5864eefc0f8e19fe88f62",
+    "sources/item204_squarefull_discriminant_report.md": "45ad273d407323902745095bd7abbc1fe5d17cf4d8da35737276eb3e6c7fc665",
+    "sources/item207_coupled_hensel_euler_report.md": "854a6b7fefc75e06913641a9e31e875e6b06ea31b2b6f7000da3b011b07be0a9"
+  },
+  "exact_phase": {
+    "actual_seed_specialization": "C_N(-N-1)=(-1)^N q_N",
+    "divided_value": "q_N/p=(-1)^N(kappa-C_N'(s)) mod p",
+    "generating_function": "sum_N C_N(X)t^N/N! = exp(t)(1+t)^X",
+    "harmonic_slope": "C_N'(s)=sum_{j=1}^N binom(N,j)s^(falling j)(H_s-H_(s-j)) mod p",
+    "hensel_digit": "tau=P_N(kappa-C_N'(s)) mod p",
+    "lower_square": "p^2|q_N iff kappa=C_N'(s) mod p",
+    "parameters": "p>2N+1, p|q_N, s=p-1-N, kappa=C_N(s)/p mod p",
+    "polynomial": "C_N(X)=sum_{j=0}^N binom(N,j) X^(falling j)"
+  },
+  "finite_actual_prescribed_scan": {
+    "carry_zero_rows": [],
+    "classification": "EXPERIMENTAL_FINITE_NOT_AN_ALL_PRIME_OR_RATE_THEOREM",
+    "continuant_gap_checks_through_251": 20,
+    "coupled_square_rows": [],
+    "derivative_collision_rows": [],
+    "direct_mirror_phase_checks_through_251": 20,
+    "harmonic_derivative_checks_through_251": 20,
+    "lower_derivative_zero_rows": [],
+    "lower_square_rows": [],
+    "prescribed_lower_root_rows": 1133,
+    "prime_limit": 20000,
+    "row_stream_sha256": "45ad1a12ce24c7400343294cdb18ec60e0b1670f80abb78caedae9b2894b0b62",
+    "scope_warning": "All zero counts are bounded computations.  In particular, no all-prime nonvanishing, density, or radical estimate follows.",
+    "selected_rows": [
+      {
+        "N": 2,
+        "P_N_mod_p": 5,
+        "carry_kappa": 3,
+        "carry_zero": false,
+        "coupled_square": false,
+        "derivative_collision": false,
+        "lambda_N": 1,
+        "lambda_s": 3,
+        "lower_derivative": 2,
+        "lower_derivative_zero": false,
+        "lower_square": false,
+        "p": 7,
+        "phase_kappa_minus_lower_derivative": 1,
+        "s": 4,
+        "tau": 5,
+        "upper_derivative": 0,
+        "upper_derivative_zero": true,
+        "upper_square": false
+      },
+      {
+        "N": 4,
+        "P_N_mod_p": 4,
+        "carry_kappa": 1,
+        "carry_zero": false,
+        "coupled_square": false,
+        "derivative_collision": false,
+        "lambda_N": 12,
+        "lambda_s": 0,
+        "lower_derivative": 2,
+        "lower_derivative_zero": false,
+        "lower_square": false,
+        "p": 13,
+        "phase_kappa_minus_lower_derivative": 12,
+        "s": 8,
+        "tau": 9,
+        "upper_derivative": 1,
+        "upper_derivative_zero": false,
+        "upper_square": true
+      },
+      {
+        "N": 3,
+        "P_N_mod_p": 51,
+        "carry_kappa": 49,
+        "carry_zero": false,
+        "coupled_square": false,
+        "derivative_collision": false,
+        "lambda_N": 1,
+        "lambda_s": 33,
+        "lower_derivative": 50,
+        "lower_derivative_zero": false,
+        "lower_square": false,
+        "p": 71,
+        "phase_kappa_minus_lower_derivative": 70,
+        "s": 67,
+        "tau": 20,
+        "upper_derivative": 11,
+        "upper_derivative_zero": false,
+        "upper_square": false
+      },
+      {
+        "N": 48,
+        "P_N_mod_p": 1217,
+        "carry_kappa": 1138,
+        "carry_zero": false,
+        "coupled_square": false,
+        "derivative_collision": false,
+        "lambda_N": 2248,
+        "lambda_s": 2322,
+        "lower_derivative": 1769,
+        "lower_derivative_zero": false,
+        "lower_square": false,
+        "p": 2879,
+        "phase_kappa_minus_lower_derivative": 2248,
+        "s": 2830,
+        "tau": 766,
+        "upper_derivative": 1695,
+        "upper_derivative_zero": false,
+        "upper_square": false
+      }
+    ],
+    "upper_derivative_zero_rows": [
+      {
+        "N": 2,
+        "P_N_mod_p": 5,
+        "carry_kappa": 3,
+        "carry_zero": false,
+        "coupled_square": false,
+        "derivative_collision": false,
+        "lambda_N": 1,
+        "lambda_s": 3,
+        "lower_derivative": 2,
+        "lower_derivative_zero": false,
+        "lower_square": false,
+        "p": 7,
+        "phase_kappa_minus_lower_derivative": 1,
+        "s": 4,
+        "tau": 5,
+        "upper_derivative": 0,
+        "upper_derivative_zero": true,
+        "upper_square": false
+      }
+    ],
+    "upper_square_rows": [
+      {
+        "N": 4,
+        "P_N_mod_p": 4,
+        "carry_kappa": 1,
+        "carry_zero": false,
+        "coupled_square": false,
+        "derivative_collision": false,
+        "lambda_N": 12,
+        "lambda_s": 0,
+        "lower_derivative": 2,
+        "lower_derivative_zero": false,
+        "lower_square": false,
+        "p": 13,
+        "phase_kappa_minus_lower_derivative": 12,
+        "s": 8,
+        "tau": 9,
+        "upper_derivative": 1,
+        "upper_derivative_zero": false,
+        "upper_square": true
+      }
+    ]
+  },
+  "item": 213,
+  "moving_resultant_obstruction_witness": {
+    "D_h": 963,
+    "D_h_factorization": "3^2*107",
+    "N": 50,
+    "classification": "EXACT_STRUCTURAL_WITNESS_NOT_AN_ACTUAL_ROOT",
+    "conclusion": "The adjacent/resultant factor D_h is not automatically a p-unit in the target geometry.  This row is not an actual q_N root and therefore is not a coupled-square example.",
+    "h": 2,
+    "p": 107,
+    "p_gt_2N_plus_1": true,
+    "q_N_mod_p": 26
+  },
+  "outside_target_square_witnesses": {
+    "classification": "FINITE_EXACT_OUT_OF_TARGET_WITNESSES_ONLY",
+    "rows": [
+      {
+        "C_N_prime_s_mod_p": 1,
+        "C_N_s_mod_p2": 13,
+        "N": 8,
+        "carry_C_over_p_mod_p": 1,
+        "p": 13,
+        "p_gt_2N_plus_1": false,
+        "phase": 0,
+        "q_N_over_p_mod_p": 0,
+        "s=p-1-N": 4,
+        "tau": 0
+      },
+      {
+        "C_N_prime_s_mod_p": 2,
+        "C_N_s_mod_p2": 14,
+        "N": 79,
+        "carry_C_over_p_mod_p": 2,
+        "p": 7,
+        "p_gt_2N_plus_1": false,
+        "phase": 0,
+        "q_N_over_p_mod_p": 0,
+        "s=p-1-N": -73,
+        "tau": 0
+      },
+      {
+        "C_N_prime_s_mod_p": 11,
+        "C_N_s_mod_p2": 341,
+        "N": 79,
+        "carry_C_over_p_mod_p": 11,
+        "p": 31,
+        "p_gt_2N_plus_1": false,
+        "phase": 0,
+        "q_N_over_p_mod_p": 0,
+        "s=p-1-N": -49,
+        "tau": 0
+      }
+    ],
+    "scope_warning": "These rows verify that the exact phase detects known actual squares, but every row violates p>2N+1 and gives no target-range example."
+  },
+  "phase_triangle": {
+    "common_value": "C_N(s)=C_s(N), so both orientations have the same carry kappa",
+    "continuant_gap": "D_plus-D_minus=-2(-1)^N D_h q_(N-1) mod p",
+    "coupled_square": "kappa=D_minus=D_plus",
+    "lower_divided_value": "lambda_N=(-1)^N(kappa-D_minus)",
+    "lower_slope": "D_minus=C_N'(s)",
+    "lower_square": "kappa=D_minus",
+    "singular_continuant": "D_minus=D_plus",
+    "upper_divided_value": "lambda_s=(-1)^N(kappa-D_plus)",
+    "upper_slope": "D_plus=C_s'(N)",
+    "upper_square": "kappa=D_plus"
+  },
+  "precise_actual_family_obstruction": {
+    "scope": "This closes only the direct first-order complement/Taylor rewrite. It does not preclude a new theorem controlling the actual carries.",
+    "statement": "The carry and both slopes are actual beta/Charlier values, not formal CRT coordinates.  Nevertheless kappa-C_N'(s) is exactly (-1)^N q_N/p.  Thus proving its nonvanishing is precisely the original large-prime squarefreeness problem; the binomial, harmonic, and Wilson rewrite supplies no independent condition.",
+    "wilson_cancellation": "In the complementary-factorial expansion the Wilson term is multiplied by C_N(s)=0 mod p, while the harmonic sum equals -C_N'(s) mod p."
+  },
+  "rate_ledger": {
+    "conclusion": "the phase is an exact selector, but no all-index upper or lower mass estimate is proved",
+    "coupled_R_squared_required_log_R_per_m": "0.05889895100829538164",
+    "new_bookable_log_rate_per_m": 0,
+    "new_divisibility_exponent_from_phase_formula": 0,
+    "proved_divisibility": "S_N^2 divides q_N",
+    "squarefull_radical": "S_N=product of p>2N+1 with p|q_N and kappa=C_N'(p-1-N) mod p"
+  }
+}

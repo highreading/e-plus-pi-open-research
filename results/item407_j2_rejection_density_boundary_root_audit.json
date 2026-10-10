@@ -1,0 +1,51 @@
+{
+  "item": 407,
+  "schema": "item407-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_EXACT_REJECTION_CARRIER_AND_SHARP_AGGREGATE_BOUNDARY_ETA_ZERO",
+  "scope": "independent root audit of the support-difference carrier, full two-chart accounting, sharp weighted linear program, dependency closure, capacity normalization, and deterministic replay",
+  "checks": {
+    "canonical_dependencies_checked": 25,
+    "canonical_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "control_characters": 0,
+    "prime_or_collision_census_used": false,
+    "finite_to_infinite_inference_used": false,
+    "root_repairs": "Canonicalized all output and replay paths and replaced seven stale Item404 work-package pins by five audited canonical Item404 dependencies. No mathematical claim required repair."
+  },
+  "mathematical_audit": {
+    "rejection_carrier": "For A_(B), a prime divides A_(B) exactly when it divides A and does not divide B. With Gamma_sat dividing Pi_sat, J=(Pi_sat)_(Gamma_sat) is therefore the exact degenerate gate-hit/target-miss carrier.",
+    "chart_partition": "The degenerate and nondegenerate charts are disjoint; their collision masses are G and N, so W=G+N. Degenerate rejection is exactly D-G and cannot be booked from gate rarity alone.",
+    "linear_program": "Under 0<=G<=D<=R, 0<=N<=R-D, D>=d, G<=g, and N<=n, the maximum possible collision mass is min(R,g+n,R-d+g). Thus the forced excluded coefficient is max(0,d-g,R-g-n), with R=1/35.",
+    "sharpness": "The displayed nonatomic weighted models attain the aggregate optimum and are explicitly scoped as information-class witnesses, not actual prime rows or connection values.",
+    "normalization": "Dividing the one-ray excluded coefficient by 6 gives the stated saving; one whole ray is 1/210 and the two-ray ordinary-j2 ceiling remains 1/105.",
+    "actual_status": "No positive actual constants d-g or 1/35-g-n are proved, so eta, new booking, and unconditional capacity reduction are all zero."
+  },
+  "strict_labels": {
+    "PROVED_ACTUAL_ACCOUNTING": [
+      "exact rowwise degenerate target-rejection carrier",
+      "exact disjoint two-chart collision accounting",
+      "conditional capacity conversion for any future actual weighted bounds"
+    ],
+    "PROVED_INFORMATION_CLASS_NO_GO": [
+      "the aggregate data d, g, n force no saving beyond max(0,d-g,1/35-g-n)/6"
+    ],
+    "OPEN": [
+      "all positive-margin actual weighted density inputs",
+      "any positive ordinary-j2 capacity reduction",
+      "Route 1 and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "one_ray_raw_coefficient_per_M": "1/35",
+    "one_ray_normalized_ceiling_per_6M": "1/210",
+    "retained_two_ray_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_route1_rate": 0,
+    "new_booking": 0,
+    "new_unconditional_capacity_reduction": 0
+  }
+}

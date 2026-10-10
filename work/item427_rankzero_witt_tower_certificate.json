@@ -1,0 +1,308 @@
+{
+  "actual_family_all_level_theorem": {
+    "Bockstein_rows": "Y_s=(R_s,L_s/p,E_s)=(-pR(eta_s),-L(eta_s),-pE(eta_s))",
+    "determinantal_ideal": "I_m,p=(Delta_RL,Delta_LE)=(K,pX)=(A_m/p,8B_m/p) in Z_p",
+    "digit_generating_series": "G_m,p(z)=dig_p(K)(z)e_1+z dig_p(X)(z)e_2; ord_z G_m,p=v_p(c_m)-b_m,p",
+    "exact_depth": "v_p(c_m)-b_m,p=v_p(I_m,p)=min(v_p(K),1+v_p(X)), b_m,p=v_p(K_m)",
+    "level_n_gate": "depth>=n iff K digits 0..n-1 and X digits 0..n-2 all vanish",
+    "scope": "odd p in P_m with p^2>4m+1; omitted q>p support has logarithmic mass o(m)",
+    "tower_classification": "one forced Jordan delay on the X stream, followed by genuinely new paired digits; no further resonance follows from the proved hypotheses"
+  },
+  "ambient_independence_model": {
+    "checked_parameter_tuples": 75,
+    "classification": "AMBIENT ENDPOINT-LATTICE MODEL, NOT ACTUAL FAMILY",
+    "conclusion": "K and X, hence all of their p-adic digit streams, are arbitrary under rank-zero endpoint divisibility alone",
+    "stream_sha256": "0840bd7e9180e8f4513673d7ddc65167c58a8687539a179e4845f688443b8d86",
+    "symbolic_minors": [
+      "Delta_RL=K",
+      "Delta_LE=pX"
+    ],
+    "symbolic_rows_R_L_over_p_E": [
+      "(0,1,0)",
+      "(-K,1,-pX)"
+    ]
+  },
+  "capacity": {
+    "Item418_outside_large_admission_residual": "0.59085909833077392493454601829037809174677496455608",
+    "all_level_warning": "Each layer is supported inside P_m, but without a depth or weighted-zero theorem the infinite layer cake has no finite ceiling derived from support alone.",
+    "booked_lower_bound_delta": 0,
+    "frozen_deficit_delta": 0,
+    "global_total_content_ceiling_delta": 0,
+    "minimum_perfectly_saturated_layers_to_reach_residual": {
+      "booked_overlap_alone": 11,
+      "whole_ordinary_rank_zero_support": 2
+    },
+    "one_whole_layer_residual": "0.20135118033097964374939843789037809174677496455608",
+    "per_layer_support_ceilings": {
+      "booked_overlap": {
+        "decimal": "0.05617458466646094785181424706666666666666666666666666666666666666666666666666667",
+        "exact": "(C_F-2)/6"
+      },
+      "whole_ordinary_rank_zero_support": {
+        "decimal": "0.3895079179997942811851475804",
+        "exact": "C_F/6"
+      }
+    },
+    "small_component_ceiling_delta": 0,
+    "two_whole_layer_optimistic_capacity_minus_residual": "0.18815673766881463743574914250962190825322503544392"
+  },
+  "dependency_sha256": {
+    "results/item418_normalized_large_carrier_ledger_delta.json": "853301f7014dfde6c5edb0cdc8525ef81fcb3c921d8a777155932f8af651d869",
+    "results/item424_small_prime_witt_escape_certificate.json": "8511bdb52f40a001ecbcf6f3720b473c9d063311a66c8b7ae9ca72808ec879fc",
+    "results/item424_small_prime_witt_escape_hashes.sha256": "e4f794c7183ab6ef77b11465108e078e381abb4b9df550a108c996929fd00382",
+    "results/item424_small_prime_witt_escape_ledger_delta.json": "82118485d8f7e116a72625796843b548e8ce32e2bbff313de0ae81220f5337cb",
+    "results/item424_small_prime_witt_escape_root_audit.json": "1583de9d74ccf55ea4b44072c0f841dbf5b24705c3213eeb0d004d3ea9fbe1ba",
+    "results/mixed_cubic_positive_match_exact_scan_m100_N6m.json": "7284ea76cef084e7cb0faeba172454ebe2825a9dd60682c7d1b91c3f78852e96",
+    "scripts/item424_small_prime_witt_escape_certificate.py": "93bb653f6a3a518179a6bc3d66f3c0b8431512d60a89bd1a26c55973e96b5053",
+    "sources/item200_common_log_gcd_report.md": "06003e9fd03f74b2406330a81d49493fa2f4390c82f359be39bf328184605c68",
+    "sources/item424_small_prime_witt_escape_report.md": "3a48bafbdd8f1971d5734dfaf7f1553b0d10939d3a93d9feef0cc19f1babe73f"
+  },
+  "exact_actual_family_witnesses": {
+    "X_first_digits_zero_but_next_K_digit_stops": {
+      "K": {
+        "denominator": "230419294230762360003056456274203014639677816474435584",
+        "numerator": "-3248349322816534494324892505822725205722876037642446179018679913577433645630723650889257943038721162156484670454573067889",
+        "sha256": "3dbe97fb65fb626663cb7c83980525f1be9ca40dd6d8523466264c73cfdfe6c1"
+      },
+      "K_digits": [
+        0,
+        10,
+        8,
+        5,
+        9,
+        7
+      ],
+      "X": {
+        "denominator": "13164036458569648337239753460458804039861886925068638906788872192",
+        "numerator": "42961594338123739247890530694735410945216245171454079797516579603897345016128887562844206610838277491741763265391948114453158761375",
+        "sha256": "856e7bb420abdaa8433878cd54fc0813751847b185566b2555eb398207bb5688"
+      },
+      "X_digits": [
+        0,
+        0,
+        8,
+        7,
+        10,
+        3
+      ],
+      "booked_Item149_member": true,
+      "cell_j": 4,
+      "clearing_depth_b": 1,
+      "generating_series_coefficients_K_n_X_n_minus_1": [
+        [
+          0,
+          0
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          7,
+          10
+        ]
+      ],
+      "m": 24,
+      "p": 11,
+      "row_s": 1,
+      "tower_depth_d_equals_v_p_c_minus_b": 1,
+      "v_p_K": 1,
+      "v_p_U": 2,
+      "v_p_V": 4,
+      "v_p_X": 2,
+      "v_p_c": 2,
+      "v_p_pX": 3
+    },
+    "first_gate_stopped_by_unshifted_X_digit": {
+      "K": {
+        "denominator": "12431112165273027994004016332800",
+        "numerator": "-128021866432044641554855920995457098579155450197118059539577137531",
+        "sha256": "a1e81e42e19c7fd0a4a05267915d53715ed8c524564eaf5d89fbef0b6b4df435"
+      },
+      "K_digits": [
+        0,
+        4,
+        4,
+        10,
+        1,
+        9
+      ],
+      "X": {
+        "denominator": "5192296858534827628530496329220096",
+        "numerator": "12378873158296098510770880650280631500791615039446946284900376277279",
+        "sha256": "d7bb12d196ec6e3c35a3288774cb1f5c4d65ae66e02c33a9d7c0da2643f03dbb"
+      },
+      "X_digits": [
+        8,
+        8,
+        1,
+        7,
+        5,
+        5
+      ],
+      "booked_Item149_member": true,
+      "cell_j": 2,
+      "clearing_depth_b": 1,
+      "generating_series_coefficients_K_n_X_n_minus_1": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          9,
+          5
+        ]
+      ],
+      "m": 13,
+      "p": 11,
+      "row_s": 1,
+      "tower_depth_d_equals_v_p_c_minus_b": 1,
+      "v_p_K": 1,
+      "v_p_U": 2,
+      "v_p_V": 2,
+      "v_p_X": 0,
+      "v_p_c": 2,
+      "v_p_pX": 1
+    },
+    "tower_reaches_depth_two_then_K_digit_stops": {
+      "K": {
+        "denominator": "9580753008142036234468750741392515910645178296849748058284359908520644953802299643059991375109497674821259575476048327475441145965553015573567954766419790764306676638440698861605328548448752579783424844475001733120",
+        "numerator": "-48284978515096006102404450114255463296171625075183714835921819869056180321682533375640488183062863159201653001920403153287743778372675259216945170633697933101680647563006100312989274688441122321848624684635767194778788688285858894835072249450684506593227125050906297816898619741042094596167553111722909980368879567033229937841699590396305003033464125729783112330272420328996551800492082411713623736826522281837109071931612992615748753356625479261212024136500560073670402323269433",
+        "sha256": "481dab4e2d3365c94989e09a6caaf4085114c172d75fd6553298fc2618288f6e"
+      },
+      "K_digits": [
+        0,
+        0,
+        6,
+        11,
+        10,
+        10
+      ],
+      "X": {
+        "denominator": "52093862756873861516248842115009826540193424393093032503095764154406540920450250558761189069309017896429139926511197190983506262922807539690338719158834609735118418589953238737992799108686047068195039188561614077981958969042784853837217792",
+        "numerator": "35187261875527793094357413654014496309581587438034646203409783776844880813530014945810157042996486857148413387301393036282459660362698766554735344569487688513164487946524598988753630802903050700451437434782611013220326537434257159691073156275999717575887868823916024839293619271910323626664382288647120011817879884846383702099763463526850228839241039565366785804873083342407633257444309882174927377013973946429402344188375893824207608497641841815923157167738583025193524560580886188363681351940970083375",
+        "sha256": "082f1b4fe8c289213a2439ac11d68ef88953748003effd0e1756578b9cce33b6"
+      },
+      "X_digits": [
+        0,
+        0,
+        12,
+        7,
+        1,
+        17
+      ],
+      "booked_Item149_member": true,
+      "cell_j": 9,
+      "clearing_depth_b": 1,
+      "generating_series_coefficients_K_n_X_n_minus_1": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "m": 89,
+      "p": 19,
+      "row_s": 2,
+      "tower_depth_d_equals_v_p_c_minus_b": 2,
+      "v_p_K": 2,
+      "v_p_U": 3,
+      "v_p_V": 4,
+      "v_p_X": 2,
+      "v_p_c": 3,
+      "v_p_pX": 3
+    }
+  },
+  "finite_replay": {
+    "booked_overlap_depth_distribution": {
+      "0": 270,
+      "1": 14,
+      "2": 1
+    },
+    "booked_overlap_layer_support_counts": {
+      "1": 15,
+      "2": 1
+    },
+    "depth_distribution": {
+      "0": 1929,
+      "1": 23,
+      "2": 1
+    },
+    "incidence_count": 1953,
+    "layer_support_counts": {
+      "1": 24,
+      "2": 1
+    },
+    "range": "1<=m<=100",
+    "stream_sha256": "9d5e52e39b5151adfb6042cd463f6af885ba7a98c41ed266dcd3062a0407c670",
+    "warning": "exact finite replay only; no density inference"
+  },
+  "item": 427,
+  "schema": "item427-rankzero-all-level-witt-tower-v1",
+  "status": "WORK_ONLY_UNAUDITED_ALL_LEVEL_THEOREM_SCOPED_AMBIENT_NO_GO_NO_BOOKING",
+  "strict_scope": {
+    "open": [
+      "an actual-family relation or weighted-density theorem for the paired digit streams",
+      "a finite aggregate depth bound",
+      "the q>p zero-rate initial-scaling tail as an exact local formula",
+      "non-rank-zero small-prime content",
+      "Route 1 and irrationality of e+pi"
+    ],
+    "proved_actual_family": [
+      "one determinantal ideal captures every ordinary rank-zero content depth simultaneously",
+      "the shifted two-stream digit recursion and exact level-n gate",
+      "the three displayed actual rows showing successive new gates",
+      "the layer-cake decomposition and per-layer capacity bounds"
+    ],
+    "proved_ambient_only": [
+      "arbitrary independent K and X digit streams are compatible with rank-zero endpoint divisibility"
+    ]
+  }
+}

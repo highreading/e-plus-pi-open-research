@@ -1,0 +1,81 @@
+{
+  "item": 334,
+  "schema": "item334-j2-coupled-cartier-carrier-ledger-v1",
+  "classification": "PROVED_COUPLED_TARGET_AND_EXACT_ROWWISE_INTEGER_CARRIER",
+  "actual_family": {
+    "p": "2r+6s+3=6m+2d+1",
+    "m": "s-1",
+    "d": "r+4",
+    "n": "3m+d=(p-1)/2",
+    "q": "2m+d",
+    "fixed_M_relation": "2M=5r+14s+7",
+    "fixed_M_prime_maps": [
+      "p=(6M-r)/7",
+      "p=(4M+2m+3)/5"
+    ],
+    "prime_interval": "4M/5<p<6M/7"
+  },
+  "admission": {
+    "old_gate": "D=9*c*ell-11*mu=0",
+    "actual_target_retained": true,
+    "moving_data": [
+      "B_s",
+      "kappa_r",
+      "tau_(r,s)",
+      "h_m",
+      "P_(r+2)(m)",
+      "connection columns f,b,v"
+    ],
+    "role": "Closer condition strictly internal to the retained ordinary-j2 determinant branch"
+  },
+  "cartier_target": {
+    "Phi": "c_p+epsilon*h_m*P_(r+2)(m)",
+    "W_C": "B_s*((-1)^(m+1)*(9*kappa_r/2)*Phi-tau_(r,s))",
+    "actual_congruence": "W_C=Z_actual modulo p",
+    "coordinate_target": "T_nu=(9*kappa_r/2)*f_nu*B_s*Phi+(-1)^m*(f_nu*B_s*tau-9*c*b_nu+11*v_nu)",
+    "coordinate_identity": "T_nu=(-1)^(m+1)*G_nu(W_C)",
+    "collision_equivalence": "original collision iff T_0=T_1=0 modulo p"
+  },
+  "primitive_carrier": {
+    "definition": "G_(r,s)=gcd(abs(num(D)),abs(num(T_0)),abs(num(T_1)))",
+    "nonzero": "D is nonzero over Q by the inherited all-ray sign theorem",
+    "exact_rowwise_localization": "p is an original collision iff p divides G_(r,s)",
+    "minimal_squarefree_support": "rad(G_(r,s))"
+  },
+  "charts": {
+    "ell_nonzero": "on D=0, collision iff T_ell=0",
+    "ell_zero_mu_nonzero": "on D=0, collision iff T_mu=0",
+    "ell_mu_zero_C_nonzero": "f=0 and b,v independent; collision impossible",
+    "all_minors_zero_f_nonzero": "on D=0, use one T_nu with f_nu nonzero",
+    "all_minors_zero_f_zero": "retain T_0=T_1=0"
+  },
+  "fixed_M_closer_target": {
+    "aggregate_carrier": "rad(product_((r,s) in R_M) G_(r,s))",
+    "sufficient_theorem": "sum_((r,s) in R_M) log(rad(G_(r,s)))=o(M)",
+    "status": "OPEN"
+  },
+  "height": {
+    "coefficient": "log(1+abs(c_p))=O(M)",
+    "primitive_row_numerators": "O(M log M)",
+    "direct_aggregate": "O(M^2 log M)",
+    "comparison": "weaker than the existing O(M) raw cell ceiling",
+    "sublinear_aggregate_height": "NOT PROVED",
+    "average_gcd_cancellation": "OPEN"
+  },
+  "scoped_conclusion": {
+    "proved": "Item331's coefficient becomes a Cartier reparametrization of the old actual period once the moving target is restored",
+    "not_proved": "no target-retaining weighted zero-density or average-gcd theorem"
+  },
+  "capacity": {
+    "raw_isolated_ordinary_j2_ceiling_per_6M": "1/105",
+    "raw_decimal": "0.0095238095238095238095238095...",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  },
+  "master_ledger": {
+    "booked_r1_unchanged": "0.1365141682948128184504238226...",
+    "threshold_T_unchanged": "1.1561471519642446123307302239...",
+    "deficit_unchanged": "1.0196329836694317938803064012..."
+  },
+  "smallest_open_arithmetic_theorem": "prove o(M) total logarithmic squarefree mass of the primitive target-coupled row gcds along the actual fixed-M line"
+}

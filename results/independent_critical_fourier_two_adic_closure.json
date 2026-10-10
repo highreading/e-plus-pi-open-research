@@ -1,0 +1,306 @@
+{
+  "central_coefficient_checks": {
+    "all_beta_sum_common_denominator_identities_pass": true,
+    "all_exact_v2_formulas_pass": true,
+    "all_kummer_transform_egf_identities_pass": true,
+    "all_normalized_numerators_are_odd_integers": true,
+    "case_count": 1296,
+    "range": "1<=r<=12, 2r<=K<=120",
+    "record_stream_sha256": "fd6bec10d692b3b535b39375315a9431219ddf05e62b1de1304f347ff5fad880",
+    "symbolic_polynomial_records": [
+      {
+        "coefficient_sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22",
+        "constant_coefficient": "1",
+        "degree": 0,
+        "leading_coefficients": [
+          "1"
+        ],
+        "r": 1
+      },
+      {
+        "coefficient_sha256": "29e894ba2156b17b9fdf866251b3ddc0f21483cbf6324ac45b48ad44576b76d6",
+        "constant_coefficient": "-35",
+        "degree": 2,
+        "leading_coefficients": [
+          "1",
+          "9",
+          "-35"
+        ],
+        "r": 2
+      },
+      {
+        "coefficient_sha256": "1f8cb7ed90eb5bb98e62ac9adc0dd8936ebe4751fb7849256148525c2bd00b89",
+        "constant_coefficient": "-229",
+        "degree": 2,
+        "leading_coefficients": [
+          "1",
+          "39",
+          "-229"
+        ],
+        "r": 3
+      },
+      {
+        "coefficient_sha256": "b4056b668a77cf80c4de3b8358f9b120b79bf6700c72b404de2c109f33ba377b",
+        "constant_coefficient": "19305",
+        "degree": 4,
+        "leading_coefficients": [
+          "1",
+          "102",
+          "-511",
+          "-4740"
+        ],
+        "r": 4
+      },
+      {
+        "coefficient_sha256": "cfbb904801a6573989e98e0ecaf950b76fa840fe7dc38db5335706c5a1c98cc7",
+        "constant_coefficient": "226789",
+        "degree": 4,
+        "leading_coefficients": [
+          "1",
+          "210",
+          "145",
+          "-44820"
+        ],
+        "r": 5
+      },
+      {
+        "coefficient_sha256": "8203e34fb7d7a45d20449e609f63c14c26f53d14fb0984cd3b210a8a8988cac6",
+        "constant_coefficient": "-30421755",
+        "degree": 6,
+        "leading_coefficients": [
+          "1",
+          "375",
+          "4960",
+          "-211605"
+        ],
+        "r": 6
+      },
+      {
+        "coefficient_sha256": "1556e51ad707151993a0006cc8b4183c7fe13575842d32ef1e57f4654bea0df0",
+        "constant_coefficient": "-514685025",
+        "degree": 6,
+        "leading_coefficients": [
+          "1",
+          "609",
+          "21070",
+          "-657615"
+        ],
+        "r": 7
+      },
+      {
+        "coefficient_sha256": "5ea846a34e969038e797f0ae28a07180b04efcbf80bca1f78c05f41f4a28c608",
+        "constant_coefficient": "94670161425",
+        "degree": 8,
+        "leading_coefficients": [
+          "1",
+          "924",
+          "61726",
+          "-1436148"
+        ],
+        "r": 8
+      },
+      {
+        "coefficient_sha256": "d953c82027b33273a432cb076f48400876a18f1bf1a5c70c47e3a134e761f9f7",
+        "constant_coefficient": "2090175255945",
+        "degree": 8,
+        "leading_coefficients": [
+          "1",
+          "1332",
+          "148974",
+          "-1943676"
+        ],
+        "r": 9
+      },
+      {
+        "coefficient_sha256": "ffcaa448aa5fc00a2219a713e8391e77c764479d5c3431778f7056a0885ee056",
+        "constant_coefficient": "-488493636505875",
+        "degree": 10,
+        "leading_coefficients": [
+          "1",
+          "1845",
+          "316815",
+          "413910"
+        ],
+        "r": 10
+      },
+      {
+        "coefficient_sha256": "e6bdaa75809f19e99abf89d57eb39044927137ed08c719f840b85fabf29692d3",
+        "constant_coefficient": "-13303690966756125",
+        "degree": 10,
+        "leading_coefficients": [
+          "1",
+          "2475",
+          "614845",
+          "12884850"
+        ],
+        "r": 11
+      },
+      {
+        "coefficient_sha256": "d67af5375f3707c2ca9bc55f1e73b243f396ae6e090d3a0760b3debfb878a940",
+        "constant_coefficient": "3771155703215525625",
+        "degree": 12,
+        "leading_coefficients": [
+          "1",
+          "3234",
+          "1112375",
+          "52125480"
+        ],
+        "r": 12
+      }
+    ]
+  },
+  "description": "Independent exact diagnostics for the critical-Fourier central v2 identity and rational-coordinate bound",
+  "high_scale_analytic_diagnostic": {
+    "records": [
+      {
+        "n": "10^50",
+        "normalized_log_lower_main_terms": "-1.037772189250499",
+        "threshold_k_over_n": "3.289407275705780"
+      },
+      {
+        "n": "10^100",
+        "normalized_log_lower_main_terms": "1.057189405751106",
+        "threshold_k_over_n": "6.578814551411559"
+      },
+      {
+        "n": "10^200",
+        "normalized_log_lower_main_terms": "5.384894524629313",
+        "threshold_k_over_n": "13.157629102823119"
+      },
+      {
+        "n": "10^500",
+        "normalized_log_lower_main_terms": "18.708335472005007",
+        "threshold_k_over_n": "32.894072757057792"
+      },
+      {
+        "n": "10^1000",
+        "normalized_log_lower_main_terms": "41.213263863585276",
+        "threshold_k_over_n": "65.788145514115584"
+      }
+    ],
+    "role": "floating diagnostic only; the uniform high-k limit is proved symbolically in the note"
+  },
+  "independent_fourier_monomial_spot_checks": [
+    {
+      "C0": "8",
+      "K": 2,
+      "Q": "1/8",
+      "R": "-3/8",
+      "k": 3,
+      "n": 2,
+      "r": 1,
+      "v2_R": -3
+    },
+    {
+      "C0": "3432",
+      "K": 9,
+      "Q": "429/131072",
+      "R": "-2329/645120",
+      "k": 10,
+      "n": 2,
+      "r": 1,
+      "v2_R": -11
+    },
+    {
+      "C0": "136",
+      "K": 4,
+      "Q": "17/128",
+      "R": "-5/12",
+      "k": 5,
+      "n": 4,
+      "r": 2,
+      "v2_R": -2
+    },
+    {
+      "C0": "1343680",
+      "K": 15,
+      "Q": "20995/67108864",
+      "R": "-626323/738017280",
+      "k": 16,
+      "n": 4,
+      "r": 2,
+      "v2_R": -14
+    },
+    {
+      "C0": "2624",
+      "K": 6,
+      "Q": "41/256",
+      "R": "-161/320",
+      "k": 7,
+      "n": 6,
+      "r": 3,
+      "v2_R": -6
+    },
+    {
+      "C0": "22290496",
+      "K": 18,
+      "Q": "348289/4294967296",
+      "R": "-201302351/802962800640",
+      "k": 19,
+      "n": 6,
+      "r": 3,
+      "v2_R": -20
+    },
+    {
+      "C0": "129472",
+      "K": 12,
+      "Q": "2023/1048576",
+      "R": "-1/165",
+      "k": 13,
+      "n": 8,
+      "r": 4,
+      "v2_R": 0
+    },
+    {
+      "C0": "3721728",
+      "K": 15,
+      "Q": "7269/8388608",
+      "R": "-109/40040",
+      "k": 16,
+      "n": 10,
+      "r": 5,
+      "v2_R": -3
+    },
+    {
+      "C0": "461995776",
+      "K": 20,
+      "Q": "1804671/17179869184",
+      "R": "-9535483/28894494720",
+      "k": 21,
+      "n": 12,
+      "r": 6,
+      "v2_R": -16
+    }
+  ],
+  "matching_content_warning_example": {
+    "conclusion": "parity does not force final content one; primitive pi divergence alone does not prove matched-form divergence",
+    "final_content": 7,
+    "k": 10,
+    "matching_gcd_d": 7,
+    "n": 2,
+    "primitive_e_pair_minus_p_q": [
+      "-19",
+      "7"
+    ],
+    "primitive_pi_pair_A_B": [
+      "-149056",
+      "135135"
+    ],
+    "raw_common_e_pi_coefficient": "135135",
+    "raw_matched_constant": "-515851"
+  },
+  "rational_coordinate_checks": {
+    "all_ratio_valuation_consequences_pass": true,
+    "all_v2_R_lower_bounds_pass": true,
+    "case_count": 700,
+    "minimum_finite_valuation_slack": 1,
+    "range": "1<=r<=10, 2r<=K<=80",
+    "record_stream_sha256": "881d1f1ac09902571c9dec378ab4d4cd5942cdd6013c730f9c7a05b918ea3c63",
+    "zero_rational_coordinates": []
+  },
+  "status": "all-degree proofs are in the companion note; every scan reported here is finite",
+  "warnings": [
+    "The finite absence or presence of R=0 cannot be extrapolated.  The theorem handles R=0 separately.",
+    "The primitive pi form equals pi when R=0; only the subsequently matched primitive e+pi form diverges there."
+  ]
+}

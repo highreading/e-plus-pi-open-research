@@ -1,0 +1,53 @@
+{
+  "schema": "item239-j2-actual-witt-bridge-ledger-v1",
+  "item": 239,
+  "route": "Route 1A",
+  "cell": "normalized common-log j=2 fixed cell, s>=2",
+  "status": "complete actual p^2 quotient bridge and exact extra-digit criterion; no ordinary-cell exclusion",
+  "proved": [
+    "the exact lifted binomial quotients include the harmonic corrections 1-p*H_(k-1)",
+    "the actual quotient satisfies C_nu/p=-35*(9*Xtilde_nu-10*Ytilde_nu+Ytildeprime_nu)+35*p*R_nu modulo p^2",
+    "R_nu is the explicit nine-term A_p^2, B_p^2, A_p*B_p section combination",
+    "reciprocity translates the actual quotient to C_nu/p=-35*(-1)^(r+1)*(S2_nu+p*K_nu) modulo p^2",
+    "K_nu is an explicit depth-one harmonic/inverse-square carry plus one explicit depth-two convolution scalar",
+    "p^3 divides C_nu if and only if S2_nu+p*K_nu vanishes modulo p^2",
+    "conditional on the first digit, the exact second digit is eta_nu=S2_nu/p+K_nu modulo p",
+    "S2_nu modulo p is exactly the ordinary Item219 beta period, so S2_nu=0 modulo p is the original per-coordinate gate p^2|C_nu",
+    "the corrected derivative coefficient kernel is not four-periodic, so that kernel is not represented coefficientwise by a fixed covector on the old endpoints 1,i,-i"
+  ],
+  "exact_finite": {
+    "direct_integer_replay": "148 (p,s,nu) triples through p<=101",
+    "census": "1115 admissible rows through p<=401",
+    "first_digit_zero_counts_nu_0_nu_1": [
+      5,
+      6
+    ],
+    "simultaneous_common_log_rows": 0,
+    "individual_p_cubed_rows": [
+      [
+        227,
+        13,
+        1
+      ]
+    ],
+    "direct_spotcheck": "at (p,s,nu)=(227,13,1), m=277 and C_1=0 modulo 227^3"
+  },
+  "open": [
+    "derive a useful terminal recurrence or enlarged cohomology system for the corrected non-four-periodic kernel",
+    "decide whether coefficient cancellations on the restricted P_nu row family yield an aggregate old-endpoint identity despite the coefficientwise obstruction",
+    "classify simultaneous corrected zeros over all admissible primes",
+    "exclude or prove zero rate for the ordinary j=2 common-log cell",
+    "obtain any new Route-1 rate or divisibility exponent"
+  ],
+  "global_interface": "ordinary collision means p^2 divides both C_0 and C_1; Item239 classifies the stronger p^3 condition and therefore books no ordinary fixed-cell capacity",
+  "no_go_scope": "the corrected coefficient kernel is not in the old fixed three-endpoint/four-periodic span; aggregate cancellation identities on the restricted P_nu row family, larger endpoint systems, and bulk-forcing mechanisms remain open",
+  "booking": {
+    "new_unconditional_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "capacity_reduction": 0,
+    "conclusion_about_e_plus_pi": "none"
+  },
+  "dependency": {
+    "scripts/item235_j2_witt_terminal_certificate.py": "200a0a4f5024888c4e4b6afb6216ae58cf542f49a8c75b70f06166986b775c89"
+  }
+}

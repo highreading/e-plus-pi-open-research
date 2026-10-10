@@ -1,0 +1,101 @@
+{
+  "continued_fraction_bound": "abs(q*e-p) > 1/(q*(4*log2(q)+8))",
+  "cross_content_multipliers_checked": [
+    17,
+    1000
+  ],
+  "cross_content_records_checked": 984,
+  "cross_content_saturation_family": [
+    {
+      "multiplier": 17,
+      "output_content": 136,
+      "polynomial_content": 1,
+      "primitive_pair": [
+        34,
+        -193
+      ],
+      "target": 4624
+    },
+    {
+      "multiplier": 18,
+      "output_content": 144,
+      "polynomial_content": 1,
+      "primitive_pair": [
+        34,
+        -193
+      ],
+      "target": 4896
+    },
+    {
+      "multiplier": 25,
+      "output_content": 200,
+      "polynomial_content": 1,
+      "primitive_pair": [
+        34,
+        -193
+      ],
+      "target": 6800
+    },
+    {
+      "multiplier": 50,
+      "output_content": 400,
+      "polynomial_content": 1,
+      "primitive_pair": [
+        34,
+        -193
+      ],
+      "target": 13600
+    },
+    {
+      "multiplier": 100,
+      "output_content": 800,
+      "polynomial_content": 1,
+      "primitive_pair": [
+        34,
+        -193
+      ],
+      "target": 27200
+    },
+    {
+      "multiplier": 250,
+      "output_content": 2000,
+      "polynomial_content": 1,
+      "primitive_pair": [
+        34,
+        -193
+      ],
+      "target": 68000
+    },
+    {
+      "multiplier": 1000,
+      "output_content": 8000,
+      "polynomial_content": 1,
+      "primitive_pair": [
+        34,
+        -193
+      ],
+      "target": 272000
+    }
+  ],
+  "direct_e_bound_checked_through_q": 500,
+  "e_convergents_checked": 61,
+  "e_interval": {
+    "lower": [
+      194545954561539067326581042506243811231423891946873480598031074615399345559765318585225493549256921092507319165187339201,
+      71569457046263802294811533723186532165584657342365752577109445058227039255480148842668944867280814080000000000000000000
+    ],
+    "upper": [
+      75083294581073989454688130581380332087610126768437465070804816503037359189271779719862615480980862311055324767223184264579,
+      27621600451796282756250498397519225737552996283721276626965592295707506150306191562161820427895848304640000000000000000000
+    ]
+  },
+  "primitive_e_barrier": "Lambda > D/(a^2*(4*log2(a)+8))",
+  "scope": "No shrinking family and no upper bound excluding synchronized exceptional cross-content.",
+  "status": "exact synchronization barrier and cross-content saturation verified",
+  "synchronization": {
+    "alpha": "a*D/g",
+    "congruence": "M-B*D is divisible by g",
+    "errors": "(e-B/a)+(pi+M/(a*D))=Lambda/alpha"
+  },
+  "two_place_lower_bound": "Lambda >= (D*frac(a*e)+frac(a*D*pi))/g"
+}

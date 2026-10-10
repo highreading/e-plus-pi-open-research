@@ -1,0 +1,94 @@
+{
+  "item": 344,
+  "schema": "item344-j2-frobenius-cutoff-obstruction-ledger-v1",
+  "classification": "PROVED_MAXIMAL_MOVING_CUTOFF_COMPLEXITY_AND_BOUNDED_COMPLETION_NO_GO",
+  "dependencies": {
+    "sources/item341_j2_diagonal_affine_state_report.md": "42f6ccd326e385f8034abe322756517a30a93d7468b3e6f85cbca3dba8080cb4",
+    "results/item341_j2_diagonal_affine_state_certificate.json": "75c05cb486e5a5a6f9af5dda2e62f2a4b81cb888a15eb19ecabd10a382625cb4",
+    "results/item341_j2_diagonal_affine_state_root_audit.json": "d5c810346f9181f10d38e9f5ae2e250a8c880e32f97cbc5bef91f6bd37f61a27",
+    "manifests/item341_j2_diagonal_affine_state_manifest.json": "fc073e4c11a2d9ab519f0b5babae6f9f95e2e8cf9e8cbcf05c4c8ca8ba155000"
+  },
+  "actual_family": {
+    "tied_phase": "p=2r+6s+3=6m+2d+1, m=s-1, d=r+4",
+    "fixed_M_relation": "2M=5r+14s+7; 5p=4M+2m+3; r=6M-7p",
+    "raw_prime_interval": "(4M+3)/5 <= p <= (6M-1)/7",
+    "raw_chebyshev_mass": "(2/35)M+o(M)",
+    "raw_capacity_per_6M": "1/105"
+  },
+  "joint_nondegenerate_collision": {
+    "first_coordinate": "4^(m+1)=c_star_r mod p",
+    "second_coordinate": "H_m=Theta_(r,s) mod p",
+    "H_m": "sum_(j=0)^m binom(2j,j)/8^j",
+    "status": "both coordinates retained; neither is independently booked"
+  },
+  "recurrence_and_frobenius": {
+    "generating_function": "F(z)=1/((1-z)*sqrt(1-z/2))",
+    "recurrence": "4(m+1)H_(m+1)-(6m+5)H_m+(2m+1)H_(m-1)=0",
+    "transfer_determinant": "(2m+1)/(4(m+1)), a p-unit on every actual row",
+    "coefficient_formula": "H_m=[z^m](1-z/2)^((p-1)/2)/(1-z) mod p",
+    "quadratic_frobenius": "with U^2=1-z/2, (1-z/2)^((p-1)/2)=U(z^p)/U(z)",
+    "consequence": "because m<p, Frobenius returns the same moving coefficient of 1/((1-z)U(z)); no second target condition results"
+  },
+  "additive_character_obstruction": {
+    "exact_formula": "p*G_(p,m)=sum_(a mod p) Ihat_m(a)*(1-zeta^a/2)^((p-1)/2)",
+    "mode_support": "all p coefficients Ihat_m(a) are nonzero because 1<=m+1<p",
+    "uniqueness": "additive Fourier expansion of the cutoff is unique",
+    "precision_cost": "after clearing powers of two, recovery of G mod p from the rational completed numerator requires precision mod p^2",
+    "closed_scope": "exact cutoff-first completion by a bounded or o(p) number of additive modes",
+    "not_closed": "target-specific relations among the full p modes"
+  },
+  "finite_field_degree_obstruction": {
+    "indicator": "I_(p,m)(X)=sum_(u=0)^m(1-(X-u)^(p-1))",
+    "leading_coefficient": "-(m+1), nonzero mod p",
+    "exact_reduced_degree": "p-1",
+    "closed_scope": "exact cutoff-first interpolation by bounded-degree or o(p)-degree F_p polynomials",
+    "not_closed": "summand-specific cancellation that does not represent the cutoff itself"
+  },
+  "fixed_M_complexity": {
+    "sublinear_edge_theorem": "for every u(M)=o(M), rows with m<=u(M) or r<=u(M) have total log-prime mass o(M)",
+    "m_edge_width": "2u(M)/5+O(1)",
+    "r_edge_width": "u(M)/7+O(1)",
+    "boundary_polynomial": "P_(r+2)(m) has exact degree r+2 mod p",
+    "boundary_leading_coefficient": "1/(1*3*...*(2r+3)), a p-unit",
+    "positive_rate_bulk": "after arbitrarily small edge loss, m and r are both linear in M"
+  },
+  "scoped_no_go": {
+    "closed_as_sufficient_by_themselves": [
+      "the fixed quadratic Frobenius carrier",
+      "the invertible rank-two state recurrence without an arithmetic law for the actual moving target",
+      "bounded or sublinear additive-character completion of the sharp prefix",
+      "bounded-degree or sublinear-degree finite-field interpolation of the sharp prefix",
+      "direct bounded/sublinear prefix or boundary-degree analysis as a positive-rate mechanism"
+    ],
+    "first_missing_inputs": [
+      "a bounded-conductor model for the joint residual (4^(m+1)-c_star,H_m-Theta)",
+      "a target-specific relation across all p completed modes surviving the 1/p precision cost",
+      "a weighted large-sieve, monodromy, or average-gcd theorem for the actual moving point",
+      "weighted control of Item341's degenerate triple-minor carrier"
+    ]
+  },
+  "strict_labels": {
+    "proved": [
+      "exact recurrence and quadratic Frobenius coefficient carrier",
+      "all-p additive-mode support and maximal p-1 cutoff degree",
+      "o(M) logarithmic mass for sublinear fixed-M edges",
+      "scoped bounded-completion method-class no-go"
+    ],
+    "exact_finite_only": "declared formula replays; no zero census",
+    "open": [
+      "weighted joint nonconcentration",
+      "target-specific full-mode cancellation",
+      "strict reduction of the 1/105 ceiling"
+    ]
+  },
+  "capacity": {
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "ordinary_j2_ceiling_per_6M": "1/105"
+  },
+  "master_ledger": {
+    "booked_r1_unchanged": "0.1365141682948128184504238226...",
+    "threshold_T_unchanged": "1.1561471519642446123307302239...",
+    "deficit_unchanged": "1.0196329836694317938803064012..."
+  }
+}

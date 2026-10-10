@@ -1,0 +1,57 @@
+{
+  "status": "PASS; independent controls n3,n5",
+  "checks": [
+    {
+      "n": 3,
+      "actual_endpoint_B1": "1",
+      "actual_endpoint_C1": "4",
+      "direct_three_solution_annihilation": true,
+      "all_polynomial_degree_bounds": true,
+      "q": 3,
+      "infinity_powers": [
+        3,
+        3,
+        2
+      ],
+      "q3_direct_and_original_minor_formulas": true,
+      "B_top_nonzero": true,
+      "infinity_two_jet_nonzero": true,
+      "origin_ledger": {
+        "M": 10,
+        "echelon_orders": [
+          0,
+          1
+        ],
+        "ord_Q0": 0
+      },
+      "simple_apparent_hypotheses": true,
+      "apparent_congruences": true
+    },
+    {
+      "n": 5,
+      "actual_endpoint_B1": "1",
+      "actual_endpoint_C1": "4",
+      "direct_three_solution_annihilation": true,
+      "all_polynomial_degree_bounds": true,
+      "q": 3,
+      "infinity_powers": [
+        5,
+        5,
+        4
+      ],
+      "q3_direct_and_original_minor_formulas": true,
+      "B_top_nonzero": true,
+      "infinity_two_jet_nonzero": true,
+      "origin_ledger": {
+        "M": 16,
+        "echelon_orders": [
+          0,
+          1
+        ],
+        "ord_Q0": 0
+      },
+      "simple_apparent_hypotheses": true,
+      "apparent_congruences": true
+    }
+  ]
+}

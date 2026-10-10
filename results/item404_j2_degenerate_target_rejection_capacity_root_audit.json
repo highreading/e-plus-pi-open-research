@@ -1,0 +1,52 @@
+{
+  "item": 404,
+  "schema": "item404-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_EXACT_DEGENERATE_TARGET_CARRIER_AND_SHARP_RAY_CAPACITY_CRITERION",
+  "scope": "independent root audit of the target-retaining gcd carrier, safe saturation, chart partition, rejected-mass identity, capacity arithmetic, ambient countermodels, dependencies, and replay",
+  "checks": {
+    "canonical_dependencies_checked": 30,
+    "canonical_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "control_characters": 0,
+    "prime_or_collision_census_used": false,
+    "finite_to_infinite_inference_used": false,
+    "root_repairs": "Canonicalized output paths and replay instructions. No mathematical repair was required."
+  },
+  "mathematical_audit": {
+    "exact_carrier": "On the triple-minor chart p divides Pi_r, and Item334 says an original collision is exactly simultaneous vanishing of T0 and T1. Unit denominators therefore make p|gcd(Pi_r,|num T0|,|num T1|) equivalent to the actual degenerate collision.",
+    "saturation": "Item338 gives p not dividing S_(r,s). Removing full prime powers supported by S preserves tied-p divisibility, and the operation is monotone under divisibility, so Gamma_sat divides Pi_sat.",
+    "internal_branches": "When f is nonzero, triple-minor vanishing puts b and v on its line and leaves one localized target scalar. When f is zero, collinearity of b and v does not fix their proportionality constant, so both coordinates of 9*4^s*b-11*v remain necessary.",
+    "partition": "The ray partitions into the all-minor-zero chart, the ell-nonzero chart, and the remaining ell-zero chart. The old gate forces mu=0 in the last chart; C nonzero then excludes a collision, while C zero returns to the degenerate chart. Hence the stated partition is exact.",
+    "rejected_mass": "Raw ray mass minus collision mass is exactly rejected-degenerate plus rejected-nondegenerate plus automatic-obstruction mass. Therefore the only directly bookable degenerate quantity is D_e-G_e, not either chart mass alone.",
+    "capacity": "Bounds D_e>=dM+o(M) and G_e<=gM+o(M) yield saving max(0,d-g)/6. Alternatively chartwise collision bounds g+n below 1/35 yield saving (1/35-g-n)/6. A complete one-ray reward is 1/210.",
+    "scope": "The finite-field rank-one and primitive-integer packets preserve only the declared minor/support/height information. They are not actual connection values and close no formula-specific moving-divisor theorem."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact target-retaining degenerate gcd carrier",
+      "safe saturated support equivalence",
+      "exact chart partition and rejected-mass identity",
+      "sharp ray-capacity criteria",
+      "scoped minor-information and pointwise-height no-go",
+      "zero booking and retained ordinary-j2 ceiling 1/105"
+    ],
+    "OPEN": [
+      "actual good-reduction or average-gcd theorem",
+      "positive degenerate target-rejection mass",
+      "a combined both-chart one-ray saving",
+      "Route 1 and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "one_ray_normalized_per_6M": "1/210",
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_route1_rate": 0,
+    "new_booking": 0,
+    "new_unconditional_capacity_reduction": 0
+  }
+}

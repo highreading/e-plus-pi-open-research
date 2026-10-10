@@ -1,0 +1,43 @@
+{
+  "artifacts": {
+    "results/item211_a1_structural_ray_certificate.json": {
+      "role": "canonical deterministic output",
+      "sha256": "63a89f159e6626be4766a50c97a9f3896240363269a0ec08859814ee7274a86d",
+      "work_source": "item211_a1_structural_ray_certificate.json"
+    },
+    "results/item211_a1_structural_ray_certificate.replay.json": {
+      "role": "independent replay output; byte-identical to canonical",
+      "sha256": "63a89f159e6626be4766a50c97a9f3896240363269a0ec08859814ee7274a86d",
+      "work_source": "item211_a1_structural_ray_certificate_replay.json"
+    },
+    "scripts/item211_a1_structural_ray_certificate.py": {
+      "role": "Python-standard-library checker and finite formula scanner",
+      "sha256": "9cdc326597f3714da1e7fced5c4ce4c99d541dbd260bcd13f203e85abdea56c6",
+      "work_source": "item211_a1_structural_ray_certificate.py"
+    },
+    "sources/item211_a1_structural_ray_report.md": {
+      "role": "proof report and status/rate ledger",
+      "sha256": "74c44ac0122f089e767843d6b860a2dceac438892753be4ee7b995aa59e3714b",
+      "work_source": "item211_a1_structural_ray_report.md"
+    }
+  },
+  "canonical_command_from_archive_root": "python scripts/item211_a1_structural_ray_certificate.py --output results/item211_a1_structural_ray_certificate.json",
+  "dependencies": {
+    "archive_files": {
+      "scripts/item209_second_lift_digit_certificate.py": {
+        "role": "independent modulo-p^3 Hasse replay helper",
+        "sha256": "1c20a30b577deb564ddbbd33b7ecfe24dfdbccdab0758e10e36f985539bcce3b"
+      }
+    },
+    "external_files": [],
+    "python": "3.11+ standard library only"
+  },
+  "portability": {
+    "archive_path_required": false,
+    "host_absolute_paths_embedded": false,
+    "helper_resolved_beside_checker": true,
+    "explicit_output_makes_archive_root_replay_portable": true
+  },
+  "replay_command_from_archive_root": "python scripts/item211_a1_structural_ray_certificate.py --output results/item211_a1_structural_ray_certificate.replay.json",
+  "schema": "item211-portable-manifest-v1"
+}

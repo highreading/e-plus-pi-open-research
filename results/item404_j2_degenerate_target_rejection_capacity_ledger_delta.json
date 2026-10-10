@@ -1,0 +1,75 @@
+{
+  "item": 404,
+  "schema": "item404-j2-degenerate-target-rejection-capacity-ledger-v1",
+  "classification": "PROVED_EXACT_DEGENERATE_TARGET_CARRIER_AND_SCOPED_NO_GO_ETA_ZERO",
+  "checked_date_beijing": "2026-09-01",
+  "branch": "ordinary fixed-j=2 degenerate triple-minor chart plus surviving target gate",
+  "capacity_first": {
+    "ordinary_j2_raw_mass_per_M": "2/35",
+    "one_complete_ray_mass_per_M": "1/35",
+    "one_complete_ray_normalized_per_6M": "1/210",
+    "maximum_one_ray_reward": "1/210",
+    "proved_eta_per_M": 0,
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "retained_ordinary_j2_ceiling_per_6M": "1/105"
+  },
+  "exact_carrier": {
+    "definition": "Gamma_(r,s)=gcd(Pi_r,abs(num(T_0)),abs(num(T_1)))",
+    "saturation": "Gamma_sat=(Gamma_(r,s))_(S_(r,s))",
+    "equivalence": "on every actual row, p divides Gamma_sat iff the row is an original collision in the triple-minor chart",
+    "nested_support": "Gamma_sat divides Pi_sat",
+    "height": "log^+(Gamma)<=log^+(Pi)=O(r log r); the direct fixed-M product remains O(M^2 log M)"
+  },
+  "proved": {
+    "internal_f_nonzero_branch": "after triple-minor vanishing, one coordinate T_nu with f_nu nonzero is the surviving scalar gate; both T coordinates are retained to avoid division",
+    "internal_f_zero_branch": "the period disappears and both coordinates of 9*4^s*b-11*v must vanish",
+    "raw_ray_partition": "raw candidates split disjointly into the triple-minor chart, the ell-nonzero chart, and an automatic obstruction chart",
+    "rejected_mass_identity": "raw ray mass minus collision mass equals rejected-degenerate mass plus rejected-nondegenerate mass plus automatic-obstruction mass",
+    "degenerate_admission": "if degenerate gate mass is at least dM+o(M) and degenerate collision mass is at most gM+o(M), normalized saving is at least max(0,d-g)/6",
+    "combined_admission": "if degenerate and nondegenerate collision masses are at most gM+o(M) and nM+o(M), normalized saving is at least max(0,1/35-g-n)/6",
+    "chart_only_warning": "an o(M) upper bound for the degenerate gate or for degenerate collisions alone has zero guaranteed full-ray booking without quantitative complement or occupancy accounting",
+    "information_class_no_go": "minor residues, f-branch label, unit denominators, saturation, and pointwise height do not determine the surviving target gate"
+  },
+  "closed_as_sufficient_by_itself": [
+    "a good-reduction theorem Pi_sat=1 with no complementary nondegenerate exclusion",
+    "an o(M) upper bound for degenerate collisions with no positive lower bound for degenerate gate occupancy",
+    "triple-minor residues and branch labels without the actual target correlation",
+    "pointwise carrier height and its raw fixed-M product",
+    "finite algebraic examples or a prime census"
+  ],
+  "conditional": [
+    "D_e>=dM+o(M) and G_e<=gM+o(M), d>g, imply capacity reduction at least (d-g)/6",
+    "G_e<=gM+o(M) and W_nd<=nM+o(M), g+n<1/35, imply capacity reduction at least (1/35-g-n)/6",
+    "o(M) collision mass on both actual charts of one ray removes the full 1/210 ray"
+  ],
+  "open": [
+    "actual good reduction for Pi_sat or Gamma_sat",
+    "actual moving-divisor or average-gcd theorem for Gamma_sat",
+    "a positive lower bound for rejected degenerate mass",
+    "a positive full-ray saving and positive eta",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "scope_warning": "The exact finite-field and integer countermodels prove only an information-class no-go. They are not claimed to be values of the actual Item-334 or Item-349 sequences, and formula-specific arithmetic can evade the no-go.",
+  "strict_labels": {
+    "PROVED": [
+      "exact target-retaining degenerate carrier and safe saturation",
+      "exact ray partition and rejected-mass identity",
+      "sharp capacity criteria",
+      "scoped minor-information and pointwise-height no-go",
+      "eta zero"
+    ],
+    "CONDITIONAL": [
+      "only the explicitly stated capacity implications; no positive-margin antecedent is proved"
+    ],
+    "EXACT_ALGEBRAIC_COUNTERMODEL_ONLY": [
+      "declared finite-field and integer packets; not actual values and no census"
+    ],
+    "OPEN": [
+      "all actual weighted and good-reduction inputs",
+      "positive capacity reduction",
+      "Route 1 and every conclusion about e+pi"
+    ]
+  },
+  "canonical_files_modified": true
+}

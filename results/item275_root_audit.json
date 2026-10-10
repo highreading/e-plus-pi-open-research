@@ -1,0 +1,42 @@
+{
+  "schema": "item275-root-audit-v1",
+  "audit_date": "2026-08-31",
+  "auditor": "root",
+  "verdict": "PASS_WITH_STRICT_SCOPE",
+  "substantive_checks": {
+    "kernel_plucker_formula": "PASS: the Hodge-dual signed row minors give the kernel two-plane on the rank-two chart and satisfy the Plucker quadric",
+    "flag_incidence": "PASS: x wedge K has four displayed coordinates but rank two for nonzero decomposable K, so x in ker(G) is a codimension-two fixed flag incidence",
+    "exterior_square_transport": "PASS: wedge^2(U) has rank six and determinant det(U)^3, introducing no singular factors outside the Item273 support",
+    "local_nonhorizontality": "PASS: both pulled-back h- and s-gate row planes are transverse to the original plane at (h,s)=(1,1)",
+    "fixed_M_nonhorizontality": "PASS: the exact (-4,+3) witness has nonzero stacked determinant, while its two congruences occur in different characteristics and are not conflated",
+    "rank_strata": "PASS: rank-one and rank-zero gates both map to K=0 and remain separately stratified; x=0 remains an affine branch",
+    "capacity_booking": "PASS: no weighted distribution theorem follows, the raw 1/36-per-6M ceiling is unchanged, Item149 overlap is retained, and the booking is zero"
+  },
+  "independent_replay": {
+    "canonical_sha256": "fb0f9396900e0acb134181fc8df3518edddf1e955b01ac5ed8b785a037004762",
+    "root_replay_sha256": "fb0f9396900e0acb134181fc8df3518edddf1e955b01ac5ed8b785a037004762",
+    "byte_identical": true,
+    "payload_sha256": "f5b704ce5696129c6d616d84032ac7a0a082394f83427c5c692f0fdc39b6effd"
+  },
+  "package_checks": {
+    "hash_ledger_entries_checked": 7,
+    "frozen_dependencies_checked": 3,
+    "json_files_parsed": 6,
+    "all_hashes_and_dependencies_match": true
+  },
+  "report_checks": {
+    "sha256": "a00e7ba707d57348037f10cded3db0a7fbbc8baa1ea9edcb8103e227ebaa5995",
+    "bytes": 13508,
+    "lines": 408,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "display_delimiters": "30/30",
+    "inline_delimiters": "61/61"
+  },
+  "strict_scope": {
+    "proved": "The natural rank-two kernel has a fixed Grassmannian/flag encoding and its Plucker line is not horizontal under the exact Item273 parameter transports.",
+    "not_proved": "No global nonexistence theorem is claimed for enlarged modules, different connections, lisse sheaves, finite-field incidence mechanisms, or weighted zero-density arguments.",
+    "finite_only": "The exact witnesses and bounded diagonal-family replay are not collision-density evidence.",
+    "route_status": "Route 1 ACTIVE; Route 2 QUEUED"
+  }
+}

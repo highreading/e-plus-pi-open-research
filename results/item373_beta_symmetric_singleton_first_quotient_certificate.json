@@ -1,0 +1,1061 @@
+{
+  "capacity": {
+    "booking": 0,
+    "constructed_sub_beta_actual_carrier": false,
+    "first_quotient_increment": 0,
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "post_intersection_ceiling": "log U_11<=log Q<=log b",
+    "raw_symmetric_carrier_ceiling": "log S_sym<2N log A=(2+o(1))*log b"
+  },
+  "date": "2026-09-01",
+  "declared_controls": {
+    "actual_prime_or_target_census_performed": false,
+    "controls_digest": "51b831f8ef28414f090d44be6f54fcb0b4383e04c5754aa689198527539db435",
+    "dominance": {
+      "rows": [
+        {
+          "E_value": 50,
+          "coefficient_bound": 5,
+          "degree": 1,
+          "dominance_bound": "2*|C(E)|>=E^degree",
+          "minimum_absolute_value": 45,
+          "polynomials_checked": 110
+        },
+        {
+          "E_value": 100,
+          "coefficient_bound": 4,
+          "degree": 2,
+          "dominance_bound": "2*|C(E)|>=E^degree",
+          "minimum_absolute_value": 9596,
+          "polynomials_checked": 648
+        },
+        {
+          "E_value": 120,
+          "coefficient_bound": 3,
+          "degree": 3,
+          "dominance_bound": "2*|C(E)|>=E^degree",
+          "minimum_absolute_value": 1684437,
+          "polynomials_checked": 2058
+        }
+      ],
+      "rows_digest": "af73556099767d315eb955286faf225a17b7bf085b9be215ca4c52fccd04addf"
+    },
+    "finite_rows_promoted": false,
+    "heights": {
+      "rows": [
+        {
+          "N_max": 2,
+          "b": "398959",
+          "capital_A": 22,
+          "n": 6,
+          "symmetric_carrier_raw_ceiling": "log S_sym<=log P<2N log A",
+          "two_N_log_A_over_log_b": 0.9587144251193459
+        },
+        {
+          "N_max": 3,
+          "b": "10391023",
+          "capital_A": 26,
+          "n": 7,
+          "symmetric_carrier_raw_ceiling": "log S_sym<=log P<2N log A",
+          "two_N_log_A_over_log_b": 1.2099548983922583
+        },
+        {
+          "N_max": 4,
+          "b": "312129649",
+          "capital_A": 30,
+          "n": 8,
+          "symmetric_carrier_raw_ceiling": "log S_sym<=log P<2N log A",
+          "two_N_log_A_over_log_b": 1.391158931733827
+        },
+        {
+          "N_max": 5,
+          "b": "10622799089",
+          "capital_A": 34,
+          "n": 9,
+          "symmetric_carrier_raw_ceiling": "log S_sym<=log P<2N log A",
+          "two_N_log_A_over_log_b": 1.5274709908488855
+        },
+        {
+          "N_max": 6,
+          "b": "403978495031",
+          "capital_A": 38,
+          "n": 10,
+          "symmetric_carrier_raw_ceiling": "log S_sym<=log P<2N log A",
+          "two_N_log_A_over_log_b": 1.6333636060551369
+        },
+        {
+          "N_max": 7,
+          "b": "16977719590391",
+          "capital_A": 42,
+          "n": 11,
+          "symmetric_carrier_raw_ceiling": "log S_sym<=log P<2N log A",
+          "two_N_log_A_over_log_b": 1.717739780798181
+        },
+        {
+          "N_max": 8,
+          "b": "781379079653017",
+          "capital_A": 46,
+          "n": 12,
+          "symmetric_carrier_raw_ceiling": "log S_sym<=log P<2N log A",
+          "two_N_log_A_over_log_b": 1.7863675699783044
+        },
+        {
+          "N_max": 9,
+          "b": "39085931702241241",
+          "capital_A": 50,
+          "n": 13,
+          "symmetric_carrier_raw_ceiling": "log S_sym<=log P<2N log A",
+          "two_N_log_A_over_log_b": 1.843142620003792
+        },
+        {
+          "N_max": 10,
+          "b": "2111421691000680031",
+          "capital_A": 54,
+          "n": 14,
+          "symmetric_carrier_raw_ceiling": "log S_sym<=log P<2N log A",
+          "two_N_log_A_over_log_b": 1.8907873845095102
+        }
+      ],
+      "rows_digest": "5c48fd94982b679f57897549c26346a988bea27c899f3c72d7567de34fcc717b"
+    },
+    "saturation": {
+      "actual_prime_or_target_census_performed": false,
+      "capital_A": 10,
+      "declared_algebra_controls_only": true,
+      "rows": [
+        {
+          "E_is_unit": true,
+          "P_valuation": 0,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": true,
+          "P_valuation": 0,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": true,
+          "P_valuation": 1,
+          "S_sym_valuation": 1,
+          "declared_prime": 11,
+          "first_quotient_bridge": 2,
+          "hit_indices": [
+            0
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": true,
+          "P_valuation": 1,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": true,
+          "P_valuation": 1,
+          "S_sym_valuation": 1,
+          "declared_prime": 11,
+          "first_quotient_bridge": 3,
+          "hit_indices": [
+            1
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": true,
+          "P_valuation": 1,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            1
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": true,
+          "P_valuation": 1,
+          "S_sym_valuation": 1,
+          "declared_prime": 11,
+          "first_quotient_bridge": 5,
+          "hit_indices": [
+            2
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": true,
+          "P_valuation": 1,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            2
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": true,
+          "P_valuation": 1,
+          "S_sym_valuation": 1,
+          "declared_prime": 11,
+          "first_quotient_bridge": 7,
+          "hit_indices": [
+            3
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": true,
+          "P_valuation": 1,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            3
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 2,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            1
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 2,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            1
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 2,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            2
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 2,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            2
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 2,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            3
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 2,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            3
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 2,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            1,
+            2
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 2,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            1,
+            2
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 2,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            1,
+            3
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 2,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            1,
+            3
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 2,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            2,
+            3
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 2,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            2,
+            3
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 3,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            1,
+            2
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 3,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            1,
+            2
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 3,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            1,
+            3
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 3,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            1,
+            3
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 3,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            2,
+            3
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 3,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            2,
+            3
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 3,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            1,
+            2,
+            3
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 3,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            1,
+            2,
+            3
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 4,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 4,
+          "S_sym_valuation": 0,
+          "declared_prime": 11,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 0,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 0,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": true,
+          "P_valuation": 1,
+          "S_sym_valuation": 1,
+          "declared_prime": 13,
+          "first_quotient_bridge": 2,
+          "hit_indices": [
+            0
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": true,
+          "P_valuation": 1,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": true,
+          "P_valuation": 1,
+          "S_sym_valuation": 1,
+          "declared_prime": 13,
+          "first_quotient_bridge": 3,
+          "hit_indices": [
+            1
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": true,
+          "P_valuation": 1,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            1
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": true,
+          "P_valuation": 1,
+          "S_sym_valuation": 1,
+          "declared_prime": 13,
+          "first_quotient_bridge": 5,
+          "hit_indices": [
+            2
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": true,
+          "P_valuation": 1,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            2
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": true,
+          "P_valuation": 1,
+          "S_sym_valuation": 1,
+          "declared_prime": 13,
+          "first_quotient_bridge": 7,
+          "hit_indices": [
+            3
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": true,
+          "P_valuation": 1,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            3
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 2,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            1
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 2,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            1
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 2,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            2
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 2,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            2
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 2,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            3
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 2,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            3
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 2,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            1,
+            2
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 2,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            1,
+            2
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 2,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            1,
+            3
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 2,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            1,
+            3
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 2,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            2,
+            3
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 2,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            2,
+            3
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 3,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            1,
+            2
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 3,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            1,
+            2
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 3,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            1,
+            3
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 3,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            1,
+            3
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 3,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            2,
+            3
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 3,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            2,
+            3
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 3,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            1,
+            2,
+            3
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 3,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            1,
+            2,
+            3
+          ],
+          "t_has_prime": true
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 4,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "t_has_prime": false
+        },
+        {
+          "E_is_unit": false,
+          "P_valuation": 4,
+          "S_sym_valuation": 0,
+          "declared_prime": 13,
+          "first_quotient_bridge": null,
+          "hit_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "t_has_prime": true
+        }
+      ],
+      "rows_digest": "941fc91fc1b781a80674ba3d066d0158948a8e88e78a987572ee6fcca380dda2",
+      "t_zero_symmetric_carrier": 1
+    }
+  },
+  "dependencies": {
+    "count": 24,
+    "rows": [
+      {
+        "bytes": 14388,
+        "path": "sources/item316_beta_intermediate_ostrowski_no_go_report.md",
+        "sha256": "8d6dce8354f08e94a252a2120cf677d9a374df95507a9297dcb064a1982fb6b0"
+      },
+      {
+        "bytes": 11912,
+        "path": "results/item316_beta_intermediate_ostrowski_no_go_certificate.json",
+        "sha256": "5167e9d160fcecac86791944e41a176d3400f2a6856090de7cf78d55984e7aa4"
+      },
+      {
+        "bytes": 3018,
+        "path": "results/item316_root_audit.json",
+        "sha256": "6cad978132f5f09c687aa8fcf8dcd92a7d917cf9411a69f679c7757139229175"
+      },
+      {
+        "bytes": 5980,
+        "path": "manifests/item316_beta_intermediate_ostrowski_no_go_manifest.json",
+        "sha256": "aac741658430fb661de078adfeafdbc3a9d20312a8fd8725cb4244d406d9bcf6"
+      },
+      {
+        "bytes": 12193,
+        "path": "sources/item346_beta_t_avoiding_radical_localization_report.md",
+        "sha256": "2ad742c14d0adbc74da6c46394ed89f68cec8888a3c9d22ee4f230a4e16548a5"
+      },
+      {
+        "bytes": 20428,
+        "path": "scripts/item346_beta_t_avoiding_radical_localization_certificate.py",
+        "sha256": "76c020b07d199a7283d7373a3ef677643d3be01adfe7480628f92ccdad7498c0"
+      },
+      {
+        "bytes": 55217,
+        "path": "results/item346_beta_t_avoiding_radical_localization_certificate.json",
+        "sha256": "29a20d6ede62db23658d66db8e57af4a2982c9b66fd12d104f0070b3280aefab"
+      },
+      {
+        "bytes": 3264,
+        "path": "results/item346_beta_t_avoiding_radical_localization_root_audit.json",
+        "sha256": "c9273d7e187ee2c9b4b91bffc65769f1a29f937613c36960e4ed5871c5782089"
+      },
+      {
+        "bytes": 5228,
+        "path": "manifests/item346_beta_t_avoiding_radical_localization_manifest.json",
+        "sha256": "5029cf3483fdf6cce4bbc0d454bca362bb2796104ca36b353d0161e374915530"
+      },
+      {
+        "bytes": 11855,
+        "path": "sources/item358_beta_actual_low_incidence_saturation_barrier_report.md",
+        "sha256": "681c9f9cbe926978c78f632084c8be83439c2ac3f5e50f2c2697a49f2f0da68d"
+      },
+      {
+        "bytes": 21006,
+        "path": "scripts/item358_beta_actual_low_incidence_saturation_barrier_certificate.py",
+        "sha256": "c997c7f3739fe5dc98ee2e48c3ebfd1a67e74289e175d52bc8d5adfb1f9565bf"
+      },
+      {
+        "bytes": 15507,
+        "path": "results/item358_beta_actual_low_incidence_saturation_barrier_certificate.json",
+        "sha256": "4da88e55dec36f3c130def549007c8ae1509ff0a029dfed9ff25f67a78c2ffa3"
+      },
+      {
+        "bytes": 3638,
+        "path": "results/item358_beta_actual_low_incidence_saturation_barrier_root_audit.json",
+        "sha256": "a1a48f7d7080834ebf3be56b47d8056733e88e1913e8f6ea784f97a5eb2d9172"
+      },
+      {
+        "bytes": 8117,
+        "path": "manifests/item358_beta_actual_low_incidence_saturation_barrier_manifest.json",
+        "sha256": "4ba799fe2fc8cb6063034d844f91bcaec6c3fc84d043b1f46c675fce400acfb1"
+      },
+      {
+        "bytes": 11512,
+        "path": "sources/item367_beta_uniform_affine_carrier_no_go_report.md",
+        "sha256": "3827c4e9d9532135fdb2e338397523ce8b2936483b09cf5accbc974002023798"
+      },
+      {
+        "bytes": 14640,
+        "path": "scripts/item367_beta_uniform_affine_carrier_no_go_certificate.py",
+        "sha256": "6c9322838eccbca1ac257f7526fbae1a11f77937679b00fc4824aa40006f3a19"
+      },
+      {
+        "bytes": 20974,
+        "path": "results/item367_beta_uniform_affine_carrier_no_go_certificate.json",
+        "sha256": "b6fc66168a18237a67e43d75c13dc36666bd5c0fbb444d98fdc0a928bb186d93"
+      },
+      {
+        "bytes": 3719,
+        "path": "results/item367_beta_uniform_affine_carrier_no_go_root_audit.json",
+        "sha256": "40dd78454cd16a16581e3fd1f3d1c89c61b4c1e70465f4688f8298c59fa2c843"
+      },
+      {
+        "bytes": 7332,
+        "path": "manifests/item367_beta_uniform_affine_carrier_no_go_manifest.json",
+        "sha256": "3d3d7db889f0b39fab5b1e1792bf2332aa8d57a1718c6681dc1cbd5c915c20b1"
+      },
+      {
+        "bytes": 12028,
+        "path": "sources/item370_beta_q_free_residual_saturation_no_go_report.md",
+        "sha256": "760767813ab0bbd56114f6a6c264ce396ccc2ec8eb9e7a3139e56b155051fef4"
+      },
+      {
+        "bytes": 17312,
+        "path": "scripts/item370_beta_q_free_residual_saturation_no_go_certificate.py",
+        "sha256": "df51c792f64c945ceade3ae01ef24fab3ed87d8eed232088e36db43332b61edd"
+      },
+      {
+        "bytes": 22927,
+        "path": "results/item370_beta_q_free_residual_saturation_no_go_certificate.json",
+        "sha256": "78703c11fee6715189fc8c0c7a513bef5eda1d973ab27b3e1f486d0b908008fb"
+      },
+      {
+        "bytes": 4060,
+        "path": "results/item370_beta_q_free_residual_saturation_no_go_root_audit.json",
+        "sha256": "264c64d6495c2d1a20eff67b270379adb95ffc5f5711269dc325f11988c12ea2"
+      },
+      {
+        "bytes": 8951,
+        "path": "manifests/item370_beta_q_free_residual_saturation_no_go_manifest.json",
+        "sha256": "53147f04c406d69c67f3b53b7032d6c90db20380583ebb79238f84505cd6d6d2"
+      }
+    ],
+    "rows_digest": "184ef7b3a88af7904886f773abd6cc0a4c1830e3e8bafe8bfaaa757ed1cc2d7b"
+  },
+  "item": 373,
+  "proof_object": {
+    "actual_U": "Therefore U_11=gcd(Q^[1],rad_{>A}(S_sym)) exactly. This is a prime-independent actual-family formula, but log S_sym is at most 2N log A=(2+o(1))log b and gives no new capacity bound.",
+    "bounded_degree": "For F=P*C(E)/V with V a p-unit, an extra p is equivalent to p|C(E). For a first-quotient residual H=C(E)/D with D and the coefficients bounded by b^o, positive beta mass gives E>A^(r-1) with r=Omega(n). A nonconstant fixed-degree C then satisfies |H|>=E^d/(2D), so it is not sub-beta. The constant/content branch needs a new actual divisibility theorem.",
+    "first_quotient": "At a singleton hit j, v_p(P)=1, E is a unit, and (P/p)E^{-1}=Z_j/p mod p with 1<=Z_j/p<A. Thus P, P*E^r, and their p-unit monomial quotients have exact valuation one.",
+    "scope": "The theorem closes top-symmetric monomial/unit first quotients and sub-beta bounded-degree univariate C(E) portfolios. It does not close multivariate elementary-symmetric cancellations, gcd/radical height, or beta-height full-support states.",
+    "symmetric_carrier": "For positive actual loads set P=product Z_j, E=sum_j P/Z_j, and S_sym=P/gcd(P,(|t|E)^N). Since p>A and Z_j<A^2 imply v_p(Z_j)<=1, S_sym has valuation one exactly at t-away singleton incidences and zero at all other p>A."
+  },
+  "proof_object_digest": "093173f8e447dc9b0dc369bb36acf4d8a0fa1a6da74bdc79416f0ca967691343",
+  "schema": "item373-beta-symmetric-singleton-first-quotient-certificate-v1",
+  "status": "PROVED_SYMMETRIC_SINGLETON_CARRIER_AND_FIRST_QUOTIENT_NO_GO",
+  "strict_scope": {
+    "actual_item316_claim_from_declared_rows": false,
+    "candidate_dependent_constants_admissible": false,
+    "canonical_files_modified": false,
+    "closes": [
+      "top symmetric product P as a source of a second p-adic digit at singleton primes",
+      "P times powers of E and p-unit monomial quotients as extra-digit mechanisms",
+      "nonconstant fixed-degree C(E) with sub-beta coefficient height as a sub-beta residual on a positive-mass branch"
+    ],
+    "does_not_close": [
+      "multivariate elementary-symmetric cancellations",
+      "height of the exact gcd/radical symmetric carrier",
+      "full-support beta-height recurrence states",
+      "quotients with beta-height denominators or new gcd cancellation",
+      "a constant/content residual with actual U_11 divisibility",
+      "beta capacity, Route 1, or e+pi"
+    ],
+    "zero_residual_admissible": false
+  },
+  "theorem": {
+    "bounded_degree_univariate_sub_beta_residual": "PROVED_SCOPED_NO_GO",
+    "exact_symmetric_actual_singleton_carrier": "PROVED",
+    "monomial_unit_first_quotient_lift": "PROVED_IMPOSSIBLE",
+    "multivariate_symmetric_correlation": "OPEN",
+    "nonzero_sub_beta_actual_carrier": "OPEN",
+    "singleton_product_valuation_exactly_one": "PROVED",
+    "top_symmetric_first_quotient_bridge": "PROVED"
+  }
+}

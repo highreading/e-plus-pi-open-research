@@ -1,0 +1,136 @@
+{
+  "bounded_certificate": {
+    "claim_scope": {
+      "max_degree": 5,
+      "naive_height_bound": 10,
+      "polynomial_coefficients": "integers, absolute value <= height"
+    },
+    "fixed_point_decimal_scale": 100,
+    "interval_width_decimal": "2.904848149e-114",
+    "records": [
+      {
+        "certified_no_relation": true,
+        "degree": 1,
+        "error_decimal": "5.0e-100",
+        "exact_comparison": {
+          "error_fraction_sha256": "f581c71603b23d67d99db72160a597ca9cb952f6071bd520bb9bf0c375e59bb0",
+          "gap_denominator": 5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+          "gap_numerator": 700627589755807630885345726839173090227917534624673020290438899840534816801217034002914980663582523
+        },
+        "gap_decimal": "0.14012551795116151565",
+        "height": 10,
+        "minimizing_coefficients_low_to_high": [
+          6,
+          -1
+        ],
+        "vectors_tested": 20
+      },
+      {
+        "certified_no_relation": true,
+        "degree": 2,
+        "error_decimal": "1.0e-99",
+        "exact_comparison": {
+          "error_fraction_sha256": "8b01b5b848649550fd0badbbb17db19c56fc0bbfd7ab35865760a246d19a96bc",
+          "gap_denominator": 5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+          "gap_numerator": 193782675614753039386829631917405143958547919737704472750591794708053288070708277670643044411022187
+        },
+        "gap_decimal": "0.038756535122950609706",
+        "height": 10,
+        "minimizing_coefficients_low_to_high": [
+          -5,
+          -5,
+          1
+        ],
+        "vectors_tested": 420
+      },
+      {
+        "certified_no_relation": true,
+        "degree": 3,
+        "error_decimal": "1.5e-99",
+        "exact_comparison": {
+          "error_fraction_sha256": "fe79a69ad5c9e03f53742cf3c0e56dc52872a86d2c8569aed30e125da89ed0f9",
+          "gap_denominator": 5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+          "gap_numerator": 47349214912725338706167513852589764975064667288471884443481112081785439795772854726973270929424867
+        },
+        "gap_decimal": "0.0094698429825450687602",
+        "height": 10,
+        "minimizing_coefficients_low_to_high": [
+          -4,
+          -6,
+          7,
+          -1
+        ],
+        "vectors_tested": 8820
+      },
+      {
+        "certified_no_relation": true,
+        "degree": 4,
+        "error_decimal": "2.0e-99",
+        "exact_comparison": {
+          "error_fraction_sha256": "6c9f1c0dc1dbd016b2890c6730502911f129ad1bcdd13ba889391778d6f0e400",
+          "gap_denominator": 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+          "gap_numerator": 118193295022549316105555877696194302138567470336390258402622182476677172240875843119508622042179681
+        },
+        "gap_decimal": "0.0118193295022549303",
+        "height": 10,
+        "minimizing_coefficients_low_to_high": [
+          8,
+          -7,
+          6,
+          5,
+          -1
+        ],
+        "vectors_tested": 185220
+      },
+      {
+        "certified_no_relation": true,
+        "degree": 5,
+        "error_decimal": "2.5e-99",
+        "exact_comparison": {
+          "error_fraction_sha256": "a86c3f05ee77a414811630c9dcd285c53eaf43b2a0c8ca5c5fabeeab6e4fb71c",
+          "gap_denominator": 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+          "gap_numerator": 61691184017390464849902821187456379548774974596935344700771606105132376288448519287558559664281691
+        },
+        "gap_decimal": "0.0061691184017390468877",
+        "height": 10,
+        "minimizing_coefficients_low_to_high": [
+          7,
+          -7,
+          -3,
+          -6,
+          7,
+          -1
+        ],
+        "vectors_tested": 3889620
+      }
+    ],
+    "warning": "A finite degree/height exclusion is not a proof of transcendence."
+  },
+  "pslq_heuristic": {
+    "digits": 500,
+    "max_coefficient": 100000000000000000000000000000000000000000000000000,
+    "records": [
+      {
+        "degree": 1,
+        "relation": null
+      },
+      {
+        "degree": 2,
+        "relation": null
+      },
+      {
+        "degree": 3,
+        "relation": null
+      },
+      {
+        "degree": 4,
+        "relation": null
+      },
+      {
+        "degree": 5,
+        "relation": null
+      }
+    ],
+    "warning": "PSLQ failure is not a proof of algebraic independence or transcendence."
+  }
+}

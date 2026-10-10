@@ -1,0 +1,47 @@
+{
+  "schema": "route1-ledger-delta-v1",
+  "item": 420,
+  "status": "CANONICAL_ROOT_AUDITED_SCOPED_HEIGHT_NO_GO_NO_BOOKING",
+  "component": "complete strictly-large-prime mixed-cubic common content c_m^>",
+  "inherited_exact_carrier": "c_m^> is the p>6m part of gcd(mu_0,m,mu_1,m), with mu_s,m=lambda_s,m/F_m",
+  "inherited_component_ceiling": {
+    "exact": "(log(rho_star)-C_F)/6",
+    "rho_star_decimal": "135.59748390085482125022597033065136045349825862440822",
+    "decimal": "0.42877388533865786894576038290962190825322503544392"
+  },
+  "new_component_ceiling": {
+    "exact": "(log(rho_star)-C_F)/6",
+    "decimal": "0.42877388533865786894576038290962190825322503544392"
+  },
+  "component_ceiling_delta": 0,
+  "booked_lower_bound_delta": 0,
+  "global_total_content_ceiling_delta": 0,
+  "frozen_deficit_delta": 0,
+  "proved_root_size": {
+    "raw": "for every fixed nonzero rational (a,b), limsup |a lambda_0,m+b lambda_1,m|^(1/m)=rho_star",
+    "normalized": "limsup |a mu_0,m+b mu_1,m|^(1/m)=rho_star*exp(-C_F)",
+    "normalized_base_decimal": "13.10040717823331021433821427965228605129654142878338"
+  },
+  "unique_fixed_cancellation": {
+    "coordinate": "D_m=2lambda_1,m-5lambda_0,m",
+    "exact_identity": "D_m=CT(qH^m)/m, q=(y^4-4y^2-1)/(2y(1+y^2)^2)",
+    "effect": "one polynomial factor m^(-1), no exponential-base reduction"
+  },
+  "method_class_closed": "absolute-height bounds through one fixed rational coordinate combination, including asymmetric or noncircular contour estimates, cannot improve rho_star",
+  "de_overlap": [
+    "F_m is inherited forced Cartier content and is not rebooked",
+    "all factors of F_m are at most 6m while this component contains only p>6m",
+    "the result is a method no-go and supplies no positive divisor",
+    "a component ceiling is not subtracted from the global total-content ceiling"
+  ],
+  "admission_residual_outside_this_component": {
+    "decimal": "0.59085909833077392493454601829037809174677496455608",
+    "warning": "comparison only; not a global ceiling reduction or additive de-overlap theorem"
+  },
+  "open": [
+    "m-dependent coordinate combinations",
+    "joint gcd or resultant bounds",
+    "valuation-weighted zero density for the actual normalized pair",
+    "Route 1 and irrationality of e+pi"
+  ]
+}

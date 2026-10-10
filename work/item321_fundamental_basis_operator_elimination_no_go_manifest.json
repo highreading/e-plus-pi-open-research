@@ -1,0 +1,105 @@
+{
+  "schema": "item321-fundamental-basis-operator-elimination-no-go-manifest-v1",
+  "item": 321,
+  "title": "Actual residue basis, split factor solutions, and operator-elimination no-go",
+  "date": "2026-08-31",
+  "status": "PROVED_ACTUAL_FUNDAMENTAL_BASIS_AND_SCOPED_OPERATOR_ELIMINATION_NO_GO",
+  "canonical_files_modified": false,
+  "artifacts": [
+    {
+      "path": "work/item321_fundamental_basis_operator_elimination_no_go_report.md",
+      "role": "global Casoratian theorem, actual factor bases, Frobenius split audit, scoped no-go, and capacity",
+      "sha256": "fee7d934e3f287bd4d38b05dfb6b2fb42e0215de3a7ddb3ef7d9e4aa0c4c63b4"
+    },
+    {
+      "path": "work/item321_fundamental_basis_operator_elimination_no_go_certificate.py",
+      "role": "exact deterministic symbolic replay",
+      "sha256": "8b44d57b62aced5cd0b27edb75e5d66563c97c5e5a8b88a674fb1d109b2404cb"
+    },
+    {
+      "path": "work/item321_fundamental_basis_operator_elimination_no_go_certificate.json",
+      "role": "canonical work-package certificate output",
+      "sha256": "c196625c48a6e1f154cbbed29bc938eff53a318f172bb7679ade099aa5da3c35"
+    },
+    {
+      "path": "work/item321_fundamental_basis_operator_elimination_no_go_certificate.replay.json",
+      "role": "independent byte-identical replay output",
+      "sha256": "c196625c48a6e1f154cbbed29bc938eff53a318f172bb7679ade099aa5da3c35"
+    },
+    {
+      "path": "work/item321_fundamental_basis_operator_elimination_no_go_ledger_delta.json",
+      "role": "proposed ledger delta; no canonical edit",
+      "sha256": "320d17b03e5d5f4b74091a4aa699e7e866df27beb7e6697c024d67f710c7ef92"
+    }
+  ],
+  "pinned_canonical_item308": {
+    "sources/item308_j1_all_s_fixed_divisor_no_go_report.md": "4eb8f8c37dfde9d19e57c8df5ff8090bd95f03be59fff7d6aede55d02993bdc8",
+    "scripts/item308_j1_all_s_fixed_divisor_no_go_certificate.py": "9b60d380b503c7ac9fed13792fae67735cfcf6b0f376581a0076fde16a82f0b9",
+    "results/item308_j1_all_s_fixed_divisor_no_go_certificate.json": "4efff9ca2fb1bc11cc6030e260ff73aae89c28bd157bb41fa6bbc3b32e41e5cf",
+    "manifests/item308_j1_all_s_fixed_divisor_no_go_manifest.json": "1c4721f43b5bbdc0c68e4d9fd689562a32a4af4fbbab2a9e7075da96b151b4d5",
+    "results/item308_root_audit.json": "11feb8105ea46c27d83df2449404297fe74709eceaa8be6a21bd9484cbffba22"
+  },
+  "pinned_canonical_item317": {
+    "sources/item317_gaussian_container_coupled_no_go_report.md": "3e8a885b790965edf225b0fb9efd91142ffcdd7d1c13e9b65e43b9bb6d3023b5",
+    "scripts/item317_gaussian_container_coupled_no_go_certificate.py": "a07f6157648bbbfec0a9c9de8d899c81523f5e2cb63c997aedc7dc37c2213e71",
+    "scripts/item317_residue_telescoper_data.json": "f9ca57040fc7ae1030f9d915955085e3263e6c30f3129f2e9c4961198defa81b",
+    "results/item317_gaussian_container_coupled_no_go_certificate.json": "334165a7e3a40f043aedd3ea2d221786569aa91262481c2347c436cf10890e44",
+    "results/item317_gaussian_container_coupled_no_go_certificate_replay.json": "334165a7e3a40f043aedd3ea2d221786569aa91262481c2347c436cf10890e44",
+    "results/item317_gaussian_container_coupled_no_go_ledger.json": "40e7953a26a01c90d0415dbd247186a8b86dd9e8ead70edc5829b007591b8779",
+    "results/item317_gaussian_container_coupled_no_go_hashes.sha256": "c905ff8f6b96ce1d6e56ae420855e7f7cf4d008690c588f00b611705ece63124",
+    "manifests/item317_gaussian_container_coupled_no_go_manifest.json": "045aff4b05ef79a664e6dba30d9d7002f8e337ac066048e022c3509171e000f3",
+    "results/item317_root_audit.json": "6c22e387ee90b82d1f14f05cf949733d6fbbf825db2c1c8a0d74fc5b2ae95931"
+  },
+  "replay": {
+    "command": "python work/item321_fundamental_basis_operator_elimination_no_go_certificate.py --output work/item321_fundamental_basis_operator_elimination_no_go_certificate.replay.json",
+    "expected_stdout": {
+      "Casoratian_basis": "PROVED_AWAY_O_LOG_M",
+      "actual_norms": "ALL_SPLIT",
+      "capacity_reduction": "ZERO",
+      "item": 321,
+      "operator_elimination": "TAUTOLOGICAL_ZERO_IDEAL",
+      "period_factors": "GENUINE_COMMON_OPERATOR_BASES"
+    },
+    "expected_replay_sha256": "c196625c48a6e1f154cbbed29bc938eff53a318f172bb7679ade099aa5da3c35",
+    "byte_identical": true
+  },
+  "proved": [
+    "The actual A_s,Z_s,conjugate(Z_s) Casoratian has the displayed exact all-s product formula.",
+    "Every actual-prime failure of the residue basis lies on h=1 or divides the degree-two fixed-M container 330M^2-235M+18.",
+    "Nonfundamental actual rows have total logarithmic mass O(log M)=o(M).",
+    "Each actual period quadric factors into two genuine common-operator solutions, and the two factors with Z form a fundamental basis on regular support.",
+    "Every factor basis change has 2-power absolute norm and is a unit for actual p>=13.",
+    "The Item-308 norm is split modulo every actual prime."
+  ],
+  "scoped_common_operator_no_go": {
+    "transported_invariants": "all are constant forms pulled back by the actual fundamental matrix",
+    "single_collision_elimination": "zero ideal on regular support, by an explicit invertible isotropic fundamental state",
+    "actual_substitution": "returns D_(s,epsilon) and only the O(M^2)-height raw union product",
+    "does_not_cover": [
+      "new arithmetic of the actual initial values",
+      "a fixed-M gcd theorem",
+      "a genuinely sublinear-height arithmetic resultant"
+    ]
+  },
+  "capacity": {
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "basis_exception_mass": "O(log M)=o(M)",
+    "regular_collision_mass": "UNCONTROLLED",
+    "retained_ceiling_per_6M": "1/36"
+  },
+  "open": [
+    "factorwise moving-prime arithmetic for the actual initial values",
+    "a sublinear fixed-M gcd/resultant",
+    "regular collision localization",
+    "W_D(M)=o(M), fixed-j1 closure, Route 1, and every conclusion about e+pi"
+  ],
+  "not_claimed": [
+    "that either factor vanishes on the actual orbit",
+    "an inert-norm double zero",
+    "a prime scan",
+    "a factor census",
+    "that the elimination witness is the actual sequence",
+    "positive capacity"
+  ]
+}

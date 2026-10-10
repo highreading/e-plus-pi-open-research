@@ -1,0 +1,361 @@
+{
+  "checked_date_beijing": "2026-09-01",
+  "dependency_hashes_verified": {
+    "work/item322_j2_fixedM_period_transfer_report.md": "7941d4102861a96145cc38267463da1a78cf7c2d9dec384857ef5c16a3f0b875",
+    "work/item326_j1_selected_factor_step12_no_go_report.md": "12f42dff3d52ab5d257eac675d9cff6888925568d29ea4894cad5e37c0c31b37",
+    "work/item385_j2_bounded_window_aggregate_no_go_certificate.json": "0ddf03b5e159c7616fde0dfa8759d6733353a90c65d559ae1926a3fbc8c7c8bf",
+    "work/item385_j2_bounded_window_aggregate_no_go_certificate.py": "add1ad77013208df83cdc1f6db39efaaa8338b0de128e2f941496cf7630d81ef",
+    "work/item385_j2_bounded_window_aggregate_no_go_report.md": "68081934a0c5f836f826e3583cef21879686a0c68db5140d4b66387f4bebbe12"
+  },
+  "evidence_policy": {
+    "finite_prime_data": "EXACT FINITE ONLY / DIAGNOSTIC",
+    "no_asymptotic_inference_from_enumeration": true
+  },
+  "exact_alignment": {
+    "return": [
+      "r-42k",
+      "s+15k",
+      "p+6k"
+    ],
+    "selected_prime_offset": "6k"
+  },
+  "finite_window_diagnostics": [
+    {
+      "K": 2,
+      "M": 1000,
+      "interval": [
+        801,
+        857
+      ],
+      "interval_span": 56,
+      "isolated_count": 2,
+      "isolated_count_exact_packing_bound": 8,
+      "isolated_log_weight": 13.50219746608946,
+      "isolated_minimum_gaps_by_mod6_ray": {
+        "1": null,
+        "5": null
+      },
+      "isolated_weight_over_M": 0.01350219746608946,
+      "paired_count": 7,
+      "paired_log_weight": 46.987781837929596,
+      "paired_weight_over_M": 0.04698778183792959,
+      "prime_count": 9,
+      "raw_log_weight": 60.48997930401905,
+      "raw_weight_over_M": 0.06048997930401905,
+      "regime_label": "sublog_sqrt_log"
+    },
+    {
+      "K": 6,
+      "M": 1000,
+      "interval": [
+        801,
+        857
+      ],
+      "interval_span": 56,
+      "isolated_count": 0,
+      "isolated_count_exact_packing_bound": 4,
+      "isolated_log_weight": 0.0,
+      "isolated_minimum_gaps_by_mod6_ray": {
+        "1": null,
+        "5": null
+      },
+      "isolated_weight_over_M": 0.0,
+      "paired_count": 9,
+      "paired_log_weight": 60.48997930401905,
+      "paired_weight_over_M": 0.06048997930401905,
+      "prime_count": 9,
+      "raw_log_weight": 60.48997930401905,
+      "raw_weight_over_M": 0.06048997930401905,
+      "regime_label": "critical_floor_log"
+    },
+    {
+      "K": 48,
+      "M": 1000,
+      "interval": [
+        801,
+        857
+      ],
+      "interval_span": 56,
+      "isolated_count": 0,
+      "isolated_count_exact_packing_bound": 2,
+      "isolated_log_weight": 0.0,
+      "isolated_minimum_gaps_by_mod6_ray": {
+        "1": null,
+        "5": null
+      },
+      "isolated_weight_over_M": 0.0,
+      "paired_count": 9,
+      "paired_log_weight": 60.48997930401905,
+      "paired_weight_over_M": 0.06048997930401905,
+      "prime_count": 9,
+      "raw_log_weight": 60.48997930401905,
+      "raw_weight_over_M": 0.06048997930401905,
+      "regime_label": "superlog_log_squared"
+    },
+    {
+      "K": 2,
+      "M": 5000,
+      "interval": [
+        4001,
+        4285
+      ],
+      "interval_span": 284,
+      "isolated_count": 6,
+      "isolated_count_exact_packing_bound": 32,
+      "isolated_log_weight": 49.93979047583002,
+      "isolated_minimum_gaps_by_mod6_ray": {
+        "1": 24,
+        "5": 108
+      },
+      "isolated_weight_over_M": 0.009987958095166005,
+      "paired_count": 32,
+      "paired_log_weight": 266.541987526224,
+      "paired_weight_over_M": 0.0533083975052448,
+      "prime_count": 38,
+      "raw_log_weight": 316.481778002054,
+      "raw_weight_over_M": 0.0632963556004108,
+      "regime_label": "sublog_sqrt_log"
+    },
+    {
+      "K": 8,
+      "M": 5000,
+      "interval": [
+        4001,
+        4285
+      ],
+      "interval_span": 284,
+      "isolated_count": 0,
+      "isolated_count_exact_packing_bound": 12,
+      "isolated_log_weight": 0.0,
+      "isolated_minimum_gaps_by_mod6_ray": {
+        "1": null,
+        "5": null
+      },
+      "isolated_weight_over_M": 0.0,
+      "paired_count": 38,
+      "paired_log_weight": 316.481778002054,
+      "paired_weight_over_M": 0.0632963556004108,
+      "prime_count": 38,
+      "raw_log_weight": 316.481778002054,
+      "raw_weight_over_M": 0.0632963556004108,
+      "regime_label": "critical_floor_log"
+    },
+    {
+      "K": 73,
+      "M": 5000,
+      "interval": [
+        4001,
+        4285
+      ],
+      "interval_span": 284,
+      "isolated_count": 0,
+      "isolated_count_exact_packing_bound": 2,
+      "isolated_log_weight": 0.0,
+      "isolated_minimum_gaps_by_mod6_ray": {
+        "1": null,
+        "5": null
+      },
+      "isolated_weight_over_M": 0.0,
+      "paired_count": 38,
+      "paired_log_weight": 316.481778002054,
+      "paired_weight_over_M": 0.0632963556004108,
+      "prime_count": 38,
+      "raw_log_weight": 316.481778002054,
+      "raw_weight_over_M": 0.0632963556004108,
+      "regime_label": "superlog_log_squared"
+    },
+    {
+      "K": 3,
+      "M": 20000,
+      "interval": [
+        16001,
+        17142
+      ],
+      "interval_span": 1141,
+      "isolated_count": 14,
+      "isolated_count_exact_packing_bound": 96,
+      "isolated_log_weight": 136.06471202303564,
+      "isolated_minimum_gaps_by_mod6_ray": {
+        "1": 30,
+        "5": 24
+      },
+      "isolated_weight_over_M": 0.006803235601151782,
+      "paired_count": 99,
+      "paired_log_weight": 961.7893495087847,
+      "paired_weight_over_M": 0.04808946747543923,
+      "prime_count": 113,
+      "raw_log_weight": 1097.8540615318202,
+      "raw_weight_over_M": 0.05489270307659101,
+      "regime_label": "sublog_sqrt_log"
+    },
+    {
+      "K": 9,
+      "M": 20000,
+      "interval": [
+        16001,
+        17142
+      ],
+      "interval_span": 1141,
+      "isolated_count": 0,
+      "isolated_count_exact_packing_bound": 40,
+      "isolated_log_weight": 0.0,
+      "isolated_minimum_gaps_by_mod6_ray": {
+        "1": null,
+        "5": null
+      },
+      "isolated_weight_over_M": 0.0,
+      "paired_count": 113,
+      "paired_log_weight": 1097.8540615318202,
+      "paired_weight_over_M": 0.05489270307659101,
+      "prime_count": 113,
+      "raw_log_weight": 1097.8540615318202,
+      "raw_weight_over_M": 0.05489270307659101,
+      "regime_label": "critical_floor_log"
+    },
+    {
+      "K": 99,
+      "M": 20000,
+      "interval": [
+        16001,
+        17142
+      ],
+      "interval_span": 1141,
+      "isolated_count": 0,
+      "isolated_count_exact_packing_bound": 4,
+      "isolated_log_weight": 0.0,
+      "isolated_minimum_gaps_by_mod6_ray": {
+        "1": null,
+        "5": null
+      },
+      "isolated_weight_over_M": 0.0,
+      "paired_count": 113,
+      "paired_log_weight": 1097.8540615318202,
+      "paired_weight_over_M": 0.05489270307659101,
+      "prime_count": 113,
+      "raw_log_weight": 1097.8540615318202,
+      "raw_weight_over_M": 0.05489270307659101,
+      "regime_label": "superlog_log_squared"
+    },
+    {
+      "K": 3,
+      "M": 100000,
+      "interval": [
+        80001,
+        85714
+      ],
+      "interval_span": 5713,
+      "isolated_count": 85,
+      "isolated_count_exact_packing_bound": 478,
+      "isolated_log_weight": 962.3405454309636,
+      "isolated_minimum_gaps_by_mod6_ray": {
+        "1": 24,
+        "5": 24
+      },
+      "isolated_weight_over_M": 0.009623405454309637,
+      "paired_count": 420,
+      "paired_log_weight": 4756.495411640123,
+      "paired_weight_over_M": 0.04756495411640123,
+      "prime_count": 505,
+      "raw_log_weight": 5718.835957071087,
+      "raw_weight_over_M": 0.057188359570710876,
+      "regime_label": "sublog_sqrt_log"
+    },
+    {
+      "K": 11,
+      "M": 100000,
+      "interval": [
+        80001,
+        85714
+      ],
+      "interval_span": 5713,
+      "isolated_count": 1,
+      "isolated_count_exact_packing_bound": 160,
+      "isolated_log_weight": 11.338369676391281,
+      "isolated_minimum_gaps_by_mod6_ray": {
+        "1": null,
+        "5": null
+      },
+      "isolated_weight_over_M": 0.00011338369676391281,
+      "paired_count": 504,
+      "paired_log_weight": 5707.497587394696,
+      "paired_weight_over_M": 0.057074975873946956,
+      "prime_count": 505,
+      "raw_log_weight": 5718.835957071087,
+      "raw_weight_over_M": 0.057188359570710876,
+      "regime_label": "critical_floor_log"
+    },
+    {
+      "K": 133,
+      "M": 100000,
+      "interval": [
+        80001,
+        85714
+      ],
+      "interval_span": 5713,
+      "isolated_count": 0,
+      "isolated_count_exact_packing_bound": 16,
+      "isolated_log_weight": 0.0,
+      "isolated_minimum_gaps_by_mod6_ray": {
+        "1": null,
+        "5": null
+      },
+      "isolated_weight_over_M": 0.0,
+      "paired_count": 505,
+      "paired_log_weight": 5718.835957071087,
+      "paired_weight_over_M": 0.057188359570710876,
+      "prime_count": 505,
+      "raw_log_weight": 5718.835957071087,
+      "raw_weight_over_M": 0.057188359570710876,
+      "regime_label": "superlog_log_squared"
+    }
+  ],
+  "item": 392,
+  "ledger": {
+    "closed_mechanism": "all second-actual-row propagation in complete sublogarithmic same-ray windows, and sparse H_M with Sigma=o(log M)",
+    "delta_booked_capacity": 0,
+    "delta_r1": 0,
+    "ordinary_j2_raw_normalized_ceiling": "1/105"
+  },
+  "proved_theorems": {
+    "complete_window_pair_bound": "W_pair(M;K) << M*K/log(M)",
+    "complete_window_zero_rate": "K(M)=o(log M)",
+    "critical_barrier": "K asymptotic to log(M)",
+    "general_weighted_bound": "W_pair(M;H_M) << M*Sigma(H_M)/log(M), Sigma=sum_{k in H_M} prod_{q|k,q>=5}(q-1)/(q-2)",
+    "general_zero_rate_condition": "Sigma(H_M)=o(log M)",
+    "packing_bound": "W_iso(M;K) << M*log(M)/K+log(M)",
+    "sublog_isolated_mass": "W_iso(M;K)=(2/35)M+o(M)",
+    "superlog_paired_mass": "if K/log(M)->infinity then W_pair=(2/35)M+o(M)"
+  },
+  "singular_factor_diagnostics": {
+    "checkpoints": [
+      {
+        "K": 10,
+        "argmax_first": 5,
+        "maximum_singular_factor": 1.3333333333333333,
+        "mean_singular_factor": 1.0866666666666667
+      },
+      {
+        "K": 100,
+        "argmax_first": 35,
+        "maximum_singular_factor": 1.6,
+        "mean_singular_factor": 1.1276549020002418
+      },
+      {
+        "K": 1000,
+        "argmax_first": 385,
+        "maximum_singular_factor": 1.7777777777777777,
+        "mean_singular_factor": 1.134559084233852
+      },
+      {
+        "K": 10000,
+        "argmax_first": 5005,
+        "maximum_singular_factor": 1.9393939393939394,
+        "mean_singular_factor": 1.1359048251381205
+      }
+    ],
+    "identity_verified_for_all_k_through": 10000,
+    "proof_identity": "prod_{q|k,q>=5}(1+1/(q-2))=sum_{d|k,d_squarefree,(d,6)=1} prod_{q|d}1/(q-2)"
+  },
+  "status": "proved_no_booking",
+  "title": "ordinary-j2 growing-window aggregate propagation theorem"
+}

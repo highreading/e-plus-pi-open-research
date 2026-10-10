@@ -1,0 +1,59 @@
+{
+  "item": 377,
+  "schema": "item377-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_SCOPED_HORIZONTAL_FILTERED_HASSE_INFORMATION_NEUTRALITY",
+  "scope": "independent root audit of the general connection equations, unique integral horizontal solution for arbitrary q, integrability, divided-Frobenius compatibility, universal coefficient support, scope, capacity, and zero booking",
+  "checks": {
+    "work_hash_list_entries": 6,
+    "work_hash_list_failures": 0,
+    "frozen_dependencies_checked": 8,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "independent_matrix_equation_check": true,
+    "declared_polynomial_resolvent_controls": 3,
+    "declared_cotangent_coordinates": 11,
+    "prime_or_collision_census_performed": false,
+    "density_inference_from_controls": false,
+    "canonical_format_repair": "restored the missing TeX backslash before qquad in the module display and replaced the malformed pq,d product by pq\\,d"
+  },
+  "mathematical_audit": {
+    "matrix_equations": "For A=[[p,0],[pq,1]] and Gamma=[[a,b],[c,d]], dA+Gamma A=A F^*Gamma gives exactly the four displayed entry equations.",
+    "forced_entries": "Because F^* sends one-forms into p times one-forms and the base is p-adically separated, b=pF^*b forces b=0; then a=F^*a and d=F^*d force a=d=0.",
+    "resolvent": "The remaining equation is C(c)-c=dq with C=F^*/p. On W(k)[[H,S]] with standard Frobenius, C strictly raises adic order, so c=-sum_(j>=0) C^j(dq) is the unique integral solution for every analytic q.",
+    "integrability": "Each C^j(dq)=p^{-j}d(F^j(q)) is closed, and the E21 matrix unit squares to zero. Hence the connection is flat and agrees with divided-Frobenius horizontality.",
+    "Griffiths_scope": "For the two-step filtration, ordinary Griffiths transversality maps Fil^1 into Fil^0 and imposes no extra matrix zero. Filtration preservation would be a strictly stronger, unrequested axiom.",
+    "neutrality": "Every q is allowed, so fixed rank, Hodge polygon, flatness, Griffiths transversality, and local Frobenius horizontality do not constrain the actual Q0 zero set.",
+    "coefficient_support": "For q=sum y_i, the cotangent term is -sum dy_i. All labeled coefficient directions appear, but this is not a geometric conductor lower bound after pullback; dependencies and cancellations on the actual base remain open.",
+    "capacity": "No prime-independent geometric family or weighted splitting-prime theorem follows. The fixed-j1 ceiling 1/36 and booking zero remain unchanged."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "general Frobenius-horizontality equations",
+      "unique integral flat connection for every analytic q",
+      "full and divided Frobenius compatibility",
+      "fixed-rank fixed-Hodge horizontality-information-neutral no-go",
+      "dense labeled cotangent support on the universal coefficient base",
+      "zero booking"
+    ],
+    "DECLARED_EXACT_CONTROLS_ONLY": [
+      "three polynomial resolvent controls and one eleven-coordinate support control; no prime census"
+    ],
+    "OPEN": [
+      "prime-independent bounded-complexity geometric family realizing the actual cross-prime Q0",
+      "bounded conductor or bounded support after actual pullback",
+      "weighted nonconcentration and any strict fixed-j1 ceiling reduction",
+      "Route 1 and e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_log_mass": "M/6+o(M)",
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "new_differential_constraint": false,
+    "new_linear_log_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

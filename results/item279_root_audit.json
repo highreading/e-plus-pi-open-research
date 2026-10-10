@@ -1,0 +1,41 @@
+{
+  "schema": "item279-root-audit-v1",
+  "audit_date": "2026-08-31",
+  "auditor": "root",
+  "verdict": "PASS_WITH_STRICT_SCOPE",
+  "substantive_checks": {
+    "phase_tower": "PASS: every anchored pattern J in a fixed diameter D follows (h-4j,s+3j,p+2j,M), with only O_D(1) boundary rows",
+    "crt_module": "PASS: on unit charts the exact solution module is the product of the local kernels and all local ranks 0, 1, and 2 are retained",
+    "mixed_minors": "PASS: each local gate supplies only two rows, so every four-row CRT minor meets orthogonal idempotent blocks and vanishes over Z/N_J Z",
+    "transversality_witness": "PASS: the exact 29,31,37 example has a determinant-one rational substack while all 15 CRT maximal minors vanish and a non-N-divisible common state survives",
+    "valuation_overlap": "PASS: a collision cluster yields only the already recorded square-radical factor; overlapping patterns must be radicalized and add no valuation",
+    "sieve_mass": "PASS: for fixed D and t the Selberg upper-bound sieve gives O_(D,t)(M/log^t M) clusters and O_(D,t)(M/log^(t-1) M)=o(M) endpoint log weight",
+    "capacity_booking": "PASS: the union of every fixed-D non-singleton cluster pattern is zero-rate, but D-isolated collision primes remain uncontrolled; the 1/36 ceiling and booking are unchanged"
+  },
+  "independent_replay": {
+    "canonical_sha256": "9ea9ce2294bea6744df9619858923aa8881d9ce217842c2e0e1b7631f2faf8b0",
+    "root_replay_sha256": "9ea9ce2294bea6744df9619858923aa8881d9ce217842c2e0e1b7631f2faf8b0",
+    "byte_identical": true,
+    "payload_sha256": "5b3a6ef004587cba830d553ab120282c22f0812db6633bad59fbe9a06d9afb1a"
+  },
+  "package_checks": {
+    "manifest_files_checked": 6,
+    "frozen_dependencies_checked": 6,
+    "json_files_parsed": 5,
+    "all_hashes_and_dependencies_match": true
+  },
+  "report_checks": {
+    "sha256": "533383bdd073c2950ae5ff65e9c2888a80242c58317c6ca89306bd2d1864a28e",
+    "bytes": 14018,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "display_delimiters": "29/29",
+    "inline_delimiters": "100/100"
+  },
+  "strict_scope": {
+    "proved": "All fixed-size, fixed-diameter non-singleton prime-cluster mechanisms on the fixed-j1 line have zero linear endpoint mass and no independent CRT determinant gain.",
+    "finite_only": "The bounded phase and CRT witnesses are exact finite checks; the asymptotic conclusion comes only from the fixed-tuple upper-bound sieve.",
+    "open": "D-isolated collision primes, diameter growing with M, non-natural cross-prime arithmetic invariants, and every positive j1 capacity reduction remain open.",
+    "route_status": "Route 1 ACTIVE; Route 2 QUEUED"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "item": 341,
+  "schema": "item341-j2-diagonal-affine-state-ledger-v1",
+  "classification": "PROVED_DIAGONAL_AFFINE_COORDINATES_AND_FIXED_CURVE_NO_GO",
+  "actual_family": {
+    "tied_phase": "p=2r+6s+3=6m+2d+1, m=s-1, d=r+4",
+    "fixed_M_relation": "2M=5r+14s+7",
+    "raw_chebyshev_mass": "(2/35)M+o(M)",
+    "raw_capacity_per_6M": "1/105"
+  },
+  "safe_carrier_input": {
+    "source": "Item338 tied-prime-safe saturated carrier",
+    "equivalence": "p is an original collision iff p divides the safely saturated row carrier",
+    "purpose": "exclude off-diagonal denominator and central-binomial factor signals before diagonal analysis"
+  },
+  "nondegenerate_chart": {
+    "hypothesis": "ell_r != 0 mod p",
+    "actual_state": [
+      "c=4^s",
+      "H_m=sum_(j=0)^m binom(2j,j)/8^j"
+    ],
+    "moving_point": {
+      "c_star": "11*mu_r/(9*ell_r)=-11*bfrak_r/(18*afrak_r)",
+      "Phi_star": "(-1)^(m+1)*(2/(9*kappa_r))*(tau_(r,s)-11*C_r/(ell_r*B_s))",
+      "Theta": "h_m*P_(r+2)(m)+epsilon_p*(1-Phi_star)"
+    },
+    "centered_coordinates": {
+      "D": "9*ell_r*(c-c_star)",
+      "T_ell_mod_p": "-epsilon_p*(9*kappa_r*B_s/2)*ell_r*(H_m-Theta)"
+    },
+    "Jacobian": "-epsilon_p*(81*kappa_r*B_s/2)*ell_r^2, a p-unit",
+    "ideal_identity": "(D,T_ell)=(c-c_star,H_m-Theta) in the localized residue-field polynomial ring",
+    "collision_equivalence": "c=c_star and H_m=Theta mod p"
+  },
+  "degenerate_chart": {
+    "p_greater_than_11_implication": "collision and ell_r=0 force ell_r=mu_r=C_r=0 mod p",
+    "primitive_carrier": "Pfrak_r=gcd(abs(num(ell_r)),abs(num(mu_r)),abs(num(C_r)))",
+    "divisor_localization": "every degenerate collision prime p>11 divides Pfrak_r",
+    "weighted_support": "OPEN",
+    "p_equals_11": "one actual row only; zero asymptotic mass"
+  },
+  "actual_state_no_go": {
+    "tail": "sqrt(2)-H_m ~ 2^(-m)/(sqrt(pi*m))",
+    "theorem": "(4^(m+1),H_m) on every unbounded m-subsequence is Zariski dense in A^2 over C",
+    "actual_prime_subsequence": "r=1 and p=6m+11 prime; infinitely many by Dirichlet",
+    "closed_method_class": "fixed characteristic-zero algebraic curves relating 4^(m+1) and H_m",
+    "not_closed": [
+      "moving relations depending on r,m,p",
+      "finite-field Frobenius modules",
+      "target-specific distribution or large-sieve theorems",
+      "sequence-specific average gcd"
+    ]
+  },
+  "scoped_no_go": {
+    "closed_as_sufficient_by_themselves": [
+      "all resultants and subresultants of the two affine connection coordinates",
+      "Groebner or norm elimination using no additional actual-state relation",
+      "a fixed characteristic-zero algebraic state curve"
+    ],
+    "first_missing_inputs": [
+      "o(M) weighted support for the r-only triple-minor content",
+      "moving mod-p joint correlation of (4^s,H_m) with (c_star,Theta_(r,s))"
+    ]
+  },
+  "weighted_target": {
+    "nondegenerate": "W_nd(M)=sum log p over c=c_star and H_m=Theta mod p",
+    "degenerate_upper_bound": "W_deg(M)<=sum_(p divides Pfrak_r) log p",
+    "required_closure": "W_nd(M)+W_deg(M)=o(M)",
+    "status": "OPEN"
+  },
+  "capacity": {
+    "raw_isolated_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  },
+  "master_ledger": {
+    "booked_r1_unchanged": "0.1365141682948128184504238226...",
+    "threshold_T_unchanged": "1.1561471519642446123307302239...",
+    "deficit_unchanged": "1.0196329836694317938803064012..."
+  }
+}

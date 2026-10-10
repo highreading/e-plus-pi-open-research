@@ -1,0 +1,88 @@
+{
+  "item": 401,
+  "schema": "item401-j1-crossM-algebraic-transport-no-go-manifest-v1",
+  "classification": "PROVED_ALGEBRAIC_VERTICAL_TRANSPORT_AND_SCOPED_RECURRENCE_ONLY_NO_GO",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual fixed-j=1 same-prime cross-M blocks, algebraic constant-term recurrences for the original two divided coordinates, alignment with selected-Hasse transport, and the vertical-column capacity no-go",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item296_j1_modular_singular_ray_atlas_report.md": "80a4613a0c09c713adaf8c5e3ab10cccb42ece5973e126dc8007d68e813fbf39",
+    "manifests/item296_j1_modular_singular_ray_atlas_manifest.json": "cddee29ee3c5be9196bcb55290f4c97e74fb632250fd8c609f32cb15c1ca8971",
+    "sources/item363_j1_joint_gate_crt_elimination_no_go_report.md": "377ed30c0c6be630c124ccd3050d37176264c659d23a502453a9aaa34ff132ee",
+    "manifests/item363_j1_joint_gate_crt_elimination_no_go_manifest.json": "46aa9a81d3b92cd5e7e055d9280f32e0e5ca32b91dfd68d95cbc9fdaa26a464a",
+    "sources/item395_j1_logscale_cluster_radical_height_obstruction_report.md": "af0d85607d665f5d6c12c2695a44a89d984abffb008bbd1318978471e79f4487",
+    "manifests/item395_j1_logscale_cluster_radical_height_obstruction_manifest.json": "3ef54ba9d3caa5af1b76bde52822447e253256c4c0ebb30dd6bb8a6200502cbd",
+    "sources/item400_j1_discriminant_energy_sieve_threshold_no_go_report.md": "f9dfe5dd6082ec762c0e677760aff5367c1fd869241ed29a4fa50fc78dab124e",
+    "manifests/item400_j1_discriminant_energy_sieve_threshold_no_go_manifest.json": "ffa52a35f31b98c717050dd1b01dfd2e7b6042838c326dbb8c970a5b2989aca7"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item401_j1_crossM_algebraic_transport_no_go_report.md",
+      "sha256": "ca71f5621b73af79b8a09eef2a9d4cea523e35b09eb8c1368982e8894ef664d1",
+      "bytes": 16793
+    },
+    "certificate_script": {
+      "path": "work/item401_j1_crossM_algebraic_transport_no_go_certificate.py",
+      "sha256": "59cdbb11fb4fe917a49a22817561b1a0c342e36c2de562b35bf871d562834b43",
+      "bytes": 10873
+    },
+    "certificate": {
+      "path": "work/item401_j1_crossM_algebraic_transport_no_go_certificate.json",
+      "sha256": "20733cacbb0698d938376b1b82ff19bdae0bceb4666eebe9bf82f3fa833e1090",
+      "bytes": 13254
+    },
+    "replay": {
+      "path": "work/item401_j1_crossM_algebraic_transport_no_go_certificate_replay.json",
+      "sha256": "20733cacbb0698d938376b1b82ff19bdae0bceb4666eebe9bf82f3fa833e1090",
+      "bytes": 13254,
+      "byte_identical_to_certificate": true
+    },
+    "ledger": {
+      "path": "work/item401_j1_crossM_algebraic_transport_no_go_ledger_delta.json",
+      "sha256": "511c36e7d189e43c438d48add0173785c401871247532a44e911d45885244bf7",
+      "bytes": 3414
+    }
+  },
+  "theorems": [
+    "for every prime p>3 the actual tied family has exactly floor(p/12) consecutive M-values with shift (M,h,s,p)->(M+1,h+3,s-2,p)",
+    "C_0 and C_1 are constant terms of two fixed weights times one fixed rational map K(z)^M",
+    "their ordinary generating functions are four-root residue sums for one degree-twelve polynomial and have algebraic degree at most binomial(12,4)=495",
+    "both integer sequences therefore satisfy homogeneous polynomial-coefficient recurrences of absolute order and degree independent of p",
+    "after division by the compulsory first p-copy, those recurrences transport the actual divided coordinates within the same F_p candidate column",
+    "the cross-M phase aligns exactly with Item296's selected-Hasse order-three same-characteristic transport",
+    "distinct prime columns remain independent CRT components and homogeneous recurrence data admit a full-support zero-output countermodel",
+    "the full-support countermodel saturates the Item395-400 admission coefficient M/12 at c=1, so recurrence existence, rank, and regularity alone give no strict capacity saving"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "exact fixed-prime candidate blocks and phase shift",
+      "exact common rational-map constant-term representation",
+      "degree-twelve residue formula and algebraic-degree bound at most 495",
+      "absolute bounded-order recurrence existence and divided same-prime transport",
+      "alignment with the selected-Hasse carrier recurrence",
+      "vertical-column direct-product and zero-output-orbit no-go",
+      "sharp capacity threshold failure, zero booking, and retained 1/36 ceiling"
+    ],
+    "DECLARED_STRUCTURAL_CONTROLS_ONLY": [
+      "four fixed-prime phase blocks and M=0 through 8 coefficient identities",
+      "no actual gate-zero scan, collision census, guessed recurrence promotion, or finite-to-infinite inference"
+    ],
+    "OUTSIDE_CLOSED_CLASS": [
+      "arithmetic control of the distinguished recurrence initial orbit",
+      "a reciprocity law coupling two different prime columns",
+      "a common actual-moment carrier below the M/12 height threshold",
+      "a horizontal distribution theorem as residue characteristic varies"
+    ],
+    "OPEN": [
+      "the actual logarithmic-window cluster-radical bound",
+      "W(M)=o(M) or any strict fixed-j1 retained constant",
+      "any new Route-1 booking and every conclusion about e+pi"
+    ]
+  },
+  "ledger": {
+    "new_route1_booking": 0,
+    "new_whole_cell_capacity_reduction": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "conclusion_about_e_plus_pi": "OPEN"
+  }
+}

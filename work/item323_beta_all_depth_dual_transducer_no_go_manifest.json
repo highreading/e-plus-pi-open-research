@@ -1,0 +1,108 @@
+{
+  "schema": "item323-beta-all-depth-dual-transducer-no-go-manifest-v1",
+  "item": 323,
+  "title": "All-depth beta dual transducer and literal-inheritance no-go",
+  "date": "2026-08-31",
+  "status": "PROVED_SCOPED_ALL_DEPTH_LITERAL_INHERITANCE_NO_GO",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item316_beta_intermediate_ostrowski_no_go_report.md": "8d6dce8354f08e94a252a2120cf677d9a374df95507a9297dcb064a1982fb6b0",
+    "scripts/item316_beta_intermediate_ostrowski_no_go_certificate.py": "b7e25ea7248dbc774da7f3bd98a8665058117de84a2342009f8669bf5438cf6f",
+    "results/item316_beta_intermediate_ostrowski_no_go_certificate.json": "5167e9d160fcecac86791944e41a176d3400f2a6856090de7cf78d55984e7aa4",
+    "manifests/item316_beta_intermediate_ostrowski_no_go_manifest.json": "aac741658430fb661de078adfeafdbc3a9d20312a8fd8725cb4244d406d9bcf6",
+    "results/item316_root_audit.json": "6cad978132f5f09c687aa8fcf8dcd92a7d917cf9411a69f679c7757139229175",
+    "sources/item320_beta_complement_resonance_report.md": "c8b2fa4194385177a2da1c26682bd155092b2848ecca9d524767eadbeb86b312",
+    "scripts/item320_beta_complement_resonance_certificate.py": "437b3cd05425d0495b4ce0f4e26e2c394ce9badc5c6070516c192837aea1954f",
+    "results/item320_beta_complement_resonance_certificate.json": "89755de7ea6ee90a4d91195d2aef7685fc9d47231a6937d3b73a5c9b8d4637e8",
+    "results/item320_beta_complement_resonance_root_replay.json": "89755de7ea6ee90a4d91195d2aef7685fc9d47231a6937d3b73a5c9b8d4637e8",
+    "manifests/item320_beta_complement_resonance_manifest.json": "3201d306c4a946a635a273f089ceb21d2a8a86da33863022dc7843a319aea6e6",
+    "results/item320_beta_complement_resonance_root_audit.json": "89c84a1cd2eab682a0e98f68c3310852a3216fc0a208dc855e6098011a31bfb6"
+  },
+  "artifacts": [
+    {
+      "path": "work/item323_beta_all_depth_dual_transducer_no_go_report.md",
+      "role": "all-depth transducer proof, global literal-inheritance closure, and strict scope",
+      "bytes": 14747,
+      "sha256": "e0b5e7279079a17556a0b287ea18a40e461b6fdb8e45d8ef5a357434b8e6d9ef"
+    },
+    {
+      "path": "work/item323_beta_all_depth_dual_transducer_no_go_certificate.py",
+      "role": "standard-library exact deterministic replay",
+      "bytes": 20891,
+      "sha256": "385d57dca299737c3a7feb0523192e81032de865a8862e126f5ec8a0723779cc"
+    },
+    {
+      "path": "work/item323_beta_all_depth_dual_transducer_no_go_certificate.json",
+      "role": "canonical work-package certificate output",
+      "bytes": 31608,
+      "sha256": "680c7e2c3d5dfdeae2b61e37e38a81a363cf3aa25a5229062e3620c727c77bc6"
+    },
+    {
+      "path": "work/item323_beta_all_depth_dual_transducer_no_go_certificate.replay.json",
+      "role": "independent byte-identical replay output",
+      "bytes": 31608,
+      "sha256": "680c7e2c3d5dfdeae2b61e37e38a81a363cf3aa25a5229062e3620c727c77bc6"
+    },
+    {
+      "path": "work/item323_beta_all_depth_dual_transducer_no_go_ledger_delta.json",
+      "role": "proposed ledger delta; no canonical edit",
+      "bytes": 2892,
+      "sha256": "068c80297c94aab3cf7c14faa50f0e2bc23ec375cf918849b1c5be8165f4d52f"
+    }
+  ],
+  "replay": {
+    "command": "python work/item323_beta_all_depth_dual_transducer_no_go_certificate.py --output work/item323_beta_all_depth_dual_transducer_no_go_certificate.replay.json",
+    "expected_stdout": {
+      "all_depth_unit_strip": "PROVED",
+      "capacity_reduction": "ZERO",
+      "item": 323,
+      "literal_inheritance_all_depth": "PROVED_SCOPED_NO_GO",
+      "original_all_digit_exclusion": "OPEN",
+      "status": "PROVED_SCOPED_ALL_DEPTH_LITERAL_INHERITANCE_NO_GO"
+    },
+    "expected_replay_sha256": "680c7e2c3d5dfdeae2b61e37e38a81a363cf3aa25a5229062e3620c727c77bc6",
+    "dependency_hashes_verified_before_output": 11
+  },
+  "proved": [
+    "Every canonical word has an exact reversed suffix transducer s_j=(R H_j-b N_j)/b in the strict unit strip at every depth.",
+    "The unit strip follows from an exact continuant split and the telescoping bound -H_j<=A_j<=H_(j+1).",
+    "Conditional on the actual Item-316 target, every signed prefix determinant lies within one unit of aQ_j/b.",
+    "For every n>=6 and 3<=j<=n-2, a division-free inequality makes the truncated appended output strictly smaller than Q_(j-1).",
+    "The j=1,2 cells are excluded symbolically by E_2=10 delta_1-delta_2 and the Markov carry."
+  ],
+  "strict_scope": {
+    "closes": "the complete literal canonical prefix-truncation descent whose terminal step requires inheritance of an exact earlier Item-316 target, at every depth",
+    "does_not_close": [
+      "the original exact all-digit target",
+      "R_actual>=a/2",
+      "canonical redigitization of complements or nonlinear transducer invariants",
+      "growing/full 2-adic or odd-modulus square information",
+      "a proper-target bound or weighted return cover",
+      "any beta capacity reduction",
+      "Route 1 or any conclusion about e+pi"
+    ]
+  },
+  "strict_labels": {
+    "PROVED": [
+      "all-depth dual transducer and unit strip",
+      "conditional nearest-center confinement",
+      "division-free and bottom-cell inherited-output exclusions"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "all-depth literal prefix target-inheritance descent"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared replay control rows"
+    ],
+    "OPEN": [
+      "the original all-digit exclusion and centered half-bound",
+      "redigitized, nonlinear, growing-precision, and odd-modulus routes",
+      "proper targets and every capacity consequence"
+    ]
+  },
+  "capacity": {
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "booking": 0
+  }
+}

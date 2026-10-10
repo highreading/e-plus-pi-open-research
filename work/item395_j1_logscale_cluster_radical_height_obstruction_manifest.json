@@ -1,0 +1,84 @@
+{
+  "item": 395,
+  "schema": "item395-j1-logscale-cluster-radical-height-obstruction-manifest-v1",
+  "classification": "PROVED_LOGSCALE_CLUSTER_CRITERION_AND_HEIGHT_SIGN_NO_GO",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual fixed-j=1 collision polynomial, logarithmic-window cluster radical, cluster-plus-isolated capacity inequality, shifted norm height comparison, and generic resultant height/sign no-go",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "work/item391_j1_logarithmic_spacing_resultant_criterion_report.md": "32151869676cf324c64b766fb8843bdd4cd886157fcec57a02d5ecf530b1076f",
+    "work/item391_j1_logarithmic_spacing_resultant_criterion_certificate.py": "419c689a149be1056eca68410f5b8a756c9d3674a715df2602640cc3c1bf40ff",
+    "work/item391_j1_logarithmic_spacing_resultant_criterion_certificate.json": "542676c4e2acf6718c63b362d6bbd7e3358cbcfb655033c6db1bc5e20ed7602f",
+    "work/item391_j1_logarithmic_spacing_resultant_criterion_certificate_replay.json": "542676c4e2acf6718c63b362d6bbd7e3358cbcfb655033c6db1bc5e20ed7602f",
+    "work/item391_j1_logarithmic_spacing_resultant_criterion_ledger_delta.json": "156ea31c7a4f47b6d9e9d0f7cc89a862d0837fdfa3fc45b52f631b40bc505d5c",
+    "work/item391_j1_logarithmic_spacing_resultant_criterion_manifest.json": "2f7b2d96379701064a1f4a27a490001ea17718bc9bc266119c4953dfd657064c"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item395_j1_logscale_cluster_radical_height_obstruction_report.md",
+      "sha256": "c045099b35a4a067aac112fc9af087c0c1ae224714efc13735ef567a520bf28e",
+      "bytes": 13960
+    },
+    "certificate_script": {
+      "path": "work/item395_j1_logscale_cluster_radical_height_obstruction_certificate.py",
+      "sha256": "69a198cea5d980402a390b2eea21cbc54743729acd5f20a3c24310da4eddf874",
+      "bytes": 10552
+    },
+    "certificate": {
+      "path": "work/item395_j1_logscale_cluster_radical_height_obstruction_certificate.json",
+      "sha256": "24fb7aa2d10c1aa16f629204759fb8881f9c1da426285673ebdb7de18c3cbffb",
+      "bytes": 15006
+    },
+    "replay": {
+      "path": "work/item395_j1_logscale_cluster_radical_height_obstruction_certificate_replay.json",
+      "sha256": "24fb7aa2d10c1aa16f629204759fb8881f9c1da426285673ebdb7de18c3cbffb",
+      "bytes": 15006,
+      "byte_identical_to_certificate": true
+    },
+    "ledger": {
+      "path": "work/item395_j1_logscale_cluster_radical_height_obstruction_ledger_delta.json",
+      "sha256": "ba3d5f84d2e20ac9372df7fed4728a86d0ff2ce2c34621253ce5ad21a21089c6",
+      "bytes": 2806
+    }
+  },
+  "theorems": [
+    "the shifted resultant factors as (2d)^n times the product over root pairs of ((2d)^2-gap^2)",
+    "resultant sign is a parity of the unknown root gaps and supplies no independent nonvanishing",
+    "the radical of all plus and minus shifted endpoint gcds is exactly the actual logarithmic-window cluster radical",
+    "the complementary isolated radical obeys the exact interval packing bound",
+    "for D~c log M, the master ceiling is cluster mass per 6M plus 1/(72c)",
+    "a strict saving is implied by cluster coefficient below (2c-1)/(12c) per M for one c>1/2",
+    "shifted norms at d<=c log M stay within exp(c/4+o(1)) of the collision radical",
+    "ordinary gcd-by-height, generic resultant height/sign, and unlocalized shifted products retain the full 1/36 ceiling"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "paired resultant factorization and sign formula",
+      "exact aggregate cluster radical",
+      "cluster-plus-isolated master inequality and sharp conditional threshold",
+      "logarithmic norm height comparison",
+      "scoped generic height/sign/product no-go",
+      "zero booking and retained whole-cell ceiling"
+    ],
+    "CONDITIONAL_TARGETS_ONLY": [
+      "a cluster radical bound below (2c-1)M/(12c)",
+      "actual logarithmic pair-freeness",
+      "any strict fixed-j=1 whole-cell capacity reduction"
+    ],
+    "DECLARED_EXACT_CONTROLS_ONLY": [
+      "four abstract root sets at M=180 and M=300",
+      "no actual collision scan or finite-to-infinite inference"
+    ],
+    "OPEN": [
+      "gate-specific factor localization for the cluster radical",
+      "a logarithmic-window weighted zero-density theorem",
+      "W(M)=o(M), any new Route-1 booking, and every conclusion about e+pi"
+    ]
+  },
+  "ledger": {
+    "new_route1_booking": 0,
+    "new_whole_cell_capacity_reduction": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "conclusion_about_e_plus_pi": "OPEN"
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "capacity": {
+    "chart_overlap": "nondegenerate and degenerate charts partition one raw interval and are not additive",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "ordinary_j2_ceiling_per_6M": "1/105",
+    "raw_fixed_M_chebyshev_mass": "(2/35)M+o(M)"
+  },
+  "capacity_replay": {
+    "classification": "EXACT RATIONAL CAPACITY AND SELECTOR-WINDOW NORMALIZATION",
+    "per_6M_capacity": "1/105",
+    "raw_chebyshev_coefficient": "2/35",
+    "row_digest_sha256": "03a62e915c2bab1748f861c115adb806b0dd93e1e41586ea3cc6d78465968370",
+    "selector_window": "0 <= k <= (2M-26)/5"
+  },
+  "classification": "PROVED_FIXED_M_CROSS_PRIME_COEFFICIENT_BRIDGE_AND_SELECTOR_BARRIER",
+  "comparison_kernel_replay": {
+    "classification": "EXACT FINITE COEFFICIENT REPLAY OF AN ALL-PARAMETER RATIONAL IDENTITY",
+    "declared_parameter_pairs": 48,
+    "declared_ray_rows": 96,
+    "generating_function": "(X^4*Y^2*(1+5Y^7)+Y^6*(5+Y^7))/((1-X^6Y)*(1-Y^7)^2)",
+    "row_digest_sha256": "898f284941d6b191669654e2c0f14e2c2fd768d20d0791791081d06b138ba97e"
+  },
+  "dependencies": {
+    "manifests/item314_j2_two_branch_gate_manifest.json": "ad5c5435aa169c4fb3e235a1293975f191cee27b1e56ed439988c6b43eac5e14",
+    "manifests/item352_j2_nonsemisimple_transition_no_go_manifest.json": "c970d5b2dec42ec47f40078b49219cbac99e871b464a54f95be352729347ce54",
+    "manifests/item355_j2_target_residual_large_sieve_obstruction_manifest.json": "fa7554389223e4fa96f6e58c2766abacc4ad3c7e56df4c68a74d2f440ea8aaff",
+    "results/item314_j2_two_branch_gate_certificate.json": "77de2dd46726a5a48e9adc4e40f96341d5da6c8db304d79f0ef8eeb7807245b1",
+    "results/item352_j2_nonsemisimple_transition_no_go_certificate.json": "8f06da2f8b4265156d02d2da393c0aedb74db55db3649589163866ffd0badc31",
+    "results/item352_j2_nonsemisimple_transition_no_go_root_audit.json": "6acd46c106c21a963e0476e49d25c71305682c061e1df507ac8e332f4433d609",
+    "results/item355_j2_target_residual_large_sieve_obstruction_certificate.json": "e246cfcec626d662d970a5a7a63da38914e9e0c98225e35f3ec7f80f5a30d3f2",
+    "results/item355_j2_target_residual_large_sieve_obstruction_root_audit.json": "40bea19e6d09e7bbdd3945d9fc6e8a1f95c1cd8b5f906f5b6e2a57fea3924175",
+    "scripts/item314_j2_two_branch_gate_certificate.py": "cc5f155e5f3248c500cd2101e401c25cec37ce43b31fbb4582843fc33a9b2f0e",
+    "sources/item314_j2_two_branch_gate_report.md": "266f70523770a2a4147ee75289885fcb8dc945a65b650f2c8411e005ba110faa",
+    "sources/item352_j2_nonsemisimple_transition_no_go_report.md": "c60e1ba7771314c77b3fbe5d06f9c13c51a8c7e4d15f2589298641ff0f38e794",
+    "sources/item355_j2_target_residual_large_sieve_obstruction_report.md": "ea2f5f43a14a411849bc310409939891bfb496b681b028c20fcb3b990dd3377b"
+  },
+  "dependency_hashes_verified": true,
+  "pole_and_degree_replay": {
+    "classification": "SYMBOLIC EXACT POLE EVALUATIONS AND AFFINE DEGREE FORMULAS",
+    "degree_digest_sha256": "7b4536e61d7f40ad35cd99b946b6facbf102c077c16eb69103d5b198b895b6da",
+    "degree_rows": [
+      [
+        1,
+        36,
+        35,
+        12,
+        -1,
+        299,
+        16
+      ],
+      [
+        2,
+        48,
+        49,
+        24,
+        1,
+        299,
+        16
+      ],
+      [
+        13,
+        180,
+        203,
+        156,
+        23,
+        299,
+        16
+      ],
+      [
+        335,
+        4044,
+        4711,
+        4020,
+        667,
+        299,
+        16
+      ],
+      [
+        700,
+        8424,
+        9821,
+        8400,
+        1397,
+        299,
+        16
+      ]
+    ],
+    "minimal_eventual_recurrence_order_lower_bound": "12M",
+    "pole_at_1": "exact order 6M",
+    "pole_at_minus_1": "exact order 6M"
+  },
+  "proved_formulae": {
+    "Fermat_collapse": "4^s=16^(1-M) mod p",
+    "bivariate_kernel": "sum_(M>=1) K_M(X)Y^M=18R_-*YU_-/(1-YU_-)+11R_+*YU_+/(1-16YU_+)",
+    "comparison_kernel": "V=(X^4Y^2(1+5Y^7)+Y^6(5+Y^7))/((1-X^6Y)(1-Y^7)^2)",
+    "comparison_selector": "[X^(r-1)Y^M]V=p whenever 6M=r+7p on the two prime rays",
+    "kernel_bridge": "16^(M-1)*r*G_(r,s)=-12*[X^(r-1)]K_M(X) mod p",
+    "pole_order": "ord_(X=1)=ord_(X=-1)=6M, recurrence order >=12M",
+    "selector": "r=6M-7p, s=(5p-4M-1)/2, k=6M-7p-1"
+  },
+  "schema": "item359-j2-fixedM-cross-prime-coefficient-barrier-v1",
+  "scope_warning": "The comparison rational kernel proves insufficiency of rationality, holonomicity, and pointwise height as metadata. It is not the actual determinant kernel.",
+  "selector_kernel_replay": {
+    "classification": "EXACT FINITE REPLAY ONLY - NO PRIME OR COLLISION CENSUS",
+    "declared_rows": 7,
+    "row_digest_sha256": "0233d4ea0a2f109f7feb2d077106bd3cbae6562e02da687fd5b94ce93da829a6",
+    "rows": [
+      [
+        11,
+        1,
+        1,
+        13,
+        0,
+        4,
+        4,
+        10,
+        1,
+        1,
+        4,
+        9
+      ],
+      [
+        17,
+        1,
+        2,
+        20,
+        0,
+        16,
+        5,
+        16,
+        12,
+        12,
+        12,
+        5
+      ],
+      [
+        29,
+        1,
+        4,
+        34,
+        0,
+        24,
+        13,
+        21,
+        9,
+        9,
+        4,
+        17
+      ],
+      [
+        271,
+        113,
+        7,
+        335,
+        112,
+        124,
+        0,
+        0,
+        0,
+        0,
+        0,
+        172
+      ],
+      [
+        367,
+        65,
+        39,
+        439,
+        64,
+        362,
+        0,
+        0,
+        0,
+        0,
+        0,
+        197
+      ],
+      [
+        383,
+        109,
+        27,
+        465,
+        108,
+        293,
+        0,
+        0,
+        0,
+        0,
+        0,
+        316
+      ],
+      [
+        599,
+        7,
+        97,
+        700,
+        6,
+        489,
+        27,
+        576,
+        276,
+        276,
+        275,
+        551
+      ]
+    ]
+  },
+  "strict_labels": {
+    "finite_only": [
+      "seven predeclared actual rows",
+      "forty-eight declared parameter pairs on each of two comparison rays",
+      "no prime scan and no collision census"
+    ],
+    "open": [
+      "matched-modulus divisibility nonconcentration for the actual coefficient diagonal",
+      "joint cross-prime theorem retaining H_(s-1)-Theta_(r,s)",
+      "selector-aware average gcd or reciprocity law",
+      "almost-all-M energy saving admissible in the main construction"
+    ],
+    "proved": [
+      "fixed-M selector and Fermat collapse",
+      "common fixed-M and bivariate rational coefficient bridges",
+      "exact linear pole/recurrence obstruction",
+      "fixed rational full-selector-mass comparison kernel",
+      "height-scale, capacity, and chart-overlap audits"
+    ]
+  }
+}

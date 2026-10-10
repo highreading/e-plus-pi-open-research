@@ -1,0 +1,91 @@
+{
+  "item": 371,
+  "schema": "item371-j1-determinant-horizontal-compatibility-no-go-manifest-v1",
+  "classification": "PROVED_SCOPED_LISSE_CRYSTALLINE_AND_LOCAL_PRODUCT_DETERMINANT_NO_GO",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual fixed-j1 cyclic companion determinant, residue-characteristic lisse invertibility, fixed-normalization crystalline full determinant, pointwise local-product separability, literal Kummer/Artin-Schreier conductor, and capacity",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item366_j1_joint_frobenius_extension_obstruction_report.md": "50c678cadf4650a68eab772da297021190f06492928ee32bf9ea3c2215b9ea74",
+    "scripts/item366_j1_joint_frobenius_extension_obstruction_certificate.py": "7157c1a3e1e7c63820d5bf9c29d080c632b6461e9ec9ad803d44c667479c3a3e",
+    "results/item366_j1_joint_frobenius_extension_obstruction_certificate.json": "d6ac566800b010538ebad2b17648a49107f3d3e5ee93cd4b3af377fe851e486c",
+    "results/item366_j1_joint_frobenius_extension_obstruction_certificate_replay.json": "d6ac566800b010538ebad2b17648a49107f3d3e5ee93cd4b3af377fe851e486c",
+    "results/item366_j1_joint_frobenius_extension_obstruction_root_replay.json": "d6ac566800b010538ebad2b17648a49107f3d3e5ee93cd4b3af377fe851e486c",
+    "results/item366_j1_joint_frobenius_extension_obstruction_ledger_delta.json": "d62cf99fc0da6425c383a277b1f86af3ce134f4e11ec36efc446f604c162011d",
+    "results/item366_j1_joint_frobenius_extension_obstruction_root_audit.json": "8d787c37bf513d89cd461a84a77713386bf9c17b9f27d018dd8c3d90c94cbe50",
+    "manifests/item366_j1_joint_frobenius_extension_obstruction_manifest.json": "91106677a853790eb511fc4efc0da8a5b29976107a17adfb2367b40d916a526e",
+    "sources/item369_j1_cyclic_companion_compatibility_barrier_report.md": "676b7f68b3602c1ebbd743779845fd4fe3f511484a3f2e7033ac5ff27d0544b9",
+    "scripts/item369_j1_cyclic_companion_compatibility_barrier_certificate.py": "cd9ef9480809552083b667ea7fcc2c4657ffb104f1558a5f0b5920e6bf7171ea",
+    "results/item369_j1_cyclic_companion_compatibility_barrier_certificate.json": "24ce6c7dae148763699358971170e7cfae6a72a4313b4344c4fb3e4244133d83",
+    "results/item369_j1_cyclic_companion_compatibility_barrier_certificate_replay.json": "24ce6c7dae148763699358971170e7cfae6a72a4313b4344c4fb3e4244133d83",
+    "results/item369_j1_cyclic_companion_compatibility_barrier_root_replay.json": "24ce6c7dae148763699358971170e7cfae6a72a4313b4344c4fb3e4244133d83",
+    "results/item369_j1_cyclic_companion_compatibility_barrier_ledger_delta.json": "87175da5ed0b16419d4d463e02fe96f7b7c3f30c8cf5b876a24b6d8f6702a468",
+    "results/item369_j1_cyclic_companion_compatibility_barrier_root_audit.json": "a8e84b3ad547c41deb6b4eac2066ae097cef88cf6943ec3aead9da1d3d357b59",
+    "manifests/item369_j1_cyclic_companion_compatibility_barrier_manifest.json": "dd602f42797fe29bef053373eff93ef7ddd13422bd93ad914a31195be64f9b1d"
+  },
+  "artifacts": {
+    "report": {
+      "path": "sources/item371_j1_determinant_horizontal_compatibility_no_go_report.md",
+      "sha256": "9d4ece939ce2d644058f9d8da27f2c2d9697e6674d3c2bb8543d42f87a1713d9",
+      "bytes": 14501
+    },
+    "certificate_script": {
+      "path": "scripts/item371_j1_determinant_horizontal_compatibility_no_go_certificate.py",
+      "sha256": "2105cf70cd15b3f272f99e76605aa4fec661037e839172c93b6faeb755bcd83f",
+      "bytes": 15811
+    },
+    "certificate": {
+      "path": "results/item371_j1_determinant_horizontal_compatibility_no_go_certificate.json",
+      "sha256": "e0eb9298d30cd3938d3be409d90444700c4f03b312269100d756ac62d9e0b8fb",
+      "bytes": 9929
+    },
+    "replay": {
+      "path": "results/item371_j1_determinant_horizontal_compatibility_no_go_certificate_replay.json",
+      "sha256": "e0eb9298d30cd3938d3be409d90444700c4f03b312269100d756ac62d9e0b8fb",
+      "bytes": 9929,
+      "byte_identical_to_certificate": true
+    },
+    "ledger": {
+      "path": "results/item371_j1_determinant_horizontal_compatibility_no_go_ledger_delta.json",
+      "sha256": "1892db2b67ab145ca24eadde59af314267a4afd78e22047df271c73a4ee12309",
+      "bytes": 2861
+    }
+  },
+  "theorems": [
+    "the cyclic companion determinant is exactly Q0=2c_T-c_L, the already forced transverse divisor",
+    "a lisse mod-p rank-two Frobenius is invertible and cannot realize the singular actual companion at Q0=0",
+    "a pointwise local Frobenius product has multiplicatively separable determinant and cannot universally equal an additive selector",
+    "a fixed-normalization full crystalline determinant is uniformly a unit or uniformly zero modulo p, unlike the actual Q0 controls",
+    "literal full-order Kummer support is at least p-2 and literal Artin-Schreier Swan conductor is 2(p-1)",
+    "all direct determinant architectures retain the full 1/36 ceiling and book zero"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "exact determinant divisor identification",
+      "residue-characteristic lisse invertibility no-go",
+      "pointwise determinant-product separability no-go",
+      "fixed-normalization full crystalline determinant no-go",
+      "literal Kummer and Artin-Schreier conductor-growth no-go",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "four predeclared controls with zero and nonzero determinant values; no prime scan"
+    ],
+    "OPEN": [
+      "a Hasse subdeterminant or varying-slope F-crystal realization",
+      "a target-specific nonlocal identity or bounded-conductor compression",
+      "horizontal determinant-trace nonconcentration or an average-gcd theorem",
+      "weighted joint-zero density, any strict fixed-j1 ceiling reduction, Route 1, and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_log_mass": "M/6+o(M)",
+    "raw_ceiling_per_6M": "1/36",
+    "weighted_target": "W_(det,tr)(M)=W_(H,Q)(M)=o(M)",
+    "weighted_target_proved": false,
+    "new_linear_log_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0,
+    "retained_ceiling_per_6M": "1/36"
+  }
+}

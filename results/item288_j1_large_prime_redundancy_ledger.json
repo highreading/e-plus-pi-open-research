@@ -1,0 +1,37 @@
+{
+  "item": 288,
+  "title": "exact large-moving-prime redundancy of the j=1 endpoint scalar",
+  "checked_date_beijing": "2026-08-31",
+  "proved": [
+    "For every h>=1, the phase-reflected Gosper antidifferences satisfy Rplus(j)=-Rminus(-2s_h-j+1).",
+    "For every h>=1, F_h-d_h=c_h*X_h and eta_h*U_h+L_h=c_h*Y_h with the explicit finite sums X_h,Y_h.",
+    "The Item280 endpoint scalar factors without endpoint division as K_h=c_h*(2*d_h*Y_h-L_h*X_h).",
+    "The factor 2*d_h*Y_h-L_h*X_h and K_h have denominators supported only on primes <=4h+3.",
+    "For h>=1 with 3 not dividing h, Item243's gauge c_h=G_h*E_h has G_h a unit after localizing at primes <=4h+3.",
+    "For every prime q>4h+3, q|N_E(h) implies q|N_K(h); no converse is claimed.",
+    "Every actual prime p=4h+6s+3 with s>=1 satisfies 3 not dividing h and p>=4h+9, so K_h is redundant after E_h on every actual row."
+  ],
+  "exact_replay_not_extrapolation": [
+    "The deterministic checker replays the proved reflection, two endpoint identities, K factorization, gauge, and denominator support through h<=12."
+  ],
+  "open": [
+    "Nonvanishing, sparsity, or weighted control of E_h modulo the actual moving row prime.",
+    "Any weighted prime-log-mass saving or positive Route-1 rate.",
+    "Route 1 and every conclusion about e+pi.",
+    "The converse q|N_K(h) => q|N_E(h)."
+  ],
+  "capacity_and_deoverlap": {
+    "conditional_j1_capacity_per_m": "1/6",
+    "conditional_j1_capacity_per_6m": "1/36",
+    "new_large_moving_prime_codimension_from_K": 0,
+    "new_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "capacity_booked": 0,
+    "reason": "The new theorem proves that K is redundant after E at every actual moving prime; it does not remove or bound the E gate."
+  },
+  "strict_scope": {
+    "small_prime_support_statement": "PROVED, but no weighted summation is inferred from it",
+    "finite_scan_inference": "NONE",
+    "canonical_index_documents_edited": false
+  }
+}

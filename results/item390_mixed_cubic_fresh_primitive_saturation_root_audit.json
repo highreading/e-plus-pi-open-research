@@ -1,0 +1,62 @@
+{
+  "item": 390,
+  "schema": "item390-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_ACTUAL_ALL_DEPTH_LARGE_PRIME_CARRIER_AND_SCOPED_CEILING",
+  "scope": "independent root audit of the p-adic normalization, all-depth exact-differential contradiction, coefficient carrier, rational Sturm/Cauchy bound, nonzero-row scope, de-overlap, and ledger interpretation",
+  "checks": {
+    "work_hash_list_entries": 6,
+    "work_hash_list_failures": 0,
+    "frozen_dependencies_checked": 4,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "independent_p_adic_scaling_check": true,
+    "independent_exact_differential_scope_check": true,
+    "independent_sympy_sturm_root_count_on_minus1_plus1": 0,
+    "independent_positive_minimum_of_P_decimal": "0.0114331370191371932567152318056",
+    "independent_cauchy_factorization_check": true,
+    "normalization_rows_replayed": 12,
+    "prime_support_scan_used": false,
+    "root_repairs": "Corrected the certificate's component-decrease sign and restricted the carrier and uniform c_m bound to nonzero rows, which the frozen saddle theorem supplies for all sufficiently large m. The asymptotic ceiling is unchanged."
+  },
+  "mathematical_audit": {
+    "normalization": "For p>6m, all dyadic, M, T, K, and Cartier factors in the normalized coordinates are p-units, so v_p(c_m)=min(v_p(A_m),v_p(B_m)).",
+    "lower_valuation": "If t=min(v_p(L0),v_p(L1)), p-integrality of all endpoint coordinates gives v_p(A_m),v_p(B_m)>=t.",
+    "strictness_contradiction": "If both determinant coordinates had valuation greater than t, dividing L0,L1 by p^t would produce a nonzero mod-p linear combination with zero log, pi, and rational endpoint coordinates. Pole orders are below p and the form is proper, so it is exact. The frozen local argument at p=6m+1, and the degree comparison yielding 4a(4m+1)=0 for p>6m+1, both force the normalized log pair to vanish, a contradiction.",
+    "all_depth_identity": "Therefore the minimum determinant valuation equals the minimum log-residue valuation at every p>6m, including multiplicity. Dyadic scaling turns this into the lambda0,lambda1 carrier identity.",
+    "height": "Cauchy's bound factors each residue into the m-th power of r^-4 |(1-z)^6/(1+z^2)^4| and a fixed amplitude. The exact quartic P(c)=136 r^4 B(c)^2-A(c)^3 is positive on [-1,1], giving base below 136; the two amplitudes are below 3 and 21.",
+    "scope": "The resulting limsup log(c_(m,>6m))/(6m)<=log(136)/6 is a strict large-prime component ceiling. It is not subtractable from the unknown small-prime factor and does not lower the current total-content fallback ceiling by itself.",
+    "de_overlap": "The support p>6m is disjoint from the booked p<2m Cartier support and all clearing factors. Full valuations are already included, so higher p-adic digits at those primes cannot be rebooked. Beta residual matching remains a separate primitive-target question."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "actual all-depth saturation at every p>6m on nonzero rows",
+      "exact large-prime log-residue carrier",
+      "uniform sufficiently-large-row bound c_(m,>6m)<21*136^m",
+      "normalized component ceiling log(136)/6",
+      "large-prime higher-digit de-overlap",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "twelve normalization cross-checks; no support or density extrapolation"
+    ],
+    "OPEN": [
+      "c_(m,>6m)=1",
+      "small-prime residual content",
+      "beta and multi-parent matching",
+      "a total compatible capacity ceiling and Route-1 closure"
+    ]
+  },
+  "capacity": {
+    "large_prime_component_ceiling_exact": "log(136)/6",
+    "large_prime_component_ceiling_decimal": "0.818775814289342001416871830374609...",
+    "new_total_content_ceiling": false,
+    "new_total_route1_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "new_booking": 0
+  }
+}

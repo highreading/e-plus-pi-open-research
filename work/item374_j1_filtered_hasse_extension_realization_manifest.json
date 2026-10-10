@@ -1,0 +1,94 @@
+{
+  "item": 374,
+  "schema": "item374-j1-filtered-hasse-extension-realization-manifest-v1",
+  "classification": "PROVED_EXACT_FILTERED_HASSE_REALIZATION_WITH_HORIZONTAL_INFORMATION_NEUTRALITY",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual fixed-j1 transverse coordinate as a graded Hasse invariant, minimal rank, full isocrystal invertibility, unipotent residue product, support growth, semisimple blindness, Teichmueller carry, and capacity",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item369_j1_cyclic_companion_compatibility_barrier_report.md": "676b7f68b3602c1ebbd743779845fd4fe3f511484a3f2e7033ac5ff27d0544b9",
+    "scripts/item369_j1_cyclic_companion_compatibility_barrier_certificate.py": "cd9ef9480809552083b667ea7fcc2c4657ffb104f1558a5f0b5920e6bf7171ea",
+    "results/item369_j1_cyclic_companion_compatibility_barrier_certificate.json": "24ce6c7dae148763699358971170e7cfae6a72a4313b4344c4fb3e4244133d83",
+    "results/item369_j1_cyclic_companion_compatibility_barrier_certificate_replay.json": "24ce6c7dae148763699358971170e7cfae6a72a4313b4344c4fb3e4244133d83",
+    "results/item369_j1_cyclic_companion_compatibility_barrier_root_replay.json": "24ce6c7dae148763699358971170e7cfae6a72a4313b4344c4fb3e4244133d83",
+    "results/item369_j1_cyclic_companion_compatibility_barrier_ledger_delta.json": "87175da5ed0b16419d4d463e02fe96f7b7c3f30c8cf5b876a24b6d8f6702a468",
+    "results/item369_j1_cyclic_companion_compatibility_barrier_root_audit.json": "a8e84b3ad547c41deb6b4eac2066ae097cef88cf6943ec3aead9da1d3d357b59",
+    "manifests/item369_j1_cyclic_companion_compatibility_barrier_manifest.json": "dd602f42797fe29bef053373eff93ef7ddd13422bd93ad914a31195be64f9b1d",
+    "sources/item371_j1_determinant_horizontal_compatibility_no_go_report.md": "9d4ece939ce2d644058f9d8da27f2c2d9697e6674d3c2bb8543d42f87a1713d9",
+    "scripts/item371_j1_determinant_horizontal_compatibility_no_go_certificate.py": "2105cf70cd15b3f272f99e76605aa4fec661037e839172c93b6faeb755bcd83f",
+    "results/item371_j1_determinant_horizontal_compatibility_no_go_certificate.json": "e0eb9298d30cd3938d3be409d90444700c4f03b312269100d756ac62d9e0b8fb",
+    "results/item371_j1_determinant_horizontal_compatibility_no_go_certificate_replay.json": "e0eb9298d30cd3938d3be409d90444700c4f03b312269100d756ac62d9e0b8fb",
+    "results/item371_j1_determinant_horizontal_compatibility_no_go_root_replay.json": "e0eb9298d30cd3938d3be409d90444700c4f03b312269100d756ac62d9e0b8fb",
+    "results/item371_j1_determinant_horizontal_compatibility_no_go_ledger_delta.json": "1892db2b67ab145ca24eadde59af314267a4afd78e22047df271c73a4ee12309",
+    "results/item371_j1_determinant_horizontal_compatibility_no_go_root_audit.json": "7aa4a6f8199c6046ac50616de523fb50b68d8c2837522ba557522072e66df13f",
+    "manifests/item371_j1_determinant_horizontal_compatibility_no_go_manifest.json": "c55bd136dac9c8bc8be84d8f1bd0049256880814c1297f257918c3612c741af8"
+  },
+  "artifacts": {
+    "report": {
+      "path": "sources/item374_j1_filtered_hasse_extension_realization_report.md",
+      "sha256": "ac04f52132e3355692b1744d625f765dd6b0d1e74f90b123ebd599c135b009d2",
+      "bytes": 15860
+    },
+    "certificate_script": {
+      "path": "scripts/item374_j1_filtered_hasse_extension_realization_certificate.py",
+      "sha256": "45802992e5347d83660a520db3cebd72681908bf80b3406795a594fb514fdfbe",
+      "bytes": 18265
+    },
+    "certificate": {
+      "path": "results/item374_j1_filtered_hasse_extension_realization_certificate.json",
+      "sha256": "609f378221a2aafa823947dd967fe0c626df3c74ff726681e406d9b1d4a4fcaf",
+      "bytes": 12898
+    },
+    "replay": {
+      "path": "results/item374_j1_filtered_hasse_extension_realization_certificate_replay.json",
+      "sha256": "609f378221a2aafa823947dd967fe0c626df3c74ff726681e406d9b1d4a4fcaf",
+      "bytes": 12898,
+      "byte_identical_to_certificate": true
+    },
+    "ledger": {
+      "path": "results/item374_j1_filtered_hasse_extension_realization_ledger_delta.json",
+      "sha256": "3f7fbd0dc0801d84f324fc5f2f426fd00567cb7d79cff895c1c7e09abe5dcfd1",
+      "bytes": 2922
+    }
+  },
+  "theorems": [
+    "the actual transverse coordinate Q0 is exactly the graded Hasse invariant of a strongly generated rank-two Fontaine-Laffaille-type module with Hodge weights (0,1)",
+    "rank two is minimal for a nonzero map from Fil^1/p to the complementary graded quotient",
+    "full Frobenius has determinant p and remains an isogeny after inverting p while its characteristic polynomial (X-p)(X-1) is independent of Q0",
+    "the additive transverse moment has an exact residue-level product realization in the invertible unipotent group",
+    "the pointwise product has at least p^2-1-[4+2(p-1)+2|h-s|] nonidentity factors on the actual family",
+    "fixed rank, fixed Hodge polygon, strong generation, and semisimple Frobenius data are horizontally information-neutral because every residue q admits the same construction",
+    "naive Teichmueller lifting of the residue-level additive product acquires a generally nonzero first carry digit",
+    "the full 1/36 ceiling is retained and zero is booked"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "minimal rank-two filtered-Hasse realization",
+      "full isocrystal invertibility and fixed Hodge data",
+      "exact residue unipotent local-product identity",
+      "quadratically growing nonidentity pointwise support",
+      "semisimple characteristic-polynomial blindness",
+      "fixed-rank and fixed-Hodge information-neutrality",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "four predeclared actual rows verifying the first Teichmueller carry; no prime scan"
+    ],
+    "OPEN": [
+      "a prime-independent geometric or compatible extension family whose local class is the actual Q0",
+      "bounded-base, bounded-connection, bounded-conductor horizontal control of that extension class",
+      "selector-aware nonconcentration or average-gcd control for local splitting Q0=0",
+      "weighted joint-zero density, any strict fixed-j1 ceiling reduction, Route 1, and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_log_mass": "M/6+o(M)",
+    "raw_ceiling_per_6M": "1/36",
+    "weighted_target": "W_(H,Q)(M)=o(M)",
+    "weighted_target_proved": false,
+    "new_linear_log_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0,
+    "retained_ceiling_per_6M": "1/36"
+  }
+}

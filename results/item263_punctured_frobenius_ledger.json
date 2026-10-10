@@ -1,0 +1,63 @@
+{
+  "schema": "item263-punctured-frobenius-ledger-v1",
+  "checked": "2026-08-31 Asia/Shanghai",
+  "scope": "Route 1 ordinary-j=2 punctured elliptic Frobenius/Cartier branch",
+  "proved": [
+    "The odd residue quotient for D above X^3=1 has basis e_k(alpha,beta)=alpha^k/beta, k=0,1,2.",
+    "Geometric Frobenius sends (alpha,beta) to (alpha^p,epsilon beta), and Cartier sends e_k to epsilon e_(k*p^(-1) mod 3).",
+    "For p=6q+1: C(omega_0)=epsilon omega_0+(H_q-h_q)eta, C(omega_1)=epsilon omega_1, C(omega_2)=epsilon omega_2, C(eta)=h_q eta, C(xi)=0.",
+    "For p=6q+5: C(omega_0)=epsilon omega_1, C(omega_1)=epsilon omega_0+H_q eta, C(omega_2)=epsilon omega_2, C(eta)=0, C(xi)=-h_q eta.",
+    "The p=5 phase target class satisfies C^2(omega_1)=omega_1, but the finite endpoint functional is nonzero on an exact differential for every actual prime.",
+    "On the p=1 phase, 30*d_0+12*d_1=epsilon, so at least one of two exact-differential endpoints is nonzero for every actual prime.",
+    "The finite endpoint dictionary recovers exactly H_q and h_q, and the full Item-251 period remains A_s=(-1)^m{epsilon[H_q-D_r h_q]-1}.",
+    "All phase denominators and puncture boundaries are p-units or explicitly omitted."
+  ],
+  "scoped_no_go": "Scalar Cartier invariants do not see H_q; the only extension entry that sees H_q is the moving prefix itself, while the finite sum does not descend to de Rham cohomology. Thus this natural Frobenius/residue/endpoint closure supplies no independent collision condition.",
+  "exact_witnesses": {
+    "ordinary_split_gap_not_unit": [
+      19,
+      3,
+      18,
+      14,
+      15
+    ],
+    "p5_extension_can_vanish": [
+      83,
+      13,
+      22,
+      0
+    ],
+    "actual_cutoff_zero_p1": [
+      43,
+      11,
+      3,
+      2,
+      5
+    ],
+    "actual_cutoff_zero_p5": [
+      47,
+      7,
+      5,
+      4,
+      3
+    ]
+  },
+  "finite_check": {
+    "label": "EXACT FINITE ONLY",
+    "prime_limit": 401,
+    "prime_phases": 77,
+    "endpoint_checks_p1": 1150,
+    "endpoint_checks_p5": 1192,
+    "actual_cutoff_and_item251_rows": 1153
+  },
+  "booking": {
+    "new_unconditional_route1_rate": 0,
+    "new_ordinary_j2_capacity_reduction": 0,
+    "reason": "No all-prime exclusion or weighted zero theorem; actual zeros remain in both phases."
+  },
+  "forbidden_inference": [
+    "Do not treat the finite endpoint sum as a functional on de Rham cohomology.",
+    "Do not infer a density or rate from the bounded exact scan.",
+    "Do not claim this scoped Cartier obstruction excludes every p-adic, crystalline, or automorphic approach."
+  ]
+}

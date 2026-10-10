@@ -1,0 +1,59 @@
+{
+  "item": 415,
+  "schema": "item415-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_FULL_CARTIER_NORMALIZATION_AND_STRICT_LARGE_COMPONENT_CEILING_REDUCTION_NO_BOOKING",
+  "scope": "independent root audit of the inherited Item200 divisor, Item390 all-depth bridge, fully normalized carrier, marked-coordinate transport, component-ceiling arithmetic, overlap rules, dependencies, and deterministic replay",
+  "checks": {
+    "canonical_dependencies_checked": 10,
+    "canonical_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "control_characters": 0,
+    "finite_range_used_only_for_normalization": "1<=m<=160",
+    "finite_to_infinite_inference_used": false,
+    "root_repairs": "Canonicalized all artifact and replay paths and status. The work package itself was corrected before promotion to attribute F_m divisibility and its asymptotic rate to canonical Item200, use audited canonical Item412 pins, remove a control-character typo, and claim only the genuinely new Item200-plus-Item390 synthesis."
+  },
+  "mathematical_audit": {
+    "integrality": "Both lambda coordinates are coefficients of integral formal power series because every negative-binomial coefficient in (1+y^2)^-k is integral.",
+    "inherited_forced_divisor": "Canonical Item200 proves the exact squarefree rank-zero Cartier product F_m=G_m divides both lambda coordinates, every factor of F_m is at most 6m, and log F_m=C_F*m+o(m), with C_F=-4 log 2+pi/sqrt(3)+3 log 3. Item415 does not rebook this content.",
+    "interval_rederivation": "For 4m+1<ell<6m, Frobenius truncation replaces the two kernels below degree ell by polynomials of degrees ell-2m-1 and ell-2m, below the target degrees. This independently recovers only Item200's j=0 subproduct.",
+    "all_depth_quotient": "Since every target prime p is greater than 6m, F_m is a p-unit. Thus mu_s=lambda_s/F_m is integral and has exactly the same p-adic valuation as lambda_s. Combining this with Item390 gives the exact all-depth carrier c_m^>=(gcd(|mu_0|,|mu_1|))_(p>6m).",
+    "height_and_ceiling": "Item390 gives |lambda_0|<3*136^m and |lambda_1|<21*136^m for all sufficiently large m, with at least one nonzero. Dividing the nonzero bound by F_m yields c_m^><21*136^m/F_m and therefore limsup log(c_m^>)/(6m)<=(log136-C_F)/6.",
+    "marked_transport": "The fixed-gap congruences identify the Item390 lambda pair with the evaluated Item411 generator pair modulo p. Solving the determinant-6 transport at n=-6m-1 mod p gives the displayed integral A/B transform of determinant -2(4m+1), a p-unit for p>6m. Hence it preserves all valuation depths and the Frobenius-selected branch.",
+    "overlap": "The reduction is an upper bound for the disjoint strictly-large component only. F_m was already removed in the frozen normalization and may overlap earlier Cartier strata. Item393 prevents subtracting this component upper bound from a global total-content upper bound without a lower bound for the component."
+  },
+  "proved_capacity_update": {
+    "C_F": "-4 log(2)+pi/sqrt(3)+3 log(3)=2.3370475079987656871108854825...",
+    "previous_strictly_large_component_ceiling": "log(136)/6=0.8187758142893420014168718304...",
+    "new_strictly_large_component_ceiling": "(log(136)-C_F)/6=0.4292678962895477202317242499...",
+    "component_ceiling_improvement": "C_F/6=0.3895079179997942811851475804...",
+    "new_booking": 0,
+    "global_total_content_ceiling_delta": 0,
+    "frozen_deficit_delta": 0
+  },
+  "strict_labels": {
+    "PROVED_NEW_SYNTHESIS": [
+      "the fully Item200-normalized all-depth p>6m carrier",
+      "the strict-large component ceiling reduction by C_F/6"
+    ],
+    "INHERITED_NOT_REBOOKED": [
+      "F_m=G_m divisibility and log F_m=C_F*m+o(m)",
+      "Item390's all-depth identity and 136^m height"
+    ],
+    "OPEN": [
+      "valuation-weighted zero density for the normalized carrier",
+      "uniform selected-branch noncollision",
+      "a global total-content ceiling reduction, Route 1, and every conclusion about e+pi"
+    ]
+  },
+  "route_status": {
+    "route1": "ACTIVE",
+    "route2": "QUEUED",
+    "booked_rate": "0.1365141682948128184504238226...",
+    "frozen_deficit": "1.0196329836694317938803064012..."
+  }
+}

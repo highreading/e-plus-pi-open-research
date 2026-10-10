@@ -1,0 +1,57 @@
+{
+  "schema": "item350-beta-mesoscopic-first-hit-crt-no-go-self-audit-v1",
+  "item": 350,
+  "date": "2026-09-01",
+  "status": "PASS",
+  "auditor_role": "author-side mechanical and scope check; root remains the independent auditor",
+  "checks": {
+    "json_files_parse": true,
+    "certificate_script_compiles": true,
+    "certificate_replay_succeeds": true,
+    "certificate_replay_byte_identical": true,
+    "dependency_hashes_verified_by_replay": 14,
+    "report_inline_dollar_delimiters": "204/204",
+    "report_display_delimiters": "38/38",
+    "report_fences": "2/2",
+    "report_control_characters": 0,
+    "false_A_minus_9_claim_absent": true,
+    "canonical_files_modified": false
+  },
+  "independent_style_declared_control": {
+    "method": "standalone direct recurrence recomputation without importing the certificate module",
+    "declared_n_values": [
+      6,
+      13,
+      30
+    ],
+    "checked": [
+      "zero 3-by-3 top determinant",
+      "row_Delta=-A*row_t+row_z",
+      "Delta+A*t-z_(m-1)=A*c-a+rho_lower for both signs",
+      "rho_lower content",
+      "gcd(b,A^2+1) as a declared slice control"
+    ],
+    "rows_digest": "cc9a35563d83b8c731dad7917fd0e557541f7904cdc628d25102adab6e26b5e5",
+    "finite_rows_promoted": false
+  },
+  "mathematical_scope_checks": {
+    "actual_item316_implication_and_raw_capacity_precede_proof": true,
+    "load_coordinate_map_unimodular": true,
+    "window_identity_all_depth_not_one_more_local_depth": true,
+    "load_only_elimination_ideal_zero": true,
+    "linear_active_depth_requirement_preserved": true,
+    "penultimate_top_gradient_resonance_explicit": true,
+    "global_rho_lower_term_not_dropped": true,
+    "A_squared_plus_1_claim_restricted_to_lower_zero_slice": true,
+    "A_squared_plus_1_actual_family_exclusion_claim": false,
+    "rho_lower_primitive_escape_explicit": true,
+    "formal_CRT_not_promoted_to_actual_beta_specialization": true,
+    "earlier_row_avoidance_imposed": false,
+    "formal_first_occurrence_claim": false,
+    "canonical_small_h_matching_open": true,
+    "actual_Xi_Q_open": true,
+    "actual_Gamma_Q_open": true,
+    "booking_zero": true
+  },
+  "independent_audit_required": true
+}

@@ -1,0 +1,48 @@
+{
+  "item": 386,
+  "schema": "item386-beta-target-forced-low-degree-no-go-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_TARGET_FREEDOM_AND_EXACT_COORDINATE_GCD_CLOSURE",
+  "scope": "independent root audit of endpoint-coordinate freeness, singleton-torus geometry, top-symmetric projective independence, the finite-field degree condition, exact actual gcd overlap, and capacity scope",
+  "checks": {
+    "work_hash_entries": 6,
+    "work_hash_failures": 0,
+    "frozen_dependencies_checked": 9,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "integer_bridge_rows_rechecked": true,
+    "formal_torus_controls_used_as_density_evidence": false
+  },
+  "mathematical_audit": {
+    "endpoint_coordinate": "Item 365 proves that the coefficient of d1 in the endpoint defect is a unit modulo every p dividing b. Solving for d1 leaves the retained row-load coordinates polynomially free over every p^r.",
+    "singleton_chart": "Setting exactly one retained load to zero and localizing all outside loads therefore leaves a full (N-1)-dimensional torus. The sign-chamber units do not change this conclusion.",
+    "symmetric_coordinates": "On that chart T_s/T_1=e_(s-1)(z_1^-1,...,z_(N-1)^-1). Initial elementary symmetric polynomials are algebraically independent, so no nonzero fixed polynomial relation is inherited from the endpoint.",
+    "finite_field_scope": "After substituting a homogeneous degree-d form in the first k coordinates, total degree is at most d(k-1). If this is below p-1, induction in the torus variables proves that its polynomial function is not identically zero. For the tied primes, all listed linear and quadratic Item-381 forms satisfy the condition.",
+    "actual_gcd": "At an actual singleton prime, T1 is the product of all outside unit loads and is a p-unit. Since U_(1,1) is squarefree, its gcd with gcd(T1,...,Tk) is exactly one for every k.",
+    "logical_boundary": "Formal torus freedom does not prove that the unique actual canonical point avoids a moving split line, norm, or conic. Such an actual-point correlation remains an independent arithmetic problem.",
+    "capacity": "The target-forced low-degree mechanism is closed and coordinate-gcd overlap is zero, but no upper bound for U_(1,1) or Gamma_Q follows. Zero mass and zero capacity reduction are booked."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "formal target-singleton load freedom",
+      "projective top-symmetric algebraic independence",
+      "function-level nonidentity under d(k-1)<p-1",
+      "exact actual coordinate-gcd coprimality",
+      "zero incremental target-forced low-degree capacity"
+    ],
+    "OPEN": [
+      "an accidental actual-point divisibility theorem",
+      "a candidate-independent sub-beta carrier",
+      "weighted singleton and Gamma_Q bounds",
+      "Route 1 and e+pi"
+    ]
+  },
+  "capacity": {
+    "coordinate_gcd_overlap_with_U_1_1": 0,
+    "new_route1_rate": 0,
+    "new_beta_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

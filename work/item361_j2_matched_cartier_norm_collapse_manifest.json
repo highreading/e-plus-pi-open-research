@@ -1,0 +1,75 @@
+{
+  "item": 361,
+  "schema": "item361-j2-matched-cartier-norm-collapse-manifest-v1",
+  "classification": "PROVED_MATCHED_CARTIER_REDUCTION_COLLAPSES_TO_OLD_ENDPOINT_NORM",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual fixed-M matched coefficient, complete ordinary Cartier digits, and target-free phase elimination",
+  "dependencies": {
+    "sources/item315_j2_resultant_arithmetic_report.md": "3ce61af707268ceed6db0355a31333492bd8b07ec34e455cbee874fc6a2291b8",
+    "scripts/item315_j2_resultant_arithmetic_certificate.py": "42def823c42497fa9ce4c5513c348464511a56cc6ff12480bec60408c9733b81",
+    "results/item315_j2_resultant_arithmetic_certificate.json": "09fdd67a6535a043bcbd1e2a46c4b14a633b9928a5f1c65618c34fab65cfabb6",
+    "results/item315_root_audit.json": "b764ea214de0c99a6398c981a5d35ca5b911c4d08e7e128f55276a30b1ea66d6",
+    "manifests/item315_j2_resultant_arithmetic_manifest.json": "698abf2124e564c63cf4d1142cd33e872d6fb6b4da21e4e6ec7ac26c43c7a8c1",
+    "sources/item359_j2_fixedM_cross_prime_coefficient_barrier_report.md": "f9dac057bcbbab144f5cc38964f997e5fcef14ff718a1ebd7615bc4fc6869edb",
+    "scripts/item359_j2_fixedM_cross_prime_coefficient_barrier_certificate.py": "ec07fcb23d72e42e17f6f53f7263dc4aa2c9e611c02f355389566c927216b28e",
+    "results/item359_j2_fixedM_cross_prime_coefficient_barrier_certificate.json": "b8ad2ebf3cc93b43649ff26d3c6deba888b4046d39224193b1c2ea53afa98227",
+    "results/item359_j2_fixedM_cross_prime_coefficient_barrier_root_audit.json": "c6525ce001fb786619aee6aa48fb84009a7b14d6370e628d0c3f9945c369319a",
+    "manifests/item359_j2_fixedM_cross_prime_coefficient_barrier_manifest.json": "6734e4b46e80892c6a8ac845064fa1f89e0e79e87d51af32f094e7279c89db3d"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item361_j2_matched_cartier_norm_collapse_report.md",
+      "sha256": "0ad329d64d00853fd1b8adca1c982790bd293f01bdc1ea356ad3858374683af8",
+      "bytes": 12123
+    },
+    "certificate_script": {
+      "path": "work/item361_j2_matched_cartier_norm_collapse_certificate.py",
+      "sha256": "0e9bedafc98327c9d4d04311f3ca632fccc865358d074c174b33cc9643629208",
+      "bytes": 16283
+    },
+    "certificate": {
+      "path": "work/item361_j2_matched_cartier_norm_collapse_certificate.json",
+      "sha256": "4c772bf20c3a48e5f1f50672895de6f414cf7156bd037266c7ffd19c00789fdc",
+      "bytes": 6256
+    },
+    "replay": {
+      "path": "work/item361_j2_matched_cartier_norm_collapse_certificate_replay.json",
+      "sha256": "4c772bf20c3a48e5f1f50672895de6f414cf7156bd037266c7ffd19c00789fdc",
+      "bytes": 6256
+    },
+    "ledger": {
+      "path": "work/item361_j2_matched_cartier_norm_collapse_ledger.json",
+      "sha256": "d05641e2eceddd0a18ddd730a92e58888001c5e92928e655a7f8e596e98ab03d",
+      "bytes": 4880
+    }
+  },
+  "proved": [
+    "the matched indices have exactly one high base-p digit",
+    "both rational branch coefficients reduce exactly from exponent p+t to t",
+    "the low digit is exactly the old a_r,b_r two-branch gate",
+    "the selected phase cube is 2^(2r+2)",
+    "target-free phase elimination gives exactly Item315's old endpoint norm",
+    "ordinary Lucas/Dwork digit reduction terminates at the selected two-branch gate",
+    "raw-capacity and chart-overlap audit"
+  ],
+  "exact_finite_only": [
+    "seven predeclared actual rows",
+    "five symbolic rational elimination controls",
+    "no prime scan and no collision census"
+  ],
+  "open": [
+    "weighted nonconcentration of the actual selected cubic component",
+    "joint correlation with H_(s-1)-Theta_(r,s)",
+    "selected-component reciprocity or average-gcd theorem",
+    "higher p-adic information genuinely forced by the ordinary collision"
+  ],
+  "capacity": {
+    "raw_fixed_M_chebyshev_mass": "(2/35)M+o(M)",
+    "ordinary_j2_ceiling_per_6M": "1/105",
+    "ray_capacity_per_6M": "1/210 for each of p=1,5 mod 6",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "overlap_rule": "nondegenerate and degenerate charts partition one raw interval and are not additive"
+  },
+  "replay_command": "python scripts/item361_j2_matched_cartier_norm_collapse_certificate.py --output results/item361_j2_matched_cartier_norm_collapse_certificate_replay.json"
+}

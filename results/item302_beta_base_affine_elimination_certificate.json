@@ -1,0 +1,76 @@
+{
+  "admission": {
+    "actual_half_bound": "OPEN",
+    "base_reaching_affine_elimination": "PROVED SCOPED NO INDEPENDENT ENDPOINT IDENTITY",
+    "item282_product_baseline": "OPEN AND SEPARATE",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "positive_linear_capacity_admission": "FAIL",
+    "proper_target_nonvanishing": "PROVED, LOWER BOUND 1 ONLY",
+    "proper_target_upper_construction": "OPEN",
+    "seed_modular_square_or_ostrowski_invariant": "OPEN",
+    "stronger_item295_inequality": "OPEN"
+  },
+  "bounded_exact_checks": {
+    "actual_half_bound_scan": false,
+    "base_composition": {
+      "digest": "3ca0389d47cbb39bd37c20755eff42145b758ec10344c1e1ce9a12af74eb856b",
+      "half_bound_scan": false,
+      "label": "EXACT FINITE ONLY",
+      "range": [
+        2,
+        72
+      ],
+      "rows": 71
+    },
+    "continuants": {
+      "digest": "5806e9ffbc21b775720e5f5a9afa10aad4c1a09a3edd1a45530a398939ba47f0",
+      "finite_fit": false,
+      "label": "EXACT FINITE ONLY",
+      "range": [
+        2,
+        72
+      ],
+      "rows": 71
+    },
+    "counterexample_search": false,
+    "exceptional_prime_search": false,
+    "finite_fit": false,
+    "label": "EXACT FINITE ONLY",
+    "units_and_congruences": {
+      "digest": "aa985991eecfcfbb7f56a6c26a69bae65f9cfbb844aa632779bb60891b121af1",
+      "exceptional_prime_search": false,
+      "label": "EXACT FINITE ONLY",
+      "proper_divisor_nonvanishing_follows_from_gcd": true,
+      "range": [
+        2,
+        72
+      ],
+      "rows": 71
+    }
+  },
+  "description": "Exact full beta affine composition, alternating Turan numerator, continuant and matrix coordinates, endpoint elimination ideal, and all-divisor unit congruence",
+  "schema": "item302-beta-base-affine-elimination-certificate-v1",
+  "symbolic_proof_data": {
+    "endpoint_elimination": {
+      "base_generator": "E_2=7*X_2-6",
+      "endpoint_polynomial": "E_j=q_j*X_j-T_j",
+      "gauss_lemma": "I intersect Z[X_n]=<q_n*X_n-T_n>",
+      "induction": "E_j=R_j-E_(j-1)",
+      "label": "PROVED SYMBOLIC IN REPORT",
+      "primitivity": "gcd(T_n,q_n)=gcd(q_(n-1)^2,q_n)=1",
+      "rational_elimination": "I_Q intersect Q[X_n]=<X_n-T_n/q_n>",
+      "ring": "Z[X_2,...,X_n]",
+      "scope": "base-reaching affine-elimination identities only; nearest digits, inequalities, and modular-square estimates open",
+      "update_generators": "R_j=q_j*X_j+q_(j-1)*X_(j-1)-4*q_(j-1)*q_(j-2)"
+    }
+  },
+  "theorem": {
+    "continuant": "q_n=K(7,10,14,...,4n-2) and q_n/q_(n-1)=[4n-2;4n-6,...,10,7]",
+    "endpoint_elimination": "I_n intersect Z[X_n]=<q_n*X_n-T_n>",
+    "full_composition": "T_n=(-1)^(n-2)*6+4*sum_(j=3)^n (-1)^(n-j)q_(j-1)q_(j-2)",
+    "scope_limit": "does not cover nonlinear nearest digits, inequalities, modular-square distribution, or all linear-depth methods",
+    "scoped_no_go": "full base-reaching affine-elimination identities give no independent endpoint polynomial",
+    "unit_square": "for every Q|q_n, centered r_(n,Q) is a nonzero square unit and |r_(n,Q)|>=1"
+  }
+}

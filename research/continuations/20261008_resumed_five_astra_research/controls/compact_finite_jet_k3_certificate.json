@@ -1,0 +1,158 @@
+{
+  "all_checks_passed": true,
+  "scope": "NEW bounded k3,p149 mixed minors, finite jet integrality and exact all-prime cofactor/content-payment identities only; no uniform normality or irrationality theorem",
+  "coordinator_authored": true,
+  "external_code_executed": false,
+  "network_or_keys_used": false,
+  "k": 3,
+  "prime": 149,
+  "Lambda": 45045,
+  "source_boundary": {
+    "moment_max": 7,
+    "factorial_max": 14,
+    "last_odd": 13
+  },
+  "interpolation_matrix": [
+    [
+      1,
+      2,
+      24
+    ],
+    [
+      1,
+      12,
+      360
+    ],
+    [
+      1,
+      30,
+      1680
+    ]
+  ],
+  "interpolation_determinant": 7152,
+  "actual_paid_Z_minor_mod149": 132,
+  "actual_paid_Y_minor_mod149": 95,
+  "Z_raw_mod149": [
+    [
+      0,
+      2,
+      8,
+      1,
+      25
+    ],
+    [
+      2,
+      8,
+      117,
+      25,
+      121
+    ],
+    [
+      8,
+      117,
+      81,
+      121,
+      42
+    ],
+    [
+      117,
+      81,
+      71,
+      42,
+      22
+    ],
+    [
+      81,
+      71,
+      139,
+      22,
+      11
+    ],
+    [
+      71,
+      139,
+      138,
+      11,
+      14
+    ]
+  ],
+  "Y_raw_mod149": [
+    [
+      2,
+      10,
+      125,
+      1,
+      25,
+      121
+    ],
+    [
+      10,
+      125,
+      49,
+      25,
+      121,
+      42
+    ],
+    [
+      125,
+      49,
+      3,
+      121,
+      42,
+      22
+    ],
+    [
+      49,
+      3,
+      61,
+      42,
+      22,
+      11
+    ],
+    [
+      3,
+      61,
+      128,
+      22,
+      11,
+      14
+    ]
+  ],
+  "triangular_Z_diagonal": [
+    6,
+    60,
+    210,
+    504,
+    990,
+    1716
+  ],
+  "triangular_Y_diagonal": [
+    120,
+    2520,
+    15120,
+    55440,
+    154440
+  ],
+  "triangular_Z_integer_unit_determinant": 1,
+  "triangular_Y_integer_unit_determinant": 1,
+  "J_Z_and_J_Y_integral": true,
+  "actual_R": 6656,
+  "actual_L": 292864,
+  "actual_C_Z": 1769472,
+  "actual_C_Y": 1630745395200,
+  "actual_zeta_Z": 120,
+  "actual_chi_Y": 3465,
+  "t_Z": 64729881216000,
+  "t_Y": 39148632159436800000,
+  "primitive_transformed_Z_cofactor": [
+    -1732638331453295821635952,
+    -727586545480559195853420,
+    137221905897937348087705,
+    8084579835804924881163,
+    94845612276217052019,
+    -190018155112611683
+  ],
+  "complete_content_identities_verified": true,
+  "seconds": 0.023,
+  "code_sha256": "933edd0ea185be628a6857499045c4f3e3132b64b3d7f74ca15642785c25fb63"
+}

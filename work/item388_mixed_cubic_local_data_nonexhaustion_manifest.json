@@ -1,0 +1,24 @@
+{
+  "artifact": "item388_mixed_cubic_local_data_nonexhaustion_manifest",
+  "audit_status": "WORK_ONLY_UNAUDITED",
+  "files": [
+    "work/item388_mixed_cubic_local_data_nonexhaustion_report.md",
+    "work/item388_mixed_cubic_local_data_nonexhaustion_certificate.py",
+    "work/item388_mixed_cubic_local_data_nonexhaustion_certificate.json",
+    "work/item388_mixed_cubic_local_data_nonexhaustion_certificate.replay.json",
+    "work/item388_mixed_cubic_local_data_nonexhaustion_ledger.json",
+    "work/item388_mixed_cubic_local_data_nonexhaustion_manifest.json",
+    "work/item388_mixed_cubic_local_data_nonexhaustion_hashes.sha256"
+  ],
+  "dependencies": [
+    "ROUTE1_MASTER_CAPACITY.md",
+    "sources/mixed_cubic_small_prime_rank_one_cartier_mass.md",
+    "sources/mixed_cubic_rank_two_cartier_determinant.md",
+    "sources/item163_deeper_digits.md",
+    "sources/item163_sequential_matching_mass_audit.md",
+    "sources/item199_matching_gain_report.md",
+    "sources/item201_comparable_gap_report.md"
+  ],
+  "replay": "python work/item388_mixed_cubic_local_data_nonexhaustion_certificate.py --output work/item388_mixed_cubic_local_data_nonexhaustion_certificate.replay.json",
+  "scope": "Information-class countermodels only; no actual row is modified or inferred, no central file is edited, and no mass is booked."
+}

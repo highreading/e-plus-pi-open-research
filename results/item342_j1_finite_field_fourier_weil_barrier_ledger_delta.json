@@ -1,0 +1,53 @@
+{
+  "schema": "item342-j1-finite-field-fourier-weil-barrier-ledger-delta-v1",
+  "item": 342,
+  "date": "2026-09-01",
+  "canonical_edit_performed": false,
+  "proposed_status": "PROVED_EXACT_FINITE_FIELD_KUMMER_LIFT_AND_SCOPED_FOURIER_WEIL_NO_GO",
+  "proposed_ledger_entry": "Item 342 gives an exact all-row finite-field model for Item 339's integral selected carrier. With H=G^(p-r), Freshman's dream gives a_(r,n)=[u^n]H mod p and deg H=2p+2n. A plain multiplicative Fourier moment over F_p aliases exactly c_n, c_(n+p-1), and c_(n+2p-2), so its square-root bound does not isolate the forced coefficient. One moment over F_(p^2) isolates c_n exactly, but its square-root scale is p. Three Euler moments over F_p de-alias exactly through a 3x3 Vandermonde identity. Expanding those moments gives a Teichmueller lift T in Z[zeta_(p-1)] built from four fixed-support Kummer sums; every conjugate satisfies |sigma(T)|<=21 sqrt(p), and T reduces to a_(r,n) at one chosen prime above p. Since p splits completely and the coefficient field has degree phi(p-1), the norm bound (21 sqrt(p))^phi(p-1) is compatible with divisibility at one prime. Thus plain Fourier extraction plus black-box Weil bounds, with or without finite Euler de-aliasing, cannot by itself reduce the fixed-j1 ceiling. The transform reaches all rows, so the missing input is genuinely p-adic: chosen-prime nonconcentration, a unit-root theorem, bounded-degree descent plus exact trace nonvanishing, or a new relation controlling the two aliases. Booking and ceiling reduction remain zero; the fixed-j1 ceiling remains 1/36 per 6M.",
+  "capacity": {
+    "support_reached": "all actual fixed-j1 rows",
+    "raw_fixed_j1_prime_mass": "M/6+o(M)",
+    "proved_mass_excluded_by_complex_bounds": 0,
+    "new_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "new_independent_condition": 0,
+    "retained_ceiling_per_6M": "1/36"
+  },
+  "proved": [
+    "the positive-power Frobenius chart a_(r,n)=[u^n]G^(p-r) mod p with degree 2p+2n",
+    "the exact terminating 4F3 representation",
+    "the exact three-alias theorem for a plain F_p Fourier moment",
+    "exact target isolation by one F_(p^2) Fourier moment",
+    "exact three-Euler-moment de-aliasing over F_p",
+    "a four-Kummer-sum Teichmueller lift with uniform 21 sqrt(p) conjugate bound",
+    "the cyclotomic chosen-prime norm obstruction",
+    "a scoped no-go for Fourier extraction plus Archimedean Weil bounds alone"
+  ],
+  "scoped_no_go": [
+    "a plain base-field Fourier moment has two unforced aliases and therefore no actual-gate implication",
+    "extension-field coefficient isolation has square-root scale p and cannot exclude p-divisibility",
+    "finite Euler de-aliasing plus conjugate-size estimates leaves divisibility at one split cyclotomic prime possible",
+    "complex trace bounds alone do not supply the required p-adic unit or weighted nonconcentration theorem"
+  ],
+  "exact_finite_only": [
+    "five preselected F_p and F_(p^2) controls; no prime scan or density inference",
+    "the two replay zeros are selected-carrier zeros, not claimed full ordinary collisions"
+  ],
+  "open": [
+    "chosen-prime p-adic nonconcentration or a unit-root theorem",
+    "rational or bounded-degree descent and exact trace nonvanishing",
+    "an actual-family relation controlling the two upper aliases",
+    "average gcd or factor localization for the Item339 rational carrier",
+    "W_b(M)=o(M), any strict fixed-j1 ceiling reduction, fixed-j1 closure, Route 1, and every conclusion about e+pi"
+  ],
+  "not_claimed": [
+    "a weighted zero-density theorem",
+    "that Weil bounds are irrelevant after an additional p-adic or descent theorem",
+    "that the Kummer lift is rational or has bounded field degree",
+    "that p dividing a_(r,n) is sufficient for the original collision",
+    "a new independent condition or any ledger gain",
+    "an asymptotic inference from finite controls"
+  ]
+}

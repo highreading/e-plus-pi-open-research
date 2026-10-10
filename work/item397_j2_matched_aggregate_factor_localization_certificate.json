@@ -1,0 +1,176 @@
+{
+  "actual_formula_sharp_slice_replays": [
+    {
+      "M": 20,
+      "interval": [
+        17,
+        17
+      ],
+      "pair_checks": 0,
+      "rows": 1,
+      "sharp_lcm": 1,
+      "sharp_nontrivial_rows": 0,
+      "sharp_product": 1,
+      "sharp_row_digest_sha256": "5c0d219a245e532f24cad4f6c0fe8d696312a7203e41096094c9c82f182e4a9c"
+    },
+    {
+      "M": 35,
+      "interval": [
+        29,
+        29
+      ],
+      "pair_checks": 0,
+      "rows": 1,
+      "sharp_lcm": 1,
+      "sharp_nontrivial_rows": 0,
+      "sharp_product": 1,
+      "sharp_row_digest_sha256": "3b6a503fddab4287a8f6d808a1b97c6d0806bb9c6110abc0b0b6b158647e4b36"
+    },
+    {
+      "M": 100,
+      "interval": [
+        81,
+        85
+      ],
+      "pair_checks": 1,
+      "rows": 2,
+      "sharp_lcm": 1,
+      "sharp_nontrivial_rows": 0,
+      "sharp_product": 1,
+      "sharp_row_digest_sha256": "8df69a529dfabd5a0aa93bf7704b0e7b47cc015f97f4c81f6c8ed729f58591a9"
+    },
+    {
+      "M": 335,
+      "interval": [
+        269,
+        287
+      ],
+      "pair_checks": 21,
+      "rows": 7,
+      "sharp_lcm": 1,
+      "sharp_nontrivial_rows": 0,
+      "sharp_product": 1,
+      "sharp_row_digest_sha256": "3bea6a540bd39b3b4dd78bb3077d13726060824096aabb213d9632d1e4e813bb"
+    }
+  ],
+  "checked_date_beijing": "2026-09-01",
+  "constant_certificate": {
+    "C6_decimal": 0.12444924693451084,
+    "C6_fraction": "6979177263689987598318/56080510212831201972875",
+    "composite_decimal": 0.06730638979165371,
+    "composite_fraction": "3774576680099633199868/56080510212831201972875",
+    "fraction_of_envelope_removed": 0.5408340464050575,
+    "fraction_of_envelope_retained": 0.45916595359494244,
+    "normalized": {
+      "C6_over_6": 0.020741541155751806,
+      "composite_over_6": 0.011217731631942283,
+      "raw_over_6": 0.009523809523809525
+    },
+    "raw_decimal": 0.05714285714285714,
+    "raw_fraction": "2/35",
+    "support_separation": {
+      "6/35_less_than_4/5": true,
+      "u=1": "(4/5,6/7]",
+      "u>=5_upper_bound": "6/35"
+    }
+  },
+  "dependency_hashes_verified": {
+    "work/item315_j2_resultant_arithmetic_report.md": "74e9c2d950b08dd5ecfa5b57530399d9ed5a5a512fe26794c17b7d7eaa363755",
+    "work/item361_j2_matched_cartier_norm_collapse_report.md": "0ad329d64d00853fd1b8adca1c982790bd293f01bdc1ea356ad3858374683af8",
+    "work/item392_j2_growing_window_aggregate_no_go_report.md": "9fd149b27a8ca64c727c35fca4cd8a196da0d9172883b31bb3aa75c45873bb7a",
+    "work/item394_j2_matched_modulus_aggregate_collapse_certificate.json": "7d3fb95d1fe09d9508aa7e12d4bb87ef6f33887645f6691b64cd71fa2a0a56e1",
+    "work/item394_j2_matched_modulus_aggregate_collapse_certificate.py": "f75e9637cb6d120f748ffe82b746275c978a3301f623ac67218f0932e7916e08",
+    "work/item394_j2_matched_modulus_aggregate_collapse_ledger_delta.json": "dcde114b5ba5d0a793a7fa80b8b142505ac86835ae62640969ee0d08ac19cd53",
+    "work/item394_j2_matched_modulus_aggregate_collapse_report.md": "f0fd654dc80ad3c0eab26abfd8f8741e89ba572f825ef5afd214f2c149c01204"
+  },
+  "evidence_policy": {
+    "finite_rows_and_phases": "EXACT FINITE ONLY / DIAGNOSTIC",
+    "no_asymptotic_inference_from_enumeration": true
+  },
+  "item": 397,
+  "ledger": {
+    "closed_mechanism": "strict saving from shared factors among distinct matched rows, or from endpoint phase solvability alone",
+    "delta_booked_capacity": 0,
+    "delta_r1": 0,
+    "eta_per_M": 0,
+    "ordinary_j2_raw_normalized_ceiling": "1/105"
+  },
+  "phase_replay": {
+    "classification": "EXACT FINITE ONLY / DIAGNOSTIC",
+    "declared_rows": [
+      {
+        "equation": "t^3=1/2; unique because gcd(3,p-1)=1",
+        "k": 1,
+        "p": 17,
+        "phase": 15,
+        "r": 1,
+        "ray": 1,
+        "s": 2
+      },
+      {
+        "equation": "t^3=1/2; unique because gcd(3,p-1)=1",
+        "k": 1,
+        "p": 29,
+        "phase": 19,
+        "r": 1,
+        "ray": 1,
+        "s": 4
+      },
+      {
+        "equation": "t^3=1/2; unique because gcd(3,p-1)=1",
+        "k": 13,
+        "p": 83,
+        "phase": 5,
+        "r": 19,
+        "ray": 1,
+        "s": 7
+      },
+      {
+        "equation": "t^3=1; t lies in mu_3(F_p)",
+        "k": 76,
+        "p": 271,
+        "phase": 242,
+        "r": 113,
+        "ray": 5,
+        "s": 7
+      },
+      {
+        "equation": "t^3=1/2; unique because gcd(3,p-1)=1",
+        "k": 73,
+        "p": 383,
+        "phase": 75,
+        "r": 109,
+        "ray": 1,
+        "s": 27
+      },
+      {
+        "equation": "t^3=1; t lies in mu_3(F_p)",
+        "k": 4,
+        "p": 2281,
+        "phase": 1,
+        "r": 5,
+        "ray": 5,
+        "s": 378
+      }
+    ],
+    "ray_counts": {
+      "1": 4,
+      "5": 2
+    },
+    "symbolic_all_row_statement": {
+      "r_mod_6=1": "p mod 6=5 and t^3=1/2 has a unique solution",
+      "r_mod_6=5": "p mod 6=1 and the selected t always satisfies t^3=1"
+    }
+  },
+  "proved_theorems": {
+    "C_comp": "3774576680099633199868/56080510212831201972875",
+    "atomic_localization": "d_(M,q)^sharp is q exactly for an actual prime collision, and is 1 otherwise",
+    "envelope_decomposition": "C6=2/35+C_comp",
+    "pairwise_localization": "for q!=q', gcd(d_(M,q),d_(M,q')) divides gcd(q,q') and |q-q'|<L_M",
+    "proved_eta": 0,
+    "reciprocity_no_ray_exclusion": "the endpoint phase equation is soluble on both actual rays",
+    "sharp_pairwise_coprimality": "gcd(d_(M,q)^sharp,d_(M,q')^sharp)=1"
+  },
+  "status": "proved_eta_zero_factor_localization_obstruction",
+  "title": "ordinary-j2 matched-aggregate factor localization"
+}

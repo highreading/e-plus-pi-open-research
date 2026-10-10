@@ -1,0 +1,52 @@
+{
+  "quantity": "5/8 - |z D|^2 on vertical contour with t=4 Im(w)^2",
+  "polynomial": "-t**6/64 - 5*t**5/32 - 39*t**4/64 - 11*t**3/16 + 225*t**2/64 - 53*t/32 + 15/64",
+  "parts": [
+    {
+      "interval": [
+        "1/2",
+        "1"
+      ],
+      "bernstein_coefficients": [
+        "639/4096",
+        "61/256",
+        "659/1920",
+        "73/160",
+        "67/120",
+        "5/8",
+        "5/8"
+      ]
+    },
+    {
+      "interval": [
+        "0",
+        "1/4"
+      ],
+      "bernstein_coefficients": [
+        "15/64",
+        "127/768",
+        "341/3072",
+        "1449/20480",
+        "10793/245760",
+        "1941/65536",
+        "7015/262144"
+      ]
+    },
+    {
+      "interval": [
+        "1/4",
+        "1/2"
+      ],
+      "bernstein_coefficients": [
+        "7015/262144",
+        "3133/131072",
+        "31937/983040",
+        "1685/32768",
+        "19513/245760",
+        "941/8192",
+        "639/4096"
+      ]
+    }
+  ],
+  "claim": "Every Bernstein coefficient is strictly positive; hence |z D|^2<5/8 on the whole contour."
+}

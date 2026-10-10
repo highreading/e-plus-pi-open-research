@@ -1,0 +1,104 @@
+{
+  "item": 250,
+  "schema": "item250-strict-ledger-v1",
+  "scope": "ordinary j=2 common-log p^2 gate on p=2r+6s+3 with r odd; no stronger p^3 hypothesis",
+  "correction_log": [
+    {
+      "disposition": "rejected before freeze",
+      "draft_issue": "an early draft used the upper-tail bound R=(p-r-2)/2 to describe every B-tail factorial",
+      "final_correction": "Section 7 separately proves N_a=r+Q+1<p for the lower tails and D,R<p for the upper tails; the checker replays both ranges independently"
+    }
+  ],
+  "PROVED": [
+    {
+      "id": "I250-P1",
+      "claim": "The frozen Item219 gate reflects exactly to G_nu=9[z^T]A_pP_nu-10[z^tau_nu]B_pP_nu-[z^T]B_pP_nu.",
+      "evidence": "report Sections 2 and 6; certificate direct comparison with all three Item219 moments on each replayed row",
+      "scope_limit": "This is an exact coordinate identity, not a nonvanishing theorem."
+    },
+    {
+      "id": "I250-P2",
+      "claim": "At Qbar=-(2r+3)/3 the A-period state is affine in the common even period e and c=2^Q, and the first resonance is J_(2r+3)=(c-1)/(Q+2r+3) modulo p.",
+      "evidence": "report Section 3; derivative recurrence; unique top Frobenius coefficient; direct J1 and terminal replay in the certificate",
+      "scope_limit": "The localized state is a rowwise modular specialization of rational functions, with units justified by I250-P6."
+    },
+    {
+      "id": "I250-P3",
+      "claim": "Both lower and upper B-tails have exact fixed-r terminating-hypergeometric expressions; the upper tails retain one common factorial period f.",
+      "evidence": "report Section 4; terminating-binomial derivative; equality to frozen Item219 moments in the certificate",
+      "scope_limit": "The common factorial period is retained, not canceled."
+    },
+    {
+      "id": "I250-P4",
+      "claim": "Coefficient reversal gives the exact rank-one identity mathsf(a)_nu=kappa_r f_nu for nu=0,1, including r=1 and all zero coefficient terms.",
+      "evidence": "report Section 5, especially termwise identities (5.6)-(5.7); certificate reversal_certificate",
+      "scope_limit": "No division by either coordinate coefficient occurs."
+    },
+    {
+      "id": "I250-P5",
+      "claim": "Every simultaneous ordinary collision satisfies L_r c+M_r=0 and R_r=L_r^3+2^(2r+2)M_r^3=0 modulo p.",
+      "evidence": "report Section 6; determinant-free cross multiplication f_0G_1-f_1G_0 and Fermat relation 2^(2r+2)c^3=1",
+      "scope_limit": "Both conditions are necessary only; no determinant, f_nu, or common content is divided out."
+    },
+    {
+      "id": "I250-P6",
+      "claim": "Every denominator in the localized A-state, both B-tail families, kappa_r, rho, L_r, M_r, and R_r is a p-unit on every actual row; the sole Frobenius p denominator is retained before reduction rather than inverted.",
+      "evidence": "report Section 7 separate inequalities (7.1)-(7.6); certificate all_row_unit_audit and unit_and_resonance_audit",
+      "scope_limit": "Numerator zeros remain allowed and are never canceled by primitive-content normalization."
+    },
+    {
+      "id": "I250-P7",
+      "claim": "Neither the linear eliminant nor the cubic resultant is sufficient for a common gate zero.",
+      "evidence": "explicit exact witnesses in report (8.2)-(8.4) and certificate explicit_counterexamples_to_sufficiency; for example (367,39,65) has linear=resultant=0 but (G0,G1)=(238,354)",
+      "scope_limit": "A counterexample disproves sufficiency but supplies no density theorem."
+    }
+  ],
+  "EXACT_FINITE": [
+    {
+      "id": "I250-F1",
+      "bound": "p<=401",
+      "rows": 1153,
+      "direct_phase_coordinate_equalities": 6918,
+      "common_gate_zeros": 0,
+      "linear_residual_zeros": 3,
+      "cubic_resultant_zeros": 9,
+      "unit_audit_assertions": 563818,
+      "frobenius_resonant_terms": 50814,
+      "status": "bounded exact replay only; no inference beyond the bound"
+    },
+    {
+      "id": "I250-F2",
+      "bound": "admissible odd r<=199",
+      "r_values": 67,
+      "term_equalities": 6934,
+      "exact_characteristic_zero_resultant_zeros_found": 0,
+      "status": "bounded implementation replay only; the all-r proof is algebraic coefficient reversal"
+    }
+  ],
+  "OPEN": [
+    "all-prime nonvanishing or weighted zero control of R_r on p=2r+6s+3",
+    "classification of exact characteristic-zero zeros of R_r",
+    "control of the actual common period Z on eliminant-zero rows",
+    "any capacity reduction, Route-1 rate gain, or conclusion about e+pi"
+  ],
+  "booking": {
+    "new_unconditional_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "capacity_reduction": 0,
+    "j2_capacity_per_m": "2/35 unchanged"
+  },
+  "dependencies": {
+    "item219_common_log_j2_certificate.py": "bf9ee30675b5745225f08d2d82e500fd1f6797d69f94ab5949602e266f8b38cc",
+    "external_files": [],
+    "python": "3.11+ standard library only"
+  },
+  "intended_artifacts": [
+    "item250_j2_ordinary_phase_report.md",
+    "item250_j2_ordinary_phase_certificate.py",
+    "item250_j2_ordinary_phase_certificate.json",
+    "item250_j2_ordinary_phase_certificate_replay.json",
+    "item250_j2_ordinary_phase_ledger.json",
+    "item250_j2_ordinary_phase_manifest.json",
+    "item250_j2_ordinary_phase_hashes.sha256"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema": "route1-ledger-delta-v1",
+  "item": 421,
+  "status": "ROOT_AUDITED_CANONICAL_SCOPED_METHOD_NO_GO_NO_BOOKING",
+  "component": "post-booking p<=6m primitive mixed-cubic remainder",
+  "inherited_definition": "w_m,p=v_p(c_m)-1_{p=2}-1_{p in H_m}",
+  "method_class_closed": [
+    "exact reuse of Item200 F_m as a divisor of the already post-G_m content",
+    "extension of the Item415/418 mu-pair all-depth carrier identity to all p<=6m",
+    "positive linear mass or valuation control from the all-level degree-zero characteristic-p Cartier tower alone",
+    "a bare full p<=4m squarefree/lcm layer as sufficient for the current outside-large admission residual"
+  ],
+  "exact_actual_family_counterexamples": {
+    "F_not_content": "m=2, p=11: F_2=11 but c_2=288",
+    "upper_strip_escape": "m=9, p=47: p in P_9\\H_9, post-booking depth 1, normalized mu depth 0",
+    "booked_second_digit_escape": "m=13, p=11: p in P_13 intersect H_13, v_p(c)=2, post-booking depth 1, normalized mu depth 0"
+  },
+  "capacity_screen": {
+    "Item418_outside_large_admission_residual": "0.59085909833077392493454601829037809174677496455608",
+    "squarefree_support_cutoff_needed": "alpha<3.54515458998464354960727610974226855048064978733648 for a bare p<=alpha*m ceiling",
+    "p_le_4m_layer_ceiling": "2/3",
+    "p_le_4m_excess_over_admission_residual": "0.075807568335892741732120648376288574919891702110586666...",
+    "Item417_extra_tower_capacity": "o(1) per 6m"
+  },
+  "ceilings": {
+    "inherited_safe_small_remainder": "<1.859148991866686",
+    "new_safe_small_remainder": "<1.859148991866686",
+    "small_remainder_ceiling_delta": 0,
+    "global_total_content_ceiling_delta": 0
+  },
+  "booking": {
+    "route1_rate_delta": 0,
+    "mixed_cubic_divisor_lower_bound_delta": 0,
+    "frozen_deficit_delta": 0
+  },
+  "de_overlap": [
+    "F_m=G_m was already removed before c_m was defined",
+    "Item149's H_m copy is the booked post-G_m digit and is subtracted exactly once in w_m,p",
+    "Item417's extra tower factor is de-overlapped from F_m and has zero linear capacity",
+    "Item418's outside-large residual is an admission comparison, not an additive global ceiling"
+  ],
+  "open": [
+    "integral Witt/Dwork endpoint carrier for post-booking small-prime depths",
+    "weighted support below the alpha cutoff or zero-density substitute",
+    "cancellation-aware joint small/large carrier",
+    "aggregate upper bound for post-booking depth j>=2",
+    "Route 1 and irrationality of e+pi"
+  ]
+}

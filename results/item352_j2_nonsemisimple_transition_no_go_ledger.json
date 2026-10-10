@@ -1,0 +1,101 @@
+{
+  "item": 352,
+  "schema": "item352-j2-nonsemisimple-transition-no-go-ledger-v1",
+  "classification": "PROVED_EXACT_JORDAN_TRANSITION_AND_FORMAL_WINDOW_NO_GO",
+  "dependencies": {
+    "sources/item341_j2_diagonal_affine_state_report.md": "42f6ccd326e385f8034abe322756517a30a93d7468b3e6f85cbca3dba8080cb4",
+    "results/item341_j2_diagonal_affine_state_certificate.json": "75c05cb486e5a5a6f9af5dda2e62f2a4b81cb888a15eb19ecabd10a382625cb4",
+    "results/item341_j2_diagonal_affine_state_root_audit.json": "d5c810346f9181f10d38e9f5ae2e250a8c880e32f97cbc5bef91f6bd37f61a27",
+    "manifests/item341_j2_diagonal_affine_state_manifest.json": "fc073e4c11a2d9ab519f0b5babae6f9f95e2e8cf9e8cbcf05c4c8ca8ba155000",
+    "sources/item344_j2_frobenius_cutoff_obstruction_report.md": "1671dec30de80c047c52b6b4bf13157025ea631869f5ccacc73169002ec287a9",
+    "results/item344_j2_frobenius_cutoff_obstruction_certificate.json": "f390d14d2b14ce965a33da8499e450294be3a038be2269d564d3cc3fda5f1179",
+    "results/item344_j2_frobenius_cutoff_obstruction_root_audit.json": "1de770fc9f8cf23ec215d936e31b08bb59b5aad2ce8fb3480a0bd835011b5376",
+    "manifests/item344_j2_frobenius_cutoff_obstruction_manifest.json": "9824b1a18fd645e729e103e32d0911d2392edc7b6c6642e5bea28d97489ef286",
+    "sources/item347_j2_chosen_prime_kummer_conductor_obstruction_report.md": "7845d01648f4860dee7cee0c12b5711693183015c99e25e923a9e49f316f5eea",
+    "results/item347_j2_chosen_prime_kummer_conductor_obstruction_certificate.json": "bd861233e0a37c6cd6e0d091d244f67e42c7bd65702d77f951e9341ad681159d",
+    "results/item347_j2_chosen_prime_kummer_conductor_obstruction_root_audit.json": "f9029fceae9662dbf8645a0d49eeaf9f5df85a204a8d94996e3d10e66f57a851",
+    "manifests/item347_j2_chosen_prime_kummer_conductor_obstruction_manifest.json": "f6bd289bd06d96e1a832208d07815fb4b6e9a4678a6cb022d6302299bebbd5b9",
+    "sources/item349_j2_degenerate_triple_minor_carrier_report.md": "ca3141156cb5034012a174377c3596e22d22cae924625649b6d620d510f4790c",
+    "results/item349_j2_degenerate_triple_minor_carrier_certificate.json": "b26294d51b1844aeee04146004b2ecec9b6e1ff81aa271a3167e5d86c11bce44",
+    "results/item349_j2_degenerate_triple_minor_carrier_root_audit.json": "e717c01d7429f7821a7ee75e8d979bc1362107bd70466af6af54d9748299a894",
+    "manifests/item349_j2_degenerate_triple_minor_carrier_manifest.json": "1c1dec25ac00ea5adb2befe885c9c96ba805564651b6e90c73ef2506d30e7f4f"
+  },
+  "actual_family": {
+    "tied_phase": "p=2r+6s+3=6m+2d+1, m=s-1, d=r+4",
+    "transition_length": "L=s=m+1",
+    "fixed_M": "5p=4M+2m+3; r=6M-7p",
+    "raw_prime_interval": "(4M+3)/5 <= p <= (6M-1)/7",
+    "raw_chebyshev_mass": "(2/35)M+o(M)",
+    "raw_capacity_per_6M": "1/105"
+  },
+  "exact_transition": {
+    "definition": "A_x=[[x^-1,1],[0,1]]",
+    "power": "A_x^L=[[x^-L,W_L(x)],[0,1]], W_L=sum_(u=0)^(L-1)x^-u",
+    "complete_moment": "M_L=sum_(x!=0)chi(1-x/2)A_x^L=[[-h_L,-H_(L-1)],[0,-1]]",
+    "local_state": "det(A_(1/4)^L)=4^L",
+    "target_retention": "nondegenerate collision iff the existing coordinates det(A_(1/4)^L)=c_star and (M_L)_12=-Theta vanish",
+    "local_redundancy": "A_(1/4)^L=[[4^L,(4^L-1)/3],[0,1]], so all local matrix data is determined by 4^L"
+  },
+  "chosen_prime_Jordan_data": {
+    "semisimple_fibers": "A_x^p=A_x and A_x^(p-1)=I for x!=1",
+    "unique_Jordan_fiber": "A_1=I+N, A_1^p=I, A_1^L=I+L*N",
+    "weighted_Jordan_contribution": "L*chi(1/2)=L*(2/p)",
+    "global_distinct_eigenvalue_stratum": "if h_L!=1, M_L is conjugate to diag(-h_L,-1)",
+    "global_repeated_eigenvalue_stratum": "if h_L=1, M_L=-I-H_(L-1)E_12 and has only the existing extension coordinate",
+    "polynomial_readouts": "every off-diagonal polynomial readout is a scalar multiple of H_(L-1); characteristic polynomial is independent of it",
+    "functorial_target_ideal": "after shifting by Theta, every nilpotent tensor/symmetric/exterior/polynomial readout is divisible by delta=Theta-H_(L-1), so no new codimension appears"
+  },
+  "p_curvature": {
+    "connection": "d-dlog F, F=1/((1-z)*sqrt(1-z/2))",
+    "tame_cover": "y^2=1-z/2, F=1/[y(2y^2-1)]",
+    "result": "zero p-curvature at every odd good prime",
+    "capacity_effect": "none; the curvature supplies no companion condition"
+  },
+  "natural_class_no_go": {
+    "semisimple_unrolling": "minimal exact Kummer rank at least L by Item347",
+    "rank_two_compression": "trace and determinant have invariant pole order L at x=0",
+    "rank_pole_tradeoff": "for an exact n-state companion retaining determinant x^-L with entry pole order at most K, Leibniz gives n*K>=L",
+    "window_tail": "H_(L-1)-H_(D-1)=-sum_x chi(1-x/2)sum_(u=D)^(L-1)x^-u",
+    "sublinear_reach": "formal/uniform exactness requires L<=D; D=o(M) then implies m=o(M), with o(M) logarithmic prime mass by Item344",
+    "pointwise_exception": "when D<L the character-weighted tail may vanish accidentally mod p; weighted control of those rows remains open",
+    "bulk": "on positive-rate rows L=Omega(M); bounded pole order forces linear state rank and bounded rank forces linear transition/pole order",
+    "scope": "exact canonical transition powers, rational conjugates, polynomial readouts, and truncation windows only"
+  },
+  "chart_overlap": {
+    "outer_partition": "ell!=0 and ell=0 partition one raw ordinary-j2 interval",
+    "nondegenerate": "the transition moment encodes exactly the existing (4^L,H_(L-1)) target gate",
+    "degenerate": "the Item349 saturated triple-minor carrier plus remaining coordinate is the valid gate; the matrix target is not forced",
+    "internal_partition": "f!=0 and f=0 partition Item349's degenerate carrier support",
+    "nonadditivity": "outer and internal chart capacities are not additive; total raw ceiling remains 1/105"
+  },
+  "capacity": {
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "ordinary_j2_ceiling_per_6M": "1/105",
+    "reason": "no weighted zero-density or carrier-support theorem is obtained"
+  },
+  "master_ledger": {
+    "booked_r1_unchanged": "0.1365141682948128184504238226...",
+    "threshold_T_unchanged": "1.1561471519642446123307302239...",
+    "deficit_unchanged": "1.0196329836694317938803064012..."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact two-by-two transition and complete matrix moment",
+      "actual moving-target coordinate equivalence on the nondegenerate chart",
+      "chosen-prime p-step and unique fiberwise Jordan data",
+      "one-dimensional global extension and zero p-curvature",
+      "formal/uniform bounded-sublinear natural-window zero-rate or linear-complexity dichotomy",
+      "raw-capacity and chart-overlap audit"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "seven declared actual rows; no prime scan or collision census"
+    ],
+    "OPEN": [
+      "weighted nonconcentration for the moving nondegenerate joint state",
+      "weighted support of the safely saturated degenerate carrier",
+      "weighted zero density for accidental vanishing of proper truncation tails",
+      "target-specific p-dependent constructions outside the closed natural class"
+    ]
+  }
+}

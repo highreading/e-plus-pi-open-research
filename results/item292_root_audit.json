@@ -1,0 +1,46 @@
+{
+  "schema": "item292-root-audit-v1",
+  "audit_date": "2026-08-31",
+  "auditor": "root",
+  "verdict": "PASS_AFTER_NONPRIMITIVE_LINEAR_FORM_REPAIR_WITH_STRICT_SCOPE",
+  "substantive_checks": {
+    "bessel_seed": "PASS: the factorial polynomial A_n(X) satisfies A_n=(4n-2)A_(n-1)+X^2A_(n-2), and evaluation at X=-1 and X=1 gives q_n=(-1)^n y_n(-2) and p_n=y_n(2)",
+    "e_convergent_index": "PASS: the three-step Euler-CF block has the same recurrence and boundary values, so p_n/q_n is the zero-based convergent 3n-2, including n=2 at index 4",
+    "wronskian_and_minimum": "PASS: the alternating Wronskian gives the fixed RHS; coprimality makes all beta solutions one class a^2 modulo q_n, whose centered representative has minimum absolute value rho_n; beta=0 is impossible",
+    "inhomogeneous_coordinate": "PASS: the convergent-error sign gives s_n(beta e-J)=2a/b-beta eta_n, and the next-denominator inequality yields the displayed sharp moving-center window under a hypothetical half-bound failure",
+    "homogeneous_fixed_power_scope": "PASS: discarding the moving center and using only |beta e-J|<1/n with a fixed-power homogeneous lower bound yields only a polynomial lower scale for rho_n",
+    "nonprimitive_repair": "PASS AFTER REPAIR: the fixed-RHS pair (J,beta) need not be primitive; reducing by d=gcd(J,beta), applying the primitive rational-approximation bound at v=|beta|/d, and scaling back proves the claimed 1/[|beta| log(2|beta|)] lower bound",
+    "regular_cf_descent": "PASS WITH SCOPE: the adjacent-convergent basis recognizes the same centered square residue and does not prove the half-bound; this is not stated as an impossibility theorem for an inhomogeneous or Ostrowski analysis",
+    "proper_target": "PASS: centering modulo Q|q_n can only reduce the residue, and the fixed-RHS minimum persists with modulus Q, but the e-Pade error coordinate is tied to the full q_n denominator",
+    "capacity": "PASS: the all-n half-bound, an O(n)-height lift, every large proper-target theorem, and the Item282 product baseline remain open; booking and beta capacity reduction are zero"
+  },
+  "independent_replay": {
+    "canonical_sha256": "823385a1d313e3e602561d997972c867e623a3128280038c81b18a544a833696",
+    "root_replay_sha256": "823385a1d313e3e602561d997972c867e623a3128280038c81b18a544a833696",
+    "byte_identical": true
+  },
+  "package_checks": {
+    "manifest_files_checked": 5,
+    "frozen_dependencies_checked": 4,
+    "hash_list_entries_checked": 6,
+    "json_files_parsed": 5,
+    "all_hashes_and_dependencies_match": true
+  },
+  "report_checks": {
+    "sha256": "4688b84d9a8c4b1e374251d5759d5242e9233b39d69c746b48f5bc441b308f20",
+    "bytes": 16869,
+    "lines": 730,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "display_delimiters": "77/77",
+    "inline_delimiters": "101/101",
+    "text_fences": 2
+  },
+  "strict_scope": {
+    "proved": "The exact reverse-Bessel/e-convergent recognition, fixed-RHS least-lift minimization, moving inhomogeneous coordinate, and a quantitative barrier for methods that discard that center and use only homogeneous irrationality estimates.",
+    "not_proved": "The all-n half-bound, a superlinear least-lift lower bound, an O(n)-height lift, any large proper-target residue theorem, or any control of the product baseline.",
+    "next_exact_target": "Use the sharp nearest-integer window and the arithmetic-progression Bessel seed in a genuine inhomogeneous congruence or descent argument.",
+    "open": "Every positive beta-capacity theorem, the Item282 baseline, Route 1, and every conclusion about e+pi.",
+    "route_status": "Route 1 ACTIVE; Route 2 QUEUED"
+  }
+}

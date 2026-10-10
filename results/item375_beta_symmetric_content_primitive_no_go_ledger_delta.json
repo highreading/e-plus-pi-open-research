@@ -1,0 +1,75 @@
+{
+  "schema": "item375-beta-symmetric-content-primitive-no-go-ledger-delta-v1",
+  "item": 375,
+  "checked_date_beijing": "2026-09-01",
+  "classification": "PROVED_SCOPED_CONTENT_PRIMITIVE_PART_NO_GO",
+  "actual_family": "Item316 canonical beta target with Item373 top-symmetric singleton carrier",
+  "admission": {
+    "candidate_class": "bounded-degree rational residuals in P and E whose reduced primitive numerator is constant, plus portfolios",
+    "actual_implication_required": "U_11 divides rad(product of reduced scalar numerators)",
+    "height_required_for_zero_rate": "sum log|alpha_l|=o(log b)",
+    "positive_linear_test": "captured mass >= eta log b forces aggregate scalar height >= eta log b"
+  },
+  "proved": {
+    "normal_form": "R=alpha*A1/(beta*B1), with coprime reduced scalar ratio and primitive coprime polynomial pair",
+    "constant_case": "A1 constant implies A1=+/-1",
+    "valuation": "for every genuine singleton p with denominator a p-unit, v_p(R(P,E))=v_p(alpha)",
+    "saturated_carrier": "C_cont=gcd(U_11,rad|alpha|)",
+    "single_height_bound": "log C_cont<=log rad|alpha|<=log|alpha|",
+    "portfolio_height_bound": "log captured union<=sum_l log|alpha_l|",
+    "integral_specialization": "beta*B1(P,E)|alpha, so a variable denominator cannot compress content",
+    "mandatory_saturation": "after separating external scalar content, the symmetric primitive numerator is a unit and captures no prime"
+  },
+  "scoped_no_go": [
+    "content-degenerate symmetric rational residuals cannot retain positive-linear singleton mass at sub-beta total reduced scalar height",
+    "primitive polynomial height with coefficient content omitted is not a representation-invariant divisibility height",
+    "fixed or growing portfolios do not evade the bound when aggregate scalar height is counted",
+    "p-unit variable denominators and integral specialization do not create content compression"
+  ],
+  "not_proved": [
+    "a nonzero sub-beta scalar with actual U_11 divisibility",
+    "nonconstant multivariate symmetric one-point cancellation",
+    "beta-height gcd or radical compression",
+    "a weighted upper bound for U_11",
+    "Route 1 or e+pi"
+  ],
+  "capacity": {
+    "raw_content_ceiling": "log gcd(U_11,rad|alpha|)<=log|alpha|",
+    "sub_beta_content_positive_linear_mass": false,
+    "constructed_actual_scalar_carrier": false,
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "new_booking": 0
+  },
+  "overlap": {
+    "with_item373": "U_11 and S_sym are inherited exactly; no duplicate singleton mass is booked",
+    "with_item370": "generic coefficient-content branch is normalized; actual nonconstant one-point correlations remain outside scope",
+    "with_Q_and_t": "Q^[1], t-away, and singleton incidence filters are imposed before content intersection"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "content/primitive normalization",
+      "exact singleton scalar valuation",
+      "saturated content carrier",
+      "height and portfolio inequalities",
+      "zero booking"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "content-degenerate bounded-degree symmetric carriers at sub-beta total scalar height",
+      "primitive-only height as a carrier bound",
+      "sub-beta aggregate content portfolios",
+      "unit denominator compression"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "predeclared sparse-polynomial and arithmetic controls; no actual census"
+    ],
+    "OPEN": [
+      "nonconstant multivariate one-point correlations",
+      "beta-height nonlinear compression",
+      "new actual sub-beta scalar divisibility theorem",
+      "U_11, beta capacity, Route 1, and e+pi"
+    ]
+  },
+  "canonical_files_modified": false,
+  "audit_delegated": false
+}

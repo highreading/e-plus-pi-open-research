@@ -1,0 +1,57 @@
+{
+  "cubic_root_fibre_grid": {
+    "cubic_law_checks": 2930,
+    "ordinary_fibres": 292,
+    "prime_bound_exclusive": 2000,
+    "qualifying_reflection_pair_count": 0,
+    "reflection_polynomial_checks": 0,
+    "root_fibres": 293,
+    "singular_all_square_fibres": 0,
+    "singular_fibres": 1,
+    "translate_count": 10
+  },
+  "description": "Deterministic exact replay for the fourth anti-period congruence, cubic Newton root-fibre law, and finite large-prime diagnostic.",
+  "finite_large_prime_window": {
+    "cube_or_higher_instances": [],
+    "prime_bound_exclusive": 10000,
+    "prime_count": 1229,
+    "root_count": 2558,
+    "square_instances": [
+      {
+        "n": 8,
+        "prime": 13,
+        "valuation_at_least": 2
+      }
+    ],
+    "value_count": 11472792
+  },
+  "fourth_antiperiod_grid": {
+    "fourth_antiperiod_checks": 107764,
+    "index_multiplier": 5,
+    "initial_value_checks": 188,
+    "prime_bound_exclusive": 500,
+    "primes_checked": 94,
+    "second_antiperiod_checks": 107764,
+    "third_divisibility_checks": 107764
+  },
+  "frozen_dependencies": {
+    "sources/bessel_denominator_zero_gap_smooth_radical_barrier.md": "dac7cd496b4342a8afc6d379274986d2030bc327c9017b3f6fa877108e62e1fc",
+    "sources/bessel_large_prime_four_point_exclusivity.md": "1e8fed0a5ab04c97c4e0749d40304d6398f9fd32d55c7b49085fb4b4ecca4e41",
+    "sources/bessel_padic_index_interpolation_analytic_height_barrier.md": "a50f45248133e437ee318b8cc28e6bbcc51de3568f3e621043221c90ddb4f348"
+  },
+  "mahler_initial_value_checks": {
+    "direct_binomial_transform_checks": 17,
+    "prime_bound_exclusive": 50,
+    "special_coefficient_checks": 78
+  },
+  "scope_warning": "The fourth anti-period and cubic fibre laws are proved symbolically in the source. The p<10000 statement that q_8 is the sole square and that no cube occurs is finite evidence only. No uniform upper bound on the exceptional p-adic valuation is claimed. The replay records zero qualifying singular all-square reflection pairs, so the reflection/full-fibre theorem is symbolic rather than an extrapolation from tested examples.",
+  "sharp_square_example": {
+    "factorization": {
+      "13": 2,
+      "1846921": 1
+    },
+    "n": 8,
+    "prime": 13,
+    "q_n": 312129649
+  }
+}

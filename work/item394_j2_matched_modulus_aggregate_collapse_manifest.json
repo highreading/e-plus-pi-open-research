@@ -1,0 +1,82 @@
+{
+  "item": 394,
+  "schema": "item394-j2-matched-modulus-aggregate-collapse-manifest-v1",
+  "classification": "PROVED_EXACT_MATCHED_AGGREGATE_AND_ACTUAL_FORMULA_COLLAPSE",
+  "checked_date_beijing": "2026-09-01",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "work/item334_j2_coupled_cartier_carrier_report.md": "a9a1b42652e5157b850014758c321ffd8a5734e4f9ea3586510ae0549822357c",
+    "work/item334_j2_coupled_cartier_carrier_certificate.py": "b9cab6a6ddc4a0817bae5852e78473ab3144ed9a3b8985c7eacaf27629c90cce",
+    "work/item334_j2_coupled_cartier_carrier_certificate.json": "238046186f90bdffb2e9b4c72994bac4f0c2ba7e377b42f04753b5502ea861e2",
+    "work/item349_j2_degenerate_triple_minor_carrier_report.md": "aec5a8bc6dd8996a3578e4cbc7975afad6247ddb32d03f6deca72b97af86b50d",
+    "work/item349_j2_degenerate_triple_minor_carrier_certificate.py": "b72b1ee335f243ae6a2761c417e27640f443183ec625027a14d5b7e06b91cf9b",
+    "work/item349_j2_degenerate_triple_minor_carrier_certificate.json": "b26294d51b1844aeee04146004b2ecec9b6e1ff81aa271a3167e5d86c11bce44",
+    "work/item355_j2_target_residual_large_sieve_obstruction_report.md": "ea2f5f43a14a411849bc310409939891bfb496b681b028c20fcb3b990dd3377b",
+    "work/item359_j2_fixedM_cross_prime_coefficient_barrier_report.md": "8fc3e4a16c71aeb50f7516e5e81572ea3d7265f30104707fc988945155759a77",
+    "work/item361_j2_matched_cartier_norm_collapse_report.md": "0ad329d64d00853fd1b8adca1c982790bd293f01bdc1ea356ad3858374683af8",
+    "work/item385_j2_bounded_window_aggregate_no_go_report.md": "68081934a0c5f836f826e3583cef21879686a0c68db5140d4b66387f4bebbe12",
+    "work/item392_j2_growing_window_aggregate_no_go_report.md": "9fd149b27a8ca64c727c35fca4cd8a196da0d9172883b31bb3aa75c45873bb7a"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item394_j2_matched_modulus_aggregate_collapse_report.md",
+      "sha256": "f0fd654dc80ad3c0eab26abfd8f8741e89ba572f825ef5afd214f2c149c01204",
+      "bytes": 13529
+    },
+    "certificate_script": {
+      "path": "work/item394_j2_matched_modulus_aggregate_collapse_certificate.py",
+      "sha256": "f75e9637cb6d120f748ffe82b746275c978a3301f623ac67218f0932e7916e08",
+      "bytes": 18444
+    },
+    "certificate": {
+      "path": "work/item394_j2_matched_modulus_aggregate_collapse_certificate.json",
+      "sha256": "7d3fb95d1fe09d9508aa7e12d4bb87ef6f33887645f6691b64cd71fa2a0a56e1",
+      "bytes": 10973
+    },
+    "replay": {
+      "path": "work/item394_j2_matched_modulus_aggregate_collapse_certificate_replay.json",
+      "sha256": "7d3fb95d1fe09d9508aa7e12d4bb87ef6f33887645f6691b64cd71fa2a0a56e1",
+      "bytes": 10973,
+      "byte_identical_to_certificate": true
+    },
+    "ledger_delta": {
+      "path": "work/item394_j2_matched_modulus_aggregate_collapse_ledger_delta.json",
+      "sha256": "dcde114b5ba5d0a793a7fa80b8b142505ac86835ae62640969ee0d08ac19cd53",
+      "bytes": 3939
+    }
+  },
+  "theorems": [
+    "the Item-334 carrier has a canonical integer-row extension agreeing with every actual prime row",
+    "the lcm of matched gcds is a prime-independent aggregate and its safe low-prime saturation equals the exact collision-prime product",
+    "the Item-349 carrier factors that product into coprime nondegenerate and degenerate factors",
+    "the unsaturated aggregate is bounded by a radical lcm of exact height C_6 M+o(M), with C_6=0.12444924693451084...",
+    "the best current exact-aggregate height bound is (2/35)M+o(M), exactly the existing normalized 1/105 ceiling",
+    "known phase norms, chart adjunction, and common-kernel packaging collapse to a support superset, an exact partition, or the collision product itself"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "canonical carrier extension",
+      "exact prime-independent aggregate",
+      "exact safe saturation identity",
+      "exact chart factorization",
+      "exact lcm-envelope constant",
+      "actual-formula aggregation collapse"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared carrier rows, matched factors, chart splits, lcm-envelope ratios, and multiplier transition replays"
+    ],
+    "OPEN": [
+      "a strict or zero-rate height theorem for the exact aggregate",
+      "the actual aggregate carrier weighted-density theorem",
+      "Route 1 and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "unsaturated_envelope_per_M": "0.12444924693451084...",
+    "best_exact_aggregate_bound_per_M": "2/35",
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_booking": 0,
+    "new_capacity_reduction": 0
+  },
+  "replay_command": "python work/item394_j2_matched_modulus_aggregate_collapse_certificate.py --replay work/item394_j2_matched_modulus_aggregate_collapse_certificate.json --output work/item394_j2_matched_modulus_aggregate_collapse_certificate_replay.json"
+}

@@ -1,0 +1,30 @@
+name: Independent proof review
+description: Request or record a review of one exact claim version.
+title: "[Review] "
+body:
+  - type: textarea
+    id: version
+    attributes:
+      label: Claim, full proof file and version
+      description: Give the exact public SHA or revision and link all dependencies.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope checked and review method
+      description: Distinguish complete proof, selected sections, normalization and finite computation. Disclose AI/human roles and relation to the author.
+    validations:
+      required: true
+  - type: textarea
+    id: verdict
+    attributes:
+      label: Verdict, reason and unresolved steps
+      description: Reconstruct decisive steps and hypotheses. A finite test or repeated PASS does not accept an infinite theorem.
+    validations:
+      required: true
+  - type: textarea
+    id: repairs
+    attributes:
+      label: Counterexample, correction or requested repairs
+      description: Identify exact affected statements and whether a changed proof needs a fresh review.

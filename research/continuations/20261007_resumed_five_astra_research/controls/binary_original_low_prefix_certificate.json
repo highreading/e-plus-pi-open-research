@@ -1,0 +1,356 @@
+{
+  "authorship": "Coordinator",
+  "scope": "Complete finite residue cycles and unrestricted exit-carry prefix minima. A uniform original-family lower bound requires the mathematical period and Kummer transfer proved separately.",
+  "records": [
+    {
+      "processed_low_bits": 6,
+      "b_modulus": 256,
+      "u_period": 1,
+      "minimum_cost_histogram": {
+        "1": 1
+      },
+      "free_exit_minimum": 1,
+      "low_cost_examples": [
+        {
+          "u_residue": 0,
+          "b_residue": 209,
+          "prefix_lower_bound": 1
+        }
+      ]
+    },
+    {
+      "processed_low_bits": 7,
+      "b_modulus": 512,
+      "u_period": 2,
+      "minimum_cost_histogram": {
+        "1": 2
+      },
+      "free_exit_minimum": 1,
+      "low_cost_examples": [
+        {
+          "u_residue": 0,
+          "b_residue": 209,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 1,
+          "b_residue": 465,
+          "prefix_lower_bound": 1
+        }
+      ]
+    },
+    {
+      "processed_low_bits": 8,
+      "b_modulus": 1024,
+      "u_period": 4,
+      "minimum_cost_histogram": {
+        "1": 3,
+        "2": 1
+      },
+      "free_exit_minimum": 1,
+      "low_cost_examples": [
+        {
+          "u_residue": 0,
+          "b_residue": 721,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 2,
+          "b_residue": 209,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 3,
+          "b_residue": 465,
+          "prefix_lower_bound": 1
+        }
+      ]
+    },
+    {
+      "processed_low_bits": 10,
+      "b_modulus": 4096,
+      "u_period": 16,
+      "minimum_cost_histogram": {
+        "1": 9,
+        "2": 5,
+        "3": 1,
+        "4": 1
+      },
+      "free_exit_minimum": 1,
+      "low_cost_examples": [
+        {
+          "u_residue": 0,
+          "b_residue": 1745,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 2,
+          "b_residue": 209,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 3,
+          "b_residue": 3537,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 7,
+          "b_residue": 465,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 8,
+          "b_residue": 3793,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 10,
+          "b_residue": 2257,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 11,
+          "b_residue": 1489,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 12,
+          "b_residue": 721,
+          "prefix_lower_bound": 1
+        }
+      ]
+    },
+    {
+      "processed_low_bits": 12,
+      "b_modulus": 16384,
+      "u_period": 64,
+      "minimum_cost_histogram": {
+        "1": 29,
+        "2": 21,
+        "3": 9,
+        "4": 3,
+        "5": 2
+      },
+      "free_exit_minimum": 1,
+      "low_cost_examples": [
+        {
+          "u_residue": 0,
+          "b_residue": 1745,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 2,
+          "b_residue": 8401,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 3,
+          "b_residue": 11729,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 7,
+          "b_residue": 8657,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 10,
+          "b_residue": 2257,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 12,
+          "b_residue": 8913,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 15,
+          "b_residue": 2513,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 18,
+          "b_residue": 12497,
+          "prefix_lower_bound": 1
+        }
+      ]
+    },
+    {
+      "processed_low_bits": 14,
+      "b_modulus": 65536,
+      "u_period": 256,
+      "minimum_cost_histogram": {
+        "1": 92,
+        "2": 87,
+        "3": 44,
+        "4": 21,
+        "6": 3,
+        "5": 8,
+        "7": 1
+      },
+      "free_exit_minimum": 1,
+      "low_cost_examples": [
+        {
+          "u_residue": 0,
+          "b_residue": 50897,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 2,
+          "b_residue": 24785,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 3,
+          "b_residue": 44497,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 12,
+          "b_residue": 25297,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 15,
+          "b_residue": 18897,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 18,
+          "b_residue": 12497,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 23,
+          "b_residue": 45521,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 26,
+          "b_residue": 39121,
+          "prefix_lower_bound": 1
+        }
+      ]
+    },
+    {
+      "processed_low_bits": 16,
+      "b_modulus": 262144,
+      "u_period": 1024,
+      "minimum_cost_histogram": {
+        "1": 310,
+        "2": 320,
+        "3": 213,
+        "4": 101,
+        "5": 51,
+        "6": 18,
+        "7": 8,
+        "8": 3
+      },
+      "free_exit_minimum": 1,
+      "low_cost_examples": [
+        {
+          "u_residue": 0,
+          "b_residue": 116433,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 2,
+          "b_residue": 221393,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 3,
+          "b_residue": 241105,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 15,
+          "b_residue": 84433,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 18,
+          "b_residue": 12497,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 26,
+          "b_residue": 170193,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 28,
+          "b_residue": 13009,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 31,
+          "b_residue": 137681,
+          "prefix_lower_bound": 1
+        }
+      ]
+    },
+    {
+      "processed_low_bits": 18,
+      "b_modulus": 1048576,
+      "u_period": 4096,
+      "minimum_cost_histogram": {
+        "1": 1010,
+        "2": 1222,
+        "3": 864,
+        "6": 114,
+        "5": 268,
+        "4": 552,
+        "7": 45,
+        "8": 16,
+        "9": 3,
+        "10": 2
+      },
+      "free_exit_minimum": 1,
+      "low_cost_examples": [
+        {
+          "u_residue": 0,
+          "b_residue": 116433,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 2,
+          "b_residue": 483537,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 15,
+          "b_residue": 84433,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 18,
+          "b_residue": 274641,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 26,
+          "b_residue": 170193,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 28,
+          "b_residue": 799441,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 31,
+          "b_residue": 924113,
+          "prefix_lower_bound": 1
+        },
+        {
+          "u_residue": 34,
+          "b_residue": 65745,
+          "prefix_lower_bound": 1
+        }
+      ]
+    }
+  ],
+  "seconds": 0.4083,
+  "script_sha256": "c46c8c0d667cabcb2f7cbc574f8d5590539603497ff3a2ec9762bb7a8628bcd0"
+}

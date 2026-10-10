@@ -1,0 +1,95 @@
+{
+  "item": 322,
+  "schema": "item322-j2-fixedM-period-transfer-ledger-v1",
+  "classification": "PROVED_PERIOD_RETAINING_TRANSFER_AND_SCOPED_RATIONAL_WEIGHT_NO_GO",
+  "actual_family": {
+    "rays": [
+      "r=6n+1",
+      "r=6n+5"
+    ],
+    "row_prime": "p=2r+6s+3",
+    "fixed_M_relation": "2M=5r+14s+7",
+    "adjacent_fixed_M_step": "(r,s,p)->(r-42,s+15,p+6)"
+  },
+  "actual_period": {
+    "e_s": "B_s*A_s/2",
+    "tail": "(-1)^(s+h)*(2s)!*(s+h)!/(3s+h+1)!",
+    "Z": "9*kappa_r*e_s-tail",
+    "state": [
+      "Z_(r,s)",
+      "tail_(r,s)",
+      "4^s"
+    ]
+  },
+  "one_step_transfer": {
+    "e": "e_(s+1)=-rho_s*e_s+eta_s*4^s",
+    "tail": "tail_(r,s+1)=q_(r,s)*tail_(r,s)",
+    "Z": "Z_(r,s+1)=-rho_s*Z_(r,s)-(rho_s+q_(r,s))*tail_(r,s)+9*kappa_r*eta_s*4^s",
+    "symbolic_exact": true
+  },
+  "fixed_M_transfer": {
+    "dimension": 3,
+    "triangular": true,
+    "diagonal": [
+      "Lambda_(r,s)",
+      "F_(r,s)",
+      "4^15"
+    ],
+    "determinant": "Lambda_(r,s)*F_(r,s)*4^15",
+    "all_source_rows_r_at_least_43_nonzero": true,
+    "all_adjacent_prime_rows_unit": true,
+    "period_projected_away": false
+  },
+  "exterior_residual": {
+    "definition": "E_(r,s)=ell_r*Z_(r,s)+11*C_r",
+    "fixed_M_transfer_division_free": true,
+    "ell_zero_charts_retained": true,
+    "coefficient_only_elimination_not_reopened": "Item319",
+    "new_divisor": false
+  },
+  "frobenius_normal_form": {
+    "chart": "ell_r nonzero modulo p",
+    "factorization": "E=ell*B*(9*kappa/2)*(-1)^m*epsilon*(H_m-Theta_(r,s))",
+    "collision_after_D_zero": "H_m=Theta_(r,s) modulo p",
+    "m": "s-1",
+    "q": "(p-1)/2-m=r+2s+2=2(M-p)+1",
+    "q_range": "p/3<q<=(p-1)/2",
+    "conic_moment": "H_m=epsilon*(q+1)-sum x^q*chi(x*(1-x/2))/(1-x)"
+  },
+  "scoped_no_go": {
+    "monomial_rational_degree_lower_bound": "min(q,ceil((p-1-q)/2)) >= (p-1)/4",
+    "conic_weight_rational_degree_lower_bound": "min(q,ceil((p-2-q)/2)) >= (p-3)/4",
+    "closed_method": "uniformly bounded-degree pointwise rational-weight compression on the fixed conic",
+    "not_closed": [
+      "summation-specific identities",
+      "higher-rank Frobenius modules",
+      "weighted zero-density theorems",
+      "arithmetic coupling across distinct primes"
+    ]
+  },
+  "moving_modulus_warning": {
+    "source_collision_modulus": "p",
+    "adjacent_collision_modulus": "p+6",
+    "recurrence_reduction": "reduction modulo p controls both rational states modulo p",
+    "zero_propagation_proved": false
+  },
+  "adjacent_prime_capacity": {
+    "support": "p and p+6 both prime on one fixed-M slice",
+    "upper_bound_sieve_count": "O(M/(log M)^2)",
+    "weighted_logarithmic_mass": "O(M/log M)=o(M)",
+    "classification": "PROVED_ZERO_RATE_SUBMECHANISM",
+    "isolated_collision_mass_controlled": false
+  },
+  "strategic_effect": {
+    "new_weighted_divisor_bound": false,
+    "new_capacity_reduction": 0,
+    "new_booking": 0,
+    "ordinary_j2_ceiling_per_6M_after_item322": "1/105"
+  },
+  "master_ledger": {
+    "booked_r1_unchanged": "0.1365141682948128184504238226...",
+    "threshold_T_unchanged": "1.1561471519642446123307302239...",
+    "deficit_unchanged": "1.0196329836694317938803064012..."
+  },
+  "smallest_open_arithmetic_theorem": "prove o(M) weighted logarithmic support for the fixed-M conic-moment collision after the Item314 determinant gate"
+}

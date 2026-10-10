@@ -1,0 +1,55 @@
+{
+  "schema": "research-artifact-manifest-v1",
+  "item": 427,
+  "title": "The complete ordinary rank-zero Witt tower: a shifted determinantal ideal and an all-level gate theorem",
+  "status": "WORK_ONLY_UNAUDITED_ALL_LEVEL_THEOREM_SCOPED_AMBIENT_NO_GO_NO_BOOKING",
+  "scope": "Actual ordinary q=p rank-zero mixed-cubic rows, with an explicitly separated ambient endpoint-lattice obstruction. One determinantal ideal captures all content depths; the theorem does not establish digit density or an aggregate depth bound.",
+  "artifacts": [
+    "work/item427_rankzero_witt_tower_report.md",
+    "work/item427_rankzero_witt_tower_certificate.py",
+    "work/item427_rankzero_witt_tower_certificate.json",
+    "work/item427_rankzero_witt_tower_certificate.replay.json",
+    "work/item427_rankzero_witt_tower_ledger_delta.json",
+    "work/item427_rankzero_witt_tower_manifest.json",
+    "work/item427_rankzero_witt_tower_hashes.sha256"
+  ],
+  "dependencies": [
+    "sources/item424_small_prime_witt_escape_report.md",
+    "scripts/item424_small_prime_witt_escape_certificate.py",
+    "results/item424_small_prime_witt_escape_certificate.json",
+    "results/item424_small_prime_witt_escape_ledger_delta.json",
+    "results/item424_small_prime_witt_escape_root_audit.json",
+    "results/item424_small_prime_witt_escape_hashes.sha256",
+    "sources/item200_common_log_gcd_report.md",
+    "results/item418_normalized_large_carrier_ledger_delta.json",
+    "results/mixed_cubic_positive_match_exact_scan_m100_N6m.json"
+  ],
+  "proved_actual_family": [
+    "integral anisotropic Bockstein rows Y_s=(R_s,L_s/p,E_s)",
+    "the determinantal ideal (A_m/p,8B_m/p) captures every ordinary rank-zero content depth",
+    "the exact identity v_p(c_m)-b=min(v_p(A_m/p),v_p(8B_m/p))",
+    "the shifted two-stream digit generating series and every level-n gate",
+    "one forced Jordan delay followed by new paired digit conditions",
+    "actual successive-gate rows (13,11), (24,11), and (89,19)",
+    "the de-overlapped layer-cake formula and per-layer capacity ceilings",
+    "zero ledger delta"
+  ],
+  "proved_ambient_only": [
+    "arbitrary independent K and X p-adic streams are compatible with rank-zero endpoint divisibility",
+    "there is no higher resonance consequence from endpoint divisibility alone"
+  ],
+  "finite_only": [
+    "the m<=100 depth distributions and layer-support counts",
+    "the ambient parameter-tuple replay",
+    "all finite stream digests"
+  ],
+  "not_claimed": [
+    "actual-family realization of every ambient digit stream",
+    "positive density or zero density of any layer",
+    "a uniform depth bound inferred from finite data",
+    "a reduced small-prime or global ceiling",
+    "new booked content",
+    "Route-1 closure",
+    "irrationality of e+pi"
+  ]
+}

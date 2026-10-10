@@ -1,0 +1,48 @@
+{
+  "schema": "item233-root-independent-audit-v1",
+  "status": "PASS_SCOPED_PHASE_CLOSURE_NO_GO",
+  "canonical_sha256": "8ff638431f6ea6a7f384a3eb91e3849e6536bb93dd9f499e6899c088fa1c7f14",
+  "root_replay_sha256": "8ff638431f6ea6a7f384a3eb91e3849e6536bb93dd9f499e6899c088fa1c7f14",
+  "byte_identical_replay": true,
+  "independent_checks": {
+    "endpoint_isomorphism": "The values q(2p),q(3p),q(4p) are an invertible evaluation set on the three Fourier modes 1,i,-i. Hence Phi is an isomorphism and conjugates N to the three-mode phase shift.",
+    "feedback_polynomial": "From char(N)=(x-1)(x^2+1), N^3=N^2-N+I. The matrix determinant lemma and the zero first column of M give h3=1, h2=1+h1-h0, tr(B)=1-h0, and det(B)=1+h1-h0.",
+    "two_square_determinant": "For the lower 2x2 block, det(I+B^2)=(1-det(B))^2+tr(B)^2, yielding (h0-h1)^2+(1-h0)^2. The p mod 4 split and rank classification then follow exactly.",
+    "singular_consistency": "Every left null vector of I+M^2 decomposes into the plus/minus-i eigenspaces. Pairing with the observable matching N-eigenvector forces ell*b=0, so every left null kills 4Mb-2b.",
+    "bottom_reciprocity": "Backward unit-pivot uniqueness identifies the generalized endpoint state of v with the normalized common line; four-periodicity then gives a*N^3*v=Delta_minus with the audited sign.",
+    "residual_redundancy": "Writing e0,e1,e3 for the 2p,3p,bottom residuals, the characteristic relation makes O(I+N^2)x=(e1+e3)(1,1,1). Direct two-step source propagation gives R=(h0*b-N*b)e0+(c-b)e1+c*e3, without determinant division.",
+    "formal_equivalence": "Because the six-row system contains the three terminal rows and their two independent minors are unit multiples of Theta and Psi, formal solvability is exactly Delta_plus!=0, Theta=Psi=0.",
+    "extended_prime_max_inclusive": 701,
+    "extended_identity_prime_max_inclusive": 181,
+    "extended_rows": 3295,
+    "extended_endpoint_rows": 266,
+    "extended_singular_rows": 5,
+    "extended_singular_rank_1_rows": 0,
+    "extended_singular_rank_2_rows": 5,
+    "extended_formally_solvable_rows": 0,
+    "python_compile": true,
+    "canonical_replay": "byte-identical",
+    "control_character_scan": "clean",
+    "host_path_scan": "clean",
+    "artifact_hashes": "match the frozen manifest and SHA-256 ledger"
+  },
+  "classification": {
+    "PROVED": [
+      "the three-mode endpoint conjugacy and closed finite-binomial determinant formula",
+      "the exact two-square singular locus and rank split",
+      "singular affine consistency",
+      "bottom reciprocity and coefficientwise closure-residual identity",
+      "redundancy of all three antiperiod coordinates with the terminal Theta/Psi system"
+    ],
+    "EXACT_FINITE": [
+      "the frozen coefficient replay through p<=151 and census through p<=601",
+      "the independent extended replay and census through the recorded bounds"
+    ],
+    "OPEN": [
+      "all-prime inconsistency or zero-rate control of Theta=Psi=0",
+      "sufficiency of the terminal criterion on singular rows",
+      "any capacity reduction, divisibility exponent, or conclusion about e+pi"
+    ]
+  },
+  "audit_conclusion": "The antiperiod determinant is completely classified, but neither its regular nor singular closure supplies a third invariant. This rigorously closes the extra-phase shortcut while leaving the two-invariant arithmetic locus open."
+}

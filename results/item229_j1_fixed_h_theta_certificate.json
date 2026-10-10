@@ -1,0 +1,83 @@
+{
+  "all_h_degree_theorem": {
+    "checked_h_max": 8,
+    "classification": "EXACT_REPLAY_OF_ALL_H_TOP_DEGREE_PROOF",
+    "degree": "deg_s(c_h)=2h+1",
+    "leading_coefficient": "-2^(4h+2)/(2h)!",
+    "row_stream_sha256": "c04d7e1502bedf9358ceaa3ac8a79a3c5eb4504b3e0493d3d7a7658b54be9e23"
+  },
+  "all_h_gosper_theorem": {
+    "classification": "EXACT_REPLAY_OF_ALL_H_IDENTITY",
+    "formal_identity": "P_h(s,j)=c_h(s)-(2s+j)R_h(s,j+1)-jR_h(s,j), deg_j(R_h)<=2h-1",
+    "grid_h_max": 8,
+    "grid_s_max": 8,
+    "row_stream_sha256": "172ccd385e014ee9f29891077ce1104063a1fcc1f9552fdab07fa7c55fa1e630",
+    "rows": 64,
+    "theta_decomposition": "Theta_h(s)=c_h(s)S_s+t_(s+1)G_h(s)-2Delta_minus(h,s)"
+  },
+  "classification": {
+    "EXACT_FINITE_ONLY": [
+      "the phase factor pattern c_h(s*)=R_h E_h* through h<=80",
+      "the joint Theta/E scan through p<=2000"
+    ],
+    "OPEN": [
+      "an all-h symbolic certificate for the observed phase factorization",
+      "any separate non-rationality, independence, or universal cancellation theorem for S_s",
+      "control of the remaining boundary/binomial coordinate after E=Theta=0",
+      "any positive Route-1 linear log-rate or divisibility exponent"
+    ],
+    "PROVED": [
+      "the exact fixed-h Gosper decomposition of corrected Theta",
+      "deg_s(c_h)=2h+1 with leading coefficient -2^(4h+2)/(2h)!",
+      "the displayed polynomial Gosper-antidifference ansatz retains a nonzero S_s coefficient"
+    ]
+  },
+  "definitions": {
+    "S_s": "sum_(j=0)^s t_j",
+    "Theta": "Delta_plus-2Delta_minus",
+    "phase": "s*=-(4h+3)/6",
+    "t_j": "(-1)^j binom(2s+j-1,j)"
+  },
+  "dependency_sha256": {
+    "scripts/item218_j1_common_log_certificate.py": "a238c5ca37263f2553da47bf3f21253aedf1c34f8c57458a4a274fc6cdc9029a",
+    "scripts/item222_j1_phase_resultant_certificate.py": "c16f75156ba8424c567163cedc6a93a7656c8a53036b48ef69b06327d76ad44b",
+    "scripts/item223_j1_frobenius_transfer_certificate.py": "928ddc876ed70939fd4a39fccd0e91d8c59d8aa2a8a694967d8fc7f737512d4a",
+    "sources/item218_j1_common_log_report.md": "2cabc5a705a974d6989718e24443b59c00715fd4e9aff288e0e17b297096d585",
+    "sources/item222_j1_phase_resultant_report.md": "9e088b216901a826a516453f133f2e362308154bb16296147d68bc66f2549133",
+    "sources/item223_j1_frobenius_transfer_report.md": "d1102c3efec35e9b08d1a8bcdf46f1b00b33b18f20391016a4e17632b0c4a2e0"
+  },
+  "finite_joint_scan": {
+    "E_zero": 58,
+    "E_zero_stream_sha256": "44974173d7c970d52e43d8fb0bbda425fde3a12e9e0c796560d36fc6009ed64b",
+    "Theta_zero": 22,
+    "Theta_zero_stream_sha256": "570821cf08c6de2387f69cf0ccb314d3803767a43ef5a0d384800c141d903765",
+    "classification": "EXACT_FINITE_ONLY",
+    "joint_zero": 0,
+    "joint_zero_stream_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "prime_max": 2000,
+    "rows": 22934,
+    "scope_warning": "joint emptiness implies no all-prime density or rate theorem"
+  },
+  "item": 229,
+  "phase_factorization_evidence": {
+    "admissible_h_rows": 54,
+    "all_h_proof": "OPEN: no symbolic WZ/telescoping certificate is claimed",
+    "classification": "EXACT_FINITE_PATTERN_NOT_ALL_H_THEOREM",
+    "h_max": 80,
+    "initial_values": {
+      "R_1": "-49/18",
+      "R_2": "4235/1944"
+    },
+    "observed_identity": "c_h(s*)=R_h E_h*",
+    "observed_ratio": "R_(h+3)/R_h=h(4h+1)(4h+5)(4h+7)(4h+9)(4h+11)(4h+15)^2/[864(h+1)(h+2)(2h+1)^2(2h+3)(2h+5)^2(4h+3)]",
+    "row_stream_sha256": "6418be73a548b4455e7ec13cef1315d952c97a354860016623af303fcf645428"
+  },
+  "rate_ledger": {
+    "new_divisibility_exponent": 0,
+    "new_unconditional_linear_log_rate": 0,
+    "reason": "the exact reduction leaves an uncontrolled incomplete-binomial/boundary coordinate"
+  },
+  "runtime": {
+    "external_numeric_backend": null
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "item": 402,
+  "schema": "item402-j2-marked-frobenius-descent-no-go-ledger-v1",
+  "classification": "PROVED_COMPLETE_UNMARKED_GALOIS_INVARIANT_NO_GO_WITH_ETA_ZERO",
+  "branch": "ordinary fixed-j=2 raywise chosen-prime and degenerate collision union",
+  "capacity_first": {
+    "one_complete_ray_mass_per_M": "1/35",
+    "one_complete_ray_normalized_per_6M": "1/210",
+    "maximum_gain_targeted_by_a_full_ray_oM_theorem": "1/210",
+    "proved_eta_per_M": 0,
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "retained_ordinary_j2_ceiling_per_6M": "1/105"
+  },
+  "proved": {
+    "cutoff_stabilizer": "for m>=1 and N=p-1>2m, Stab_((Z/NZ)^x)({0,...,m}) is trivial",
+    "proper_descent": "in the exact formal mode-labelled Kummer category, a descent preserving the ordered-cutoff support has trivial descent subgroup and therefore uses the full field Q(mu_(p-1)); accidental formula-specific equalities among evaluated conjugates are outside this claim",
+    "split_local_model": "O_K/pO_K is the product of the F_p coordinates indexed by G=Gal(K/Q), with the selected Teichmuller prime equal to one marked factor",
+    "complete_invariant_no_go": "for every nontrivial H, exact CRT conjugate models have identical values for the complete H-invariant ring but opposite selected-coordinate vanishing",
+    "trace_norm_characteristic_polynomial": "relative trace need not detect selected vanishing; relative norm and the characteristic polynomial existentially or symmetrically union the H-conjugate cutoffs",
+    "unit_root_dichotomy": "unmarked slope/unit-root data lose the marked factor; a P_p-marked coordinate retains it but is not a proper descent",
+    "chart_accounting": "the selected-prime theorem is nondegenerate only; no full-ray booking is possible without a complementary Item349 degenerate bound"
+  },
+  "closed_as_sufficient_by_itself": [
+    "rational trace or norm of the Item399 residual",
+    "relative trace or norm to any proper cyclotomic subfield",
+    "any finite or complete set of unmarked symmetric conjugacy invariants",
+    "an unmarked Frobenius characteristic polynomial, Newton polygon, or unit-root packet",
+    "proper-field descent asserted to preserve the ordered cutoff",
+    "a nondegenerate theorem with no quantitative degenerate-chart theorem"
+  ],
+  "not_closed": [
+    "a marked P_p-adic Frobenius coordinate with actual weighted nonconcentration",
+    "an actual-formula relation making conjugate cutoffs equivalent",
+    "the selected-prime nondegenerate theorem for (E,Xi)",
+    "the Item349 degenerate moving-divisor plus surviving-target theorem",
+    "a positive-mass theorem for the union of both charts on one ray",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "scope_warning": "The CRT construction is an exact information-class countermodel, not a claim that the actual Xi values realize arbitrary conjugate packets. A formula-specific restriction among the actual conjugates could evade the no-go.",
+  "strict_labels": {
+    "PROVED": [
+      "trivial ordered-cutoff stabilizer",
+      "no proper exact Kummer-mode descent preserving the cutoff",
+      "complete unmarked Galois-invariant information no-go",
+      "marked versus unmarked unit-root dichotomy",
+      "eta-zero and chart-capacity audit"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared group and split-algebra replays; no prime or collision census"
+    ],
+    "OPEN": [
+      "all actual weighted exclusions",
+      "the degenerate chart bound",
+      "positive eta",
+      "Route 1 and every conclusion about e+pi"
+    ]
+  },
+  "central_files_modified": true
+}

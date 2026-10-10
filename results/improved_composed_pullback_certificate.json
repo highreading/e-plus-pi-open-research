@@ -1,0 +1,67 @@
+{
+  "all_computed_composite_jets_integral": true,
+  "computed_composite_jet_order": 100,
+  "computed_composite_jets_sha256": "6e629f5bad2d856732294834a3e25da42c5b389c8683f46078066c7001a32f93",
+  "phi": "z-z^3/6+5*z^4/24-z^5/24",
+  "phi_at_one": "1",
+  "phi_at_zero": "0",
+  "phi_derivative_jets": [
+    1,
+    0,
+    -1,
+    5,
+    -5
+  ],
+  "reciprocal_polynomial_at_radius_sqrt2": "w**5*(-1 - I) + sqrt(2)*w**4 - sqrt(2)*w**2/3 + 5*w/6 - sqrt(2)/6",
+  "roots_of_phi_equals_1_plus_i_high_precision_diagnostic": [
+    {
+      "imag": "-0.17697867726458234766775044802787819723804871062147",
+      "modulus": "1.6664254452836326971627723707515482902784268998263",
+      "real": "-1.6570009995417722485613866156461004923285110336020"
+    },
+    {
+      "imag": "1.4271026893940382404379172518884695602417759778274",
+      "modulus": "1.4597454685987641723304126458569750341650913970510",
+      "real": "0.30697678579809387946212248584918139643194556359315"
+    },
+    {
+      "imag": "-1.9791783957890598349739894741036385323266213223289",
+      "modulus": "2.1119942289777837749757001699713449607105700358980",
+      "real": "0.73713804736786377726749628694757446307230361506651"
+    },
+    {
+      "imag": "0.80394097335302692561061266545352605694078652181533",
+      "modulus": "1.5337715423135480552862624388377889324113840427669",
+      "real": "1.3061906657816337279200230472592350865404026039315"
+    },
+    {
+      "imag": "-0.074886589693422983406789995210478887617892466692327",
+      "modulus": "4.3073465307720567923229685287681760819599900619501",
+      "real": "4.3066955005941808639117447955901095462838592510109"
+    }
+  ],
+  "schur_cohn_positive_gaps": [
+    {
+      "denominator": 18,
+      "numerator": 35
+    },
+    {
+      "denominator": 324,
+      "numerator": 919
+    },
+    {
+      "denominator": 13122,
+      "numerator": 90755
+    },
+    {
+      "denominator": 816293376,
+      "numerator": 31025233225
+    },
+    {
+      "denominator": 60719765548297125888,
+      "numerator": 20206728833189212829375
+    }
+  ],
+  "strict_radius_lower_bound": "sqrt(2)",
+  "warning": "The Schur--Cohn radius inequality is exact. Decimal root values and the finite jet recomputation are diagnostics; all-order jet integrality follows separately from Faa di Bruno."
+}

@@ -1,0 +1,66 @@
+{
+  "schema": "item258-beta-second-jet-ledger-v1",
+  "scope": "the reciprocal incomplete-beta orbit through the second squared-denominator jet and precision p^3",
+  "claims": [
+    {
+      "id": "I258-C1",
+      "label": "PROVED",
+      "claim": "Denominator complementation gives the retained mod-p^3 value, mod-p^2 first-jet, and mod-p second-jet reflection formulas with coefficients 1, 2 and alternating signs.",
+      "evidence": "report Sections 1-2; deterministic certificate; root independent probe",
+      "scope_limit": "the actual ordinary-j=2 phase and p-unit parameters"
+    },
+    {
+      "id": "I258-C2",
+      "label": "PROVED",
+      "claim": "The exact endpoint-retaining transfer is lower Toeplitz with B=-A Delta_1, C=A(Delta_1^2-Delta_2)/2, and B^2-2AC=A^2 Delta_2.",
+      "evidence": "report Section 3; rational exact checks in both implementations",
+      "scope_limit": "the endpoint is retained in the value row and has zero parameter derivatives"
+    },
+    {
+      "id": "I258-C3",
+      "label": "PROVED",
+      "claim": "The multiplier and value determinant have the stated mod-p^3 Hasse expansions, while Delta_2=-2p H_3 mod p^2 on every actual phase row.",
+      "evidence": "report Section 4; product expansion and root independent probe",
+      "scope_limit": "all displayed denominators are p-units"
+    },
+    {
+      "id": "I258-C4",
+      "label": "PROVED_SHARPLY_SCOPED_NO_GO",
+      "claim": "The augmented reciprocal six-by-six matrix has rank exactly three on every actual row and all affine endpoint dependencies match, leaving the target value formally unrestricted by this ansatz.",
+      "evidence": "report Section 5; 2,440 certificate rows and 2,440 independent root rows",
+      "scope_limit": "this closes only the value/first-jet/second-jet reciprocal linear system, not every higher jet or independent period"
+    },
+    {
+      "id": "I258-C5",
+      "label": "PROVED",
+      "claim": "Exact admissible rows p=89 and p=157 disprove universal-unit claims for the second determinant coefficient and divided curvature respectively.",
+      "evidence": "report Section 6; root probe reproduces (44,44,0) and v_157=2",
+      "scope_limit": "counterexamples to these two shortcuts only"
+    },
+    {
+      "id": "I258-C6",
+      "label": "EXACT_FINITE_ONLY",
+      "claim": "At p<=601 all 2,440 rows have rank three; all zero and joint-zero counts in the certificate are bounded observations only.",
+      "evidence": "canonical and byte-identical replay certificates",
+      "scope_limit": "no density, nonoccurrence, resultant, or asymptotic inference"
+    },
+    {
+      "id": "I258-C7",
+      "label": "PROVED_BOOKING_DECISION",
+      "claim": "No all-prime exclusion or weighted theorem is obtained, so the new rate, exponent, and capacity reduction are zero.",
+      "evidence": "report Sections 1 and 7",
+      "scope_limit": "no conclusion about e+pi"
+    }
+  ],
+  "open": [
+    "a relation independent of the reciprocal denominator-jet tower",
+    "all-prime or weighted control of the moving harmonic intervals",
+    "an obstruction for the actual Item-251 affine collision",
+    "any new Route-1 exponent, rate, capacity reduction, or conclusion about e+pi"
+  ],
+  "booking": {
+    "new_unconditional_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "capacity_reduction": 0
+  }
+}

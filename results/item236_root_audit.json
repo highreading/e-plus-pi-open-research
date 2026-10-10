@@ -1,0 +1,44 @@
+{
+  "schema": "item236-root-independent-audit-v1",
+  "status": "PASS_ALL_H_PHASE_COKERNEL_IDENTITY",
+  "canonical_sha256": "d819725b14bf26264793a131a65ec885645dab53a35bae2e033d1acf84485625",
+  "root_replay_sha256": "d819725b14bf26264793a131a65ec885645dab53a35bae2e033d1acf84485625",
+  "byte_identical_replay": true,
+  "independent_checks": {
+    "finite_cokernel_identity": "On U(j)=j falling d, direct expansion gives -L_s U=2*j falling(d+1)+(3d+2s)*j falling d+d(d-1+2s)*j falling(d-1). The moments m_d=(-2s falling d)/2^d make these three terms cancel identically, so no infinite-series evaluation is used.",
+    "uniqueness": "The leading term of L_s on a degree-d polynomial is -2*u_d*j^(d+1). Thus L_s is injective from degree <=r-1 to degree <=r; its image has codimension one, and Phi_s(1)=1 identifies the unique residual scalar as Phi_s(P).",
+    "binomial_reflection": "Applying Phi_s to q^j coefficientwise near q=1 and extracting only [u^r] proves Phi_s binom(alpha-2j,r)=Phi_s binom(alpha+4s+2j,r). Only finitely many derivatives/coefficient terms are involved.",
+    "phase_matching": "At 2r+6s*+3=0, the reflected lower tops r+6s*+4, r+6s*+3, r+6s*+2 become -r+1, -r, -r-1. Their A,B,C coefficients match the upper polynomial in reverse order, proving c_high=c_low for every h.",
+    "scope": "The theorem synchronizes two residuals but neither makes the common residual zero nor relates it all-h to Item222 E_h* or the endpoint scalar K_h.",
+    "canonical_h_max": 80,
+    "extended_h_max": 100,
+    "extended_rows": 100,
+    "extended_row_stream_sha256": "e9acf11f39db5c91e40e2a1b9a23ee49225de8b9067efb4231948a2feea6270f",
+    "extended_nonphase_rows": 64,
+    "extended_nonphase_unequal_rows": 64,
+    "extended_certificate_sha256": "97eff6d0d9d376c81cd1f1f7d7581284797722d367fad33ae1f125e4dc1210a6",
+    "python_compile": true,
+    "canonical_replay": "byte-identical",
+    "control_character_scan": "clean",
+    "host_path_scan": "clean",
+    "artifact_hashes": "match the frozen manifest and SHA-256 ledger"
+  },
+  "classification": {
+    "PROVED": [
+      "the finite coefficientwise cokernel functional Phi_s for L_s",
+      "the exact positive/negative binomial reflection",
+      "c_high(h,s*)=c_low(h,s*) for every h>=1"
+    ],
+    "EXACT_REPLAY": [
+      "the frozen coefficientwise grid through h<=80 and square-system comparison through h<=12",
+      "the independent extended functional/reflection grid through h<=100"
+    ],
+    "OPEN": [
+      "an all-h factorization of the common residual by Item222 E_h*",
+      "a symbolic unit-localized K_h/E_h* gcd or resultant theorem",
+      "all-prime or weighted control of the remaining collision locus",
+      "any positive Route-1 rate, divisibility exponent, or conclusion about e+pi"
+    ]
+  },
+  "audit_conclusion": "Item236 correctly promotes Item231's finite phase-residual pattern to an all-h theorem by a finite cokernel argument. The result removes one apparent independent scalar but does not eliminate the common arithmetic obstruction, so it books no rate."
+}

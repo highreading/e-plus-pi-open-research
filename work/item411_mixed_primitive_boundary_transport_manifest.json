@@ -1,0 +1,66 @@
+{
+  "schema": "item411-mixed-primitive-boundary-transport-manifest-v1",
+  "item": 411,
+  "status": "WORK_ONLY_UNAUDITED_NO_CENTRAL_EDIT_NO_BOOKING",
+  "integrity": {
+    "certificate_replay_sha256": "5f7c48924d650dc5b5078ef86eaef9a0ea5ce32b3de3268229218d50f7eb7407",
+    "certificate_replay_byte_identical": true,
+    "dependency_pins_verified_by_replay": true
+  },
+  "artifacts": [
+    {
+      "path": "work/item411_mixed_primitive_boundary_transport_report.md",
+      "role": "strictly labelled actual-family theorem and scoped no-go report"
+    },
+    {
+      "path": "work/item411_mixed_primitive_boundary_transport_certificate.py",
+      "role": "deterministic standard-library certificate generator"
+    },
+    {
+      "path": "work/item411_mixed_primitive_boundary_transport_certificate.json",
+      "role": "generated certificate"
+    },
+    {
+      "path": "work/item411_mixed_primitive_boundary_transport_certificate.replay.json",
+      "role": "byte-stable replay"
+    },
+    {
+      "path": "work/item411_mixed_primitive_boundary_transport_ledger_delta.json",
+      "role": "zero-booking capacity and overlap delta"
+    },
+    {
+      "path": "work/item411_mixed_primitive_boundary_transport_hashes.sha256",
+      "role": "SHA-256 inventory"
+    }
+  ],
+  "dependency_pins": {
+    "sources/item403_mixed_cubic_exact_smith_and_finite_local_data_no_go_report.md": "9525428ec25231e712c74549e136f3d4c78e1e378164375e7ed4a514531d0214",
+    "work/item406_mixed_cubic_actual_adjacent_recurrence_report.md": "d76955fb4c0d89b96d0d4385c1ba4412ed15f1c8ae9bb8c449e54fc444bc32c3",
+    "sources/item390_mixed_cubic_fresh_primitive_saturation_report.md": "5bfb3c871b12524f672df515e920236f2470145d4f68bdcd7b47f29408692f46",
+    "sources/item396_fixed_gap_resultant_3adic_report.md": "7355b6909994357583f799e627e1ff19edb230a6a9002ee845be585057726aca"
+  },
+  "claims": {
+    "PROVED": [
+      "exact all-q generator transport and local primitive carrier away from 6(2q-3)",
+      "exact cube-root branch decomposition of H_q*G_q^prim at compatible primes",
+      "exact selected two-boundary positive-exponent polynomial criterion",
+      "uniform ambient transform-only collision countermodel",
+      "zero booking and zero proved capacity reduction"
+    ],
+    "CONDITIONAL": [
+      "selected two-boundary noncollision for every compatible prime gives c_m^>=1 and closes the separate large-prime component ceiling"
+    ],
+    "OPEN": [
+      "selected two-boundary noncollision in the actual polynomial family",
+      "unmarked primitive-G support and H_q*G_q^prim divisibility by P_q",
+      "valuation-weighted o(m) control of c_m^>",
+      "Route 1 and irrationality of e+pi"
+    ],
+    "NOT_CLAIMED": [
+      "an ambient wrong-root branch occurs in the actual mixed-cubic family",
+      "radical zero density controls all p-adic depth",
+      "finite normalization rows imply support",
+      "a positive divisor booking or capacity reduction"
+    ]
+  }
+}

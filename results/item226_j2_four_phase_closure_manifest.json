@@ -1,0 +1,60 @@
+{
+  "schema": "item226-portable-manifest-v1",
+  "artifacts": {
+    "sources/item226_j2_four_phase_closure_report.md": {
+      "role": "proof report for q-phase multiplicities, coefficientwise periodicity, affine closure, and augmented-rank solvability",
+      "sha256": "6f7ccc890898d95199ced4f9ed41a5b47b108995baa21fa4bba3e8accf4f6a0a",
+      "work_source": "item226_j2_four_phase_closure_report.md"
+    },
+    "scripts/item226_j2_four_phase_closure_certificate.py": {
+      "role": "standard-library phase-transfer, periodicity, rank/minor, determinant, and finite-census checker",
+      "sha256": "5fe492dc7940e423c90871463e19013730a517b36e0a0c6ba26c7f3a6de7dd9a",
+      "work_source": "item226_j2_four_phase_closure_certificate.py"
+    },
+    "results/item226_j2_four_phase_closure_certificate.json": {
+      "role": "canonical deterministic output",
+      "sha256": "adaabc9dcddb46d09b3cc88aa44f83c46b134ed4c2b30ff72ed5196f06ab5db3",
+      "work_source": "item226_j2_four_phase_closure_certificate.json"
+    },
+    "results/item226_j2_four_phase_closure_certificate_replay.json": {
+      "role": "independent replay output; byte-identical to canonical",
+      "sha256": "adaabc9dcddb46d09b3cc88aa44f83c46b134ed4c2b30ff72ed5196f06ab5db3",
+      "work_source": "item226_j2_four_phase_closure_certificate_replay.json"
+    },
+    "results/item226_j2_four_phase_closure_ledger.json": {
+      "role": "strict PROVED, EXACT FINITE, OPEN, and booking ledger",
+      "sha256": "65227ea4db0e9097ec6c8c58d691b9d35235a9ff8092e6a237d3fc868c8f88c8",
+      "work_source": "item226_j2_four_phase_closure_ledger.json"
+    }
+  },
+  "canonical_command_from_archive_root": "python scripts/item226_j2_four_phase_closure_certificate.py --output results/item226_j2_four_phase_closure_certificate.json",
+  "replay_command_from_archive_root": "python scripts/item226_j2_four_phase_closure_certificate.py --output results/item226_j2_four_phase_closure_certificate_replay.json",
+  "dependencies": {
+    "archive_files": {
+      "scripts/item225_j2_second_cartier_certificate.py": {
+        "role": "frozen second-phase, finite-period, and free-mode helper",
+        "sha256": "6fc6454f53bd1cff2db1c1602b2828191ea8ec571c3fa6c80f20c46df1e1b65c"
+      },
+      "scripts/item224_j2_cartier_terminal_certificate.py": {
+        "role": "frozen first-phase recurrence and Omega helper",
+        "sha256": "7fc0dad8a691fce31032db64696c2cc809b39e65b948e0d93e58f8c5a0924bf4"
+      },
+      "scripts/item221_j2_twisted_cohomology_certificate.py": {
+        "role": "frozen j=2 cohomology helper",
+        "sha256": "8ef696188337f9ecc7f77e66c296973897ce443b143f72fc0c468fd3f9354a36"
+      },
+      "scripts/item219_common_log_j2_certificate.py": {
+        "role": "frozen j=2 polynomial and endpoint-weight helper",
+        "sha256": "bf9ee30675b5745225f08d2d82e500fd1f6797d69f94ab5949602e266f8b38cc"
+      }
+    },
+    "external_files": [],
+    "python": "3.11+ standard library only"
+  },
+  "portability": {
+    "archive_path_required": false,
+    "host_absolute_paths_embedded": false,
+    "helpers_resolved_beside_checker": true,
+    "explicit_output_makes_archive_root_replay_portable": true
+  }
+}

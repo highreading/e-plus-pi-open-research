@@ -1,0 +1,54 @@
+{
+  "admission": {
+    "actual_target_bound": false,
+    "full_degree_one_O_n_exclusion": "OPEN",
+    "full_degree_one_O_n_lift": "OPEN",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "positive_linear_capacity_admission": "FAIL",
+    "product_baseline_closed": false,
+    "proper_target_degree_one_bound": "OPEN EXCEPT WHEN log Q=O(n)"
+  },
+  "bounded_exact_checks": {
+    "asymptotic_extrapolation": false,
+    "beta_digest": "69b4573d5d6296cd6931c6df66ffac579510657f2e78b9793bca70ee27c72cd8",
+    "beta_rows": 159,
+    "descent_digest": "805a243ea4c246a9420d8934c0545fe1168f19f085435d8d6b7377aab5d04746",
+    "descent_rows": 158,
+    "exceptional_prime_search": false,
+    "label": "EXACT FINITE ONLY",
+    "observed_half_pattern": "2*rho_n>=q_(n-1) on the checked rows only; unproved globally",
+    "observed_half_pattern_minimum_row": {
+      "n": 4,
+      "q_previous": 71,
+      "rho": 36,
+      "twice_rho_minus_q_previous": 1
+    },
+    "observed_half_pattern_rows": 159,
+    "palindrome_digest": "dc3cea422204145efbdb600c45b0ce474729f3f442eb8808e96b82b378cbe19d",
+    "palindrome_rows": 24,
+    "proper_target_digest": "f8cb52a6da941d1a020555bc5de8165503d9791287ae811ed0215d8f990b8368",
+    "proper_target_rows": 1905
+  },
+  "description": "Exact beta continuant, centered square remainder, one-step Euclidean determinant, proper-target reduction, and palindromic barrier",
+  "open": [
+    "an all-n bound log rho_n=O(n)",
+    "or a lower bound log rho_n/n tending to infinity",
+    "an exact estimate exploiting the arithmetic-progression word rather than coarse continuant size",
+    "a proper de-overlapped target residue theorem at n log n target height",
+    "the Item282 common product baseline and weighted-return cover",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "schema": "item290-beta-least-lift-certificate-v1",
+  "theorem": {
+    "capacity": "the Item282 common product baseline remains separate",
+    "centered_lift": "with a=q_(n-1), b=q_n and kappa=floor((2a^2+b)/(2b)), r=a^2-kappa*b is the unique centered residue of q_(n+1)^2 mod b and rho_n=|r|",
+    "coarse_continuant_barrier": "palindromic positive continued-fraction words of arbitrary length have numerator square congruent to plus or minus 1 modulo the denominator",
+    "continuant": "for n=2, q_2=K(7) and q_1/q_2=[0;7]; for n>=3, q_n=K(7,10,14,...,4n-2) and q_(n-1)/q_n=[0;4n-2,4n-6,...,10,7]",
+    "degree_one": "the minimum coefficient height of a monic linear annihilator of -q_(n+1)^2 mod q_n is exactly log rho_n",
+    "deoverlap": "proper Q may be any divisor of q_n/gcd(q_n,D_m)",
+    "euclidean_descent": "if b=(4n-2)a+c and h=a-(4n-2)kappa, then r=a*h-c*kappa and (4n-2)r=b*h-a*c",
+    "proper_target": "for Q|q_n, the signed least residue is centered(r mod Q), so rho_(n,Q)<=min(rho_n,Q/2); full upper bounds transfer and full lower bounds do not",
+    "scope": "no all-n O(n) upper bound or superlinear lower bound for the specific arithmetic-progression beta word is proved"
+  }
+}

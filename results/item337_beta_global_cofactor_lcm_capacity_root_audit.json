@@ -1,0 +1,55 @@
+{
+  "item": 337,
+  "schema": "item337-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_GLOBAL_LCM_CAPACITY_DECISION_FIRST_BULK_INVARIANT",
+  "scope": "independent root audit of the overlap-normalized beta cofactor tower, universal capacity bounds, and literature-backed ambient lower bound",
+  "checks": {
+    "certificate_sha256": "14b33025d307aa9c3bc6a833b59f8e3f44acafc8d33e81fdae02b5fd761e4b4d",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_sha256": "0884ea0e5760d1a6de02c52e936d62438ae6022e9a6f62d09bd10d8a4e930cc6",
+    "work_manifest_artifacts_match": true,
+    "frozen_dependencies_checked": 7,
+    "frozen_dependencies_match": true,
+    "author_self_audit_sha256": "cd5e4fec740abdaaa9e58a890a349289c21a38b8823a7af5c0526b803fb4ebd7",
+    "external_theorem_verified": true,
+    "external_primary_source": "https://arxiv.org/abs/1001.3438",
+    "external_primary_source_statement": "for every irreducible quadratic f in Z[x], log lcm(f(1),...,f(n))=n log n+B_f n+o(n)",
+    "report_inline_delimiters": "57/57",
+    "report_display_delimiters": "47/47",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "overlap_identity": "primewise maximum valuations are exactly represented by Lambda=lcm_{z_j nonzero}|z_j|, and one declared target captures exactly Gamma_Q=log gcd(Q,Lambda)",
+    "upper_bounds": "the continuant/product comparison gives log Lambda<=2 log b-3 log A+O(1), while target divisibility gives the sharper Gamma_Q<=log Q<=log b",
+    "ambient_witness": "the displayed digits are canonical, lie strictly in the Item-316 intermediate window, and yield |z_(2r)|=32r^2-3",
+    "literature_application": "32r^2-3 is irreducible, so Cilleruelo's theorem gives N log N+O(N) for its lcm; with N asymptotic to n/2 this yields the claimed one-half beta-scale lower rate",
+    "scope_warning": "the witness is not proved to satisfy the full small-error or Delta=0 target equation; actual Gamma_Q is open and no ambient lcm height is booked"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact primitive-lcm overlap identity",
+      "universal raw and one-target ceilings",
+      "canonical intermediate-window quadratic witness",
+      "literature-backed positive ambient lcm rate",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared replay rows, finite lcm ratios, and integer controls"
+    ],
+    "OPEN": [
+      "Gamma_Q for the actual Item-316 target",
+      "any little-oh, strict-fraction, or positive actual-family overlap theorem",
+      "any beta capacity reduction"
+    ]
+  },
+  "capacity": {
+    "raw_lcm_universal_upper_rate": 2,
+    "raw_lcm_ambient_lower_rate": "at least 1/2+o(1)",
+    "one_target_universal_upper_rate": 1,
+    "actual_target_rate": "OPEN",
+    "new_booking": 0
+  }
+}

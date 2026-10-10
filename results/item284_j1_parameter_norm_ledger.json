@@ -1,0 +1,78 @@
+{
+  "schema": "item284-j1-parameter-norm-ledger-v1",
+  "checked": "2026-08-31 Asia/Shanghai",
+  "scope": "One parameter-dependent anisotropic norm coefficient for all actual fixed-M j=1 candidate primes",
+  "proved": [
+    "For the complete candidate set S_M of primes in [(4M+3)/3,(3M-1)/2], one can choose local least nonsquares and CRT-interpolate a single integer d_M with 1<=d_M<B_M that is a nonsquare modulo every candidate prime.",
+    "The CRT construction uses every candidate prime and no information about the unknown collision subset.",
+    "For the raw norm Rcal_M=C0(M)^2-d_M C1(M)^2, every noncollision candidate prime has exact valuation two and every collision prime has valuation at least four; p^4 divides Rcal_M iff the full gate collides.",
+    "For the normalized norm Ncal_M=Cbar0(M)^2-d_M Cbar1(M)^2, p divides Ncal_M iff the full gate collides, and a collision gives p^2 divisibility.",
+    "The collision radical is gcd(rad(abs(Ncal_M)),B_M) whenever the specialized pair is nonzero.",
+    "The norm is nonzero for a nonzero coefficient pair because a simultaneous nonsquare d_M cannot be a perfect square integer.",
+    "The direct CRT coefficient has log height at most M/6+o(M).",
+    "If log height(d_M)=delta M+o(M), the raw norm estimated componentwise gives collision-radical ratio at best H/2+delta/4.",
+    "The direct CRT value delta<=1/6 gives ratio H/2+1/24=3.20548043938709..., and a subexponential coefficient only recovers H/2=3.16381377272042....",
+    "The normalized norm ratio is H-kappa+delta/2 and is worse than the raw norm ratio.",
+    "All inherited norm ratios are much larger than the raw j=1 log mass 1/6 per M.",
+    "A row-dependent rational norm rule must prove denominator units and nonsquare symbols on every row; separate local norms do not form one exact scalar, while CRT aggregation returns to the same coefficient-height ledger.",
+    "The simple rules h, s, h+s, 2h+3s, M, M-1, and M+1 each have an exact actual arithmetic false-positive norm zero.",
+    "No general no-go is claimed for every bounded-complexity rational function of h,s,M.",
+    "Item149 de-overlap leaves the fixed-j=1 ceiling unchanged at 1/36 per 6M."
+  ],
+  "construction": {
+    "candidate_set": "all primes (4M+3)/3 <= p <= (3M-1)/2",
+    "local_data": "least positive nonsquare n_p at every candidate prime",
+    "CRT_coefficient": "d_M congruent to n_p mod p for all candidates",
+    "unconditional_height": "1<=d_M<B_M and log B_M=M/6+o(M)",
+    "uses_collision_set": false,
+    "exact_normalized_scalar": "Cbar0(M)^2-d_M Cbar1(M)^2"
+  },
+  "height_method_scope": {
+    "excluded": "a useful weighted theorem obtained solely from anisotropic-norm divisibility plus inherited componentwise absolute height",
+    "raw_ratio": "H/2+delta/4",
+    "normalized_ratio": "H-kappa+delta/2",
+    "not_excluded": [
+      "separately proved exponential cancellation in the norm",
+      "prime-factor localization for the exact norm",
+      "a different global invariant",
+      "a bounded-complexity rational nonresidue rule"
+    ]
+  },
+  "least_simultaneous_nonsquare": {
+    "definition": "lambda_M=min d>=1 with Legendre(d,p)=-1 for every candidate p",
+    "unconditional_bound": "lambda_M<B_M",
+    "subexponential_height": "OPEN",
+    "finite_replay": "EXACT FINITE ONLY through M=300"
+  },
+  "master_admission_test": {
+    "raw_capacity": "1/36 per 6M",
+    "actual_family_implication": "the normalized CRT norm vanishes modulo p exactly on full-gate collisions",
+    "de_overlap": "the norm powers are algebraic powers of the same two-coordinate gate and provide no independent Item149 valuation copy",
+    "height": "best inherited norm ratio H/2 exceeds raw mass 1/6",
+    "missing_theorem": "cancellation or prime-factor localization giving collision-prime log weight cM+o(M) with c<1/6",
+    "decision": "zero new capacity reduction and zero new Route-1 rate"
+  },
+  "finite_replay": {
+    "label": "EXACT FINITE ONLY",
+    "CRT_bound_M": 220,
+    "candidate_rows": 708,
+    "least_coefficient_bound_M": 300,
+    "simple_rule_witnesses": 7,
+    "asymptotic_inference": false
+  },
+  "booking": {
+    "new_unconditional_route1_rate": 0,
+    "new_independent_valuation_copy": 0,
+    "new_weighted_zero_theorem_for_full_j1_cell": 0,
+    "new_j1_capacity_reduction": 0,
+    "j1_raw_ceiling": "unchanged at 1/36 per 6M"
+  },
+  "forbidden_inference": [
+    "Do not choose d_M using only the unknown collision primes.",
+    "Do not treat separate row-dependent norms as one fixed integer without an aggregation argument.",
+    "Do not book the fourth power in the raw norm as a new independent content copy.",
+    "Do not infer subexponential least-simultaneous-nonsquare height from the EXACT FINITE ONLY replay.",
+    "Do not extend the displayed simple-rule witnesses to a universal rational-function no-go.",
+    "Do not infer a weighted collision bound from exact scalar recognition alone."
+  ]
+}

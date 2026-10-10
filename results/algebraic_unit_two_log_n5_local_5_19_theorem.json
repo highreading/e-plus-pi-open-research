@@ -1,0 +1,39 @@
+{
+  "combined_local_formula": "(2-t)^[d=2 mod 5] and (4-t)^([d=15 mod 19]+[d=205 mod 361]); no assertion is made at any other prime",
+  "description": "Exact finite-state all-degree classification of the local 5- and 19-parts of the n=5 two-log content ideal.",
+  "prime_19": {
+    "P_values_have_exact_local_valuation_one": true,
+    "P_zero_class_mod_19": 15,
+    "conjugate_prime_has_no_P_zeros": true,
+    "conjugate_prime_period": 855,
+    "content_exponent": "[d=15 mod 19]+[d=205 mod 361] for the principal ideal (4-t) O_K",
+    "determinant_second_order_class_mod_19_squared": 205,
+    "endpoint_shift_C_by_multiple_of_P": 95,
+    "hensel_t_mod_19_squared": 42,
+    "orders_of_eta_and_one_minus_eta": [
+      1710,
+      1710
+    ],
+    "period": 32490,
+    "period_hit_counts": {
+      "P_zero_degrees": 1710,
+      "second_order_determinant_degrees": 90
+    },
+    "s_mod_19_squared": 320
+  },
+  "prime_5": {
+    "P_values_have_exact_pi_valuation_one": true,
+    "P_zero_class_mod_5": 2,
+    "content_exponent": "[d=2 mod 5] for the principal ideal (2-t) O_K",
+    "determinant_has_exact_pi_valuation_one": true,
+    "endpoint_shift_C_by_multiple_of_P": 1,
+    "local_ring": "F_5[pi]/(pi^4), pi=zeta_5-1",
+    "orders_of_eta_and_one_minus_eta": [
+      20,
+      20
+    ],
+    "period": 20
+  },
+  "scope_warning": "This theorem is local at 5 and 19.  It neither excludes content at later primes nor proves a global subexponential content bound.",
+  "script_sha256": "32d79a8293d2d83f2688de23e57b82ccdaf3d06e50807789a4a282f18fe8f653"
+}

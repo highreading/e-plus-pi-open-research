@@ -1,0 +1,56 @@
+{
+  "schema": "item225-portable-manifest-v1",
+  "artifacts": {
+    "sources/item225_j2_second_cartier_report.md": {
+      "role": "proof report for reciprocity, exact finite-part forcing, the free-mode theorem, and the second necessary condition",
+      "sha256": "afb3dfeeedbd0445acf3c9af8a35d68ecc97c1c1bd52d293bc12993c9f53184c",
+      "work_source": "item225_j2_second_cartier_report.md"
+    },
+    "scripts/item225_j2_second_cartier_certificate.py": {
+      "role": "standard-library phase, reciprocity, regularized-recurrence, free-mode, and joint-census checker",
+      "sha256": "6fc6454f53bd1cff2db1c1602b2828191ea8ec571c3fa6c80f20c46df1e1b65c",
+      "work_source": "item225_j2_second_cartier_certificate.py"
+    },
+    "results/item225_j2_second_cartier_certificate.json": {
+      "role": "canonical deterministic output",
+      "sha256": "7e9a5549082a575b11242ee182f870c3cf1c20f04dfb8c6002b0cc6924e63434",
+      "work_source": "item225_j2_second_cartier_certificate.json"
+    },
+    "results/item225_j2_second_cartier_certificate_replay.json": {
+      "role": "independent replay output; byte-identical to canonical",
+      "sha256": "7e9a5549082a575b11242ee182f870c3cf1c20f04dfb8c6002b0cc6924e63434",
+      "work_source": "item225_j2_second_cartier_certificate_replay.json"
+    },
+    "results/item225_j2_second_cartier_ledger.json": {
+      "role": "strict PROVED, EXACT FINITE, OPEN, and booking ledger",
+      "sha256": "a9b13c060f9adb66977c5167f53ee625367ef6cad74a0cfb02ae2ff3b19785f7",
+      "work_source": "item225_j2_second_cartier_ledger.json"
+    }
+  },
+  "canonical_command_from_archive_root": "python scripts/item225_j2_second_cartier_certificate.py --output results/item225_j2_second_cartier_certificate.json",
+  "replay_command_from_archive_root": "python scripts/item225_j2_second_cartier_certificate.py --output results/item225_j2_second_cartier_certificate_replay.json",
+  "dependencies": {
+    "archive_files": {
+      "scripts/item224_j2_cartier_terminal_certificate.py": {
+        "role": "frozen first-phase recurrence and Omega helper",
+        "sha256": "7fc0dad8a691fce31032db64696c2cc809b39e65b948e0d93e58f8c5a0924bf4"
+      },
+      "scripts/item221_j2_twisted_cohomology_certificate.py": {
+        "role": "frozen j=2 cohomology and shifted-period helper",
+        "sha256": "8ef696188337f9ecc7f77e66c296973897ce443b143f72fc0c468fd3f9354a36"
+      },
+      "scripts/item219_common_log_j2_certificate.py": {
+        "role": "frozen j=2 polynomial and phase-weight helper",
+        "sha256": "bf9ee30675b5745225f08d2d82e500fd1f6797d69f94ab5949602e266f8b38cc"
+      }
+    },
+    "external_files": [],
+    "python": "3.11+ standard library only"
+  },
+  "portability": {
+    "archive_path_required": false,
+    "host_absolute_paths_embedded": false,
+    "helpers_resolved_beside_checker": true,
+    "explicit_output_makes_archive_root_replay_portable": true
+  }
+}

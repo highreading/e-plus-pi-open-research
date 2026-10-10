@@ -1,0 +1,57 @@
+{
+  "schema": "item261-root-audit-v1",
+  "item": 261,
+  "audited_date_beijing": "2026-08-31",
+  "disposition": "accepted for archive with zero rate, exponent, and capacity booking",
+  "sealed_artifacts": {
+    "report_sha256": "8c3615d391240e14afabe1827b852d881128a9cf2f10221af7508ed1ade0ef4d",
+    "checker_sha256": "1fb5e1c2929315a0e60963e133268f9e41ea43f00fcbf4da596aa3db75fd86a6",
+    "canonical_sha256": "0a1c8966d85ae43c40ac5f07d6257e50783af1cee2e7023a04d293c32cab4e00",
+    "replay_sha256": "0a1c8966d85ae43c40ac5f07d6257e50783af1cee2e7023a04d293c32cab4e00",
+    "strict_ledger_sha256": "4c60a8a97403b1dd4a45b6d22f39afee35facefd5679c16567c5120fe948c8b7",
+    "manifest_sha256": "51f376fd51d52700cb3b803fc04bafca09102a6b397858961742ade6df6dca64",
+    "hash_ledger_sha256": "f06a71ebc7fcfa67af9a27bfefd946ef6366e78f4ede3b79b4b0c382d4b5dcfd"
+  },
+  "portable_replay": {
+    "canonical_replay_byte_identical": true,
+    "root_replay_matches_canonical": true,
+    "root_replay_sha256": "0a1c8966d85ae43c40ac5f07d6257e50783af1cee2e7023a04d293c32cab4e00",
+    "control_bytes": 0,
+    "delimiter_balances": 0
+  },
+  "independent_formula_probe": {
+    "imports_item261_code": false,
+    "script_sha256": "a193bcbbfb3c88b38354bcbf3268cdedf874e1d3d71eb7d5d5da62700357d288",
+    "result_sha256": "ba508e8d9f46716dad6d863fd0eb33c03972f26345541056f9529d59dc0a8ce5",
+    "symbolic_D_R_checks": 93,
+    "endpoint_checks": 488,
+    "actual_rows_through_p_251": 226,
+    "localized_equalities": 1130,
+    "Item251_period_equalities": 678,
+    "three_prefix_zeros_reproduced": true
+  },
+  "root_mathematical_audit": {
+    "phase_parameterization_checked": true,
+    "Kummer_to_elliptic_birational_map_checked": true,
+    "complete_puncture_transport_checked": true,
+    "Hermite_operator_and_primitive_recurrence_checked": true,
+    "finite_field_Laurent_and_endpoint_correction_checked": true,
+    "residual_U_and_V_evaluations_checked": true,
+    "fixed_cutoff_identity_checked": true,
+    "Item251_period_and_rank_aware_branch_checked": true,
+    "logarithmic_residue_obstruction_checked": true,
+    "all_unit_ranges_checked": true,
+    "fixed_r_zero_mass_not_summable_checked": true
+  },
+  "labels": {
+    "proved": "p=1 mod 6 punctured elliptic normal form, endpoint correction, residual coordinates, full Item-251 period reduction, and logarithmic residue obstruction",
+    "exact_finite_only": "all bounded row and prefix-zero counts",
+    "open": "punctured Frobenius arithmetic, moving-r weighted control, the actual affine gate, and every rate consequence"
+  },
+  "booking": {
+    "new_unconditional_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "capacity_reduction": 0,
+    "route1_conclusion": "none"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "artifacts": {
+    "results/item214_stable_eliminant_gcd_certificate.json": {
+      "role": "canonical deterministic output",
+      "sha256": "c46aab3738d48c1e8edcf8c0fd17bb671611cad04c95895b1eae7bab8b538927",
+      "work_source": "item214_stable_eliminant_gcd_certificate.json"
+    },
+    "results/item214_stable_eliminant_gcd_certificate.replay.json": {
+      "role": "independent replay output; byte-identical to canonical",
+      "sha256": "c46aab3738d48c1e8edcf8c0fd17bb671611cad04c95895b1eae7bab8b538927",
+      "work_source": "item214_stable_eliminant_gcd_certificate_replay.json"
+    },
+    "scripts/item214_stable_eliminant_gcd_certificate.py": {
+      "role": "Python-standard-library recurrence, factorization, and phase-feasibility checker",
+      "sha256": "68beac2348d4462e1553b91aeb73e4e785ced50445761d909b4ed17b87bee203",
+      "work_source": "item214_stable_eliminant_gcd_certificate.py"
+    },
+    "sources/item214_stable_eliminant_gcd_report.md": {
+      "role": "proof report and scoped Route-1 height ledger",
+      "sha256": "0ad786d6215079d1492f1352f6820d62fb8c9cd576f858d6881945b619ac8fa8",
+      "work_source": "item214_stable_eliminant_gcd_report.md"
+    }
+  },
+  "canonical_command_from_archive_root": "python scripts/item214_stable_eliminant_gcd_certificate.py --output results/item214_stable_eliminant_gcd_certificate.json",
+  "dependencies": {
+    "archive_files": {
+      "scripts/item212_offray_phase_eliminant_certificate.py": {
+        "role": "frozen stable-phase eliminant and actual recurrence helper",
+        "sha256": "2cf099cbe55ab6cfc8d1a92f79f4d2ac6a715287041427c757da96e85165efe6"
+      }
+    },
+    "external_files": [],
+    "python": "3.11+ standard library only"
+  },
+  "portability": {
+    "archive_path_required": false,
+    "host_absolute_paths_embedded": false,
+    "helper_resolved_beside_checker": true,
+    "explicit_output_makes_archive_root_replay_portable": true
+  },
+  "replay_command_from_archive_root": "python scripts/item214_stable_eliminant_gcd_certificate.py --output results/item214_stable_eliminant_gcd_certificate.replay.json",
+  "schema": "item214-portable-manifest-v1"
+}

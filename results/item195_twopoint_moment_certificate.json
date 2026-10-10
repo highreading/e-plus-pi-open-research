@@ -1,0 +1,249 @@
+{
+  "dependencies": {
+    "sources/item180_moving_residual_report.md": {
+      "sha256": "a471f8398fd5f684e73e6c6e402b11c1dffdd0fd1418e6e53da2979dd73fbb4c"
+    },
+    "sources/item185_moving_root_count_report.md": {
+      "sha256": "40391f62af4895673059721dc8541db29803dc314e3c2df1c15ade022a988c31"
+    },
+    "sources/item189_collision_route_report.md": {
+      "sha256": "5996bbc3c0d95ff2f7e2845f52cbb0a6230b076b18ad5e329af77559f1d1d4b4"
+    }
+  },
+  "hermite_matrix": {
+    "determinant_mod_p": 1,
+    "entries": "binomial(r+ell*(p-1),j), 0<=j,ell<=3",
+    "residue_offsets": [
+      0,
+      1,
+      -1,
+      -2,
+      -3
+    ],
+    "size": 4
+  },
+  "interpolation_tail_checks": [
+    {
+      "N_p": 5,
+      "actual_interpolation_degree_finite_check": 16,
+      "p": 17,
+      "proved_degree_lower_bound": 11,
+      "residual_quotient_degree_finite_check": 5,
+      "tail_root_count": 11,
+      "tail_start": 6,
+      "value_at_zero": 4
+    },
+    {
+      "N_p": 6,
+      "actual_interpolation_degree_finite_check": 18,
+      "p": 19,
+      "proved_degree_lower_bound": 12,
+      "residual_quotient_degree_finite_check": 6,
+      "tail_root_count": 12,
+      "tail_start": 7,
+      "value_at_zero": 5
+    },
+    {
+      "N_p": 7,
+      "actual_interpolation_degree_finite_check": 22,
+      "p": 23,
+      "proved_degree_lower_bound": 15,
+      "residual_quotient_degree_finite_check": 7,
+      "tail_root_count": 15,
+      "tail_start": 8,
+      "value_at_zero": 6
+    },
+    {
+      "N_p": 9,
+      "actual_interpolation_degree_finite_check": 28,
+      "p": 29,
+      "proved_degree_lower_bound": 19,
+      "residual_quotient_degree_finite_check": 9,
+      "tail_root_count": 19,
+      "tail_start": 10,
+      "value_at_zero": 7
+    },
+    {
+      "N_p": 10,
+      "actual_interpolation_degree_finite_check": 30,
+      "p": 31,
+      "proved_degree_lower_bound": 20,
+      "residual_quotient_degree_finite_check": 10,
+      "tail_root_count": 20,
+      "tail_start": 11,
+      "value_at_zero": 8
+    },
+    {
+      "N_p": 12,
+      "actual_interpolation_degree_finite_check": 36,
+      "p": 37,
+      "proved_degree_lower_bound": 24,
+      "residual_quotient_degree_finite_check": 12,
+      "tail_root_count": 24,
+      "tail_start": 13,
+      "value_at_zero": 9
+    },
+    {
+      "N_p": 13,
+      "actual_interpolation_degree_finite_check": 40,
+      "p": 41,
+      "proved_degree_lower_bound": 27,
+      "residual_quotient_degree_finite_check": 13,
+      "tail_root_count": 27,
+      "tail_start": 14,
+      "value_at_zero": 10
+    },
+    {
+      "N_p": 14,
+      "actual_interpolation_degree_finite_check": 42,
+      "p": 43,
+      "proved_degree_lower_bound": 28,
+      "residual_quotient_degree_finite_check": 14,
+      "tail_root_count": 28,
+      "tail_start": 15,
+      "value_at_zero": 11
+    },
+    {
+      "N_p": 15,
+      "actual_interpolation_degree_finite_check": 46,
+      "p": 47,
+      "proved_degree_lower_bound": 31,
+      "residual_quotient_degree_finite_check": 15,
+      "tail_root_count": 31,
+      "tail_start": 16,
+      "value_at_zero": 12
+    }
+  ],
+  "item": 195,
+  "jacobi_bounded_conductor_counterexample_checks": [
+    {
+      "p": 17,
+      "zero_count": 7,
+      "zero_parameter_interval": [
+        1,
+        7
+      ]
+    },
+    {
+      "p": 19,
+      "zero_count": 8,
+      "zero_parameter_interval": [
+        1,
+        8
+      ]
+    },
+    {
+      "p": 23,
+      "zero_count": 10,
+      "zero_parameter_interval": [
+        1,
+        10
+      ]
+    },
+    {
+      "p": 29,
+      "zero_count": 13,
+      "zero_parameter_interval": [
+        1,
+        13
+      ]
+    },
+    {
+      "p": 31,
+      "zero_count": 14,
+      "zero_parameter_interval": [
+        1,
+        14
+      ]
+    },
+    {
+      "p": 37,
+      "zero_count": 17,
+      "zero_parameter_interval": [
+        1,
+        17
+      ]
+    },
+    {
+      "p": 41,
+      "zero_count": 19,
+      "zero_parameter_interval": [
+        1,
+        19
+      ]
+    },
+    {
+      "p": 43,
+      "zero_count": 20,
+      "zero_parameter_interval": [
+        1,
+        20
+      ]
+    },
+    {
+      "p": 47,
+      "zero_count": 22,
+      "zero_parameter_interval": [
+        1,
+        22
+      ]
+    }
+  ],
+  "runtime": {
+    "implementation": "CPython",
+    "python": "3.12.13"
+  },
+  "scope": {
+    "jet_order": 3,
+    "prime_max": 47,
+    "prime_min": 17
+  },
+  "status": {
+    "finite_only": "all numerical checks in this JSON",
+    "open": "C_p(h)=O(h), the Sidon assertion, and every unconditional sublinear root count",
+    "proved": [
+      "four Hasse moments invert each relevant coefficient residue class",
+      "the moving determinant and its h-shift use one fixed six-puncture rational map",
+      "the natural coefficient extension has at least p-1-floor((p-1)/3) interpolation degree",
+      "bounded tame Kummer conductor alone does not control mod-p zeros"
+    ]
+  },
+  "title": "two-point Hermite moments and conductor obstruction",
+  "totals": {
+    "admissible_pair_count": 100,
+    "alias_checks": 2000,
+    "determinant_checks": 100,
+    "excluded_jet_checks": 1144,
+    "moment_checks": 2000,
+    "prime_count": 9,
+    "rational_jet_checks": 12464
+  },
+  "warning": "Finite verification is not an asymptotic collision theorem.",
+  "zero_pairs": [
+    [
+      19,
+      5
+    ],
+    [
+      31,
+      6
+    ],
+    [
+      31,
+      9
+    ],
+    [
+      37,
+      11
+    ],
+    [
+      43,
+      13
+    ],
+    [
+      47,
+      9
+    ]
+  ],
+  "zero_pairs_sha256": "bbab4582210e9bbf5dfab14593964f883aee665304a06b6278e1e0d28fd83793"
+}

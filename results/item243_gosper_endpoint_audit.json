@@ -1,0 +1,568 @@
+{
+  "beta_denominator_audit": "For x, beta=(-4h+1)/2 is a half-integer; for v, beta=-h/3; for y, beta=1-h/3. With h=3n+r and r=1,2 none is an integer, so no finite rising-factor denominator vanishes.",
+  "classification": "PROVED_EXACT_GOSPER_ENDPOINTS",
+  "entries": [
+    {
+      "coefficient_pole_certificates": [],
+      "coefficient_poles_at_nonnegative_integers": false,
+      "cross_cancellation_degrees": [
+        33,
+        0
+      ],
+      "endpoint_multiplier_form": "exact_cross-reduced_product",
+      "interior_identity": "EXACT_QQ(n,j)_VERIFIED_BY_SOURCE",
+      "label": "x_recurrence",
+      "lower_endpoint": {
+        "certificate_numerator_divisible_by_j": true,
+        "j": 0,
+        "telescoper_denominator": {
+          "degree": 37,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "d6df25acbf92892ef9e092e9f28d2d934ac70a2b232effffe674966a67b784cf"
+        },
+        "vanishes": true
+      },
+      "residue": 1,
+      "source": "item243_direct_r1_x.json",
+      "upper_endpoint": {
+        "base_coefficient_degree_minus_K_degree": 26,
+        "base_coefficient_outside_support": true,
+        "j": "3*n+14",
+        "telescoper_denominator": {
+          "degree": 13,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "6dc2f1a3640d4dc850fceeafcc1be1d5bb6e58b2bf8e0a33deff1e35a2615835"
+        },
+        "vanishes": true
+      }
+    },
+    {
+      "coefficient_pole_certificates": [
+        {
+          "degree": 11,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "2d3878dea5f43f8260bc56ffbc0ad606cf104f944df95e4e3b048d1959c7f3ad"
+        },
+        {
+          "degree": 10,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "2741824c7db0a1b440f16b2f0a4b086f702b62f706076342d3ab9640a8b34eca"
+        },
+        {
+          "degree": 11,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "d80cdc72fad8df5f02dd3044a9e637d761f130e98730eacc7d76aef47c31d41e"
+        },
+        {
+          "degree": 10,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "2741824c7db0a1b440f16b2f0a4b086f702b62f706076342d3ab9640a8b34eca"
+        }
+      ],
+      "coefficient_poles_at_nonnegative_integers": false,
+      "cross_cancellation_degrees": [
+        0,
+        0
+      ],
+      "endpoint_multiplier_form": "exact_cross-reduced_product",
+      "interior_identity": "EXACT_QQ(n,j)_VERIFIED_BY_SOURCE",
+      "label": "v_recurrence",
+      "lower_endpoint": {
+        "certificate_numerator_divisible_by_j": true,
+        "j": 0,
+        "telescoper_denominator": {
+          "allowed_exceptional_integer_roots": [],
+          "degree": 55,
+          "factor_degrees": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            17
+          ],
+          "linear_roots": [
+            "-1/2",
+            "-3/2",
+            "1/3",
+            "-7/6",
+            "-13/6",
+            "-1",
+            "-1",
+            "-2",
+            "-2",
+            "-3",
+            "-3",
+            "-5/2",
+            "-5/2",
+            "-7/2",
+            "-7/2",
+            "-2/3",
+            "-2/3",
+            "-5/3",
+            "-5/3",
+            "-7/3",
+            "-7/3",
+            "-8/3",
+            "-8/3",
+            "-10/3",
+            "-10/3",
+            "-11/3",
+            "-11/3",
+            "-11/6",
+            "-11/6",
+            "-17/6",
+            "-17/6",
+            "-19/6",
+            "-19/6",
+            "-23/6",
+            "-23/6",
+            "-4/3",
+            "-4/3",
+            "-4/3"
+          ],
+          "method": "exact_QQ_factorization_and_linear_root_audit",
+          "no_unlisted_nonnegative_integer_root": true,
+          "sha256": "aee6560e1cbb3de6ec4991f46a09fd0f8aaf41bb3afb55b9a96f4bceb50a4c35"
+        },
+        "vanishes": true
+      },
+      "residue": 1,
+      "source": "item243_direct_r1_v.json",
+      "upper_endpoint": {
+        "base_coefficient_degree_minus_K_degree": 19,
+        "base_coefficient_outside_support": true,
+        "j": "3*n+12",
+        "telescoper_denominator": {
+          "degree": 38,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "d20497c347a2ca8202a5a5845af2948e0a32e0806c7e711c3ca04118089029d8"
+        },
+        "vanishes": true
+      }
+    },
+    {
+      "coefficient_pole_certificates": [
+        {
+          "degree": 3,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "7c946b2c418b673a12ee34f13a4024262346f54e729cc17a201159df80b585d2"
+        },
+        {
+          "degree": 3,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "7c946b2c418b673a12ee34f13a4024262346f54e729cc17a201159df80b585d2"
+        }
+      ],
+      "coefficient_poles_at_nonnegative_integers": false,
+      "cross_cancellation_degrees": [
+        0,
+        0
+      ],
+      "endpoint_multiplier_form": "exact_cross-reduced_product",
+      "interior_identity": "EXACT_QQ(n,j)_VERIFIED_BY_SOURCE",
+      "label": "xu_relation",
+      "lower_endpoint": {
+        "certificate_numerator_divisible_by_j": true,
+        "j": 0,
+        "telescoper_denominator": {
+          "degree": 32,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "e68bfa6c5ebe7301e2106af041c3154b6506dfd8faa7dde0ea1ccc7ee9897b49"
+        },
+        "vanishes": true
+      },
+      "residue": 1,
+      "source": "item243_cross_gosper_r1_xu.json",
+      "upper_endpoint": {
+        "base_coefficient_degree_minus_K_degree": 12,
+        "base_coefficient_outside_support": true,
+        "j": "3*n+7",
+        "telescoper_denominator": {
+          "degree": 22,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "7986be58c692ea174544eb08f7fbd6c28f80fd92e74047fa2160c6d5bd30f694"
+        },
+        "vanishes": true
+      }
+    },
+    {
+      "coefficient_pole_certificates": [],
+      "coefficient_poles_at_nonnegative_integers": false,
+      "cross_cancellation_degrees": [
+        17,
+        0
+      ],
+      "endpoint_multiplier_form": "exact_cross-reduced_product",
+      "interior_identity": "EXACT_QQ(n,j)_VERIFIED_BY_SOURCE",
+      "label": "yv_relation",
+      "lower_endpoint": {
+        "certificate_numerator_divisible_by_j": true,
+        "j": 0,
+        "telescoper_denominator": {
+          "degree": 16,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "2a3b754bd364ab53ad8e44abcf75e65b1d560b166dcf1537d07c8dfe2a5d62b5"
+        },
+        "vanishes": true
+      },
+      "residue": 1,
+      "source": "item243_cross_gosper_r1_yv.json",
+      "upper_endpoint": {
+        "base_coefficient_degree_minus_K_degree": 16,
+        "base_coefficient_outside_support": true,
+        "j": "3*n+9",
+        "telescoper_denominator": {
+          "degree": 1,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "8c481f2778edfb32305aca9528dfb5ae72cf492694d1055be5aa4bf857500fc6"
+        },
+        "vanishes": true
+      }
+    },
+    {
+      "coefficient_pole_certificates": [],
+      "coefficient_poles_at_nonnegative_integers": false,
+      "cross_cancellation_degrees": [
+        33,
+        0
+      ],
+      "endpoint_multiplier_form": "exact_cross-reduced_product",
+      "interior_identity": "EXACT_QQ(n,j)_VERIFIED_BY_SOURCE",
+      "label": "x_recurrence",
+      "lower_endpoint": {
+        "certificate_numerator_divisible_by_j": true,
+        "j": 0,
+        "telescoper_denominator": {
+          "degree": 37,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "98d473b39486fec926a6be7b54e1e6cb6e479317cb3a03414b2ef3f183945e6c"
+        },
+        "vanishes": true
+      },
+      "residue": 2,
+      "source": "item243_direct_r2_x.json",
+      "upper_endpoint": {
+        "base_coefficient_degree_minus_K_degree": 26,
+        "base_coefficient_outside_support": true,
+        "j": "3*n+15",
+        "telescoper_denominator": {
+          "degree": 13,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "903841e5d54edea4b9412032d5115adbb41223cf7679b89aa1579a9cb39edb06"
+        },
+        "vanishes": true
+      }
+    },
+    {
+      "coefficient_pole_certificates": [
+        {
+          "degree": 11,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "90a06a1e0da2830bd2cecdce4d3533ca913bdcabea24e46b36faa33ead2b7fa4"
+        },
+        {
+          "degree": 10,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "a72b7346e2ec9462c233886edbf15cb870e8e7103c5b49f614d6f74762518dd8"
+        },
+        {
+          "degree": 11,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "9c00f2a1cfe4a40d701e9ccd476b0ae01b102ff6cc6d2ea6556f409fbcd5b43a"
+        },
+        {
+          "degree": 10,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "a72b7346e2ec9462c233886edbf15cb870e8e7103c5b49f614d6f74762518dd8"
+        }
+      ],
+      "coefficient_poles_at_nonnegative_integers": false,
+      "cross_cancellation_degrees": [
+        0,
+        0
+      ],
+      "endpoint_multiplier_form": "exact_cross-reduced_product",
+      "interior_identity": "EXACT_QQ(n,j)_VERIFIED_BY_SOURCE",
+      "label": "v_recurrence",
+      "lower_endpoint": {
+        "certificate_numerator_divisible_by_j": true,
+        "j": 0,
+        "telescoper_denominator": {
+          "allowed_exceptional_integer_roots": [
+            0
+          ],
+          "degree": 55,
+          "factor_degrees": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            17
+          ],
+          "linear_roots": [
+            "0",
+            "-3/2",
+            "-5/2",
+            "-5/6",
+            "-11/6",
+            "-1",
+            "-1",
+            "-2",
+            "-2",
+            "-3",
+            "-3",
+            "-4",
+            "-4",
+            "-7/2",
+            "-7/2",
+            "-4/3",
+            "-4/3",
+            "-7/3",
+            "-7/3",
+            "-8/3",
+            "-8/3",
+            "-10/3",
+            "-10/3",
+            "-11/3",
+            "-11/3",
+            "-13/6",
+            "-13/6",
+            "-17/6",
+            "-17/6",
+            "-19/6",
+            "-19/6",
+            "-23/6",
+            "-23/6",
+            "-25/6",
+            "-25/6",
+            "-5/3",
+            "-5/3",
+            "-5/3"
+          ],
+          "method": "exact_QQ_factorization_and_linear_root_audit",
+          "no_unlisted_nonnegative_integer_root": true,
+          "sha256": "75cb63d3397507569ece413d37661af991f94aa34c9315e33e64895c748dabee"
+        },
+        "vanishes": "for n>=1; n=0 is covered by the exact exceptional bridge"
+      },
+      "residue": 2,
+      "source": "item243_direct_r2_v.json",
+      "upper_endpoint": {
+        "base_coefficient_degree_minus_K_degree": 19,
+        "base_coefficient_outside_support": true,
+        "j": "3*n+13",
+        "telescoper_denominator": {
+          "degree": 38,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "1d4838b7021c2c23f081ea68dc39c15ad9c3b1cf06c7e45a7f949e1ac372e6de"
+        },
+        "vanishes": true
+      }
+    },
+    {
+      "coefficient_pole_certificates": [
+        {
+          "degree": 3,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "656735e2062098352f0c9d5f72dd548745c9b738322675f4ec10a59353bdadfe"
+        },
+        {
+          "degree": 3,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "656735e2062098352f0c9d5f72dd548745c9b738322675f4ec10a59353bdadfe"
+        }
+      ],
+      "coefficient_poles_at_nonnegative_integers": false,
+      "cross_cancellation_degrees": [
+        0,
+        0
+      ],
+      "endpoint_multiplier_form": "exact_cross-reduced_product",
+      "interior_identity": "EXACT_QQ(n,j)_VERIFIED_BY_SOURCE",
+      "label": "xu_relation",
+      "lower_endpoint": {
+        "certificate_numerator_divisible_by_j": true,
+        "j": 0,
+        "telescoper_denominator": {
+          "degree": 32,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "cf07c407d5bb8c70797e8ac88108e457716bad3755933b2c872d7e05e90d0a89"
+        },
+        "vanishes": true
+      },
+      "residue": 2,
+      "source": "item243_cross_gosper_r2_xu.json",
+      "upper_endpoint": {
+        "base_coefficient_degree_minus_K_degree": 12,
+        "base_coefficient_outside_support": true,
+        "j": "3*n+8",
+        "telescoper_denominator": {
+          "degree": 22,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "1bfaf21b931d9d57ff96bacf59c9e05208d82d62ec132d18b4c70b76018992b3"
+        },
+        "vanishes": true
+      }
+    },
+    {
+      "coefficient_pole_certificates": [],
+      "coefficient_poles_at_nonnegative_integers": false,
+      "cross_cancellation_degrees": [
+        17,
+        0
+      ],
+      "endpoint_multiplier_form": "exact_cross-reduced_product",
+      "interior_identity": "EXACT_QQ(n,j)_VERIFIED_BY_SOURCE",
+      "label": "yv_relation",
+      "lower_endpoint": {
+        "certificate_numerator_divisible_by_j": true,
+        "j": 0,
+        "telescoper_denominator": {
+          "degree": 16,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "2a76ed1f451a45d321deac822fe5e32b1f35d594b1ac476757e6c4407a554254"
+        },
+        "vanishes": true
+      },
+      "residue": 2,
+      "source": "item243_cross_gosper_r2_yv.json",
+      "upper_endpoint": {
+        "base_coefficient_degree_minus_K_degree": 16,
+        "base_coefficient_outside_support": true,
+        "j": "3*n+10",
+        "telescoper_denominator": {
+          "degree": 1,
+          "method": "all_coefficients_nonnegative_and_constant_positive",
+          "no_nonnegative_integer_root": true,
+          "sha256": "6647d89662e5c52d3482be3e5aa4cc8f06728a1a78a97e267ac85db7003dce89"
+        },
+        "vanishes": true
+      }
+    }
+  ],
+  "exceptional_bridges": [
+    {
+      "classification": "PROVED_EXACT_RATIONAL_EXCEPTIONAL_BRIDGE",
+      "identity": "sum_(k=0)^3 P_k(0)*v_(2+3k)=0",
+      "index": 0,
+      "residue": 2,
+      "sum": [
+        0,
+        1
+      ],
+      "terms": [
+        [
+          0,
+          1
+        ],
+        [
+          -81279801735017634905556974336,
+          638725651875
+        ],
+        [
+          288999891922712333062924415744,
+          638725651875
+        ],
+        [
+          -2564445557872774051325523968,
+          7885501875
+        ]
+      ]
+    }
+  ],
+  "item": 243,
+  "scope": "The x/v recurrence and xu/yv cross-relation Gosper telescopers have zero lower and upper endpoints for every integer n>=0 in residues 1 and 2. Interior certificate terms may be meromorphically continued: after summing at fixed n, all interior terms cancel, and the two audited endpoints are regular."
+}

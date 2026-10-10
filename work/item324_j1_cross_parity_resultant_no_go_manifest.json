@@ -1,0 +1,95 @@
+{
+  "schema": "item324-j1-cross-parity-resultant-no-go-manifest-v1",
+  "item": 324,
+  "title": "Cross-parity resultant, even-overlap localization, and selected-slice no-go",
+  "date": "2026-08-31",
+  "status": "PROVED_CROSS_PARITY_RESULTANT_AND_SCOPED_SELECTED_SLICE_NO_GO",
+  "canonical_files_modified": false,
+  "artifacts": [
+    {
+      "path": "work/item324_j1_cross_parity_resultant_no_go_report.md",
+      "role": "exact resultant theorem, even-overlap localization, parity-selection audit, scoped no-go, and capacity",
+      "sha256": "d3253fed82c10b7f910950ed0c3f2bea97ec195a1ed046456da9255e30e22af4"
+    },
+    {
+      "path": "work/item324_j1_cross_parity_resultant_no_go_certificate.py",
+      "role": "exact deterministic symbolic replay",
+      "sha256": "e8eeeae55de4463d858942a90cc584c11a407d71c47d8ff1e99ba88c752cec8c"
+    },
+    {
+      "path": "work/item324_j1_cross_parity_resultant_no_go_certificate.json",
+      "role": "canonical work-package certificate output",
+      "sha256": "e479b217fe07ab9d79d4355b992511febc331fc671e2d64bd9456c9b2e82b28a"
+    },
+    {
+      "path": "work/item324_j1_cross_parity_resultant_no_go_certificate.replay.json",
+      "role": "independent byte-identical replay output",
+      "sha256": "e479b217fe07ab9d79d4355b992511febc331fc671e2d64bd9456c9b2e82b28a"
+    },
+    {
+      "path": "work/item324_j1_cross_parity_resultant_no_go_ledger_delta.json",
+      "role": "proposed ledger delta; no canonical edit",
+      "sha256": "11380377f6b8a079acab1be67bad0610d1d83030e48ad9d4453dbd82c3d5da69"
+    }
+  ],
+  "pinned_canonical_item308": {
+    "sources/item308_j1_all_s_fixed_divisor_no_go_report.md": "4eb8f8c37dfde9d19e57c8df5ff8090bd95f03be59fff7d6aede55d02993bdc8",
+    "scripts/item308_j1_all_s_fixed_divisor_no_go_certificate.py": "9b60d380b503c7ac9fed13792fae67735cfcf6b0f376581a0076fde16a82f0b9",
+    "results/item308_j1_all_s_fixed_divisor_no_go_certificate.json": "4efff9ca2fb1bc11cc6030e260ff73aae89c28bd157bb41fa6bbc3b32e41e5cf",
+    "results/item308_j1_all_s_fixed_divisor_no_go_certificate_replay.json": "4efff9ca2fb1bc11cc6030e260ff73aae89c28bd157bb41fa6bbc3b32e41e5cf",
+    "results/item308_j1_all_s_fixed_divisor_no_go_ledger.json": "eb5625613423ad5de16546d6c13860ef8e055867816648646b8a500cb00ad134",
+    "manifests/item308_j1_all_s_fixed_divisor_no_go_manifest.json": "1c4721f43b5bbdc0c68e4d9fd689562a32a4af4fbbab2a9e7075da96b151b4d5",
+    "results/item308_root_audit.json": "11feb8105ea46c27d83df2449404297fe74709eceaa8be6a21bd9484cbffba22"
+  },
+  "pinned_canonical_item321": {
+    "sources/item321_fundamental_basis_operator_elimination_no_go_report.md": "bb41380371b6e591c4670aeb85d41520b0fb2b7f5f4d377e44bd531b5fa1b5c1",
+    "scripts/item321_fundamental_basis_operator_elimination_no_go_certificate.py": "d5352d1bbcb77f875dc7e8eadc36c5f43d23f9dd3ccee06449c8fa7834577b1e",
+    "results/item321_fundamental_basis_operator_elimination_no_go_certificate.json": "c196625c48a6e1f154cbbed29bc938eff53a318f172bb7679ade099aa5da3c35",
+    "results/item321_fundamental_basis_operator_elimination_no_go_certificate_replay.json": "c196625c48a6e1f154cbbed29bc938eff53a318f172bb7679ade099aa5da3c35",
+    "results/item321_fundamental_basis_operator_elimination_no_go_ledger_delta.json": "b603ed257a76bcba57f856ed7d1a9bee285764815eaee2753fa051c78003bba4",
+    "manifests/item321_fundamental_basis_operator_elimination_no_go_manifest.json": "3555ca387f7b20366a4874fc161c9c048500486ec4126e94c1f07b97dcc7237f",
+    "results/item321_fundamental_basis_operator_elimination_no_go_root_audit.json": "9759809da8c264f9d4975491f5520c44bf78905471272bd688bfe3ce3773eed6",
+    "results/item321_fundamental_basis_operator_elimination_no_go_hashes.sha256": "e150b31590635b6dc5ed752771423c149a7a1d1bf39bbe9d765e2848ff93d1a0"
+  },
+  "replay": {
+    "command": "python work/item324_j1_cross_parity_resultant_no_go_certificate.py --output work/item324_j1_cross_parity_resultant_no_go_certificate.replay.json",
+    "expected_replay_sha256": "e479b217fe07ab9d79d4355b992511febc331fc671e2d64bd9456c9b2e82b28a",
+    "byte_identical": true,
+    "prime_scans": 0
+  },
+  "proved": [
+    "The two actual parity quadrics have resultant 64(X^2+Y^2)^2 in every phase.",
+    "On even actual rows a simultaneous parity zero forces A=X=Y=0 and hence an Item-321 Casoratian zero.",
+    "The even cross-parity overlap has fixed-M logarithmic mass O(log M)=o(M).",
+    "Odd actual rows have four explicit nonzero projective intersections of the two quadrics.",
+    "The selected parity epsilon is constant across every fixed-M slice."
+  ],
+  "scoped_cross_parity_no_go": {
+    "reason": "the pinned Item-308 implication forces only the selected constant parity, not the unused parity needed by the resultant",
+    "exact_control": "(M,s,h,p)=(34,2,8,47) has selected linear form and D_(2,0) zero, but D_(2,1)=19 modulo 47",
+    "control_scope": "preselected Item-308 eliminant control, not a full Item-264 collision",
+    "does_not_cover": [
+      "selected-factor arithmetic",
+      "a resultant between different actual one-parity terms",
+      "an invariant retaining the original full two-coordinate gate"
+    ]
+  },
+  "capacity": {
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "actual_selected_one_parity_mass": "UNCONTROLLED",
+    "retained_ceiling_per_6M": "1/36"
+  },
+  "open": [
+    "odd-row actual cross-parity arithmetic",
+    "a selected-factor fixed-M gcd/resultant",
+    "W_D(M)=o(M), W_off(M)=o(M), fixed-j1 closure, Route 1, and every conclusion about e+pi"
+  ],
+  "not_claimed": [
+    "that the unused parity is forced by the original collision",
+    "that an odd intersection line is attained by the actual sequence",
+    "that p=47 is a full Item-264 collision",
+    "a prime scan",
+    "positive capacity"
+  ]
+}

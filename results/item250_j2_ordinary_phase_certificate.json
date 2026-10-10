@@ -1,0 +1,374 @@
+{
+  "all_row_unit_audit": {
+    "A_state_backward_pivots": "1 <= Q+k <= Q+2r+3 = p-2Q < p",
+    "A_state_direct_denominators": "1 <= Q+k+2t <= 3Q+r+2 = p-r-1 < p",
+    "A_state_forward_pivots": "1 <= 3Q+k <= 3Q+r+2 = p-r-1 < p",
+    "Frobenius_exception": "3Q+(2r+3)=p is not inverted; its unique top coefficient is retained as 1",
+    "lower_B_factorials": "N_a=r+Q+1<p, separately from the upper range",
+    "phase_specialization": "each displayed phase denominator is the reduction of one of these actual p-unit factors; 2 and 3 are units",
+    "primitive_content_division": false,
+    "upper_B_factorials": "D=(r+Q+1)/2 and R=Q+D=(p-r-2)/2<p"
+  },
+  "booking": {
+    "capacity_reduction": 0,
+    "new_divisibility_exponent": 0,
+    "new_unconditional_linear_log_rate": 0
+  },
+  "dependency": {
+    "item219_common_log_j2_certificate.py": "bf9ee30675b5745225f08d2d82e500fd1f6797d69f94ab5949602e266f8b38cc"
+  },
+  "exact_formulas": {
+    "affine_state": "J_k=u_k*e+v_k*c+w_k, e=J_0, c=2^Q",
+    "base_period": "J_k=sum_(t=0)^(Q-1) C(Q-1,t)/(Q+k+2t)",
+    "cube": "2^(2r+2)*c^3=1 mod p",
+    "fixed_r_resultant": "R_r=L_r^3+2^(2r+2)*M_r^3",
+    "gate": "G_nu=f_nu*Z+P_nu*c+Q_nu, Z=9*kappa_r*e-f",
+    "linear_eliminant": "f_0*G_1-f_1*G_0=L_r*c+M_r",
+    "phase": "Qbar=-(2r+3)/3",
+    "rank_one": "a_nu=kappa_r*f_nu for nu=0,1 by termwise coefficient reversal",
+    "recurrence": "(3Q+k)J_(k+2)=2^Q-(Q+k)J_k",
+    "resonant_terminal": "J_(2r+3)=(2^Q-1)/(Q+2r+3)"
+  },
+  "explicit_counterexamples_to_sufficiency": [
+    {
+      "ba0": 6,
+      "ba1": 781,
+      "bt0": 0,
+      "bt1": 163,
+      "c": 882,
+      "e": 502,
+      "f": 930,
+      "g0": 0,
+      "g1": 374,
+      "kind": "linear",
+      "linear": 0,
+      "p": 953,
+      "r": 1,
+      "resultant": 0,
+      "s": 158,
+      "unit_audit_assertions": 380,
+      "x0": 642,
+      "x1": 398
+    },
+    {
+      "ba0": 714,
+      "ba1": 1825,
+      "bt0": 752,
+      "bt1": 2076,
+      "c": 998,
+      "e": 1805,
+      "f": 1485,
+      "g0": 1645,
+      "g1": 1690,
+      "kind": "linear",
+      "linear": 0,
+      "p": 2281,
+      "r": 5,
+      "resultant": 0,
+      "s": 378,
+      "unit_audit_assertions": 844,
+      "x0": 1820,
+      "x1": 1179
+    },
+    {
+      "ba0": 4711,
+      "ba1": 751,
+      "bt0": 1751,
+      "bt1": 2894,
+      "c": 3324,
+      "e": 369,
+      "f": 1854,
+      "g0": 519,
+      "g1": 4302,
+      "kind": "linear",
+      "linear": 0,
+      "p": 5711,
+      "r": 31,
+      "resultant": 0,
+      "s": 941,
+      "unit_audit_assertions": 2126,
+      "x0": 3583,
+      "x1": 1634
+    },
+    {
+      "ba0": 488,
+      "ba1": 1155,
+      "bt0": 1009,
+      "bt1": 285,
+      "c": 771,
+      "e": 194,
+      "f": 46,
+      "g0": 982,
+      "g1": 953,
+      "kind": "linear",
+      "linear": 0,
+      "p": 1279,
+      "r": 41,
+      "resultant": 0,
+      "s": 199,
+      "unit_audit_assertions": 702,
+      "x0": 195,
+      "x1": 284
+    },
+    {
+      "ba0": 2772,
+      "ba1": 1098,
+      "bt0": 335,
+      "bt1": 306,
+      "c": 1061,
+      "e": 2393,
+      "f": 3746,
+      "g0": 3118,
+      "g1": 1945,
+      "kind": "linear",
+      "linear": 0,
+      "p": 3929,
+      "r": 55,
+      "resultant": 0,
+      "s": 636,
+      "unit_audit_assertions": 1660,
+      "x0": 2154,
+      "x1": 597
+    },
+    {
+      "ba0": 1630,
+      "ba1": 463,
+      "bt0": 833,
+      "bt1": 490,
+      "c": 1593,
+      "e": 1074,
+      "f": 249,
+      "g0": 1420,
+      "g1": 153,
+      "kind": "linear",
+      "linear": 0,
+      "p": 1657,
+      "r": 59,
+      "resultant": 0,
+      "s": 256,
+      "unit_audit_assertions": 924,
+      "x0": 1325,
+      "x1": 770
+    },
+    {
+      "ba0": 42,
+      "ba1": 311,
+      "bt0": 351,
+      "bt1": 189,
+      "c": 362,
+      "e": 298,
+      "f": 231,
+      "g0": 238,
+      "g1": 354,
+      "kind": "linear",
+      "linear": 0,
+      "p": 367,
+      "r": 65,
+      "resultant": 0,
+      "s": 39,
+      "unit_audit_assertions": 526,
+      "x0": 316,
+      "x1": 202
+    },
+    {
+      "ba0": 33,
+      "ba1": 16,
+      "bt0": 7,
+      "bt1": 13,
+      "c": 36,
+      "e": 24,
+      "f": 22,
+      "g0": 53,
+      "g1": 62,
+      "kind": "cubic_only",
+      "linear": 28,
+      "p": 67,
+      "r": 11,
+      "resultant": 0,
+      "s": 7,
+      "unit_audit_assertions": 138,
+      "x0": 21,
+      "x1": 41
+    },
+    {
+      "ba0": 18,
+      "ba1": 83,
+      "bt0": 83,
+      "bt1": 94,
+      "c": 64,
+      "e": 45,
+      "f": 101,
+      "g0": 8,
+      "g1": 75,
+      "kind": "cubic_only",
+      "linear": 107,
+      "p": 127,
+      "r": 53,
+      "resultant": 0,
+      "s": 3,
+      "unit_audit_assertions": 382,
+      "x0": 16,
+      "x1": 111
+    }
+  ],
+  "finite_actual_replay": {
+    "counts": {
+      "common_gate_zeros": 0,
+      "cubic_resultant_zeros": 9,
+      "direct_phase_coordinate_equalities": 6918,
+      "frobenius_resonant_terms": 50814,
+      "linear_residual_zeros": 3,
+      "rows": 1153,
+      "unit_audit_assertions": 563818,
+      "unit_audit_rows": 1153
+    },
+    "cubic_hits": [
+      {
+        "g0": 53,
+        "g1": 62,
+        "linear": 28,
+        "p": 67,
+        "r": 11,
+        "s": 7
+      },
+      {
+        "g0": 57,
+        "g1": 82,
+        "linear": 48,
+        "p": 109,
+        "r": 17,
+        "s": 12
+      },
+      {
+        "g0": 8,
+        "g1": 75,
+        "linear": 107,
+        "p": 127,
+        "r": 53,
+        "s": 3
+      },
+      {
+        "g0": 225,
+        "g1": 57,
+        "linear": 96,
+        "p": 241,
+        "r": 17,
+        "s": 34
+      },
+      {
+        "g0": 173,
+        "g1": 136,
+        "linear": 0,
+        "p": 271,
+        "r": 113,
+        "s": 7
+      },
+      {
+        "g0": 8,
+        "g1": 279,
+        "linear": 204,
+        "p": 307,
+        "r": 83,
+        "s": 23
+      },
+      {
+        "g0": 238,
+        "g1": 354,
+        "linear": 0,
+        "p": 367,
+        "r": 65,
+        "s": 39
+      },
+      {
+        "g0": 60,
+        "g1": 237,
+        "linear": 65,
+        "p": 373,
+        "r": 131,
+        "s": 18
+      },
+      {
+        "g0": 382,
+        "g1": 152,
+        "linear": 0,
+        "p": 383,
+        "r": 109,
+        "s": 27
+      }
+    ],
+    "linear_hits": [
+      {
+        "g0": 173,
+        "g1": 136,
+        "p": 271,
+        "r": 113,
+        "s": 7
+      },
+      {
+        "g0": 238,
+        "g1": 354,
+        "p": 367,
+        "r": 65,
+        "s": 39
+      },
+      {
+        "g0": 382,
+        "g1": 152,
+        "p": 383,
+        "r": 109,
+        "s": 27
+      }
+    ],
+    "role": "bounded exact replay only",
+    "row_digest_sha256": "d1ecff1a915604df6d5fc06ec10d9dadd20e2a05d61c362ed5eba35bff4746f0"
+  },
+  "parameters": {
+    "cell": "p=2r+6s+3, r odd, Q=2s",
+    "identity_r_max_inclusive": 199,
+    "prime_max_inclusive": 401
+  },
+  "schema": "item250-j2-ordinary-phase-v2",
+  "status": {
+    "EXACT_FINITE": [
+      "direct equality with all three frozen Item219 coordinates on every row through the recorded prime bound",
+      "the recorded linear and cubic false-positive rows",
+      "termwise rational replay through the recorded r bound"
+    ],
+    "OPEN": [
+      "all-prime nonvanishing or weighted control of R_r at p=2r+6s+3",
+      "control of the actual residual period Z on rows where the eliminant vanishes",
+      "any capacity reduction or conclusion about e+pi"
+    ],
+    "PROVED": [
+      "exact affine fixed-r reduction of both A tails, with the unique Frobenius residue -1 retained",
+      "exact fixed-r rational formulas for both B tails, with their common factorial period retained",
+      "termwise reciprocal identity a_nu=kappa_r*f_nu for both rows",
+      "collision implies L_r*c+M_r=0 and hence p divides the reduced numerator of R_r",
+      "all phase denominators are p-units on every actual row"
+    ]
+  },
+  "symbolic_reversal_replay": {
+    "admissible_r_values": 67,
+    "digest_sha256": "4aaaaf3f4d3b48f1751465e563d48ffd795e3425cc7b7d22a0c65db7ad343c5e",
+    "exact_resultant_zero_r": [],
+    "r1_terminal": {
+      "L": [
+        486,
+        5
+      ],
+      "M": [
+        198,
+        5
+      ],
+      "alpha": [
+        -87,
+        10
+      ],
+      "beta": [
+        27,
+        10
+      ]
+    },
+    "term_equalities": 6934
+  }
+}

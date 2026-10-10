@@ -1,0 +1,47 @@
+{
+  "schema": "item326-j1-selected-factor-step12-no-go-ledger-delta-v1",
+  "item": 326,
+  "date": "2026-09-01",
+  "canonical_edit_performed": false,
+  "proposed_status": "PROVED_ACTUAL_SELECTED_FACTOR_STEP12_RECURRENCE_AND_SCOPED_BOUNDED_GAP_NO_GO",
+  "proposed_ledger_entry": "Item 326 retains only the parity actually selected on a fixed-M slice and factors its normalized Item-308 container into the two true Item-321 scalar solutions Y^+ and Y^- with their actual Item-308/321 initial values. For every phase, selected parity, and sign it proves the exact determinant recurrence sum_(j=0..3) Delta_j(s)Y(s+12j)=0, where the four reduced rational coefficients have numerator/denominator degrees (117,117), (116,116), (92,92), and (68,68), and coefficient-sign certificates show that every Delta_j is nonzero at every positive integer index. The four interlaced fixed-M phases correspond to candidate-prime gaps 0,8,16,24. A standard two-dimensional upper-bound sieve proves that rows with two candidate primes at any fixed nonzero bounded gap have weighted mass O(M/log M)=o(M), while bounded-window isolated candidates retain raw mass M/6+o(M). Hence a cross-row gcd/resultant requiring two bounded-offset selected collision rows controls only zero-rate overlap and cannot bound isolated one-row collisions. No propagation theorem from every original collision and no single-row factor localization is proved. The preselected p=47 factor values are replay controls only and are not claimed to be a full Item-264 collision. Booking is zero and the fixed-j1 ceiling remains 1/36 per 6M.",
+  "capacity": {
+    "new_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "bounded_gap_cross_row_overlap_mass": "O(M/log M)=o(M)",
+    "isolated_selected_collision_mass": "uncontrolled",
+    "retained_ceiling_per_6M": "1/36"
+  },
+  "proved": [
+    "the exact eight selected-container factorizations over Q(i,sqrt(2))",
+    "actual initial triples for both factor signs on all four phases and both parities",
+    "the determinant-form order-three step-12 recurrence",
+    "all four recurrence coefficients are nonzero for every positive integer index",
+    "the fixed-M four-phase indexing and candidate-prime gaps",
+    "weighted bounded-gap candidate-prime overlap O(M/log M)=o(M) by the standard upper-bound sieve"
+  ],
+  "scoped_bounded_gap_no_go": [
+    "a cross-row mechanism requiring selected collisions at two bounded-offset actual prime rows touches only o(M) overlap",
+    "bounded-window isolated candidate primes retain M/6+o(M) raw logarithmic mass",
+    "the exact recurrence alone supplies neither neighboring primality nor a second collision",
+    "this does not close a theorem forcing every original collision to propagate"
+  ],
+  "exact_finite_only": [
+    "one preselected p=47 selected-eliminant factor replay; not a full Item-264 collision",
+    "16 direct actual-value recurrence substitutions; the all-index theorem comes from the exact Laplace identity"
+  ],
+  "open": [
+    "single-row arithmetic of the actual selected factor values",
+    "a propagation bridge from every original collision",
+    "W_D(M)=o(M) and W_off(M)=o(M)",
+    "fixed-j1 closure, Route 1, and every conclusion about e+pi"
+  ],
+  "not_claimed": [
+    "a uniform factor sign or prime above p",
+    "that p=47 is a full Item-264 collision",
+    "that the recurrence itself proves propagation or zero density",
+    "a prime scan",
+    "positive capacity"
+  ]
+}

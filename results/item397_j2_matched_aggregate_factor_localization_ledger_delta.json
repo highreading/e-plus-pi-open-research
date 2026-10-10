@@ -1,0 +1,61 @@
+{
+  "item": 397,
+  "schema": "item397-j2-matched-aggregate-factor-localization-ledger-v1",
+  "classification": "PROVED_FACTOR_LOCALIZATION_OBSTRUCTION_WITH_ETA_ZERO",
+  "branch": "ordinary fixed-j=2 exact matched aggregate",
+  "proved": {
+    "envelope_decomposition": "C_6=2/35+C_comp",
+    "C_comp": "3774576680099633199868/56080510212831201972875 = 0.06730638979165371...",
+    "support_meaning": "2/35 is exactly the u=1 prime-row component; C_comp is entirely u>=5 composite-row small-prime support",
+    "atomic_row_factor": "after (L_M-1)! saturation, d_(M,q)^sharp is q exactly for an actual prime collision and is 1 otherwise",
+    "pairwise_localization": "for q!=q', gcd(d_(M,q),d_(M,q')) divides gcd(q,q') and |q-q'|<L_M",
+    "sharp_pairwise_coprimality": "all distinct high-prime matched row factors are coprime",
+    "reciprocity_local_admissibility": "the selected endpoint cubic phase equation is soluble on both actual mod-6 rays",
+    "proved_eta": 0
+  },
+  "scope": {
+    "closed": [
+      "strict aggregate-height saving from pairwise gcd overlap among distinct matched row factors",
+      "higher common-divisor reuse among matched factors, since it is already pairwise",
+      "common-divisor resultants whose only arithmetic input is a prime shared by two matched factors",
+      "exclusion of either complete prime ray from the known endpoint cubic phase equation alone"
+    ],
+    "not_closed": [
+      "a resultant or congruence involving unmatched actual carrier values at different rows",
+      "one-row nonvanishing on a positive Chebyshev-mass subfamily",
+      "reciprocity correlated with the moving coefficients or legitimate second target",
+      "a strict or zero-rate height theorem for A_M^sharp"
+    ]
+  },
+  "capacity": {
+    "unsaturated_envelope_per_M": "0.12444924693451084...",
+    "composite_support_removed_per_M": "0.06730638979165371...",
+    "composite_support_removed_per_6M": "0.011217731631942283...",
+    "atomic_prime_row_remainder_per_M": "2/35",
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "eta_per_M": 0,
+    "new_booking": 0,
+    "new_capacity_reduction": 0
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact envelope constant decomposition",
+      "atomic high-prime row localization",
+      "pairwise matched-gcd localization and sharp coprimality",
+      "endpoint phase local admissibility on both rays",
+      "factor-overlap obstruction with eta zero"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared actual-formula slice factors and pairwise checks",
+      "declared endpoint phase replays"
+    ],
+    "OPEN": [
+      "any positive eta for the actual aggregate",
+      "unmatched cross-row arithmetic",
+      "actual moving-target nonconcentration",
+      "Route 1 and every conclusion about e+pi"
+    ]
+  },
+  "smallest_next_input": "a positive-mass one-row exclusion theorem, or a genuine cross-row implication using unmatched target-retaining carrier values",
+  "central_files_modified": false
+}

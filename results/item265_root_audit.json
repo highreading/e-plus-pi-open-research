@@ -1,0 +1,47 @@
+{
+  "schema": "item265-root-audit-v1",
+  "audited": "2026-08-31 Asia/Shanghai",
+  "status": "PASS",
+  "booking": {
+    "new_unconditional_route1_rate": 0,
+    "new_capacity_reduction": 0,
+    "termwise_squarefull_little_oh": "OPEN",
+    "average_high_singleton_little_oh": "OPEN"
+  },
+  "root_findings": [
+    "Primewise exponents prove E(n) divides sqfull(n), sqfull(n) divides E(n)^2, and hence the two little-oh statements are equivalent.",
+    "After the two-copy clearing divisor is removed, the quotient J divides the square of q_N/gcd(q_N,D_m); beta depth on the same reservoir cannot be booked a second time.",
+    "The exact product sandwich gives log q_N=N log N+(log 4-1)N+O(log N), so the available uniform squarefull bound remains on the full saddle scale.",
+    "The averaged low-level estimate controls only prime powers p^a at most N. The complementary p^a>N levels lose the block-averaging factor and remain uncontrolled.",
+    "The singleton envelope is exact: transfer and pairwise-gcd estimates can bound reuse but are blind to a prime power occurring at only one block index.",
+    "The discriminant, resultant/subresultant, average-gcd, and primitive-support conclusions are valid only as the stated method barriers; they are not a global impossibility theorem for squarefull control.",
+    "No finite exceptional-prime scan was performed, and no finite observation is promoted to an asymptotic claim."
+  ],
+  "independent_probe": {
+    "script": "scripts/item265_root_independent_probe.py",
+    "script_sha256": "1b07414177d153cd78b8b4563b65ad319c378b0c47fcdbe7fb395a339fa0bd26",
+    "result": "results/item265_root_independent_probe.json",
+    "result_sha256": "f7393bcc6944c4a05689fee730893863722615daf6955bb8bafcc84f401f7ebd",
+    "reverse_bessel_specializations": 31,
+    "strict_product_bounds": 119,
+    "transfer_and_gcd_identities_each": 656,
+    "abstract_exponent_vectors": 4096,
+    "factored_sequence_values": 10,
+    "primewise_overlap_inequalities": 1728,
+    "singleton_envelope_vectors": 1296,
+    "label": "EXACT FINITE independent identity replay; no exceptional-prime search"
+  },
+  "sealed_package": {
+    "report_sha256": "c41d8d2c813d4952ce5a038f291b932817c28ae5b0b1512df0a6bf0ba92a8daa",
+    "checker_sha256": "ab24e6771802c4b4341f7926b9ceac8a2e5a66af874feef5499d446fb49b2ea1",
+    "canonical_sha256": "42548c5127392c6475be7440a883b378657d15d762fc1f165d8b3e546ce9c32c",
+    "archive_replay_sha256": "42548c5127392c6475be7440a883b378657d15d762fc1f165d8b3e546ce9c32c",
+    "ledger_sha256": "fa6c96734edba279aa8278fb79bb2b9430cf5a745d9d1eb50159d97af5f38596",
+    "manifest_sha256": "8bc1b3087300865dc6a54300a262cfa62c50f1b8031494dc362e87ecc18a6063",
+    "hash_ledger_sha256": "f0ba26b39c931ae83473d7b9623f72d8673d34c52d6a22b72125bfa094235283",
+    "manifest_entries_checked": 12,
+    "manifest_entries_matched": 12,
+    "canonical_root_replay_byte_identical": true
+  },
+  "strict_scope": "Item 265 proves the exact overlap normalization and isolates the high-singleton tail. It neither proves squarefull zero rate nor changes the Route-1 exponent ledger."
+}

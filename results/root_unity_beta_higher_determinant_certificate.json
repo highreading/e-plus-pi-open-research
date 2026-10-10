@@ -1,0 +1,372 @@
+{
+  "barrier": "Canonical analytic decay divided by exact universal denominator multiplicity is at most linear in the relevant index. A systematic actual-lcm/common-content cancellation or a new growing-size nonvanishing mechanism is still open.",
+  "clearing_profiles": [
+    {
+      "h": 2,
+      "hankel": [
+        1,
+        2,
+        1
+      ],
+      "hankel_sum": 4,
+      "simultaneous": [
+        1,
+        1
+      ],
+      "simultaneous_sum": 2
+    },
+    {
+      "h": 3,
+      "hankel": [
+        1,
+        2,
+        3,
+        2,
+        1
+      ],
+      "hankel_sum": 9,
+      "simultaneous": [
+        1,
+        2,
+        2,
+        1
+      ],
+      "simultaneous_sum": 6
+    },
+    {
+      "h": 4,
+      "hankel": [
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        1
+      ],
+      "hankel_sum": 16,
+      "simultaneous": [
+        1,
+        2,
+        3,
+        3,
+        2,
+        1
+      ],
+      "simultaneous_sum": 12
+    },
+    {
+      "h": 5,
+      "hankel": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "hankel_sum": 25,
+      "simultaneous": [
+        1,
+        2,
+        3,
+        4,
+        4,
+        3,
+        2,
+        1
+      ],
+      "simultaneous_sum": 20
+    },
+    {
+      "h": 6,
+      "hankel": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "hankel_sum": 36,
+      "simultaneous": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "simultaneous_sum": 30
+    },
+    {
+      "h": 7,
+      "hankel": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "hankel_sum": 49,
+      "simultaneous": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "simultaneous_sum": 42
+    }
+  ],
+  "declared_grids": {
+    "coefficient_q_max": 199,
+    "dirichlet_cutoff": 1001,
+    "filter_h_max": 10,
+    "hankel_h_max": 5,
+    "simultaneous_h_max": 5,
+    "vandermonde_h_max": 7
+  },
+  "dirichlet_modes": {
+    "b_3": "8/27",
+    "b_5": "-24/125",
+    "coefficient_rows_sha256": "9a28cda41c087c46112b0ac1b400b31b0adacd2f6de68f312e14d994c5ed0e0e",
+    "partial_sum_rows": [
+      {
+        "N": 1,
+        "absolute_error": "0.000000005938875632255315540735571595384925539769",
+        "safe_tail_bound": "0.000000499001498002497003496004495005494006493"
+      },
+      {
+        "N": 2,
+        "absolute_error": "7.094719183154628016344332672560005679026e-15",
+        "safe_tail_bound": "2.490024950087360209700411950714091136102e-13"
+      },
+      {
+        "N": 5,
+        "absolute_error": "6.704146611127975711724100648712297258364e-33",
+        "safe_tail_bound": "9.900547807130029935842614722103334333959e-32"
+      },
+      {
+        "N": 10,
+        "absolute_error": "4.920167746993906206660824500757490993618e-63",
+        "safe_tail_bound": "4.901042344063362222065940377617369841786e-62"
+      }
+    ]
+  },
+  "hankel": {
+    "asymptotic_rows": [
+      {
+        "N": 20,
+        "determinant_sign": 1,
+        "h": 2,
+        "leading_normalized_ratio": "0.9999999989896494984949399522046922176086"
+      },
+      {
+        "N": 20,
+        "determinant_sign": -1,
+        "h": 3,
+        "leading_normalized_ratio": "0.9999982362443344880545123535170828456212"
+      },
+      {
+        "N": 20,
+        "determinant_sign": -1,
+        "h": 4,
+        "leading_normalized_ratio": "0.9999919198375937859177365327929796147183"
+      },
+      {
+        "N": 20,
+        "determinant_sign": 1,
+        "h": 5,
+        "leading_normalized_ratio": "0.9912518687119382211356526295240107742306"
+      }
+    ],
+    "exact_rows_sha256": "461789c8b52d51f74747620ed64b555725948cabeb173d4a1d3f013305e72407",
+    "negative_3_by_3_minor_N_1": "-1238314183775556121/51629038152493172462784000",
+    "ordinary_total_positivity": false
+  },
+  "logical_scope": "Finite deterministic replay for an analytic canonical denominator-multiplicity barrier. It does not prove growing-Hankel nonvanishing, a large actual-lcm cancellation, log G_N=o(N log N), or any classification of e+pi.",
+  "optimal_linear_filter": {
+    "certified_nonvanishing_range": "N>=N0(h) from source equation (16c); N0(h)=O(h^2)",
+    "definition": "A_h(X)=(X-1)*product_(j=1..h-2)((2j+1)^2*X-1)",
+    "per_denominator_rate": "2*log(2h-1)/h <= log(3), equality only h=2",
+    "response_rows_sha256": "98fef9e5d02c6ca23c46460c33db387356eaf9b963c0ffc083916f27a89d5848",
+    "rows": [
+      {
+        "certified_N0": 6,
+        "cleared_integer_digits": 12,
+        "coefficient_height_digits": 1,
+        "coefficient_l1_digits": 1,
+        "h": 2,
+        "q_h": 3,
+        "response_sign_at_N0": -1
+      },
+      {
+        "certified_N0": 14,
+        "cleared_integer_digits": 69,
+        "coefficient_height_digits": 2,
+        "coefficient_l1_digits": 2,
+        "h": 3,
+        "q_h": 5,
+        "response_sign_at_N0": -1
+      },
+      {
+        "certified_N0": 24,
+        "cleared_integer_digits": 197,
+        "coefficient_height_digits": 3,
+        "coefficient_l1_digits": 3,
+        "h": 4,
+        "q_h": 7,
+        "response_sign_at_N0": -1
+      },
+      {
+        "certified_N0": 36,
+        "cleared_integer_digits": 429,
+        "coefficient_height_digits": 5,
+        "coefficient_l1_digits": 5,
+        "h": 5,
+        "q_h": 9,
+        "response_sign_at_N0": -1
+      },
+      {
+        "certified_N0": 50,
+        "cleared_integer_digits": 804,
+        "coefficient_height_digits": 7,
+        "coefficient_l1_digits": 7,
+        "h": 6,
+        "q_h": 11,
+        "response_sign_at_N0": -1
+      },
+      {
+        "certified_N0": 67,
+        "cleared_integer_digits": 1371,
+        "coefficient_height_digits": 9,
+        "coefficient_l1_digits": 9,
+        "h": 7,
+        "q_h": 13,
+        "response_sign_at_N0": -1
+      },
+      {
+        "certified_N0": 85,
+        "cleared_integer_digits": 2135,
+        "coefficient_height_digits": 11,
+        "coefficient_l1_digits": 11,
+        "h": 8,
+        "q_h": 15,
+        "response_sign_at_N0": 1
+      },
+      {
+        "certified_N0": 106,
+        "cleared_integer_digits": 3182,
+        "coefficient_height_digits": 13,
+        "coefficient_l1_digits": 13,
+        "h": 9,
+        "q_h": 17,
+        "response_sign_at_N0": -1
+      },
+      {
+        "certified_N0": 129,
+        "cleared_integer_digits": 4526,
+        "coefficient_height_digits": 16,
+        "coefficient_l1_digits": 16,
+        "h": 10,
+        "q_h": 19,
+        "response_sign_at_N0": -1
+      }
+    ]
+  },
+  "schema": "root_unity_beta_higher_determinant_certificate_v1",
+  "simultaneous_higher_ratios": {
+    "asymptotic_rows": [
+      {
+        "N": 20,
+        "determinant_sign": -1,
+        "h": 2,
+        "leading_normalized_ratio": "0.9999999990644902561004185347644433983854"
+      },
+      {
+        "N": 20,
+        "determinant_sign": -1,
+        "h": 3,
+        "leading_normalized_ratio": "0.9999982715822068886473098183564125272747"
+      },
+      {
+        "N": 20,
+        "determinant_sign": 1,
+        "h": 4,
+        "leading_normalized_ratio": "0.9999195784885797882403291756614784591477"
+      },
+      {
+        "N": 20,
+        "determinant_sign": 1,
+        "h": 5,
+        "leading_normalized_ratio": "0.9991287787920721265692720737714501874307"
+      }
+    ],
+    "exact_rows_sha256": "fa4677981f16075dab0737c6e75a12be1db699c81b0cb42bf3fd0852183d0a31",
+    "telescoping": "R_(n,a)=product_(u=0..a-1) r_(n+u)"
+  },
+  "vandermonde": {
+    "all_parameter_floor": "sum_i log Q_(N+i) > h*(N+(h-2)/3+3/2)*log(3)-(h/2)*log(C)",
+    "asymptotic_rows": [
+      {
+        "N": 20,
+        "h": 2,
+        "log_asymptotic_residual": "-0.0000000009355097443371707059739995175815111796256"
+      },
+      {
+        "N": 20,
+        "h": 3,
+        "log_asymptotic_residual": "-0.000000002147930565648203933303915198943904179446"
+      },
+      {
+        "N": 20,
+        "h": 4,
+        "log_asymptotic_residual": "-0.000000003451749337822679785763226321007291417856"
+      },
+      {
+        "N": 20,
+        "h": 5,
+        "log_asymptotic_residual": "-0.000000004787466861816171551428587444770922938796"
+      },
+      {
+        "N": 20,
+        "h": 6,
+        "log_asymptotic_residual": "-0.000000006134552690717027577432935625756701093664"
+      },
+      {
+        "N": 20,
+        "h": 7,
+        "log_asymptotic_residual": "-0.000000007485718154832594792667908441440290020019"
+      }
+    ],
+    "exact_rows_sha256": "592957390545283259a72c4367e63d4001922793c40291351a87de7ad19331dd"
+  }
+}

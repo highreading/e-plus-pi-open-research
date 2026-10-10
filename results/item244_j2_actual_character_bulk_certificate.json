@@ -1,0 +1,100 @@
+{
+  "booking": {
+    "capacity_reduction": 0,
+    "conclusion_about_e_plus_pi": "none",
+    "new_divisibility_exponent": 0,
+    "new_unconditional_linear_log_rate": 0
+  },
+  "cell": "normalized common-log j=2 fixed cell, actual P_nu family, s>=2",
+  "dependencies": {
+    "item241_checker": "item241_j2_character_harmonic_collapse_certificate.py",
+    "item241_checker_sha256": "0a9e3e665d272f6a2a016d1f394d4d95356c7a3b433846f593491c4819ec9baa"
+  },
+  "exact_counterexamples": {
+    "automatic_zero_projection": {
+      "abel_character": 0,
+      "base_aggregate": 14,
+      "bulk_b_0": 0,
+      "direct_character": 0,
+      "full_aggregate": 14,
+      "lower_u": 1,
+      "nu": 0,
+      "old_sine_endpoint": 0,
+      "p": 17,
+      "projected_degree": -1,
+      "projection_zero": 1,
+      "r": 1,
+      "s": 2,
+      "tail_q_0": 0
+    },
+    "nonzero_bulk_actual_row": {
+      "abel_character": 7,
+      "base_aggregate": 11,
+      "bulk_b_0": 9,
+      "direct_character": 7,
+      "full_aggregate": 1,
+      "lower_u": 1,
+      "nu": 1,
+      "old_sine_endpoint": 7,
+      "p": 17,
+      "projected_degree": 5,
+      "projection_zero": 0,
+      "r": 1,
+      "s": 2,
+      "tail_q_0": 10
+    },
+    "not_common_scalar_multiple_of_old_sine": {
+      "nu_0_bulk_over_sine": 5,
+      "nu_1_bulk_over_sine": 12,
+      "p": 19,
+      "s": 2
+    }
+  },
+  "finite_census": {
+    "admissible_row_count": 1115,
+    "coordinate_count": 2230,
+    "nonempty_bulk_zero_count": 6,
+    "nonempty_character_zero_count": 17,
+    "prime_max_inclusive": 401,
+    "row_digest_sha256": "7e570e542ca27475aa1b460d84f47a6f3ac7f54abe664bdc4f510e9ea944fb72",
+    "status": "EXACT FINITE ONLY",
+    "zero_projection_count": 38
+  },
+  "global_interface": "the identity simplifies Item239's stronger p^3 carry only; it does not strengthen the ordinary p^2 common-log gate",
+  "item": 244,
+  "proved": {
+    "actual_aggregate_identity": "K_nu=K_nu_base+90*O_L*S_old-90*B_0",
+    "actual_parity_projection": "if delta=r mod 2, L=ceil(r/2), a=1+3nu, q=2s-nu, b=min(r,a), and R=abs(r-a), then the odd-denominator coefficient polynomial is sigma*(1-t)^b*(1+t)^q*sum_j binom(R,2j+delta)t^j, with sigma=(-1)^delta for r>=a and sigma=1 for r<a",
+    "bulk_recurrence": "B_D=0 and B_k=B_(k+1)+Q_(k+1)/(2(L+k)+1)",
+    "canonical_residual": "the terminal normalizations uniquely define one residual scalar B_0 after one exact Abel summation",
+    "old_endpoint": "S_old=sum d_k*(-1)^(L+k)/(2(L+k)+1) equals -1/(2chi) times the old Item219 J-endpoint period",
+    "tail_recurrence": "Q_(D+1)=0 and Q_k=d_k/(2(L+k)+1)-Q_(k+1)",
+    "unit_audit": "all projected denominators are in 1,...,p-1 and hence are p-units",
+    "zero_projection_classification": "the projection vanishes exactly for nu=0 and r=1; equivalently P_0 is even on the actual line p=6s+5"
+  },
+  "route": "Route 1A",
+  "schema": "item244-j2-actual-character-bulk-v1",
+  "scoped_consequence": {
+    "not_proved": "B_0 is not proved independent of every larger known harmonic state, and no all-row telescoper or nonvanishing theorem is known",
+    "proved": "the Item241 variable character aggregate collapses to one old endpoint boundary term plus one canonically normalized scalar bulk moment",
+    "simple_no_go": "the p=17 actual row has B_0=9 nonzero, and at p=19 the two coordinate ratios B_0/S_old are 5 and 12, so B_0 neither vanishes identically nor is a common coordinate-independent scalar multiple of S_old"
+  },
+  "status_ledger": {
+    "EXACT_FINITE": [
+      "the bounded actual-row census through the stated prime bound"
+    ],
+    "OPEN": [
+      "collapse B_0 to already-known aggregate states or prove that no such actual-family collapse exists",
+      "derive an all-prime zero or nonzero classification for B_0",
+      "classify simultaneous j=2 common-log zeros",
+      "obtain any Route-1 rate or capacity reduction"
+    ],
+    "PROVED": [
+      "the exact actual-family parity projection and its zero classification",
+      "the old-sine endpoint normalization",
+      "the unique terminally normalized Q,B recurrence",
+      "the aggregate identity K_nu=K_base+90 O_L S_old-90 B_0",
+      "the two exact scoped counterexamples and full range/unit audit"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schema": "item384-j1-universal-filtered-selector-capacity-no-go-ledger-delta-v1",
+  "item": 384,
+  "date": "2026-09-01",
+  "branch": "Route 1 / fixed-j1 / joint Hasse-transverse weighted capacity",
+  "status": "PROVED_SHARP_FULL_CAPACITY_NO_GO_FOR_ROWWISE_FILTERED_INVARIANT_PACKAGE",
+  "proved": {
+    "actual_candidate_set": "P_M={p prime:(4M+3)/3 <= p <= (3M-1)/2}",
+    "actual_row_bijection": "h=3M-2p, s=(3p-4M-1)/2",
+    "all_subset_selector": "for every S subset P_M, the least CRT integer Z is 0 mod p on S and 1 mod p off S; Z_tilde=Z+P_M is nonzero below 2P_M with the same residues",
+    "exact_radical": "gcd(P_M,Z_tilde,Z_tilde)=product_(p in S) p",
+    "joint_filtered_family": "two rank-two filtered Hasse extensions over coordinates q1,q2, with codimension-two joint divisor q1=q2=0",
+    "rational_connections": "omega_i=dq_i/(1-2q_i), with two fixed logarithmic pole components avoided by q_i in {0,1}",
+    "invariant_obstruction_retained": "each summand retains Item383 no bounded splitting and full-disc non-dagger obstruction",
+    "fixed_finite_codimension_extension": "for every fixed k, k direct-sum copies give rank 2k, codimension k, k pole components, and the same arbitrary joint-zero selector",
+    "sharp_information_class_capacity": "full selector attains log P_M=M/6+o(M)",
+    "closed_method_class": "black-box inference from rowwise bounded rank, fixed Hodge data, finite algebraic codimension, flatness, bounded pole count, local no-splitting/non-dagger data, and nonzero raw-scale CRT height",
+    "new_actual_family_weighted_condition": 0
+  },
+  "scope": {
+    "full_collision_implication": "full ordinary collision implies actual selected Hasse a_(2s+1,2h)=0 and transverse Q0=0",
+    "comparison_selector_replaces_actual_coordinate": false,
+    "actual_selector_arbitrary_claimed": false,
+    "actual_W_H_T_bound_claimed": false,
+    "prime_independent_compatible_system_claimed": false,
+    "actual_monodromy_claimed": false,
+    "not_ruled_out": "actual-family compatibility, monodromy after construction, sequence-specific aggregate gcd/resultant/factor localization, or direct weighted nonconcentration"
+  },
+  "capacity": {
+    "raw_log_mass": "M/6+o(M)",
+    "raw_ceiling_per_6M": "1/36",
+    "information_class_maximal_mass": "M/6+o(M)",
+    "information_class_strict_constant_below_1_over_6_possible": false,
+    "actual_weighted_target": "W_(H,T)(M)=o(M), or any strict bound below M/6",
+    "actual_weighted_target_proved": false,
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "booking": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36"
+  },
+  "controls": {
+    "classification": "DECLARED EXACT ALL-SUBSET CRT AND FORMAL-SERIES CONTROLS ONLY; NO ACTUAL COLLISION SCAN",
+    "fixed_M_values": [
+      9,
+      34,
+      76,
+      120,
+      180
+    ],
+    "formal_connection_primes": [
+      13,
+      17
+    ],
+    "asymptotic_inference_from_controls": false
+  },
+  "open": [
+    "a prime-independent arithmetic or geometric origin for the actual moving moment selector",
+    "an actual compatible horizontal statistic retaining both collision-forced coordinates",
+    "a sequence-specific aggregate gcd, resultant, or factor-localization theorem",
+    "weighted joint-zero density or any strict fixed-j1 retained-capacity bound",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "ledger_action": "CLOSE_ROWWISE_FILTERED_LOCAL_GEOMETRY_AS_BLACK_BOX_DENSITY_ROUTE_BOOK_ZERO",
+  "route_1_status": "ACTIVE",
+  "canonical_files_modified": false
+}

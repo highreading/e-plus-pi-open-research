@@ -1,0 +1,72 @@
+{
+  "scope": "Only fixed small partition seeds k=1,2; no actual degree solve or prime scan.",
+  "all_passed": true,
+  "results": [
+    {
+      "k": 1,
+      "background": -2,
+      "D_polynomial": "x**2 + 4",
+      "C_polynomials": [
+        "x**2 - 4",
+        "x"
+      ],
+      "D_at_one": 5,
+      "C_at_one": [
+        -3,
+        1
+      ],
+      "J": [
+        5,
+        -2
+      ],
+      "A": [
+        3,
+        -1
+      ],
+      "E": 17,
+      "checks": {
+        "full_polynomial": true,
+        "cofactor_polynomials": true,
+        "derivative_seeds": true,
+        "border_seeds": true,
+        "endpoint_seed": true,
+        "zeroth_derivative_normalization": true
+      }
+    },
+    {
+      "k": 2,
+      "background": -3,
+      "D_polynomial": "x**6 + 18*x**4 + 432*x**2 - 1296",
+      "C_polynomials": [
+        "x**6 - 18*x**4 + 216*x**2 + 2592",
+        "x**5 - 12*x**3 + 72*x",
+        "x**4 + 108"
+      ],
+      "D_at_one": -845,
+      "C_at_one": [
+        2791,
+        61,
+        109
+      ],
+      "J": [
+        -845,
+        -471,
+        1308
+      ],
+      "A": [
+        19,
+        -8,
+        1
+      ],
+      "E": -10979,
+      "checks": {
+        "full_polynomial": true,
+        "cofactor_polynomials": true,
+        "derivative_seeds": true,
+        "border_seeds": true,
+        "endpoint_seed": true,
+        "zeroth_derivative_normalization": true
+      }
+    }
+  ]
+}

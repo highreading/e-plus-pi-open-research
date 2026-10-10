@@ -1,0 +1,57 @@
+{
+  "schema": "research-artifact-manifest-v1",
+  "item": 421,
+  "title": "Post-booking small-prime primitive layer: normalized-carrier escape and the Cartier-tower method boundary",
+  "status": "ROOT_AUDITED_CANONICAL_SCOPED_METHOD_NO_GO_NO_BOOKING",
+  "scope": "Actual normalized mixed-cubic p<=6m content after exact removal of the dyadic and Item149 booked factors. The result is a scoped no-go for exact Item200/415 carrier reuse and characteristic-p tower multiplicity; it is not a no-go for integral lifts.",
+  "artifacts": [
+    "sources/item421_small_prime_primitive_layer_report.md",
+    "scripts/item421_small_prime_primitive_layer_certificate.py",
+    "results/item421_small_prime_primitive_layer_certificate.json",
+    "results/item421_small_prime_primitive_layer_certificate_replay.json",
+    "results/item421_small_prime_primitive_layer_root_replay.json",
+    "results/item421_small_prime_primitive_layer_ledger_delta.json",
+    "manifests/item421_small_prime_primitive_layer_manifest.json",
+    "results/item421_small_prime_primitive_layer_root_audit.json",
+    "results/item421_small_prime_primitive_layer_hashes.sha256"
+  ],
+  "dependencies": [
+    "sources/mixed_cubic_small_prime_rank_one_cartier_mass.md",
+    "sources/item200_common_log_gcd_report.md",
+    "sources/item393_mixed_cubic_small_prime_strata_ceiling_report.md",
+    "results/item393_mixed_cubic_small_prime_strata_ceiling_ledger.json",
+    "sources/item415_marked_selector_compulsory_strip_report.md",
+    "results/item415_marked_selector_compulsory_strip_ledger_delta.json",
+    "sources/item417_mixed_strip_multiplicity_report.md",
+    "results/item417_mixed_strip_multiplicity_certificate.json",
+    "manifests/item417_mixed_strip_multiplicity_manifest.json",
+    "sources/item418_normalized_large_carrier_report.md",
+    "results/item418_normalized_large_carrier_ledger_delta.json",
+    "results/mixed_cubic_positive_match_exact_scan_m100_N6m.json"
+  ],
+  "proved": [
+    "actual counterexample F_2=11 not dividing c_2=288",
+    "actual upper-strip normalized-carrier escape at (m,p)=(9,47)",
+    "actual booked-second-layer normalized-carrier escape at (m,p)=(13,11)",
+    "abstract arbitrary determinant-lift valuation with fixed characteristic-p rank-one data",
+    "admission cutoff alpha<3.5451545899846435... for a bare squarefree p<=alpha*m support ceiling",
+    "zero ledger delta"
+  ],
+  "inherited": [
+    "Item417 all-level extra tower support p<=sqrt(6m) and zero linear capacity",
+    "Item417 nested Cartier-zero and actual multiplicity counterexamples",
+    "Item418 strictly-large component ceiling and admission residual"
+  ],
+  "finite_only": [
+    "the m<=100 escape and F-not-content incidence counts",
+    "all finite row digests and witness selection"
+  ],
+  "not_claimed": [
+    "positive density of carrier escapes",
+    "failure of every possible integral lift",
+    "a reduced small-prime or global content ceiling",
+    "new booked content",
+    "Route-1 closure",
+    "irrationality of e+pi"
+  ]
+}

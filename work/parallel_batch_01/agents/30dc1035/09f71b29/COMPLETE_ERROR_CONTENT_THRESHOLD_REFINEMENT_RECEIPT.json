@@ -1,0 +1,154 @@
+{
+  "status": "passed",
+  "classification": "finite_reference_checks_not_all_degree_verification",
+  "legendre_exact_checks": [
+    {
+      "i": 0,
+      "integral_identity": true,
+      "jacobi_diagonal": true,
+      "jacobi_off_diagonal": true,
+      "coefficient_bound": true
+    },
+    {
+      "i": 1,
+      "integral_identity": true,
+      "jacobi_diagonal": true,
+      "jacobi_off_diagonal": true,
+      "coefficient_bound": true
+    },
+    {
+      "i": 2,
+      "integral_identity": true,
+      "jacobi_diagonal": true,
+      "jacobi_off_diagonal": true,
+      "coefficient_bound": true
+    },
+    {
+      "i": 3,
+      "integral_identity": true,
+      "jacobi_diagonal": true,
+      "jacobi_off_diagonal": true,
+      "coefficient_bound": true
+    },
+    {
+      "i": 4,
+      "integral_identity": true,
+      "jacobi_diagonal": true,
+      "jacobi_off_diagonal": true,
+      "coefficient_bound": true
+    },
+    {
+      "i": 5,
+      "integral_identity": true,
+      "jacobi_diagonal": true,
+      "jacobi_off_diagonal": true,
+      "coefficient_bound": true
+    },
+    {
+      "i": 6,
+      "integral_identity": true,
+      "jacobi_diagonal": true,
+      "jacobi_off_diagonal": true,
+      "coefficient_bound": true
+    },
+    {
+      "i": 7,
+      "integral_identity": true,
+      "jacobi_diagonal": true,
+      "jacobi_off_diagonal": true,
+      "coefficient_bound": true
+    },
+    {
+      "i": 8,
+      "integral_identity": true,
+      "jacobi_diagonal": true,
+      "jacobi_off_diagonal": true,
+      "coefficient_bound": true
+    }
+  ],
+  "compression_exact_checks": [
+    {
+      "k": 4,
+      "d": 1,
+      "exact_boundary_support": true
+    },
+    {
+      "k": 5,
+      "d": 2,
+      "exact_boundary_support": true
+    },
+    {
+      "k": 6,
+      "d": 3,
+      "exact_boundary_support": true
+    },
+    {
+      "k": 8,
+      "d": 4,
+      "exact_boundary_support": true
+    }
+  ],
+  "zeta_high_precision_checks": [
+    {
+      "k": 1,
+      "zeta_remainder": "0.0",
+      "absolute_bound": "0.03764573664237120146994509475794865512485965034184475082097606848829988"
+    },
+    {
+      "k": 2,
+      "zeta_remainder": "-0.01161977236758134307553505349005744813783858296182579499066937623558719",
+      "absolute_bound": "0.03764573664237120146994509475794865512485965034184475082097606848829988"
+    },
+    {
+      "k": 4,
+      "zeta_remainder": "-0.01728119210274402922660516047017234441351574888547738497200812870676158",
+      "absolute_bound": "0.03764573664237120146994509475794865512485965034184475082097606848829988"
+    },
+    {
+      "k": 16,
+      "zeta_remainder": "-0.02127275079115150485743951483073435111401886893910567486004064353380789",
+      "absolute_bound": "0.03764573664237120146994509475794865512485965034184475082097606848829988"
+    },
+    {
+      "k": 128,
+      "zeta_remainder": "-0.02237944315900387469366310880309310261213318838968964765426799562065114",
+      "absolute_bound": "0.03764573664237120146994509475794865512485965034184475082097606848829988"
+    },
+    {
+      "k": 1024,
+      "zeta_remainder": "-0.02251573788893705262687350633765787807444628579876997876436525985517162",
+      "absolute_bound": "0.03764573664237120146994509475794865512485965034184475082097606848829988"
+    }
+  ],
+  "large_parameter_high_precision_checks": [
+    {
+      "k": 131072,
+      "d": 12417,
+      "r": 56242,
+      "baseline_error_bound": "69349.30540744776304160579935309792732608800151391779400466613229690837",
+      "bump_logdet_bound": "857647.6688574232933777163252875505301792393011854452440234398278686488"
+    },
+    {
+      "k": 262144,
+      "d": 21619,
+      "r": 81844,
+      "baseline_error_bound": "120651.7634011673509901516420587836574233117276209601179138748705733443",
+      "bump_logdet_bound": "1304788.589965335748048296938112299746558001270667909118750471443044303"
+    },
+    {
+      "k": 1048576,
+      "d": 65537,
+      "r": 172542,
+      "baseline_error_bound": "365337.948582846844205200749611289374311144911331872015036388518170325",
+      "bump_logdet_bound": "2989925.030988656409051958845714015411533729615441206013403110678865476"
+    },
+    {
+      "k": 100000000,
+      "d": 2511887,
+      "r": 1942307,
+      "baseline_error_bound": "13980130.01552437642574947767965398949800777485352818716525225108736987",
+      "bump_logdet_bound": "42510140.25911705746821618594187488525306288176462168099531669132334112"
+    }
+  ],
+  "note": "No actual primitive coefficient gcd or inherited nonvanishing assertion was numerically verified. The all-index argument is in COMPLETE_ERROR_CONTENT_THRESHOLD_STAGE1_V2.md."
+}

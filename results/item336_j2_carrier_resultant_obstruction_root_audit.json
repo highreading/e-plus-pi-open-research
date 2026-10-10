@@ -1,0 +1,57 @@
+{
+  "item": 336,
+  "schema": "item336-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_RESULTANT_COLLAPSE_AND_CARRIER_INFORMATION_CLASS_NO_GO",
+  "scope": "independent root audit of the ordinary-j2 affine resultant collapse, fixed-M prime interval, and scoped carrier-metadata obstruction",
+  "checks": {
+    "certificate_sha256": "2769620afcf258e84dd4713113f32662e4140bfa1706f4983c137aca2d132010",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_sha256": "ca43c2363ba79d763adf5f97e430c6fac5bf80f5735bded79a86175ca337b043",
+    "work_manifest_artifacts_match": true,
+    "frozen_dependencies_checked": 6,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 6,
+    "work_hash_list_match": true,
+    "root_stress_sha256": "96dda76377f94009dd85a22b0ec600abbf8f3ba01ab9f72784577ba2c04fbd0c",
+    "root_stress_M_range": "20..2500",
+    "root_stress_fixed_M_slices": 2481,
+    "root_stress_prime_rows": 24519,
+    "root_stress_recurrence_checks": 167810,
+    "root_stress_pairwise_gcd_checks": 143581,
+    "report_inline_delimiters": "54/54",
+    "report_display_delimiters": "26/26",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "resultant": "direct coefficient elimination gives Res_X(T_0,T_1)=(-1)^(m+1) K D; because K is an actual-row unit, this recovers exactly the old determinant gate",
+    "subresultants": "for an affine pair the remaining subresultants are only the chart pivots; degenerate charts reduce to the coordinate tests already retained by Item 334",
+    "prime_interval": "the inverse formulas for m,d,r,s give a bijection, apart from finitely irrelevant p=3 boundary cases, between actual fixed-M rows and primes in [(4M+3)/5,(6M-1)/7]",
+    "raw_mass": "the prime number theorem yields (2/35)M+o(M), hence the unchanged 1/105 ceiling per 6M",
+    "comparison_scope": "the artificial carrier G_tilde=p proves only that squarefreeness, pairwise coprimality, O(log M) height, and a fixed recurrence do not by themselves imply sparse tied-prime support; it is not asserted to model the actual carrier values",
+    "scope_warning": "actual evaluated-target factor localization and W_G(M)=o(M) remain open; no finite carrier examples are promoted"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "affine resultant and complete degree-one subresultant collapse",
+      "exact fixed-M row interval and asymptotic raw mass",
+      "scoped information-class no-go",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "canonical replay, enlarged root stress, and four displayed carrier values"
+    ],
+    "OPEN": [
+      "target-specific arithmetic of the evaluated primitive carrier",
+      "W_G(M)=o(M) or any strict ceiling reduction",
+      "any new ordinary-j2 booking"
+    ]
+  },
+  "capacity": {
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

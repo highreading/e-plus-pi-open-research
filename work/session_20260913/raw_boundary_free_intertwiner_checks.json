@@ -1,0 +1,38 @@
+{
+  "scope": "Only the five predeclared moment pairs, a formal differential-operator identity, and exact arithmetic in the uniform row-sum proof; no canonical degree solve.",
+  "formal_operator_identity": true,
+  "moment_pairs": [
+    {
+      "k": 0,
+      "l": 0,
+      "common_exact_value": "5/6",
+      "pass": true
+    },
+    {
+      "k": 1,
+      "l": 2,
+      "common_exact_value": "1/60",
+      "pass": true
+    },
+    {
+      "k": 4,
+      "l": 3,
+      "common_exact_value": "2321/211680",
+      "pass": true
+    },
+    {
+      "k": 5,
+      "l": 4,
+      "common_exact_value": "461/399168",
+      "pass": true
+    },
+    {
+      "k": 7,
+      "l": 5,
+      "common_exact_value": "1167889/5300380800",
+      "pass": true
+    }
+  ],
+  "row_sum_bound_for_k_ge_2": "361/324",
+  "status": "pass"
+}

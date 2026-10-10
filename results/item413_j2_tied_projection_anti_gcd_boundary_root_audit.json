@@ -1,0 +1,55 @@
+{
+  "item": 413,
+  "schema": "item413-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_EXACT_TIED_PROJECTION_AND_FOREIGN_TAIL_BOUNDARY_ETA_ZERO",
+  "scope": "independent root audit of the binary tied quotient, safe saturation, mandatory tail threshold, matched/foreign factorization, aggregate identity, conditional capacity boundary, scoped countermodels, dependencies, and deterministic replay",
+  "checks": {
+    "canonical_dependencies_checked": 17,
+    "canonical_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "control_characters": 0,
+    "prime_or_collision_census_used": false,
+    "finite_to_infinite_inference_used": false,
+    "root_repairs": "Canonicalized all artifact and replay paths, replaced the stale work Item409 bundle by its narrowed audited canonical package, redirected the exact witness reader to the canonical certificate, and retained every abstract support packet under a NOT ACTUAL label."
+  },
+  "mathematical_audit": {
+    "binary_projection": "Because Gamma divides Pi, gcd(p,Gamma) divides gcd(p,Pi), and their quotient is 1 or p. Tied-prime-safe saturation preserves both p-supports. Removing every prime shared with Gamma_sat from Pi_sat leaves p precisely when the gate holds and the surviving target does not, hence the quotient equals gcd(p,J).",
+    "threshold": "The actual phase relation p=2r+6s+3 with s>=1 forces p>2r+3. Therefore the selected characteristic can occur only in the radical tail above that threshold; all smaller factors are necessarily foreign.",
+    "tail_factorization": "The tail L is squarefree. Removing its selected p-factor yields F, so L=j_tie*F with coprime factors. Summing logarithms rowwise gives the exact matched mass J_e=A_e-B_e, and Item407 independently identifies the same mass as D_e-G_e.",
+    "capacity_boundary": "Tail lower a and foreign upper b give J_e>=(a-b)M+o(M); the chart alternative gives 1/35-g-n. Taking the nonnegative maximum and dividing by 6M yields the displayed saving. Conversely J_e<=A_e and J_e<=R_e give the direct-channel cap min(u,1/35)/6.",
+    "witness_scope": "For (p,r,s)=(709,347,2), the threshold is 697 and J=79, so the known factor is removed before tail accounting and contributes no tied rejection mass. It is one exact formula witness, not a census.",
+    "countermodel_scope": "The formal integer packets prove sharpness only for an information class that knows tail size but lacks a theorem matching a tail prime to p. They are not values of the actual connection sequence and do not refute formula-specific matching."
+  },
+  "strict_labels": {
+    "PROVED_ACTUAL": [
+      "binary tied projection before and after safe saturation",
+      "mandatory threshold and matched/foreign tail factorization",
+      "aggregate anti-gcd identity and conditional capacity boundary"
+    ],
+    "EXACT_ACTUAL_WITNESS_ONLY": [
+      "the foreign below-threshold factor 79 on the row (709,347,2)"
+    ],
+    "PROVED_SCOPED_INFORMATION_BOUNDARY": [
+      "tail support without tied matching implies no positive rejection mass"
+    ],
+    "OPEN": [
+      "a positive matched-J Chebyshev lower bound",
+      "a useful tail lower bound plus foreign-tail upper bound",
+      "any positive Route-1 booking and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "one_ray_normalized_per_6M": "1/210",
+    "conditional_saving": "max(0,a-b,1/35-g-n)/6",
+    "new_route1_rate": 0,
+    "new_booking": 0,
+    "new_unconditional_capacity_reduction": 0,
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "frozen_deficit": "1.0196329836694317938803064012..."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schema": "item337-beta-global-cofactor-lcm-capacity-ledger-delta-v1",
+  "item": 337,
+  "date": "2026-09-01",
+  "status": "PROVED_GLOBAL_LCM_CAPACITY_DECISION_FIRST_BULK_INVARIANT",
+  "canonical_files_modified": false,
+  "actual_family": {
+    "source": "Item 316 exact canonical half-bound target together with Item 335",
+    "cofactors": "z_j=epsilon(delta_j-w_j delta_(j-1)), 3<=j<=m",
+    "implication": "an actual target supplies the full canonical cofactor tower and at least one z_j is nonzero",
+    "target_specific_mass": "OPEN"
+  },
+  "primitive_tower": {
+    "definition": "Lambda=lcm_{3<=j<=m,z_j nonzero}|z_j|",
+    "captured_mass": "Gamma_Q=log gcd(Q,Lambda)=sum_p min(v_p(Q),max_j v_p(z_j)) log p",
+    "deoverlap": "Q is a declared divisor of the denominator remainder after old booked factors are removed",
+    "product_booking_forbidden": true
+  },
+  "proved": [
+    "cross-depth repetition is removed exactly by maximum p-adic valuation, equivalently by the lcm",
+    "Lambda<=product_{j=3}^m w_j w_(j-1)=W_m^2/(w_1^2 w_2 w_m)",
+    "W_m<=a<exp(1/8)W_m and log Lambda<=2 log b-3 log A+O(1)",
+    "for one de-overlapped target Gamma_Q<=log Q<=log b",
+    "an explicit canonical word in the exact intermediate R-window has |z_(2r)|=32r^2-3",
+    "Cilleruelo's quadratic-LCM theorem gives log Lambda>=(1/2+o(1))log b for that ambient family",
+    "canonical height, Markov admissibility, half-language, and cross-depth overlap alone do not force zero rate"
+  ],
+  "capacity_decision": {
+    "raw_lcm_universal_upper_rate": 2,
+    "raw_lcm_ambient_lower_rate": "at least 1/2+o(1)",
+    "one_target_universal_upper_rate": 1,
+    "actual_target_rate": "OPEN",
+    "decision": "the growing-depth lcm is the first bulk cofactor invariant surviving raw admission, but it has no bookable actual-family mass"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "primitive-lcm identity, universal height bound, one-target ceiling, canonical intermediate-window witness, exact quadratic subsequence, and the literature-backed ambient lower bound"
+    ],
+    "PROVED_CAPACITY_DECISION": [
+      "Item 335's fixed-complexity zero-rate theorem cannot be extended to the entire growing-depth tower from canonical/window information alone"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared witness replay rows, integer lcm/product identities, quadratic subsequences, and bit-length controls"
+    ],
+    "OPEN": [
+      "the original Item-316 exclusion and centered half-bound",
+      "Lambda and Gamma_Q under the full small-error and Delta=0 target equation",
+      "a little-oh, strict-fraction, or positive target-specific shared-prime theorem",
+      "removal of every old denominator reservoir from an actual family",
+      "beta capacity, Route 1, and e+pi"
+    ]
+  },
+  "capacity": {
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "booking": 0,
+    "item282_baseline_rebooked": false,
+    "proper_target_lower_bound": false
+  },
+  "recommended_next_smallest_lemma": "couple the full Item-316 target equation to Gamma_Q=log gcd(Q,Lambda), seeking either Gamma_Q=o(log b), a ledger-relevant strict fraction, or a genuine positive-linear lower bound; do not return to independently booked local cofactors"
+}

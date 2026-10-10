@@ -1,0 +1,49 @@
+{
+  "item": 387,
+  "schema": "item387-mixed-kernel-quotient-and-claim-audit-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_SCOPED_ALL_DEGREE_QUOTIENT_AND_EXTERNAL_CLAIM_REJECTION",
+  "scope": "independent root verification of the Z[x] quotient theorem, the mixed-integral consequence, the exact circularity in arXiv:2007.15000v3, and the missing synchronization in arXiv:1706.08394v7",
+  "checks": {
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "integer_ring_control_cases": 63,
+    "finite_controls_used_as_all_degree_proof": false,
+    "primary_source_versions_checked": [
+      "arXiv:2606.17303",
+      "arXiv:2007.15000v3",
+      "arXiv:1706.08394v7"
+    ]
+  },
+  "mathematical_audit": {
+    "automorphism": "The finite geometric operator identity (1+D) sum_j (-D)^j P=P proves that P -> S_P is an integral automorphism, with no denominator hypothesis.",
+    "quotient": "Endpoint evaluation after this automorphism is onto Z^2. Its kernel is exactly x(x-1)Z[x] in S-coordinates, hence (1+D)(x(x-1)Z[x]) in P-coordinates.",
+    "degree_one_section": "For arbitrary integers A,C, P=A+(A-C)x has S=C+(A-C)x and endpoints (A,C).",
+    "integral_gauge": "Every higher-degree kernel element gives d(e^x x(x-1)R)/dx and integrates to zero on [0,1]. It changes no integer linear form.",
+    "certificate_equivalence": "The unrestricted mixed-polynomial decay condition is exactly the standard integer-linear-form condition for e+pi; the identity alone does not prove that condition.",
+    "claimed_sum_proof": "Under A+Be+C*pi=0, the claimed nonzero sine is sin(Be+A)=sin(-C*pi)=0. Lemma 7.2 invokes Lemma 6.2(ii), which asserts the same forbidden integer relation, so the argument is circular.",
+    "independent_inequality_failure": "For k=m=1,r=1, rational bounds on e and pi give |e+1-3*pi/2|<1 while ||e-1|-3*pi/2|>2.9, reversing the purported inequality in equation (6.7).",
+    "claimed_product_proof": "The required fixed-window hit by a pi convergent denominator is not established. The supporting lemma assumes unproved partial-quotient growth, makes an invalid implication from b_m=o(m), and writes unsupported multiplicative identities for unrelated continuants."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "all-degree integral automorphism and endpoint quotient",
+      "degree-one section and exact higher-degree zero-integral gauge",
+      "equivalence of the unrestricted mixed-polynomial condition with the original irrationality criterion",
+      "the cited direct proof does not establish linear independence",
+      "the cited product proof does not establish its synchronization lemma"
+    ],
+    "OPEN": [
+      "a structured mixed-polynomial family with independently forced arithmetic and analytic estimates",
+      "Route 1",
+      "Route 2",
+      "the irrationality of e+pi"
+    ]
+  },
+  "capacity": {
+    "new_route1_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

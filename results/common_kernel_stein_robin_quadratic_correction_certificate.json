@@ -1,0 +1,678 @@
+{
+  "all_parameter_theorem": {
+    "correction": "C_Nq=I_N-4q+(q-M_N/2)t-q*t^2, where (1-i)^N=R_N+iI_N and M_N=N!-R_N",
+    "fixed_degree_gap": "For deg(C)<=m fixed, liminf Lambda >= 3/(8*(m+1)^2*C_R*R^(m+1))>0.",
+    "open_scope": "Growing-degree sparse or nonlocal corrections are not ruled out.",
+    "positive_choice": "q=0 if I_N<=0, otherwise ceil(I_N/3)",
+    "quadratic_exhaustion": "The endpoint map on corrections of degree <=2 has primitive integer kernel Z*(-4+t-t^2), whose Stein image is J.",
+    "quadratic_primitive_gap": "liminf Lambda >= pi-3/2",
+    "residual": "t^N+M_N*U-I_N*(1-t)+q*J"
+  },
+  "control_audit": {
+    "script": {
+      "bytes": 23517,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "scripts/common_kernel_stein_robin_quadratic_correction_certificate.py"
+    },
+    "source": {
+      "bytes": 12151,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "sources/common_kernel_stein_robin_quadratic_correction_barrier.md"
+    }
+  },
+  "dependency_checks": {
+    "results/common_kernel_positive_cone_endpoint_bootstrap_certificate.json": {
+      "actual": "35cf99fe9eb6e4a2203d2c357a3a04b36478628bce686a4907bb3dcd6e248a3d",
+      "expected": "35cf99fe9eb6e4a2203d2c357a3a04b36478628bce686a4907bb3dcd6e248a3d"
+    },
+    "results/common_kernel_stein_robin_certificate.json": {
+      "actual": "be08f99f85f11a42f9f9efc32091eb6d6300a81b4511352ca58d0c6792d09aa5",
+      "expected": "be08f99f85f11a42f9f9efc32091eb6d6300a81b4511352ca58d0c6792d09aa5"
+    },
+    "scripts/common_kernel_positive_cone_endpoint_bootstrap_certificate.py": {
+      "actual": "ca1db0bc142979bb9e566d5a93664ae3bcb914c9ec7aaa698e3f36c3b2171d4e",
+      "expected": "ca1db0bc142979bb9e566d5a93664ae3bcb914c9ec7aaa698e3f36c3b2171d4e"
+    },
+    "scripts/common_kernel_stein_robin_certificate.py": {
+      "actual": "a841840c5b6abe8778ae58cb50eb00eb201cacdcbde389f32a9f4cdae9673bbf",
+      "expected": "a841840c5b6abe8778ae58cb50eb00eb201cacdcbde389f32a9f4cdae9673bbf"
+    },
+    "sources/common_kernel_positive_cone_endpoint_bootstrap_barrier.md": {
+      "actual": "596e21e493f16447307764b100bae383f5a639c7ad466150a50932b4a878d487",
+      "expected": "596e21e493f16447307764b100bae383f5a639c7ad466150a50932b4a878d487"
+    },
+    "sources/common_kernel_stein_robin_parameterization.md": {
+      "actual": "6853ceef8ae4065c65d0954a5ef0d0c7b1ae43e76167f999cbd3a11818432406",
+      "expected": "6853ceef8ae4065c65d0954a5ef0d0c7b1ae43e76167f999cbd3a11818432406"
+    }
+  },
+  "finite_replay": {
+    "N_range": [
+      1,
+      80
+    ],
+    "compact_rows_sha256": "56bdd25278abbfc609e8839fb23a386810b2724a79deb91430e250a09714c8a0",
+    "finite_scope": "Checks normalizations and examples only; all-N claims use the symbolic proofs in the companion source.",
+    "row_count": 80,
+    "selected_rows": [
+      {
+        "B": -1,
+        "D": 1,
+        "D_P": 1,
+        "F_coefficients_t_sha256": "86e6fbd0d3bedcfae30c3c485131a42cbb54d5fccbcea990fb1c92bd09fb2471",
+        "G_coefficients_sha256": "e4f32ff9b82854575c856734d076d69bca3352b2c93962828ae3e450eea038ab",
+        "G_degree": -1,
+        "I_N": -1,
+        "M_N": 0,
+        "N": 1,
+        "P_coefficients_sha256": "e4f32ff9b82854575c856734d076d69bca3352b2c93962828ae3e450eea038ab",
+        "P_degree": 0,
+        "Q_Robin_degree": -1,
+        "R_N": 1,
+        "a_N": 1,
+        "cleared_content": 1,
+        "correction_coefficients_t": [
+          -1,
+          0,
+          0
+        ],
+        "h": 1,
+        "positivity_decomposition": "t^N+M*U+(-I)*(1-t)",
+        "primitive_a": 1,
+        "primitive_b": -1,
+        "primitive_linear_form": "1*(e+pi)+(-1)",
+        "primitive_scale_D_over_h": "1/1",
+        "q_N": 0,
+        "residual_nonzero_coefficients_t": {
+          "0": 1
+        },
+        "u_Robin": 0,
+        "v_Robin": 0,
+        "weighted_integral_coordinates": {
+          "e": "1",
+          "log_2": "0",
+          "pi": "1",
+          "rational": "-1"
+        }
+      },
+      {
+        "B": -2,
+        "D": 1,
+        "D_P": 1,
+        "F_coefficients_t_sha256": "69bb9cbc98c442249bcf0d5a621e3b86db5143573d68539f3a725b164aaa5651",
+        "G_coefficients_sha256": "e4f32ff9b82854575c856734d076d69bca3352b2c93962828ae3e450eea038ab",
+        "G_degree": -1,
+        "I_N": -2,
+        "M_N": 2,
+        "N": 2,
+        "P_coefficients_sha256": "e4f32ff9b82854575c856734d076d69bca3352b2c93962828ae3e450eea038ab",
+        "P_degree": 0,
+        "Q_Robin_degree": -1,
+        "R_N": 0,
+        "a_N": 2,
+        "cleared_content": 2,
+        "correction_coefficients_t": [
+          -2,
+          -1,
+          0
+        ],
+        "h": 2,
+        "positivity_decomposition": "t^N+M*U+(-I)*(1-t)",
+        "primitive_a": 1,
+        "primitive_b": -1,
+        "primitive_linear_form": "1*(e+pi)+(-1)",
+        "primitive_scale_D_over_h": "1/2",
+        "q_N": 0,
+        "residual_nonzero_coefficients_t": {
+          "0": 2
+        },
+        "u_Robin": 0,
+        "v_Robin": 0,
+        "weighted_integral_coordinates": {
+          "e": "2",
+          "log_2": "0",
+          "pi": "2",
+          "rational": "-2"
+        }
+      },
+      {
+        "B": -16,
+        "D": 1,
+        "D_P": 2,
+        "F_coefficients_t_sha256": "c8976ac380e3caf4d229589281be868b338df50db030b6a818830515406b2198",
+        "G_coefficients_sha256": "2eeda430c26a45c44cac1a00bd1691c78cfc854849a548d79be0c34ba417b309",
+        "G_degree": 1,
+        "I_N": -2,
+        "M_N": 8,
+        "N": 3,
+        "P_coefficients_sha256": "02f7184859b444748886bc1f7c257f7eebeff33d061a6ce00873113067bd04b7",
+        "P_degree": 2,
+        "Q_Robin_degree": -1,
+        "R_N": -2,
+        "a_N": 6,
+        "cleared_content": 4,
+        "correction_coefficients_t": [
+          -2,
+          -4,
+          0
+        ],
+        "h": 2,
+        "positivity_decomposition": "t^N+M*U+(-I)*(1-t)",
+        "primitive_a": 3,
+        "primitive_b": -8,
+        "primitive_linear_form": "3*(e+pi)+(-8)",
+        "primitive_scale_D_over_h": "1/2",
+        "q_N": 0,
+        "residual_nonzero_coefficients_t": {
+          "0": 2,
+          "1": 6,
+          "2": -4,
+          "3": 1
+        },
+        "u_Robin": 4,
+        "v_Robin": -1,
+        "weighted_integral_coordinates": {
+          "e": "6",
+          "log_2": "0",
+          "pi": "6",
+          "rational": "-16"
+        }
+      },
+      {
+        "B": -281,
+        "D": 3,
+        "D_P": 3,
+        "F_coefficients_t_sha256": "aaac17370424554a6b4890aeb9b7125a0ebec305f6f3d2006e856b7965baea64",
+        "G_coefficients_sha256": "6c2629592147f5a0b6c6e7b6175a363907b7359c883cbf74dab3be895b85811f",
+        "G_degree": 2,
+        "I_N": 0,
+        "M_N": 28,
+        "N": 4,
+        "P_coefficients_sha256": "357ab89ed87918518dee96403c8a132da45600cf6894993b259856612217714a",
+        "P_degree": 3,
+        "Q_Robin_degree": -1,
+        "R_N": -4,
+        "a_N": 24,
+        "cleared_content": 1,
+        "correction_coefficients_t": [
+          0,
+          -14,
+          0
+        ],
+        "h": 1,
+        "positivity_decomposition": "t^N+M*U+(-I)*(1-t)",
+        "primitive_a": 72,
+        "primitive_b": -281,
+        "primitive_linear_form": "72*(e+pi)+(-281)",
+        "primitive_scale_D_over_h": "3/1",
+        "q_N": 0,
+        "residual_nonzero_coefficients_t": {
+          "1": 28,
+          "2": -14,
+          "4": 1
+        },
+        "u_Robin": 27,
+        "v_Robin": -7,
+        "weighted_integral_coordinates": {
+          "e": "24",
+          "log_2": "0",
+          "pi": "24",
+          "rational": "-281/3"
+        }
+      },
+      {
+        "B": -1465,
+        "D": 3,
+        "D_P": 12,
+        "F_coefficients_t_sha256": "4621806a00fa36bd87aabc13fd5ecab682756581931d170877e6f23c8c2f4f4f",
+        "G_coefficients_sha256": "1cd395e38274c28149a86adc7714e4e299430ec876073e2f9d8cb201f1d64e6e",
+        "G_degree": 3,
+        "I_N": 4,
+        "M_N": 124,
+        "N": 5,
+        "P_coefficients_sha256": "bfc6ecb8fee7807a64d4959c93558765e4ae804478ad28d7221f1e9cfef90c1d",
+        "P_degree": 4,
+        "Q_Robin_degree": 0,
+        "R_N": -4,
+        "a_N": 120,
+        "cleared_content": 20,
+        "correction_coefficients_t": [
+          -4,
+          -60,
+          -2
+        ],
+        "h": 5,
+        "positivity_decomposition": "t^N+M*U+q*(J-3(1-t))+(3q-I)*(1-t)",
+        "primitive_a": 72,
+        "primitive_b": -293,
+        "primitive_linear_form": "72*(e+pi)+(-293)",
+        "primitive_scale_D_over_h": "3/5",
+        "q_N": 2,
+        "residual_nonzero_coefficients_t": {
+          "0": 4,
+          "1": 116,
+          "2": -54,
+          "3": -2,
+          "5": 1
+        },
+        "u_Robin": 139,
+        "v_Robin": -37,
+        "weighted_integral_coordinates": {
+          "e": "120",
+          "log_2": "0",
+          "pi": "120",
+          "rational": "-1465/3"
+        }
+      },
+      {
+        "B": -45383,
+        "D": 15,
+        "D_P": 30,
+        "F_coefficients_t_sha256": "5ece5d2e7307d1682e44bd96d068027ba39828edf3f17b5a2d6c49d891d94edf",
+        "G_coefficients_sha256": "92edc85dabf41f1767bfba74ebf8f1f48b3909775dd17ee8a5ccb09f76d01314",
+        "G_degree": 4,
+        "I_N": 8,
+        "M_N": 720,
+        "N": 6,
+        "P_coefficients_sha256": "543e7c445761b29afd5c1394f5fa6f708ddaf6b832611752fb2bb3821f7d3dfd",
+        "P_degree": 5,
+        "Q_Robin_degree": 1,
+        "R_N": 0,
+        "a_N": 720,
+        "cleared_content": 2,
+        "correction_coefficients_t": [
+          -4,
+          -357,
+          -3
+        ],
+        "h": 1,
+        "positivity_decomposition": "t^N+M*U+q*(J-3(1-t))+(3q-I)*(1-t)",
+        "primitive_a": 10800,
+        "primitive_b": -45383,
+        "primitive_linear_form": "10800*(e+pi)+(-45383)",
+        "primitive_scale_D_over_h": "15/1",
+        "q_N": 3,
+        "residual_nonzero_coefficients_t": {
+          "0": 4,
+          "1": 710,
+          "2": -348,
+          "3": -3,
+          "6": 1
+        },
+        "u_Robin": 862,
+        "v_Robin": -231,
+        "weighted_integral_coordinates": {
+          "e": "720",
+          "log_2": "0",
+          "pi": "720",
+          "rational": "-45383/15"
+        }
+      },
+      {
+        "B": -5953739,
+        "D": 35,
+        "D_P": 105,
+        "F_coefficients_t_sha256": "edbb0d4275131780c95d4f67ff85d464bb8434620b26829a7365d1d0120bd23e",
+        "G_coefficients_sha256": "1f3e6ca179f35985bf9b6f5b244c726c79bfba43444a749cf49611c1bd0a3e1b",
+        "G_degree": 6,
+        "I_N": 0,
+        "M_N": 40304,
+        "N": 8,
+        "P_coefficients_sha256": "3e884fce92ed5f672bddde6f17220343dc82b3059b6fc39f9dde5034218ffece",
+        "P_degree": 7,
+        "Q_Robin_degree": 3,
+        "R_N": 16,
+        "a_N": 40320,
+        "cleared_content": 3,
+        "correction_coefficients_t": [
+          0,
+          -20152,
+          0
+        ],
+        "h": 1,
+        "positivity_decomposition": "t^N+M*U+(-I)*(1-t)",
+        "primitive_a": 1411200,
+        "primitive_b": -5953739,
+        "primitive_linear_form": "1411200*(e+pi)+(-5953739)",
+        "primitive_scale_D_over_h": "35/1",
+        "q_N": 0,
+        "residual_nonzero_coefficients_t": {
+          "1": 40304,
+          "2": -20152,
+          "8": 1
+        },
+        "u_Robin": 48388,
+        "v_Robin": -12980,
+        "weighted_integral_coordinates": {
+          "e": "40320",
+          "log_2": "0",
+          "pi": "40320",
+          "rational": "-5953739/35"
+        }
+      },
+      {
+        "B": -4821775648,
+        "D": 315,
+        "D_P": 1260,
+        "F_coefficients_t_sha256": "134edcfe9715650dcf4de0a9c005775a35be957e0e6cd2a4d5d73213da33fbc6",
+        "G_coefficients_sha256": "3b0a1d59fdff1ee9eb12a604f22fd70d9b7584239246690bf01562275924593d",
+        "G_degree": 8,
+        "I_N": -32,
+        "M_N": 3628800,
+        "N": 10,
+        "P_coefficients_sha256": "a6aef480673a5513f396dc49b9fdf48c7e2765430a5db5e2adb93408d1845783",
+        "P_degree": 9,
+        "Q_Robin_degree": 5,
+        "R_N": 0,
+        "a_N": 3628800,
+        "cleared_content": 128,
+        "correction_coefficients_t": [
+          -32,
+          -1814400,
+          0
+        ],
+        "h": 32,
+        "positivity_decomposition": "t^N+M*U+(-I)*(1-t)",
+        "primitive_a": 35721000,
+        "primitive_b": -150680489,
+        "primitive_linear_form": "35721000*(e+pi)+(-150680489)",
+        "primitive_scale_D_over_h": "315/32",
+        "q_N": 0,
+        "residual_nonzero_coefficients_t": {
+          "0": 32,
+          "1": 3628768,
+          "10": 1,
+          "2": -1814400
+        },
+        "u_Robin": 4354024,
+        "v_Robin": -1167880,
+        "weighted_integral_coordinates": {
+          "e": "3628800",
+          "log_2": "0",
+          "pi": "3628800",
+          "rational": "-4821775648/315"
+        }
+      },
+      {
+        "B": -795118343490203857,
+        "D": 9009,
+        "D_P": 45045,
+        "F_coefficients_t_sha256": "5c61dc5debcbdcf6f146a9d5fe2365cde58ca2fa122c0f93787e9cf15b926442",
+        "G_coefficients_sha256": "66090a8a37fb3b4bb3b12305d60be36a39720a200093168bff8db9b4b6df3c1e",
+        "G_degree": 14,
+        "I_N": 0,
+        "M_N": 20922789887744,
+        "N": 16,
+        "P_coefficients_sha256": "843fecdda38914faa9eb7f7561ccfa54276cdaefaf2bf5dccee6c4a91bea67d6",
+        "P_degree": 15,
+        "Q_Robin_degree": 11,
+        "R_N": 256,
+        "a_N": 20922789888000,
+        "cleared_content": 5,
+        "correction_coefficients_t": [
+          0,
+          -10461394943872,
+          0
+        ],
+        "h": 1,
+        "positivity_decomposition": "t^N+M*U+(-I)*(1-t)",
+        "primitive_a": 188493414100992000,
+        "primitive_b": -795118343490203857,
+        "primitive_linear_form": "188493414100992000*(e+pi)+(-795118343490203857)",
+        "primitive_scale_D_over_h": "9009/1",
+        "q_N": 0,
+        "residual_nonzero_coefficients_t": {
+          "1": 20922789887744,
+          "16": 1,
+          "2": -10461394943872
+        },
+        "u_Robin": 25104490552128,
+        "v_Robin": -6733766046272,
+        "weighted_integral_coordinates": {
+          "e": "20922789888000",
+          "log_2": "0",
+          "pi": "20922789888000",
+          "rational": "-795118343490203857/9009"
+        }
+      },
+      {
+        "B": -198150851311292970311841645896413,
+        "D": 3028410,
+        "D_P": 12113640,
+        "F_coefficients_t_sha256": "385fb6914333f5df733dd9e8c304263ada8e7de44720dddf36675f3c6cab1139",
+        "G_coefficients_sha256": "d8eff544552447c25402f0675f149d59b340ebd3d461c6d29ae9bb3f9150b419",
+        "G_degree": 23,
+        "I_N": -4096,
+        "M_N": 15511210043330985983995904,
+        "N": 25,
+        "P_coefficients_sha256": "c49a57cb9ee1ea577fed3534d397b924902a529b2ce799b053720d767fa2fb82",
+        "P_degree": 24,
+        "Q_Robin_degree": 20,
+        "R_N": 4096,
+        "a_N": 15511210043330985984000000,
+        "cleared_content": 4,
+        "correction_coefficients_t": [
+          -4096,
+          -7755605021665492991997952,
+          0
+        ],
+        "h": 1,
+        "positivity_decomposition": "t^N+M*U+(-I)*(1-t)",
+        "primitive_a": 46974303607323991263805440000000,
+        "primitive_b": -198150851311292970311841645896413,
+        "primitive_linear_form": "46974303607323991263805440000000*(e+pi)+(-198150851311292970311841645896413)",
+        "primitive_scale_D_over_h": "3028410/1",
+        "q_N": 0,
+        "residual_nonzero_coefficients_t": {
+          "0": 4096,
+          "1": 15511210043330985983991808,
+          "2": -7755605021665492991997952,
+          "25": 1
+        },
+        "u_Robin": 18611333768903603118851072,
+        "v_Robin": -4992109564955926448026624,
+        "weighted_integral_coordinates": {
+          "e": "15511210043330985984000000",
+          "log_2": "0",
+          "pi": "15511210043330985984000000",
+          "rational": "-198150851311292970311841645896413/3028410"
+        }
+      },
+      {
+        "B": -574659095196032836108751740208369166324203053277465373683595673,
+        "D": 166966608033225,
+        "D_P": 166966608033225,
+        "F_coefficients_t_sha256": "34a392585b25e1a64e80b44ddf03623955b2518a9bc09caa1f9bebcdf4459ca1",
+        "G_coefficients_sha256": "91a6084ad14e953de1554b0108cfb19ac2280a62c7cf1f20fa5a43cf061229d4",
+        "G_degree": 38,
+        "I_N": 0,
+        "M_N": 815915283247897734345611269596115894271998951424,
+        "N": 40,
+        "P_coefficients_sha256": "e45175ce579539f05958bdc605c888f991e6f5b198f52e3fdd9af65f913938f3",
+        "P_degree": 39,
+        "Q_Robin_degree": 35,
+        "R_N": 1048576,
+        "a_N": 815915283247897734345611269596115894272000000000,
+        "cleared_content": 1,
+        "correction_coefficients_t": [
+          0,
+          -407957641623948867172805634798057947135999475712,
+          0
+        ],
+        "h": 1,
+        "positivity_decomposition": "t^N+M*U+(-I)*(1-t)",
+        "primitive_a": 136230607286369493120483215594669935273813419963187200000000000,
+        "primitive_b": -574659095196032836108751740208369166324203053277465373683595673,
+        "primitive_linear_form": "136230607286369493120483215594669935273813419963187200000000000*(e+pi)+(-574659095196032836108751740208369166324203053277465373683595673)",
+        "primitive_scale_D_over_h": "166966608033225/1",
+        "q_N": 0,
+        "residual_nonzero_coefficients_t": {
+          "1": 815915283247897734345611269596115894271998951424,
+          "2": -407957641623948867172805634798057947135999475712,
+          "40": 1
+        },
+        "u_Robin": 978986914705924240162971405529184263184366960640,
+        "v_Robin": -262593213444800980056122767478747241172094418944,
+        "weighted_integral_coordinates": {
+          "e": "815915283247897734345611269596115894272000000000",
+          "log_2": "0",
+          "pi": "815915283247897734345611269596115894272000000000",
+          "rational": "-574659095196032836108751740208369166324203053277465373683595673/166966608033225"
+        }
+      },
+      {
+        "B": -393688195825429207477979494733021222118050613729262647757159901464397050585201136676797222142050763632919,
+        "D": 11216102042566240394575,
+        "D_P": 302834755149288490653525,
+        "F_coefficients_t_sha256": "41e5fde1671aa0b2f474d8e42f01c25db8339ed511fd7bb4948ea46a0f310240",
+        "G_coefficients_sha256": "2b07453a3eef8628916ace1f748696614c957a0907ea23386601c782091a214f",
+        "G_degree": 58,
+        "I_N": 0,
+        "M_N": 8320987112741390144276341183223364380754172606361245952449277696409600001073741824,
+        "N": 60,
+        "P_coefficients_sha256": "4ff744f34213e209356f9bb674bcb7fbce47964fc7afc23eb02a3c0c49cea8d5",
+        "P_degree": 59,
+        "Q_Robin_degree": 55,
+        "R_N": -1073741824,
+        "a_N": 8320987112741390144276341183223364380754172606361245952449277696409600000000000000,
+        "cleared_content": 81,
+        "correction_coefficients_t": [
+          0,
+          -4160493556370695072138170591611682190377086303180622976224638848204800000536870912,
+          0
+        ],
+        "h": 3,
+        "positivity_decomposition": "t^N+M*U+(-I)*(1-t)",
+        "primitive_a": 31109680183795356413702906574223108327504220362515358716544742178409423772963972988272640000000000000000,
+        "primitive_b": -131229398608476402492659831577673740706016871243087549252386633821465683528400378892265740714016921210973,
+        "primitive_linear_form": "31109680183795356413702906574223108327504220362515358716544742178409423772963972988272640000000000000000*(e+pi)+(-131229398608476402492659831577673740706016871243087549252386633821465683528400378892265740714016921210973)",
+        "primitive_scale_D_over_h": "11216102042566240394575/3",
+        "q_N": 0,
+        "residual_nonzero_coefficients_t": {
+          "1": 8320987112741390144276341183223364380754172606361245952449277696409600001073741824,
+          "2": -4160493556370695072138170591611682190377086303180622976224638848204800000536870912,
+          "60": 1
+        },
+        "u_Robin": 9984048182531013085994734383048235034063244886285948798952656223734755326584422400,
+        "v_Robin": -2678016688533659724604723285548582063906471554798766292577651592141052360307769344,
+        "weighted_integral_coordinates": {
+          "e": "8320987112741390144276341183223364380754172606361245952449277696409600000000000000",
+          "log_2": "0",
+          "pi": "8320987112741390144276341183223364380754172606361245952449277696409600000000000000",
+          "rational": "-393688195825429207477979494733021222118050613729262647757159901464397050585201136676797222142050763632919/11216102042566240394575"
+        }
+      },
+      {
+        "B": -2039955552918608133093841956522557161336079571007935177318412775987157216759187856460493326100166567047878931224387797979247389869128910945685413753785,
+        "D": 6757054011415413106588077563673,
+        "D_P": 506779050856155982994105817275475,
+        "F_coefficients_t_sha256": "06c8c406fd0a56c5caaab52775b4063e7c11df846f2f3f8bc5426de293d3e425",
+        "G_coefficients_sha256": "09899b2e4e3658416966189fcd455edd6840bfeb7a85db3c5b9b44017bce75fa",
+        "G_degree": 78,
+        "I_N": 0,
+        "M_N": 71569457046263802294811533723186532165584657342365752577109445058227039255480148842668944867280814079999998900488372224,
+        "N": 80,
+        "P_coefficients_sha256": "b0c45bae545619f10cc53baf9e289542b4cbb872f9da42cd0db6a7dfecc98f5a",
+        "P_degree": 79,
+        "Q_Robin_degree": 75,
+        "R_N": 1099511627776,
+        "a_N": 71569457046263802294811533723186532165584657342365752577109445058227039255480148842668944867280814080000000000000000000,
+        "cleared_content": 375,
+        "correction_coefficients_t": [
+          0,
+          -35784728523131901147405766861593266082792328671182876288554722529113519627740074421334472433640407039999999450244186112,
+          0
+        ],
+        "h": 5,
+        "positivity_decomposition": "t^N+M*U+(-I)*(1-t)",
+        "primitive_a": 96719737365855985669735540434628629495999819968039910423758299818057733209018136443411068976585599380976263863125878391300494983168000000000000000000,
+        "primitive_b": -407991110583721626618768391304511432267215914201587035463682555197431443351837571292098665220033313409575786244877559595849477973825782189137082750757,
+        "primitive_linear_form": "96719737365855985669735540434628629495999819968039910423758299818057733209018136443411068976585599380976263863125878391300494983168000000000000000000*(e+pi)+(-407991110583721626618768391304511432267215914201587035463682555197431443351837571292098665220033313409575786244877559595849477973825782189137082750757)",
+        "primitive_scale_D_over_h": "6757054011415413106588077563673/5",
+        "q_N": 0,
+        "residual_nonzero_coefficients_t": {
+          "1": 71569457046263802294811533723186532165584657342365752577109445058227039255480148842668944867280814079999998900488372224,
+          "2": -35784728523131901147405766861593266082792328671182876288554722529113519627740074421334472433640407039999999450244186112,
+          "80": 1
+        },
+        "u_Robin": 85873574597097116809349730880459539377575323576038263164293376549639435769256568785600786057286980646245653632369295360,
+        "v_Robin": -23033829732256690579143181740279689571346948304076108177118541861017123026519367100190301607829874655031951288008966144,
+        "weighted_integral_coordinates": {
+          "e": "71569457046263802294811533723186532165584657342365752577109445058227039255480148842668944867280814080000000000000000000",
+          "log_2": "0",
+          "pi": "71569457046263802294811533723186532165584657342365752577109445058227039255480148842668944867280814080000000000000000000",
+          "rational": "-2039955552918608133093841956522557161336079571007935177318412775987157216759187856460493326100166567047878931224387797979247389869128910945685413753785/6757054011415413106588077563673"
+        }
+      }
+    ]
+  },
+  "logical_scope": "Exact finite replay for the all-parameter quadratic correction and bounded-degree primitive-gap proofs in the companion note. It constructs a positive correction but proves that bounded degree cannot make the primitive form tend to zero; it proves no irrationality or transcendence statement about e+pi.",
+  "missing_lemma": "A growing-degree Robin correction with sign control and enough primitive output cancellation, or a theorem ruling out that regime.",
+  "resource_policy": {
+    "RSS_guard_kib": 8388608,
+    "hardware_accelerator": "Not used: exact integer and rational polynomial arithmetic at degree 80 is CPU-suitable.",
+    "meaning": "Failure guard only; it neither allocates nor limits the approximately 50 GiB available Colab RAM."
+  },
+  "schema": "common_kernel_stein_robin_quadratic_correction_certificate_v1",
+  "source_sha256": "1611c4976a64836a20209871a55b92e09bcb6c0c9cb18701cd800567b1a0ac21",
+  "static_exact_checks": {
+    "J_coefficients_t": [
+      4,
+      -6,
+      4,
+      -1
+    ],
+    "J_factorization": "J=(2-t)(t^2-2t+2)",
+    "U_coefficients_t": [
+      "0",
+      "1",
+      "-1/2"
+    ],
+    "endpoint_map_columns_for_1_t_t2": [
+      [
+        "0",
+        "-1"
+      ],
+      [
+        "-2",
+        "0"
+      ],
+      [
+        "-2",
+        "4"
+      ]
+    ],
+    "integral_coordinates": {
+      "1-t": {
+        "e": "0",
+        "log_2": "2",
+        "pi": "0",
+        "rational": "1"
+      },
+      "J": {
+        "e": "0",
+        "log_2": "0",
+        "pi": "0",
+        "rational": "10"
+      },
+      "U": {
+        "e": "0",
+        "log_2": "0",
+        "pi": "1",
+        "rational": "-3/2"
+      }
+    },
+    "one_minus_t_coefficients": [
+      1,
+      -1
+    ],
+    "positivity_identity": "J-3(1-t)=t^2+(1-t)^3",
+    "primitive_integer_kernel_direction": [
+      -4,
+      1,
+      -1
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "scope": "Exact rational rate inequality, conditional on the separately reviewed finite seed certificates.",
+  "uniform_odd_primes": [
+    3,
+    7,
+    23,
+    43,
+    71,
+    83,
+    101,
+    109,
+    127,
+    151
+  ],
+  "atanh_series_terms": 24,
+  "range_reduction": "Each integer prime is divided by a power of two into [1,2).",
+  "tail_bound": "2*r^(2*TERMS+1)/((2*TERMS+1)*(1-r^2)), r=(x-1)/(x+1)",
+  "sqrt5_bracket_checked_by_squares": true,
+  "rate_interval": {
+    "denominator": 1000000000000,
+    "lower_numerator": 2421687921315,
+    "upper_numerator": 2421687921316
+  },
+  "threshold_interval": {
+    "denominator": 1000000000000,
+    "lower_numerator": 2406059125298,
+    "upper_numerator": 2406059125299
+  },
+  "rate_minus_threshold_interval": {
+    "denominator": 1000000000000,
+    "lower_numerator": 15628796017,
+    "upper_numerator": 15628796018
+  },
+  "strictly_above_threshold": true,
+  "strictly_below_threshold": false
+}

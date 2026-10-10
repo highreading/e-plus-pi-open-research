@@ -1,0 +1,59 @@
+{
+  "item": 345,
+  "schema": "item345-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_SPLIT_PRIME_DESCENT_DICHOTOMY_AND_SCOPED_GALOIS_PROJECTION_NO_GO",
+  "scope": "independent root audit of the chosen split prime, additive projections, relative norms, subfield height, and stabilizer criterion for Item 342's Kummer lift",
+  "checks": {
+    "certificate_sha256": "e0eca357cafab27e4ff9c97bf4beacaf9c82b102de47614472eecac8590dbcc7",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_sha256": "d87b6f5d0cc17e6a2bc25e717aa63b8880af37e4c7477132b3dc22aa8e349f93",
+    "prospective_manifest_artifacts_match_canonicalized_files": true,
+    "frozen_dependencies_checked": 6,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 6,
+    "work_hash_list_match": true,
+    "declared_group_ring_rows": 5,
+    "independent_group_ring_rows": 12,
+    "density_inference_from_controls": false,
+    "report_inline_delimiters": "93/93",
+    "report_display_delimiters": "31/31",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "splitting": "p is unramified and has residue order one modulo p-1, hence splits completely in Q(zeta_(p-1)) and the chosen prime has trivial decomposition group",
+    "additive_projection": "modulo p the ring is a product of split coordinates; killing the selected coordinate alone does not force any nontrivial orbit sum or p-unit group-algebra projection to vanish",
+    "relative_norm": "the product defining every relative norm contains the selected zero coordinate, so the gate is preserved, but another coordinate can also create an exact false positive",
+    "height": "a subgroup of size h changes the per-embedding bound to B^h and the remaining degree to phi(p-1)/h; the resulting absolute norm and B^phi bound are exactly unchanged",
+    "stabilizer": "the generated subfield degree is the Galois orbit size, so bounded-degree descent requires stabilizer size at least phi(p-1)/D; chosen-prime membership alone imposes no such equality",
+    "scope_warning": "the theorem excludes only descent justified formally from the selected gate plus the Item-342 conjugate bound; special stabilizers, exceptional norm cancellation, extra full-collision conditions, and chosen-prime p-adic theorems remain open"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "complete splitting",
+      "additive-projection non-implication",
+      "relative-norm gate",
+      "subfield norm-height invariance",
+      "stabilizer criterion",
+      "scoped descent no-go",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "five declared and twelve independent group-ring controls"
+    ],
+    "OPEN": [
+      "large stabilizer on weighted selected-zero rows",
+      "special norm cancellation",
+      "chosen-prime p-adic nonconcentration",
+      "W_b(M)=o(M)",
+      "any strict reduction of 1/36"
+    ]
+  },
+  "capacity": {
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

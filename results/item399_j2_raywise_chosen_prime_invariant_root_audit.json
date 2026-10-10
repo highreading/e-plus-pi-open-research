@@ -1,0 +1,49 @@
+{
+  "item": 399,
+  "schema": "item399-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_CHOSEN_PRIME_INVARIANT_AND_NORM_SELECTOR_OBSTRUCTION",
+  "scope": "independent root audit of the nondegenerate affine coordinates, selected-prime algebraic integer, Galois cutoff action, norm implication and height, ray capacity, replay, and chart warning",
+  "checks": {
+    "canonical_dependencies_checked": 11,
+    "canonical_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "control_characters": 0,
+    "finite_to_infinite_inference_used": false,
+    "root_repairs": "Repinned the checker and manifest to audited canonical predecessors, including the regenerated Item 397 checker and Item 349 report, and regenerated all certificate outputs. No mathematical statement changed."
+  },
+  "mathematical_audit": {
+    "affine_pair": "On the nondegenerate chart all displayed multipliers are p-units and the Item 341 Jacobian is a unit. The two actual collision coordinates are therefore exactly the scalar endpoint numerator E and the incomplete-beta residual H_m-Theta.",
+    "chosen_prime": "Jacobi sums and character values are algebraic integers. Multiplication by the rational-target denominator Q and subtraction of A produces Xi in the cyclotomic integer ring, whose reduction at the specified Teichmuller prime is Q(H_m-Theta).",
+    "galois_action": "Every cyclotomic automorphism sends B_u to B_(au) and fixes the quadratic character because a is odd. It therefore replaces the ordered prefix by a multiplicatively permuted subset rather than preserving the selected cutoff.",
+    "norm": "The selected-prime divisibility implies p divides the rational norm. Since p splits completely, the converse is only existence of a divisibility at some conjugate prime/cutoff, so the ordinary norm forgets the selector without an additional equivalence theorem.",
+    "height": "Each nonexceptional Jacobi sum has complex absolute value sqrt(p); combining m=O(M), target height O(M log M), and cyclotomic degree O(M) gives the stated O(M^2 log M) norm-height ceiling per row.",
+    "capacity": "Each residue ray has Chebyshev mass M/35+o(M), but a theorem on only the nondegenerate or degenerate chart cannot book a fixed saving while the complementary chart may fill the ray. No positive ray exclusion is proved."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact selected-prime nondegenerate collision ideal",
+      "algebraic-integer residual retaining cutoff and target",
+      "Galois cutoff permutation and norm-selector obstruction",
+      "noncompetitive norm-height bound",
+      "zero current ray exclusion"
+    ],
+    "OPEN": [
+      "chosen-prime weighted nonconcentration",
+      "degenerate-chart weighted nonconcentration",
+      "a positive Chebyshev-mass exclusion across their union",
+      "any conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "one_ray_normalized_per_6M": "1/210",
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_route1_rate": 0,
+    "new_booking": 0,
+    "new_unconditional_capacity_reduction": 0
+  }
+}

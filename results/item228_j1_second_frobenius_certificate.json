@@ -1,0 +1,186 @@
+{
+  "dependencies": {
+    "item218_checker": "item218_j1_common_log_certificate.py",
+    "item218_checker_sha256": "a238c5ca37263f2553da47bf3f21253aedf1c34f8c57458a4a274fc6cdc9029a",
+    "item223_checker": "item223_j1_frobenius_transfer_certificate.py",
+    "item223_checker_sha256": "928ddc876ed70939fd4a39fccd0e91d8c59d8aa2a8a694967d8fc7f737512d4a"
+  },
+  "finite_survivor_census": {
+    "actual_rows": 22934,
+    "classification": "EXACT_FINITE_ONLY",
+    "direct_paired_zero_among_joint_survivors": 0,
+    "first_item223_survivors": [
+      [
+        223,
+        38,
+        24,
+        123,
+        173,
+        202,
+        167,
+        115,
+        67,
+        128
+      ],
+      [
+        239,
+        40,
+        26,
+        11,
+        125,
+        160,
+        105,
+        51,
+        230,
+        178
+      ],
+      [
+        311,
+        16,
+        46,
+        17,
+        164,
+        267,
+        246,
+        270,
+        214,
+        277
+      ],
+      [
+        331,
+        20,
+        48,
+        276,
+        138,
+        273,
+        85,
+        110,
+        6,
+        55
+      ],
+      [
+        337,
+        2,
+        55,
+        62,
+        31,
+        15,
+        12,
+        84,
+        66,
+        22
+      ],
+      [
+        443,
+        112,
+        36,
+        143,
+        293,
+        57,
+        327,
+        442,
+        31,
+        116
+      ],
+      [
+        463,
+        26,
+        68,
+        239,
+        351,
+        381,
+        26,
+        430,
+        223,
+        216
+      ],
+      [
+        491,
+        16,
+        76,
+        212,
+        106,
+        222,
+        66,
+        125,
+        335,
+        297
+      ]
+    ],
+    "item223_survivor_with_psi_stream_sha256": "d021d0bcf4ff7a9541c7666006d037aa9642116b2f59a6a9b1b764d561f9536e",
+    "item223_transfer_survivors": 22,
+    "joint_theta_psi_zero": 0,
+    "prime_max": 2000,
+    "psi_nonzero_on_item223_survivors": 22,
+    "scope_warning": "the finite disappearance of joint survivors is not an all-prime theorem or density estimate"
+  },
+  "item": 228,
+  "parameters": {
+    "cell": "p=2r+6s+3, r=2h, h>=1, s>=1",
+    "finite_prime_max_inclusive": 2000,
+    "source_replay_prime_max_inclusive": 251
+  },
+  "rate_ledger": {
+    "full_cell_exclusion": "OPEN",
+    "j1_cell_mass_per_m_if_fully_excluded": "1/6",
+    "new_divisibility_exponent": 0,
+    "new_unconditional_linear_log_rate": 0,
+    "reason": "no all-prime or weighted bound for simultaneous Theta=Psi zeros is proved"
+  },
+  "regularized_recurrence": {
+    "ell_multiples_mod_4": [
+      "ell_(p-1)=-2epsilon",
+      "ell_(2p-1)=-4epsilon",
+      "ell_(3p-1)=2epsilon",
+      "ell_(4p-1)=4epsilon"
+    ],
+    "exact_coefficients": "B*u_t-C*u_(t+1)+D*u_(t+2)-A*u_(t+3), A=p+2r+4s+t+2, B=p+r+t+1, C=p+2r+t+2, D=p+r+4s+t+1",
+    "forcing": "B*uhat_t-C*uhat_(t+1)+D*uhat_(t+2)-A*uhat_(t+3)=-sum_(a>=1)[z^(ap)]z^(p+r+t+1)*sigma*W*ell_(ap-1)",
+    "moment": "uhat_t deletes from L_epsilon(z^(p+r+t)W) every monomial whose primitive denominator is divisible by p",
+    "sigma": "(1-z)*(1+z^2)",
+    "weight": "W=(1-z)^r*(1+z^2)^(2s-1)"
+  },
+  "schema": "item228-j1-second-frobenius-v1",
+  "second_terminal_theorem": {
+    "deleted_term_sign": "the top coefficient of sigma*W is -1, so deleting its derivative contribution gives -(-1)*(2epsilon)=+2epsilon",
+    "first_terminal": "T=2s+1, exact multiplier 2p and source -4epsilon",
+    "free_mode": "the free coefficient after the first terminal is W itself",
+    "free_mode_consequence": "its three entries at the second terminal vanish identically",
+    "free_mode_degree": "r+4s-2<p-3",
+    "necessary": "a collision requires Delta_plus=2Delta_minus!=0 and Psi=0 mod p",
+    "psi": "Delta_plus*(rho_constant-2epsilon)-4epsilon*rho_lambda",
+    "second_terminal": "T+p, exact multiplier 3p and source +2epsilon",
+    "sufficiency": "not claimed; Psi is only an additional necessary condition",
+    "terminal_vector": "rho_constant+lambda*rho_lambda; rho_free=0",
+    "unreduced_residue": "before regularization, p*u_(T+p+3)=ell_(3p-1)/3=2epsilon/3 mod p"
+  },
+  "status_ledger": {
+    "EXACT_FINITE": [
+      "the direct source replay through the declared source bound",
+      "Psi eliminates every Item223 transfer survivor through the declared finite bound"
+    ],
+    "OPEN": [
+      "all-prime exclusion or a weighted bound for simultaneous Theta=Psi zeros",
+      "sufficiency of the transfer conditions",
+      "any positive Route-1 rate or radical saving from the j=1 cell"
+    ],
+    "PROVED": [
+      "the exact regularized recurrence and its forcing sign",
+      "the direct unreduced 3p residue and +2epsilon terminal source",
+      "the first-pole free mode equals W and vanishes before the second terminal",
+      "every collision satisfies Delta_plus=2Delta_minus!=0 and Psi=0"
+    ]
+  },
+  "terminal_source_replay": {
+    "actual_rows": 479,
+    "classification": "EXACT_REPLAY_OF_PROVED_IDENTITIES",
+    "exact_terminal_multiplier": "3p",
+    "forcing_sign": "Lhat(K_t')=-sum_a [z^(ap)]K_t*ell_(ap-1)",
+    "forcing_steps": 79759,
+    "prime_max": 251,
+    "regularization_timing": "the residue statement is before regularization; the pole monomial is deleted from uhat",
+    "row_stream_sha256": "dd18e6aecdea1271657e9ae3eaaf954a59386f426fd313b2a986ac22df051961",
+    "terminal_source": "+2epsilon",
+    "unreduced_pole_residue": "p*u_(T+p+3)=ell_(3p-1)/3=2epsilon/3 mod p"
+  }
+}

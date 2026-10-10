@@ -1,0 +1,277 @@
+{
+  "ambient_to_actual_control": {
+    "ambient_directions": 13,
+    "declared_matrix_rank": 2,
+    "general_bound": "rank(image(span(dy_i)->Omega_base))<=2 on every two-parameter base",
+    "geometric_conductor_inference": false,
+    "target_cotangent_rank": 2
+  },
+  "canonical_files_modified": false,
+  "capacity": {
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "new_linear_log_rate": 0,
+    "raw_ceiling_per_6M": "1/36",
+    "raw_log_mass": "M/6+o(M)",
+    "retained_ceiling_per_6M": "1/36",
+    "weighted_target": "W_(H,Q)(M)=o(M)",
+    "weighted_target_proved": false
+  },
+  "checked_date_beijing": "2026-09-01",
+  "classification": "PROVED_SCOPED_DIRECT_TWO_MOMENT_GAUGE_COMPLEXITY_BARRIER",
+  "classification_labels": {
+    "DECLARED_EXACT_CONTROLS_ONLY": [
+      "two finite-depth Mahler controls, one symbolic gauge identity, one cotangent-rank control, and four literal term counts",
+      "no prime or collision scan"
+    ],
+    "OPEN": [
+      "different prime-independent bounded-complexity geometry for the actual tied coefficient map",
+      "geometric conductor after actual specialization",
+      "weighted nonconcentration, any strict fixed-j1 ceiling reduction, Route 1, and every conclusion about e+pi"
+    ],
+    "PROVED": [
+      "exact two-moment connection and formal splitting gauge",
+      "unbounded vertical p-denominator theorem for every fundamental gauge",
+      "nonrational and non-overconvergent direct moment connection",
+      "ambient-to-two-variable cotangent-rank collapse",
+      "zero booking"
+    ]
+  },
+  "collision_scans": 0,
+  "declared_truncation_controls": [
+    {
+      "depth": 7,
+      "df_equals_minus_omega": true,
+      "difference_residual": "F^depth(q)/p^depth",
+      "exponents_in_f": [
+        1,
+        3,
+        9,
+        27,
+        81,
+        243,
+        729
+      ],
+      "f_truncation": "sum (2*u^(p^j)-v^(p^j))/p^j",
+      "lacunary_support_in_omega": [
+        0,
+        2,
+        8,
+        26,
+        80,
+        242,
+        728
+      ],
+      "omega_truncation": "-2*sum u^(p^j-1)du+sum v^(p^j-1)dv",
+      "p_valuations_u_v": [
+        [
+          0,
+          0
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -2,
+          -2
+        ],
+        [
+          -3,
+          -3
+        ],
+        [
+          -4,
+          -4
+        ],
+        [
+          -5,
+          -5
+        ],
+        [
+          -6,
+          -6
+        ]
+      ],
+      "prime": 3,
+      "q": "2*u-v",
+      "zero_gap_lengths": [
+        1,
+        5,
+        17,
+        53,
+        161,
+        485
+      ]
+    },
+    {
+      "depth": 6,
+      "df_equals_minus_omega": true,
+      "difference_residual": "F^depth(q)/p^depth",
+      "exponents_in_f": [
+        1,
+        5,
+        25,
+        125,
+        625,
+        3125
+      ],
+      "f_truncation": "sum (2*u^(p^j)-v^(p^j))/p^j",
+      "lacunary_support_in_omega": [
+        0,
+        4,
+        24,
+        124,
+        624,
+        3124
+      ],
+      "omega_truncation": "-2*sum u^(p^j-1)du+sum v^(p^j-1)dv",
+      "p_valuations_u_v": [
+        [
+          0,
+          0
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -2,
+          -2
+        ],
+        [
+          -3,
+          -3
+        ],
+        [
+          -4,
+          -4
+        ],
+        [
+          -5,
+          -5
+        ]
+      ],
+      "prime": 5,
+      "q": "2*u-v",
+      "zero_gap_lengths": [
+        3,
+        19,
+        99,
+        499,
+        2499
+      ]
+    }
+  ],
+  "dependencies": {
+    "manifests/item377_j1_horizontal_filtered_hasse_neutrality_manifest.json": "02d9567bd2992d593a4d15c808455f00ab3bbff87310a0b3c300972f36605cc3",
+    "results/item377_j1_horizontal_filtered_hasse_neutrality_certificate.json": "299663f4f520ff77760ff4ee4b6d554b7d59b9c36e04e7f2be25026022eab9af",
+    "results/item377_j1_horizontal_filtered_hasse_neutrality_certificate_replay.json": "299663f4f520ff77760ff4ee4b6d554b7d59b9c36e04e7f2be25026022eab9af",
+    "results/item377_j1_horizontal_filtered_hasse_neutrality_ledger_delta.json": "153ac70b32d36eac7b9a89594d9bd9dccf2eab263c10754b8eb10a9e433fada9",
+    "results/item377_j1_horizontal_filtered_hasse_neutrality_root_audit.json": "4efb362a26c20cdf1a4048585d4e38e078f1360e7451c6f20fd52b272a35a334",
+    "results/item377_j1_horizontal_filtered_hasse_neutrality_root_replay.json": "299663f4f520ff77760ff4ee4b6d554b7d59b9c36e04e7f2be25026022eab9af",
+    "scripts/item377_j1_horizontal_filtered_hasse_neutrality_certificate.py": "e80706033c5d5e05fbec2668da53cb5f50f07d476a5350d54c37543967c832ba",
+    "sources/item377_j1_horizontal_filtered_hasse_neutrality_report.md": "ce5d546e4cd2fb093219453db362b84a2369446334137c8c913143698f55ed88"
+  },
+  "exact_moment_formula": {
+    "bounded_dimensional_formal_descent": true,
+    "bounded_vertical_p_pole_gauge": false,
+    "formal_splitting_gauge": "f=sum_(j>=0)(2u^(p^j)-v^(p^j))/p^j",
+    "omega": "-2*sum_(j>=0)u^(p^j-1)du+sum_(j>=0)v^(p^j-1)dv",
+    "overconvergent": false,
+    "rational": false
+  },
+  "fundamental_gauge": {
+    "dG": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "-omega*a",
+        "-omega*b"
+      ]
+    ],
+    "reason_unbounded_poles_are_forced": "an invertible constant top row has a0 or b0 nonzero, so a nonzero constant multiple of f occurs",
+    "solution_shape": [
+      [
+        "a0",
+        "b0"
+      ],
+      [
+        "a0*f+c0",
+        "b0*f+d0"
+      ]
+    ]
+  },
+  "inherited_actual_ambient_support": "N>=p^2-1-[4+2(p-1)+2|h-s|]=p^2-O(p)",
+  "item": 380,
+  "literal_finite_log_controls": [
+    {
+      "degree_in_x": 24,
+      "nonzero_terms": 12,
+      "prime": 13
+    },
+    {
+      "degree_in_x": 32,
+      "nonzero_terms": 16,
+      "prime": 17
+    },
+    {
+      "degree_in_x": 92,
+      "nonzero_terms": 46,
+      "prime": 47
+    },
+    {
+      "degree_in_x": 216,
+      "nonzero_terms": 108,
+      "prime": 109
+    }
+  ],
+  "method_scope": {
+    "closed": [
+      "bounded-p vertical pole splitting gauge for the direct standard-Frobenius moment model",
+      "rational or dagger gauge realization of that direct moment connection",
+      "using ambient p^2-O(p) independent directions as an actual conductor lower bound without controlling pullback dependencies"
+    ],
+    "not_closed": [
+      "a different prime-independent geometric descent",
+      "actual h,s cancellation or compression",
+      "a genuine geometric conductor theorem after specialization"
+    ]
+  },
+  "schema": "item380-j1-actual-moment-horizontal-complexity-barrier-certificate-v1",
+  "scope": {
+    "actual_selector": "p=4h+6s+3, M=3h+4s+2, n=2h, r=2s+1",
+    "converse_claimed": false,
+    "gate_direction": "full collision => a_(r,n)=0 and Q0=0 mod p",
+    "moment_indices": "T=2h+6s+2, L=4h+4s+2",
+    "selected_moments": "u=c_T, v=c_L, q=2u-v"
+  },
+  "symbolic_gauge_identity": {
+    "A_q": [
+      [
+        "p",
+        "0"
+      ],
+      [
+        "p*q",
+        "1"
+      ]
+    ],
+    "Frobenius_transform": "G^-1*A_q*F(G)=U(-f+q+F(f)/p)*diag(p,1)",
+    "G": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "f",
+        "1"
+      ]
+    ],
+    "connection_transform": "G^-1*Gamma*G+G^-1*dG=E21*(omega+df)",
+    "simultaneous_split_condition": "df=-omega and F(f)/p-f=-q",
+    "verified": true
+  }
+}

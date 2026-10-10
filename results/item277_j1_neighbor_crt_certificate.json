@@ -1,0 +1,104 @@
+{
+  "capacity": {
+    "item149_first_post_cartier_copy_already_booked": true,
+    "maximum_linear_mass_affected_by_neighbor_pairs": 0,
+    "new_capacity_reduction": 0,
+    "new_independent_valuation_copy": 0,
+    "new_route1_rate": 0,
+    "raw_j1_capacity_per_6M": "1/36"
+  },
+  "cluster_spacing": {
+    "brun_selberg": "#{p<=X:p,p+2 prime}=O(X/log^2 X)",
+    "edges_overlap": false,
+    "finite_replay_bound": 10000,
+    "finite_replay_label": "EXACT FINITE ONLY",
+    "finite_replay_sha256": "24a3c43df8f47344cc0cc6cf5366672569c79bd557a9dc60912718a351cfe5d7",
+    "finite_replay_twin_count": 204,
+    "fixed_M_endpoint_log_weight": "O(M/log M)=o(M)",
+    "mod_3_theorem": "for twin p,p+2 with p>5, p=2 mod 3, so p-2 and p+4 are composite"
+  },
+  "integer_CRT": {
+    "sample_p_q": [
+      29,
+      31
+    ],
+    "sample_product_square": 808201,
+    "theorem": "p^2|C and q^2|C with gcd(p,q)=1 iff (pq)^2|C",
+    "valuation_gain_beyond_distinct_prime_square_product": 0
+  },
+  "labels": {
+    "bounded_twin_replay": "EXACT FINITE ONLY",
+    "cross_field_transversality_gain": 0,
+    "new_route1_rate": 0,
+    "new_weighted_zero_theorem_for_full_j1_cell": 0,
+    "phase_neighbor": "PROVED",
+    "square_CRT_divisibility": "PROVED",
+    "twin_endpoint_weight": "PROVED o(M) by the classical Brun/Selberg upper-bound sieve"
+  },
+  "mixed_state_CRT": {
+    "counterexample_vector": [
+      29,
+      0,
+      31,
+      0
+    ],
+    "counterexample_vector_divisible_by_N": false,
+    "idempotents_e_p_e_q": [
+      465,
+      435
+    ],
+    "integer_scaled_determinant": 808201,
+    "mixed_idempotent_determinant_mod_N": 0,
+    "p_q_N": [
+      29,
+      31,
+      899
+    ],
+    "rank_formula": "|solutions|=p^(4-r_p) q^(4-r_q)",
+    "rational_stack_determinant": 1
+  },
+  "payload_sha256": "3615120b7a2b40143b0322b7cef87f4e9d8fc4b37ece0ce6d6d9ad57a9928b92",
+  "phase": {
+    "exact_grid_rows": 3360,
+    "exact_grid_sha256": "cdea035a805cd9891c5fcaf06fa6ba5921abd178aaadfefa1a644607365c5e04",
+    "item275_actual_transverse_witness": {
+      "new_h_s_p_M": [
+        1,
+        4,
+        31,
+        21
+      ],
+      "old_h_s_p_M": [
+        5,
+        1,
+        29,
+        21
+      ],
+      "old_kernel_plucker": [
+        966875,
+        -83743035,
+        -928364750,
+        8571696,
+        84169225,
+        940218807
+      ],
+      "pulled_kernel_plucker": [
+        1162220187,
+        411657489,
+        -1265521434,
+        -8518535856,
+        9022899625,
+        -6079782117
+      ],
+      "stack_determinant": "-585482135072/1165539375"
+    },
+    "map": "(h,s,p,M)->(h-4,s+3,p+2,M), h>=5"
+  },
+  "rank_branches": {
+    "r_p_r_q": "each belongs to {0,1,2}",
+    "rank_drops": "weaken the conditions and are retained",
+    "solution_count": "p^(4-r_p)q^(4-r_q)",
+    "solution_module": "ker(A mod p) x ker(B mod q)"
+  },
+  "schema": "item277-j1-neighbor-crt-certificate-v1"
+}

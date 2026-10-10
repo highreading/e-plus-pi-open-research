@@ -1,0 +1,136 @@
+{
+  "item": 409,
+  "schema": "item409-j2-actual-rejection-carrier-ledger-v1",
+  "classification": "PROVED_ACTUAL_FORMULA_NORMAL_FORM_AND_SCOPED_RESULTANT_RECURRENCE_NO_GO_ETA_ZERO",
+  "checked_date_beijing": "2026-09-01",
+  "branch": "ordinary fixed-j=2 degenerate target rejection on one fixed-M ray, analyzed through the actual Pi_sat, Gamma_sat, Cartier, and incomplete-period formulae",
+  "capacity_first": {
+    "ordinary_j2_raw_mass_per_M": "2/35",
+    "one_complete_ray_mass_per_M": "1/35",
+    "one_complete_ray_normalized_per_6M": "1/210",
+    "proved_J_support_margin_per_M": 0,
+    "proved_eta_per_M": 0,
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "retained_ordinary_j2_ceiling_per_6M": "1/105"
+  },
+  "actual_carrier": {
+    "gate": "Pi_r=gcd(abs(num a_r),abs(num b_r),abs(num K_r))",
+    "collision": "Gamma_(r,s)=gcd(Pi_r,abs(num T_0),abs(num T_1))",
+    "rejection": "J_(r,s)=(Pi_sat_(r,s))_(Gamma_sat_(r,s))",
+    "tied_equivalence": "p divides J iff p divides num a_r,num b_r,num K_r and (T_0,T_1) is not (0,0) modulo p",
+    "target_period_congruence": "T_nu=(-1)^(m+1)(f_nu*Z_(r,s)+9*4^s*b_nu-11*v_nu) modulo p",
+    "actual_period": "Z_(r,s)=B_s(9*kappa_r*A_s/2-tau_(r,s))",
+    "foreign_support_warning": "the target-period substitution is tied-prime-safe only and is not an equality of complete foreign-prime carriers"
+  },
+  "actual_formula_structure": {
+    "minor_sequences": "a_r and b_r are explicit algebraic coefficient extractions and share the proved order-three step-6 operator",
+    "third_gate_sequence": "K_r is the terminating canonical eta/y determinant chain",
+    "cartier_digit": "c_(m,d) is the coefficient in Item 334 and has the certified bivariate rational constant-term generating function",
+    "incomplete_period": "A_s has the certified algebraic generating function and proved order-two recurrence",
+    "branch_split": {
+      "f_nonzero": "one scalar incomplete-period residual survives",
+      "f_zero": "the period vanishes and the test is 9*4^s*b-11*v != 0 modulo p"
+    }
+  },
+  "finite_actual_witness": {
+    "classification": "EXACT DECLARED ACTUAL-FORMULA WITNESS_ONLY_NOT_A_CENSUS",
+    "row": {
+      "p": 709,
+      "r": 347,
+      "s": 2,
+      "M": 885
+    },
+    "Pi": 79,
+    "Pi_sat": 79,
+    "Gamma": 1,
+    "Gamma_sat": 1,
+    "J": 79,
+    "p_divides_J": false,
+    "conclusion": "the all-row integer identities Pi_sat=1 and J=1 are false",
+    "scope_warning": "79 is foreign to the tied characteristic 709; the witness neither refutes tied-prime gate good reduction nor implies positive weighted density"
+  },
+  "scoped_no_go": {
+    "method_class": [
+      "the pinned actual formulae and known recurrences",
+      "fixed bounded same-characteristic propagation",
+      "primitive clearing and tied-prime-safe saturation",
+      "common-divisor resultants among matched row factors",
+      "pointwise height used only as an upper bound"
+    ],
+    "obstructions": [
+      "K_r fails the known gate operator in each of five natural gauges by exact nonzero first-window residuals on both rays",
+      "s->s+1 in the A_s recurrence changes the selected tied characteristic p to p+6",
+      "the first same-ray fixed-M return is (r,s,p)->(r+42,s-15,p-6), outside the known order-three gate window and again in different characteristic",
+      "safely matched rejection factors are high-prime atoms and pairwise coprime",
+      "pointwise height has the wrong direction for a weighted support lower bound"
+    ],
+    "conclusion": "this method class proves no positive lower margin for J-support",
+    "not_excluded": [
+      "a different common module containing K_r",
+      "an unmatched moving-row resultant with a theorem returning foreign support to the selected row",
+      "cross-characteristic reciprocity",
+      "a direct formula-specific anti-gcd theorem"
+    ]
+  },
+  "exact_chart_coupling": {
+    "assumptions": "J_e>=jM+o(M), G_e<=gM+o(M), N_e<=nM+o(M)",
+    "normalized_saving": "max(0,j,1/35-g-n)/6",
+    "gate_collision_specialization": "when J_e=D_e-G_e, D_e>=dM+o(M), and G_e<=gM+o(M), this is max(0,d-g,1/35-g-n)/6",
+    "proved_positive_margin": false,
+    "booking": 0
+  },
+  "smallest_missing_lemma": {
+    "name": "actual tied large-prime Smith anti-gcd lemma",
+    "statement": "for one ray e and some delta>0, the log-weight of selected primes p dividing num a_r,num b_r,num K_r with (T_0,T_1)!=(0,0) modulo p is at least delta*M+o(M)",
+    "equivalent_conclusion": "J_e(M)>=delta*M+o(M)",
+    "capacity_reward": "delta/6, combined exactly as max(0,delta,1/35-g-n)/6"
+  },
+  "proved": [
+    "actual tied-support carrier normal form and target branch split",
+    "explicit actual minor, K-chain, Cartier, and incomplete-period formulae",
+    "actual witness Pi_sat=J=79 on (p,r,s)=(709,347,2)",
+    "scoped recurrence/resultant obstruction",
+    "exact coupling of any future J-support margin to the nondegenerate chart",
+    "eta zero and no capacity reduction"
+  ],
+  "open": [
+    "positive actual weighted J-support margin",
+    "tied gate good reduction p not dividing Pi_sat on every selected row",
+    "relative target good reduction Gamma_sat=1 on every degenerate gate row",
+    "a formula-specific unmatched moving-row resultant or anti-gcd theorem",
+    "positive Route-1 exponent improvement and every conclusion about e+pi"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "displayed actual formulae, recurrences, target congruence, fixed-M return geometry, and matched-factor atomicity",
+      "finite exact witness J_(347,2)=79",
+      "conditional chart-coupling formula",
+      "eta zero"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "no positive J-support margin follows in the explicitly enumerated method class"
+    ],
+    "CERTIFIED_FINITE_WITNESS_NOT_A_CENSUS": [
+      "five declared actual-formula rows, with no density extrapolation"
+    ],
+    "OPEN": [
+      "all actual positive weighted inputs",
+      "unmatched moving-row resultant or equivalent anti-gcd lemma",
+      "positive capacity reduction and Route 1"
+    ],
+    "NOT_CLAIMED": [
+      "pointwise height implies weighted density",
+      "ambient packets are realized by actual rows",
+      "foreign support in the period replacement equals foreign support in T",
+      "a prime-census conclusion"
+    ]
+  },
+  "evidence_policy": {
+    "no_prime_or_collision_census": true,
+    "no_finite_extrapolation": true,
+    "no_pointwise_height_booking": true,
+    "no_ambient_tuple_claimed_actual": true,
+    "canonical_files_modified": false
+  }
+}

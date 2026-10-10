@@ -1,0 +1,128 @@
+{
+  "arbitrary_solution_three_zero_counterexample": {
+    "full_solution": [
+      1,
+      9,
+      0,
+      0,
+      2,
+      0
+    ],
+    "initial_values": [
+      1,
+      9,
+      0
+    ],
+    "meaning": "The scalar operator alone has a nonzero solution with three separated/partly consecutive zeros; target-specific period structure is essential.",
+    "n": 2,
+    "prime": 17,
+    "zero_v": [
+      2,
+      3,
+      5
+    ]
+  },
+  "description": "Exact scalar recurrence, endpoint-period, Casoratian, contiguity, and zero-run certificate",
+  "modular_cases": [
+    {
+      "all_contour_Casoratians_nonzero": true,
+      "backward_pivots_all_units": true,
+      "c": 17,
+      "direct_endpoint_identity_checks": 3,
+      "endpoint_transcript_sha256": "b5bbcc93d4c5dcc228d4b525ec5fdd6e2cff5265b3c733f4f91033573734aca4",
+      "forward_pivots_all_units": true,
+      "generic_target_zero_v": [],
+      "initial_contour_Casoratian": 32,
+      "maximum_consecutive_target_zero_run": null,
+      "n": 4,
+      "p_n_mod_prime": 12,
+      "prime": 43,
+      "q_n_over_prime_mod_prime": null,
+      "scalar_recurrence_checks": 28,
+      "transition_row_identity_checks": 14,
+      "v_prime_q_n": 0
+    },
+    {
+      "all_contour_Casoratians_nonzero": true,
+      "backward_pivots_all_units": true,
+      "c": 1565,
+      "direct_endpoint_identity_checks": 3,
+      "endpoint_transcript_sha256": "2f529b7a28b13a649179a55aecbe118bf5a9370d57c15e4060c492fa7c938947",
+      "forward_pivots_all_units": true,
+      "generic_target_zero_v": [
+        713,
+        1306
+      ],
+      "initial_contour_Casoratian": 1069,
+      "maximum_consecutive_target_zero_run": 1,
+      "n": 18,
+      "p_n_mod_prime": 1903,
+      "prime": 3167,
+      "q_n_over_prime_mod_prime": 2278,
+      "scalar_recurrence_checks": 3124,
+      "transition_row_identity_checks": 1562,
+      "v_prime_q_n": 1
+    },
+    {
+      "all_contour_Casoratians_nonzero": true,
+      "backward_pivots_all_units": true,
+      "c": 404,
+      "direct_endpoint_identity_checks": 3,
+      "endpoint_transcript_sha256": "e353b82ab46eb71786a4efba4cb8222decb05bb7ad63896b3ba509a04810ad45",
+      "forward_pivots_all_units": true,
+      "generic_target_zero_v": [
+        264
+      ],
+      "initial_contour_Casoratian": 810,
+      "maximum_consecutive_target_zero_run": 1,
+      "n": 64,
+      "p_n_mod_prime": 397,
+      "prime": 937,
+      "q_n_over_prime_mod_prime": 601,
+      "scalar_recurrence_checks": 802,
+      "transition_row_identity_checks": 401,
+      "v_prime_q_n": 1
+    },
+    {
+      "all_contour_Casoratians_nonzero": true,
+      "backward_pivots_all_units": true,
+      "c": 394,
+      "direct_endpoint_identity_checks": 3,
+      "endpoint_transcript_sha256": "9fa7a161d67bb19dfdbd06b63793338d39a79429a862da8884a957bc086a89a7",
+      "forward_pivots_all_units": true,
+      "generic_target_zero_v": [
+        55,
+        281
+      ],
+      "initial_contour_Casoratian": 671,
+      "maximum_consecutive_target_zero_run": 1,
+      "n": 82,
+      "p_n_mod_prime": 662,
+      "prime": 953,
+      "q_n_over_prime_mod_prime": 149,
+      "scalar_recurrence_checks": 782,
+      "transition_row_identity_checks": 391,
+      "v_prime_q_n": 1
+    }
+  ],
+  "normalized_operator": {
+    "coefficient_X_v": "(2*v + 3)*(2*n + 2*v + 3)/(8*(v + 2)*(v + 3))",
+    "coefficient_X_v_plus_1": "-(n**2 + 12*n*v + 21*n + 16*v**2 + 58*v + 53)/(8*(v + 2)*(v + 3))",
+    "coefficient_X_v_plus_2": "(4*n + 10*v + 23)/(4*(v + 3))",
+    "kappa_ratio": "8*(v + 1)/(2*n + 2*v + 3)",
+    "p_independent": "true"
+  },
+  "symbolic_contiguity": {
+    "Hermite_reduction_identities": "verified_for_v_0_1_2",
+    "T_determinant": "4096*(n + 1)**2*(n + 2)**3/(n*(2*n + 5)*(2*n + 7)**2*(2*n + 9))"
+  },
+  "universal_n_2_Casoratian": {
+    "c_mod_4_determinants": [
+      "16777216/99225",
+      "-16777216/99225",
+      "-16777216/99225",
+      "16777216/99225"
+    ],
+    "magnitude": "16777216/99225"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "item": 389,
+  "schema": "item389-mixed-kernel-analytic-cost-continued-fraction-no-go-manifest-v1",
+  "classification": "PROVED_ALL_DEGREE_ANALYTIC_COST_AND_CONTINUED_FRACTION_THRESHOLD",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "Item387 mixed-kernel decomposition, exact endpoint cost, uniform and L1 smallness, coefficient and degree-height budgets, continued-fraction-quality threshold, and constant-factor degree-one replacement",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item387_mixed_kernel_quotient_and_claim_audit_report.md": "061e29589d427ccb5c8549c8344781c0c8f0e674d2fa525da03325312ce40625",
+    "work/item387_mixed_kernel_quotient_and_claim_audit_certificate.py": "28bf4e9cdfcd64cf7e48cebf3f0dadb18115d54ff3a5136937f0ce2a042ba83b",
+    "work/item387_mixed_kernel_quotient_and_claim_audit_certificate.json": "4e0b426e93032f526f8097bec3ed6c0663842b0c60a818fb49142ade89aa3200",
+    "work/item387_mixed_kernel_quotient_and_claim_audit_certificate_replay.json": "4e0b426e93032f526f8097bec3ed6c0663842b0c60a818fb49142ade89aa3200",
+    "work/item387_mixed_kernel_quotient_and_claim_audit_ledger_delta.json": "7564d3303016ea2a7c02efddaff22dd3211bb83e96ea618d11a7b31591ed57ed",
+    "work/item387_mixed_kernel_quotient_and_claim_audit_root_audit.json": "62bc0ce724c8e0c03b04928126eee9a05c10359a326eeec07162309adf46b421",
+    "work/item387_mixed_kernel_quotient_and_claim_audit_manifest.json": "98b61d8b34c64b7e9ffd6767aafe47f225577913c900ecb0174540b76c2e9fd1"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item389_mixed_kernel_analytic_cost_continued_fraction_no_go_report.md",
+      "sha256": "5cf2b5c757d1b2bd41735770ae3152c447eaa7d4ce677edbfb049fc8188edea5",
+      "bytes": 11473
+    },
+    "certificate_script": {
+      "path": "work/item389_mixed_kernel_analytic_cost_continued_fraction_no_go_certificate.py",
+      "sha256": "d89a953113eb50cff03c226469d5faf93aadc0bc2c127c32ddf9dfb1bf91871d",
+      "bytes": 9898
+    },
+    "certificate": {
+      "path": "work/item389_mixed_kernel_analytic_cost_continued_fraction_no_go_certificate.json",
+      "sha256": "9d614c7e68201e0cefc0c92ac45bcbd24ef45d9e55b6682cd309d87f9d74d6ee",
+      "bytes": 7154
+    },
+    "replay": {
+      "path": "work/item389_mixed_kernel_analytic_cost_continued_fraction_no_go_certificate_replay.json",
+      "sha256": "9d614c7e68201e0cefc0c92ac45bcbd24ef45d9e55b6682cd309d87f9d74d6ee",
+      "bytes": 7154,
+      "byte_identical_to_certificate": true
+    },
+    "ledger": {
+      "path": "work/item389_mixed_kernel_analytic_cost_continued_fraction_no_go_ledger_delta.json",
+      "sha256": "45b9e47c8110745f57888ab7b50131569eb61ecc43c391f41c6d04943dc20d54",
+      "bytes": 2907
+    }
+  },
+  "theorems": [
+    "the mixed integrand has exact integer endpoint F(0)=5A-R(0)",
+    "uniform norm below one forces R(0)=5A and p0=-4A, hence coefficient costs at least 5|A| for R and 4|A| for P",
+    "with Lambda=3(B0+B1+|A|), either R(0)=5A or the L1 norm is at least 1/(2Lambda)",
+    "the explicit degree-height threshold norm_1(F)<1/[6((d+1)^2 H(P)+|A|)] forces the same endpoint encoding",
+    "for all degrees B0(P)>=(3|A|-norm_1(F))/2, with strictness away from the zero tuple",
+    "when B0>0, an explicitly nonzero form below min(1,1/(2B0)) has nonzero A, denominator |A|<=B0, and rational error below 1/(2A^2)",
+    "the reduced endpoint rational is an ordinary continued-fraction convergent under that threshold",
+    "the degree-one representative preserving the same linear form has coefficient cost below 9B0(P)+1",
+    "high-degree exact-derivative reshaping alone cannot supply a sublinear-in-|A| coefficient-cost advantage",
+    "no small nonzero sequence or irrationality conclusion is claimed"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "exact endpoint and uniform coefficient-cost theorem",
+      "all-degree inverse analytic-cost L1 dichotomy",
+      "global coefficient lower bound",
+      "conditional continued-fraction-quality theorem with explicit nonzero and smallness assumptions",
+      "constant-factor degree-one replacement",
+      "scoped high-degree reshaping/sublinear-denominator-cost no-go"
+    ],
+    "DECLARED_EXACT_CONTROLS_ONLY": [
+      "six fixed polynomial tuples and exact elementary constant bounds; no optimization or small-form search"
+    ],
+    "OPEN": [
+      "a non-circular structured family satisfying integrality, nonvanishing, analytic decay, and coefficient thresholds",
+      "any nonzero sequence crossing the inverse-cost threshold",
+      "irrationality of e+pi"
+    ]
+  },
+  "ledger": {
+    "new_nonzero_linear_form_sequence": 0,
+    "new_route1_booking": 0,
+    "new_capacity_reduction": 0,
+    "route2_success": false,
+    "conclusion_about_e_plus_pi": "OPEN"
+  }
+}

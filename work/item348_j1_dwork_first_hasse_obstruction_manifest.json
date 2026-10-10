@@ -1,0 +1,83 @@
+{
+  "item": 348,
+  "schema": "item348-j1-dwork-first-hasse-obstruction-manifest-v1",
+  "classification": "PROVED_FIRST_HASSE_POLYNOMIAL_AND_TRIVIAL_DWORK_DASH_TOWER_SCOPED_BOUNDED_DEGREE_NO_GO",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual fixed-j1 selected coefficient, its left/right first-Hasse truncation, and its formal terminating Dwork-dash tower",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item342_j1_finite_field_fourier_weil_barrier_report.md": "843bb85381c98adf0a5b64801ce099e4c3c9119d5933704d97bbd492f1b8029b",
+    "scripts/item342_j1_finite_field_fourier_weil_barrier_certificate.py": "130cfd5d2ac7c31546ef177c3f751abcc236ca92dc253a59914d487187c1fbac",
+    "results/item342_j1_finite_field_fourier_weil_barrier_certificate.json": "4cf10e1d035dcd18a134e5f1b00e54a34ae1b3833a2863b54212da9fcccf49d9",
+    "results/item342_j1_finite_field_fourier_weil_barrier_certificate_replay.json": "4cf10e1d035dcd18a134e5f1b00e54a34ae1b3833a2863b54212da9fcccf49d9",
+    "results/item342_j1_finite_field_fourier_weil_barrier_root_audit.json": "aa6b260f78ae094b20a1b6b041c75131514b5ded51f016e6950671c472280835",
+    "manifests/item342_j1_finite_field_fourier_weil_barrier_manifest.json": "85ca4a73d9009acc3dc8d7102325f74156a11bf13e618dc1a88c06fd352b8a54",
+    "sources/item345_j1_kummer_galois_descent_obstruction_report.md": "17441d83d40de9a8df6419b35e277753ed86006e1c461e4cbaa618db8d9e9392",
+    "results/item345_j1_kummer_galois_descent_obstruction_certificate.json": "e0eca357cafab27e4ff9c97bf4beacaf9c82b102de47614472eecac8590dbcc7",
+    "results/item345_j1_kummer_galois_descent_obstruction_root_audit.json": "285e7e220f914913ac1e5dc9592d07206ac4435df03c90d52d627e969ab349c2",
+    "manifests/item345_j1_kummer_galois_descent_obstruction_manifest.json": "78531805af9b60a30535a992b7c8b9aa90f415ffa55e2586d1f48ea5b02bb2ca"
+  },
+  "artifacts": {
+    "report": {
+      "path": "sources/item348_j1_dwork_first_hasse_obstruction_report.md",
+      "sha256": "1ec4af9e7f1f6a08eab869b3e091778c26c0645bc38e692b57252da2e31de67a",
+      "bytes": 14183
+    },
+    "certificate_script": {
+      "path": "scripts/item348_j1_dwork_first_hasse_obstruction_certificate.py",
+      "sha256": "13ef13c792f9f3a00f29a1baff3eb25c592106a0b5802da2158c1f4d72b0172b",
+      "bytes": 15835
+    },
+    "certificate": {
+      "path": "results/item348_j1_dwork_first_hasse_obstruction_certificate.json",
+      "sha256": "ea9904c4411af6d8dc0199d347872bae361c591ab911db1fb19e5f1cb19d7de4",
+      "bytes": 8484
+    },
+    "replay": {
+      "path": "results/item348_j1_dwork_first_hasse_obstruction_certificate_replay.json",
+      "sha256": "ea9904c4411af6d8dc0199d347872bae361c591ab911db1fb19e5f1cb19d7de4",
+      "bytes": 8484,
+      "byte_identical_to_certificate": true
+    },
+    "ledger": {
+      "path": "results/item348_j1_dwork_first_hasse_obstruction_ledger_delta.json",
+      "sha256": "7c68f01bbeac0c89fae9868ca23cf4df364194318e7ef8f1654423ce23be5490",
+      "bytes": 2172
+    }
+  },
+  "theorems": [
+    "outside the forced ray, the selected-factor zero is exactly the value-at-one zero of an actual first-Hasse polynomial",
+    "the native first-Hasse degree is exactly the Item339 survivor length minus one",
+    "the left chart is a normalized terminating 4F3 and the right chart is the exact forward-shifted Lucas-surviving 5F4 tail",
+    "the actual negative integral top parameter dashes to zero in one step",
+    "the formal native dash tower has no nontrivial higher Hasse factor",
+    "bounded or sublinear native first-Hasse degree has zero-rate weighted support"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "exact left/right Hasse charts and selected-value bridge",
+      "exact Hasse degree formula",
+      "one-step formal Dwork-dash trivialization",
+      "zero-rate sublinear-degree support",
+      "scoped bounded-degree and native-higher-dash no-go",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "five preselected exact controls; no prime scan or density inference"
+    ],
+    "OPEN": [
+      "p-adic nonconcentration on the linearly growing first-Hasse polynomial",
+      "global monodromy, average-gcd, or factor localization",
+      "a new geometric F-crystal or a new bounded-degree divisor identity",
+      "W_b(M)=o(M), any fixed-j1 ceiling reduction, Route 1, and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "support_reached": "all actual Item342 selected-factor rows, with the forced ray treated separately",
+    "proved_sublinear_hasse_degree_mass": "o(M)",
+    "new_independent_condition": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0,
+    "retained_ceiling_per_6M": "1/36"
+  }
+}

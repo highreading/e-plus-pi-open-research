@@ -1,0 +1,58 @@
+{
+  "schema": "item405-j1-initial-orbit-phase-capacity-no-go-ledger-delta-v1",
+  "item": 405,
+  "date": "2026-09-01",
+  "branch": "actual fixed-j=1 joint Hasse-transverse gate / fixed-prime cross-M initial orbit",
+  "status": "PROVED_DEPTH_THREE_INITIAL_GATE_EXCLUSION_AND_SHARP_BOUNDED_DEPTH_NO_GO",
+  "proved": {
+    "column_initial_indices": "the first three points of every fixed-prime candidate column have Hasse indices (1,4,7) or (2,5,8)",
+    "exact_Hasse_initials": "all six reduced rational E_h^* values and their complete numerator/denominator factorizations are exact",
+    "phase_divisor_reduction": "only seven actual phase-compatible rows can have E_h^*=0 in the depth-three initial window",
+    "joint_gate_exclusion": "exact Item218 tail evaluation gives Q0 nonzero on all seven rows, so every first-three column point avoids Q0=E_h^*=0",
+    "fixed_M_initial_count": "at most two candidate primes at a fixed M have column age below three",
+    "maximum_direct_log_saving": "at most 2 log U_M=O(log M)=o(M)",
+    "depth_three_cluster_counterexample": "the full candidate selector with the depth-three primes removed retains cluster-radical lower coefficient (2c-1)/(12c), equal to the Item395 admission coefficient",
+    "c_1_threshold": "at D=floor(log M), the modified selector still has log cluster radical at least M/12+o(M)",
+    "recurrence_information_class_no_go": "degree-three interpolation matches all exact depth-three Q0 and E_h^* values and realizes the threshold-saturating selector under one common homogeneous order-four recurrence",
+    "new_booked_mass": 0
+  },
+  "scope": {
+    "actual_family_used": true,
+    "actual_theorem": "the complete depth-three initial joint-gate exclusion applies to every actual fixed-prime column",
+    "information_class_closed": "bounded-order homogeneous recurrence existence, finite rank, independent prime columns, and any fixed depth of exact initial coordinate data without the actual operator-specific orbit arithmetic",
+    "interpolation_countermodel_uses_actual_initial_values": true,
+    "interpolation_countermodel_uses_actual_Item401_operator": false,
+    "interpolation_countermodel_is_actual_orbit": false,
+    "cross_prime_reciprocity_proved": false,
+    "actual_cluster_upper_bound_proved": false,
+    "strict_capacity_reduction_proved": false,
+    "finite_controls": "seven exhaustive phase-divisor checks and one declared M=861 interpolation control; no unbounded prime scan or collision census",
+    "finite_to_infinite_inference": false,
+    "not_ruled_out": [
+      "an operator-specific theorem for the actual Item401 recurrence and its complete determining state",
+      "a reciprocity identity coupling two different prime columns",
+      "a common actual-moment carrier of height below M/12",
+      "a growing-depth or horizontal distribution theorem passing the Item395 coefficient test"
+    ]
+  },
+  "capacity": {
+    "item395_general_admission_coefficient_per_M": "(2c-1)/(12c)",
+    "item395_admission_target_at_c_1": "log C_(M,floor(log M))<(1/12-epsilon)M",
+    "depth_three_modified_full_selector_coefficient_at_c_1": "at least 1/12",
+    "strongest_direct_initial_strip_gain_per_M": 0,
+    "strongest_direct_initial_strip_gain_per_6M": 0,
+    "new_bound_meeting_target": false,
+    "raw_fixed_j1_ceiling_per_6M": "1/36",
+    "new_unconditional_whole_cell_capacity_reduction": 0
+  },
+  "ledger": {
+    "new_route1_linear_log_rate": 0,
+    "new_route1_booking": 0,
+    "new_route1_capacity_reduction": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "route1_success": false,
+    "conclusion_about_e_plus_pi": "OPEN"
+  },
+  "ledger_action": "BOOK_DEPTH_THREE_INITIAL_EXCLUSION_AT_ZERO_LINEAR_RATE_AND_CLOSE_BOUNDED_DEPTH_RECURRENCE_EXISTENCE_CLASS",
+  "canonical_files_modified": true
+}

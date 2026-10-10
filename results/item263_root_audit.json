@@ -1,0 +1,69 @@
+{
+  "schema": "item263-root-audit-v1",
+  "audited": "2026-08-31 Asia/Shanghai",
+  "status": "PASS_WITH_LAYOUT_REPAIR",
+  "booking": {
+    "new_unconditional_route1_rate": 0,
+    "new_ordinary_j2_capacity_reduction": 0
+  },
+  "root_findings": [
+    "The five-dimensional odd punctured space has the expected compact dimension two and odd residue dimension three.",
+    "The displayed Cartier matrices imply the stated characteristic polynomials and contain H_q only as an extension entry.",
+    "The p=6q+5 order-two class relation cannot be evaluated through the finite functional because the j=1 exact endpoint is -epsilon.",
+    "For p=6q+1, the independently simplified identity 30*d_0+12*d_1=epsilon proves all-prime endpoint non-descent.",
+    "The cutoff and full Item-251 gate remain functions of the old pair (H_q,h_q); no independent collision equation is produced.",
+    "A missing closing display delimiter after equation (3.4) was repaired; no mathematical content changed."
+  ],
+  "independent_probe": {
+    "script": "scripts/item263_root_independent_probe.py",
+    "script_sha256": "d2ed750617a9f3cac3a4e40a9bd65a84170dadc0e29631e1a7a20ff289303eb6",
+    "result": "results/item263_root_independent_probe.json",
+    "result_sha256": "7bf5e147f1da196385e863a4f1809052f1df65cabf5137f2f2e308dc7ed12620",
+    "prime_bound": 401,
+    "cartier_prime_rows": 77,
+    "actual_cutoff_rows": 1153,
+    "endpoint_nondescend_rows": 76,
+    "prefix_zero_rows": [
+      [
+        43,
+        11,
+        3,
+        2,
+        5
+      ],
+      [
+        47,
+        7,
+        5,
+        4,
+        3
+      ],
+      [
+        193,
+        29,
+        22,
+        21,
+        11
+      ],
+      [
+        241,
+        89,
+        10,
+        9,
+        31
+      ]
+    ],
+    "label": "EXACT FINITE independent replay supporting separately proved all-row identities"
+  },
+  "sealed_package": {
+    "report_sha256": "44e44549494d329caa41908104952cdba4741b6a036065d226a1f40161fcc31d",
+    "checker_sha256": "c5b39fba68e63ea7dd034e37d4208ee37246c015b9876a83ade12a9c1f7a656a",
+    "canonical_sha256": "bf8039b219e440220334fbaab78e511bc2a4ec7f65a4ff3c8d7baac8b9bc69b0",
+    "workspace_replay_sha256": "bf8039b219e440220334fbaab78e511bc2a4ec7f65a4ff3c8d7baac8b9bc69b0",
+    "archive_replay_sha256": "bf8039b219e440220334fbaab78e511bc2a4ec7f65a4ff3c8d7baac8b9bc69b0",
+    "ledger_sha256": "fb3f5c0d52ff29d3de3556e21e30c8a80f10b23fcc394ab0b0afdc48c60eae9c",
+    "manifest_sha256": "d84bb4a848442465806099c3c805b2508daf0c26e627cf00ae0e5085079caa8d",
+    "hash_ledger_sha256": "d725c86d3cd4d08bc996eb2be232ee9e72ca4eb358ba3776f99c58ff10229433"
+  },
+  "strict_scope": "This closes the ordinary scalar-invariant shortcut for the exact punctured Cartier module. It does not rule out every crystalline or arithmetic method and proves no weighted zero-density theorem."
+}

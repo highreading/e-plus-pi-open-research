@@ -1,0 +1,604 @@
+{
+  "description": "Exact finite diagnostics for the p-adic _2F_0 parameter representation and its raw-truncation height barrier",
+  "dominance_and_height": {
+    "n_checked_through": 80,
+    "partial_sum_checks": 3320,
+    "samples": [
+      {
+        "H_floor_n_over_2": 1,
+        "H_n_decimal_digits": 1,
+        "n": 1
+      },
+      {
+        "H_floor_n_over_2": -5,
+        "H_n_decimal_digits": 1,
+        "n": 2
+      },
+      {
+        "H_floor_n_over_2": 391,
+        "H_n_decimal_digits": 5,
+        "n": 5
+      },
+      {
+        "H_floor_n_over_2": -85965769,
+        "H_n_decimal_digits": 12,
+        "n": 10
+      },
+      {
+        "H_floor_n_over_2": 19548495145645254601,
+        "H_n_decimal_digits": 30,
+        "n": 20
+      },
+      {
+        "H_floor_n_over_2": 1383814612391196555995828075000781969615315761,
+        "H_n_decimal_digits": 71,
+        "n": 40
+      },
+      {
+        "H_floor_n_over_2": 9967494396928536567844920704638756695537311948128112642159026360781905557694652537640084476238298817761,
+        "H_n_decimal_digits": 166,
+        "n": 80
+      }
+    ],
+    "successive_ratio_checks": 3240
+  },
+  "ordinary_branch_auxiliaries": [
+    {
+      "cases": [
+        {
+          "K": 0,
+          "actual_v_H_K_n": 0,
+          "claimed_lower_bound": 0,
+          "decimal_digits_abs_H_K_n": 1,
+          "lambda_K_plus_1": 0,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 1,
+          "actual_v_H_K_n": 0,
+          "claimed_lower_bound": 0,
+          "decimal_digits_abs_H_K_n": 12,
+          "lambda_K_plus_1": 0,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 2,
+          "actual_v_H_K_n": 1,
+          "claimed_lower_bound": 0,
+          "decimal_digits_abs_H_K_n": 23,
+          "lambda_K_plus_1": 0,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 3,
+          "actual_v_H_K_n": 1,
+          "claimed_lower_bound": 1,
+          "decimal_digits_abs_H_K_n": 34,
+          "lambda_K_plus_1": 1,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 5,
+          "actual_v_H_K_n": 2,
+          "claimed_lower_bound": 1,
+          "decimal_digits_abs_H_K_n": 56,
+          "lambda_K_plus_1": 1,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 8,
+          "actual_v_H_K_n": 1,
+          "claimed_lower_bound": 1,
+          "decimal_digits_abs_H_K_n": 88,
+          "lambda_K_plus_1": 1,
+          "v_K_factorial": 1
+        },
+        {
+          "K": 13,
+          "actual_v_H_K_n": 4,
+          "claimed_lower_bound": 2,
+          "decimal_digits_abs_H_K_n": 140,
+          "lambda_K_plus_1": 2,
+          "v_K_factorial": 1
+        },
+        {
+          "K": 21,
+          "actual_v_H_K_n": 5,
+          "claimed_lower_bound": 3,
+          "decimal_digits_abs_H_K_n": 223,
+          "lambda_K_plus_1": 3,
+          "v_K_factorial": 3
+        },
+        {
+          "K": 34,
+          "actual_v_H_K_n": 7,
+          "claimed_lower_bound": 3,
+          "decimal_digits_abs_H_K_n": 354,
+          "lambda_K_plus_1": 6,
+          "v_K_factorial": 4
+        },
+        {
+          "K": 55,
+          "actual_v_H_K_n": 7,
+          "claimed_lower_bound": -1,
+          "decimal_digits_abs_H_K_n": 561,
+          "lambda_K_plus_1": 9,
+          "v_K_factorial": 8
+        },
+        {
+          "K": 89,
+          "actual_v_H_K_n": 7,
+          "claimed_lower_bound": -6,
+          "decimal_digits_abs_H_K_n": 890,
+          "lambda_K_plus_1": 15,
+          "v_K_factorial": 13
+        }
+      ],
+      "n": 576601,
+      "prime": 7,
+      "q_mod_p_power_exponent": 15,
+      "v_q_n": 7
+    },
+    {
+      "cases": [
+        {
+          "K": 0,
+          "actual_v_H_K_n": 0,
+          "claimed_lower_bound": 0,
+          "decimal_digits_abs_H_K_n": 1,
+          "lambda_K_plus_1": 0,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 1,
+          "actual_v_H_K_n": 0,
+          "claimed_lower_bound": 0,
+          "decimal_digits_abs_H_K_n": 13,
+          "lambda_K_plus_1": 0,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 2,
+          "actual_v_H_K_n": 0,
+          "claimed_lower_bound": 0,
+          "decimal_digits_abs_H_K_n": 25,
+          "lambda_K_plus_1": 0,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 3,
+          "actual_v_H_K_n": 0,
+          "claimed_lower_bound": 0,
+          "decimal_digits_abs_H_K_n": 36,
+          "lambda_K_plus_1": 0,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 5,
+          "actual_v_H_K_n": 1,
+          "claimed_lower_bound": 1,
+          "decimal_digits_abs_H_K_n": 60,
+          "lambda_K_plus_1": 1,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 8,
+          "actual_v_H_K_n": 2,
+          "claimed_lower_bound": 1,
+          "decimal_digits_abs_H_K_n": 94,
+          "lambda_K_plus_1": 1,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 13,
+          "actual_v_H_K_n": 1,
+          "claimed_lower_bound": 1,
+          "decimal_digits_abs_H_K_n": 150,
+          "lambda_K_plus_1": 1,
+          "v_K_factorial": 1
+        },
+        {
+          "K": 21,
+          "actual_v_H_K_n": 3,
+          "claimed_lower_bound": 2,
+          "decimal_digits_abs_H_K_n": 237,
+          "lambda_K_plus_1": 2,
+          "v_K_factorial": 1
+        },
+        {
+          "K": 34,
+          "actual_v_H_K_n": 5,
+          "claimed_lower_bound": 3,
+          "decimal_digits_abs_H_K_n": 378,
+          "lambda_K_plus_1": 3,
+          "v_K_factorial": 3
+        },
+        {
+          "K": 55,
+          "actual_v_H_K_n": 6,
+          "claimed_lower_bound": 1,
+          "decimal_digits_abs_H_K_n": 600,
+          "lambda_K_plus_1": 5,
+          "v_K_factorial": 5
+        },
+        {
+          "K": 89,
+          "actual_v_H_K_n": 6,
+          "claimed_lower_bound": -2,
+          "decimal_digits_abs_H_K_n": 952,
+          "lambda_K_plus_1": 9,
+          "v_K_factorial": 8
+        }
+      ],
+      "n": 1289767,
+      "prime": 11,
+      "q_mod_p_power_exponent": 14,
+      "v_q_n": 6
+    },
+    {
+      "cases": [
+        {
+          "K": 0,
+          "actual_v_H_K_n": 0,
+          "claimed_lower_bound": 0,
+          "decimal_digits_abs_H_K_n": 1,
+          "lambda_K_plus_1": 0,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 1,
+          "actual_v_H_K_n": 0,
+          "claimed_lower_bound": 0,
+          "decimal_digits_abs_H_K_n": 11,
+          "lambda_K_plus_1": 0,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 2,
+          "actual_v_H_K_n": 0,
+          "claimed_lower_bound": 0,
+          "decimal_digits_abs_H_K_n": 21,
+          "lambda_K_plus_1": 0,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 3,
+          "actual_v_H_K_n": 0,
+          "claimed_lower_bound": 0,
+          "decimal_digits_abs_H_K_n": 32,
+          "lambda_K_plus_1": 0,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 5,
+          "actual_v_H_K_n": 1,
+          "claimed_lower_bound": 0,
+          "decimal_digits_abs_H_K_n": 52,
+          "lambda_K_plus_1": 0,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 8,
+          "actual_v_H_K_n": 4,
+          "claimed_lower_bound": 1,
+          "decimal_digits_abs_H_K_n": 81,
+          "lambda_K_plus_1": 1,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 13,
+          "actual_v_H_K_n": 2,
+          "claimed_lower_bound": 1,
+          "decimal_digits_abs_H_K_n": 129,
+          "lambda_K_plus_1": 1,
+          "v_K_factorial": 1
+        },
+        {
+          "K": 21,
+          "actual_v_H_K_n": 5,
+          "claimed_lower_bound": 2,
+          "decimal_digits_abs_H_K_n": 204,
+          "lambda_K_plus_1": 2,
+          "v_K_factorial": 1
+        },
+        {
+          "K": 34,
+          "actual_v_H_K_n": 5,
+          "claimed_lower_bound": 3,
+          "decimal_digits_abs_H_K_n": 323,
+          "lambda_K_plus_1": 3,
+          "v_K_factorial": 2
+        },
+        {
+          "K": 55,
+          "actual_v_H_K_n": 5,
+          "claimed_lower_bound": 1,
+          "decimal_digits_abs_H_K_n": 512,
+          "lambda_K_plus_1": 4,
+          "v_K_factorial": 4
+        },
+        {
+          "K": 89,
+          "actual_v_H_K_n": 5,
+          "claimed_lower_bound": -1,
+          "decimal_digits_abs_H_K_n": 810,
+          "lambda_K_plus_1": 8,
+          "v_K_factorial": 6
+        }
+      ],
+      "n": 206864,
+      "prime": 13,
+      "q_mod_p_power_exponent": 13,
+      "v_q_n": 5
+    },
+    {
+      "cases": [
+        {
+          "K": 0,
+          "actual_v_H_K_n": 0,
+          "claimed_lower_bound": 0,
+          "decimal_digits_abs_H_K_n": 1,
+          "lambda_K_plus_1": 0,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 1,
+          "actual_v_H_K_n": 0,
+          "claimed_lower_bound": 0,
+          "decimal_digits_abs_H_K_n": 13,
+          "lambda_K_plus_1": 0,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 2,
+          "actual_v_H_K_n": 0,
+          "claimed_lower_bound": 0,
+          "decimal_digits_abs_H_K_n": 26,
+          "lambda_K_plus_1": 0,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 3,
+          "actual_v_H_K_n": 0,
+          "claimed_lower_bound": 0,
+          "decimal_digits_abs_H_K_n": 38,
+          "lambda_K_plus_1": 0,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 5,
+          "actual_v_H_K_n": 0,
+          "claimed_lower_bound": 0,
+          "decimal_digits_abs_H_K_n": 63,
+          "lambda_K_plus_1": 0,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 8,
+          "actual_v_H_K_n": 0,
+          "claimed_lower_bound": 0,
+          "decimal_digits_abs_H_K_n": 99,
+          "lambda_K_plus_1": 0,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 13,
+          "actual_v_H_K_n": 0,
+          "claimed_lower_bound": 0,
+          "decimal_digits_abs_H_K_n": 158,
+          "lambda_K_plus_1": 0,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 21,
+          "actual_v_H_K_n": 1,
+          "claimed_lower_bound": 1,
+          "decimal_digits_abs_H_K_n": 251,
+          "lambda_K_plus_1": 1,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 34,
+          "actual_v_H_K_n": 2,
+          "claimed_lower_bound": 1,
+          "decimal_digits_abs_H_K_n": 399,
+          "lambda_K_plus_1": 1,
+          "v_K_factorial": 0
+        },
+        {
+          "K": 55,
+          "actual_v_H_K_n": 1,
+          "claimed_lower_bound": 1,
+          "decimal_digits_abs_H_K_n": 634,
+          "lambda_K_plus_1": 1,
+          "v_K_factorial": 1
+        },
+        {
+          "K": 89,
+          "actual_v_H_K_n": 2,
+          "claimed_lower_bound": 2,
+          "decimal_digits_abs_H_K_n": 1007,
+          "lambda_K_plus_1": 2,
+          "v_K_factorial": 2
+        }
+      ],
+      "n": 2644525,
+      "prime": 41,
+      "q_mod_p_power_exponent": 12,
+      "v_q_n": 4
+    }
+  ],
+  "polynomial_difference": [
+    {
+      "checks": 11160,
+      "equalities": 465,
+      "prime": 2
+    },
+    {
+      "checks": 11160,
+      "equalities": 630,
+      "prime": 3
+    },
+    {
+      "checks": 11160,
+      "equalities": 1260,
+      "prime": 5
+    },
+    {
+      "checks": 11160,
+      "equalities": 1935,
+      "prime": 7
+    },
+    {
+      "checks": 11160,
+      "equalities": 3300,
+      "prime": 11
+    },
+    {
+      "checks": 11160,
+      "equalities": 4170,
+      "prime": 13
+    }
+  ],
+  "status": "finite diagnostic; the uniform convergence and inequalities are proved in the companion source; no uniform digit-depth bound is claimed",
+  "terminating_and_quadratic_newton": {
+    "checked_n_through": 90,
+    "identity_checks": 91,
+    "quadratic_newton_checks": 4186,
+    "samples": [
+      {
+        "decimal_digits_abs_q": 1,
+        "first_zero_term": 1,
+        "n": 0,
+        "signed_q": 1
+      },
+      {
+        "decimal_digits_abs_q": 1,
+        "first_zero_term": 2,
+        "n": 1,
+        "signed_q": -1
+      },
+      {
+        "decimal_digits_abs_q": 1,
+        "first_zero_term": 3,
+        "n": 2,
+        "signed_q": 7
+      },
+      {
+        "decimal_digits_abs_q": 2,
+        "first_zero_term": 4,
+        "n": 3,
+        "signed_q": -71
+      },
+      {
+        "decimal_digits_abs_q": 5,
+        "first_zero_term": 6,
+        "n": 5,
+        "signed_q": -18089
+      },
+      {
+        "decimal_digits_abs_q": 12,
+        "first_zero_term": 11,
+        "n": 10,
+        "signed_q": 403978495031
+      },
+      {
+        "decimal_digits_abs_q": 30,
+        "first_zero_term": 21,
+        "n": 20,
+        "signed_q": 202759569932735203392750534601
+      },
+      {
+        "decimal_digits_abs_q": 71,
+        "first_zero_term": 41,
+        "n": 40,
+        "signed_q": 53118799672103032679656568470993981903265675730523638890005371087315761
+      },
+      {
+        "decimal_digits_abs_q": 191,
+        "first_zero_term": 91,
+        "n": 90,
+        "signed_q": 81956823345433530897796286235509607783867595862725638270448456162172715699724234739456387002932043222875863601018681622708121172208172158290386509040570001893271849160857853068424199739049111
+      }
+    ]
+  },
+  "uniform_term_valuation": [
+    {
+      "exact_depth_visibility_cap_checks": 71,
+      "half_depth_ceiling_checks": 14981,
+      "last_lambda": 70,
+      "minimum_valuation_gap": 0,
+      "nonzero_valuation_checks": 2080,
+      "prime": 2,
+      "residue_count": 64,
+      "residue_exponent": 6,
+      "terms_checked_through": 70,
+      "zero_terms_skipped": 2464
+    },
+    {
+      "exact_depth_visibility_cap_checks": 71,
+      "half_depth_ceiling_checks": 14981,
+      "last_lambda": 35,
+      "minimum_valuation_gap": 0,
+      "nonzero_valuation_checks": 14768,
+      "prime": 3,
+      "residue_count": 243,
+      "residue_exponent": 5,
+      "terms_checked_through": 70,
+      "zero_terms_skipped": 2485
+    },
+    {
+      "exact_depth_visibility_cap_checks": 71,
+      "half_depth_ceiling_checks": 14981,
+      "last_lambda": 18,
+      "minimum_valuation_gap": 0,
+      "nonzero_valuation_checks": 41890,
+      "prime": 5,
+      "residue_count": 625,
+      "residue_exponent": 4,
+      "terms_checked_through": 70,
+      "zero_terms_skipped": 2485
+    },
+    {
+      "exact_depth_visibility_cap_checks": 71,
+      "half_depth_ceiling_checks": 14981,
+      "last_lambda": 11,
+      "minimum_valuation_gap": 0,
+      "nonzero_valuation_checks": 21868,
+      "prime": 7,
+      "residue_count": 343,
+      "residue_exponent": 3,
+      "terms_checked_through": 70,
+      "zero_terms_skipped": 2485
+    },
+    {
+      "exact_depth_visibility_cap_checks": 61,
+      "half_depth_ceiling_checks": 11041,
+      "last_lambda": 5,
+      "minimum_valuation_gap": 0,
+      "nonzero_valuation_checks": 79361,
+      "prime": 11,
+      "residue_count": 1331,
+      "residue_exponent": 3,
+      "terms_checked_through": 60,
+      "zero_terms_skipped": 1830
+    },
+    {
+      "exact_depth_visibility_cap_checks": 61,
+      "half_depth_ceiling_checks": 11041,
+      "last_lambda": 5,
+      "minimum_valuation_gap": 0,
+      "nonzero_valuation_checks": 132187,
+      "prime": 13,
+      "residue_count": 2197,
+      "residue_exponent": 3,
+      "terms_checked_through": 60,
+      "zero_terms_skipped": 1830
+    }
+  ],
+  "visibility_threshold": {
+    "checks": 501,
+    "first_visible_term_formula": "k=n+1",
+    "n_checked_through": 500
+  }
+}

@@ -1,0 +1,1128 @@
+{
+  "actual_step_two_telescopers": [
+    {
+      "A_degree": 44,
+      "e": 2,
+      "endpoint_recurrence_checks": {
+        "-1": 0,
+        "1": 0
+      },
+      "j": 1,
+      "nu": 0,
+      "p": 101,
+      "polynomial_identity_verified": true,
+      "r": 46,
+      "recurrence_coefficients_c0_to_c4_mod_p": [
+        67,
+        100,
+        13,
+        5,
+        1
+      ],
+      "recurrence_nonzero": true,
+      "s": 1,
+      "step": "s -> s+2 (equivalently m -> m-1 at fixed p,j)"
+    },
+    {
+      "A_degree": 44,
+      "e": 1,
+      "endpoint_recurrence_checks": {
+        "-1": 0,
+        "1": 0
+      },
+      "j": 1,
+      "nu": 1,
+      "p": 101,
+      "polynomial_identity_verified": true,
+      "r": 46,
+      "recurrence_coefficients_c0_to_c4_mod_p": [
+        8,
+        19,
+        71,
+        66,
+        1
+      ],
+      "recurrence_nonzero": true,
+      "s": 1,
+      "step": "s -> s+2 (equivalently m -> m-1 at fixed p,j)"
+    },
+    {
+      "A_degree": 44,
+      "e": 2,
+      "endpoint_recurrence_checks": {
+        "-1": 0,
+        "1": 0
+      },
+      "j": 0,
+      "nu": 0,
+      "p": 103,
+      "polynomial_identity_verified": true,
+      "r": 47,
+      "recurrence_coefficients_c0_to_c4_mod_p": [
+        99,
+        31,
+        32,
+        65,
+        1
+      ],
+      "recurrence_nonzero": true,
+      "s": 1,
+      "step": "s -> s+2 (equivalently m -> m-1 at fixed p,j)"
+    },
+    {
+      "A_degree": 44,
+      "e": 1,
+      "endpoint_recurrence_checks": {
+        "-1": 0,
+        "1": 0
+      },
+      "j": 0,
+      "nu": 1,
+      "p": 103,
+      "polynomial_identity_verified": true,
+      "r": 47,
+      "recurrence_coefficients_c0_to_c4_mod_p": [
+        1,
+        39,
+        60,
+        70,
+        1
+      ],
+      "recurrence_nonzero": true,
+      "s": 1,
+      "step": "s -> s+2 (equivalently m -> m-1 at fixed p,j)"
+    },
+    {
+      "A_degree": 44,
+      "e": 6,
+      "endpoint_recurrence_checks": {
+        "-1": 0,
+        "1": 0
+      },
+      "j": 0,
+      "nu": 0,
+      "p": 107,
+      "polynomial_identity_verified": true,
+      "r": 43,
+      "recurrence_coefficients_c0_to_c4_mod_p": [
+        18,
+        6,
+        2,
+        92,
+        1
+      ],
+      "recurrence_nonzero": true,
+      "s": 3,
+      "step": "s -> s+2 (equivalently m -> m-1 at fixed p,j)"
+    },
+    {
+      "A_degree": 44,
+      "e": 5,
+      "endpoint_recurrence_checks": {
+        "-1": 0,
+        "1": 0
+      },
+      "j": 0,
+      "nu": 1,
+      "p": 107,
+      "polynomial_identity_verified": true,
+      "r": 43,
+      "recurrence_coefficients_c0_to_c4_mod_p": [
+        55,
+        30,
+        27,
+        29,
+        1
+      ],
+      "recurrence_nonzero": true,
+      "s": 3,
+      "step": "s -> s+2 (equivalently m -> m-1 at fixed p,j)"
+    }
+  ],
+  "capacity": {
+    "booked_lower_bound_delta": "0",
+    "cell_formula": "C_j=1/[3(3j+1)(2j+1)] per 6m",
+    "first_cells": [
+      {
+        "already_booked_Item149_overlap": false,
+        "decimal_per_6m": "0.3333333333333333333333333333333333333333333333333333333333333333333333",
+        "exact_per_6m": "1/3",
+        "j": 0
+      },
+      {
+        "already_booked_Item149_overlap": true,
+        "decimal_per_6m": "0.02777777777777777777777777777777777777777777777777777777777777777777778",
+        "exact_per_6m": "1/36",
+        "j": 1
+      },
+      {
+        "already_booked_Item149_overlap": true,
+        "decimal_per_6m": "0.009523809523809523809523809523809523809523809523809523809523809523809524",
+        "exact_per_6m": "1/105",
+        "j": 2
+      },
+      {
+        "already_booked_Item149_overlap": true,
+        "decimal_per_6m": "0.004761904761904761904761904761904761904761904761904761904761904761904762",
+        "exact_per_6m": "1/210",
+        "j": 3
+      },
+      {
+        "already_booked_Item149_overlap": true,
+        "decimal_per_6m": "0.002849002849002849002849002849002849002849002849002849002849002849002849",
+        "exact_per_6m": "1/351",
+        "j": 4
+      },
+      {
+        "already_booked_Item149_overlap": true,
+        "decimal_per_6m": "0.001893939393939393939393939393939393939393939393939393939393939393939394",
+        "exact_per_6m": "1/528",
+        "j": 5
+      },
+      {
+        "already_booked_Item149_overlap": true,
+        "decimal_per_6m": "0.001349527665317139001349527665317139001349527665317139001349527665317139",
+        "exact_per_6m": "1/741",
+        "j": 6
+      },
+      {
+        "already_booked_Item149_overlap": true,
+        "decimal_per_6m": "0.001010101010101010101010101010101010101010101010101010101010101010101010",
+        "exact_per_6m": "1/990",
+        "j": 7
+      }
+    ],
+    "frozen_deficit_delta": "0",
+    "global_total_content_ceiling_delta": "0",
+    "j0_unbooked_cell_ceiling": "0.3333333333333333333333333333333333333333333333333333333333333333333333",
+    "j_ge_1_Item149_overlap_ceiling": "0.05617458466646094785181424709617109565408956401999465238187464972041967",
+    "proved_ceiling_delta": "0",
+    "tail_bound": "sum_{j>=J} C_j <= 1/[18(J-1)] for J>=2",
+    "terminal_r_band": "r<24 has O(log m) total prime log-mass at each m because p divides one of 6m-r, 0<=r<24",
+    "terminal_r_normalized_capacity": "0",
+    "whole_ordinary_F_support_first_Witt_radical_ceiling": "0.389507917999794281185147580429504428987422897353327985715207983053753"
+  },
+  "cell_formula_diagnostic": {
+    "j0_explicit_formula_rows_verified": 650,
+    "j0_rows_checked": 650,
+    "kappa_zeros": 13,
+    "range": "1<=m<=60, all Item424 ordinary rank-zero incidences with p^2>4m+1",
+    "row_stream_sha256": "c78c692abb6d3df023fa6c49b41e434325d295ee7c123b6c14af7c8dea2432fb",
+    "rows_checked": 749,
+    "selected_rows": [
+      {
+        "H0_coefficients_mod_p": [
+          0,
+          6,
+          5,
+          5,
+          6
+        ],
+        "H1_coefficients_mod_p": [
+          0,
+          3,
+          8,
+          3,
+          3
+        ],
+        "endpoint_coordinates_R_L_E_mod_p": [
+          [
+            0,
+            10,
+            6
+          ],
+          [
+            4,
+            8,
+            6
+          ]
+        ],
+        "j": 0,
+        "j_zero_explicit_formula_verified": true,
+        "kappa_from_Item424": 4,
+        "kappa_from_cell_formula": 4,
+        "m": 2,
+        "p": 11,
+        "s": 1
+      },
+      {
+        "H0_coefficients_mod_p": [
+          0,
+          5,
+          1,
+          1,
+          5
+        ],
+        "H1_coefficients_mod_p": [
+          0,
+          14,
+          3,
+          6,
+          15
+        ],
+        "endpoint_coordinates_R_L_E_mod_p": [
+          [
+            0,
+            10,
+            5
+          ],
+          [
+            12,
+            15,
+            16
+          ]
+        ],
+        "j": 0,
+        "j_zero_explicit_formula_verified": true,
+        "kappa_from_Item424": 16,
+        "kappa_from_cell_formula": 16,
+        "m": 3,
+        "p": 17,
+        "s": 2
+      },
+      {
+        "H0_coefficients_mod_p": [
+          0,
+          3,
+          15,
+          17,
+          7
+        ],
+        "H1_coefficients_mod_p": [
+          0,
+          11,
+          3,
+          3,
+          0
+        ],
+        "endpoint_coordinates_R_L_E_mod_p": [
+          [
+            9,
+            0,
+            6
+          ],
+          [
+            0,
+            15,
+            15
+          ]
+        ],
+        "j": 0,
+        "j_zero_explicit_formula_verified": true,
+        "kappa_from_Item424": 2,
+        "kappa_from_cell_formula": 2,
+        "m": 4,
+        "p": 19,
+        "s": 1
+      },
+      {
+        "H0_coefficients_mod_p": [
+          0,
+          22,
+          15,
+          15,
+          22
+        ],
+        "H1_coefficients_mod_p": [
+          0,
+          7,
+          1,
+          15,
+          11
+        ],
+        "endpoint_coordinates_R_L_E_mod_p": [
+          [
+            0,
+            9,
+            22
+          ],
+          [
+            8,
+            16,
+            16
+          ]
+        ],
+        "j": 0,
+        "j_zero_explicit_formula_verified": true,
+        "kappa_from_Item424": 20,
+        "kappa_from_cell_formula": 20,
+        "m": 4,
+        "p": 23,
+        "s": 3
+      },
+      {
+        "H0_coefficients_mod_p": [
+          0,
+          14,
+          13,
+          16,
+          9
+        ],
+        "H1_coefficients_mod_p": [
+          0,
+          17,
+          17,
+          6,
+          16
+        ],
+        "endpoint_coordinates_R_L_E_mod_p": [
+          [
+            5,
+            15,
+            13
+          ],
+          [
+            20,
+            13,
+            11
+          ]
+        ],
+        "j": 0,
+        "j_zero_explicit_formula_verified": true,
+        "kappa_from_Item424": 18,
+        "kappa_from_cell_formula": 18,
+        "m": 5,
+        "p": 23,
+        "s": 1
+      },
+      {
+        "H0_coefficients_mod_p": [
+          0,
+          19,
+          9,
+          9,
+          19
+        ],
+        "H1_coefficients_mod_p": [
+          0,
+          5,
+          1,
+          11,
+          23
+        ],
+        "endpoint_coordinates_R_L_E_mod_p": [
+          [
+            0,
+            5,
+            19
+          ],
+          [
+            12,
+            9,
+            19
+          ]
+        ],
+        "j": 0,
+        "j_zero_explicit_formula_verified": true,
+        "kappa_from_Item424": 27,
+        "kappa_from_cell_formula": 27,
+        "m": 5,
+        "p": 29,
+        "s": 4
+      },
+      {
+        "H0_coefficients_mod_p": [
+          0,
+          27,
+          7,
+          3,
+          10
+        ],
+        "H1_coefficients_mod_p": [
+          0,
+          5,
+          19,
+          14,
+          13
+        ],
+        "endpoint_coordinates_R_L_E_mod_p": [
+          [
+            1,
+            7,
+            2
+          ],
+          [
+            23,
+            6,
+            21
+          ]
+        ],
+        "j": 0,
+        "j_zero_explicit_formula_verified": true,
+        "kappa_from_Item424": 19,
+        "kappa_from_cell_formula": 19,
+        "m": 6,
+        "p": 29,
+        "s": 2
+      },
+      {
+        "H0_coefficients_mod_p": [
+          0,
+          19,
+          2,
+          17,
+          10
+        ],
+        "H1_coefficients_mod_p": [
+          0,
+          11,
+          20,
+          11,
+          11
+        ],
+        "endpoint_coordinates_R_L_E_mod_p": [
+          [
+            4,
+            20,
+            22
+          ],
+          [
+            10,
+            20,
+            22
+          ]
+        ],
+        "j": 0,
+        "j_zero_explicit_formula_verified": true,
+        "kappa_from_Item424": 4,
+        "kappa_from_cell_formula": 4,
+        "m": 6,
+        "p": 31,
+        "s": 3
+      },
+      {
+        "H0_coefficients_mod_p": [
+          0,
+          28,
+          27,
+          25,
+          0
+        ],
+        "H1_coefficients_mod_p": [
+          0,
+          22,
+          10,
+          26,
+          15
+        ],
+        "endpoint_coordinates_R_L_E_mod_p": [
+          [
+            16,
+            14,
+            13
+          ],
+          [
+            27,
+            18,
+            11
+          ]
+        ],
+        "j": 0,
+        "j_zero_explicit_formula_verified": true,
+        "kappa_from_Item424": 3,
+        "kappa_from_cell_formula": 3,
+        "m": 7,
+        "p": 31,
+        "s": 1
+      },
+      {
+        "H0_coefficients_mod_p": [
+          0,
+          7,
+          6,
+          30,
+          2
+        ],
+        "H1_coefficients_mod_p": [
+          0,
+          14,
+          25,
+          5,
+          12
+        ],
+        "endpoint_coordinates_R_L_E_mod_p": [
+          [
+            31,
+            28,
+            35
+          ],
+          [
+            5,
+            2,
+            3
+          ]
+        ],
+        "j": 0,
+        "j_zero_explicit_formula_verified": true,
+        "kappa_from_Item424": 33,
+        "kappa_from_cell_formula": 33,
+        "m": 7,
+        "p": 37,
+        "s": 4
+      },
+      {
+        "H0_coefficients_mod_p": [
+          0,
+          13,
+          38,
+          38,
+          13
+        ],
+        "H1_coefficients_mod_p": [
+          0,
+          25,
+          35,
+          19,
+          30
+        ],
+        "endpoint_coordinates_R_L_E_mod_p": [
+          [
+            0,
+            20,
+            13
+          ],
+          [
+            4,
+            8,
+            40
+          ]
+        ],
+        "j": 0,
+        "j_zero_explicit_formula_verified": true,
+        "kappa_from_Item424": 2,
+        "kappa_from_cell_formula": 2,
+        "m": 7,
+        "p": 41,
+        "s": 6
+      },
+      {
+        "H0_coefficients_mod_p": [
+          0,
+          32,
+          0,
+          36,
+          34
+        ],
+        "H1_coefficients_mod_p": [
+          0,
+          10,
+          19,
+          12,
+          12
+        ],
+        "endpoint_coordinates_R_L_E_mod_p": [
+          [
+            28,
+            5,
+            14
+          ],
+          [
+            11,
+            26,
+            26
+          ]
+        ],
+        "j": 0,
+        "j_zero_explicit_formula_verified": true,
+        "kappa_from_Item424": 7,
+        "kappa_from_cell_formula": 7,
+        "m": 8,
+        "p": 37,
+        "s": 2
+      },
+      {
+        "H0_coefficients_mod_p": [
+          0,
+          14,
+          10,
+          25,
+          19
+        ],
+        "H1_coefficients_mod_p": [
+          0,
+          29,
+          37,
+          0,
+          18
+        ],
+        "endpoint_coordinates_R_L_E_mod_p": [
+          [
+            8,
+            10,
+            24
+          ],
+          [
+            21,
+            38,
+            5
+          ]
+        ],
+        "j": 0,
+        "j_zero_explicit_formula_verified": true,
+        "kappa_from_Item424": 0,
+        "kappa_from_cell_formula": 0,
+        "m": 9,
+        "p": 47,
+        "s": 5
+      },
+      {
+        "H0_coefficients_mod_p": [
+          0,
+          8,
+          3,
+          3,
+          8
+        ],
+        "H1_coefficients_mod_p": [
+          0,
+          7,
+          10,
+          7,
+          7
+        ],
+        "endpoint_coordinates_R_L_E_mod_p": [
+          [
+            4,
+            5,
+            6
+          ],
+          [
+            9,
+            3,
+            3
+          ]
+        ],
+        "j": 2,
+        "j_zero_explicit_formula_verified": null,
+        "kappa_from_Item424": 0,
+        "kappa_from_cell_formula": 0,
+        "m": 13,
+        "p": 11,
+        "s": 1
+      },
+      {
+        "H0_coefficients_mod_p": [
+          0,
+          36,
+          14,
+          48,
+          17
+        ],
+        "H1_coefficients_mod_p": [
+          0,
+          36,
+          4,
+          50,
+          47
+        ],
+        "endpoint_coordinates_R_L_E_mod_p": [
+          [
+            22,
+            50,
+            13
+          ],
+          [
+            19,
+            21,
+            34
+          ]
+        ],
+        "j": 0,
+        "j_zero_explicit_formula_verified": true,
+        "kappa_from_Item424": 0,
+        "kappa_from_cell_formula": 0,
+        "m": 13,
+        "p": 61,
+        "s": 4
+      },
+      {
+        "H0_coefficients_mod_p": [
+          0,
+          29,
+          9,
+          20,
+          26
+        ],
+        "H1_coefficients_mod_p": [
+          0,
+          14,
+          21,
+          24,
+          1
+        ],
+        "endpoint_coordinates_R_L_E_mod_p": [
+          [
+            7,
+            20,
+            4
+          ],
+          [
+            21,
+            29,
+            10
+          ]
+        ],
+        "j": 1,
+        "j_zero_explicit_formula_verified": null,
+        "kappa_from_Item424": 0,
+        "kappa_from_cell_formula": 0,
+        "m": 21,
+        "p": 31,
+        "s": 4
+      },
+      {
+        "H0_coefficients_mod_p": [
+          0,
+          10,
+          1,
+          1,
+          10
+        ],
+        "H1_coefficients_mod_p": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "endpoint_coordinates_R_L_E_mod_p": [
+          [
+            7,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "j": 4,
+        "j_zero_explicit_formula_verified": null,
+        "kappa_from_Item424": 0,
+        "kappa_from_cell_formula": 0,
+        "m": 24,
+        "p": 11,
+        "s": 1
+      },
+      {
+        "H0_coefficients_mod_p": [
+          0,
+          2,
+          2,
+          5,
+          2
+        ],
+        "H1_coefficients_mod_p": [
+          0,
+          11,
+          11,
+          7,
+          12
+        ],
+        "endpoint_coordinates_R_L_E_mod_p": [
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            8,
+            0,
+            0
+          ]
+        ],
+        "j": 5,
+        "j_zero_explicit_formula_verified": null,
+        "kappa_from_Item424": 0,
+        "kappa_from_cell_formula": 0,
+        "m": 35,
+        "p": 13,
+        "s": 1
+      },
+      {
+        "H0_coefficients_mod_p": [
+          0,
+          19,
+          44,
+          21,
+          34
+        ],
+        "H1_coefficients_mod_p": [
+          0,
+          50,
+          22,
+          27,
+          57
+        ],
+        "endpoint_coordinates_R_L_E_mod_p": [
+          [
+            1,
+            38,
+            43
+          ],
+          [
+            13,
+            6,
+            7
+          ]
+        ],
+        "j": 1,
+        "j_zero_explicit_formula_verified": null,
+        "kappa_from_Item424": 0,
+        "kappa_from_cell_formula": 0,
+        "m": 41,
+        "p": 61,
+        "s": 9
+      },
+      {
+        "H0_coefficients_mod_p": [
+          0,
+          195,
+          22,
+          20,
+          150
+        ],
+        "H1_coefficients_mod_p": [
+          0,
+          181,
+          228,
+          123,
+          191
+        ],
+        "endpoint_coordinates_R_L_E_mod_p": [
+          [
+            120,
+            121,
+            52
+          ],
+          [
+            86,
+            19,
+            14
+          ]
+        ],
+        "j": 0,
+        "j_zero_explicit_formula_verified": true,
+        "kappa_from_Item424": 0,
+        "kappa_from_cell_formula": 0,
+        "m": 41,
+        "p": 239,
+        "s": 37
+      },
+      {
+        "H0_coefficients_mod_p": [
+          0,
+          14,
+          15,
+          13,
+          18
+        ],
+        "H1_coefficients_mod_p": [
+          0,
+          6,
+          27,
+          22,
+          22
+        ],
+        "endpoint_coordinates_R_L_E_mod_p": [
+          [
+            13,
+            25,
+            14
+          ],
+          [
+            15,
+            5,
+            15
+          ]
+        ],
+        "j": 3,
+        "j_zero_explicit_formula_verified": null,
+        "kappa_from_Item424": 0,
+        "kappa_from_cell_formula": 0,
+        "m": 53,
+        "p": 31,
+        "s": 2
+      },
+      {
+        "H0_coefficients_mod_p": [
+          0,
+          15,
+          14,
+          14,
+          15
+        ],
+        "H1_coefficients_mod_p": [
+          0,
+          1,
+          11,
+          16,
+          14
+        ],
+        "endpoint_coordinates_R_L_E_mod_p": [
+          [
+            8,
+            0,
+            0
+          ],
+          [
+            7,
+            0,
+            0
+          ]
+        ],
+        "j": 6,
+        "j_zero_explicit_formula_verified": null,
+        "kappa_from_Item424": 0,
+        "kappa_from_cell_formula": 0,
+        "m": 54,
+        "p": 17,
+        "s": 2
+      },
+      {
+        "H0_coefficients_mod_p": [
+          0,
+          124,
+          92,
+          130,
+          21
+        ],
+        "H1_coefficients_mod_p": [
+          0,
+          183,
+          181,
+          27,
+          88
+        ],
+        "endpoint_coordinates_R_L_E_mod_p": [
+          [
+            104,
+            209,
+            205
+          ],
+          [
+            152,
+            61,
+            172
+          ]
+        ],
+        "j": 0,
+        "j_zero_explicit_formula_verified": true,
+        "kappa_from_Item424": 0,
+        "kappa_from_cell_formula": 0,
+        "m": 56,
+        "p": 227,
+        "s": 1
+      },
+      {
+        "H0_coefficients_mod_p": [
+          0,
+          17,
+          82,
+          3,
+          145
+        ],
+        "H1_coefficients_mod_p": [
+          0,
+          126,
+          54,
+          190,
+          112
+        ],
+        "endpoint_coordinates_R_L_E_mod_p": [
+          [
+            80,
+            89,
+            162
+          ],
+          [
+            207,
+            161,
+            187
+          ]
+        ],
+        "j": 0,
+        "j_zero_explicit_formula_verified": true,
+        "kappa_from_Item424": 0,
+        "kappa_from_cell_formula": 0,
+        "m": 57,
+        "p": 241,
+        "s": 6
+      },
+      {
+        "H0_coefficients_mod_p": [
+          0,
+          41,
+          209,
+          236,
+          1
+        ],
+        "H1_coefficients_mod_p": [
+          0,
+          274,
+          71,
+          15,
+          45
+        ],
+        "endpoint_coordinates_R_L_E_mod_p": [
+          [
+            201,
+            235,
+            173
+          ],
+          [
+            14,
+            241,
+            270
+          ]
+        ],
+        "j": 0,
+        "j_zero_explicit_formula_verified": true,
+        "kappa_from_Item424": 0,
+        "kappa_from_cell_formula": 0,
+        "m": 57,
+        "p": 277,
+        "s": 24
+      }
+    ],
+    "warning": "finite exact diagnostics only; no density inference"
+  },
+  "dependency_sha256": {
+    "results/item418_normalized_large_carrier_ledger_delta.json": "853301f7014dfde6c5edb0cdc8525ef81fcb3c921d8a777155932f8af651d869",
+    "sources/item200_common_log_gcd_report.md": "06003e9fd03f74b2406330a81d49493fa2f4390c82f359be39bf328184605c68",
+    "sources/mixed_cubic_small_prime_rank_one_cartier_mass.md": "593e1f69809c44245bd2d79bf1a503f96d1972a39ba17ea43ba7cd9f4b0e124b",
+    "work/item424_small_prime_witt_escape_certificate.json": "8511bdb52f40a001ecbcf6f3720b473c9d063311a66c8b7ae9ca72808ec879fc",
+    "work/item424_small_prime_witt_escape_certificate.py": "93bb653f6a3a518179a6bc3d66f3c0b8431512d60a89bd1a26c55973e96b5053",
+    "work/item424_small_prime_witt_escape_report.md": "3a48bafbdd8f1971d5734dfaf7f1553b0d10939d3a93d9feef0cc19f1babe73f"
+  },
+  "generator": "item426_witt_cell_recurrence_certificate.py",
+  "generator_sha256": "f56d80c8530cf04383eb38a28d35373a3be99104a4368d4cae5a086df4cd8856",
+  "item": 426,
+  "schema": "item426-witt-cell-recurrence-v1",
+  "status": "WORK_ONLY_UNAUDITED_EXACT_CELL_RECURRENCE_CAPACITY_LOCALIZATION_NO_BOOKING",
+  "strict_claims": {
+    "OPEN": [
+      "weighted zero-density or positive density for kappa",
+      "nonconcentration for the order-four finite-field periods",
+      "higher Witt depth after kappa vanishes",
+      "Route 1 and irrationality of e+pi"
+    ],
+    "PROVED": [
+      "exact cellwise kappa formula through p-section plus Hermite endpoint recurrence",
+      "explicit j=0 determinant formula",
+      "uniform nonzero step-two telescoper outside r<24",
+      "zero-rate terminal-r band",
+      "exact cell capacity C_j and tail bound",
+      "zero ledger delta"
+    ]
+  },
+  "theorem_pinned_to_report": {
+    "boundary_capacity": "the omitted r<24 band has zero linear logarithmic capacity",
+    "cell_gate": "kappa=det((R_j(H_0),L_j(H_0)),(R_j(H_1),L_j(H_1))) with H_nu obtained by the exact p-section of T_nu D_j",
+    "density_status": "the recurrence alone does not bound isolated zeros, so no weighted zero-density or smaller global ceiling is proved",
+    "j0_formula": "R=(h2-h3)/4 and L=(-h1+h3-2h4)/2",
+    "recurrence": "away from r<24, each of the four endpoint periods has a nonzero order-at-most-four recurrence in the actual step s->s+2"
+  },
+  "witness_sha256": "b89c1454dd133cd0127c6b3a6b08b41ed1d295e0e786849ddeb6f941b9454ff1"
+}

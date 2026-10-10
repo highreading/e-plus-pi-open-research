@@ -1,0 +1,34 @@
+{
+  "schema": "item272-root-audit-v1",
+  "date": "2026-08-31",
+  "scope": "Root replay, package-integrity, dependency, normalization, and strict-label audit of Item 272",
+  "checks": {
+    "canonical_replay_byte_identical": true,
+    "canonical_replay_sha256": "462dad0634a98f70ebcdc64d18bb5f3162b030cd4e6d380b4e68cab4a77c710b",
+    "hash_ledger_entries_checked": 6,
+    "hash_ledger_mismatches": 0,
+    "frozen_dependencies_checked": 6,
+    "frozen_dependency_mismatches": 0,
+    "json_files_parsed": 4,
+    "canonical_coordinate_equalities": 84,
+    "scalar_ratio_equalities": 96,
+    "slope_block_equalities": 27,
+    "rank_matrices": 24,
+    "rank_matrix_shape": "27 x 16",
+    "rank_matrix_full_rank": 16,
+    "rank_denominators_units_at_both_primes": true,
+    "report_control_characters": 0,
+    "report_display_delimiters": "36/36",
+    "report_inline_delimiters": "52/52",
+    "capacity_normalization": "2/35 per M = 1/105 per 6M",
+    "new_route1_booking": 0
+  },
+  "classification": {
+    "rank_seven_partial_translation_module": "PROVED",
+    "degree_at_most_seven_rank_one_exclusion": "PROVED SCOPED NO-GO",
+    "complete_hard_block_update": "OPEN",
+    "lisse_crystalline_and_density_theorems": "OPEN",
+    "bounded_replays": "EXACT FINITE ONLY"
+  },
+  "verdict": "PASS. Item 272 is internally reproducible and correctly books zero. The scoped rank-one exclusion does not exclude higher-rank or higher-degree closure of W=(f0,f1,U0,U1)."
+}

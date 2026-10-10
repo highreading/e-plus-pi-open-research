@@ -1,0 +1,103 @@
+{
+  "status": "AUTHOR exact proof-interface receipt; not independent audit",
+  "theorem": "WEIGHTED_REGULAR_DYADIC_SUBFAMILY.md",
+  "recurrence_pair_checks": 39,
+  "normalized_difference_checks": 416,
+  "Abar_first_period": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+  ],
+  "Abar_period_initial_state_certificate": [
+    0,
+    1,
+    0,
+    0
+  ],
+  "period15_follows_from_four_term_recurrence": true,
+  "all_degree_regular_subfamily": "n=4^j+1, j>=1",
+  "basis_units": [
+    {
+      "n": 5,
+      "normalized_Gram_rank_mod2": 5,
+      "derived_from_exact_series_not_degree_extrapolation": true
+    },
+    {
+      "n": 13,
+      "normalized_Gram_rank_mod2": 13,
+      "derived_from_exact_series_not_degree_extrapolation": true
+    },
+    {
+      "n": 17,
+      "normalized_Gram_rank_mod2": 17,
+      "derived_from_exact_series_not_degree_extrapolation": true
+    },
+    {
+      "n": 65,
+      "normalized_Gram_rank_mod2": 65,
+      "derived_from_exact_series_not_degree_extrapolation": true
+    },
+    {
+      "n": 257,
+      "normalized_Gram_rank_mod2": 257,
+      "derived_from_exact_series_not_degree_extrapolation": true
+    }
+  ],
+  "new_exact_moment_states": [
+    {
+      "n": 5,
+      "signed_normalized_Hankel_v2": 4,
+      "proved_monic_basis_row_scale_depth": 4,
+      "normalized_Gram_unit_at_this_state": true,
+      "all_monic_normalized_coefficients_two_integral": true,
+      "normal_monic_constant_v2": 8,
+      "endpoint_q_minus_one_v2": 13,
+      "sigma": 3,
+      "eta_v2": 5,
+      "actual_center_q2_from_PROVED_complete_pair_theorem": 7,
+      "bounded_state_not_an_eta_formula": true
+    },
+    {
+      "n": 13,
+      "signed_normalized_Hankel_v2": 92,
+      "proved_monic_basis_row_scale_depth": 92,
+      "normalized_Gram_unit_at_this_state": true,
+      "all_monic_normalized_coefficients_two_integral": true,
+      "normal_monic_constant_v2": 20,
+      "endpoint_q_minus_one_v2": 33,
+      "sigma": 10,
+      "eta_v2": 10,
+      "actual_center_q2_from_PROVED_complete_pair_theorem": 13,
+      "bounded_state_not_an_eta_formula": true
+    },
+    {
+      "n": 17,
+      "signed_normalized_Hankel_v2": 176,
+      "proved_monic_basis_row_scale_depth": 176,
+      "normalized_Gram_unit_at_this_state": true,
+      "all_monic_normalized_coefficients_two_integral": true,
+      "normal_monic_constant_v2": 32,
+      "endpoint_q_minus_one_v2": 49,
+      "sigma": 15,
+      "eta_v2": 17,
+      "actual_center_q2_from_PROVED_complete_pair_theorem": 19,
+      "bounded_state_not_an_eta_formula": true
+    }
+  ],
+  "full_pair_gcd_is_in_symbolic_theorem": true,
+  "all_degree_eta_valuation": "UNPROVED; separate next target",
+  "general_all_n_integrality": "UNPROVED",
+  "no_odd_content_or_irrationality_conclusion": true
+}

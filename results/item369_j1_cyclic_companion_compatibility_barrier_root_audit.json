@@ -1,0 +1,59 @@
+{
+  "item": 369,
+  "schema": "item369-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_MINIMAL_CYCLIC_COMPANION_AND_SCOPED_COMPATIBILITY_BARRIERS",
+  "scope": "independent root audit of the exact rank-two companion moment, cyclic/Krylov recovery, universal rank minimality, unframed conjugacy obstruction, literal Kummer support, and zero-booking conclusion",
+  "checks": {
+    "work_hash_list_entries": 6,
+    "work_hash_list_failures": 0,
+    "frozen_dependencies_checked": 25,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "independent_symbolic_companion": true,
+    "independent_conjugacy_normalizations": 3304,
+    "independent_declared_companion_rows": 4,
+    "independent_declared_rows_digest": "c6201a5760e468b8671cc3942e838b0b4e0c64df2b970476934144abd20dacbf",
+    "independent_actual_open_zero_witness": true,
+    "collision_or_density_inference_from_controls": false,
+    "canonical_scope_repair": "restored the missing TeX backslash before qquad in the characteristic-polynomial display"
+  },
+  "mathematical_audit": {
+    "complete_moment": "The Hasse and transverse orthogonality identities from Item366 give the two top entries. Since p divides q=p^2, summing the constant lower-left entry -1 over q-1 nonzero field elements gives 1, producing C=[[-a,-Q0],[1,0]] exactly.",
+    "cyclicity": "The Krylov matrix [e1,C e1] has determinant one on every row, including the joint-zero locus. Cayley-Hamilton is C^2+aC+Q0 I=0.",
+    "coordinate_recovery": "The characteristic polynomial is X^2+aX+Q0, so -trace and determinant recover the two already forced coordinates with Jacobian one. The determinant is a repackaging of Q0, not an additional condition.",
+    "minimality": "A rank-one characteristic polynomial supplies only one universal coefficient; two algebraically independent coordinates cannot both be recovered rationally from it. Equivalently, one bounded-degree scalar equation cannot have radical (a,Q0). Rank two attains the universal lower bound.",
+    "unframed_obstruction": "For uv nonzero, diagonal scaling conjugates diag(-a,N(u),N(v)) to diag(-a,N(1),N(1)). Hence no conjugacy-functorial unframed construction can recover u+v=-Q0 from Item366's matrix on that stratum.",
+    "actual_relevance": "At (h,s,p)=(10,11,109), u=98 and v=11 are both nonzero but sum to zero, so the transverse-zero event genuinely occurs in the generic Jordan stratum.",
+    "compatibility_scope": "The companion is assembled additively after selecting the two desired moments. It is not a prime-independent local system, multiplicative Frobenius action, or compatible characteristic-zero lift.",
+    "capacity": "Without a horizontal trace-determinant nonconcentration theorem, the full 1/36 ceiling and zero booking remain unchanged."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact all-row rank-two cyclic companion moment",
+      "trace-determinant recovery and universal rank-two minimality",
+      "unframed conjugacy-functorial no-go for the rank-five moment",
+      "literal finite-log Kummer bounded-support no-go",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "four declared controls and independent conjugacy checks; no density inference"
+    ],
+    "OPEN": [
+      "a genuine prime-independent bounded-conductor compatible system",
+      "an actual-orbit relation escaping the unframed obstruction",
+      "horizontal trace-determinant or framed nonconcentration",
+      "weighted joint-zero density, Route 1, and e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_log_mass": "M/6+o(M)",
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "new_independent_condition": 0,
+    "new_linear_log_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

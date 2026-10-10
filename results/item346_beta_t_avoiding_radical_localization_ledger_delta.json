@@ -1,0 +1,89 @@
+{
+  "schema": "item346-beta-t-avoiding-radical-localization-ledger-delta-v1",
+  "item": 346,
+  "date": "2026-09-01",
+  "status": "PROVED_XI_FIRST_HIT_MESOSCOPIC_LOCALIZATION_SCOPED_NO_GO",
+  "canonical_files_modified": false,
+  "actual_family": {
+    "source": "Item 316 actual canonical target, Item 340 quotient t, and Item 343 t-avoiding radical split",
+    "target_divisor": "Q divides b after all previously booked denominator factors are removed",
+    "cofactors": "z_j=epsilon(delta_j-w_j delta_(j-1)); exact zero rows are omitted before the lcm",
+    "branch": "Xi_Q only; H_Q and Item 265 squarefull excess are excluded",
+    "actual_Xi_Q": "OPEN"
+  },
+  "exact_carrier": {
+    "M_A": "ceil(log_2(A^2))",
+    "u_j": "abs(z_j)/gcd(abs(z_j),t^M_A) for nonzero z_j",
+    "C_t": "rad(lcm_j u_j)",
+    "identity": "R_perp_Q=gcd(rad(Q),C_t)",
+    "mass": "Xi_Q=log R_perp_Q"
+  },
+  "first_hit_factorization": {
+    "B_j": "gcd(rad(Q),rad(u_j))",
+    "D_j": "the squarefree novelty in B_j after all earlier depths",
+    "identity": "R_perp_Q=product_j D_j and Xi_Q=sum_j log D_j",
+    "overlap": "the D_j are pairwise coprime",
+    "portfolio_bound": "sum_(j in S) log D_j<2 abs(S) log A"
+  },
+  "mesoscopic_localization": {
+    "small_prime_mass": "sum_j log D_j^(<=A)<=theta(A)=O(A)=o(log b)",
+    "large_factor": "D_j^(>A) is one or one prime p_j with A<p_j<A^2",
+    "local_shape": "w_j delta_(j-1)-delta_j=p_j h_j with delta_(j-1)>=2 and 1<=h_j<A",
+    "distinctness": "nontrivial p_j are pairwise distinct",
+    "closer_equivalence": "Xi_Q=o(log b) iff the mean of log D_j^(>A) is o(log A)",
+    "builder_necessity": "Xi_Q>=eta log b forces at least (eta/2+o(1))n active depths"
+  },
+  "formal_resultant_barrier": {
+    "target_coordinate": "A/(Delta_sigma) is Z[d_1,...,d_(m-2),z_m]",
+    "quotient_coordinate": "kappa=kappa_lower-z_m and t=c-kappa_lower+z_m",
+    "primitivity": "c-kappa_lower has integer content one",
+    "top_contraction": "((b,Delta_sigma,z_m):t^infinity) intersect Z=(b)",
+    "raw_union_contraction": "((b,Delta_sigma,product_j z_j):t^infinity) intersect Z=(b)",
+    "scope": "the raw product has exact-zero components and does not perform specialization-first omission"
+  },
+  "proved": [
+    "the exact specialization-first t-away carrier",
+    "the pairwise-coprime first-hit decomposition",
+    "zero rate for p<=A and for every o(n)-depth portfolio",
+    "one distinct mesoscopic prime per surviving active depth",
+    "positive-density necessity for positive-linear Xi_Q",
+    "the localized raw-resultant constant ideal is exactly (b)"
+  ],
+  "scoped_no_go": {
+    "closes": [
+      "small-prime support as positive beta-scale Xi_Q mass",
+      "sublinear-depth Xi_Q portfolios as positive-rate reservoirs",
+      "an unstratified target/cofactor/t-unit resultant as a carrier smaller than b"
+    ],
+    "does_not_close": [
+      "the positive-density mesoscopic first-hit average",
+      "growing specialization-first zero-pattern stratification",
+      "Xi_Q, H_Q, K_Q, or Gamma_Q on the actual family",
+      "the Item 265 squarefull branch, half-bound, beta capacity, Route 1, or e+pi"
+    ]
+  },
+  "strict_labels": {
+    "PROVED": [
+      "carrier, first-hit split, mesoscopic localization, density necessity, and localized constant-ideal theorem"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "small-prime, sublinear-depth, and unstratified-resultant mechanisms"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared coordinate and off-target carrier controls in the deterministic replay"
+    ],
+    "OPEN": [
+      "the mesoscopic first-hit average, Xi_Q, H_Q, squarefull excess, Gamma_Q, half-bound, beta capacity, Route 1, and e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_Xi_Q_maximum": "log Q<=log b",
+    "small_prime_rate": 0,
+    "sublinear_depth_rate": 0,
+    "actual_Xi_Q": "OPEN",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "booking": 0
+  },
+  "recommended_next_smallest_lemma": "prove an average-gcd or distinct-mesoscopic-prime matching bound for the actual first-hit factors D_j^(>A); do not add quotient precision or a bounded cofactor portfolio"
+}

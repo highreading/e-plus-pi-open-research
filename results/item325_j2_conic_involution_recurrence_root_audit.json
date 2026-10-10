@@ -1,0 +1,63 @@
+{
+  "item": 325,
+  "schema": "item325-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_SUMMATION_SPECIFIC_COMPLETION_AND_SCOPED_LINEAR_COMPLEXITY_NO_GO",
+  "scope": "independent root audit of the conic involution, complete moment evaluation, moving-exponent recurrence, and rank-one gauge barrier on the actual ordinary-j2 chart",
+  "checks": {
+    "certificate_sha256": "6ff7d4e393a70cd44b143cae227e7a04452c0c5af2ab7a3a287a2074d6275fde",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "manifest_artifacts_match": true,
+    "frozen_dependencies_checked": 10,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 6,
+    "work_hash_list_match": true,
+    "root_stress_sha256": "e10d5a1f125437dcd3bdfdcae3bebac84a0e10b9edfeac4069eda76581b8c12d",
+    "root_stress_actual_rows": 661,
+    "root_stress_direct_even_moments": 27426,
+    "root_stress_recurrence_states": 3064,
+    "root_stress_fourier_rows": 496,
+    "root_stress_pole_orbits": 52,
+    "root_independent_small_primes": 11,
+    "report_inline_delimiters": "98/98",
+    "report_display_delimiters": "45/45",
+    "report_control_characters": 0,
+    "report_bare_cr": 0
+  },
+  "mathematical_audit": {
+    "actual_coordinates": "q=n-(s-1)=r+2s+2=2(M-p)+1 is odd and satisfies p/3<q<=n on every declared row",
+    "involution": "x maps to 2-x, preserves x(1-x/2), and pairs the punctured moment; restoring x=1 with R_q(1)=-q gives H_(n-q)=epsilon-sum R_q K",
+    "centered_moments": "after x=1+y, Euler expansion has exactly one nonzero positive power-sum index k=n-j, proving the displayed complete moment and binomial convolution",
+    "linear_complexity": "the pointwise punctured function has all p-1 monomial modes, while root counting makes degree q-1 minimal for the orbit polynomial on p-3 active points",
+    "recurrence": "finite-field power sums give T_q=-h_(n-q); the h-ratio gives T_(q+1)=((2q+1)/(q+1))T_q and partial sums give Y_(q+1)=Y_q+T_q with unit diagonal factors",
+    "gauge_barrier": "a constant invariant would solve alpha(x)R(x+1)-R(x)=1. In characteristic zero every pole chain would need endpoints in distinct translation orbits, leaving an impossible polynomial. In characteristic p, a pole off the exceptional orbit repeats at p points; on the exceptional orbit pole orders are constant on the two arcs and the zero at -1/2 forces the longer arc of (p-1)/2 points to have positive order. With no finite poles the same polynomial contradiction applies",
+    "scope_warning": "the completion is summation-specific but supplies neither avoidance of the affine connection target nor weighted zero density; degenerate charts remain separate"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "summation-specific conic completion",
+      "complete centered-moment evaluation and terminating convolution",
+      "full pointwise Fourier support and minimal orbit degree",
+      "initialized rank-two moving-exponent recurrence",
+      "rank-one rational gauge degree barrier",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "canonical replay rows and enlarged root stress rows"
+    ],
+    "OPEN": [
+      "weighted zero density for the actual affine target",
+      "factor localization or nonconcentration in the terminating convolution",
+      "higher-rank coupling to the connection target",
+      "ell-zero and rank-at-most-one chart arithmetic",
+      "any reduction of the 1/105 ceiling"
+    ]
+  },
+  "capacity": {
+    "raw_isolated_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

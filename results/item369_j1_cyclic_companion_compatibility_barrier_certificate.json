@@ -1,0 +1,319 @@
+{
+  "actual_family": "p=4h+6s+3, M=3h+4s+2, n=2h, r=2s+1",
+  "canonical_files_modified": false,
+  "capacity": {
+    "actual_support": "all fixed-j1 selector rows",
+    "booking": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "new_linear_log_rate": 0,
+    "potential_if_joint_nonconcentration_proved": "remove the full 1/36 ceiling",
+    "raw_ceiling_per_6M": "1/36",
+    "raw_log_mass": "M/6+o(M)",
+    "route_1_status": "ACTIVE",
+    "weighted_joint_zero_theorem_proved": false
+  },
+  "classification": {
+    "EXACT_FINITE_ONLY": [
+      "four predeclared controls; no collision scan or density inference"
+    ],
+    "OPEN": [
+      "a genuine prime-independent bounded-conductor compatible system realizing the companion polynomial",
+      "a special relation on the actual tied orbit escaping the universal conjugacy obstruction",
+      "framed or determinant-trace horizontal nonconcentration",
+      "weighted joint-zero density, any fixed-j1 ceiling reduction, Route 1, and every conclusion about e+pi"
+    ],
+    "PROVED": [
+      "exact all-row rank-two cyclic companion moment",
+      "trace and determinant recover the two exact collision-forced coordinates",
+      "rank-two minimality for universal exact characteristic-coordinate recovery",
+      "unframed conjugacy-class no-go for the original rank-five moment",
+      "literal full-order finite-log Kummer bounded-support no-go",
+      "zero booking"
+    ]
+  },
+  "collision_scans": 0,
+  "companion_theorem": {
+    "Krylov_basis_determinant": "det[e1,C*e1]=1",
+    "characteristic_polynomial": "X^2+a*X+Q0",
+    "coordinate_map_Jacobian_determinant": 1,
+    "cyclic_vector": "e1",
+    "determinant": "Q0",
+    "matrix": "[[-a,-Q0],[1,0]]",
+    "rank_minimality": "rank one has only one characteristic coefficient and cannot recover the transcendence-degree-two coordinate ring Z[a,Q0]",
+    "recurrence": "C^2+a*C+Q0*I=0",
+    "trace": "-a"
+  },
+  "date": "2026-09-01",
+  "dependencies": {
+    "manifests/item342_j1_finite_field_fourier_weil_barrier_manifest.json": "85ca4a73d9009acc3dc8d7102325f74156a11bf13e618dc1a88c06fd352b8a54",
+    "manifests/item360_j1_full_gate_transverse_period_manifest.json": "92f88a56162f3803b8699922da921333f5225c41a32d14c87641dd53c3f8b55b",
+    "manifests/item366_j1_joint_frobenius_extension_obstruction_manifest.json": "91106677a853790eb511fc4efc0da8a5b29976107a17adfb2367b40d916a526e",
+    "results/item342_j1_finite_field_fourier_weil_barrier_certificate.json": "4cf10e1d035dcd18a134e5f1b00e54a34ae1b3833a2863b54212da9fcccf49d9",
+    "results/item342_j1_finite_field_fourier_weil_barrier_certificate_replay.json": "4cf10e1d035dcd18a134e5f1b00e54a34ae1b3833a2863b54212da9fcccf49d9",
+    "results/item342_j1_finite_field_fourier_weil_barrier_ledger_delta.json": "f60d0976d860c0860cb2c044ccde0ce53b6ab18d65f4e32ec648ec114d143df2",
+    "results/item342_j1_finite_field_fourier_weil_barrier_root_audit.json": "aa6b260f78ae094b20a1b6b041c75131514b5ded51f016e6950671c472280835",
+    "results/item342_j1_finite_field_fourier_weil_barrier_root_replay.json": "4cf10e1d035dcd18a134e5f1b00e54a34ae1b3833a2863b54212da9fcccf49d9",
+    "results/item360_j1_full_gate_transverse_period_certificate.json": "a3f9e5b8e55b0a36bf7aef18fd1b81010eef0e8b9c8ade05995e2c4a25f9084d",
+    "results/item360_j1_full_gate_transverse_period_certificate_replay.json": "a3f9e5b8e55b0a36bf7aef18fd1b81010eef0e8b9c8ade05995e2c4a25f9084d",
+    "results/item360_j1_full_gate_transverse_period_ledger_delta.json": "20a7676bd6c14bc24d3cd9623e64ef7836afae8ad9bb1536f357fccfd050e11e",
+    "results/item360_j1_full_gate_transverse_period_root_audit.json": "7a23e487b4d70d63f9785339344bdc00ae0e8350bcf1d8b1fcf6228c230e5138",
+    "results/item360_j1_full_gate_transverse_period_root_replay.json": "a3f9e5b8e55b0a36bf7aef18fd1b81010eef0e8b9c8ade05995e2c4a25f9084d",
+    "results/item360_j1_full_gate_transverse_period_self_audit.json": "79677ecf502683a38de56c134a48bba21cf352ca3374e74253c9aa0f8cee95df",
+    "results/item366_j1_joint_frobenius_extension_obstruction_certificate.json": "d6ac566800b010538ebad2b17648a49107f3d3e5ee93cd4b3af377fe851e486c",
+    "results/item366_j1_joint_frobenius_extension_obstruction_certificate_replay.json": "d6ac566800b010538ebad2b17648a49107f3d3e5ee93cd4b3af377fe851e486c",
+    "results/item366_j1_joint_frobenius_extension_obstruction_ledger_delta.json": "d62cf99fc0da6425c383a277b1f86af3ce134f4e11ec36efc446f604c162011d",
+    "results/item366_j1_joint_frobenius_extension_obstruction_root_audit.json": "8d787c37bf513d89cd461a84a77713386bf9c17b9f27d018dd8c3d90c94cbe50",
+    "results/item366_j1_joint_frobenius_extension_obstruction_root_replay.json": "d6ac566800b010538ebad2b17648a49107f3d3e5ee93cd4b3af377fe851e486c",
+    "scripts/item342_j1_finite_field_fourier_weil_barrier_certificate.py": "130cfd5d2ac7c31546ef177c3f751abcc236ca92dc253a59914d487187c1fbac",
+    "scripts/item360_j1_full_gate_transverse_period_certificate.py": "84cabfb296a0892e620f252a1c413648c30664c8667245bd6fe444095bcad7e0",
+    "scripts/item366_j1_joint_frobenius_extension_obstruction_certificate.py": "7157c1a3e1e7c63820d5bf9c29d080c632b6461e9ec9ad803d44c667479c3a3e",
+    "sources/item342_j1_finite_field_fourier_weil_barrier_report.md": "843bb85381c98adf0a5b64801ce099e4c3c9119d5933704d97bbd492f1b8029b",
+    "sources/item360_j1_full_gate_transverse_period_report.md": "4468412fb8631924952dc7f70fc4e75433a7524954b89525de508e55feefc8c4",
+    "sources/item366_j1_joint_frobenius_extension_obstruction_report.md": "50c678cadf4650a68eab772da297021190f06492928ee32bf9ea3c2215b9ea74"
+  },
+  "direct_controls": [
+    {
+      "M": 9,
+      "c_L": 9,
+      "c_T": 9,
+      "characteristic_polynomial": [
+        1,
+        0,
+        9
+      ],
+      "classification": "PREDECLARED EXACT CONTROL; NOT A PRIME SCAN",
+      "companion_moment": {
+        "matrix": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        "nonsquare": 2
+      },
+      "finite_log_roots": {
+        "degree": 12,
+        "distinct_roots_Lp": 10,
+        "distinct_roots_Lp_z2": 19,
+        "gcd_derivative_degree": 2,
+        "proved_lower_bound_Lp_z2": 11
+      },
+      "h": 1,
+      "open_nilpotent_stratum": true,
+      "p": 13,
+      "rank_five_nilpotent_coordinates": {
+        "u": 8,
+        "u_plus_v": 4,
+        "v": 9
+      },
+      "s": 1,
+      "selected_Hasse": 0,
+      "transverse_Q0": 9
+    },
+    {
+      "M": 12,
+      "c_L": 7,
+      "c_T": 2,
+      "characteristic_polynomial": [
+        1,
+        8,
+        14
+      ],
+      "classification": "PREDECLARED EXACT CONTROL; NOT A PRIME SCAN",
+      "companion_moment": {
+        "matrix": [
+          [
+            [
+              9,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        "nonsquare": 3
+      },
+      "finite_log_roots": {
+        "degree": 16,
+        "distinct_roots_Lp": 16,
+        "distinct_roots_Lp_z2": 31,
+        "gcd_derivative_degree": 0,
+        "proved_lower_bound_Lp_z2": 15
+      },
+      "h": 2,
+      "open_nilpotent_stratum": true,
+      "p": 17,
+      "rank_five_nilpotent_coordinates": {
+        "u": 13,
+        "u_plus_v": 3,
+        "v": 7
+      },
+      "s": 1,
+      "selected_Hasse": 8,
+      "transverse_Q0": 14
+    },
+    {
+      "M": 34,
+      "c_L": 42,
+      "c_T": 36,
+      "characteristic_polynomial": [
+        1,
+        0,
+        30
+      ],
+      "classification": "PREDECLARED EXACT CONTROL; NOT A PRIME SCAN",
+      "companion_moment": {
+        "matrix": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              17,
+              0
+            ]
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        "nonsquare": 5
+      },
+      "finite_log_roots": {
+        "degree": 46,
+        "distinct_roots_Lp": 46,
+        "distinct_roots_Lp_z2": 91,
+        "gcd_derivative_degree": 0,
+        "proved_lower_bound_Lp_z2": 45
+      },
+      "h": 8,
+      "open_nilpotent_stratum": true,
+      "p": 47,
+      "rank_five_nilpotent_coordinates": {
+        "u": 22,
+        "u_plus_v": 17,
+        "v": 42
+      },
+      "s": 2,
+      "selected_Hasse": 0,
+      "transverse_Q0": 30
+    },
+    {
+      "M": 76,
+      "c_L": 11,
+      "c_T": 60,
+      "characteristic_polynomial": [
+        1,
+        70,
+        0
+      ],
+      "classification": "PREDECLARED EXACT CONTROL; NOT A PRIME SCAN",
+      "companion_moment": {
+        "matrix": [
+          [
+            [
+              39,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        "nonsquare": 2
+      },
+      "finite_log_roots": {
+        "degree": 108,
+        "distinct_roots_Lp": 106,
+        "distinct_roots_Lp_z2": 211,
+        "gcd_derivative_degree": 2,
+        "proved_lower_bound_Lp_z2": 107
+      },
+      "h": 10,
+      "open_nilpotent_stratum": true,
+      "p": 109,
+      "rank_five_nilpotent_coordinates": {
+        "u": 98,
+        "u_plus_v": 0,
+        "v": 11
+      },
+      "s": 11,
+      "selected_Hasse": 70,
+      "transverse_Q0": 0
+    }
+  ],
+  "finite_field_moment": {
+    "compatible_system_claimed": false,
+    "field": "F_(p^2)",
+    "local_matrix": "[[x^(-n)G(x)^(p-r), 2x^(-T)F_Q(x)-x^(-L)F_Q(x)],[-1,0]]",
+    "lower_left_identity": "sum_(x in F_(p^2)^*) -1 = 1 in F_p",
+    "summed_matrix": "[[-a,-Q0],[1,0]]",
+    "target_aware_framing_used": true,
+    "why_not_yet_compatible": "an additive complete-moment companionization is not a Frobenius representation; no prime-independent local system, multiplicativity, or compatible characteristic-zero lift is constructed"
+  },
+  "item": 369,
+  "literal_bounded_support_no_go": {
+    "conductor_conclusion": "literal full-order Kummer pullback along the finite-log factor has at least p-2 finite ramification points",
+    "finite_log_root_bound": "L_p(z^2) has at least p-2 distinct roots",
+    "full_order_Kummer_ramification": "root multiplicities are one or two, hence nonzero modulo both p-1 and p^2-1 for every actual p>=13",
+    "scope": "does not rule out a different unipotent F-crystal, Artin-Schreier compression, cancellation of apparent singularities, or target-specific compatible system"
+  },
+  "schema": "item369-j1-cyclic-companion-compatibility-barrier-certificate-v1",
+  "status": "PROVED_MINIMAL_CYCLIC_COMPANION_AND_SCOPED_COMPATIBILITY_BARRIERS",
+  "unframed_obstruction": {
+    "actual_orbit_caveat": "this is a universal functorial no-go; a new relation special to the tied orbit is not ruled out",
+    "conclusion": "no invariant depending only on the unframed conjugacy class of the rank-five matrix can recover the transverse linear relation on the open stratum",
+    "conjugator": "diag(1,u,1,v,1)",
+    "counterpair": "(u,v)=(1,-1) has Q0=0 while (1,1) has Q0=-2; the matrices are conjugate in odd characteristic",
+    "normal_form": "diag(-a,N(1),N(1))",
+    "open_stratum": "u*v != 0",
+    "rank_five_coordinates": "u=-2c_T, v=c_L, so u+v=-Q0"
+  }
+}

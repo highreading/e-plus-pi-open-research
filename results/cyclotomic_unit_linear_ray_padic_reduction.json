@@ -1,0 +1,400 @@
+{
+  "all_exact_checks": {
+    "actual_unit_order_state_resets": true,
+    "derangement_periods": true,
+    "edge_recurrence_cross_checks": true,
+    "gcd_separation": true,
+    "large_prime_normalization": true,
+    "universal_root_tree_projection": true,
+    "valuation_formula": true
+  },
+  "all_exact_checks_pass": true,
+  "dependencies": [
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/scripts/algebraic_unit_two_log_n5_ideal_content.py",
+      "sha256": "120ea17e9c27a2b0ebaa48e3e651220bfe59f06bc028b6d764dcd0798570bb80"
+    },
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/scripts/cyclotomic_unit_trace_probe.py",
+      "sha256": "fd29f6e616ddc09ddb11ed842d2a64990406554aff0efb255534a4fe48c67eb1"
+    },
+    {
+      "path": "/content/drive/MyDrive/e_pi_research_20260826/sources/cyclotomic_unit_cone_selected_gcd.md",
+      "sha256": "50410ae9392eb6bfd51391c4d3f79aafeabddf18b04c5a0f83402f78d526d9bb"
+    }
+  ],
+  "derangement_period_records": [
+    {
+      "check": true,
+      "modulus": 2,
+      "proved_period": 2
+    },
+    {
+      "check": true,
+      "modulus": 3,
+      "proved_period": 3
+    },
+    {
+      "check": true,
+      "modulus": 4,
+      "proved_period": 4
+    },
+    {
+      "check": true,
+      "modulus": 5,
+      "proved_period": 5
+    },
+    {
+      "check": true,
+      "modulus": 7,
+      "proved_period": 7
+    },
+    {
+      "check": true,
+      "modulus": 8,
+      "proved_period": 8
+    },
+    {
+      "check": true,
+      "modulus": 9,
+      "proved_period": 9
+    },
+    {
+      "check": true,
+      "modulus": 16,
+      "proved_period": 16
+    },
+    {
+      "check": true,
+      "modulus": 25,
+      "proved_period": 25
+    },
+    {
+      "check": true,
+      "modulus": 27,
+      "proved_period": 27
+    },
+    {
+      "check": true,
+      "modulus": 49,
+      "proved_period": 49
+    },
+    {
+      "check": true,
+      "modulus": 121,
+      "proved_period": 121
+    }
+  ],
+  "description": "Exact all-prime finite-state and unramified p-adic root-tree reduction for gcd(D0_d,C_d(u_7^d)), plus diagnostics through d=1000.",
+  "exact_identities": {
+    "C": "2*lcm(1,...,d)*X",
+    "P_recurrence": "P_0(x)=1, P_d(x)=x^d-d*P_(d-1)(x)",
+    "X": "Tr_K/Q(u_7^d*P_d(eta)*P_d(etabar))",
+    "derangement_period": "A_(d+m)=A_d mod m",
+    "derangement_state": "A_0=1, A_d=1-d*A_(d-1), A_d=(-1)^d*!d",
+    "gcd_separation": "gcd(D0,X) | gcd(D0,C) | 2*lcm(1,...,d)*gcd(D0,X)",
+    "unramified_universal_period": "T_(p,k)=p^k*(p^ord_20(p)-1), for p not dividing 20",
+    "valuation_formula": "v_p gcd(D0,C)=min(max(v_p(!d)-v_p(d!),0), v_p(2)+floor(log_p d)+v_p(X))"
+  },
+  "finite_diagnostics": {
+    "all_gcd_rows_sha256": "a4116ec1ea704670c902cc9ddd8fcdca4630e1102820ac877c93ea9b7be36853",
+    "gcd_D0_C_nontrivial": [
+      {
+        "d": 4,
+        "factorization": {
+          "3": 1
+        },
+        "gcd_D0_C": "3"
+      },
+      {
+        "d": 8,
+        "factorization": {
+          "13": 1
+        },
+        "gcd_D0_C": "13"
+      },
+      {
+        "d": 12,
+        "factorization": {
+          "11": 1
+        },
+        "gcd_D0_C": "11"
+      },
+      {
+        "d": 28,
+        "factorization": {
+          "31": 1
+        },
+        "gcd_D0_C": "31"
+      },
+      {
+        "d": 199,
+        "factorization": {
+          "277": 1
+        },
+        "gcd_D0_C": "277"
+      }
+    ],
+    "gcd_D0_X_nontrivial": [
+      {
+        "d": 8,
+        "factorization": {
+          "13": 1
+        },
+        "gcd_D0_X": "13"
+      },
+      {
+        "d": 28,
+        "factorization": {
+          "31": 1
+        },
+        "gcd_D0_X": "31"
+      },
+      {
+        "d": 199,
+        "factorization": {
+          "277": 1
+        },
+        "gcd_D0_X": "277"
+      }
+    ],
+    "normalized_p_greater_than_d_records": [
+      {
+        "E_d_minus_1_mod_p": 0,
+        "d": 8,
+        "p": 13,
+        "p>d": true,
+        "trace_u7d_Eeta_Eetabar_mod_p": 0
+      },
+      {
+        "E_d_minus_1_mod_p": 0,
+        "d": 28,
+        "p": 31,
+        "p>d": true,
+        "trace_u7d_Eeta_Eetabar_mod_p": 0
+      },
+      {
+        "E_d_minus_1_mod_p": 0,
+        "d": 199,
+        "p": 277,
+        "p>d": true,
+        "trace_u7d_Eeta_Eetabar_mod_p": 0
+      }
+    ],
+    "range": "2<=d<=1000",
+    "selected_records": [
+      {
+        "D0_digits": 1,
+        "X_digits": 2,
+        "d": 2,
+        "gcd_D0_C": "1",
+        "gcd_D0_X": "1",
+        "log_2lcm_upper_bound": "1.3862943611198906",
+        "log_gcd_C_over_gcd_X": "0"
+      },
+      {
+        "D0_digits": 1,
+        "X_digits": 6,
+        "d": 4,
+        "gcd_D0_C": "3",
+        "gcd_D0_X": "1",
+        "log_2lcm_upper_bound": "3.1780538303479458",
+        "log_gcd_C_over_gcd_X": "1.0986122886681098"
+      },
+      {
+        "D0_digits": 4,
+        "X_digits": 15,
+        "d": 8,
+        "gcd_D0_C": "13",
+        "gcd_D0_X": "13",
+        "log_2lcm_upper_bound": "7.4265490723973047",
+        "log_gcd_C_over_gcd_X": "0"
+      },
+      {
+        "D0_digits": 8,
+        "X_digits": 26,
+        "d": 12,
+        "gcd_D0_C": "11",
+        "gcd_D0_X": "1",
+        "log_2lcm_upper_bound": "10.923056633863785",
+        "log_gcd_C_over_gcd_X": "2.3978952727983707"
+      },
+      {
+        "D0_digits": 27,
+        "X_digits": 80,
+        "d": 28,
+        "gcd_D0_C": "31",
+        "gcd_D0_X": "31",
+        "log_2lcm_upper_bound": "25.802349912139285",
+        "log_gcd_C_over_gcd_X": "0"
+      },
+      {
+        "D0_digits": 152,
+        "X_digits": 392,
+        "d": 100,
+        "gcd_D0_C": "1",
+        "gcd_D0_X": "1",
+        "log_2lcm_upper_bound": "94.738458409917342",
+        "log_gcd_C_over_gcd_X": "0"
+      },
+      {
+        "D0_digits": 368,
+        "X_digits": 896,
+        "d": 199,
+        "gcd_D0_C": "277",
+        "gcd_D0_X": "277",
+        "log_2lcm_upper_bound": "206.8390040056147",
+        "log_gcd_C_over_gcd_X": "0"
+      },
+      {
+        "D0_digits": 1130,
+        "X_digits": 2646,
+        "d": 500,
+        "gcd_D0_C": "1",
+        "gcd_D0_X": "1",
+        "log_2lcm_upper_bound": "502.3452638303076",
+        "log_gcd_C_over_gcd_X": "0"
+      },
+      {
+        "D0_digits": 2564,
+        "X_digits": 5891,
+        "d": 1000,
+        "gcd_D0_C": "1",
+        "gcd_D0_X": "1",
+        "log_2lcm_upper_bound": "997.37405942773523",
+        "log_gcd_C_over_gcd_X": "0"
+      }
+    ],
+    "warning": "No finite pattern is extrapolated beyond max_d."
+  },
+  "moving_target_warning": "On t_d=d, the normalized Padé coefficient targets have height O(d log d), not o(t_d).  The accelerated moving-target S-unit theorem therefore does not apply to this fixed linear ray.",
+  "nested_root_tree_records": [
+    {
+      "T_p_k": 240,
+      "T_p_k_plus_1": 720,
+      "level_k": 1,
+      "next_root_residues_sha256": "c21d9cc2080f3d09eb2f14d88f4fa590062358d55f78ed654668d10f9842ba5b",
+      "p": 3,
+      "projection_and_p_ary_lift_enumeration": true,
+      "roots_mod_p_to_k": 20,
+      "roots_mod_p_to_k_plus_1": 20,
+      "universal_state_resets_at_both_levels": true
+    },
+    {
+      "T_p_k": 720,
+      "T_p_k_plus_1": 2160,
+      "level_k": 2,
+      "next_root_residues_sha256": "c0c346de9675ca9af9d0eb714f75146f586e55019421725725c939e6e141225c",
+      "p": 3,
+      "projection_and_p_ary_lift_enumeration": true,
+      "roots_mod_p_to_k": 20,
+      "roots_mod_p_to_k_plus_1": 4,
+      "universal_state_resets_at_both_levels": true
+    },
+    {
+      "T_p_k": 1320,
+      "T_p_k_plus_1": 14520,
+      "level_k": 1,
+      "next_root_residues_sha256": "3d6eb662ec061118392d10349b0289767b89d74cf19dae566383e81e33b85ec4",
+      "p": 11,
+      "projection_and_p_ary_lift_enumeration": true,
+      "roots_mod_p_to_k": 62,
+      "roots_mod_p_to_k_plus_1": 26,
+      "universal_state_resets_at_both_levels": true
+    }
+  ],
+  "scope_warning": "The periodicity, valuation, separation, and root-tree reductions are proved all-degree statements.  The sparse exception lists and root counts are finite diagnostics only; no exp(o(d log d)) gcd bound is claimed.",
+  "script_sha256": "890ce392e9c0473b70fd4b56d15b74ec36aad8dad97d3b5b74eed7beb128333d",
+  "source_path": "/content/drive/MyDrive/e_pi_research_20260826/sources/cyclotomic_unit_linear_ray_padic_reduction.md",
+  "source_sha256": "8b8e6d8bf552501f052caa06a134e3992415fe4eb4e2bb2eed6ce27c5b98cfc3",
+  "unit_order_and_state_reset_records": [
+    {
+      "A_roots_in_actual_period": 40,
+      "actual_order_reset_period": 120,
+      "algebraic_state_reset_conditions": true,
+      "direct_iterated_state_reset_if_feasible": true,
+      "ord_20_p": 4,
+      "orders_eta_etabar_u7": [
+        40,
+        40,
+        40
+      ],
+      "p": 3,
+      "simultaneous_A_X_roots_in_actual_period": 10,
+      "universal_period_k1": 240
+    },
+    {
+      "A_roots_in_actual_period": 400,
+      "actual_order_reset_period": 2800,
+      "algebraic_state_reset_conditions": true,
+      "direct_iterated_state_reset_if_feasible": true,
+      "ord_20_p": 4,
+      "orders_eta_etabar_u7": [
+        80,
+        80,
+        400
+      ],
+      "p": 7,
+      "simultaneous_A_X_roots_in_actual_period": 50,
+      "universal_period_k1": 16800
+    },
+    {
+      "A_roots_in_actual_period": 360,
+      "actual_order_reset_period": 1320,
+      "algebraic_state_reset_conditions": true,
+      "direct_iterated_state_reset_if_feasible": true,
+      "ord_20_p": 2,
+      "orders_eta_etabar_u7": [
+        10,
+        10,
+        120
+      ],
+      "p": 11,
+      "simultaneous_A_X_roots_in_actual_period": 62,
+      "universal_period_k1": 1320
+    },
+    {
+      "A_roots_in_actual_period": 4760,
+      "actual_order_reset_period": 30940,
+      "algebraic_state_reset_conditions": true,
+      "direct_iterated_state_reset_if_feasible": true,
+      "ord_20_p": 4,
+      "orders_eta_etabar_u7": [
+        140,
+        140,
+        1190
+      ],
+      "p": 13,
+      "simultaneous_A_X_roots_in_actual_period": 340,
+      "universal_period_k1": 371280
+    },
+    {
+      "A_roots_in_actual_period": 1920,
+      "actual_order_reset_period": 29760,
+      "algebraic_state_reset_conditions": true,
+      "direct_iterated_state_reset_if_feasible": true,
+      "ord_20_p": 2,
+      "orders_eta_etabar_u7": [
+        30,
+        30,
+        960
+      ],
+      "p": 31,
+      "simultaneous_A_X_roots_in_actual_period": 140,
+      "universal_period_k1": 29760
+    },
+    {
+      "actual_order_reset_period": 5908670380,
+      "algebraic_state_reset_conditions": true,
+      "direct_iterated_state_reset_if_feasible": null,
+      "ord_20_p": 4,
+      "orders_eta_etabar_u7": [
+        2780,
+        2780,
+        10665470
+      ],
+      "p": 277,
+      "universal_period_k1": 1630793024880
+    }
+  ]
+}

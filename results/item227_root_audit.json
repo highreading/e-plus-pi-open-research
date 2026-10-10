@@ -1,0 +1,48 @@
+{
+  "schema": "item227-root-independent-audit-v1",
+  "status": "PASS_SCOPED_STRUCTURAL_NO_GO",
+  "canonical_sha256": "d6f09bb9ad79cd50978c11c25bb8ebab48e6872dbd89da4c4b7b14c258fe1bb7",
+  "root_replay_sha256": "d6f09bb9ad79cd50978c11c25bb8ebab48e6872dbd89da4c4b7b14c258fe1bb7",
+  "byte_identical_replay": true,
+  "independent_checks": {
+    "endpoint_isomorphism": "Phi is injective because Phi(W)=0 and successive terminal identities force W(p)=W(2p)=W(3p)=W(4p)=0; odd p visits every residue modulo 4. Equal dimensions then give an isomorphism.",
+    "order_four": "Phi intertwines N with the four-cycle shift, so N^4=I, O is invertible, and the characteristic polynomial is x^4-1 for every admissible row.",
+    "control_factorization": "The matrix determinant lemma, the zero first column of M, and the cyclic Hankel product O*U give det(I-M^4)=F1*Fminus1*Fi=det(O)*det(U).",
+    "singular_affine_consistency": "On ker((I-M^4)^t), squarefreeness of x^4-1 splits the left nullspace into M-eigenvectors. Pairing each with the corresponding observable N-eigenvector forces ell*u=ell*b=0, hence every left null vector kills the affine closure source.",
+    "terminal_redundancy": "The exact H3 boundary is a unit at -1 and zero at the original endpoints, removing the -1 Fourier mode of the canonical common line. Together with lower-terminal reciprocity this gives t1-t2+t3-t4=0 and t4=-epsilon*beta, hence E4=0 and E3=E2-E1.",
+    "extended_prime_max_inclusive": 601,
+    "extended_rows": 2385,
+    "extended_endpoint_basis_prime_max_inclusive": 151,
+    "extended_endpoint_basis_rows": 169,
+    "extended_singular_rows": 22,
+    "extended_factor_zero_counts_F1_Fminus1_Fi": [
+      6,
+      0,
+      16
+    ],
+    "extended_joint_Omega_Psi_zeros": 0,
+    "python_compile": true,
+    "canonical_replay": "byte-identical",
+    "control_character_scan": "clean",
+    "host_path_scan": "clean",
+    "artifact_hashes": "match the frozen manifest and SHA-256 ledger"
+  },
+  "classification": {
+    "PROVED": [
+      "the generalized endpoint-weight isomorphism and exact order-four conjugacy",
+      "the cyclotomic/control determinant factorization",
+      "singular affine closure is always consistent within this mechanism",
+      "phases 3 and 4 add no invariant beyond Omega and Psi for s>=2"
+    ],
+    "EXACT_FINITE": [
+      "the frozen census through p<=401",
+      "the independent extended census and coefficientwise replay through the recorded bounds"
+    ],
+    "OPEN": [
+      "all-prime or zero-rate exclusion of simultaneous Omega=Psi zeros",
+      "the s=1 family",
+      "any capacity reduction or conclusion about e+pi"
+    ]
+  },
+  "audit_conclusion": "The package rigorously closes the proposed extra-phase shortcut: determinant singularity is never itself an affine contradiction, and phases 3 and 4 are redundant. It does not close the j=2 cell or Route 1."
+}

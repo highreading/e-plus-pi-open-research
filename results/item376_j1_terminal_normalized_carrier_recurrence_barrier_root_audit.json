@@ -1,0 +1,64 @@
+{
+  "item": 376,
+  "schema": "item376-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_TERMINAL_NORMALIZED_CARRIERS_AND_SCOPED_RECURRENCE_HEIGHT_BARRIER",
+  "scope": "independent root audit of the reversed terminal-normalized sums, 3-adic unit structure, primitive actual-family overcarriers, unreduced holonomicity, selector-mass comparison, capacity, and zero booking",
+  "checks": {
+    "work_hash_list_entries": 6,
+    "work_hash_list_failures": 0,
+    "frozen_dependencies_checked": 18,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "declared_normalized_symbolic_controls": 8,
+    "declared_actual_bridge_controls": 4,
+    "declared_recurrence_controls": 6,
+    "declared_comparison_controls": 3,
+    "prime_or_collision_census_performed": false,
+    "recurrence_guess_promoted": false,
+    "density_inference_from_controls": false,
+    "canonical_format_repair": "none"
+  },
+  "mathematical_audit": {
+    "reversal": "Palindromy of both kernels and (a-r)_r=(-1)^r(1-a)_r give the stated reversed sums for x_h=X_h/T_h and u_h=U_h/S_(h+2).",
+    "three_adic_unit": "The r=0 term is one, while the r-th correction has 3-adic valuation at least r. Hence both normalized values lie in 1+3Z_3 for every 3 not dividing h.",
+    "clearing": "Multiplying each prefix denominator by the full linear-factor product gives the exact integral A_x/D_x and A_u/D_u formulas. Modulo three only the r=0 term remains, so numerator and denominator are 3-units before and after primitive reduction.",
+    "actual_bridge": "Every clearing and terminal factor has absolute value at most 4h+3, while the actual prime is at least 4h+9. All denominators and terminal factors are p-units, proving the exact one-coordinate numerator equivalences.",
+    "holonomicity_scope": "On each h mod 3 class the unreduced finite sums are proper hypergeometric and therefore P-recursive. Nonlinear gcd reduction does not inherit this conclusion, and no recurrence for N_x or N_u is claimed.",
+    "comparison": "C_h=(product over 4h<k<=18h, 3 not dividing k)^2 is integral, congruent to one mod three, has O(h log h) height, and satisfies an explicit first-order h-to-h+3 recurrence.",
+    "selector_mass": "For 4M/3<p<=35M/24, h=3M-2p lies in the declared bulk and p divides C_h. The prime number theorem gives Chebyshev mass M/8+o(M), or 1/48 per 6M.",
+    "scope_warning": "The comparison is not the actual carrier and supplies no lower bound for it. It only proves that recurrence, integrality, 3-adic unit normalization, and pointwise height alone cannot yield selector zero density.",
+    "capacity": "The primitive one-coordinate carriers overcover paired boundary gates and cannot be booked separately. The shared 1/36 ceiling remains unchanged."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact reversed terminal-normalized finite sums",
+      "3-adic unit normalization",
+      "primitive actual-family one-coordinate overcarriers",
+      "unreduced holonomicity",
+      "explicit comparison recurrence and positive selector mass",
+      "scoped recurrence-unit-height no-go",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "predeclared symbolic and arithmetic controls; no prime scan, recurrence guessing, or extrapolation"
+    ],
+    "OPEN": [
+      "fixed-order recurrence or product formula for primitive reduced numerators",
+      "target-specific resultant or selector-aware cross-prime average gcd",
+      "weighted zero density for the actual paired gates and any strict fixed-j1 capacity reduction",
+      "Route 1 and e+pi"
+    ]
+  },
+  "capacity": {
+    "retained_shared_fixed_j1_ceiling_per_6M": "1/36",
+    "comparison_mass_per_M": "1/8",
+    "comparison_capacity_per_6M": "1/48",
+    "comparison_is_not_actual_booking": true,
+    "new_linear_log_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

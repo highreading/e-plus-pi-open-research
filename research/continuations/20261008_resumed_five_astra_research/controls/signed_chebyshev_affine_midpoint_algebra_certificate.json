@@ -1,0 +1,82 @@
+{
+  "all_checks_passed": true,
+  "scope": "Fixed12-step NEW affine source evaluator, exact local denominator and formal Bezout identities only. Does NOT establish determinant sign, midpoint gcd bound, RRE, primitive q or irrationality.",
+  "network_or_keys_used": false,
+  "numeric_h_lambda_G_q_recomputed": false,
+  "A_coefficients_low_first": [
+    -442554280065024,
+    929130101238784,
+    -853331892984832,
+    454106233633792,
+    -156055319756800,
+    36463268548608,
+    -5925574381568,
+    671237148672,
+    -52049346560,
+    2636316672,
+    -78643200,
+    1048576
+  ],
+  "B_coefficients_low_first": [
+    1824969018940416,
+    -5574777911499264,
+    7192088920178688,
+    -5255265015918592,
+    2447370316914688,
+    -771266647939072,
+    169699606429696,
+    -26399015731200,
+    2893766770688,
+    -218761789440,
+    10860101632,
+    -318767104,
+    4194304
+  ],
+  "Q_local_E_coefficients_low_first": [
+    211984208237994600038400,
+    -979936237494023855800320,
+    2089070290620324284203008,
+    -2743321831934739679789056,
+    2497975045030956214689792,
+    -1681861791659022498004992,
+    871271176751157283155968,
+    -356570976304830587669504,
+    117396149360568513538560,
+    -31486743702401587399168,
+    6937772755936420336640,
+    -1262242883193910431744,
+    190044121946952753664,
+    -23665768870402857472,
+    2429220277678299136,
+    -204176769240344576,
+    13902668243277824,
+    -754626601949184,
+    31871826026496,
+    -1009135288320,
+    22528655360,
+    -316145664,
+    2097152
+  ],
+  "degrees": {
+    "A": 11,
+    "B": 12,
+    "Q_local_E": 22
+  },
+  "leading_coefficients": {
+    "A": 1048576,
+    "B": 4194304
+  },
+  "Q_local_factored": "product(n-k,k=0..12)",
+  "exact_zero_Bezout_residuals": [
+    "0",
+    "0"
+  ],
+  "determinant_quadratic_identity_verified": true,
+  "complete_affine_T_clearer_verified": true,
+  "H_Chebyshev_expansion_verified": true,
+  "eta_H": -332,
+  "complete_U_constant": 1359872,
+  "corrected_source_weights_context": "Positive r! in x=1-t; direct-t moments1-j*mom[j-1] used here.",
+  "seconds": 1.032,
+  "code_sha256": "81402982bf453afce8413e99b9c7d9eb0aff25e13ed120d1de7cc774d13d27b2"
+}

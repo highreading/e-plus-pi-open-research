@@ -1,0 +1,49 @@
+{
+  "schema": "item332-j1-global-diagonal-collapse-ledger-delta-v1",
+  "item": 332,
+  "date": "2026-09-01",
+  "canonical_edit_performed": false,
+  "proposed_status": "PROVED_GLOBAL_DIAGONAL_AND_DUAL_COLLAPSE_SCOPED_FROBENIUS_FIXED_TARGET_NO_GO",
+  "proposed_ledger_entry": "Item 332 determines the global arithmetic meaning of Item 329's actual cubic carriers. With F(t)=(2-4t+3t^2-t^3)/2 and b_h=[t^(2h)]F(t)^(4h/3), it proves the exact characteristic-zero identity c_h^*=2(4h+3)b_h/3. On every actual row, 2^(-4M)K_(M,2h)=b_h mod p, with all denominators and prefactors p-units, so the original collision-forced K zero is exactly the already pinned c_h^* zero. Writing psi=F^(2/3) and T=x psi(T), the full diagonal has generating function xT'/T on the fixed degree-six curve 4T^3=x^3P(T)^2; under t=y/(1+y), t/psi(t) is exactly Item 237's old algebraic parameter. The dual carrier also collapses: j_s=-3A_s exactly, J=j_s mod p, and 2^(-4M)L=-3X_s+(4h+3)b_h mod p, recovering the old opposite Item-308 factor. Thus normalizing and reducing the K/J/L exponent parameters cannot create a new independent period or codimension. The exact diagonal's sequence-specific weighted zero density remains open. A bounded set of fixed targets is zero-rate, while componentwise algebraic height over the growing target family gives only O(M^2). Booking is zero and the fixed-j1 ceiling remains 1/36 per 6M.",
+  "capacity": {
+    "new_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "new_independent_condition": 0,
+    "bounded_fixed_target_mass": "O(log M)=o(M)",
+    "growing_target_componentwise_height": "O(M^2)",
+    "retained_ceiling_per_6M": "1/36"
+  },
+  "proved": [
+    "the exact all-h identity c_h^*=2(4h+3)b_h/3 with b_h=[t^(2h)]F(t)^(4h/3)",
+    "the actual-row normalized bridge 2^(-4M)K_(M,2h)=b_h mod p",
+    "the fixed algebraic diagonal and degree-six Lagrange curve, identical to Item 237's old parameter after t=y/(1+y)",
+    "the exact dual identity j_s=-3A_s and actual-row reduction J=j_s mod p",
+    "the normalized L chart 2^(-4M)L=-3X_s+(4h+3)b_h mod p",
+    "denominator support at 2 and 3 and the integer normalization kappa_(M,h)=2^(h-4M)K_(M,2h)",
+    "a scoped no-go for claiming new codimension from constant normalization plus below-p exponent reduction"
+  ],
+  "scoped_frobenius_fixed_target_no_go": [
+    "normalizing K, J, and L by their constant powers and reducing their parameters modulo the actual prime recovers exactly the old selected and opposite Item-308 factors",
+    "a bounded collection of fixed h- or fixed s-targets touches only O(1) fixed-M rows and therefore has zero-rate raw mass",
+    "the no-go does not cover sequence-specific factor localization, average gcd, monodromy, or weighted zero density for b_h"
+  ],
+  "exact_finite_only": [
+    "five preselected Item-329 replay rows checking b, j, normalized K, J, normalized L, and both factor charts",
+    "no replay row is promoted to a new full Item-264 collision"
+  ],
+  "open": [
+    "weighted zero density for numerator(b_(3M-2p)) over the actual prime interval",
+    "sequence-specific prime-factor localization, average gcd, or Frobenius non-concentration for the exact diagonal",
+    "weighted density for the opposite factor if the larger container envelope is pursued",
+    "W_off(M)=o(M), W_D(M)=o(M), fixed-j1 closure, Route 1, and every conclusion about e+pi"
+  ],
+  "not_claimed": [
+    "universal nonvanishing",
+    "a sublinear carrier or weighted-density theorem",
+    "a new independent period",
+    "a monodromy or average-gcd theorem",
+    "a prime scan or finite zero census",
+    "positive capacity or a ledger improvement"
+  ]
+}

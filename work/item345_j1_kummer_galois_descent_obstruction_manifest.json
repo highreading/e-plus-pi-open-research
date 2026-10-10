@@ -1,0 +1,77 @@
+{
+  "item": 345,
+  "schema": "item345-j1-kummer-galois-descent-obstruction-manifest-v1",
+  "classification": "PROVED_SPLIT_PRIME_DESCENT_DICHOTOMY_AND_SCOPED_GALOIS_PROJECTION_NO_GO",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "chosen split prime, Galois stabilizer, additive projections, and relative/subfield norms for Item342's actual Kummer lift",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item342_j1_finite_field_fourier_weil_barrier_report.md": "843bb85381c98adf0a5b64801ce099e4c3c9119d5933704d97bbd492f1b8029b",
+    "scripts/item342_j1_finite_field_fourier_weil_barrier_certificate.py": "130cfd5d2ac7c31546ef177c3f751abcc236ca92dc253a59914d487187c1fbac",
+    "results/item342_j1_finite_field_fourier_weil_barrier_certificate.json": "4cf10e1d035dcd18a134e5f1b00e54a34ae1b3833a2863b54212da9fcccf49d9",
+    "results/item342_j1_finite_field_fourier_weil_barrier_certificate_replay.json": "4cf10e1d035dcd18a134e5f1b00e54a34ae1b3833a2863b54212da9fcccf49d9",
+    "results/item342_j1_finite_field_fourier_weil_barrier_root_audit.json": "aa6b260f78ae094b20a1b6b041c75131514b5ded51f016e6950671c472280835",
+    "manifests/item342_j1_finite_field_fourier_weil_barrier_manifest.json": "85ca4a73d9009acc3dc8d7102325f74156a11bf13e618dc1a88c06fd352b8a54"
+  },
+  "artifacts": {
+    "report": {
+      "path": "sources/item345_j1_kummer_galois_descent_obstruction_report.md",
+      "sha256": "17441d83d40de9a8df6419b35e277753ed86006e1c461e4cbaa618db8d9e9392",
+      "bytes": 13517
+    },
+    "certificate_script": {
+      "path": "scripts/item345_j1_kummer_galois_descent_obstruction_certificate.py",
+      "sha256": "fee063e0b967495a3c3b64d3384013c147a0621f735293003b191675fdb729ec",
+      "bytes": 13699
+    },
+    "certificate": {
+      "path": "results/item345_j1_kummer_galois_descent_obstruction_certificate.json",
+      "sha256": "e0eca357cafab27e4ff9c97bf4beacaf9c82b102de47614472eecac8590dbcc7",
+      "bytes": 9055
+    },
+    "replay": {
+      "path": "results/item345_j1_kummer_galois_descent_obstruction_certificate.replay.json",
+      "sha256": "e0eca357cafab27e4ff9c97bf4beacaf9c82b102de47614472eecac8590dbcc7",
+      "bytes": 9055,
+      "byte_identical_to_certificate": true
+    },
+    "ledger": {
+      "path": "results/item345_j1_kummer_galois_descent_obstruction_ledger_delta.json",
+      "sha256": "453f523244b43cc035c9eda9145eb8bd88e0bb2d4e56c121bc6773f3038e0194",
+      "bytes": 4148
+    }
+  },
+  "theorems": [
+    "the chosen Teichmueller prime has trivial decomposition group because p splits completely",
+    "no nontrivial additive Galois projection is forced by membership in one split prime",
+    "every relative norm preserves the gate but intermediate subfields leave the absolute norm bound unchanged",
+    "bounded-degree descent requires a correspondingly large Galois stabilizer",
+    "selected-carrier vanishing and the formal lift alone force no such stabilizer",
+    "ordinary trace/subfield-norm descent gives no fixed-j1 capacity gain"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "split-prime/decomposition theorem",
+      "additive-projection failure and norm preservation",
+      "subfield height identity",
+      "stabilizer criterion and scoped descent no-go"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "five preselected group-ring stabilizer and norm controls; no scan"
+    ],
+    "OPEN": [
+      "large stabilizer on selected-zero rows",
+      "special norm cancellation",
+      "chosen-prime p-adic nonconcentration",
+      "W_b(M)=o(M) and every strict fixed-j1 capacity reduction"
+    ]
+  },
+  "capacity": {
+    "support_reached": "all actual Item342 rows",
+    "proved_excluded_weighted_mass": 0,
+    "new_independent_condition": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0,
+    "retained_ceiling_per_6M": "1/36"
+  }
+}

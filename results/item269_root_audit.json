@@ -1,0 +1,62 @@
+{
+  "schema": "item269-root-audit-v1",
+  "audited": "2026-08-31 Asia/Shanghai",
+  "status": "PASS",
+  "booking": {
+    "new_unconditional_route1_rate": 0,
+    "new_j2_capacity_reduction": 0,
+    "raw_j2_mass_per_M": "2/35",
+    "fixed_divisor_admission": "FAIL"
+  },
+  "root_findings": [
+    "The full simultaneous affine collision, including the f0=f1=0 branch, is exactly a fixed two-row bilinear incidence after the external row matrix R_(r,s) is retained.",
+    "The universal incidence is bookkeeping rather than a Frobenius divisor: R_(r,s) is moving external data and is not supplied by the fixed Item-267 motive.",
+    "The final tail term has the unique lowest 3-adic valuation. Consequently reduced D_delta=A_delta/B_delta has v3(A_delta)=0 and v3(B_delta)=L+v3((2L-1)!!), with L=3delta or 3delta-2.",
+    "Those denominator exponents strictly increase when actual delta increases by two, so the rational slopes are pairwise distinct in each phase.",
+    "The fixed algebraic-correspondence no-go is valid: after finitely many leading-coefficient exceptions, B_delta divides a fixed polynomial value a_d(delta), whose logarithmic height is O(log delta), contradicting the linear 3-adic denominator lower bound.",
+    "This algebraic-height argument does not rule out a new trace function or autonomous dynamical realization; those possibilities remain explicitly open.",
+    "The sealed Cartier conjugacy class erases the relevant framed coefficient, while a constant pullback to the row line has trivial row monodromy. Thus the current realization supplies no row-selective fixed divisor.",
+    "The p=47 rows are a fixed-prime factor-through-row witness only, not an exceptional collision scan or density result."
+  ],
+  "independent_probe": {
+    "script": "scripts/item269_root_independent_probe.py",
+    "script_sha256": "f8e6fb266c34df1c66cad770d68af2ebab1f40274d9fdbe6b38df34c34f2e80d",
+    "result": "results/item269_root_independent_probe.json",
+    "result_sha256": "d9fd40e3d1fd2c72ea1dd6d8abeea229df613555d2b453be26781252dd5df903",
+    "valuation_rows": 35,
+    "strict_adjacent_rows": 33,
+    "p5_normal_form_parameter_sets": 12,
+    "distinct_p5_normal_forms": 1,
+    "full_incidence_identity_rows": 16,
+    "fixed_prime_47_cutoffs": [
+      33,
+      0,
+      41,
+      1
+    ],
+    "exceptional_zero_search_performed": false,
+    "label": "EXACT FINITE identity replay plus exact all-parameter arguments in the report"
+  },
+  "sealed_package": {
+    "report_sha256": "4e240745e9ae9bf8ffbd76fd41aaeafc54d5f00944262019a9900a2c3e90f75c",
+    "checker_sha256": "e0857e3e1e5d60c561dc43a9e51be3620f0ee860dd15c0d7e9b353e1dbcd19c3",
+    "canonical_sha256": "411f7962ffd46b778aa5dd25a79105f8f2199fc4423f346ec72312a81f1eaf82",
+    "packaged_replay_sha256": "411f7962ffd46b778aa5dd25a79105f8f2199fc4423f346ec72312a81f1eaf82",
+    "root_replay": "results/item269_root_replay.json",
+    "root_replay_sha256": "411f7962ffd46b778aa5dd25a79105f8f2199fc4423f346ec72312a81f1eaf82",
+    "ledger_sha256": "a60b864a01afb5052079d4f74d511da9ad50e21742f1b5a6a3571e1d05b9a9b2",
+    "manifest_sha256": "57457c47f657446cc668c5d1a936ac2088f8bd4511262e7d136d22fa46300bb6",
+    "hash_ledger_sha256": "8cd130bf161fe975f3beb31608f2371ba2d9e4e6c54f77f234f30ae58a5fca40",
+    "manifest_entries_checked": 9,
+    "manifest_entries_matched": 9,
+    "canonical_packaged_root_replays_byte_identical": true
+  },
+  "layout": {
+    "report_bytes": 18275,
+    "report_lines": 569,
+    "display_delimiters": "41/41",
+    "inline_delimiters": "101/101",
+    "forbidden_control_characters": 0
+  },
+  "strict_scope": "Item 269 closes fixed algebraic graphs, conjugacy-stable divisors in the sealed motive, and constant row pullbacks. It does not close genuinely new auxiliary lisse, crystalline, or autonomous dynamical realizations."
+}

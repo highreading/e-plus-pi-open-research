@@ -1,0 +1,51 @@
+{
+  "scope": "Only frozen n=1,2 polynomials; no new canonical solve or index scan.",
+  "checks": {
+    "1": {
+      "p_top": [
+        1,
+        0,
+        -6
+      ],
+      "e_top": [
+        20,
+        -48,
+        0
+      ],
+      "K": "-20*z**2 + 88*z - 44",
+      "contents_Q_P_E_K": [
+        2,
+        1,
+        4,
+        4
+      ],
+      "R": 2,
+      "dyadic_sigma": 0,
+      "shifted_W_formula": true,
+      "all_assertions_passed": true
+    },
+    "2": {
+      "p_top": [
+        925,
+        5652,
+        12504
+      ],
+      "e_top": [
+        7160384,
+        -40248576,
+        18834816
+      ],
+      "K": "-6623355200*z**2 + 10006152832*z + 2216151616",
+      "contents_Q_P_E_K": [
+        4,
+        1,
+        64,
+        64
+      ],
+      "R": 12,
+      "dyadic_sigma": 1,
+      "shifted_W_formula": true,
+      "all_assertions_passed": true
+    }
+  }
+}

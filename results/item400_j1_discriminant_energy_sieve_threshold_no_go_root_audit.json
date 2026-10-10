@@ -1,0 +1,50 @@
+{
+  "item": 400,
+  "schema": "item400-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_SHARP_DISCRIMINANT_ENERGY_VANDERMONDE_SUPPORT_ONLY_NO_GO",
+  "scope": "independent root audit of candidate-prime coprimality, short-gap height, multiplicative and graph energy, the full-candidate threshold witness, information-class scope, replay, and capacity interpretation",
+  "checks": {
+    "canonical_dependencies_checked": 8,
+    "canonical_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "control_characters": 0,
+    "finite_to_infinite_inference_used": false,
+    "root_repairs": "Canonicalized the package and replay command. Dependencies were already pinned to the final audited Item 384, 391, 395, and 398 hashes; no mathematical repair was required."
+  },
+  "mathematical_audit": {
+    "discriminant": "Every nonzero root difference is smaller than every tied candidate prime, so the Vandermonde and discriminant are candidate-prime units. Reducing F'(0) modulo a root prime leaves only R/p, also a unit, proving the third coprimality identity.",
+    "short_gap": "The short-gap product contains only difference labels and is likewise coprime to R. The Selberg pair bound gives O(M/log M) edges at D comparable to log M, so multiplication by log(2D) yields o(M) height without endpoint-prime content.",
+    "multiplicative_energy": "Unique factorization shows an n-element prime set has exactly n diagonal products of multiplicity one and n(n-1)/2 off-diagonal products of multiplicity two, giving ordered energy 2n^2-n independently of gaps.",
+    "graph_energy": "Handshake, Cauchy, and the modular degree ceiling give no upper bound on the positive-degree vertex radical below its raw linear scale; degree weighting repeats endpoints rather than eliminating them.",
+    "ambient_witness": "For the full candidate-prime set, total Chebyshev mass is M/6+o(M). Isolated packing at D asymptotic to c log M contributes at most M/(12c)+o(M), forcing clustered mass at least ((2c-1)/(12c))M+o(M).",
+    "sharpness": "The ambient lower coefficient is exactly Item 395's strict upper admission coefficient, and Item 384 realizes the full selector pattern inside the fixed local-data class. Uniform support-only inputs therefore cannot supply the needed epsilon.",
+    "scope": "The countermodel is not asserted to be the actual gate. Gate-specific larger-sieve, monodromy, original-moment carrier, or cross-M arithmetic lies outside the closed class."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "candidate-prime coprimality of derivative/discriminant carriers",
+      "sublinear but endpoint-free short-gap Vandermonde",
+      "exact multiplicative-energy blindness",
+      "sharp ambient threshold saturation",
+      "scoped support-only information-class no-go"
+    ],
+    "OPEN": [
+      "gate-specific logarithmic-window weighted zero density",
+      "cross-M or original-moment arithmetic distinguishing the actual selector",
+      "a strict fixed-j=1 capacity saving",
+      "any conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "ambient_threshold_at_c_1_per_M": "1/12",
+    "new_route1_rate": 0,
+    "new_booking": 0,
+    "new_unconditional_capacity_reduction": 0
+  }
+}

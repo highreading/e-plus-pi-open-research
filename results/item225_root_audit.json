@@ -1,0 +1,58 @@
+{
+  "schema": "item225-root-independent-audit-v1",
+  "status": "PASS_WITH_SCOPED_OPEN_PROBLEM",
+  "canonical_sha256": "7e9a5549082a575b11242ee182f870c3cf1c20f04dfb8c6002b0cc6924e63434",
+  "root_replay_sha256": "7e9a5549082a575b11242ee182f870c3cf1c20f04dfb8c6002b0cc6924e63434",
+  "byte_identical_replay": true,
+  "independent_checks": {
+    "regularized_identity": "derived before reduction by deleting every z^(ap)/(ap) primitive term; the exact terminal coefficient a*p cancels the same a in the primitive denominator",
+    "first_terminal_weight": 7,
+    "second_terminal_weight": 29,
+    "second_terminal_exact_pivot": "-2p",
+    "multiplicity_normalization": "audited; no factor-of-two loss at the second terminal",
+    "free_mode": "the homogeneous response has generating polynomial g modulo p",
+    "free_mode_terminal_indices": [
+      "p-4",
+      "p-3",
+      "p-2",
+      "p-1"
+    ],
+    "support_gap": "deg(g)=(p+2s-1)/2<p-4 for every s>=2 row",
+    "full_forcing_rows_replayed": 175,
+    "full_forcing_scope": "all admissible s>=2 rows through p<=151 plus every one of the seven Item-224 Omega-zero rows through p<=401",
+    "item224_formal_rows_included": 7,
+    "psi_residues": [
+      15,
+      130,
+      79,
+      71,
+      185,
+      292,
+      230
+    ],
+    "joint_zero_rows_through_p_401": 0,
+    "hash_ledger_entries_checked": 9,
+    "hash_mismatches": 0,
+    "python_compile": true,
+    "control_character_scan": "clean",
+    "host_path_scan": "clean"
+  },
+  "classification": {
+    "PROVED": [
+      "regularized finite-part recurrence with exact Cartier forcing",
+      "phase weights W(p)=7 and W(2p)=29 with exact resonance multiplicities",
+      "the first free mode equals g and vanishes in the second terminal",
+      "every s>=2 collision implies beta*tau nonzero and Omega=Psi=0"
+    ],
+    "EXACT_FINITE": [
+      "all seven Omega-zero rows through p<=401 have nonzero Psi",
+      "the joint finite census through p<=401 is empty"
+    ],
+    "OPEN": [
+      "all-prime or zero-rate control of simultaneous Omega=Psi=0",
+      "the s=1 family",
+      "any j=2 capacity reduction or conclusion about e+pi"
+    ]
+  },
+  "audit_conclusion": "The second Cartier terminal is genuinely independent of the first free mode, but the package proves only a two-condition necessary filter and books no rate."
+}

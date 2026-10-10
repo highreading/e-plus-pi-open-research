@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "scope": "Exact rational enclosures at one original n225 and five reduced weights; no infinite exclusion or irrationality proof",
+  "source_sha256": "61dea1f4077953f4f61e223b123be2c0297df8558a8fd148c283e33e3a43d915",
+  "producer_artifact_sha256": "375de6e28d3dd0ab26700618c543e4687ea01ee1c5b656f4e31c72b1769a53a0",
+  "enclosure_artifact_sha256": "d9a91c893375eca6975260aea1d76d5de849960c1c6ab74916471b120e6d9482",
+  "e_tail_bound": "(N+2)/((N+1)*(N+1)!)",
+  "pi_identity": "16*atan(1/5)-4*atan(1/239)",
+  "atan_even_partial_sum_is_lower": true,
+  "series_degree": 768,
+  "rows": [
+    {
+      "label": "endpoint3",
+      "sign_certified": -1,
+      "floor_log10_abs_lower": 1815,
+      "floor_log10_abs_upper": 1815,
+      "abs_form_below_one_certified": false,
+      "abs_form_above_one_certified": true,
+      "interval_contains_zero": false
+    },
+    {
+      "label": "endpoint0",
+      "sign_certified": -1,
+      "floor_log10_abs_lower": 1817,
+      "floor_log10_abs_upper": 1817,
+      "abs_form_below_one_certified": false,
+      "abs_form_above_one_certified": true,
+      "interval_contains_zero": false
+    },
+    {
+      "label": "half",
+      "sign_certified": -1,
+      "floor_log10_abs_lower": 2976,
+      "floor_log10_abs_upper": 2976,
+      "abs_form_below_one_certified": false,
+      "abs_form_above_one_certified": true,
+      "interval_contains_zero": false
+    },
+    {
+      "label": "n_squared_half",
+      "sign_certified": 1,
+      "floor_log10_abs_lower": 2974,
+      "floor_log10_abs_upper": 2974,
+      "abs_form_below_one_certified": false,
+      "abs_form_above_one_certified": true,
+      "interval_contains_zero": false
+    },
+    {
+      "label": "reference_canceling",
+      "sign_certified": -1,
+      "floor_log10_abs_lower": 1290,
+      "floor_log10_abs_upper": 1290,
+      "abs_form_below_one_certified": false,
+      "abs_form_above_one_certified": true,
+      "interval_contains_zero": false
+    }
+  ],
+  "irrationality_proved": false
+}

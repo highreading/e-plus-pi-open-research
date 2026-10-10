@@ -1,0 +1,37 @@
+name: Bounded research task
+description: Propose or claim a precise task and avoid duplicate work.
+title: "[Task] "
+body:
+  - type: textarea
+    id: claim
+    attributes:
+      label: Exact question and original objects
+      description: State hypotheses, index domain, desired result and why this task is bounded.
+    validations:
+      required: true
+  - type: textarea
+    id: prior_work
+    attributes:
+      label: Archive and primary literature checked
+      description: Link existing results, exclusions and relevant theorems; record search scope and dates.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context files and unpaid step
+      description: Give full source definitions, dependencies, known gaps and the expected deliverable.
+    validations:
+      required: true
+  - type: textarea
+    id: budget
+    attributes:
+      label: Participant-controlled budget and stopping rule
+      description: Set a finite work limit. Do not disclose keys or account information.
+    validations:
+      required: true
+  - type: textarea
+    id: coordination
+    attributes:
+      label: Related issues and assistance
+      description: Identify overlap and AI/human/computation roles; do not claim priority merely from a search.

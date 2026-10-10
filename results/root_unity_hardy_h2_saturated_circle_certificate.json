@@ -1,0 +1,355 @@
+{
+  "dependency": {
+    "hash_verified_before_import": true,
+    "path": "scripts/root_unity_k2_global_image_saturation_certificate.py",
+    "sha256": "588393ba1cb273d13034cc069cca7b3f507c8b9adf62f13a8d6e8e71bb15d470"
+  },
+  "exact_analytic_theorems_proved_in_source": {
+    "coefficientwise_L1_comparison_for_the_same_function": true,
+    "constrained_Gram_Schur_complement_minimum": true,
+    "monomial_circle_Gram_constant_term_derivative_and_series_formulas": true,
+    "rational_affine_fiber_infimum_equals_real_minimum": true,
+    "zero_factored_Hardy_evaluation_inequality": true
+  },
+  "finite_grid_verdict": {
+    "H2_is_a_large_finite_improvement_over_same_function_L1": true,
+    "no_endpoint_beats_the_r_equals_1_degree_2_relative_threshold_3": true,
+    "no_observed_change_to_n_log_n_leading_ledger": true,
+    "observed_log_improvement_is_consistent_with_O_n": true,
+    "one_n_equals_8_H2_log_upper_bound_is_numerically_below_zero": true,
+    "three_rows_do_not_prove_an_asymptotic_bound": true
+  },
+  "gram_kernel_numerical_crosscheck": {
+    "maximum_absolute_difference": "5.9925457340060138588e-95",
+    "samples": [
+      {
+        "absolute_difference": "5.9925457340060138588e-95",
+        "degree_a": 0,
+        "degree_b": 0,
+        "quadrature_value": "6218412.42078100294986247775552280435760856743107543107914089",
+        "radius": "4.5",
+        "rate_r": 2,
+        "rate_s": 2,
+        "series_value": "6218412.42078100294986247775552280435760856743107543107914089"
+      },
+      {
+        "absolute_difference": "0.0",
+        "degree_a": 1,
+        "degree_b": 2,
+        "quadrature_value": "4709918.01880410273181091275402235344406827661937327961658217",
+        "radius": "4.5",
+        "rate_r": 2,
+        "rate_s": 1,
+        "series_value": "4709918.01880410273181091275402235344406827661937327961658217"
+      },
+      {
+        "absolute_difference": "2.3659838999543092132e-97",
+        "degree_a": 2,
+        "degree_b": 1,
+        "quadrature_value": "8.08016739834446114690999991924645475652346966605562547928729",
+        "radius": "4.5",
+        "rate_r": 2,
+        "rate_s": -1,
+        "series_value": "8.08016739834446114690999991924645475652346966605562547928729"
+      },
+      {
+        "absolute_difference": "0.0",
+        "degree_a": 3,
+        "degree_b": 3,
+        "quadrature_value": "8303.765625",
+        "radius": "4.5",
+        "rate_r": 0,
+        "rate_s": 0,
+        "series_value": "8303.765625"
+      },
+      {
+        "absolute_difference": "1.8287798260516399715e-99",
+        "degree_a": 2,
+        "degree_b": 0,
+        "quadrature_value": "205.03125",
+        "radius": "4.5",
+        "rate_r": 0,
+        "rate_s": 1,
+        "series_value": "205.03125"
+      }
+    ],
+    "series_and_independent_quadrature_agree_below_1e_minus_80": true
+  },
+  "limitations": {
+    "no_all_parameter_H2_height_bound": true,
+    "no_asymptotic_Smith_or_Gram_condition_formula": true,
+    "no_integer_or_rational_optimizer_height_control": true,
+    "no_irrationality_or_transcendence_conclusion": true
+  },
+  "numerical_method": {
+    "Taylor_outer_product_tail_for_quotient_Gram": 240,
+    "continuous_quadratic_optimization_only": true,
+    "exact_integer_origin_derivatives_before_numerical_conversion": true,
+    "lower_precision_stability_check_decimal_digits": 120,
+    "no_integer_SVP_or_denominator_bound_claimed": true,
+    "short_tail_stability_comparison": 180,
+    "working_decimal_digits": 180
+  },
+  "peak_RSS_omitted_for_determinism_but_asserted_below_2GiB": true,
+  "representative_rows": [
+    {
+      "all_endpoint_coefficients_outside_degrees_0_and_2_vanish_exactly": true,
+      "all_origin_derivatives_below_common_order_vanish_exactly_over_Z": true,
+      "common_origin_zero_order": 24,
+      "complete_global_coefficient_slot_count": 55,
+      "endpoint_low_image_rank": 2,
+      "largest_exactly_cancelled_origin_summand_decimal_digits": 20,
+      "parameters": {
+        "D": 4,
+        "m": 2,
+        "n": 5,
+        "nu": 5,
+        "target_degree": 2
+      },
+      "peak_RSS_checked_below_2GiB_after_row": true,
+      "prescribed_primitive_endpoint_diagnostics": [
+        {
+          "H2_certified_relative_exponent": "0.7499271907656597765507100827716158872206",
+          "H2_log_improvement_over_n": "3.095980060064472072412684360243481120732",
+          "H2_log_improvement_over_n_log_n": "1.923640568018021798183441595168875937869",
+          "H2_log_improvement_over_same_function_L1": "15.479900300322360362063421801217405603659743387267",
+          "H2_log_slack_above_actual_value": "0.6296040686794883286363342021178570147106",
+          "H2_relative_exponent_beats_strict_threshold": false,
+          "absolute_log_change_tail_180_to_240": "0.0",
+          "absolute_log_change_working_precision_120_to_180_dps": "1.797743715e-107",
+          "actual_endpoint_value_constant_minus_quadratic_times_pi_squared": "-20.6965786376576910897620725505534440452045366892555840368986",
+          "continuous_optimizer_is_not_claimed_rational_or_integral": true,
+          "finite_diagnostic_only": true,
+          "high_precision_H2_log_upper_bound_is_below_zero": false,
+          "label": "shortest_global_LLL_row",
+          "log_actual_endpoint_absolute_value": "3.0299684034056067270256824668959593708889437048222",
+          "maximum_endpoint_constraint_residual": "1.082918713e-165",
+          "optimized_H2_log_upper_bound": "3.6595724720850950556620166690138163855995823065809",
+          "optimized_H2_radius": "4.4249057435785322761116981761352410968983035614641",
+          "primitive_endpoint_coefficients_constant_quadratic": [
+            "2267136",
+            "229711"
+          ],
+          "primitive_endpoint_height": "2267136",
+          "quotient_gram_log10_condition_number": "12.0766668164226581995394727124",
+          "rational_affine_fiber_has_the_same_infimum_by_density": true,
+          "same_function_optimized_coefficientwise_L1_log_upper_bound": "19.139472772407455417725438470231221989259325693848",
+          "same_function_optimized_coefficientwise_L1_radius": "9.7226775626130057606202619769224939837944192553564",
+          "source_saturated_LLL_row": 0,
+          "strict_relative_threshold_for_r_equals_1_degree_2": "3"
+        },
+        {
+          "H2_certified_relative_exponent": "0.760098645104473373248230290730105196766",
+          "H2_log_improvement_over_n": "3.095952122220261575620420955223622861598",
+          "H2_log_improvement_over_n_log_n": "1.923623209259417532529327508942996572177",
+          "H2_log_improvement_over_same_function_L1": "15.479760611101307878102104776118114307989993630314",
+          "H2_log_slack_above_actual_value": "0.6296081198963809270493938439300962078411",
+          "H2_relative_exponent_beats_strict_threshold": false,
+          "absolute_log_change_tail_180_to_240": "0.0",
+          "absolute_log_change_working_precision_120_to_180_dps": "6.19566566e-107",
+          "actual_endpoint_value_constant_minus_quadratic_times_pi_squared": "-17.0240929578505385709182535619739047116717220979036768471294",
+          "continuous_optimizer_is_not_claimed_rational_or_integral": true,
+          "finite_diagnostic_only": true,
+          "high_precision_H2_log_upper_bound_is_below_zero": false,
+          "label": "best_value_among_global_LLL_rows",
+          "log_actual_endpoint_absolute_value": "2.8346295735443810810890957447185184394872883721059",
+          "maximum_endpoint_constraint_residual": "9.585188339e-166",
+          "optimized_H2_log_upper_bound": "3.4642376934407620081384895886486146473284058916751",
+          "optimized_H2_radius": "4.4248958951251394731309750864639720582140764725681",
+          "primitive_endpoint_coefficients_constant_quadratic": [
+            "1867776",
+            "189247"
+          ],
+          "primitive_endpoint_height": "1867776",
+          "quotient_gram_log10_condition_number": "12.0766714100764076241017414122",
+          "rational_affine_fiber_has_the_same_infimum_by_density": true,
+          "same_function_optimized_coefficientwise_L1_log_upper_bound": "18.943998304542069886240594364766728955318399521989",
+          "same_function_optimized_coefficientwise_L1_radius": "9.722261084935443098035455672140474197708069136715",
+          "source_saturated_LLL_row": 2,
+          "strict_relative_threshold_for_r_equals_1_degree_2": "3"
+        }
+      ],
+      "saturated_global_image_rank": 3,
+      "tail_kernel_audit": {
+        "hnf_and_lll_transformations_verified": true,
+        "hnf_zero_row_count": 3,
+        "kernel_dimension": 3,
+        "lll_basis_height": "293865",
+        "lll_basis_height_decimal_digits": 6
+      }
+    },
+    {
+      "all_endpoint_coefficients_outside_degrees_0_and_2_vanish_exactly": true,
+      "all_origin_derivatives_below_common_order_vanish_exactly_over_Z": true,
+      "common_origin_zero_order": 36,
+      "complete_global_coefficient_slot_count": 85,
+      "endpoint_low_image_rank": 2,
+      "largest_exactly_cancelled_origin_summand_decimal_digits": 38,
+      "parameters": {
+        "D": 5,
+        "m": 2,
+        "n": 8,
+        "nu": 6,
+        "target_degree": 2
+      },
+      "peak_RSS_checked_below_2GiB_after_row": true,
+      "prescribed_primitive_endpoint_diagnostics": [
+        {
+          "H2_certified_relative_exponent": "1.009419321002520697212444854071158742256",
+          "H2_log_improvement_over_n": "3.766433028412930063109831055195436927727",
+          "H2_log_improvement_over_n_log_n": "1.811271417310578137482119518863259304808",
+          "H2_log_improvement_over_same_function_L1": "30.131464227303440504878648441563495421813087818629",
+          "H2_log_slack_above_actual_value": "0.290063240521834539225081622219631940773",
+          "H2_relative_exponent_beats_strict_threshold": false,
+          "absolute_log_change_tail_180_to_240": "0.0",
+          "absolute_log_change_working_precision_120_to_180_dps": "2.849406268e-92",
+          "actual_endpoint_value_constant_minus_quadratic_times_pi_squared": "-0.605227206933251368093731126541969217363822654237829521811278",
+          "continuous_optimizer_is_not_claimed_rational_or_integral": true,
+          "finite_diagnostic_only": true,
+          "high_precision_H2_log_upper_bound_is_below_zero": true,
+          "label": "shortest_global_LLL_row",
+          "log_actual_endpoint_absolute_value": "-0.50215134280203716678529038896056454393133959544323",
+          "maximum_endpoint_constraint_residual": "2.180547097e-152",
+          "optimized_H2_log_upper_bound": "-0.21208810228020262756020876674093260315834582241598",
+          "optimized_H2_radius": "4.9608238659511031475127335348618679349013972388462",
+          "primitive_endpoint_coefficients_constant_quadratic": [
+            "6007554048",
+            "608692487"
+          ],
+          "primitive_endpoint_height": "6007554048",
+          "quotient_gram_log10_condition_number": "18.7333582477020879000953804007",
+          "rational_affine_fiber_has_the_same_infimum_by_density": true,
+          "same_function_optimized_coefficientwise_L1_log_upper_bound": "29.919376125023237877318439674822562818654741996213",
+          "same_function_optimized_coefficientwise_L1_radius": "14.164974746438665798434284095449475799339690640088",
+          "source_saturated_LLL_row": 0,
+          "strict_relative_threshold_for_r_equals_1_degree_2": "3"
+        },
+        {
+          "H2_certified_relative_exponent": "1.210382680896625417975227566925826096835",
+          "H2_log_improvement_over_n": "3.766246642881798791040258802417203663174",
+          "H2_log_improvement_over_n_log_n": "1.811181784816759290241953029216315960497",
+          "H2_log_improvement_over_same_function_L1": "30.129973143054390328322070419337629305393362561783",
+          "H2_log_slack_above_actual_value": "0.2900562552906136324023919415031530620027",
+          "H2_relative_exponent_beats_strict_threshold": false,
+          "absolute_log_change_tail_180_to_240": "0.0",
+          "absolute_log_change_working_precision_120_to_180_dps": "6.491251715e-93",
+          "actual_endpoint_value_constant_minus_quadratic_times_pi_squared": "-0.020403953831903034675304890175646332205511159040782244008872",
+          "continuous_optimizer_is_not_claimed_rational_or_integral": true,
+          "finite_diagnostic_only": true,
+          "high_precision_H2_log_upper_bound_is_below_zero": true,
+          "label": "best_value_among_global_LLL_rows",
+          "log_actual_endpoint_absolute_value": "-3.8920265816223585996383175755997730027446111870312",
+          "maximum_endpoint_constraint_residual": "6.972457719e-154",
+          "optimized_H2_log_upper_bound": "-3.6019703263317449672359256340966199407419430323136",
+          "optimized_H2_radius": "4.9608883115562141734794136281519315667116159365528",
+          "primitive_endpoint_coefficients_constant_quadratic": [
+            "27262976",
+            "2762317"
+          ],
+          "primitive_endpoint_height": "27262976",
+          "quotient_gram_log10_condition_number": "18.7333107013288658975774941879",
+          "rational_affine_fiber_has_the_same_infimum_by_density": true,
+          "same_function_optimized_coefficientwise_L1_log_upper_bound": "26.52800281672264536108614478524100936465141952947",
+          "same_function_optimized_coefficientwise_L1_radius": "14.16482148745657981660575001763774098227948490862",
+          "source_saturated_LLL_row": 3,
+          "strict_relative_threshold_for_r_equals_1_degree_2": "3"
+        }
+      ],
+      "saturated_global_image_rank": 4,
+      "tail_kernel_audit": {
+        "hnf_and_lll_transformations_verified": true,
+        "hnf_zero_row_count": 4,
+        "kernel_dimension": 4,
+        "lll_basis_height": "1757422105031",
+        "lll_basis_height_decimal_digits": 13
+      }
+    },
+    {
+      "all_endpoint_coefficients_outside_degrees_0_and_2_vanish_exactly": true,
+      "all_origin_derivatives_below_common_order_vanish_exactly_over_Z": true,
+      "common_origin_zero_order": 44,
+      "complete_global_coefficient_slot_count": 105,
+      "endpoint_low_image_rank": 2,
+      "largest_exactly_cancelled_origin_summand_decimal_digits": 58,
+      "parameters": {
+        "D": 5,
+        "m": 2,
+        "n": 10,
+        "nu": 6,
+        "target_degree": 2
+      },
+      "peak_RSS_checked_below_2GiB_after_row": true,
+      "prescribed_primitive_endpoint_diagnostics": [
+        {
+          "H2_certified_relative_exponent": "0.6854339625491829661861100928619416698422",
+          "H2_log_improvement_over_n": "3.370692344202779222024768604822825112829",
+          "H2_log_improvement_over_n_log_n": "1.463873085280803381337659103229366751865",
+          "H2_log_improvement_over_same_function_L1": "33.706923442027792220247686048228251128294909601806",
+          "H2_log_slack_above_actual_value": "0.5247410347443464398922507078934412640182",
+          "H2_relative_exponent_beats_strict_threshold": false,
+          "absolute_log_change_tail_180_to_240": "0.0",
+          "absolute_log_change_working_precision_120_to_180_dps": "3.969125345e-88",
+          "actual_endpoint_value_constant_minus_quadratic_times_pi_squared": "-1175675.70387714788064285971198778333451858494133885755579416",
+          "continuous_optimizer_is_not_claimed_rational_or_integral": true,
+          "finite_diagnostic_only": true,
+          "high_precision_H2_log_upper_bound_is_below_zero": false,
+          "label": "shortest_global_LLL_row",
+          "log_actual_endpoint_absolute_value": "13.977353607402146898070684659212917601410314596061",
+          "maximum_endpoint_constraint_residual": "7.021788652e-142",
+          "optimized_H2_log_upper_bound": "14.502094642146493337962935367106358865428520267525",
+          "optimized_H2_radius": "4.6160046638972537638106352723615125516481462279396",
+          "primitive_endpoint_coefficients_constant_quadratic": [
+            "105148824123101675520",
+            "10653803318752779871"
+          ],
+          "primitive_endpoint_height": "105148824123101675520",
+          "quotient_gram_log10_condition_number": "12.491343861248124684463763428",
+          "rational_affine_fiber_has_the_same_infimum_by_density": true,
+          "same_function_optimized_coefficientwise_L1_log_upper_bound": "48.20901808417428555821062141533460999372342986933",
+          "same_function_optimized_coefficientwise_L1_radius": "17.030596790145543973307590353908595873213294955399",
+          "source_saturated_LLL_row": 0,
+          "strict_relative_threshold_for_r_equals_1_degree_2": "3"
+        },
+        {
+          "H2_certified_relative_exponent": "0.7612065111297817166889023041230650815069",
+          "H2_log_improvement_over_n": "3.604683396709644567055784445508172120672",
+          "H2_log_improvement_over_n_log_n": "1.565494108199269061125627450659792452327",
+          "H2_log_improvement_over_same_function_L1": "36.046833967096445670557844455081721206716338186366",
+          "H2_log_slack_above_actual_value": "0.3724926555039625364623669180884131404673",
+          "H2_relative_exponent_beats_strict_threshold": false,
+          "absolute_log_change_tail_180_to_240": "0.0",
+          "absolute_log_change_working_precision_120_to_180_dps": "1.441481255e-90",
+          "actual_endpoint_value_constant_minus_quadratic_times_pi_squared": "69995.6854715949261269087536171537200347356176232189483994873",
+          "continuous_optimizer_is_not_claimed_rational_or_integral": true,
+          "finite_diagnostic_only": true,
+          "high_precision_H2_log_upper_bound_is_below_zero": false,
+          "label": "best_value_among_global_LLL_rows",
+          "log_actual_endpoint_absolute_value": "11.156188883011839852767390649974413379619533208284",
+          "maximum_endpoint_constraint_residual": "8.260915452e-144",
+          "optimized_H2_log_upper_bound": "11.528681538515802389229757568062826520086850682433",
+          "optimized_H2_radius": "5.4329404060471230371159862935956298945155013192444",
+          "primitive_endpoint_coefficients_constant_quadratic": [
+            "927363469867650908160",
+            "93961564433655820907"
+          ],
+          "primitive_endpoint_height": "927363469867650908160",
+          "quotient_gram_log10_condition_number": "12.1449544021086061274054418994",
+          "rational_affine_fiber_has_the_same_infimum_by_density": true,
+          "same_function_optimized_coefficientwise_L1_log_upper_bound": "47.5755155056122480597876020231445477268031888688",
+          "same_function_optimized_coefficientwise_L1_radius": "17.085162923759139797961732953764890554597300814038",
+          "source_saturated_LLL_row": 2,
+          "strict_relative_threshold_for_r_equals_1_degree_2": "3"
+        }
+      ],
+      "saturated_global_image_rank": 3,
+      "tail_kernel_audit": {
+        "hnf_and_lll_transformations_verified": true,
+        "hnf_zero_row_count": 3,
+        "kernel_dimension": 3,
+        "lll_basis_height": "20467994568899550105600",
+        "lll_basis_height_decimal_digits": 23
+      }
+    }
+  ],
+  "schema": "root-unity-hardy-h2-saturated-circle-v1"
+}

@@ -1,0 +1,65 @@
+{
+  "item": 370,
+  "schema": "item370-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_Q_FREE_GENERIC_SINGLETON_RESIDUAL_SATURATION",
+  "scope": "independent root audit of endpoint-reduced localized singleton-chart kernels, load-degree and portfolio bounds, coefficient-content carriers, residual admission, and zero booking",
+  "checks": {
+    "work_hash_list_entries": 6,
+    "work_hash_list_failures": 0,
+    "frozen_dependencies_checked": 28,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "independent_variable_counts": 7,
+    "independent_intersection_monomials": 119,
+    "independent_below_degree_monomials": 2353,
+    "independent_content_prime_checks": 2400,
+    "independent_portfolio_covers": 2400,
+    "independent_rows_digest": "8dc6470b54b85e4c27c03b4f4010a75ac09daccf0e84cd74f414a68e13400656",
+    "prime_or_target_census_performed": false,
+    "density_inference_from_finite_controls": false,
+    "canonical_format_repair": "restored two missing TeX divisibility backslashes in the coefficient-content displays"
+  },
+  "mathematical_audit": {
+    "endpoint_chart": "Item365's p-unit endpoint coefficient eliminates d1, leaving d2 and the retained loads as independent polynomial coordinates over F_p.",
+    "localization": "On chart j, setting X_j=0 and inverting the outside loads does not change contraction because no inverted variable lies in the prime ideal (X_j). The chart kernel is exactly (X_j).",
+    "intersection": "Distinct coordinate variables are pairwise coprime primes in the polynomial ring, so the intersection of all singleton-chart ideals is the principal product ideal (product_j X_j).",
+    "degree": "A nonzero numerator in the product ideal contains every active load and has total load degree at least N. A lower-degree numerator or one omitting a load must be the zero polynomial modulo p.",
+    "content": "An integer polynomial is zero modulo p exactly when p divides every coefficient, equivalently p divides its positive coefficient content. Hence a prime-independent low-degree generic residual captures actual singleton primes only through a nonzero content carrier.",
+    "portfolio": "A noncontent numerator assigned chart set S must contain product_(j in S) X_j and pay degree at least |S|. A full noncontent cover pays total degree at least N; charts not so paid must enter content branches.",
+    "admission": "Primitive content captures no prime, the zero polynomial is not a nonzero carrier, candidate-dependent constants merely insert the target primes, and a denominator vanishing on a chart is undefined.",
+    "scope": "The theorem concerns generic localized chart identities. It does not close accidental correlations at the unique canonical point or full-support degree-N beta-height states. No actual sub-beta content is constructed."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "endpoint-reduced localized chart kernel and product intersection",
+      "load-degree/full-support lower bound",
+      "portfolio degree bound",
+      "coefficient-content carrier implication",
+      "zero booking"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "primitive generic residuals below load degree N",
+      "bounded windows omitting a possible hit row",
+      "bounded noncontent portfolios below their assigned chart count",
+      "unit rational denominators as an escape"
+    ],
+    "OPEN": [
+      "a nonzero sub-beta content satisfying actual singleton divisibility",
+      "unique-canonical-point correlations",
+      "full-support degree-N recurrence cancellation",
+      "nonlinear gcd/radical/trace/quotient arithmetic",
+      "the singleton bound, beta capacity, Route 1, and e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_singleton_maximum": "log U_11<=log b",
+    "closed_class_carrier": "absolute coefficient content",
+    "constructed_nonzero_sub_beta_content": false,
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "new_booking": 0
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "algebraic_saddle_witness": {
+    "P_resultant_Pprime": "9900",
+    "cancellation_identity": "2f1-5f0=-A H'/H, A=(1-y^2)/(2(1+y^2))",
+    "cancellation_identity_verified": true,
+    "common_phase": "H(y)=(1-y)^6/(y^4(1+y^2)^4)",
+    "critical_polynomial_coefficients_ascending": [
+      "-2",
+      "-1",
+      "-6",
+      "3"
+    ],
+    "critical_value_polynomial_coefficients_ascending": [
+      "-531441",
+      "4819949712",
+      "68124672",
+      "262144"
+    ],
+    "critical_value_polynomial_discriminant": "-9597549474870371132689612800000000",
+    "critical_value_relation_remainder_mod_P": [
+      "0"
+    ],
+    "critical_value_resultant_exact_checks_t_1_to_4": {
+      "1": "312819525568",
+      "2": "634493684672",
+      "3": "965089128384",
+      "4": "1304706520000"
+    },
+    "critical_value_resultant_identity": "Res_y(P,t*H_den-H_num)=64*R(t)",
+    "fixed_amplitude_ratio_identity": "f1/f0-5/2=-P/(2y(1+y^2))",
+    "h_modulus_polynomial_coefficients_ascending": [
+      "-4",
+      "12",
+      "3",
+      "9"
+    ],
+    "integration_by_parts": "D_m=CT(qH^m)/m",
+    "log_derivative_identity": "H'/H=2P/(y(1-y)(1+y^2))",
+    "log_derivative_identity_verified": true,
+    "phase_consequence": "the two complex critical points have distinct nonreal conjugate H-values",
+    "q": "(y^4-4y^2-1)/(2y(1+y^2)^2)",
+    "q_identity_verified": true,
+    "resultant_P_f0numerator": "10",
+    "resultant_P_qnumerator": "176",
+    "unique_fixed_cancellation": "D_m=2lambda1,m-5lambda0,m",
+    "vieta_identity": "9x^3 P(2/(3x))=-2(9x^3+3x^2+12x-4)",
+    "vieta_identity_verified": true
+  },
+  "analytic_claim_pinned_to_report": {
+    "cancelled_case": "2a+5b=0: exact integration by parts leaves nonzero q amplitude and m^(-3/2)",
+    "method_consequence": "no absolute height bound for a fixed normalized coordinate combination can have exponential base below rho_star*exp(-C_F)",
+    "ordinary_case": "2a+5b nonzero: nonzero m^(-1/2) saddle amplitude",
+    "statement": "for every fixed nonzero rational pair (a,b), limsup |a lambda0,m+b lambda1,m|^(1/m)=rho_star"
+  },
+  "capacity": {
+    "booked_lower_bound_delta": "0",
+    "component_ceiling_delta": "0",
+    "forced_C_F_per_m": "2.3370475079987656871108854825770265739245373841199679142912478983225187686299638",
+    "frozen_deficit_delta": "0",
+    "global_total_content_ceiling_delta": "0",
+    "normalized_fixed_combination_root_base": "13.100407178233310214338214279652286051296541428783380911419830218398423938437992",
+    "rho_star": "135.59748390085482125022597033065136045349825862440822221618012577899210114806858",
+    "unchanged_component_ceiling": "0.42877388533865786894576038290962190825322503544392072892659846327461252009352478"
+  },
+  "complex_numeric_witness": {
+    "H_alpha": [
+      "-129.93755512922363",
+      "-38.76737555319589"
+    ],
+    "abs_H_alpha": "135.59748390085474",
+    "alpha": [
+      "-0.13763971745141637",
+      "0.52350703140707611"
+    ],
+    "f1_over_f0": [
+      "2.5000000000000009",
+      "-4.9475341325476218e-16"
+    ],
+    "q_alpha_abs": "1.0481823851854868",
+    "role": "floating cross-check only; exact claims use polynomial identities and resultants"
+  },
+  "dependency_sha256": {
+    "manifests/item418_normalized_large_carrier_manifest.json": "22f0c0fcdacf6b887ad11adeb7341408551a20a60321ad7d44cd3eeb35ea68cb",
+    "results/item390_mixed_cubic_fresh_primitive_saturation_certificate.json": "45b61f683a29305e4fcfd8810f146068f950070496e8e88a2a6b800f9dc1ada6",
+    "results/item390_mixed_cubic_fresh_primitive_saturation_root_audit.json": "8287cf78f5af6e4824c2034bd9af2aa5c7669afc0eb555c926ef59ab74914813",
+    "results/item415_marked_selector_compulsory_strip_certificate.json": "af731cf70e9a6d40cab380d38d5b404786cefef196eb42f743634b8d390cb29e",
+    "results/item415_marked_selector_compulsory_strip_root_audit.json": "123576c914528abdc1e3ffa3993e5161c56f92ac21e4ec33b9c6f450edfa653c",
+    "results/item418_normalized_large_carrier_certificate.json": "bcea1e6be723e48e3d1ca63bc5644b208059e5138799108ea403b0ba5d789075",
+    "results/item418_normalized_large_carrier_hashes.sha256": "688a95b3eb20f54b59b5418af02097d54f3ac6ef4c8eff5b9d9e3d0775cdb38b",
+    "results/item418_normalized_large_carrier_root_audit.json": "530eb0827398480fcff5c8afb564c174d6f9cab8f6be00f5e965ed796eb29c63",
+    "sources/item390_mixed_cubic_fresh_primitive_saturation_report.md": "5bfb3c871b12524f672df515e920236f2470145d4f68bdcd7b47f29408692f46",
+    "sources/item415_marked_selector_compulsory_strip_report.md": "da79ea786471a6abb35288f242a0b0b2307a695bd9352eaa3c4e2033fc701777",
+    "sources/item418_normalized_large_carrier_report.md": "5b490e38d127deec51cac34a80c6856ed824534daad8fc3a387fe6cbb7f7db68"
+  },
+  "exact_coefficient_rows": [
+    {
+      "CT(qH^m)": "-29",
+      "D=2lambda1-5lambda0": "-29",
+      "lambda0": "-35",
+      "lambda1": "-102",
+      "m": 1
+    },
+    {
+      "CT(qH^m)": "3058",
+      "D=2lambda1-5lambda0": "1529",
+      "lambda0": "2475",
+      "lambda1": "6952",
+      "m": 2
+    },
+    {
+      "CT(qH^m)": "-311712",
+      "D=2lambda1-5lambda0": "-103904",
+      "lambda0": "-144976",
+      "lambda1": "-414392",
+      "m": 3
+    },
+    {
+      "CT(qH^m)": "29186356",
+      "D=2lambda1-5lambda0": "7296589",
+      "lambda0": "141151",
+      "lambda1": "4001172",
+      "m": 4
+    },
+    {
+      "CT(qH^m)": "-2270584725",
+      "D=2lambda1-5lambda0": "-454116945",
+      "lambda0": "2049154065",
+      "lambda1": "4895826690",
+      "m": 5
+    },
+    {
+      "CT(qH^m)": "95097924504",
+      "D=2lambda1-5lambda0": "15849654084",
+      "lambda0": "-489394653300",
+      "lambda1": "-1215561806208",
+      "m": 6
+    },
+    {
+      "CT(qH^m)": "12827661823452",
+      "D=2lambda1-5lambda0": "1832523117636",
+      "lambda0": "85986654528300",
+      "lambda1": "215882897879568",
+      "m": 7
+    },
+    {
+      "CT(qH^m)": "-4666408666365592",
+      "D=2lambda1-5lambda0": "-583301083295699",
+      "lambda0": "-13115629949671953",
+      "lambda1": "-33080725415827732",
+      "m": 8
+    },
+    {
+      "CT(qH^m)": "937918140081107913",
+      "D=2lambda1-5lambda0": "104213126675678657",
+      "lambda0": "1819545849335647615",
+      "lambda1": "4600971186676958366",
+      "m": 9
+    },
+    {
+      "CT(qH^m)": "-154667778181989358790",
+      "D=2lambda1-5lambda0": "-15466777818198935879",
+      "lambda0": "-232910833726432908725",
+      "lambda1": "-590010473225181739752",
+      "m": 10
+    },
+    {
+      "CT(qH^m)": "22732895439684431475936",
+      "D=2lambda1-5lambda0": "2066626858153130134176",
+      "lambda0": "27448529611119430413600",
+      "lambda1": "69654637456875141101088",
+      "m": 11
+    },
+    {
+      "CT(qH^m)": "-3059836148575401086610672",
+      "D=2lambda1-5lambda0": "-254986345714616757217556",
+      "lambda0": "-2919834071855631567326620",
+      "lambda1": "-7427078352496387296925328",
+      "m": 12
+    },
+    {
+      "CT(qH^m)": "379329007606532814843183028",
+      "D=2lambda1-5lambda0": "29179154431271754987937156",
+      "lambda0": "264716185519042689122042044",
+      "lambda1": "676380041013242600299073688",
+      "m": 13
+    },
+    {
+      "CT(qH^m)": "-42874369760883537622596464544",
+      "D=2lambda1-5lambda0": "-3062454982920252687328318896",
+      "lambda0": "-16577785323884700959616837648",
+      "lambda1": "-42975690801171878742706253568",
+      "m": 14
+    },
+    {
+      "CT(qH^m)": "4266452038848002035232653236420",
+      "D=2lambda1-5lambda0": "284430135923200135682176882428",
+      "lambda0": "-370330683901550031803438324556",
+      "lambda1": "-783611641792275011667507370176",
+      "m": 15
+    },
+    {
+      "CT(qH^m)": "-335494614149350512418268462860080",
+      "D=2lambda1-5lambda0": "-20968413384334407026141778928755",
+      "lambda0": "378460014833534039490944973055215",
+      "lambda1": "935665830391667895214291543173660",
+      "m": 16
+    }
+  ],
+  "generator": "item420_normalized_contour_extension_certificate.py",
+  "generator_sha256": "66615d542cadaacac36cab5a23565838f55690b15d617814d676c6c99785cc0e",
+  "item": 420,
+  "schema": "item420-normalized-contour-extension-v1",
+  "status": "CANONICAL_ROOT_AUDITED_SCOPED_HEIGHT_NO_GO_NO_BOOKING",
+  "strict_claims": {
+    "OPEN": [
+      "m-dependent coordinate combinations",
+      "joint gcd or resultant bounds",
+      "weighted zero density for the actual normalized pair",
+      "Route 1 and irrationality of e+pi"
+    ],
+    "PROVED": [
+      "unique leading fixed-coordinate cancellation D=2lambda1-5lambda0",
+      "exact integration-by-parts identity D=CT(qH^m)/m",
+      "q is nonzero at every critical point",
+      "all fixed nonzero rational combinations retain limsup root rho_star",
+      "zero ledger delta"
+    ],
+    "SCOPED_NO_GO": [
+      "fixed-coordinate linear-combination height arguments, including asymmetric or noncircular absolute contour estimates, cannot improve Item418's exponential base"
+    ]
+  },
+  "witness_sha256": "e5e73a3478469529e7c7c349b218380dd62fd336b9061c3bee72069d29bf5ab0"
+}

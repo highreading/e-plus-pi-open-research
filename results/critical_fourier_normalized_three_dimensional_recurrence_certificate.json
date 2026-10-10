@@ -1,0 +1,191 @@
+{
+  "cases": [
+    {
+      "admissible_v_count": 17,
+      "all_target_zero_v": [],
+      "b1_integer_range": [
+        28,
+        42
+      ],
+      "c": 17,
+      "g2_scalar_integer_range": [
+        1,
+        15
+      ],
+      "generic_target_zero_records": [],
+      "n": 4,
+      "normalized_relation_checks": 30,
+      "p_n_mod_prime": 12,
+      "prime": 43,
+      "q_n_mod_prime_squared": 1001,
+      "q_n_over_prime_mod_prime": null,
+      "recurrence_step_count": 15,
+      "state_transcript_sha256": "fa5aa8e247cd4f2ec0813d89e99822b60b90e193f916ccd34946fb5265aaedde",
+      "target_sequence_sha256": null,
+      "transition_reconstruction_checks": 30,
+      "unnormalized_relation_checks": 30,
+      "v_prime_q_n": 0
+    },
+    {
+      "admissible_v_count": 404,
+      "all_target_zero_v": [
+        264
+      ],
+      "b1_integer_range": [
+        535,
+        936
+      ],
+      "c": 404,
+      "g2_scalar_integer_range": [
+        1,
+        402
+      ],
+      "generic_target_zero_records": [
+        {
+          "D": 257,
+          "K": 797,
+          "Phi": 373,
+          "U": 463,
+          "kappa": 586,
+          "left_side_mod_prime": 833,
+          "normalized_U": 610,
+          "normalized_left_side_mod_prime": 35,
+          "normalized_right_side_mod_prime": 35,
+          "right_side_mod_prime": 833,
+          "s": 529,
+          "v": 264
+        }
+      ],
+      "n": 64,
+      "normalized_relation_checks": 804,
+      "p_n_mod_prime": 397,
+      "prime": 937,
+      "q_n_mod_prime_squared": 563137,
+      "q_n_over_prime_mod_prime": 601,
+      "recurrence_step_count": 402,
+      "state_transcript_sha256": "84cd1ff107e866f24209aa67b622b8e1f54ce9652ca30c3ea36ecd8858403059",
+      "target_sequence_sha256": "de44c4cdb29ed59fdaf1823d9ba69aa637f9fa56325fb49b8ca474f200853d9f",
+      "transition_reconstruction_checks": 804,
+      "unnormalized_relation_checks": 804,
+      "v_prime_q_n": 1
+    },
+    {
+      "admissible_v_count": 394,
+      "all_target_zero_v": [
+        55,
+        281
+      ],
+      "b1_integer_range": [
+        561,
+        952
+      ],
+      "c": 394,
+      "g2_scalar_integer_range": [
+        1,
+        392
+      ],
+      "generic_target_zero_records": [
+        {
+          "D": 405,
+          "K": 614,
+          "Phi": 300,
+          "U": 210,
+          "kappa": 49,
+          "left_side_mod_prime": 317,
+          "normalized_U": 685,
+          "normalized_left_side_mod_prime": 376,
+          "normalized_right_side_mod_prime": 376,
+          "right_side_mod_prime": 317,
+          "s": 111,
+          "v": 55
+        },
+        {
+          "D": 402,
+          "K": 840,
+          "Phi": 950,
+          "U": 632,
+          "kappa": 819,
+          "left_side_mod_prime": 237,
+          "normalized_U": 422,
+          "normalized_left_side_mod_prime": 873,
+          "normalized_right_side_mod_prime": 873,
+          "right_side_mod_prime": 237,
+          "s": 563,
+          "v": 281
+        }
+      ],
+      "n": 82,
+      "normalized_relation_checks": 784,
+      "p_n_mod_prime": 662,
+      "prime": 953,
+      "q_n_mod_prime_squared": 141997,
+      "q_n_over_prime_mod_prime": 149,
+      "recurrence_step_count": 392,
+      "state_transcript_sha256": "d859f515861e1dd6353a58dacb25ed2f047800c3ebf7669c20f384970de68794",
+      "target_sequence_sha256": "23977f06645f5b3a25d4cbf211cf26ac8596f54e7eb7255673d86989daafb532",
+      "transition_reconstruction_checks": 784,
+      "unnormalized_relation_checks": 784,
+      "v_prime_q_n": 1
+    }
+  ],
+  "description": "Exact Gaussian-residue-ring certificate for the normalized three-dimensional endpoint-integral recurrence",
+  "proof_status": "The finite checks are diagnostic; the all-parameter proof is in the companion source note.",
+  "two_return_counterexample": {
+    "admissible_v_count": 394,
+    "all_target_zero_v": [
+      55,
+      281
+    ],
+    "b1_integer_range": [
+      561,
+      952
+    ],
+    "c": 394,
+    "g2_scalar_integer_range": [
+      1,
+      392
+    ],
+    "generic_target_zero_records": [
+      {
+        "D": 405,
+        "K": 614,
+        "Phi": 300,
+        "U": 210,
+        "kappa": 49,
+        "left_side_mod_prime": 317,
+        "normalized_U": 685,
+        "normalized_left_side_mod_prime": 376,
+        "normalized_right_side_mod_prime": 376,
+        "right_side_mod_prime": 317,
+        "s": 111,
+        "v": 55
+      },
+      {
+        "D": 402,
+        "K": 840,
+        "Phi": 950,
+        "U": 632,
+        "kappa": 819,
+        "left_side_mod_prime": 237,
+        "normalized_U": 422,
+        "normalized_left_side_mod_prime": 873,
+        "normalized_right_side_mod_prime": 873,
+        "right_side_mod_prime": 237,
+        "s": 563,
+        "v": 281
+      }
+    ],
+    "n": 82,
+    "normalized_relation_checks": 784,
+    "p_n_mod_prime": 662,
+    "prime": 953,
+    "q_n_mod_prime_squared": 141997,
+    "q_n_over_prime_mod_prime": 149,
+    "recurrence_step_count": 392,
+    "state_transcript_sha256": "d859f515861e1dd6353a58dacb25ed2f047800c3ebf7669c20f384970de68794",
+    "target_sequence_sha256": "23977f06645f5b3a25d4cbf211cf26ac8596f54e7eb7255673d86989daafb532",
+    "transition_reconstruction_checks": 784,
+    "unnormalized_relation_checks": 784,
+    "v_prime_q_n": 1
+  }
+}

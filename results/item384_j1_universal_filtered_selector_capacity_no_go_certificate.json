@@ -1,0 +1,227 @@
+{
+  "all_family_theorem": {
+    "CRT_selector": "least Z is 0 mod p on S and 1 mod p off S; shifted Z_tilde=Z+P_M is nonzero below 2P_M with the same residues",
+    "actual_row": "h=3M-2p, s=(3p-4M-1)/2",
+    "candidate_set": "P_M={p prime:(4M+3)/3 <= p <= (3M-1)/2}",
+    "connection": "omega_i=dq_i/(1-2q_i), two fixed logarithmic pole components",
+    "exact_radical": "gcd(P_M,Z_tilde,Z_tilde)=product_(p in S) p",
+    "filtered_family": "E(q1) direct_sum E(q2), A_q=[[p,0],[pq,1]], Fil^1=<e1>",
+    "fixed_finite_codimension_generalization": "direct sum of k copies has rank 2k, filtration rank k, determinant p^k, k pole components, and codimension-k joint divisor; the diagonal CRT selector realizes every subset",
+    "joint_Hasse_divisor": "q1=q2=0, codimension 2",
+    "selector_regularity": "q_i in {0,1}, hence 1-2q_i in {1,-1}",
+    "sharp_capacity": "sup information-class joint-zero mass=log P_M=M/6+o(M)"
+  },
+  "capacity": {
+    "actual_W_H_T_bound_proved": false,
+    "booking": 0,
+    "information_class_full_capacity_attained": true,
+    "new_fixed_j1_capacity_reduction": 0,
+    "new_linear_log_rate": 0,
+    "raw_ceiling_per_6M": "1/36",
+    "raw_log_mass": "M/6+o(M)",
+    "retained_fixed_j1_ceiling_per_6M": "1/36"
+  },
+  "date": "2026-09-01",
+  "dependency_hashes_verified": true,
+  "formal_connection_controls": [
+    {
+      "classification": "DECLARED EXACT FORMAL-SERIES CONTROL; NOT PRIME-DISTRIBUTION EVIDENCE",
+      "horizontal_identity": "dPhi/[p(1-2Phi)]=dq/(1-2q)+dq",
+      "lambda": 2,
+      "lift_coefficients_p_adically_integral": true,
+      "lift_reduces_to_absolute_Frobenius": true,
+      "one_minus_2Phi_identity": true,
+      "phi_truncation_sha256": "48acdb73fe8320aabf253e17a44bf72d2a4650c5360162bf5587a567b1f8db57",
+      "prime": 13,
+      "verified_through_degree": 12
+    },
+    {
+      "classification": "DECLARED EXACT FORMAL-SERIES CONTROL; NOT PRIME-DISTRIBUTION EVIDENCE",
+      "horizontal_identity": "dPhi/[p(1-2Phi)]=dq/(1-2q)+dq",
+      "lambda": 2,
+      "lift_coefficients_p_adically_integral": true,
+      "lift_reduces_to_absolute_Frobenius": true,
+      "one_minus_2Phi_identity": true,
+      "phi_truncation_sha256": "b147da2429681b6ba40bcdf187b3864e492c8bafdad5d8bd89488b9e4189e915",
+      "prime": 17,
+      "verified_through_degree": 12
+    }
+  ],
+  "item": 384,
+  "proved_scope": {
+    "actual_selector_arbitrary_claimed": false,
+    "actual_weighted_bound_claimed": false,
+    "collision_scan_performed": false,
+    "compatible_system_claimed": false,
+    "finite_to_asymptotic_inference": false,
+    "information_class_closed": "rowwise bounded-rank/fixed-Hodge/codimension-two/flat/bounded-pole/no-splitting package plus raw-scale CRT height"
+  },
+  "schema": "item384-j1-universal-filtered-selector-capacity-no-go-certificate-v1",
+  "subset_controls": [
+    {
+      "M": 9,
+      "actual_rows_h_s": [
+        [
+          1,
+          1
+        ]
+      ],
+      "all_radical_identities_verified": true,
+      "all_selector_points_avoid_fixed_poles": true,
+      "all_shifted_selectors_nonzero_below_2P": true,
+      "all_subset_digest_sha256": "df43f72ff7b1c56aebd2e5b4b56762577e26ed0ad98e7c9edbf1470ac5152da5",
+      "candidate_primes": [
+        13
+      ],
+      "classification": "DECLARED FIXED-M ALL-SUBSET CRT CONTROL; NOT DISTRIBUTION EVIDENCE",
+      "empty_selector": 1,
+      "empty_shifted_selector": 14,
+      "full_selector": 0,
+      "full_shifted_selector": 13,
+      "product": 13,
+      "subset_count": 2
+    },
+    {
+      "M": 34,
+      "actual_rows_h_s": [
+        [
+          8,
+          2
+        ]
+      ],
+      "all_radical_identities_verified": true,
+      "all_selector_points_avoid_fixed_poles": true,
+      "all_shifted_selectors_nonzero_below_2P": true,
+      "all_subset_digest_sha256": "be7d2d4721c7fb2ea1c2a7a4894701f7d6e90deef64924879dad4edaf12a22bf",
+      "candidate_primes": [
+        47
+      ],
+      "classification": "DECLARED FIXED-M ALL-SUBSET CRT CONTROL; NOT DISTRIBUTION EVIDENCE",
+      "empty_selector": 1,
+      "empty_shifted_selector": 48,
+      "full_selector": 0,
+      "full_shifted_selector": 47,
+      "product": 47,
+      "subset_count": 2
+    },
+    {
+      "M": 76,
+      "actual_rows_h_s": [
+        [
+          22,
+          2
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          2,
+          17
+        ]
+      ],
+      "all_radical_identities_verified": true,
+      "all_selector_points_avoid_fixed_poles": true,
+      "all_shifted_selectors_nonzero_below_2P": true,
+      "all_subset_digest_sha256": "8da0d62eb84af585f005b27b6836ba01a2a0c716ae4cabaaca57797161ffedfc",
+      "candidate_primes": [
+        103,
+        107,
+        109,
+        113
+      ],
+      "classification": "DECLARED FIXED-M ALL-SUBSET CRT CONTROL; NOT DISTRIBUTION EVIDENCE",
+      "empty_selector": 1,
+      "empty_shifted_selector": 135745658,
+      "full_selector": 0,
+      "full_shifted_selector": 135745657,
+      "product": 135745657,
+      "subset_count": 16
+    },
+    {
+      "M": 120,
+      "actual_rows_h_s": [
+        [
+          34,
+          4
+        ],
+        [
+          26,
+          10
+        ],
+        [
+          14,
+          19
+        ],
+        [
+          2,
+          28
+        ]
+      ],
+      "all_radical_identities_verified": true,
+      "all_selector_points_avoid_fixed_poles": true,
+      "all_shifted_selectors_nonzero_below_2P": true,
+      "all_subset_digest_sha256": "08385e4c5a889f2cf127f7b66b500901936b7217e4ecafcfea50ff96c0982a6a",
+      "candidate_primes": [
+        163,
+        167,
+        173,
+        179
+      ],
+      "classification": "DECLARED FIXED-M ALL-SUBSET CRT CONTROL; NOT DISTRIBUTION EVIDENCE",
+      "empty_selector": 1,
+      "empty_shifted_selector": 842952708,
+      "full_selector": 0,
+      "full_shifted_selector": 842952707,
+      "product": 842952707,
+      "subset_count": 16
+    },
+    {
+      "M": 180,
+      "actual_rows_h_s": [
+        [
+          58,
+          1
+        ],
+        [
+          38,
+          16
+        ],
+        [
+          26,
+          25
+        ],
+        [
+          14,
+          34
+        ],
+        [
+          2,
+          43
+        ]
+      ],
+      "all_radical_identities_verified": true,
+      "all_selector_points_avoid_fixed_poles": true,
+      "all_shifted_selectors_nonzero_below_2P": true,
+      "all_subset_digest_sha256": "f5e55dea30413fbfd20aea8f51a0be505b82adc820becc62f57157c61f810c64",
+      "candidate_primes": [
+        241,
+        251,
+        257,
+        263,
+        269
+      ],
+      "classification": "DECLARED FIXED-M ALL-SUBSET CRT CONTROL; NOT DISTRIBUTION EVIDENCE",
+      "empty_selector": 1,
+      "empty_shifted_selector": 1099846091690,
+      "full_selector": 0,
+      "full_shifted_selector": 1099846091689,
+      "product": 1099846091689,
+      "subset_count": 32
+    }
+  ]
+}

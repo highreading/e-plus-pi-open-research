@@ -1,0 +1,530 @@
+{
+  "defect_lemma": {
+    "C_expansion": "Only terms with h+a<=2 survive after scaling by binom(2alpha,q-1); every omitted term has relative v3>=3.",
+    "C_ratio_denominator_coefficients_ascending": [
+      -7290,
+      25029,
+      -48411,
+      45468,
+      -21105,
+      5311,
+      -834,
+      72
+    ],
+    "C_ratio_numerator_coefficients_ascending": [
+      0,
+      -28512,
+      21330,
+      3969,
+      -3675,
+      -299,
+      129,
+      18
+    ],
+    "T_expansion": "Only pole-tail deficits h<=2 survive after scaling by binom(alpha,(q-1)/2); every omitted term has relative v3>=3.",
+    "T_ratio_denominator_coefficients_ascending": [
+      -1296,
+      1476,
+      -1770,
+      980,
+      132,
+      -228,
+      54,
+      12
+    ],
+    "T_ratio_numerator_coefficients_ascending": [
+      -2592,
+      13482,
+      -6471,
+      -6505,
+      726,
+      636,
+      81,
+      3
+    ],
+    "precision": "relative modulo 27"
+  },
+  "generator": "item396_fixed_gap_resultant_3adic_certificate.py",
+  "generator_sha256": "524b1fc2cfb9072cc1c162c8ace5fe033ed2d57aaf266c8910ac71b2b3f44aac",
+  "method_class_no_go": {
+    "conclusion": "At row m the height comparison can operate only on O(log m) gaps, apart from finitely many q.",
+    "hypothesis": "A nonzero carrier N_q has |N_q|<=A*q^C*B^q with A>0, C>=0, B>1, and exclusions use only p>A*q^C*B^q.",
+    "normalized_chebyshev_capacity": "0",
+    "weighted_mass": "O((log m)^2)=o(m)"
+  },
+  "moving_gap_corridor": {
+    "asymptotic_width": "(log m-4 log log m+O(1))/log(62208)",
+    "definition": "Q_m=floor((log(m)-4*log(log(m))-log(129))/log(62208)) when the numerator is positive",
+    "diagnostic_rows": [
+      {
+        "Q_m": 2,
+        "m": "10^20",
+        "top_gap_exact_height_below_6m": true
+      },
+      {
+        "Q_m": 8,
+        "m": "10^50",
+        "top_gap_exact_height_below_6m": true
+      },
+      {
+        "Q_m": 18,
+        "m": "10^100",
+        "top_gap_exact_height_below_6m": true
+      },
+      {
+        "Q_m": 39,
+        "m": "10^200",
+        "top_gap_exact_height_below_6m": true
+      },
+      {
+        "Q_m": 101,
+        "m": "10^500",
+        "top_gap_exact_height_below_6m": true
+      }
+    ],
+    "exact_implication": "Every prime 6m<p<=6m+Q_m does not divide both lambda0 and lambda1.",
+    "proof_chain": [
+      "For q<=Q_m, 62208^q<=m/(129*(log m)^4).",
+      "Positivity of Q_m implies q<log m, hence q^3<=(log m)^3.",
+      "Therefore 129*q^3*62208^q<=m/log m<6m<p."
+    ]
+  },
+  "normalization_crosscheck": {
+    "finite_rows_are_not_the_proof": true,
+    "purpose": "Cross-check the symbolic defect normalization against the frozen exact coefficient definitions.",
+    "rows": [
+      {
+        "actual_v3": 1,
+        "predicted_v3": 1,
+        "q": 1,
+        "ratio_normalization": null,
+        "resultant_nonzero": true
+      },
+      {
+        "actual_v3": -6,
+        "predicted_v3": -6,
+        "q": 5,
+        "ratio_normalization": {
+          "defect_C_ratio_mod_27": 19,
+          "defect_T_ratio_mod_27": 4,
+          "exact_C_ratio_mod_27": 19,
+          "exact_T_ratio_mod_27": 4
+        },
+        "resultant_nonzero": true
+      },
+      {
+        "actual_v3": -11,
+        "predicted_v3": -11,
+        "q": 7,
+        "ratio_normalization": {
+          "defect_C_ratio_mod_27": 22,
+          "defect_T_ratio_mod_27": 10,
+          "exact_C_ratio_mod_27": 22,
+          "exact_T_ratio_mod_27": 10
+        },
+        "resultant_nonzero": true
+      },
+      {
+        "actual_v3": -19,
+        "predicted_v3": -19,
+        "q": 11,
+        "ratio_normalization": {
+          "defect_C_ratio_mod_27": 10,
+          "defect_T_ratio_mod_27": 13,
+          "exact_C_ratio_mod_27": 10,
+          "exact_T_ratio_mod_27": 13
+        },
+        "resultant_nonzero": true
+      },
+      {
+        "actual_v3": -24,
+        "predicted_v3": -24,
+        "q": 13,
+        "ratio_normalization": {
+          "defect_C_ratio_mod_27": 13,
+          "defect_T_ratio_mod_27": 19,
+          "exact_C_ratio_mod_27": 13,
+          "exact_T_ratio_mod_27": 19
+        },
+        "resultant_nonzero": true
+      },
+      {
+        "actual_v3": -31,
+        "predicted_v3": -31,
+        "q": 17,
+        "ratio_normalization": {
+          "defect_C_ratio_mod_27": 1,
+          "defect_T_ratio_mod_27": 22,
+          "exact_C_ratio_mod_27": 1,
+          "exact_T_ratio_mod_27": 22
+        },
+        "resultant_nonzero": true
+      },
+      {
+        "actual_v3": -38,
+        "predicted_v3": -38,
+        "q": 19,
+        "ratio_normalization": {
+          "defect_C_ratio_mod_27": 4,
+          "defect_T_ratio_mod_27": 1,
+          "exact_C_ratio_mod_27": 4,
+          "exact_T_ratio_mod_27": 1
+        },
+        "resultant_nonzero": true
+      },
+      {
+        "actual_v3": -45,
+        "predicted_v3": -45,
+        "q": 23,
+        "ratio_normalization": {
+          "defect_C_ratio_mod_27": 19,
+          "defect_T_ratio_mod_27": 4,
+          "exact_C_ratio_mod_27": 19,
+          "exact_T_ratio_mod_27": 4
+        },
+        "resultant_nonzero": true
+      },
+      {
+        "actual_v3": -50,
+        "predicted_v3": -50,
+        "q": 25,
+        "ratio_normalization": {
+          "defect_C_ratio_mod_27": 22,
+          "defect_T_ratio_mod_27": 10,
+          "exact_C_ratio_mod_27": 22,
+          "exact_T_ratio_mod_27": 10
+        },
+        "resultant_nonzero": true
+      },
+      {
+        "actual_v3": -59,
+        "predicted_v3": -59,
+        "q": 29,
+        "ratio_normalization": {
+          "defect_C_ratio_mod_27": 10,
+          "defect_T_ratio_mod_27": 13,
+          "exact_C_ratio_mod_27": 10,
+          "exact_T_ratio_mod_27": 13
+        },
+        "resultant_nonzero": true
+      },
+      {
+        "actual_v3": -64,
+        "predicted_v3": -64,
+        "q": 31,
+        "ratio_normalization": {
+          "defect_C_ratio_mod_27": 13,
+          "defect_T_ratio_mod_27": 19,
+          "exact_C_ratio_mod_27": 13,
+          "exact_T_ratio_mod_27": 19
+        },
+        "resultant_nonzero": true
+      },
+      {
+        "actual_v3": -71,
+        "predicted_v3": -71,
+        "q": 35,
+        "ratio_normalization": {
+          "defect_C_ratio_mod_27": 1,
+          "defect_T_ratio_mod_27": 22,
+          "exact_C_ratio_mod_27": 1,
+          "exact_T_ratio_mod_27": 22
+        },
+        "resultant_nonzero": true
+      },
+      {
+        "actual_v3": -78,
+        "predicted_v3": -78,
+        "q": 37,
+        "ratio_normalization": {
+          "defect_C_ratio_mod_27": 4,
+          "defect_T_ratio_mod_27": 1,
+          "exact_C_ratio_mod_27": 4,
+          "exact_T_ratio_mod_27": 1
+        },
+        "resultant_nonzero": true
+      },
+      {
+        "actual_v3": -85,
+        "predicted_v3": -85,
+        "q": 41,
+        "ratio_normalization": {
+          "defect_C_ratio_mod_27": 19,
+          "defect_T_ratio_mod_27": 4,
+          "exact_C_ratio_mod_27": 19,
+          "exact_T_ratio_mod_27": 4
+        },
+        "resultant_nonzero": true
+      },
+      {
+        "actual_v3": -90,
+        "predicted_v3": -90,
+        "q": 43,
+        "ratio_normalization": {
+          "defect_C_ratio_mod_27": 22,
+          "defect_T_ratio_mod_27": 10,
+          "exact_C_ratio_mod_27": 22,
+          "exact_T_ratio_mod_27": 10
+        },
+        "resultant_nonzero": true
+      },
+      {
+        "actual_v3": -98,
+        "predicted_v3": -98,
+        "q": 47,
+        "ratio_normalization": {
+          "defect_C_ratio_mod_27": 10,
+          "defect_T_ratio_mod_27": 13,
+          "exact_C_ratio_mod_27": 10,
+          "exact_T_ratio_mod_27": 13
+        },
+        "resultant_nonzero": true
+      }
+    ]
+  },
+  "period_certificate": {
+    "C_cross_difference_coefficients_divisible_by_27": true,
+    "C_cross_difference_quotient_coefficients": [
+      -3911304983040,
+      37056546528264,
+      -29310410776284,
+      5822754294204,
+      -3049821029232,
+      1135177579080,
+      274584262230,
+      -32137304292,
+      -12160796428,
+      -1257990864,
+      -63211446,
+      -1593432,
+      -16200
+    ],
+    "T_cross_difference_coefficients_divisible_by_27": true,
+    "T_cross_difference_quotient_coefficients": [
+      562232233728,
+      -3834152594496,
+      192549107376,
+      2744534411520,
+      761718639172,
+      -184799611488,
+      -110373842640,
+      -20328127584,
+      -1974356232,
+      -112379616,
+      -3773952,
+      -69408,
+      -540
+    ],
+    "denominator_unit_table": [
+      {
+        "C_ratio_denominator_mod_3": 1,
+        "T_ratio_denominator_mod_3": 2,
+        "q_mod_3": 1
+      },
+      {
+        "C_ratio_denominator_mod_3": 2,
+        "T_ratio_denominator_mod_3": 1,
+        "q_mod_3": 2
+      }
+    ],
+    "modulus": 27,
+    "period": 18,
+    "residue_rows": [
+      {
+        "C1_over_C0_mod_27": 4,
+        "T1_over_T0_mod_27": 1,
+        "difference_mod_27": 24,
+        "difference_over_3_mod_9": 8,
+        "q_mod_18": 1,
+        "representative": 19
+      },
+      {
+        "C1_over_C0_mod_27": 19,
+        "T1_over_T0_mod_27": 4,
+        "difference_mod_27": 12,
+        "difference_over_3_mod_9": 4,
+        "q_mod_18": 5,
+        "representative": 5
+      },
+      {
+        "C1_over_C0_mod_27": 22,
+        "T1_over_T0_mod_27": 10,
+        "difference_mod_27": 15,
+        "difference_over_3_mod_9": 5,
+        "q_mod_18": 7,
+        "representative": 7
+      },
+      {
+        "C1_over_C0_mod_27": 10,
+        "T1_over_T0_mod_27": 13,
+        "difference_mod_27": 3,
+        "difference_over_3_mod_9": 1,
+        "q_mod_18": 11,
+        "representative": 11
+      },
+      {
+        "C1_over_C0_mod_27": 13,
+        "T1_over_T0_mod_27": 19,
+        "difference_mod_27": 6,
+        "difference_over_3_mod_9": 2,
+        "q_mod_18": 13,
+        "representative": 13
+      },
+      {
+        "C1_over_C0_mod_27": 1,
+        "T1_over_T0_mod_27": 22,
+        "difference_mod_27": 21,
+        "difference_over_3_mod_9": 7,
+        "q_mod_18": 17,
+        "representative": 17
+      }
+    ]
+  },
+  "primitive_cubic_radical_carrier": {
+    "bijective_class": "q congruent to 5 mod 6, hence p congruent to 2 mod 3",
+    "definition": "After a common 2,3-supported clearing c_s=D*C_s, t_s=D*T_s and g_s=gcd(c_s,t_s), W_s=(t_s^3-4^(q-1)c_s^3)/g_s^2.",
+    "minimality_witnesses": {
+      "determinant_alone_fails": {
+        "C0_T0_C1_T1_mod_p": [
+          2,
+          9,
+          3,
+          8
+        ],
+        "K_mod_p": 3,
+        "X_mod_p": 9,
+        "cleared_C0_T0_C1_T1_mod_p": [
+          4,
+          7,
+          6,
+          5
+        ],
+        "cleared_U0_U1_mod_p": [
+          8,
+          5
+        ],
+        "cleared_lambda0_lambda1_mod_p": [
+          7,
+          5
+        ],
+        "cleared_rho_mod_p": 0,
+        "common_denominator": 486,
+        "m": 1,
+        "p": 11,
+        "primitive_W0_W1_mod_p": [
+          6,
+          5
+        ],
+        "q": 5
+      },
+      "one_cubic_row_alone_fails": {
+        "C0_T0_C1_T1_mod_p": [
+          589,
+          78,
+          232,
+          75
+        ],
+        "K_mod_p": 256,
+        "X_mod_p": 353,
+        "cleared_C0_T0_C1_T1_mod_p": [
+          560,
+          673,
+          370,
+          569
+        ],
+        "cleared_U0_U1_mod_p": [
+          0,
+          144
+        ],
+        "cleared_lambda0_lambda1_mod_p": [
+          0,
+          57
+        ],
+        "cleared_rho_mod_p": 576,
+        "common_denominator": 486,
+        "m": 112,
+        "p": 677,
+        "primitive_W0_W1_mod_p": [
+          0,
+          144
+        ],
+        "q": 5
+      },
+      "two_cubic_rows_fail_in_nonbijective_class": {
+        "C0_T0_C1_T1_mod_p": [
+          2,
+          1,
+          1,
+          1
+        ],
+        "K_mod_p": 1,
+        "X_mod_p": 4,
+        "cleared_C0_T0_C1_T1_mod_p": [
+          2,
+          1,
+          1,
+          1
+        ],
+        "cleared_U0_U1_mod_p": [
+          0,
+          0
+        ],
+        "cleared_lambda0_lambda1_mod_p": [
+          0,
+          3
+        ],
+        "cleared_rho_mod_p": 1,
+        "common_denominator": 1,
+        "m": 1,
+        "p": 7,
+        "primitive_W0_W1_mod_p": [
+          0,
+          0
+        ],
+        "q": 1
+      }
+    },
+    "proof": "X^3=4^(q-1) mod p and cubing is an automorphism of F_p; dividing by g_s^2 leaves one copy of any common p-content.",
+    "sharp_boundary": "For q congruent to 1 mod 6, the two cubic rows can select distinct cube roots, so rho is additionally necessary.",
+    "theorem": "For each s, p divides actual lambda_s iff p divides W_s; hence common actual support equals p|gcd(W0,W1). This is radical/first-digit only."
+  },
+  "provenance": {
+    "inherited_input": "Canonical Item 148: uniform nonvanishing and exact v3 valuation of R_q.",
+    "new_item396_results": [
+      "the explicit logarithmically widening fresh-prime exclusion corridor",
+      "zero normalized Chebyshev capacity for every fixed-gap carrier used only through an exponential ordinary-height comparison"
+    ],
+    "no_new_credit_for_item148": true
+  },
+  "schema": "item396-logarithmic-gap-corridor-v2",
+  "scope": {
+    "not_proved": [
+      "the final power-of-two congruence at candidate divisors of R_q",
+      "c_{m,>6m}=1",
+      "weighted zero density for all moving gaps",
+      "a Route-1 booking or irrationality of e+pi"
+    ],
+    "proved": [
+      "logarithmically widening fresh-prime exclusion corridor",
+      "zero capacity of the exponential-height-only fixed-gap carrier method class",
+      "minimal primitive cubic radical carrier in each admissible mod-6 class",
+      "independent replay of inherited Item-148 all-gap nonvanishing, with no new credit"
+    ]
+  },
+  "theorem": {
+    "admissible_gaps": "q>=1 odd and 3 does not divide q",
+    "conclusion": "R_q is nonzero for every admissible q",
+    "exact_valuation": "v3(R_q)=1-(q-1)-v3((q-1)!)-(q-1)/2-v3(((q-1)/2)!)",
+    "resultant": "R_q=C0(q)T1(q)-C1(q)T0(q)"
+  },
+  "unconditional_height_corollary": {
+    "capacity_proof": [
+      "The exclusion inequality is impossible when q>m, because then p<7q<129*q^3*62208^q.",
+      "When q<=m, p<=7m, so the inequality forces q<log(7m/129)/log(62208).",
+      "There are O(log m) such gaps and each possible prime has log p=O(log m), hence total logarithmic mass O((log m)^2)=o(m)."
+    ],
+    "exclusion": "p=6m+q>129*q^3*62208^q implies p does not divide both lambda0 and lambda1",
+    "normalized_chebyshev_capacity": "0",
+    "resultant_numerator_bound": "|num(R_q)|<=129*q^3*62208^q"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "schema": "item410-mixed-compatible-scalar-carrier-manifest-v1",
+  "item": 410,
+  "status": "WORK_ONLY_UNAUDITED_NO_CENTRAL_EDIT_NO_BOOKING",
+  "integrity": {
+    "certificate_sha256": "ace8564975d51c9eacf3d783a4f9639b8e3e457ac5fa3829ce761f503d948261",
+    "certificate_replay_sha256": "ace8564975d51c9eacf3d783a4f9639b8e3e457ac5fa3829ce761f503d948261",
+    "certificate_replay_byte_identical": true,
+    "dependency_pins_verified_by_replay": true
+  },
+  "artifacts": [
+    {
+      "path": "work/item410_mixed_cubic_compatible_scalar_carrier_report.md",
+      "sha256": "9c023e6976ac0abbc1de731a9edbdc9313e5b71b862e170d75359e2faca859cf",
+      "role": "strictly labelled actual-family theorem and finite-evidence report"
+    },
+    {
+      "path": "work/item410_mixed_cubic_compatible_scalar_carrier_certificate.py",
+      "sha256": "8af2b3b826632f83666a1481505d748224269de9a4db4c2cf74070786753f9cf",
+      "role": "deterministic exact certificate generator"
+    },
+    {
+      "path": "work/item410_mixed_cubic_compatible_scalar_carrier_certificate.json",
+      "sha256": "ace8564975d51c9eacf3d783a4f9639b8e3e457ac5fa3829ce761f503d948261",
+      "role": "generated certificate"
+    },
+    {
+      "path": "work/item410_mixed_cubic_compatible_scalar_carrier_certificate.replay.json",
+      "sha256": "ace8564975d51c9eacf3d783a4f9639b8e3e457ac5fa3829ce761f503d948261",
+      "role": "byte-stable replay"
+    },
+    {
+      "path": "work/item410_mixed_cubic_compatible_scalar_carrier_ledger_delta.json",
+      "sha256": "6838d71338fbb4ca01015da7dc164ed7b77a74d0d93be6f4c1fdfd829981a446",
+      "role": "zero-booking capacity and overlap delta"
+    },
+    {
+      "path": "work/item410_mixed_cubic_compatible_scalar_carrier_hashes.sha256",
+      "role": "SHA-256 inventory"
+    }
+  ],
+  "dependency_pins": {
+    "sources/item373_beta_symmetric_singleton_first_quotient_report.md": "daa16600359a52501fcbe303359e39696c1f0b0acfdb62b944b19be77784d6c5",
+    "sources/item403_mixed_cubic_exact_smith_and_finite_local_data_no_go_report.md": "245bf2e557dd81ac88c94e9d0adc8990f203e3ab40680d23bd50f8e435240c48",
+    "work/item406_mixed_cubic_actual_adjacent_recurrence_report.md": "d76955fb4c0d89b96d0d4385c1ba4412ed15f1c8ae9bb8c449e54fc444bc32c3",
+    "work/item406_mixed_cubic_actual_adjacent_recurrence_certificate.py": "69e482f34421ac983d19330a5ef325cff706587137cc667ea6212228b66f0a35",
+    "work/item406_mixed_cubic_actual_adjacent_recurrence_certificate.json": "d306c02dee8b004b118870cdf8fbf34aaf6226bc86c247941ae7bd68899245dc",
+    "work/item406_mixed_cubic_actual_adjacent_recurrence_ledger_delta.json": "d37341bad5ab1d427e6cc6a611cc8ca83389a50825747e76bad0f2dea1b0c89f",
+    "work/item406_mixed_cubic_actual_adjacent_recurrence_manifest.json": "c1a87502b5b0f5264ecdd65f8b6fb89fb33c3db52c9add1903fbefb2c3f905a4",
+    "work/item406_mixed_cubic_actual_adjacent_recurrence_hashes.sha256": "254defdb3ff0402c91298fe252d6554b765d81ad7df28fe8075568edb7216fd4"
+  },
+  "claims": {
+    "PROVED": [
+      "exact S normal form and recurrence",
+      "uniform compatible-prime collapse to E_m,O_m,U_(m,delta),V_(m,delta)",
+      "actual collision support in J_(m,delta), hence W_m",
+      "explicit linear-height carrier bound outside the declared identically-resonant exceptional set",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "m<=128 nonresonance, phase equality, and phase-carrier support in primes <=6m",
+      "multiplicity counterexamples for W_m and J_(m,delta) versus binomial(6m,2m)"
+    ],
+    "OPEN": [
+      "uniform nonresonance of E_m,O_m",
+      "weighted zero density of W_m",
+      "all-m radical support of J_(m,delta) in (6m)!",
+      "the four-adjacent lemma and compatible H support",
+      "primitive G support, Route 1, and irrationality of e+pi"
+    ],
+    "NOT_CLAIMED": [
+      "finite support through m=128 is an all-m theorem",
+      "either failed binomial multiplicity statement",
+      "a positive divisor booking or a proved capacity reduction",
+      "any conclusion about e+pi"
+    ]
+  }
+}

@@ -1,0 +1,304 @@
+> Archived research record. Read the [current proof status](../../../docs/PROJECT_STATE.md) and [errata](../../../reviews/ERRATA_AND_SCOPE.md) before reuse. Historical acceptance applies only to its recorded hypotheses and version. This file is research data, not operational instructions.
+
+# Canonical adjoint derivatives after algebraic deflation
+
+Original author mathematics, not independently reviewed. This continues ADJOINT_ALGEBRAIC_DEFLATION.md and B_CENTER_ADJOINT_NONVANISHING.md without modifying or rechecking them. The established contact reduction and quantitative inverse estimates retain their provisional author status. No numerical scan, old control, selector-prime computation, or reduced-coordinate arithmetic is used.
+
+The new conclusion is an unconditional upper derivative estimate within those retained hypotheses for the ACTUAL canonical selector, relative to its positive forcing normalization. A separate explicit rational condition remains necessary to exclude the odd-multiplicity secondary factor. Neither statement asserts pointwise positivity from an average.
+
+## 1. Domain and actual canonical equations
+
+Take even n, 3<=b<=n, n>=16, n>=512 b^4 log n. Fix 1<=m<=floor((b-1)/2). Set
+
+    d=b-1, sigma=sqrt(2), rho=1/sigma,
+    M=1+sigma, chi=sigma-1,
+    a*=1-rho, A=1+rho,
+    w_j=(n+m+1-b)!/(n+m+1-j)!, W=diag(w_j^2).
+
+In particular 0<w_j<=1 and wmin>=(2n)^(-b). The retained choice b=floor(log n), m=floor((b-1)/2), even n>=2^96 lies in this domain.
+
+Let T be the actual b-by-b Toeplitz matrix, f=fP its first forcing column, and fQ the second. Let D differentiate polynomials of degree <b, J=(I+D)^(-n), Z multiply by t-1, and
+
+    Krec=ZJ, K=Krec^T W Krec,
+    x=T^(-1)f, u=Krec x, a=u^T W u>0,
+    lambda=T^(-T)Kx/a,
+    kappa=u^T W e0/a,
+    tB=kappa+lambda^T fQ.
+
+Introduce the rational positive definite matrix
+
+    C=T K^(-1) T^T.
+
+The canonical equations become
+
+    C lambda=f/a,
+    f^T lambda=1,
+    lambda^T C lambda=1/a,
+    a=f^T C^(-1)f.                                  (1)
+
+The SPD matrix C is a consequence of the actual B metric and both inverse factors. Its positivity does not assert signs for its entries or for polynomial evaluations.
+
+Keep the primitive normalization of the deflation note:
+
+    L_lambda=eta G, eta>0,
+    G in Z[t] primitive,
+    G=psi^r H, psi=1-4t+2t^2,
+    F=F_n(G)=f^T coeff(G)=1/eta>0.
+
+Here r is maximal, H is primitive, and q=deg H. Therefore H(a*)H(A)!=0. The multiplicity r is shared by both conjugate roots.
+
+## 2. Explicit inverse metric and the endpoint correction
+
+No unspecified reconstruction inverse is needed to define C. Write
+
+    R_j=sum_(k=0)^j w_k^(-2), 0<=j<=b,
+    S=R_b,
+    B0=Z^T W Z.
+
+The matrix B0 is tridiagonal with diagonal w_i^2+w_(i+1)^2 and off-diagonal -w_(i+1)^2. Its inverse is exactly
+
+    (B0^(-1))_ij=R_min(i,j)(S-R_max(i,j))/S,
+    0<=i,j<b.                                      (2)
+
+To verify (2), fix a column. Consecutive differences are constant multiples of w_i^(-2) on either side of its index. Applying the tridiagonal matrix cancels at all other rows; the jump at the selected row is one. The endpoints correspond to prefix sums R_-1=0 and R_b=S. Thus
+
+    K^(-1)=(I+D)^n B0^(-1) ((I+D)^n)^T.
+
+All entries and denominators in C are now explicit rational construction data.
+
+The W-orthogonal projection of e0 onto range Z={v: sum v_j=0} is
+
+    e0-W^(-1)1/S.
+
+Define the length-b coefficient vector v0 by (v0)_j=R_j/S-1, and z0=(I+D)^n v0. Since Z v0 is this projection,
+
+    K z0=Krec^T W e0,
+    kappa=lambda^T T z0=eta coeff(G)^T T z0.          (3)
+
+This records the exact endpoint term using the same canonical data. It will remain in the complete-error budget.
+
+## 3. A rational projection recurrence for successive deflations
+
+For 0<=s<=floor(d/2), let M_s be multiplication by psi^s from degree <=d-2s to degree <=d. Define
+
+    C_s=M_s^T C M_s,
+    f_s=M_s^T f,
+    Y_s=C_s^(-1) f_s,
+    a_s=f_s^T Y_s.
+
+Every C_s is SPD. The scalar a_s is nonnegative; it need not be positive for an arbitrary trial s. At s=0, a_0=a>0.
+
+The C-orthogonal projection of C^(-1)f onto range M_s is M_sY_s. Consequently
+
+    a-a_s=(C^(-1)f-M_sY_s)^T
+                    C(C^(-1)f-M_sY_s)>=0.           (4)
+
+In particular the exact canonical deflation test is
+
+    psi^s divides G iff a_s=a.                       (5)
+
+Equality in (4) is equality of vectors, so this test has no sign ambiguity or cancellation between indefinite terms. For every successful deflation s,
+
+    lambda=M_sY_s/a,
+    coeff(G/psi^s)=(F/a)Y_s.                         (6)
+
+This is an additional characterization of the canonical selector, beyond membership of an unspecified polynomial in a factor subspace.
+
+Here is a two-coordinate recurrence implementing the loss at the next deflation. Put h=d-2s and assume h>=2. Let R^(h) be the 2-by-(h+1) remainder matrix modulo psi. Its columns are generated by
+
+    v_0=(1,0)^T, v_1=(0,1)^T,
+    v_(j+2)=2v_(j+1)-v_j/2.
+
+Thus a polynomial p has remainder R^(h)coeff(p), expressed in the basis 1,t. Let B_s multiply by psi from degree <=h-2 to degree <=h, and set
+
+    e_s=R^(h)Y_s,
+    S_s=R^(h)C_s^(-1)(R^(h))^T>0.
+
+Constrained quadratic minimization, or direct multiplication, gives
+
+    B_sY_(s+1)
+      =Y_s-C_s^(-1)(R^(h))^T S_s^(-1)e_s,
+    a_(s+1)=a_s-e_s^T S_s^(-1)e_s.                  (7)
+
+Indeed ker R^(h)=range B_s, and the subtracted vector is its C_s-orthogonal complement. Formula (7) uses only a 2-by-2 Schur matrix beyond C_s.
+
+Starting at s=0, successful steps have e_s=0. The first nonzero e_s terminates exact deflation. If h<2, a nonzero polynomial cannot be further divided. The integral quotient recurrence and primitive-content preservation remain exactly those in the retained deflation note; the rational halves in R^(h) are quotient-ring coordinates, not a claim that an integral quotient acquires denominators.
+
+The same update yields evaluation recurrences. For t=A, write normalized Taylor coefficients y_(s,k)=Y_s^(k)(A)/k!, treating Y_s as its coefficient polynomial, and similarly define d_(s,k) for the correction polynomial in (7). Since psi(A+z)=4rho z+2z^2,
+
+    y_(s,k)-d_(s,k)
+       =4rho y_(s+1,k-1)+2y_(s+1,k-2),             (8)
+
+where negative Taylor indices are zero. At a successful step d_(s,k)=0. At an unsuccessful step its complete Taylor coefficients are explicitly given by the two remainder coordinates e_s and C_s^(-1)(R^(h))^T S_s^(-1). This supplies an exact recurrence for conjugate evaluations and derivatives, including the correction that prevents further deflation.
+
+## 4. Canonical energy controls derivatives without a relative-derivative assumption
+
+Now take the actual maximal r and put h=d-2r, allowing leading zero coordinates if deg H<h. For any real row vector v of length h+1, equations (6) and Cauchy-Schwarz in the C_r metric give
+
+    |v^T coeff(H)|
+       <= F sqrt(v^T C_r^(-1)v/a).                  (9)
+
+This is an exact computable estimate. In particular it bounds H(A) and every derivative. It applies because H is the canonical vector (F/a)Y_r; fixing a positive circle average for an arbitrary polynomial would not give (9).
+
+An explicit bound without an unevaluated inverse follows from the retained quantitative contact estimates. Define
+
+    Hplus=(n+1)^d, Hminus=(n+b)^d,
+    K0=2048 b sqrt(n) (16b^2 n)^d
+                             binom(2d,d)/(d!)^2.
+
+Those estimates imply
+
+    ||T^(-1)||_2 <= K0 sigma^d M^(-n),
+    ||T||_2 <=9 sigma^d M^n,
+    ||Krec||_2<=2 Hminus.
+
+Therefore
+
+    ||C^(-1)||_2<=4 Hminus^2 K0^2 sigma^(2d)M^(-2n). (10)
+
+To bound division by psi^r, let d_(r,k)=[t^k]psi(t)^(-r), and define
+
+    L_0,h=1,
+    L_r,h=sum_(k=0)^h d_(r,k), r>=1.
+
+These coefficients are positive. With alpha=2+sqrt(2) and beta=2-sqrt(2),
+
+    d_(r,k)=sum_(i=0)^k binom(r+i-1,i)
+          binom(r+k-i-1,k-i) alpha^i beta^(k-i).
+
+Truncated convolution by psi^(-r) is a left inverse of M_r. Its Euclidean operator norm is at most L_r,h, by the finite convolution inequality. Hence
+
+    C_r^(-1) <= ||C^(-1)||_2 L_r,h^2 I.              (11)
+
+A convenient finite bound is L_r,h<=binom(2r+h,h)alpha^h for r>=1; it follows by bounding alpha^i beta^(k-i)<=alpha^k and summing the binomial coefficients. Use L_0,h=1 separately.
+
+## 5. The positive circle normalization supplies the correct scale
+
+Let
+
+    Zplus=(1/(2pi)) integral_(-pi)^pi
+                              (1+sigma cos theta)^n dtheta.
+
+The forcing identity applied to the constant polynomial gives exactly
+
+    f_0=n! Zplus>0.                                 (12)
+
+This is the SAME positive circle used in the deflation note, not a new pointwise sign assertion. For the canonical G it gives
+
+    B=F/(n! Zplus)=F/f_0>0,
+    Eplus[G(1+rho exp(i theta))]=B.
+
+The crucial extra information now comes from the canonical energy. Partial sums invert Z on its image with norm at most b, so
+
+    ||x||_2<=b Hplus||u||_2,
+    f_0<=||f||_2<=9 sigma^d M^n b Hplus||u||_2,
+    sqrt(a)>=wmin f_0/(9b Hplus sigma^d M^n).        (13)
+
+Combining (9)-(13) cancels the exponential and factorial scales explicitly. Set
+
+    Ccan=18 b Hplus Hminus K0 sigma^(2d)/wmin.
+
+For normalized derivatives define
+
+    E_k(A,h)=sqrt(sum_(j=k)^h binom(j,k)^2 A^(2(j-k))),
+    0<=k<=h.
+
+Then the new canonical derivative estimate is
+
+    |H^(k)(A)|/k!
+       <= B Ccan L_r,h E_k(A,h).                   (14)
+
+All quantities on the right are explicit. For example E_k<=sqrt(h+1)binom(h,k)A^(h-k). In particular
+
+    |H(A)|<=B Ccan L_r,h E_0(A,h),                  (15)
+    |rH(A)+rho H'(A)|
+       <=B Ccan L_r,h [rE_0(A,h)+rho E_1(A,h)],     (16)
+
+with E_1=0 if h=0.
+
+These are genuine upper bounds for the actual primitive residual, with no coefficient-height hypothesis and no assumption that derivatives are small relative to H(A). They replace the conditional upper bound in the earlier average-only argument. Formula (9) can be considerably sharper than the uniform constants in (14).
+
+The constants are large. A proved upper derivative bound does not establish the relative derivative inequality in the earlier note, nor does it by itself make a first saddle term dominate its remainder.
+
+## 6. Quantitative conjugate lower bounds and the odd obstruction
+
+Maximal deflation and primitivity give the nonzero integer resultant
+
+    Res(psi,H)=2^q H(a*)H(A), q=deg H.
+
+Thus (15) proves
+
+    |H(a*)| >= 1/[2^q B Ccan L_r,h E_0(A,h)].        (17)
+
+This is a normalization-based lower bound with a proved canonical derivative/energy estimate behind it. It does not use the unknown S=e+pi to define a coefficient.
+
+For r=2s, the retained first real-arc coefficient is
+
+    c_s=(-8)^s H(a*).
+
+It is nonzero and obeys the corresponding lower bound 8^s times (17).
+
+For odd r, define
+
+    J_r(t)=rH(t)+(t-1)H'(t).
+
+Its degree is q because r>0 and its leading coefficient is multiplied by r+q. If psi does not divide J_r, (16) and its integer resultant give
+
+    |J_r(a*)| >=
+      1/[2^q B Ccan L_r,h(rE_0+rho E_1)].           (18)
+
+The first possible real-arc coefficient for r=2s+1 is
+
+    c_(s+1)=(-1)^(s+1)2^(3s+2) J_r(a*).
+
+Its nonvanishing therefore still requires an algebraic condition. That condition can now be stated as two rational contractions of the actual canonical equations, without testing unrelated polynomials.
+
+On coefficient vectors of length h+1, let D_r be the integer matrix of p -> rp+(t-1)p':
+
+    (D_r v)_j=(r+j)v_j-(j+1)v_(j+1),
+    v_(h+1)=0.
+
+It is invertible for r>0. Let E be a maximal independent set of rows of R^(h)D_r, using the obvious remainder matrix also for h=0,1. Define
+
+    eJ=E Y_r,
+    SJ=E C_r^(-1)E^T>0,
+    deltaJ=eJ^T SJ^(-1)eJ>=0.                        (19)
+
+Then, exactly for the canonical residual,
+
+    psi divides J_r iff eJ=0 iff deltaJ=0.           (20)
+
+The positive number deltaJ, when nonzero, is the canonical energy lost on additionally imposing the two conjugate derivative conditions. This follows from the same constrained projection calculation as (7). All matrices in (19) are rational, and E has at most two rows. For h=0 or h=1 the constrained kernel is zero, so a nonzero H cannot satisfy (20); the odd coefficient is then necessarily nonzero. For h>=2, no proof that deltaJ>0 uniformly in the actual family is supplied.
+
+The normalization B>0 does not force deltaJ>0. Equation (20) is the explicit unresolved arithmetic zero condition, rather than a claim that an arbitrary-polynomial counterexample decides the canonical case. Rational conjugacy still makes the conditions at a* and A simultaneous.
+
+## 7. Endpoint and exponential terms in the complete error
+
+Retain the exact endpoint correction (3). Let Jminus be the left-arc mass and mu_j its positive normalized moments from B_CENTER_ADJOINT_NONVANISHING.md. Write
+
+    Re G(1-rho exp(i theta))=sum_j c_j(1-cos theta)^j,
+    N_G=sum_i |G_i|rho^i.
+
+For even n the complete identity and exponential bound are
+
+    tB-(e+pi)=kappa+epsilon_E
+                         -2n! eta Jminus sum_j c_j mu_j,
+    |epsilon_E|<=9 eta N_G M^n/(n+1).               (21)
+
+If k is the first surviving real coefficient, sufficient complete-error dominance remains
+
+    |c_k| L_k(n) > sum_(j>k)|c_j|U_j(n)
+       +[|kappa|+9 eta N_G M^n/(n+1)]
+                                      /(2n! eta Jminus). (22)
+
+Here L_0=U_0=1; the other moment bounds are the retained ones. Replacing Jminus in the denominator by its retained positive lower bound gives an entirely elementary upper budget. The new lower bounds (17),(18) can be inserted into the left side. Every higher real-arc coefficient, the endpoint term, and the entire exponential estimate remains present.
+
+No assertion that (22) holds uniformly follows from the new energy estimate. The upper derivative constants need not be small enough relative to the resultant lower bound. When (20) holds, the later coefficients must be computed and retained by the existing exact arc transformation.
+
+## 8. Precise outcome
+
+The canonical equations close the earlier average-to-point upper-bound gap: (14)-(16) are proved uniform upper bounds for H(A) and its derivatives relative to B=F_n(G)/fP_0, under the retained contact estimates. They do not assert signs or relative derivative smallness. Together with integer resultants they prove (17), and (18) when its explicit nondivisibility condition holds.
+
+Equations (7),(8) give a rational projection and Taylor recurrence for deflation, retaining the correction when a further factor fails. Equations (19),(20) reduce the odd derivative obstruction to a two-row canonical rational zero test. This test has not been excluded for h>=2. Complete nonvanishing further requires the quantitative dominance in (22), which is also unproved on the unbounded family.
+
+All results concern the factorial B-only selector. No full-coefficient-center sign, denominator conclusion, independent review, or irrationality claim is transferred. The earlier files remain unchanged.

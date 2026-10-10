@@ -1,0 +1,88 @@
+{
+  "capacity": {
+    "capacity_booked": 0,
+    "endpoint_K_large_moving_prime_codimension": 0,
+    "new_divisibility_exponent": 0,
+    "new_linear_log_rate": 0,
+    "reason": "K is redundant after E at every actual moving prime; nonvanishing or weighted control of E remains open"
+  },
+  "denominator_ledger": {
+    "Gosper_system": "P coefficients use (2h)! and powers of 2,3; descending solve divides only by 2",
+    "Item222_E": "2(4h+3)D_xD_yD_uD_v with the pinned explicit linear-factor clearings",
+    "X_terms": "denominator divides 3^j*j!, 0<=j<=2h-1",
+    "Y_linear_factors": "nonzero with absolute value <=4h+3",
+    "Y_terms": "denominator divides product_(ell=0)^(k-1)(6ell-4h+9)",
+    "gauge": "all prime factors in the bases and every step-ratio numerator/denominator factor are <=4h+3"
+  },
+  "dependencies": {
+    "item222_j1_phase_resultant_certificate.py": "c16f75156ba8424c567163cedc6a93a7656c8a53036b48ef69b06327d76ad44b",
+    "item229_j1_fixed_h_theta_certificate.py": "a8e2028ca6a53f8c843c25be375feac50e4704538686ee1e3a835f89aa11780f",
+    "item231_j1_second_phase_coefficient_certificate.py": "b2ab5da4624a6b91d10a52976c6996b2e04b077f0b12c02a581a1551f6879045",
+    "item236_j1_phase_cokernel_certificate.py": "a1aaa2dc857420b555b52a9d96282a37b193834069815194f3ccc0531b7aed96",
+    "item243_order6_gauge_closure_certificate.json": "0ec0052ea270a84828cb1934373ad05e8e5b00cbf72e0d970ff805e716078546",
+    "item243_order6_gauge_closure_certificate.py": "d619e0809aaa89b5d11cbe30a92a3e7f8cf14237f45dd066aedf84e017bbfdd8"
+  },
+  "exact_replay": {
+    "admissible_rows": 8,
+    "checked_identities": [
+      "Pplus(j)=Pminus(-2s-j)",
+      "Rplus(j)=-Rminus(-2s-j+1)",
+      "d=sum_(j=0)^(2h-1)t_j*Pplus(j)",
+      "F-d=c*X",
+      "eta*U+L=c*Y",
+      "K=c*(2*d*Y-L*X)",
+      "c=gauge*E on admissible h",
+      "all replay denominators supported on primes <=4h+3"
+    ],
+    "classification": "EXACT_REPLAY_OF_PROVED_IDENTITIES_NOT_EXTRAPOLATION",
+    "h_max": 12,
+    "row_stream_sha256": "6b44e98f4fcc7e87f6b655546a43c6d8237fda0f5351554d3529b6878d45f934",
+    "rows": 12
+  },
+  "formal_d_reversal": {
+    "D_recurrence": "(n+1)D_(n+1)-(n+r+1)D_n+(n-1+4s)D_(n-1)-(n+r-1+4s)D_(n-2)=0",
+    "classification": "FORMAL_EXACT",
+    "coefficient_vector_matches": true,
+    "combination": "-Rec_(r+2)+Rec_(r+1)+Rec_r",
+    "consequence": "d=C*D_r+B*D_(r-1)+A*D_(r-2)=sum_(j=0)^(r-1)t_j*Pplus(j)"
+  },
+  "formal_endpoint_factorization": {
+    "classification": "FORMAL_EXACT",
+    "expanded_sparse_polynomials_match": true,
+    "identity": "K=c*(2*d*Y-L*X)",
+    "substitutions": [
+      "F=d+c*X",
+      "eta*U+L=c*Y"
+    ]
+  },
+  "item": 288,
+  "schema": "item288-j1-large-prime-redundancy-v1",
+  "strict_labels": {
+    "E_nonvanishing_or_sparsity": "OPEN",
+    "Route_1_completion": "OPEN",
+    "finite_scan_inference": "NONE",
+    "large_prime_redundancy": "PROVED",
+    "small_prime_support_of_N_E_over_gcd": "PROVED WHEN THE QUOTIENT IS DEFINED",
+    "weighted_prime_mass_saving": "OPEN"
+  },
+  "theorem": {
+    "actual_rows": "p=4h+6s+3 with s>=1 has p>=4h+9, so every actual prime is covered",
+    "classification": "PROVED EXACT ALL-H",
+    "converse": "NOT CLAIMED",
+    "exact_identities": [
+      "F_h-d_h=c_h*X_h",
+      "eta_h*U_h+L_h=c_h*Y_h",
+      "K_h=c_h*Z_h"
+    ],
+    "gauge": "for h>=1, 3 not dividing h, c_h=G_h*E_h with G_h a unit in that localization",
+    "localization": "X_h,Y_h,Z_h,c_h,K_h lie in Z localized at primes <=4h+3",
+    "localized_factors": {
+      "X_h": "-sum_(j=0)^(2h-1) (-1)^j*binom(2s_h+j-1,j)",
+      "Y_h": "sum_(k=0)^h (-1)^k*(3s_h+1)_k/(s_h+2)_k",
+      "Z_h": "2*d_h*Y_h-L_h*X_h"
+    },
+    "phase": "s_h=-(4h+3)/6, r=2h",
+    "prime_implication": "for every prime q>4h+3, q dividing the reduced numerator N_E(h) implies q divides the reduced numerator N_K(h)"
+  },
+  "title": "all-h localized redundancy of the Item280 endpoint scalar"
+}

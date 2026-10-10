@@ -1,0 +1,73 @@
+{
+  "schema": "item343-beta-quotient-radical-excess-capacity-ledger-delta-v1",
+  "item": 343,
+  "date": "2026-09-01",
+  "status": "PROVED_QUOTIENT_RADICAL_EXCESS_SCOPED_NO_GO",
+  "canonical_files_modified": false,
+  "actual_family": {
+    "source": "Item 316 actual all-digit target, Item 337 primitive cofactor lcm, and Item 340 bQ quotient bridge",
+    "bridge": "T+epsilon R=b t and, for every s>=1, t=ell mod Q^s iff T+epsilon R=b ell mod bQ^s",
+    "target_divisor": "Q divides b after previously booked denominator factors are removed",
+    "actual_Gamma_Q": "OPEN"
+  },
+  "exact_decomposition": {
+    "G_Q": "gcd(Q,Lambda)",
+    "H_Q": "gcd(G_Q,t)",
+    "K_Q": "G_Q/H_Q",
+    "R_perp_Q": "product of p over p|Q, p|Lambda, p not dividing t",
+    "J_Q": "K_Q/R_perp_Q",
+    "identity": "Gamma_Q=log H_Q+Xi_Q+log J_Q",
+    "divisibility": "J_Q divides E(Q)=Q/rad(Q) divides sqfull(Q) divides sqfull(b)",
+    "Xi_Q": "log R_perp_Q"
+  },
+  "proved": [
+    "v_p(H_Q)=min(v_p(G_Q),v_p(t)) and v_p(K_Q)=max(0,v_p(G_Q)-v_p(t))",
+    "with M_Q=ceil(log_2 Q), G_Q/gcd(G_Q,t^M_Q) is exactly the full G_Q-primary support avoiding t",
+    "K_Q=R_perp_Q J_Q with J_Q dividing Q/rad(Q)",
+    "log K_Q<=Xi_Q+log E(Q)<=Xi_Q+log sqfull(Q)<=Xi_Q+log sqfull(b)",
+    "the entire bQ^s quotient-lift tower is the one Q-adic scalar t",
+    "raw gcd(Q,t) is not additive capacity beyond Gamma_Q"
+  ],
+  "scoped_no_go": {
+    "closes": [
+      "same-quotient lifts at growing Q-adic precision as independent target conditions",
+      "quotient-supported K_Q valuation excess as a branch independent of Item 265 squarefull excess",
+      "raw gcd(Q,t) as an additive capacity copy beyond Gamma_Q"
+    ],
+    "does_not_close": [
+      "the t-avoiding radical hit mass Xi_Q",
+      "the Item 265 squarefull/high-singleton branch",
+      "H_Q, K_Q, or Gamma_Q on the actual family",
+      "the Item 316 centered half-bound, beta capacity, Route 1, or e+pi"
+    ]
+  },
+  "missing_correlation": {
+    "new_squarefree_branch": "Xi_Q=sum log p over p|Q, p|Lambda, p not dividing t",
+    "old_repeated_branch": "log sqfull(Q)",
+    "conditional_closure": "Xi_Q=o(log b) and log sqfull(Q)=o(log b) imply log K_Q=o(log b)",
+    "next_smallest_lemma": "bound the actual-family weighted t-avoiding radical correlation; do not add another quotient precision or local cofactor"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "primewise H/K formula, quotient-support saturation, radical/excess factorization, all-precision lift saturation, and exact ledger"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "independent same-quotient lift precision and quotient-supported repeated valuation outside the old squarefull branch"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared valuation tuples and seed congruence controls in the deterministic replay"
+    ],
+    "OPEN": [
+      "H_Q, Xi_Q, J_Q, K_Q, Gamma_Q, squarefull zero rate, half-bound, beta capacity, Route 1, and e+pi"
+    ]
+  },
+  "capacity": {
+    "K_Q_bound": "log K_Q<=Xi_Q+log E(Q)",
+    "only_new_squarefree_branch": "Xi_Q",
+    "repeated_branch_rebooked": false,
+    "actual_Gamma_Q": "OPEN",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "booking": 0
+  }
+}

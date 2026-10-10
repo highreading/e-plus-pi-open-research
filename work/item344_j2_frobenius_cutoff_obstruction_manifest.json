@@ -1,0 +1,66 @@
+{
+  "item": 344,
+  "schema": "item344-j2-frobenius-cutoff-obstruction-manifest-v1",
+  "classification": "PROVED_MAXIMAL_MOVING_CUTOFF_COMPLEXITY_AND_BOUNDED_COMPLETION_NO_GO",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual tied-prime ordinary-j2 moving finite-field correlation after Item341",
+  "dependencies": {
+    "sources/item341_j2_diagonal_affine_state_report.md": "42f6ccd326e385f8034abe322756517a30a93d7468b3e6f85cbca3dba8080cb4",
+    "results/item341_j2_diagonal_affine_state_certificate.json": "75c05cb486e5a5a6f9af5dda2e62f2a4b81cb888a15eb19ecabd10a382625cb4",
+    "results/item341_j2_diagonal_affine_state_root_audit.json": "d5c810346f9181f10d38e9f5ae2e250a8c880e32f97cbc5bef91f6bd37f61a27",
+    "manifests/item341_j2_diagonal_affine_state_manifest.json": "fc073e4c11a2d9ab519f0b5babae6f9f95e2e8cf9e8cbcf05c4c8ca8ba155000"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item344_j2_frobenius_cutoff_obstruction_report.md",
+      "sha256": "1671dec30de80c047c52b6b4bf13157025ea631869f5ccacc73169002ec287a9",
+      "bytes": 12209
+    },
+    "certificate_script": {
+      "path": "work/item344_j2_frobenius_cutoff_obstruction_certificate.py",
+      "sha256": "3df4c167793839d397ad96dde0472b2873c760dd07d92726f3b0c970847f25db",
+      "bytes": 12258
+    },
+    "certificate": {
+      "path": "work/item344_j2_frobenius_cutoff_obstruction_certificate.json",
+      "sha256": "f390d14d2b14ce965a33da8499e450294be3a038be2269d564d3cc3fda5f1179",
+      "bytes": 5435
+    },
+    "replay": {
+      "path": "work/item344_j2_frobenius_cutoff_obstruction_certificate.replay.json",
+      "sha256": "f390d14d2b14ce965a33da8499e450294be3a038be2269d564d3cc3fda5f1179",
+      "bytes": 5435
+    },
+    "ledger": {
+      "path": "work/item344_j2_frobenius_cutoff_obstruction_ledger.json",
+      "sha256": "60bdc75791666823b7800252c91e85845f9b70a73d8dc8e4d75dd5aeee1318fd",
+      "bytes": 4914
+    }
+  },
+  "proved": [
+    "the actual half-binomial state has an invertible order-two recurrence at every tied prime",
+    "the tied-prime Frobenius carrier has algebraic degree two but returns the same moving coefficient",
+    "exact additive completion of the sharp prefix has all p Fourier modes nonzero and normalization 1/p",
+    "the unique reduced finite-field prefix indicator has maximal degree p-1",
+    "fixed-M rows with m=o(M) or r=o(M) have o(M) total logarithmic prime mass",
+    "bounded-mode, bounded-degree, and direct sublinear-edge methods are insufficient by themselves"
+  ],
+  "exact_finite_only": [
+    "120 exact recurrence rows through m=120",
+    "seven declared actual-row Frobenius, Fourier-support, cutoff-degree, and fixed-M replays",
+    "no collision or zero census"
+  ],
+  "open": [
+    "weighted nonconcentration for the joint moving residual (4^(m+1)-c_star,H_m-Theta)",
+    "target-specific cancellation among the full p completed modes",
+    "a bounded-conductor moving Frobenius or sheaf model for the actual target",
+    "weighted support of Item341's degenerate triple-minor carrier",
+    "strict improvement of the 1/105 ceiling and any new booking"
+  ],
+  "capacity": {
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "ordinary_j2_ceiling_per_6M": "1/105"
+  },
+  "replay_command": "python scripts/item344_j2_frobenius_cutoff_obstruction_certificate.py --output results/item344_j2_frobenius_cutoff_obstruction_certificate.replay.json"
+}

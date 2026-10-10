@@ -1,0 +1,91 @@
+{
+  "item": 315,
+  "schema": "item315-j2-resultant-arithmetic-manifest-v1",
+  "classification": "PROVED_GLOBAL_NONVANISHING_AND_SCOPED_NO_GO",
+  "checked_date_beijing": "2026-08-31",
+  "scope": "arithmetic of Item314's ordinary-j=2 endpoint resultant on r=6n+1 and r=6n+5",
+  "dependencies": {
+    "scripts/item237_j1_algebraic_residual_certificate.py": "f89047396e3f6b4644cf0194b7716dfad91b3eb41de7b88c9377cf3e81d09dcf",
+    "results/item237_j1_algebraic_residual_certificate.json": "eba1519f4d376d442f396048528190b474cc5464bbe42c3bdf31a9bdaf39dd6b",
+    "scripts/item250_j2_ordinary_phase_certificate.py": "2364a9e9c9be0ea0827c2b12137883ad326d77017a53bb4f242be300335e90ce",
+    "results/item250_j2_ordinary_phase_certificate.json": "6f8d0165448dd8949436649e2824a14578c1bce08e8875a6fd88f770c72cb5e3",
+    "scripts/item309_j2_l_second_branch_bridge_certificate.py": "bd4dc6b96d8af44cb463a141fad14739909ad645c3a9b6067c4c653580dad6b4",
+    "results/item309_j2_l_second_branch_bridge_certificate.json": "b44200c2e3fe16fca4518e45b40540230db43deee496d84c43336907ef304c5a",
+    "scripts/item314_j2_two_branch_gate_certificate.py": "cc5f155e5f3248c500cd2101e401c25cec37ce43b31fbb4582843fc33a9b2f0e",
+    "results/item314_j2_two_branch_gate_certificate.json": "77de2dd46726a5a48e9adc4e40f96341d5da6c8db304d79f0ef8eeb7807245b1"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item315_j2_resultant_arithmetic_report.md",
+      "sha256": "74e9c2d950b08dd5ecfa5b57530399d9ed5a5a512fe26794c17b7d7eaa363755",
+      "bytes": 14909
+    },
+    "certificate_script": {
+      "path": "work/item315_j2_resultant_arithmetic_certificate.py",
+      "sha256": "7818264a4f150280cdf7036238c5ad662f30882545f1cedb0e897f9e9c4c265f",
+      "bytes": 23782
+    },
+    "certificate": {
+      "path": "work/item315_j2_resultant_arithmetic_certificate.json",
+      "sha256": "09fdd67a6535a043bcbd1e2a46c4b14a633b9928a5f1c65618c34fab65cfabb6",
+      "bytes": 26979
+    },
+    "replay": {
+      "path": "work/item315_j2_resultant_arithmetic_certificate_replay.json",
+      "sha256": "09fdd67a6535a043bcbd1e2a46c4b14a633b9928a5f1c65618c34fab65cfabb6",
+      "bytes": 26979,
+      "byte_identical_to_certificate": true
+    },
+    "ledger": {
+      "path": "work/item315_j2_resultant_arithmetic_ledger.json",
+      "sha256": "4ff67573ec03c8e1416f2ab66f0379b79570a79afa05110a6882e3be6f3b6860",
+      "bytes": 3105
+    }
+  },
+  "theorems": [
+    "a_(6n+e)<0 and b_(6n+e)<0 for e in {1,5}, n>=0, by exact recurrence induction",
+    "N_(6n+e)<0 for every n, so no exact characteristic-zero zero row exists",
+    "e=1 is the norm A^3+2B^3 from Q(cuberoot(2)); e=5 factors as (A+B)(A^2-A*B+B^2)",
+    "the actual row selects one endpoint component through t=2^(k+2s)",
+    "the p-unit hypergeometric scale and integer clearer remove compulsory content separately from both e=5 factors and the e=1 norm",
+    "the full N sequence has an exact Hadamard/constant-term diagonal and is P-recursive",
+    "the direct primitive odd norm is not a strong-divisibility sequence on either ray",
+    "the freely varying tied-family comparison is not a fixed-M capacity theorem"
+  ],
+  "finite_replay": {
+    "r_max": 131,
+    "sign_rows": 44,
+    "sign_failures": 0,
+    "sign_row_stream_sha256": "c6d4cb53829e55ecdf8d74ae53521ea89216a39f6c8beab4542a738219721fb5",
+    "old_resultant_hits_through_p_401": 9,
+    "selected_gate_hits_in_that_census": 3,
+    "character_row_stream_sha256": "e330b8e80d60deb2f575f42500ae941eb8bdb798d7069a085764709361b41d85",
+    "factor_support_examples": [
+      "(2281,378,5) linear",
+      "(271,7,113) quadratic",
+      "(383,27,109) pure-cubic norm"
+    ]
+  },
+  "strict_labels": {
+    "PROVED": [
+      "all-ray sign and exact characteristic-zero nonvanishing",
+      "raywise norm factorization, factor-by-factor p-unit content audit, and actual selector",
+      "Hadamard diagonal and P-recursiveness",
+      "scoped strong-divisibility and freely varying tied-family method no-go"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "the declared r<=131 replay and old-resultant character census"
+    ],
+    "OPEN": [
+      "fixed-M weighted zero density for the selected gate",
+      "any sequence-specific thin-support or average Frobenius theorem",
+      "actual period incidence and any ordinary-j2 capacity reduction"
+    ]
+  },
+  "capacity": {
+    "fixed_M_relation": "2M=5r+14s+7",
+    "raw_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

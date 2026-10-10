@@ -1,0 +1,51 @@
+{
+  "schema": "item391-j1-logarithmic-spacing-resultant-criterion-ledger-delta-v1",
+  "item": 391,
+  "date": "2026-09-01",
+  "branch": "actual fixed-j=1 joint Hasse-transverse gate / cross-prime spacing and weighted zero density",
+  "status": "PROVED_ACTUAL_SUBLOG_CLUSTER_ZERO_RATE_AND_LOGARITHMIC_SCALE_CRITERION",
+  "proved": {
+    "actual_collision_set": "Z_M={p in P_M:p divides R_{H,T}(M)} from Item363",
+    "collision_polynomial": "F_M(X)=product_{p in Z_M}(X-p)",
+    "shifted_resultant": "Res(F_M(X),F_M(X+2d))=0 iff p,p+2d are both actual joint-gate primes",
+    "shifted_norm_gcd": "gcd(R_M,(-1)^N F_M(2d)) and gcd(R_M,(-1)^N F_M(-2d)) are the exact lower and upper pair-endpoint radicals under the tied-interval size hypotheses",
+    "uniform_sublog_cluster_bound": "for every D=o(log M), the actual joint-gate primes having a second joint-gate prime within D row steps have total log weight o(M)",
+    "singular_series_average": "sum_{d<=D} product_{q|d,q>2}(q-1)/(q-2) <= (pi/2)D < 2D",
+    "pair_free_capacity": "nonvanishing through D~c log M implies limsup W/(6M)<=1/(72c)",
+    "strict_threshold": "the pair-free criterion is strictly below the raw 1/36 ceiling iff c>1/2",
+    "zero_rate_criterion": "nonvanishing through D/log M to infinity, or K_M(D) log M / D to zero, implies W=o(M)",
+    "converse": "W/(6M)>=rho forces a vanishing shifted resultant at d<=(1+o(1))log(U_M)/(72rho)",
+    "closed_mechanism": "fixed and o(log M) collision clusters cannot carry positive linear log mass"
+  },
+  "scope": {
+    "actual_family_used": true,
+    "ambient_selector_substitution_used": false,
+    "all_family_asymptotic_theorem": "sublogarithmic clustered endpoint mass is o(M)",
+    "conditional_only": [
+      "nonvanishing of actual shifted resultants at logarithmic scale",
+      "a logarithmic-window occupancy bound",
+      "any strict whole-cell retained capacity",
+      "W_{H,T}(M)=o(M)"
+    ],
+    "finite_controls": "nine predeclared abstract root sets plus exact Wallis and singular-factor arithmetic; no collision scan",
+    "finite_to_infinite_inference": false
+  },
+  "capacity": {
+    "raw_fixed_j1_ceiling_per_6M": "1/36",
+    "conditional_pair_free_ceiling_for_D_asymptotic_c_logM_per_6M": "1/(72c)",
+    "conditional_strict_saving_threshold": "c>1/2",
+    "new_unconditional_whole_cell_capacity_reduction": 0,
+    "new_booked_linear_log_rate": 0,
+    "new_booked_mass": 0
+  },
+  "ledger": {
+    "new_route1_linear_log_rate": 0,
+    "new_route1_booking": 0,
+    "new_route1_capacity_reduction": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "route1_success": false,
+    "conclusion_about_e_plus_pi": "OPEN"
+  },
+  "ledger_action": "CLOSE_FIXED_AND_SUBLOG_COLLISION_CLUSTER_CARRIERS_BOOK_ZERO_RETAIN_WHOLE_CELL_CEILING",
+  "canonical_files_modified": false
+}

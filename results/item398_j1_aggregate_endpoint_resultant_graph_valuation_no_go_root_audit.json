@@ -1,0 +1,49 @@
+{
+  "item": 398,
+  "schema": "item398-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_AGGREGATE_GRAPH_VALUATION_AND_NEAR_POWER_CANCELLATION_NO_GO",
+  "scope": "independent root audit of the aggregate resultant, candidate-prime graph valuations, modular degree bound, near-perfect-power estimate, nonarchimedean subtraction, replay, and capacity interpretation",
+  "checks": {
+    "canonical_dependencies_checked": 6,
+    "canonical_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "control_characters": 0,
+    "finite_to_infinite_inference_used": false,
+    "root_repairs": "Repaired the malformed radical expression, repinned the executable checker to canonical Item 395, regenerated all certificate outputs, and canonicalized the replay path. No theorem or constant changed."
+  },
+  "mathematical_audit": {
+    "aggregate": "The resultant with G_D is exactly the product over roots q and shifts d of (q-2d)(q+2d), hence the product of all positive endpoint norms.",
+    "valuation": "The tied-interval inequalities force every candidate-prime divisibility q plus or minus 2d to be the equality p. The companion factor is a p-unit, so each neighboring root contributes exactly one valuation and v_p(A) equals graph degree.",
+    "degree": "Modulo 3, a nonmultiple d permits at most one of p plus or minus 2d to remain prime, while a multiple permits at most two. This gives degree at most D+floor(D/3), strictly below 2D.",
+    "near_power": "Dividing by R^(2D) produces the product of 1-4d^2/q^2. The logarithmic inequality, tied-prime count, and sum of squares give leading coefficient c^3/8 times log^2(M)/M.",
+    "subtraction": "At every candidate prime, A has valuation degree below the 2D valuation of R^(2D). The ultrametric equality for unequal valuations therefore gives the same degree valuation in B=R^(2D)-A; no collision content cancels.",
+    "scope": "The remaining integer height is potentially M log M, so aggregation, near-power subtraction, and graph-degree allocation alone do not meet Item 395's linear admission threshold. Gate-specific vertex-mass or carrier arithmetic remains open."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "single aggregate endpoint resultant",
+      "exact collision-graph valuations and edge product",
+      "modulo-3 graph-degree bound",
+      "near-perfect-power estimate",
+      "exact preservation of candidate valuations after subtraction",
+      "scoped aggregate/cancellation no-go"
+    ],
+    "OPEN": [
+      "a gate-specific bound for positive-degree vertex mass",
+      "a small external carrier for the edge radical",
+      "a strict fixed-j=1 capacity saving",
+      "any conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "new_route1_rate": 0,
+    "new_booking": 0,
+    "new_unconditional_capacity_reduction": 0
+  }
+}

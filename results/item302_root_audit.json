@@ -1,0 +1,45 @@
+{
+  "schema": "item302-root-audit-v1",
+  "item": 302,
+  "auditor": "root",
+  "date": "2026-08-31",
+  "verdict": "PASS WITH EXACT AFFINE-ELIMINATION NO-GO AND ZERO BOOKING",
+  "package": {
+    "manifest_files_checked": 5,
+    "manifest_file_hash_mismatches": 0,
+    "frozen_dependencies_checked": 6,
+    "manifest_dependency_hash_mismatches": 0,
+    "hash_list_entries_checked": 6,
+    "hash_list_mismatches": 0,
+    "canonical_root_replay_byte_identical": true,
+    "canonical_and_root_replay_sha256": "1cc2de524522d9720cf475ac5836b6d5148edb285f09cf5759d54e5dde6a37dc",
+    "report_sha256": "5d6985b5928012f7d5113029f2ac94e916b543549af16985eed1af199971f8af",
+    "script_sha256": "554046e0a647e931f6fc1240751a8cb69f47ae530a329e34a532bdaa0f2d0cf1",
+    "ledger_sha256": "6e83a9e17f5cc153c14adc2f9f437a5e7403ef20623014bb46785cb1d8c47552",
+    "manifest_sha256": "acd74bd1a154eb2f2be42b94a69d14839a35b06324be9d15a8beac63d4663f44"
+  },
+  "independent_mathematical_checks": {
+    "full_composition": "PASS: T_j+T_(j-1)=4q_(j-1)q_(j-2) makes the affine composition alternate exactly from T_2=6; it reconstructs q_nq_(n-2)-q_(n-1)^2.",
+    "continuant_coordinates": "PASS: the standard continuant matrix product gives q_n and q_(n-1) in its first row, the tail S_n in its lower-left entry, and determinant (-1)^(n-1), yielding the square-inverse congruence.",
+    "ideal_membership": "PASS: with E_j=q_jX_j-T_j, the identity E_j=R_j-E_(j-1) inductively places the endpoint generator in the integral affine ideal.",
+    "elimination_equality": "PASS: over Q the triangular system has the unique endpoint X_n=T_n/q_n. Since gcd(T_n,q_n)=1, q_nX_n-T_n is primitive; Gauss's lemma contracts the rational principal ideal back to exactly the displayed integral principal ideal.",
+    "proper_divisor_unit": "PASS: T_n is coprime to q_n and r_(n,Q) is congruent to q_(n-1)^2 modulo every Q dividing q_n, so it is a unit and only the size bound 1 follows.",
+    "scope": "PASS: the no-go applies only to polynomial elimination of the base and affine updates. Nearest-integer/Ostrowski digits, inequalities, modular-square distribution, nonlinear arithmetic, proper-target construction, and other linear-depth states remain OPEN."
+  },
+  "format": {
+    "report_bytes": 11716,
+    "report_lines": 510,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "inline_math_open": 55,
+    "inline_math_close": 55,
+    "display_math_open": 49,
+    "display_math_close": 49
+  },
+  "capacity": {
+    "new_route1_rate": 0,
+    "new_beta_capacity_reduction": 0,
+    "proper_target_lower_bound": 1,
+    "ledger_changed": false
+  }
+}

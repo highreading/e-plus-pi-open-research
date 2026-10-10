@@ -1,0 +1,51 @@
+{
+  "schema": "item400-j1-discriminant-energy-sieve-threshold-no-go-ledger-delta-v1",
+  "item": 400,
+  "date": "2026-09-01",
+  "branch": "actual fixed-j=1 joint Hasse-transverse gate / logarithmic-window discriminant, energy, Vandermonde, and support-only sieve",
+  "status": "PROVED_DISCRIMINANT_ENERGY_AND_AMBIENT_SIEVE_THRESHOLD_NO_GO",
+  "proved": {
+    "discriminant_coprimality": "gcd(R_M,Disc(F_M))=gcd(R_M,product_{p in Z_M}F'_M(p))=1",
+    "derivative_at_zero_coprimality": "gcd(R_M,F'_M(0))=1 by reduction modulo each root prime",
+    "short_gap_vandermonde": "the product of all gap labels at most 2D is coprime to R_M and has logarithm o(M) when D is asymptotic to log M",
+    "multiplicative_energy": "for every n-element set of distinct primes, ordered E_x=2n^2-n, independently of gaps",
+    "graph_energy": "universal handshake, Cauchy, and modular degree bounds do not upper-bound the positive-degree vertex radical below the admission coefficient",
+    "ambient_threshold_saturation": "for the full candidate prime set and D~c log M, liminf log(C_all)/M is at least (2c-1)/(12c)",
+    "c_1_threshold": "the full ambient cluster mass is at least M/12+o(M), exactly the Item395 coefficient that a strict saving must beat",
+    "closed_method_class": "generic discriminant/derivative/Vandermonde identities, ordinary multiplicative or graph energy, fixed-rank selector data, and sieve or large-sieve estimates valid for every candidate-prime subset",
+    "new_booked_mass": 0
+  },
+  "scope": {
+    "actual_family_used": true,
+    "actual_theorem": "all discriminant and derivative coprimality identities and the short-gap carrier theorem apply to the actual root polynomial",
+    "actual_cluster_upper_bound_proved": false,
+    "strict_capacity_reduction_proved": false,
+    "full_ambient_set_is_countermodel_only": true,
+    "not_ruled_out": [
+      "a gate-specific larger-sieve or monodromy theorem",
+      "a special external carrier from the original Hasse-transverse moments",
+      "cross-M restrictions on the actual selector",
+      "a direct actual-family positive-degree vertex theorem"
+    ],
+    "finite_controls": "four predeclared abstract prime-root sets inside actual candidate intervals; no actual gate scan",
+    "finite_to_infinite_inference": false
+  },
+  "capacity": {
+    "item395_general_admission_coefficient_per_M": "(2c-1)/(12c)",
+    "item395_admission_target_at_c_1": "log C_(M,floor(log M))<(1/12-epsilon)M",
+    "ambient_full_set_lower_coefficient_at_c_1": "1/12",
+    "new_bound_meeting_target": false,
+    "raw_fixed_j1_ceiling_per_6M": "1/36",
+    "new_unconditional_whole_cell_capacity_reduction": 0
+  },
+  "ledger": {
+    "new_route1_linear_log_rate": 0,
+    "new_route1_booking": 0,
+    "new_route1_capacity_reduction": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "route1_success": false,
+    "conclusion_about_e_plus_pi": "OPEN"
+  },
+  "ledger_action": "CLOSE_GENERIC_DISCRIMINANT_ENERGY_VANDERMONDE_AND_SUPPORT_ONLY_SIEVE_ROUTE_BOOK_ZERO",
+  "canonical_files_modified": false
+}

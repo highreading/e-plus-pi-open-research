@@ -1,0 +1,111 @@
+{
+  "schema": "item316-beta-intermediate-ostrowski-no-go-manifest-v1",
+  "item": 316,
+  "title": "Exact Ostrowski target for the beta intermediate window and a fixed-precision 2-adic no-go",
+  "date": "2026-08-31",
+  "status": "PROVED_EXACT_CLASSIFICATION_AND_SCOPED_FIXED_2ADIC_NO_GO",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item282_beta_unbounded_portfolio_report.md": "71bfa11a3c27dcd5389765659f68f0d2f5d5b08c74ce7a96ef0e8e050e9c5b68",
+    "manifests/item282_beta_unbounded_portfolio_manifest.json": "dbe86b7d17b1b98116383a0b03add8eb6b809b92664965fd436d9709545352c9",
+    "sources/item302_beta_base_affine_elimination_report.md": "5d6985b5928012f7d5113029f2ac94e916b543549af16985eed1af199971f8af",
+    "scripts/item302_beta_base_affine_elimination_certificate.py": "554046e0a647e931f6fc1240751a8cb69f47ae530a329e34a532bdaa0f2d0cf1",
+    "results/item302_beta_base_affine_elimination_certificate.json": "1cc2de524522d9720cf475ac5836b6d5148edb285f09cf5759d54e5dde6a37dc",
+    "manifests/item302_beta_base_affine_elimination_manifest.json": "acd74bd1a154eb2f2be42b94a69d14839a35b06324be9d15a8beac63d4663f44",
+    "sources/item305_beta_continuant_multiplier_report.md": "7da8f962ccf340204c80303682c2e0d2bbd7ad4ecbe1662a689cbcbbf210efcc",
+    "scripts/item305_beta_continuant_multiplier_certificate.py": "688c3aa668d15a70ce688a13c0677a57fc0e2ca80b9cf22a8dceb2c7c10f4db4",
+    "results/item305_beta_continuant_multiplier_certificate.json": "10d6989341d0e9c6416fe7a3a26be054ffab39e3df56f82b4e3fa1d42d79bcaf",
+    "manifests/item305_beta_continuant_multiplier_manifest.json": "18f8e57218710564b85cb1df0eeb53714e9a4fe08485f6d7e6f1750723d73714",
+    "sources/item313_beta_divisor_2adic_no_go_report.md": "c926d95a976738fb9aff8d7d01d10f4f1caa316d394ffc00be5f9879bf5e7406",
+    "scripts/item313_beta_divisor_2adic_no_go_certificate.py": "e1f96d21b62484c126f03130c751f050caa9e9e264d5a07f0792fee05b119a1c",
+    "results/item313_beta_divisor_2adic_no_go_certificate.json": "ba2e32e504e69681c2c253033d8f44624feca815dda7b51085bf15f067699a9a",
+    "results/item313_beta_divisor_2adic_no_go_root_replay.json": "ba2e32e504e69681c2c253033d8f44624feca815dda7b51085bf15f067699a9a",
+    "manifests/item313_beta_divisor_2adic_no_go_manifest.json": "d4f64359867242374fb484bede17a1031c6c4cc41c5088ecddb861d4c745b94c",
+    "results/item313_root_audit.json": "ad00d7061ea544454a13c3d015496c1872630428b75ef802ab04b1b66a23c03b"
+  },
+  "artifacts": [
+    {
+      "path": "work/item316_beta_intermediate_ostrowski_no_go_report.md",
+      "role": "all-digit proof, exact equivalence, scoped no-go, and strict scope",
+      "bytes": 14382,
+      "sha256": "55230ece7b07fc6caba7b15fee4d1dddaf56ce4099f600812669376f3107f719"
+    },
+    {
+      "path": "work/item316_beta_intermediate_ostrowski_no_go_certificate.py",
+      "role": "standard-library exact deterministic replay",
+      "bytes": 14836,
+      "sha256": "b7e25ea7248dbc774da7f3bd98a8665058117de84a2342009f8669bf5438cf6f"
+    },
+    {
+      "path": "work/item316_beta_intermediate_ostrowski_no_go_certificate.json",
+      "role": "canonical work-package certificate output",
+      "bytes": 11912,
+      "sha256": "5167e9d160fcecac86791944e41a176d3400f2a6856090de7cf78d55984e7aa4"
+    },
+    {
+      "path": "work/item316_beta_intermediate_ostrowski_no_go_certificate.replay.json",
+      "role": "independent byte-identical replay output",
+      "bytes": 11912,
+      "sha256": "5167e9d160fcecac86791944e41a176d3400f2a6856090de7cf78d55984e7aa4"
+    },
+    {
+      "path": "work/item316_beta_intermediate_ostrowski_no_go_ledger_delta.json",
+      "role": "proposed ledger delta; no canonical edit",
+      "bytes": 2253,
+      "sha256": "b78f5301204bda6c4fbf758117722fb749386c7bb0620aa722659e8da98672a6"
+    }
+  ],
+  "replay": {
+    "command": "python work/item316_beta_intermediate_ostrowski_no_go_certificate.py --output work/item316_beta_intermediate_ostrowski_no_go_certificate.replay.json",
+    "expected_stdout": {
+      "actual_target_equivalence": "PROVED",
+      "capacity_reduction": "ZERO",
+      "centered_half_bound": "OPEN",
+      "fixed_precision_2adic_no_go": "PROVED_SCOPED",
+      "item": 316,
+      "status": "PROVED_EXACT_CLASSIFICATION_AND_SCOPED_FIXED_2ADIC_NO_GO"
+    },
+    "expected_replay_sha256": "5167e9d160fcecac86791944e41a176d3400f2a6856090de7cf78d55984e7aa4"
+  },
+  "proved": [
+    "For every n>=5, the canonical Ostrowski digits give the exact half-language R<a/2.",
+    "For every canonical half-language word, the signed dual error obeys -S<E<a-S.",
+    "An actual intermediate-window failure is equivalent in both directions to 0<|E|<c and U=(-1)^n sign(E)a, with kappa=|E|.",
+    "For every fixed s>=1 and all n>=max(6,2^(s-1)+2), exact top-two-digit witnesses pass the target congruence modulo 2^s but fail the integer target."
+  ],
+  "strict_scope": {
+    "closes": "the exact all-digit representation and endpoint-carry ambiguity only",
+    "scoped_no_go": "only arguments retaining a fixed 2^s truncation of the target",
+    "does_not_close": [
+      "the all-digit target exclusion",
+      "R_actual>=a/2",
+      "a growing/full 2-adic or odd-modulus invariant",
+      "a proper-target bound",
+      "any beta capacity reduction",
+      "Route 1 or any conclusion about e+pi"
+    ]
+  },
+  "strict_labels": {
+    "PROVED": [
+      "canonical digits and exact half-language",
+      "strict dual-error and endpoint-carry exclusion",
+      "the two-way actual target equivalence and kappa=|E|"
+    ],
+    "PROVED_SCOPED_INFORMATION_CLASS_NO_GO": [
+      "fixed-precision 2-adic target truncations"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared replay control rows"
+    ],
+    "OPEN": [
+      "the exact all-digit exclusion and centered half-bound",
+      "growing/full 2-adic and odd-modulus routes",
+      "proper targets and every capacity consequence"
+    ]
+  },
+  "capacity": {
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "booking": 0
+  }
+}

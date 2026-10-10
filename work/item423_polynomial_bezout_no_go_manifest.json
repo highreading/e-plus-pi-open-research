@@ -1,0 +1,38 @@
+{
+  "schema": "item423-polynomial-bezout-no-go-manifest-v1",
+  "item": 423,
+  "status": "ROOT_AUDITED_CANONICAL_SCOPED_BEZOUT_HEIGHT_NO_GO_NO_BOOKING",
+  "scope": "Same-index fixed-degree polynomial-in-m Bezout combinations of the fully Cartier-normalized mixed-cubic residue pair.",
+  "artifacts": [
+    "sources/item423_polynomial_bezout_no_go_report.md",
+    "scripts/item423_polynomial_bezout_no_go_certificate.py",
+    "results/item423_polynomial_bezout_no_go_certificate.json",
+    "results/item423_polynomial_bezout_no_go_certificate_replay.json",
+    "results/item423_polynomial_bezout_no_go_root_replay.json",
+    "results/item423_polynomial_bezout_no_go_ledger_delta.json",
+    "manifests/item423_polynomial_bezout_no_go_manifest.json",
+    "results/item423_polynomial_bezout_no_go_root_audit.json",
+    "results/item423_polynomial_bezout_no_go_hashes.sha256"
+  ],
+  "dependencies": [
+    "sources/item415_marked_selector_compulsory_strip_report.md",
+    "sources/item418_normalized_large_carrier_report.md",
+    "results/item418_normalized_large_carrier_certificate.json",
+    "sources/item420_normalized_contour_extension_report.md",
+    "results/item420_normalized_contour_extension_certificate.json"
+  ],
+  "theorem": {
+    "raw": "limsup |A(m)lambda_0,m+B(m)lambda_1,m|^(1/m)=rho_star for every nonzero A,B in Q[m]",
+    "normalized": "limsup root equals rho_star*exp(-C_F) after fixed-denominator clearing",
+    "exact_obstruction": "the only degree tie would require the nonreal critical ratio q(alpha)/f0(alpha); its minimal cubic is 320t^3-400t^2+220t-11 with negative discriminant",
+    "capacity_effect": "zero"
+  },
+  "strict_scope_boundary": [
+    "no claim about the gcd itself",
+    "no claim for growing polynomial degree or adaptive coefficients",
+    "no claim for shifted rows",
+    "no claim for a joint resultant or subresultant of two combinations",
+    "no irrationality claim"
+  ],
+  "replay": "python scripts/item423_polynomial_bezout_no_go_certificate.py --output results/item423_polynomial_bezout_no_go_certificate_replay.json --replay results/item423_polynomial_bezout_no_go_certificate.json"
+}

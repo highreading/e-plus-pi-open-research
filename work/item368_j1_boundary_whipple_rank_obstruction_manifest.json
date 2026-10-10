@@ -1,0 +1,85 @@
+{
+  "item": 368,
+  "schema": "item368-j1-boundary-whipple-rank-obstruction-manifest-v1",
+  "classification": "PROVED_WHIPPLED_CROSSES_AND_LINEAR_PARAMETER_STATE_BARRIER",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual fixed-j1 saturation-boundary carriers, target-line saturation, crossed Whipple completion, parameter-state rank, and standard-method barriers",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item218_j1_common_log_report.md": "2cabc5a705a974d6989718e24443b59c00715fd4e9aff288e0e17b297096d585",
+    "scripts/item218_j1_common_log_certificate.py": "a238c5ca37263f2553da47bf3f21253aedf1c34f8c57458a4a274fc6cdc9029a",
+    "results/item218_j1_common_log_certificate.json": "963bbb8a9758e55ede72f965693d21fc41aa70d44e2d981d5873685c3f08ea0f",
+    "results/item218_j1_common_log_manifest.json": "e1c6c3d713670c819b5f27b1005db26f9b804ec8ee0766671928fc30c1ff6d8d",
+    "sources/item360_j1_full_gate_transverse_period_report.md": "4468412fb8631924952dc7f70fc4e75433a7524954b89525de508e55feefc8c4",
+    "results/item360_j1_full_gate_transverse_period_root_audit.json": "7a23e487b4d70d63f9785339344bdc00ae0e8350bcf1d8b1fcf6228c230e5138",
+    "manifests/item360_j1_full_gate_transverse_period_manifest.json": "92f88a56162f3803b8699922da921333f5225c41a32d14c87641dd53c3f8b55b",
+    "sources/item364_j1_saturation_boundary_phase_carrier_report.md": "2c18f6ac22220e553349e44a723e200d20f4f3c89cfec5cd83812db260834e92",
+    "scripts/item364_j1_saturation_boundary_phase_carrier_certificate.py": "ef9046fc4d7071779a73bf6e1bfd7d312789b994bd3274eec2a78d818d027b07",
+    "results/item364_j1_saturation_boundary_phase_carrier_certificate.json": "ca1987d1688789dbf0e64f3eec2c4b771b9873f829e61d1b5f62302f47443926",
+    "results/item364_j1_saturation_boundary_phase_carrier_root_audit.json": "fa6170a0c014cee655ba00c5288905344a969aa22b141d44b64ae4a2d3219a89",
+    "manifests/item364_j1_saturation_boundary_phase_carrier_manifest.json": "bd0c5435fe4d0b7266d81b4f97dfacf8b2fca55fb2c95770e7cb853c2f77426c"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item368_j1_boundary_whipple_rank_obstruction_report.md",
+      "sha256": "bfa47a283c90ca4a8966a39e4bc6b32ecdad23542030c1e992fa7b8ffaa49ffd",
+      "bytes": 15087
+    },
+    "certificate_script": {
+      "path": "work/item368_j1_boundary_whipple_rank_obstruction_certificate.py",
+      "sha256": "f9d72b05fd24d62aa58fbca72221ff246a4d270b1eefb9023351cfd1aff932c5",
+      "bytes": 24095
+    },
+    "certificate": {
+      "path": "work/item368_j1_boundary_whipple_rank_obstruction_certificate.json",
+      "sha256": "8814c95cca55bf80b735668813909ed7e0f85ff30a1926a0df4b5b0c6f3c396d",
+      "bytes": 16119
+    },
+    "replay": {
+      "path": "work/item368_j1_boundary_whipple_rank_obstruction_certificate_replay.json",
+      "sha256": "8814c95cca55bf80b735668813909ed7e0f85ff30a1926a0df4b5b0c6f3c396d",
+      "bytes": 16119,
+      "byte_identical_to_certificate": true
+    },
+    "ledger": {
+      "path": "work/item368_j1_boundary_whipple_rank_obstruction_ledger_delta.json",
+      "sha256": "30a39fc4bdb919d53864a3f56f180dfe95dcb98dd58ffc87b9185fceeeb33bc8",
+      "bytes": 6353
+    }
+  },
+  "theorems": [
+    "all four periods satisfy one exact first-order denominator-clearing recurrence",
+    "after removing all primes <=4h+3, paired target-line linear resultants equal the large-prime support of the Item364 phase carriers",
+    "the K0 actual phase pair is the diagonal of a terminating very-well-poised 4F3(-1) rectangle",
+    "both crossed Whipple entries have exact product evaluations and are units at every actual tied prime",
+    "the Whipple-matched and actual entries lie in distinct integer-contiguity classes",
+    "the parameter-uniform K0 state has exact rank h+1 and the K1 even/odd states have rank at least h-3/h-4",
+    "ordinary resultants and generic saturated recurrence-height-divisor sieves cannot prove weighted zero density without target-specific arithmetic"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "target-line saturation and exact-zero stratification",
+      "crossed Whipple evaluations, p-unit property, and contiguity obstruction",
+      "linear parameter-state growth for both boundary kernels",
+      "scoped standard-method closure",
+      "zero booking and zero capacity reduction"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "predeclared exact symbolic controls only; no prime scan or collision census"
+    ],
+    "OPEN": [
+      "classification of exact-zero phase pairs",
+      "weighted zero density or average gcd for the actual saturated carriers",
+      "a target-specific moving-parameter identity escaping the uniform rank barrier",
+      "any strict fixed-j1 capacity reduction"
+    ]
+  },
+  "capacity": {
+    "raw_fixed_j1_mass_per_M": "1/6",
+    "retained_shared_full_fixed_j1_ceiling_per_6M": "1/36",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "overlap_rule": "the two boundaries and nonboundary chart are subsets of one full gate and are not additive"
+  },
+  "replay_command": "python work/item368_j1_boundary_whipple_rank_obstruction_certificate.py --output work/item368_j1_boundary_whipple_rank_obstruction_certificate_replay.json"
+}

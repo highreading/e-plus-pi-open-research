@@ -1,0 +1,416 @@
+{
+  "capacity": {
+    "actual_singleton_rate": "OPEN",
+    "aggregate_height_dilation": "at least A*log U_11",
+    "booking": 0,
+    "minimum_t_away_indicator_degree": "N(p-1)>=NA",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "per_hit_integer_lift_height": "at least (p-1)log p>=A log p",
+    "positive_mass_indicator_degree": "Omega(n^2)",
+    "positive_mass_requires_distinct_rows": "Omega(n)",
+    "raw_singleton_squarefree_maximum": "log Q<=log b"
+  },
+  "date": "2026-09-01",
+  "declared_controls": {
+    "candidate_loop": {
+      "A": 10,
+      "Q_exponents": {
+        "11": 1,
+        "13": 1,
+        "17": 1,
+        "19": 2
+      },
+      "Q_single_primes": [
+        11,
+        13,
+        17
+      ],
+      "candidate_rows": [
+        {
+          "gcd_p_phi": 1,
+          "hit_height_lower_verified": true,
+          "integer_phi": "95595634971144168337510253118714938215914272203373271650098074585399297",
+          "occurrence": 2,
+          "p": 11,
+          "phi_mod_p": 1,
+          "t_avoiding": true
+        },
+        {
+          "gcd_p_phi": 13,
+          "hit_height_lower_verified": true,
+          "integer_phi": "11379250983329199298794557220801000546717601496367722293740142556216014587359532154881",
+          "occurrence": 1,
+          "p": 13,
+          "phi_mod_p": 0,
+          "t_avoiding": true
+        },
+        {
+          "gcd_p_phi": 1,
+          "hit_height_lower_verified": true,
+          "integer_phi": "161237072687017731580018562553908386411066656298710025957730144084889338287882211637596636717443492747246032650241",
+          "occurrence": 1,
+          "p": 17,
+          "phi_mod_p": 1,
+          "t_avoiding": false
+        }
+      ],
+      "candidate_rows_digest": "1045c183c2ec823ef2c846a76fdac9ee61f3a4ee3245d6e65ee781fc081e0af8",
+      "exact_singleton_squarefree_carrier": 13,
+      "expected_carrier": 13,
+      "finite_algebraic_control_only": true,
+      "rows": [
+        22,
+        33,
+        26,
+        34
+      ],
+      "t": 17
+    },
+    "controls_digest": "3066beef0e0447587a9078b06adf7fbeecc8d011114c3ca977db63b61840f34e",
+    "finite_rows_promoted": false,
+    "frobenius": {
+      "function_kernel_relation": "Y^p-Y reduces to zero",
+      "integer_frobenius_gate_height_multiplies_log_size_by_p": true,
+      "reduced_singleton_class_unchanged_by_kernel_additions": true,
+      "rows": [
+        {
+          "Y_to_p_minus_Y_zero_function": true,
+          "binary_powering_depth_lower_bound": 1,
+          "p": 3,
+          "zero_test_degree": 2
+        },
+        {
+          "Y_to_p_minus_Y_zero_function": true,
+          "binary_powering_depth_lower_bound": 2,
+          "p": 5,
+          "zero_test_degree": 4
+        },
+        {
+          "Y_to_p_minus_Y_zero_function": true,
+          "binary_powering_depth_lower_bound": 3,
+          "p": 7,
+          "zero_test_degree": 6
+        }
+      ],
+      "rows_digest": "51a891ab6a08e5a0b834bc4dd1d9bbb0a2c292830bb71b3a4d15fe7359f249fe"
+    },
+    "prime_census_performed": false,
+    "quotient_bridge": {
+      "actual_item316_target_claim": false,
+      "binomial_identity_mod_p2": "(p-1)^(p-1)=1+p (mod p^2)",
+      "control_rows": [
+        {
+          "fermat_quotient_mod_p": 1,
+          "integer_phi": "60",
+          "p": 3,
+          "p_adic_valuation": 1,
+          "phi_mod_p2": 6,
+          "phi_over_p_mod_p": 2,
+          "rows": [
+            3,
+            2
+          ]
+        },
+        {
+          "fermat_quotient_mod_p": 1,
+          "integer_phi": "319120",
+          "p": 5,
+          "p_adic_valuation": 1,
+          "phi_mod_p2": 20,
+          "phi_over_p_mod_p": 4,
+          "rows": [
+            5,
+            4
+          ]
+        },
+        {
+          "fermat_quotient_mod_p": 1,
+          "integer_phi": "10977899184",
+          "p": 7,
+          "p_adic_valuation": 1,
+          "phi_mod_p2": 42,
+          "phi_over_p_mod_p": 6,
+          "rows": [
+            7,
+            6
+          ]
+        },
+        {
+          "fermat_quotient_mod_p": 1,
+          "integer_phi": "518748491984062575400",
+          "p": 11,
+          "p_adic_valuation": 1,
+          "phi_mod_p2": 110,
+          "phi_over_p_mod_p": 10,
+          "rows": [
+            11,
+            10
+          ]
+        }
+      ],
+      "control_rows_digest": "f2d714888a4423837a5ca362def6ae2e01826e2e30c82163dab9350ea290c7da",
+      "fermat_quotient_mod_p": 1,
+      "p_adic_valuation": 1,
+      "phi_over_p_mod_p": "-1",
+      "symbolic_family": "t=1, rows=(p,p-1) for every odd prime p",
+      "universal_p2_lift_refuted_for_every_odd_p": true
+    },
+    "reduced_degrees": {
+      "degree_cases": [
+        {
+          "N": 2,
+          "binary_multiplication_depth_lower_bound": 3,
+          "coefficient_digest": "446ba0c19402675b31434d0f9327ba565260f2cc32b0ccc877440f9ec97d20ef",
+          "p": 5,
+          "row_only_total_degree": 8,
+          "unconditional_with_t_lower_degree": 8,
+          "with_t_total_degree": 12
+        },
+        {
+          "N": 3,
+          "binary_multiplication_depth_lower_bound": 3,
+          "coefficient_digest": "399ad803e2ca6f73e09f26a58b57160b6fb83ebb7e9463bcd8ccd4c9fb13291b",
+          "p": 3,
+          "row_only_total_degree": 4,
+          "unconditional_with_t_lower_degree": 6,
+          "with_t_total_degree": 6
+        },
+        {
+          "N": 4,
+          "binary_multiplication_depth_lower_bound": 5,
+          "coefficient_digest": "4c49c1ca0137f78de106837582ec5d57fbeee7e2ad1658dee07e993867df0d36",
+          "p": 7,
+          "row_only_total_degree": 24,
+          "unconditional_with_t_lower_degree": 24,
+          "with_t_total_degree": 30
+        }
+      ],
+      "degree_cases_digest": "2b5a6cd2e5c41eafc206072b47422784beae1687713e95d127cf9f880532a349",
+      "low_incidence": {
+        "L": 3,
+        "N": 3,
+        "actual_reduced_degree": 6,
+        "p": 3,
+        "points": 81,
+        "proved_degree_lower": 4
+      },
+      "prime_census_performed": false,
+      "truth_tables": [
+        {
+          "N": 2,
+          "p": 3,
+          "points": 27,
+          "zero_points": 8
+        },
+        {
+          "N": 2,
+          "p": 5,
+          "points": 125,
+          "zero_points": 32
+        }
+      ],
+      "truth_tables_digest": "f907111ed988363923d765fedfe6f3578e4166e0c5cc4fd9947a2b86a7e2940f",
+      "unique_reduced_representative_used": true
+    },
+    "triangular_load": {
+      "actual_target_or_canonical_box_claim": false,
+      "digits": [
+        3,
+        2,
+        8,
+        9,
+        4,
+        11
+      ],
+      "integral_triangular_inverse_verified": true,
+      "loads": [
+        2,
+        47,
+        32,
+        13
+      ],
+      "odd_prime_sign_invariance_verified": true,
+      "reconstructed": [
+        3,
+        2,
+        8,
+        9,
+        4,
+        11
+      ],
+      "weights": [
+        0,
+        0,
+        5,
+        7,
+        4,
+        6
+      ]
+    }
+  },
+  "dependencies": {
+    "count": 23,
+    "rows": [
+      {
+        "bytes": 14388,
+        "path": "sources/item316_beta_intermediate_ostrowski_no_go_report.md",
+        "sha256": "8d6dce8354f08e94a252a2120cf677d9a374df95507a9297dcb064a1982fb6b0"
+      },
+      {
+        "bytes": 11912,
+        "path": "results/item316_beta_intermediate_ostrowski_no_go_certificate.json",
+        "sha256": "5167e9d160fcecac86791944e41a176d3400f2a6856090de7cf78d55984e7aa4"
+      },
+      {
+        "bytes": 3018,
+        "path": "results/item316_root_audit.json",
+        "sha256": "6cad978132f5f09c687aa8fcf8dcd92a7d917cf9411a69f679c7757139229175"
+      },
+      {
+        "bytes": 5980,
+        "path": "manifests/item316_beta_intermediate_ostrowski_no_go_manifest.json",
+        "sha256": "aac741658430fb661de078adfeafdbc3a9d20312a8fd8725cb4244d406d9bcf6"
+      },
+      {
+        "bytes": 12193,
+        "path": "sources/item346_beta_t_avoiding_radical_localization_report.md",
+        "sha256": "2ad742c14d0adbc74da6c46394ed89f68cec8888a3c9d22ee4f230a4e16548a5"
+      },
+      {
+        "bytes": 55217,
+        "path": "results/item346_beta_t_avoiding_radical_localization_certificate.json",
+        "sha256": "29a20d6ede62db23658d66db8e57af4a2982c9b66fd12d104f0070b3280aefab"
+      },
+      {
+        "bytes": 3264,
+        "path": "results/item346_beta_t_avoiding_radical_localization_root_audit.json",
+        "sha256": "c9273d7e187ee2c9b4b91bffc65769f1a29f937613c36960e4ed5871c5782089"
+      },
+      {
+        "bytes": 5228,
+        "path": "manifests/item346_beta_t_avoiding_radical_localization_manifest.json",
+        "sha256": "5029cf3483fdf6cce4bbc0d454bca362bb2796104ca36b353d0161e374915530"
+      },
+      {
+        "bytes": 14555,
+        "path": "sources/item350_beta_mesoscopic_first_hit_crt_no_go_report.md",
+        "sha256": "a028d87765b16bf921a219e43314c8020b635e052cf3a653a9213389d81ce532"
+      },
+      {
+        "bytes": 27293,
+        "path": "scripts/item350_beta_mesoscopic_first_hit_crt_no_go_certificate.py",
+        "sha256": "ae4be8e7e4675a30efe01cc1e7e40d57e63bd49590c34aaf9f8c97996038073f"
+      },
+      {
+        "bytes": 26348,
+        "path": "results/item350_beta_mesoscopic_first_hit_crt_no_go_certificate.json",
+        "sha256": "9c30d1c23b741e0e5b7e38ab39b16658f225f9846894b8a2b657bfa4eb145950"
+      },
+      {
+        "bytes": 3374,
+        "path": "results/item350_beta_mesoscopic_first_hit_crt_no_go_root_audit.json",
+        "sha256": "e965a5131ebc4ff9a54b7ae8369b2855e562ebfa9190517817b7d2fd2af7e162"
+      },
+      {
+        "bytes": 5773,
+        "path": "manifests/item350_beta_mesoscopic_first_hit_crt_no_go_manifest.json",
+        "sha256": "19e6e4ab0dfe99b7e6587e66006caa99bd39c368c574fec69762d1aee5cc3b21"
+      },
+      {
+        "bytes": 12015,
+        "path": "sources/item354_beta_mesoscopic_incidence_resultant_tower_report.md",
+        "sha256": "511de44cc96c383ff8cf20bb613c6d466cbbd1f2e46bdce8cab794561279a3ac"
+      },
+      {
+        "bytes": 16922,
+        "path": "scripts/item354_beta_mesoscopic_incidence_resultant_tower_certificate.py",
+        "sha256": "67149ee09abde20427668d5bec7c716974b2bdf1e3eab63492ad6ebe7e75930c"
+      },
+      {
+        "bytes": 19905,
+        "path": "results/item354_beta_mesoscopic_incidence_resultant_tower_certificate.json",
+        "sha256": "964d4f38ce8c3c7ba7046da66e29a2b90000be009987896704388459fd5c51d1"
+      },
+      {
+        "bytes": 3359,
+        "path": "results/item354_beta_mesoscopic_incidence_resultant_tower_root_audit.json",
+        "sha256": "ce5a1cf333220186e7088f8c19cb0040e88441570cc8818d3707710495ef1f25"
+      },
+      {
+        "bytes": 7079,
+        "path": "manifests/item354_beta_mesoscopic_incidence_resultant_tower_manifest.json",
+        "sha256": "f94bb26dad8b5e5dc260d700587c7ed7a628b615a561bbbe75a2dfd785a75876"
+      },
+      {
+        "bytes": 11855,
+        "path": "sources/item358_beta_actual_low_incidence_saturation_barrier_report.md",
+        "sha256": "681c9f9cbe926978c78f632084c8be83439c2ac3f5e50f2c2697a49f2f0da68d"
+      },
+      {
+        "bytes": 21006,
+        "path": "scripts/item358_beta_actual_low_incidence_saturation_barrier_certificate.py",
+        "sha256": "c997c7f3739fe5dc98ee2e48c3ebfd1a67e74289e175d52bc8d5adfb1f9565bf"
+      },
+      {
+        "bytes": 15507,
+        "path": "results/item358_beta_actual_low_incidence_saturation_barrier_certificate.json",
+        "sha256": "4da88e55dec36f3c130def549007c8ae1509ff0a029dfed9ff25f67a78c2ffa3"
+      },
+      {
+        "bytes": 3638,
+        "path": "results/item358_beta_actual_low_incidence_saturation_barrier_root_audit.json",
+        "sha256": "a1a48f7d7080834ebf3be56b47d8056733e88e1913e8f6ea784f97a5eb2d9172"
+      },
+      {
+        "bytes": 8117,
+        "path": "manifests/item358_beta_actual_low_incidence_saturation_barrier_manifest.json",
+        "sha256": "4ba799fe2fc8cb6063034d844f91bcaec6c3fc84d043b1f46c675fce400acfb1"
+      }
+    ],
+    "rows_digest": "fa0c5d4604ea83a7133737e994062de14e7dd262d51a19afc920c92b641fbc86"
+  },
+  "item": 362,
+  "proof_object": {
+    "actual_loop": "On the actual nonzero cofactor word, the product over p dividing Q^[1] in (A,A^2) of gcd(p,Phi_p(t,Z)) is exactly U_11.",
+    "degree": "The t-away singleton complement has reduced degree (N+1)(p-1) when p does not divide N and N(p-1) otherwise. Each variable has degree p-1. The incidence-<L complement contains a monomial of degree (N-L+2)(p-1); with external t-avoidance the analogous row-only lower bound is (N-L+1)(p-1).",
+    "height": "At a t-avoiding singleton, the canonical integer lift is positive and at least p^(p-1). Since p>A, aggregating hit-specific lifts dilates the target mass by at least A rather than compressing it.",
+    "quotient": "At singleton row j, Phi_p/p modulo p is minus the Fermat quotient of t times the product of the other rows. No second p-adic digit is forced by the indicator identity.",
+    "recurrence": "The signed loads x_j=w_j d_(j-1)-d_j are integral triangular coordinates of determinant a unit modulo every p. Composition with the linear map and its inverse proves invariance of reduced functional degree. Before the target and canonical box are imposed, a uniform recurrence-only substitution cannot lower the reduced row degree.",
+    "scope": "This closes bounded-degree exact polynomial-function carriers and their canonical reduced integer lifts. It does not close a new target-specific cancellation, large-sieve, or Fermat-quotient theorem.",
+    "unique_reduction": "Evaluation identifies F_p-valued functions with the quotient by T^p-T and Y_i^p-Y_i; every class has one representative of individual degrees at most p-1, and reduction never raises total degree."
+  },
+  "proof_object_digest": "a3f1f45a4517a9c3e5463057a5abbff524c027774b8161ce7b6028f5392f9dc3",
+  "schema": "item362-beta-finite-field-singleton-indicator-barrier-certificate-v1",
+  "status": "PROVED_FINITE_FIELD_INDICATOR_DEGREE_HEIGHT_SCOPED_NO_GO",
+  "strict_scope": {
+    "actual_item316_claim_from_declared_rows": false,
+    "canonical_files_modified": false,
+    "closes": [
+      "bounded-degree exact finite-field polynomial-function singleton indicators",
+      "bounded multiplication-depth indicators without a p-power primitive",
+      "canonical reduced-lift height as a compression of singleton mass",
+      "Y^p-Y kernel additions as a way to lower the reduced degree"
+    ],
+    "does_not_close": [
+      "target-specific cancellation after imposing the exact endpoint and canonical box",
+      "an arbitrary F-crystal or Cartier-state dimension theorem",
+      "a new large-sieve or monodromy theorem",
+      "distribution of the moving Fermat quotients",
+      "the actual singleton mass, growing low incidence, or Xi_Q"
+    ],
+    "item350_selected_hits_promoted_to_first_occurrence": false
+  },
+  "theorem": {
+    "actual_candidate_loop_identity": "PROVED",
+    "actual_singleton_zero_density": "OPEN",
+    "actual_target_specific_finite_field_cancellation": "OPEN",
+    "canonical_lift_height_dilation": "PROVED",
+    "first_quotient_fermat_bridge": "PROVED",
+    "growing_low_incidence_degree_lower_bound": "PROVED",
+    "minimal_total_and_individual_degree": "PROVED",
+    "triangular_recurrence_degree_preservation_before_target": "PROVED",
+    "unique_reduced_singleton_indicator": "PROVED",
+    "universal_second_digit": "REFUTED_BY_ALL_ODD_PRIME_CONSTRUCTION"
+  }
+}

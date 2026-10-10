@@ -1,0 +1,411 @@
+{
+  "classification": "PROVED_EXACT_NO_NONNEGATIVE_TRANSITION_POLES",
+  "logic": "Every irreducible factor, after normalizing its sign, has all coefficients strictly positive. Therefore it is positive for every real n>=0. The displayed nonzero rational scalar fixes the sign but cannot create a zero. The same conclusion holds after every transition shift n->n+s, s>=0.",
+  "remaining_structural_denominators": "rho has denominator 864(h+1)(h+2)(2h+1)^2(2h+3)(2h+5)^2(4h+3), and scalar/y factors use 4h+3; all are strictly positive for h=3n+r>=1.",
+  "residues": [
+    {
+      "all_transition_denominators_nonzero_for_n_ge_0": true,
+      "primitive_transition_denominators": {
+        "v_companion_leading": {
+          "degree": 16,
+          "factors": [
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "n + 3",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "3*n + 8",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "3*n + 7",
+              "multiplicity": 2
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "3*n + 10",
+              "multiplicity": 2
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 10,
+              "factor": "208177249500000*n**10 + 3166817553000000*n**9 + 21321523932120000*n**8 + 83545907243284800*n**7 + 210667633705356750*n**6 + 356642889259824540*n**5 + 409863689065855791*n**4 + 315234509078980260*n**3 + 155050233940063773*n**2 + 43975872698193906*n + 5454517776963880",
+              "multiplicity": 1
+            }
+          ],
+          "nonzero_for_every_integer_n_ge_0": true,
+          "scalar": "1/50587071628500000"
+        },
+        "x_companion_leading": {
+          "degree": 15,
+          "factors": [
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "4*n + 7",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "4*n + 9",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "4*n + 11",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "4*n + 13",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "4*n + 15",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "4*n + 17",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "12*n + 17",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "12*n + 23",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "12*n + 29",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "12*n + 35",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "12*n + 41",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "12*n + 47",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 3,
+              "factor": "31169351618613368467329576741882054107386404824932889285318611395009886651638553421094708*n**3 + 190120608215493425018977743559152419223183227708017961030408694855499537366946858905776378*n**2 + 381708866901727404428318075561759481760683009460727638837817889677770194195648603972401922*n + 251113902111019314545526197603606981477626969037516587829859295139507359541706323142025255",
+              "multiplicity": 1
+            }
+          ],
+          "nonzero_for_every_integer_n_ge_0": true,
+          "scalar": "1/381219574675675629279439416844418840378532194815067785132985583729529656867251381446795512105664512"
+        },
+        "xu_u_shift_leading": {
+          "degree": 7,
+          "factors": [
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "4*n + 3",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "4*n + 5",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "6*n + 7",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "12*n + 5",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "12*n + 11",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "12*n + 17",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "174*n + 127",
+              "multiplicity": 1
+            }
+          ],
+          "nonzero_for_every_integer_n_ge_0": true,
+          "scalar": "1/28864512"
+        },
+        "yv_y_coefficient": {
+          "degree": 12,
+          "factors": [
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "2*n + 1",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "6*n + 7",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 10,
+              "factor": "208177249500000*n**10 + 3166817553000000*n**9 + 21321523932120000*n**8 + 83545907243284800*n**7 + 210667633705356750*n**6 + 356642889259824540*n**5 + 409863689065855791*n**4 + 315234509078980260*n**3 + 155050233940063773*n**2 + 43975872698193906*n + 5454517776963880",
+              "multiplicity": 1
+            }
+          ],
+          "nonzero_for_every_integer_n_ge_0": true,
+          "scalar": "-1/68496840"
+        }
+      },
+      "residue": 1
+    },
+    {
+      "all_transition_denominators_nonzero_for_n_ge_0": true,
+      "primitive_transition_denominators": {
+        "v_companion_leading": {
+          "degree": 16,
+          "factors": [
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "n + 3",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "3*n + 10",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "3*n + 8",
+              "multiplicity": 2
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "3*n + 11",
+              "multiplicity": 2
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 10,
+              "factor": "69392416500000*n**10 + 1286913906000000*n**9 + 10620954279540000*n**8 + 51331935609201600*n**7 + 160777918007242650*n**6 + 340761025022743080*n**5 + 494603169369580647*n**4 + 485143137612529416*n**3 + 307574064344112759*n**2 + 113747580753836680*n + 18624868896211200",
+              "multiplicity": 1
+            }
+          ],
+          "nonzero_for_every_integer_n_ge_0": true,
+          "scalar": "1/16862357209500000"
+        },
+        "x_companion_leading": {
+          "degree": 15,
+          "factors": [
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "4*n + 7",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "4*n + 9",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "4*n + 11",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "4*n + 13",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "4*n + 15",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "4*n + 17",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "12*n + 25",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "12*n + 31",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "12*n + 37",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "12*n + 43",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "12*n + 49",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "12*n + 55",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 3,
+              "factor": "10389783872871122822443192247294018035795468274977629761772870465003295550546184473698236*n**3 + 73763319944702264495435773433678157776856544177650283438575768750169808006195137442290362*n**2 + 172948574306086936865582143393940593092866876513683525317732185571035504885830898127761470*n + 133543041177508170075411516330525470957024831322326955473124773726273320421473917169441025",
+              "multiplicity": 1
+            }
+          ],
+          "nonzero_for_every_integer_n_ge_0": true,
+          "scalar": "1/127073191558558543093146472281472946792844064938355928377661861243176552289083793815598504035221504"
+        },
+        "xu_u_shift_leading": {
+          "degree": 7,
+          "factors": [
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "2*n + 3",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "4*n + 3",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "4*n + 5",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "4*n + 7",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "12*n + 13",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "12*n + 19",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "174*n + 185",
+              "multiplicity": 1
+            }
+          ],
+          "nonzero_for_every_integer_n_ge_0": true,
+          "scalar": "1/3207168"
+        },
+        "yv_y_coefficient": {
+          "degree": 12,
+          "factors": [
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "2*n + 3",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 1,
+              "factor": "6*n + 5",
+              "multiplicity": 1
+            },
+            {
+              "all_coefficients_strictly_positive_after_sign_normalization": true,
+              "degree": 10,
+              "factor": "69392416500000*n**10 + 1286913906000000*n**9 + 10620954279540000*n**8 + 51331935609201600*n**7 + 160777918007242650*n**6 + 340761025022743080*n**5 + 494603169369580647*n**4 + 485143137612529416*n**3 + 307574064344112759*n**2 + 113747580753836680*n + 18624868896211200",
+              "multiplicity": 1
+            }
+          ],
+          "nonzero_for_every_integer_n_ge_0": true,
+          "scalar": "-1/22832280"
+        }
+      },
+      "residue": 2
+    }
+  ]
+}

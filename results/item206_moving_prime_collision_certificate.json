@@ -1,0 +1,427 @@
+{
+  "arithmetic": "exact rational/Gaussian arithmetic; all bounded scans explicitly FINITE",
+  "dependencies": {
+    "scripts/item175_fixed_band_certificate.py": "1f7783bdd867a84643a4589542125744780c7d1237b12581ca0bbc6663d39786",
+    "scripts/item178_minimal_parity_certificate.py": "fd46573df01baa2c0311c818e860e858c3f946112ebaeec8ddaadb9bb13ff930",
+    "scripts/item196_rankone_moving_gate_certificate.py": "3cacdfa631f8b9449494a8e53b4326a7af5c6c260737fde60fd73e1619b0f9e6"
+  },
+  "finite_cross_row_audit": {
+    "all_cross_j_determinants_zero": true,
+    "label": "FINITE",
+    "max_j": 12,
+    "rows": [
+      {
+        "delta": "125/6144",
+        "j": 1
+      },
+      {
+        "delta": "-343/30720",
+        "j": 2
+      },
+      {
+        "delta": "-3414015/469762048",
+        "j": 3
+      },
+      {
+        "delta": "61408347/21474836480",
+        "j": 4
+      },
+      {
+        "delta": "6875689457/1700807049216",
+        "j": 5
+      },
+      {
+        "delta": "-366468653625/550305569701888",
+        "j": 6
+      },
+      {
+        "delta": "-6057030671923297/2341871806232657920",
+        "j": 7
+      },
+      {
+        "delta": "-1887039047554375/10376293541461622784",
+        "j": 8
+      },
+      {
+        "delta": "164884953709084784175/95332773372930962751488",
+        "j": 9
+      },
+      {
+        "delta": "4007930221776823875/7168577685269222785024",
+        "j": 10
+      },
+      {
+        "delta": "-75753096391572570140625/66037572896449118668324864",
+        "j": 11
+      },
+      {
+        "delta": "-52216290925813447112872269/72293764012954824647429324800",
+        "j": 12
+      }
+    ]
+  },
+  "finite_rank_drop_ledger": {
+    "label": "FINITE",
+    "max_j": 12,
+    "rows": [
+      {
+        "j": 1,
+        "rank_one_above_3j_plus_2": [],
+        "rank_zero": [
+          {
+            "kind": "both_zero",
+            "p": 5
+          }
+        ]
+      },
+      {
+        "j": 2,
+        "rank_one_above_3j_plus_2": [],
+        "rank_zero": [
+          {
+            "kind": "both_zero",
+            "p": 7
+          }
+        ]
+      },
+      {
+        "j": 3,
+        "rank_one_above_3j_plus_2": [
+          {
+            "kind": "B_zero",
+            "p": 19
+          }
+        ],
+        "rank_zero": [
+          {
+            "kind": "both_zero",
+            "p": 11
+          }
+        ]
+      },
+      {
+        "j": 4,
+        "rank_one_above_3j_plus_2": [],
+        "rank_zero": [
+          {
+            "kind": "both_zero",
+            "p": 11
+          },
+          {
+            "kind": "both_zero",
+            "p": 13
+          }
+        ]
+      },
+      {
+        "j": 5,
+        "rank_one_above_3j_plus_2": [],
+        "rank_zero": [
+          {
+            "kind": "both_zero",
+            "p": 13
+          },
+          {
+            "kind": "both_zero",
+            "p": 17
+          }
+        ]
+      },
+      {
+        "j": 6,
+        "rank_one_above_3j_plus_2": [
+          {
+            "kind": "nonzero_parallel",
+            "p": 29
+          }
+        ],
+        "rank_zero": [
+          {
+            "kind": "both_zero",
+            "p": 17
+          },
+          {
+            "kind": "both_zero",
+            "p": 19
+          }
+        ]
+      },
+      {
+        "j": 7,
+        "rank_one_above_3j_plus_2": [
+          {
+            "kind": "nonzero_parallel",
+            "p": 79
+          }
+        ],
+        "rank_zero": [
+          {
+            "kind": "both_zero",
+            "p": 17
+          },
+          {
+            "kind": "both_zero",
+            "p": 19
+          },
+          {
+            "kind": "both_zero",
+            "p": 23
+          }
+        ]
+      },
+      {
+        "j": 8,
+        "rank_one_above_3j_plus_2": [],
+        "rank_zero": [
+          {
+            "kind": "both_zero",
+            "p": 19
+          },
+          {
+            "kind": "both_zero",
+            "p": 23
+          }
+        ]
+      },
+      {
+        "j": 9,
+        "rank_one_above_3j_plus_2": [
+          {
+            "kind": "nonzero_parallel",
+            "p": 1291
+          }
+        ],
+        "rank_zero": [
+          {
+            "kind": "both_zero",
+            "p": 23
+          },
+          {
+            "kind": "both_zero",
+            "p": 29
+          }
+        ]
+      },
+      {
+        "j": 10,
+        "rank_one_above_3j_plus_2": [],
+        "rank_zero": [
+          {
+            "kind": "both_zero",
+            "p": 23
+          },
+          {
+            "kind": "both_zero",
+            "p": 29
+          },
+          {
+            "kind": "both_zero",
+            "p": 31
+          }
+        ]
+      },
+      {
+        "j": 11,
+        "rank_one_above_3j_plus_2": [
+          {
+            "kind": "B_zero",
+            "p": 59
+          },
+          {
+            "kind": "nonzero_parallel",
+            "p": 8123
+          }
+        ],
+        "rank_zero": [
+          {
+            "kind": "both_zero",
+            "p": 29
+          },
+          {
+            "kind": "both_zero",
+            "p": 31
+          }
+        ]
+      },
+      {
+        "j": 12,
+        "rank_one_above_3j_plus_2": [
+          {
+            "kind": "nonzero_parallel",
+            "p": 1597
+          }
+        ],
+        "rank_zero": [
+          {
+            "kind": "both_zero",
+            "p": 29
+          },
+          {
+            "kind": "both_zero",
+            "p": 31
+          },
+          {
+            "kind": "both_zero",
+            "p": 37
+          }
+        ]
+      }
+    ]
+  },
+  "finite_regular_anchor_audit": {
+    "common_content_rows": [
+      {
+        "j": 1,
+        "p": 19,
+        "s": 3
+      },
+      {
+        "j": 1,
+        "p": 59,
+        "s": 11
+      }
+    ],
+    "label": "FINITE",
+    "max_s": 12,
+    "prime_cap": 211,
+    "tested": 512
+  },
+  "item": 206,
+  "maximal_collision_witness": {
+    "admissible_rows": [
+      {
+        "A0": 0,
+        "B0": 0,
+        "j": 1,
+        "m": 17
+      },
+      {
+        "A0": 0,
+        "B0": 0,
+        "j": 3,
+        "m": 36
+      },
+      {
+        "A0": 0,
+        "B0": 0,
+        "j": 5,
+        "m": 55
+      },
+      {
+        "A0": 0,
+        "B0": 0,
+        "j": 7,
+        "m": 74
+      }
+    ],
+    "gamma_mod_19": [
+      0,
+      0
+    ],
+    "p": 19,
+    "s": 3
+  },
+  "proved_identity_replay": {
+    "differential_polynomial_identity_coefficients": [
+      0
+    ],
+    "partial_fraction_pole_vector": [
+      "2",
+      "-1-i",
+      "-1+i"
+    ],
+    "real_normal": [
+      2,
+      -1,
+      -1
+    ],
+    "uQprime_plus_4_quotient_by_Q": [
+      4,
+      -3
+    ]
+  },
+  "proved_rank_zero_interval": {
+    "Cartier_numerator_degrees": {
+      "base": "p-2",
+      "one_Q_pole_divisor": "p-3"
+    },
+    "capacity_bound": "p^2 <= 6m, hence total log-prime weight O(sqrt(m))",
+    "condition": "2j+3 <= p <= 3j+2",
+    "primitive_joint_zero_witness": {
+      "gamma_mod_11": [
+        6,
+        6
+      ],
+      "mod_11": [
+        0,
+        0
+      ],
+      "rational_A0": "-150464985/256",
+      "rational_B0": "-191577969/128",
+      "row": {
+        "j": 3,
+        "m": 21,
+        "p": 11,
+        "s": 1
+      }
+    }
+  },
+  "proved_regular_rank_reduction": {
+    "Q_adic_coefficient_replay": {
+      "quotient_coefficient_formula_low_to_high": [
+        "-(3s+2)B",
+        "-(3s+1)A+(5s+3)B",
+        "(5s+3)(A+B)",
+        "(5s+3)(A+B)",
+        "(5s+3)A+B"
+      ],
+      "range": [
+        0,
+        12
+      ],
+      "x2_minus_x1": "4(2s+1)A"
+    },
+    "even_s_anchor": {
+      "delta": "-343/30720",
+      "j": 2,
+      "only_numerator_prime": 7
+    },
+    "joint_gate_equivalence": "A0=B0=0 iff p divides gcd(gamma_0(s),gamma_1(s))",
+    "odd_s_anchor": {
+      "delta": "125/6144",
+      "j": 1,
+      "only_numerator_prime": 5
+    },
+    "rank_two_condition": "delta_j is a p-unit",
+    "s_zero_gamma_gcd": 2,
+    "s_zero_rank_zero_boundary": {
+      "mod_7": [
+        0,
+        0
+      ],
+      "rational_gates": [
+        "58737/320",
+        "59829/128"
+      ],
+      "row": {
+        "j": 2,
+        "m": 10,
+        "p": 7,
+        "s": 0
+      }
+    },
+    "s_zero_vectors_rho_1_rho_3": [
+      [
+        "-3/2",
+        "1/2",
+        "3/2"
+      ],
+      [
+        "-3/2",
+        "3/2",
+        "1/2"
+      ]
+    ]
+  },
+  "verdict": "PROVED the universal all-j kernel and identically zero cross-j eliminants; PROVED regular-rank joint gates equal common moving content; PROVED the automatic rank-zero interval has zero rate; rank-one determinant divisors and common-content moving zeros remain open, so no positive missing rate is claimed."
+}

@@ -1,0 +1,55 @@
+{
+  "item": 411,
+  "schema": "item411-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_EXACT_PRIMITIVE_TRANSPORT_AND_MARKED_BRANCH_CORRECTION_ZERO_BOOKING",
+  "scope": "independent root audit of the generator transport, primitive Smith carrier, marked/unmarked cube-root split, positive-exponent boundary equations, transform-only no-go, capacity interpretation, dependencies, and deterministic replay",
+  "checks": {
+    "canonical_dependencies_checked": 12,
+    "canonical_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "control_characters": 0,
+    "finite_rows_used_only_as_normalization_controls": true,
+    "finite_to_infinite_inference_used": false,
+    "root_repairs": "Canonicalized paths and status, added strict frozen-certificate replay, replaced stale work pins by the corrected audited Item403 and Item406 packages, and propagated Item411's marked/unmarked distinction back into Items403 and406."
+  },
+  "mathematical_audit": {
+    "generator_transport": "Substitution of the Item406 Hermite identities gives lambda0=-(epsilon0+epsilon1) and A lambda1=-(5n-7)epsilon0-(5n-1)epsilon1. The coefficient determinant is 6, so the generator pairs have identical local Smith invariants away from 6A.",
+    "primitive_carrier": "For epsilon0=s-Zu and epsilon1=r-Z(u+v), the connection and cubic forms are D=ur-s(u+v), V0=s^3-Ku^3, and V1=r^3-K(u+v)^3 up to units/signs. The common coefficient ideal equals (u,v,r,s), giving the exact primitive exponent formula.",
+    "marked_unmarked": "The original residues evaluate the generators at X_p=2^E, so collision means the distinguished equations s=X_p u and r=X_p(u+v). Vanishing of the Smith forms only forces a common y with y^3=K. Thus y=zeta X_p; the conditions coincide for q=5 mod 6 but the unmarked carrier has two extra branches for q=1 mod 6.",
+    "positive_exponent_form": "Frobenius below degree p replaces the negative powers by exponent E=p-(4m+1). Combining the Item406 boundary formulas with X_p 2^(-n)=4^m yields exactly the two displayed F/J equations.",
+    "transform_no_go": "For an arbitrary normalized truncated R, the two marked boundary functionals have a 2x2 minor Y^2 k^2(k^2-1)/6 on r_(n-2),r_(n-3), nonzero for every compatible parameter. This proves only that triangularity and normalization are insufficient; it is not an actual-family counterexample.",
+    "capacity": "The selected noncollision theorem would close the separate strictly-large-prime component, but no such theorem or valuation-weighted density estimate is proved. Radical sparsity alone would not control high p-adic depth."
+  },
+  "scope_correction": {
+    "previous_overstatement": "Item403 described H_q G_q^prim as the exact actual compatible-prime target.",
+    "correct_statement": "It is the exact unmarked Smith carrier and a strong sufficient exclusion target. The original collision is the distinguished branch in q=1 mod 6.",
+    "ledger_effect": "none; both the stronger unmarked theorem and the smaller marked theorem remain open"
+  },
+  "strict_labels": {
+    "PROVED_ACTUAL": [
+      "exact generator and primitive-Smith transport",
+      "exact marked/unmarked cube-root decomposition",
+      "exact selected positive-exponent boundary criterion"
+    ],
+    "PROVED_AMBIENT_ONLY": [
+      "reciprocal-transform triangularity and normalization alone cannot exclude the marked boundary equations"
+    ],
+    "OPEN": [
+      "selected two-boundary noncollision for the actual polynomial family",
+      "valuation-weighted control of the actual strictly-large-prime content",
+      "any positive Route-1 booking and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "separate_large_component_ceiling": "log(136)/6",
+    "new_route1_rate": 0,
+    "new_booking": 0,
+    "new_unconditional_capacity_reduction": 0,
+    "frozen_deficit": "1.0196329836694317938803064012..."
+  }
+}

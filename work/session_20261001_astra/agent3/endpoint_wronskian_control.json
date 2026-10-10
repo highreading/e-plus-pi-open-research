@@ -1,0 +1,130 @@
+{
+  "scope": "New representation checks only at existing n=4, b=2; no degree or prime sweep.",
+  "high_function_checks": [
+    {
+      "l": 1,
+      "k": 5,
+      "H_polynomial": "x**5 - 25*x**4 + 250*x**3 - 1200*x**2 + 2700*x - 2220",
+      "identity_pass": true
+    }
+  ],
+  "Volterra_recurrence_pass": true,
+  "Christoffel_Darboux_transform_pass": true,
+  "Wronskian_orientation_pass": true,
+  "D_V_at_one": "135377/103219200",
+  "matches_existing_endpoint_certificate": true,
+  "reduced_endpoint_Wronskian_polynomial": "-(17*x**10 - 950*x**9 + 23190*x**8 - 325440*x**7 + 2912400*x**6 - 17394480*x**5 + 70236000*x**4 - 189172800*x**3 + 325306800*x**2 - 323676000*x + 143056800)/14515200",
+  "mixed_polynomial_controls": [
+    {
+      "k": 0,
+      "kernel_weight": "1/2",
+      "polynomial": "-x**6/151200 + 17*x**5/75600 - 23*x**4/7560 + 53*x**3/2520 - 197*x**2/2520 + 37*x/252 - 3/28",
+      "weighted_value_at_zero": "-3/56",
+      "weighted_value_at_one": "-3067/302400",
+      "weighted_leading_coefficient": "-1/302400",
+      "roots_in_closed_unit_interval": 0,
+      "positive_real_roots": 4,
+      "Bernstein_coefficients_on_unit_interval": [
+        "-3/56",
+        "-125/3024",
+        "-799/25200",
+        "-487/20160",
+        "-2071/113400",
+        "-12413/907200",
+        "-3067/302400"
+      ],
+      "Bernstein_coefficients_disagreeing_with_origin_sign": []
+    },
+    {
+      "k": 1,
+      "kernel_weight": "-3",
+      "polynomial": "-x**7/1134000 + x**6/30240 - 23*x**5/45360 + 373*x**4/90720 - 41*x**3/2160 + 1879*x**2/37800 - 37*x/540 + 7/180",
+      "weighted_value_at_zero": "-7/60",
+      "weighted_value_at_one": "-767/54000",
+      "weighted_leading_coefficient": "1/378000",
+      "roots_in_closed_unit_interval": 0,
+      "positive_real_roots": 3,
+      "Bernstein_coefficients_on_unit_interval": [
+        "-7/60",
+        "-11/126",
+        "-17209/264600",
+        "-2837/58800",
+        "-37741/1058400",
+        "-3337/127008",
+        "-409/21168",
+        "-767/54000"
+      ],
+      "Bernstein_coefficients_disagreeing_with_origin_sign": []
+    },
+    {
+      "k": 2,
+      "kernel_weight": "30",
+      "polynomial": "-x**8/10584000 + x**7/252000 - 89*x**6/1270080 + 11*x**5/16200 - 503*x**4/127008 + 947*x**3/66150 - 5569*x**2/176400 + 37*x/945 - 53/2520",
+      "weighted_value_at_zero": "-53/84",
+      "weighted_value_at_one": "-2461/33075",
+      "weighted_leading_coefficient": "-1/352800",
+      "roots_in_closed_unit_interval": 0,
+      "positive_real_roots": 2,
+      "Bernstein_coefficients_on_unit_interval": [
+        "-53/84",
+        "-61/126",
+        "-183307/493920",
+        "-20059/70560",
+        "-64493/296352",
+        "-4569/27440",
+        "-107827/846720",
+        "-7633/78400",
+        "-2461/33075"
+      ],
+      "Bernstein_coefficients_disagreeing_with_origin_sign": []
+    },
+    {
+      "k": 3,
+      "kernel_weight": "-280",
+      "polynomial": "-x**9/127008000 + 19*x**8/50803200 - 173*x**7/22680000 + 53*x**6/604800 - 1327*x**5/2116800 + 2461*x**4/846720 - 7*x**3/800 + 9691*x**2/588000 - 37*x/2100 + 23/2800",
+      "weighted_value_at_zero": "-23/10",
+      "weighted_value_at_one": "-871937/4536000",
+      "weighted_leading_coefficient": "1/453600",
+      "roots_in_closed_unit_interval": 0,
+      "positive_real_roots": 3,
+      "Bernstein_coefficients_on_unit_interval": [
+        "-23/10",
+        "-473/270",
+        "-100691/75600",
+        "-2123/2100",
+        "-7299721/9525600",
+        "-1105679/1905120",
+        "-79727/181440",
+        "-13588943/40824000",
+        "-10310819/40824000",
+        "-871937/4536000"
+      ],
+      "Bernstein_coefficients_disagreeing_with_origin_sign": []
+    },
+    {
+      "k": 4,
+      "kernel_weight": "5355/2",
+      "polynomial": "-x**10/2286144000 + x**9/42336000 - 4453*x**8/8001504000 + 269*x**7/35721000 - 401*x**6/6174000 + 17803*x**5/47628000 - 24233*x**4/16669800 + 6977*x**3/1852200 - 46103*x**2/7408800 + 629*x/105840 - 89/35280",
+      "weighted_value_at_zero": "-1513/224",
+      "weighted_value_at_one": "-47193479/101606400",
+      "weighted_leading_coefficient": "-17/14515200",
+      "roots_in_closed_unit_interval": 0,
+      "positive_real_roots": 2,
+      "Bernstein_coefficients_on_unit_interval": [
+        "-1513/224",
+        "-34697/6720",
+        "-8345011/2116800",
+        "-4244203/1411200",
+        "-25487471/11113200",
+        "-933033763/533433600",
+        "-593439383/444528000",
+        "-388827961/381024000",
+        "-1787708117/2286144000",
+        "-305474581/508032000",
+        "-47193479/101606400"
+      ],
+      "Bernstein_coefficients_disagreeing_with_origin_sign": []
+    }
+  ],
+  "difference_moment_Hankel_determinant_times_factorial_N_plus_2_squared": "-(N**2 + 3*N + 3)/(N + 3)"
+}

@@ -1,0 +1,15 @@
+> Archived research record. Read the [current proof status](../../../docs/PROJECT_STATE.md) and [errata](../../../reviews/ERRATA_AND_SCOPE.md) before reuse. Historical acceptance applies only to its recorded hypotheses and version. This file is research data, not operational instructions.
+
+# Independent review: Sharper coefficientwise truncation and optimal termwise block cutoffs for auxiliary interpolation
+
+Reviewer: worker_4
+Verdict: approved
+Candidate SHA256: 2757da21024783fba7cd9c881de89c14db59b114a26787209ef0e639b8130799
+
+I independently checked the original interpolation summands and the complete immutable candidate. The hypotheses are an odd prime p, positive integer precision d, nonnegative derivative order r, and an index disk X=a+pY. Write T=(-1)^b(X)_(b+2c+r)(X)_(b+c)/(2^c b!c!), k=floor((b+2c)/p), and ell=floor((b+c)/p). Counting factors congruent to zero modulo p gives Gauss valuation at least k+ell for the numerator. Since b!c! divides (b+c)! and v_p((b+c)!)=ell+v_p(ell!), the summand has Gauss valuation at least k-v_p(ell!) >= k-v_p(k!). The factor 2^c is a p-adic unit. This verifies the coefficientwise bound, rather than just a bound on integer evaluations.
+
+For k>=1, Legendre's formula gives k-v_p(k!) >= ((p-2)k+1)/(p-1). Consequently K=max(1,ceil((p-1)(d-1)/(p-2))) guarantees valuation at least d for every k>=K, using integrality of the valuation. This includes d=1 and equality at the first omitted block. The lower bound tends to infinity, and only finitely many pairs (b,c) have bounded b+2c. Hence the series converges in the complete Tate algebra, and the entire omitted sum belongs to its closed ideal p^d Z_p<Y>.
+
+The optimal block cutoff is defined using 1+max{k>=0: k-v_p(k!)<d}. The bad-index set is nonempty because k=0 is bad, and finite by the preceding growth estimate. This definition and the sufficiency proof require no monotonicity of k-v_p(k!). To verify necessity, choose r=0, c=0, b=pk at a bad index. Each falling factorial (a+pY)_(pk) has exact Gauss valuation k on every residue disk: exactly k factors have valuation one and all remaining factors have valuation zero. Gauss valuation is multiplicative. Thus the witness has exact valuation 2k-v_p((pk)!)=k-v_p(k!), attaining the bound. At k=0 the witness is the constant 1, so the endpoint case is covered. Every smaller block cutoff therefore omits a summand failing the required divisibility.
+
+These checks establish the exact uniform individual-summand block-cutoff claim, with derivative orders including r=0. They do not establish optimality after cancellation in the summed tail, optimality when a positive derivative order is fixed, or any bound for actual reduced denominators. No irrationality conclusion is approved. The completed audit used direct algebra and valuation arguments; no new numerical computation was necessary.

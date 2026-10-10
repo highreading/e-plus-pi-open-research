@@ -1,0 +1,53 @@
+{
+  "conclusion": "The s=0 short rational telescoper does not propagate in the formal nonresonant connection at s=1.  Its complete simple-pole Hermite matrix is invertible after reduction on every valid nonexceptional ray; on p=10m+3 its sole reduced relation is the already-known B_2=0 identity.  Prime-specific higher-pole resonant certificates are outside this matrix.",
+  "constant_factorization": "7838208 = 2^9 * 3^7 * 7",
+  "determinant": "7838208*(q - 3)*(2*q - 9)**2*(5*q - 9)*(5*q - 6)",
+  "exceptional_compact_H": "5*z*(1-z)*(5*z^4-4)/16",
+  "exceptional_identity_zero": true,
+  "exceptional_nullvector": [
+    "-5/4",
+    "-5/4",
+    "-5/4",
+    "-5/4",
+    "25/16",
+    "25/16",
+    "25/16",
+    "25/16",
+    "0",
+    "1",
+    "0"
+  ],
+  "exceptional_q_mod_p": "9/5",
+  "exceptional_recurrence_coordinates": [
+    "0",
+    "1",
+    "0"
+  ],
+  "matrix_shape": [
+    11,
+    11
+  ],
+  "p7_all_recurrence_coordinates_zero": true,
+  "p7_nullity": 2,
+  "p7_rank": 9,
+  "schema": "weighted-cayley-s1-three-term-no-go-v1",
+  "unknown_order": [
+    "u0",
+    "u1",
+    "u2",
+    "u3",
+    "u4",
+    "u5",
+    "u6",
+    "u7",
+    "a0",
+    "a1",
+    "a2"
+  ],
+  "valid_ray_factor_analysis": {
+    "five_q_minus_6": "no valid prime ray",
+    "five_q_minus_9": "only p=10m+3; rank drop gives B_2=0 and no B_3 term",
+    "q_minus_3": "impossible because q is positive, q<p, and 3 does not divide q",
+    "two_q_minus_9": "only p=7,m=1,q=1; direct F_7 rank audit has no recurrence vector"
+  }
+}

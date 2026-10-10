@@ -1,0 +1,71 @@
+{
+  "admission": {
+    "little_o_squarefull": false,
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "positive_linear_capacity_admission": "FAIL",
+    "uniform_prime_power_height_O_n": false
+  },
+  "bounded_exact_checks": {
+    "antiperiod_digest": "da0f746b73b1bb4c9cee5ccd2d9cf5d2d3a8ae58eb3922819ea25e662b23b9e7",
+    "antiperiod_rows": 713,
+    "asymptotic_extrapolation": false,
+    "casoratian_digest": "6b8bdc833555b61935911ad55965907f28fd61fddbcd2372133f7d833f385865",
+    "casoratian_rows": 864,
+    "deoverlap_digest": "d15d697204c7493f886bac1ea758231cb245ad80fd4b0ad3cdeff8821e03f0f7",
+    "deoverlap_rows": 3696,
+    "exceptional_singleton_search": false,
+    "height_digest": "412db7ef4ead688445bc7fff90d1c575f5633683e490fc17f3278d46e8bcedd7",
+    "height_rows": 888,
+    "label": "EXACT FINITE ONLY",
+    "polynomial_digest": "510395cdca6236863b962216e6fab1a85ab2bfcf584fe70aa077197043bb4baf",
+    "polynomial_rows": 925,
+    "transfer_and_gcd_digest": "706b7c28ca0ce23a77607bf8e3416742d0e77b517d4f59ab8c181fe4fea1b20f",
+    "transfer_and_gcd_rows": 925,
+    "transition_minor_digest": "29f20bb968dc2b639b1f802e28e70177723c9427f9b221e3d16950cd9fa03511",
+    "transition_minor_rows": 1224,
+    "valuation_digest": "b58d3bd2a92ef32bd94196592eeed3ac216ab7a3424b8ac0f45277c54390a260",
+    "valuation_rows": 648
+  },
+  "description": "Exact replay for the primitive two-state growing-window Casoratian/continuant singleton-depth theorem",
+  "exact_identities": {
+    "beta_recurrence": "q_0=q_1=1; q_(n+2)=(4n+6)q_(n+1)+q_n",
+    "continuant_recurrence": "P_0=0; P_1=1; P_(h+2)(X)=(4X+4h+6)P_(h+1)(X)+P_h(X)",
+    "deoverlap": "qbar=q_n/gcd(q_n,D): qbar|C_h(n) iff qbar|P_h(n) iff qbar|q_(n+h)",
+    "gap_gcd": "gcd(q_n,q_(n+h))=gcd(q_n,P_h(n))",
+    "height_bounds": "(4n+6)^(h-1)<=P_h(n)<=[4(n+h)]^(h-1), h>=1",
+    "level_equivalence": "for p^s|q_n: p^s|C_h(n) iff p^s|P_h(n) iff p^s|q_(n+h)",
+    "odd_antiperiod": "q_(n+M)=-q_n mod M for odd M",
+    "primitive_casoratian": "C_h(n)=q_n q_(n+h+1)-q_(n+1)q_(n+h); C_h(n)=-P_h(n)q_(n+1)^2 mod q_n",
+    "transfer": "q_(n+h)=P_h(n)q_(n+1)+P_(h-1)(n+1)q_n",
+    "transition_minor": "det(r_e,r_d)=(-1)^d P_(e-d)(n+d), r_d=(P_d(n),P_(d-1)(n+1))"
+  },
+  "open": [
+    "growing products or sums in which p-adic depth can split among many gaps",
+    "arbitrary growing Hankel or block determinants outside the two-state primitive class",
+    "a uniform short second-zero theorem or its exclusion for each high singleton level",
+    "the uniform v_p(q_n) log p=O(n) theorem or a sufficient little-oh aggregate",
+    "the actual correlation with the clearing divisor and transverse matching factor",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "parameters": {
+    "antiperiod_odd_modulus_max": 47,
+    "deoverlap_h_max": 14,
+    "deoverlap_n_max": 24,
+    "gap_h_max": 24,
+    "minor_d_max": 8,
+    "minor_e_max": 12,
+    "minor_n_max": 16,
+    "polynomial_n_max": 36
+  },
+  "schema": "item276-beta-growing-casoratian-certificate-v1",
+  "theorem": {
+    "admissible_class": "one primitive 2x2 minor of the two-state transition-row matrix, equivalently one one-gap continuant P_h(n), or the associated scalar Casoratian C_h(n)",
+    "deoverlap_consequence": "With qbar=q_n/gcd(q_n,D_m), reaching qbar transports qbar to q_(n+h); the Item265 two-copy reservoir is not reduced.",
+    "height_threshold": "log P_h(n)=O(n) is possible in this class exactly on the gap scale h=O(n/log n).",
+    "high_tail_consequence": "For a high singleton prime power p^a>n-block-length, the universal gap h=p^a has at least main n log n coefficient height and is not an O(n)-height auxiliary.",
+    "scope_limit": "No claim is made for products or sums of a growing number of minors, arbitrary growing Hankel determinants, or a new global relation among distinct gaps.",
+    "singleton_no_go": "A level p^s dividing q_n can divide the primitive Casoratian residual exactly when the same level divides q_(n+h); an in-window singleton cannot be reached.",
+    "universal_reach": "Taking the odd modulus M as the gap reaches every divisor M|q_n, but costs log P_M(n)>=(M-1)log(4n+6)."
+  }
+}

@@ -1,0 +1,936 @@
+{
+  "bug_provenance": {
+    "classification": "EXPLORATORY PROBE BUG, EXCLUDED FROM PRODUCTION CERTIFICATE",
+    "correction": "the exact base companion is ((5r+6)/(2r+3),(5r+12)/(2r+3),0); every production recurrence lookup tests index>=0 and returns explicit zero otherwise",
+    "description": "an exploratory unshifted companion assembly admitted an index -1 and Python read the last list entry; this produced a spurious endpoint mismatch",
+    "production_negative_index_shortcut": false
+  },
+  "capacity": {
+    "booking": 0,
+    "new_capacity_reduction": 0,
+    "raw_ordinary_j2_capacity_per_6M": "1/105",
+    "raw_ordinary_j2_capacity_per_M": "2/35"
+  },
+  "dependencies": {
+    "item237_j1_algebraic_residual_certificate.py": "f89047396e3f6b4644cf0194b7716dfad91b3eb41de7b88c9377cf3e81d09dcf",
+    "item250_j2_ordinary_phase_certificate.py": "2364a9e9c9be0ea0827c2b12137883ad326d77017a53bb4f242be300335e90ce",
+    "item291_j2_connection_plane_certificate.py": "5c86001827b0012605563b04dafc5f157f27fddf2f1625254e9196bc0de8c2df",
+    "item294_j2_half_integer_gauge_certificate.py": "ce77a8f1f4cec49ab383659957c19ee7f42795fe8f4e7938ca54f95f99d0f1a7"
+  },
+  "endpoint_and_continuation": {
+    "application": "expand w_r*S into finitely many monomial primitives; every term has zero regularized derivative, so every D_r*S reduction integrates exactly",
+    "classification": "MEROMORPHIC BETA IDENTITY — NOT AN ORDINARY ENDPOINT DROP",
+    "cleared_multiplier": "L*gamma-2*gamma*(L/2)=0",
+    "definition": "FP integral u^(L-1)(1-u^2)^(gamma-1) du = Beta(L/2,gamma)/2, continued meromorphically",
+    "identity": "L*Beta(L/2,gamma+1)=2*gamma*Beta(L/2+1,gamma)",
+    "ordinary_boundary_warning": "the specialized Euler integrals diverge at u=1; no literal endpoint value is discarded"
+  },
+  "hermite_and_tensor": {
+    "all_coordinate_denominators_are_products_of_positive_linear_factors_for_r_positive": true,
+    "chart": "x=i*u; minus chart is x -> -i*u conjugation",
+    "checkpoint_first_shift_reproduced": true,
+    "classification": "SYMBOLIC EXACT",
+    "cleared_reductions": [
+      {
+        "kind": 0,
+        "negative_index_policy": "explicit zero; no Python negative indexing",
+        "primitive_degree": -1,
+        "primitive_stream_sha256": "43fb63ba436928b237110d227447ec49b9cad4db733fc4f01775246ccfb80451",
+        "shift": 0,
+        "terminal_polynomials": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "kind": 0,
+        "negative_index_policy": "explicit zero; no Python negative indexing",
+        "primitive_degree": 10,
+        "primitive_stream_sha256": "65cacde0b17e6841c097cc5448825d981fc66f2c4919447a84be55a8ff2efdbd",
+        "shift": 1,
+        "terminal_polynomials": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "kind": 0,
+        "negative_index_policy": "explicit zero; no Python negative indexing",
+        "primitive_degree": 22,
+        "primitive_stream_sha256": "663c1980bb7108dafac23b0d4e8760b1b0c881e7466e2c4309e3be5cbeb75af3",
+        "shift": 2,
+        "terminal_polynomials": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "kind": 0,
+        "negative_index_policy": "explicit zero; no Python negative indexing",
+        "primitive_degree": 34,
+        "primitive_stream_sha256": "3aa80a539d32f869caa007b4d41a41749f07d7615e220a33dba18708d950a7e4",
+        "shift": 3,
+        "terminal_polynomials": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "kind": 1,
+        "negative_index_policy": "explicit zero; no Python negative indexing",
+        "primitive_degree": 1,
+        "primitive_stream_sha256": "2dee6899abbb3f71227169abc8b1a92468f6d60a796432a5635d452574168c66",
+        "shift": 0,
+        "terminal_polynomials": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "kind": 1,
+        "negative_index_policy": "explicit zero; no Python negative indexing",
+        "primitive_degree": 13,
+        "primitive_stream_sha256": "09e3bdc2c8520132605723eca304a81a23c1b19c94c4a2b9bc106e13292ec18c",
+        "shift": 1,
+        "terminal_polynomials": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "kind": 1,
+        "negative_index_policy": "explicit zero; no Python negative indexing",
+        "primitive_degree": 25,
+        "primitive_stream_sha256": "264860102fe0f609a1174814698a932f41fc4b22352066ea7b2c89525226f65c",
+        "shift": 2,
+        "terminal_polynomials": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "kind": 1,
+        "negative_index_policy": "explicit zero; no Python negative indexing",
+        "primitive_degree": 37,
+        "primitive_stream_sha256": "ab937f655a39c18916dbab1b86c673cc21681e1c7460ed2343e243b523e4c600",
+        "shift": 3,
+        "terminal_polynomials": [
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "conclusion": "all three skew-tensor coordinates vanish identically in Q(r)",
+    "coordinate_rows": [
+      {
+        "common_denominator_low_to_high": [
+          "1"
+        ],
+        "coordinate": 0,
+        "kind": 0,
+        "numerator_low_to_high": [
+          "1"
+        ],
+        "shift": 0
+      },
+      {
+        "common_denominator_low_to_high": [
+          "1"
+        ],
+        "coordinate": 1,
+        "kind": 0,
+        "numerator_low_to_high": [
+          "1"
+        ],
+        "shift": 0
+      },
+      {
+        "common_denominator_low_to_high": [
+          "1"
+        ],
+        "coordinate": 2,
+        "kind": 0,
+        "numerator_low_to_high": [
+          "0"
+        ],
+        "shift": 0
+      },
+      {
+        "common_denominator_low_to_high": [
+          "15552",
+          "21600",
+          "10080",
+          "1920",
+          "128"
+        ],
+        "coordinate": 0,
+        "kind": 0,
+        "numerator_low_to_high": [
+          "-87480",
+          "-160461",
+          "-93663",
+          "-22599",
+          "-1917"
+        ],
+        "shift": 1
+      },
+      {
+        "common_denominator_low_to_high": [
+          "15552",
+          "21600",
+          "10080",
+          "1920",
+          "128"
+        ],
+        "coordinate": 1,
+        "kind": 0,
+        "numerator_low_to_high": [
+          "544320",
+          "826524",
+          "436887",
+          "97686",
+          "7803"
+        ],
+        "shift": 1
+      },
+      {
+        "common_denominator_low_to_high": [
+          "15552",
+          "21600",
+          "10080",
+          "1920",
+          "128"
+        ],
+        "coordinate": 2,
+        "kind": 0,
+        "numerator_low_to_high": [
+          "-558900",
+          "-859005",
+          "-457920",
+          "-100845",
+          "-7830"
+        ],
+        "shift": 1
+      },
+      {
+        "common_denominator_low_to_high": [
+          "16930529280",
+          "30676506624",
+          "22044773376",
+          "8371206144",
+          "1862009856",
+          "250822656",
+          "20127744",
+          "884736",
+          "16384"
+        ],
+        "coordinate": 0,
+        "kind": 0,
+        "numerator_low_to_high": [
+          "-714129158160",
+          "-574367261040",
+          "532768893912",
+          "554548949163",
+          "192338550081",
+          "33895416330",
+          "3257421318",
+          "161840187",
+          "3237489"
+        ],
+        "shift": 2
+      },
+      {
+        "common_denominator_low_to_high": [
+          "16930529280",
+          "30676506624",
+          "22044773376",
+          "8371206144",
+          "1862009856",
+          "250822656",
+          "20127744",
+          "884736",
+          "16384"
+        ],
+        "coordinate": 1,
+        "kind": 0,
+        "numerator_low_to_high": [
+          "41903059968000",
+          "74121290317440",
+          "53419138379712",
+          "20927073427848",
+          "4908989858751",
+          "708055028100",
+          "61463332818",
+          "2943255852",
+          "59683959"
+        ],
+        "shift": 2
+      },
+      {
+        "common_denominator_low_to_high": [
+          "16930529280",
+          "30676506624",
+          "22044773376",
+          "8371206144",
+          "1862009856",
+          "250822656",
+          "20127744",
+          "884736",
+          "16384"
+        ],
+        "coordinate": 2,
+        "kind": 0,
+        "numerator_low_to_high": [
+          "-65058241944960",
+          "-130631017980240",
+          "-105519633437520",
+          "-45146229747885",
+          "-11291412758310",
+          "-1703917572210",
+          "-152520082380",
+          "-7446286665",
+          "-152557830"
+        ],
+        "shift": 2
+      },
+      {
+        "common_denominator_low_to_high": [
+          "130335277724467200",
+          "269638550388080640",
+          "233588039651426304",
+          "114000097445904384",
+          "35323363745759232",
+          "7383866049331200",
+          "1074720879378432",
+          "110308364255232",
+          "7956922761216",
+          "394733813760",
+          "12820414464",
+          "245366784",
+          "2097152"
+        ],
+        "coordinate": 0,
+        "kind": 0,
+        "numerator_low_to_high": [
+          "7007575400620487496000",
+          "19686498016151827532160",
+          "22094940284534393411184",
+          "13315987261903461376896",
+          "4916854402057018899792",
+          "1193862199600726272225",
+          "198094768476350856147",
+          "22853282526486651933",
+          "1832599890732757671",
+          "100181773831160115",
+          "3559783613934969",
+          "74091442169871",
+          "685177807437"
+        ],
+        "shift": 3
+      },
+      {
+        "common_denominator_low_to_high": [
+          "130335277724467200",
+          "269638550388080640",
+          "233588039651426304",
+          "114000097445904384",
+          "35323363745759232",
+          "7383866049331200",
+          "1074720879378432",
+          "110308364255232",
+          "7956922761216",
+          "394733813760",
+          "12820414464",
+          "245366784",
+          "2097152"
+        ],
+        "coordinate": 1,
+        "kind": 0,
+        "numerator_low_to_high": [
+          "18895487223382356787200",
+          "27928324584036609269760",
+          "15451124597272035733824",
+          "3755033736240369122496",
+          "115095850727958846432",
+          "-174929789723628815100",
+          "-52200610842970310283",
+          "-7929067350457650942",
+          "-747776036510246709",
+          "-45439595267816160",
+          "-1736681736858741",
+          "-38064369862854",
+          "-365306264523"
+        ],
+        "shift": 3
+      },
+      {
+        "common_denominator_low_to_high": [
+          "130335277724467200",
+          "269638550388080640",
+          "233588039651426304",
+          "114000097445904384",
+          "35323363745759232",
+          "7383866049331200",
+          "1074720879378432",
+          "110308364255232",
+          "7956922761216",
+          "394733813760",
+          "12820414464",
+          "245366784",
+          "2097152"
+        ],
+        "coordinate": 2,
+        "kind": 0,
+        "numerator_low_to_high": [
+          "-56161745339276078899200",
+          "-128445793428207129494400",
+          "-123994043091372917846880",
+          "-67386827268022263550560",
+          "-23166924093565663573260",
+          "-5348612682903742404975",
+          "-855787219704651410640",
+          "-96126729706843864605",
+          "-7556953501095088230",
+          "-407039137121777625",
+          "-14305107169234980",
+          "-295353822287835",
+          "-2715920766810"
+        ],
+        "shift": 3
+      },
+      {
+        "common_denominator_low_to_high": [
+          "3",
+          "2"
+        ],
+        "coordinate": 0,
+        "kind": 1,
+        "numerator_low_to_high": [
+          "6",
+          "5"
+        ],
+        "shift": 0
+      },
+      {
+        "common_denominator_low_to_high": [
+          "3",
+          "2"
+        ],
+        "coordinate": 1,
+        "kind": 1,
+        "numerator_low_to_high": [
+          "12",
+          "5"
+        ],
+        "shift": 0
+      },
+      {
+        "common_denominator_low_to_high": [
+          "3",
+          "2"
+        ],
+        "coordinate": 2,
+        "kind": 1,
+        "numerator_low_to_high": [
+          "0"
+        ],
+        "shift": 0
+      },
+      {
+        "common_denominator_low_to_high": [
+          "233280",
+          "355104",
+          "194400",
+          "48960",
+          "5760",
+          "256"
+        ],
+        "coordinate": 0,
+        "kind": 1,
+        "numerator_low_to_high": [
+          "-4473144",
+          "-8747028",
+          "-5731803",
+          "-1661931",
+          "-213597",
+          "-9585"
+        ],
+        "shift": 1
+      },
+      {
+        "common_denominator_low_to_high": [
+          "233280",
+          "355104",
+          "194400",
+          "48960",
+          "5760",
+          "256"
+        ],
+        "coordinate": 1,
+        "kind": 1,
+        "numerator_low_to_high": [
+          "23794560",
+          "39785904",
+          "24142536",
+          "6717843",
+          "852606",
+          "39015"
+        ],
+        "shift": 1
+      },
+      {
+        "common_denominator_low_to_high": [
+          "233280",
+          "355104",
+          "194400",
+          "48960",
+          "5760",
+          "256"
+        ],
+        "coordinate": 2,
+        "kind": 1,
+        "numerator_low_to_high": [
+          "-22056624",
+          "-36632736",
+          "-22302621",
+          "-6252444",
+          "-812025",
+          "-39150"
+        ],
+        "shift": 1
+      },
+      {
+        "common_denominator_low_to_high": [
+          "457124290560",
+          "862126737408",
+          "656561894400",
+          "270112112640",
+          "67016678400",
+          "10496231424",
+          "1045094400",
+          "64143360",
+          "2211840",
+          "32768"
+        ],
+        "coordinate": 0,
+        "kind": 1,
+        "numerator_low_to_high": [
+          "-148825854374688",
+          "-280050829712208",
+          "-179634470460336",
+          "-57538036079640",
+          "-9903668827671",
+          "-762585892407",
+          "20781394506",
+          "8869896090",
+          "646667469",
+          "16187445"
+        ],
+        "shift": 2
+      },
+      {
+        "common_denominator_low_to_high": [
+          "457124290560",
+          "862126737408",
+          "656561894400",
+          "270112112640",
+          "67016678400",
+          "10496231424",
+          "1045094400",
+          "64143360",
+          "2211840",
+          "32768"
+        ],
+        "coordinate": 1,
+        "kind": 1,
+        "numerator_low_to_high": [
+          "3177928067973120",
+          "5967278297883648",
+          "4618587204002016",
+          "1965514967824320",
+          "509648059067472",
+          "83705377328667",
+          "8723836650564",
+          "557157969450",
+          "19803468708",
+          "298419795"
+        ],
+        "shift": 2
+      },
+      {
+        "common_denominator_low_to_high": [
+          "457124290560",
+          "862126737408",
+          "656561894400",
+          "270112112640",
+          "67016678400",
+          "10496231424",
+          "1045094400",
+          "64143360",
+          "2211840",
+          "32768"
+        ],
+        "coordinate": 2,
+        "kind": 1,
+        "numerator_low_to_high": [
+          "-4587558070606848",
+          "-9530213332325184",
+          "-8083989065187072",
+          "-3705469865778096",
+          "-1020320363715957",
+          "-176344166584026",
+          "-19250004954798",
+          "-1286470044144",
+          "-47964791925",
+          "-762789150"
+        ],
+        "shift": 2
+      },
+      {
+        "common_denominator_low_to_high": [
+          "5083075831254220800",
+          "10776574020584079360",
+          "9649210647181787136",
+          "4913179879693123584",
+          "1605611380976418816",
+          "358617503415435264",
+          "56681846394421248",
+          "6451467964710912",
+          "530936716197888",
+          "31308464259072",
+          "1289463791616",
+          "35210133504",
+          "572522496",
+          "4194304"
+        ],
+        "coordinate": 0,
+        "kind": 1,
+        "numerator_low_to_high": [
+          "627134933306197188167040",
+          "1808803255002865643039040",
+          "2101050329789107462764960",
+          "1322028264832887771350352",
+          "515019446628646798699272",
+          "133639270707950797401720",
+          "24083239846781429628075",
+          "3081664298870788183731",
+          "282040134798218158611",
+          "18337697255647115955",
+          "826991363824711065",
+          "24586874880313617",
+          "433236494312577",
+          "3425889037185"
+        ],
+        "shift": 3
+      },
+      {
+        "common_denominator_low_to_high": [
+          "5083075831254220800",
+          "10776574020584079360",
+          "9649210647181787136",
+          "4913179879693123584",
+          "1605611380976418816",
+          "358617503415435264",
+          "56681846394421248",
+          "6451467964710912",
+          "530936716197888",
+          "31308464259072",
+          "1289463791616",
+          "35210133504",
+          "572522496",
+          "4194304"
+        ],
+        "coordinate": 1,
+        "kind": 1,
+        "numerator_low_to_high": [
+          "2106385959865099065753600",
+          "3430072412538013638328320",
+          "2242912267217746977116544",
+          "770383563554099574126144",
+          "143263651580291037989664",
+          "9840415074117069506400",
+          "-1729844576685763994268",
+          "-556328613435994347183",
+          "-74859223358518240698",
+          "-6133127327656428105",
+          "-324809468096513976",
+          "-10911610602751761",
+          "-212286825711666",
+          "-1826531322615"
+        ],
+        "shift": 3
+      },
+      {
+        "common_denominator_low_to_high": [
+          "5083075831254220800",
+          "10776574020584079360",
+          "9649210647181787136",
+          "4913179879693123584",
+          "1605611380976418816",
+          "358617503415435264",
+          "56681846394421248",
+          "6451467964710912",
+          "530936716197888",
+          "31308464259072",
+          "1289463791616",
+          "35210133504",
+          "572522496",
+          "4194304"
+        ],
+        "coordinate": 2,
+        "kind": 1,
+        "numerator_low_to_high": [
+          "-5696914755259394255093760",
+          "-13304425108821884516424960",
+          "-13209782038644746488525632",
+          "-7448129853942230203390848",
+          "-2683917527350492856355840",
+          "-657612158700543094762740",
+          "-113419655215103401286751",
+          "-14014234545719798831544",
+          "-1245931286348421945225",
+          "-79004526449359134150",
+          "-3483806159686016817",
+          "-101434324659177708",
+          "-1751794505619975",
+          "-13579603834050"
+        ],
+        "shift": 3
+      }
+    ],
+    "coordinate_stream_sha256": "0ba77284dfa753364605290fd4e886a109103d008615654acfa43017b266ddbb",
+    "eta_step": "eta(r+6)/eta(r)=64(r+3)(2r+3)(2r+9)/[27r(r+2)(r+4)]",
+    "normalized_shift_weight": "tau_0=1; tau_(j+1)/tau_j=16*R(r+6j)*eta(r+6j+6)/eta(r+6j)",
+    "operator": "T_(r,q)(x^k)=(k+r+1)x^k-(k+2r+2)x^(k+1)+(k-2q-1-r/3)x^(k+2)+(2q-k-2r/3)x^(k+3)",
+    "targets": {
+      "kind_0": "(-1)^j*(1+x)*x^(6j)*(1-x)^(6j), denominator (1+x^2)^(4j)",
+      "kind_1": "(-1)^j*(1+x)^4*x^(6j)*(1-x)^(6j), denominator (1+x^2)^(4j+1)"
+    },
+    "tensor_cancellation": [
+      {
+        "cleared_common_denominator_degree": 106,
+        "cleared_numerator": "0",
+        "term_denominator_degrees": [
+          1,
+          18,
+          35,
+          52
+        ],
+        "term_numerator_degrees": [
+          16,
+          33,
+          50,
+          67
+        ],
+        "wedge_coordinates": [
+          0,
+          1
+        ]
+      },
+      {
+        "cleared_common_denominator_degree": 106,
+        "cleared_numerator": "0",
+        "term_denominator_degrees": [
+          1,
+          18,
+          35,
+          52
+        ],
+        "term_numerator_degrees": [
+          0,
+          33,
+          50,
+          67
+        ],
+        "wedge_coordinates": [
+          0,
+          2
+        ]
+      },
+      {
+        "cleared_common_denominator_degree": 106,
+        "cleared_numerator": "0",
+        "term_denominator_degrees": [
+          1,
+          18,
+          35,
+          52
+        ],
+        "term_numerator_degrees": [
+          0,
+          33,
+          50,
+          67
+        ],
+        "wedge_coordinates": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  "initial_bridge": {
+    "classification": "EXACT INITIALS USED WITH A PROVED FORWARD RECURRENCE",
+    "constants": {
+      "1": "-891/100",
+      "5": "3897234/41405"
+    },
+    "logical_role": "three initials on each ray identify the two order-three solutions",
+    "row_stream_sha256": "5fae948e8572fe1efcc16e99d9f1868d76aa8aae89425e8ed0ae41003031d20e",
+    "rows": [
+      [
+        1,
+        0,
+        198,
+        5,
+        -40,
+        9
+      ],
+      [
+        1,
+        1,
+        1190585429,
+        36450,
+        -216470078,
+        59049
+      ],
+      [
+        1,
+        2,
+        537529931312079541,
+        22958251200,
+        -48866357392007231,
+        18596183472
+      ],
+      [
+        5,
+        0,
+        -17012754,
+        455,
+        -868777,
+        2187
+      ],
+      [
+        5,
+        1,
+        -4326133150075,
+        154791,
+        -25563514068625,
+        86093442
+      ],
+      [
+        5,
+        2,
+        -71495338345890575875,
+        3772168218,
+        -227485167464197286875,
+        1129718145924
+      ]
+    ]
+  },
+  "ordinary_j2_gate_consequence": {
+    "not_proved": [
+      "a realization or recurrence theorem for the independent L connection minor",
+      "nonvanishing modulo every moving row prime",
+      "Frobenius, monodromy, or auxiliary-prime independence",
+      "weighted zero density or any capacity saving"
+    ],
+    "proved": "the M connection minor in D=9*c*det(f,b)-11*det(f,d) has the displayed fixed algebraic coefficient realization and exact recurrence"
+  },
+  "pole_and_forward_audit": {
+    "actual_exceptional_r": [],
+    "actual_pole_or_zero_intersection": [],
+    "actual_rays": "r=6n+1 and r=6n+5, n>=0",
+    "beta_poles": "b0=-2r/3 and b1=b0-1 are nonintegral because 3 does not divide r; all original Pochhammer denominators are nonzero by Items 250 and 291",
+    "classification": "ALL ACTUAL r>=1, r=1 or 5 mod 6",
+    "coordinate_denominator_roots": {
+      "negative_half_integers": [
+        "-3/2",
+        "-9/2",
+        "-15/2",
+        "-21/2",
+        "-27/2",
+        "-33/2",
+        "-39/2"
+      ],
+      "negative_integers": [
+        -3,
+        -6,
+        -9,
+        -12,
+        -15,
+        -18
+      ]
+    },
+    "eta_denominator_roots_for_steps_0_1_2": [
+      0,
+      -2,
+      -4,
+      -6,
+      -8,
+      -10,
+      -12,
+      -14,
+      -16
+    ],
+    "excluded_parameter_classes": [
+      "r not a positive integer congruent to 1 or 5 modulo 6 (outside the theorem domain)",
+      "3 divides r (b0 and b1 hit integral beta/Pochhammer resonance)"
+    ],
+    "forward_coefficient": "p3(h) has strictly positive coefficients, so p3(r/2)>0 for every actual r>=1",
+    "gauge_denominator_roots_for_steps_0_1_2": [
+      -1,
+      -2,
+      -4,
+      -5,
+      -7,
+      -8,
+      -10,
+      -11,
+      -13,
+      -14,
+      -16,
+      -17
+    ],
+    "gauge_or_eta_zero_roots": "all zeros of r+6t, r+6t+3, r+6t+6, 2r+12t+3, 2r+12t+9, and 2r+12t+15 for t=0,1,2 are nonpositive",
+    "hermite_coordinate_poles": "every reduced coordinate denominator has positive constant term and nonnegative coefficients, hence no positive-real zero",
+    "normalization_poles": "eta step divides by r(r+2)(r+4); gauge R divides by 78732(r+1)^2(r+2)(r+4)(r+5)^2; none vanish for r>=1",
+    "primitive_certificate_denominator_roots": "r=-1,-2,...,-38 from (r+1)_(K+1), plus the coordinate roots already listed",
+    "primitive_solver_poles": "the triangular construction divides only by r+k+1 (k>=0), all positive on actual rays; the final 3x3 solution is the displayed pole-free-on-r>0 coordinate family"
+  },
+  "schema": "item306-j2-normalized-m-bridge-v1",
+  "strict_labels": {
+    "EXACT_FINITE_ONLY": [
+      "none used as theorem evidence; the six exact rows are recurrence initials",
+      "the older checks beyond the first three rows remain implementation replays"
+    ],
+    "OPEN": [
+      "an algebraic or recurrence realization of L",
+      "all-prime nonvanishing or weighted density for the full ordinary-j2 determinant",
+      "any Route-1 completion or conclusion about e+pi"
+    ],
+    "PROVED": [
+      "all eight cleared Hermite reductions (shifts 0 through 3 in both companions)",
+      "the meromorphic-beta endpoint identity and normalization ratio",
+      "all three exact skew-tensor cancellations",
+      "the all-n recurrence membership and normalized-M bridge on both ordinary rays"
+    ]
+  },
+  "theorem": {
+    "classification": "PROVED",
+    "constants": {
+      "1": "-891/100",
+      "5": "3897234/41405"
+    },
+    "recurrence_membership": "16^n*M_n/g_n obeys Item237's exact order-three step-six coefficient recurrence",
+    "statement": "For e in {1,5}, r=6n+e, g0=1, g_n/g_(n+1)=R(r), 16^n*M_n/g_n=lambda_e*[x^r]C(x) for every n>=0"
+  }
+}

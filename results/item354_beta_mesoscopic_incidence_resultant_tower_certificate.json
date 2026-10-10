@@ -1,0 +1,601 @@
+{
+  "capacity": {
+    "R_r_ceiling": "2N_A log A/r",
+    "actual_low_incidence_rate": "OPEN",
+    "booking": 0,
+    "growing_high_multiplicity_tail_rate": 0,
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "pairwise_R_2_ceiling": "N_A log A=(1+o(1))log b",
+    "raw_Xi_Q_maximum": "log rad(Q)<=log Q<=log b"
+  },
+  "date": "2026-09-01",
+  "declared_controls": {
+    "finite_rows_promoted": false,
+    "pattern_count": 3,
+    "patterns": [
+      {
+        "A": 50,
+        "E_Q": "264851",
+        "Q": "240321421796629",
+        "R_1": "907383479",
+        "R_2": "241133",
+        "active_count": 9,
+        "actual_item316_target_claim": false,
+        "density_claim": false,
+        "disjoint_pair_matching": [
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            10
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "disjoint_pair_matching_product": "241133",
+        "exact_zero_or_inactive_rows": 2,
+        "finite_algebraic_control_only": true,
+        "first_hit_factors": [
+          1,
+          53,
+          59,
+          61,
+          1,
+          67,
+          1,
+          1,
+          1,
+          71,
+          1
+        ],
+        "first_hit_factors_digest": "48f986c3294bf78de7992c9d41c95644817848059ac5f3f9afee890cdf26ea14",
+        "layer_cake_verified": true,
+        "multiplicities": {
+          "53": 1,
+          "59": 2,
+          "61": 2,
+          "67": 3,
+          "71": 1
+        },
+        "name": "mixed_cliques_and_squarefull_split",
+        "resultant_rows": [
+          {
+            "G_r": "14659606729594369",
+            "R_r": "907383479",
+            "exact_integer_height_check": "R_r^r<=14659606729594369<A^(2N_A)",
+            "formula_verified": true,
+            "r": 1
+          },
+          {
+            "G_r": "1082446037",
+            "R_r": "241133",
+            "exact_integer_height_check": "R_r^r<=14659606729594369<A^(2N_A)",
+            "formula_verified": true,
+            "r": 2
+          },
+          {
+            "G_r": "67",
+            "R_r": "67",
+            "exact_integer_height_check": "R_r^r<=14659606729594369<A^(2N_A)",
+            "formula_verified": true,
+            "r": 3
+          },
+          {
+            "G_r": "1",
+            "R_r": "1",
+            "exact_integer_height_check": "R_r^r<=14659606729594369<A^(2N_A)",
+            "formula_verified": true,
+            "r": 4
+          },
+          {
+            "G_r": "1",
+            "R_r": "1",
+            "exact_integer_height_check": "R_r^r<=14659606729594369<A^(2N_A)",
+            "formula_verified": true,
+            "r": 5
+          },
+          {
+            "G_r": "1",
+            "R_r": "1",
+            "exact_integer_height_check": "R_r^r<=14659606729594369<A^(2N_A)",
+            "formula_verified": true,
+            "r": 6
+          },
+          {
+            "G_r": "1",
+            "R_r": "1",
+            "exact_integer_height_check": "R_r^r<=14659606729594369<A^(2N_A)",
+            "formula_verified": true,
+            "r": 7
+          },
+          {
+            "G_r": "1",
+            "R_r": "1",
+            "exact_integer_height_check": "R_r^r<=14659606729594369<A^(2N_A)",
+            "formula_verified": true,
+            "r": 8
+          },
+          {
+            "G_r": "1",
+            "R_r": "1",
+            "exact_integer_height_check": "R_r^r<=14659606729594369<A^(2N_A)",
+            "formula_verified": true,
+            "r": 9
+          }
+        ],
+        "resultant_rows_digest": "4ef5a92e7635a820073a1f51cdb312a5b0584a33813f12e0722ac0c476daef75",
+        "row_carriers": [
+          1,
+          53,
+          59,
+          61,
+          59,
+          67,
+          67,
+          1,
+          67,
+          71,
+          61
+        ],
+        "row_count": 11,
+        "t": 2,
+        "threshold_rows": [
+          {
+            "L": 2,
+            "R_L_fresh": "61",
+            "S_less_L_fresh": "3763",
+            "active_powerful_radical": "3953",
+            "squarefull_deoverlap_verified": true,
+            "support_partition_verified": true
+          },
+          {
+            "L": 3,
+            "R_L_fresh": "1",
+            "S_less_L_fresh": "229543",
+            "active_powerful_radical": "3953",
+            "squarefull_deoverlap_verified": true,
+            "support_partition_verified": true
+          },
+          {
+            "L": 10,
+            "R_L_fresh": "1",
+            "S_less_L_fresh": "229543",
+            "active_powerful_radical": "3953",
+            "squarefull_deoverlap_verified": true,
+            "support_partition_verified": true
+          }
+        ],
+        "threshold_rows_digest": "7f2d1043b5d0053ceb46554069b6b073a047a38aa741ed53ce15274aee3be393"
+      },
+      {
+        "A": 20,
+        "E_Q": "1",
+        "Q": "1348781387",
+        "R_1": "1348781387",
+        "R_2": "1",
+        "active_count": 6,
+        "actual_item316_target_claim": false,
+        "density_claim": false,
+        "disjoint_pair_matching": [],
+        "disjoint_pair_matching_product": "1",
+        "exact_zero_or_inactive_rows": 2,
+        "finite_algebraic_control_only": true,
+        "first_hit_factors": [
+          23,
+          1,
+          29,
+          31,
+          37,
+          1,
+          41,
+          43
+        ],
+        "first_hit_factors_digest": "3fdb99dfd426d6702fa4863f189d0ee2ba9fd462f95c71e2c66710f87af5cc65",
+        "layer_cake_verified": true,
+        "multiplicities": {
+          "23": 1,
+          "29": 1,
+          "31": 1,
+          "37": 1,
+          "41": 1,
+          "43": 1
+        },
+        "name": "singleton_blind_spot",
+        "resultant_rows": [
+          {
+            "G_r": "1348781387",
+            "R_r": "1348781387",
+            "exact_integer_height_check": "R_r^r<=1348781387<A^(2N_A)",
+            "formula_verified": true,
+            "r": 1
+          },
+          {
+            "G_r": "1",
+            "R_r": "1",
+            "exact_integer_height_check": "R_r^r<=1348781387<A^(2N_A)",
+            "formula_verified": true,
+            "r": 2
+          },
+          {
+            "G_r": "1",
+            "R_r": "1",
+            "exact_integer_height_check": "R_r^r<=1348781387<A^(2N_A)",
+            "formula_verified": true,
+            "r": 3
+          },
+          {
+            "G_r": "1",
+            "R_r": "1",
+            "exact_integer_height_check": "R_r^r<=1348781387<A^(2N_A)",
+            "formula_verified": true,
+            "r": 4
+          },
+          {
+            "G_r": "1",
+            "R_r": "1",
+            "exact_integer_height_check": "R_r^r<=1348781387<A^(2N_A)",
+            "formula_verified": true,
+            "r": 5
+          },
+          {
+            "G_r": "1",
+            "R_r": "1",
+            "exact_integer_height_check": "R_r^r<=1348781387<A^(2N_A)",
+            "formula_verified": true,
+            "r": 6
+          }
+        ],
+        "resultant_rows_digest": "484d427d7a6e237bd7d15a571a52bb013600c1b5a2987f5824a960699a6622dd",
+        "row_carriers": [
+          23,
+          1,
+          29,
+          31,
+          37,
+          1,
+          41,
+          43
+        ],
+        "row_count": 8,
+        "t": 2,
+        "threshold_rows": [
+          {
+            "L": 2,
+            "R_L_fresh": "1",
+            "S_less_L_fresh": "1348781387",
+            "active_powerful_radical": "1",
+            "squarefull_deoverlap_verified": true,
+            "support_partition_verified": true
+          },
+          {
+            "L": 3,
+            "R_L_fresh": "1",
+            "S_less_L_fresh": "1348781387",
+            "active_powerful_radical": "1",
+            "squarefull_deoverlap_verified": true,
+            "support_partition_verified": true
+          },
+          {
+            "L": 7,
+            "R_L_fresh": "1",
+            "S_less_L_fresh": "1348781387",
+            "active_powerful_radical": "1",
+            "squarefull_deoverlap_verified": true,
+            "support_partition_verified": true
+          }
+        ],
+        "threshold_rows_digest": "7101518e04700d71ae13fa1738dca55d88c010e325660a5b82f2805b296682d0"
+      },
+      {
+        "A": 50,
+        "E_Q": "1",
+        "Q": "12780049",
+        "R_1": "12780049",
+        "R_2": "12780049",
+        "active_count": 8,
+        "actual_item316_target_claim": false,
+        "density_claim": false,
+        "disjoint_pair_matching": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "disjoint_pair_matching_product": "12780049",
+        "exact_zero_or_inactive_rows": 0,
+        "finite_algebraic_control_only": true,
+        "first_hit_factors": [
+          53,
+          59,
+          61,
+          67,
+          1,
+          1,
+          1,
+          1
+        ],
+        "first_hit_factors_digest": "28d161d5bcd3b9fc5ff4fd83bf943cc73b0834c5cfe03f315611b748a4805a9c",
+        "layer_cake_verified": true,
+        "multiplicities": {
+          "53": 2,
+          "59": 2,
+          "61": 2,
+          "67": 2
+        },
+        "name": "squarefree_doubleton_full_pair_layer",
+        "resultant_rows": [
+          {
+            "G_r": "163329652442401",
+            "R_r": "12780049",
+            "exact_integer_height_check": "R_r^r<=163329652442401<A^(2N_A)",
+            "formula_verified": true,
+            "r": 1
+          },
+          {
+            "G_r": "12780049",
+            "R_r": "12780049",
+            "exact_integer_height_check": "R_r^r<=163329652442401<A^(2N_A)",
+            "formula_verified": true,
+            "r": 2
+          },
+          {
+            "G_r": "1",
+            "R_r": "1",
+            "exact_integer_height_check": "R_r^r<=163329652442401<A^(2N_A)",
+            "formula_verified": true,
+            "r": 3
+          },
+          {
+            "G_r": "1",
+            "R_r": "1",
+            "exact_integer_height_check": "R_r^r<=163329652442401<A^(2N_A)",
+            "formula_verified": true,
+            "r": 4
+          },
+          {
+            "G_r": "1",
+            "R_r": "1",
+            "exact_integer_height_check": "R_r^r<=163329652442401<A^(2N_A)",
+            "formula_verified": true,
+            "r": 5
+          },
+          {
+            "G_r": "1",
+            "R_r": "1",
+            "exact_integer_height_check": "R_r^r<=163329652442401<A^(2N_A)",
+            "formula_verified": true,
+            "r": 6
+          },
+          {
+            "G_r": "1",
+            "R_r": "1",
+            "exact_integer_height_check": "R_r^r<=163329652442401<A^(2N_A)",
+            "formula_verified": true,
+            "r": 7
+          },
+          {
+            "G_r": "1",
+            "R_r": "1",
+            "exact_integer_height_check": "R_r^r<=163329652442401<A^(2N_A)",
+            "formula_verified": true,
+            "r": 8
+          }
+        ],
+        "resultant_rows_digest": "ca208f6334e675f951f273b697e02d5859ef043b178c8f4b45432e0f460c3fdd",
+        "row_carriers": [
+          53,
+          59,
+          61,
+          67,
+          53,
+          59,
+          61,
+          67
+        ],
+        "row_count": 8,
+        "t": 2,
+        "threshold_rows": [
+          {
+            "L": 2,
+            "R_L_fresh": "12780049",
+            "S_less_L_fresh": "1",
+            "active_powerful_radical": "1",
+            "squarefull_deoverlap_verified": true,
+            "support_partition_verified": true
+          },
+          {
+            "L": 3,
+            "R_L_fresh": "1",
+            "S_less_L_fresh": "12780049",
+            "active_powerful_radical": "1",
+            "squarefull_deoverlap_verified": true,
+            "support_partition_verified": true
+          },
+          {
+            "L": 9,
+            "R_L_fresh": "1",
+            "S_less_L_fresh": "12780049",
+            "active_powerful_radical": "1",
+            "squarefull_deoverlap_verified": true,
+            "support_partition_verified": true
+          }
+        ],
+        "threshold_rows_digest": "b632a814992546705201cac59784eb229a489f01627981313db4ae5121922104"
+      }
+    ],
+    "patterns_digest": "4187d108e975103f0c6c11c3234df09216c368bd2d86bc967e6d8daff5f02c55",
+    "prime_census_performed": false
+  },
+  "dependencies": {
+    "count": 21,
+    "rows": [
+      {
+        "bytes": 14388,
+        "path": "sources/item316_beta_intermediate_ostrowski_no_go_report.md",
+        "sha256": "8d6dce8354f08e94a252a2120cf677d9a374df95507a9297dcb064a1982fb6b0"
+      },
+      {
+        "bytes": 11912,
+        "path": "results/item316_beta_intermediate_ostrowski_no_go_certificate.json",
+        "sha256": "5167e9d160fcecac86791944e41a176d3400f2a6856090de7cf78d55984e7aa4"
+      },
+      {
+        "bytes": 3018,
+        "path": "results/item316_root_audit.json",
+        "sha256": "6cad978132f5f09c687aa8fcf8dcd92a7d917cf9411a69f679c7757139229175"
+      },
+      {
+        "bytes": 5980,
+        "path": "manifests/item316_beta_intermediate_ostrowski_no_go_manifest.json",
+        "sha256": "aac741658430fb661de078adfeafdbc3a9d20312a8fd8725cb4244d406d9bcf6"
+      },
+      {
+        "bytes": 16642,
+        "path": "sources/item265_beta_squarefull_capacity_report.md",
+        "sha256": "c41d8d2c813d4952ce5a038f291b932817c28ae5b0b1512df0a6bf0ba92a8daa"
+      },
+      {
+        "bytes": 1613,
+        "path": "results/item265_beta_squarefull_capacity_certificate.json",
+        "sha256": "42548c5127392c6475be7440a883b378657d15d762fc1f165d8b3e546ce9c32c"
+      },
+      {
+        "bytes": 3101,
+        "path": "results/item265_root_audit.json",
+        "sha256": "72e5f43c554e326d101d1b2c55de76f277a5a817eaa6b0fc2837dd8f6bbee24a"
+      },
+      {
+        "bytes": 3482,
+        "path": "manifests/item265_beta_squarefull_capacity_manifest.json",
+        "sha256": "8bc1b3087300865dc6a54300a262cfa62c50f1b8031494dc362e87ecc18a6063"
+      },
+      {
+        "bytes": 11239,
+        "path": "sources/item343_beta_quotient_radical_excess_capacity_report.md",
+        "sha256": "0fb48e3bbf30d05bcf40d2e4dc9b04e2e80893e6c4fee925d9c6b99b25126c66"
+      },
+      {
+        "bytes": 21725,
+        "path": "results/item343_beta_quotient_radical_excess_capacity_certificate.json",
+        "sha256": "c700ffaa6898bd50e4d6b790dea307ec883ecab6374e07a7c62622eb5ba7d57b"
+      },
+      {
+        "bytes": 2696,
+        "path": "results/item343_beta_quotient_radical_excess_capacity_root_audit.json",
+        "sha256": "1788b3f5247b132c8ea8f8133d64d9fadcd716013b041964be46b7c71c9747e4"
+      },
+      {
+        "bytes": 4182,
+        "path": "manifests/item343_beta_quotient_radical_excess_capacity_manifest.json",
+        "sha256": "eddaff62ba519ece9bac2c881b04b0a0ec3f5dc5d06d780ac03a4b0b7dc69439"
+      },
+      {
+        "bytes": 12193,
+        "path": "sources/item346_beta_t_avoiding_radical_localization_report.md",
+        "sha256": "2ad742c14d0adbc74da6c46394ed89f68cec8888a3c9d22ee4f230a4e16548a5"
+      },
+      {
+        "bytes": 55217,
+        "path": "results/item346_beta_t_avoiding_radical_localization_certificate.json",
+        "sha256": "29a20d6ede62db23658d66db8e57af4a2982c9b66fd12d104f0070b3280aefab"
+      },
+      {
+        "bytes": 3264,
+        "path": "results/item346_beta_t_avoiding_radical_localization_root_audit.json",
+        "sha256": "c9273d7e187ee2c9b4b91bffc65769f1a29f937613c36960e4ed5871c5782089"
+      },
+      {
+        "bytes": 5228,
+        "path": "manifests/item346_beta_t_avoiding_radical_localization_manifest.json",
+        "sha256": "5029cf3483fdf6cce4bbc0d454bca362bb2796104ca36b353d0161e374915530"
+      },
+      {
+        "bytes": 14555,
+        "path": "sources/item350_beta_mesoscopic_first_hit_crt_no_go_report.md",
+        "sha256": "a028d87765b16bf921a219e43314c8020b635e052cf3a653a9213389d81ce532"
+      },
+      {
+        "bytes": 27293,
+        "path": "scripts/item350_beta_mesoscopic_first_hit_crt_no_go_certificate.py",
+        "sha256": "ae4be8e7e4675a30efe01cc1e7e40d57e63bd49590c34aaf9f8c97996038073f"
+      },
+      {
+        "bytes": 26348,
+        "path": "results/item350_beta_mesoscopic_first_hit_crt_no_go_certificate.json",
+        "sha256": "9c30d1c23b741e0e5b7e38ab39b16658f225f9846894b8a2b657bfa4eb145950"
+      },
+      {
+        "bytes": 3374,
+        "path": "results/item350_beta_mesoscopic_first_hit_crt_no_go_root_audit.json",
+        "sha256": "e965a5131ebc4ff9a54b7ae8369b2855e562ebfa9190517817b7d2fd2af7e162"
+      },
+      {
+        "bytes": 5773,
+        "path": "manifests/item350_beta_mesoscopic_first_hit_crt_no_go_manifest.json",
+        "sha256": "19e6e4ab0dfe99b7e6587e66006caa99bd39c368c574fec69762d1aee5cc3b21"
+      }
+    ],
+    "rows_digest": "0d0f5a92faed2b8dfb6045ea26211e258fa24e24257ee437501caa8bd321a8a7"
+  },
+  "item": 354,
+  "proof_object": {
+    "actual_input": "After exact-zero omission and t-avoidance, each mesoscopic row carrier C_j is 1 or one prime A<p<A^2 dividing Q.",
+    "capacity": "R_r^r divides the row product, which is below A^(2N_A); hence log R_r<2N_A log A/r. The r=2 ceiling remains one full copy.",
+    "growing_threshold": "R_1=S_<L R_L. Therefore Xi_Q=o(log b) iff some L(n)->infinity makes the actual low-incidence carrier S_<L zero rate.",
+    "layer_cake": "The first-hit product is R_1 and product_j C_j=product_r R_r.",
+    "scope": "Declared controls are not actual targets. No theorem forcing or excluding actual singleton/doubleton configurations is claimed.",
+    "squarefull_separation": "The radical supported on v_p(Q)>=2 divides E(Q)=Q/rad(Q); the fresh missing statistic is low-incidence support with v_p(Q)=1.",
+    "tower": "If nu_p counts actual row incidences, the aggregate r-wise gcd product is product_p p^binom(nu_p,r), and its radical is R_r."
+  },
+  "proof_object_digest": "2acd84c60915a3cb5ae55b35e526e9e7a82964b598a2fd72b220bb221d23610c",
+  "schema": "item354-beta-mesoscopic-incidence-resultant-tower-certificate-v1",
+  "status": "PROVED_INCIDENCE_RESULTANT_TOWER_LOW_MULTIPLICITY_SCOPED_NO_GO",
+  "strict_scope": {
+    "actual_item316_claim_from_declared_rows": false,
+    "canonical_files_modified": false,
+    "closes": [
+      "pairwise gcds of first-hit factors as a source of new information",
+      "the complete pairwise shared-support carrier as a zero-rate theorem",
+      "every fixed order r>=2 specialized common-divisor hierarchy by itself"
+    ],
+    "does_not_close": [
+      "the actual low-incidence statistic or Xi_Q",
+      "squarefull excess, H_Q, K_Q, or Gamma_Q",
+      "the half-bound, beta capacity, Route 1, or e+pi"
+    ],
+    "first_occurrence_claim_from_item350_formal_CRT": false,
+    "isolates": [
+      "actual low-incidence squarefree support at a growing threshold",
+      "the old Item265 excess carrier E(Q)"
+    ]
+  },
+  "theorem": {
+    "actual_Xi_Q": "OPEN",
+    "actual_incidence_clique_identity": "PROVED",
+    "actual_low_incidence_weighted_bound": "OPEN",
+    "complete_r_wise_gcd_resultant_tower": "PROVED",
+    "first_hit_product_equals_R_1": "PROVED",
+    "growing_low_incidence_equivalence": "PROVED",
+    "layer_cake_product_identity": "PROVED",
+    "multiplicity_layer_height_bound": "PROVED",
+    "pairwise_layer_full_one_copy_ceiling": "PROVED",
+    "squarefull_deoverlap_inequality": "PROVED"
+  }
+}

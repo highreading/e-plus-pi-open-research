@@ -1,0 +1,48 @@
+{
+  "schema": "item348-j1-dwork-first-hasse-obstruction-ledger-delta-v1",
+  "item": 348,
+  "date": "2026-09-01",
+  "branch": "Route 1 / fixed-j1 / actual selected factor / chosen-prime p-adic Hasse-Dwork analysis",
+  "status": "PROVED_FIRST_HASSE_POLYNOMIAL_AND_TRIVIAL_DWORK_DASH_TOWER_SCOPED_BOUNDED_DEGREE_NO_GO",
+  "actual_family": {
+    "parameters": "n=2h, r=2s+1, p=2n+3r, 2M=3n+4r",
+    "selected_carrier": "a_(r,n)=[u^n](1-4u+6u^2-4u^3)^(-r)",
+    "one_way_gate": "ordinary fixed-j1 collision implies p divides a_(r,n)",
+    "converse_to_full_collision_claimed": false
+  },
+  "proved": {
+    "first_hasse_bridge": "outside the forced ray, p|a_(r,n) iff H_(r,n,p)(1)=0",
+    "left_chart": "normalized terminating 4F3",
+    "right_chart": "forward-shifted Lucas-surviving terminating 5F4 tail with nonzero dashed bottom parameters",
+    "degree": "deg H=ell(r,n)-1 exactly",
+    "formal_dwork_dash": "the actual negative integral top parameter -deg H dashes to 0 in one step",
+    "sublinear_degree_support": "weighted prime mass o(M)",
+    "scoped_no_go": [
+      "bounded- or sublinear-degree native first-Hasse criteria cannot reach positive-rate fixed-j1 mass",
+      "the native formal dash tower supplies no nontrivial higher Hasse factor after the first"
+    ]
+  },
+  "capacity": {
+    "raw_fixed_j1_prime_mass": "M/6+o(M)",
+    "forced_zero_ray_mass": "O(log M)=o(M)",
+    "sublinear_native_hasse_degree_mass": "o(M)",
+    "new_independent_conditions": 0,
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "booking": 0
+  },
+  "strict_scope": {
+    "not_proved": [
+      "a geometric F-crystal or unit-root realization",
+      "nonvanishing or nonconcentration of H_(r,n,p)(1)",
+      "nonexistence of a new bounded-degree divisor supplied by an unknown global identity",
+      "W_b(M)=o(M)",
+      "any fixed-j1 ceiling reduction",
+      "Route 1 or any statement about e+pi"
+    ],
+    "finite_evidence": "five preselected exact controls only; no prime census or density inference"
+  },
+  "ledger_action": "BOOK_ZERO_RETAIN_1_OVER_36_CEILING",
+  "canonical_files_modified": false
+}

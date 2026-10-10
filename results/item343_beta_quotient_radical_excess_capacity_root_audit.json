@@ -1,0 +1,59 @@
+{
+  "item": 343,
+  "schema": "item343-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_QUOTIENT_RADICAL_EXCESS_SCOPED_NO_GO",
+  "scope": "independent root audit of the beta quotient-support saturation, radical/excess factorization, all-precision lift equivalence, and overlap accounting",
+  "checks": {
+    "certificate_sha256": "c700ffaa6898bd50e4d6b790dea307ec883ecab6374e07a7c62622eb5ba7d57b",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_sha256": "07701a1727611d5fe59dee7ac5c31b73b3d6a10e5d872e2f4eabbe321dd75951",
+    "work_manifest_artifacts_match": true,
+    "frozen_dependencies_checked": 8,
+    "frozen_dependencies_match": true,
+    "author_self_audit_sha256": "a290dece6b255689f9a3e617c630ea78148755048ab7e646d285e33179093b59",
+    "declared_algebraic_tuples": 5,
+    "declared_seed_rows": 5,
+    "independent_primewise_valuation_tuples": 1183,
+    "density_inference_from_controls": false,
+    "report_inline_delimiters": "94/94",
+    "report_display_delimiters": "40/40",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "primewise_split": "v_p(H_Q)=min(g_p,tau_p) and v_p(K_Q)=max(0,g_p-tau_p) follow exactly from H_Q=gcd(G_Q,t)",
+    "support_saturation": "ceil(log_2 Q) is at least every v_p(Q), so t to that power removes precisely the G_Q-primary components whose primes divide t",
+    "radical_excess": "after one radical copy is removed at each t-avoiding hit, every remaining exponent is at most v_p(Q)-1; hence K_Q=R_Q^perp J_Q with J_Q dividing Q/rad(Q)",
+    "old_overlap": "Q/rad(Q) divides sqfull(Q), and Q|b implies sqfull(Q)|sqfull(b); this is the existing Item-265 branch and is not rebooked",
+    "quotient_lift": "dividing the congruence b(t-ell)=0 modulo bQ^s gives exactly t=ell modulo Q^s at every precision, so the tower is one Q-adic scalar rather than independent conditions",
+    "scope_warning": "the theorem isolates Xi_Q but proves no upper bound for Xi_Q, H_Q, the squarefull branch, or Gamma_Q; it is structural de-overlap, not a numerical capacity reduction"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "primewise H/K split",
+      "support saturation",
+      "radical/excess factorization",
+      "all-precision quotient equivalence",
+      "exact three-part ledger",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared controls and 1183 independent valuation tuples"
+    ],
+    "OPEN": [
+      "Xi_Q weighted zero density",
+      "H_Q and Gamma_Q",
+      "Item-265 squarefull zero rate",
+      "centered half-bound",
+      "any beta capacity reduction"
+    ]
+  },
+  "capacity": {
+    "actual_Gamma_Q": "OPEN",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "new_booking": 0
+  }
+}

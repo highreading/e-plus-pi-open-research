@@ -1,0 +1,43 @@
+{
+  "schema": "item351-j1-companion-window-rank-obstruction-ledger-delta-v1",
+  "item": 351,
+  "date": "2026-09-01",
+  "branch": "Route 1 / fixed-j1 / selected Hasse coordinate / companion-window closer",
+  "status": "PROVED_ALL_WINDOW_HASSE_TAYLOR_RANK_AND_SCOPED_COMPANION_TRANSFER_NO_GO",
+  "actual_family": {
+    "parameters": "n=2h, r=2s+1, p=2n+3r, 2M=3n+4r",
+    "selected_gate": "ordinary fixed-j1 collision implies p|a_(r,n), equivalent to H_(r,n,p)(1)=0",
+    "converse_to_full_collision_claimed": false
+  },
+  "proved": {
+    "Hasse_Taylor_rank": "rank(D_0,...,D_w)=w+1 for every 0<=w<=deg(H)<p",
+    "multiplicity": "D_0=...=D_w=0 iff (z-1)^(w+1) divides H",
+    "forced_condition_module": "a linear condition formally forced by H(1)=0 is a scalar multiple of H(1)",
+    "Frobenius_window": "[u^m]G^(p-r)=a_(r,m) for every 0<=m<p",
+    "contiguous_recurrence": "exact nonsingular three-state transfer on the target local range",
+    "three_zero_theorem": "three consecutive reciprocal coefficients cannot vanish in the target local range",
+    "actual_neighbor_capacity": "each fixed nonzero fixed-M row offset requires a two-prime tuple and has o(M) logarithmic mass"
+  },
+  "capacity": {
+    "maximum_if_new_forced_codimension_two_gate_and_zero_density_were_proved": "1/36 per 6M",
+    "new_forced_independent_condition": 0,
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "booking": 0
+  },
+  "strict_scope": {
+    "finite_control": "one predeclared p=47 selected-zero row; it is not claimed to be a full original collision or density evidence",
+    "not_proved": [
+      "a companion condition forced by full-collision information absent from the selected gate",
+      "multiple-root weighted density",
+      "global nonconcentration of the actual recurrence orbit",
+      "W_b(M)=o(M)",
+      "any fixed-j1 ceiling reduction",
+      "Route 1 or any statement about e+pi"
+    ]
+  },
+  "ledger_action": "BOOK_ZERO_RETAIN_1_OVER_36_CEILING",
+  "route_1_status": "ACTIVE",
+  "canonical_files_modified": false
+}

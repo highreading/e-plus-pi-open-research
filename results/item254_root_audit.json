@@ -1,0 +1,61 @@
+{
+  "schema": "item254-root-audit-v1",
+  "item": 254,
+  "audited_date_beijing": "2026-08-31",
+  "disposition": "accepted for archive with zero rate booking",
+  "sealed_artifacts": {
+    "report_sha256": "971d50dab6a8f944334503c46d369151f390db534bc50ec54e1711ecf9b83a2a",
+    "checker_sha256": "51597cb653af504269341057e1ae02e917d60e94e00b274797fe1da94e0d8b81",
+    "canonical_sha256": "a81313ecfc726400bffc36c203b1d4b499cfc8b94ebce37277bc8d1a16fa3781",
+    "replay_sha256": "a81313ecfc726400bffc36c203b1d4b499cfc8b94ebce37277bc8d1a16fa3781",
+    "strict_ledger_sha256": "84cdb40f33c188fd7f4a0c5f5c94744ad930ec7155c552e755eea1cae7780bb0",
+    "manifest_sha256": "3083992e7153d290fc18e579d3e8246a2bf8bcf7cde08bcd98aa726d0bf8abd1",
+    "hash_ledger_sha256": "617a54d939170fe025a927f45262df7f06003029b1493925188ca3ef07317b28"
+  },
+  "dependencies": {
+    "runtime_files": [],
+    "standard_library_only": true
+  },
+  "portable_replay": {
+    "isolated_archive_style_runs": 2,
+    "canonical_replay_byte_identical": true,
+    "output_matches_sealed_canonical": true,
+    "output_sha256": "a81313ecfc726400bffc36c203b1d4b499cfc8b94ebce37277bc8d1a16fa3781",
+    "manifest_validation_failures": 0,
+    "control_bytes": 0
+  },
+  "independent_formula_probe": {
+    "imports_item_code": false,
+    "script_sha256": "a3635fc9975f5caf76ea901de7be4c7f738c402fb2094e41ea82688c634d288f",
+    "result_sha256": "b7e8aeda5fca080b902119db0f63cce6aa4a9083a189fb6a9618d370f597947a",
+    "actual_rows_through_p_401": 1153,
+    "beta_and_fixed_cutoff_equalities": 1153,
+    "character_rows_through_p_101": 85,
+    "numerator_valuation_and_height_checks": 257,
+    "two_exact_actual_prefix_zeros_reproduced": true
+  },
+  "root_mathematical_audit": {
+    "prefix_polynomial_and_C_at_1_derivative_checked": true,
+    "Mellin_orthogonality_including_m_zero_checked": true,
+    "Greene_sign_and_explicit_Jacobi_unit_checked": true,
+    "theta_order_gcd_identity_checked": true,
+    "p_mod_6_eq_1_Kummer_genus_calculation_checked": true,
+    "p_mod_6_eq_5_cube_substitution_and_j_zero_birational_map_checked": true,
+    "unweighted_trace_zero_distinguished_from_punctured_weighted_moment": true,
+    "incomplete_beta_prefactor_and_denominator_ranges_checked": true,
+    "fixed_cutoff_shift_and_ratio_bounds_checked": true,
+    "unique_minimum_binary_valuation_proof_checked": true,
+    "weighted_container_limit": "log(2)/2 per 6m, positive and larger than the raw ordinary-j=2 cell mass, so it cannot be booked",
+    "hash_ledger_path_correction": "manifest entry uses manifests/item254_half_binomial_arithmetic_manifest.json rather than the candidate's nonexistent results path"
+  },
+  "labels": {
+    "proved": "Mellin/Greene split, residue-class genus-one localization with punctured weight, incomplete beta, fixed-cutoff compression, exact zeros, and numerator container",
+    "exact_finite_only": "128,682 actual rows through p<=5000; bounded beta and character replays",
+    "open": "bounded-order evaluation or zero-rate theorem for the punctured period, full gate control, and any rate consequence"
+  },
+  "booking": {
+    "new_unconditional_linear_log_rate": 0,
+    "capacity_reduction": 0,
+    "route1_conclusion": "none"
+  }
+}

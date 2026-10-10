@@ -1,0 +1,43 @@
+{
+  "schema": "item426-witt-cell-recurrence-ledger-v1",
+  "item": 426,
+  "status": "WORK_ONLY_UNAUDITED_EXACT_CELL_RECURRENCE_CAPACITY_LOCALIZATION_NO_BOOKING",
+  "component": "first integral Witt escape layer on ordinary rank-zero cells",
+  "exact_gate": "kappa=A_m/p mod p is the rational-log determinant of the two four-section/Hermite endpoint vectors",
+  "actual_step_recurrence": {
+    "scope": "r=(p-6s-3)/2 >= 24",
+    "step": "s -> s+2, equivalently m -> m-1 at fixed p,j",
+    "order": "at most four for each special endpoint period and each nu=0,1",
+    "terminal_exception": "r<24",
+    "terminal_exception_capacity": "O(log m)=o(m) prime log-mass at each m"
+  },
+  "capacity": {
+    "cell_formula_per_6m": "C_j=1/[3(3j+1)(2j+1)]",
+    "j0_unbooked_cell": "1/3",
+    "j_ge_1_Item149_overlap": "(C_F-2)/6 = 0.0561745846664609478518142471...",
+    "whole_ordinary_rank_zero_layer": "C_F/6 = 0.3895079179997942811851475804...",
+    "tail_bound": "sum_{j>=J} C_j <= 1/[18(J-1)] for J>=2",
+    "proved_ceiling_reduction": "0"
+  },
+  "overlap": {
+    "ordinary_F_m": "already removed; not new Item426 credit",
+    "j0": "not Item149-booked; kappa=0 is the first actual normalized content copy",
+    "j_ge_1": "already in Item149; kappa=0 is further postbooking depth",
+    "higher_depth": "not bounded by the squarefree kappa support"
+  },
+  "booking": {
+    "route1_rate_delta": "0",
+    "mixed_cubic_divisor_lower_bound_delta": "0",
+    "small_component_ceiling_delta": "0",
+    "global_total_content_ceiling_delta": "0",
+    "frozen_deficit_delta": "0"
+  },
+  "reason_for_zero_delta": "bounded recurrence order does not control isolated finite-field zeros; no weighted zero-density theorem is proved",
+  "open": [
+    "weighted zero-density or positive density for kappa",
+    "monodromy or nonconcentration for the order-four endpoint periods",
+    "resultant with subexponential prime support",
+    "higher Witt depth after kappa vanishes",
+    "Route 1 and irrationality of e+pi"
+  ]
+}

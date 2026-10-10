@@ -1,0 +1,47 @@
+{
+  "artifacts": {
+    "results/item216_gosper_phase_obstruction_certificate.json": {
+      "role": "canonical deterministic exact output",
+      "sha256": "26b704c3eae53d4f5db6e6ab55877155faeb6a7772e63ecfa6c2a97c737fefbf",
+      "work_source": "item216_gosper_phase_obstruction_certificate.json"
+    },
+    "results/item216_gosper_phase_obstruction_certificate.replay.json": {
+      "role": "independent replay output; byte-identical to canonical",
+      "sha256": "26b704c3eae53d4f5db6e6ab55877155faeb6a7772e63ecfa6c2a97c737fefbf",
+      "work_source": "item216_gosper_phase_obstruction_certificate_replay.json"
+    },
+    "scripts/item216_gosper_phase_obstruction_certificate.py": {
+      "role": "Python-standard-library symbolic quotient, phase, and Gosper-obstruction checker",
+      "sha256": "185ef42e76fd530d366dc47c856c33c0cdda4abbf972ff3b591e713cbcbab3c4",
+      "work_source": "item216_gosper_phase_obstruction_certificate.py"
+    },
+    "sources/item216_gosper_phase_obstruction_report.md": {
+      "role": "proof report, exact method obstruction, and scoped Route-1 rate ledger",
+      "sha256": "4465d67b3d6560dcb9033bea162eeadb76ddbc8a85c6a118c5eb0486a4704cb4",
+      "work_source": "item216_gosper_phase_obstruction_report.md"
+    }
+  },
+  "canonical_command_from_archive_root": "python scripts/item216_gosper_phase_obstruction_certificate.py --output results/item216_gosper_phase_obstruction_certificate.json",
+  "dependencies": {
+    "archive_files": {
+      "scripts/item212_offray_phase_eliminant_certificate.py": {
+        "role": "frozen stable-phase eliminant and modular recurrence helper, imported transitively by Item 214",
+        "sha256": "2cf099cbe55ab6cfc8d1a92f79f4d2ac6a715287041427c757da96e85165efe6"
+      },
+      "scripts/item214_stable_eliminant_gcd_certificate.py": {
+        "role": "frozen common-term recurrence, exact phase feasibility, and stable gcd helper",
+        "sha256": "68beac2348d4462e1553b91aeb73e4e785ced50445761d909b4ed17b87bee203"
+      }
+    },
+    "external_files": [],
+    "python": "3.11+ standard library only"
+  },
+  "portability": {
+    "archive_path_required": false,
+    "host_absolute_paths_embedded": false,
+    "helpers_resolved_beside_checker": true,
+    "explicit_output_makes_archive_root_replay_portable": true
+  },
+  "replay_command_from_archive_root": "python scripts/item216_gosper_phase_obstruction_certificate.py --output results/item216_gosper_phase_obstruction_certificate.replay.json",
+  "schema": "item216-portable-manifest-v1"
+}

@@ -1,0 +1,102 @@
+{
+  "status": "PASS_NEW_EXACT_ENDPOINT_IDENTITIES_PLUS_NUMERICAL_PROFILE",
+  "scope": "Exact rational identities n1..360; floating root/asymptotic profiles are diagnostics only. General theorem is proved in GAUGED_FIXED_PULLBACK_SHARP_BLOCK_ERROR.md.",
+  "cases": [
+    {
+      "name": "linear",
+      "P": [
+        "0",
+        "1"
+      ],
+      "N_exact_endpoint_identity_checks": 360,
+      "diagnostic_R0": "1.41421356237309504880169",
+      "profile": [
+        {
+          "n": 40,
+          "complete_error": "-4.89312760071447092192309e-8",
+          "normalized_first_order_residual": "4.3553102661539218",
+          "normalized_second_order_residual": "1.31567276835216248"
+        },
+        {
+          "n": 80,
+          "complete_error": "-2.39525767068842030055909e-14",
+          "normalized_first_order_residual": "4.34546360954389887",
+          "normalized_second_order_residual": "1.84361300790249036"
+        },
+        {
+          "n": 120,
+          "complete_error": "-1.53598793167302937558124e-20",
+          "normalized_first_order_residual": "4.33932033379744741",
+          "normalized_second_order_residual": "2.02822642227956039"
+        },
+        {
+          "n": 180,
+          "complete_error": "9.59088508980617515866073e-30",
+          "normalized_first_order_residual": "4.33438268371892591",
+          "normalized_second_order_residual": "2.15356261928547076"
+        },
+        {
+          "n": 240,
+          "complete_error": "-6.71806199359283336971795e-39",
+          "normalized_first_order_residual": "4.33165546560635806",
+          "normalized_second_order_residual": "2.21688447869767755"
+        },
+        {
+          "n": 360,
+          "complete_error": "-3.89557941207231702888178e-57",
+          "normalized_first_order_residual": "4.32875352968482196",
+          "normalized_second_order_residual": "2.28062978629352097"
+        }
+      ]
+    },
+    {
+      "name": "cubic",
+      "P": [
+        "0",
+        "1",
+        "-1/2",
+        "1/2"
+      ],
+      "N_exact_endpoint_identity_checks": 360,
+      "diagnostic_R0": "1.23332050109563427796505",
+      "profile": [
+        {
+          "n": 40,
+          "complete_error": "-0.0000182416073768397356754252",
+          "normalized_first_order_residual": "7.25475473306897919",
+          "normalized_second_order_residual": "8.04681536547615255"
+        },
+        {
+          "n": 80,
+          "complete_error": "-5.35422184642860728303222e-9",
+          "normalized_first_order_residual": "3.7892120651314561",
+          "normalized_second_order_residual": "7.62476984110111432"
+        },
+        {
+          "n": 120,
+          "complete_error": "-6.90451193785580333501423e-13",
+          "normalized_first_order_residual": "2.50827931060555018",
+          "normalized_second_order_residual": "0.20411920479444529"
+        },
+        {
+          "n": 180,
+          "complete_error": "7.05955654993837201737033e-19",
+          "normalized_first_order_residual": "7.30779049377707775",
+          "normalized_second_order_residual": "9.06306641532355493"
+        },
+        {
+          "n": 240,
+          "complete_error": "4.93427981269810164945056e-24",
+          "normalized_first_order_residual": "0.996333715327911067",
+          "normalized_second_order_residual": "4.49877767030183268"
+        },
+        {
+          "n": 360,
+          "complete_error": "-3.66799208979353097866099e-35",
+          "normalized_first_order_residual": "4.26254155668493953",
+          "normalized_second_order_residual": "7.78622813164778323"
+        }
+      ]
+    }
+  ]
+}

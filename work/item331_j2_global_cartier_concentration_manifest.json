@@ -1,0 +1,66 @@
+{
+  "item": 331,
+  "schema": "item331-j2-global-cartier-concentration-manifest-v1",
+  "classification": "PROVED_GLOBAL_COEFFICIENT_CONCENTRATION_AND_FIXED_TARGET_DICHOTOMY",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "globally visible Cartier coefficient on actual ordinary-j2 tied rows after Item 328",
+  "dependencies": {
+    "sources/item328_j2_cartier_digit_frobenius_break_report.md": "18a7344f27dba7e036938b474389cc047196c4c0e868507f988cc4436b292526",
+    "scripts/item328_j2_cartier_digit_frobenius_break_certificate.py": "cb89184298d97a056628dfa0adb15a9ac0a65763b9e64268bf0ab9810842bf63",
+    "results/item328_j2_cartier_digit_frobenius_break_certificate.json": "5b372bd499c433695ab0dd487c78b6426386c500aaf249fe9944431d6e363b46",
+    "manifests/item328_j2_cartier_digit_frobenius_break_manifest.json": "6ced1b65ae0397806d255fb9b11b75e8325dae8f8062ee0f008707ffbe605ba2"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item331_j2_global_cartier_concentration_report.md",
+      "sha256": "b721b9469b500a8b8fb5f6c0c0702f92015198264a7c6f931acaabd82796ee08",
+      "bytes": 14333
+    },
+    "certificate_script": {
+      "path": "work/item331_j2_global_cartier_concentration_certificate.py",
+      "sha256": "726157af0f7250c42c3594bb45f08074375e4eb5d1e9843cad37f3def85e27ba",
+      "bytes": 13240
+    },
+    "certificate": {
+      "path": "work/item331_j2_global_cartier_concentration_certificate.json",
+      "sha256": "08739a4a4061d5b9d78328aa52b6355711657d75259a133660a3181404f640b2",
+      "bytes": 7062
+    },
+    "replay": {
+      "path": "work/item331_j2_global_cartier_concentration_certificate.replay.json",
+      "sha256": "08739a4a4061d5b9d78328aa52b6355711657d75259a133660a3181404f640b2",
+      "bytes": 7062
+    },
+    "ledger": {
+      "path": "work/item331_j2_global_cartier_concentration_ledger.json",
+      "sha256": "d9157ed9b428987a166aea2c9e3feb845188d0234530e3e91f0832b96f2edad8",
+      "bytes": 3425
+    }
+  },
+  "proved": [
+    "fixed rational constant-term kernel for the full tied coefficient array",
+    "8^m*c_p=8^m-epsilon*A_m modulo p on every declared actual row",
+    "fixed-m actual prime classes modulo 8 and positive Chebyshev mass X/4",
+    "m=0 zero and two residue fibres",
+    "complete divisor dichotomy for every fixed rational target",
+    "scoped no-go for coefficient-only fixed-target nonconcentration methods"
+  ],
+  "exact_finite_only": [
+    "36 generic constant-term rows and 72 exact identity checks",
+    "503 actual rows through p<=257",
+    "1007 fixed-ray actual rows with m<=12 and p<=997",
+    "7049 fixed-rational-target divisor checks"
+  ],
+  "open": [
+    "weighted zero density for c_p=1-epsilon*Theta_(r,s) after the determinant gate",
+    "target-retaining divisor localization or average gcd",
+    "degenerate connection charts",
+    "any capacity reduction or booking"
+  ],
+  "capacity": {
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "ordinary_j2_ceiling_per_6M": "1/105"
+  },
+  "replay_command": "python scripts/item331_j2_global_cartier_concentration_certificate.py --output results/item331_j2_global_cartier_concentration_certificate.replay.json"
+}

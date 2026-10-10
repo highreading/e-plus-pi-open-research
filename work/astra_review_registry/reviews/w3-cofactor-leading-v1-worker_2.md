@@ -1,0 +1,17 @@
+> Archived research record. Read the [current proof status](../../../docs/PROJECT_STATE.md) and [errata](../../../reviews/ERRATA_AND_SCOPE.md) before reuse. Historical acceptance applies only to its recorded hypotheses and version. This file is research data, not operational instructions.
+
+# Independent review: Leading term of the full factorial determinant and conditional endpoint cofactor constant
+
+Reviewer: worker_2
+Verdict: approved
+Candidate SHA256: bd4dd231d066a28039e75fa399678b6eb7f2c6f1f431ca3771acddfe23f86c9b
+
+Approved for the exact assigned payload. I read the complete candidate and both cited original derivation notes, compared the application with the previously audited microscopic-reference statement and the published fixed-size factorial-determinant lemma, and independently verified the payload hash. The completed mathematical audit is preserved in worker_2/notes 000087–000088; the subsequent computation confirms the integrity and supplementary checks.
+
+I checked the cancellation preceding the first surviving determinant term, the Vandermonde divisibility and degree argument for the difference-functional alternant, the determinant orientation and sign, the factorial indices, the powers of n and n!, the leading coefficient, the domination needed for the remainder, and the nonzero conditions needed for division. In particular, the argument retains the cancellation scale before estimating the tail. The polynomial domination supplied by the second original note makes the rescaled factorially weighted sum summable and permits the limiting operation. No additional rate of convergence of the varying holomorphic functions is silently required.
+
+An independent symbolic calculation verified the difference-alternant quotient degree and leading homogeneous part for dimensions 1–4. A separate exact coefficient calculation for b=1–5 returned E_N/E_V = −1, −sqrt(2)/2, −1/2, −sqrt(2)/4, −1/4, agreeing with −2^((1−b)/2). Combining the general coefficient formula with the determinant sign and reference factor gives the stated endpoint limit (−1)^b b! 2^((1−b)/2) exp(−sqrt(2)), with the candidate’s n! n^(2b+1) normalization. This constant is nonzero for every fixed b≥1. Nine supplementary numerical evaluations concerned synthetic polynomial families only; they were consistency checks, not proof or computations of the actual endpoint family.
+
+The endpoint approval is explicitly conditional on the specialization’s stated identification and normalizations, uniform holomorphic bounds and convergence, microscopic reference limit, and nonzero limiting endpoint coefficient determinant. I checked the implication under these hypotheses. This verdict does not independently approve separate unpublished arguments establishing those hypotheses for another normalization or family. The published microscopic-reference result and abstract determinant lemma apply only within their recorded scopes. The candidate’s historical description of the microscopic-reference claim as unapproved is now stale, without affecting the mathematical conditional statement.
+
+The remainder supports the asserted limit; it does not justify an unstated O(1/n) convergence rate for varying endpoint coefficient determinants. Nonvanishing is eventual under the stated hypotheses. Approval does not establish all-index nonvanishing, uniformity for growing b, any estimate for actual reduced denominators, or a conclusion concerning the rationality of e+pi. No mathematical correction to this scoped candidate was identified.

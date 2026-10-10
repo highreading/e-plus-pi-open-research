@@ -1,0 +1,73 @@
+{
+  "item": 392,
+  "schema": "item392-j2-growing-window-aggregate-no-go-manifest-v1",
+  "classification": "PROVED_GLOBAL_SUBLOG_WINDOW_PROPAGATION_NO_GO",
+  "checked_date_beijing": "2026-09-01",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "work/item385_j2_bounded_window_aggregate_no_go_report.md": "68081934a0c5f836f826e3583cef21879686a0c68db5140d4b66387f4bebbe12",
+    "work/item385_j2_bounded_window_aggregate_no_go_certificate.py": "add1ad77013208df83cdc1f6db39efaaa8338b0de128e2f941496cf7630d81ef",
+    "work/item385_j2_bounded_window_aggregate_no_go_certificate.json": "0ddf03b5e159c7616fde0dfa8759d6733353a90c65d559ae1926a3fbc8c7c8bf",
+    "work/item322_j2_fixedM_period_transfer_report.md": "7941d4102861a96145cc38267463da1a78cf7c2d9dec384857ef5c16a3f0b875",
+    "work/item326_j1_selected_factor_step12_no_go_report.md": "12f42dff3d52ab5d257eac675d9cff6888925568d29ea4894cad5e37c0c31b37"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item392_j2_growing_window_aggregate_no_go_report.md",
+      "sha256": "9fd149b27a8ca64c727c35fca4cd8a196da0d9172883b31bb3aa75c45873bb7a",
+      "bytes": 12654
+    },
+    "certificate_script": {
+      "path": "work/item392_j2_growing_window_aggregate_no_go_certificate.py",
+      "sha256": "f3e36d87d4ae9a762920d0a749a9cb38887237dfc44eb3ebf0d71909898d730a",
+      "bytes": 10031
+    },
+    "certificate": {
+      "path": "work/item392_j2_growing_window_aggregate_no_go_certificate.json",
+      "sha256": "5a3fcfe361f7cc2a012416422a13bfd5364961406766c118c5376b160f485eea",
+      "bytes": 11160
+    },
+    "replay": {
+      "path": "work/item392_j2_growing_window_aggregate_no_go_certificate_replay.json",
+      "sha256": "5a3fcfe361f7cc2a012416422a13bfd5364961406766c118c5376b160f485eea",
+      "bytes": 11160,
+      "byte_identical_to_certificate": true
+    },
+    "ledger_delta": {
+      "path": "work/item392_j2_growing_window_aggregate_no_go_ledger_delta.json",
+      "sha256": "dc66c8669ab38a0367d137b2d5019c66d79b08ba8c0a8f0a1ea747e89ce8de13",
+      "bytes": 3072
+    }
+  },
+  "theorems": [
+    "uniformly over moving offset sets, W_pair(M;H_M) << M Sigma(H_M)/log M",
+    "the offset singular factor has bounded mean, so complete windows obey W_pair(M;K) << MK/log M",
+    "every complete K=o(log M) window has zero-rate paired support and leaves (2/35)M+o(M) isolated raw mass",
+    "isolated support in a complete window obeys W_iso(M;K) << M log M/K+log M",
+    "complete superlogarithmic windows pair (2/35)M+o(M) raw mass, exposing K asymptotic to log M as the exact barrier of these inputs"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "uniform moving-offset pair bound",
+      "singular-factor average",
+      "sublog complete-window no-go",
+      "isolated-row packing converse",
+      "aggregate chart-independent phase diagram"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared singular-factor identities, prime partitions, weights, separations, and packing checks"
+    ],
+    "OPEN": [
+      "critical logarithmic window",
+      "aggregate actual-carrier o(M) theorem or strict saving",
+      "cross-characteristic collision propagation",
+      "Route 1 and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_booking": 0,
+    "new_capacity_reduction": 0
+  },
+  "replay_command": "python work/item392_j2_growing_window_aggregate_no_go_certificate.py --replay work/item392_j2_growing_window_aggregate_no_go_certificate.json --output work/item392_j2_growing_window_aggregate_no_go_certificate_replay.json"
+}

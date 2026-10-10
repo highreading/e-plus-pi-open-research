@@ -1,0 +1,51 @@
+{
+  "item": 403,
+  "schema": "item403-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_EXACT_ACTUAL_SMITH_FORMULA_WITH_MARKED_BRANCH_SCOPE_CORRECTION",
+  "scope": "independent root audit of the all-DVR Smith theorem, its global actual-family specialization, compatible-prime and falling-product arithmetic, ambient perturbation construction, replay, dependencies, and capacity interpretation",
+  "checks": {
+    "canonical_dependencies_checked": 10,
+    "canonical_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "control_characters": 0,
+    "finite_to_infinite_inference_used": false,
+    "root_repairs": "Canonicalized the package, pinned and executable-checked ten dependencies, added strict replay comparison, narrowed the perturbation claim from unspecified coefficient valuations to 3-adic valuations and normalized quantities continuous at the actual point, and after Item411 corrected the earlier wording that conflated the unmarked Smith carrier with the distinguished q=1 mod 6 collision branch."
+  },
+  "mathematical_audit": {
+    "primitive_smith": "For a primitive coefficient quadruple one coefficient is a unit, and the corresponding displayed triangular 2x2 minor is a unit. Thus Delta1 and Delta2 are units. The maximal-minor list contains U0, U1, and the unit coefficient times rho, while the two mixed cubics have valuation at least their minimum; hence v(Delta3)=gamma exactly.",
+    "common_content": "Multiplying every matrix entry by pi^h adds h to each Smith valuation, yielding (h,h,h+gamma). Applying this at every prime above 3 gives d1=d2=H_q and d3=H_q*G_q^prim in Z[1/6], up to units.",
+    "rank_edge": "If gamma is infinite, every maximal minor vanishes while a 2x2 minor remains a unit, so the primitive matrix has rank exactly two and the same formula holds with infinite last valuation.",
+    "compatible_root": "For p=q+6m and E=2m+q-1, Fermat gives (2^E)^3 congruent to 4^(q-1) modulo p. In q=5 mod 6 cubing is bijective, so the Smith carrier equals the marked collision. In q=1 mod 6, rho forces a common cube root but does not select 2^E; the unmarked carrier includes two additional branches.",
+    "falling_product": "Every factor 2q-3-3j lies strictly between -p and 2p. A factor equal to 0 or p would force 3 to divide q, so a compatible p never divides P_q.",
+    "ambient_perturbation": "Because p is not 3, high powers of 3 can independently choose both coefficient pairs modulo p while remaining arbitrarily close 3-adically. For large precision the nonzero actual coefficient and determinant valuations are unchanged, but both generators become unit multiples of the same simple factor Z-X_p modulo p, giving rank two and p dividing the last Smith invariant.",
+    "scope": "The perturbations are not actual coefficient rows. They close only the abstract cubic-shape plus finite normalized 3-adic-data class and do not disprove either the strong unmarked support conjecture or the smaller marked collision conjecture.",
+    "capacity": "The exact Smith formula isolates the right target but proves neither the support divisibility nor any positive mass. Item 393 prevents subtracting the separate large-component upper ceiling from the compatible total upper bound."
+  },
+  "strict_labels": {
+    "PROVED_ACTUAL": [
+      "exact Smith valuations over every DVR",
+      "global formula d1=d2=H_q and d3=H_q*G_q^prim away from 6",
+      "exact compatible-prime unmarked carrier localization with the marked-branch distinction"
+    ],
+    "PROVED_AMBIENT_ONLY": [
+      "finite normalized 3-adic information cannot force the actual support theorem without a formula-specific global identity"
+    ],
+    "OPEN": [
+      "the actual distinguished-root condition in the q=1 mod 6 class",
+      "actual H_q*G_q^prim support in P_q",
+      "c_m,>6m=1",
+      "a positive Route1 rate and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "conditional_separate_component_ceiling": "log(136)/6",
+    "new_route1_rate": 0,
+    "new_booking": 0,
+    "new_unconditional_capacity_reduction": 0
+  }
+}

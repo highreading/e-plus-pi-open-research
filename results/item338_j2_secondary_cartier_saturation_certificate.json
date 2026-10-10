@@ -1,0 +1,217 @@
+{
+  "automaton_replay": {
+    "checks": 20160,
+    "classification": "EXACT FINITE REPLAY ONLY",
+    "primes": [
+      3,
+      5,
+      7,
+      11
+    ],
+    "row_digest_sha256": "81124cd19cb0ab633108af7a426d15a48bd50349d7b3190decbe330e611f1469"
+  },
+  "capacity": {
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "raw_fixed_M_chebyshev_mass": "(2/35)M+o(M)",
+    "raw_ordinary_j2_ceiling_per_6M": "1/105",
+    "required_next_input": "weighted diagonal correlation for D=0 and c_p+epsilon_p*h_m*P_(r+2)(m)=Theta_(r,s), after safe saturation"
+  },
+  "carrier_hit_replay": {
+    "classification": "EXACT FINITE REPLAY ONLY",
+    "records": [
+      {
+        "D_T_valuations_numerator_denominator": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "carrier": 23,
+        "cartier_paths": {
+          "c_p_mod_secondary_prime": 20,
+          "n_digits_low_to_high": [
+            4,
+            7
+          ],
+          "no_carry_contribution": 20,
+          "one_carry_contribution": 0,
+          "p_digits_low_to_high": [
+            9,
+            14
+          ],
+          "secondary_prime": 23,
+          "upper_exponent_digits_low_to_high": [
+            6,
+            12
+          ]
+        },
+        "central_binomial_valuation": 0,
+        "intermediate_denominator_hits": [
+          "b0",
+          "b1",
+          "kappa"
+        ],
+        "mechanism": "bad intermediate reduction with exact cancellation",
+        "row": [
+          331,
+          17,
+          49
+        ],
+        "structurally_saturated_carrier": 1
+      },
+      {
+        "D_T_valuations_numerator_denominator": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "carrier": 173,
+        "cartier_paths": {
+          "c_p_mod_secondary_prime": 162,
+          "n_digits_low_to_high": [
+            126,
+            1
+          ],
+          "no_carry_contribution": 171,
+          "one_carry_contribution": 164,
+          "p_digits_low_to_high": [
+            80,
+            3
+          ],
+          "secondary_prime": 173,
+          "upper_exponent_digits_low_to_high": [
+            156,
+            2
+          ]
+        },
+        "central_binomial_valuation": 1,
+        "intermediate_denominator_hits": [],
+        "mechanism": "good reduction; central-binomial Kummer carry kills h_m",
+        "moving_target_mod_secondary_prime": [
+          162,
+          162
+        ],
+        "phi_mod_secondary_prime": 162,
+        "row": [
+          599,
+          7,
+          97
+        ],
+        "structurally_saturated_carrier": 1
+      }
+    ]
+  },
+  "character_counterexamples": {
+    "classification": "EXACT FINITE REPLAY ONLY",
+    "conclusion": "opposite quadratic character is not a valid carrier theorem",
+    "rows": [
+      [
+        251,
+        1,
+        41,
+        3,
+        -1,
+        -1
+      ],
+      [
+        281,
+        1,
+        46,
+        7,
+        1,
+        1
+      ]
+    ]
+  },
+  "classification": "PROVED_SECONDARY_CARTIER_DIAGONAL_COLLAPSE_AND_OFF_DIAGONAL_SATURATION_NO_GO",
+  "dependencies": {
+    "manifests/item336_j2_carrier_resultant_obstruction_manifest.json": "5ee017780f55425a2e9598c12e370c6e194f96e79be5e69c1f0f1d176c5d13f3",
+    "results/item336_j2_carrier_resultant_obstruction_certificate.json": "2769620afcf258e84dd4713113f32662e4140bfa1706f4983c137aca2d132010",
+    "scripts/item336_j2_carrier_resultant_obstruction_certificate.py": "af5a5ef313df81275f989236cc9a600c1132d90e14a95a4fb2dc508fc7c09022",
+    "sources/item336_j2_carrier_resultant_obstruction_report.md": "761f09e999c0f76139e036f2f4db03743b363087e04f9ed661fe65229cb0b4c2"
+  },
+  "dependency_hashes_verified": true,
+  "diagonal_replay": {
+    "classification": "EXACT FINITE REPLAY ONLY",
+    "diagonal_transition": "M_0[0,1]=c_p and M_1[1,0]=1",
+    "row_digest_sha256": "42d85f74ad09083c2fcf26d2063bd66c169dd01cfa95c9ea543044b2bf5ea1bd",
+    "rows": [
+      [
+        11,
+        1,
+        1,
+        0,
+        2,
+        2
+      ],
+      [
+        17,
+        1,
+        2,
+        1,
+        4,
+        4
+      ],
+      [
+        29,
+        1,
+        4,
+        3,
+        23,
+        23
+      ],
+      [
+        271,
+        113,
+        7,
+        6,
+        191,
+        191
+      ],
+      [
+        331,
+        17,
+        49,
+        48,
+        87,
+        87
+      ],
+      [
+        599,
+        7,
+        97,
+        96,
+        114,
+        114
+      ]
+    ]
+  },
+  "proved_formulae": {
+    "actual_exponents": "a=n=(p-1)/2, b=n+q=p-m-1, k=p",
+    "carry_matrix": "M_i[u,v]=[X^(k_i-u+ell*v)]F_i(X), u,v in {0,1}",
+    "diagonal_collapse": "at ell=p the product is the single distinguished transition M_0[0,1]=c_p followed by M_1[1,0]=1",
+    "global_coefficient": "[X^k](1-X)^a(1+X)^b=e_0^T prod_i M_i e_0 mod ell",
+    "local_digit_polynomial": "F_i(X)=(1-X)^(a_i)*(1+X)^(b_i)",
+    "safe_saturation": "remove from G all prime powers supported by ingredient denominators or binom(2m,m); p-divisibility is unchanged"
+  },
+  "schema": "item338-j2-secondary-cartier-saturation-v1",
+  "scope_warning": "Secondary-prime digit factorizations and the finite carrier hits do not bound tied-prime mass.  At ell=p the automaton returns c_p itself; a new target-correlated distribution theorem is required."
+}

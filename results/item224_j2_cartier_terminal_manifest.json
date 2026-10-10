@@ -1,0 +1,52 @@
+{
+  "schema": "item224-portable-manifest-v1",
+  "artifacts": {
+    "sources/item224_j2_cartier_terminal_report.md": {
+      "role": "proof report for the inhomogeneous terminal theorem, necessary compatibility, and scoped limitations",
+      "sha256": "85e0fdc4cda566543a0dd7cf548bd8433565cf78cfdb12b1656d47c671149236",
+      "work_source": "item224_j2_cartier_terminal_report.md"
+    },
+    "scripts/item224_j2_cartier_terminal_certificate.py": {
+      "role": "standard-library symbolic recurrence, contiguity, regularization, and finite-classification checker",
+      "sha256": "7fc0dad8a691fce31032db64696c2cc809b39e65b948e0d93e58f8c5a0924bf4",
+      "work_source": "item224_j2_cartier_terminal_certificate.py"
+    },
+    "results/item224_j2_cartier_terminal_certificate.json": {
+      "role": "canonical deterministic output",
+      "sha256": "aa0dc21ceea279edff38a1b19a91de3ba7155a4931a01be5d063d6cfcab87958",
+      "work_source": "item224_j2_cartier_terminal_certificate.json"
+    },
+    "results/item224_j2_cartier_terminal_certificate_replay.json": {
+      "role": "independent replay output; byte-identical to canonical",
+      "sha256": "aa0dc21ceea279edff38a1b19a91de3ba7155a4931a01be5d063d6cfcab87958",
+      "work_source": "item224_j2_cartier_terminal_certificate_replay.json"
+    },
+    "results/item224_j2_cartier_terminal_ledger.json": {
+      "role": "strict PROVED, EXACT FINITE, OPEN, and booking ledger",
+      "sha256": "82343cd7acefc7b18c6dd48371e3510b3c1f9678c4c8c7a7a2eecdbaab3ebc0c",
+      "work_source": "item224_j2_cartier_terminal_ledger.json"
+    }
+  },
+  "canonical_command_from_archive_root": "python scripts/item224_j2_cartier_terminal_certificate.py --output results/item224_j2_cartier_terminal_certificate.json",
+  "replay_command_from_archive_root": "python scripts/item224_j2_cartier_terminal_certificate.py --output results/item224_j2_cartier_terminal_certificate_replay.json",
+  "dependencies": {
+    "archive_files": {
+      "scripts/item221_j2_twisted_cohomology_certificate.py": {
+        "role": "frozen j=2 cohomology and shifted-period helper",
+        "sha256": "8ef696188337f9ecc7f77e66c296973897ce443b143f72fc0c468fd3f9354a36"
+      },
+      "scripts/item219_common_log_j2_certificate.py": {
+        "role": "frozen j=2 polynomial, phase-weight, and original-period helper",
+        "sha256": "bf9ee30675b5745225f08d2d82e500fd1f6797d69f94ab5949602e266f8b38cc"
+      }
+    },
+    "external_files": [],
+    "python": "3.11+ standard library only"
+  },
+  "portability": {
+    "archive_path_required": false,
+    "host_absolute_paths_embedded": false,
+    "helpers_resolved_beside_checker": true,
+    "explicit_output_makes_archive_root_replay_portable": true
+  }
+}

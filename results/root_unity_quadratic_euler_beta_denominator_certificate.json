@@ -1,0 +1,188 @@
+{
+  "N_1643_exact_metadata": {
+    "G_N": "151483",
+    "P_digits": 9488,
+    "P_sha256_decimal": "f0d9b4ff0323fe7c43ef41a67fa80f93ae4f6fd8516c5b54eabe6c7b286418ac",
+    "Q_digits": 9489,
+    "Q_sha256_decimal": "eb3b97f5fb3f93589f93d1d1382355facd8b5cda5d4bd34074cec8d8a79bba46"
+  },
+  "all_N_theorem_checked_symbolically_in_source": {
+    "adjacent_asymptotic_consequences": "liminf (log Q_N+log Q_(N+1))/N>=2 log 3; limsup log Q_N/N>=log 3",
+    "adjacent_determinant": "D_N=P_N*Q_(N+1)-P_(N+1)*Q_N>0 and v2(D_N)=1",
+    "adjacent_product_floor": "Q_N*Q_(N+1)>(13*pi^2/216)*3^(2N+3)",
+    "asymptotic_error": "32/(pi^2*3^(2N+3))*(1+O((3/5)^(2N+1)))",
+    "exact_ratio": "P_N/Q_N=(4/pi^2)*beta(2N+3)/beta(2N+1)",
+    "lower_error": "alpha*(8/3^(2N+3)-24/5^(2N+3))",
+    "upper_error": "alpha*(8/3^(2N+3))/(1-3^(-(2N+1)))"
+  },
+  "barrier": "The adjacent determinant gives an unconditional exponential floor for Q_N*Q_(N+1), while the pi^2 measure gives an individual log Q_N=Omega(N) floor. Both yield only O(N) improvements in log G_N and do not imply log G_N=o(N log N).",
+  "definitions": {
+    "A_N": "(2N+2)(2N+1)",
+    "G_N": "gcd(A_N*abs(E_2N),abs(E_(2N+2)))",
+    "P_N": "abs(E_(2N+2))/G_N",
+    "Q_N": "A_N*abs(E_2N)/G_N",
+    "alpha": "4/pi^2"
+  },
+  "finite_grid": {
+    "N_max": 120,
+    "N_min": 1,
+    "Q_rows_sha256": "02b3721ad294c6add0c019dac684da4cc63c873cc87ea79eaa1a965b8e7805ac",
+    "adjacent_determinant_rows_sha256": "bc5622ba207daf8731c899da9de3804c2053a0fd1f07017890fa14845e5e9fe0",
+    "adjacent_determinant_v2_values": [
+      1
+    ],
+    "adjacent_product_log_margin_min": "2.5233497790675355213645692509299986594043459441077",
+    "normalized_error_max": "1.0",
+    "normalized_error_min": "0.85304517532179875490600667929563445157850203072281",
+    "precision_decimal_digits": 300,
+    "selected_adjacent_rows": [
+      {
+        "N": 1,
+        "Q_N_digits": 2,
+        "Q_next_digits": 3,
+        "determinant_digits": 2,
+        "determinant_v2": 1,
+        "product_log_margin": "2.5233497790675355213645692509299986594043459441077"
+      },
+      {
+        "N": 2,
+        "Q_N_digits": 3,
+        "Q_next_digits": 4,
+        "determinant_digits": 3,
+        "determinant_v2": 1,
+        "product_log_margin": "5.9774441068517763104528075084893925894901408776629"
+      },
+      {
+        "N": 5,
+        "Q_N_digits": 7,
+        "Q_next_digits": 9,
+        "determinant_digits": 10,
+        "determinant_v2": 1,
+        "product_log_margin": "21.965648386953522267460793428733626802115832336849"
+      },
+      {
+        "N": 10,
+        "Q_N_digits": 18,
+        "Q_next_digits": 20,
+        "determinant_digits": 27,
+        "determinant_v2": 1,
+        "product_log_margin": "60.025352717382505650992825396347170511030730424217"
+      },
+      {
+        "N": 20,
+        "Q_N_digits": 44,
+        "Q_next_digits": 47,
+        "determinant_digits": 70,
+        "determinant_v2": 1,
+        "product_log_margin": "159.82304053170275983395065224887886326919744646826"
+      },
+      {
+        "N": 40,
+        "Q_N_digits": 108,
+        "Q_next_digits": 111,
+        "determinant_digits": 179,
+        "determinant_v2": 1,
+        "product_log_margin": "410.46102279462071992968815073977089333166540881206"
+      },
+      {
+        "N": 80,
+        "Q_N_digits": 258,
+        "Q_next_digits": 262,
+        "determinant_digits": 443,
+        "determinant_v2": 1,
+        "product_log_margin": "1018.0218955238012499102232943899225740583133658346"
+      },
+      {
+        "N": 120,
+        "Q_N_digits": 427,
+        "Q_next_digits": 431,
+        "determinant_digits": 742,
+        "determinant_v2": 1,
+        "product_log_margin": "1707.3419407590750735232214357606862654033369829562"
+      }
+    ],
+    "selected_rows": [
+      {
+        "G": "1",
+        "N": 1,
+        "P_digits": 1,
+        "Q_digits": 2,
+        "normalized_error": "0.85304517532179875490600667929563445157850203072281",
+        "strict_lower_margin": "0.00115181154788305860355029372476",
+        "strict_upper_margin": "0.00247395626402975537468085635477"
+      },
+      {
+        "G": "1",
+        "N": 2,
+        "P_digits": 2,
+        "Q_digits": 3,
+        "normalized_error": "0.9321488200266802630943626709328530226655618378692",
+        "strict_lower_margin": "0.0000239125332280479195485532218367",
+        "strict_upper_margin": "0.000106717065473587467989911067887"
+      },
+      {
+        "G": "1",
+        "N": 5,
+        "P_digits": 7,
+        "Q_digits": 7,
+        "normalized_error": "0.99618045458507185778045434880537804925765862894545",
+        "strict_lower_margin": "2.00644524880278544191886577336e-10",
+        "strict_upper_margin": "0.00000000777905760260057969381436268938"
+      },
+      {
+        "G": "1",
+        "N": 10,
+        "P_digits": 17,
+        "Q_digits": 18,
+        "normalized_error": "0.99997632872304927542422273666870883696457584298968",
+        "strict_lower_margin": "7.10485382999149527675561421843e-19",
+        "strict_upper_margin": "8.15238751040160597782211426603e-16"
+      },
+      {
+        "G": "1",
+        "N": 20,
+        "P_digits": 44,
+        "Q_digits": 44,
+        "normalized_error": "0.9999999991337872557613966075289176415270194553955",
+        "strict_lower_margin": "8.9080839188167024966389854623e-36",
+        "strict_upper_margin": "8.55580443399382843523681409508e-30"
+      },
+      {
+        "G": "1",
+        "N": 40,
+        "P_digits": 107,
+        "Q_digits": 108,
+        "normalized_error": "0.99999999999999999884208938160753166477052011803985",
+        "strict_lower_margin": "1.39914963034940603674836267096e-69",
+        "strict_upper_margin": "9.40721625438377225921714489663e-58"
+      },
+      {
+        "G": "1",
+        "N": 80,
+        "P_digits": 258,
+        "Q_digits": 258,
+        "normalized_error": "0.99999999999999999999999999999999999793093055526232",
+        "strict_lower_margin": "3.45160397916263339261753912645e-137",
+        "strict_upper_margin": "1.13726266206398784626121419472e-113"
+      },
+      {
+        "G": "1",
+        "N": 120,
+        "P_digits": 427,
+        "Q_digits": 427,
+        "normalized_error": "1.0",
+        "strict_lower_margin": "8.51486486421239824825576967475e-205",
+        "strict_upper_margin": "1.37486619585282154885592621376e-169"
+      }
+    ]
+  },
+  "irrationality_measure": {
+    "liminf_log_Q_over_N_lower_decimal": "0.43121627403951228728716941315933852047586752860132",
+    "meaning": "For every epsilon>0, log Q_N >= (2 log 3/(mu_bar+epsilon))*N+O_epsilon(1).",
+    "published_mu_upper": "5.09541178...",
+    "safe_decimal_upper_used": "5.095412",
+    "source": "W. Zudilin, Russian Math. Surveys 68:6 (2013), 1133-1135, doi:10.1070/RM2013v068n06ABEH004872"
+  },
+  "logical_scope": "Finite exact/high-precision replay supporting an analytic all-N beta-tail and adjacent-determinant theorem. The grid does not prove the irrationality measure, an asymptotic J_N bound, or any classification of e+pi.",
+  "schema": "root_unity_quadratic_euler_beta_denominator_certificate_v1"
+}

@@ -1,0 +1,95 @@
+{
+  "item": 347,
+  "schema": "item347-j2-chosen-prime-kummer-conductor-obstruction-ledger-v1",
+  "classification": "PROVED_TARGET_FORCED_COMPLETE_SUM_AND_LINEAR_KUMMER_CONDUCTOR_NO_GO",
+  "dependencies": {
+    "sources/item341_j2_diagonal_affine_state_report.md": "42f6ccd326e385f8034abe322756517a30a93d7468b3e6f85cbca3dba8080cb4",
+    "results/item341_j2_diagonal_affine_state_certificate.json": "75c05cb486e5a5a6f9af5dda2e62f2a4b81cb888a15eb19ecabd10a382625cb4",
+    "results/item341_j2_diagonal_affine_state_root_audit.json": "d5c810346f9181f10d38e9f5ae2e250a8c880e32f97cbc5bef91f6bd37f61a27",
+    "manifests/item341_j2_diagonal_affine_state_manifest.json": "fc073e4c11a2d9ab519f0b5babae6f9f95e2e8cf9e8cbcf05c4c8ca8ba155000",
+    "sources/item344_j2_frobenius_cutoff_obstruction_report.md": "1671dec30de80c047c52b6b4bf13157025ea631869f5ccacc73169002ec287a9",
+    "results/item344_j2_frobenius_cutoff_obstruction_certificate.json": "f390d14d2b14ce965a33da8499e450294be3a038be2269d564d3cc3fda5f1179",
+    "results/item344_j2_frobenius_cutoff_obstruction_root_audit.json": "1de770fc9f8cf23ec215d936e31b08bb59b5aad2ce8fb3480a0bd835011b5376",
+    "manifests/item344_j2_frobenius_cutoff_obstruction_manifest.json": "9824b1a18fd645e729e103e32d0911d2392edc7b6c6642e5bea28d97489ef286"
+  },
+  "actual_family": {
+    "tied_phase": "p=2r+6s+3=6m+2d+1, m=s-1, d=r+4",
+    "fixed_M_relation": "2M=5r+14s+7; 5p=4M+2m+3; r=6M-7p",
+    "raw_chebyshev_mass": "(2/35)M+o(M)",
+    "raw_capacity_per_6M": "1/105"
+  },
+  "joint_gate": {
+    "first_coordinate": "4^(m+1)=c_star_r mod p",
+    "second_coordinate": "H_m=Theta_(r,s) mod p",
+    "status": "both coordinates and the legitimate moving target are retained"
+  },
+  "complete_quadratic_moment": {
+    "termwise": "binom(2u,u)/8^u=-sum_(x in F_p^*) x^(-u)*chi(1-x/2) mod p",
+    "weight": "W_m(x)=sum_(u=0)^m x^(-u)",
+    "collapsed_sum": "H_m=-sum_(x in F_p^*) W_m(x)*chi(1-x/2) mod p",
+    "target_forced_sum": "H_m-Theta=sum_(x in F_p^*)(Theta-W_m(x)*chi(1-x/2)) mod p",
+    "denominator_audit": "all powers of 2 and x are p-units; m<(p-1)/2"
+  },
+  "chosen_prime_Greene_lift": {
+    "coefficient_field": "K=Q(mu_(p-1))",
+    "chosen_prime": "P|p with Teichmuller omega(x)=x mod P",
+    "characters": "B_u=omega^(-u), phi=omega^((p-1)/2)",
+    "Jacobi_congruence": "h_u=-B_u(2)*J(B_u,phi) mod P",
+    "normalization": "Fourier inversion uses 1/(p-1), a p-unit"
+  },
+  "full_mode_support": {
+    "group_order": "N=p-1",
+    "prefix_length": "L=m+1",
+    "exact_support": "N-gcd(N,L)+1",
+    "tied_relation": "N=6L+2r+2>6L",
+    "lower_bound": "support>5N/6+1"
+  },
+  "rank_and_conductor": {
+    "canonical_weight_lift": "Wtilde_m=sum_(u=0)^m omega^(-u)",
+    "distinct_constituents": "m+1",
+    "minimality": "multiplicative-character orthogonality gives unique semisimple Kummer decomposition",
+    "quadratic_tensor": "tensor by phi(1-x/2) preserves pairwise nonisomorphism",
+    "lower_bound": "conductor>=rank>=m+1",
+    "positive_rate": "m=o(M) rows have o(M) log-prime mass, so every positive-rate bulk has linear rank"
+  },
+  "chosen_prime_warning": {
+    "Galois": "conjugation permutes character exponents and does not preserve the ordered prefix",
+    "Archimedean": "complex nonvanishing and sqrt(p) Jacobi bounds do not exclude divisibility at the selected P",
+    "additive_vs_Mellin": "p-th-root additive modes coalesce modulo p, whereas (p-1)-st-root Teichmuller modes remain distinct but have linear rank",
+    "ledger_rule": "no Archimedean estimate is credited as chosen-prime nonconcentration"
+  },
+  "scoped_no_go": {
+    "closed_as_sufficient_by_themselves": [
+      "bounded-rank or bounded-conductor semisimple Kummer/Greene completion of the actual cutoff",
+      "Archimedean Jacobi or Weil bounds without selected-prime divisibility information",
+      "any direct sublinear-rank restriction as a positive-rate mechanism"
+    ],
+    "not_closed": [
+      "nonlinear or nonsemisimple target-specific compression",
+      "a p-dependent chosen-prime F-crystal outside the diagonal Kummer category",
+      "weighted distribution uniform in linearly growing conductor",
+      "the degenerate triple-minor branch"
+    ]
+  },
+  "strict_labels": {
+    "proved": [
+      "exact target-retaining complete finite-field sum",
+      "chosen-prime Jacobi/Greene congruence",
+      "exact support greater than 5(p-1)/6",
+      "minimal semisimple Kummer rank and conductor at least m+1",
+      "positive-rate linear-conductor implication"
+    ],
+    "exact_finite_only": "seven declared formula replays; no zero census",
+    "open": "weighted nonconcentration and every mechanism outside the scoped semisimple Kummer/Greene class"
+  },
+  "capacity": {
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "ordinary_j2_ceiling_per_6M": "1/105"
+  },
+  "master_ledger": {
+    "booked_r1_unchanged": "0.1365141682948128184504238226...",
+    "threshold_T_unchanged": "1.1561471519642446123307302239...",
+    "deficit_unchanged": "1.0196329836694317938803064012..."
+  }
+}

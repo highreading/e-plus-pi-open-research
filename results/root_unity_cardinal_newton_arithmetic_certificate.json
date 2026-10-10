@@ -1,0 +1,112 @@
+{
+  "exact_arithmetic": "QQ only; no floating-point comparisons",
+  "grid": {
+    "all_confluent_residue_formulas_exact": true,
+    "all_content_caps_exact": true,
+    "all_even_endpoint_coordinate_contents_dyadic_and_bounded": true,
+    "all_explicit_upper_multiples_exact": true,
+    "all_height_bounds_verified": true,
+    "all_least_denominators_equal_in_newton_and_monomial_bases": true,
+    "all_local_jet_formulas_exact": true,
+    "all_local_lower_divisors_exact": true,
+    "defect_k_range": [
+      1,
+      3
+    ],
+    "defect_n_values": [
+      3,
+      5
+    ],
+    "generic_k_range": [
+      1,
+      3
+    ],
+    "generic_n_range": [
+      2,
+      5
+    ],
+    "row_count": 30,
+    "row_digest_sha256": "2c0cb5b84d15316068dc2c39a8d09d2cf30c06479822c96c19cc0436e37894a2"
+  },
+  "logical_scope": {
+    "cardinal_content_result": "In integer-rate coordinates, intrinsic content is 1 for even Lambda0 and defect Lambda1, and at most 2 for odd Lambda0.",
+    "corrected_endpoint_warning": "This does not bound corrected Delta content or saturated endpoint Pluecker height; those require the special kernel and W-Gamma contraction.",
+    "even_coordinate_warning": "Returning scaled even Lambda0 to the endpoint variable can create dyadic content; universally it is at most 2^(2(kh-1)), and the checker records it exactly.",
+    "proved_in_companion_source": "The formulas, denominator sandwich, content cap, and height bounds are all-parameter theorems; the grid only replays them."
+  },
+  "schema": "root-unity-cardinal-newton-arithmetic-v1",
+  "selected_rows": [
+    {
+      "all_local_jets_exact": true,
+      "all_residue_formulas_exact": true,
+      "degree": 17,
+      "endpoint_coordinate_induced_content": "4294967296",
+      "explicit_denominator_upper": "2036747215316310827668195179770144013208780800000000000",
+      "family": "even-Lambda0-scaled",
+      "first_newton_coefficient": "2",
+      "h": 6,
+      "k": 3,
+      "last_newton_coefficient": "5580629/2063912140800000000000",
+      "least_denominator": "2063912140800000000000",
+      "local_jet_denominator_lcm": "123018750000000",
+      "m": 6,
+      "n": 5,
+      "newton_sha256": "48cec11d451290386d3d82ec9b7b6b45b8076f4ceda3a0c83c1ab466e319d07e",
+      "nu": 5,
+      "primitive_content": 1,
+      "primitive_height": "37939668505866129825000",
+      "proved_endpoint_coordinate_content_bound": "17179869184",
+      "proved_height_lower": "2063912140800000000000",
+      "proved_height_upper": "1241875871685227476226142319236654606273671743545855374019841228800000000000"
+    },
+    {
+      "all_local_jets_exact": true,
+      "all_residue_formulas_exact": true,
+      "degree": 14,
+      "endpoint_coordinate_induced_content": null,
+      "explicit_denominator_upper": "404341874203444641792000000000",
+      "family": "odd-Lambda0",
+      "first_newton_coefficient": "2",
+      "h": 5,
+      "k": 3,
+      "last_newton_coefficient": "554512/622782421875",
+      "least_denominator": "622782421875",
+      "local_jet_denominator_lcm": "1594323",
+      "m": 7,
+      "n": 4,
+      "newton_sha256": "dac84c2b15210fb0f40de3b9649269aeb9c74749f3099a552820eaa36e9eeb3f",
+      "nu": 5,
+      "primitive_content": 2,
+      "primitive_height": "542552342879424",
+      "proved_endpoint_coordinate_content_bound": null,
+      "proved_height_lower": "622782421875",
+      "proved_height_upper": "627606906375080289395321619244646400000000000"
+    },
+    {
+      "all_local_jets_exact": true,
+      "all_residue_formulas_exact": true,
+      "degree": 17,
+      "endpoint_coordinate_induced_content": null,
+      "explicit_denominator_upper": "214641487449155279160292147200000000000",
+      "family": "odd-Lambda1-defect",
+      "first_newton_coefficient": "1",
+      "h": 6,
+      "k": 3,
+      "last_newton_coefficient": "32595018211427/15045919506432000000000",
+      "least_denominator": "15045919506432000000000",
+      "local_jet_denominator_lcm": "240734712102912",
+      "m": 7,
+      "n": 5,
+      "newton_sha256": "a57145ab2081397202aacdf5956eb47e945e771e664e2db7ad33eace36297adb",
+      "nu": 5,
+      "primitive_content": 1,
+      "primitive_height": "9085803974973614641649040",
+      "proved_endpoint_coordinate_content_bound": null,
+      "proved_height_lower": "15045919506432000000000",
+      "proved_height_upper": "685788511467097195097568098521271790921685401600000000000"
+    }
+  ],
+  "versions": {
+    "sympy": "1.14.0"
+  }
+}

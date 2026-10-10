@@ -1,0 +1,41 @@
+{
+  "artifacts": {
+    "results/item228_j1_second_frobenius_certificate.json": {
+      "role": "canonical deterministic exact output",
+      "sha256": "399e59a32e400d3e6513274e4384b6d03a18263866f88a8c22c486fbaa81f2e3",
+      "work_source": "item228_j1_second_frobenius_certificate.json"
+    },
+    "results/item228_j1_second_frobenius_certificate.replay.json": {
+      "role": "independent replay output; byte-identical to canonical",
+      "sha256": "399e59a32e400d3e6513274e4384b6d03a18263866f88a8c22c486fbaa81f2e3",
+      "work_source": "item228_j1_second_frobenius_certificate_replay.json"
+    },
+    "scripts/item228_j1_second_frobenius_certificate.py": {
+      "role": "Python-standard-library regularized-recurrence, source-multiplicity, free-mode, and finite-survivor checker",
+      "sha256": "4264f7df929a269633fe71865d9b47910e4d6d1bf0a91bdb9ceb2e3774171220",
+      "work_source": "item228_j1_second_frobenius_certificate.py"
+    },
+    "sources/item228_j1_second_frobenius_report.md": {
+      "role": "proof report, unreduced-source audit, second invariant, finite evidence, and Route-1 rate ledger",
+      "sha256": "a2c9c474e24ff7eedddc5abdc48569022f4707119be36fe06146673eb250cc99",
+      "work_source": "item228_j1_second_frobenius_report.md"
+    }
+  },
+  "canonical_command_from_archive_root": "python scripts/item228_j1_second_frobenius_certificate.py --output results/item228_j1_second_frobenius_certificate.json",
+  "dependencies": {
+    "archive_files": {
+      "scripts/item218_j1_common_log_certificate.py": "a238c5ca37263f2553da47bf3f21253aedf1c34f8c57458a4a274fc6cdc9029a",
+      "scripts/item223_j1_frobenius_transfer_certificate.py": "928ddc876ed70939fd4a39fccd0e91d8c59d8aa2a8a694967d8fc7f737512d4a"
+    },
+    "external_files": [],
+    "python": "3.11+ standard library only"
+  },
+  "portability": {
+    "archive_path_required": false,
+    "explicit_output_makes_archive_root_replay_portable": true,
+    "host_absolute_paths_embedded": false,
+    "self_contained_except_declared_archive_dependencies": true
+  },
+  "replay_command_from_archive_root": "python scripts/item228_j1_second_frobenius_certificate.py --output results/item228_j1_second_frobenius_certificate.replay.json",
+  "schema": "item228-portable-manifest-v1"
+}

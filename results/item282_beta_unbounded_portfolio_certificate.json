@@ -1,0 +1,67 @@
+{
+  "admission": {
+    "actual_high_efficiency_return_mass_theorem": false,
+    "actual_sum_cancellation_divisibility_theorem": false,
+    "little_o_squarefull": false,
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "positive_linear_capacity_admission": "FAIL",
+    "uniform_prime_power_height_O_n": false
+  },
+  "bounded_exact_checks": {
+    "asymptotic_extrapolation": false,
+    "canonical_optimizer_digest": "28ff5776034ff672c05973c781b796c65bdd3175b76a9d0452463bf1a4b98eba",
+    "canonical_optimizer_rows": 100,
+    "exceptional_singleton_search": false,
+    "first_tied_cancellation_witness": {
+      "coefficients": [
+        1,
+        1,
+        -1
+      ],
+      "n": 2,
+      "p": 7,
+      "sum_order": 1,
+      "term_orders": [
+        1,
+        0,
+        0
+      ]
+    },
+    "homogeneous_sum_digest": "d133cb9d0956351aa5d8e1638ce636c14236d305cda64a16a37de78a4251e764",
+    "homogeneous_sum_rows": 1980,
+    "label": "EXACT FINITE ONLY",
+    "power_layer_digest": "6267474dba35e6719cc77eef574936a229af6fe95380e60caf2f3e38f3456533",
+    "power_layer_rows": 21120,
+    "product_digest": "757e8e6c65a65c3357c9c443195002d96174b3d152857e074cc787378fd48559",
+    "product_rows": 1980,
+    "tied_cancellation_witness_count": 22,
+    "tied_cancellation_witness_digest": "c7bef2be0d8821b8dc511bffb78fcb64a1b2f0285f0de960cad5e7ad6444f37c"
+  },
+  "description": "Exact product-efficiency, diminishing-power, unbounded canonical, and homogeneous-sum cancellation dichotomy",
+  "exact_quantifiers": {
+    "products": "every finite weighted product of P_h(n) or scalar C_h(n), with h>=2 and arbitrary K=K(n)",
+    "sums": "every nonzero homogeneous integer-coefficient sum of primitive product monomials; coefficients and gaps must be specified independently of target factorization for admission",
+    "target": "every positive divisor Q of q_n, including every Item265 de-overlapped surviving target Q|qbar_(m,n)"
+  },
+  "open": [
+    "an actual-family high-efficiency or weighted return-cover theorem",
+    "a prime-independent homogeneous sum with proved target cancellation divisibility",
+    "nonhomogeneous sums and arbitrary growing block/Hankel determinants",
+    "the uniform v_p(q_n) log p=O(n) theorem or sufficient little-oh aggregate",
+    "the clearing-divisor and transverse matching correlation",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "schema": "item282-beta-unbounded-portfolio-certificate-v1",
+  "theorem": {
+    "canonical_capacity": "an O(n)-height canonical portfolio has only O(n/log n) certified log depth, uniformly over odd primes",
+    "canonical_unbounded_optimum": "minimum anti-period certified gap cost for depth s is s(p-1), attained by s repeated depth-one factors",
+    "deoverlap": "all target statements apply after choosing Q|q_n/gcd(q_n,D_m)",
+    "efficiency_dichotomy": "captured_log/H is at most the largest primitive overlap efficiency log gcd(Q,P_h)/log P_h",
+    "height_and_multiplicity": "H=O(n) implies L=O(n/log n) and K<=L=O(n/log n)",
+    "power_layers": "for G_t=gcd(Q,P_h^t), the new layers G_t/G_(t-1) form a divisibility-decreasing chain",
+    "product_overlap_majorant": "gcd(Q,product P_h^w_h) divides product gcd(Q,P_h)^w_h",
+    "scope_limit": "actual high-efficiency short returns and tied-minimum cancellation are not excluded",
+    "sum_dichotomy": "a unique least term valuation gives no cancellation depth; only tied minima can create a new sum-only factor"
+  }
+}

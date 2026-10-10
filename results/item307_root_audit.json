@@ -1,0 +1,46 @@
+{
+  "schema": "item307-root-audit-v1",
+  "item": 307,
+  "auditor": "root",
+  "date": "2026-08-31",
+  "verdict": "PASS WITH EXACT STRUCTURAL-RAY RESIDUES, SIX FIXED DIVISORS, O(1) RAY MASS, EXPLICIT ZERO WITNESS, FIXED-M CAPACITY CORRECTION, AND ZERO BOOKING",
+  "package": {
+    "manifest_files_checked": 5,
+    "manifest_file_hash_mismatches": 0,
+    "frozen_dependencies_checked": 12,
+    "manifest_dependency_hash_mismatches": 0,
+    "hash_list_entries_checked": 6,
+    "hash_list_mismatches": 0,
+    "canonical_root_replay_byte_identical": true,
+    "canonical_and_root_replay_sha256": "7b4850b49b3b1615187936168e6f29ad8cd241aabfb9b7766d618d42a3376613",
+    "report_sha256": "5dbc775228cd710e946e572e9c0dd2359613d580a784bba428d5331f1d37e33c",
+    "script_sha256": "b6ac3e1d623fe55c0887ac922b778c2b9457c24607e6aeb606aa4aecf8e3dce5",
+    "ledger_sha256": "32fb4d5a11539e86fc90e6291248bf6334d66b7b9461e64c980f6e086562eea4",
+    "manifest_sha256": "9745daf7da2ec6b69601902c08b4e780711cb24ab5d33c1ff54f70f6f6a0c126"
+  },
+  "independent_mathematical_checks": {
+    "frobenius_reduction": "PASS: on p=4h+6s+3, Q(y)^((4h+3)/3)=Q(y)^(p/3-2s); the unique cubic branch gives Q^(p/3)=R(y^p), whose nonconstant terms cannot reach degree 2h<p.",
+    "fixed_rational_source": "PASS: the y=t/(1-t) substitution and n[t^n]F=[t^n]tF' produce G_s=N_s/((1-t)^(2s+6)(t^2-2t+2)^(2s+1)).",
+    "partial_fractions": "PASS: for s=2,4,6 the exact Gaussian partial-fraction systems have dimension equal to denominator degree; the canonical and independent replays reproduce every aggregate and six residue forms.",
+    "unit_bridge": "PASS: Item 288 places every gauge factor at primes <=4h+3, while every actual row prime is at least 4h+9; gamma_s has only powers of 2 in its denominator.",
+    "euler_and_divisor": "PASS: direct p mod 8 evaluation gives the six delta signs and 2^(3s+1)w_h^2=delta. Squaring a+bw=0 gives p dividing D=2^(3s+1)a^2-delta b^2; all six D are positive and nonzero.",
+    "exact_zero": "PASS: 47 divides D_(2,0), and the original pinned control gives E_8^*=0 modulo 47.",
+    "weighted_scope": "PASS: six fixed containers bound the varying-h structural-ray mass by O(1), with multiplicity. At fixed M, however, s=2,4,6 supply at most three candidates and already have O(log M)=o(M) raw mass, so no part of the 1/36 ceiling is removed."
+  },
+  "format": {
+    "report_bytes": 13568,
+    "report_lines": 453,
+    "forbidden_control_characters": 0,
+    "inline_math_open": 83,
+    "inline_math_close": 83,
+    "display_math_open": 41,
+    "display_math_close": 41
+  },
+  "capacity": {
+    "new_route1_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "smallest_remaining_lemma": "W_off(M)=o(M) for s in S_M outside {2,4,6}",
+    "ledger_changed": false
+  }
+}

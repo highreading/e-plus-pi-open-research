@@ -1,0 +1,54 @@
+{
+  "item": 320,
+  "schema": "item320-root-audit-v1",
+  "checked_date_beijing": "2026-08-31",
+  "verdict": "PASS_SCOPED_NO_GO_WITH_ZERO_BOOKING",
+  "scope": "independent root audit of the literal prefix/complement descent theorem below half-linear depth",
+  "checks": {
+    "certificate_sha256": "89755de7ea6ee90a4d91195d2aef7685fc9d47231a6937d3b73a5c9b8d4637e8",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "manifest_artifacts_match": true,
+    "frozen_dependencies_match": true,
+    "work_hash_list_match": true,
+    "independent_prefix_rows": 144,
+    "independent_n_max": 40,
+    "independent_casoratian_all_depth_bounds": true,
+    "report_inline_delimiters": "121/121",
+    "report_display_delimiters": "74/74",
+    "report_control_characters": 0,
+    "report_bare_cr": 0
+  },
+  "mathematical_audit": {
+    "target_boundary": "E_(m+1)=sigma*Q_m and E_m=sigma*kappa follows only from the exact Item316 target; the report does not promote arbitrary digit states",
+    "forced_recurrence": "the determinant recurrence and retained boundary digit give the exact backward inhomogeneous chain and truncated dual formula",
+    "center": "gamma/Q=1-alpha_(n-r-1)/alpha_n gives the stated strict rational bounds from 4s-2<alpha_s<4s-1",
+    "uniform_threshold": "the explicit N_lambda makes the factorial lower bound dominate (4n)^(L+2); the deviation induction uses w<=4n-2, leaving strict slack",
+    "conclusion": "for every fixed rational lambda<1/2, both the forced prefix error and its complement stay farther than any digit from the endpoints, so exact target inheritance cannot occur",
+    "scope_warning": "lambda at least 1/2, full descent, redigitization, nonlinear invariants, the original exact equality, proper targets, and capacity remain open"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "all-prefix determinant recurrence",
+      "canonical top-complement bounds",
+      "Casoratian center and rational bounds",
+      "literal prefix/complement target-inheritance no-go for limsup depth/n below 1/2",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "the canonical replay controls",
+      "the root stress controls through n=40"
+    ],
+    "OPEN": [
+      "critical or supercritical depth",
+      "full exact all-digit exclusion and centered half-bound",
+      "proper-target consequences and beta capacity"
+    ]
+  },
+  "capacity": {
+    "new_capacity_reduction": 0,
+    "new_booking": 0,
+    "booked_rate_after": "0.1365141682948128184504238226"
+  }
+}

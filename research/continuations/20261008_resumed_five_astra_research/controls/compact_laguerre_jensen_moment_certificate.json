@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "time": "2026-10-09T07:19:45.250167+08:00",
+  "scope": "NEW auxiliary Laguerre order2/4 moments; no actual primitive content or original-index computation.",
+  "source_sha256": {
+    "research/continuations/20261008_resumed_five_astra_research/gates/COMPACT_LAGUERRE_JENSEN_REFINEMENT_GATE_20261009.md": "47931a819ca9f0ef927136b4c3709a11932fe7ba0f83aa7710bf2e84a986dde1",
+    "research/continuations/20261008_resumed_five_astra_research/controls/COORDINATOR_COMPACT_REFERENCE_GRAM_LOWER_BOUND_CANDIDATE.md": "3094d798f1a9d25ae40763322edf4725c3549c32ce385272c9753ab81605bb82",
+    "research/continuations/20261008_resumed_five_astra_research/controls/compact_reference_gram_constant_certificate.json": "076109dd132080566186f71efaeea4e1669585e402343ceadd89afee6fa0a552"
+  },
+  "script_sha256": "ced22b5a41b3b17a1ee9912247e219e72cebf531b34e5bd5153e40bf4e9d58b3",
+  "Wick_permutations_enumerated_order2": 2,
+  "Wick_permutations_enumerated_order4": 24,
+  "T2": "k**2*m + k*m**2",
+  "T11": "k**2*m**2 + k*m",
+  "T4": "k**4*m + 6*k**3*m**2 + 6*k**2*m**3 + 5*k**2*m + k*m**4 + 5*k*m**2",
+  "T22": "k**4*m**2 + 2*k**3*m**3 + 4*k**3*m + k**2*m**4 + 10*k**2*m**2 + 4*k*m**3 + 2*k*m",
+  "E_A": "k*m*(k - 1)*(k + 1)",
+  "E_B": "k*m*(k - 1)*(k + 1)*(k**2 + 5*k*m + 4*m**2 + 2)",
+  "independent_direct_integral_checks": [
+    {
+      "k": 2,
+      "m": 7,
+      "alpha": 5,
+      "direct_E_A": "42",
+      "direct_E_B": "11424",
+      "direct_to_Wick_agrees": true
+    },
+    {
+      "k": 3,
+      "m": 11,
+      "alpha": 8,
+      "direct_E_A": "264",
+      "direct_E_B": "174240",
+      "direct_to_Wick_agrees": true
+    },
+    {
+      "k": 4,
+      "m": 15,
+      "alpha": 11,
+      "direct_E_A": "900",
+      "direct_E_B": "1096200",
+      "direct_to_Wick_agrees": true
+    }
+  ],
+  "finite_positive_gain_k_ge2": "k*(4*k - 1)*(k**2 - 1)/(85*k**2 - 37*k + 6)",
+  "limiting_gain": "4/85",
+  "candidate_new_C_H": "-9*log(3)/2 + 4/85 + 15*log(2)",
+  "new_C_H_decimal_display": "5.50051123292209779468576060866",
+  "conditional_binary_upper_threshold": "(-506/85 - 9*log(3)/2 + 19*log(2))/log(2)",
+  "threshold_decimal_display": "3.27939003275696795846850547474",
+  "complete_same_H_reference_comparison_external_audit_pending": true,
+  "new_Jensen_refinement_external_audit_pending": true,
+  "global_proof": false
+}

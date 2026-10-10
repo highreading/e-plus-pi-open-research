@@ -1,0 +1,60 @@
+{
+  "description": "Exact replay for the all-prime four-point quotient theorem in the full p>n/2 window, plus an explicitly finite diagnostic scan.",
+  "finite_window_scan": {
+    "central_orbit_count": 1,
+    "cube_or_higher_instances": [],
+    "divisible_value_count": 2558,
+    "exclusivity_checks": 640,
+    "max_truncated_valuation": 2,
+    "orbit_count": 640,
+    "ordinary_orbit_count": 639,
+    "prime_count": 1229,
+    "quotient_table_checks": 640,
+    "scan_bound_exclusive": 10000,
+    "singular_orbit_count": 1,
+    "singular_orbits": [
+      {
+        "c": 12,
+        "delta": 0,
+        "kind": "central",
+        "prime": 79,
+        "r": 39,
+        "s": 39,
+        "square_threshold_crossed": 0
+      }
+    ],
+    "square_instances": [
+      {
+        "n": 8,
+        "prime": 13,
+        "valuation_at_least": 2
+      }
+    ],
+    "valuation_cap": 4,
+    "window_value_count": 11472792
+  },
+  "frozen_dependencies": {
+    "sources/bessel_denominator_all_lift_branching_wieferich_barrier.md": "f02b4b936c2ca810299f037e158e7406214e89ef77e8ca98dcd67b2a9bd00911",
+    "sources/bessel_denominator_zero_gap_smooth_radical_barrier.md": "dac7cd496b4342a8afc6d379274986d2030bc327c9017b3f6fa877108e62e1fc"
+  },
+  "scope_warning": "The symbolic theorem proves at most one square-threshold crossing per ordinary four-point orbit and an all-or-none singular dichotomy. It gives no upper bound for the exceptional valuation. The claim that (13,8) is the sole square and that no cube occurs is finite evidence only for primes below the recorded scan bound.",
+  "sharp_example": {
+    "c": 12,
+    "delta": 12,
+    "prime": 13,
+    "q_4": 1001,
+    "q_8": 312129649,
+    "q_8_factorization": {
+      "13": 2,
+      "1846921": 1
+    },
+    "r": 4,
+    "s": 8
+  },
+  "universal_congruence_grid": {
+    "anti_period_checks": 12720,
+    "prime_bound_exclusive": 200,
+    "reflection_checks": 565061,
+    "second_difference_checks": 8495
+  }
+}

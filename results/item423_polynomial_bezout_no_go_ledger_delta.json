@@ -1,0 +1,27 @@
+{
+  "schema": "item423-polynomial-bezout-no-go-ledger-v1",
+  "item": 423,
+  "status": "ROOT_AUDITED_CANONICAL_SCOPED_BEZOUT_HEIGHT_NO_GO_NO_BOOKING",
+  "component": "complete strictly-large-prime mixed-cubic common content c_m^>",
+  "inherited_exact_carrier": "c_m^> is the p>6m part of gcd(mu_0,m,mu_1,m), with mu_s,m=lambda_s,m/F_m",
+  "proved_theorem": "for every nonzero A,B in Q[m], limsup |A(m)lambda_0,m+B(m)lambda_1,m|^(1/m)=rho_star; after fixed-denominator clearing and division by F_m the root base is rho_star*exp(-C_F)",
+  "scoped_no_go": "ordinary absolute height of one same-index fixed-degree polynomial-in-m Bezout combination cannot lower the Item418 component ceiling",
+  "strictly_large_component_ceiling_before": "0.42877388533865786894576038290962190825322503544392072892659846327461252009352477",
+  "strictly_large_component_ceiling_after": "0.42877388533865786894576038290962190825322503544392072892659846327461252009352477",
+  "strictly_large_component_ceiling_delta": "0",
+  "booked_lower_bound_delta": "0",
+  "global_total_content_ceiling_delta": "0",
+  "frozen_deficit_delta": "0",
+  "deoverlap": [
+    "canonical F_m was already removed and is not rebooked",
+    "every factor of F_m is at most 6m, so all p>6m valuation depths are preserved",
+    "a component ceiling is not subtracted from a global total-content ceiling"
+  ],
+  "not_closed": [
+    "actual normalized gcd or weighted zero density",
+    "growing-degree or adaptive coefficient choices",
+    "shifted-row recurrences",
+    "joint two-combination resultants or subresultants",
+    "Route 1 or irrationality of e+pi"
+  ]
+}

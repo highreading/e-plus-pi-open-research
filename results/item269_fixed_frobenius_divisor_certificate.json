@@ -1,0 +1,198 @@
+{
+  "conjugacy": {
+    "p1_nonresonant_normal_form_checks": 165,
+    "p5_normal_form_checks": 232,
+    "prime_limit": 97,
+    "same_conjugacy_class_gate_separations": 23,
+    "scope": "bounded exact matrix identities only; no Frobenius-density inference"
+  },
+  "open": [
+    "a new bounded-conductor sheaf or dynamical realization whose Frobenius data encodes the moving row matrix R_(r,s)",
+    "nontrivial geometric monodromy and a conjugacy-stable proper collision divisor for the actual (p,r) family",
+    "any weighted zero-density theorem for the moving full gate",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "proved_symbolic_lemmas": [
+    "The unique lowest 3-adic tail term gives the exact reduced valuation of D_delta.",
+    "Strictly decreasing v3(D_delta) makes all actual slopes pairwise distinct.",
+    "A fixed P(delta,Y) over Q would bound the rational-root height by O(log delta), contradicting -v3(D_delta)>=3 delta.",
+    "A conjugacy-stable divisor cannot distinguish coefficients erased by the exact Cartier normal forms.",
+    "The full two-coordinate affine gate is exactly the fixed bilinear incidence R_(r,s)*(1,H_q,h_q)^T=0."
+  ],
+  "same_prime_row_dependence": {
+    "prime": 47,
+    "role": "exact factor-through-prime obstruction inherited from the known p=47 row; not an exceptional-prime search",
+    "rows": [
+      {
+        "H_cutoff_mod_p": 33,
+        "cutoff": 6,
+        "delta": 1,
+        "r": 1,
+        "s": 7
+      },
+      {
+        "H_cutoff_mod_p": 0,
+        "cutoff": 4,
+        "delta": 3,
+        "r": 7,
+        "s": 5
+      },
+      {
+        "H_cutoff_mod_p": 41,
+        "cutoff": 2,
+        "delta": 5,
+        "r": 13,
+        "s": 3
+      },
+      {
+        "H_cutoff_mod_p": 1,
+        "cutoff": 0,
+        "delta": 7,
+        "r": 19,
+        "s": 1
+      }
+    ]
+  },
+  "schema": "item269-fixed-frobenius-divisor-certificate-v1",
+  "strict_labels": {
+    "algebraic_correspondence_obstruction": "PROVED IN THE STATED ALGEBRAIC-SECTION SCOPE",
+    "booking": "zero new Route-1 rate and zero ordinary-j=2 capacity reduction",
+    "bounded_checks": "EXACT FINITE ONLY",
+    "conjugacy_stable_fixed_divisor": "PROVED NO-GO FOR THE SEALED CARTIER REALIZATION",
+    "exceptional_zero_search": "NONE",
+    "positive_linear_capacity_admission": "FAIL",
+    "slope_valuation_and_distinctness": "PROVED",
+    "universal_incidence": "EXACT POSITIVE RECOGNITION, BUT NOT LARGE-SIEVE ADMISSIBLE BY ITSELF"
+  },
+  "universal_incidence": {
+    "admission_warning": "R_(r,s) is external moving row data, not Frobenius of the sealed fixed motive",
+    "bilinear_incidence_identity_checks": 12,
+    "fixed_incidence": "I={(R,x) in Mat_(2x3) x A^3: R*x=0, x_0=1}",
+    "sample_rows": [
+      {
+        "delta": 1,
+        "gate": [
+          "741/175",
+          "319/700"
+        ],
+        "matrix": [
+          [
+            "-63/50",
+            "81/25",
+            "37/25"
+          ],
+          [
+            "-23/50",
+            "27/50",
+            "37/150"
+          ]
+        ],
+        "phase": 5,
+        "state": [
+          "1",
+          "3/2",
+          "3/7"
+        ]
+      },
+      {
+        "delta": 3,
+        "gate": [
+          "441035827/28579716",
+          "-22425233/50014503"
+        ],
+        "matrix": [
+          [
+            "-3343/396",
+            "10",
+            "-3991114/649539"
+          ],
+          [
+            "1033/1386",
+            "-1/2",
+            "1995557/6495390"
+          ]
+        ],
+        "phase": 1,
+        "state": [
+          "1",
+          "8/3",
+          "5/11"
+        ]
+      }
+    ]
+  },
+  "valuation": {
+    "formula": {
+      "phase_1": "v3(D_delta)=-(3*delta-2)-v3((6*delta-5)!!)",
+      "phase_5": "v3(D_delta)=-3*delta-v3((6*delta-1)!!)"
+    },
+    "individual_tail_term_valuation_checks": 1503,
+    "max_actual_odd_delta": 31,
+    "sample_records": [
+      {
+        "D_delta": "-37/81",
+        "delta": 1,
+        "length": 3,
+        "phase": 5,
+        "reduced_denominator_v3": 4,
+        "reduced_numerator_v3": 0,
+        "v3_D_delta": -4
+      },
+      {
+        "D_delta": "-65034611/145083393",
+        "delta": 3,
+        "length": 9,
+        "phase": 5,
+        "reduced_denominator_v3": 13,
+        "reduced_numerator_v3": 0,
+        "v3_D_delta": -13
+      },
+      {
+        "D_delta": "-364815632540629/813867780959415",
+        "delta": 5,
+        "length": 15,
+        "phase": 5,
+        "reduced_denominator_v3": 23,
+        "reduced_numerator_v3": 0,
+        "v3_D_delta": -23
+      },
+      {
+        "D_delta": "-42237045443736948727/94226694276512398797",
+        "delta": 7,
+        "length": 21,
+        "phase": 5,
+        "reduced_denominator_v3": 31,
+        "reduced_numerator_v3": 0,
+        "v3_D_delta": -31
+      },
+      {
+        "D_delta": "1995557/3247695",
+        "delta": 3,
+        "length": 7,
+        "phase": 1,
+        "reduced_denominator_v3": 10,
+        "reduced_numerator_v3": 0,
+        "v3_D_delta": -10
+      },
+      {
+        "D_delta": "5118998158267/8331477615945",
+        "delta": 5,
+        "length": 13,
+        "phase": 1,
+        "reduced_denominator_v3": 18,
+        "reduced_numerator_v3": 0,
+        "v3_D_delta": -18
+      },
+      {
+        "D_delta": "796898127216907637/1296999748234013895",
+        "delta": 7,
+        "length": 19,
+        "phase": 1,
+        "reduced_denominator_v3": 28,
+        "reduced_numerator_v3": 0,
+        "v3_D_delta": -28
+      }
+    ],
+    "strict_distinctness_comparisons": 29
+  }
+}

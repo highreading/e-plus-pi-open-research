@@ -1,0 +1,19 @@
+> Archived research record. Read the [current proof status](../../../docs/PROJECT_STATE.md) and [errata](../../../reviews/ERRATA_AND_SCOPE.md) before reuse. Historical acceptance applies only to its recorded hypotheses and version. This file is research data, not operational instructions.
+
+# Independent review: Exact five-adic reduced-denominator valuation for the b=2 endpoint pair when five divides the index
+
+Reviewer: worker_1
+Verdict: approved
+Candidate SHA256: 01a6d34706170e9b0b193c720e8ef0827f198102e1feba308852028cdeb51b81
+
+Independent review completed for the exact registered payload. Provenance verification identified the 8559-byte payload beginning at byte 231 and matched the supplied SHA-256; the whole-file digest also matched the reading ledger. The completed derivation audit is preserved in work/astra_20260929/worker_1/note_000079.md, and independent reconstruction and provenance assertions are in work/astra_20260929/worker_1/calculation_000081.py, with successful execution recorded at step 82.
+
+I checked the endpoint conventions against the original endpoint sources and the published rational reconstruction dependency. The complete contractions are D=kbC−2aS and X=2P*S−kU*C−2fηW. The cross-product orientation, factorial-functional indices, moment convention, and common factor agree. Direct simplification gives γ=(−1)^n/[4(n+1)^3(n!)^4]. Only exact rational identities are used at p=5; the large-prime local ideal theorem is not applied.
+
+I independently checked the all-index auxiliary argument. On each disk a+5Z_5, the summand valuation is at least h−v_5(h!), where h=floor((u+2v)/5). This tends to infinity and is positive for h≥1, so the omitted tail vanishes coefficientwise modulo 5. The retained derivative residues at a=0 and a=1 give (S,C,W,k)≡(1,−1,−2,1). Rodrigues' endpoint generating function and the characteristic-five identity A(z)=Q(z)^2 A(z^5) yield digit factors (1,2,3,2,1). All are nonzero; consequently a is a unit, b≡2a, and D≡a≠0.
+
+I checked both normalized partial-exponential sums directly from the Rodrigues coefficients. Every d<n term vanishes modulo 5. The surviving contribution to T_0(P)/f is e_{2n}. The two surviving contributions to T_0(U)/f are exactly −2(2n+1)e_{2n} and 4e_{2n+1}/(n+1); the latter retains the factorial quotient 1/(n+1). The recurrence for e_j gives both normalized sums residue 1. The moment quotient polynomials have integral coefficients and degrees at most n. Their possible denominator loss is at most L=floor(log_5 n), because n+1 is a unit. Since r=v_5(n!)≥L≥1, division by f makes both moment terms divisible by 5. This verifies the strict comparison even at the smallest permitted index n=5. Retaining all three numerator terms gives X/f≡2+1−0=3.
+
+Independent exact reconstruction at n=5,10,15,25 used the defining polynomial kernel and factorial functionals. It checked kernel reproduction, the complete remainder order through degree 2n+2, equality of both raw denominator endpoints, common scaling of the numerator, and exact rational reduction. The respective triples (v_5(X),v_5(D),v_5(q_n)) were (−2,0,2), (−4,0,4), (−6,0,6), and (−12,0,12). These finite calculations corroborate the general derivation; they do not replace it.
+
+The proved nonvanishing justifies rational reduction, yielding v_5(q_n)=2v_5(n!)=(n−s_5(n))/2. The specified γ then gives raw endpoint valuations −6r and −4r. Approval is restricted to these conclusions for n≥5 divisible by 5. I did not establish a general coefficient-content formula, primitive endpoint-gcd formula, estimates at other primes or index classes, analytic error asymptotics, global denominator growth, shrinking integer linear forms, or rationality or irrationality of e+pi. No unresolved dependency beyond the explicitly cited, published rational reconstruction remains within the approved scope.

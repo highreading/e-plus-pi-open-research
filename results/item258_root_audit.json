@@ -1,0 +1,54 @@
+{
+  "schema": "item258-root-audit-v1",
+  "item": 258,
+  "audited_date_beijing": "2026-08-31",
+  "disposition": "accepted for archive with zero rate, exponent, and capacity booking",
+  "sealed_artifacts": {
+    "report_sha256": "f33d711914d27396881a85940fc217308ff971182b73b2f5cdbed5a5d93f558d",
+    "checker_sha256": "3ad4d3bae69b44bfde007689550ce392f7128f3fdcd2ea8da623a66b0b6f7a25",
+    "canonical_sha256": "92b5aec8fb203869b15f90660bff1b1dd04a6b2b6e099683a4c18c11690d47a7",
+    "replay_sha256": "92b5aec8fb203869b15f90660bff1b1dd04a6b2b6e099683a4c18c11690d47a7",
+    "strict_ledger_sha256": "dea56d099b3e013e29ba18fd57f7dcba5c21eee7e453269652f48fd5c3126bb2",
+    "manifest_sha256": "336c56b398bf07893045dd98bec32f71c9a4463c153a21d71fd20387ddad83c6",
+    "hash_ledger_sha256": "15544afd5ecc44df8342cc2f446c04f44643afb9127592894af690210ba4d671"
+  },
+  "portable_replay": {
+    "canonical_replay_byte_identical": true,
+    "root_replay_matches_canonical": true,
+    "root_replay_sha256": "92b5aec8fb203869b15f90660bff1b1dd04a6b2b6e099683a4c18c11690d47a7",
+    "control_bytes": 0,
+    "delimiter_balances": 0
+  },
+  "independent_formula_probe": {
+    "imports_item_code": false,
+    "script_sha256": "1e766febbdfd7d5c5d2074c873b9a49d71145fcb07e18d9bc8941f9a0a556a16",
+    "result_sha256": "cde20927fa8c54263960b3926cf8a51cd89fdaed8f547e60b887c04827e75045",
+    "actual_rows_through_p_601": 2440,
+    "rank_three_on_every_independent_row": true,
+    "p89_second_determinant_nonunit_reproduced": true,
+    "p157_curvature_nonunit_reproduced": true
+  },
+  "root_mathematical_audit": {
+    "three_reflection_precisions_and_signs_checked": true,
+    "second_jet_recurrence_and_endpoint_derivatives_checked": true,
+    "lower_Toeplitz_transfer_checked": true,
+    "B_C_and_curvature_formulas_checked": true,
+    "mod_p3_multiplier_and_determinant_expansions_checked": true,
+    "Delta2_phase_expansion_checked": true,
+    "six_by_six_row_dependencies_checked": true,
+    "three_independent_rows_checked_by_newest_unit_blocks": true,
+    "affine_endpoint_compatibilities_checked": true,
+    "all_denominator_ranges_checked": true
+  },
+  "labels": {
+    "proved": "second-jet reflection and transfer formulas, mod-p^3 Hasse expansion, all-row rank-three collapse, affine compatibility, and two exact unit counterexamples",
+    "exact_finite_only": "all bounded zero and joint-zero counts",
+    "open": "independent periods or nonlinear relations, arithmetic control of the moving harmonic intervals, the actual affine gate, and every rate consequence"
+  },
+  "booking": {
+    "new_unconditional_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "capacity_reduction": 0,
+    "route1_conclusion": "none"
+  }
+}

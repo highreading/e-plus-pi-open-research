@@ -1,0 +1,63 @@
+{
+  "boundary_dependency_sha256": "54a74d69f15835727b0d8ca5073205f2b3ff3691afa49be06d89b0edb532a38a",
+  "bounds": {
+    "all_base_degrees": "0<=d<p",
+    "odd_primes_other_than_5_max": 100,
+    "prime_count": 23
+  },
+  "description": "Exact general-H and three prescribed-double-root trichotomy checks.",
+  "exact_full_discriminant_false_positives": {
+    "PC": {
+      "d": 4,
+      "p": 11,
+      "prescribed_jet": [
+        5,
+        10
+      ],
+      "prescribed_point": 0,
+      "u": 5,
+      "unrelated_double_root": 4
+    },
+    "PP": {
+      "d": 18,
+      "m": 12,
+      "p": 31,
+      "prescribed_jet": [
+        26,
+        19
+      ],
+      "prescribed_point": 17,
+      "unrelated_double_root": 8,
+      "zeta": 16
+    },
+    "aP": {
+      "d": 18,
+      "m": 12,
+      "p": 31,
+      "prescribed_jet": [
+        1,
+        1
+      ],
+      "prescribed_point": 1,
+      "u": 17,
+      "unrelated_double_root": 8
+    }
+  },
+  "finite_diagnostics": {
+    "PC_common_prime_hits": [],
+    "aP_common_prime_hits": []
+  },
+  "identity_checks": {
+    "F_lambda_constant_and_linear_coefficients": true,
+    "PP_specialization_r_u_c_zeta_inverse": true,
+    "aP_specialization_r_1_c_u": true,
+    "complementary_unit_factors": true,
+    "general_H_polynomial_differential_identity": true,
+    "general_H_value_and_reverse_recovery": true,
+    "shared_prescribed_first_jet_data": true
+  },
+  "scope_warning": "Finite scans are diagnostic only.  The proved identities compress all three branches but do not classify their prime support or prove anything about e+pi.",
+  "script_sha256": "cd18a2fd387ba0d95e7ef8fcb32b6e454c4a35454f430e49b651fdf0637d927b",
+  "source_sha256": "dd8d121d34600e8320ed23651b924d711da9558404c43d744f5cb20eb1dfdd87",
+  "weighted_precursor_source_sha256": "15bfc2bc01a61c9e0361c891995643e470f383acfd88ae13e14293fbfe4062ba"
+}

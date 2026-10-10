@@ -1,0 +1,128 @@
+{
+  "status": "PASS",
+  "scope": "Bounded odd-prime unit, monodromy and auxiliary endpoint-exact contact checks",
+  "source_sha256": "84477e0e65d6f0eeaa01a39a85892e7a99d1755bb0a3cf445d24e561729941a8",
+  "units": [
+    {
+      "precision": 1,
+      "sign_sensitive_binomial_checks": 8808
+    },
+    {
+      "precision": 2,
+      "sign_sensitive_binomial_checks": 8808
+    }
+  ],
+  "recurrence_quotient": [
+    {
+      "n_prefix": 29,
+      "phase": 2,
+      "mod29_rank": 1,
+      "mod29_trace": 0,
+      "mod841_power_quotient_pass": true
+    },
+    {
+      "n_prefix": 29,
+      "phase": 28,
+      "mod29_rank": 1,
+      "mod29_trace": 0,
+      "mod841_power_quotient_pass": true
+    },
+    {
+      "n_prefix": 29,
+      "phase": 29,
+      "mod29_rank": 1,
+      "mod29_trace": 0,
+      "mod841_power_quotient_pass": true
+    },
+    {
+      "n_prefix": 29,
+      "phase": 840,
+      "mod29_rank": 1,
+      "mod29_trace": 0,
+      "mod841_power_quotient_pass": true
+    },
+    {
+      "n_prefix": 203,
+      "phase": 2,
+      "mod29_rank": 1,
+      "mod29_trace": 0,
+      "mod841_power_quotient_pass": true
+    },
+    {
+      "n_prefix": 203,
+      "phase": 28,
+      "mod29_rank": 1,
+      "mod29_trace": 0,
+      "mod841_power_quotient_pass": true
+    },
+    {
+      "n_prefix": 203,
+      "phase": 29,
+      "mod29_rank": 1,
+      "mod29_trace": 0,
+      "mod841_power_quotient_pass": true
+    },
+    {
+      "n_prefix": 203,
+      "phase": 840,
+      "mod29_rank": 1,
+      "mod29_trace": 0,
+      "mod841_power_quotient_pass": true
+    },
+    {
+      "n_prefix": 191110,
+      "phase": 2,
+      "mod29_rank": 1,
+      "mod29_trace": 0,
+      "mod841_power_quotient_pass": true
+    },
+    {
+      "n_prefix": 191110,
+      "phase": 28,
+      "mod29_rank": 1,
+      "mod29_trace": 0,
+      "mod841_power_quotient_pass": true
+    },
+    {
+      "n_prefix": 191110,
+      "phase": 29,
+      "mod29_rank": 1,
+      "mod29_trace": 0,
+      "mod841_power_quotient_pass": true
+    },
+    {
+      "n_prefix": 191110,
+      "phase": 840,
+      "mod29_rank": 1,
+      "mod29_trace": 0,
+      "mod841_power_quotient_pass": true
+    }
+  ],
+  "contact": {
+    "n": 29,
+    "b": 4,
+    "precision": 2,
+    "matrix_factorization_zero": true,
+    "finite_word_inverse_zero": true,
+    "true_endpoint_and_projection_charges": true,
+    "auxiliary_projection_scalar_mod29": 2,
+    "projected_gram_mod841": [
+      [
+        427,
+        367,
+        261
+      ],
+      [
+        367,
+        295,
+        290
+      ],
+      [
+        261,
+        290,
+        0
+      ]
+    ],
+    "scope": "Auxiliary contact system; no original-family relative norm law"
+  }
+}

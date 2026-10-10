@@ -1,0 +1,41 @@
+{
+  "exact_checks": {
+    "bounds_checked": "1/((a_next+2)q^2) < |e-p/q| < 1/(a_next q^2)",
+    "continued_fraction_pattern": "a_0=2; a_(3k-2)=1, a_(3k-1)=2k, a_(3k)=1",
+    "convergents_checked": 61,
+    "last_special_record": {
+      "a_next": 40,
+      "exact_comparison_certified": true,
+      "k": 20,
+      "m": 58,
+      "p": "551157654494325100219720823521",
+      "q": "202759569932735203392750534601",
+      "q2_error_upper_decimal": "0.024382975189598019",
+      "target_upper": "1/40"
+    },
+    "rigorous_e_interval_cutoff": 500,
+    "special_subsequence": "m=3k-2, so q_m^2|e-p_m/q_m|<1/(2k)"
+  },
+  "height_reduction": {
+    "degree": "D_r=[Q(i(s-p/q)):Q] <= 2d, d=[Q(s):Q]",
+    "height": "log(q)-h(s)-log(2) <= h(i(s-p/q)) <= log(q)+h(s)+log(6)"
+  },
+  "nw_theorem1_x_equals_2": {
+    "formula": "211*(2d)/4*(13+2*e^2*(pi+1))*(3.3*(2d)*log(2d+2)+2)",
+    "optimized_coefficient_elementary_floor": ">1266*D > 2",
+    "sample_exponents": {
+      "1": "87285.524217798535",
+      "10": "16127644.530857088044",
+      "2": "401627.342737083149",
+      "3": "1013953.574658441357",
+      "4": "1966181.075948219514",
+      "5": "3288095.178578130435",
+      "6": "5002800.954073071480",
+      "7": "7129172.686901653185",
+      "8": "9683164.473115760833",
+      "9": "12678593.345133924857"
+    }
+  },
+  "status": "PASS",
+  "verdict": "The explicit e-convergents reach height exponent 2 and beat every positive constant at exponent 2; the cited uniform quantitative Lindemann theorem remains strictly above exponent 2."
+}

@@ -1,0 +1,57 @@
+{
+  "item": 380,
+  "schema": "item380-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_SCOPED_DIRECT_TWO_MOMENT_GAUGE_COMPLEXITY_BARRIER",
+  "scope": "independent root audit of the moment pullback, Mahler primitive, simultaneous gauge splitting, denominator growth, rational and overconvergent no-go, specialization scope, capacity, and zero booking",
+  "checks": {
+    "work_hash_list_entries": 6,
+    "work_hash_list_failures": 0,
+    "frozen_dependencies_checked": 8,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "independent_frobenius_difference_check": true,
+    "independent_semilinear_gauge_check": true,
+    "independent_lacunary_rationality_check": true,
+    "actual_prime_or_collision_census_performed": false,
+    "density_inference_from_controls": false,
+    "canonical_format_repair": "none"
+  },
+  "mathematical_audit": {
+    "pullback": "For q=2u-v and C=p^(-1)F_Omega^*, C^j(dq)=2u^(p^j-1)du-v^(p^j-1)dv, so the Item377 resolvent gives the displayed exact two-moment connection.",
+    "splitting": "The formal primitive f=sum_j p^(-j)F^j(q) satisfies df=-omega and F(f)/p-f=-q. Direct semilinear multiplication therefore sends U(f)^(-1)A_qF(U(f)) to diag(p,1) while killing the connection.",
+    "forced_denominators": "Solving dG=-E21*omega*G makes the top row constant and forces at least one lower entry of every fundamental gauge to contain a nonzero constant multiple of f. Coefficients on the primitive Frobenius orbit have valuations -j, so f is not in W[[u,v]][1/p] and no fixed vertical p-pole clears the gauge.",
+    "rational_dagger_scope": "The one-variable restriction has unit coefficients at p^j-1 and arbitrarily long zero gaps. It is neither rational nor overconvergent, and a gauge lying in either same category cannot transform it into that category. This closes only the direct standard-Frobenius moment model.",
+    "specialization_warning": "The u,v construction is a direct coordinate model, not a proved Frobenius-equivariant descent from all pointwise finite-log coordinates. Their p^2-O(p) ambient cotangent directions can have rank at most two after a two-parameter pullback and supply no geometric conductor lower bound.",
+    "capacity": "No weighted joint-zero estimate follows. The shared fixed-j=1 ceiling remains 1/36 and zero is booked."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact two-moment horizontal connection",
+      "exact simultaneous formal splitting gauge",
+      "unbounded vertical-pole obstruction for every fundamental splitting gauge",
+      "direct rational and overconvergent gauge no-go",
+      "ambient-to-two-parameter cotangent-rank collapse",
+      "zero booking and zero capacity reduction"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "the direct standard-Frobenius two-moment rational or dagger realization"
+    ],
+    "DECLARED_EXACT_CONTROLS_ONLY": [
+      "symbolic and finite-depth controls; no prime or collision scan"
+    ],
+    "OPEN": [
+      "a different prime-independent geometric descent of the actual tied family",
+      "a genuine conductor theorem after specialization",
+      "weighted nonconcentration for the full fixed-j=1 gate"
+    ]
+  },
+  "capacity": {
+    "retained_shared_fixed_j1_ceiling_per_6M": "1/36",
+    "new_route1_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

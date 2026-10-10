@@ -1,0 +1,119 @@
+{
+  "exact_nonvanishing_and_sign_diagnostic": {
+    "critical_sign_windows": [
+      {
+        "k_lower": 42,
+        "k_upper": 78,
+        "n": 20,
+        "sign_change_locations": [
+          59
+        ],
+        "zeros": 0
+      },
+      {
+        "k_lower": 103,
+        "k_upper": 192,
+        "n": 40,
+        "sign_change_locations": [
+          117,
+          155,
+          184
+        ],
+        "zeros": 0
+      }
+    ],
+    "pairs_checked": 1266,
+    "zeros": []
+  },
+  "hermite_constant_checks": {
+    "expanded_phase_hermite_constant": true,
+    "invariant_complex_hermite_constant": true,
+    "normalized_ratio_constant": true,
+    "real_saddle_hermite_constant": true
+  },
+  "primitive_height_diagnostic": [
+    {
+      "k": 17,
+      "n": 8,
+      "odd_coordinate_sign": 1,
+      "primitive_coefficient_max_bits": 120,
+      "primitive_endpoint_pair_max_bits": 144
+    },
+    {
+      "k": 30,
+      "n": 12,
+      "odd_coordinate_sign": 1,
+      "primitive_coefficient_max_bits": 234,
+      "primitive_endpoint_pair_max_bits": 280
+    },
+    {
+      "k": 44,
+      "n": 16,
+      "odd_coordinate_sign": -1,
+      "primitive_coefficient_max_bits": 339,
+      "primitive_endpoint_pair_max_bits": 436
+    },
+    {
+      "k": 60,
+      "n": 20,
+      "odd_coordinate_sign": -1,
+      "primitive_coefficient_max_bits": 461,
+      "primitive_endpoint_pair_max_bits": 605
+    },
+    {
+      "k": 76,
+      "n": 24,
+      "odd_coordinate_sign": 1,
+      "primitive_coefficient_max_bits": 571,
+      "primitive_endpoint_pair_max_bits": 764
+    },
+    {
+      "k": 93,
+      "n": 28,
+      "odd_coordinate_sign": -1,
+      "primitive_coefficient_max_bits": 697,
+      "primitive_endpoint_pair_max_bits": 915
+    },
+    {
+      "k": 111,
+      "n": 32,
+      "odd_coordinate_sign": -1,
+      "primitive_coefficient_max_bits": 887,
+      "primitive_endpoint_pair_max_bits": 1161
+    },
+    {
+      "k": 129,
+      "n": 36,
+      "odd_coordinate_sign": 1,
+      "primitive_coefficient_max_bits": 1031,
+      "primitive_endpoint_pair_max_bits": 1342
+    },
+    {
+      "k": 148,
+      "n": 40,
+      "odd_coordinate_sign": -1,
+      "primitive_coefficient_max_bits": 1157,
+      "primitive_endpoint_pair_max_bits": 1528
+    }
+  ],
+  "schema": "quartic-four-power-odd-residual-certificate-v1",
+  "symbolic_first_variation": {
+    "all_positive_row_corrections_cancel": true,
+    "first_variation_factorization": true,
+    "linear_complex_correction_cancels": true
+  },
+  "symbolic_saddle_correction": {
+    "complex_saddle_through_r4": true,
+    "odd_residual_phase_factor_through_r14": true,
+    "phase_factor_relative_correction": true,
+    "positive_outer_factor_through_r30": true,
+    "quadratic_shift_correction_through_r9": true
+  },
+  "warnings": [
+    "The symbolic first-variation and saddle-series identities are exact.",
+    "Finite nonvanishing and height scans are diagnostics, not all-parameter proofs.",
+    "No all-integer-power phase-separation theorem is claimed.",
+    "No primitive endpoint-content theorem is claimed.",
+    "Nothing here classifies e+pi."
+  ]
+}

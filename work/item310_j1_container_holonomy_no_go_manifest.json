@@ -1,0 +1,89 @@
+{
+  "schema": "item310-j1-container-holonomy-no-go-manifest-v1",
+  "item": 310,
+  "title": "P-recursive structure of the all-s j=1 containers and its arithmetic limit",
+  "date": "2026-08-31",
+  "status": "PROVED_GLOBAL_STRUCTURE_AND_SCOPED_INFORMATION_CLASS_NO_GO",
+  "canonical_files_modified": false,
+  "artifacts": [
+    {
+      "path": "work/item310_j1_container_holonomy_no_go_report.md",
+      "role": "global proof, admission audit, and strict scope",
+      "sha256": "7f866c3719f878f471287e802a542c67417670e88afb89eb28d3856c26c5030d"
+    },
+    {
+      "path": "work/item310_j1_container_holonomy_no_go_certificate.py",
+      "role": "standard-library exact deterministic replay",
+      "sha256": "267c629364d1f0bbfe0ef35702308f4acc3f8cd43f70a9f14a775b30048c0a23"
+    },
+    {
+      "path": "work/item310_j1_container_holonomy_no_go_certificate.json",
+      "role": "canonical work-package certificate output",
+      "sha256": "cf8188291ab4ba3a58a5c59c2b514945ceb5193cb2eae038c9e32c3d48dd2082"
+    },
+    {
+      "path": "work/item310_j1_container_holonomy_no_go_certificate.replay.json",
+      "role": "independent byte-identical replay output",
+      "sha256": "cf8188291ab4ba3a58a5c59c2b514945ceb5193cb2eae038c9e32c3d48dd2082"
+    },
+    {
+      "path": "work/item310_j1_container_holonomy_no_go_ledger_delta.json",
+      "role": "proposed ledger delta; no canonical edit",
+      "sha256": "6d156c3996334ed3edfcb62c1aca15f74bb41f42984441c97f2d3b61f4d80bd9"
+    }
+  ],
+  "pinned_item308": {
+    "report_sha256": "d7d592369bd8f001cc278783e2b91f4fec9917585d94157fb3fd7d965eef2f9e",
+    "certificate_script_sha256": "665ff066738012e194a97e523dae4b1fcc7d862c414c6cd18606ab7e2f1f851b",
+    "certificate_json_sha256": "4f45f55d2ac3fc9ee68b7a255dc15d36eebab63c71e824c48ed3959645cbb7e8",
+    "manifest_sha256": "66c23898f226797ce64a20305dd187f9c307346451f5055800d80e356e8b608a"
+  },
+  "replay": {
+    "command": "python work/item310_j1_container_holonomy_no_go_certificate.py --output work/item310_j1_container_holonomy_no_go_certificate.replay.json",
+    "expected_stdout": {
+      "actual_container_structure": "P_RECURSIVE",
+      "actual_norm_splitting_exclusions": 0,
+      "capacity_reduction": "ZERO",
+      "comparison_family": "NONZERO_FIRST_ORDER_HYPERGEOMETRIC",
+      "constant_term_identities": "PROVED_ALL_s",
+      "item": 310
+    },
+    "expected_replay_sha256": "cf8188291ab4ba3a58a5c59c2b514945ceb5193cb2eae038c9e32c3d48dd2082"
+  },
+  "proved": [
+    "The exact Item-308 rational and Gaussian aggregate sequences have explicit all-s algebraic constant-term generating functions.",
+    "A_s,U_s,V_s,a_s,b_s,0,b_s,1,D_s,0,D_s,1 are P-recursive; the cleared container sequences are integral.",
+    "The quadratic parameter delta_s,epsilon*eta_s is a square modulo every actual candidate prime class, so norm splitting excludes no candidates.",
+    "For every fixed K>=7, P_s^(K)=product_(k=7..K) binomial(k*s,s) is positive, first-order P-recursive, and has logarithmic height O_K(s).",
+    "Every prime 6s<p<=Ks divides P_s^(K), by k=ceil(p/s) and an exact valuation-one argument.",
+    "The comparison's exact fixed-M logarithmic mass is ((K-6)/(2(3K-2)))M+o(M), tending to raw M/6."
+  ],
+  "capacity": {
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "retained_ceiling_per_6M": "1/36",
+    "reason": "Qualitative P-recursiveness, exponential height, nonvanishing, and norm shape allow tied-prime mass arbitrarily close to the raw support."
+  },
+  "strict_scope": {
+    "no_go_applies_to": "qualitative P-recursiveness, exponential height, nonvanishing, and quadratic-norm shape without fixed operator-degree or coefficient arithmetic",
+    "not_ruled_out": [
+      "a theorem using the exact Item-308 annihilator coefficients",
+      "a separately bounded operator class",
+      "an actual moving-prime gcd theorem",
+      "exact rational-prime factor localization"
+    ]
+  },
+  "open": [
+    "a minimal or arithmetically useful exact annihilator",
+    "algebraicity of the actual generating functions",
+    "universal nonvanishing or actual factor localization",
+    "a moving-prime gcd bound for a_s and b_s,epsilon",
+    "W_D(M)=o(M), the fixed-j=1 closer, Route 1, and every conclusion about e+pi"
+  ],
+  "not_claimed": [
+    "a prime scan",
+    "a factor census",
+    "that the comparison recurrence is the actual recurrence",
+    "positive capacity"
+  ]
+}

@@ -1,0 +1,572 @@
+{
+  "description": "Exact finite diagnostics for noncentral singular beta roots; finite evidence only",
+  "recurrence": "q_0=q_1=1; q_N=(4N-2)q_{N-1}+q_{N-2}",
+  "safe_integer_envelope": {
+    "max_prime": 65676881,
+    "audited_upper_bound_2p2_plus_2p": 8626905527130084,
+    "number_max_safe_integer": 9007199254740991,
+    "bound_is_strict": true
+  },
+  "exact_identity_regression": {
+    "h_limit": 18,
+    "lommel_equals_tail_square_checks": 19,
+    "five_term_recurrence_checks": 14,
+    "rows": [
+      {
+        "h": 0,
+        "derivative": "1"
+      },
+      {
+        "h": 1,
+        "derivative": "-14"
+      },
+      {
+        "h": 2,
+        "derivative": "963"
+      },
+      {
+        "h": 3,
+        "derivative": "-141468"
+      },
+      {
+        "h": 4,
+        "derivative": "36590277"
+      },
+      {
+        "h": 5,
+        "derivative": "-14727258666"
+      },
+      {
+        "h": 6,
+        "derivative": "8518173455495"
+      },
+      {
+        "h": 7,
+        "derivative": "-6698097260533048"
+      },
+      {
+        "h": 8,
+        "derivative": "6874147347842019465"
+      },
+      {
+        "h": 9,
+        "derivative": "-8924351275128028965446"
+      },
+      {
+        "h": 10,
+        "derivative": "14298783624952009770798667"
+      },
+      {
+        "h": 11,
+        "derivative": "-27713889534928476503396026836"
+      },
+      {
+        "h": 12,
+        "derivative": "63913248142577181316515998389581"
+      },
+      {
+        "h": 13,
+        "derivative": "-172959863896361524371749787937660002"
+      },
+      {
+        "h": 14,
+        "derivative": "542774576909794806824536640382240066831"
+      },
+      {
+        "h": 15,
+        "derivative": "-1955151339098884704220581808546036546226800"
+      },
+      {
+        "h": 16,
+        "derivative": "8012470176676157225868899127639523209290808593"
+      },
+      {
+        "h": 17,
+        "derivative": "-37066686119715668886621090481889803029850165607550"
+      },
+      {
+        "h": 18,
+        "derivative": "192232184988411925822895239819068527528411428843269331"
+      }
+    ]
+  },
+  "discriminant_factor_regression": {
+    "h_limit": 5,
+    "checks": 5,
+    "rows": [
+      {
+        "h": 1,
+        "degree_K": 3,
+        "D_h": "-14",
+        "discriminant_K": "10976",
+        "discriminant_L": "1"
+      },
+      {
+        "h": 2,
+        "degree_K": 5,
+        "D_h": "963",
+        "discriminant_K": "52894312831556352",
+        "discriminant_L": "1924"
+      },
+      {
+        "h": 3,
+        "degree_K": 7,
+        "D_h": "-141468",
+        "discriminant_K": "6340351824170652484606517916645067849728",
+        "discriminant_L": "187059328544"
+      },
+      {
+        "h": 4,
+        "degree_K": 9,
+        "D_h": "36590277",
+        "discriminant_K": "282353300790094220269850919971907995935129270851011705815128650857489170432",
+        "discriminant_L": "4744909199839003421584272"
+      },
+      {
+        "h": 5,
+        "degree_K": 11,
+        "D_h": "-14727258666",
+        "discriminant_K": "35093892548416083778823586627138042774894078355984134099489754479453911210906870377164380424892278673774284620486456377344",
+        "discriminant_L": "103581672843471745361530042123863993837132544"
+      }
+    ]
+  },
+  "direct_small_prime_jet_audit": {
+    "prime_limit": 2000,
+    "noncentral_roots": 146,
+    "jet_continuant_identity_checks": 146,
+    "noncentral_singular_roots": []
+  },
+  "modified_initial_data_countermodel": {
+    "scope": "modified initial data; not the Bessel seed (1,1)",
+    "p": 107,
+    "h": 2,
+    "N": 50,
+    "reflected_index": 56,
+    "initial_pair_mod_p_squared": [
+      "8349",
+      "11050"
+    ],
+    "predecessor_mod_p_squared": "1",
+    "value_at_N_mod_p_squared": "107",
+    "reflected_value_mod_p_squared": "107",
+    "lambda_mod_p": 1,
+    "continuant_derivative_mod_p": 0,
+    "delta_mod_p": 0,
+    "type": "noncentral_dead_singular_comparison"
+  },
+  "targeted_large_prime_divisor_search": {
+    "scope": "the displayed certified pairs only; not an exhaustive factorization rectangle",
+    "N_upper_bound_in_candidate_list": 80,
+    "lower_prime_exclusive": 200000,
+    "upper_prime_inclusive": 65676881,
+    "candidate_pair_count": 40,
+    "largest_prime_checked": 65676881,
+    "sum_natural_logs_of_checked_primes": 605.9562304572206,
+    "noncentral_singular_count": 0,
+    "dead_singular_count": 0,
+    "all_lift_singular_count": 0,
+    "records": [
+      {
+        "p": 223243,
+        "N": 72,
+        "h": 111548,
+        "qN_decimal_digits": 146,
+        "lambda_qN_over_p_mod_p": 64162,
+        "continuant_derivative_mod_p": 54591,
+        "delta_mod_p_from_continuant": 202944,
+        "type": "ordinary"
+      },
+      {
+        "p": 240607,
+        "N": 27,
+        "h": 120275,
+        "qN_decimal_digits": 44,
+        "lambda_qN_over_p_mod_p": 50540,
+        "continuant_derivative_mod_p": 221166,
+        "delta_mod_p_from_continuant": 74371,
+        "type": "ordinary"
+      },
+      {
+        "p": 264437,
+        "N": 70,
+        "h": 132147,
+        "qN_decimal_digits": 141,
+        "lambda_qN_over_p_mod_p": 105568,
+        "continuant_derivative_mod_p": 113525,
+        "delta_mod_p_from_continuant": 259725,
+        "type": "ordinary"
+      },
+      {
+        "p": 288461,
+        "N": 54,
+        "h": 144175,
+        "qN_decimal_digits": 103,
+        "lambda_qN_over_p_mod_p": 202739,
+        "continuant_derivative_mod_p": 233683,
+        "delta_mod_p_from_continuant": 194446,
+        "type": "ordinary"
+      },
+      {
+        "p": 342989,
+        "N": 51,
+        "h": 171442,
+        "qN_decimal_digits": 96,
+        "lambda_qN_over_p_mod_p": 143475,
+        "continuant_derivative_mod_p": 13904,
+        "delta_mod_p_from_continuant": 242600,
+        "type": "ordinary"
+      },
+      {
+        "p": 355427,
+        "N": 64,
+        "h": 177648,
+        "qN_decimal_digits": 127,
+        "lambda_qN_over_p_mod_p": 239880,
+        "continuant_derivative_mod_p": 334608,
+        "delta_mod_p_from_continuant": 202819,
+        "type": "ordinary"
+      },
+      {
+        "p": 383297,
+        "N": 26,
+        "h": 191621,
+        "qN_decimal_digits": 42,
+        "lambda_qN_over_p_mod_p": 336138,
+        "continuant_derivative_mod_p": 136053,
+        "delta_mod_p_from_continuant": 95860,
+        "type": "ordinary"
+      },
+      {
+        "p": 507839,
+        "N": 39,
+        "h": 253879,
+        "qN_decimal_digits": 69,
+        "lambda_qN_over_p_mod_p": 386283,
+        "continuant_derivative_mod_p": 368304,
+        "delta_mod_p_from_continuant": 88094,
+        "type": "ordinary"
+      },
+      {
+        "p": 532607,
+        "N": 43,
+        "h": 266259,
+        "qN_decimal_digits": 78,
+        "lambda_qN_over_p_mod_p": 262705,
+        "continuant_derivative_mod_p": 450181,
+        "delta_mod_p_from_continuant": 431080,
+        "type": "ordinary"
+      },
+      {
+        "p": 694867,
+        "N": 19,
+        "h": 347413,
+        "qN_decimal_digits": 28,
+        "lambda_qN_over_p_mod_p": 135917,
+        "continuant_derivative_mod_p": 515623,
+        "delta_mod_p_from_continuant": 168899,
+        "type": "ordinary"
+      },
+      {
+        "p": 741071,
+        "N": 45,
+        "h": 370489,
+        "qN_decimal_digits": 82,
+        "lambda_qN_over_p_mod_p": 675399,
+        "continuant_derivative_mod_p": 300927,
+        "delta_mod_p_from_continuant": 660046,
+        "type": "ordinary"
+      },
+      {
+        "p": 793279,
+        "N": 9,
+        "h": 396629,
+        "qN_decimal_digits": 11,
+        "lambda_qN_over_p_mod_p": 13391,
+        "continuant_derivative_mod_p": 436555,
+        "delta_mod_p_from_continuant": 404082,
+        "type": "ordinary"
+      },
+      {
+        "p": 856927,
+        "N": 47,
+        "h": 428415,
+        "qN_decimal_digits": 87,
+        "lambda_qN_over_p_mod_p": 522136,
+        "continuant_derivative_mod_p": 402002,
+        "delta_mod_p_from_continuant": 57585,
+        "type": "ordinary"
+      },
+      {
+        "p": 881369,
+        "N": 15,
+        "h": 440668,
+        "qN_decimal_digits": 21,
+        "lambda_qN_over_p_mod_p": 878940,
+        "continuant_derivative_mod_p": 823172,
+        "delta_mod_p_from_continuant": 165153,
+        "type": "ordinary"
+      },
+      {
+        "p": 942367,
+        "N": 34,
+        "h": 471148,
+        "qN_decimal_digits": 58,
+        "lambda_qN_over_p_mod_p": 62608,
+        "continuant_derivative_mod_p": 334863,
+        "delta_mod_p_from_continuant": 889546,
+        "type": "ordinary"
+      },
+      {
+        "p": 961991,
+        "N": 13,
+        "h": 480981,
+        "qN_decimal_digits": 17,
+        "lambda_qN_over_p_mod_p": 556866,
+        "continuant_derivative_mod_p": 704526,
+        "delta_mod_p_from_continuant": 865068,
+        "type": "ordinary"
+      },
+      {
+        "p": 1658441,
+        "N": 26,
+        "h": 829193,
+        "qN_decimal_digits": 42,
+        "lambda_qN_over_p_mod_p": 867301,
+        "continuant_derivative_mod_p": 1002397,
+        "delta_mod_p_from_continuant": 1471810,
+        "type": "ordinary"
+      },
+      {
+        "p": 1846921,
+        "N": 8,
+        "h": 923451,
+        "qN_decimal_digits": 9,
+        "lambda_qN_over_p_mod_p": 169,
+        "continuant_derivative_mod_p": 1070438,
+        "delta_mod_p_from_continuant": 191465,
+        "type": "ordinary"
+      },
+      {
+        "p": 3629477,
+        "N": 37,
+        "h": 1814700,
+        "qN_decimal_digits": 65,
+        "lambda_qN_over_p_mod_p": 508720,
+        "continuant_derivative_mod_p": 1049065,
+        "delta_mod_p_from_continuant": 2228980,
+        "type": "ordinary"
+      },
+      {
+        "p": 4437379,
+        "N": 60,
+        "h": 2218628,
+        "qN_decimal_digits": 117,
+        "lambda_qN_over_p_mod_p": 73635,
+        "continuant_derivative_mod_p": 722255,
+        "delta_mod_p_from_continuant": 1196599,
+        "type": "ordinary"
+      },
+      {
+        "p": 5315879,
+        "N": 25,
+        "h": 2657913,
+        "qN_decimal_digits": 40,
+        "lambda_qN_over_p_mod_p": 2360495,
+        "continuant_derivative_mod_p": 2299027,
+        "delta_mod_p_from_continuant": 3251435,
+        "type": "ordinary"
+      },
+      {
+        "p": 6134459,
+        "N": 34,
+        "h": 3067194,
+        "qN_decimal_digits": 58,
+        "lambda_qN_over_p_mod_p": 1031984,
+        "continuant_derivative_mod_p": 5294922,
+        "delta_mod_p_from_continuant": 518953,
+        "type": "ordinary"
+      },
+      {
+        "p": 6818297,
+        "N": 47,
+        "h": 3409100,
+        "qN_decimal_digits": 87,
+        "lambda_qN_over_p_mod_p": 3994394,
+        "continuant_derivative_mod_p": 910247,
+        "delta_mod_p_from_continuant": 226638,
+        "type": "ordinary"
+      },
+      {
+        "p": 8352103,
+        "N": 18,
+        "h": 4176032,
+        "qN_decimal_digits": 26,
+        "lambda_qN_over_p_mod_p": 360312,
+        "continuant_derivative_mod_p": 6262828,
+        "delta_mod_p_from_continuant": 3047791,
+        "type": "ordinary"
+      },
+      {
+        "p": 10240507,
+        "N": 75,
+        "h": 5120177,
+        "qN_decimal_digits": 154,
+        "lambda_qN_over_p_mod_p": 766426,
+        "continuant_derivative_mod_p": 3274549,
+        "delta_mod_p_from_continuant": 1948758,
+        "type": "ordinary"
+      },
+      {
+        "p": 10391023,
+        "N": 7,
+        "h": 5195503,
+        "qN_decimal_digits": 8,
+        "lambda_qN_over_p_mod_p": 1,
+        "continuant_derivative_mod_p": 8960667,
+        "delta_mod_p_from_continuant": 8787603,
+        "type": "ordinary"
+      },
+      {
+        "p": 11368729,
+        "N": 31,
+        "h": 5684332,
+        "qN_decimal_digits": 52,
+        "lambda_qN_over_p_mod_p": 2957827,
+        "continuant_derivative_mod_p": 5949793,
+        "delta_mod_p_from_continuant": 10309032,
+        "type": "ordinary"
+      },
+      {
+        "p": 11910499,
+        "N": 35,
+        "h": 5955213,
+        "qN_decimal_digits": 60,
+        "lambda_qN_over_p_mod_p": 9254560,
+        "continuant_derivative_mod_p": 10976264,
+        "delta_mod_p_from_continuant": 9519018,
+        "type": "ordinary"
+      },
+      {
+        "p": 12752359,
+        "N": 64,
+        "h": 6376114,
+        "qN_decimal_digits": 127,
+        "lambda_qN_over_p_mod_p": 5028388,
+        "continuant_derivative_mod_p": 12729244,
+        "delta_mod_p_from_continuant": 2883726,
+        "type": "ordinary"
+      },
+      {
+        "p": 26165561,
+        "N": 77,
+        "h": 13082702,
+        "qN_decimal_digits": 159,
+        "lambda_qN_over_p_mod_p": 26010635,
+        "continuant_derivative_mod_p": 17915566,
+        "delta_mod_p_from_continuant": 20707381,
+        "type": "ordinary"
+      },
+      {
+        "p": 27219433,
+        "N": 58,
+        "h": 13609657,
+        "qN_decimal_digits": 112,
+        "lambda_qN_over_p_mod_p": 15227393,
+        "continuant_derivative_mod_p": 11800804,
+        "delta_mod_p_from_continuant": 5477893,
+        "type": "ordinary"
+      },
+      {
+        "p": 28553467,
+        "N": 69,
+        "h": 14276663,
+        "qN_decimal_digits": 139,
+        "lambda_qN_over_p_mod_p": 26028528,
+        "continuant_derivative_mod_p": 8003337,
+        "delta_mod_p_from_continuant": 11812425,
+        "type": "ordinary"
+      },
+      {
+        "p": 35640329,
+        "N": 17,
+        "h": 17820146,
+        "qN_decimal_digits": 24,
+        "lambda_qN_over_p_mod_p": 22303669,
+        "continuant_derivative_mod_p": 30271139,
+        "delta_mod_p_from_continuant": 25761275,
+        "type": "ordinary"
+      },
+      {
+        "p": 36167539,
+        "N": 43,
+        "h": 18083725,
+        "qN_decimal_digits": 78,
+        "lambda_qN_over_p_mod_p": 4301066,
+        "continuant_derivative_mod_p": 11467401,
+        "delta_mod_p_from_continuant": 32841357,
+        "type": "ordinary"
+      },
+      {
+        "p": 43751839,
+        "N": 69,
+        "h": 21875849,
+        "qN_decimal_digits": 139,
+        "lambda_qN_over_p_mod_p": 15056598,
+        "continuant_derivative_mod_p": 32737983,
+        "delta_mod_p_from_continuant": 21493974,
+        "type": "ordinary"
+      },
+      {
+        "p": 47032967,
+        "N": 73,
+        "h": 23516409,
+        "qN_decimal_digits": 149,
+        "lambda_qN_over_p_mod_p": 31487690,
+        "continuant_derivative_mod_p": 14087073,
+        "delta_mod_p_from_continuant": 21093469,
+        "type": "ordinary"
+      },
+      {
+        "p": 50449037,
+        "N": 38,
+        "h": 25224479,
+        "qN_decimal_digits": 67,
+        "lambda_qN_over_p_mod_p": 13868252,
+        "continuant_derivative_mod_p": 34283869,
+        "delta_mod_p_from_continuant": 17175026,
+        "type": "ordinary"
+      },
+      {
+        "p": 54269807,
+        "N": 19,
+        "h": 27134883,
+        "qN_decimal_digits": 28,
+        "lambda_qN_over_p_mod_p": 45261824,
+        "continuant_derivative_mod_p": 45048093,
+        "delta_mod_p_from_continuant": 12815587,
+        "type": "ordinary"
+      },
+      {
+        "p": 61612303,
+        "N": 68,
+        "h": 30806082,
+        "qN_decimal_digits": 136,
+        "lambda_qN_over_p_mod_p": 22100097,
+        "continuant_derivative_mod_p": 23611905,
+        "delta_mod_p_from_continuant": 10471865,
+        "type": "ordinary"
+      },
+      {
+        "p": 65676881,
+        "N": 10,
+        "h": 32838429,
+        "qN_decimal_digits": 12,
+        "lambda_qN_over_p_mod_p": 6151,
+        "continuant_derivative_mod_p": 19776335,
+        "delta_mod_p_from_continuant": 58781682,
+        "type": "ordinary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "item": 417,
+  "schema": "item417-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_ALL_LEVEL_CARTIER_ZERO_TOWER_THIN_AND_NONMULTIPLICATIVE",
+  "scope": "independent root audit of the all-prime-power degree criterion, residue implication, de-overlap, support cutoff, exact-one counterexamples, asymptotic capacity, dependency pins, and deterministic replay",
+  "checks": {
+    "canonical_dependencies_checked": 11,
+    "canonical_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "control_characters": 0,
+    "finite_normalization_range": "1<=m<=160",
+    "finite_to_infinite_inference_used": false,
+    "root_repairs": "Promoted canonical paths/status, pinned the audited Item415 and Item418 packages, updated the strategic ceiling to Item418, and completed the q>6m defect check for both adjacent rows rather than displaying only K_0."
+  },
+  "mathematical_audit": {
+    "tower_divisor": "For q=p^e, quotient/remainder decomposition gives omega_s=F_s^q P_s dx with deg P_s=d_q. If d_q<=q-2, C^e(P_s dx)=0; iterated Cartier preserves simple residues up to Frobenius, so the corresponding exact log residue vanishes modulo p. Separate levels may be used for the two coordinates.",
+    "large_level_exclusion": "If q>6m, then d_q(N,K_0)=3q-3 and d_q(N,K_1)=3q-6, both greater than q-2 for odd q. Thus all qualifying witnesses may be restricted to q<=6m.",
+    "deoverlap": "Removing the first-level Item200 set P_m leaves E_m. Every p in E_m needs exponent e>=2 in at least one row, hence p<=sqrt(6m). Multiplying distinct congruences gives the squarefree divisor F_m E_m of both residue coordinates.",
+    "zero_rate": "The crude support estimate log E_m<=sqrt(6m) log sqrt(6m)=o(m) is uniform. Dividing by E_m therefore changes finite carriers but not any normalized exponential ceiling.",
+    "nested_levels": "Once C^e(omega)=0, every later Cartier iterate is zero. These are nested characteristic-p statements and cannot be counted as independent p-adic digits.",
+    "counterexamples": "Exact reconstruction gives common valuation one at (m,p)=(2,11), at the Item149-overlap row (9,13), and at the genuine higher-level row (5,5), where q=25 qualifies but q=5 does not. Thus neither F_m^2 divisibility nor one digit per prime-power level is uniform.",
+    "current_ceiling": "Combining the zero-rate E_m normalization with canonical Item418 leaves the strictly-large component ceiling 0.4287738853386578689... unchanged."
+  },
+  "proved_capacity_update": {
+    "extra_factor_support": "p<=sqrt(6m)",
+    "extra_factor_rate": "o(m)",
+    "new_booking": 0,
+    "strictly_large_component_ceiling_delta": 0,
+    "global_total_content_ceiling_delta": 0,
+    "frozen_deficit_delta": 0
+  },
+  "strict_labels": {
+    "PROVED": [
+      "the de-overlapped squarefree all-level Cartier-zero tower divisor",
+      "zero linear rate of its extra support",
+      "failure of uniform higher multiplicity in the actual family"
+    ],
+    "SCOPED_NO_GO": [
+      "pure characteristic-p degree-zero Cartier levels cannot be booked as separate p-adic digits"
+    ],
+    "OPEN": [
+      "integral or Witt-lift multiplicity",
+      "arithmetic factors outside degree-forced zero images",
+      "weighted zero density for the normalized carrier",
+      "Route 1 and every conclusion about e+pi"
+    ]
+  },
+  "route_status": {
+    "route1": "ACTIVE",
+    "route2": "QUEUED",
+    "booked_rate": "0.1365141682948128184504238226...",
+    "frozen_deficit": "1.0196329836694317938803064012..."
+  }
+}

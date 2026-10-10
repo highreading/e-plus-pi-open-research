@@ -1,0 +1,112 @@
+{
+  "item": 413,
+  "schema": "item413-j2-tied-projection-anti-gcd-boundary-ledger-v1",
+  "classification": "PROVED_EXACT_TIED_PROJECTION_AND_SHARP_FOREIGN_TAIL_BOUNDARY_ETA_ZERO",
+  "checked_date_beijing": "2026-09-01",
+  "branch": "ordinary fixed-j=2 degenerate target rejection on one fixed-M ray, projected to the selected tied characteristic",
+  "capacity_first": {
+    "ordinary_j2_raw_mass_per_M": "2/35",
+    "one_complete_ray_mass_per_M": "1/35",
+    "one_complete_ray_normalized_per_6M": "1/210",
+    "proved_tail_lower_margin_per_M": 0,
+    "proved_matched_J_lower_margin_per_M": 0,
+    "proved_eta_per_M": 0,
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "retained_ordinary_j2_ceiling_per_6M": "1/105"
+  },
+  "actual_carriers": {
+    "gate": "Pi_r=gcd(abs(num a_r),abs(num b_r),abs(num K_r))",
+    "collision": "Gamma_(r,s)=gcd(Pi_r,abs(num T_0),abs(num T_1))",
+    "rejection": "J_(r,s)=(Pi_sat_(r,s))_(Gamma_sat_(r,s))",
+    "binary_tied_quotient": "gcd(p,Pi_r)/gcd(p,Gamma_(r,s))=gcd(p,Pi_sat)/gcd(p,Gamma_sat)=gcd(p,J) in {1,p}",
+    "meaning": "the quotient is p exactly on a degenerate gate row rejected by the actual surviving target"
+  },
+  "mandatory_threshold": {
+    "identity": "p=2r+6s+3",
+    "range": "s>=1",
+    "conclusion": "p>2r+3",
+    "tail": "L_(r,s)=radical of J supported on primes q>2r+3",
+    "foreign_tail": "F_(r,s)=L_(r,s) with the selected p-support removed",
+    "exact_factorization": "L_(r,s)=j_tie_(r,s)*F_(r,s), gcd(j_tie,F)=1"
+  },
+  "aggregate_identity": {
+    "tail_mass": "A_e(M)=sum log L_(r,s)",
+    "foreign_tail_mass": "B_e(M)=sum log F_(r,s)",
+    "matched_rejection_mass": "J_e(M)=sum log gcd(p,J_(r,s))",
+    "identity": "J_e=A_e-B_e=D_e-G_e"
+  },
+  "exact_capacity_coupling": {
+    "assumptions": "A_e>=aM+o(M), B_e<=bM+o(M), G_e<=gM+o(M), N_e<=nM+o(M)",
+    "normalized_saving": "max(0,a-b,1/35-g-n)/6",
+    "direct_upper_assumption": "A_e<=uM+o(M)",
+    "direct_upper_reward": "at most min(u,1/35)/6 through the matched-J channel only",
+    "proved_positive_margin": false,
+    "booking": 0
+  },
+  "actual_foreign_factor_witness": {
+    "classification": "EXACT PINNED ACTUAL-FORMULA WITNESS ONLY, NOT A CENSUS",
+    "row": {
+      "p": 709,
+      "r": 347,
+      "s": 2,
+      "M": 885
+    },
+    "Pi_sat": 79,
+    "Gamma_sat": 1,
+    "J": 79,
+    "threshold_2r_plus_3": 697,
+    "tail_radical": 1,
+    "tied_projection": 1,
+    "conclusion": "79 is foreign, lies below the mandatory threshold, and contributes zero rejection mass"
+  },
+  "scoped_information_boundary": {
+    "proved": "a lower bound for the size, radical, or >2r+3 tail of J alone gives no positive tied rejection mass",
+    "needed_extra_input": "an upper bound for foreign tail or a direct theorem matching tail factors to the selected p",
+    "sharp_coefficient": "with tail lower coefficient a and foreign upper coefficient b, the best universal matched coefficient is (a-b)_+",
+    "scope_warning": "the sharpness packets are abstract integer packets and are not claimed to be actual connection-sequence values"
+  },
+  "smallest_missing_lemma": {
+    "direct": "on one actual ray, sum log gcd(p,J_(r,s))>=delta*M+o(M) for some delta>0",
+    "decomposed": "A_e>=aM+o(M) and B_e<=bM+o(M) with a-b=delta>0",
+    "zero_rate_closer": "A_e=o(M) implies J_e=o(M), closing the direct Builder mechanism but booking no saving by itself",
+    "status": "OPEN"
+  },
+  "proved": [
+    "the exact binary tied Smith quotient before and after safe saturation",
+    "the p>2r+3 threshold and exact matched/foreign tail factorization",
+    "the aggregate anti-gcd mass identity",
+    "the sharp conditional capacity formula and direct-channel upper boundary",
+    "zero new booking and zero capacity reduction"
+  ],
+  "open": [
+    "a positive actual matched-J Chebyshev lower bound",
+    "a useful actual tail lower bound plus foreign-tail upper bound",
+    "tied-prime good reduction or any formula-specific cross-characteristic matching theorem",
+    "positive Route-1 exponent improvement and every conclusion about e+pi"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "binary projection, threshold, tail factorization, mass identity, conditional capacity arithmetic, eta zero"
+    ],
+    "EXACT_PINNED_ACTUAL_WITNESS_NOT_A_CENSUS": [
+      "the row (709,347,2) with J=79 and tied projection 1"
+    ],
+    "EXACT_ALGEBRAIC_COUNTERMODELS_NOT_ACTUAL": [
+      "the support packets used only to prove information-class sharpness"
+    ],
+    "CONDITIONAL": [
+      "all positive conclusions whose asymptotic antecedents are explicitly displayed"
+    ],
+    "OPEN": [
+      "all actual positive weighted inputs, Route 1, and every conclusion about e+pi"
+    ]
+  },
+  "evidence_policy": {
+    "no_prime_or_collision_census": true,
+    "no_finite_extrapolation": true,
+    "no_foreign_factor_booking": true,
+    "no_countermodel_claimed_actual": true,
+    "canonical_files_modified": false
+  }
+}

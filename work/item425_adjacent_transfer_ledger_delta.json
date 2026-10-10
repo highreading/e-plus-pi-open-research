@@ -1,0 +1,59 @@
+{
+  "item": 425,
+  "checked_date_beijing": "2026-09-01",
+  "route": "Route 1",
+  "branch": "normalized strictly-large mixed-cubic adjacent and degree-two shifted carriers",
+  "status": "WORK_ONLY_PROVED_ADJACENT_DETERMINANT_SATURATION_AND_SCOPED_HOLONOMIC_NO_GO_ZERO_LEDGER",
+  "frozen_ledger": {
+    "T": "1.1561471519642446123307302239...",
+    "r1": "0.1365141682948128184504238226...",
+    "deficit": "1.0196329836694317938803064012...",
+    "strictly_large_component_ceiling": "0.4287738853386578689457603829..."
+  },
+  "proved_structural_delta": {
+    "adjacent_transfer": "2*W_lambda,m=lambda_0,m*D_(m+1)-D_m*lambda_0,(m+1)",
+    "integer_carrier": "W_mu,m=W_lambda,m/(F_m*F_(m+1)) is an integer",
+    "all_depth_divisibility": "g_m*g_(m+1) divides W_mu,m",
+    "adjacent_saddle_base": "lim |W_lambda,m|^(1/m)=rho_star^2",
+    "normalized_saddle_base": "lim |W_mu,m|^(1/m)=(rho_star*exp(-C_F))^2",
+    "degree_two_transfer": "m*D_m-a*lambda_0,m-b*lambda_0,(m+1)-c*lambda_0,(m+2)=CT(q2*H^m)/m",
+    "degree_two_remainder": "q2 is finite and nonzero at every critical point, so the reduction saves only a polynomial factor"
+  },
+  "capacity_effect": {
+    "new_booked_lower_bound": 0,
+    "new_capacity_reduction": 0,
+    "direct_one_row_determinant_ceiling": "0.8575477706773157378915207658...",
+    "two_row_mean_ceiling": "0.4287738853386578689457603829...",
+    "strictly_large_component_ceiling_after_item": "0.4287738853386578689457603829...",
+    "r1_after_item": "0.1365141682948128184504238226...",
+    "deficit_after_item": "1.0196329836694317938803064012...",
+    "reason": "the adjacent determinant has exactly the squared normalized row base; after charging both row gcds its per-row cost is the pre-existing Item-418 base"
+  },
+  "overlap_and_evidence_policy": {
+    "canonical_F_m_already_removed": true,
+    "actual_family_only": true,
+    "finite_rows_only_normalize_formulas": true,
+    "no_finite_extrapolation": true,
+    "component_ceiling_not_subtracted_from_global_ceiling": true,
+    "no_prime_census": true,
+    "no_irrationality_claim": true
+  },
+  "scope": {
+    "closed": [
+      "adjacent 2x2 exterior carrier",
+      "first natural degree-two shifted critical-value reduction"
+    ],
+    "open": [
+      "larger or growing windows",
+      "adaptive recurrences and modular resultants",
+      "a carrier with strict per-contained-gcd base below rho_star*exp(-C_F)",
+      "log c_m^>=o(m)",
+      "Route 1 and irrationality of e+pi"
+    ]
+  },
+  "smallest_open_lemma": "construct arithmetic cross-index information whose normalized carrier base, after charging every row gcd it contains, is strictly below rho_star*exp(-C_F), or prove weighted nonconcentration directly",
+  "route_status_after_item": {
+    "Route1": "ACTIVE",
+    "Route2": "QUEUED"
+  }
+}

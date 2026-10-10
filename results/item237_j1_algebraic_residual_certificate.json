@@ -1,0 +1,584 @@
+{
+  "algebraic_closed_form": {
+    "D_low_to_high": [
+      "6",
+      "14",
+      "7",
+      "2"
+    ],
+    "N_low_to_high": [
+      "432",
+      "2064",
+      "4440",
+      "5376",
+      "4044",
+      "1860",
+      "486",
+      "48"
+    ],
+    "Q_low_to_high": [
+      "1",
+      "1",
+      "1/2"
+    ],
+    "change_of_variable": "x=y(1+y)/Q(y)^(2/3)",
+    "classification": "SYMBOLIC_EXACT",
+    "derived_numerator_matches": true,
+    "identity": "C(x(y))=N(y)/D(y)^3"
+  },
+  "algebraic_resultant": {
+    "classification": "SYMBOLIC_EXACT",
+    "conclusion": "P(x^3,C(x))=0 on the y(0)=0 branch",
+    "definition": "P(u,v)=2^-27 Res_y(u(y^2+2y+2)^2-4y^3(1+y)^3,vD(y)^3-N(y))",
+    "nonzero_terms": 38,
+    "off_grid_check": [
+      13,
+      11,
+      4249389817640063398956551372800
+    ],
+    "primitive_coefficients_u_v_value": [
+      [
+        0,
+        0,
+        -24794911296
+      ],
+      [
+        0,
+        2,
+        18596183472
+      ],
+      [
+        0,
+        4,
+        -4649045868
+      ],
+      [
+        0,
+        6,
+        387420489
+      ],
+      [
+        1,
+        0,
+        -320531198976
+      ],
+      [
+        1,
+        1,
+        10203667200
+      ],
+      [
+        1,
+        2,
+        142774813296
+      ],
+      [
+        1,
+        3,
+        18706723200
+      ],
+      [
+        1,
+        4,
+        -956593800
+      ],
+      [
+        1,
+        6,
+        27679041603
+      ],
+      [
+        2,
+        0,
+        -1035825905664
+      ],
+      [
+        2,
+        1,
+        84728229120
+      ],
+      [
+        2,
+        2,
+        -163471251600
+      ],
+      [
+        2,
+        3,
+        365291285760
+      ],
+      [
+        2,
+        4,
+        6273838152
+      ],
+      [
+        2,
+        6,
+        659343436911
+      ],
+      [
+        3,
+        0,
+        9555148800
+      ],
+      [
+        3,
+        1,
+        -229233991680
+      ],
+      [
+        3,
+        2,
+        1366692726672
+      ],
+      [
+        3,
+        3,
+        2240051371200
+      ],
+      [
+        3,
+        4,
+        -5399990896680
+      ],
+      [
+        3,
+        6,
+        5240894368977
+      ],
+      [
+        4,
+        1,
+        1751777280
+      ],
+      [
+        4,
+        2,
+        -29242114560
+      ],
+      [
+        4,
+        3,
+        69725525760
+      ],
+      [
+        4,
+        4,
+        -384747712560
+      ],
+      [
+        4,
+        6,
+        98288005284
+      ],
+      [
+        5,
+        2,
+        80289792
+      ],
+      [
+        5,
+        3,
+        -440501760
+      ],
+      [
+        5,
+        4,
+        5360898816
+      ],
+      [
+        5,
+        6,
+        7844978952
+      ],
+      [
+        6,
+        3,
+        -4423680
+      ],
+      [
+        6,
+        4,
+        64955520
+      ],
+      [
+        6,
+        6,
+        91399104
+      ],
+      [
+        7,
+        4,
+        -405504
+      ],
+      [
+        7,
+        6,
+        3613248
+      ],
+      [
+        8,
+        6,
+        20736
+      ],
+      [
+        9,
+        6,
+        512
+      ]
+    ],
+    "raw_content": 134217728,
+    "u_degree": 9,
+    "v_degree": 6
+  },
+  "all_h_recurrence": {
+    "block_summaries": [
+      {
+        "lifted_degree": 131,
+        "numerator_degree": 95,
+        "shift": 0
+      },
+      {
+        "lifted_degree": 131,
+        "numerator_degree": 99,
+        "shift": 1
+      },
+      {
+        "lifted_degree": 131,
+        "numerator_degree": 103,
+        "shift": 2
+      },
+      {
+        "lifted_degree": 127,
+        "numerator_degree": 103,
+        "shift": 3
+      }
+    ],
+    "classification": "SYMBOLIC_EXACT",
+    "cleared_numerator_zero": true,
+    "coefficient_degrees": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "common_denominator": "D(y)^35*(y^2+2y+2)^12",
+    "factored_coefficients": [
+      {
+        "linear_factor_roots_numerator_denominator": [
+          [
+            -3,
+            1
+          ],
+          [
+            -3,
+            2
+          ],
+          [
+            -5,
+            1
+          ],
+          [
+            -6,
+            1
+          ],
+          [
+            -9,
+            2
+          ],
+          [
+            -9,
+            4
+          ],
+          [
+            -15,
+            4
+          ],
+          [
+            -21,
+            4
+          ],
+          [
+            -27,
+            4
+          ],
+          [
+            -33,
+            4
+          ],
+          [
+            -39,
+            4
+          ]
+        ],
+        "remaining_core_low_to_high": [
+          6414233265,
+          5112300033,
+          1603835736,
+          247582992,
+          18819760,
+          564080
+        ],
+        "scalar": "-1/76742461255680"
+      },
+      {
+        "linear_factor_roots_numerator_denominator": [
+          [
+            -2,
+            1
+          ],
+          [
+            -6,
+            1
+          ],
+          [
+            -9,
+            2
+          ],
+          [
+            -21,
+            4
+          ],
+          [
+            -27,
+            4
+          ],
+          [
+            -33,
+            4
+          ],
+          [
+            -39,
+            4
+          ]
+        ],
+        "remaining_core_low_to_high": [
+          402660529612416,
+          1002494068911927,
+          1039962332216826,
+          596405304955566,
+          209971952382012,
+          47325249956016,
+          6857541598288,
+          618060903584,
+          31525303040,
+          694946560
+        ],
+        "scalar": "-1/710578344960"
+      },
+      {
+        "linear_factor_roots_numerator_denominator": [
+          [
+            -2,
+            1
+          ],
+          [
+            -4,
+            1
+          ],
+          [
+            -5,
+            1
+          ],
+          [
+            -7,
+            2
+          ],
+          [
+            -11,
+            2
+          ],
+          [
+            -33,
+            4
+          ],
+          [
+            -39,
+            4
+          ]
+        ],
+        "remaining_core_low_to_high": [
+          1090010738003273316,
+          2470146696629963712,
+          2354075629101513405,
+          1243406090403290781,
+          403775302745693160,
+          84106392952710132,
+          11294493697293648,
+          946720367971824,
+          45093571774720,
+          932385882560
+        ],
+        "scalar": "-1/105270865920"
+      },
+      {
+        "linear_factor_roots_numerator_denominator": [
+          [
+            -2,
+            1
+          ],
+          [
+            -4,
+            1
+          ],
+          [
+            -5,
+            1
+          ],
+          [
+            -7,
+            1
+          ],
+          [
+            -8,
+            1
+          ],
+          [
+            -7,
+            2
+          ],
+          [
+            -9,
+            1
+          ],
+          [
+            -11,
+            2
+          ],
+          [
+            -13,
+            2
+          ],
+          [
+            -15,
+            2
+          ],
+          [
+            -17,
+            2
+          ]
+        ],
+        "remaining_core_low_to_high": [
+          214443126,
+          369944721,
+          239554248,
+          72513072,
+          10358560,
+          564080
+        ],
+        "scalar": "1/18050560"
+      }
+    ],
+    "operator": "sum_(k=0)^3 x^(18-6k) p_k((theta-6k)/2), theta=x*d/dx",
+    "parameter_theta": "theta=3y(1+y)(y^2+2y+2)D(y)^(-1)*d/dy",
+    "recurrence": "sum_(k=0)^3 p_k(h)c_(h+3k)^*=0"
+  },
+  "coefficient_replay": {
+    "classification": "EXACT_REPLAY_OF_SYMBOLIC_CHANGE_OF_VARIABLE",
+    "h_max": 40,
+    "identity": "c_h^*=[x^(2h)]C(x)",
+    "row_stream_sha256": "fddee413d7ac3252f60f1a3dd599ad7f8dadc5d5292bdfe70443be90bbfbb975",
+    "rows": 40
+  },
+  "dependencies": {
+    "item222_j1_phase_resultant_certificate.py": "c16f75156ba8424c567163cedc6a93a7656c8a53036b48ef69b06327d76ad44b",
+    "item229_j1_fixed_h_theta_certificate.py": "a8e2028ca6a53f8c843c25be375feac50e4704538686ee1e3a835f89aa11780f",
+    "item231_j1_second_phase_coefficient_certificate.py": "b2ab5da4624a6b91d10a52976c6996b2e04b077f0b12c02a581a1551f6879045",
+    "item236_j1_phase_cokernel_certificate.py": "a1aaa2dc857420b555b52a9d96282a37b193834069815194f3ccc0531b7aed96"
+  },
+  "endpoint_scalar_comparison": {
+    "finite_gcd_pattern": {
+      "classification": "EXACT_FINITE_ONLY",
+      "h_max": 40,
+      "logical_status": "no all-h gcd or unit-localized factorization is inferred",
+      "row_stream_sha256": "b6fe88091a4aa81074a24798c44a3690bafdf9b7c26726f1bfb335334a477128",
+      "rows": 27,
+      "violations_of_remaining_prime_factors_le_4h_plus_3": []
+    },
+    "proved_scoped_no_go": {
+      "ansatz": "A(n)K_(h+3)/E_(h+3)+B(n)K_h/E_h=0, h=3n+r, deg(A),deg(B)<=5",
+      "classification": "SYMBOLIC_CONSEQUENCE_OF_EXACT_FULL_RANK_CERTIFICATE",
+      "denominator_audit": "every sampled rational denominator is nonzero modulo the prime",
+      "logic": "a rational identity gives a primitive integer null vector; one full-column-rank prime reduction rules it out",
+      "prime": 1000000007,
+      "rank_results": [
+        {
+          "columns": 12,
+          "rank": 12,
+          "residue": 1,
+          "rows": 13
+        },
+        {
+          "columns": 12,
+          "rank": 12,
+          "residue": 2,
+          "rows": 12
+        }
+      ]
+    }
+  },
+  "gauged_E_recurrence_evidence": {
+    "classification": "EXACT_FINITE_ONLY",
+    "logical_status": "finite modular agreement does not supply a symbolic telescoping certificate",
+    "prime_results": [
+      {
+        "h_max": 220,
+        "prime": 1000000007,
+        "row_stream_sha256": "b13ef5c966547bc3303bb9a1f4ab2e607f21cf43cef63a91b65cd9be3eba430f",
+        "rows": 147
+      },
+      {
+        "h_max": 220,
+        "prime": 1009999999,
+        "row_stream_sha256": "6f898c36df9653313dbbb0d4dc4af3665a134373f3b493f8216635f61eae9c9d",
+        "rows": 147
+      }
+    ],
+    "tested_operator": "sum_(k=0)^3 p_k(h)(product_(j=0)^(k-1)rho(h+3j))E_(h+3k)^*=0"
+  },
+  "item": 237,
+  "missing_certificate_barrier": {
+    "classification": "OPEN",
+    "exact_reduction": "E_h^* is a bilinear double sum of proper hypergeometric beta-period terms; c=R E would follow from the displayed gauged recurrence plus three initial values in each nonzero residue class",
+    "missing_input": "a symbolic bivariate WZ/Hermite certificate for the gauged E recurrence, or an equivalent all-h hypergeometric transformation",
+    "warning": "finite recurrence agreement and finite gcd patterns are not recurrence or nonvanishing theorems"
+  },
+  "phase_factorization_evidence": {
+    "admissible_rows": 54,
+    "classification": "EXACT_FINITE_ONLY",
+    "h_max": 80,
+    "initial_ratios": {
+      "R_1": "-49/18",
+      "R_2": "4235/1944"
+    },
+    "observed_identity": "c_h^*=R_h E_h^*",
+    "row_stream_sha256": "6418be73a548b4455e7ec13cef1315d952c97a354860016623af303fcf645428",
+    "step_ratio": "R_(h+3)/R_h=rho(h)"
+  },
+  "rate_ledger": {
+    "new_divisibility_exponent": 0,
+    "new_unconditional_linear_log_rate": 0,
+    "reason": "the algebraic residual recurrence does not exclude its simultaneous zero with E_h^* or the remaining endpoint scalar on actual row primes"
+  },
+  "schema": "item237-j1-algebraic-residual-v1",
+  "status_ledger": {
+    "EXACT_FINITE_ONLY": [
+      "c_h^*=R_hE_h^* through admissible h<=80",
+      "the gauged E recurrence modulo two primes through h<=220",
+      "the K/E gcd pattern through h<=40"
+    ],
+    "OPEN": [
+      "the all-h identity c_h^*=R_hE_h^*",
+      "a symbolic certificate for the gauged E recurrence",
+      "a unit-localized all-h K/E factorization or gcd theorem",
+      "all-prime exclusion, a radical/log-mass saving, or a positive Route-1 rate"
+    ],
+    "PROVED": [
+      "the fixed algebraic coefficient formula c_h^*=[x^(2h)]C(x)",
+      "the explicit degree-(9,6) primitive resultant P(x^3,C)=0",
+      "the all-h order-3 step-3 degree-16 recurrence for c_h^*",
+      "the degree<=5 first-order rational K/E ansatz no-go"
+    ]
+  }
+}

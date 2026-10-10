@@ -1,0 +1,699 @@
+{
+  "augmented_rank_theorem": {
+    "criterion": "formal solvability iff rank([c|d])=rank(c)=1, equivalently some c_i is nonzero and all 15 minors c_i*d_j-c_j*d_i vanish",
+    "equations": [
+      "Delta_minus*mu=-2",
+      "Delta_plus*mu=-4",
+      "a*(M*v)*mu=2-a*(-4*b)",
+      "the three coordinates of (I+M^2)*v*mu=4*M*b-2*b"
+    ],
+    "item223_relation": "the bottom__terminal_2p minor is 2*(Delta_plus-2*Delta_minus)",
+    "item228_relation": "the terminal_2p__terminal_3p minor is -epsilon*Psi",
+    "necessity": "every original common-log collision satisfies the six-equation system",
+    "number_of_augmented_2_by_2_minors": 15,
+    "number_of_scalar_equations": 6,
+    "regular_completeness": "if det(I+M^2) is nonzero, formal solvability is equivalent to the original common-log collision",
+    "singular_scope": "if det(I+M^2)=0, the six-equation system remains necessary but sufficiency is not claimed"
+  },
+  "dependencies": {
+    "item218_checker": "item218_j1_common_log_certificate.py",
+    "item218_checker_sha256": "a238c5ca37263f2553da47bf3f21253aedf1c34f8c57458a4a274fc6cdc9029a",
+    "item223_checker": "item223_j1_frobenius_transfer_certificate.py",
+    "item223_checker_sha256": "928ddc876ed70939fd4a39fccd0e91d8c59d8aa2a8a694967d8fc7f737512d4a",
+    "item228_checker": "item228_j1_second_frobenius_certificate.py",
+    "item228_checker_sha256": "4264f7df929a269633fe71865d9b47910e4d6d1bf0a91bdb9ceb2e3774171220"
+  },
+  "finite_census": {
+    "actual_rows": 2435,
+    "anti_determinant_nonzero": 2432,
+    "anti_determinant_zero": 3,
+    "anti_determinant_zero_rows": [
+      [
+        349,
+        2,
+        57
+      ],
+      [
+        457,
+        128,
+        33
+      ],
+      [
+        577,
+        86,
+        67
+      ]
+    ],
+    "classification": "EXACT_FINITE_ONLY",
+    "direct_common_gate_zeros": 0,
+    "first_minor_zero_rows": {
+      "antiperiod_coordinate_0__antiperiod_coordinate_1": [
+        [
+          67,
+          26,
+          2
+        ],
+        [
+          179,
+          28,
+          20
+        ],
+        [
+          199,
+          50,
+          16
+        ],
+        [
+          223,
+          92,
+          6
+        ],
+        [
+          233,
+          52,
+          21
+        ],
+        [
+          463,
+          194,
+          12
+        ],
+        [
+          479,
+          226,
+          4
+        ],
+        [
+          601,
+          176,
+          41
+        ]
+      ],
+      "antiperiod_coordinate_0__antiperiod_coordinate_2": [
+        [
+          67,
+          20,
+          4
+        ],
+        [
+          197,
+          16,
+          27
+        ],
+        [
+          239,
+          70,
+          16
+        ],
+        [
+          281,
+          22,
+          39
+        ],
+        [
+          431,
+          190,
+          8
+        ],
+        [
+          479,
+          124,
+          38
+        ],
+        [
+          491,
+          22,
+          74
+        ]
+      ],
+      "antiperiod_coordinate_1__antiperiod_coordinate_2": [
+        [
+          47,
+          4,
+          6
+        ],
+        [
+          109,
+          32,
+          7
+        ],
+        [
+          239,
+          52,
+          22
+        ],
+        [
+          269,
+          64,
+          23
+        ],
+        [
+          347,
+          112,
+          20
+        ],
+        [
+          349,
+          2,
+          57
+        ],
+        [
+          373,
+          8,
+          59
+        ],
+        [
+          383,
+          106,
+          28
+        ]
+      ],
+      "bottom_p__antiperiod_coordinate_0": [
+        [
+          71,
+          10,
+          8
+        ],
+        [
+          107,
+          4,
+          16
+        ],
+        [
+          181,
+          62,
+          9
+        ],
+        [
+          229,
+          74,
+          13
+        ],
+        [
+          337,
+          110,
+          19
+        ],
+        [
+          349,
+          98,
+          25
+        ],
+        [
+          419,
+          202,
+          2
+        ],
+        [
+          419,
+          160,
+          16
+        ]
+      ],
+      "bottom_p__antiperiod_coordinate_1": [
+        [
+          29,
+          4,
+          3
+        ],
+        [
+          53,
+          16,
+          3
+        ],
+        [
+          193,
+          92,
+          1
+        ],
+        [
+          227,
+          10,
+          34
+        ],
+        [
+          431,
+          184,
+          10
+        ]
+      ],
+      "bottom_p__antiperiod_coordinate_2": [
+        [
+          53,
+          4,
+          7
+        ],
+        [
+          229,
+          50,
+          21
+        ],
+        [
+          233,
+          94,
+          7
+        ],
+        [
+          439,
+          50,
+          56
+        ]
+      ],
+      "bottom_p__terminal_2p": [
+        [
+          223,
+          38,
+          24
+        ],
+        [
+          239,
+          40,
+          26
+        ],
+        [
+          311,
+          16,
+          46
+        ],
+        [
+          331,
+          20,
+          48
+        ],
+        [
+          337,
+          2,
+          55
+        ],
+        [
+          443,
+          112,
+          36
+        ],
+        [
+          463,
+          26,
+          68
+        ],
+        [
+          491,
+          16,
+          76
+        ]
+      ],
+      "bottom_p__terminal_3p": [
+        [
+          37,
+          8,
+          3
+        ],
+        [
+          89,
+          40,
+          1
+        ]
+      ],
+      "terminal_2p__antiperiod_coordinate_0": [
+        [
+          139,
+          20,
+          16
+        ],
+        [
+          223,
+          50,
+          20
+        ],
+        [
+          257,
+          34,
+          31
+        ],
+        [
+          269,
+          10,
+          41
+        ],
+        [
+          373,
+          44,
+          47
+        ],
+        [
+          541,
+          260,
+          3
+        ],
+        [
+          587,
+          160,
+          44
+        ]
+      ],
+      "terminal_2p__antiperiod_coordinate_1": [
+        [
+          19,
+          2,
+          2
+        ],
+        [
+          83,
+          16,
+          8
+        ],
+        [
+          101,
+          34,
+          5
+        ],
+        [
+          113,
+          46,
+          3
+        ],
+        [
+          149,
+          34,
+          13
+        ],
+        [
+          239,
+          112,
+          2
+        ],
+        [
+          283,
+          8,
+          44
+        ],
+        [
+          307,
+          104,
+          16
+        ]
+      ],
+      "terminal_2p__antiperiod_coordinate_2": [
+        [
+          47,
+          10,
+          4
+        ],
+        [
+          83,
+          4,
+          12
+        ],
+        [
+          127,
+          44,
+          6
+        ],
+        [
+          131,
+          22,
+          14
+        ],
+        [
+          151,
+          8,
+          22
+        ],
+        [
+          179,
+          40,
+          16
+        ],
+        [
+          191,
+          16,
+          26
+        ],
+        [
+          229,
+          26,
+          29
+        ]
+      ],
+      "terminal_2p__terminal_3p": [
+        [
+          149,
+          58,
+          5
+        ],
+        [
+          251,
+          88,
+          12
+        ],
+        [
+          263,
+          40,
+          30
+        ],
+        [
+          313,
+          38,
+          39
+        ],
+        [
+          337,
+          80,
+          29
+        ],
+        [
+          337,
+          32,
+          45
+        ],
+        [
+          389,
+          10,
+          61
+        ],
+        [
+          401,
+          58,
+          47
+        ]
+      ],
+      "terminal_3p__antiperiod_coordinate_0": [
+        [
+          53,
+          16,
+          3
+        ],
+        [
+          241,
+          98,
+          7
+        ],
+        [
+          317,
+          124,
+          11
+        ],
+        [
+          449,
+          196,
+          9
+        ],
+        [
+          509,
+          40,
+          71
+        ],
+        [
+          587,
+          124,
+          56
+        ],
+        [
+          587,
+          4,
+          96
+        ]
+      ],
+      "terminal_3p__antiperiod_coordinate_1": [
+        [
+          47,
+          4,
+          6
+        ],
+        [
+          109,
+          32,
+          7
+        ],
+        [
+          239,
+          52,
+          22
+        ],
+        [
+          269,
+          64,
+          23
+        ],
+        [
+          277,
+          50,
+          29
+        ],
+        [
+          317,
+          88,
+          23
+        ],
+        [
+          347,
+          112,
+          20
+        ],
+        [
+          373,
+          8,
+          59
+        ]
+      ],
+      "terminal_3p__antiperiod_coordinate_2": [
+        [
+          47,
+          4,
+          6
+        ],
+        [
+          67,
+          14,
+          6
+        ],
+        [
+          109,
+          32,
+          7
+        ],
+        [
+          199,
+          74,
+          8
+        ],
+        [
+          229,
+          8,
+          35
+        ],
+        [
+          239,
+          52,
+          22
+        ],
+        [
+          241,
+          86,
+          11
+        ],
+        [
+          269,
+          64,
+          23
+        ]
+      ]
+    },
+    "formally_solvable_rows": [],
+    "formally_solvable_six_equation_rows": 0,
+    "full_row_transcript_sha256": "be4b9b48cae43b2449bab7b9cf5499b8ac2d230e8004b0c0fe1bb333eddb618b",
+    "item223_transfer_survivors": 11,
+    "joint_item223_item228_survivors": 0,
+    "minor_zero_counts": {
+      "antiperiod_coordinate_0__antiperiod_coordinate_1": 8,
+      "antiperiod_coordinate_0__antiperiod_coordinate_2": 7,
+      "antiperiod_coordinate_1__antiperiod_coordinate_2": 15,
+      "bottom_p__antiperiod_coordinate_0": 14,
+      "bottom_p__antiperiod_coordinate_1": 5,
+      "bottom_p__antiperiod_coordinate_2": 4,
+      "bottom_p__terminal_2p": 11,
+      "bottom_p__terminal_3p": 2,
+      "terminal_2p__antiperiod_coordinate_0": 7,
+      "terminal_2p__antiperiod_coordinate_1": 10,
+      "terminal_2p__antiperiod_coordinate_2": 12,
+      "terminal_2p__terminal_3p": 11,
+      "terminal_3p__antiperiod_coordinate_0": 7,
+      "terminal_3p__antiperiod_coordinate_1": 15,
+      "terminal_3p__antiperiod_coordinate_2": 21
+    },
+    "prime_max_inclusive": 601,
+    "scope_warning": "no finite count is extrapolated to an all-prime theorem, density bound, or logarithmic rate"
+  },
+  "item": 230,
+  "parameters": {
+    "cell": "p=2r+6s+3, r=2h, h>=1, s>=1",
+    "finite_prime_max_inclusive": 601,
+    "source_replay_prime_max_inclusive": 151
+  },
+  "phase_transfer_theorem": {
+    "coefficientwise_antiperiod": "uhat_(t+2p)=-uhat_t mod p",
+    "coefficientwise_period": "uhat_(t+4p)=uhat_t mod p",
+    "exact_phase_period": "the terminal source has exact period four and antiperiod two for every p>=13",
+    "free_mode": "the post-terminal free mode has generating polynomial W=(1-z)^r(1+z^2)^(2s-1)",
+    "free_mode_support": "deg W=r+4s-2<p-3, so its entire next-terminal column vanishes identically",
+    "normalized_source_cycle_a_2_to_5": [
+      -4,
+      2,
+      4,
+      -2
+    ],
+    "normalized_state": "Z_a=epsilon*Y_a and mu=epsilon*lambda",
+    "one_phase_transfer": "Z_(a+1)=M*Z_a+b*w_a",
+    "terminal_indices": "t_a=2s+1+(a-2)p, so the exact leading multiplier is A_(t_a)=a*p",
+    "terminal_source": "ell_(a*p-1); in the unreduced pole p*u_(t_a+3)=ell_(a*p-1)/a and the factor a cancels exactly"
+  },
+  "rate_ledger": {
+    "full_cell_exclusion": "OPEN",
+    "j1_cell_mass_per_m_if_fully_excluded": "1/6",
+    "new_divisibility_exponent": 0,
+    "new_unconditional_linear_log_rate": 0,
+    "reason": "no all-prime augmented-minor inconsistency or zero-rate theorem is proved"
+  },
+  "schema": "item230-j1-phase-closure-v1",
+  "source_and_identity_replay": {
+    "actual_rows": 184,
+    "classification": "EXACT_REPLAY_OF_PROVED_IDENTITIES",
+    "direct_regularized_moment_evaluations": 2760,
+    "prime_max_inclusive": 151,
+    "source_row_stream_sha256": "068b1788aa3da03e7432bc45ec59728144006ca80ee79986abddc09a3e8ea440",
+    "source_rows": 736,
+    "state_row_stream_sha256": "fedf4c9f1f9ddce8c05d412e65f4b1715781fa60875224fe9f91c29f5ae62074",
+    "terminal_phases_per_row": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "unreduced_fraction_moment_evaluations": 2944,
+    "verified": [
+      "the exact terminal multiplier is a*p before reduction for a=2,3,4,5",
+      "p*u_(t_a+3)=ell_(a*p-1)/a before regularization",
+      "multiplication by a*p gives terminal source ell_(a*p-1), with a cancelling exactly",
+      "direct regularized coefficient sums obey every one-phase transfer",
+      "direct regularized coefficient sums obey Y_(a+2)=-Y_a and Y_(a+4)=Y_a",
+      "the terminal_2p__terminal_3p minor equals -epsilon times Item 228 Psi"
+    ]
+  },
+  "status_ledger": {
+    "EXACT_FINITE": [
+      "the direct source and coefficientwise identity replay through the declared source bound",
+      "the determinant and augmented-rank census through the declared finite bound"
+    ],
+    "OPEN": [
+      "all-prime inconsistency of the six-equation system",
+      "classification or zero-rate control of det(I+M^2)=0 rows",
+      "any positive Route-1 rate or radical saving from the j=1 cell"
+    ],
+    "PROVED": [
+      "the exact a*p terminal multiplier and ell_(a*p-1) source with the factor a retained and cancelled",
+      "the fixed one-phase affine transfer and exact vanishing of every post-terminal free column at the next phase",
+      "coefficientwise 2p antiperiodicity and 4p periodicity",
+      "the six-equation augmented-rank necessary criterion",
+      "regular-row equivalence when det(I+M^2) is nonzero"
+    ]
+  }
+}

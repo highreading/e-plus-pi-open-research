@@ -1,0 +1,238 @@
+{
+  "status": "PASS",
+  "scope": "Finite auxiliary Pascal/scalar implementation and complete contact identities; no original-family residual or norm-factor theorem",
+  "source_sha256": "43eb787f95d87e5e793b7ce439f9358739c3b22d60a83a5da1e554935c1e8f82",
+  "digit_table": {
+    "p": 29,
+    "table": [
+      1,
+      2,
+      8,
+      3,
+      20,
+      12,
+      14,
+      2,
+      13,
+      24,
+      22,
+      21,
+      21,
+      20,
+      6,
+      7,
+      17,
+      19,
+      6,
+      16,
+      4,
+      2,
+      2,
+      18,
+      25,
+      14,
+      15,
+      14,
+      1
+    ],
+    "zero_set": [],
+    "independent_coefficient_match": true,
+    "low_digit_product": 13
+  },
+  "scalar_cases": [
+    {
+      "n": 5,
+      "modulus": 177147,
+      "quotient_modulus": 59049,
+      "eta_residue": 94683,
+      "chi_residue": 161373,
+      "xi_residue": 8812,
+      "six_digit_pascal_lift_match": true,
+      "quadratic_scalar_match": true,
+      "full_force_contraction_match": true
+    },
+    {
+      "n": 8,
+      "modulus": 177147,
+      "quotient_modulus": 59049,
+      "eta_residue": 28803,
+      "chi_residue": 76368,
+      "xi_residue": 55915,
+      "six_digit_pascal_lift_match": true,
+      "quadratic_scalar_match": true,
+      "full_force_contraction_match": true
+    },
+    {
+      "n": 11,
+      "modulus": 177147,
+      "quotient_modulus": 59049,
+      "eta_residue": 19344,
+      "chi_residue": 46380,
+      "xi_residue": 32494,
+      "six_digit_pascal_lift_match": true,
+      "quadratic_scalar_match": true,
+      "full_force_contraction_match": true
+    },
+    {
+      "n": 14,
+      "modulus": 177147,
+      "quotient_modulus": 59049,
+      "eta_residue": 147540,
+      "chi_residue": 9282,
+      "xi_residue": 57505,
+      "six_digit_pascal_lift_match": true,
+      "quadratic_scalar_match": true,
+      "full_force_contraction_match": true
+    },
+    {
+      "n": 17,
+      "modulus": 177147,
+      "quotient_modulus": 59049,
+      "eta_residue": 94494,
+      "chi_residue": 145785,
+      "xi_residue": 5560,
+      "six_digit_pascal_lift_match": true,
+      "quadratic_scalar_match": true,
+      "full_force_contraction_match": true
+    },
+    {
+      "n": 20,
+      "modulus": 177147,
+      "quotient_modulus": 59049,
+      "eta_residue": 32331,
+      "chi_residue": 82155,
+      "xi_residue": 1723,
+      "six_digit_pascal_lift_match": true,
+      "quadratic_scalar_match": true,
+      "full_force_contraction_match": true
+    },
+    {
+      "n": 23,
+      "modulus": 177147,
+      "quotient_modulus": 59049,
+      "eta_residue": 156342,
+      "chi_residue": 96465,
+      "xi_residue": 12001,
+      "six_digit_pascal_lift_match": true,
+      "quadratic_scalar_match": true,
+      "full_force_contraction_match": true
+    },
+    {
+      "n": 26,
+      "modulus": 177147,
+      "quotient_modulus": 59049,
+      "eta_residue": 45894,
+      "chi_residue": 132987,
+      "xi_residue": 14659,
+      "six_digit_pascal_lift_match": true,
+      "quadratic_scalar_match": true,
+      "full_force_contraction_match": true
+    },
+    {
+      "n": 29,
+      "modulus": 177147,
+      "quotient_modulus": 59049,
+      "eta_residue": 37866,
+      "chi_residue": 2181,
+      "xi_residue": 36832,
+      "six_digit_pascal_lift_match": true,
+      "quadratic_scalar_match": true,
+      "full_force_contraction_match": true
+    },
+    {
+      "n": 32,
+      "modulus": 177147,
+      "quotient_modulus": 59049,
+      "eta_residue": 52716,
+      "chi_residue": 162669,
+      "xi_residue": 31648,
+      "six_digit_pascal_lift_match": true,
+      "quadratic_scalar_match": true,
+      "full_force_contraction_match": true
+    },
+    {
+      "n": 83,
+      "modulus": 177147,
+      "quotient_modulus": 59049,
+      "eta_residue": 30495,
+      "chi_residue": 129351,
+      "xi_residue": 58513,
+      "six_digit_pascal_lift_match": true,
+      "quadratic_scalar_match": true,
+      "full_force_contraction_match": true
+    },
+    {
+      "n": 245,
+      "modulus": 177147,
+      "quotient_modulus": 59049,
+      "eta_residue": 52122,
+      "chi_residue": 73461,
+      "xi_residue": 4729,
+      "six_digit_pascal_lift_match": true,
+      "quadratic_scalar_match": true,
+      "full_force_contraction_match": true
+    }
+  ],
+  "displacement_cases": [
+    {
+      "n": 6,
+      "b": 4,
+      "rows": [
+        1,
+        2
+      ],
+      "contact_generating_identity": true,
+      "contact_displacement": true,
+      "complete_force_displacement": true,
+      "first_force_homogeneity": true,
+      "log_force_homogeneity": true,
+      "three_column_rank": 3
+    },
+    {
+      "n": 7,
+      "b": 5,
+      "rows": [
+        1,
+        2,
+        3
+      ],
+      "contact_generating_identity": true,
+      "contact_displacement": true,
+      "complete_force_displacement": true,
+      "first_force_homogeneity": true,
+      "log_force_homogeneity": true,
+      "three_column_rank": 3
+    },
+    {
+      "n": 12,
+      "b": 7,
+      "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "contact_generating_identity": true,
+      "contact_displacement": true,
+      "complete_force_displacement": true,
+      "first_force_homogeneity": true,
+      "log_force_homogeneity": true,
+      "three_column_rank": 3
+    },
+    {
+      "n": 3,
+      "b": 3,
+      "rows": [
+        1
+      ],
+      "contact_generating_identity": true,
+      "contact_displacement": true,
+      "complete_force_displacement": true,
+      "first_force_homogeneity": true,
+      "log_force_homogeneity": true,
+      "three_column_rank": 3
+    }
+  ],
+  "artifact_sha256": "fee54a0e3bcae01d2e4b68001f2e27d5cd236b4afbff6cc7dfb5b050a31e2517"
+}

@@ -1,0 +1,76 @@
+{
+  "item": 379,
+  "schema": "item379-j1-primitive-gcd-local-height-manifest-v1",
+  "classification": "PROVED_LOCAL_GCD_FORMULA_LCM_HEIGHT_AND_SELECTOR_INVISIBILITY",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "prime-by-prime primitive gcd reduction, uniform exponential height, and actual-selector relevance for the Item376 normalized fixed-j1 carriers",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item376_j1_terminal_normalized_carrier_recurrence_barrier_report.md": "6104750dae85ecbb1fe3b0a0f1a702d7edd3ecbab33098e0f665a6438d49be37",
+    "scripts/item376_j1_terminal_normalized_carrier_recurrence_barrier_certificate.py": "828b19188cf954b15fc19aa4bbc803da9cbcb62421c20591ea148c5fc5042551",
+    "results/item376_j1_terminal_normalized_carrier_recurrence_barrier_certificate.json": "d6a367da2b86a0cdbcf6e7f1f284ed98875a27a98bcc4f90efe25f02ee68dadf",
+    "results/item376_j1_terminal_normalized_carrier_recurrence_barrier_ledger_delta.json": "f6b126b39bacc59fec3cf78e1911884f8b6c319675417743f05e5627b34ba9a3",
+    "results/item376_j1_terminal_normalized_carrier_recurrence_barrier_root_audit.json": "9f8eacb9ba180e5cd5f9999aa49631998f129c78e15386ee9063a83b20adc489",
+    "manifests/item376_j1_terminal_normalized_carrier_recurrence_barrier_manifest.json": "b7bba97013ed32ccae2228aff337493bda0478c50dcc49b6be885c901f77a733"
+  },
+  "artifacts": {
+    "report": {
+      "path": "sources/item379_j1_primitive_gcd_local_height_report.md",
+      "sha256": "478b630ba1f982982da35fc54e247aaa5624ecd8158eaf7f8c54e60d29c1d612",
+      "bytes": 9538
+    },
+    "certificate_script": {
+      "path": "scripts/item379_j1_primitive_gcd_local_height_certificate.py",
+      "sha256": "91ff429d4d1a19d17f30e9db0ce5d99c86be0544e929253dbe8360b2893c1ac3",
+      "bytes": 16302
+    },
+    "certificate": {
+      "path": "results/item379_j1_primitive_gcd_local_height_certificate.json",
+      "sha256": "697d5517f8b53d6c839e69bb4a41028e0f92bee20dbb34dca48f167366f7c5b4",
+      "bytes": 45449
+    },
+    "replay": {
+      "path": "results/item379_j1_primitive_gcd_local_height_certificate_replay.json",
+      "sha256": "697d5517f8b53d6c839e69bb4a41028e0f92bee20dbb34dca48f167366f7c5b4",
+      "bytes": 45449,
+      "byte_identical_to_certificate": true
+    },
+    "ledger": {
+      "path": "results/item379_j1_primitive_gcd_local_height_ledger_delta.json",
+      "sha256": "53f23a9baf27622bcecec8360b37095394d3bcc9790e0ebc1bc24140c9042a61",
+      "bytes": 4149
+    }
+  },
+  "theorems": [
+    "exact prime-by-prime formula for the primitive denominator and gcd exponent through one explicit local reverse-sum residue",
+    "both primitive denominators divide lcm(1,...,4h+3)",
+    "both primitive numerators have explicit uniform exponential height and logarithmic height O(h)",
+    "every primitive-gcd prime lies below the actual selector, so primitive reduction changes no selected-prime divisibility event",
+    "the remaining full product formula is exactly the local-residue cancellation problem below the selector cutoff"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "local gcd identities",
+      "lcm denominator bound",
+      "uniform exponential primitive-numerator height",
+      "selector invisibility of primitive reduction",
+      "zero booking and zero capacity reduction"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "ten predeclared h controls and four actual-row controls; no prime scan, collision census, recurrence guess, or extrapolation"
+    ],
+    "OPEN": [
+      "uniform local-residue evaluation for q<=4h+3",
+      "closed primitive-gcd product formula or primitive-numerator recurrence",
+      "selector-aware weighted zero density and any strict fixed-j1 capacity reduction"
+    ]
+  },
+  "capacity": {
+    "retained_shared_full_fixed_j1_ceiling_per_6M": "1/36",
+    "individual_height": "O(h)",
+    "direct_O_M_row_aggregate": "O(M^2)",
+    "new_booking": 0,
+    "new_capacity_reduction": 0
+  },
+  "replay_command": "python scripts/item379_j1_primitive_gcd_local_height_certificate.py --output results/item379_j1_primitive_gcd_local_height_certificate_replay.json"
+}

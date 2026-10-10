@@ -1,0 +1,35 @@
+{
+  "item": 309,
+  "schema": "item309-j2-l-second-branch-bridge-ledger-v1",
+  "classification": "PROVED_TRANSLATION_THEOREM",
+  "actual_family": {
+    "rays": [
+      "r=6n+1",
+      "r=6n+5"
+    ],
+    "n_domain": "n>=0",
+    "row_prime": "p=2r+6s+3",
+    "necessary_gate": "D_r=c*L_r+M_r, c=2^(2s)"
+  },
+  "proved_bridge": {
+    "L": "16^n*L_(6n+e)/g_n=mu_e*a_(6n+e)",
+    "mu_1": "-729/50",
+    "mu_5": "6377292/41405",
+    "M_from_item306": "16^n*M_(6n+e)/g_n=lambda_e*[x^(6n+e)]C_+(x)",
+    "lambda_1": "-891/100",
+    "lambda_5": "3897234/41405",
+    "combined": "16^n*D_r/g_n=2^(2s)*mu_e*a_r+lambda_e*[x^r]C_+(x)"
+  },
+  "strategic_effect": {
+    "single_line_reuse_no_go_from_item294": "resolved by the distinct y=-1 local branch",
+    "minimal_enlarged_module": "<C_+,C_-> on the same algebraic curve",
+    "translation_only": true,
+    "all_prime_nonvanishing": false,
+    "weighted_zero_density": false,
+    "capacity_reduction": 0,
+    "booking": 0,
+    "ordinary_j2_ceiling_per_6M_after_item309": "1/105"
+  },
+  "smallest_open_arithmetic_theorem": "weighted logarithmic mass o(M) for actual tied prime rows where 2^(2s)*mu_e*a_(6n+e)+lambda_e*[x^(6n+e)]C_+(x)=0 mod p, with s=1,...,6 singular layers cleared separately",
+  "warning": "L alone is not a collision gate, D=0 is necessary but not sufficient for the remaining actual period incidence, and no recurrence theorem is a density theorem"
+}

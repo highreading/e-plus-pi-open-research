@@ -1,0 +1,64 @@
+{
+  "item": 367,
+  "schema": "item367-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_SUB_BETA_AFFINE_RATIONAL_CARRIER_DICHOTOMY",
+  "scope": "independent root audit of the actual cross-n beta family, continued-fraction short-linear-form bound, affine-rational height dichotomy, fixed-window reduction, and zero-booking capacity conclusion",
+  "checks": {
+    "work_hash_list_entries": 6,
+    "work_hash_list_failures": 0,
+    "frozen_dependencies_checked": 19,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "independent_continued_fraction_rows": 16,
+    "independent_linear_pairs": 23152,
+    "independent_affine_triples": 939024,
+    "independent_fixed_window_coordinates": 138,
+    "independent_rows_digest": "0534db71301470578d5e4e416803357eb7672a2c9401e275eb267ba8152c29bb",
+    "prime_or_target_census_performed": false,
+    "density_inference_from_finite_controls": false,
+    "canonical_scope_repairs": [
+      "restored two missing TeX backslashes in the admission paragraph",
+      "made the b<A^2 c step explicit via a=(A-4)c+q_(n-3) and q_(n-3)<c"
+    ]
+  },
+  "mathematical_audit": {
+    "continued_fraction": "Continuant reversal gives a/c=[w_m;...;w_1], with every partial quotient at most A. The last convergent has denominator c and is unavailable when B<c.",
+    "linear_form": "For a reduced r/s=-beta/alpha, Legendre's contrapositive handles nonconvergents and the standard next-denominator bound handles proper convergents, yielding |alpha*a+beta*c|>=c/((A+2)B). Restoring the common divisor only strengthens the bound.",
+    "affine_shift": "When 2(A+2)B^2<c, a shift |gamma|<=B removes at most half the linear-form lower bound. Dividing by D<=B gives |H|>=c/(2(A+2)B^2).",
+    "asymptotic_scale": "The recurrence gives a=(A-4)c+q_(n-3) with q_(n-3)<c, hence c<a<(A-3)c and b=Aa+c<A^2c. Therefore log c=log b+O(log n), while log B=o(log b), so every q-dependent branch has log|H|=(1+o(1))log b.",
+    "residual": "If alpha=beta=0, the nonzero integer H=gamma/D has sub-beta height. It would close the branch only after proving the actual divisibility U_11|H; no such residual is constructed.",
+    "method_scope": "Fixed q-windows and affine recurrences are covered only when their unrolled reduced coefficient height is sub-beta. Fixed recurrence order by itself is not closed, as an order-one product accumulator may have beta-scale height.",
+    "capacity": "A one-copy q-dependent carrier cannot prove zero rate or any fixed fractional saving. Since the q-free divisibility implication remains open, booking and capacity reduction are both zero."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "cross-n actual-family formulation",
+      "short-linear-form lower bound",
+      "affine-rational height dichotomy",
+      "fixed-window and sub-beta unrolled-affine corollaries",
+      "zero booking"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "candidate-independent q-dependent affine-rational carriers with sub-beta reduced coefficient and denominator height",
+      "zero-rate or fixed-fraction savings from that class"
+    ],
+    "OPEN": [
+      "q-free residual with actual U_11 divisibility",
+      "beta-height iterated recurrences and nonlinear/gcd/radical carriers",
+      "weighted singleton and beta-capacity bounds",
+      "Route 1 and e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_singleton_maximum": "log U_11<=log b",
+    "q_dependent_carrier_height": "(1+o(1))log b",
+    "q_dependent_fixed_fraction_saving": 0,
+    "q_free_residual_divisibility": "OPEN",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "new_booking": 0
+  }
+}

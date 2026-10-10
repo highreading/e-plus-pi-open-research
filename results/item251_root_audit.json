@@ -1,0 +1,75 @@
+{
+  "schema": "item251-root-audit-v1",
+  "item": 251,
+  "audited_date_beijing": "2026-08-31",
+  "disposition": "accepted for archive with zero rate booking",
+  "root_correction": {
+    "kind": "notation only",
+    "description": "Equation (6.3) now states Euler's criterion modulo p instead of displaying an integer equality between 2^((p-1)/2) and the Legendre symbol.",
+    "checker_or_mathematics_changed": false
+  },
+  "sealed_artifacts_after_root_correction": {
+    "report_sha256": "7a27bde15627ed233d59755b85e69a434b357600c20996b378a24a4e4ff56260",
+    "checker_sha256": "a255ebeef0d73ef82bc6197a1f3f88c9522b6d8408f449971911702842c92f61",
+    "canonical_sha256": "343cf92daf3acfabee68d09885810f71cd3b582cea08801a548c9b293676d697",
+    "replay_sha256": "343cf92daf3acfabee68d09885810f71cd3b582cea08801a548c9b293676d697",
+    "strict_ledger_sha256": "41da35849ccee1af533e66e6aac9be4f76282365e3fab3dce7c24d3063a0c9b3",
+    "manifest_sha256": "497ebe4e194db496be422fd7e337de0fe0d18cf96b6abd5474422dacaa417ee0",
+    "hash_ledger_sha256": "1888b488bfbb3e2a056902ace14abca4b2e131610395f0b7d3a361d7a1411b16"
+  },
+  "dependency": {
+    "item250_j2_ordinary_phase_certificate.py": "2364a9e9c9be0ea0827c2b12137883ad326d77017a53bb4f242be300335e90ce",
+    "hash_match": true
+  },
+  "portable_replay": {
+    "isolated_archive_style_runs": 2,
+    "canonical_replay_byte_identical": true,
+    "output_matches_sealed_canonical": true,
+    "output_sha256": "343cf92daf3acfabee68d09885810f71cd3b582cea08801a548c9b293676d697",
+    "manifest_validation_failures": 0,
+    "control_bytes": 0
+  },
+  "independent_telescoping_audit": {
+    "imports_item_code": false,
+    "script_sha256": "1a410005650b82cbc32b8694395954a7f36e4e4ccf4473c102fead4b79526e92",
+    "result_sha256": "ece1009ff6b576289f3d11dfa665412bedbcafedb96f02091d609ab83aa244d2",
+    "cleared_s_degree_bound": 6,
+    "exact_interpolation_points": 8,
+    "binomial_diagonal_integral_and_recurrence_rows": 50
+  },
+  "independent_period_audit": {
+    "imports_item_code": false,
+    "script_sha256": "bb964531d5b0bbe58ae51c12da8b63662386e93032446b0f5a00f00ab2826f15",
+    "result_sha256": "59d434a5303a40b6364760d82b07785cf50e78956007bdb927ab4b9568f5b234",
+    "exact_tail_ratio_checks": 220,
+    "actual_rows_through_p_401": 1153,
+    "period_equalities_per_row": 3,
+    "scalar_counterexamples_reproduced": [
+      "A_3=1023",
+      "Delta_4=577280"
+    ]
+  },
+  "coordinated_item252_cross_check": {
+    "formula_rows_through_p_401": 1153,
+    "normalization_and_sign_match": true,
+    "remaining_coordinate": "one moving half-binomial prefix H_m"
+  },
+  "root_mathematical_audit": {
+    "beta_and_tail_normalization_checked": true,
+    "algebraic_generating_function_checked": true,
+    "telescoping_endpoints_checked": true,
+    "increment_factorization_checked": true,
+    "rank_zero_branch_retained": true,
+    "scalar_zeros_not_promoted_to_gate_collisions": true
+  },
+  "labels": {
+    "proved": "exact surviving-period formula, algebraic/recurrence structure, rank-aware second condition, and unit audit",
+    "exact_finite_only": "phase replay through p<=401 and scalar scan through p<=20000",
+    "open": "all-prime or sufficient zero-density control of the second residual and rank-zero branch"
+  },
+  "booking": {
+    "new_unconditional_linear_log_rate": 0,
+    "capacity_reduction": 0,
+    "route1_conclusion": "none"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "item": 399,
+  "schema": "item399-j2-raywise-chosen-prime-invariant-manifest-v1",
+  "classification": "PROVED_CHOSEN_PRIME_INVARIANT_AND_NORM_SELECTOR_OBSTRUCTION_WITH_ETA_ZERO",
+  "checked_date_beijing": "2026-09-01",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "work/item397_j2_matched_aggregate_factor_localization_report.md": "4f30aab79be7039866bbad7e71cc545bd0e553d51d1166b77cb3d5f5371476ee",
+    "work/item397_j2_matched_aggregate_factor_localization_certificate.py": "a19e171528352fb4945dff288bbdc9916186817d1d4578db9a7a1c9bf6686c48",
+    "work/item397_j2_matched_aggregate_factor_localization_certificate.json": "bf1357c4a4740487e6f251c80da7781fcdd00c0bc0c84a3888f2bf4507be9a66",
+    "work/item341_j2_diagonal_affine_state_report.md": "42f6ccd326e385f8034abe322756517a30a93d7468b3e6f85cbca3dba8080cb4",
+    "work/item341_j2_diagonal_affine_state_certificate.py": "2faefea6477bb74d735d82e763191bb690d970b8f6eedfd8dbda276c93ce529e",
+    "work/item341_j2_diagonal_affine_state_certificate.json": "75c05cb486e5a5a6f9af5dda2e62f2a4b81cb888a15eb19ecabd10a382625cb4",
+    "work/item347_j2_chosen_prime_kummer_conductor_obstruction_report.md": "7845d01648f4860dee7cee0c12b5711693183015c99e25e923a9e49f316f5eea",
+    "work/item347_j2_chosen_prime_kummer_conductor_obstruction_certificate.py": "6726a0c257beeb3fa8d231014b685691588c7c8a090d8d60e66cdfb352b04340",
+    "work/item347_j2_chosen_prime_kummer_conductor_obstruction_certificate.json": "bd861233e0a37c6cd6e0d091d244f67e42c7bd65702d77f951e9341ad681159d",
+    "work/item349_j2_degenerate_triple_minor_carrier_report.md": "aec5a8bc6dd8996a3578e4cbc7975afad6247ddb32d03f6deca72b97af86b50d",
+    "work/item394_j2_matched_modulus_aggregate_collapse_report.md": "f0fd654dc80ad3c0eab26abfd8f8741e89ba572f825ef5afd214f2c149c01204"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item399_j2_raywise_chosen_prime_invariant_report.md",
+      "sha256": "6c7aec34049d0ed74676166d746eeb5b256f2ff45fb8409671688abd4b4fbf26",
+      "bytes": 11959
+    },
+    "certificate_script": {
+      "path": "work/item399_j2_raywise_chosen_prime_invariant_certificate.py",
+      "sha256": "5bebddbb42599033f21204f00b7b1232e0e2246df5e01fcb83d32fdcca0dafa7",
+      "bytes": 12759
+    },
+    "certificate": {
+      "path": "work/item399_j2_raywise_chosen_prime_invariant_certificate.json",
+      "sha256": "0dd4c14797e560ac4d6012c82187fd437dfd32147180dcd06e439b6893a1bb82",
+      "bytes": 8589
+    },
+    "replay": {
+      "path": "work/item399_j2_raywise_chosen_prime_invariant_certificate_replay.json",
+      "sha256": "0dd4c14797e560ac4d6012c82187fd437dfd32147180dcd06e439b6893a1bb82",
+      "bytes": 8589,
+      "byte_identical_to_certificate": true
+    },
+    "ledger_delta": {
+      "path": "work/item399_j2_raywise_chosen_prime_invariant_ledger_delta.json",
+      "sha256": "98df9899f30fee80941ac213290a9a2acba0fe14d171232b22fd45822bcb25e4",
+      "bytes": 3057
+    }
+  },
+  "theorems": [
+    "the actual nondegenerate collision is exactly the selected-prime ideal condition p|E and P_p|Xi",
+    "Xi retains the moving target and actual ordered cutoff at the specified Teichmuller prime",
+    "Galois conjugation multiplicatively permutes the cutoff, so the rational norm loses the selector",
+    "the presently certified norm has O(M^2 log M) logarithmic height per row and cannot bound O(M) ray mass",
+    "one complete ray has normalized capacity 1/210, but no positive ray exclusion is proved"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "chosen-prime residual invariant",
+      "nondegenerate two-coordinate ideal",
+      "norm-selector obstruction",
+      "norm-height and ray-capacity audits",
+      "eta-zero conclusion"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared actual-row target, Jacobi, and cutoff-orbit replays"
+    ],
+    "OPEN": [
+      "positive-density or zero-rate exclusion on either ray",
+      "the selected-prime nondegenerate theorem",
+      "the degenerate target-retaining theorem",
+      "Route 1 and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "proved_eta_per_M": 0,
+    "one_ray_normalized_per_6M": "1/210",
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_booking": 0,
+    "new_capacity_reduction": 0
+  },
+  "replay_command": "python work/item399_j2_raywise_chosen_prime_invariant_certificate.py --replay work/item399_j2_raywise_chosen_prime_invariant_certificate.json --output work/item399_j2_raywise_chosen_prime_invariant_certificate_replay.json"
+}

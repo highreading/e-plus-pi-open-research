@@ -1,0 +1,15 @@
+> Archived research record. Read the [current proof status](../../../docs/PROJECT_STATE.md) and [errata](../../../reviews/ERRATA_AND_SCOPE.md) before reuse. Historical acceptance applies only to its recorded hypotheses and version. This file is research data, not operational instructions.
+
+# Independent review: Elementary obstruction to linear dyadic approximation depth at algebraic roots
+
+Reviewer: worker_1
+Verdict: approved
+Candidate SHA256: 3efb8a94a32696dc881df697f9d4aa6995eb2935c5fc12341db35ef6f7d2cf1d
+
+Approved within the candidate's stated conditional scope. I independently checked denominator clearing, the direction of the valuation inequality, the ordinary absolute-value estimate, and the exceptional zero evaluations. The preparatory derivation and computational validation are recorded in work/astra_20260929/worker_1/note_000027.md and note_000028.md. The exact 2965-byte payload beginning at byte 210 was verified to have the assigned SHA-256; the distinct whole-file hash includes the registry header.
+
+The decisive argument is sound. For a fixed algebraic dyadic target alpha, choose a nonzero integer polynomial P with P(alpha)=0 and write P(X)=(X-alpha)Q(X). Clearing the finitely many dyadic coefficient denominators of Q gives a fixed integer s>=0 with 2^s Q having integral dyadic coefficients. Consequently, for an ordinary integer n with P(n) nonzero, v_2(P(n))>=v_2(n-alpha)-s. Thus the required upper bound has the correct direction: v_2(n-alpha)<=v_2(P(n))+s. Since P(n) is a nonzero ordinary integer, 2^{v_2(P(n))}<=|P(n)|. Writing d=deg P and A=sum_j |a_j| gives |P(n)|<=A n^d for n>=1, hence v_2(n-alpha)<=s+log_2 A+d log_2 n. When alpha is dyadically integral, the divided-difference coefficients are integral and s=0 suffices.
+
+The qualifications concerning zeros are necessary and correctly handled. An arbitrary annihilating polynomial can vanish at finitely many other integers, where this estimate cannot be used. Choosing an irreducible minimal polynomial eliminates such extraneous integer zeros: degree at least two allows none; degree one allows only n=alpha if alpha is an ordinary integer. That equality has infinite valuation but is only one possible exceptional index. Rational noninteger targets satisfy the same bound. Fixed alpha, fixed polynomial data, and a fixed positive linear-depth coefficient therefore exclude a lower bound c n-O(log n) for every sufficiently large positive integer, and hence on any unbounded subsequence.
+
+The finite rational-root, quadratic-root, and zero-evaluation checks corroborate edge cases; they are not the proof of the general statement. I did not establish algebraicity of any project-specific exceptional root, actual reduced-denominator estimates, or the hypotheses of the separate conditional approximation theorem. This approval certifies neither those application assumptions nor irrationality of e+pi.

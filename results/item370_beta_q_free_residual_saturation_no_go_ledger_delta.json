@@ -1,0 +1,75 @@
+{
+  "schema": "item370-beta-q-free-residual-saturation-no-go-ledger-delta-v1",
+  "item": 370,
+  "date": "2026-09-01",
+  "classification": "PROVED_Q_FREE_GENERIC_SINGLETON_RESIDUAL_SATURATION",
+  "actual_family": {
+    "assumption": "genuine canonical Item316 target",
+    "data": "unique canonical word, retained nonzero loads, external t-avoidance, Q^[1], and U_11",
+    "capacity_admission": "a nonzero p-independent q-free residual H with U_11|H and log|H|=o(log b) would prove zero rate"
+  },
+  "residual_class": {
+    "form": "endpoint-reduced G_n(d2,X_1,...,X_N)/V_n(d2,X_1,...,X_N)",
+    "prime_independence": "integer numerator and denominator do not depend on the candidate prime",
+    "denominator": "V_n is a unit on every assigned externally t-saturated singleton chart",
+    "forcing": "generic polynomial identity on localized singleton charts, not accidental equality only at the actual point"
+  },
+  "proved": {
+    "chart_kernel": "ker(product_j chart_j)=intersection_j(X_j)=(product_j X_j)",
+    "degree_support": "a noncontent numerator assigned all N charts has load degree at least N and involves every active load",
+    "bounded_window": "a numerator omitting an assigned row must be the zero polynomial modulo p",
+    "portfolio": "a noncontent member assigned S_l has degree at least |S_l|; an all-noncontent full cover has total degree at least N",
+    "content_capture": "a low-degree or omitted-row numerator forced generically modulo p has p dividing every coefficient",
+    "actual_content_implication": "if every actual U_11 prime enters a content branch, U_11 divides the product of the corresponding nonzero coefficient contents",
+    "unit_denominator": "a p-unit rational denominator cannot evade numerator saturation"
+  },
+  "inadmissible": {
+    "zero_residual": "no nonzero height carrier",
+    "candidate_dependent_constant": "inserts p or reassembles U_11 by CRT",
+    "vanishing_denominator": "undefined quotient, not a numerator zero"
+  },
+  "scoped_no_go": {
+    "closes": [
+      "primitive nonzero generic residuals of load degree below N",
+      "generic bounded-window residuals omitting a possible singleton chart",
+      "all-noncontent bounded portfolios with total degree below covered rows",
+      "p-unit rational denominators as an escape"
+    ],
+    "does_not_close": [
+      "actual one-point canonical correlations",
+      "nonzero sub-beta coefficient content with actual divisibility",
+      "full-support degree-N recurrence states",
+      "beta-height product and gcd/radical arithmetic",
+      "the actual singleton mass or Route 1"
+    ]
+  },
+  "strict_labels": {
+    "PROVED": [
+      "endpoint-reduced singleton-chart saturation",
+      "load degree/support lower bound",
+      "portfolio noncontent degree bound",
+      "coefficient-content carrier implication",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared sparse-monomial, content, and product-accumulator controls; no actual prime or target census"
+    ],
+    "OPEN": [
+      "nonzero sub-beta actual content carrier",
+      "unique-canonical-point correlations",
+      "full-support and beta-height recurrences",
+      "nonlinear gcd/radical, trace, quotient, and finite-field arithmetic",
+      "U_11, growing low incidence, Xi_Q, squarefull excess, beta capacity, Route 1, e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_singleton_maximum": "log b",
+    "closed_class_content_carrier": "product of nonzero coefficient contents",
+    "sub_beta_content_would_prove": "log U_11=o(log b)",
+    "constructed_nonzero_actual_content_carrier": false,
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "booking": 0
+  },
+  "canonical_files_modified": false
+}

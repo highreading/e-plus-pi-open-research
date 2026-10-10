@@ -1,0 +1,107 @@
+{
+  "schema": "item283-beta-bounded-homogeneous-sum-ledger-v1",
+  "scope": "Prime-independent bounded-sparsity, bounded-degree homogeneous sums of moving-gap beta continuant/Casoratian monomials against Item265 de-overlapped targets",
+  "claims": [
+    {
+      "id": "I283-C1",
+      "label": "PROVED",
+      "claim": "Fixed sparsity and degree, coefficient log-height O(log n), and O(n/log n) gap budget per monomial give conservative residual sum height O(n).",
+      "evidence": "report Section 2 and Item276 one-gap bounds",
+      "scope_limit": "gaps may move with n but must be specified independently of target factorization"
+    },
+    {
+      "id": "I283-C2",
+      "label": "PROVED",
+      "claim": "For homogeneous degree K and every Q|q_n, the scalar-Casoratian sum and primitive residual sum have the same gcd with Q.",
+      "evidence": "report Section 3; every monomial carries the same boundary unit (-q_(n+1)^2)^K",
+      "scope_limit": "nonhomogeneous sums have different boundary-unit powers and remain open"
+    },
+    {
+      "id": "I283-C3",
+      "label": "PROVED",
+      "claim": "With B the gcd of all residual terms, G0=gcd(Q,B), G=gcd(Q,R), and X=G/G0, the sum-only cancellation quotient X divides R/B.",
+      "evidence": "report Section 4, exact primewise valuation difference",
+      "scope_limit": "the residual R is required to be nonzero for a height certificate"
+    },
+    {
+      "id": "I283-C4",
+      "label": "PROVED_SCOPED_CAPACITY_BOUND",
+      "claim": "The whole sum-only quotient has log X=O(n)=o(n log n), hence zero Route-1 rate at the Item265 beta saddle.",
+      "evidence": "report equations (1.14)-(1.16)",
+      "scope_limit": "a locally linear O(n) cancellation factor is not excluded"
+    },
+    {
+      "id": "I283-C5",
+      "label": "PROVED_ACTUAL_TARGET_IMPLICATION",
+      "claim": "If Q divides the residual sum, then Q/G0 divides R/B and has logarithmic height O(n).",
+      "evidence": "report equation (1.15) and Section 4",
+      "scope_limit": "the common baseline G0 remains an Item282 product-return channel"
+    },
+    {
+      "id": "I283-C6",
+      "label": "PROVED_SUM_DICHOTOMY",
+      "claim": "A unique least p-adic term valuation gives v_p(R) equal to that minimum; only tied minima can contribute to the cancellation quotient.",
+      "evidence": "report Section 5",
+      "scope_limit": "tied cancellation may touch a prime absent from every selected return, but is bounded globally by R/B"
+    },
+    {
+      "id": "I283-C7",
+      "label": "PROVED_IDENTITY_DICHOTOMY",
+      "claim": "A nonzero O(n)-height residual cannot force full q_n-divisibility for all large n; an identically zero residual can force homogeneous scalar divisibility but gives no nonzero height bound.",
+      "evidence": "report Section 7 and log q_n=n log n+O(n)",
+      "scope_limit": "proper de-overlapped target divisibility is not excluded and obeys the O(n) leftover bound"
+    },
+    {
+      "id": "I283-C8",
+      "label": "PROVED_PRODUCT_BASELINE_SPLIT",
+      "claim": "Up to O(log n) coefficient height, the common baseline G0 is captured by any one residual product term and belongs to the Item282 product channel.",
+      "evidence": "report Section 6",
+      "scope_limit": "Item283 does not bound the unresolved weighted-return baseline"
+    },
+    {
+      "id": "I283-C9",
+      "label": "PROVED_DEOVERLAP",
+      "claim": "Every statement holds for any Q dividing q_n/gcd(q_n,D_m), so the clearing reservoir is removed before cancellation capacity is measured.",
+      "evidence": "report Sections 1, 4, and 8",
+      "scope_limit": "the transverse matching correlation remains open"
+    },
+    {
+      "id": "I283-C10",
+      "label": "EXACT_FINITE_ONLY",
+      "claim": "The deterministic checker replays moving-gap heights, homogeneous scalar reduction, cancellation divisibility, target implication, unique/tied minima, and the zero-identity branch.",
+      "evidence": "canonical certificate row digests",
+      "scope_limit": "cancellation rows are algebraic witnesses only; no prime census or asymptotic extrapolation is performed"
+    },
+    {
+      "id": "I283-C11",
+      "label": "PROVED_BOOKING_DECISION",
+      "claim": "The sum-only branch has zero normalized rate, but the open product baseline prevents a new beta capacity reduction; booking remains zero.",
+      "evidence": "report Sections 8-9",
+      "scope_limit": "Route 1 and every conclusion about e+pi remain open"
+    }
+  ],
+  "strict_labels": {
+    "bounded_homogeneous_residual_height": "PROVED",
+    "homogeneous_scalar_reduction": "PROVED",
+    "normalized_cancellation_invariant": "PROVED",
+    "sum_only_capacity": "PROVED O(n)=o(n log n) CEILING",
+    "actual_target_leftover": "PROVED O(n) CEILING",
+    "unique_tied_minimum_split": "PROVED",
+    "fixed_identity_dichotomy": "PROVED SCOPED NO-GO",
+    "common_product_baseline": "OPEN VIA ITEM282",
+    "nonhomogeneous_or_unbounded_sums": "OPEN; NOT PROVED",
+    "clearing_reservoir_deoverlap": "PROVED",
+    "bounded_checks": "EXACT FINITE ONLY",
+    "positive_linear_capacity_admission": "FAIL",
+    "new_route1_rate": "0",
+    "new_beta_capacity_reduction": "0"
+  },
+  "open": [
+    "the Item282 product baseline and weighted-return cover",
+    "nonhomogeneous sums with different boundary-unit degrees",
+    "unbounded sparsity or total degree and arbitrary block or Hankel determinants",
+    "the uniform prime-power-height or little-oh squarefull theorem",
+    "the clearing-divisor and transverse matching correlation",
+    "Route 1 and every conclusion about e+pi"
+  ]
+}

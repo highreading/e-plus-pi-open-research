@@ -1,0 +1,151 @@
+{
+  "certificate": "mixed_extension_moment_kernel",
+  "checks": {
+    "adjoint_example_D_minus_one_obstruction_at_i": true,
+    "adjoint_example_D_minus_one_obstruction_at_minus_i": true,
+    "adjoint_example_endpoint_period_zero": true,
+    "adjoint_example_first_split_equation": true,
+    "adjoint_example_r_formula": true,
+    "adjoint_example_second_split_equation": true,
+    "adjoint_factorization_matches_expanded_form": true,
+    "polynomial_normal_forms_through_cutoff": true,
+    "quadratic_boundary_map_is_onto_1_e_pi_span": true,
+    "simple_pole_at_2_is_not_D_minus_one_exact": true,
+    "w_satisfies_factored_scalar_operator": true
+  },
+  "diagnostics_not_proofs": {
+    "kappa_0": "2.5645934990166531028380080380475608717643284907395693328319847427234184320873637174130370121626462174478195095",
+    "kappa_1": "-1.050370534697706349001372682539743367747934092818167476846725072991271114843823762008690583014089965839184003",
+    "moment_r_1": "-2.5645934990166531028380080380475608717643284907395693328319847427234184320873637174130370121626462174478195095",
+    "moment_r_z": "-1.5142229643189467538366353555078175040163943979214018559852596697321473172435399554043464291485562516086355065",
+    "polynomial_core_pslq_maxcoeff": "1e50",
+    "polynomial_core_pslq_result": null,
+    "polynomial_core_pslq_vector": [
+      "1",
+      "e",
+      "pi",
+      "kappa_0",
+      "kappa_1"
+    ],
+    "precision_decimal_digits": 220,
+    "real_simple_pole_values": [
+      "-0.71782733632507166429315578283336722951268833631939506663953908014873768657223880160101456513922747320191780155",
+      "-0.99960635238188409734790741249358865094320096567771755531927596195359040721854484562322776098317936181508738479",
+      "-1.6559952717643203532516638615479493570507920411074864552425773423766852491896817111124139461259841847922688942",
+      "1.8776780872754054961645056326378858005297193401344871885500974477533286356876014495281722553298421957162796282",
+      "1.0757265300095276626110639835292947626902002020859204225713348373862896377362252024379101131514659482958347559",
+      "0.7561812063495614829220389646226222798542683151370881632059874859830179148259500379805228750397896548403688004"
+    ],
+    "real_simple_poles": [
+      -3,
+      -2,
+      -1,
+      2,
+      3,
+      4
+    ],
+    "simple_pole_pslq_maxcoeff": "1e20",
+    "simple_pole_pslq_result": null,
+    "simple_pole_pslq_vector": [
+      "1",
+      "e",
+      "pi",
+      "K_1/(z-(-3))",
+      "K_1/(z-(-2))",
+      "K_1/(z-(-1))",
+      "K_1/(z-(2))",
+      "K_1/(z-(3))",
+      "K_1/(z-(4))"
+    ],
+    "weighted_mean_moment_z_over_moment_1": "0.59043390888245958126129083216195646349643604397327180225587697220494409581432328300089768161519407674902452951"
+  },
+  "exact_data": {
+    "A_phi": "-z*(z - 1)*(z**4 - 3*z**3 + z**2 - 5*z + 2)/(z**2 + 1)",
+    "B_phi": "4*z**2*(z - 1)**2/(z**2 + 1)",
+    "D_minus_one_hermite_obstruction_order_5": "c1 - c2 + c3/2 - c4/6 + c5/24",
+    "general_boundary_interpolant": "lambda_0*z**2/2 - lambda_e*z**2/4 + lambda_e*z/2 - lambda_e/4 - lambda_pi*z**2 + lambda_pi*z",
+    "general_boundary_value": "lambda_0 + E*lambda_e + pi*lambda_pi",
+    "h=q'/q-1": "-(z + 1)**2/(z**2 + 1)",
+    "phi": "z**2*(1 - z)**2",
+    "polynomial_core_basis": [
+      "r=-1 (A=1)",
+      "r=1-z (A=z)"
+    ],
+    "polynomial_normal_form_cutoff": 12,
+    "polynomial_normal_forms": [
+      {
+        "A_remainder_mod_z2_plus_1": "-1",
+        "P_normal": "1",
+        "n": 0
+      },
+      {
+        "A_remainder_mod_z2_plus_1": "-z - 1",
+        "P_normal": "z",
+        "n": 1
+      },
+      {
+        "A_remainder_mod_z2_plus_1": "-2*z - 1",
+        "P_normal": "2*z - 1",
+        "n": 2
+      },
+      {
+        "A_remainder_mod_z2_plus_1": "-5*z - 3",
+        "P_normal": "5*z - 2",
+        "n": 3
+      },
+      {
+        "A_remainder_mod_z2_plus_1": "-20*z - 13",
+        "P_normal": "20*z - 7",
+        "n": 4
+      },
+      {
+        "A_remainder_mod_z2_plus_1": "-101*z - 65",
+        "P_normal": "101*z - 36",
+        "n": 5
+      },
+      {
+        "A_remainder_mod_z2_plus_1": "-606*z - 389",
+        "P_normal": "606*z - 217",
+        "n": 6
+      },
+      {
+        "A_remainder_mod_z2_plus_1": "-4241*z - 2723",
+        "P_normal": "4241*z - 1518",
+        "n": 7
+      },
+      {
+        "A_remainder_mod_z2_plus_1": "-33928*z - 21785",
+        "P_normal": "33928*z - 12143",
+        "n": 8
+      },
+      {
+        "A_remainder_mod_z2_plus_1": "-305353*z - 196065",
+        "P_normal": "305353*z - 109288",
+        "n": 9
+      },
+      {
+        "A_remainder_mod_z2_plus_1": "-3053530*z - 1960649",
+        "P_normal": "3053530*z - 1092881",
+        "n": 10
+      },
+      {
+        "A_remainder_mod_z2_plus_1": "-33588829*z - 21567139",
+        "P_normal": "33588829*z - 12021690",
+        "n": 11
+      },
+      {
+        "A_remainder_mod_z2_plus_1": "-403065948*z - 258805669",
+        "P_normal": "403065948*z - 144260279",
+        "n": 12
+      }
+    ],
+    "q": "-4/(z**2 + 1)",
+    "r_phi": "(z**8 - 8*z**7 + 17*z**6 - 24*z**5 + 37*z**4 - 24*z**3 + 23*z**2 - 16*z + 2)/(z**2 + 1)**2",
+    "scalar_L_factorization": "(D-(q'/q-1))*(D+1)",
+    "scalar_L_star_factorization": "(D-1)*(D+(q'/q-1))",
+    "single_pole_nonvanishing": "K_{1/(z-alpha)} is a nonzero Stieltjes transform for alpha outside [0,1]",
+    "split_boundary_phi": "0"
+  },
+  "mpmath_version": "1.3.0",
+  "sympy_version": "1.14.0"
+}

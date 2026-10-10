@@ -1,0 +1,85 @@
+{
+  "item": 355,
+  "schema": "item355-j2-target-residual-large-sieve-obstruction-manifest-v1",
+  "classification": "PROVED_EXACT_TARGET_RESIDUAL_PARSEVAL_AND_FIXED_M_SELECTOR_OBSTRUCTION",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual tied-prime ordinary-j2 nondegenerate target residuals, transverse second moments, and fixed-M selector capacity",
+  "dependencies": {
+    "sources/item341_j2_diagonal_affine_state_report.md": "42f6ccd326e385f8034abe322756517a30a93d7468b3e6f85cbca3dba8080cb4",
+    "results/item341_j2_diagonal_affine_state_certificate.json": "75c05cb486e5a5a6f9af5dda2e62f2a4b81cb888a15eb19ecabd10a382625cb4",
+    "results/item341_j2_diagonal_affine_state_root_audit.json": "d5c810346f9181f10d38e9f5ae2e250a8c880e32f97cbc5bef91f6bd37f61a27",
+    "manifests/item341_j2_diagonal_affine_state_manifest.json": "fc073e4c11a2d9ab519f0b5babae6f9f95e2e8cf9e8cbcf05c4c8ca8ba155000",
+    "sources/item347_j2_chosen_prime_kummer_conductor_obstruction_report.md": "7845d01648f4860dee7cee0c12b5711693183015c99e25e923a9e49f316f5eea",
+    "results/item347_j2_chosen_prime_kummer_conductor_obstruction_certificate.json": "bd861233e0a37c6cd6e0d091d244f67e42c7bd65702d77f951e9341ad681159d",
+    "results/item347_j2_chosen_prime_kummer_conductor_obstruction_root_audit.json": "f9029fceae9662dbf8645a0d49eeaf9f5df85a204a8d94996e3d10e66f57a851",
+    "manifests/item347_j2_chosen_prime_kummer_conductor_obstruction_manifest.json": "f6bd289bd06d96e1a832208d07815fb4b6e9a4678a6cb022d6302299bebbd5b9",
+    "sources/item349_j2_degenerate_triple_minor_carrier_report.md": "ca3141156cb5034012a174377c3596e22d22cae924625649b6d620d510f4790c",
+    "results/item349_j2_degenerate_triple_minor_carrier_certificate.json": "b26294d51b1844aeee04146004b2ecec9b6e1ff81aa271a3167e5d86c11bce44",
+    "results/item349_j2_degenerate_triple_minor_carrier_root_audit.json": "e717c01d7429f7821a7ee75e8d979bc1362107bd70466af6af54d9748299a894",
+    "manifests/item349_j2_degenerate_triple_minor_carrier_manifest.json": "1c1dec25ac00ea5adb2befe885c9c96ba805564651b6e90c73ef2506d30e7f4f",
+    "sources/item352_j2_nonsemisimple_transition_no_go_report.md": "c60e1ba7771314c77b3fbe5d06f9c13c51a8c7e4d15f2589298641ff0f38e794",
+    "results/item352_j2_nonsemisimple_transition_no_go_certificate.json": "8f06da2f8b4265156d02d2da393c0aedb74db55db3649589163866ffd0badc31",
+    "results/item352_j2_nonsemisimple_transition_no_go_root_audit.json": "6acd46c106c21a963e0476e49d25c71305682c061e1df507ac8e332f4433d609",
+    "manifests/item352_j2_nonsemisimple_transition_no_go_manifest.json": "c970d5b2dec42ec47f40078b49219cbac99e871b464a54f95be352729347ce54"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item355_j2_target_residual_large_sieve_obstruction_report.md",
+      "sha256": "ea2f5f43a14a411849bc310409939891bfb496b681b028c20fcb3b990dd3377b",
+      "bytes": 16298
+    },
+    "certificate_script": {
+      "path": "work/item355_j2_target_residual_large_sieve_obstruction_certificate.py",
+      "sha256": "9335a94377bb09dc9c256d42387b30ec98ccf818dd351c51af10a43d7c7e1c41",
+      "bytes": 15238
+    },
+    "certificate": {
+      "path": "work/item355_j2_target_residual_large_sieve_obstruction_certificate.json",
+      "sha256": "e246cfcec626d662d970a5a7a63da38914e9e0c98225e35f3ec7f80f5a30d3f2",
+      "bytes": 7653
+    },
+    "replay": {
+      "path": "work/item355_j2_target_residual_large_sieve_obstruction_certificate.replay.json",
+      "sha256": "e246cfcec626d662d970a5a7a63da38914e9e0c98225e35f3ec7f80f5a30d3f2",
+      "bytes": 7653
+    },
+    "ledger": {
+      "path": "work/item355_j2_target_residual_large_sieve_obstruction_ledger.json",
+      "sha256": "bf63f3a7c0f92ee5d11f54ea04f4d617a868b1db7a6397fe03409c477ca949d7",
+      "bytes": 6392
+    },
+    "self_audit": {
+      "path": "work/item355_j2_target_residual_large_sieve_obstruction_self_audit.json",
+      "sha256": "f5a98ee562063e4bfa3a6381f2b90211d94316f9a6f3c35901d4737e839f0f2c",
+      "bytes": 2828
+    }
+  },
+  "proved": [
+    "exact weighted finite-field Parseval for the actual two-coordinate moving residual map",
+    "exact zero-cell Fourier inversion and the distinction between first and second moments",
+    "the fixed-M selector is a singleton at each prime and its normalized second moment is identically one",
+    "even minimum within-prime collision energy can retain a zero at every prescribed selector",
+    "exact full, prefix, fixed-target, and moving-target Kummer/Jacobi second moments",
+    "the current energy bound has no power saving for an almost-all-M theorem",
+    "nondegenerate and degenerate chart capacities are not additive"
+  ],
+  "exact_finite_only": [
+    "seven declared actual nondegenerate selector rows",
+    "three weighted and three extremal combinatorial residual families",
+    "no prime scan and no collision census"
+  ],
+  "open": [
+    "power-saving collision energy for the actual moving residual map",
+    "selector-aware cross-prime cancellation for fixed M",
+    "whether an almost-all-M exceptional-set theorem suffices for the final construction",
+    "weighted support of Item349's safely saturated degenerate carrier"
+  ],
+  "capacity": {
+    "raw_fixed_M_chebyshev_mass": "(2/35)M+o(M)",
+    "ordinary_j2_ceiling_per_6M": "1/105",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "overlap_rule": "the outer charts partition one raw interval and are not additive"
+  },
+  "replay_command": "python scripts/item355_j2_target_residual_large_sieve_obstruction_certificate.py --output results/item355_j2_target_residual_large_sieve_obstruction_certificate.replay.json"
+}

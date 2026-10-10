@@ -1,0 +1,91 @@
+{
+  "schema": "item381-beta-low-degree-symmetric-cancellation-classification-ledger-delta-v1",
+  "item": 381,
+  "checked_date_beijing": "2026-09-01",
+  "classification": "PROVED_LOW_DEGREE_CLASSIFICATION_AND_NEWTON_STABILITY",
+  "actual_family": "Item316 canonical positive loads with Items373/375/378 singleton, content, and cancellation-tube theorems",
+  "admission": {
+    "candidate_class": "primitive homogeneous binary or ternary quadratics in T_s=E_(N-s), with sub-beta clearing denominator",
+    "actual_implication_required": "U_11 divides a nonzero integral residual after the leading quadratic cancellation",
+    "positive_mass_hypothesis": "log U_11>=eta log b",
+    "useful_height": "o(log b) for zero rate or a strict fractional beta bound"
+  },
+  "proved": {
+    "binary_definite": "Delta<0 implies |Q(T)|>=T_2^2/(4B)=b^(eta+o(1))",
+    "binary_split": "square discriminant reduces exact zeros to explicit rational positive lines",
+    "binary_irreducible": "nonsquare indefinite Q cannot vanish and Q(T)=g_12^2 Q(q,r), so |Q(T)|>=g_12^2",
+    "ternary_reciprocal_cone": "coefficientwise nonnegative iff a,b,d,e,f>=0 and 2c+3d>=0, or all reversed",
+    "newton_stability": "2(N-2)e_2^2-3(N-1)e_1e_3 is an exact sum of pair-difference squares with positive kernels",
+    "singleton_newton_separation": "the normalized Newton gap exceeds A^(-12)N^(-2)",
+    "ternary_definite": "definite integral doubled matrix gives |Q(T)|>=M^2/(72B^2)",
+    "primitive_ternary_norm": "Q(T)=g_123^2 Q(v)"
+  },
+  "scoped_no_go": [
+    "definite binary and ternary quadratics",
+    "reciprocal-positive ternary quadratics",
+    "the normalized Newton boundary and Newton-certified cone",
+    "rational split lines uniformly separated from the actual ratio interval",
+    "sub-beta denominators and coefficient content as compression"
+  ],
+  "surviving_statistics": {
+    "binary": [
+      "exact rational split-line correlation",
+      "g_12=gcd(T_1,T_2)",
+      "primitive nonsquare norm Q(q,r)"
+    ],
+    "ternary": [
+      "g_123=gcd(T_1,T_2,T_3)",
+      "rational isotropy of an indefinite conic",
+      "primitive conic norm Q(v)"
+    ],
+    "ambient_barrier": "169T_1T_3-72T_2^2 vanishes at loads (1,1,2,2) while the normalized Newton gap equals 28"
+  },
+  "not_proved": [
+    "actual rational split-line exclusion",
+    "actual binary Pell/norm or gcd bound",
+    "actual ternary isotropy/norm or gcd bound",
+    "an actual nonzero sub-beta residual with U_11 divisibility",
+    "higher-degree mixed-sign avoidance",
+    "a weighted upper bound for U_11",
+    "Route 1 or e+pi"
+  ],
+  "capacity": {
+    "definite_quadratic_lower_rate": "eta+o(1)",
+    "normalized_newton_separation": "A^(-12)N^(-2)=b^(-o(1)) relative to M^2",
+    "constructed_actual_sub_beta_carrier": false,
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "new_booking": 0
+  },
+  "overlap": {
+    "with_item378": "reciprocal-positive forms and the mixed-sign tube are refined, not rebooked",
+    "with_item375": "coefficient content is separated before primitive quadratic classification",
+    "with_U_11": "no singleton mass is booked from class closure"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "binary discriminant classification",
+      "ternary reciprocal coefficient cone",
+      "Newton stability and singleton separation",
+      "definite ternary bound",
+      "primitive gcd/norm factorizations",
+      "zero booking"
+    ],
+    "PROVED_SCOPED_NO_GO": [
+      "definite binary and ternary quadratics",
+      "reciprocal-positive and Newton-certified ternary quadratics",
+      "separated rational split lines",
+      "sub-beta denominator and content escapes"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "predeclared discriminant, Pell, coefficient-table, Newton-identity, and ambient-conic controls"
+    ],
+    "OPEN": [
+      "actual split-line, Pell/norm, gcd, and ternary isotropy statistics",
+      "higher mixed-sign varieties",
+      "U_11 weighted bound, beta capacity, Route 1, and e+pi"
+    ]
+  },
+  "canonical_files_modified": false,
+  "audit_delegated": false
+}

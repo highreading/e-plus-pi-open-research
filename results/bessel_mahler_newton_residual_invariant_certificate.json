@@ -1,0 +1,291 @@
+{
+  "description": "Exact finite diagnostics for global and local Newton residuals and polynomial quadratic invariant barriers",
+  "global_Mahler": {
+    "coefficient_and_divisibility_checks": 92,
+    "post_degree_freeze_checks": 180,
+    "representative_coefficients": {
+      "0": 1,
+      "1": -2,
+      "12": 1014274428552000,
+      "2": 10,
+      "30": 24482810934656212494823752740236917824761712640000,
+      "5": -23880,
+      "60": 626760430646034854035977742869461969878667877363434740242462211313878593946344462377864854630679538296181227520000000,
+      "90": 105381722492304082198884824389738568287772525476626788839289803778332248819200408013037101092676937185423994279246792282302053026236323101436872632079456706572713808163926373616844800000000000
+    },
+    "same_sign_partial_sum_checks": 1830
+  },
+  "local_p_step_Newton": {
+    "coefficient_height_checks": 364,
+    "freeze_checks": 338,
+    "representative_records": [
+      {
+        "C_4": -39087547678571508,
+        "lower_q": 39085931702241241,
+        "lower_q_index": 13,
+        "p": 3,
+        "r": 1
+      },
+      {
+        "C_4": -16628883796343158786502893041300,
+        "lower_q": 16628883765954330083456633789321,
+        "lower_q_index": 21,
+        "p": 5,
+        "r": 1
+      },
+      {
+        "C_4": -160891523467302862779567985307747442592251851508,
+        "lower_q": 160891523467297141632514216552248655879527569849,
+        "lower_q_index": 29,
+        "p": 7,
+        "r": 1
+      },
+      {
+        "C_4": -7522578590472581742529776609530928197960480609775344165677991886892508616729089268,
+        "lower_q": 7522578590472581742529756267429114357215273497532769689493275242776817677878769049,
+        "lower_q_index": 45,
+        "p": 11,
+        "r": 1
+      }
+    ],
+    "same_sign_partial_sum_checks": 2366
+  },
+  "quadratic_invariant_and_Hankel": {
+    "Hankel_coprimality_checks": 178,
+    "finite_degree_invariant_rank_checks": [
+      {
+        "degree_bound": 0,
+        "epsilon": 1,
+        "rank_mod_1000003": 3,
+        "unknowns": 3
+      },
+      {
+        "degree_bound": 1,
+        "epsilon": 1,
+        "rank_mod_1000003": 6,
+        "unknowns": 6
+      },
+      {
+        "degree_bound": 2,
+        "epsilon": 1,
+        "rank_mod_1000003": 9,
+        "unknowns": 9
+      },
+      {
+        "degree_bound": 3,
+        "epsilon": 1,
+        "rank_mod_1000003": 12,
+        "unknowns": 12
+      },
+      {
+        "degree_bound": 4,
+        "epsilon": 1,
+        "rank_mod_1000003": 15,
+        "unknowns": 15
+      },
+      {
+        "degree_bound": 5,
+        "epsilon": 1,
+        "rank_mod_1000003": 18,
+        "unknowns": 18
+      },
+      {
+        "degree_bound": 6,
+        "epsilon": 1,
+        "rank_mod_1000003": 21,
+        "unknowns": 21
+      },
+      {
+        "degree_bound": 7,
+        "epsilon": 1,
+        "rank_mod_1000003": 24,
+        "unknowns": 24
+      },
+      {
+        "degree_bound": 8,
+        "epsilon": 1,
+        "rank_mod_1000003": 27,
+        "unknowns": 27
+      },
+      {
+        "degree_bound": 9,
+        "epsilon": 1,
+        "rank_mod_1000003": 30,
+        "unknowns": 30
+      },
+      {
+        "degree_bound": 10,
+        "epsilon": 1,
+        "rank_mod_1000003": 33,
+        "unknowns": 33
+      },
+      {
+        "degree_bound": 11,
+        "epsilon": 1,
+        "rank_mod_1000003": 36,
+        "unknowns": 36
+      },
+      {
+        "degree_bound": 12,
+        "epsilon": 1,
+        "rank_mod_1000003": 39,
+        "unknowns": 39
+      },
+      {
+        "degree_bound": 13,
+        "epsilon": 1,
+        "rank_mod_1000003": 42,
+        "unknowns": 42
+      },
+      {
+        "degree_bound": 14,
+        "epsilon": 1,
+        "rank_mod_1000003": 45,
+        "unknowns": 45
+      },
+      {
+        "degree_bound": 0,
+        "epsilon": -1,
+        "rank_mod_1000003": 3,
+        "unknowns": 3
+      },
+      {
+        "degree_bound": 1,
+        "epsilon": -1,
+        "rank_mod_1000003": 6,
+        "unknowns": 6
+      },
+      {
+        "degree_bound": 2,
+        "epsilon": -1,
+        "rank_mod_1000003": 9,
+        "unknowns": 9
+      },
+      {
+        "degree_bound": 3,
+        "epsilon": -1,
+        "rank_mod_1000003": 12,
+        "unknowns": 12
+      },
+      {
+        "degree_bound": 4,
+        "epsilon": -1,
+        "rank_mod_1000003": 15,
+        "unknowns": 15
+      },
+      {
+        "degree_bound": 5,
+        "epsilon": -1,
+        "rank_mod_1000003": 18,
+        "unknowns": 18
+      },
+      {
+        "degree_bound": 6,
+        "epsilon": -1,
+        "rank_mod_1000003": 21,
+        "unknowns": 21
+      },
+      {
+        "degree_bound": 7,
+        "epsilon": -1,
+        "rank_mod_1000003": 24,
+        "unknowns": 24
+      },
+      {
+        "degree_bound": 8,
+        "epsilon": -1,
+        "rank_mod_1000003": 27,
+        "unknowns": 27
+      },
+      {
+        "degree_bound": 9,
+        "epsilon": -1,
+        "rank_mod_1000003": 30,
+        "unknowns": 30
+      },
+      {
+        "degree_bound": 10,
+        "epsilon": -1,
+        "rank_mod_1000003": 33,
+        "unknowns": 33
+      },
+      {
+        "degree_bound": 11,
+        "epsilon": -1,
+        "rank_mod_1000003": 36,
+        "unknowns": 36
+      },
+      {
+        "degree_bound": 12,
+        "epsilon": -1,
+        "rank_mod_1000003": 39,
+        "unknowns": 39
+      },
+      {
+        "degree_bound": 13,
+        "epsilon": -1,
+        "rank_mod_1000003": 42,
+        "unknowns": 42
+      },
+      {
+        "degree_bound": 14,
+        "epsilon": -1,
+        "rank_mod_1000003": 45,
+        "unknowns": 45
+      }
+    ],
+    "rank_modulus": 1000003
+  },
+  "status": "finite diagnostic; all-index same-sign formulas, half-depth bound, visibility statements, and all-degree quadratic invariant exclusion are proved symbolically in the companion source; no root digit-depth bound is claimed",
+  "tail_half_depth": {
+    "divisibility_and_gap_checks": 5415,
+    "half_depth_checks": 10800,
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "representative_records": [
+      {
+        "D_K": 16,
+        "K": 31,
+        "V_K": 11,
+        "gap": 5,
+        "p": 2
+      },
+      {
+        "D_K": 10,
+        "K": 40,
+        "V_K": 8,
+        "gap": 2,
+        "p": 3
+      },
+      {
+        "D_K": 6,
+        "K": 73,
+        "V_K": 5,
+        "gap": 1,
+        "p": 7
+      },
+      {
+        "D_K": 2,
+        "K": 179,
+        "V_K": 1,
+        "gap": 1,
+        "p": 47
+      }
+    ]
+  }
+}

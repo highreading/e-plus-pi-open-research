@@ -1,0 +1,164 @@
+{
+  "far_b_ge_M_over_5": {
+    "coefficient_decimal": "0.1254329279500904214863024932",
+    "coefficient_exact": "1139587/9085230",
+    "excess_over_missing": "0.0076350259334996582044640860",
+    "missing_per_M": "0.1177979020165907632818384072",
+    "per_6M_decimal": "0.02090548799168173691438374887",
+    "terms": {
+      "1": [
+        "1/45",
+        "2/35"
+      ],
+      "2": [
+        "1/230",
+        "1/44"
+      ],
+      "3": [
+        "0",
+        "1/90"
+      ],
+      "4": [
+        "0",
+        "11/2185"
+      ],
+      "5": [
+        "0",
+        "1/460"
+      ],
+      "6": [
+        "0",
+        "1/1485"
+      ]
+    }
+  },
+  "finite_globalization_replay": {
+    "M_range": [
+      1,
+      240
+    ],
+    "fixed_small_prime_rows": 193,
+    "forward_inverse_match_for_p_ge_11": true,
+    "row_sha256": "163931309d22b29ba7ba9efe304f5fb784a76398872b7e594b35aeb389d33b0d",
+    "stable_rows": 1616
+  },
+  "item149_overlap": {
+    "already_booked": "first post-Cartier rank-one copy",
+    "candidate_only": "one additional common first-gate copy",
+    "new_rate_booking": 0,
+    "not_implied": "A1 or a third copy"
+  },
+  "labels": {
+    "bounded_row_replay": "EXACT FINITE ONLY",
+    "cross_b_cancellation_theorem": "OPEN",
+    "globalization": "PROVED",
+    "information_barrier": "PROVED, scoped to the layer-product and inherited componentwise-height containers",
+    "new_route1_rate": 0,
+    "stable_and_far_capacity": "PROVED using PNT and exact interval algebra",
+    "stable_eliminant_and_witness": "PROVED"
+  },
+  "mandatory_witness": {
+    "denominators_mod_p": [
+      1434,
+      1544
+    ],
+    "gcd_decimal_sha256": "59df2adb4632cb4d7f97ee1f4b4ae146f66c53318349e2050277c235127ebbed",
+    "gcd_factorization": {
+      "1031": 1,
+      "1051": 1,
+      "1091": 1,
+      "1151": 1,
+      "1171": 1,
+      "1231": 1,
+      "1291": 1,
+      "2": 449,
+      "2399": 1,
+      "911": 1,
+      "971": 1,
+      "991": 1
+    },
+    "phi_g0_sha256": "c4dcabc778007b21118ab87c44235bc048c48e555020b049fa84e0e6b059d97a",
+    "phi_g1_sha256": "e99d375cdc4610b41fdc8145c80e43f91867600167f41f44cb9c24f4e5bc2e35",
+    "row_M_s_p_j_q_b_r": [
+      2249,
+      299,
+      2399,
+      1,
+      1,
+      900,
+      3
+    ],
+    "terminal_mod_p": [
+      7,
+      2392,
+      0,
+      0
+    ]
+  },
+  "mock_block_check": {
+    "M_n": "5^n",
+    "checked_blocks": [
+      [
+        3,
+        125,
+        25,
+        108
+      ],
+      [
+        4,
+        625,
+        125,
+        536
+      ],
+      [
+        5,
+        3125,
+        625,
+        2679
+      ],
+      [
+        6,
+        15625,
+        3125,
+        13393
+      ],
+      [
+        7,
+        78125,
+        15625,
+        66965
+      ],
+      [
+        8,
+        390625,
+        78125,
+        334822
+      ],
+      [
+        9,
+        1953125,
+        390625,
+        1674108
+      ],
+      [
+        10,
+        9765625,
+        1953125,
+        8370536
+      ]
+    ],
+    "proof_bound": "G_tilde(b,r) <= 10M_n+1 <= 50b+1 <= 2^(b+1) for b>=8",
+    "scope": "countermodel to layer divisibility plus inherited height only; not to the actual hypergeometric recurrence"
+  },
+  "payload_sha256": "fe881438fb2297356937b8ad203d6bc3916502b1fe9ee248e7616bc20a89ef40",
+  "schema": "item266-far-offray-weighted-barrier-certificate-v1",
+  "stable_capacity": {
+    "decimal_enclosure": [
+      "0.23911101469791280781168212860321448340810748831965",
+      "0.23911101469822947367432263219857783326521980401407"
+    ],
+    "reported_decimal": "0.239111014698... per M",
+    "reported_per_6M": "0.039851835783...",
+    "series": "sum_j>=1 (6/((5j+4)(8j+7)) + 2/((3j+2)(4j+3)))"
+  }
+}

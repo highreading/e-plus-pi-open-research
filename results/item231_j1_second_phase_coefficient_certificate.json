@@ -1,0 +1,492 @@
+{
+  "all_row_theorem": {
+    "actual_rows": 479,
+    "classification": "EXACT_REPLAY_OF_PROVED_ALL_ROW_IDENTITIES",
+    "collision_reformulation": "Theta=Psi=0 with nonzero transfers iff g_a=2Delta_minus and g_(a+p)=-Delta_minus; equivalently H=-3Delta_minus",
+    "cross_relation": "g_a*rho_constant-4epsilon*rho_lambda=-4epsilon*g_(a+p)",
+    "delta_plus": "g_a",
+    "endpoint_ratio": "t_J/t_(s+1)=(-1)^(h+1)(3s+1)_(h+1)/(s+2)_(h+1) mod p",
+    "frobenius_defect": "H=g_(a+p)-g_a equals the displayed reciprocal t_j tail",
+    "lower_index": "a=2s+4",
+    "prime_max": 251,
+    "psi": "-2epsilon*(g_a+2g_(a+p)) mod p",
+    "row_stream_sha256": "81891b3f86a830cfbbcc286c65c4a48d8a9e95a9b8b1fae2376fdda3a2953ae3",
+    "upper_index": "a+p"
+  },
+  "definitions": {
+    "D": "1/((1-x)^(r+1)*(1+x^2)^(2s))",
+    "H": "g_(a+p)-g_a",
+    "R": "(2r+4s-1)+(r+1)x-(r+8s)x^2",
+    "a": "2s+4",
+    "cell": "p=2r+6s+3, r=2h, h>=1, s>=1",
+    "g_n": "[x^n]R*D"
+  },
+  "dependencies": {
+    "item222_j1_phase_resultant_certificate.py": "c16f75156ba8424c567163cedc6a93a7656c8a53036b48ef69b06327d76ad44b",
+    "item223_j1_frobenius_transfer_certificate.py": "928ddc876ed70939fd4a39fccd0e91d8c59d8aa2a8a694967d8fc7f737512d4a",
+    "item228_j1_second_frobenius_certificate.py": "4264f7df929a269633fe71865d9b47910e4d6d1bf0a91bdb9ceb2e3774171220",
+    "item229_j1_fixed_h_theta_certificate.py": "a8e2028ca6a53f8c843c25be375feac50e4704538686ee1e3a835f89aa11780f"
+  },
+  "finite_phase_comparison": {
+    "all_h_status": "OPEN: neither observation is promoted to an all-h factorization, resultant, or prime exclusion",
+    "classification": "EXACT_FINITE_PATTERN_ONLY",
+    "h_max": 20,
+    "observations": [
+      "c_high(h,s*)=c_low(h,s*) on every tested h",
+      "for tested admissible h, every prime left in the reduced E numerator after gcd with the natural endpoint eliminant is <=4h+3"
+    ],
+    "row_stream_sha256": "7ad5e72cbbda4c23a6f865e8993a6bebf10e2aecf2bc924a783fa3930149bd12",
+    "rows": [
+      {
+        "admissible_h": true,
+        "h": 1,
+        "low_high_residual_equal": true,
+        "phase_E_numerator_over_gcd_with_natural_eliminant": 2,
+        "quotient_factorization": [
+          [
+            2,
+            1
+          ]
+        ],
+        "residual_denominator": 27,
+        "residual_numerator": 364
+      },
+      {
+        "admissible_h": true,
+        "h": 2,
+        "low_high_residual_equal": true,
+        "phase_E_numerator_over_gcd_with_natural_eliminant": 4,
+        "quotient_factorization": [
+          [
+            2,
+            2
+          ]
+        ],
+        "residual_denominator": 729,
+        "residual_numerator": 94490
+      },
+      {
+        "admissible_h": false,
+        "h": 3,
+        "low_high_residual_equal": true,
+        "residual_denominator": 1,
+        "residual_numerator": 1210
+      },
+      {
+        "admissible_h": true,
+        "h": 4,
+        "low_high_residual_equal": true,
+        "phase_E_numerator_over_gcd_with_natural_eliminant": 448,
+        "quotient_factorization": [
+          [
+            2,
+            6
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "residual_denominator": 354294,
+        "residual_numerator": 3917127799
+      },
+      {
+        "admissible_h": true,
+        "h": 5,
+        "low_high_residual_equal": true,
+        "phase_E_numerator_over_gcd_with_natural_eliminant": 128,
+        "quotient_factorization": [
+          [
+            2,
+            7
+          ]
+        ],
+        "residual_denominator": 57395628,
+        "residual_numerator": 5708160359209
+      },
+      {
+        "admissible_h": false,
+        "h": 6,
+        "low_high_residual_equal": true,
+        "residual_denominator": 8,
+        "residual_numerator": 7074333
+      },
+      {
+        "admissible_h": true,
+        "h": 7,
+        "low_high_residual_equal": true,
+        "phase_E_numerator_over_gcd_with_natural_eliminant": 13312,
+        "quotient_factorization": [
+          [
+            2,
+            10
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "residual_denominator": 6973568802,
+        "residual_numerator": 54348652686798175
+      },
+      {
+        "admissible_h": true,
+        "h": 8,
+        "low_high_residual_equal": true,
+        "phase_E_numerator_over_gcd_with_natural_eliminant": 11264,
+        "quotient_factorization": [
+          [
+            2,
+            10
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "residual_denominator": 3012581722464,
+        "residual_numerator": 205493324377286714335
+      },
+      {
+        "admissible_h": false,
+        "h": 9,
+        "low_high_residual_equal": true,
+        "residual_denominator": 64,
+        "residual_numerator": 37996337951
+      },
+      {
+        "admissible_h": true,
+        "h": 10,
+        "low_high_residual_equal": true,
+        "phase_E_numerator_over_gcd_with_natural_eliminant": 622592,
+        "quotient_factorization": [
+          [
+            2,
+            15
+          ],
+          [
+            19,
+            1
+          ]
+        ],
+        "residual_denominator": 1098086037838128,
+        "residual_numerator": 5648243923994264668315565
+      },
+      {
+        "admissible_h": true,
+        "h": 11,
+        "low_high_residual_equal": true,
+        "phase_E_numerator_over_gcd_with_natural_eliminant": 974848,
+        "quotient_factorization": [
+          [
+            2,
+            13
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            17,
+            1
+          ]
+        ],
+        "residual_denominator": 59296646043258912,
+        "residual_numerator": 2632469702786722452667594529
+      },
+      {
+        "admissible_h": false,
+        "h": 12,
+        "low_high_residual_equal": true,
+        "residual_denominator": 512,
+        "residual_numerator": 195548332660135
+      },
+      {
+        "admissible_h": true,
+        "h": 13,
+        "low_high_residual_equal": true,
+        "phase_E_numerator_over_gcd_with_natural_eliminant": 8093696,
+        "quotient_factorization": [
+          [
+            2,
+            15
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            19,
+            1
+          ]
+        ],
+        "residual_denominator": 461090719632381299712,
+        "residual_numerator": 1510832256660080951897950727122045
+      },
+      {
+        "admissible_h": true,
+        "h": 14,
+        "low_high_residual_equal": true,
+        "phase_E_numerator_over_gcd_with_natural_eliminant": 1507328,
+        "quotient_factorization": [
+          [
+            2,
+            16
+          ],
+          [
+            23,
+            1
+          ]
+        ],
+        "residual_denominator": 56022522435334327915008,
+        "residual_numerator": 1571062429208895631399448706190780843
+      },
+      {
+        "admissible_h": false,
+        "h": 15,
+        "low_high_residual_equal": true,
+        "residual_denominator": 512,
+        "residual_numerator": 122627358382599399
+      },
+      {
+        "admissible_h": true,
+        "h": 16,
+        "low_high_residual_equal": true,
+        "phase_E_numerator_over_gcd_with_natural_eliminant": 40632320,
+        "quotient_factorization": [
+          [
+            2,
+            18
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            31,
+            1
+          ]
+        ],
+        "residual_denominator": 217815567228579866933551104,
+        "residual_numerator": 444719572289552286381090513799582547990303
+      },
+      {
+        "admissible_h": true,
+        "h": 17,
+        "low_high_residual_equal": true,
+        "phase_E_numerator_over_gcd_with_natural_eliminant": 699400192,
+        "quotient_factorization": [
+          [
+            2,
+            20
+          ],
+          [
+            23,
+            1
+          ],
+          [
+            29,
+            1
+          ]
+        ],
+        "residual_denominator": 5881020315171656407205879808,
+        "residual_numerator": 102191062056996276076066431239571348036190535
+      },
+      {
+        "admissible_h": false,
+        "h": 18,
+        "low_high_residual_equal": true,
+        "residual_denominator": 32768,
+        "residual_numerator": 4838732675965332292525
+      },
+      {
+        "admissible_h": true,
+        "h": 19,
+        "low_high_residual_equal": true,
+        "phase_E_numerator_over_gcd_with_natural_eliminant": 1202716672,
+        "quotient_factorization": [
+          [
+            2,
+            20
+          ],
+          [
+            31,
+            1
+          ],
+          [
+            37,
+            1
+          ]
+        ],
+        "residual_denominator": 4287263809760137520853086380032,
+        "residual_numerator": 5372867936150946993434193396244199094946039402681
+      },
+      {
+        "admissible_h": true,
+        "h": 20,
+        "low_high_residual_equal": true,
+        "phase_E_numerator_over_gcd_with_natural_eliminant": 3162505216,
+        "quotient_factorization": [
+          [
+            2,
+            23
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            29,
+            1
+          ]
+        ],
+        "residual_denominator": 926048982908189704504266658086912,
+        "residual_numerator": 9837439084312257687222785707788611974122040639530469
+      }
+    ]
+  },
+  "finite_survivor_census": {
+    "actual_rows": 22934,
+    "classification": "EXACT_FINITE_ONLY",
+    "first_rows": [
+      [
+        223,
+        19,
+        24,
+        123,
+        173,
+        23,
+        196,
+        115,
+        150
+      ],
+      [
+        239,
+        20,
+        26,
+        11,
+        125,
+        67,
+        192,
+        51,
+        220
+      ],
+      [
+        311,
+        8,
+        46,
+        17,
+        164,
+        59,
+        223,
+        270,
+        128
+      ],
+      [
+        331,
+        10,
+        48,
+        276,
+        138,
+        55,
+        193,
+        110,
+        72
+      ],
+      [
+        337,
+        1,
+        55,
+        62,
+        31,
+        285,
+        316,
+        84,
+        316
+      ],
+      [
+        443,
+        56,
+        36,
+        143,
+        293,
+        39,
+        332,
+        442,
+        17
+      ],
+      [
+        463,
+        13,
+        68,
+        239,
+        351,
+        451,
+        339,
+        430,
+        90
+      ],
+      [
+        491,
+        8,
+        76,
+        212,
+        106,
+        48,
+        154,
+        125,
+        122
+      ]
+    ],
+    "prime_max": 2000,
+    "row_stream_sha256": "51cb124d5f719e9e68321c6ffd8c04210f35a9d2eae88f5df79ace713c9c61cd",
+    "scope_warning": "joint emptiness through the declared bound is not an all-prime theorem or a weighted-density estimate",
+    "theta_item222_E_joint_zero": 0,
+    "theta_psi_E_triple_zero": 0,
+    "theta_psi_joint_zero": 0,
+    "theta_survivors": 22,
+    "upper_coefficient_nonzero_condition_on_survivors": 22
+  },
+  "item": 231,
+  "item232_scope": {
+    "classification": "PROVED_SCOPE_DISTINCTION_WITH_EXACT_REPLAY",
+    "diagonal_identity": "2n(2n+1)(4S_(n+1)-S_n)=(28n^2+25n+5)(-1)^(n+1)binom(3n,n+1)",
+    "diagonal_identity_checked_through": 100,
+    "first_parameter_mismatch_witness": {
+      "J": 7,
+      "diagonal_S_J": -57044,
+      "fixed_s_partial_sum_0_to_J": -4,
+      "h": 1,
+      "p": 13,
+      "s": 1
+    },
+    "high_residual_coordinate": "T_(h,s)=sum_(j=r)^J (-1)^j binom(2s+j-1,j), J=3h+3s+1; its binomial parameter remains s",
+    "row_stream_sha256": "ba5aa0ab7dd54d45f3b8d4da8043b85009b232278f68350a725c2b2a31c85244",
+    "scope_reason": "Item232 shifts the diagonal sequence where both the upper endpoint and binomial parameter are n.  It does not relate the fixed-s partial sum at J to the row value at s."
+  },
+  "rate_ledger": {
+    "new_divisibility_exponent": 0,
+    "new_unconditional_linear_log_rate": 0,
+    "reason": "the exact second coefficient condition leaves an uncontrolled same-row incomplete-binomial/Frobenius boundary coordinate"
+  },
+  "schema": "item231-j1-second-phase-coefficient-v1",
+  "status_ledger": {
+    "EXACT_FINITE_ONLY": [
+      "the source replay through p<=251",
+      "the survivor and triple scan through p<=2000",
+      "the phase residual/resultant patterns through h<=20"
+    ],
+    "OPEN": [
+      "an all-h proof of c_high(h,s*)=c_low(h,s*)",
+      "an all-h factorization or unit-localized gcd theorem for the natural phase eliminant and Item222 A_h",
+      "all-prime exclusion or a weighted bound for simultaneous Theta=Psi zeros",
+      "any positive Route-1 rate or radical saving from the j=1 cell"
+    ],
+    "PROVED": [
+      "Delta_plus=g_a and Psi=-2epsilon(g_a+2g_(a+p)) on every actual row",
+      "simultaneous Theta=Psi=0 is equivalent to g_a=2Delta_minus and g_(a+p)=-Delta_minus, hence H=-3Delta_minus",
+      "the explicit reciprocal t_j formula for H",
+      "Item232's diagonal recurrence does not act on the fixed-s high partial sum"
+    ]
+  }
+}

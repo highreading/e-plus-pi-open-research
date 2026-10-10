@@ -1,0 +1,70 @@
+{
+  "item": 359,
+  "schema": "item359-j2-fixedM-cross-prime-coefficient-barrier-self-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "status": "PASS",
+  "dependency_audit": {
+    "canonical_dependency_entries": 12,
+    "all_sha256_verified_by_certificate": true,
+    "item352_root_audited_pins_frozen": true,
+    "item355_root_audited_pins_frozen": true,
+    "unresolved_placeholders": 0
+  },
+  "replay_audit": {
+    "primary_sha256": "b8ad2ebf3cc93b43649ff26d3c6deba888b4046d39224193b1c2ea53afa98227",
+    "replay_sha256": "b8ad2ebf3cc93b43649ff26d3c6deba888b4046d39224193b1c2ea53afa98227",
+    "byte_identical": true,
+    "dependency_hashes_verified_field": true,
+    "actual_declared_rows": 7,
+    "comparison_declared_parameter_pairs": 48,
+    "comparison_declared_ray_rows": 96,
+    "prime_or_collision_census": false
+  },
+  "artifact_inputs": {
+    "report_sha256": "8fc3e4a16c71aeb50f7516e5e81572ea3d7265f30104707fc988945155759a77",
+    "script_sha256": "ec07fcb23d72e42e17f6f53f7263dc4aa2c9e611c02f355389566c927216b28e",
+    "certificate_sha256": "b8ad2ebf3cc93b43649ff26d3c6deba888b4046d39224193b1c2ea53afa98227",
+    "replay_sha256": "b8ad2ebf3cc93b43649ff26d3c6deba888b4046d39224193b1c2ea53afa98227",
+    "ledger_sha256": "3d0f585b05669159a1d3c80674ce97e16edc19397f354030d4e416258c3dd2cd"
+  },
+  "report_audit": {
+    "display_math_plain_open": 43,
+    "display_math_plain_close": 43,
+    "display_math_blockquote_open": 1,
+    "display_math_blockquote_close": 1,
+    "equation_tags": 43,
+    "duplicate_equation_tags": 0,
+    "strict_labels_present": [
+      "PROVED",
+      "EXACT FINITE ONLY",
+      "OPEN"
+    ]
+  },
+  "mathematical_scope_audit": {
+    "actual_fixed_M_selector_exact": true,
+    "two_coordinate_moving_target_retained": true,
+    "fixed_target_surrogate_used": false,
+    "cross_prime_kernel_is_prime_independent_at_fixed_M": true,
+    "truncated_exponent_range": "only coefficients k=r-1<p with p>3",
+    "kernel_denominators_are_tied_prime_units": true,
+    "pole_non_cancellation_checked_at_both_points": true,
+    "recurrence_scope": "eventual scalar constant-coefficient recurrence for the full K_M coefficient sequence",
+    "comparison_kernel_scope": "information-class counterexample only; not the actual determinant kernel",
+    "height_scope": "nonzero selected numerators; exact-zero rows explicitly left open",
+    "within_prime_second_moment_reused_as_attack": false,
+    "outer_charts_not_double_counted": true,
+    "unproved_weighted_mass_claim": false
+  },
+  "capacity_audit": {
+    "raw_chebyshev_mass": "(2/35)M+o(M)",
+    "ordinary_j2_ceiling_per_6M": "1/105",
+    "new_booking": 0,
+    "new_capacity_reduction": 0
+  },
+  "open_inputs_preserved": [
+    "matched-modulus divisibility nonconcentration for U_(M,6M-7p-1)",
+    "joint cross-prime theorem retaining H_(s-1)-Theta_(r,s)",
+    "selector-aware average gcd or reciprocity law",
+    "almost-all-M energy saving admissible in the main construction"
+  ]
+}

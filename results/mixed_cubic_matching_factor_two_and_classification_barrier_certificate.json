@@ -1,0 +1,614 @@
+{
+  "analytic_constants": {
+    "precision_decimal_digits": 90,
+    "sign_checks": {
+      "d_gt_h": true,
+      "d_lt_2h": true,
+      "generic_matched_rate_h_minus_d_over_2_positive": true,
+      "pi_form_rate_h_minus_d_negative": true
+    },
+    "status": "PASS",
+    "values": {
+      "Cartier_constant": "2.33704750799876568711088548257702657392453738412",
+      "a": "0.2098862011478984997014742537550759470492754653009",
+      "clearing_minus_content_constant_c0": "1.1502128528401236829407006017577604231258273041871",
+      "d": "2.337062374358972995853929780546857306653463085827",
+      "d_over_2": "1.1685311871794864979269648902734286533267315429135",
+      "d_over_h": "1.0053272037712552543741937315087313895641586481856",
+      "ell": "0.58723274315180371365849725618640081454881455467716",
+      "h": "2.3246783391437311102576951141305620522234564135414",
+      "h_minus_d": "-0.012384035215241885596234666416295254430006672285631",
+      "h_minus_d_over_2": "1.1561471519642446123307302238571333988967248706279",
+      "phi": "-1.7498296312071692821954325243604564921046485311498",
+      "tau_imag": "0.23487661390728317591678871719175455194292087107117",
+      "tau_real": "0.39334358694066378676253046270057855094605412489738",
+      "two_h_minus_d": "2.3122943039284892246614604477142667977934497412558"
+    }
+  },
+  "beta_recurrence_finite_audit": {
+    "initial_values": {
+      "p0": 1,
+      "p1": 3,
+      "q0": 1,
+      "q1": 1
+    },
+    "recurrence": "X_N=2(2N-1)X_{N-1}+X_{N-2}",
+    "rows": [
+      {
+        "N": 0,
+        "gcd": 1,
+        "p_digits": 1,
+        "q_digits": 1
+      },
+      {
+        "N": 1,
+        "gcd": 1,
+        "p_digits": 1,
+        "q_digits": 1
+      },
+      {
+        "N": 2,
+        "gcd": 1,
+        "p_digits": 2,
+        "q_digits": 1
+      },
+      {
+        "N": 3,
+        "gcd": 1,
+        "p_digits": 3,
+        "q_digits": 2
+      },
+      {
+        "N": 4,
+        "gcd": 1,
+        "p_digits": 4,
+        "q_digits": 4
+      },
+      {
+        "N": 5,
+        "gcd": 1,
+        "p_digits": 5,
+        "q_digits": 5
+      },
+      {
+        "N": 6,
+        "gcd": 1,
+        "p_digits": 7,
+        "q_digits": 6
+      },
+      {
+        "N": 7,
+        "gcd": 1,
+        "p_digits": 8,
+        "q_digits": 8
+      },
+      {
+        "N": 8,
+        "gcd": 1,
+        "p_digits": 9,
+        "q_digits": 9
+      },
+      {
+        "N": 9,
+        "gcd": 1,
+        "p_digits": 11,
+        "q_digits": 11
+      },
+      {
+        "N": 10,
+        "gcd": 1,
+        "p_digits": 13,
+        "q_digits": 12
+      },
+      {
+        "N": 11,
+        "gcd": 1,
+        "p_digits": 14,
+        "q_digits": 14
+      },
+      {
+        "N": 12,
+        "gcd": 1,
+        "p_digits": 16,
+        "q_digits": 15
+      },
+      {
+        "N": 13,
+        "gcd": 1,
+        "p_digits": 18,
+        "q_digits": 17
+      },
+      {
+        "N": 14,
+        "gcd": 1,
+        "p_digits": 19,
+        "q_digits": 19
+      },
+      {
+        "N": 15,
+        "gcd": 1,
+        "p_digits": 21,
+        "q_digits": 21
+      },
+      {
+        "N": 16,
+        "gcd": 1,
+        "p_digits": 23,
+        "q_digits": 22
+      },
+      {
+        "N": 17,
+        "gcd": 1,
+        "p_digits": 25,
+        "q_digits": 24
+      },
+      {
+        "N": 18,
+        "gcd": 1,
+        "p_digits": 26,
+        "q_digits": 26
+      },
+      {
+        "N": 19,
+        "gcd": 1,
+        "p_digits": 28,
+        "q_digits": 28
+      },
+      {
+        "N": 20,
+        "gcd": 1,
+        "p_digits": 30,
+        "q_digits": 30
+      },
+      {
+        "N": 21,
+        "gcd": 1,
+        "p_digits": 32,
+        "q_digits": 32
+      },
+      {
+        "N": 22,
+        "gcd": 1,
+        "p_digits": 34,
+        "q_digits": 34
+      },
+      {
+        "N": 23,
+        "gcd": 1,
+        "p_digits": 36,
+        "q_digits": 36
+      },
+      {
+        "N": 24,
+        "gcd": 1,
+        "p_digits": 38,
+        "q_digits": 38
+      },
+      {
+        "N": 25,
+        "gcd": 1,
+        "p_digits": 40,
+        "q_digits": 40
+      },
+      {
+        "N": 26,
+        "gcd": 1,
+        "p_digits": 42,
+        "q_digits": 42
+      },
+      {
+        "N": 27,
+        "gcd": 1,
+        "p_digits": 44,
+        "q_digits": 44
+      },
+      {
+        "N": 28,
+        "gcd": 1,
+        "p_digits": 46,
+        "q_digits": 46
+      },
+      {
+        "N": 29,
+        "gcd": 1,
+        "p_digits": 48,
+        "q_digits": 48
+      },
+      {
+        "N": 30,
+        "gcd": 1,
+        "p_digits": 50,
+        "q_digits": 50
+      },
+      {
+        "N": 31,
+        "gcd": 1,
+        "p_digits": 52,
+        "q_digits": 52
+      },
+      {
+        "N": 32,
+        "gcd": 1,
+        "p_digits": 54,
+        "q_digits": 54
+      },
+      {
+        "N": 33,
+        "gcd": 1,
+        "p_digits": 57,
+        "q_digits": 56
+      },
+      {
+        "N": 34,
+        "gcd": 1,
+        "p_digits": 59,
+        "q_digits": 58
+      },
+      {
+        "N": 35,
+        "gcd": 1,
+        "p_digits": 61,
+        "q_digits": 60
+      },
+      {
+        "N": 36,
+        "gcd": 1,
+        "p_digits": 63,
+        "q_digits": 62
+      },
+      {
+        "N": 37,
+        "gcd": 1,
+        "p_digits": 65,
+        "q_digits": 65
+      },
+      {
+        "N": 38,
+        "gcd": 1,
+        "p_digits": 67,
+        "q_digits": 67
+      },
+      {
+        "N": 39,
+        "gcd": 1,
+        "p_digits": 69,
+        "q_digits": 69
+      },
+      {
+        "N": 40,
+        "gcd": 1,
+        "p_digits": 72,
+        "q_digits": 71
+      }
+    ],
+    "scope": "Exact recurrence audit through N=40; asymptotic bounds are proved in the source.",
+    "status": "PASS"
+  },
+  "dependency_audit": {
+    "rows": [
+      {
+        "path": "results/mixed_cubic_accessible_saddle_exact_algebraic_certificate.json",
+        "sha256": "f3377fda1444c21e11483688f7059446c5b709841f8914bdce8f68d2916c6ae0"
+      },
+      {
+        "path": "results/mixed_cubic_accessible_saddle_exact_algebraic_hashes.sha256",
+        "sha256": "3521a1347ec499acf98d60bdd8f48ba991ef2a9e20c00c806313e91d1e5d8b10"
+      },
+      {
+        "path": "results/mixed_cubic_boundary_cartier_content_and_recurrence_certificate.json",
+        "sha256": "3a060ecf43afe8a5047401cfed9ac2208345b5f2636ef88c14ce959324dace29"
+      },
+      {
+        "path": "results/mixed_cubic_boundary_cartier_content_and_recurrence_hashes.sha256",
+        "sha256": "34e61497fa2df8dd4dfcaf143be574bd3ada434977d41e6be75b590ba927a14c"
+      },
+      {
+        "path": "results/mixed_cubic_fixed_circle_complex_laplace_certificate.json",
+        "sha256": "0d1f5903bdcf6afe7fad1819afc42c33bf842e46150d7d0c94ddec20419d7143"
+      },
+      {
+        "path": "results/mixed_cubic_fixed_circle_complex_laplace_hashes.sha256",
+        "sha256": "27ec125fd342aafe335f1026a72545c5afb205747def2781b25f4581f6a426c8"
+      },
+      {
+        "path": "scripts/mixed_cubic_accessible_saddle_exact_algebraic_certificate.py",
+        "sha256": "ee24e16ce7e13781792898deead7736cfd9539ba16dc0dbc97b89fa3d061bccb"
+      },
+      {
+        "path": "scripts/mixed_cubic_boundary_cartier_content_and_recurrence_certificate.py",
+        "sha256": "81d9fa515ba39719d17a5f35456e3749d34f8d857a0411b97fff228c39a36d6d"
+      },
+      {
+        "path": "scripts/mixed_cubic_fixed_circle_complex_laplace_certificate.py",
+        "sha256": "3b2bac11c8e61a0db249d19bbf38cdccd0ef8ed0b97ac0c675d06b3a1e981db3"
+      },
+      {
+        "path": "sources/mixed_cubic_accessible_saddle_exact_algebraic_certificate.md",
+        "sha256": "55454aa99b2fcd06a87d94c1b51bedd912a740b731ba57eecfc391bd4572fc65"
+      },
+      {
+        "path": "sources/mixed_cubic_boundary_cartier_content_and_recurrence.md",
+        "sha256": "286d9cf4d3591a1a9b9fefc6dd3ee3dcc9f7c2ba49a73310909491814544d9e8"
+      },
+      {
+        "path": "sources/mixed_cubic_fixed_circle_complex_laplace_theorem.md",
+        "sha256": "ef8cc49a5a9b5533da790be732a7a5144be22cefacca8253320d297e22359318"
+      }
+    ],
+    "status": "PASS"
+  },
+  "matching_finite_audit": {
+    "checked": [
+      "coefficient equality",
+      "minimal coefficient multipliers b/gcd(b,q),q/gcd(b,q)",
+      "gcd(M,b0*q0)=1",
+      "final content g divides matching gcd Delta",
+      "primitive coefficient Q=b*q/(Delta*g)"
+    ],
+    "logical_scope": "Finite implementation audit only; the source proves the identities for all integers.",
+    "matching_instances": 516242,
+    "minimal_positive_solution_instances": 4608,
+    "scope": {
+      "a": [
+        -24,
+        24
+      ],
+      "b_and_q": [
+        1,
+        24
+      ],
+      "coprimality_hypotheses_enforced": true,
+      "eps": [
+        -1,
+        1
+      ],
+      "p": [
+        1,
+        24
+      ]
+    },
+    "status": "PASS"
+  },
+  "rational_sum_countermodel": {
+    "e_plus_theta": "3",
+    "exact_identity": "q*theta-(3q-p)=p-qe=q*(theta-(3-p/q))",
+    "scope": "Finite numerical illustration; the continued-fraction theorem supplies the infinite countermodel in the source.",
+    "status": "PASS",
+    "theta": "3-e",
+    "upper_convergent_rows": [
+      {
+        "index": 1,
+        "less_than_q_inverse_square": true,
+        "p": "3",
+        "p_minus_qe": "0.2817181715409547646397125286473375",
+        "q": "1",
+        "theta_minus_r": "0.2817181715409547646397125286473375"
+      },
+      {
+        "index": 3,
+        "less_than_q_inverse_square": true,
+        "p": "11",
+        "p_minus_qe": "0.12687268616381905855885011458935001",
+        "q": "4",
+        "theta_minus_r": "0.031718171540954764639712528647337502"
+      },
+      {
+        "index": 5,
+        "less_than_q_inverse_square": true,
+        "p": "87",
+        "p_minus_qe": "0.014981489310552468470800916714800072",
+        "q": "32",
+        "theta_minus_r": "0.00046817154095476463971252864733750224"
+      },
+      {
+        "index": 7,
+        "less_than_q_inverse_square": true,
+        "p": "193",
+        "p_minus_qe": "0.0019901794077882894195895339609626592",
+        "q": "71",
+        "theta_minus_r": "0.000028030695884342104501261041703699426"
+      },
+      {
+        "index": 9,
+        "less_than_q_inverse_square": true,
+        "p": "1457",
+        "p_minus_qe": "0.00093994595175384688591535497290120212",
+        "q": "536",
+        "theta_minus_r": "0.0000017536305070034456826779010688455263"
+      },
+      {
+        "index": 11,
+        "less_than_q_inverse_square": true,
+        "p": "23225",
+        "p_minus_qe": "0.000057645917509081703844762851619162081",
+        "q": "8544",
+        "theta_minus_r": "0.0000000067469472740030084087971502363251499"
+      },
+      {
+        "index": 13,
+        "less_than_q_inverse_square": true,
+        "p": "49171",
+        "p_minus_qe": "0.0000050043307375677599307016880780691573",
+        "q": "18089",
+        "theta_minus_r": "0.00000000027665049132443805244633136591680896"
+      },
+      {
+        "index": 15,
+        "less_than_q_inverse_square": true,
+        "p": "566827",
+        "p_minus_qe": "0.000002406051341731415323657405317667807",
+        "q": "208524",
+        "theta_minus_r": "1.153848641754145960972072911352078e-11"
+      },
+      {
+        "index": 17,
+        "less_than_q_inverse_square": true,
+        "p": "13580623",
+        "p_minus_qe": "0.000000099314692472263923014876004865287968",
+        "q": "4996032",
+        "theta_minus_r": "1.987871424207529555752965650846271e-14"
+      },
+      {
+        "index": 19,
+        "less_than_q_inverse_square": true,
+        "p": "28245729",
+        "p_minus_qe": "0.0000000064013308395985626428745669970326806",
+        "q": "10391023",
+        "theta_minus_r": "6.1604433361359729863696452187938383e-16"
+      },
+      {
+        "index": 21,
+        "less_than_q_inverse_square": true,
+        "p": "438351041",
+        "p_minus_qe": "0.000000003106600961313079271117067087234921",
+        "q": "161260336",
+        "theta_minus_r": "1.9264507555739430377455415243801309e-17"
+      },
+      {
+        "index": 23,
+        "less_than_q_inverse_square": true,
+        "p": "14013652689",
+        "p_minus_qe": "9.6538289754613660870141926229505141e-11",
+        "q": "5155334720",
+        "theta_minus_r": "1.8725901420153308856372749009302958e-20"
+      },
+      {
+        "index": 25,
+        "less_than_q_inverse_square": true,
+        "p": "28875761731",
+        "p_minus_qe": "4.9476625368232210998510298961717877e-12",
+        "q": "10622799089",
+        "theta_minus_r": "4.6575883581819487613685300079497604e-22"
+      },
+      {
+        "index": 27,
+        "less_than_q_inverse_square": true,
+        "p": "563501581931",
+        "p_minus_qe": "2.4149609818507611268786716939306135e-12",
+        "q": "207300647060",
+        "theta_minus_r": "1.1649558340026732412837417478780799e-23"
+      },
+      {
+        "index": 29,
+        "less_than_q_inverse_square": true,
+        "p": "22526049624551",
+        "p_minus_qe": "6.0149519416784205004941527719399625e-14",
+        "q": "8286870547680",
+        "theta_minus_r": "7.25841185411345909180212219103393e-27"
+      }
+    ]
+  },
+  "rss_guard_kib": 41943040,
+  "schema": "mixed-cubic-matching-factor-two-classification-barrier-v1",
+  "source_audit": {
+    "bytes": 16725,
+    "display_delimiters_each": 54,
+    "equation_tags": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48"
+    ],
+    "forbidden_control_bytes": [],
+    "inline_delimiters_each": 112,
+    "sha256": "4ab613af6143b6bed1570f5b4b925fa4a35cec1ad04402080710381a6b3dc0d5",
+    "source": "sources/mixed_cubic_matching_factor_two_and_classification_barrier.md",
+    "status": "PASS"
+  },
+  "symbolic_rate_and_norm_ledger": {
+    "balanced_beta_scale": "d/2",
+    "balanced_value_exponent": "-d/2 - gamma + h",
+    "coefficient_exponent": "d/2 - gamma + h",
+    "linear_form_decay_exponent": "d/2 + gamma - h",
+    "no_content_ratio": "(d - 2*h)/(d + 2*h)",
+    "roth_ratio": "(d + 2*gamma - 2*h)/(d - 2*gamma + 2*h)",
+    "roth_ratio_minus_one": "-4*(-gamma + h)/(d - 2*gamma + 2*h)",
+    "status": "PASS",
+    "translation_rows": [
+      {
+        "all_coefficients_in_Z[A,B,c_j]": true,
+        "degree": 2,
+        "translated_degree": 2
+      },
+      {
+        "all_coefficients_in_Z[A,B,c_j]": true,
+        "degree": 3,
+        "translated_degree": 3
+      },
+      {
+        "all_coefficients_in_Z[A,B,c_j]": true,
+        "degree": 4,
+        "translated_degree": 4
+      },
+      {
+        "all_coefficients_in_Z[A,B,c_j]": true,
+        "degree": 5,
+        "translated_degree": 5
+      }
+    ],
+    "two_form_determinant": "M1*Q2 - M2*Q1"
+  },
+  "theorem_scope": {
+    "not_proved": [
+      "irrationality of e+pi",
+      "transcendence of e+pi",
+      "any exponential lower bound for the new matching contents"
+    ],
+    "proved": [
+      "the three frozen inputs give shrinking nonzero integer forms in 1,pi",
+      "exact minimal positive beta matching and g|Delta",
+      "generic no-content matching needs d>2h, not d>h",
+      "Roth-level matching needs total content rate Gamma>h",
+      "one-dimensional norm, determinant, and translated-resultant barriers"
+    ],
+    "unconditional_input": [
+      "item 133 integrality, denominator clearing, and Cartier content",
+      "exact unique dominant accessible saddle",
+      "uniform fixed-circle complex-Laplace expansion and eventual B_m>0"
+    ]
+  }
+}

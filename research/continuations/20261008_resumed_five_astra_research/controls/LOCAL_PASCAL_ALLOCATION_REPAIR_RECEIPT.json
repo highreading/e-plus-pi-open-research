@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "original_source_preserved": true,
+  "original_sha256": "6907f070db3302dfbb84e37be3df6573233cffc9ea0b2ebf125b21a3f9448917",
+  "repaired_source_sha256": "05fe4d94609fec3771453b65a95e8c37c3d5795f4bc4771bd6b7213fce164f61",
+  "helper_sha256": "f6711c9416b14835bc4741269fc2431a196f1b722a834241dfa1377707eb63b4",
+  "bounded_case": {
+    "M": 4,
+    "L": 72,
+    "H": 23,
+    "K": 72,
+    "binom_200_24_mod81": 63,
+    "last_nchoose": 63,
+    "last_reconstruction_entry": 0
+  },
+  "independent_integer_binomial_comparisons": 146,
+  "proof_of_allocation_bounds": [
+    "Entry-generation indices s<=H<=K; raw interpolation tables remain bounded by3H.",
+    "Force-transform lower indices b-i<=3M-1<=K.",
+    "Top reconstruction lower indices b-i<=max(L,3M)-1<=K.",
+    "Dense nchoose indices r<=max(L,3M)<=K.",
+    "K<=R under the original guarded domain, so finite row geometry is unchanged."
+  ],
+  "scope": "Versioned source allocation repair and isolated Pascal helper only. No complete matrix, saved33/72 jet, original-index solve, endpoint or primitive error is recomputed.",
+  "historical_receipts_unchanged": true,
+  "saved33_72_case_unaffected": "H=197 already exceeds max(L,3M)=99.",
+  "compiler_returncode": 0,
+  "regression_returncode": 0
+}

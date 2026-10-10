@@ -1,0 +1,51 @@
+{
+  "schema": "item395-j1-logscale-cluster-radical-height-obstruction-ledger-delta-v1",
+  "item": 395,
+  "date": "2026-09-01",
+  "branch": "actual fixed-j=1 joint Hasse-transverse gate / logarithmic shifted resultants and cluster radical",
+  "status": "PROVED_LOGSCALE_CLUSTER_CRITERION_AND_HEIGHT_SIGN_NO_GO",
+  "proved": {
+    "paired_resultant_factorization": "Delta_(M,d)=(2d)^n product_{p<q}((2d)^2-(q-p)^2)",
+    "resultant_sign": "when nonzero, the sign is the parity of actual root gaps greater than 2d and hence supplies no independent gap exclusion",
+    "cluster_radical": "C_(M,D)=rad product_{d<=D} E^-_(M,d)E^+_(M,d) has exactly the actual collision primes with another collision prime within D row steps",
+    "isolated_factor": "R_M=C_(M,D) I_(M,D), and the prime roots of I are separated by more than 2D",
+    "master_inequality": "W<=log C_(M,D)+(1+(M-9)/(12D))log U_M",
+    "logscale_capacity": "for D~c log M, limsup W/(6M)<=limsup log C/(6M)+1/(72c)",
+    "strict_cluster_threshold": "a strict whole-cell saving follows from log C<=((2c-1)/(12c)-epsilon)M for some c>1/2",
+    "shifted_norm_height": "uniformly for d<=c log M, exp(-c/4-o(1))R_M<=N^-<=R_M<=N^+<=exp(c/4+o(1))R_M",
+    "closed_method_class": "ordinary gcd-by-height, generic resultant height/sign, and unlocalized products of the shifted norms",
+    "new_booked_mass": 0
+  },
+  "scope": {
+    "actual_family_used": true,
+    "ambient_selector_substitution_used": false,
+    "actual_pair_freeness_proved": false,
+    "actual_cluster_mass_bound_below_threshold_proved": false,
+    "strict_capacity_reduction_proved": false,
+    "not_ruled_out": [
+      "special actual factorization of shifted norms",
+      "gate-specific average-gcd or factor-localization theorem",
+      "compatible-system or monodromy nonconcentration",
+      "direct arithmetic pair-freeness using information beyond generic F_M height"
+    ],
+    "finite_controls": "four predeclared abstract root sets inside actual candidate intervals; no actual gate scan",
+    "finite_to_infinite_inference": false
+  },
+  "capacity": {
+    "raw_fixed_j1_ceiling_per_6M": "1/36",
+    "conditional_master_ceiling_per_6M": "limsup log C_(M,D)/(6M)+1/(72c) for D~c log M",
+    "strict_cluster_coefficient_per_M": "(2c-1)/(12c)-epsilon",
+    "example_at_c_1": "log C_(M,floor(log M))<=(1/12-epsilon)M",
+    "new_unconditional_whole_cell_capacity_reduction": 0
+  },
+  "ledger": {
+    "new_route1_linear_log_rate": 0,
+    "new_route1_booking": 0,
+    "new_route1_capacity_reduction": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "route1_success": false,
+    "conclusion_about_e_plus_pi": "OPEN"
+  },
+  "ledger_action": "CLOSE_GENERIC_LOGSCALE_NORM_HEIGHT_AND_RESULTANT_SIGN_ROUTE_BOOK_ZERO_RETAIN_CELL_CEILING",
+  "canonical_files_modified": false
+}

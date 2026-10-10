@@ -1,0 +1,55 @@
+{
+  "schema": "item403-exact-smith-finite-local-no-go-manifest-v1",
+  "item": 403,
+  "status": "WORK_ONLY_UNAUDITED_NO_CENTRAL_EDIT",
+  "artifacts": [
+    {
+      "path": "work/item403_mixed_cubic_exact_smith_and_finite_local_data_no_go_report.md",
+      "role": "scoped theorem report"
+    },
+    {
+      "path": "work/item403_mixed_cubic_exact_smith_and_finite_local_data_no_go_certificate.py",
+      "role": "deterministic exact generator"
+    },
+    {
+      "path": "work/item403_mixed_cubic_exact_smith_and_finite_local_data_no_go_certificate.json",
+      "role": "generated certificate"
+    },
+    {
+      "path": "work/item403_mixed_cubic_exact_smith_and_finite_local_data_no_go_certificate.replay.json",
+      "role": "byte-stable replay"
+    },
+    {
+      "path": "work/item403_mixed_cubic_exact_smith_and_finite_local_data_no_go_ledger_delta.json",
+      "role": "zero-booking ledger delta"
+    },
+    {
+      "path": "work/item403_mixed_cubic_exact_smith_and_finite_local_data_no_go_hashes.sha256",
+      "role": "SHA-256 inventory"
+    }
+  ],
+  "dependencies": [
+    "sources/mixed_cubic_cube_smith_reduction.md",
+    "sources/item396_fixed_gap_resultant_3adic_report.md",
+    "sources/item390_mixed_cubic_fresh_primitive_saturation_report.md",
+    "sources/item393_mixed_cubic_small_prime_strata_ceiling_report.md"
+  ],
+  "claims": {
+    "new_actual_matrix_theorems": [
+      "exact all-DVR Smith valuations (h,h,h+gamma)",
+      "global formula d1=d2=H_q and d3=H_q*G_q^prim away from 6",
+      "exact localization of the Item396 carrier split in the last Smith invariant"
+    ],
+    "new_ambient_no_go": [
+      "cubic shape plus exact valuations and arbitrary fixed finite 3-adic data cannot force d3(q)|P_q"
+    ],
+    "not_claimed": [
+      "the ambient perturbations are actual mixed-cubic rows",
+      "a proof or counterexample to actual d3(q)|P_q",
+      "c_m,>6m=1",
+      "positive Route-1 rate",
+      "Route-1 closure",
+      "irrationality of e+pi"
+    ]
+  }
+}

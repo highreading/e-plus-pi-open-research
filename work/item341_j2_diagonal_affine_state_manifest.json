@@ -1,0 +1,66 @@
+{
+  "item": 341,
+  "schema": "item341-j2-diagonal-affine-state-manifest-v1",
+  "classification": "PROVED_DIAGONAL_AFFINE_COORDINATES_AND_FIXED_CURVE_NO_GO",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual tied-prime ordinary-j2 correlation after safe saturation",
+  "dependencies": {
+    "sources/item338_j2_secondary_cartier_saturation_report.md": "14aa87b718b4bb83dd3e5371412fd231829f809b853d1a52eabba6181650ac33",
+    "scripts/item338_j2_secondary_cartier_saturation_certificate.py": "5209d57fee32a6bad74e8f5b933116aa4d62448b1f9ca44e539cadf7f95fe6bd",
+    "results/item338_j2_secondary_cartier_saturation_certificate.json": "accf5bf87b148c73117f05b8d9f7eee92af1d59611871498593cc992c758450d",
+    "manifests/item338_j2_secondary_cartier_saturation_manifest.json": "d3ecc6c74e3dbd3b921a3f5c3aa363eac10e68322536c88ced5e6972785a6573"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item341_j2_diagonal_affine_state_report.md",
+      "sha256": "42f6ccd326e385f8034abe322756517a30a93d7468b3e6f85cbca3dba8080cb4",
+      "bytes": 11644
+    },
+    "certificate_script": {
+      "path": "work/item341_j2_diagonal_affine_state_certificate.py",
+      "sha256": "2faefea6477bb74d735d82e763191bb690d970b8f6eedfd8dbda276c93ce529e",
+      "bytes": 12822
+    },
+    "certificate": {
+      "path": "work/item341_j2_diagonal_affine_state_certificate.json",
+      "sha256": "75c05cb486e5a5a6f9af5dda2e62f2a4b81cb888a15eb19ecabd10a382625cb4",
+      "bytes": 4796
+    },
+    "replay": {
+      "path": "work/item341_j2_diagonal_affine_state_certificate.replay.json",
+      "sha256": "75c05cb486e5a5a6f9af5dda2e62f2a4b81cb888a15eb19ecabd10a382625cb4",
+      "bytes": 4796
+    },
+    "ledger": {
+      "path": "work/item341_j2_diagonal_affine_state_ledger.json",
+      "sha256": "12e65b5a3a72db0b25842fa414f97c537d91daac59483f0a086ab53ef09274b1",
+      "bytes": 3428
+    }
+  },
+  "proved": [
+    "exact centered coordinates D=9*ell*(4^s-c_star) and T_ell=-epsilon*K*ell*(H_m-Theta)",
+    "unit Jacobian and complete localized ideal identity",
+    "connection-only resultant/subresultant/Groebner elimination no-go",
+    "degenerate collisions p>11 localize to the r-only triple-minor content",
+    "Zariski density of (4^(m+1),H_m), including the actual r=1 prime subsequence"
+  ],
+  "exact_finite_only": [
+    "three generic centered-coordinate checks",
+    "seven actual affine replays including three determinant hits",
+    "three rank-one Pluecker examples and one impossible-C chart",
+    "121 exact state rows and 65 actual r=1 prime rows through m=120",
+    "169 asymptotic ordering-key checks"
+  ],
+  "open": [
+    "o(M) weighted support for the degenerate triple-minor content",
+    "moving mod-p joint correlation of (4^s,H_m) with (c_star,Theta)",
+    "strict improvement of the 1/105 ceiling",
+    "any new booking"
+  ],
+  "capacity": {
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "ordinary_j2_ceiling_per_6M": "1/105"
+  },
+  "replay_command": "python scripts/item341_j2_diagonal_affine_state_certificate.py --output results/item341_j2_diagonal_affine_state_certificate.replay.json"
+}

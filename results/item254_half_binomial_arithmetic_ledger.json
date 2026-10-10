@@ -1,0 +1,107 @@
+{
+  "item": 254,
+  "schema": "item254-strict-ledger-v1",
+  "scope": "the universal half-binomial prefix H_m=sum_(j=0)^m binom(2j,j)/8^j on actual ordinary-j=2 rows p=2r+6s+3, m=s-1",
+  "PROVED": [
+    {
+      "id": "I254-P1",
+      "claim": "For n=(p-1)/2 and C_p(z)=sum_(k=0)^n H_k z^k, (1-z)C_p(z)=(1-z/2)^n-epsilon_2 z^(n+1), C_p(1)=0, and H_m=-sum_(x in F_p^*) x^(-m)C_p(x).",
+      "evidence": "report Section 2; coefficient, endpoint, pointwise, and Mellin checks in the certificate",
+      "scope_limit": "This is an exact finite-field period representation, not an evaluation of that period."
+    },
+    {
+      "id": "I254-P2",
+      "claim": "The Mellin period splits modulo the chosen Teichmuller prime as H_m=-T_p+epsilon_2 J_p, where T_p is a three-point Greene sum and J_p is an ordinary Jacobi sum satisfying J_p=n-m+1 modulo p and hence is a p-unit.",
+      "evidence": "report Section 3; direct field-valued three-point and Jacobi replays in the certificate",
+      "scope_limit": "The difference of a Greene period and a unit need not be a unit; exact cancellations occur."
+    },
+    {
+      "id": "I254-P3",
+      "claim": "For theta=omega^(-m), theta^6=omega^(2r+8) and ord(theta)=(p-1)/gcd(m,2r+8)>=(p-1)/(2r+8). Splitting p modulo 6 localizes the unweighted character factor to a fixed genus-one Kummer cover; for p=5 mod 6 it is birational to Y^2=X^3-1/2, while the cutoff remains a punctured field-valued rational weight.",
+      "evidence": "report equations (3.5)-(3.16); exponent, gcd, residue-phase, cube-permutation, punctured elliptic-moment, and order checks in the certificate",
+      "scope_limit": "The localization is a rationally weighted moment, not the unweighted elliptic trace; this is not an impossibility theorem for every cohomological transformation."
+    },
+    {
+      "id": "I254-P4",
+      "claim": "With d=r+4 and n=3m+d, H_m=2^(-m)(2m+d)binom(3m+d,m) integral_0^1 u^(2m+d-1)(1-2u)^m du modulo p, under coefficientwise finite-field antidifferentiation.",
+      "evidence": "report Section 4; elementary incomplete-beta derivation and 2440 modular replays",
+      "scope_limit": "Every denominator is in [2m+d,3m+d]=[n-m,n]<p and the prefactor is a unit; the integral is incomplete and is not replaced by a complete Jacobi sum."
+    },
+    {
+      "id": "I254-P5",
+      "claim": "Writing q=floor(p/6), the actual prefix obeys H_m=H_q-h_q B_delta modulo p, with delta=(r+4)/3 for p=1 mod 6 and delta=(r+2)/3 for p=5 mod 6, and explicit fixed-length rational B_delta given in report equation (5.3).",
+      "evidence": "report Section 5; 128682 rowwise boundary equalities and separate ratio-unit checks",
+      "scope_limit": "The base period H_q/h_q remains moving and unevaluated."
+    },
+    {
+      "id": "I254-P6",
+      "claim": "Universal nonvanishing of H_m on actual rows is false: H_2=43/32 at (p,r,s)=(43,11,3), and H_4=47*61/2048 at (47,7,5).",
+      "evidence": "report equations (1.10)-(1.11) and exact integer assertions in the certificate",
+      "scope_limit": "These are zeros of the isolated prefix, not assertions of a simultaneous zero of the original two gates."
+    },
+    {
+      "id": "I254-P7",
+      "claim": "If s_2(m) is the binary digit sum, H_m=N_m/2^(3m-s_2(m)) in lowest terms and every set Z_m of distinct odd zero primes satisfies sum_(p in Z_m) log p < (3m-s_2(m)+1/2)log 2.",
+      "evidence": "report Section 6; unique minimum 2-adic valuation proof, positivity bound H_m<sqrt(2), and 257 exact numerator replays",
+      "scope_limit": "The container ceiling divided by 6m tends log(2)/2, which is positive; this is not a weighted zero-rate theorem and books no Route-1 rate."
+    }
+  ],
+  "EXACT_FINITE": [
+    {
+      "id": "I254-F1",
+      "bound": "p<=5000",
+      "actual_rows": 128682,
+      "fixed_cutoff_boundary_equalities": 128682,
+      "H_m_zero_count": 57,
+      "first_H_m_zero": {
+        "p": 43,
+        "r": 11,
+        "s": 3,
+        "m": 2
+      },
+      "status": "EXACT FINITE ONLY; the first two zeros also have independent all-integer proofs under I254-P6"
+    },
+    {
+      "id": "I254-F2",
+      "bound": "p<=601",
+      "incomplete_beta_equalities": 2440,
+      "status": "bounded replay of the all-row identity I254-P4 only"
+    },
+    {
+      "id": "I254-F3",
+      "bound": "p<=251",
+      "actual_rows": 482,
+      "Mellin_equalities": 482,
+      "Greene_split_equalities": 482,
+      "Jacobi_unit_equalities": 482,
+      "status": "bounded replay of I254-P1-I254-P3 only"
+    }
+  ],
+  "OPEN": [
+    "a transformation of the moving high-order three-point Greene period to a bounded-order invariant",
+    "a zero weighted-rate theorem for the actual moving row family",
+    "all-prime or zero-rate control of the full Item 251 gate rather than H_m alone",
+    "any capacity reduction, Route-1 rate gain, or conclusion about e+pi"
+  ],
+  "booking": {
+    "new_unconditional_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "capacity_reduction": 0
+  },
+  "dependencies": {
+    "external_files": [],
+    "python": "3.11+ standard library only",
+    "mathematical_provenance_only": [
+      "Item 252 identification of H_m as the remaining ordinary-j=2 diagonal period"
+    ]
+  },
+  "intended_artifacts": [
+    "item254_half_binomial_arithmetic_report.md",
+    "item254_half_binomial_arithmetic_certificate.py",
+    "item254_half_binomial_arithmetic_certificate.json",
+    "item254_half_binomial_arithmetic_certificate_replay.json",
+    "item254_half_binomial_arithmetic_ledger.json",
+    "item254_half_binomial_arithmetic_manifest.json",
+    "item254_half_binomial_arithmetic_hashes.sha256"
+  ]
+}

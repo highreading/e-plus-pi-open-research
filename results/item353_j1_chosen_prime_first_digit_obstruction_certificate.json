@@ -1,0 +1,377 @@
+{
+  "canonical_files_modified": false,
+  "classification": {
+    "EXACT_FINITE_ONLY": [
+      "five preselected Kummer-coordinate digit controls and four exact field-function controls; no prime scan"
+    ],
+    "OPEN": [
+      "special cancellation or factorization after composing delta_p with the actual four functions",
+      "chosen-prime nonconcentration of the zeroth target digit",
+      "a justified Gauss-sum/Gross--Koblitz factorization with positive-rate arithmetic reach",
+      "W_b(M)=o(M), any fixed-j1 ceiling reduction, Route 1, and every conclusion about e+pi"
+    ],
+    "PROVED": [
+      "exact chosen-prime Teichmueller expansion through p^2",
+      "four-coordinate carry-plus-Fermat-correction formula",
+      "exact maximal degree p-1 of the universal correction function",
+      "selected zero does not formally force a second valuation digit",
+      "scoped bounded-degree/conductor first-correction no-go",
+      "zero booking"
+    ]
+  },
+  "date": "2026-09-01",
+  "dependencies": {
+    "manifests/item342_j1_finite_field_fourier_weil_barrier_manifest.json": "85ca4a73d9009acc3dc8d7102325f74156a11bf13e618dc1a88c06fd352b8a54",
+    "manifests/item345_j1_kummer_galois_descent_obstruction_manifest.json": "78531805af9b60a30535a992b7c8b9aa90f415ffa55e2586d1f48ea5b02bb2ca",
+    "manifests/item348_j1_dwork_first_hasse_obstruction_manifest.json": "8a6835132fd4bd0c3e10d8abc216d9b7019cf73ec70f4691276d9849d9ad6aa9",
+    "manifests/item351_j1_companion_window_rank_obstruction_manifest.json": "67c1cdbd98e16e1b63828ba2fa74cb0f7afd21e00b6551cdc775e296c7468ab1",
+    "results/item342_j1_finite_field_fourier_weil_barrier_certificate.json": "4cf10e1d035dcd18a134e5f1b00e54a34ae1b3833a2863b54212da9fcccf49d9",
+    "results/item342_j1_finite_field_fourier_weil_barrier_certificate_replay.json": "4cf10e1d035dcd18a134e5f1b00e54a34ae1b3833a2863b54212da9fcccf49d9",
+    "results/item342_j1_finite_field_fourier_weil_barrier_root_audit.json": "aa6b260f78ae094b20a1b6b041c75131514b5ded51f016e6950671c472280835",
+    "results/item345_j1_kummer_galois_descent_obstruction_certificate.json": "e0eca357cafab27e4ff9c97bf4beacaf9c82b102de47614472eecac8590dbcc7",
+    "results/item345_j1_kummer_galois_descent_obstruction_root_audit.json": "285e7e220f914913ac1e5dc9592d07206ac4435df03c90d52d627e969ab349c2",
+    "results/item348_j1_dwork_first_hasse_obstruction_certificate.json": "ea9904c4411af6d8dc0199d347872bae361c591ab911db1fb19e5f1cb19d7de4",
+    "results/item348_j1_dwork_first_hasse_obstruction_root_audit.json": "75d75ae87a086d7d7e0a608a6216196f6f48296f090d8ff56cea320a31638ac3",
+    "results/item351_j1_companion_window_rank_obstruction_certificate.json": "1bf092c3778ac6377de00ef6d087c2e68d107bbd2041f150f462bce0326bd07b",
+    "results/item351_j1_companion_window_rank_obstruction_certificate_replay.json": "1bf092c3778ac6377de00ef6d087c2e68d107bbd2041f150f462bce0326bd07b",
+    "results/item351_j1_companion_window_rank_obstruction_ledger_delta.json": "1118768b36150ca0ec73859921690b530a4ad01e53a5f43f3acf5c1758e7073a",
+    "results/item351_j1_companion_window_rank_obstruction_root_audit.json": "8151a963aa85895910a8de1d5a81d8567c93b653c0fb7a766819b07522da3974",
+    "results/item351_j1_companion_window_rank_obstruction_root_replay.json": "1bf092c3778ac6377de00ef6d087c2e68d107bbd2041f150f462bce0326bd07b",
+    "results/item351_j1_companion_window_rank_obstruction_self_audit.json": "d5b5f5f63bfe22d510a5b9231a61abec88397bde94899b1511c2c645972ccd3b",
+    "scripts/item342_j1_finite_field_fourier_weil_barrier_certificate.py": "130cfd5d2ac7c31546ef177c3f751abcc236ca92dc253a59914d487187c1fbac",
+    "scripts/item348_j1_dwork_first_hasse_obstruction_certificate.py": "13ef13c792f9f3a00f29a1baff3eb25c592106a0b5802da2158c1f4d72b0172b",
+    "scripts/item351_j1_companion_window_rank_obstruction_certificate.py": "ea1c2b337f5d506ef1bd26bf40dffd97c08e08ee360bcb2abd43cb76d697bcf2",
+    "sources/item342_j1_finite_field_fourier_weil_barrier_report.md": "843bb85381c98adf0a5b64801ce099e4c3c9119d5933704d97bbd492f1b8029b",
+    "sources/item345_j1_kummer_galois_descent_obstruction_report.md": "17441d83d40de9a8df6419b35e277753ed86006e1c461e4cbaa618db8d9e9392",
+    "sources/item348_j1_dwork_first_hasse_obstruction_report.md": "1ec4af9e7f1f6a08eab869b3e091778c26c0645bc38e692b57252da2e31de67a",
+    "sources/item351_j1_companion_window_rank_obstruction_report.md": "8aca8f37c81547f44793e4276ed87847ff17cd4a67fe1617821591efdcc3795f"
+  },
+  "direct_controls": [
+    {
+      "M": 9,
+      "Teichmueller_total_mod_p2": 91,
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "coordinate_order": [
+        "R0",
+        "R1",
+        "R2a",
+        "R2b"
+      ],
+      "coordinates": [
+        {
+          "Fermat_correction_sum_mod_p": 0,
+          "first_quotient_digit": 0,
+          "nonzero_terms": 0,
+          "ordinary_internal_carry": 0,
+          "residue_digit": 0
+        },
+        {
+          "Fermat_correction_sum_mod_p": 11,
+          "first_quotient_digit": 2,
+          "nonzero_terms": 7,
+          "ordinary_internal_carry": 4,
+          "residue_digit": 2
+        },
+        {
+          "Fermat_correction_sum_mod_p": 8,
+          "first_quotient_digit": 1,
+          "nonzero_terms": 8,
+          "ordinary_internal_carry": 6,
+          "residue_digit": 0
+        },
+        {
+          "Fermat_correction_sum_mod_p": 0,
+          "first_quotient_digit": 3,
+          "nonzero_terms": 7,
+          "ordinary_internal_carry": 3,
+          "residue_digit": 11
+        }
+      ],
+      "cross_coordinate_carry": 1,
+      "first_quotient_digit": 7,
+      "full_original_collision_claimed": false,
+      "h": 1,
+      "n": 2,
+      "p": 13,
+      "r": 3,
+      "s": 1,
+      "target_residue": 0,
+      "valuation_if_target_zero_and_first_digit_nonzero": 1
+    },
+    {
+      "M": 12,
+      "Teichmueller_total_mod_p2": 280,
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "coordinate_order": [
+        "R0",
+        "R1",
+        "R2a",
+        "R2b"
+      ],
+      "coordinates": [
+        {
+          "Fermat_correction_sum_mod_p": 2,
+          "first_quotient_digit": 8,
+          "nonzero_terms": 13,
+          "ordinary_internal_carry": 6,
+          "residue_digit": 9
+        },
+        {
+          "Fermat_correction_sum_mod_p": 15,
+          "first_quotient_digit": 2,
+          "nonzero_terms": 13,
+          "ordinary_internal_carry": 4,
+          "residue_digit": 12
+        },
+        {
+          "Fermat_correction_sum_mod_p": 7,
+          "first_quotient_digit": 12,
+          "nonzero_terms": 12,
+          "ordinary_internal_carry": 5,
+          "residue_digit": 2
+        },
+        {
+          "Fermat_correction_sum_mod_p": 4,
+          "first_quotient_digit": 10,
+          "nonzero_terms": 13,
+          "ordinary_internal_carry": 6,
+          "residue_digit": 2
+        }
+      ],
+      "cross_coordinate_carry": 1,
+      "first_quotient_digit": 16,
+      "full_original_collision_claimed": false,
+      "h": 2,
+      "n": 4,
+      "p": 17,
+      "r": 3,
+      "s": 1,
+      "target_residue": 8,
+      "valuation_if_target_zero_and_first_digit_nonzero": null
+    },
+    {
+      "M": 34,
+      "Teichmueller_total_mod_p2": 1739,
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "coordinate_order": [
+        "R0",
+        "R1",
+        "R2a",
+        "R2b"
+      ],
+      "coordinates": [
+        {
+          "Fermat_correction_sum_mod_p": 40,
+          "first_quotient_digit": 9,
+          "nonzero_terms": 45,
+          "ordinary_internal_carry": 16,
+          "residue_digit": 41
+        },
+        {
+          "Fermat_correction_sum_mod_p": 12,
+          "first_quotient_digit": 34,
+          "nonzero_terms": 45,
+          "ordinary_internal_carry": 22,
+          "residue_digit": 31
+        },
+        {
+          "Fermat_correction_sum_mod_p": 16,
+          "first_quotient_digit": 36,
+          "nonzero_terms": 44,
+          "ordinary_internal_carry": 20,
+          "residue_digit": 13
+        },
+        {
+          "Fermat_correction_sum_mod_p": 33,
+          "first_quotient_digit": 3,
+          "nonzero_terms": 45,
+          "ordinary_internal_carry": 17,
+          "residue_digit": 9
+        }
+      ],
+      "cross_coordinate_carry": 2,
+      "first_quotient_digit": 37,
+      "full_original_collision_claimed": false,
+      "h": 8,
+      "n": 16,
+      "p": 47,
+      "r": 5,
+      "s": 2,
+      "target_residue": 0,
+      "valuation_if_target_zero_and_first_digit_nonzero": 1
+    },
+    {
+      "M": 30,
+      "Teichmueller_total_mod_p2": 1507,
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "coordinate_order": [
+        "R0",
+        "R1",
+        "R2a",
+        "R2b"
+      ],
+      "coordinates": [
+        {
+          "Fermat_correction_sum_mod_p": 29,
+          "first_quotient_digit": 9,
+          "nonzero_terms": 41,
+          "ordinary_internal_carry": 23,
+          "residue_digit": 19
+        },
+        {
+          "Fermat_correction_sum_mod_p": 20,
+          "first_quotient_digit": 39,
+          "nonzero_terms": 39,
+          "ordinary_internal_carry": 19,
+          "residue_digit": 24
+        },
+        {
+          "Fermat_correction_sum_mod_p": 16,
+          "first_quotient_digit": 33,
+          "nonzero_terms": 40,
+          "ordinary_internal_carry": 17,
+          "residue_digit": 31
+        },
+        {
+          "Fermat_correction_sum_mod_p": 22,
+          "first_quotient_digit": 38,
+          "nonzero_terms": 39,
+          "ordinary_internal_carry": 16,
+          "residue_digit": 14
+        }
+      ],
+      "cross_coordinate_carry": 2,
+      "first_quotient_digit": 35,
+      "full_original_collision_claimed": false,
+      "h": 4,
+      "n": 8,
+      "p": 43,
+      "r": 9,
+      "s": 4,
+      "target_residue": 2,
+      "valuation_if_target_zero_and_first_digit_nonzero": null
+    },
+    {
+      "M": 32,
+      "Teichmueller_total_mod_p2": 1775,
+      "classification": "PRESELECTED EXACT CONTROL; NOT A PRIME SCAN",
+      "coordinate_order": [
+        "R0",
+        "R1",
+        "R2a",
+        "R2b"
+      ],
+      "coordinates": [
+        {
+          "Fermat_correction_sum_mod_p": 12,
+          "first_quotient_digit": 43,
+          "nonzero_terms": 45,
+          "ordinary_internal_carry": 31,
+          "residue_digit": 10
+        },
+        {
+          "Fermat_correction_sum_mod_p": 7,
+          "first_quotient_digit": 31,
+          "nonzero_terms": 45,
+          "ordinary_internal_carry": 24,
+          "residue_digit": 37
+        },
+        {
+          "Fermat_correction_sum_mod_p": 20,
+          "first_quotient_digit": 41,
+          "nonzero_terms": 44,
+          "ordinary_internal_carry": 21,
+          "residue_digit": 30
+        },
+        {
+          "Fermat_correction_sum_mod_p": 45,
+          "first_quotient_digit": 15,
+          "nonzero_terms": 45,
+          "ordinary_internal_carry": 17,
+          "residue_digit": 6
+        }
+      ],
+      "cross_coordinate_carry": 1,
+      "first_quotient_digit": 37,
+      "full_original_collision_claimed": false,
+      "h": 2,
+      "n": 4,
+      "p": 47,
+      "r": 13,
+      "s": 6,
+      "target_residue": 36,
+      "valuation_if_target_zero_and_first_digit_nonzero": null
+    }
+  ],
+  "item": 353,
+  "maximal_degree_controls": [
+    {
+      "classification": "DECLARED EXACT FIELD-FUNCTION CONTROL; NOT A PRIME SCAN",
+      "expected_leading_coefficient": "(p-1)/2",
+      "interpolation_degree": 12,
+      "leading_coefficient": 6,
+      "p": 13
+    },
+    {
+      "classification": "DECLARED EXACT FIELD-FUNCTION CONTROL; NOT A PRIME SCAN",
+      "expected_leading_coefficient": "(p-1)/2",
+      "interpolation_degree": 16,
+      "leading_coefficient": 8,
+      "p": 17
+    },
+    {
+      "classification": "DECLARED EXACT FIELD-FUNCTION CONTROL; NOT A PRIME SCAN",
+      "expected_leading_coefficient": "(p-1)/2",
+      "interpolation_degree": 42,
+      "leading_coefficient": 21,
+      "p": 43
+    },
+    {
+      "classification": "DECLARED EXACT FIELD-FUNCTION CONTROL; NOT A PRIME SCAN",
+      "expected_leading_coefficient": "(p-1)/2",
+      "interpolation_degree": 46,
+      "leading_coefficient": 23,
+      "p": 47
+    }
+  ],
+  "prime_scans": 0,
+  "schema": "item353-j1-chosen-prime-first-digit-obstruction-certificate-v1",
+  "self_audit": {
+    "Gross_Koblitz_factorization_claimed_without_additive_character": false,
+    "finite_controls_used_as_density_evidence": false,
+    "ledger_booking_without_weighted_theorem": false,
+    "maximal_universal_degree_promoted_to_no_special_composition_theorem": false,
+    "mod_p2_theorem_credited_to_ordinary_mod_p_gate": false,
+    "ordinary_collision_direction_preserved": true,
+    "section_dependent_split_promoted_to_invariant_conductor_theorem": false,
+    "selected_zero_promoted_to_full_collision": false
+  },
+  "status": "PROVED_EXACT_CHOSEN_PRIME_FIRST_DIGIT_AND_MAXIMAL_DEGREE_SCOPED_NO_GO",
+  "theorem_and_capacity": {
+    "capacity": {
+      "booking": 0,
+      "new_fixed_j1_capacity_reduction": 0,
+      "new_forced_condition": 0,
+      "new_linear_log_rate": 0,
+      "raw_support_reached": "all actual fixed-j1 rows, raw mass M/6+o(M)",
+      "theoretical_ceiling_per_6M": "1/36"
+    },
+    "chosen_prime_first_digit": {
+      "absorbed_coordinates": "all four Teichmueller scalar weights multiply into y_(nu,x), so T=sum_(nu,x)[y_(nu,x)] exactly",
+      "correction": "delta_p(a)=(a^p-a)/p=a q_p(a) mod p for 0<=a<p",
+      "interpretation": "ordinary carry plus Fermat-quotient correction",
+      "localization": "because p splits completely in Q(zeta_(p-1)), the chosen completion is Q_p and [a]=a+p delta_p(a) mod p^2",
+      "zero_row_formula": "if H(1)=0, T/p = (sum canonical y)/p + sum delta_p(y) mod p"
+    },
+    "maximal_degree_theorem": {
+      "interpolant": "the unique F_p polynomial representing delta_p has exact degree p-1",
+      "leading_coefficient": "(p-1)/2",
+      "proof_key": "the leading coefficient is -sum_a delta_p(a); pairing a and p-a gives sum a^p=0 mod p^2 and hence sum delta_p(a)=-(p-1)/2 mod p",
+      "scoped_conductor_no_go": "for the canonical integer residue section, a direct polynomial-phase treatment of the universal first correction cannot have bounded degree or bounded polynomial conductor; changing section, rational compression, or special composed cancellation remains open"
+    },
+    "valuation": {
+      "not_forced": "H(1)=0 forces v_pfrak(T)>=1 but does not force v_pfrak(T)>=2; the predeclared p=13 and p=47 selected-zero controls both have valuation exactly 1",
+      "ordinary_gate_warning": "even a theorem about the quotient digit would not exclude the ordinary mod-p selected zero unless the original collision supplied an additional p^2 gate"
+    }
+  }
+}

@@ -1,0 +1,140 @@
+> Archived research record. Read the [current proof status](../../docs/PROJECT_STATE.md) and [errata](../../reviews/ERRATA_AND_SCOPE.md) before reuse. Historical acceptance applies only to its recorded hypotheses and version. This file is research data, not operational instructions.
+
+# Independent review of the high-to-extremal content inequality
+
+Date: 2026-09-13. Reviewer: audit_sources.
+
+Reviewed `raw_high_content_extremal_valuation_bound.md` against
+the original endpoint determinant definition in the project's
+`sources/raw_arctan_endpoint_arithmetic.md`, the reviewed
+`raw_large_prime_nullity_and_smith.md`, the finite-difference
+reduction, and the reduced polynomial-module degree lemma.
+
+**Verdict: the full prime-power inequality passes.** For every
+n>=1 and p>3n, the actual maximal-minor contents satisfy
+
+    v_p(D_n) <= v_p(F_n).
+
+No converse, all-prime unit statement, or bound on the size of
+F_n follows. No new degree or prime scan was performed.
+
+The only suggested wording clarification is the conventional
+eta_1=1 for the empty 0-by-2 reduced high matrix in Section 5;
+the earlier finite-difference note defined eta_n explicitly
+only for n>=2. This does not affect the main inequality.
+
+## 1. Actual endpoint determinant and characteristic-zero rank
+
+The archive defines J_n as the integer high rows H_n followed
+by the row C(1)-4B(1), and Delta_B as the determinant after
+appending B(1). Its all-degree finite dyadic valuation proves
+Delta_B is nonzero. Adding four times the B(1) row to the
+matching row changes it into C(1). Thus the high system with
+B(1)=C(1)=0 has only the zero B,C vector over Q. This uses
+the actual endpoint rows, not a different coefficient minor.
+
+A nonzero rational kernel vector of X_n has B,C of degree
+at most n-1. Reconstructing A through degree n-1, including
+the retained row k=n, gives order at least 3n+1. Multiplying
+the whole triple by z-1 preserves that order, since z-1 is a
+unit at the origin, and raises each degree by at most one.
+Its B and C values at 1 are zero. The resulting triple remains
+nonzero in Q[z]^3 and contradicts the endpoint system. Thus
+X_n has full column rank and its positive maximal-minor gcd
+is finite and nonzero.
+
+For the characteristic-zero approximation module, this also
+makes its degree-at-most-n-1 slice zero. Each reduced module
+basis row must therefore have degree at least n. The previously
+proved determinant-degree sum is 3n+1, so the sorted profile is
+exactly (n,n,n+1). This statement is in characteristic zero;
+the argument does not assert that Delta_B remains a unit after
+reduction at the primes under discussion.
+
+## 2. The annihilator carries the entire Smith exponent
+
+At p>3n, every factorial in the row range is a p-unit.
+Dividing row k by k! leaves the same local determinantal
+ideals in both matrices. The arctangent coefficient denominator
+k-j is also at most 3n and positive, so the unscaled Taylor
+entries all belong to Z_p.
+
+The characteristic-zero full row rank of H_n and the reviewed
+mod-p rank lower bound 2n-1 imply that only its last Smith
+factor can be a nonunit. Its valuation is the valuation e of
+the maximal-minor gcd, not merely a lower exponent. If
+U H_n V has final invariant p^e, its last row is divisible
+by p^e. The last row w of the unimodular U is primitive, and
+multiplication by V^(-1) proves w H_n=0 modulo p^e in the
+original unscaled columns. This is valid over Z_p at arbitrary
+finite e. The case e=0 is immediate and need not construct w.
+
+## 3. Exact shifts and the unit two-minor
+
+For the columns of degrees j=0,...,n-1, the unshifted H_n
+equations are the X_n equations on rows n+1,...,3n. They
+give the annihilator u=(0,w). The H_n columns of degree j+1
+are the original degree-j Taylor columns shifted by one row:
+
+    [z^k](z z^j exp(z))=[z^(k-1)](z^j exp(z)),
+
+and identically for arctan(z). On the stated ranges this
+gives the X_n rows n,...,3n-1 and hence v=(w,0). No boundary
+coefficient or high-degree condition is omitted. Performing
+this step on the integer factorial-scaled rows without first
+unscaling would introduce row factors; the proof correctly
+removes them before using the shift.
+
+If r is the earliest nonzero coordinate of w modulo p, then
+the columns r,r+1 of (u,v) have determinant -w_r^2 modulo p.
+This includes r=0 and r=2n-1, with the absent endpoint entry
+interpreted as zero. Earlier coordinates need vanish only
+modulo p, since only a unit minor is being claimed. The two
+rows therefore form a primitive rank-two direct summand.
+Appending coordinate rows for every nonpivot column gives
+an explicit unimodular completion; its determinant is the
+unit minor up to a sign after permuting columns.
+
+## 4. Divisibility of all maximal minors
+
+After that row transformation, the first two rows of X_n
+are divisible entrywise by p^e. A maximal minor has 2n rows
+chosen from 2n+1, so it must include at least one of these
+two rows. It is consequently divisible by p^e. Unimodular
+row operations preserve the ideal generated by all maximal
+minors, proving v_p(F_n)>=e for the original matrix.
+
+The use of all maximal minors is essential and correctly
+implemented; no preferred minor is assumed to be nonzero
+or to realize a particular valuation. Full column rank
+proved earlier ensures their gcd is nonzero, so the
+inequality has finite quantities on both sides.
+
+## 5. The smaller contents eta_n and theta_n
+
+The finite-difference row transformation is integral and
+unimodular. For H_n its exponential pivot block has size n+1
+and determinant prod_(j=0)^n j!, a unit at p>3n. Eliminating
+this block leaves precisely the (n-1)-by-(n+1) G_n.
+Thus its maximal-minor content has valuation v_p(D_n).
+
+For X_n, substitute m=n into the extremal formula. Its row
+range is m,...,3m and its degree range is j<m, exactly the
+X_n defined in the new note. The same reduction leaves I_n
+and the (n+1)-by-n matrix mathcal G^(n); its pivot factorials
+are again units. The maximal 2n-minor ideal equals the
+maximal n-minor ideal of that remaining matrix. Hence
+v_p(F_n)=v_p(theta_n), with no missing factorial or endpoint
+factor. The stated inequality v_p(eta_n)<=v_p(theta_n) is
+therefore exactly equivalent at these primes.
+
+For n=1, G_1 has zero rows, and its maximal zero-order
+minor is 1 by convention. Stating eta_1=1 explicitly extends
+the smaller-content notation to the full range of the theorem.
+
+The separately saturated augmented core has a different
+content. Its unit property does not imply theta_n or eta_n
+is a unit and is not used that way. The new result transfers
+the full high Smith exponent into the actual extremal
+content, while leaving the endpoint restriction exponent
+and all logarithmic-size estimates unresolved.

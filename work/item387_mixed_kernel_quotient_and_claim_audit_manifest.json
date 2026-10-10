@@ -1,0 +1,54 @@
+{
+  "item": 387,
+  "schema": "item387-mixed-kernel-quotient-and-claim-audit-manifest-v1",
+  "classification": "PROVED_ALL_DEGREE_QUOTIENT_AND_REJECTED_CIRCULAR_CLAIM",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "all integer polynomials in the mixed Yu kernel, the exact endpoint quotient and kernel, and the stated Carella v3/v7 arguments",
+  "canonical_files_modified": false,
+  "external_primary_sources": {
+    "https://arxiv.org/abs/2606.17303": "states the open status and supplies the mixed-polynomial identity audited here",
+    "https://arxiv.org/abs/2007.15000": "v3 direct linear-independence claim audited here",
+    "https://arxiv.org/abs/1706.08394": "v7 product claim and denominator-synchronization lemma audited here"
+  },
+  "artifacts": {
+    "report": {
+      "path": "sources/item387_mixed_kernel_quotient_and_claim_audit_report.md",
+      "sha256": "061e29589d427ccb5c8549c8344781c0c8f0e674d2fa525da03325312ce40625",
+      "bytes": 8530
+    },
+    "certificate_script": {
+      "path": "scripts/item387_mixed_kernel_quotient_and_claim_audit_certificate.py",
+      "sha256": "28bf4e9cdfcd64cf7e48cebf3f0dadb18115d54ff3a5136937f0ce2a042ba83b",
+      "bytes": 4983
+    },
+    "certificate": {
+      "path": "results/item387_mixed_kernel_quotient_and_claim_audit_certificate.json",
+      "sha256": "4e0b426e93032f526f8097bec3ed6c0663842b0c60a818fb49142ade89aa3200",
+      "bytes": 2779
+    },
+    "replay": {
+      "path": "results/item387_mixed_kernel_quotient_and_claim_audit_certificate_replay.json",
+      "sha256": "4e0b426e93032f526f8097bec3ed6c0663842b0c60a818fb49142ade89aa3200",
+      "bytes": 2779,
+      "byte_identical_to_certificate": true
+    },
+    "ledger": {
+      "path": "results/item387_mixed_kernel_quotient_and_claim_audit_ledger_delta.json",
+      "sha256": "7564d3303016ea2a7c02efddaff22dd3211bb83e96ea618d11a7b31591ed57ed",
+      "bytes": 1924
+    }
+  },
+  "theorems": [
+    "P -> S_P is a Z-module automorphism of Z[x] with inverse S -> S+S'",
+    "the endpoint map is onto Z^2 with a degree-one section",
+    "its kernel is (1+D)(x(x-1)Z[x])",
+    "all higher-degree freedom is an exact zero-endpoint derivative gauge",
+    "the unrestricted mixed-polynomial certificate condition is equivalent to the original irrationality criterion",
+    "the 2026 claimed proof is circular and its decisive sine nonvanishing is false under its own contradiction hypothesis"
+  ],
+  "capacity": {
+    "new_route1_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

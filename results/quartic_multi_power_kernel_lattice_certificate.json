@@ -1,0 +1,212 @@
+{
+  "exact_kernel_scan": {
+    "four_b_zeros": [],
+    "four_vector_zeros": [],
+    "identity_failures": [],
+    "pairs_checked": 392,
+    "triple_b_zeros": []
+  },
+  "finite_difference_denominator_diagnostic": {
+    "checks": 936,
+    "failures": [],
+    "parameter_records": [
+      {
+        "base_k": 7,
+        "largest_difference_order": 12,
+        "n": 4
+      },
+      {
+        "base_k": 11,
+        "largest_difference_order": 12,
+        "n": 4
+      },
+      {
+        "base_k": 15,
+        "largest_difference_order": 12,
+        "n": 4
+      },
+      {
+        "base_k": 13,
+        "largest_difference_order": 12,
+        "n": 4
+      },
+      {
+        "base_k": 11,
+        "largest_difference_order": 12,
+        "n": 8
+      },
+      {
+        "base_k": 15,
+        "largest_difference_order": 12,
+        "n": 8
+      },
+      {
+        "base_k": 19,
+        "largest_difference_order": 12,
+        "n": 8
+      },
+      {
+        "base_k": 21,
+        "largest_difference_order": 12,
+        "n": 8
+      },
+      {
+        "base_k": 15,
+        "largest_difference_order": 12,
+        "n": 12
+      },
+      {
+        "base_k": 19,
+        "largest_difference_order": 12,
+        "n": 12
+      },
+      {
+        "base_k": 23,
+        "largest_difference_order": 12,
+        "n": 12
+      },
+      {
+        "base_k": 29,
+        "largest_difference_order": 12,
+        "n": 12
+      },
+      {
+        "base_k": 19,
+        "largest_difference_order": 12,
+        "n": 16
+      },
+      {
+        "base_k": 23,
+        "largest_difference_order": 12,
+        "n": 16
+      },
+      {
+        "base_k": 27,
+        "largest_difference_order": 12,
+        "n": 16
+      },
+      {
+        "base_k": 37,
+        "largest_difference_order": 12,
+        "n": 16
+      },
+      {
+        "base_k": 23,
+        "largest_difference_order": 12,
+        "n": 20
+      },
+      {
+        "base_k": 27,
+        "largest_difference_order": 12,
+        "n": 20
+      },
+      {
+        "base_k": 31,
+        "largest_difference_order": 12,
+        "n": 20
+      },
+      {
+        "base_k": 45,
+        "largest_difference_order": 12,
+        "n": 20
+      },
+      {
+        "base_k": 27,
+        "largest_difference_order": 12,
+        "n": 24
+      },
+      {
+        "base_k": 31,
+        "largest_difference_order": 12,
+        "n": 24
+      },
+      {
+        "base_k": 35,
+        "largest_difference_order": 12,
+        "n": 24
+      },
+      {
+        "base_k": 53,
+        "largest_difference_order": 12,
+        "n": 24
+      }
+    ]
+  },
+  "primitive_height_diagnostics": [
+    {
+      "k": 17,
+      "n": 8,
+      "primitive_kernel_max_bits": 22,
+      "primitive_rational_pi_max_bits": 44
+    },
+    {
+      "k": 30,
+      "n": 12,
+      "primitive_kernel_max_bits": 36,
+      "primitive_rational_pi_max_bits": 91
+    },
+    {
+      "k": 44,
+      "n": 16,
+      "primitive_kernel_max_bits": 57,
+      "primitive_rational_pi_max_bits": 152
+    },
+    {
+      "k": 60,
+      "n": 20,
+      "primitive_kernel_max_bits": 62,
+      "primitive_rational_pi_max_bits": 196
+    },
+    {
+      "k": 76,
+      "n": 24,
+      "primitive_kernel_max_bits": 78,
+      "primitive_rational_pi_max_bits": 259
+    },
+    {
+      "k": 93,
+      "n": 28,
+      "primitive_kernel_max_bits": 89,
+      "primitive_rational_pi_max_bits": 314
+    },
+    {
+      "k": 111,
+      "n": 32,
+      "primitive_kernel_max_bits": 116,
+      "primitive_rational_pi_max_bits": 392
+    },
+    {
+      "k": 129,
+      "n": 36,
+      "primitive_kernel_max_bits": 129,
+      "primitive_rational_pi_max_bits": 452
+    },
+    {
+      "k": 148,
+      "n": 40,
+      "primitive_kernel_max_bits": 143,
+      "primitive_rational_pi_max_bits": 508
+    }
+  ],
+  "schema": "quartic-multi-power-kernel-lattice-certificate-v2",
+  "symbolic_geometric_checks": {
+    "abs_m_minus_g_squared_over_r10": true,
+    "abs_p_minus_g_squared_over_r10": true,
+    "delta_identity": true,
+    "four_value_multihomogeneous_degrees_4_1_1": true,
+    "hankel_annihilator_identity": true,
+    "minus_imag_g_over_r5": true,
+    "odd_coordinate_root_filter": true,
+    "p_minus_m_over_r5": true,
+    "quadrature_determinant_identity": true,
+    "real_vandermonde_identity": true,
+    "saddle_multiplier_elimination": true
+  },
+  "warnings": [
+    "Finite nonvanishing and denominator scans are diagnostics, not all-parameter proofs.",
+    "The exact lattice and determinant identities are proved algebraically in the companion note.",
+    "The growing-number-of-powers route is not closed by this certificate.",
+    "The four-power sign uses the proved sufficient condition n*r^45 -> infinity.",
+    "Nothing here classifies e+pi."
+  ]
+}

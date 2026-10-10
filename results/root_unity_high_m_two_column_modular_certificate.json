@@ -1,0 +1,109 @@
+{
+  "exact_grid": {
+    "D_rule": "2 <= D <= min(12,n) and n < (m-2)D",
+    "all_endpoint_matrices_have_nullity_two_mod_prime": true,
+    "all_gamma_polynomials_nonzero_mod_prime": true,
+    "all_interpolation_matrices_invertible_mod_prime": true,
+    "exact_witness_tuple_sha256": "9f1f21465125c560681b6bc2c30ba41a61fc7d9fdeb4f9c2c1aad1093600332f",
+    "m_range": [
+      4,
+      20
+    ],
+    "n_range": [
+      2,
+      16
+    ],
+    "row_count": 1762
+  },
+  "logical_scope": {
+    "not_asymptotic": "The finite modular grid is not extrapolated to an all-parameter nonvanishing theorem.",
+    "rigorous_finite_grid": "Good reduction and a nonzero Gamma coefficient modulo the prime prove Gamma is nonzero over Q for every listed tuple."
+  },
+  "prime": 1000000007,
+  "schema": "root-unity-high-m-two-column-modular-certificate-v1",
+  "selected_rows": [
+    {
+      "D": 4,
+      "gamma_first_nonzero_coefficient_index_mod_prime": 0,
+      "gamma_first_nonzero_coefficient_mod_prime": 859171299,
+      "m": 4,
+      "n": 6,
+      "secondary_ambient_dimension": 33,
+      "secondary_dimension_deficit": 2,
+      "secondary_origin_order": 31
+    },
+    {
+      "D": 8,
+      "gamma_first_nonzero_coefficient_index_mod_prime": 0,
+      "gamma_first_nonzero_coefficient_mod_prime": 24156043,
+      "m": 4,
+      "n": 12,
+      "secondary_ambient_dimension": 63,
+      "secondary_dimension_deficit": 4,
+      "secondary_origin_order": 59
+    },
+    {
+      "D": 6,
+      "gamma_first_nonzero_coefficient_index_mod_prime": 0,
+      "gamma_first_nonzero_coefficient_mod_prime": 208696794,
+      "m": 6,
+      "n": 6,
+      "secondary_ambient_dimension": 65,
+      "secondary_dimension_deficit": 18,
+      "secondary_origin_order": 47
+    },
+    {
+      "D": 8,
+      "gamma_first_nonzero_coefficient_index_mod_prime": 0,
+      "gamma_first_nonzero_coefficient_mod_prime": 277179567,
+      "m": 8,
+      "n": 8,
+      "secondary_ambient_dimension": 119,
+      "secondary_dimension_deficit": 40,
+      "secondary_origin_order": 79
+    },
+    {
+      "D": 10,
+      "gamma_first_nonzero_coefficient_index_mod_prime": 0,
+      "gamma_first_nonzero_coefficient_mod_prime": 836605009,
+      "m": 10,
+      "n": 10,
+      "secondary_ambient_dimension": 189,
+      "secondary_dimension_deficit": 70,
+      "secondary_origin_order": 119
+    },
+    {
+      "D": 12,
+      "gamma_first_nonzero_coefficient_index_mod_prime": 0,
+      "gamma_first_nonzero_coefficient_mod_prime": 98714220,
+      "m": 12,
+      "n": 12,
+      "secondary_ambient_dimension": 275,
+      "secondary_dimension_deficit": 108,
+      "secondary_origin_order": 167
+    },
+    {
+      "D": 12,
+      "gamma_first_nonzero_coefficient_index_mod_prime": 0,
+      "gamma_first_nonzero_coefficient_mod_prime": 232547511,
+      "m": 16,
+      "n": 16,
+      "secondary_ambient_dimension": 435,
+      "secondary_dimension_deficit": 152,
+      "secondary_origin_order": 283
+    },
+    {
+      "D": 12,
+      "gamma_first_nonzero_coefficient_index_mod_prime": 0,
+      "gamma_first_nonzero_coefficient_mod_prime": 789296220,
+      "m": 20,
+      "n": 16,
+      "secondary_ambient_dimension": 551,
+      "secondary_dimension_deficit": 200,
+      "secondary_origin_order": 351
+    }
+  ],
+  "versions": {
+    "python_flint": "0.9.0"
+  }
+}

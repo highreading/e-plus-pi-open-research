@@ -1,0 +1,549 @@
+{
+  "capacity_replay": {
+    "boundaries_are_nonadditive": true,
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "raw_fixed_j1_mass_per_M": "1/6",
+    "saturated_comparison_capacity_per_6M": "1/48",
+    "saturated_comparison_mass_per_M": "1/8",
+    "shared_full_fixed_j1_ceiling_per_6M": "1/36"
+  },
+  "classification": "PROVED_WHIPPLED_CROSSES_AND_LINEAR_PARAMETER_STATE_BARRIER",
+  "clearing_and_saturation_replay": {
+    "classification": "EXACT PREDECLARED TARGET-LINE CONTROLS; NO PRIME SCAN",
+    "clearing_recurrence": "Q_0=k_epsilon; Q_t=(B+t-1)Q_(t-1)+(-1)^t(A)_t*k_(epsilon+2t)",
+    "exact_zero_rule": "a zero pair is kept as a separate characteristic-zero phase stratum",
+    "large_prime_bridge": "after removing every prime <=4h+3, the gcd of the two linear target-line norms has exactly the same prime support as the Item 364 phase carrier",
+    "quotient": "S=Q_n/(B)_n",
+    "rows": [
+      {
+        "h": 1,
+        "large_prime_saturation_uv": 1,
+        "large_prime_saturation_xy": 1,
+        "scaled_target_line_values": {
+          "U": -3752,
+          "V": 608,
+          "X": 10,
+          "Y": -16
+        }
+      },
+      {
+        "h": 2,
+        "large_prime_saturation_uv": 859,
+        "large_prime_saturation_xy": 1,
+        "scaled_target_line_values": {
+          "U": 755920,
+          "V": 0,
+          "X": -1100,
+          "Y": 96
+        }
+      },
+      {
+        "h": 4,
+        "large_prime_saturation_uv": 1,
+        "large_prime_saturation_xy": 1,
+        "scaled_target_line_values": {
+          "U": -6758662976,
+          "V": 941281280,
+          "X": 2788240,
+          "Y": -9372160
+        }
+      },
+      {
+        "h": 5,
+        "large_prime_saturation_uv": 1,
+        "large_prime_saturation_xy": 1,
+        "scaled_target_line_values": {
+          "U": 4829316947840,
+          "V": -58266378240,
+          "X": -1686440800,
+          "Y": 549319680
+        }
+      },
+      {
+        "h": 7,
+        "large_prime_saturation_uv": 1,
+        "large_prime_saturation_xy": 1,
+        "scaled_target_line_values": {
+          "U": 1157201948224000,
+          "V": 10347177017999360,
+          "X": -3217738160000,
+          "Y": -63741896458240
+        }
+      },
+      {
+        "h": 8,
+        "large_prime_saturation_uv": 1,
+        "large_prime_saturation_xy": 1,
+        "scaled_target_line_values": {
+          "U": 103675146927602252800,
+          "V": -1763931626432102400,
+          "X": -15845625934073600,
+          "Y": 10134956929843200
+        }
+      }
+    ],
+    "target_line": "L_h(s)=6s+4h+3; sigma_h=-(4h+3)/6"
+  },
+  "dependencies": {
+    "manifests/item360_j1_full_gate_transverse_period_manifest.json": "92f88a56162f3803b8699922da921333f5225c41a32d14c87641dd53c3f8b55b",
+    "manifests/item364_j1_saturation_boundary_phase_carrier_manifest.json": "bd0c5435fe4d0b7266d81b4f97dfacf8b2fca55fb2c95770e7cb853c2f77426c",
+    "results/item218_j1_common_log_certificate.json": "963bbb8a9758e55ede72f965693d21fc41aa70d44e2d981d5873685c3f08ea0f",
+    "results/item218_j1_common_log_manifest.json": "e1c6c3d713670c819b5f27b1005db26f9b804ec8ee0766671928fc30c1ff6d8d",
+    "results/item360_j1_full_gate_transverse_period_root_audit.json": "7a23e487b4d70d63f9785339344bdc00ae0e8350bcf1d8b1fcf6228c230e5138",
+    "results/item364_j1_saturation_boundary_phase_carrier_certificate.json": "ca1987d1688789dbf0e64f3eec2c4b771b9873f829e61d1b5f62302f47443926",
+    "results/item364_j1_saturation_boundary_phase_carrier_root_audit.json": "fa6170a0c014cee655ba00c5288905344a969aa22b141d44b64ae4a2d3219a89",
+    "scripts/item218_j1_common_log_certificate.py": "a238c5ca37263f2553da47bf3f21253aedf1c34f8c57458a4a274fc6cdc9029a",
+    "scripts/item364_j1_saturation_boundary_phase_carrier_certificate.py": "ef9046fc4d7071779a73bf6e1bfd7d312789b994bd3274eec2a78d818d027b07",
+    "sources/item218_j1_common_log_report.md": "2cabc5a705a974d6989718e24443b59c00715fd4e9aff288e0e17b297096d585",
+    "sources/item360_j1_full_gate_transverse_period_report.md": "4468412fb8631924952dc7f70fc4e75433a7524954b89525de508e55feefc8c4",
+    "sources/item364_j1_saturation_boundary_phase_carrier_report.md": "2c18f6ac22220e553349e44a723e200d20f4f3c89cfec5cd83812db260834e92"
+  },
+  "dependency_hashes_verified": true,
+  "item": 368,
+  "k1_rank_replay": {
+    "classification": "EXACT PREDECLARED COEFFICIENT CONTROLS",
+    "exact_degeneracy": "h=2 has an identically zero odd family and is separately closed by Item 364",
+    "quartic_leading_coefficient_in_j": 16,
+    "rows": [
+      {
+        "even_state_rank": 5,
+        "h": 2,
+        "interior_even_zeros": 0,
+        "interior_odd_zeros": 2,
+        "odd_state_rank": 0
+      },
+      {
+        "even_state_rank": 7,
+        "h": 4,
+        "interior_even_zeros": 0,
+        "interior_odd_zeros": 0,
+        "odd_state_rank": 6
+      },
+      {
+        "even_state_rank": 8,
+        "h": 5,
+        "interior_even_zeros": 0,
+        "interior_odd_zeros": 0,
+        "odd_state_rank": 7
+      },
+      {
+        "even_state_rank": 11,
+        "h": 8,
+        "interior_even_zeros": 0,
+        "interior_odd_zeros": 0,
+        "odd_state_rank": 10
+      },
+      {
+        "even_state_rank": 14,
+        "h": 11,
+        "interior_even_zeros": 0,
+        "interior_odd_zeros": 0,
+        "odd_state_rank": 13
+      },
+      {
+        "even_state_rank": 17,
+        "h": 14,
+        "interior_even_zeros": 0,
+        "interior_odd_zeros": 0,
+        "odd_state_rank": 16
+      }
+    ],
+    "theorem": "for 0<=j<=2h, K1_j=(-1)^j*C(2h,j)*P_h(j)/(2h-j+1)_4 with quartic P_h; there are at most four interior zeros, so the even and odd parameter-state ranks are at least h-3 and h-4 respectively"
+  },
+  "parameter_rank_replay": {
+    "classification": "EXACT TRIANGULAR BASIS CONTROLS",
+    "method_scope": "parameter-uniform denominator transfer or bounded matched-value interpolation",
+    "rows": [
+      {
+        "basis_degrees": [
+          1,
+          0
+        ],
+        "h": 1,
+        "state_rank": 2
+      },
+      {
+        "basis_degrees": [
+          2,
+          1,
+          0
+        ],
+        "h": 2,
+        "state_rank": 3
+      },
+      {
+        "basis_degrees": [
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "h": 4,
+        "state_rank": 5
+      },
+      {
+        "basis_degrees": [
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "h": 5,
+        "state_rank": 6
+      },
+      {
+        "basis_degrees": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "h": 8,
+        "state_rank": 9
+      },
+      {
+        "basis_degrees": [
+          11,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "h": 11,
+        "state_rank": 12
+      }
+    ],
+    "theorem": "span_A F_h(A;B)=span{1/(B)_t:0<=t<=h}; multiplying by (B)_h gives the monic triangular basis (B+t)_(h-t), hence exact rank h+1"
+  },
+  "saturated_comparison_replay": {
+    "capacity_per_6M": "1/48",
+    "classification": "EXACT PREDECLARED COMPARISON CONTROLS",
+    "comparison": "C_h=(18h)!/(4h)!, then remove all prime factors <=4h+3",
+    "positive_rate_bulk": "M/12<=h<=M/3 retains every actual p and has Chebyshev mass M/8+o(M)",
+    "rows": [
+      {
+        "M": 12,
+        "h": 2,
+        "p": 17,
+        "s": 1
+      },
+      {
+        "M": 34,
+        "h": 8,
+        "p": 47,
+        "s": 2
+      },
+      {
+        "M": 30,
+        "h": 4,
+        "p": 43,
+        "s": 4
+      }
+    ],
+    "scope": "small-prime saturation does not repair generic recurrence/height/divisor-sieve reasoning; no resemblance to the actual carriers is asserted"
+  },
+  "schema": "item368-j1-boundary-whipple-rank-obstruction-v1",
+  "scope_warning": "The rank theorem is parameter-uniform and the contiguity theorem concerns classical integer shifts. They do not rule out a new target-specific arithmetic identity. The comparison closes only generic recurrence/height/resultant/divisor-sieve reasoning. Neither boundary is proved zero-rate.",
+  "strict_labels": {
+    "finite_only": [
+      "eight declared Whipple controls, six rank controls, six K1 controls, six target-line controls, and three comparison controls",
+      "no prime scan, collision census, or extrapolation"
+    ],
+    "open": [
+      "classification of exact-zero phase pairs",
+      "weighted zero density or average gcd for the actual saturated carriers",
+      "a target-specific identity exploiting the two actual moving numerator parameters",
+      "any strict fixed-j1 capacity reduction"
+    ],
+    "proved": [
+      "exact denominator-clearing recurrence and fixed-h target-line norm formulation",
+      "large-prime saturation removes every factor incapable of being an actual tied prime",
+      "K0 off-diagonal 4F3(-1) rectangle and both crossed Whipple product evaluations",
+      "crossed products are p-units and lie in distinct integer-contiguity orbits from the actual entries",
+      "exact K0 parameter-uniform state rank h+1 and K1 state rank at least h-O(1)",
+      "scoped no-go for bounded matched-value/contiguous transfer and generic saturated recurrence-height sieve methods",
+      "zero booking and retention of the shared 1/36 ceiling"
+    ]
+  },
+  "verdict": "The natural crossed Whipple completion evaluates only p-unit companions and cannot reach the actual off-diagonal periods by integer contiguity; the universal state grows linearly. Together with target-line saturation this closes a broad standard method class, but no actual-family weighted mass changes.",
+  "whipple_rectangle_replay": {
+    "actual_prime_unit": "both crossed normalized periods are p-units for p>=4h+9",
+    "classification": "EXACT PREDECLARED SYMBOLIC CONTROLS; NO PRIME SCAN",
+    "contiguity_gap": "A_h-A_s=B_h-B_s=(10h+3)/6 is nonintegral when 3 does not divide h",
+    "general_identity": "F_h(A_s;B_h)=(3/2-h)_h/(1-h/3)_h and F_h(A_h;B_s)=(3/2-h)_h/(1/2-2h)_h",
+    "rows": [
+      {
+        "A_h": {
+          "denominator": 1,
+          "numerator": 2
+        },
+        "A_s": {
+          "denominator": 6,
+          "numerator": -1
+        },
+        "B_h": {
+          "denominator": 3,
+          "numerator": 2
+        },
+        "B_s": {
+          "denominator": 2,
+          "numerator": -3
+        },
+        "cross_h_s": {
+          "denominator": 3,
+          "numerator": -1
+        },
+        "cross_s_h": {
+          "denominator": 4,
+          "numerator": 3
+        },
+        "delta": {
+          "denominator": 6,
+          "numerator": 13
+        },
+        "h": 1,
+        "maximum_absolute_product_factor": 3
+      },
+      {
+        "A_h": {
+          "denominator": 1,
+          "numerator": 3
+        },
+        "A_s": {
+          "denominator": 6,
+          "numerator": -5
+        },
+        "B_h": {
+          "denominator": 3,
+          "numerator": 1
+        },
+        "B_s": {
+          "denominator": 2,
+          "numerator": -7
+        },
+        "cross_h_s": {
+          "denominator": 35,
+          "numerator": -1
+        },
+        "cross_s_h": {
+          "denominator": 16,
+          "numerator": -9
+        },
+        "delta": {
+          "denominator": 6,
+          "numerator": 23
+        },
+        "h": 2,
+        "maximum_absolute_product_factor": 7
+      },
+      {
+        "A_h": {
+          "denominator": 1,
+          "numerator": 5
+        },
+        "A_s": {
+          "denominator": 6,
+          "numerator": -13
+        },
+        "B_h": {
+          "denominator": 3,
+          "numerator": -1
+        },
+        "B_s": {
+          "denominator": 2,
+          "numerator": -15
+        },
+        "cross_h_s": {
+          "denominator": 1287,
+          "numerator": -1
+        },
+        "cross_s_h": {
+          "denominator": 256,
+          "numerator": 243
+        },
+        "delta": {
+          "denominator": 6,
+          "numerator": 43
+        },
+        "h": 4,
+        "maximum_absolute_product_factor": 15
+      },
+      {
+        "A_h": {
+          "denominator": 1,
+          "numerator": 6
+        },
+        "A_s": {
+          "denominator": 6,
+          "numerator": -17
+        },
+        "B_h": {
+          "denominator": 3,
+          "numerator": -2
+        },
+        "B_s": {
+          "denominator": 2,
+          "numerator": -19
+        },
+        "cross_h_s": {
+          "denominator": 46189,
+          "numerator": -7
+        },
+        "cross_s_h": {
+          "denominator": 512,
+          "numerator": -729
+        },
+        "delta": {
+          "denominator": 6,
+          "numerator": 53
+        },
+        "h": 5,
+        "maximum_absolute_product_factor": 19
+      },
+      {
+        "A_h": {
+          "denominator": 1,
+          "numerator": 8
+        },
+        "A_s": {
+          "denominator": 6,
+          "numerator": -25
+        },
+        "B_h": {
+          "denominator": 3,
+          "numerator": -4
+        },
+        "B_s": {
+          "denominator": 2,
+          "numerator": -27
+        },
+        "cross_h_s": {
+          "denominator": 1671525,
+          "numerator": -11
+        },
+        "cross_s_h": {
+          "denominator": 16384,
+          "numerator": 59049
+        },
+        "delta": {
+          "denominator": 6,
+          "numerator": 73
+        },
+        "h": 7,
+        "maximum_absolute_product_factor": 27
+      },
+      {
+        "A_h": {
+          "denominator": 1,
+          "numerator": 9
+        },
+        "A_s": {
+          "denominator": 6,
+          "numerator": -29
+        },
+        "B_h": {
+          "denominator": 3,
+          "numerator": -5
+        },
+        "B_s": {
+          "denominator": 2,
+          "numerator": -31
+        },
+        "cross_h_s": {
+          "denominator": 100180065,
+          "numerator": -143
+        },
+        "cross_s_h": {
+          "denominator": 327680,
+          "numerator": -1948617
+        },
+        "delta": {
+          "denominator": 6,
+          "numerator": 83
+        },
+        "h": 8,
+        "maximum_absolute_product_factor": 31
+      },
+      {
+        "A_h": {
+          "denominator": 1,
+          "numerator": 11
+        },
+        "A_s": {
+          "denominator": 6,
+          "numerator": -37
+        },
+        "B_h": {
+          "denominator": 3,
+          "numerator": -7
+        },
+        "B_s": {
+          "denominator": 2,
+          "numerator": -39
+        },
+        "cross_h_s": {
+          "denominator": 240990435,
+          "numerator": -17
+        },
+        "cross_s_h": {
+          "denominator": 3670016,
+          "numerator": 62178597
+        },
+        "delta": {
+          "denominator": 6,
+          "numerator": 103
+        },
+        "h": 10,
+        "maximum_absolute_product_factor": 39
+      },
+      {
+        "A_h": {
+          "denominator": 1,
+          "numerator": 12
+        },
+        "A_s": {
+          "denominator": 6,
+          "numerator": -41
+        },
+        "B_h": {
+          "denominator": 3,
+          "numerator": -8
+        },
+        "B_s": {
+          "denominator": 2,
+          "numerator": -43
+        },
+        "cross_h_s": {
+          "denominator": 20231720805,
+          "numerator": -323
+        },
+        "cross_s_h": {
+          "denominator": 8388608,
+          "numerator": -243931419
+        },
+        "delta": {
+          "denominator": 6,
+          "numerator": 113
+        },
+        "h": 11,
+        "maximum_absolute_product_factor": 43
+      }
+    ]
+  }
+}

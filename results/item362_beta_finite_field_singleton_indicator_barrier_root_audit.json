@@ -1,0 +1,66 @@
+{
+  "item": 362,
+  "schema": "item362-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_FINITE_FIELD_INDICATOR_DEGREE_HEIGHT_SCOPED_NO_GO",
+  "scope": "independent root audit of the beta singleton polynomial function, reduced-degree theorem, load-coordinate invariance, candidate loop, integer-height dilation, and first Fermat-quotient digit",
+  "checks": {
+    "work_manifest_checks": 29,
+    "work_manifest_failures": 0,
+    "frozen_dependencies_checked": 23,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "independent_degree_formula_cases": 112,
+    "independent_truth_table_points": 892,
+    "independent_low_incidence_monomial_checks": 81,
+    "independent_height_checks": 24,
+    "independent_all_odd_prime_quotient_checks": 24,
+    "prime_or_target_census_performed": false,
+    "all_independent_checks": true,
+    "canonical_scope_clarification": "recorded the trivial N=0 case and the actual-family bound N<=n-4<p; no theorem or certificate output changed"
+  },
+  "mathematical_audit": {
+    "reduction": "the quotient by X^p-X has a unique representative of individual degree at most p-1, and exponent reduction never increases total degree",
+    "singleton_degree": "expansion has N distinct partial-product monomials and one full-product monomial; cancellation of the latter occurs exactly when p divides N, giving the stated exact degree split",
+    "actual_range": "if the nonzero row set is empty then U_11=1; otherwise actual rows satisfy N<p, so the natural integer coefficient N is also its reduced coefficient representative",
+    "low_incidence": "for each zero set of size L-1, the complementary-support monomial occurs with coefficient -1 and cannot arise from a smaller zero set",
+    "load_change": "the signed-load recurrence is an invertible integral linear coordinate change before endpoint and box specialization; composition in both directions proves reduced total-degree invariance",
+    "loop": "gcd(p,Phi_p(t,Z)) is p exactly at a t-avoiding singleton squarefree candidate and 1 otherwise, so the product is exactly U_11 but remains candidate-dependent",
+    "height": "at a hit the natural reduced lift is at least p^(p-1), hence products dilate log U_11 by at least A rather than provide sublinear compression",
+    "quotient": "modulo p^2 only the unique missing-row monomial survives, giving Phi/p=-q_p(t product_(i!=j)Z_i); rows (p,p-1) have valuation exactly one for every odd p",
+    "scope_warning": "none of these functional-degree or canonical-lift bounds excludes target-specific cancellation, arbitrary F-crystals, trace/character methods, or weighted Fermat-quotient distribution"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "unique reduced singleton complement and exact degree split",
+      "growing low-incidence degree lower bound",
+      "pre-target triangular-coordinate degree invariance",
+      "exact actual candidate-loop identity",
+      "canonical-lift height dilation",
+      "first Fermat-quotient bridge and all-odd-prime failure of a universal second digit",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared and independent truth-table controls; no actual target or prime census"
+    ],
+    "OPEN": [
+      "target-specific cancellation after endpoint and box specialization",
+      "candidate-independent sublinear-height carrier",
+      "moving Fermat-quotient weighted density",
+      "actual singleton and growing low-incidence zero rate",
+      "beta capacity",
+      "Route 1",
+      "e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_singleton_maximum": "log b",
+    "positive_mass_indicator_degree": "Omega(n^2)",
+    "aggregate_lift_height": ">=A log U_11",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "new_booking": 0
+  }
+}

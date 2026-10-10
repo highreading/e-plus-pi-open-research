@@ -1,0 +1,52 @@
+{
+  "item": 245,
+  "auditor": "root",
+  "verdict": "accepted_with_stated_scope",
+  "scope": {
+    "proved": [
+      "The actual target p-section has degree at most seven, so its fifth Q-adic digit c4 vanishes.",
+      "After the canonical one-Q recurrence-module normalization, the surviving input state has dimension eight.",
+      "The normalized multiplication/observation determinant is (alpha^2+beta^2)^4.",
+      "The alternating B0^2 P_nu formulas, reciprocity alignment, and local individual/joint rank formulas are exact."
+    ],
+    "exact_finite_only": [
+      "The coordinate-rank census through p <= 601.",
+      "The absence of a joint rank drop through p <= 601."
+    ],
+    "open": [
+      "Uniform nonvanishing or uniform joint observability on every admissible row.",
+      "Any p^3 common-log exclusion, Route-1 rate gain, or conclusion about e+pi."
+    ]
+  },
+  "proof_review": {
+    "degree_bound": "For a=p-q-1, deg(R_E)<=8p-1 and deg(P_nu)=d give mp<=7p+d+q; the row identity d+q=p-r-2<p forces m<=7.",
+    "determinant": "The observation matrix is unit lower triangular. Multiplication by A in F_p[Z]/Q^4 has norm Res(Q^4,A)=Res(Q,alpha+beta Z)^4=(alpha^2+beta^2)^4.",
+    "reciprocity": "B0 is reciprocal about degree 2p and P_nu is reciprocal because r is even; reflection about 4p+d maps a+mp to b+(3-m)p with b=p-r-1.",
+    "joint_rank": "On each length-four local factor, the intersection of multiplication kernels has dimension min(k0,k1), yielding the stated stacked rank formula.",
+    "normalization_caveat": "The eight-phase matrix is a canonical recurrence-module normalization after one Q factor; it is not asserted to be an unnormalized early-coefficient matrix or the older Item-233 matrix."
+  },
+  "replay": {
+    "canonical_sha256": "f8b826c2292b91b740cdb45771598612b317f1ae82091279c073387707cdb357",
+    "agent_replay_sha256": "f8b826c2292b91b740cdb45771598612b317f1ae82091279c073387707cdb357",
+    "root_replay_sha256": "f8b826c2292b91b740cdb45771598612b317f1ae82091279c073387707cdb357",
+    "archive_layout_replay_sha256": "f8b826c2292b91b740cdb45771598612b317f1ae82091279c073387707cdb357",
+    "byte_identical": true,
+    "rows": 184,
+    "coordinates": 368
+  },
+  "independent_probe": {
+    "script_sha256": "6723e4597bc89050ea8599e06a26754b3d42e9075dad25eacf46a3aae4f37995",
+    "result_sha256": "d35896eed3c92349e826c7df3736ce8b3c9eb1951f1201ea6eb19905b60d9897",
+    "rows_through_151": 184,
+    "coordinates": 368,
+    "universal_alpha_beta_pairs": 195,
+    "joint_rank_drops": 0
+  },
+  "frozen_hashes": {
+    "report": "cdd1d5cb45d68615c983529bd465263ffe6b350279bfdf44f9c54e203dae196e",
+    "checker": "3721a0a7fbfa5a2812049239c4428eaf705c003120f3e1aab7c4bd6259c11812",
+    "canonical_and_replay": "f8b826c2292b91b740cdb45771598612b317f1ae82091279c073387707cdb357",
+    "manifest": "f5a318248a638ea9076d423126dc6183ceec65258e70b0ef1abad834a1ff5929",
+    "hash_ledger": "86466cd2091d02c5006a15f78605f1212f399afadbfc94e7541c6ecc6c2064ef"
+  }
+}

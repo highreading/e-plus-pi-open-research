@@ -1,0 +1,68 @@
+{
+  "item": 394,
+  "schema": "item394-j2-matched-modulus-aggregate-collapse-ledger-v1",
+  "classification": "PROVED_EXACT_MATCHED_AGGREGATE_AND_ACTUAL_FORMULA_COLLAPSE",
+  "branch": "ordinary fixed-j=2 aggregate across nondegenerate and degenerate primitive carriers",
+  "proved": {
+    "integer_row_extension": "the Item-334 carrier extends canonically to every q in Q_M by c_p->c_q and (2/p)->chi_8(q), agreeing on every actual prime row",
+    "matched_factor": "d_(M,q)=rad gcd(q,Ghat_(M,q)) after safe saturation",
+    "prime_independent_aggregate": "A_M=lcm_(q in Q_M) d_(M,q)",
+    "safe_low_prime_saturation": "A_M^sharp=(A_M)_((L_M-1)!)",
+    "exact_support_identity": "A_M^sharp is exactly the squarefree product of all actual collision primes on the fixed-M slice",
+    "chart_factorization": "the safely saturated Item-349 carrier gives coprime factors A_M,nd^sharp and A_M,deg^sharp whose product is A_M^sharp",
+    "unsaturated_envelope": "A_M divides rad lcm{q in Q_M}, whose logarithmic height is C_6 M+o(M)",
+    "C_6": "6979177263689987598318/56080510212831201972875 = 0.12444924693451084...",
+    "sharp_height": "log A_M^sharp <= (2/35)M+o(M)",
+    "equivalence": "log A_M^sharp=o(M) iff W_nd(M)+W_deg(M)=o(M)"
+  },
+  "actual_formula_obstruction": {
+    "phase_norm": "Item 361 elimination gives exactly the old N_r support, a superset of the target-retaining collision support",
+    "degenerate_carrier": "Item 349 partitions the exact aggregate and recombines to the same union",
+    "common_kernel": "matching Item 359 selected coefficients with their row moduli returns the matched-gcd aggregate; low-prime saturation returns the exact collision product",
+    "conclusion": "known norms, chart adjunction, and coefficient packaging do not yield a strict height saving without new arithmetic of the actual carrier"
+  },
+  "scope": {
+    "closed": [
+      "obtaining a capacity saving solely by forming the known phase norm and aggregating its matched divisors",
+      "obtaining a union saving solely by adjoining the triple-minor carrier",
+      "obtaining a saving solely by packaging the common fixed-M coefficient kernel and matching each coefficient to its modulus",
+      "raw products of row carriers as a substitute for matched-modulus aggregation"
+    ],
+    "not_closed": [
+      "an arithmetic height saving for the exact aggregate A_M^sharp",
+      "separate weighted-density theorems for the nondegenerate and degenerate factors",
+      "selector-aware cross-prime nonconcentration of the actual target residual",
+      "W_nd(M)+W_deg(M)=o(M) or any strict constant saving"
+    ]
+  },
+  "capacity": {
+    "unsaturated_modulus_envelope_per_M": "C_6=0.12444924693451084...",
+    "best_rigorous_exact_aggregate_height_per_M": "2/35",
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "chart_overlap_rule": "nondegenerate and degenerate exact aggregate factors are disjoint and multiply to one shared collision product"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "canonical integer-row carrier extension",
+      "prime-independent matched aggregate",
+      "exact low-prime saturation identity",
+      "exact chart factorization",
+      "exact unsaturated lcm-envelope constant",
+      "actual-formula norm/partition/packaging collapse"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared actual formula slice replays",
+      "declared lcm-envelope ratios",
+      "declared multiplier-transition checks beyond the symbolic threshold proof"
+    ],
+    "OPEN": [
+      "a strict or zero-rate height theorem for A_M^sharp",
+      "the actual ordinary-j2 aggregate weighted-density theorem",
+      "Route 1 and every conclusion about e+pi"
+    ]
+  },
+  "smallest_next_input": "new arithmetic proving log A_M^sharp=o(M), or a strict linear saving for one chart together with a complementary bound for the other",
+  "central_files_modified": false
+}

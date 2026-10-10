@@ -1,0 +1,42 @@
+{
+  "artifacts": {
+    "results/item230_j1_phase_closure_certificate.json": {
+      "role": "canonical deterministic exact output",
+      "sha256": "05d77dfbc5a4df07dbcc1faae0adf8ec4c023f0705d1a8dd3d6bb703296abd88",
+      "work_source": "item230_j1_phase_closure_certificate.json"
+    },
+    "results/item230_j1_phase_closure_certificate_replay.json": {
+      "role": "independent replay output; byte-identical to canonical",
+      "sha256": "05d77dfbc5a4df07dbcc1faae0adf8ec4c023f0705d1a8dd3d6bb703296abd88",
+      "work_source": "item230_j1_phase_closure_certificate_replay.json"
+    },
+    "scripts/item230_j1_phase_closure_certificate.py": {
+      "role": "Python-standard-library phase-transfer, exact multiplicity, antiperiod closure, augmented-rank, and finite-census checker",
+      "sha256": "0722964a47817ca2dcd93cc9013339f16d2d6a6271893938c7d473cc6115fe0b",
+      "work_source": "item230_j1_phase_closure_certificate.py"
+    },
+    "sources/item230_j1_phase_closure_report.md": {
+      "role": "proof report, unreduced ap-source audit, phase antiperiod theorem, exact rank criterion, finite evidence, and Route-1 ledger",
+      "sha256": "d5172233ca5dcdd3ba49ea7fd870de582d625975d8ca0b55d2ae10f94204fa72",
+      "work_source": "item230_j1_phase_closure_report.md"
+    }
+  },
+  "canonical_command_from_archive_root": "python scripts/item230_j1_phase_closure_certificate.py --output results/item230_j1_phase_closure_certificate.json",
+  "dependencies": {
+    "archive_files": {
+      "scripts/item218_j1_common_log_certificate.py": "a238c5ca37263f2553da47bf3f21253aedf1c34f8c57458a4a274fc6cdc9029a",
+      "scripts/item223_j1_frobenius_transfer_certificate.py": "928ddc876ed70939fd4a39fccd0e91d8c59d8aa2a8a694967d8fc7f737512d4a",
+      "scripts/item228_j1_second_frobenius_certificate.py": "4264f7df929a269633fe71865d9b47910e4d6d1bf0a91bdb9ceb2e3774171220"
+    },
+    "external_files": [],
+    "python": "3.11+ standard library only"
+  },
+  "portability": {
+    "archive_path_required": false,
+    "explicit_output_makes_archive_root_replay_portable": true,
+    "host_absolute_paths_embedded": false,
+    "self_contained_except_declared_archive_dependencies": true
+  },
+  "replay_command_from_archive_root": "python scripts/item230_j1_phase_closure_certificate.py --output results/item230_j1_phase_closure_certificate_replay.json",
+  "schema": "item230-portable-manifest-v1"
+}

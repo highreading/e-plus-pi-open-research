@@ -1,0 +1,97 @@
+{
+  "item": 351,
+  "schema": "item351-j1-companion-window-rank-obstruction-manifest-v1",
+  "classification": "PROVED_ALL_WINDOW_HASSE_TAYLOR_RANK_AND_SCOPED_COMPANION_TRANSFER_NO_GO",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual fixed-j1 selected Hasse coordinate, all derivative windows, sub-p Frobenius coefficient windows, local contiguous state, and bounded neighboring actual rows",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item342_j1_finite_field_fourier_weil_barrier_report.md": "843bb85381c98adf0a5b64801ce099e4c3c9119d5933704d97bbd492f1b8029b",
+    "scripts/item342_j1_finite_field_fourier_weil_barrier_certificate.py": "130cfd5d2ac7c31546ef177c3f751abcc236ca92dc253a59914d487187c1fbac",
+    "results/item342_j1_finite_field_fourier_weil_barrier_certificate.json": "4cf10e1d035dcd18a134e5f1b00e54a34ae1b3833a2863b54212da9fcccf49d9",
+    "results/item342_j1_finite_field_fourier_weil_barrier_certificate_replay.json": "4cf10e1d035dcd18a134e5f1b00e54a34ae1b3833a2863b54212da9fcccf49d9",
+    "results/item342_j1_finite_field_fourier_weil_barrier_root_audit.json": "aa6b260f78ae094b20a1b6b041c75131514b5ded51f016e6950671c472280835",
+    "manifests/item342_j1_finite_field_fourier_weil_barrier_manifest.json": "85ca4a73d9009acc3dc8d7102325f74156a11bf13e618dc1a88c06fd352b8a54",
+    "sources/item345_j1_kummer_galois_descent_obstruction_report.md": "17441d83d40de9a8df6419b35e277753ed86006e1c461e4cbaa618db8d9e9392",
+    "results/item345_j1_kummer_galois_descent_obstruction_certificate.json": "e0eca357cafab27e4ff9c97bf4beacaf9c82b102de47614472eecac8590dbcc7",
+    "results/item345_j1_kummer_galois_descent_obstruction_root_audit.json": "285e7e220f914913ac1e5dc9592d07206ac4435df03c90d52d627e969ab349c2",
+    "manifests/item345_j1_kummer_galois_descent_obstruction_manifest.json": "78531805af9b60a30535a992b7c8b9aa90f415ffa55e2586d1f48ea5b02bb2ca",
+    "sources/item348_j1_dwork_first_hasse_obstruction_report.md": "1ec4af9e7f1f6a08eab869b3e091778c26c0645bc38e692b57252da2e31de67a",
+    "scripts/item348_j1_dwork_first_hasse_obstruction_certificate.py": "13ef13c792f9f3a00f29a1baff3eb25c592106a0b5802da2158c1f4d72b0172b",
+    "results/item348_j1_dwork_first_hasse_obstruction_certificate.json": "ea9904c4411af6d8dc0199d347872bae361c591ab911db1fb19e5f1cb19d7de4",
+    "results/item348_j1_dwork_first_hasse_obstruction_certificate_replay.json": "ea9904c4411af6d8dc0199d347872bae361c591ab911db1fb19e5f1cb19d7de4",
+    "results/item348_j1_dwork_first_hasse_obstruction_root_replay.json": "ea9904c4411af6d8dc0199d347872bae361c591ab911db1fb19e5f1cb19d7de4",
+    "results/item348_j1_dwork_first_hasse_obstruction_ledger_delta.json": "7c68f01bbeac0c89fae9868ca23cf4df364194318e7ef8f1654423ce23be5490",
+    "results/item348_j1_dwork_first_hasse_obstruction_root_audit.json": "75d75ae87a086d7d7e0a608a6216196f6f48296f090d8ff56cea320a31638ac3",
+    "manifests/item348_j1_dwork_first_hasse_obstruction_manifest.json": "8a6835132fd4bd0c3e10d8abc216d9b7019cf73ec70f4691276d9849d9ad6aa9"
+  },
+  "artifacts": {
+    "report": {
+      "path": "sources/item351_j1_companion_window_rank_obstruction_report.md",
+      "sha256": "8aca8f37c81547f44793e4276ed87847ff17cd4a67fe1617821591efdcc3795f",
+      "bytes": 15298
+    },
+    "certificate_script": {
+      "path": "scripts/item351_j1_companion_window_rank_obstruction_certificate.py",
+      "sha256": "ea1c2b337f5d506ef1bd26bf40dffd97c08e08ee360bcb2abd43cb76d697bcf2",
+      "bytes": 16190
+    },
+    "certificate": {
+      "path": "results/item351_j1_companion_window_rank_obstruction_certificate.json",
+      "sha256": "1bf092c3778ac6377de00ef6d087c2e68d107bbd2041f150f462bce0326bd07b",
+      "bytes": 8336
+    },
+    "replay": {
+      "path": "results/item351_j1_companion_window_rank_obstruction_certificate_replay.json",
+      "sha256": "1bf092c3778ac6377de00ef6d087c2e68d107bbd2041f150f462bce0326bd07b",
+      "bytes": 8336,
+      "byte_identical_to_certificate": true
+    },
+    "ledger": {
+      "path": "results/item351_j1_companion_window_rank_obstruction_ledger_delta.json",
+      "sha256": "1118768b36150ca0ec73859921690b530a4ad01e53a5f43f3acf5c1758e7073a",
+      "bytes": 2099
+    },
+    "self_audit": {
+      "path": "results/item351_j1_companion_window_rank_obstruction_self_audit.json",
+      "sha256": "d5b5f5f63bfe22d510a5b9231a61abec88397bde94899b1511c2c645972ccd3b",
+      "bytes": 2080
+    }
+  },
+  "theorems": [
+    "all Hasse-Taylor companion windows have exact Pascal rank",
+    "only scalar copies of H(1) are formally forced by the selected linear gate",
+    "the sub-p Frobenius transfer copies the complete reciprocal coefficient window",
+    "the exact local contiguous recurrence is a nonsingular three-state transfer on the target bulk",
+    "three consecutive reciprocal coefficient zeros are impossible in the target local range",
+    "bounded neighboring actual-prime rows have zero-rate weighted reach"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "all-window rank and multiplicity theorem",
+      "rank-one forced-condition lemma",
+      "Frobenius-window identity",
+      "contiguous recurrence and three-zero theorem",
+      "bounded actual-neighbor capacity no-go",
+      "scoped companion-transfer no-go",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "one predeclared p=47 selected-zero row and seven symbolic Pascal minors; no scan"
+    ],
+    "OPEN": [
+      "a companion condition forced by full-collision information absent from the selected gate",
+      "multiple-root weighted density",
+      "global arithmetic of the actual initial-value orbit",
+      "W_b(M)=o(M), any fixed-j1 ceiling reduction, Route 1, and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "maximum_if_new_forced_codimension_two_gate_and_zero_density_were_proved": "1/36 per 6M",
+    "new_forced_independent_condition": 0,
+    "new_linear_log_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0,
+    "retained_ceiling_per_6M": "1/36"
+  }
+}

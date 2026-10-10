@@ -1,0 +1,59 @@
+{
+  "schema": "item268-root-audit-v1",
+  "audited": "2026-08-31 Asia/Shanghai",
+  "status": "PASS_WITH_LAYOUT_REPAIR",
+  "booking": {
+    "new_unconditional_route1_rate": 0,
+    "new_independent_valuation_copy": 0,
+    "new_weighted_zero_theorem": 0,
+    "far_raw_ceiling_changed": false
+  },
+  "root_findings": [
+    "The all-s adjacent identity is certified by an exact constant-term telescoper and independently holds on 81 reconstructed integer-sequence rows.",
+    "The phase step s->s+1 is exactly (b,r)->(b-5,r+3 mod 4), with cross-j realization (M,j)->(M+(p-1)/2,j+1).",
+    "Outside p=3s+c for c=3,4,5, the adjacent row stays in the same stable rank-one phase. Those boundary primes divide (6M)(6M-1)(6M-2) and have zero logarithmic rate.",
+    "The affected raw mass is therefore the full Item-266 far coefficient 1139587/9085230 per M up to zero rate.",
+    "A common current gate forces only the one adjacent line c(s)g0(s+1)-20d(s)g1(s+1)=0. Res(c,d)=1564, so this is a nonzero line outside fixed exceptional primes, not a propagated two-coordinate gate.",
+    "The p=2399 witness is decisive: the current pair is (0,0), while the adjacent pair is (2105,1694) and satisfies only 966g0+128g1=0.",
+    "The 25 by 20 exact evaluation matrix has rank 19, proving uniqueness only inside the declared four-polynomial degree-at-most-4 adjacent ansatz.",
+    "The transported line is proportional to a current-layer combination and has only the inherited exponential height. It supplies no independent divisor, A1 implication, or retained-capacity reduction.",
+    "One missing TeX spacing command in the witness display was repaired before final resealing; no mathematical statement changed."
+  ],
+  "independent_probe": {
+    "script": "scripts/item268_root_independent_probe.py",
+    "script_sha256": "5c928273b40285d86ba3ecf6d64b62d2c1d157e38c8443700647700f860448e5",
+    "result": "results/item268_root_independent_probe.json",
+    "result_sha256": "b6814172d4c33fc1b2a0d77930777f694dc2557c9e0dc623907f117ceb832850",
+    "integer_sequence_rows_two_methods": 82,
+    "adjacent_identity_rows": 81,
+    "degree_le_4_rank": 19,
+    "phase_M_max": 360,
+    "phase_far_rows": 1483,
+    "phase_boundary_rows": 76,
+    "common_zero_scan_performed": false,
+    "label": "EXACT FINITE identity replay plus exact all-parameter arguments in the report"
+  },
+  "sealed_package": {
+    "report_sha256": "e007206b30d9be967d7614c62c064c072554443b41c5525b4f88635dbff64c0f",
+    "checker_sha256": "9249bce670856636de1fcd0f9296ef75cf959a73031813ef14ecbbf7b9e5ddeb",
+    "canonical_sha256": "a37ec1e12043ba64f3ef06ae1d0d344f8e75252f2e85fad6c9637b18f8f6ba90",
+    "workspace_replay_sha256": "a37ec1e12043ba64f3ef06ae1d0d344f8e75252f2e85fad6c9637b18f8f6ba90",
+    "archive_replay_sha256": "a37ec1e12043ba64f3ef06ae1d0d344f8e75252f2e85fad6c9637b18f8f6ba90",
+    "root_replay": "results/item268_root_replay.json",
+    "root_replay_sha256": "a37ec1e12043ba64f3ef06ae1d0d344f8e75252f2e85fad6c9637b18f8f6ba90",
+    "ledger_sha256": "d57199b4442b1a762b5ee48bc37379711a89eacc39f717ee7da6e045934a243e",
+    "manifest_sha256": "8c8c945dc50b386ac32f0ddfab0e624da90e0b1a7232460fe753a75291b8f151",
+    "hash_ledger_sha256": "97c7149473aea2502f8ddbd3137cdc1cfbf049fa46831677001215c973f8ad5a",
+    "manifest_entries_checked": 9,
+    "manifest_entries_matched": 9,
+    "all_four_certificate_replays_byte_identical": true
+  },
+  "layout": {
+    "report_bytes": 12747,
+    "report_lines": 396,
+    "display_delimiters": "35/35",
+    "inline_delimiters": "82/82",
+    "forbidden_control_characters": 0
+  },
+  "strict_scope": "Item 268 globally proves one adjacent contiguous relation and its nonpropagation. It does not rule out higher-degree, nonlinear, or larger-state cross-layer invariants and does not reduce the far raw ceiling."
+}

@@ -1,0 +1,83 @@
+{
+  "item": 372,
+  "schema": "item372-j1-boundary-exact-zero-strata-manifest-v1",
+  "classification": "PROVED_BOTH_EXACT_ZERO_PHASE_STRATA_EMPTY",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "characteristic-zero exact-zero phase pairs for both actual fixed-j1 saturation boundaries",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item218_j1_common_log_report.md": "2cabc5a705a974d6989718e24443b59c00715fd4e9aff288e0e17b297096d585",
+    "scripts/item218_j1_common_log_certificate.py": "a238c5ca37263f2553da47bf3f21253aedf1c34f8c57458a4a274fc6cdc9029a",
+    "results/item218_j1_common_log_certificate.json": "963bbb8a9758e55ede72f965693d21fc41aa70d44e2d981d5873685c3f08ea0f",
+    "results/item218_j1_common_log_manifest.json": "e1c6c3d713670c819b5f27b1005db26f9b804ec8ee0766671928fc30c1ff6d8d",
+    "sources/item364_j1_saturation_boundary_phase_carrier_report.md": "2c18f6ac22220e553349e44a723e200d20f4f3c89cfec5cd83812db260834e92",
+    "scripts/item364_j1_saturation_boundary_phase_carrier_certificate.py": "ef9046fc4d7071779a73bf6e1bfd7d312789b994bd3274eec2a78d818d027b07",
+    "results/item364_j1_saturation_boundary_phase_carrier_certificate.json": "ca1987d1688789dbf0e64f3eec2c4b771b9873f829e61d1b5f62302f47443926",
+    "results/item364_j1_saturation_boundary_phase_carrier_root_audit.json": "fa6170a0c014cee655ba00c5288905344a969aa22b141d44b64ae4a2d3219a89",
+    "manifests/item364_j1_saturation_boundary_phase_carrier_manifest.json": "bd0c5435fe4d0b7266d81b4f97dfacf8b2fca55fb2c95770e7cb853c2f77426c",
+    "sources/item368_j1_boundary_whipple_rank_obstruction_report.md": "34bfdc2b2e4035ae78c0147d0a22f442e7f0fd148103e5eeee44d62042768cc6",
+    "scripts/item368_j1_boundary_whipple_rank_obstruction_certificate.py": "f9d72b05fd24d62aa58fbca72221ff246a4d270b1eefb9023351cfd1aff932c5",
+    "results/item368_j1_boundary_whipple_rank_obstruction_certificate.json": "8814c95cca55bf80b735668813909ed7e0f85ff30a1926a0df4b5b0c6f3c396d",
+    "results/item368_j1_boundary_whipple_rank_obstruction_root_audit.json": "f20929fc3aa756419cf4263b439d90e6c44084c63f9acf64a4540134e3198321",
+    "manifests/item368_j1_boundary_whipple_rank_obstruction_manifest.json": "eec70fc17c33e4ec7d3f8851a423debcca5abb333bbbe58decd3ab14736fd11a"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item372_j1_boundary_exact_zero_strata_report.md",
+      "sha256": "70908ecaac3940afbadc9abe752b904972c17b20058782d0b10840c0da245e11",
+      "bytes": 7425
+    },
+    "certificate_script": {
+      "path": "work/item372_j1_boundary_exact_zero_strata_certificate.py",
+      "sha256": "6c05f7446a246c4efe91cda75f2c6e7f315f267a7a75110fa6ce542b87c6cb5e",
+      "bytes": 13352
+    },
+    "certificate": {
+      "path": "work/item372_j1_boundary_exact_zero_strata_certificate.json",
+      "sha256": "22521478fac4e39d00c071c679b5e2bb34543ae4232e4cc196c9fd6e44e9fbd5",
+      "bytes": 33411
+    },
+    "replay": {
+      "path": "work/item372_j1_boundary_exact_zero_strata_certificate_replay.json",
+      "sha256": "22521478fac4e39d00c071c679b5e2bb34543ae4232e4cc196c9fd6e44e9fbd5",
+      "bytes": 33411,
+      "byte_identical_to_certificate": true
+    },
+    "ledger": {
+      "path": "work/item372_j1_boundary_exact_zero_strata_ledger_delta.json",
+      "sha256": "5481ddd7e9cd38afa7f746984371b0b8f3088ef0fbabbdade866be796fc12398",
+      "bytes": 4955
+    }
+  },
+  "theorems": [
+    "for every h>=1 with 3 not dividing h, every numerator-parameter factor in X_h has 3-adic valuation -1 while every denominator-parameter factor is 3-integral",
+    "the terminal X_h summand is uniquely lowest 3-adically and X_h is nonzero over Q",
+    "the analogous terminal U_h summand is uniquely lowest 3-adically and U_h is nonzero over Q",
+    "both exact-zero phase sets Z0 and Z1 are empty globally",
+    "the remaining weighted boundary target contains only divisibility of nonzero primitive carriers"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "all-h characteristic-zero nonvanishing of X_h and U_h",
+      "global emptiness of both exact-zero phase strata",
+      "pure nonzero-carrier reformulation of the weighted target",
+      "zero booking and zero capacity reduction"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "eight predeclared exact summand controls; no prime scan, boundary census, or extrapolation"
+    ],
+    "OPEN": [
+      "weighted zero density or average gcd for the nonzero primitive carriers",
+      "modular boundary occurrence for unbounded h",
+      "the nonboundary full-gate chart and any strict fixed-j1 capacity reduction"
+    ]
+  },
+  "capacity": {
+    "raw_fixed_j1_mass_per_M": "1/6",
+    "retained_shared_full_fixed_j1_ceiling_per_6M": "1/36",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "reason": "characteristic-zero exceptional rays are removed, but modular weighted divisibility remains open"
+  },
+  "replay_command": "python work/item372_j1_boundary_exact_zero_strata_certificate.py --output work/item372_j1_boundary_exact_zero_strata_certificate_replay.json"
+}

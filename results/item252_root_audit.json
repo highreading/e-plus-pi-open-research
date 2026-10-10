@@ -1,0 +1,70 @@
+{
+  "schema": "item252-root-audit-v1",
+  "item": 252,
+  "audited_date_beijing": "2026-08-31",
+  "disposition": "accepted for archive with zero rate booking",
+  "sealed_artifacts": {
+    "report_sha256": "2a8cea239945f77a52d12957a99ffd16c2e4786f6876e1c08e04904f999d2c00",
+    "checker_sha256": "1bd8826880993bfbaaae260768b8349c5d2731e2c9694fbdae4e8654d8d4fc65",
+    "canonical_sha256": "eee18f4fc6ace51b5c29faf84c7424f2013ccf0395033029fd395339fc06ab89",
+    "replay_sha256": "eee18f4fc6ace51b5c29faf84c7424f2013ccf0395033029fd395339fc06ab89",
+    "strict_ledger_sha256": "3060c9d1b9bd3df69bc0188f83f633a59d4564a09c751a82c0298b9f6da45dfa",
+    "manifest_sha256": "37e0ce166f7774a99c0507ed6ba0a180001030934018c28499c1687411d9e1f4",
+    "hash_ledger_sha256": "1e281d9b86b668fdeef3eca216f0a2ee05ebe81908eea3851dda954c761cea03"
+  },
+  "dependencies": {
+    "runtime_files": [],
+    "standard_library_only": true
+  },
+  "portable_replay": {
+    "isolated_archive_style_runs": 2,
+    "canonical_replay_byte_identical": true,
+    "output_matches_sealed_canonical": true,
+    "output_sha256": "eee18f4fc6ace51b5c29faf84c7424f2013ccf0395033029fd395339fc06ab89",
+    "manifest_validation_failures": 0,
+    "control_bytes": 0
+  },
+  "independent_formula_probe": {
+    "imports_item_code": false,
+    "script_sha256": "a3309119d4c29e6195f0666455b3993d28fed5598446dc7515dcef94b898bd41",
+    "result_sha256": "371bb3995a29e2ec601e3c24df11f27dff328fd41df6a83a73328674fbfb270f",
+    "exact_contiguous_fraction_checks": 357,
+    "actual_rows_through_p_401": 1153,
+    "localized_A_equalities": 1153,
+    "first_scalar_zero_reproduced": {
+      "p": 31,
+      "s": 3,
+      "r": 5
+    }
+  },
+  "root_pole_orbit_audit": {
+    "characteristic_zero_endpoint_orbits_distinct": true,
+    "characteristic_zero_polynomial_branch_impossible": true,
+    "exceptional_orbit_zero": "-1/2",
+    "exceptional_orbit_pole": "-1",
+    "forward_distance": "(p-1)/2",
+    "necessary_pole_profile": "orders A on z+1 through w and B on the complementary arc, with A=B+1",
+    "minimum_reduced_denominator_degree": "(p-1)/2",
+    "nonexceptional_orbit_cost": "p",
+    "no_finite_pole_polynomial_branch_impossible_for": "p>=5",
+    "scope": "uniformly fixed-degree scalar rational antidifferences only"
+  },
+  "root_mathematical_audit": {
+    "frobenius_sign_and_legendre_factor_checked": true,
+    "contiguous_endpoint_retained": true,
+    "pochhammer_rectangle_identity_checked": true,
+    "denominator_ranges_checked": true,
+    "reduced_denominator_wording_checked": true,
+    "phase_only_higher_rank_and_nonlinear_routes_left_open": true
+  },
+  "labels": {
+    "proved": "one-period half-binomial normal form and scalar fixed-degree denominator lower bound",
+    "exact_finite_only": "2,440 rows through p<=601 and pole-profile implementation replay through p<=251",
+    "open": "phase-specific, higher-rank, nonlinear, all-prime, and weighted-zero control"
+  },
+  "booking": {
+    "new_unconditional_linear_log_rate": 0,
+    "capacity_reduction": 0,
+    "route1_conclusion": "none"
+  }
+}

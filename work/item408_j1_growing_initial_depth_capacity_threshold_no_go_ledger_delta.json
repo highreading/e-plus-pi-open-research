@@ -1,0 +1,62 @@
+{
+  "schema": "item408-j1-growing-initial-depth-capacity-threshold-no-go-ledger-delta-v1",
+  "item": 408,
+  "date": "2026-09-01",
+  "branch": "actual fixed-j=1 joint Hasse-transverse gate / growing fixed-prime initial depth",
+  "status": "PROVED_SUBLINEAR_INITIAL_DEPTH_ZERO_RATE_AND_LINEAR_DEPTH_THRESHOLD",
+  "proved": {
+    "exact_endpoint_localization": "For every integer B>=0, column age below B is equivalent to p>(3M-3B-1)/2, so the initial strip is exactly one upper endpoint interval of width 3B/2.",
+    "retained_interval_length": "The full-minus-strip selector lies in an interval of exact real length max(0,(M-9-9B)/6).",
+    "global_sublinear_depth_no_go": "For every B(M)=o(M), the excluded ambient-prime logarithmic weight is o(M), so bounded, sublogarithmic, polynomially sublinear, and all other sublinear initial depths have zero linear capacity rate.",
+    "linear_depth_profile": "If B/M tends to b, retained ambient log mass has coefficient r(b)=max(0,1/6-3b/2).",
+    "cluster_witness_coefficient": "For D asymptotic to c log M, the full-minus-strip support witness has cluster-radical lower coefficient a_b(c)=r(b)(1-1/(2c)).",
+    "item395_recovery": "At b=0, a_b(c)=(2c-1)/(12c), exactly the Item395 admission coefficient; at c=1 this is 1/12.",
+    "minimum_mass_scale": "Any positive change of linear ambient log mass requires B=Omega(M); removing eta M weight requires asymptotic depth ratio at least 2 eta/3.",
+    "epsilon_witness_escape": "To lower the shortened-interval witness by epsilon M requires b>=4c epsilon/(3(2c-1)); at c=1 this is b>=4 epsilon/3.",
+    "support_only_admission": "For strip deletion alone to upper-bound the cluster below a(c)-epsilon requires b>1/(18c)+2epsilon/3; at c=1 an arbitrarily small strict margin needs depth just over M/18.",
+    "new_booked_mass": 0
+  },
+  "scope": {
+    "actual_family_used": true,
+    "actual_structural_lemma": "the all-depth endpoint identity follows from the actual Item401 fixed-prime block start",
+    "actual_gate_exclusion_used": "only Item405's proved first-three-level exclusion",
+    "information_class_closed": "any continuation whose only new selector-specific output is exclusion of a sublinear contiguous initial strip, together with support-only prime distribution and packing",
+    "support_witness_is_actual_gate_set": false,
+    "recurrence_interpolation_used": false,
+    "recurrence_countermodel_promoted_to_actual_values": false,
+    "cross_prime_reciprocity_proved": false,
+    "actual_growing_depth_gate_theorem_proved": false,
+    "actual_cluster_upper_bound_proved": false,
+    "strict_capacity_reduction_proved": false,
+    "finite_controls": "four declared prime grids verify exact endpoint and packing identities only; no collision census or density inference",
+    "finite_to_infinite_inference": false,
+    "not_ruled_out": [
+      "an actual operator-specific later-orbit theorem",
+      "a linear-depth or non-contiguous positive-linear weighted actual exclusion",
+      "a reciprocity identity coupling distinct prime columns",
+      "a common actual-moment carrier below the Item395 threshold"
+    ]
+  },
+  "capacity": {
+    "item395_general_admission_coefficient_per_M": "a(c)=(2c-1)/(12c)",
+    "shortened_interval_coefficient_per_M": "a_b(c)=max(0,1/6-3b/2)*(1-1/(2c))",
+    "item395_admission_target_at_c_1": "log C_(M,floor(log M))<(1/12-epsilon)M",
+    "sublinear_depth_coefficient_at_c_1": "at least 1/12 for the permitted full-minus-strip witness",
+    "first_depth_scale_affecting_linear_mass": "B(M)=Omega(M)",
+    "strongest_unconditional_initial_strip_gain_per_M": 0,
+    "strongest_unconditional_initial_strip_gain_per_6M": 0,
+    "new_bound_meeting_target": false,
+    "raw_fixed_j1_ceiling_per_6M": "1/36",
+    "new_unconditional_whole_cell_capacity_reduction": 0
+  },
+  "ledger": {
+    "new_route1_linear_log_rate": 0,
+    "new_route1_booking": 0,
+    "new_route1_capacity_reduction": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "route1_success": false,
+    "conclusion_about_e_plus_pi": "OPEN"
+  },
+  "ledger_action": "CLOSE_ALL_SUBLINEAR_INITIAL_DEPTHS_AT_ZERO_RATE_AND_SET_THE_FIRST_CAPACITY_RELEVANT_SCALE_TO_LINEAR_DEPTH",
+  "canonical_files_modified": false
+}

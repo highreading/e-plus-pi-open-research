@@ -1,0 +1,90 @@
+{
+  "item": 318,
+  "schema": "item318-j2-actual-period-plucker-manifest-v1",
+  "classification": "PROVED_EXACT_ACTUAL_INCIDENCE_AND_SCOPED_EXTERIOR_NO_GO",
+  "checked_date_beijing": "2026-08-31",
+  "scope": "actual incomplete-beta/logarithmic period incidence after the ordinary-j=2 determinant gate",
+  "dependencies": {
+    "scripts/item250_j2_ordinary_phase_certificate.py": "2364a9e9c9be0ea0827c2b12137883ad326d77017a53bb4f242be300335e90ce",
+    "results/item250_j2_ordinary_phase_certificate.json": "6f8d0165448dd8949436649e2824a14578c1bce08e8875a6fd88f770c72cb5e3",
+    "scripts/item251_j2_exceptional_period_certificate.py": "a255ebeef0d73ef82bc6197a1f3f88c9522b6d8408f449971911702842c92f61",
+    "results/item251_j2_exceptional_period_certificate.json": "343cf92daf3acfabee68d09885810f71cd3b582cea08801a548c9b293676d697",
+    "scripts/item291_j2_connection_plane_certificate.py": "5c86001827b0012605563b04dafc5f157f27fddf2f1625254e9196bc0de8c2df",
+    "results/item291_j2_connection_plane_certificate.json": "831cd4c74b10555c261eccebef7fd9c5a871bcef97a43d52e77c731b9b7188b5",
+    "scripts/item314_j2_two_branch_gate_certificate.py": "cc5f155e5f3248c500cd2101e401c25cec37ce43b31fbb4582843fc33a9b2f0e",
+    "results/item314_j2_two_branch_gate_certificate.json": "77de2dd46726a5a48e9adc4e40f96341d5da6c8db304d79f0ef8eeb7807245b1"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item318_j2_actual_period_plucker_report.md",
+      "sha256": "e89f4892b3c2b9b999321de0ec6973547903b755f07b0d34be7f0da634ecd4db",
+      "bytes": 9809
+    },
+    "certificate_script": {
+      "path": "work/item318_j2_actual_period_plucker_certificate.py",
+      "sha256": "219fbe07f04370bbe4c319aa3d630068ea30cde92938ca4c07ddf4ef98fd647a",
+      "bytes": 17302
+    },
+    "certificate": {
+      "path": "work/item318_j2_actual_period_plucker_certificate.json",
+      "sha256": "75e84016af2c7580f1954f795ed080d25083345578558aae49f6df4253891fd7",
+      "bytes": 10166
+    },
+    "replay": {
+      "path": "work/item318_j2_actual_period_plucker_certificate_replay.json",
+      "sha256": "75e84016af2c7580f1954f795ed080d25083345578558aae49f6df4253891fd7",
+      "bytes": 10166,
+      "byte_identical_to_certificate": true
+    },
+    "ledger": {
+      "path": "work/item318_j2_actual_period_plucker_ledger.json",
+      "sha256": "a7f8a5c02a90b665270a66319d77c5ae954e3cda8273dbf5b38560a4d671238f",
+      "bytes": 2911
+    }
+  },
+  "theorems": [
+    "D=9*c*ell-11*m, E_b=ell*Z+11*C, E_d=m*Z+9*c*C, and 11*E_d-9*c*E_b=-D*Z",
+    "on D=0 and ell nonzero, collision is equivalent to ell*Z_actual+11*C=0",
+    "on D=0 and m nonzero, collision is equivalent to m*Z_actual+9*c*C=0",
+    "an original collision forces the transverse residual, which is universally independent of D on rank-two data",
+    "on D=0 there is at most one independent exterior condition",
+    "on rank-at-most-one data every determinant-only residual vanishes identically",
+    "Q^2*D and Q^4 times both actual residuals are all-row p-unit integer clearings",
+    "no endpoint resultant or cubic-character factor is rebooked"
+  ],
+  "finite_replay": {
+    "declared_D_zero_rows": 9,
+    "declared_rows_with_ell_nonzero": 9,
+    "declared_actual_collisions": 0,
+    "prime_max_census": 401,
+    "D_zero_rows_in_census": 3,
+    "D_zero_and_ell_zero_rows_in_census": 0,
+    "actual_collisions_in_census": 0,
+    "classification": "EXACT FINITE ONLY / DIAGNOSTIC"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "Plucker identities and syzygy",
+      "both nondegenerate division-free actual-period equivalences",
+      "logical necessity and universal transversality on D=0",
+      "rank-at-most-one determinant-only no-go",
+      "all-row p-unit clearing",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "the nine determinant-zero replays and p<=401 chart census"
+    ],
+    "OPEN": [
+      "fixed-M weighted zero density for the cleared actual-period residual",
+      "arithmetic independence of C on the actual family",
+      "a non-exterior coordinate theorem on the rank-at-most-one chart",
+      "any reduction of the 1/105 ceiling"
+    ]
+  },
+  "capacity": {
+    "fixed_M_relation": "2M=5r+14s+7",
+    "raw_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

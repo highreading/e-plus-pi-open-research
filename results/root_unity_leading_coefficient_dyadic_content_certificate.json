@@ -1,0 +1,222 @@
+{
+  "checkerboard_rows": [
+    {
+      "checkerboard_row_is_0_nonzero_0": true,
+      "h": 4,
+      "q": 2,
+      "saturated_pluecker": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "checkerboard_row_is_0_nonzero_0": true,
+      "h": 8,
+      "q": 3,
+      "saturated_pluecker": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "checkerboard_row_is_0_nonzero_0": true,
+      "h": 16,
+      "q": 4,
+      "saturated_pluecker": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "checkerboard_row_is_0_nonzero_0": true,
+      "h": 32,
+      "q": 5,
+      "saturated_pluecker": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "checkerboard_saturation_replay": {
+    "all_endpoint_rows_are_0_nonzero_0": true,
+    "all_saturated_pluecker_vectors_are_e0_wedge_e2": true,
+    "row_count": 4
+  },
+  "finite_full_delta_replay": {
+    "all_actual_degrees_equal_h_plus_one": true,
+    "all_contents_are_coprime_to_minimal_denominators": true,
+    "all_contents_divide_reduced_leading_numerators": true,
+    "all_leading_coefficient_absolute_values_match_formula": true,
+    "all_observed_intrinsic_contents_are_one": true,
+    "global_exterior_orientation_difference_is_documented": true,
+    "no_extrapolation": true,
+    "row_count": 3
+  },
+  "full_delta_rows": [
+    {
+      "content_coprime_to_minimal_denominator": true,
+      "content_divides_reduced_leading_numerator": true,
+      "delta_actual_degree": 5,
+      "delta_cleared_content": "1",
+      "delta_minimal_denominator": "256",
+      "full_corrected_polynomial_replay_is_finite_only": true,
+      "h": 4,
+      "observed_intrinsic_content_one": true,
+      "primitive_height_decimal_digits": 6,
+      "primitive_leading_decimal_digits": 4,
+      "q": 2
+    },
+    {
+      "content_coprime_to_minimal_denominator": true,
+      "content_divides_reduced_leading_numerator": true,
+      "delta_actual_degree": 9,
+      "delta_cleared_content": "1",
+      "delta_minimal_denominator": "2293760",
+      "full_corrected_polynomial_replay_is_finite_only": true,
+      "h": 8,
+      "observed_intrinsic_content_one": true,
+      "primitive_height_decimal_digits": 20,
+      "primitive_leading_decimal_digits": 14,
+      "q": 3
+    },
+    {
+      "content_coprime_to_minimal_denominator": true,
+      "content_divides_reduced_leading_numerator": true,
+      "delta_actual_degree": 17,
+      "delta_cleared_content": "1",
+      "delta_minimal_denominator": "3761854480384000",
+      "full_corrected_polynomial_replay_is_finite_only": true,
+      "h": 16,
+      "observed_intrinsic_content_one": true,
+      "primitive_height_decimal_digits": 58,
+      "primitive_leading_decimal_digits": 40,
+      "q": 4
+    }
+  ],
+  "infinite_theorem_replay": {
+    "all_critical_coefficients_have_v2_one": true,
+    "all_explicit_numerator_bounds_verified": true,
+    "all_functional_values_have_v2_minus_q_minus_one": true,
+    "all_leading_coefficients_have_v2_minus_2h": true,
+    "all_minimal_logistic_terms_are_unique_at_s_equals_h": true,
+    "exact_leading_digest_sha256": "8b05f3da93caf6bf900535ec0aa706108cdf8dfeec194736e0f610e5d922c01f",
+    "q_rule": "2 <= q <= 6 in this finite replay",
+    "row_count": 5
+  },
+  "leading_rows": [
+    {
+      "critical_coefficient_v2": 1,
+      "critical_degree": 7,
+      "explicit_numerator_bound_verified": true,
+      "functional_value_v2": -3,
+      "global_content_v2_upper_bound": 26,
+      "h": 4,
+      "leading_coefficient_v2": -8,
+      "leading_denominator": "256",
+      "leading_denominator_decimal_digits": 3,
+      "leading_numerator": "-4725",
+      "leading_numerator_decimal_digits": 4,
+      "n": 3,
+      "q": 2,
+      "u_h_decimal_digits": 5,
+      "u_h_is_odd_integer": true,
+      "unique_minimal_logistic_term_index_s": 4,
+      "universal_Q_v2": 34
+    },
+    {
+      "critical_coefficient_v2": 1,
+      "critical_degree": 15,
+      "explicit_numerator_bound_verified": true,
+      "functional_value_v2": -4,
+      "global_content_v2_upper_bound": 120,
+      "h": 8,
+      "leading_coefficient_v2": -16,
+      "leading_denominator": "458752",
+      "leading_denominator_decimal_digits": 6,
+      "leading_numerator": "-6394286753451",
+      "leading_numerator_decimal_digits": 13,
+      "n": 7,
+      "q": 3,
+      "u_h_decimal_digits": 15,
+      "u_h_is_odd_integer": true,
+      "unique_minimal_logistic_term_index_s": 8,
+      "universal_Q_v2": 136
+    },
+    {
+      "critical_coefficient_v2": 1,
+      "critical_degree": 31,
+      "explicit_numerator_bound_verified": true,
+      "functional_value_v2": -5,
+      "global_content_v2_upper_bound": 536,
+      "h": 16,
+      "leading_coefficient_v2": -32,
+      "leading_denominator": "107481556582400",
+      "leading_denominator_decimal_digits": 15,
+      "leading_numerator": "-62671973316032701553841919681810944813",
+      "leading_numerator_decimal_digits": 38,
+      "n": 15,
+      "q": 4,
+      "u_h_decimal_digits": 43,
+      "u_h_is_odd_integer": true,
+      "unique_minimal_logistic_term_index_s": 16,
+      "universal_Q_v2": 568
+    },
+    {
+      "critical_coefficient_v2": 1,
+      "critical_degree": 63,
+      "explicit_numerator_bound_verified": true,
+      "functional_value_v2": -6,
+      "global_content_v2_upper_bound": 2304,
+      "h": 32,
+      "leading_coefficient_v2": -64,
+      "leading_denominator": "94513540790193089903362599550976000000",
+      "leading_denominator_decimal_digits": 38,
+      "leading_numerator": "-461930467456053267895250856118405458954201463945122613367812547043174602528387613739533535395302652826203",
+      "leading_numerator_decimal_digits": 105,
+      "n": 31,
+      "q": 5,
+      "u_h_decimal_digits": 113,
+      "u_h_is_odd_integer": true,
+      "unique_minimal_logistic_term_index_s": 32,
+      "universal_Q_v2": 2368
+    },
+    {
+      "critical_coefficient_v2": 1,
+      "critical_degree": 127,
+      "explicit_numerator_bound_verified": true,
+      "functional_value_v2": -7,
+      "global_content_v2_upper_bound": 9632,
+      "h": 64,
+      "leading_coefficient_v2": -128,
+      "leading_denominator": "18560637346371669269435209531750077900628695507962362372602167522136699292352512000000000000",
+      "leading_denominator_decimal_digits": 92,
+      "leading_numerator": "-124191872835889002958665046236818077822878903133882497535855184151513357267201001914338296974541388930704928896203433217099440854623088652261774415280448397294534718400139625748528234190996428778455642863048110277304579336556438137777381747964926272118604616714063",
+      "leading_numerator_decimal_digits": 264,
+      "n": 63,
+      "q": 6,
+      "u_h_decimal_digits": 281,
+      "u_h_is_odd_integer": true,
+      "unique_minimal_logistic_term_index_s": 64,
+      "universal_Q_v2": 9760
+    }
+  ],
+  "logical_scope": {
+    "finite_only": "The complete corrected polynomials and their observed content one are finite replays and are not extrapolated.",
+    "proved_in_source": "The formula, exact dyadic valuation, numerator content cap, and universal-clearing dyadic cap hold for every q>=2.",
+    "remaining_obstruction": "A single leading coefficient cannot lower-bound primitive height; a gcd theorem involving a second coefficient is still needed."
+  },
+  "resource_audit": {
+    "note": "The variable observed RSS is printed but omitted from deterministic JSON.",
+    "observed_peak_rss_below_2_GiB": true,
+    "required_peak_rss_limit_kib": 2097152
+  },
+  "schema": "root-unity-leading-coefficient-dyadic-content-certificate-v1",
+  "versions": {
+    "python": "3.13.15 (main, Aug  6 2026, 11:06:23) [GCC 11.4.0]",
+    "sympy": "1.14.0"
+  }
+}

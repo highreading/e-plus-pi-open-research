@@ -1,0 +1,108 @@
+{
+  "schema": "item292-beta-bessel-pade-lift-ledger-v1",
+  "scope": "Full-target beta least lift recognized through the exact reverse-Bessel companion and every-third regular convergents to e; homogeneous-measure method ceiling; proper-target asymmetry; Item282 baseline separation",
+  "claims": [
+    {
+      "id": "I292-C1",
+      "label": "PROVED",
+      "claim": "For A_n(X)=sum_(k=0)^n (2n-k)!/[k!(n-k)!] X^k, q_n=A_n(-1)=(-1)^n y_n(-2) and p_n=A_n(1)=y_n(2).",
+      "evidence": "report Section 2, coefficient recurrence and exact reindexing"
+    },
+    {
+      "id": "I292-C2",
+      "label": "PROVED",
+      "claim": "p_n/q_n is Euler's regular continued-fraction convergent to e at zero-based index 3n-2.",
+      "evidence": "report Section 3, exact three-step recurrence and boundary values"
+    },
+    {
+      "id": "I292-C3",
+      "label": "PROVED",
+      "claim": "p_n q_(n-1)-p_(n-1) q_n=2(-1)^(n-1), including n=2 with index 4 and determinant -2.",
+      "evidence": "report equations (3.7)-(3.9)"
+    },
+    {
+      "id": "I292-C4",
+      "label": "PROVED",
+      "claim": "rho_n is exactly min |beta| over beta,J with p_n beta-J q_n=2(-1)^(n-1)q_(n-1); every beta equals r_n+ell q_n.",
+      "evidence": "report Section 4, multiplication of the Wronskian and complete linear-Diophantine solution"
+    },
+    {
+      "id": "I292-C5",
+      "label": "PROVED",
+      "claim": "beta=0 is impossible: it would force q_n to divide 2q_(n-1), contrary to coprimality, odd q_n, and q_n>2.",
+      "evidence": "report equation (4.8) and preceding paragraph"
+    },
+    {
+      "id": "I292-C6",
+      "label": "PROVED",
+      "claim": "With eta_n=(-1)^n(e-p_n/q_n)>0, every fixed-RHS solution satisfies (-1)^(n-1)(beta e-J)=2q_(n-1)/q_n-beta eta_n.",
+      "evidence": "report Section 5"
+    },
+    {
+      "id": "I292-C7",
+      "label": "PROVED",
+      "claim": "Under 0<|beta|<q_(n-1)/2, the relative correction to the moving target is below 1/[4Q_(3n-1)] and 0<(-1)^(n-1)(beta e-J)<1/n.",
+      "evidence": "report equations (5.5)-(5.11), including the n=2 lower-scale equality"
+    },
+    {
+      "id": "I292-C8",
+      "label": "PROVED SCOPED METHOD BARRIER",
+      "claim": "For fixed C,lambda>0, a homogeneous estimate |beta e-J|>=C(1+|beta|)^(-lambda) combined only with the target magnitude yields just 1+rho_n>(Cn)^(1/lambda).",
+      "scope_limit": "does not apply to arguments retaining the inhomogeneous center, correction sign/width, restricted indices, Ostrowski digits, or new congruences"
+    },
+    {
+      "id": "I292-C9",
+      "label": "PROVED SCOPED METHOD BARRIER",
+      "claim": "After reducing J/beta by d=gcd(J,beta), the standard uniform continued-fraction measure for e applies without a primitivity assumption on the fixed-RHS pair and, combined only with the target magnitude, yields rho_n log(2rho_n) >> n.",
+      "scope_limit": "a polynomial-scale consequence, not a factorial lower bound"
+    },
+    {
+      "id": "I292-C10",
+      "label": "PROVED",
+      "claim": "For every Q>1 dividing q_n, rho_(n,Q) is the centered reduction of r_n modulo Q and is the minimum |beta| solving p_n beta-JQ=2(-1)^(n-1)q_(n-1).",
+      "evidence": "report Section 8"
+    },
+    {
+      "id": "I292-C11",
+      "label": "PROVED ASYMMETRIC",
+      "claim": "A full-target upper bound transfers to proper Q, but a full-target lower bound does not; p_n/Q is not the e-Pade convergent p_n/q_n.",
+      "evidence": "report Section 8"
+    },
+    {
+      "id": "I292-C12",
+      "label": "PROVED",
+      "claim": "The additive least-lift quotient remains separate from the Item282 common coefficient/product baseline.",
+      "evidence": "report Section 9"
+    },
+    {
+      "id": "I292-C13",
+      "label": "EXACT FINITE ONLY",
+      "claim": "The checker verifies bounded Bessel coefficients, e-convergent indices, Wronskians, complete sampled solution families, exact rational correction bookkeeping, and fixed-clearing proper targets.",
+      "scope_limit": "no asymptotic extrapolation and no exceptional-prime search"
+    },
+    {
+      "id": "I292-C14",
+      "label": "OPEN",
+      "claim": "The all-n half-bound 2rho_n>=q_(n-1), a factorial-scale lower bound, and an O(n)-height construction all remain open.",
+      "scope_limit": "the exact Bessel/Pade equivalence does not decide the inhomogeneous endpoint"
+    }
+  ],
+  "strict_labels": {
+    "reverse_bessel_seed": "PROVED",
+    "e_convergent_index": "PROVED",
+    "wronskian": "PROVED",
+    "minimum_equivalence": "PROVED",
+    "beta_zero_exclusion": "PROVED",
+    "eta_identity_and_bound": "PROVED",
+    "homogeneous_measure_route": "PROVED SCOPED FAIL",
+    "inhomogeneous_ostrowski_route": "OPEN",
+    "all_n_half_bound": "OPEN",
+    "factorial_lower_bound": "OPEN",
+    "O_n_height_construction": "OPEN",
+    "proper_target_transfer": "PROVED ASYMMETRIC",
+    "item282_product_baseline": "OPEN AND SEPARATE",
+    "bounded_checks": "EXACT FINITE ONLY",
+    "positive_linear_capacity_admission": "FAIL",
+    "booking": "zero new Route-1 rate and zero new beta capacity reduction"
+  }
+}

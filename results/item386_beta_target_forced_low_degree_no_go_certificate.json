@@ -1,0 +1,270 @@
+{
+  "artifact": "item386_beta_target_forced_low_degree_no_go_certificate",
+  "bridge_rows": [
+    {
+      "a": 1001,
+      "b": 18089,
+      "bridge_S": 141,
+      "endpoint_coefficient": 2548,
+      "gcd_coefficient_b": 1,
+      "n": 5
+    },
+    {
+      "a": 18089,
+      "b": 398959,
+      "bridge_S": 2548,
+      "endpoint_coefficient": 56197,
+      "gcd_coefficient_b": 1,
+      "n": 6
+    },
+    {
+      "a": 398959,
+      "b": 10391023,
+      "bridge_S": 56197,
+      "endpoint_coefficient": 1463670,
+      "gcd_coefficient_b": 1,
+      "n": 7
+    },
+    {
+      "a": 10391023,
+      "b": 312129649,
+      "bridge_S": 1463670,
+      "endpoint_coefficient": 43966297,
+      "gcd_coefficient_b": 1,
+      "n": 8
+    },
+    {
+      "a": 312129649,
+      "b": 10622799089,
+      "bridge_S": 43966297,
+      "endpoint_coefficient": 1496317768,
+      "gcd_coefficient_b": 1,
+      "n": 9
+    },
+    {
+      "a": 10622799089,
+      "b": 403978495031,
+      "bridge_S": 1496317768,
+      "endpoint_coefficient": 56904041481,
+      "gcd_coefficient_b": 1,
+      "n": 10
+    },
+    {
+      "a": 403978495031,
+      "b": 16977719590391,
+      "bridge_S": 56904041481,
+      "endpoint_coefficient": 2391466059970,
+      "gcd_coefficient_b": 1,
+      "n": 11
+    },
+    {
+      "a": 16977719590391,
+      "b": 781379079653017,
+      "bridge_S": 2391466059970,
+      "endpoint_coefficient": 110064342800101,
+      "gcd_coefficient_b": 1,
+      "n": 12
+    }
+  ],
+  "classification": "EXACT FINITE ONLY",
+  "declared_prime_rows": [
+    {
+      "A": 18,
+      "active_load_count": 1,
+      "endpoint_coefficient_is_unit": true,
+      "mesoscopic": false,
+      "n": 5,
+      "p": 18089,
+      "p_divides_b": true
+    },
+    {
+      "A": 22,
+      "active_load_count": 2,
+      "endpoint_coefficient_is_unit": true,
+      "mesoscopic": false,
+      "n": 6,
+      "p": 36269,
+      "p_divides_b": true
+    },
+    {
+      "A": 26,
+      "active_load_count": 3,
+      "endpoint_coefficient_is_unit": true,
+      "mesoscopic": false,
+      "n": 7,
+      "p": 10391023,
+      "p_divides_b": true
+    },
+    {
+      "A": 30,
+      "active_load_count": 4,
+      "endpoint_coefficient_is_unit": true,
+      "mesoscopic": false,
+      "n": 8,
+      "p": 1846921,
+      "p_divides_b": true
+    },
+    {
+      "A": 34,
+      "active_load_count": 5,
+      "endpoint_coefficient_is_unit": true,
+      "mesoscopic": false,
+      "n": 9,
+      "p": 1913,
+      "p_divides_b": true
+    },
+    {
+      "A": 38,
+      "active_load_count": 6,
+      "endpoint_coefficient_is_unit": true,
+      "mesoscopic": false,
+      "n": 10,
+      "p": 6151,
+      "p_divides_b": true
+    },
+    {
+      "A": 58,
+      "active_load_count": 11,
+      "endpoint_coefficient_is_unit": true,
+      "mesoscopic": true,
+      "n": 15,
+      "p": 691,
+      "p_divides_b": true
+    }
+  ],
+  "formal_target_singleton_points": [
+    {
+      "A": 58,
+      "b_divisible": true,
+      "d2": 17,
+      "digits_mod_p": [
+        309,
+        17,
+        224,
+        560,
+        553,
+        535,
+        131,
+        308,
+        616,
+        270,
+        635,
+        614,
+        635
+      ],
+      "endpoint_mod_p": 123,
+      "endpoint_unit": 191,
+      "loads_mod_p": [
+        14,
+        17,
+        20,
+        23,
+        26,
+        0,
+        32,
+        35,
+        38,
+        41,
+        44
+      ],
+      "n": 15,
+      "p": 691,
+      "sigma": 1,
+      "target_mod_p": 123
+    },
+    {
+      "A": 58,
+      "b_divisible": true,
+      "d2": 29,
+      "digits_mod_p": [
+        271,
+        29,
+        392,
+        129,
+        54,
+        690,
+        635,
+        169,
+        171,
+        237,
+        499,
+        33,
+        356
+      ],
+      "endpoint_mod_p": 568,
+      "endpoint_unit": 191,
+      "loads_mod_p": [
+        14,
+        17,
+        20,
+        23,
+        26,
+        0,
+        32,
+        35,
+        38,
+        41,
+        44
+      ],
+      "n": 15,
+      "p": 691,
+      "sigma": -1,
+      "target_mod_p": 568
+    }
+  ],
+  "general_claims_from_finite_data": false,
+  "proved_by_report_not_by_scan": [
+    "all-power endpoint load-coordinate freedom",
+    "top-symmetric projective algebraic independence",
+    "torus nonvanishing when d(k-1)<p-1",
+    "exact actual coprimality of U_1,1 with every coordinate gcd",
+    "zero incremental capacity of target-forced low-degree forms"
+  ],
+  "searches_performed": {
+    "actual_target_search": false,
+    "factor_search": false,
+    "half_bound_scan": false,
+    "prime_census": false
+  },
+  "split_line_variation_control": {
+    "all_one_value_mod_p": 0,
+    "conclusion": "the displayed split line can hold and fail on the same formal singleton torus",
+    "line": "T2-10*T1",
+    "one_two_value_mod_p": 690,
+    "outside_count": 10,
+    "prime": 691
+  },
+  "symmetric_chart_control": {
+    "hit_index": 5,
+    "integer_top_gcd_control": 8,
+    "normalized_ratios_mod_p": {
+      "1": 1,
+      "2": 441,
+      "3": 605
+    },
+    "outside_mod_p": [
+      14,
+      17,
+      20,
+      23,
+      26,
+      32,
+      35,
+      38,
+      41,
+      44
+    ],
+    "outside_reciprocal_elementaries_mod_p": [
+      1,
+      441,
+      605
+    ],
+    "p": 691,
+    "p_divides_integer_top_gcd": false,
+    "top_symmetric_mod_p": {
+      "1": 544,
+      "2": 127,
+      "3": 204
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schema": "item398-j1-aggregate-endpoint-resultant-graph-valuation-no-go-ledger-delta-v1",
+  "item": 398,
+  "date": "2026-09-01",
+  "branch": "actual fixed-j=1 joint Hasse-transverse gate / aggregate logarithmic endpoint resultant and collision graph",
+  "status": "PROVED_AGGREGATE_RESULTANT_GRAPH_VALUATION_AND_NEAR_POWER_CANCELLATION_NO_GO",
+  "proved": {
+    "aggregate_resultant": "A_(M,D)=Res(F_M,G_D)=product_{d<=D}N^-_(M,d)N^+_(M,d), G_D(X)=product_{d<=D}(X^2-4d^2)",
+    "graph_valuation": "for every actual collision prime p, v_p(A_(M,D))=deg_D(p) in the collision graph",
+    "edge_product": "gcd(A,R^(2D))=product_p p^deg_D(p)=product_{edges {p,q}}pq",
+    "cluster_recovery": "C_(M,D)=rad gcd(A,R^(2D))",
+    "mod3_degree_bound": "deg_D(p)<=D+floor(D/3)<2D",
+    "near_power": "for D~c log M, -log(A/R^(2D))<=(c^3/8+o(1))log^2(M)/M",
+    "difference_valuation": "for B=R^(2D)-A, v_p(B)=v_p(A)=deg_D(p) at every candidate prime",
+    "candidate_part_preserved": "gcd(B,R^(2D))=gcd(A,R^(2D))",
+    "closed_method_class": "aggregate endpoint products, near-perfect-power subtraction, total integer height, and graph-degree allocation without a vertex-mass theorem",
+    "new_booked_mass": 0
+  },
+  "scope": {
+    "actual_family_used": true,
+    "actual_factors_used": "the common product of F_M(plus or minus 2d) and its exact candidate-prime valuations",
+    "actual_cluster_upper_bound_proved": false,
+    "strict_capacity_reduction_proved": false,
+    "not_ruled_out": [
+      "gate-specific bound on positive-degree vertices",
+      "small external carrier for the edge product",
+      "average-gcd theorem using information beyond the two heights",
+      "arithmetic on the original Hasse-transverse moments before root-product compression"
+    ],
+    "finite_controls": "four predeclared abstract root sets inside actual candidate intervals; no actual gate scan",
+    "finite_to_infinite_inference": false
+  },
+  "capacity": {
+    "item395_admission_target_at_c_1": "log C_(M,floor(log M))<(1/12-epsilon)M",
+    "new_bound_meeting_target": false,
+    "raw_fixed_j1_ceiling_per_6M": "1/36",
+    "new_unconditional_whole_cell_capacity_reduction": 0
+  },
+  "ledger": {
+    "new_route1_linear_log_rate": 0,
+    "new_route1_booking": 0,
+    "new_route1_capacity_reduction": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "route1_success": false,
+    "conclusion_about_e_plus_pi": "OPEN"
+  },
+  "ledger_action": "CLOSE_AGGREGATE_ENDPOINT_NEAR_POWER_CANCELLATION_AND_DEGREE_ALLOCATION_ROUTE_BOOK_ZERO",
+  "canonical_files_modified": false
+}

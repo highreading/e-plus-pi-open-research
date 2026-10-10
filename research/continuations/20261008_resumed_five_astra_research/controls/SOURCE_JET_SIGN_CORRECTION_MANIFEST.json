@@ -1,0 +1,109 @@
+{
+  "time": "2026-10-08T20:39:51.261583+08:00",
+  "status": "All listed old source-jet and periodic-source numerical conclusions WITHDRAWN pending corrected weights.",
+  "reason": "x=1-t already reverses the polynomial coefficients; source integral weights are positive r!. An extra (-1)^r evaluated a different functional.",
+  "detection": "A5turn6 exact eta(H)=-332 disagreed with the old jet functional, which gave-1732.",
+  "old_receipts_preserved": true,
+  "admitted_requests_unchanged": true,
+  "unaffected_checks": "Closed N3..12 and N13..80 source/normalization receipts use direct t moments1-j*mom[j-1] and independently eta(H)=-332.",
+  "corrected_scripts": [
+    {
+      "withdrawn_code": "signed_chebyshev_original_source_jet_audit.py",
+      "old_sha256": "8429ba48341eccb2fc3fad5ff675e0f968814c6fa6fb8e953545e2404e2a676f",
+      "corrected_code": "signed_chebyshev_original_source_jet_audit_v2.py",
+      "new_sha256": "7a0af5345d15d4f755fb8c184ea7120b9c7381dba8a4b852545fc28057c51785",
+      "current_new_sha256": "7a0af5345d15d4f755fb8c184ea7120b9c7381dba8a4b852545fc28057c51785"
+    },
+    {
+      "withdrawn_code": "signed_chebyshev_missing_source_jet_audit.py",
+      "old_sha256": "2432e4904ace4a9053de5372ff8cd18ba0f1b5ae93bf0e6086e56fc22663bd21",
+      "corrected_code": "signed_chebyshev_missing_source_jet_audit_v2.py",
+      "new_sha256": "463b495fe639f7711d8f28af3584fd78d0f680c9396eb774a1699a50b26176ba",
+      "current_new_sha256": "bf7174d174542712e5228ed6e761bee177bbb6cee46a94db940261599aca54af"
+    },
+    {
+      "withdrawn_code": "signed_chebyshev_first_source_period_audit.py",
+      "old_sha256": "672b5977d23b9d31627b96c889ba993b9df9777dab388af70cc6a0f7afc74769",
+      "corrected_code": "signed_chebyshev_first_source_period_audit_v2.py",
+      "new_sha256": "88170bc0372fb7fcff3be7e3d3b224814d4b836df65e35cd12c08b0c71b3fab1",
+      "current_new_sha256": "88170bc0372fb7fcff3be7e3d3b224814d4b836df65e35cd12c08b0c71b3fab1"
+    },
+    {
+      "withdrawn_code": "signed_chebyshev_complete_fixed_prime_period_audit.py",
+      "old_sha256": "7e8e7b5547c000a74d4048b91add39513a6fc9614518a473467ba014e3c5d1c0",
+      "corrected_code": "signed_chebyshev_complete_fixed_prime_period_audit_v2.py",
+      "new_sha256": "c8adffa3f1a253ad90dd847aceb282800967c3c9f91f21d030688884c71ab6cd",
+      "current_new_sha256": "c8adffa3f1a253ad90dd847aceb282800967c3c9f91f21d030688884c71ab6cd"
+    }
+  ],
+  "withdrawn_materials": [
+    {
+      "file": "signed_chebyshev_original_source_jet_certificate.json",
+      "sha256": "f9752d24e264fc99b26f82c9b97950bb0f8357fb6c2608e64b0525a826bb5a85"
+    },
+    {
+      "file": "signed_chebyshev_original_source_jet_summary.json",
+      "sha256": "8ac0602802215ac824fd5fa7bc0e28da0fec25e3f8bebf43515d4ef9754d72ee"
+    },
+    {
+      "file": "signed_chebyshev_missing_source_jet_certificate.json",
+      "sha256": "29aaa3baeff0a58225609d81546a8957155622b1b8fae2d023cb4d1ac1d43e25"
+    },
+    {
+      "file": "signed_chebyshev_first_source_period_certificate.json",
+      "sha256": "bd9b12bdb25accef5bda0bda1cfd305c375d4d8857e76e43e9aa63a5a5904a9f"
+    },
+    {
+      "file": "signed_chebyshev_complete_fixed_prime_period_certificate.json",
+      "sha256": "4ac00c8fccb12dbcd1c44260169525958a40d3c8ec8bdd82c5b0924f903e955b"
+    },
+    {
+      "file": "COORDINATOR_SIGNED_CHEBYSHEV_SOURCE_PERIODS.md",
+      "sha256": "08fb4ef5c126630cafafb25a0904c5cf9b53a71a819bce5d92e76cc35d0f76de"
+    },
+    {
+      "file": "COORDINATOR_SIGNED_CHEBYSHEV_FIXED_PRIME_EXCLUSIONS.md",
+      "sha256": "8bb8db11fc23c1de7e20af1c87fb0e63cbbb78bf0ee6553dcc1af23e04ba63c3"
+    }
+  ],
+  "request_packets_containing_old_material": [
+    "A5turn6",
+    "A3turn5"
+  ],
+  "not_an_attack_finding": true,
+  "global_rationality_proof_exists": false,
+  "corrected_missing_pairs": [
+    [
+      9,
+      7
+    ],
+    [
+      13,
+      7
+    ],
+    [
+      17,
+      7
+    ],
+    [
+      23,
+      13
+    ],
+    [
+      27,
+      13
+    ]
+  ],
+  "new_original_counterexamples_to_c4": [
+    {
+      "u": 13,
+      "p": 7,
+      "exact_depth": 1
+    },
+    {
+      "u": 17,
+      "p": 7,
+      "exact_depth": 1
+    }
+  ]
+}

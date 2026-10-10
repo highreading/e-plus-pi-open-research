@@ -1,0 +1,424 @@
+{
+  "capacity": {
+    "Item418_outside_large_admission_residual": "0.59085909833077392493454601829037809174677496455608",
+    "booked_lower_bound_delta": 0,
+    "booked_rank_zero_overlap_first_escape_layer": {
+      "decimal": "0.05617458466646094785181424706666666666666666666666666666666666666666666666666667",
+      "exact": "(C_F-2)/6",
+      "residual_even_after_perfect_saturation": "0.53468451366431297708273177122371142508010829788941333333333333333333333333333333"
+    },
+    "frozen_deficit_delta": 0,
+    "global_total_content_ceiling_delta": 0,
+    "interpretation": "These are support ceilings for one radical/Witt layer, not proved masses and not bounds for arbitrary deeper valuations.",
+    "small_component_ceiling_delta": 0,
+    "whole_ordinary_rank_zero_first_Witt_layer": {
+      "decimal": "0.3895079179997942811851475804",
+      "exact": "C_F/6, C_F=-4log(2)+pi/sqrt(3)+3log(3)",
+      "residual_even_after_perfect_saturation": "0.20135118033097964374939843789037809174677496455608"
+    }
+  },
+  "dependency_sha256": {
+    "results/item393_mixed_cubic_small_prime_strata_ceiling_ledger.json": "a0164b487490dc62449f9f23ea11542c9fe8c557b8d64aa4c1f0e775072ff9b7",
+    "results/item415_marked_selector_compulsory_strip_ledger_delta.json": "4a357f5936b4a66fc884171272e614fc55f1a9e23995db1924a20b089bbe629a",
+    "results/item417_mixed_strip_multiplicity_ledger_delta.json": "39be69d2d935d3115ff69d64fe642f7cc99626991eb0fafa30bad9c4f95de60d",
+    "results/item418_normalized_large_carrier_ledger_delta.json": "853301f7014dfde6c5edb0cdc8525ef81fcb3c921d8a777155932f8af651d869",
+    "results/item421_small_prime_primitive_layer_certificate.json": "0ddc3480824da0443a149079f9791476f45028c56eb9e776682ea51abc0e2aa5",
+    "results/mixed_cubic_positive_match_exact_scan_m100_N6m.json": "7284ea76cef084e7cb0faeba172454ebe2825a9dd60682c7d1b91c3f78852e96",
+    "sources/item200_common_log_gcd_report.md": "06003e9fd03f74b2406330a81d49493fa2f4390c82f359be39bf328184605c68",
+    "sources/item393_mixed_cubic_small_prime_strata_ceiling_report.md": "5e2c92f87075cbe3ac8af3191d8df7485ac6efd13609ede5f82819e355ae5f96",
+    "sources/item415_marked_selector_compulsory_strip_report.md": "da79ea786471a6abb35288f242a0b0b2307a695bd9352eaa3c4e2033fc701777",
+    "sources/item417_mixed_strip_multiplicity_report.md": "40397f0f04482162933f129e43e57ca4de4244b06755ba728e19ab551a8b534e",
+    "sources/item418_normalized_large_carrier_report.md": "5b490e38d127deec51cac34a80c6856ed824534daad8fc3a387fe6cbb7f7db68",
+    "sources/item421_small_prime_primitive_layer_report.md": "5ceb1c8f249f0c62c15cf1db51da7e7dc1247412c10779a731e98e32624bc18c",
+    "sources/mixed_cubic_small_prime_rank_one_cartier_mass.md": "593e1f69809c44245bd2d79bf1a503f96d1972a39ba17ea43ba7cd9f4b0e124b",
+    "sources/witt_endpoint_first_lift.md": "08b390b6bcfdaa61c34dc73c582bcbb464d6da4013769775f1eac01a83887424"
+  },
+  "exact_actual_family_witnesses": {
+    "Item200_factor_without_content": {
+      "A": {
+        "denominator": "3584",
+        "numerator": "-3282697",
+        "sha256": "f561229efab06649707c1dffd730194b9ea251e72744d0b1db5171a4d13a6159"
+      },
+      "B": {
+        "denominator": "2097152",
+        "numerator": "611424495",
+        "sha256": "bd9e46ac405f821801a46bd8a6e5150a371d0cee8b934b4f9e75c3e2381ae91b"
+      },
+      "exact_Bockstein_identity": "omega_s=d(F_s^p*T_s)-p*eta_s, with zero endpoint boundary",
+      "first_Witt_error_vectors_R_L_over_p_E_over_p": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          7,
+          3,
+          6
+        ]
+      ],
+      "kappa_A_over_p_mod_p": 4,
+      "normalization": {
+        "booked_Item149_member": false,
+        "cell_j": 0,
+        "clearing_depth_b": 0,
+        "escape_gate": false,
+        "kappa_A_over_p_mod_p": 4,
+        "m": 2,
+        "p": 11,
+        "postbooking_depth": 0,
+        "row_s": 1,
+        "v_p_U": 0,
+        "v_p_V": 1,
+        "v_p_c": 0,
+        "xi_8B_over_p_squared_mod_p": 1,
+        "xi_stops_at_first_escape_layer": false
+      },
+      "rank_zero_factors": [
+        {
+          "P_coefficients": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "T_coefficient_sha256": "25e1017822b1b787a05d4051a7420ffafb237a5aca641109ecbdfca3f41de0d4",
+          "a": 1,
+          "boundary": 0,
+          "degree_P": 8,
+          "h": 1
+        },
+        {
+          "P_coefficients": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "T_coefficient_sha256": "819e16f2c336872c0242d649a0077c763c6617315b20f9d9fc1fde7d109fdf9f",
+          "a": 1,
+          "boundary": 0,
+          "degree_P": 5,
+          "h": 1
+        }
+      ],
+      "row": {
+        "m": 2,
+        "p": 11
+      },
+      "v_p_A": 1,
+      "v_p_B": 2,
+      "xi_8B_over_p_squared_mod_p": 1
+    },
+    "booked_second_layer_escape": {
+      "A": {
+        "denominator": "12431112165273027994004016332800",
+        "numerator": "-1408240530752491057103415130950028084370709952168298654935348512841",
+        "sha256": "a3178fddb1e07e88eb7c9dea2522e6e90b543a2ee6048ab498b362acad925b3f"
+      },
+      "B": {
+        "denominator": "41538374868278621028243970633760768",
+        "numerator": "1497843652153827919803276558683956411595785419773080500472945529550759",
+        "sha256": "9f607bf81f36ba2c22543bcc8ebdb838818830d6729c1e9957e81c0e4562c75a"
+      },
+      "exact_Bockstein_identity": "omega_s=d(F_s^p*T_s)-p*eta_s, with zero endpoint boundary",
+      "first_Witt_error_vectors_R_L_over_p_E_over_p": [
+        [
+          7,
+          6,
+          6
+        ],
+        [
+          2,
+          8,
+          3
+        ]
+      ],
+      "kappa_A_over_p_mod_p": 0,
+      "normalization": {
+        "booked_Item149_member": true,
+        "cell_j": 2,
+        "clearing_depth_b": 1,
+        "escape_gate": true,
+        "kappa_A_over_p_mod_p": 0,
+        "m": 13,
+        "p": 11,
+        "postbooking_depth": 1,
+        "row_s": 1,
+        "v_p_U": 2,
+        "v_p_V": 2,
+        "v_p_c": 2,
+        "xi_8B_over_p_squared_mod_p": 8,
+        "xi_stops_at_first_escape_layer": true
+      },
+      "rank_zero_factors": [
+        {
+          "P_coefficients": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "T_coefficient_sha256": "25e1017822b1b787a05d4051a7420ffafb237a5aca641109ecbdfca3f41de0d4",
+          "a": 7,
+          "boundary": 0,
+          "degree_P": 8,
+          "h": 5
+        },
+        {
+          "P_coefficients": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "T_coefficient_sha256": "819e16f2c336872c0242d649a0077c763c6617315b20f9d9fc1fde7d109fdf9f",
+          "a": 7,
+          "boundary": 0,
+          "degree_P": 5,
+          "h": 5
+        }
+      ],
+      "row": {
+        "m": 13,
+        "p": 11
+      },
+      "v_p_A": 2,
+      "v_p_B": 2,
+      "xi_8B_over_p_squared_mod_p": 8
+    },
+    "upper_small_prime_escape": {
+      "A": {
+        "denominator": "34070113987026128732160",
+        "numerator": "-4569749138625069217592937096207834935396958287",
+        "sha256": "b5c2f48d10dcb08fc8b3f3def06a2d1e8017b5d4f6ec16a240095cd4f43cb687"
+      },
+      "B": {
+        "denominator": "4835703278458516698824704",
+        "numerator": "206456492508637135108321433069143549058031183555",
+        "sha256": "5adb033fbce947b765efb9a4a2560451dd5a46e2bc233c16dd6c0d81fc59f75f"
+      },
+      "exact_Bockstein_identity": "omega_s=d(F_s^p*T_s)-p*eta_s, with zero endpoint boundary",
+      "first_Witt_error_vectors_R_L_over_p_E_over_p": [
+        [
+          39,
+          37,
+          24
+        ],
+        [
+          26,
+          9,
+          5
+        ]
+      ],
+      "kappa_A_over_p_mod_p": 0,
+      "normalization": {
+        "booked_Item149_member": false,
+        "cell_j": 0,
+        "clearing_depth_b": 0,
+        "escape_gate": true,
+        "kappa_A_over_p_mod_p": 0,
+        "m": 9,
+        "p": 47,
+        "postbooking_depth": 1,
+        "row_s": 5,
+        "v_p_U": 1,
+        "v_p_V": 1,
+        "v_p_c": 1,
+        "xi_8B_over_p_squared_mod_p": 31,
+        "xi_stops_at_first_escape_layer": true
+      },
+      "rank_zero_factors": [
+        {
+          "P_coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            3,
+            6,
+            10,
+            5,
+            -9,
+            -32,
+            -64,
+            -60,
+            -20,
+            56,
+            168,
+            196,
+            140,
+            0,
+            -224,
+            -322,
+            -294,
+            -140,
+            140,
+            294,
+            322,
+            224,
+            0,
+            -140,
+            -196,
+            -168,
+            -56,
+            20,
+            60,
+            64,
+            32,
+            9,
+            -5,
+            -10,
+            -6,
+            -3,
+            -1
+          ],
+          "T_coefficient_sha256": "51c6e3b29210e5f6a9af391138d5d4d1dd067c33a143bf6475587109fb808563",
+          "a": 1,
+          "boundary": 0,
+          "degree_P": 44,
+          "h": 1
+        },
+        {
+          "P_coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            2,
+            3,
+            4,
+            -4,
+            -12,
+            -20,
+            -28,
+            0,
+            28,
+            56,
+            84,
+            28,
+            -28,
+            -84,
+            -140,
+            -70,
+            0,
+            70,
+            140,
+            84,
+            28,
+            -28,
+            -84,
+            -56,
+            -28,
+            0,
+            28,
+            20,
+            12,
+            4,
+            -4,
+            -3,
+            -2,
+            -1
+          ],
+          "T_coefficient_sha256": "3e2998a4140e408d2fcf639849a6535fe9390db6809632977127ee6e4da576c9",
+          "a": 1,
+          "boundary": 0,
+          "degree_P": 41,
+          "h": 1
+        }
+      ],
+      "row": {
+        "m": 9,
+        "p": 47
+      },
+      "v_p_A": 2,
+      "v_p_B": 2,
+      "xi_8B_over_p_squared_mod_p": 31
+    }
+  },
+  "finite_bridge_census": {
+    "all_row_stream_sha256": "eb817a096c27607aff72830f4e373a133b0e2a091e238c7ef5cb1920cc653d6a",
+    "booked_row_stream_sha256": "4f79ecf5c16a19dc12c81320b5c759a0d30517e709d8dbbb6f1dfb243654b3d9",
+    "counts": {
+      "booked_overlap_escape_stopped_by_xi": 4,
+      "booked_overlap_incidences": 285,
+      "booked_overlap_postbooking_escape_gate_vanishes": 15,
+      "ordinary_rank_zero_escape_gate_vanishes": 24,
+      "ordinary_rank_zero_escape_stopped_by_xi": 13,
+      "ordinary_rank_zero_q_equals_p_incidences": 1953
+    },
+    "first_booked_escape": {
+      "booked_Item149_member": true,
+      "cell_j": 2,
+      "clearing_depth_b": 1,
+      "escape_gate": true,
+      "kappa_A_over_p_mod_p": 0,
+      "m": 13,
+      "p": 11,
+      "postbooking_depth": 1,
+      "row_s": 1,
+      "v_p_U": 2,
+      "v_p_V": 2,
+      "v_p_c": 2,
+      "xi_8B_over_p_squared_mod_p": 8,
+      "xi_stops_at_first_escape_layer": true
+    },
+    "range": "1<=m<=100",
+    "v_p_c_distribution_on_all_rows": {
+      "0": 1659,
+      "1": 279,
+      "2": 14,
+      "3": 1
+    },
+    "warning": "exact finite normalization only; no density inference"
+  },
+  "item": 424,
+  "schema": "item424-small-prime-first-witt-escape-v1",
+  "status": "ROOT_AUDITED_CANONICAL_EXACT_BRIDGE_CAPACITY_SCREEN_NO_BOOKING",
+  "strict_scope": {
+    "open": [
+      "positive weighted density of kappa-zero rows",
+      "an upper bound for multiplicities after kappa vanishes",
+      "higher Witt error vectors on the xi-zero subbranch",
+      "the non-rank-zero and non-Cartier small-prime remainder",
+      "Route 1 and irrationality of e+pi"
+    ],
+    "proved": [
+      "a genuine integral first-Witt error vector retaining the rational endpoint error omitted by lambda_s/F_m",
+      "the exact mod-p bridge for the first rank-zero escape layer",
+      "the exact depth-two classification at (m,p)=(13,11)",
+      "support ceilings for one whole rank-zero Witt layer and for its booked overlap"
+    ]
+  },
+  "theorem_replayed": {
+    "booked_overlap": "on P_m intersect H_m in the q=p range, b=1 and the exact postbooking escape w_{m,p}>=1 is equivalent to kappa=0",
+    "eta_definition": "P_s=T_s', eta_s=F_s^(p-1)F_s'T_s dx, and omega_s=d(F_s^pT_s)-p eta_s",
+    "first_error_vector": "W_s=(R_s,L_s/p,E_s/p) mod p=(-pR(eta_s),-L(eta_s),-E(eta_s)) mod p",
+    "gate": "with b=v_p(K_m), v_p(c_m)>=b+1 iff kappa=det((W_0)_{R,L},(W_1)_{R,L})=0 mod p",
+    "scope": "odd ordinary rank-zero primes p with p^2>4m+1; this contains every positive-rate part of the rank-zero support",
+    "stop_digit": "if kappa=0 and xi=det((W_0)_{L,E},(W_1)_{L,E})!=0, then v_p(c_m)=b+1"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "item": 413,
+  "schema": "item413-j2-tied-projection-anti-gcd-boundary-manifest-v1",
+  "classification": "PROVED_EXACT_TIED_PROJECTION_AND_SHARP_FOREIGN_TAIL_BOUNDARY_ETA_ZERO",
+  "checked_date_beijing": "2026-09-01",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item404_j2_degenerate_target_rejection_capacity_report.md": "e691d2118611781aee2a3e851afa9b26495b75b142d9f40f6b75234334df4de2",
+    "scripts/item404_j2_degenerate_target_rejection_capacity_certificate.py": "8d74c388dbfa9aee5762a99243000a791e0d93b8d9bacb7ef6b3485e230e9694",
+    "results/item404_j2_degenerate_target_rejection_capacity_certificate.json": "e40b09431077bb8a432dfe8acb2678cd563f323e0ceab06f3da611bdba6a6636",
+    "manifests/item404_j2_degenerate_target_rejection_capacity_manifest.json": "8e47fe49f8237662ec7e5c58029ef674a37fcc9a753e319097c31fbe83b13c36",
+    "results/item404_j2_degenerate_target_rejection_capacity_root_audit.json": "b8bb1418354478cfab10e036f86fcf17f2f8a3f77d4e8847903c0a2230309302",
+    "sources/item407_j2_rejection_density_boundary_report.md": "1894dd0b9951c54f23705380fdc5c88c3fd0b6847293f91be985914cceb42208",
+    "scripts/item407_j2_rejection_density_boundary_certificate.py": "4e71d8fc83a1df3c438de804ac0c77ac1803d530a6c1e6a1de8a32eb665c1c10",
+    "results/item407_j2_rejection_density_boundary_certificate.json": "9dbf1069aedbc245ff986410529d26f96de6b6259c1e196fd4b42dffac964580",
+    "manifests/item407_j2_rejection_density_boundary_manifest.json": "fbd0a9fc2689ed523729f1ccd4e72cd00613beb632f86358025d01a160c58972",
+    "results/item407_j2_rejection_density_boundary_root_audit.json": "ee155a6b2fa3efc1b751fb4586a4a07e559bc1b243514fc622461576076b8dd6",
+    "work/item409_j2_actual_rejection_carrier_report.md": "947424427ab5e058aa3c455754b6da64ca3d5ed832bc1342f104cbbd619ba8c5",
+    "work/item409_j2_actual_rejection_carrier_certificate.py": "a638ca71c938ef7e11c599b2fad63b542c4fe6f1da5cf33dc42230cb89076c6e",
+    "work/item409_j2_actual_rejection_carrier_certificate.json": "b67414b0a9a5ceedaa36634eb62829790cac5fe475622ed016b4cd2dd7a900c3",
+    "work/item409_j2_actual_rejection_carrier_ledger_delta.json": "623a05247c72fe0a76944d9a1904be56084a8dad52718ad0b5dbd9bff578a094",
+    "work/item409_j2_actual_rejection_carrier_manifest.json": "01e4f8460ef1f2e4962a13cfd24538e5734fb3d035c624f3fbce71cdb6697cff",
+    "work/item409_j2_actual_rejection_carrier_hashes.sha256": "78a8f7e078882ea3e6ec48cf6d919c7a66a887327b07d91eda0faeb27f0b2e68"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item413_j2_tied_projection_anti_gcd_boundary_report.md",
+      "sha256": "4a4ff689176daca7dd52e9e3270b4db053a28cdcea1208ffff80f69509729b1a",
+      "bytes": 11756
+    },
+    "certificate_script": {
+      "path": "work/item413_j2_tied_projection_anti_gcd_boundary_certificate.py",
+      "sha256": "dd4021e6b67efef56537a8f4a9432ebb3f521bd6153de540daa92e0a20a5e34a",
+      "bytes": 20037
+    },
+    "certificate": {
+      "path": "work/item413_j2_tied_projection_anti_gcd_boundary_certificate.json",
+      "sha256": "b713bd22ef37cec8cc288d9326d60bfe49d076c618fd116cbb5cf0a9933a87bb",
+      "bytes": 11648
+    },
+    "replay": {
+      "path": "work/item413_j2_tied_projection_anti_gcd_boundary_certificate_replay.json",
+      "sha256": "b713bd22ef37cec8cc288d9326d60bfe49d076c618fd116cbb5cf0a9933a87bb",
+      "bytes": 11648,
+      "byte_identical_to_certificate": true
+    },
+    "ledger_delta": {
+      "path": "work/item413_j2_tied_projection_anti_gcd_boundary_ledger_delta.json",
+      "sha256": "e697172b04079f9440d0567bb03af89806085dd2963361cf1eb87f66933395da",
+      "bytes": 4923
+    }
+  },
+  "theorems": [
+    "the exact tied rejection is the binary quotient gcd(p,Pi)/gcd(p,Gamma)=gcd(p,J) in {1,p}, unchanged by safe saturation",
+    "because p>2r+3, the radical tail of J factors exactly into the tied quotient and a coprime foreign tail",
+    "the actual rejection mass is tail mass minus foreign-tail mass, equivalently D_e-G_e",
+    "tail lower a, foreign upper b, G upper g, and N upper n imply normalized saving max(0,a-b,1/35-g-n)/6",
+    "a tail upper u caps only the direct matched-J reward at min(u,1/35)/6",
+    "the pinned inputs prove no positive margin, so eta and capacity reduction remain zero"
+  ],
+  "actual_witness": {
+    "row": [
+      709,
+      347,
+      2
+    ],
+    "J": 79,
+    "threshold": 697,
+    "tail_radical": 1,
+    "tied_projection": 1,
+    "classification": "EXACT PINNED ACTUAL-FORMULA WITNESS, NOT A CENSUS"
+  },
+  "smallest_missing_lemma": "on one selected fixed-M ray, prove a positive Chebyshev lower bound for sum log gcd(p,J), equivalently a positive difference between the actual >2r+3 tail mass and its foreign unmatched part",
+  "strict_labels": {
+    "PROVED": [
+      "binary tied projection, mandatory threshold, tail factorization, aggregate identity, conditional capacity arithmetic, and eta zero"
+    ],
+    "EXACT_PINNED_ACTUAL_WITNESS_NOT_A_CENSUS": [
+      "the row (709,347,2) with J=79 and tied projection 1"
+    ],
+    "EXACT_ALGEBRAIC_COUNTERMODELS_NOT_ACTUAL": [
+      "declared packets used only for information-class sharpness"
+    ],
+    "OPEN": [
+      "positive actual matched rejection mass, any useful tail/foreign-tail theorem, positive capacity reduction, and Route 1"
+    ]
+  },
+  "capacity": {
+    "one_ray_normalized_per_6M": "1/210",
+    "conditional_saving": "max(0,a-b,1/35-g-n)/6",
+    "proved_matched_J_margin_per_M": 0,
+    "proved_eta_per_M": 0,
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "retained_ordinary_j2_ceiling_per_6M": "1/105"
+  },
+  "replay_command": "python work/item413_j2_tied_projection_anti_gcd_boundary_certificate.py --replay work/item413_j2_tied_projection_anti_gcd_boundary_certificate.json --output work/item413_j2_tied_projection_anti_gcd_boundary_certificate_replay.json"
+}

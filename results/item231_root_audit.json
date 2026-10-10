@@ -1,0 +1,60 @@
+{
+  "schema": "item231-root-independent-audit-v1",
+  "status": "PASS_SCOPED_SECOND_FROBENIUS_COEFFICIENT",
+  "canonical_sha256": "b78c7eecac49d290045e8e01223d008dd2472fcfc60f078fcca5a32b0cdfae32",
+  "root_replay_sha256": "b78c7eecac49d290045e8e01223d008dd2472fcfc60f078fcca5a32b0cdfae32",
+  "byte_identical_replay": true,
+  "independent_probe": {
+    "path": "scripts/item231_root_independent_probe.py",
+    "sha256": "248ea8f05452d476ce82a686457eea881eadb9600d24e298101cdc55aa85cda6",
+    "imports_project_modules": false,
+    "prime_max_inclusive": 199,
+    "actual_rows": 329,
+    "row_stream_sha256": "f549e4156273f9e8609c53b70f2684fa78b8c56f26b11b74fb02dbe2482c694a"
+  },
+  "independent_checks": {
+    "coefficient_solution": "Direct coefficient extraction from the integrating-factor formula reproduces (v0,v1,v2)=(1,1,-1) and satisfies the exact differential equation coefficientwise over Q.",
+    "terminal_indices": "For N=2r+4s-1 and a=2s+4, N+a=p and N+a+p=2p; these are the first two positive indices whose primitive denominator is divisible by p.",
+    "cross_relation": "A standalone implementation of the regularized Pearson recurrence reproduces g_a*rho0+f*rho1=f*g_(a+p), f=-4epsilon, on every probed row. The coefficient-comparison proof uses cross multiplication and never divides by g_a.",
+    "frobenius_defect": "Modulo p, D=Pi/((1-x^p)(1+x^(2p))). Since a<p and a+p<2p, the inverse contributes only 1+x^p, giving g_(a+p)-g_a=[x^(a+p)]R*Pi.",
+    "reciprocal_sum": "Palindromic reversal gives target degree p+r. Ordinary support yields exactly the three ranges r+1..J, r..J, and r..J-1; generalized-binomial complementation (r even) gives the three displayed binomial factors.",
+    "endpoint_ratio": "The standalone audit verifies the exact finite-field endpoint ratio on all 329 probed rows; every denominator factor is a p-unit on an actual row.",
+    "gosper_scope": "The surviving coordinate keeps binomial parameter s fixed while its endpoint is J=3h+3s+1. Item232's diagonal recurrence changes both parameter and endpoint, so it cannot be substituted as an adjacent-row recurrence.",
+    "phase_evidence_scope": "The c_high=c_low and reduced-gcd observations in this frozen item are correctly labeled EXACT FINITE ONLY through h<=20; no all-h conclusion is inferred here.",
+    "extended_identity_prime_max_inclusive": 401,
+    "extended_identity_rows": 1151,
+    "extended_census_prime_max_inclusive": 2500,
+    "extended_actual_rows": 34882,
+    "extended_theta_survivors": 29,
+    "extended_theta_psi_joint_zero": 0,
+    "extended_theta_E_joint_zero": 0,
+    "extended_triple_zero": 0,
+    "extended_phase_h_max": 24,
+    "extended_certificate_sha256": "aa20e7eb29ebe56e56ad0d73d7306eb36d498d8d38d120e63bff1e4d06787dc2",
+    "python_compile": true,
+    "canonical_replay": "byte-identical",
+    "control_character_scan": "clean",
+    "host_path_scan": "clean",
+    "artifact_hashes": "match the corrected frozen manifest and SHA-256 ledger",
+    "citation_correction": "The final report summary now correctly cites the cross relation as (3.4), not (3.2); the checker and canonical certificates are unchanged."
+  },
+  "classification": {
+    "PROVED": [
+      "Delta_plus=g_a and Psi=-2epsilon(g_a+2g_(a+p)) on every actual row",
+      "the equivalent necessary second coefficient equation g_(a+p)=-Delta_minus on a Theta survivor",
+      "the Cartier/Frobenius defect coefficient and exact reciprocal finite sum",
+      "the precise non-applicability of Item232's diagonal recurrence to the fixed-s coordinate"
+    ],
+    "EXACT_FINITE": [
+      "the frozen identity replay through p<=251, census through p<=2000, and phase comparison through h<=20",
+      "the independent and extended checks through the bounds recorded above"
+    ],
+    "OPEN": [
+      "all-prime or weighted control of simultaneous Theta=Psi=0",
+      "an all-h phase resultant or unit-localized gcd theorem",
+      "control of the remaining fixed-s incomplete-binomial coordinate",
+      "any positive Route-1 rate, divisibility exponent, or conclusion about e+pi"
+    ]
+  },
+  "audit_conclusion": "Item231 is a valid exact compression of the second j=1 resonance into one Frobenius coefficient. It removes the propagated auxiliary scalars but leaves an uncontrolled fixed-parameter incomplete-binomial coordinate, so its unconditional Route-1 rate remains zero."
+}

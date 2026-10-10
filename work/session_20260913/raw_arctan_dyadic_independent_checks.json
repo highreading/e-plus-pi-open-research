@@ -1,0 +1,43 @@
+{
+  "status": "PASS; bounded exact controls only, semantic proof reviewed separately",
+  "rows": [
+    {
+      "n": 3,
+      "delta_A_valuation": 11,
+      "delta_B_valuation": 15,
+      "actual_reduced_endpoint_denominator_valuation": 5,
+      "direct_low_endpoint_and_cofactor_agree": true
+    },
+    {
+      "n": 5,
+      "delta_A_valuation": 43,
+      "delta_B_valuation": 47,
+      "actual_reduced_endpoint_denominator_valuation": 7,
+      "direct_low_endpoint_and_cofactor_agree": true
+    },
+    {
+      "n": 7,
+      "delta_A_valuation": 94,
+      "delta_B_valuation": 101,
+      "actual_reduced_endpoint_denominator_valuation": 11,
+      "direct_low_endpoint_and_cofactor_agree": true
+    },
+    {
+      "n": 3,
+      "all_70_Laplace_assignments_checked": true,
+      "least_term_valuation": -18,
+      "unique_least_high_nodes": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "case_minima": {
+        "neither": -18,
+        "A": -13,
+        "border": -13,
+        "borderA": -8
+      }
+    }
+  ]
+}

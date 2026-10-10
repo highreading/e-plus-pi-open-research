@@ -1,0 +1,143 @@
+{
+  "degree_bound": 6,
+  "multipliers": [
+    "1",
+    "-(n + 1)**2",
+    "-n*(n + 1)",
+    "-n**2",
+    "(n + 1)**4/4",
+    "n*(n + 1)**3/4",
+    "n**2*(n + 1)**2/4",
+    "n**3*(n + 1)/4",
+    "n**4/4"
+  ],
+  "tests": [
+    {
+      "kind": "symmetric",
+      "rho": "1",
+      "unknowns": 42,
+      "nullity": 0,
+      "kernel": []
+    },
+    {
+      "kind": "symmetric",
+      "rho": "-(n + 1)**2",
+      "unknowns": 42,
+      "nullity": 0,
+      "kernel": []
+    },
+    {
+      "kind": "symmetric",
+      "rho": "-n*(n + 1)",
+      "unknowns": 42,
+      "nullity": 0,
+      "kernel": []
+    },
+    {
+      "kind": "symmetric",
+      "rho": "-n**2",
+      "unknowns": 42,
+      "nullity": 0,
+      "kernel": []
+    },
+    {
+      "kind": "symmetric",
+      "rho": "(n + 1)**4/4",
+      "unknowns": 42,
+      "nullity": 0,
+      "kernel": []
+    },
+    {
+      "kind": "symmetric",
+      "rho": "n*(n + 1)**3/4",
+      "unknowns": 42,
+      "nullity": 0,
+      "kernel": []
+    },
+    {
+      "kind": "symmetric",
+      "rho": "n**2*(n + 1)**2/4",
+      "unknowns": 42,
+      "nullity": 0,
+      "kernel": []
+    },
+    {
+      "kind": "symmetric",
+      "rho": "n**3*(n + 1)/4",
+      "unknowns": 42,
+      "nullity": 0,
+      "kernel": []
+    },
+    {
+      "kind": "symmetric",
+      "rho": "n**4/4",
+      "unknowns": 42,
+      "nullity": 0,
+      "kernel": []
+    },
+    {
+      "kind": "skew",
+      "rho": "1",
+      "unknowns": 21,
+      "nullity": 0,
+      "kernel": []
+    },
+    {
+      "kind": "skew",
+      "rho": "-(n + 1)**2",
+      "unknowns": 21,
+      "nullity": 0,
+      "kernel": []
+    },
+    {
+      "kind": "skew",
+      "rho": "-n*(n + 1)",
+      "unknowns": 21,
+      "nullity": 0,
+      "kernel": []
+    },
+    {
+      "kind": "skew",
+      "rho": "-n**2",
+      "unknowns": 21,
+      "nullity": 0,
+      "kernel": []
+    },
+    {
+      "kind": "skew",
+      "rho": "(n + 1)**4/4",
+      "unknowns": 21,
+      "nullity": 0,
+      "kernel": []
+    },
+    {
+      "kind": "skew",
+      "rho": "n*(n + 1)**3/4",
+      "unknowns": 21,
+      "nullity": 0,
+      "kernel": []
+    },
+    {
+      "kind": "skew",
+      "rho": "n**2*(n + 1)**2/4",
+      "unknowns": 21,
+      "nullity": 0,
+      "kernel": []
+    },
+    {
+      "kind": "skew",
+      "rho": "n**3*(n + 1)/4",
+      "unknowns": 21,
+      "nullity": 0,
+      "kernel": []
+    },
+    {
+      "kind": "skew",
+      "rho": "n**4/4",
+      "unknowns": 21,
+      "nullity": 0,
+      "kernel": []
+    }
+  ],
+  "transition_determinant_verified": true
+}

@@ -1,0 +1,51 @@
+{
+  "schema": "item389-mixed-kernel-analytic-cost-continued-fraction-no-go-ledger-delta-v1",
+  "item": 389,
+  "date": "2026-09-01",
+  "branch": "mixed Yu kernel / structured exact-derivative gauge / analytic and coefficient cost",
+  "status": "PROVED_ALL_DEGREE_ANALYTIC_COST_AND_CONTINUED_FRACTION_THRESHOLD",
+  "proved": {
+    "item387_decomposition": "P=P_(A,C)+(1+D)(x(x-1)R), P_(A,C)=A+(A-C)x",
+    "mixed_integrand": "F=e^x P+4A/(1+x^2), integral F=A(e+pi)-C",
+    "exact_endpoint": "F(0)=5A-R(0) is an integer",
+    "uniform_dichotomy": "norm_infinity(F)>=|5A-R(0)|; norm_infinity(F)<1 forces R(0)=5A and p0=-4A",
+    "uniform_coefficient_cost": "max coefficient of R >=5|A| and B0(P)>=4|A|",
+    "analytic_cost": "Lambda=3(B0(P)+B1(P)+|A|) bounds the Lipschitz constant of F",
+    "L1_dichotomy": "R(0)=5A or norm_1(F)>=1/(2Lambda)",
+    "degree_height_threshold": "norm_1(F)<1/[6((d+1)^2 H(P)+|A|)] forces R(0)=5A",
+    "global_coefficient_lower_bound": "B0(P)>=(3|A|-norm_1(F))/2, with strictness away from the zero tuple",
+    "continued_fraction_threshold": "if B0(P)>0 and 0<|A(e+pi)-C|<=norm_1(F)<min(1,1/(2B0(P))), then A is nonzero, |A|<=B0(P), and |e+pi-C/A|<1/(2A^2)",
+    "degree_one_comparable_cost": "under the continued-fraction hypotheses B0(P_(A,C))<9B0(P)+1 and the integer linear form is identical",
+    "closed_method_class": "high-degree exact-derivative reshaping as a source of small mixed integrands at coefficient cost sublinear in |A|",
+    "new_nonzero_linear_form_sequence": 0
+  },
+  "scope": {
+    "nonzero_hypothesis_used": "0<|A(e+pi)-C| is explicit in the continued-fraction theorem",
+    "smallness_hypotheses_used": "all uniform, L1, inverse-cost, and degree-height thresholds are explicit",
+    "structured_family_constructed": false,
+    "unstructured_search_performed": false,
+    "optimization_performed": false,
+    "small_nonzero_form_claimed": false,
+    "irrationality_claimed": false,
+    "not_ruled_out": "a non-circular Rodrigues, Pade, sign-constrained, or other structured family independently proving integrality, nonvanishing, decay, and coefficient growth"
+  },
+  "controls": {
+    "classification": "PREDECLARED EXACT POLYNOMIAL AND ELEMENTARY-CONSTANT CONTROLS ONLY; NO SMALL-FORM SEARCH",
+    "polynomial_tuples": 6,
+    "finite_to_infinite_inference": false
+  },
+  "ledger": {
+    "new_route1_linear_log_rate": 0,
+    "new_route1_booking": 0,
+    "new_route1_capacity_reduction": 0,
+    "route2_success": false,
+    "conclusion_about_e_plus_pi": "OPEN"
+  },
+  "open": [
+    "a non-circular structured family passing integrality, nonvanishing, analytic decay, and coefficient-cost thresholds",
+    "any nonzero sequence satisfying the inverse coefficient threshold",
+    "irrationality of e+pi"
+  ],
+  "ledger_action": "CLOSE_HIGH_DEGREE_MIXED_KERNEL_RESHAPING_AS_SUBLINEAR_DENOMINATOR_COST_ROUTE_BOOK_ZERO",
+  "canonical_files_modified": false
+}

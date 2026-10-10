@@ -1,0 +1,41 @@
+{
+  "schema": "item277-root-audit-v1",
+  "audit_date": "2026-08-31",
+  "auditor": "root",
+  "verdict": "PASS_WITH_STRICT_SCOPE",
+  "substantive_checks": {
+    "phase_neighbor": "PASS: (-4,+3) preserves M and changes p to p+2 on h>=5",
+    "square_crt": "PASS: coprimality of p and p+2 makes the double collision imply [p(p+2)]^2 divides both fixed integers, exactly the previously known square radical",
+    "mixed_solution_module": "PASS: CRT splits the state conditions as ker(A mod p) times ker(B mod p+2), with all rank pairs retained",
+    "transversality_obstruction": "PASS: the idempotent mixed matrix has determinant zero modulo p(p+2), and the exact transverse model disproves product divisibility of the state",
+    "twin_boundary": "PASS AFTER REPAIR: isolation is stated for p>5; the actual h>=5 family has p>=29",
+    "weighted_cluster_mass": "PASS: the classical Brun/Selberg upper-bound sieve gives O(M/log^2 M) edges and O(M/log M)=o(M) endpoint logarithmic weight",
+    "capacity_booking": "PASS: perfect neighboring-pair exclusion affects zero linear mass, Item149 overlap remains, the 1/36 ceiling is unchanged, and booking is zero"
+  },
+  "independent_replay": {
+    "canonical_sha256": "38554e99b31417a5b26b7fdbe92950793fae9f8bee965962903d98ca67d54532",
+    "root_replay_sha256": "38554e99b31417a5b26b7fdbe92950793fae9f8bee965962903d98ca67d54532",
+    "byte_identical": true,
+    "payload_sha256": "3615120b7a2b40143b0322b7cef87f4e9d8fc4b37ece0ce6d6d9ad57a9928b92"
+  },
+  "package_checks": {
+    "hash_ledger_entries_checked": 7,
+    "frozen_dependencies_checked": 5,
+    "json_files_parsed": 6,
+    "all_hashes_and_dependencies_match": true
+  },
+  "report_checks": {
+    "sha256": "1b5fe481bd71ed79268d93c3fed797589750651cf6f032e0951ab94af013de9d",
+    "bytes": 10755,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "display_delimiters": "28/28",
+    "inline_delimiters": "65/65"
+  },
+  "strict_scope": {
+    "proved": "Neighboring collision pairs add no independent valuation copy; cross-field transversality supplies no product-field state divisor; their total possible endpoint weight is o(M).",
+    "finite_only": "The bounded phase and twin-prime replays are not used to infer the asymptotic sieve bound.",
+    "open": "Isolated fixed-j1 collision primes, non-neighboring clusters, enlarged arithmetic modules, and every positive retained-ceiling reduction remain open.",
+    "route_status": "Route 1 ACTIVE; Route 2 QUEUED"
+  }
+}

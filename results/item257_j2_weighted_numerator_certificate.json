@@ -1,0 +1,360 @@
+{
+  "affine_independence_witnesses": [
+    {
+      "G_0": 29,
+      "G_1": 20,
+      "H_k": 0,
+      "cubic_resultant": 22,
+      "k": 2,
+      "linear_eliminant": 13,
+      "p": 43,
+      "r": 11,
+      "s": 3
+    },
+    {
+      "G_0": 31,
+      "G_1": 29,
+      "H_k": 0,
+      "cubic_resultant": 1,
+      "k": 4,
+      "linear_eliminant": 30,
+      "p": 47,
+      "r": 7,
+      "s": 5
+    },
+    {
+      "G_0": 238,
+      "G_1": 354,
+      "H_k": 234,
+      "cubic_resultant": 0,
+      "k": 38,
+      "linear_eliminant": 0,
+      "p": 367,
+      "r": 65,
+      "s": 39
+    }
+  ],
+  "dependencies": {
+    "item219_common_log_j2_certificate.py": "bf9ee30675b5745225f08d2d82e500fd1f6797d69f94ab5949602e266f8b38cc",
+    "item250_j2_ordinary_phase_certificate.py": "2364a9e9c9be0ea0827c2b12137883ad326d77017a53bb4f242be300335e90ce",
+    "item251_j2_exceptional_period_report.md": "7a27bde15627ed233d59755b85e69a434b357600c20996b378a24a4e4ff56260",
+    "item254_half_binomial_arithmetic_report.md": "971d50dab6a8f944334503c46d369151f390db534bc50ec54e1711ecf9b83a2a",
+    "item256_beta_first_jet_report.md": "42257c8f94d1531efcbc6f477feb941ab9f80ce18c49d84e73c1ef0ae52739cd"
+  },
+  "exact_maps": {
+    "actual_mod4": "p=2k+3 mod 4 (automatic from the global cell)",
+    "actual_phase": "p=6k+2d+1, d=r+4=3 or 5 mod 6",
+    "candidate_prime": "p=(4M+2s+1)/5=(4M+2k+3)/5",
+    "candidate_s": "1<=s<=(2M-7)/14 and s=3(M-1) mod 5",
+    "global_cell": "4M+1=5p-2s",
+    "phase_r": "r=(2M-14s-7)/5=6M-7p",
+    "prefix_index": "k=s-1",
+    "raw_prime_interval": "(4M+3)/5 <= p <= 6M/7"
+  },
+  "finite_H_zero_scan": {
+    "H_zero_count": 57,
+    "actual_rows": 128682,
+    "at_most_one_zero_per_global_m_in_scan": true,
+    "distinct_global_m": 57,
+    "first_20_zero_rows_p_s_r_k_global_m": [
+      [
+        43,
+        3,
+        11,
+        2,
+        52
+      ],
+      [
+        47,
+        5,
+        7,
+        4,
+        56
+      ],
+      [
+        193,
+        22,
+        29,
+        21,
+        230
+      ],
+      [
+        241,
+        10,
+        89,
+        9,
+        296
+      ],
+      [
+        467,
+        71,
+        19,
+        70,
+        548
+      ],
+      [
+        599,
+        37,
+        187,
+        36,
+        730
+      ],
+      [
+        751,
+        97,
+        83,
+        96,
+        890
+      ],
+      [
+        769,
+        102,
+        77,
+        101,
+        910
+      ],
+      [
+        857,
+        142,
+        1,
+        141,
+        1000
+      ],
+      [
+        877,
+        18,
+        383,
+        17,
+        1087
+      ],
+      [
+        971,
+        119,
+        127,
+        118,
+        1154
+      ],
+      [
+        983,
+        35,
+        385,
+        34,
+        1211
+      ],
+      [
+        1013,
+        80,
+        265,
+        79,
+        1226
+      ],
+      [
+        1039,
+        117,
+        167,
+        116,
+        1240
+      ],
+      [
+        1117,
+        102,
+        251,
+        101,
+        1345
+      ],
+      [
+        1171,
+        193,
+        5,
+        192,
+        1367
+      ],
+      [
+        1229,
+        102,
+        307,
+        101,
+        1485
+      ],
+      [
+        1291,
+        19,
+        587,
+        18,
+        1604
+      ],
+      [
+        1297,
+        30,
+        557,
+        29,
+        1606
+      ],
+      [
+        1303,
+        135,
+        245,
+        134,
+        1561
+      ]
+    ],
+    "max_observed_log_weight_per_global_m": {
+      "decimal": "0.072330771455645",
+      "global_m": 52,
+      "p": 43
+    },
+    "prime_max": 5000,
+    "strict_label": "EXACT FINITE ONLY; no density or asymptotic inference",
+    "zero_digest_sha256": "dda45a888d9f6d1609250bbf641797dcb00711f31f3aca77a32d44ea9d723ad1"
+  },
+  "global_reindex_replay": {
+    "candidate_s_rows": 14101,
+    "global_m_max": 1000,
+    "prime_rows": 4397
+  },
+  "prefix_replay": {
+    "k_max": 257,
+    "row_digest_sha256": "028a6a3b13ce688fb72e98fd592ef06020e7526603dacbbcb0baf7849970b179",
+    "samples": [
+      {
+        "D_k": "1",
+        "N_k": "1",
+        "k": 0,
+        "s2_k": 0,
+        "v2_U": 0
+      },
+      {
+        "D_k": "4",
+        "N_k": "5",
+        "k": 1,
+        "s2_k": 1,
+        "v2_U": 1
+      },
+      {
+        "D_k": "32",
+        "N_k": "43",
+        "k": 2,
+        "s2_k": 1,
+        "v2_U": 1
+      },
+      {
+        "D_k": "2048",
+        "N_k": "2867",
+        "k": 4,
+        "s2_k": 1,
+        "v2_U": 1
+      },
+      {
+        "D_k": "262144",
+        "N_k": "370345",
+        "k": 7,
+        "s2_k": 3,
+        "v2_U": 3
+      },
+      {
+        "D_k": "140737488355328",
+        "N_k": "199032580597603",
+        "k": 16,
+        "s2_k": 1,
+        "v2_U": 1
+      },
+      {
+        "D_k": "309485009821345068724781056",
+        "N_k": "437677898226407325735549177",
+        "k": 31,
+        "s2_k": 5,
+        "v2_U": 5
+      },
+      {
+        "D_k": "3138550867693340381917894711603833208051177722232017256448",
+        "N_k": "4438581203289767414327380219685231540411818819813300296227",
+        "k": 64,
+        "s2_k": 1,
+        "v2_U": 1
+      },
+      {
+        "D_k": "38478521676166483605741250097796497856523182881313912761668255277583712667477744737709244389536050430475222646784",
+        "N_k": "54416847214501759207676108560053999880752384214294529372860541249681785577436528575851560925580149113996226569785",
+        "k": 127,
+        "s2_k": 7,
+        "v2_U": 7
+      },
+      {
+        "D_k": "3105036184601417870297958976925005110513772034233393222278104076052101905372753772661756817657292955900975461394262146412343160088229628782888574550082362278408909952041699811100530571263196889650525998387432937501785693707632115712",
+        "N_k": "4391184283922534343429405924731921325835941414583435378283744433717105883367043203064591896437318198055835385453789155420921230990025065277447331999927319097324268237655442263946486652773459105949936142257849277169625568312686827695",
+        "k": 257,
+        "s2_k": 2,
+        "v2_U": 2
+      }
+    ]
+  },
+  "rate_comparison": {
+    "closing_exception_allowance_per_global_m_if_j1_fully_removed": "0.004559917827349",
+    "item197_square_container_multiplicity": 2,
+    "item197_square_container_per_global_m_H_over2": "3.163813772720429",
+    "largest_prefix_height_coefficient_3log2_over7": "0.297063077382834",
+    "multiplicity_needed_to_beat_raw_with_same_height": "110.733482045215",
+    "new_bookable_rate": "0",
+    "product_quadratic_coefficient_3log2_over490": "0.004243758248326",
+    "raw_j2_decimal": "0.057142857142857",
+    "raw_j2_per_6m": "1/105",
+    "raw_j2_per_global_m": "2/35",
+    "verdict": "all available deterministic height ceilings are weaker than raw support"
+  },
+  "schema": "item257-j2-weighted-numerator-v1",
+  "selected_container_replay": [
+    {
+      "candidate_count": 3,
+      "global_m": 100,
+      "largest_numerator_bit_length": 31,
+      "lcm_bit_length": 47,
+      "max_k": 11,
+      "min_k": 1,
+      "product_bit_length": 50
+    },
+    {
+      "candidate_count": 7,
+      "global_m": 250,
+      "largest_numerator_bit_length": 89,
+      "lcm_bit_length": 318,
+      "max_k": 31,
+      "min_k": 1,
+      "product_bit_length": 322
+    },
+    {
+      "candidate_count": 14,
+      "global_m": 500,
+      "largest_numerator_bit_length": 197,
+      "lcm_bit_length": 1353,
+      "max_k": 66,
+      "min_k": 1,
+      "product_bit_length": 1373
+    },
+    {
+      "candidate_count": 29,
+      "global_m": 1000,
+      "largest_numerator_bit_length": 420,
+      "lcm_bit_length": 6019,
+      "max_k": 141,
+      "min_k": 1,
+      "product_bit_length": 6092
+    }
+  ],
+  "status": {
+    "capacity_reduction": "0",
+    "finite_scan": "EXACT_FINITE_ONLY",
+    "global_row_reindex": "PROVED_IN_REPORT",
+    "height_residue_ceiling": "PROVED_SHARPLY_SCOPED_NO_GO",
+    "joint_affine_height_ceiling": "PROVED_SCOPED_NO_GO_FOR_AVAILABLE_HEIGHT_DATA",
+    "numerator_product_container": "PROVED_IN_REPORT",
+    "weighted_zero_rate": "NOT_PROVED"
+  },
+  "theorems": {
+    "global_container": "R_M^H=product of actual H-zero row primes divides P_M=product_{s in S_M} N_(s-1)",
+    "joint_gate": "Item251 prescribes an affine value of H_k, not H_k=0; the original fixed-M gate only supplies the known p^2 coefficient container",
+    "lcm_ceiling": "even the unfiltered lcm container has log at least (3 log 2/7)M+O(log M), larger than the raw 2M/35 cell mass",
+    "product_height": "log P_M=(3 log 2/490)M^2+O(M log M)",
+    "reduced_prefix": "H_k=N_k/2^(3k-s_2(k)), with N_k odd and 2^(3k-s_2(k))<=N_k<2^(3k-s_2(k)+1/2)",
+    "small_edge": "N_(s-1)<p excludes only s=O(log M), hence only o(M) raw log weight"
+  }
+}

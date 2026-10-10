@@ -1,0 +1,150 @@
+{
+  "carrier_examples": {
+    "classification": "EXACT FINITE REPLAY ONLY",
+    "consequence": "the 334-row bound G<=7 and factor set {3,7} do not extend even to p=599",
+    "no_unboundedness_claim": true,
+    "row_digest_sha256": "90ea766534a7585866114f5cdcb28d3b4e232bd720e6e94992422c504cd9bbdb",
+    "rows": [
+      [
+        17,
+        1,
+        2,
+        3
+      ],
+      [
+        29,
+        1,
+        4,
+        7
+      ],
+      [
+        331,
+        17,
+        49,
+        23
+      ],
+      [
+        599,
+        7,
+        97,
+        173
+      ]
+    ]
+  },
+  "classification": "PROVED_RESULTANT_COLLAPSE_AND_CARRIER_INFORMATION_CLASS_NO_GO",
+  "dependencies": {
+    "manifests/item334_j2_coupled_cartier_carrier_manifest.json": "518176b7e7cf5908e350bb857063bae47658050ca63c4a0e1976554efac87bc9",
+    "results/item334_j2_coupled_cartier_carrier_certificate.json": "238046186f90bdffb2e9b4c72994bac4f0c2ba7e377b42f04753b5502ea861e2",
+    "scripts/item318_j2_actual_period_plucker_certificate.py": "334bade7313a2fb750874dfd53216cd5f1028afbc837473cdd19b365ca820e82",
+    "scripts/item331_j2_global_cartier_concentration_certificate.py": "726157af0f7250c42c3594bb45f08074375e4eb5d1e9843cad37f3def85e27ba",
+    "scripts/item334_j2_coupled_cartier_carrier_certificate.py": "b9cab6a6ddc4a0817bae5852e78473ab3144ed9a3b8985c7eacaf27629c90cce",
+    "sources/item334_j2_coupled_cartier_carrier_report.md": "a9a1b42652e5157b850014758c321ffd8a5734e4f9ea3586510ae0549822357c"
+  },
+  "dependency_hashes_verified": true,
+  "fixed_M_replay": {
+    "M_max_inclusive": 2500,
+    "M_min_inclusive": 20,
+    "aggregate_finite_theta": 174108.87904457972,
+    "classification": "EXACT FINITE REPLAY ONLY",
+    "comparison_recurrence_checks": 167810,
+    "fixed_M_values": 2481,
+    "last_slice": {
+      "M": 2500,
+      "normalized_per_6M": 0.010183720352703665,
+      "prime_rows": 20,
+      "raw_ceiling_per_6M": 0.009523809523809525,
+      "raw_limit_constant": 0.05714285714285714,
+      "sample_rows": [
+        [
+          2003,
+          979,
+          7,
+          6,
+          983
+        ],
+        [
+          2011,
+          923,
+          27,
+          26,
+          927
+        ],
+        [
+          2017,
+          881,
+          42,
+          41,
+          885
+        ],
+        [
+          2027,
+          811,
+          67,
+          66,
+          815
+        ],
+        [
+          2029,
+          797,
+          72,
+          71,
+          801
+        ],
+        [
+          2039,
+          727,
+          97,
+          96,
+          731
+        ],
+        [
+          2053,
+          629,
+          132,
+          131,
+          633
+        ],
+        [
+          2063,
+          559,
+          157,
+          156,
+          563
+        ]
+      ],
+      "theta": 152.75580529055497,
+      "theta_over_M": 0.06110232211622199
+    },
+    "pairwise_distinct_prime_gcd_checks": 143581,
+    "prime_rows": 24519,
+    "row_digest_sha256": "186ff5fdb4edbd28e64039eea3a10d187a8293738020087d1db32b10947361b2"
+  },
+  "parameters": {
+    "M_max_inclusive": 2500,
+    "M_min_inclusive": 20
+  },
+  "proved_formulae": {
+    "K": "9*kappa_r*B_s/2, an actual-row p-unit",
+    "affine_pair": "T_nu(X)=K*f_nu*X+(-1)^m*(f_nu*B*tau-U_nu)",
+    "comparison_carrier": "G_tilde_(M,p)=p on each actual tied row",
+    "fixed_M_prime_interval": "(4M+3)/5 <= p <= (6M-1)/7",
+    "raw_ceiling_per_6M": "1/105",
+    "raw_chebyshev_mass": "theta((4M/5,6M/7))=(2/35)M+o(M)",
+    "resultant": "Res_X(T_0,T_1)=(-1)^(m+1)*K*D"
+  },
+  "resultant_replay": {
+    "classification": "SYMBOLIC EXACT RATIONAL IDENTITIES",
+    "generic_rows": 4,
+    "linear_subresultant_checks": 12,
+    "resultant_checks": 4,
+    "row_digest_sha256": "fb22fca13fd6955ef87f44a5c0be4e5f87496932d11a8949308665cce24dd625"
+  },
+  "schema": "item336-j2-carrier-resultant-obstruction-v1",
+  "scope_warning": "The comparison carrier is an information-class obstruction on the exact tied row grid, not a claim about the actual primitive carrier.  Finite carrier examples are not density evidence.",
+  "strict_ledger": {
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "ordinary_j2_ceiling_per_6M": "1/105",
+    "target_coupled_average_gcd": "OPEN"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "item": 384,
+  "schema": "item384-j1-universal-filtered-selector-capacity-no-go-manifest-v1",
+  "classification": "PROVED_SHARP_FULL_CAPACITY_NO_GO_FOR_ROWWISE_FILTERED_INVARIANT_PACKAGE",
+  "checked_date_beijing": "2026-09-01",
+  "scope": "actual fixed-M candidate set, arbitrary nonzero shifted CRT selector maps, fixed finite direct sums of filtered Hasse extensions, rational flat bounded-pole connections, selector regularity, local splitting obstructions, and sharp information-class capacity",
+  "canonical_files_modified": false,
+  "dependencies": {
+    "sources/item360_j1_full_gate_transverse_period_report.md": "4468412fb8631924952dc7f70fc4e75433a7524954b89525de508e55feefc8c4",
+    "sources/item363_j1_joint_gate_crt_elimination_no_go_report.md": "377ed30c0c6be630c124ccd3050d37176264c659d23a502453a9aaa34ff132ee",
+    "sources/item374_j1_filtered_hasse_extension_realization_report.md": "ac04f52132e3355692b1744d625f765dd6b0d1e74f90b123ebd599c135b009d2",
+    "sources/item383_j1_frobenius_lift_gauge_invariance_report.md": "840e76e85c1a8ebbc8fe3c1b21432c91f7745b2ea18d3f6b51d6612caee7c066",
+    "results/item363_j1_joint_gate_crt_elimination_no_go_certificate.json": "621171b99b54e75ecba2fb58e000a05f0e0b9e8e3dfd20cb768a3b0d3baf2875",
+    "results/item374_j1_filtered_hasse_extension_realization_certificate.json": "609f378221a2aafa823947dd967fe0c626df3c74ff726681e406d9b1d4a4fcaf",
+    "results/item383_j1_frobenius_lift_gauge_invariance_certificate.json": "1c72215e36bd1bb1d24f0e86e2941cc29a5d32f6ff434f22d7c598be3507a80f",
+    "manifests/item363_j1_joint_gate_crt_elimination_no_go_manifest.json": "46aa9a81d3b92cd5e7e055d9280f32e0e5ca32b91dfd68d95cbc9fdaa26a464a",
+    "manifests/item374_j1_filtered_hasse_extension_realization_manifest.json": "5963968673fdb77e53ab4acdce5c1eb5e323491c79ef27a45f5f6ee39d73fcd5",
+    "manifests/item383_j1_frobenius_lift_gauge_invariance_manifest.json": "b1faa6cd0843bc49d803a4016361e8bb54d569785d2d3d33c8df2ea514757926"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item384_j1_universal_filtered_selector_capacity_no_go_report.md",
+      "sha256": "9a7340ec9960ad6278e47c63de728048b52cfe59fc957ca93ea32558c6c39342",
+      "bytes": 13363
+    },
+    "certificate_script": {
+      "path": "work/item384_j1_universal_filtered_selector_capacity_no_go_certificate.py",
+      "sha256": "c574d6f44e66380e53e0e4450190e349bf0d4875afbcc4c65045c354658ed231",
+      "bytes": 14297
+    },
+    "certificate": {
+      "path": "work/item384_j1_universal_filtered_selector_capacity_no_go_certificate.json",
+      "sha256": "5fbdcbe3e7348f3776dab07c5dd6492278951929f3461f85fb78e5d11129e873",
+      "bytes": 7132
+    },
+    "replay": {
+      "path": "work/item384_j1_universal_filtered_selector_capacity_no_go_certificate_replay.json",
+      "sha256": "5fbdcbe3e7348f3776dab07c5dd6492278951929f3461f85fb78e5d11129e873",
+      "bytes": 7132,
+      "byte_identical_to_certificate": true
+    },
+    "ledger": {
+      "path": "work/item384_j1_universal_filtered_selector_capacity_no_go_ledger_delta.json",
+      "sha256": "1327b3162009527b08e51a453f05fcb99c3cb2830ab65f3d0ad4e07cd06a1241",
+      "bytes": 3481
+    }
+  },
+  "theorems": [
+    "for every fixed M and every subset S of the actual candidate primes, the least CRT residue Z has a nonzero shifted representative Ztilde=Z+P_M in [P_M,2P_M) that is zero precisely modulo the primes in S",
+    "gcd(P_M,Ztilde,Ztilde) is exactly the squarefree product of S, so every joint-zero pattern is realized by a nonzero carrier",
+    "two fixed rank-two filtered Hasse extensions give a rank-four fixed-Hodge family with codimension-two joint Hasse divisor",
+    "the lambda=2 Frobenius lifts give flat rational connections with two fixed logarithmic pole components, and selector values zero and one avoid both poles",
+    "the Item383 bounded-splitting and full-disc non-dagger obstructions remain present and impose no restriction on the selector pattern",
+    "for every fixed finite k, k direct-sum copies realize every subset with a codimension-k joint Hasse divisor",
+    "the sharp maximal weighted mass in this rowwise invariant information class is log P_M=M/6+o(M), so no strict constant below 1/6 follows from that class",
+    "the actual W_(H,T) target is not bounded and the full 1/36 ceiling is retained"
+  ],
+  "strict_labels": {
+    "PROVED": [
+      "all-M all-subset nonzero shifted CRT selector and exact radical",
+      "fixed-rank codimension-two filtered-Hasse comparison and all-fixed-k generalization",
+      "rational flat fixed-pole connections with selector regularity",
+      "sharp full-capacity information-class no-go",
+      "zero booking"
+    ],
+    "DECLARED_EXACT_CONTROLS_ONLY": [
+      "all subsets at five fixed M values and two formal-series connection controls; no actual collision scan or density inference"
+    ],
+    "OPEN": [
+      "arithmetic of the actual moving selector",
+      "an actual prime-independent compatible system and useful monodromy",
+      "an actual aggregate gcd, resultant, factor-localization, or weighted nonconcentration theorem",
+      "any strict fixed-j1 retained-capacity bound, Route 1, and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_log_mass": "M/6+o(M)",
+    "raw_ceiling_per_6M": "1/36",
+    "information_class_full_capacity_attained": true,
+    "actual_weighted_target_proved": false,
+    "new_linear_log_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0,
+    "retained_ceiling_per_6M": "1/36"
+  }
+}

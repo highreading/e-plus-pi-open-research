@@ -1,0 +1,48 @@
+{
+  "schema": "item309-root-audit-v1",
+  "item": 309,
+  "auditor": "root",
+  "date": "2026-08-31",
+  "verdict": "PASS WITH ACTUAL-L TWO-CYCLE RECURRENCE, THE ALL-N Y=-1 BRANCH BRIDGE, AN EXACT TWO-BRANCH FULL-GATE TRANSLATION, OPEN WEIGHTED ARITHMETIC, AND ZERO BOOKING",
+  "package": {
+    "manifest_files_checked": 5,
+    "manifest_file_hash_mismatches": 0,
+    "frozen_dependencies_checked": 7,
+    "manifest_dependency_hash_mismatches": 0,
+    "hash_list_entries_checked": 6,
+    "hash_list_mismatches": 0,
+    "canonical_root_replay_byte_identical": true,
+    "canonical_and_root_replay_sha256": "b44200c2e3fe16fca4518e45b40540230db43deee496d84c43336907ef304c5a",
+    "report_sha256": "eaa6ace5cefaa8e26f68e2e4551d72ac89cb094f2380dbea7f2e6bc567ed3d5e",
+    "script_sha256": "bd4dc6b96d8af44cb463a141fad14739909ad645c3a9b6067c4c653580dad6b4",
+    "ledger_sha256": "f78e01abc7a2f1815f77f2636ecb2b637ea5db94096a62b4a85785facd13c5d3",
+    "manifest_sha256": "2ad26a4967e40e552dda6eff87f0d4bd96f7d3dcad5311325cc843699a46b634",
+    "hash_list_sha256": "22ad474efe17083d72c31c939f52478b6e5f8e54486221c1fcc98a25b92c9825"
+  },
+  "independent_mathematical_checks": {
+    "tail_inversion": "PASS: t=1/z gives the common kernel X(z)^r and forms phi_0,phi_1 with the claimed orientation because r is odd; the exponent identities are exact.",
+    "common_beta_normalization": "PASS: B((r+2)/2,-2r/3-1)/B((r+2)/2,-2r/3)=r/[2(2r+3)], exactly the rho multiplying f_1.",
+    "actual_period_determinant": "PASS: the endpoint coefficient b is the C=2^q coordinate of the meromorphic phase reduction; eliminating the common E period gives L=eta_L times the determinant over delta and Gamma.",
+    "finite_part_endpoints": "PASS: all seven nonzero shifted primitives vanish at 0 and 1; their exponents at plus/minus i and infinity are an integer plus or minus 2r/3, never zero because 3 does not divide either actual ray.",
+    "tensor_reuse": "PASS: Item306's Hermite reductions are rational one-form identities. With all exact boundary finite parts zero, its three independent and nine restored exterior-tensor cancellations apply to any two chosen cycles.",
+    "normalization_shift": "PASS: direct gamma shifting gives B_r/B_(r+6)=-64(r+3)(2r+3)(2r+9)/(27r(r+2)(r+4)); together with q and orientation shifts this yields eta_L(r+6)/eta_L(r)=16 eta_M(r+6)/eta_M(r).",
+    "branch_and_initials": "PASS: y=z-1 is the distinct z(0)=0, y(0)=-1 branch of Item237's same algebraic curve; the certified operator is branch-independent. Three original-tail initials on each ray and a nonzero forward coefficient prove the bridge for every n.",
+    "capacity_scope": "PASS: Items306 and309 express D=cL+M as an exact tied combination of the y=-1 and y=0 branches. This is a translation theorem only; modular singular-layer clearing and weighted moving-prime density remain open."
+  },
+  "format": {
+    "report_bytes": 15554,
+    "report_lines": 596,
+    "forbidden_control_characters": 0,
+    "inline_math_open": 126,
+    "inline_math_close": 126,
+    "display_math_open": 50,
+    "display_math_close": 50
+  },
+  "capacity": {
+    "new_route1_rate": 0,
+    "new_ordinary_j2_capacity_reduction": 0,
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "smallest_remaining_lemma": "A fully cleared all-layer integral form and weighted o(M) zero-prime theorem for the exact two-branch tied combination",
+    "ledger_changed": false
+  }
+}

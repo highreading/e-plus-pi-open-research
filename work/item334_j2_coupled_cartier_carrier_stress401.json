@@ -1,0 +1,293 @@
+{
+  "algebra_replay": {
+    "classification": "SYMBOLIC EXACT RATIONAL IDENTITIES",
+    "generic_rows": 3,
+    "identity_checks": 12,
+    "row_digest_sha256": "3ca85130f6bea4313c372d57ce47cc068030083813fcb3ea5e353349a8035b6e"
+  },
+  "classification": "PROVED_COUPLED_TARGET_AND_EXACT_ROWWISE_INTEGER_CARRIER",
+  "dependencies": {
+    "work/item318_j2_actual_period_plucker_certificate.json": "75e84016af2c7580f1954f795ed080d25083345578558aae49f6df4253891fd7",
+    "work/item318_j2_actual_period_plucker_certificate.py": "219fbe07f04370bbe4c319aa3d630068ea30cde92938ca4c07ddf4ef98fd647a",
+    "work/item318_j2_actual_period_plucker_report.md": "e89f4892b3c2b9b999321de0ec6973547903b755f07b0d34be7f0da634ecd4db",
+    "work/item319_j2_third_minor_elimination_certificate.json": "c4ce360823dd2d781bebc492e79b65d6ea183a7dada1d4cbee1b1c37334ec194",
+    "work/item319_j2_third_minor_elimination_report.md": "51b2505f71257f905b4b979f90eb74af24e9c3f2f29c1dd9ee57bd737e5581e1",
+    "work/item331_j2_global_cartier_concentration_certificate.json": "08739a4a4061d5b9d78328aa52b6355711657d75259a133660a3181404f640b2",
+    "work/item331_j2_global_cartier_concentration_certificate.py": "726157af0f7250c42c3594bb45f08074375e4eb5d1e9843cad37f3def85e27ba",
+    "work/item331_j2_global_cartier_concentration_manifest.json": "1f39eee86aa469ec5d59b8c3602460728616abe95482db38d1e2e13514908b2c",
+    "work/item331_j2_global_cartier_concentration_report.md": "b721b9469b500a8b8fb5f6c0c0702f92015198264a7c6f931acaabd82796ee08"
+  },
+  "dependency_hashes_verified": true,
+  "finite_replay": {
+    "chart_counts": {
+      "ell_nonzero": 1151,
+      "m_nonzero": 2
+    },
+    "classification": "EXACT FINITE REPLAY ONLY",
+    "collision_rows": [],
+    "determinant_hits": [
+      [
+        271,
+        113,
+        7,
+        335,
+        "ell_nonzero",
+        98,
+        135,
+        1
+      ],
+      [
+        367,
+        65,
+        39,
+        439,
+        "ell_nonzero",
+        129,
+        13,
+        1
+      ],
+      [
+        383,
+        109,
+        27,
+        465,
+        "ell_nonzero",
+        1,
+        231,
+        1
+      ]
+    ],
+    "explicit_old_gate_hits_added": [
+      [
+        271,
+        113,
+        7
+      ],
+      [
+        367,
+        65,
+        39
+      ],
+      [
+        383,
+        109,
+        27
+      ]
+    ],
+    "fixed_M_slices": 441,
+    "largest_rows_in_one_fixed_M_slice": 5,
+    "maximum_bit_lengths": {
+      "T0": 1215,
+      "T1": 1232,
+      "c_p": 293,
+      "carrier": 5
+    },
+    "prime_max_inclusive_for_full_census": 401,
+    "row_digest_sha256": "b3bbb662789400a146a68c218de444b6ec227554dbeadb71d883e4013c3390b3",
+    "rows": 1153,
+    "sample_rows": [
+      [
+        11,
+        1,
+        1,
+        13,
+        0,
+        5,
+        -1,
+        "ell_nonzero",
+        6,
+        5,
+        1,
+        1,
+        6,
+        9,
+        14,
+        1
+      ],
+      [
+        17,
+        1,
+        2,
+        20,
+        1,
+        5,
+        1,
+        "ell_nonzero",
+        7,
+        14,
+        16,
+        3,
+        9,
+        11,
+        26,
+        2
+      ],
+      [
+        19,
+        5,
+        1,
+        23,
+        0,
+        9,
+        -1,
+        "ell_nonzero",
+        16,
+        6,
+        18,
+        1,
+        10,
+        30,
+        37,
+        1
+      ],
+      [
+        23,
+        7,
+        1,
+        28,
+        0,
+        11,
+        1,
+        "ell_nonzero",
+        18,
+        20,
+        6,
+        1,
+        14,
+        41,
+        46,
+        1
+      ],
+      [
+        23,
+        1,
+        3,
+        27,
+        2,
+        5,
+        1,
+        "ell_nonzero",
+        9,
+        19,
+        10,
+        1,
+        9,
+        13,
+        34,
+        1
+      ],
+      [
+        29,
+        7,
+        2,
+        35,
+        1,
+        11,
+        -1,
+        "ell_nonzero",
+        2,
+        22,
+        12,
+        1,
+        16,
+        48,
+        54,
+        1
+      ],
+      [
+        29,
+        1,
+        4,
+        34,
+        3,
+        5,
+        -1,
+        "ell_nonzero",
+        6,
+        24,
+        18,
+        7,
+        15,
+        15,
+        40,
+        3
+      ],
+      [
+        31,
+        11,
+        1,
+        38,
+        0,
+        15,
+        1,
+        "ell_nonzero",
+        13,
+        19,
+        1,
+        1,
+        20,
+        59,
+        70,
+        1
+      ],
+      [
+        31,
+        5,
+        3,
+        37,
+        2,
+        9,
+        1,
+        "ell_nonzero",
+        28,
+        17,
+        6,
+        1,
+        17,
+        43,
+        52,
+        1
+      ],
+      [
+        37,
+        11,
+        2,
+        45,
+        1,
+        15,
+        -1,
+        "ell_nonzero",
+        25,
+        32,
+        34,
+        1,
+        23,
+        70,
+        74,
+        1
+      ]
+    ]
+  },
+  "height_and_capacity": {
+    "average_gcd_improvement": "OPEN",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "ordinary_j2_ceiling_per_6M": "1/105",
+    "proved_aggregate_product_bound": "O(M^2 log M)",
+    "proved_pointwise_log_height": "O(M log M)",
+    "required_aggregate_bound": "o(M)"
+  },
+  "parameters": {
+    "prime_max_inclusive": 401
+  },
+  "proved_formulae": {
+    "cartier_target": "W=B_s*((-1)^(m+1)*(9*kappa_r/2)*(c_p+epsilon*h_m*P_(r+2)(m))-tau_(r,s))",
+    "coordinate_equivalence": "T_nu=(-1)^(m+1)*G_nu(W)",
+    "coordinate_target": "T_nu=(9*kappa_r/2)*f_nu*B_s*(c_p+epsilon*h_m*P)+(-1)^m*(f_nu*B_s*tau-9*c*b_nu+11*d_nu)",
+    "ell_target": "T_ell=(9*kappa_r/2)*ell*B_s*(c_p+epsilon*h_m*P)+(-1)^m*(ell*B_s*tau-11*C)",
+    "m_target": "T_m=(9*kappa_r/2)*m_minor*B_s*(c_p+epsilon*h_m*P)+(-1)^m*(m_minor*B_s*tau-9*c*C)",
+    "row_carrier": "gcd(num(D),num(T_0),num(T_1))"
+  },
+  "schema": "item334-j2-coupled-cartier-carrier-v1",
+  "scope_warning": "The finite carrier census is diagnostic.  No sublinear height, average-gcd, or weighted-zero-density theorem is inferred from it."
+}

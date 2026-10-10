@@ -1,0 +1,45 @@
+{
+  "schema": "item356-j1-fermat-multiplicative-collapse-obstruction-ledger-delta-v1",
+  "item": 356,
+  "date": "2026-09-01",
+  "branch": "Route 1 / fixed-j1 / chosen-prime Fermat quotient / special composed arithmetic",
+  "status": "PROVED_COMPLETE_POINTWISE_MULTIPLICATIVE_LATTICE_AND_SCOPED_COLLAPSE_NO_GO",
+  "actual_family": {
+    "parameters": "n=2h, r=2s+1, p=2n+3r",
+    "one_way_gate": "ordinary collision implies the selected zeroth Kummer coordinate vanishes",
+    "converse_or_full_collision_claimed": false
+  },
+  "proved": {
+    "multiplicative_lattice": "rank 3 with unique generator R0*R2b=R1^2",
+    "weighted_relation": "y0*y2b=kappa*y1^2 outside the zero-rate n=2 edge",
+    "canonical_carry": "Fermat multiplicativity for canonical residues includes a varying pointwise carry",
+    "coefficient_obstruction": "elimination leaves three nonzero quotient-phase coefficient functions",
+    "summation_obstruction": "the pointwise product relation is not a relation among the additive Kummer coordinates",
+    "entropy_product": "one exact Fermat quotient with logarithmic height O(p^2 log p)"
+  },
+  "capacity": {
+    "raw_support": "all actual bulk rows",
+    "degenerate_n2_edge_mass": "O(log M)=o(M)",
+    "new_forced_condition": 0,
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "booking": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36"
+  },
+  "strict_scope": {
+    "pointwise_relation_not_promoted_through_summation": true,
+    "entropy_product_not_called_bounded_height": true,
+    "not_proved": [
+      "a special additive identity among the summed Kummer coordinates",
+      "bounded-height factorization of the entropy product",
+      "weighted nonconcentration for the three surviving quotient phases",
+      "an additional condition from the full original collision",
+      "W_b(M)=o(M)",
+      "any fixed-j1 ceiling reduction",
+      "Route 1 or any statement about e+pi"
+    ]
+  },
+  "ledger_action": "BOOK_ZERO_RETAIN_1_OVER_36_CEILING",
+  "route_1_status": "ACTIVE",
+  "canonical_files_modified": false
+}

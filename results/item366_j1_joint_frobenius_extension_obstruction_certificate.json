@@ -1,0 +1,427 @@
+{
+  "canonical_files_modified": false,
+  "capacity": {
+    "actual_support": "all p=4h+6s+3, M=3h+4s+2 rows",
+    "booking": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "new_linear_log_rate": 0,
+    "potential_if_weighted_nonconcentration_proved": "remove the full 1/36 ceiling",
+    "raw_ceiling_per_6M": "1/36",
+    "raw_log_mass": "M/6+o(M)",
+    "route_1_status": "ACTIVE",
+    "selector_aware_weighted_theorem_proved": false
+  },
+  "classification": {
+    "EXACT_FINITE_ONLY": [
+      "four predeclared rows, including separation controls in both directions; no prime scan"
+    ],
+    "OPEN": [
+      "a genuine bounded-conductor lisse or crystalline joint system",
+      "framed extension-class equidistribution or horizontal chosen-prime nonconcentration",
+      "a trace replacement sensitive to the nilpotent selector without imposing ambient zeros",
+      "weighted joint-zero density, any fixed-j1 ceiling reduction, Route 1, and every conclusion about e+pi"
+    ],
+    "PROVED": [
+      "exact F_(p^2) rank-five framed divided-Frobenius moment for the actual pair",
+      "exact two matrix coefficients equal to the selected Hasse and transverse coordinates",
+      "base-field two-alias and two-Euler-moment theorem for each transverse coefficient",
+      "trace, determinant, characteristic-polynomial blindness to the transverse extension slot",
+      "linear distinct-root lower bound for literal finite-log Kummerization",
+      "zero booking"
+    ]
+  },
+  "collision_scans": 0,
+  "date": "2026-09-01",
+  "dependencies": {
+    "manifests/item342_j1_finite_field_fourier_weil_barrier_manifest.json": "85ca4a73d9009acc3dc8d7102325f74156a11bf13e618dc1a88c06fd352b8a54",
+    "manifests/item360_j1_full_gate_transverse_period_manifest.json": "92f88a56162f3803b8699922da921333f5225c41a32d14c87641dd53c3f8b55b",
+    "results/item342_j1_finite_field_fourier_weil_barrier_certificate.json": "4cf10e1d035dcd18a134e5f1b00e54a34ae1b3833a2863b54212da9fcccf49d9",
+    "results/item342_j1_finite_field_fourier_weil_barrier_certificate_replay.json": "4cf10e1d035dcd18a134e5f1b00e54a34ae1b3833a2863b54212da9fcccf49d9",
+    "results/item342_j1_finite_field_fourier_weil_barrier_ledger_delta.json": "f60d0976d860c0860cb2c044ccde0ce53b6ab18d65f4e32ec648ec114d143df2",
+    "results/item342_j1_finite_field_fourier_weil_barrier_root_audit.json": "aa6b260f78ae094b20a1b6b041c75131514b5ded51f016e6950671c472280835",
+    "results/item342_j1_finite_field_fourier_weil_barrier_root_replay.json": "4cf10e1d035dcd18a134e5f1b00e54a34ae1b3833a2863b54212da9fcccf49d9",
+    "results/item360_j1_full_gate_transverse_period_certificate.json": "a3f9e5b8e55b0a36bf7aef18fd1b81010eef0e8b9c8ade05995e2c4a25f9084d",
+    "results/item360_j1_full_gate_transverse_period_certificate_replay.json": "a3f9e5b8e55b0a36bf7aef18fd1b81010eef0e8b9c8ade05995e2c4a25f9084d",
+    "results/item360_j1_full_gate_transverse_period_ledger_delta.json": "20a7676bd6c14bc24d3cd9623e64ef7836afae8ad9bb1536f357fccfd050e11e",
+    "results/item360_j1_full_gate_transverse_period_root_audit.json": "7a23e487b4d70d63f9785339344bdc00ae0e8350bcf1d8b1fcf6228c230e5138",
+    "results/item360_j1_full_gate_transverse_period_root_replay.json": "a3f9e5b8e55b0a36bf7aef18fd1b81010eef0e8b9c8ade05995e2c4a25f9084d",
+    "results/item360_j1_full_gate_transverse_period_self_audit.json": "79677ecf502683a38de56c134a48bba21cf352ca3374e74253c9aa0f8cee95df",
+    "scripts/item342_j1_finite_field_fourier_weil_barrier_certificate.py": "130cfd5d2ac7c31546ef177c3f751abcc236ca92dc253a59914d487187c1fbac",
+    "scripts/item360_j1_full_gate_transverse_period_certificate.py": "84cabfb296a0892e620f252a1c413648c30664c8667245bd6fe444095bcad7e0",
+    "sources/item342_j1_finite_field_fourier_weil_barrier_report.md": "843bb85381c98adf0a5b64801ce099e4c3c9119d5933704d97bbd492f1b8029b",
+    "sources/item360_j1_full_gate_transverse_period_report.md": "4468412fb8631924952dc7f70fc4e75433a7524954b89525de508e55feefc8c4"
+  },
+  "direct_controls": [
+    {
+      "Hasse_zero_transverse_nonzero": true,
+      "M": 9,
+      "base_field_L_two_alias": {
+        "S0": 0,
+        "S1": 4,
+        "recovered": 9
+      },
+      "base_field_T_two_alias": {
+        "S0": 0,
+        "S1": 4,
+        "recovered": 9
+      },
+      "classification": "PREDECLARED EXACT CONTROL; NOT A PRIME SCAN",
+      "extension_expected_blocks": {
+        "L_diagonal": [
+          0,
+          0
+        ],
+        "L_extension": [
+          9,
+          0
+        ],
+        "T_diagonal": [
+          0,
+          0
+        ],
+        "T_extension": [
+          8,
+          0
+        ],
+        "hasse": [
+          0,
+          0
+        ]
+      },
+      "extension_joint_moment": {
+        "L_diagonal": [
+          0,
+          0
+        ],
+        "L_extension": [
+          9,
+          0
+        ],
+        "T_diagonal": [
+          0,
+          0
+        ],
+        "T_extension": [
+          8,
+          0
+        ],
+        "hasse": [
+          0,
+          0
+        ],
+        "nonsquare": 2
+      },
+      "finite_log_coefficients": {
+        "c_L": 9,
+        "c_T": 9
+      },
+      "finite_log_root_data": {
+        "degree": 12,
+        "distinct_roots_over_algebraic_closure": 10,
+        "gcd_with_derivative_degree": 2,
+        "proved_lower_bound_for_z_squared": 11,
+        "z_squared_distinct_roots": 19
+      },
+      "h": 1,
+      "joint_zero": false,
+      "n": 2,
+      "p": 13,
+      "r": 3,
+      "s": 1,
+      "selected_Hasse": 0,
+      "transverse_Q0": 9,
+      "transverse_zero_Hasse_nonzero": false
+    },
+    {
+      "Hasse_zero_transverse_nonzero": false,
+      "M": 12,
+      "base_field_L_two_alias": {
+        "S0": 6,
+        "S1": 3,
+        "recovered": 7
+      },
+      "base_field_T_two_alias": {
+        "S0": 16,
+        "S1": 4,
+        "recovered": 2
+      },
+      "classification": "PREDECLARED EXACT CONTROL; NOT A PRIME SCAN",
+      "extension_expected_blocks": {
+        "L_diagonal": [
+          0,
+          0
+        ],
+        "L_extension": [
+          7,
+          0
+        ],
+        "T_diagonal": [
+          0,
+          0
+        ],
+        "T_extension": [
+          13,
+          0
+        ],
+        "hasse": [
+          9,
+          0
+        ]
+      },
+      "extension_joint_moment": {
+        "L_diagonal": [
+          0,
+          0
+        ],
+        "L_extension": [
+          7,
+          0
+        ],
+        "T_diagonal": [
+          0,
+          0
+        ],
+        "T_extension": [
+          13,
+          0
+        ],
+        "hasse": [
+          9,
+          0
+        ],
+        "nonsquare": 3
+      },
+      "finite_log_coefficients": {
+        "c_L": 7,
+        "c_T": 2
+      },
+      "finite_log_root_data": {
+        "degree": 16,
+        "distinct_roots_over_algebraic_closure": 16,
+        "gcd_with_derivative_degree": 0,
+        "proved_lower_bound_for_z_squared": 15,
+        "z_squared_distinct_roots": 31
+      },
+      "h": 2,
+      "joint_zero": false,
+      "n": 4,
+      "p": 17,
+      "r": 3,
+      "s": 1,
+      "selected_Hasse": 8,
+      "transverse_Q0": 14,
+      "transverse_zero_Hasse_nonzero": false
+    },
+    {
+      "Hasse_zero_transverse_nonzero": true,
+      "M": 34,
+      "base_field_L_two_alias": {
+        "S0": 45,
+        "S1": 17,
+        "recovered": 42
+      },
+      "base_field_T_two_alias": {
+        "S0": 13,
+        "S1": 12,
+        "recovered": 36
+      },
+      "classification": "PREDECLARED EXACT CONTROL; NOT A PRIME SCAN",
+      "extension_expected_blocks": {
+        "L_diagonal": [
+          0,
+          0
+        ],
+        "L_extension": [
+          42,
+          0
+        ],
+        "T_diagonal": [
+          0,
+          0
+        ],
+        "T_extension": [
+          22,
+          0
+        ],
+        "hasse": [
+          0,
+          0
+        ]
+      },
+      "extension_joint_moment": {
+        "L_diagonal": [
+          0,
+          0
+        ],
+        "L_extension": [
+          42,
+          0
+        ],
+        "T_diagonal": [
+          0,
+          0
+        ],
+        "T_extension": [
+          22,
+          0
+        ],
+        "hasse": [
+          0,
+          0
+        ],
+        "nonsquare": 5
+      },
+      "finite_log_coefficients": {
+        "c_L": 42,
+        "c_T": 36
+      },
+      "finite_log_root_data": {
+        "degree": 46,
+        "distinct_roots_over_algebraic_closure": 46,
+        "gcd_with_derivative_degree": 0,
+        "proved_lower_bound_for_z_squared": 45,
+        "z_squared_distinct_roots": 91
+      },
+      "h": 8,
+      "joint_zero": false,
+      "n": 16,
+      "p": 47,
+      "r": 5,
+      "s": 2,
+      "selected_Hasse": 0,
+      "transverse_Q0": 30,
+      "transverse_zero_Hasse_nonzero": false
+    },
+    {
+      "Hasse_zero_transverse_nonzero": false,
+      "M": 76,
+      "base_field_L_two_alias": {
+        "S0": 39,
+        "S1": 34,
+        "recovered": 11
+      },
+      "base_field_T_two_alias": {
+        "S0": 98,
+        "S1": 73,
+        "recovered": 60
+      },
+      "classification": "PREDECLARED EXACT CONTROL; NOT A PRIME SCAN",
+      "extension_expected_blocks": {
+        "L_diagonal": [
+          0,
+          0
+        ],
+        "L_extension": [
+          11,
+          0
+        ],
+        "T_diagonal": [
+          0,
+          0
+        ],
+        "T_extension": [
+          98,
+          0
+        ],
+        "hasse": [
+          39,
+          0
+        ]
+      },
+      "extension_joint_moment": {
+        "L_diagonal": [
+          0,
+          0
+        ],
+        "L_extension": [
+          11,
+          0
+        ],
+        "T_diagonal": [
+          0,
+          0
+        ],
+        "T_extension": [
+          98,
+          0
+        ],
+        "hasse": [
+          39,
+          0
+        ],
+        "nonsquare": 2
+      },
+      "finite_log_coefficients": {
+        "c_L": 11,
+        "c_T": 60
+      },
+      "finite_log_root_data": {
+        "degree": 108,
+        "distinct_roots_over_algebraic_closure": 106,
+        "gcd_with_derivative_degree": 2,
+        "proved_lower_bound_for_z_squared": 107,
+        "z_squared_distinct_roots": 211
+      },
+      "h": 10,
+      "joint_zero": false,
+      "n": 20,
+      "p": 109,
+      "r": 23,
+      "s": 11,
+      "selected_Hasse": 70,
+      "transverse_Q0": 0,
+      "transverse_zero_Hasse_nonzero": true
+    }
+  ],
+  "item": 366,
+  "literal_Kummer_obstruction": {
+    "derivative": "L_p'(w)=(1-w^(p-1))/(1+w)",
+    "distinct_roots_Lp": "at least (p-1)/2 over the algebraic closure",
+    "distinct_roots_Lp_z2": "at least p-2",
+    "root_multiplicity": "every root has multiplicity at most two",
+    "scope": "literal full-order Kummerization of the finite-log factor has linearly growing singular support; this does not rule out a different unipotent F-crystal compression"
+  },
+  "representation": {
+    "Hasse_block": "z^(-n)G(z)^(p-r)",
+    "Hasse_matrix_coefficient": "-a_(2s+1,2h)",
+    "L_block": "-z^(-L)*P0(z)*U_p(z)",
+    "T_block": "2*z^(-T)*P0(z)*U_p(z)",
+    "ambient_zero_conditions_imposed": false,
+    "divided_Frobenius_identity": "(1+z^2)^p=(1+z^(2p))+p*L_p(z^2)",
+    "field": "F_(p^2)",
+    "finite_log": "L_p(w)=((1+w)^p-1-w^p)/p mod p",
+    "genuine_lisse_or_compatible_system_claimed": false,
+    "joint_rank": 5,
+    "transverse_matrix_coefficient": "-Q0",
+    "unipotent_frame": "U_p(z)=[[1,L_p(z^2)],[0,1]]"
+  },
+  "schema": "item366-j1-joint-frobenius-extension-obstruction-certificate-v1",
+  "status": "PROVED_EXACT_FRAMED_JOINT_MOMENT_AND_TRACE_DETERMINANT_NO_GO",
+  "symbolic_theorem": {
+    "Q_polynomial_degree": "deg(P0*L_p(z^2))=2h+4s+1+2(p-1)<3p<p^2-1",
+    "actual_family": "p=4h+6s+3, M=3h+4s+2",
+    "characteristic_polynomial": "X**4*(X + a)",
+    "coefficient_recovery": "c_N=(N-1)S_(N,0)-S_(N,1)",
+    "conclusion": "all characteristic-polynomial and trace-power data ignore Q0",
+    "determinant": "0",
+    "rank_five_global_matrix": "diag(-a, [[0,-2c_T],[0,0]], [[0,c_L],[0,0]])",
+    "trace_powers_1_to_5": [
+      "-a",
+      "a**2",
+      "-a**3",
+      "a**4",
+      "-a**5"
+    ],
+    "transverse_functional": "-Q0=(-2c_T)+c_L",
+    "two_aliases_over_Fp": "for N=T,L, only N and N+p-1 occur"
+  },
+  "trace_determinant_obstruction": {
+    "all_trace_powers": "tr(S^k)=(-a)^k",
+    "characteristic_polynomial": "X^4*(X+a)",
+    "conclusion": "ordinary trace/determinant data cannot see the transverse selector",
+    "determinant": 0,
+    "joint_event": "two specified framed matrix coefficients vanish; no other block entry is required to vanish",
+    "nilpotent_slot": "transverse divided-Frobenius extension functional",
+    "semisimple_slot": "selected Hasse diagonal block"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "item": 331,
+  "schema": "item331-j2-global-cartier-concentration-ledger-v1",
+  "classification": "PROVED_GLOBAL_COEFFICIENT_CONCENTRATION_AND_FIXED_TARGET_DICHOTOMY",
+  "actual_family": {
+    "m": "s-1",
+    "d": "r+4",
+    "n": "3m+d=(p-1)/2",
+    "q": "2m+d=n-m=2(M-p)+1",
+    "p": "6m+2d+1=2n+1",
+    "fixed_M_relation": "2M=14m+5d+1"
+  },
+  "admission": {
+    "prior_gate": "D_(r,s)=0",
+    "chart": "ell_r nonzero modulo p",
+    "actual_collision": "c_p=1-epsilon*Theta_(r,s)",
+    "new_condition": false,
+    "role": "Closer analysis internal to the retained ordinary-j2 branch"
+  },
+  "global_constant_term": {
+    "A_polynomial": "mathscrA(x)=(1-x)^3*(1+x)^5",
+    "B_polynomial": "mathscrB(x)=(1-x)*(1+x)^2",
+    "coefficient": "c_(6m+2d+1)=CT_x x^(-1)*(mathscrA(x)/x^6)^m*(mathscrB(x)/x^2)^d",
+    "rational_kernel": "CT_x x^7/((x^6-y*mathscrA(x))*(x^2-z*mathscrB(x)))"
+  },
+  "frobenius_concentration": {
+    "central_numerator": "A_m=sum_(j=0)^m 8^(m-j)*binom(2j,j)=8^m*H_m",
+    "all_actual_rows": "8^m*c_p=8^m-epsilon*A_m modulo p",
+    "fixed_ray_values": "C_m^epsilon=1-epsilon*H_m",
+    "ray_classes_mod_8": {
+      "m_even_epsilon_plus": 7,
+      "m_even_epsilon_minus": 3,
+      "m_odd_epsilon_plus": 1,
+      "m_odd_epsilon_minus": 5
+    },
+    "chebyshev_mass": "sum_(p<=X,p=a_(m,epsilon) mod 8) log p ~ X/4",
+    "m_zero_plus_fibre": "c_p=0 for all sufficiently large primes p=7 mod 8",
+    "m_zero_minus_fibre": "c_p=2 for all sufficiently large primes p=3 mod 8"
+  },
+  "fixed_target_dichotomy": {
+    "target": "a=u/v in Q with gcd(u,v)=1",
+    "divisor": "N_(m,epsilon)(a)=v*(8^m-epsilon*A_m)-u*8^m",
+    "equivalence": "c_p=a modulo p iff p divides N_(m,epsilon)(a), for p not dividing 2v",
+    "natural_target": "N=0 and the equality has Chebyshev mass X/4+o(X)",
+    "other_targets": "N is a nonzero fixed integer and the prime support is finite",
+    "height": "log|N| <= m*log(8)+O_(u,v)(1) when N is nonzero"
+  },
+  "scoped_no_go": {
+    "method_class": "coefficient-only fixed-rational-target arguments on horizontal rays that omit the determinant gate and moving connection target",
+    "theorem": "the natural fixed target has positive Chebyshev mass, while every other fixed rational target is a finite divisor set",
+    "closed_methods": [
+      "universal nonvanishing of c_p on all actual rows",
+      "uniform fixed-value o(X) Chebyshev mass for every c_p residue fibre",
+      "coefficient-only fixed-target factorization or equidistribution as a substitute for Theta coupling"
+    ],
+    "not_closed": [
+      "the actual moving affine target c_p=1-epsilon*Theta_(r,s)",
+      "target-retaining divisor localization",
+      "average gcd along the fixed-M line",
+      "degenerate connection charts"
+    ]
+  },
+  "capacity": {
+    "raw_isolated_ordinary_j2_ceiling_per_6M": "1/105",
+    "raw_decimal": "0.0095238095238095238095238095...",
+    "fixed_finite_horizontal_rays_per_fixed_M": "O(log M)=o(M)",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  },
+  "master_ledger": {
+    "booked_r1_unchanged": "0.1365141682948128184504238226...",
+    "threshold_T_unchanged": "1.1561471519642446123307302239...",
+    "deficit_unchanged": "1.0196329836694317938803064012..."
+  },
+  "smallest_open_arithmetic_theorem": "prove o(M) logarithmic mass for actual fixed-M primes satisfying the old determinant gate and c_p=1-epsilon*Theta_(r,s), with the connection target retained"
+}

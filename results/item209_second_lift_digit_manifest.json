@@ -1,0 +1,37 @@
+{
+  "artifacts": {
+    "results/item209_second_lift_digit_certificate.json": {
+      "role": "canonical deterministic output",
+      "sha256": "a6a62ba08778275b88058b109f01bd6e7e702ee2d4a2086090d6efe100def861",
+      "work_source": "item209_second_lift_digit_certificate.json"
+    },
+    "results/item209_second_lift_digit_certificate.replay.json": {
+      "role": "independent replay output; byte-identical to canonical",
+      "sha256": "a6a62ba08778275b88058b109f01bd6e7e702ee2d4a2086090d6efe100def861",
+      "work_source": "item209_second_lift_digit_certificate_replay.json"
+    },
+    "scripts/item209_second_lift_digit_certificate.py": {
+      "role": "standalone Python-standard-library checker",
+      "sha256": "1c20a30b577deb564ddbbd33b7ecfe24dfdbccdab0758e10e36f985539bcce3b",
+      "work_source": "item209_second_lift_digit_certificate.py"
+    },
+    "sources/item209_second_lift_digit_report.md": {
+      "role": "proof report and scope ledger",
+      "sha256": "cc848fd70d1425ddce0f8f7b9b6a6585b70f9bef266114bb4179ae0080de968e",
+      "work_source": "item209_second_lift_digit_report.md"
+    }
+  },
+  "canonical_command_from_archive_root": "python scripts/item209_second_lift_digit_certificate.py --output results/item209_second_lift_digit_certificate.json",
+  "dependencies": {
+    "external_files": [],
+    "python": "3.11+ standard library only"
+  },
+  "portability": {
+    "archive_path_required": false,
+    "host_absolute_paths_embedded": false,
+    "checker_uses_its_own_location_only_for_default_output": true,
+    "explicit_output_makes_archive_root_replay_portable": true
+  },
+  "replay_command_from_archive_root": "python scripts/item209_second_lift_digit_certificate.py --output results/item209_second_lift_digit_certificate.replay.json",
+  "schema": "item209-portable-manifest-v1"
+}

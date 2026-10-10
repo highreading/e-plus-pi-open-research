@@ -1,0 +1,319 @@
+{
+  "capacity": {
+    "booking_delta": 0,
+    "fixed_branch_exclusion_ceiling_delta_without_weighted_distribution": 0,
+    "frozen_booked_deficit_unchanged": "1.0196329836694317938803064012...",
+    "proved_total_capacity_ceiling_delta": 0,
+    "reason": "Nonnegative carrier-weighted mass may concentrate entirely in uncontrolled Frobenius bins; ambient prime density is not a carrier-weighted distribution theorem.",
+    "strictly_large_component_ceiling_unchanged": "log(136)/6 = 0.8187758142893420014168718304..."
+  },
+  "dependency_sha256": {
+    "manifests/item411_mixed_primitive_boundary_transport_manifest.json": "84a86a00c9d2da4c2626f69c14691d044fe7d63cbfcb7f43f474e7e52cadcf7b",
+    "results/item411_mixed_primitive_boundary_transport_certificate.json": "b149812fa31c890fcc57a65298a930c46f529f99dfb64a8b47dd98e515c1d059",
+    "results/item411_mixed_primitive_boundary_transport_hashes.sha256": "0404dfd51fe13428f9c5258f3fcf34886bd12ba88cfe6111504b0afae2e8f188",
+    "results/item411_mixed_primitive_boundary_transport_ledger_delta.json": "ae861866ce16bfb240da98107eec2fb7d81c7d838cafbf1bb9740899e6f52f9d",
+    "results/item411_mixed_primitive_boundary_transport_root_audit.json": "e791352cffa372093cd5468816b5472fae8d04cfef440f2cf4ff581735d35c2b",
+    "scripts/item411_mixed_primitive_boundary_transport_certificate.py": "db4394de233d8760e3f448345d5600ef2ecbd62ffd756e58421cf1f5c480bafc",
+    "sources/item390_mixed_cubic_fresh_primitive_saturation_report.md": "5bfb3c871b12524f672df515e920236f2470145d4f68bdcd7b47f29408692f46",
+    "sources/item396_fixed_gap_resultant_3adic_report.md": "7355b6909994357583f799e627e1ff19edb230a6a9002ee845be585057726aca",
+    "sources/item403_mixed_cubic_exact_smith_and_finite_local_data_no_go_report.md": "245bf2e557dd81ac88c94e9d0adc8990f203e3ab40680d23bd50f8e435240c48",
+    "sources/item406_mixed_cubic_actual_adjacent_recurrence_report.md": "a9c33967b42f5ae09c2c0c71de1b956ca240e49c367be46f3af2878cd96cbb83",
+    "sources/item411_mixed_primitive_boundary_transport_report.md": "9061f8088ea2bb403065a9192bc947c1a36299ee0ab6893caa0fd134a2f72f4f",
+    "sources/mixed_cubic_cube_smith_reduction.md": "b44cc15d1a846d5298d61b9e53539116b31bbab0338dbc6e320fb0a875b0d0a0"
+  },
+  "exact_linear_quadratic_factorization": {
+    "applies_to_both_V0_and_V1": true,
+    "expanded_sparse_coefficients": [
+      {
+        "coefficient": -1,
+        "exponents_S_X_U": [
+          0,
+          3,
+          3
+        ]
+      },
+      {
+        "coefficient": 1,
+        "exponents_S_X_U": [
+          3,
+          0,
+          0
+        ]
+      }
+    ],
+    "identity": "(S-XU)*(S^2+S*XU+(XU)^2)=S^3-(XU)^3"
+  },
+  "exhaustive_unmarked_branch_normalizations": [
+    {
+      "branch_incidence_counts_including_origin_overlap": {
+        "1": 49,
+        "2": 49,
+        "4": 49
+      },
+      "cyclic_branch_action_verified_exhaustively": true,
+      "mu3": [
+        1,
+        2,
+        4
+      ],
+      "normalization_only_not_uniform_proof": true,
+      "p": 7,
+      "q_normalization": 7,
+      "tuples_exhaustively_checked": 2401,
+      "unmarked_stream_sha256": "192b917e03557aecdf02950da7debbf1d7e479e74dfbfc84a8cb21f2f4baaad3",
+      "unmarked_tuples": 145,
+      "x": 2
+    },
+    {
+      "branch_incidence_counts_including_origin_overlap": {
+        "1": 169,
+        "3": 169,
+        "9": 169
+      },
+      "cyclic_branch_action_verified_exhaustively": true,
+      "mu3": [
+        1,
+        3,
+        9
+      ],
+      "normalization_only_not_uniform_proof": true,
+      "p": 13,
+      "q_normalization": 7,
+      "tuples_exhaustively_checked": 28561,
+      "unmarked_stream_sha256": "40ab9b6c0215f5581ce55e1369522f7dbcffcf52f5e47dff6bbb6697a5245b85",
+      "unmarked_tuples": 505,
+      "x": 3
+    }
+  ],
+  "fixed_rational_branch_no_go": {
+    "conclusion": "No one proper q-only rational factor of Z^3-x^3 contains the distinguished root for every compatible prime.",
+    "does_not_assert_actual_unmarked_support_at_either_prime": true,
+    "same_q_compatible_prime_witnesses": [
+      {
+        "chi_p(2)": 3,
+        "m": 1,
+        "p": 13,
+        "q": 7,
+        "rational_factor_containing_selected_root": "Z^2+xZ+x^2",
+        "selected_root": 9,
+        "x": 3
+      },
+      {
+        "chi_p(2)": 1,
+        "m": 4,
+        "p": 31,
+        "q": 7,
+        "rational_factor_containing_selected_root": "Z-x",
+        "selected_root": 16,
+        "x": 16
+      }
+    ]
+  },
+  "frobenius_mark_normalization_rows": [
+    {
+      "E": 8,
+      "X_equals_x_times_chi": true,
+      "X_p=2^E_mod_p": 9,
+      "chi_p(2)=2^t_mod_p": 3,
+      "m": 1,
+      "n": 6,
+      "p": 13,
+      "q": 7,
+      "selected_rational_stratum": "quadratic",
+      "t=(p-1)/3": 4,
+      "x=4^(n/3)_mod_p": 3
+    },
+    {
+      "E": 14,
+      "X_equals_x_times_chi": true,
+      "X_p=2^E_mod_p": 16,
+      "chi_p(2)=2^t_mod_p": 1,
+      "m": 4,
+      "n": 6,
+      "p": 31,
+      "q": 7,
+      "selected_rational_stratum": "linear",
+      "t=(p-1)/3": 10,
+      "x=4^(n/3)_mod_p": 16
+    },
+    {
+      "E": 18,
+      "X_equals_x_times_chi": true,
+      "X_p=2^E_mod_p": 16,
+      "chi_p(2)=2^t_mod_p": 1,
+      "m": 6,
+      "n": 6,
+      "p": 43,
+      "q": 7,
+      "selected_rational_stratum": "linear",
+      "t=(p-1)/3": 14,
+      "x=4^(n/3)_mod_p": 16
+    },
+    {
+      "E": 14,
+      "X_equals_x_times_chi": true,
+      "X_p=2^E_mod_p": 6,
+      "chi_p(2)=2^t_mod_p": 7,
+      "m": 1,
+      "n": 12,
+      "p": 19,
+      "q": 13,
+      "selected_rational_stratum": "quadratic",
+      "t=(p-1)/3": 6,
+      "x=4^(n/3)_mod_p": 9
+    },
+    {
+      "E": 18,
+      "X_equals_x_times_chi": true,
+      "X_p=2^E_mod_p": 8,
+      "chi_p(2)=2^t_mod_p": 1,
+      "m": 3,
+      "n": 12,
+      "p": 31,
+      "q": 13,
+      "selected_rational_stratum": "linear",
+      "t=(p-1)/3": 10,
+      "x=4^(n/3)_mod_p": 8
+    },
+    {
+      "E": 22,
+      "X_equals_x_times_chi": true,
+      "X_p=2^E_mod_p": 4,
+      "chi_p(2)=2^t_mod_p": 1,
+      "m": 2,
+      "n": 18,
+      "p": 31,
+      "q": 19,
+      "selected_rational_stratum": "linear",
+      "t=(p-1)/3": 10,
+      "x=4^(n/3)_mod_p": 4
+    },
+    {
+      "E": 26,
+      "X_equals_x_times_chi": true,
+      "X_p=2^E_mod_p": 2,
+      "chi_p(2)=2^t_mod_p": 1,
+      "m": 1,
+      "n": 24,
+      "p": 31,
+      "q": 25,
+      "selected_rational_stratum": "linear",
+      "t=(p-1)/3": 10,
+      "x=4^(n/3)_mod_p": 2
+    },
+    {
+      "E": 30,
+      "X_equals_x_times_chi": true,
+      "X_p=2^E_mod_p": 4,
+      "chi_p(2)=2^t_mod_p": 1,
+      "m": 3,
+      "n": 24,
+      "p": 43,
+      "q": 25,
+      "selected_rational_stratum": "linear",
+      "t=(p-1)/3": 14,
+      "x=4^(n/3)_mod_p": 4
+    },
+    {
+      "E": 38,
+      "X_equals_x_times_chi": true,
+      "X_p=2^E_mod_p": 35,
+      "chi_p(2)=2^t_mod_p": 1,
+      "m": 1,
+      "n": 36,
+      "p": 43,
+      "q": 37,
+      "selected_rational_stratum": "linear",
+      "t=(p-1)/3": 14,
+      "x=4^(n/3)_mod_p": 35
+    },
+    {
+      "E": 44,
+      "X_equals_x_times_chi": true,
+      "X_p=2^E_mod_p": 25,
+      "chi_p(2)=2^t_mod_p": 47,
+      "m": 4,
+      "n": 36,
+      "p": 61,
+      "q": 37,
+      "selected_rational_stratum": "quadratic",
+      "t=(p-1)/3": 20,
+      "x=4^(n/3)_mod_p": 20
+    }
+  ],
+  "item": 412,
+  "labels": {
+    "NOT_CLAIMED": [
+      "an actual wrong-root support prime",
+      "Chebotarev equidistribution for divisors of moving carriers",
+      "radical control of all p-adic valuation depth",
+      "any positive divisor or capacity booking"
+    ],
+    "OPEN": [
+      "nonoccurrence of the marked branch in the actual coefficient family",
+      "carrier-weighted distribution across Frobenius-marked branch ideals",
+      "a p=1 mod 18 selector beyond the direct Frobenius equality",
+      "valuation-weighted o(m) control of strictly large common content",
+      "Route 1 and irrationality of e+pi"
+    ],
+    "PROVED": [
+      "exact all-parameter Frobenius mark identity in q=1 mod 6",
+      "exact marked Eisenstein branch incidence and rational linear/quadratic split",
+      "ordinary cubic-residue selector in p=7,13 mod 18",
+      "mu3-symmetric invariant no-go and fixed rational branch no-go",
+      "zero booking and zero proved capacity reduction"
+    ]
+  },
+  "ordinary_cubic_residue_selector": {
+    "formulas": {
+      "p_mod_18_1": "ordinary cubic character kills mu3; retain direct Frobenius equality",
+      "p_mod_18_13": "marked iff 2*zeta^(-1) is a cubic residue",
+      "p_mod_18_7": "marked iff 2*zeta^(-2) is a cubic residue"
+    },
+    "normalization_only_not_density_evidence": true,
+    "p_equals_1_mod_18_kernel_checks": 72,
+    "prime_class_counts": {
+      "1": 8,
+      "13": 9,
+      "7": 8
+    },
+    "primes_used_for_normalization": [
+      7,
+      13,
+      19,
+      31,
+      37,
+      43,
+      61,
+      67,
+      73,
+      79,
+      97,
+      103,
+      109,
+      127,
+      139,
+      151,
+      157,
+      163,
+      181,
+      193,
+      199,
+      211,
+      223,
+      229,
+      241
+    ],
+    "selector_stream_sha256": "622ee629af844e8e9d9c24217f62ec679b4292571ca2e481fba35dbdf0ef292d",
+    "zeta_cases_checked": 75
+  },
+  "schema": "item412-marked-cubic-frobenius-selector-boundary-v1",
+  "status": "CANONICAL_ROOT_AUDITED_NO_BOOKING",
+  "theorems": {
+    "actual_frobenius_mark": "For q=1 mod 6, x=4^((q-1)/3) and X_p=x*2^((p-1)/3) mod p.",
+    "eisenstein_diagonal_incidence": "The actual collision is the branch ideal whose mu3 label equals the cubic Frobenius value of 2; the Smith carrier is the unmarked union of all three branch ideals.",
+    "rational_fixed_branch_no_go": "Already at q=7 the selected root lies in the quadratic factor for p=13 and the linear factor for p=31.",
+    "symmetric_information_no_go": "The unmarked ideal is stable under cyclic branch rotation, so Smith data and other mu3-symmetric invariants cannot select the marked branch without nonsymmetric p-local input."
+  },
+  "witness_sha256": "ee2924be11b98393c985603c04204bf507b12840bbd656e8b34ad25f8f2ac4a2"
+}

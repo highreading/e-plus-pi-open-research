@@ -1,0 +1,52 @@
+{
+  "item": 382,
+  "schema": "item382-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_FINITE_OPERATORS_AND_PROVED_ALIGNMENT_BARRIER_WITH_BOUNDARY_REPAIR",
+  "scope": "independent root audit of finite operator reconstruction, label discipline, fixed-M shift arithmetic, positivity boundary, moving-modulus scope, capacity, and zero booking",
+  "checks": {
+    "work_hash_list_entries": 6,
+    "work_hash_list_failures": 0,
+    "frozen_dependencies_checked": 6,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "independent_fixed_M_elimination_check": true,
+    "independent_integrality_and_positivity_boundary_check": true,
+    "finite_operator_tables_promoted_to_all_n_theorem": false,
+    "actual_prime_or_collision_census_performed": false,
+    "density_inference_from_controls": false,
+    "canonical_format_repair": "the draft's iff statement was narrowed: 4|j gives an integral parameter return, while actuality also requires s-9j/4>=1"
+  },
+  "mathematical_audit": {
+    "finite_operators": "The four order-three coefficient tables, exact fits and holdouts, and modular rank tests are reproducible finite identities. Without a symbolic telescoping certificate they remain EXACT FINITE ONLY and establish neither all-n recurrence nor minimality.",
+    "alignment": "At fixed M, eliminating s and p gives s=(M-3h-2)/4 and p=(3M-h)/2. A same-ray shift h->h+3j is integral exactly when 4 divides j; it is an actual positive row only when the shifted s is at least one.",
+    "first_possible_return": "The order-three window j=0,1,2,3 contains no second integral row. The first possible integral return is j=4, giving (h,s,p)->(h+12,s-9,p-6), and it is actual when s>=10.",
+    "moving_modulus_scope": "A rational same-ray recurrence reduced modulo p remains an identity in F_p. It does not by itself imply divisibility at the returned selector p-6; a cross-prime reciprocity or common target-retaining carrier is additional arithmetic input.",
+    "capacity": "Pointwise primitive height O(h) still aggregates to O(M^2), and the unreduced height aggregates to O(M^2 log M). Neither is an o(M) exceptional-mass bound; the fixed-j=1 ceiling remains 1/36."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "fixed-M alignment identity with positivity boundary",
+      "no second actual row in an order-three same-ray window",
+      "first possible integral return and its modulus change",
+      "scoped no-go for recurrence-only cross-prime propagation",
+      "zero booking and zero capacity reduction"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "four operator tables, declared fits and holdouts, and bounded modular-rank tests"
+    ],
+    "OPEN": [
+      "all-n creative-telescoping certificates and true operator minimality",
+      "cross-prime reciprocity or a common fixed-M carrier",
+      "selector-aware weighted zero density"
+    ]
+  },
+  "capacity": {
+    "retained_shared_fixed_j1_ceiling_per_6M": "1/36",
+    "new_route1_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

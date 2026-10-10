@@ -1,0 +1,130 @@
+{
+  "actual_family": {
+    "global_index": "M=3h+4s+2; 4M+1=3p-2s",
+    "phase": "p=4h+6s+3, h,s>=1",
+    "prime_interval": "(4M+3)/3 <= p <= (3M-1)/2",
+    "raw_log_weight": "M/6+o(M)",
+    "raw_normalized_capacity_per_6M": "1/36"
+  },
+  "booking": {
+    "exceptional_factor_weight_for_fixed_window": "O_L(log M)",
+    "item149_first_post_cartier_copy_already_booked": true,
+    "j1_raw_ceiling_after_item273": "unchanged at 1/36 per 6M",
+    "new_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "new_weighted_zero_theorem": 0
+  },
+  "finite_replay": {
+    "asymptotic_inference": false,
+    "direct_gate_rows_p_le_200": 329,
+    "direct_gate_sha256": "734fd01f5afdc9868ee2f704fde2aeed8e69165ba2fe17887ced1ef6514b2b25",
+    "label": "EXACT FINITE ONLY",
+    "reduced_rank_rows_p_le_1000_by_rank_0_1_2": [
+      0,
+      0,
+      6258
+    ],
+    "reduced_rank_sha256": "13d8d220c643286ebd80ea4ad5d8b57b3c50aa39789fe331fdd24697c701f528"
+  },
+  "incidence": {
+    "ambient_rank_on_actual_rows": 2,
+    "ambient_rank_witness_unit": "4h+12s+6 == 6s+3 mod p, with 0<6s+3<p",
+    "reduced_rank_branches_retained": [
+      0,
+      1,
+      2
+    ],
+    "row_4sQ1": [
+      "4h+12s+6",
+      "8h+20s+2",
+      "4h+4s-2",
+      "2-4s",
+      "-4h-4s-4",
+      "-6h-8s-2",
+      "2-4s",
+      "2h"
+    ],
+    "row_Q0": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0
+    ],
+    "state": "Y=(S_T,S_(L+1)), S_n=(f_(n+1),f_n,f_(n-1),f_(n-2))"
+  },
+  "labels": {
+    "bounded_prime_replays": "EXACT FINITE ONLY",
+    "new_route1_rate": 0,
+    "new_weighted_zero_theorem": 0,
+    "parameter_difference_realization": "PROVED rank at most 8 with fixed singular support",
+    "scalar_divisor_obstruction": "PROVED on the generic rank-two graph chart",
+    "tail_module_and_incidence": "PROVED"
+  },
+  "parameter_module": {
+    "determinants": {
+      "hE": "8h(h+1)(2h+1)^2/((h+s+2)(2h+2s+3)(4h+4s+5)(4h+4s+7))",
+      "hT": "16(h+1)(2h+1)/((h+3s+2)(2h+6s+5))",
+      "sE": "128(s+1)^2(2s+1)^2/((h+s+2)(2h+2s+3)(4h+4s+5)(4h+4s+7))",
+      "sT": "256s(s+1)^2(2s-1)(2s+1)^2/((h+3s+2)(h+3s+3)(h+3s+4)(2h+6s+5)(2h+6s+7)(2h+6s+9))"
+    },
+    "h_multiplier": "(1-z)^2",
+    "identity_grid": {
+      "counts": {
+        "hE": 625,
+        "hT": 625,
+        "sE": 625,
+        "sT": 625
+      },
+      "method": "25x25 exact rational grid after a proved bidegree-at-most-24 clearing bound",
+      "sha256": "0814e3df94dfe2ec98c4f0cc280091b5e4cd75df5e4e611960442fbe6da0f3a1"
+    },
+    "rank_upper_bound": 8,
+    "s_multiplier": "(1+z^2)^2",
+    "singular_support": {
+      "actual_pole_edges": {
+        "2h+6s+5": "h=1",
+        "2h+6s+7": "h=2",
+        "2h+6s+9": "h=3",
+        "4h+4s+5": "s=1",
+        "4h+4s+7": "s=2"
+      },
+      "all_determinant_numerator_factors_are_actual_units_through_bound": 1000,
+      "fixed_M_container": "2(alpha h+beta s+gamma) == (6alpha-4beta)M+(2gamma-beta) mod p"
+    }
+  },
+  "payload_sha256": "6c427c4b735ccb54db50b40aac308a08b38b01b290a5fc3d22ca0bade4bde197",
+  "scalar_divisor": {
+    "generic_gate_ideal": "two independent linear forms in four graph-state variables; height 2 and nonprincipal",
+    "not_excluded": "finite-field-specific compression, sheaf/determinantal encoding, or a theorem for a necessary larger divisor",
+    "scope": "no single polynomial has exactly the collision zero set on the generic algebraically closed graph chart",
+    "split_norm_extra_branch_witness": {
+      "Q0_Q1": [
+        46,
+        18
+      ],
+      "p_h_s": [
+        61,
+        10,
+        3
+      ],
+      "sqrt_minus_one_ratio_Q1_over_Q0": 11
+    }
+  },
+  "schema": "item273-j1-fixed-incidence-certificate-v1",
+  "tail_module": {
+    "a_coefficients_low_to_high": [
+      "1-2h",
+      "-2h-1+4s",
+      "1-2h",
+      "-2h-1-4s"
+    ],
+    "actual_transfer": "homogeneous and invertible; affine forcing branch empty on the actual endpoint corridor",
+    "ode": "(1-z^4)F'-a(z)F=2z(1-z^2)P0",
+    "rank": 4,
+    "step_determinant": "(2h+4s+3-n)/(n+2)"
+  }
+}

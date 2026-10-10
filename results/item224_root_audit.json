@@ -1,0 +1,70 @@
+{
+  "schema": "item224-root-independent-audit-v1",
+  "status": "PASS_WITH_SCOPED_OPEN_PROBLEM",
+  "canonical_sha256": "aa0dc21ceea279edff38a1b19a91de3ba7155a4931a01be5d063d6cfcab87958",
+  "root_replay_sha256": "aa0dc21ceea279edff38a1b19a91de3ba7155a4931a01be5d063d6cfcab87958",
+  "byte_identical_replay": true,
+  "independent_checks": {
+    "recurrence": "expanded independently from d(z^(k+1)(1-z^4)f0); all five coefficients agree",
+    "upper_terminal": "the omitted z^(p-1) coefficient is (-1)^r and L_chi(z^p)=7, giving tau=7*(-1)^r",
+    "lower_terminal": "K_(−r−1)(0)=1, all three terminal values are zero, and the endpoint coefficients sum to −11, giving beta=11",
+    "z3_reduction": "an independent SymPy rational simplification returned zero numerator",
+    "regularization_rows": 1115,
+    "regularization_scope": "every admissible s>=2 row through p<=401 was checked directly from the original periods",
+    "formal_compatible_rows": [
+      [
+        23,
+        3
+      ],
+      [
+        157,
+        4
+      ],
+      [
+        193,
+        26
+      ],
+      [
+        241,
+        4
+      ],
+      [
+        311,
+        47
+      ],
+      [
+        349,
+        50
+      ],
+      [
+        397,
+        44
+      ]
+    ],
+    "formal_rows_are_actual_collisions": false,
+    "hash_ledger_entries_checked": 8,
+    "hash_mismatches": 0,
+    "python_compile": true,
+    "control_character_scan": "clean",
+    "host_path_scan": "clean"
+  },
+  "classification": {
+    "PROVED": [
+      "five-term interior recurrence with unit forward and backward pivots",
+      "inhomogeneous upper and lower terminal constants",
+      "z^3 reduction and the common initial line for s>=2",
+      "collision implies beta and tau nonzero and Omega=0",
+      "the canonical rational clearing is an integer and a p-unit"
+    ],
+    "EXACT_FINITE": [
+      "classification of all admissible rows through p<=401",
+      "the seven Omega-zero rows are direct non-collisions"
+    ],
+    "OPEN": [
+      "all-prime or zero-rate control of Omega=0",
+      "the s=1 family",
+      "any j=2 capacity reduction or conclusion about e+pi"
+    ]
+  },
+  "audit_conclusion": "The package supports only a necessary-condition theorem. It neither excludes the fixed j=2 cell nor changes the Route-1 rate ledger."
+}

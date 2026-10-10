@@ -1,0 +1,1719 @@
+{
+  "capacity": {
+    "booking": 0,
+    "first_cofactor_rate": 0,
+    "first_survivor_bound": "1<=|z_*|<A^2",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "normalization": "log b=n log n+O(n)",
+    "proper_target_mass_bound": "log gcd(Q,|z_*|)<2 log A"
+  },
+  "date": "2026-09-01",
+  "dependencies": {
+    "count": 8,
+    "digest": "d95d7a57aa87959d48698e80d80667f6468b3dac368aa0645bf4662c6b5d18c8",
+    "rows": [
+      {
+        "bytes": 16642,
+        "path": "sources/item265_beta_squarefull_capacity_report.md",
+        "sha256": "c41d8d2c813d4952ce5a038f291b932817c28ae5b0b1512df0a6bf0ba92a8daa"
+      },
+      {
+        "bytes": 3101,
+        "path": "results/item265_root_audit.json",
+        "sha256": "72e5f43c554e326d101d1b2c55de76f277a5a817eaa6b0fc2837dd8f6bbee24a"
+      },
+      {
+        "bytes": 14388,
+        "path": "sources/item316_beta_intermediate_ostrowski_no_go_report.md",
+        "sha256": "8d6dce8354f08e94a252a2120cf677d9a374df95507a9297dcb064a1982fb6b0"
+      },
+      {
+        "bytes": 3018,
+        "path": "results/item316_root_audit.json",
+        "sha256": "6cad978132f5f09c687aa8fcf8dcd92a7d917cf9411a69f679c7757139229175"
+      },
+      {
+        "bytes": 14747,
+        "path": "sources/item323_beta_all_depth_dual_transducer_no_go_report.md",
+        "sha256": "e0b5e7279079a17556a0b287ea18a40e461b6fdb8e45d8ef5a357434b8e6d9ef"
+      },
+      {
+        "bytes": 3105,
+        "path": "results/item323_beta_all_depth_dual_transducer_no_go_root_audit.json",
+        "sha256": "2455ebbc739cc235bea44e0d220dae6d29be73eac5a9e8a846465366562ca6c2"
+      },
+      {
+        "bytes": 14972,
+        "path": "sources/item330_beta_divided_quotient_resonance_no_go_report.md",
+        "sha256": "fc5d30d59e96a40fdf77a1b9557235e54dcf784d888ed81a517736496dbc4116"
+      },
+      {
+        "bytes": 14522,
+        "path": "sources/item333_beta_nonlinear_state_saturation_no_go_report.md",
+        "sha256": "8f4bc0a6f93cbd4882392ade311d68e25be1ceb282db71cc5e1ef2f70aee75d6"
+      }
+    ]
+  },
+  "exact_controls": {
+    "declared_n_values": [
+      5,
+      6,
+      8,
+      11,
+      16,
+      24
+    ],
+    "declared_value_labels": [
+      "lower_window_ceiling",
+      "quarter",
+      "upper_half_integer"
+    ],
+    "finite_rows_promoted": false,
+    "row_count": 18,
+    "rows": [
+      {
+        "A": 18,
+        "Delta": 1294,
+        "E_digest": "0ec616a1f2032769aa433c3998357658bb9eb924d6ca7f264b403701aa03868c",
+        "J_digest": "a7b054a1aafd8a1bb09d5f2b704473c06c2c789b48bd5bb364b50cb2c6b4c096",
+        "N_digest": "3404d3bfd3c7f4315b41e4c6d2f4d0e3bbbe8a4c884df36ac042490ae960913b",
+        "R": 8,
+        "a": 1001,
+        "actual_target_claim": false,
+        "b": 18089,
+        "c": 71,
+        "digits": [
+          1,
+          1,
+          0
+        ],
+        "digits_digest": "22aa10805a632ff5b3aee9fa640007b358707db00d4c0afcbd963464e1826b6e",
+        "epsilon": -1,
+        "finite_only": true,
+        "gcd_bounded_by_survivor": true,
+        "gcd_with_b": 1,
+        "leading_index": 2,
+        "lower_part": 2548,
+        "n": 5,
+        "portfolio_bound": 5668704,
+        "portfolio_value": 197,
+        "primitive_numerator": 1546,
+        "selected_nonzero_cofactors": [
+          14
+        ],
+        "sigma": 1,
+        "survivor": 14,
+        "survivor_factorization": [
+          [
+            2,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "survivor_index": 3,
+        "top_quotient_residual_identity": true,
+        "top_two_digits_zero": false,
+        "top_z_zero": false,
+        "value_label": "lower_window_ceiling",
+        "z_digest": "1c3f8d8c76afd39958574ed887f610b0955120950803e20a40231730b5d6eb9b",
+        "z_rows": [
+          [
+            3,
+            14
+          ]
+        ]
+      },
+      {
+        "A": 18,
+        "Delta": 2884,
+        "E_digest": "6f7bb7db54fe4b7412889d4e8061bda697a100c0a298fcb9d49cbb0c7c1c316f",
+        "J_digest": "dcdbbf00a7037ce03bc247433346a8b5c194b11559e0d8126626792687fd2c91",
+        "N_digest": "efe3639e2e24dcb255cba60cca1fe035bd180c3b00cc8cef220dea1198a3f761",
+        "R": 250,
+        "a": 1001,
+        "actual_target_claim": false,
+        "b": 18089,
+        "c": 71,
+        "digits": [
+          2,
+          5,
+          3
+        ],
+        "digits_digest": "c22b7e687ba6502d3b489be741d4b179d60b15d03c0edf325c3f56747e0986d4",
+        "epsilon": -1,
+        "finite_only": true,
+        "gcd_bounded_by_survivor": true,
+        "gcd_with_b": 1,
+        "leading_index": 3,
+        "lower_part": 5096,
+        "n": 5,
+        "portfolio_bound": 5668704,
+        "portfolio_value": 4490,
+        "primitive_numerator": 4090,
+        "selected_nonzero_cofactors": [
+          67
+        ],
+        "sigma": 1,
+        "survivor": 67,
+        "survivor_factorization": [
+          [
+            67,
+            1
+          ]
+        ],
+        "survivor_index": 3,
+        "top_quotient_residual_identity": true,
+        "top_two_digits_zero": false,
+        "top_z_zero": false,
+        "value_label": "quarter",
+        "z_digest": "a1c15f71f9007fb0143665b9dbc48125af2d957e16e83df844396126b7db03e4",
+        "z_rows": [
+          [
+            3,
+            67
+          ]
+        ]
+      },
+      {
+        "A": 18,
+        "Delta": 6769,
+        "E_digest": "ef50e892a8b7375b0fcfb6d80629c8995a38b0d1f84a4cf45f12f768f995dff5",
+        "J_digest": "a3de0f6cfb49d67202d9b897e9df4060a0fe5745eb276de8edc1521769827fb9",
+        "N_digest": "8c51b1f4f742bcec7bd17525fa36f663ddaee170f24bcf2853e4cf560fe6cc15",
+        "R": 500,
+        "a": 1001,
+        "actual_target_claim": false,
+        "b": 18089,
+        "c": 71,
+        "digits": [
+          3,
+          0,
+          7
+        ],
+        "digits_digest": "131be9c41e5e2e124f692c5091847b77773a81ec2349f01ed3363cafd98fd916",
+        "epsilon": -1,
+        "finite_only": true,
+        "gcd_bounded_by_survivor": true,
+        "gcd_with_b": 1,
+        "leading_index": 3,
+        "lower_part": 7644,
+        "n": 5,
+        "portfolio_bound": 5668704,
+        "portfolio_value": 50,
+        "primitive_numerator": 6643,
+        "selected_nonzero_cofactors": [
+          -7
+        ],
+        "sigma": 1,
+        "survivor": -7,
+        "survivor_factorization": [
+          [
+            7,
+            1
+          ]
+        ],
+        "survivor_index": 3,
+        "top_quotient_residual_identity": true,
+        "top_two_digits_zero": false,
+        "top_z_zero": false,
+        "value_label": "upper_half_integer",
+        "z_digest": "ad54546e65e538da53964c147da5a697c895d2557f48057592bf3ebd3ca7b0cc",
+        "z_rows": [
+          [
+            3,
+            -7
+          ]
+        ]
+      },
+      {
+        "A": 22,
+        "Delta": 144922,
+        "E_digest": "b49ddbf54e7ee2fb638d3078532410f34a8315a32ef296c43b55fa26d3d0340c",
+        "J_digest": "0de959ca94bf9a90c80123a9e79d08a635aa63742e7ef461c9a2adf7a0ce3435",
+        "N_digest": "c3f40b77cef4bb905901e13ba8ce9380b290ae0992e4b836a00900b2730ef37d",
+        "R": 10,
+        "a": 18089,
+        "actual_target_claim": false,
+        "b": 398959,
+        "c": 1001,
+        "digits": [
+          3,
+          1,
+          0,
+          0
+        ],
+        "digits_digest": "6a4eda715747da833bd4713b269617ceddf580ce498667aeb08a67eab91b2ffb",
+        "epsilon": 1,
+        "finite_only": true,
+        "gcd_bounded_by_survivor": true,
+        "gcd_with_b": 1,
+        "leading_index": 2,
+        "lower_part": 163011,
+        "n": 6,
+        "portfolio_bound": 15460896,
+        "portfolio_value": 197,
+        "primitive_numerator": 144922,
+        "selected_nonzero_cofactors": [
+          -14
+        ],
+        "sigma": 1,
+        "survivor": -14,
+        "survivor_factorization": [
+          [
+            2,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "survivor_index": 3,
+        "top_quotient_residual_identity": true,
+        "top_two_digits_zero": true,
+        "top_z_zero": true,
+        "value_label": "lower_window_ceiling",
+        "z_digest": "c9e7f3724dc9b4bb0c0b011fcfd0f3aac6fa6e9cac67a930222b68d15ec3b657",
+        "z_rows": [
+          [
+            3,
+            -14
+          ],
+          [
+            4,
+            0
+          ]
+        ]
+      },
+      {
+        "A": 22,
+        "Delta": -4040,
+        "E_digest": "520974594a487017fe779ebf253588f97e331453c6f9418e4b5a780e5d50536e",
+        "J_digest": "02b4f2ddb8b1d382a0e6d401b47fd3655140360021ba8a5571ebac221349eef1",
+        "N_digest": "52dc8684320b7a57cc738a12d78d60f9f21ab1c4fecc5299ac33bb9e7c6f627f",
+        "R": 4522,
+        "a": 18089,
+        "actual_target_claim": false,
+        "b": 398959,
+        "c": 1001,
+        "digits": [
+          0,
+          3,
+          7,
+          4
+        ],
+        "digits_digest": "a0aa776f94d2eb6ea73a2f93b834ae8d53a4423bccc3b5484d40b62aad422677",
+        "epsilon": -1,
+        "finite_only": true,
+        "gcd_bounded_by_survivor": true,
+        "gcd_with_b": 1,
+        "leading_index": 4,
+        "lower_part": 16740,
+        "n": 6,
+        "portfolio_bound": 30921792,
+        "portfolio_value": 21605,
+        "primitive_numerator": -1356,
+        "selected_nonzero_cofactors": [
+          122,
+          35
+        ],
+        "sigma": -1,
+        "survivor": 122,
+        "survivor_factorization": [
+          [
+            2,
+            1
+          ],
+          [
+            61,
+            1
+          ]
+        ],
+        "survivor_index": 4,
+        "top_quotient_residual_identity": true,
+        "top_two_digits_zero": false,
+        "top_z_zero": false,
+        "value_label": "quarter",
+        "z_digest": "2fd822d800122bf1da9a297c6d86b72ab5a468bf1fdaecbe5b369c295b6783c2",
+        "z_rows": [
+          [
+            3,
+            35
+          ],
+          [
+            4,
+            122
+          ]
+        ]
+      },
+      {
+        "A": 22,
+        "Delta": 10009,
+        "E_digest": "507a2789decabef2c57c7a9a1ac93272eea6ca79051e674bc4e090e31ea2c4b9",
+        "J_digest": "45911a8a1d90a126fc8d2a194d87878f90da843bc76915ac71eb48455506e586",
+        "N_digest": "951b1701d72ea3083ec17572dcf21af2c55bd41a15f2f1c6b0e7e70fab673e44",
+        "R": 9044,
+        "a": 18089,
+        "actual_target_claim": false,
+        "b": 398959,
+        "c": 1001,
+        "digits": [
+          0,
+          5,
+          0,
+          9
+        ],
+        "digits_digest": "b766550a238a3cbe5a5a59221c926d87e9dbe037e3175249054dda5fe59e1e7c",
+        "epsilon": -1,
+        "finite_only": true,
+        "gcd_bounded_by_survivor": true,
+        "gcd_with_b": 1,
+        "leading_index": 4,
+        "lower_part": 27900,
+        "n": 6,
+        "portfolio_bound": 30921792,
+        "portfolio_value": 9252,
+        "primitive_numerator": 9811,
+        "selected_nonzero_cofactors": [
+          -9,
+          70
+        ],
+        "sigma": -1,
+        "survivor": -9,
+        "survivor_factorization": [
+          [
+            3,
+            2
+          ]
+        ],
+        "survivor_index": 4,
+        "top_quotient_residual_identity": true,
+        "top_two_digits_zero": false,
+        "top_z_zero": false,
+        "value_label": "upper_half_integer",
+        "z_digest": "8d0a6b45d844cc6881dc8316ce2e8368eda6101c9eac85fe0729c1bd048e0455",
+        "z_rows": [
+          [
+            3,
+            70
+          ],
+          [
+            4,
+            -9
+          ]
+        ]
+      },
+      {
+        "A": 30,
+        "Delta": -1659883,
+        "E_digest": "9764011c6efb2fcdb7756b8e81b4faffb841f78915ab4b55e54256d8a288d530",
+        "J_digest": "66d8badc34db85e714d69e66317501c217e2b5b9c94ecc3b00564225d3957fc0",
+        "N_digest": "8c1154394120d97b1e06702caafa42279a680cb5308b33b245e7318d6b6c4240",
+        "R": 14,
+        "a": 10391023,
+        "actual_target_claim": false,
+        "b": 312129649,
+        "c": 398959,
+        "digits": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "digits_digest": "882b69c138e10401e942422c67afad77b3ac913d4192f1cbdfc47d2cbd7e4704",
+        "epsilon": -1,
+        "finite_only": true,
+        "gcd_bounded_by_survivor": true,
+        "gcd_with_b": 1,
+        "leading_index": 2,
+        "lower_part": 8731140,
+        "n": 8,
+        "portfolio_bound": 72900000,
+        "portfolio_value": 785,
+        "primitive_numerator": -1659883,
+        "selected_nonzero_cofactors": [
+          28
+        ],
+        "sigma": -1,
+        "survivor": 28,
+        "survivor_factorization": [
+          [
+            2,
+            2
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "survivor_index": 3,
+        "top_quotient_residual_identity": true,
+        "top_two_digits_zero": true,
+        "top_z_zero": true,
+        "value_label": "lower_window_ceiling",
+        "z_digest": "24213376eb71e05c21dd7426fe94bf5352dac89512df64ef1b6426ba4d5e143b",
+        "z_rows": [
+          [
+            3,
+            28
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            6,
+            0
+          ]
+        ]
+      },
+      {
+        "A": 30,
+        "Delta": 112699079,
+        "E_digest": "828f96d4223e43064b8a7f47e1dd4bdbf93c76aac84ebd0346104fa69d11e9a0",
+        "J_digest": "9b844a67cb8b413ae3fdbe018f5a95d5b1d7567a8df2cab7abc7f93b6975b61d",
+        "N_digest": "0fd02e675f5bb1a65f72b54f1dc41c9f68948ac230d9a15ff1add6a33c569bcf",
+        "R": 2597755,
+        "a": 10391023,
+        "actual_target_claim": false,
+        "b": 312129649,
+        "c": 398959,
+        "digits": [
+          3,
+          2,
+          0,
+          5,
+          11,
+          6
+        ],
+        "digits_digest": "86a5b39a126ef2f652ecb50b4ce97640dbe084019e2faef16173538a49f39171",
+        "epsilon": 1,
+        "finite_only": true,
+        "gcd_bounded_by_survivor": true,
+        "gcd_with_b": 1,
+        "leading_index": 6,
+        "lower_part": 123081691,
+        "n": 8,
+        "portfolio_bound": 243000000,
+        "portfolio_value": 125798,
+        "primitive_numerator": 112690679,
+        "selected_nonzero_cofactors": [
+          -280,
+          -99,
+          5
+        ],
+        "sigma": 1,
+        "survivor": -280,
+        "survivor_factorization": [
+          [
+            2,
+            3
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "survivor_index": 6,
+        "top_quotient_residual_identity": true,
+        "top_two_digits_zero": false,
+        "top_z_zero": false,
+        "value_label": "quarter",
+        "z_digest": "4364ba4a41e39cee2727043c52d6567e7fc1a51646d7b3e54864d6a3b160f40a",
+        "z_rows": [
+          [
+            3,
+            -28
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            -99
+          ],
+          [
+            6,
+            -280
+          ]
+        ]
+      },
+      {
+        "A": 30,
+        "Delta": 11592125,
+        "E_digest": "1604ee1231e17bdfcf3934ab6cec89d9afe8d1ec228c7bc8ac493536c23897d4",
+        "J_digest": "239b8073042e75795cef6f3d15867d4b744b47c62fb5cbb255cc7c5f563b6ac1",
+        "N_digest": "b008bf55c06901454b985ac9f1dead45a29dfcc4b4e7b25f3a511f0e68094e37",
+        "R": 5195511,
+        "a": 10391023,
+        "actual_target_claim": false,
+        "b": 312129649,
+        "c": 398959,
+        "digits": [
+          0,
+          5,
+          0,
+          9,
+          0,
+          13
+        ],
+        "digits_digest": "a11162cb288bd4ba4d6f0ff9e37863eb1270911876f61d7253ac78f84588e633",
+        "epsilon": -1,
+        "finite_only": true,
+        "gcd_bounded_by_survivor": true,
+        "gcd_with_b": 13,
+        "leading_index": 6,
+        "lower_part": 21982758,
+        "n": 8,
+        "portfolio_bound": 243000000,
+        "portfolio_value": 76247,
+        "primitive_numerator": 11591735,
+        "selected_nonzero_cofactors": [
+          -13,
+          198,
+          -9
+        ],
+        "sigma": -1,
+        "survivor": -13,
+        "survivor_factorization": [
+          [
+            13,
+            1
+          ]
+        ],
+        "survivor_index": 6,
+        "top_quotient_residual_identity": true,
+        "top_two_digits_zero": false,
+        "top_z_zero": false,
+        "value_label": "upper_half_integer",
+        "z_digest": "5dc0328d0f72bea13bb379f45c09cca8020aa134fb940adc2a4b83dbd7a3a04c",
+        "z_rows": [
+          [
+            3,
+            70
+          ],
+          [
+            4,
+            -9
+          ],
+          [
+            5,
+            198
+          ],
+          [
+            6,
+            -13
+          ]
+        ]
+      },
+      {
+        "A": 42,
+        "Delta": 13469903523587,
+        "E_digest": "69721048a2f9f00156db2fbeba3f7f0736745798b6ee6b5dc22a1616caa15343",
+        "J_digest": "fad938f3626e42b50a2dcc5594c5fea5b097f97de54927391052ef94dbfe7d32",
+        "N_digest": "42aef7827c2fa9630cfbf5a57fd7beffd07d683117ded78ee2f8edee69bc8e69",
+        "R": 20,
+        "a": 403978495031,
+        "actual_target_claim": false,
+        "b": 16977719590391,
+        "c": 10622799089,
+        "digits": [
+          6,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "digits_digest": "f5b4b1bab208dc2732a70c683c1ccdbbf73b8537aab114c2567ad0e06eae2855",
+        "epsilon": -1,
+        "finite_only": true,
+        "gcd_bounded_by_survivor": true,
+        "gcd_with_b": 7,
+        "leading_index": 2,
+        "lower_part": 13873882018618,
+        "n": 11,
+        "portfolio_bound": 392073696,
+        "portfolio_value": 785,
+        "primitive_numerator": 13469903523587,
+        "selected_nonzero_cofactors": [
+          28
+        ],
+        "sigma": 1,
+        "survivor": 28,
+        "survivor_factorization": [
+          [
+            2,
+            2
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "survivor_index": 3,
+        "top_quotient_residual_identity": true,
+        "top_two_digits_zero": true,
+        "top_z_zero": true,
+        "value_label": "lower_window_ceiling",
+        "z_digest": "d6244acd277c6ddb1cdc6e5ffe8d2230e2794d7bb0e5dd2914ebc31c37e8abbb",
+        "z_rows": [
+          [
+            3,
+            28
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            9,
+            0
+          ]
+        ]
+      },
+      {
+        "A": 42,
+        "Delta": 2046851857589,
+        "E_digest": "7cd6a2e6618c96fa4879166af0964ae3a0cd94942841108d9d17947f020fed13",
+        "J_digest": "211bdf56053bb5ac1a002b448741a39fb13d894db304ed58af5a328f749d975a",
+        "N_digest": "101f77d18426c413d5deaf26caa0f4ab99e90bc4277dac018f870e8030864743",
+        "R": 100994623757,
+        "a": 403978495031,
+        "actual_target_claim": false,
+        "b": 16977719590391,
+        "c": 10622799089,
+        "digits": [
+          1,
+          0,
+          4,
+          9,
+          5,
+          0,
+          8,
+          17,
+          9
+        ],
+        "digits_digest": "a0aafcf6c691600a3887df61a5e68776a9bb633f9922ef6a289c010ca427b899",
+        "epsilon": -1,
+        "finite_only": true,
+        "gcd_bounded_by_survivor": true,
+        "gcd_with_b": 7,
+        "leading_index": 9,
+        "lower_part": 2450830379391,
+        "n": 11,
+        "portfolio_bound": 1306912320,
+        "portfolio_value": 698447,
+        "primitive_numerator": 2046851884343,
+        "selected_nonzero_cofactors": [
+          637,
+          255,
+          -8
+        ],
+        "sigma": 1,
+        "survivor": 637,
+        "survivor_factorization": [
+          [
+            7,
+            2
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        "survivor_index": 9,
+        "top_quotient_residual_identity": true,
+        "top_two_digits_zero": false,
+        "top_z_zero": false,
+        "value_label": "quarter",
+        "z_digest": "d707159a6c050f81758ea8e74e7f407f6bb34b0d65d7a11f5a936ce5b1cf892a",
+        "z_rows": [
+          [
+            3,
+            -4
+          ],
+          [
+            4,
+            63
+          ],
+          [
+            5,
+            193
+          ],
+          [
+            6,
+            130
+          ],
+          [
+            7,
+            -8
+          ],
+          [
+            8,
+            255
+          ],
+          [
+            9,
+            637
+          ]
+        ]
+      },
+      {
+        "A": 42,
+        "Delta": 6889148270179,
+        "E_digest": "52d3d803226952ba73f4d79926d4a6e22f196e18eb59e7e22c953b9e28737955",
+        "J_digest": "ab65214091191d5f0efb9198b0613d5adace47ae57cab00ffd2b7549b56e56b3",
+        "N_digest": "35bbae81f6222e184c873af67931e5edad218d2a33e6e061e9b5ac51bdbf5844",
+        "R": 201989247515,
+        "a": 403978495031,
+        "actual_target_claim": false,
+        "b": 16977719590391,
+        "c": 10622799089,
+        "digits": [
+          3,
+          0,
+          7,
+          0,
+          11,
+          0,
+          15,
+          0,
+          19
+        ],
+        "digits_digest": "970828fb54e42d2e86ba108c8d2ff89249a7f6977f8b20dd1f709aafbbfe3598",
+        "epsilon": -1,
+        "finite_only": true,
+        "gcd_bounded_by_survivor": true,
+        "gcd_with_b": 1,
+        "leading_index": 9,
+        "lower_part": 7293126764412,
+        "n": 11,
+        "portfolio_bound": 1306912320,
+        "portfolio_value": 511547,
+        "primitive_numerator": 6889148269381,
+        "selected_nonzero_cofactors": [
+          -19,
+          510,
+          -15
+        ],
+        "sigma": 1,
+        "survivor": -19,
+        "survivor_factorization": [
+          [
+            19,
+            1
+          ]
+        ],
+        "survivor_index": 9,
+        "top_quotient_residual_identity": true,
+        "top_two_digits_zero": false,
+        "top_z_zero": false,
+        "value_label": "upper_half_integer",
+        "z_digest": "c79143ebcc08562b5feb2a7fbf2ee9a0e1611282de340b3f6cee27fa721f5b73",
+        "z_rows": [
+          [
+            3,
+            -7
+          ],
+          [
+            4,
+            126
+          ],
+          [
+            5,
+            -11
+          ],
+          [
+            6,
+            286
+          ],
+          [
+            7,
+            -15
+          ],
+          [
+            8,
+            510
+          ],
+          [
+            9,
+            -19
+          ]
+        ]
+      },
+      {
+        "A": 62,
+        "Delta": 1592739462794878682075,
+        "E_digest": "10a62dd2e60fe8a5cdfd2eda16184e9cd4ceccff1356e7f75b32926bc5e218f5",
+        "J_digest": "71c50cfd51b9383966610a5564239b0d537dbc9cefe01f51bb8d839ba75334b8",
+        "N_digest": "cba3fdf67a8db91caec222a98550402e822a6f20e07e3225ad997bb554aba5d6",
+        "R": 30,
+        "a": 122501544009741683039,
+        "actual_target_claim": false,
+        "b": 7597207150294985028449,
+        "c": 2111421691000680031,
+        "digits": [
+          2,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "digits_digest": "696f91f48d562975b2249a53a19146334cac8bfe800a7775212f43b0982e49d5",
+        "epsilon": 1,
+        "finite_only": true,
+        "gcd_bounded_by_survivor": true,
+        "gcd_with_b": 7,
+        "leading_index": 2,
+        "lower_part": 1715241006804620365114,
+        "n": 16,
+        "portfolio_bound": 2748398496,
+        "portfolio_value": 3137,
+        "primitive_numerator": 1592739462794878682075,
+        "selected_nonzero_cofactors": [
+          -56
+        ],
+        "sigma": 1,
+        "survivor": -56,
+        "survivor_factorization": [
+          [
+            2,
+            3
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "survivor_index": 3,
+        "top_quotient_residual_identity": true,
+        "top_two_digits_zero": true,
+        "top_z_zero": true,
+        "value_label": "lower_window_ceiling",
+        "z_digest": "32b56d54260e3de30a4cbdc0b54d066464dea7e00d62943a3568e0c23ed2c4a2",
+        "z_rows": [
+          [
+            3,
+            -56
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            10,
+            0
+          ],
+          [
+            11,
+            0
+          ],
+          [
+            12,
+            0
+          ],
+          [
+            13,
+            0
+          ],
+          [
+            14,
+            0
+          ]
+        ]
+      },
+      {
+        "A": 62,
+        "Delta": 2873500290938136819213,
+        "E_digest": "0e1695e7d6b07e9b962b106a0714191eac75e46cf2d17b1810b0447aadc6eaec",
+        "J_digest": "0bdad82e52ea20c8f66d215a5d18e71ffabd2d63b3e3612629be31a473229a5f",
+        "N_digest": "f21d9de2eb69b41df6b07aba51fe3eef9f55b2172ca2e4e777aed76b3b075252",
+        "R": 30625386002435420759,
+        "a": 122501544009741683039,
+        "actual_target_claim": false,
+        "b": 7597207150294985028449,
+        "c": 2111421691000680031,
+        "digits": [
+          3,
+          2,
+          0,
+          5,
+          11,
+          6,
+          0,
+          9,
+          19,
+          10,
+          0,
+          13,
+          27,
+          14
+        ],
+        "digits_digest": "b1e2ef9b3935dd687173e4fb4381775723404448f644f99b2f4588c768ac0d06",
+        "epsilon": 1,
+        "finite_only": true,
+        "gcd_bounded_by_survivor": true,
+        "gcd_with_b": 1,
+        "leading_index": 14,
+        "lower_part": 2996001834947878406001,
+        "n": 16,
+        "portfolio_bound": 9161328320,
+        "portfolio_value": 4368062,
+        "primitive_numerator": 2873500290938136722989,
+        "selected_nonzero_cofactors": [
+          -1552,
+          -675,
+          13
+        ],
+        "sigma": 1,
+        "survivor": -1552,
+        "survivor_factorization": [
+          [
+            2,
+            4
+          ],
+          [
+            97,
+            1
+          ]
+        ],
+        "survivor_index": 14,
+        "top_quotient_residual_identity": true,
+        "top_two_digits_zero": false,
+        "top_z_zero": false,
+        "value_label": "quarter",
+        "z_digest": "065de38f56b5abf1706b70d9ab62a83d5f7b92bc36156b19de96ba162032a3c4",
+        "z_rows": [
+          [
+            3,
+            -28
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            -99
+          ],
+          [
+            6,
+            -280
+          ],
+          [
+            7,
+            -180
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            -323
+          ],
+          [
+            10,
+            -788
+          ],
+          [
+            11,
+            -460
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            -675
+          ],
+          [
+            14,
+            -1552
+          ]
+        ]
+      },
+      {
+        "A": 62,
+        "Delta": 412566282790000991609,
+        "E_digest": "3753c9f4b598265334a974338566cad8b89ae582c9eb8d97e2ac95295f1f3cd9",
+        "J_digest": "fee58178802af92641b79f0e07d9cf47eecd3f4e6a00787d7e5f064359733929",
+        "N_digest": "55632904b9c399b6d6140f8864ab14b5e972c42cd411ee5f5b844b3bac39ad29",
+        "R": 61250772004870841519,
+        "a": 122501544009741683039,
+        "actual_target_claim": false,
+        "b": 7597207150294985028449,
+        "c": 2111421691000680031,
+        "digits": [
+          0,
+          5,
+          0,
+          9,
+          0,
+          13,
+          0,
+          17,
+          0,
+          21,
+          0,
+          25,
+          0,
+          29
+        ],
+        "digits_digest": "7d17cfa772f51ca4a27ca8354e0f2eef45804866901ff57a754a0777e70ce4ae",
+        "epsilon": -1,
+        "finite_only": true,
+        "gcd_bounded_by_survivor": true,
+        "gcd_with_b": 1,
+        "leading_index": 14,
+        "lower_part": 535067826799742672850,
+        "n": 16,
+        "portfolio_bound": 9161328320,
+        "portfolio_value": 3608567,
+        "primitive_numerator": 412566282790000989811,
+        "selected_nonzero_cofactors": [
+          -29,
+          1350,
+          -25
+        ],
+        "sigma": -1,
+        "survivor": -29,
+        "survivor_factorization": [
+          [
+            29,
+            1
+          ]
+        ],
+        "survivor_index": 14,
+        "top_quotient_residual_identity": true,
+        "top_two_digits_zero": false,
+        "top_z_zero": false,
+        "value_label": "upper_half_integer",
+        "z_digest": "3b658425ef01de135813adc9033a7e729086d8d7d7f9cf1e035f6435b1f93bb5",
+        "z_rows": [
+          [
+            3,
+            70
+          ],
+          [
+            4,
+            -9
+          ],
+          [
+            5,
+            198
+          ],
+          [
+            6,
+            -13
+          ],
+          [
+            7,
+            390
+          ],
+          [
+            8,
+            -17
+          ],
+          [
+            9,
+            646
+          ],
+          [
+            10,
+            -21
+          ],
+          [
+            11,
+            966
+          ],
+          [
+            12,
+            -25
+          ],
+          [
+            13,
+            1350
+          ],
+          [
+            14,
+            -29
+          ]
+        ]
+      },
+      {
+        "A": 94,
+        "Delta": 5674968472185077349804733252060918889,
+        "E_digest": "1b3fcb129331cd7c9ff5383cb1e838cc9adf3ee50c6f96c562a7966aa46b3c3e",
+        "J_digest": "f116ca202515a85d04339915347b1c953195b32971d3de1d0458a3e53e3ccebb",
+        "N_digest": "b1de756ce78a7241af9e2869812d0bb5485170ab270fd57d04381dec2755b73b",
+        "R": 46,
+        "a": 128742437593546415344343149711247951,
+        "actual_target_claim": false,
+        "b": 12103219420556805047490636736113723601,
+        "c": 1430286763442005122380663256416207,
+        "digits": [
+          4,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "digits_digest": "6f5a50c36c32f90d4f17ea13a34b41a440806952dada56b55ad90d5f4d91ffb5",
+        "epsilon": 1,
+        "finite_only": true,
+        "gcd_bounded_by_survivor": true,
+        "gcd_with_b": 1,
+        "leading_index": 2,
+        "lower_part": 5803710909778623765149076401772166840,
+        "n": 24,
+        "portfolio_bound": 22017120672,
+        "portfolio_value": 7057,
+        "primitive_numerator": 5674968472185077349804733252060918889,
+        "selected_nonzero_cofactors": [
+          -84
+        ],
+        "sigma": 1,
+        "survivor": -84,
+        "survivor_factorization": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "survivor_index": 3,
+        "top_quotient_residual_identity": true,
+        "top_two_digits_zero": true,
+        "top_z_zero": true,
+        "value_label": "lower_window_ceiling",
+        "z_digest": "2971868246dfe0d65b907e3293190550d4c2a00bb23256ef716b884f36d9e7c2",
+        "z_rows": [
+          [
+            3,
+            -84
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            10,
+            0
+          ],
+          [
+            11,
+            0
+          ],
+          [
+            12,
+            0
+          ],
+          [
+            13,
+            0
+          ],
+          [
+            14,
+            0
+          ],
+          [
+            15,
+            0
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            17,
+            0
+          ],
+          [
+            18,
+            0
+          ],
+          [
+            19,
+            0
+          ],
+          [
+            20,
+            0
+          ],
+          [
+            21,
+            0
+          ],
+          [
+            22,
+            0
+          ]
+        ]
+      },
+      {
+        "A": 94,
+        "Delta": 4644230955840517183671199726740377299,
+        "E_digest": "d8f974e432171fe9dcefe98ed6797f22e7bf8abf7e56c04cc7e7c7a57ebaa571",
+        "J_digest": "bd5db5e0ebf6bbce945afbf1def902a47b96cc0b83cbe6c24902f726a20f3a19",
+        "N_digest": "e2899fb0bde0a72e85000e013cf1e9391e1d1d851149679b69e9198f1177ed79",
+        "R": 32185609398386603836085787427811987,
+        "a": 128742437593546415344343149711247951,
+        "actual_target_claim": false,
+        "b": 12103219420556805047490636736113723601,
+        "c": 1430286763442005122380663256416207,
+        "digits": [
+          3,
+          2,
+          0,
+          5,
+          11,
+          6,
+          0,
+          9,
+          19,
+          10,
+          0,
+          13,
+          27,
+          14,
+          0,
+          17,
+          35,
+          18,
+          0,
+          21,
+          43,
+          22
+        ],
+        "digits_digest": "e6655a88d50b24f0cf182fb95f6a1064fd4e015470f0a35e0f125350e0e30e3d",
+        "epsilon": 1,
+        "finite_only": true,
+        "gcd_bounded_by_survivor": true,
+        "gcd_with_b": 1,
+        "leading_index": 22,
+        "lower_part": 4772973393434063599015542876451263495,
+        "n": 24,
+        "portfolio_bound": 73390402240,
+        "portfolio_value": 27808790,
+        "primitive_numerator": 4644230955840517183671199726740015587,
+        "selected_nonzero_cofactors": [
+          -3848,
+          -1763,
+          21
+        ],
+        "sigma": 1,
+        "survivor": -3848,
+        "survivor_factorization": [
+          [
+            2,
+            3
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            37,
+            1
+          ]
+        ],
+        "survivor_index": 22,
+        "top_quotient_residual_identity": true,
+        "top_two_digits_zero": false,
+        "top_z_zero": false,
+        "value_label": "quarter",
+        "z_digest": "1a1fb4cbcfd03c0d9c19e9f9d63ebd98132f398a31a61b0bfee2c11503423312",
+        "z_rows": [
+          [
+            3,
+            -28
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            -99
+          ],
+          [
+            6,
+            -280
+          ],
+          [
+            7,
+            -180
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            -323
+          ],
+          [
+            10,
+            -788
+          ],
+          [
+            11,
+            -460
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            -675
+          ],
+          [
+            14,
+            -1552
+          ],
+          [
+            15,
+            -868
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            17,
+            -1155
+          ],
+          [
+            18,
+            -2572
+          ],
+          [
+            19,
+            -1404
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            21,
+            -1763
+          ],
+          [
+            22,
+            -3848
+          ]
+        ]
+      },
+      {
+        "A": 94,
+        "Delta": 723681773636012867808840511358909749,
+        "E_digest": "e75be31a811da3d7db533d1023cd97981422c4845fc5b89c1feb413fd9e579b7",
+        "J_digest": "1f4777301a1d8f366f00476b20604489077e6867b9d3989a1a1b6859c86f86f7",
+        "N_digest": "bc733040e38b262f82e13ab0ed125b69448e17848d70abb8d69a5b97486c1a2a",
+        "R": 64371218796773207672171574855623975,
+        "a": 128742437593546415344343149711247951,
+        "actual_target_claim": false,
+        "b": 12103219420556805047490636736113723601,
+        "c": 1430286763442005122380663256416207,
+        "digits": [
+          0,
+          5,
+          0,
+          9,
+          0,
+          13,
+          0,
+          17,
+          0,
+          21,
+          0,
+          25,
+          0,
+          29,
+          0,
+          33,
+          0,
+          37,
+          0,
+          41,
+          0,
+          45
+        ],
+        "digits_digest": "889f6acd68a30e0e13867cfc161c1c2f4074c241560ee90384e4cc9ef1e3d375",
+        "epsilon": -1,
+        "finite_only": true,
+        "gcd_bounded_by_survivor": true,
+        "gcd_with_b": 1,
+        "leading_index": 22,
+        "lower_part": 852424211229559283153183661070153470,
+        "n": 24,
+        "portfolio_bound": 73390402240,
+        "portfolio_value": 24713751,
+        "primitive_numerator": 723681773636012867808840511358905519,
+        "selected_nonzero_cofactors": [
+          -45,
+          3526,
+          -41
+        ],
+        "sigma": -1,
+        "survivor": -45,
+        "survivor_factorization": [
+          [
+            3,
+            2
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        "survivor_index": 22,
+        "top_quotient_residual_identity": true,
+        "top_two_digits_zero": false,
+        "top_z_zero": false,
+        "value_label": "upper_half_integer",
+        "z_digest": "1bac96f8b37790517203047af73fccc8e10d063ebc9e31563281961d1a290aea",
+        "z_rows": [
+          [
+            3,
+            70
+          ],
+          [
+            4,
+            -9
+          ],
+          [
+            5,
+            198
+          ],
+          [
+            6,
+            -13
+          ],
+          [
+            7,
+            390
+          ],
+          [
+            8,
+            -17
+          ],
+          [
+            9,
+            646
+          ],
+          [
+            10,
+            -21
+          ],
+          [
+            11,
+            966
+          ],
+          [
+            12,
+            -25
+          ],
+          [
+            13,
+            1350
+          ],
+          [
+            14,
+            -29
+          ],
+          [
+            15,
+            1798
+          ],
+          [
+            16,
+            -33
+          ],
+          [
+            17,
+            2310
+          ],
+          [
+            18,
+            -37
+          ],
+          [
+            19,
+            2886
+          ],
+          [
+            20,
+            -41
+          ],
+          [
+            21,
+            3526
+          ],
+          [
+            22,
+            -45
+          ]
+        ]
+      }
+    ],
+    "rows_digest": "e55c66e9a3aa266663992276202f505549fe405de6e70841ee25287ce366637a",
+    "target_census_performed": false
+  },
+  "item": 335,
+  "proof_object": {
+    "candidate_selection": "After Item 333 sets Delta=0, the first primitive canonical coordinate is z_m=epsilon(delta_m-w_m delta_(m-1)); it is also an exact three-depth cancellation of J.",
+    "first_survivor": "If ell is the leading nonzero digit, the first nonzero z when descending from m occurs at m when ell=m and at ell+1 otherwise. The target lower window forces ell>=2.",
+    "fixed_complexity": "For fixed K,D,C, a degree-D polynomial of coefficient height A^C in K cofactor values has nonzero height at most binom(D+K,K) A^(C+2D), hence O(log n) prime-power mass.",
+    "load_formula": "For 3<=j<=m, z_j=(1+w_j w_(j-1))J_(j-2)-w_j J_(j-3)-J_j=epsilon(delta_j-w_j delta_(j-1)).",
+    "nonzero_height": "The half-language and canonical bounds give 1<=|z_*|<=w_m w_(m-1)<A^2.",
+    "proper_target_mass": "For every Q|b, the captured prime-power mass is log gcd(Q,|z_*|)<2 log A=o(log b).",
+    "scope": "Growing depth/degree/height, exact zero-versus-nonzero contradictions, full-word cofactors, and complement redigitization remain open.",
+    "target_quotient": "Writing L for the lower-digit contribution to Delta gives L-a+epsilon delta_(m-1)=Delta+A z_m; on target its exact quotient by A is z_m."
+  },
+  "proof_object_digest": "c3b9473dfbc4cb587f2bf057f250c7fdc0308f90ff0c470ead86c95894fc71f2",
+  "schema": "item335-beta-first-canonical-cofactor-zero-rate-certificate-v1",
+  "status": "PROVED_GLOBAL_FIRST_CANONICAL_COFACTOR_ZERO_RATE_NO_GO",
+  "strict_scope": {
+    "actual_target_claim_from_finite_rows": false,
+    "canonical_files_modified": false,
+    "closes": [
+      "the primitive top quotient as a positive-mass reservoir",
+      "zero-top stripping followed by the first nonzero adjacent cofactor",
+      "fixed-cardinality bounded-degree polynomial-height boundary-cofactor portfolios",
+      "proper-target valuation mass supported only on those nonzero values"
+    ],
+    "does_not_close": [
+      "the original exact target or centered half-bound",
+      "growing-depth, growing-degree, or growing-height portfolios",
+      "exact target-specific sign or nonvanishing contradictions",
+      "full-word lower-coordinate arithmetic or complement redigitization",
+      "proper-target residue lower bounds, beta capacity, Route 1, or e+pi"
+    ],
+    "finite_rows_promoted": false
+  },
+  "theorem": {
+    "actual_target_implication": "PROVED",
+    "adjacent_load_cofactor_formula": "PROVED",
+    "canonical_complement_redigitization": "OPEN",
+    "canonical_first_survivor_nonzero": "PROVED",
+    "centered_half_bound": "OPEN",
+    "first_survivor_height_below_A_squared": "PROVED",
+    "fixed_complexity_cofactor_algebra_zero_rate": "PROVED SCOPED NO-GO",
+    "growing_complexity_portfolio": "OPEN",
+    "proper_target_prime_power_mass_zero_rate": "PROVED",
+    "top_defect_quotient": "PROVED"
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "beta_unit": {
+    "classification": "SYMBOLIC EXACT ALL ACTUAL ROWS",
+    "compulsory_content_removed": "beta_r only; removing it changes no actual prime support",
+    "conclusion": "v_p(beta_r)=0 and C_r=0 mod p iff K_r=0 mod p",
+    "formula": "beta_r=-3*(r+1)!/[2*(2r+3)*(-r/3)_(r+1)]",
+    "nonzero_factors": "actual rows have 3 not dividing r; the rising factors are (3j-r)/3 for 0<=j<=r and are nonzero",
+    "range": "abs(3j-r)<=2r<p and r+1<2r+3<p; constants 2,3 and 2r+3 are p-units"
+  },
+  "capacity_first": {
+    "classification": "PROVED ACCOUNTING AND SCOPED NO-GO",
+    "exact_target": "weighted log support of primes dividing the gcd of the old gate and the cleared actual-period residual on fixed-M rows",
+    "fixed_M_relation": "2*M=5*r+14*s+7",
+    "height_no_go": "P-recursiveness or individual O(M log M)-type numerator height does not imply an o(M) bound for the gcd support over O(M) tied rows",
+    "minor_only_no_go": "on ell or m nondegenerate charts, eliminating Z from the full minor tower returns only (D); no second coefficient-only divisor exists",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "old_gate": "H_r*(18*2^(2s)*a_r+11*b_r)",
+    "overlap": "the second condition lives strictly inside D=0 and cannot be added as independent raw capacity",
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "second_integer_condition": "Q_(r,s)^4*(ell_r*Z_actual+11*C_r), with Q a p-unit as in Item318"
+  },
+  "dependencies": {
+    "results/item237_j1_algebraic_residual_certificate.json": "eba1519f4d376d442f396048528190b474cc5464bbe42c3bdf31a9bdaf39dd6b",
+    "results/item250_j2_ordinary_phase_certificate.json": "6f8d0165448dd8949436649e2824a14578c1bce08e8875a6fd88f770c72cb5e3",
+    "results/item291_j2_connection_plane_certificate.json": "831cd4c74b10555c261eccebef7fd9c5a871bcef97a43d52e77c731b9b7188b5",
+    "results/item314_j2_two_branch_gate_certificate.json": "77de2dd46726a5a48e9adc4e40f96341d5da6c8db304d79f0ef8eeb7807245b1",
+    "results/item315_j2_resultant_arithmetic_certificate.json": "09fdd67a6535a043bcbd1e2a46c4b14a633b9928a5f1c65618c34fab65cfabb6",
+    "results/item318_j2_actual_period_plucker_certificate.json": "75e84016af2c7580f1954f795ed080d25083345578558aae49f6df4253891fd7",
+    "scripts/item237_j1_algebraic_residual_certificate.py": "f89047396e3f6b4644cf0194b7716dfad91b3eb41de7b88c9377cf3e81d09dcf",
+    "scripts/item250_j2_ordinary_phase_certificate.py": "2364a9e9c9be0ea0827c2b12137883ad326d77017a53bb4f242be300335e90ce",
+    "scripts/item291_j2_connection_plane_certificate.py": "5c86001827b0012605563b04dafc5f157f27fddf2f1625254e9196bc0de8c2df",
+    "scripts/item314_j2_two_branch_gate_certificate.py": "cc5f155e5f3248c500cd2101e401c25cec37ce43b31fbb4582843fc33a9b2f0e",
+    "scripts/item315_j2_resultant_arithmetic_certificate.py": "42def823c42497fa9ce4c5513c348464511a56cc6ff12480bec60408c9733b81",
+    "scripts/item318_j2_actual_period_plucker_certificate.py": "334bade7313a2fb750874dfd53216cd5f1028afbc837473cdd19b365ca820e82"
+  },
+  "elimination": {
+    "classification": "SYMBOLIC EXACT LAURENT-CHART ELIMINATION",
+    "conclusion": "on either nondegenerate chart, every coefficient-only resultant obtained by eliminating the actual period is inherited from D",
+    "definitions": {
+      "D": "9*c*ell-11*m",
+      "E_b": "ell*Z+11*C",
+      "E_d": "m*Z+9*c*C"
+    },
+    "ell_chart": {
+      "E_d_after_substitution": "C*D/ell",
+      "elimination_ideal": "(D,E_b,E_d) intersect R[ell^(-1)] = (D)",
+      "substitution": "Z=-11*C/ell"
+    },
+    "m_chart": {
+      "E_b_after_substitution": "-C*D/m",
+      "elimination_ideal": "(D,E_b,E_d) intersect R[m^(-1)] = (D)",
+      "substitution": "Z=-9*c*C/m"
+    },
+    "ring": "R=k[c,ell,m,C], with Z adjoined",
+    "scope_warning": "this does not remove the actual-period residual; it proves that one must retain arithmetic information about Z to get a second condition",
+    "syzygy": "ell*E_d-m*E_b=C*D"
+  },
+  "item": 319,
+  "minor_factorization": {
+    "chains": {
+      "connection_sums": "S_0=sum K0_l*(y_(l+1)+y_(l+3)), S_1=sum K1_l*y_l; Delta uses eta in the same two sums",
+      "eta_even": "eta_(2t)=0",
+      "eta_odd": "eta_1=1 and eta_(k+2)=-(qbar+k)*eta_k/(3*qbar+k)",
+      "y_even": "y_0=0 and (qbar+k)y_k+(3qbar+k)y_(k+2)=1",
+      "y_odd": "y_(2r+3)=0 with the same recurrence solved backward"
+    },
+    "classification": "SYMBOLIC EXACT ALL r ON BOTH ACTUAL RAYS",
+    "modular_warning": "the quotient is never used when p divides ell or a_r",
+    "old_minors": {
+      "ell": "2*sigma*a_r",
+      "m": "-sigma*b_r",
+      "sigma": "g_n*kappa_e/16^n for r=6n+e, e in {1,5}",
+      "unit": "Item314 proves sigma is a p-unit on every actual row"
+    },
+    "quotient_on_ell_chart": "C/ell=(beta/(2*sigma))*(K/a_r)",
+    "third_minor": {
+      "C": "beta_r*K_r",
+      "Delta": "the normalized d connection vector from the homogeneous eta-chain",
+      "K": "S_0*Delta_1-S_1*Delta_0",
+      "S": "the b+d connection vector from the canonical inhomogeneous y-chain",
+      "beta": "-3*(r+1)!/[2*(2r+3)*(-r/3)_(r+1)]"
+    }
+  },
+  "replay": {
+    "classification": "EXACT FINITE REPLAY OF ALL-r THEOREMS",
+    "operator_reuse": {
+      "classification": "PROVED EXACT COUNTEREXAMPLES TO FIVE SPECIFIC REUSE ANSATZE",
+      "conclusion": "C, 16^n*C, C/sigma, and K do not directly reuse the certified Item291/237 operator in any of the displayed natural gauges",
+      "rows": [
+        {
+          "indices": [
+            1,
+            7,
+            13,
+            19
+          ],
+          "residuals": {
+            "Item237_on_C_over_sigma": {
+              "denominator_digits": 30,
+              "nonzero": true,
+              "numerator_digits": 43,
+              "sha256": "2955f058e4d1a86f1fae81d7b393179f05f135c2398e9336cd9bbcb3abe5c867"
+            },
+            "Item237_on_K": {
+              "denominator_digits": 29,
+              "nonzero": true,
+              "numerator_digits": 43,
+              "sha256": "5d0b62c97c52ce391784ad56764371823ecd8c6281b1f4981351a3ce69b9bd03"
+            },
+            "Item237_scaled_on_C_over_sigma": {
+              "denominator_digits": 33,
+              "nonzero": true,
+              "numerator_digits": 44,
+              "sha256": "fbe17624f59ec053a6ae58edb61d3524498b2d7ce9819ea244775d545de24766"
+            },
+            "Item291_on_16^n_C": {
+              "denominator_digits": 26,
+              "nonzero": true,
+              "numerator_digits": 41,
+              "sha256": "214fad4bfc30ef91b232df2a8af0cba272735b91566335dd1fd1eeea9e074f54"
+            },
+            "Item291_on_C": {
+              "denominator_digits": 30,
+              "nonzero": true,
+              "numerator_digits": 42,
+              "sha256": "5c5e9a185d4ea1be10e3c35bee8096a6bc99d88c35e2225a9d404b37edf90382"
+            }
+          },
+          "residue": 1
+        },
+        {
+          "indices": [
+            5,
+            11,
+            17,
+            23
+          ],
+          "residuals": {
+            "Item237_on_C_over_sigma": {
+              "denominator_digits": 36,
+              "nonzero": true,
+              "numerator_digits": 51,
+              "sha256": "58f24841c201594069d7ed72243337f3588424cd39b1a0130c94b5f5dc1050ab"
+            },
+            "Item237_on_K": {
+              "denominator_digits": 35,
+              "nonzero": true,
+              "numerator_digits": 51,
+              "sha256": "ab60bd549575bb5a92cc4c06da97474970fcc4002e75f331fbfbc5204c54924b"
+            },
+            "Item237_scaled_on_C_over_sigma": {
+              "denominator_digits": 40,
+              "nonzero": true,
+              "numerator_digits": 53,
+              "sha256": "1a5082a3c9c9637765609ebd43cfdd41147a1330ffb6a063a487196c02147510"
+            },
+            "Item291_on_16^n_C": {
+              "denominator_digits": 29,
+              "nonzero": true,
+              "numerator_digits": 47,
+              "sha256": "b2d5911f1acd0f5343acf055b7abd0570b458569beaa2dccbbd7fff436668d10"
+            },
+            "Item291_on_C": {
+              "denominator_digits": 33,
+              "nonzero": true,
+              "numerator_digits": 50,
+              "sha256": "1a1bb279c07c4cc3d6ba4ef549076d908fe2e9c4995ce6bdbe80d6fafa2f6fce"
+            }
+          },
+          "residue": 5
+        }
+      ],
+      "warning": "this does not exclude a different higher-order recurrence or algebraic realization"
+    },
+    "r_max": 53,
+    "row_stream_sha256": "1bcac17ba392fdbff00a5d8c8f83fb0d99c3eff4e71866dba4550fdeb1d011dd",
+    "rows": 18,
+    "warning": "the replay is not the proof of the chain factorization or elimination theorem"
+  },
+  "schema": "item319-j2-third-minor-elimination-certificate-v1",
+  "scope": "all-r third-minor arithmetic and period-elimination no-go",
+  "strict_labels": {
+    "EXACT_FINITE_REPLAY": [
+      "the declared r<=53 identity replay"
+    ],
+    "OPEN": [
+      "a different global recurrence or algebraic realization for K_r",
+      "weighted gcd support for the actual-period residual on fixed-M rows",
+      "any reduction of the 1/105 ceiling"
+    ],
+    "PROVED": [
+      "the inherited all-r ell and m normalizations",
+      "C_r=beta_r*K_r with explicit canonical chains",
+      "beta_r is a p-unit on every actual row",
+      "both Laurent-chart elimination ideals equal the old determinant ideal",
+      "exact counterexamples to five direct old-operator reuse ansatze",
+      "zero booking"
+    ]
+  }
+}

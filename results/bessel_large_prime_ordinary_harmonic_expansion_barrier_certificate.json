@@ -1,0 +1,156 @@
+{
+  "countermodel_grid": {
+    "examples": [
+      {
+        "A": 2,
+        "coefficient_height": 20,
+        "exceptional_parameter": -1,
+        "exceptional_valuation": 2,
+        "four_value_product_valuation": 5,
+        "prime": 5
+      },
+      {
+        "A": 5,
+        "coefficient_height": 161040,
+        "exceptional_parameter": -1,
+        "exceptional_valuation": 5,
+        "four_value_product_valuation": 8,
+        "prime": 11
+      },
+      {
+        "A": 11,
+        "coefficient_height": 952809757913904,
+        "exceptional_parameter": -1,
+        "exceptional_valuation": 11,
+        "four_value_product_valuation": 14,
+        "prime": 23
+      }
+    ],
+    "four_value_product_checks": 92,
+    "height_checks": 92,
+    "hierarchy_checks": 2576,
+    "hierarchy_k_max": 7,
+    "model_instance_count": 92,
+    "odd_difference_checks": 1196,
+    "permitted_layer_checks": 184,
+    "prime_bound_exclusive": 44,
+    "reflection_checks": 644,
+    "scope_note": "Finite checks illustrate the symbolic linear-polynomial proof. The countermodel is not a Bessel-recurrence solution and does not constrain the exact harmonic coefficients.",
+    "valuation_and_slope_checks": 736
+  },
+  "description": "Deterministic exact replay of the finite symmetric-harmonic large-prime Bessel expansion and the ordinary-path countermodel.",
+  "frozen_dependencies": {
+    "sources/bessel_all_even_antiperiod_higher_threshold_exclusivity.md": "c0c834ca8851ddc8dba9edbc9ec74461c0d3aa1b553f79c2320b3d083a0c37de",
+    "sources/bessel_large_prime_four_point_exclusivity.md": "1e8fed0a5ab04c97c4e0749d40304d6398f9fd32d55c7b49085fb4b4ecca4e41",
+    "sources/bessel_large_prime_unit_cancellation_frontier.md": "baa384012e6f56f3437de42eb7614e0475763a883529fbfda97120497c97b11d"
+  },
+  "harmonic_expansion_grid": {
+    "base_orbit_expansions": 20,
+    "first_layer_polynomial_checks": 3,
+    "four_value_reconstructions": 80,
+    "ordinary_root_count": 3,
+    "p_integral_denominator_checks": 19740,
+    "prime_bound_exclusive": 14,
+    "range_checks": 355,
+    "roots": [
+      {
+        "c_mod_p": 1,
+        "delta_mod_p": 5,
+        "first_layer_exact": [
+          {
+            "denominator": 1,
+            "numerator": 0
+          },
+          {
+            "denominator": 1,
+            "numerator": -91758
+          },
+          {
+            "denominator": 1,
+            "numerator": -91728
+          }
+        ],
+        "layer_count": 22,
+        "maximum_layer_index": 21,
+        "ordinary": true,
+        "prime": 7,
+        "reflection": 4,
+        "root": 2,
+        "second_layer_mod_p": [
+          0,
+          4,
+          4,
+          5
+        ],
+        "square_parameters": []
+      },
+      {
+        "c_mod_p": 3,
+        "delta_mod_p": 1,
+        "first_layer_exact": [
+          {
+            "denominator": 1,
+            "numerator": 0
+          },
+          {
+            "denominator": 1,
+            "numerator": -366762215874
+          },
+          {
+            "denominator": 1,
+            "numerator": -366762211200
+          }
+        ],
+        "layer_count": 34,
+        "maximum_layer_index": 33,
+        "ordinary": true,
+        "prime": 11,
+        "reflection": 6,
+        "root": 4,
+        "second_layer_mod_p": [
+          0,
+          0,
+          5,
+          1
+        ],
+        "square_parameters": []
+      },
+      {
+        "c_mod_p": 12,
+        "delta_mod_p": 12,
+        "first_layer_exact": [
+          {
+            "denominator": 1,
+            "numerator": 0
+          },
+          {
+            "denominator": 1,
+            "numerator": -73811833896594
+          },
+          {
+            "denominator": 1,
+            "numerator": -73811833804800
+          }
+        ],
+        "layer_count": 42,
+        "maximum_layer_index": 41,
+        "ordinary": true,
+        "prime": 13,
+        "reflection": 8,
+        "root": 4,
+        "second_layer_mod_p": [
+          0,
+          1,
+          3,
+          12
+        ],
+        "square_parameters": [
+          -1
+        ]
+      }
+    ],
+    "scope_note": "This finite grid checks the symbolic expansion; it is not used to infer a valuation bound. All roots in the default grid are ordinary.",
+    "termwise_polynomial_checks": 355
+  },
+  "scope_warning": "The expansion is an exact all-prime identity. The finite grid only replays it. The countermodel proves that the listed local hierarchy and height inputs alone cannot yield a sublinear ordinary exponent; it does not satisfy the Bessel recurrence."
+}

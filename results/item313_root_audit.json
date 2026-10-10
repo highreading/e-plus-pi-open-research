@@ -1,0 +1,49 @@
+{
+  "schema": "item313-root-audit-v1",
+  "item": 313,
+  "auditor": "root",
+  "date": "2026-08-31",
+  "verdict": "PASS AS AN ALL-LENGTH 2-ADIC DIVISOR EXCLUSION, WEAKER ACTUAL-REMAINDER BOUND, EXPLICIT INTERMEDIATE-WINDOW WARNING, AND ZERO BOOKING",
+  "package": {
+    "manifest_files_checked": 5,
+    "manifest_file_hash_mismatches": 0,
+    "frozen_dependencies_checked": 8,
+    "manifest_dependency_hash_mismatches": 0,
+    "hash_list_entries_checked": 6,
+    "hash_list_mismatches": 0,
+    "canonical_replay_byte_identical": true,
+    "canonical_root_replay_byte_identical": true,
+    "canonical_replay_and_root_sha256": "ba2e32e504e69681c2c253033d8f44624feca815dda7b51085bf15f067699a9a",
+    "report_sha256": "c926d95a976738fb9aff8d7d01d10f4f1caa316d394ffc00be5f9879bf5e7406",
+    "script_sha256": "e1f96d21b62484c126f03130c751f050caa9e9e264d5a07f0792fee05b119a1c",
+    "ledger_sha256": "2ba8379f5dbeef90860e54204c490b648edfd494bd7ac8cbe24299012598a94a",
+    "manifest_sha256": "d4f64359867242374fb484bede17a1031c6c4cc41c5088ecddb861d4c745b94c",
+    "hash_list_sha256": "8ce7df52bf2aa4d82ed951263522ae22bb9fffa04596d0d0276a0860a8915970"
+  },
+  "independent_mathematical_checks": {
+    "overlap_and_size": "PASS: the exact continuant split gives VZ=gY+eta X with 0<eta<V; the assumed size bound excludes L=2 and yields the strict Legendre error gY/(VX)<1/(2V^2).",
+    "legendre_endpoints": "PASS: 0/1, the exact terminal convergent, and the alternate finite-expansion endpoint are separately excluded. The remaining convergent has an even proper prefix and gives aHY=VCTheta with no negative-index convention.",
+    "mod8_bridge": "PASS: all four relevant even-length even-entry continuants are 1 mod 4. If L=2 mod 4, q_(j+L)/q_j is 7 mod 8 but the continuant ratio is 1 or 5 mod 8; hence every hypothetical branch has 4|L.",
+    "transfer_induction": "PASS: direct length-four reduction, multilinear shift modulo 8h, nilpotence N_r^2=0, doubling, and odd block powers prove F_L(r)=I+L*N_r modulo 4*2^v2(L) for every 4|L.",
+    "denominator_shift": "PASS: transposed recurrence transport and q_j+(-1)^(j+1)q_(j-1)=2 mod 4 give v2(q_(j+L)-q_j)=v2(L)+1.",
+    "four_continuants": "PASS: exact matrix inversion gives Theta=H*F_22-A_21*F_12 and therefore CTheta-HY=2^v2(L) mod 2^(v2(L)+1), including the empty-tail endpoint.",
+    "contradiction": "PASS: (a-V)HY=V(CTheta-HY) has valuations v2(L)+1 and v2(L), since V,H,Y are odd. Thus the Item311 divisor branch is impossible.",
+    "scope": "PASS: Item311 now yields R_actual>=a/(2c), not R_actual>=a/2. The full intermediate interval remains open, so no beta capacity or Route-1 rate is booked."
+  },
+  "format": {
+    "report_bytes": 13068,
+    "report_lines": 702,
+    "forbidden_control_characters": 0,
+    "inline_math_open": 112,
+    "inline_math_close": 112,
+    "display_math_open": 71,
+    "display_math_close": 71
+  },
+  "capacity": {
+    "new_route1_rate": 0,
+    "new_beta_capacity_reduction": 0,
+    "closed_lemma": "Item311's appended-tail divisor implication and the entire R_actual<a/(2c) Legendre window",
+    "smallest_remaining_problem": "exclude or classify the intermediate window a/(2c)<=R_actual<a/2 by a seed-specific modular-square or Ostrowski theorem",
+    "route_status": "ACTIVE"
+  }
+}

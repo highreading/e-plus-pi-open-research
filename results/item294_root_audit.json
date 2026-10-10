@@ -1,0 +1,41 @@
+{
+  "schema": "item294-root-audit-v1",
+  "item": 294,
+  "auditor": "root",
+  "date": "2026-08-31",
+  "verdict": "PASS WITH OPERATOR/SEQUENCE DISTINCTION PRESERVED",
+  "package": {
+    "manifest_files_checked": 6,
+    "frozen_dependencies_checked": 6,
+    "manifest_or_dependency_hash_mismatches": 0,
+    "hash_list_entries_checked": 7,
+    "hash_list_mismatches": 0,
+    "canonical_root_replay_byte_identical": true,
+    "canonical_and_root_replay_sha256": "5a451e4d0b0069e59c4bff84dbaf37e578c654627765f1683a5e0ae4f3977353",
+    "report_sha256": "b3127e60bef3855e9661f06821c783bfe10f6b7a05fae1ee0d670d9c638634b0",
+    "script_sha256": "ce77a8f1f4cec49ab383659957c19ee7f42795fe8f4e7938ca54f95f99d0f1a7",
+    "ledger_sha256": "c862bf4d64518b5292224baa5572fafa832fabc9a1ddbf705311bf6b7c6e8e42",
+    "manifest_sha256": "e5b84ea059a2c07608277b4d42064495eb4d6f181bddefbf07287bc31c229c7d"
+  },
+  "independent_mathematical_checks": {
+    "operator_conjugacy": "PASS: the six cleared polynomial identities compare successive coefficient ratios, which is exactly the gauge condition needed to identify the two four-term operators up to a common row scalar.",
+    "half_integer_restriction": "PASS: Item237's coefficient recurrence is evaluated at h=m/2, so odd coefficient indices m=6n+e legitimately give h=3n+e/2 without interpolation.",
+    "sequence_membership_scope": "PASS: equality of operators does not imply that L_n or 16^n M_n lies in the kernel. The M bridge is explicitly finite-only and the two nonzero determinants exclude only reuse of the single already-certified coefficient line for normalized L.",
+    "gauge_singularities": "PASS: every gauge denominator factor is a p-unit on p=2r+6s+3; the two possible numerator equalities are exactly s=1 and s=2. The six displayed primitive-forward factors give s=1 through s=6, while the remaining quintic is deliberately uncontrolled.",
+    "capacity_scope": "PASS: no collision-forced divisor, sequence annihilation theorem, Frobenius realization, or weighted-density estimate is claimed."
+  },
+  "format": {
+    "report_bytes": 8018,
+    "report_lines": 260,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "display_math_open": 17,
+    "display_math_close": 17
+  },
+  "capacity": {
+    "retained_ordinary_j2_capacity_per_6m": "1/105",
+    "new_route1_rate": 0,
+    "new_capacity_reduction": 0,
+    "ledger_changed": false
+  }
+}

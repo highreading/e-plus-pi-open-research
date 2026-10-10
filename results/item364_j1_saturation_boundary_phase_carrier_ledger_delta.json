@@ -1,0 +1,98 @@
+{
+  "item": 364,
+  "schema": "item364-j1-saturation-boundary-phase-carrier-ledger-v1",
+  "classification": "PROVED_PHASE_CARRIERS_AND_SCOPED_RECURRENCE_HEIGHT_BARRIER",
+  "dependencies": {
+    "sources/item218_j1_common_log_report.md": "2cabc5a705a974d6989718e24443b59c00715fd4e9aff288e0e17b297096d585",
+    "scripts/item218_j1_common_log_certificate.py": "a238c5ca37263f2553da47bf3f21253aedf1c34f8c57458a4a274fc6cdc9029a",
+    "results/item218_j1_common_log_certificate.json": "963bbb8a9758e55ede72f965693d21fc41aa70d44e2d981d5873685c3f08ea0f",
+    "results/item218_j1_common_log_manifest.json": "e1c6c3d713670c819b5f27b1005db26f9b804ec8ee0766671928fc30c1ff6d8d",
+    "sources/item360_j1_full_gate_transverse_period_report.md": "4468412fb8631924952dc7f70fc4e75433a7524954b89525de508e55feefc8c4",
+    "scripts/item360_j1_full_gate_transverse_period_certificate.py": "84cabfb296a0892e620f252a1c413648c30664c8667245bd6fe444095bcad7e0",
+    "results/item360_j1_full_gate_transverse_period_certificate.json": "a3f9e5b8e55b0a36bf7aef18fd1b81010eef0e8b9c8ade05995e2c4a25f9084d",
+    "results/item360_j1_full_gate_transverse_period_root_audit.json": "7a23e487b4d70d63f9785339344bdc00ae0e8350bcf1d8b1fcf6228c230e5138",
+    "manifests/item360_j1_full_gate_transverse_period_manifest.json": "92f88a56162f3803b8699922da921333f5225c41a32d14c87641dd53c3f8b55b"
+  },
+  "actual_family": {
+    "parameters": "p=4h+6s+3, M=3h+4s+2, h,s>=1",
+    "fixed_M_map": "h=3M-2p, p=(3M-h)/2",
+    "full_gate": "f0=2x-lambda*y=0 and f1=2alpha*u-beta*lambda*v=0",
+    "raw_mass_per_M": "1/6",
+    "full_ceiling_per_6M": "1/36"
+  },
+  "boundary_meaning": {
+    "xy": "H0(T)=H0(L0)=0 separately; the full gate still requires f1=0",
+    "uv": "H1(T)=H1(L1)=0 separately; the full gate still requires f0=0",
+    "overlap_rule": "the two boundaries and the nonboundary chart are subsets of one full gate and are not additive"
+  },
+  "phase_carriers": {
+    "phase": "sigma_h=-(4h+3)/6 and s=sigma_h mod p",
+    "composite_rays": "3|h forces composite p>3",
+    "values": "(x,y,u,v)=(X_h,Y_h,U_h,V_h) mod p",
+    "G0": "gcd(abs(num X_h),abs(num Y_h)), with gcd(0,0)=0",
+    "G1": "gcd(abs(num U_h),abs(num V_h)), with gcd(0,0)=0",
+    "implication": "xy boundary implies p|G0; uv boundary implies p|G1",
+    "exact_zero_strata": "G_i=0 means the corresponding rational phase pair vanishes exactly and is retained separately",
+    "fixed_finite_h_rate": 0
+  },
+  "h2_degenerate_face": {
+    "kernel": "K1=(1-z^2)^4",
+    "v": "0 identically",
+    "u": "4(64s^2+80s+27)/(9(3s+1)(3s+2))",
+    "tied_phase": "U_2=13744/5103=16*859/(3^6*7)",
+    "exclusion": "859 is prime and 1 mod 6, but p=6s+11 is 5 mod 6",
+    "actual_uv_boundary": false
+  },
+  "fixed_strip": {
+    "range": "1<=h<=8",
+    "classification": "PROVED ALL-s; NOT A PRIME SCAN",
+    "xy_boundary": false,
+    "uv_boundary": false,
+    "rate": 0
+  },
+  "height_and_recurrence_scope": {
+    "actual_pointwise_height": "O(h log(h+2))",
+    "direct_aggregate_bound": "O(M^2 log M)",
+    "required_bound": "o(M)",
+    "comparison": "C_h=(18h)!/(4h)! has an order-one rational recurrence and O(h log h) height",
+    "comparison_bulk": "M/12<=h<=M/3, where every actual p divides C_h",
+    "comparison_bulk_mass": "M/8+o(M), or 1/48 per 6M",
+    "closed_method_class": "generic recurrence order plus pointwise height without target-specific arithmetic",
+    "not_closed": "unit Casoratians, large-prime-factor restrictions, and average gcds for the actual carriers"
+  },
+  "remaining_target": {
+    "exact_zero_sets": "Z0={h:X_h=Y_h=0 in Q}, Z1={h:U_h=V_h=0 in Q}",
+    "weighted_goal": "sum_h log(p_h)*(1_(h in Z0 union Z1)+1_(G0*G1!=0)*1_(p_h|G0*G1))=o(M)",
+    "status": "OPEN"
+  },
+  "capacity": {
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "retained_full_fixed_j1_ceiling_per_6M": "1/36",
+    "reason": "no weighted theorem for unbounded h and boundaries are not additive to the full gate"
+  },
+  "master_ledger": {
+    "booked_r1_unchanged": "0.1365141682948128184504238226...",
+    "threshold_T_unchanged": "1.1561471519642446123307302239...",
+    "deficit_unchanged": "1.0196329836694317938803064012..."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "endpoint-tail meaning and residual full-gate conditions",
+      "tied-phase carrier implications with exact-zero stratification",
+      "fixed-finite-h zero rate",
+      "h=2 degenerate-face exclusion",
+      "complete all-s boundary exclusion through h=8",
+      "pointwise height and generic recurrence-height barrier"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "six predeclared fixed-h controls and four comparison rows; no prime scan or census"
+    ],
+    "OPEN": [
+      "classification of exact-zero phase pairs",
+      "unbounded-h occurrence or nonoccurrence",
+      "weighted zero density for the actual carrier gcds",
+      "any strict fixed-j1 capacity reduction"
+    ]
+  }
+}

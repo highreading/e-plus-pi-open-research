@@ -1,0 +1,39 @@
+{
+  "status": "PASS_FORMAL_IDENTITIES",
+  "scope": "Symbolic coefficient, alternating-form, common-factor, and b=1/b=2 compatibility checks. No actual degree evaluation or prime computation.",
+  "checks": {
+    "Rodrigues_coefficient_normalization": true,
+    "high_row_factorial_index": true,
+    "monic_high_row_scalar": true,
+    "universal_endpoint_Y": true,
+    "universal_endpoint_X_with_Wronskian": true,
+    "complete_partial_exponential_contraction": true,
+    "second_kind_coefficient_determinant": true,
+    "scalar_content_denominator_factor": true,
+    "scalar_content_full_numerator_factor": true,
+    "signed_integer_minor_expansion": true,
+    "high_row_contents_factor_from_every_endpoint": true,
+    "b2_sigma": true,
+    "b2_C": true,
+    "b2_kappa_retains_H_times_omega": true,
+    "b2_original_V_factor": true,
+    "b2_original_complete_X_factor": true,
+    "b2_original_D_factor": true,
+    "b1_empty_block_orientation": true
+  },
+  "normalized_quotient": {
+    "D": "(n+1) P_(n+1) c - 2 P_n sigma",
+    "Q": "2 w_P sigma - (n+1) w_U c",
+    "V": "sigma Acal_n - c Bcal_n - kappa",
+    "ratio": "(Q + 2^(n+1) V/(n!)^2)/D"
+  },
+  "paper_proofs_required": [
+    "Extension of elementary endpoint formulas to all 0<=j<=b<=n.",
+    "Integer derivative entries and divisibility E_(k,r) by k for r>=1.",
+    "Cancellation of row contents, maximal-minor content, and scalar contraction content.",
+    "Explicit rational clearer and exact final endpoint gcd."
+  ],
+  "no_growing_degree_nonvanishing_claim": true,
+  "independent_researcher_review": false,
+  "checker_sha256": "8256b72e6cd4dbe0f1db25a6c95210fd98c7aea3844c4ee5aeafed22ae5bd6b8"
+}

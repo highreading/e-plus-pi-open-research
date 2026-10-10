@@ -1,0 +1,63 @@
+{
+  "item": 342,
+  "schema": "item342-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_EXACT_FINITE_FIELD_KUMMER_LIFT_AND_SCOPED_FOURIER_WEIL_NO_GO",
+  "scope": "independent root audit of the positive-power Frobenius chart, coefficient isolation, Euler de-aliasing, Kummer lift, and the stated Archimedean-versus-chosen-prime barrier",
+  "checks": {
+    "certificate_sha256": "4cf10e1d035dcd18a134e5f1b00e54a34ae1b3833a2863b54212da9fcccf49d9",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_sha256": "bb358874fdec4e655bb31f7d0dd7decc2bbff553e0a77a33cb78f66f4eea5fec",
+    "work_manifest_artifacts_match": true,
+    "frozen_dependencies_checked": 6,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 6,
+    "work_hash_list_match": true,
+    "declared_control_rows": 5,
+    "independent_actual_stress_rows": 128,
+    "independent_stress_range": "1<=h,s<=17, prime tied rows only",
+    "density_inference_from_controls": false,
+    "G_discriminant": -16,
+    "resultant_G_thetaG": 64,
+    "resultant_G_theta2G": 1600,
+    "report_inline_delimiters": "126/126",
+    "report_display_delimiters": "40/40",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "frobenius": "G^(-r)=G^(p-r)/G(u^p) in the formal series ring, and n<p makes the coefficient bridge exact",
+    "aliasing": "D=2p+2n places exactly n, n+p-1, and n+2(p-1) in range; the next congruent index exceeds D",
+    "extension_field": "D<p^2-1 for the actual rows, so the F_(p^2) moment isolates the target coefficient but has natural square-root scale p",
+    "dealiasing": "Euler powers evaluate the three aliases at the distinct nodes n,n-1,n-2 modulo p, and the displayed Lagrange polynomial recovers c_n",
+    "Kummer_support": "for actual p>=13, G is separable and has no common zero with theta G or theta^2 G; the four rational functions have the stated bounded supports and are not (p-1)-st powers",
+    "chosen_prime": "p splits completely in Q(zeta_(p-1)); target vanishing places the lift in only one prime above p, while the conjugate bound yields a norm ceiling vastly above p",
+    "scope_warning": "the result proves that the displayed black-box complex bounds alone do not imply a p-adic unit; it does not exclude p-adic monodromy, descent, trace-zero density, or any other arithmetic input"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "positive-power chart",
+      "three-alias theorem",
+      "F_(p^2) isolation",
+      "Euler de-aliasing",
+      "fixed-support Kummer lift",
+      "scoped Fourier/Weil barrier",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "five declared controls and 128 independent stress rows"
+    ],
+    "OPEN": [
+      "chosen-prime p-adic nonconcentration",
+      "bounded-degree descent and trace nonvanishing",
+      "W_b(M)=o(M)",
+      "any strict reduction of 1/36"
+    ]
+  },
+  "capacity": {
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

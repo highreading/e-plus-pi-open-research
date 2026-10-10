@@ -1,0 +1,98 @@
+{
+  "item": 336,
+  "schema": "item336-j2-carrier-resultant-obstruction-ledger-v1",
+  "classification": "PROVED_RESULTANT_COLLAPSE_AND_CARRIER_INFORMATION_CLASS_NO_GO",
+  "actual_family": {
+    "fixed_M_relation": "2M=5r+14s+7",
+    "prime_interval_exact": "(4M+3)/5 <= p <= (6M-1)/7",
+    "inverse_map": {
+      "m": "(5p-4M-3)/2",
+      "d": "6M-7p+4",
+      "r": "6M-7p",
+      "s": "m+1"
+    },
+    "raw_chebyshev_mass": "(2/35)M+o(M)",
+    "raw_capacity_per_6M": "1/105"
+  },
+  "actual_carrier": {
+    "definition": "G_(r,s)=gcd(abs(num(D)),abs(num(T_0)),abs(num(T_1)))",
+    "rowwise_equivalence": "p is an original collision iff p divides G_(r,s)",
+    "weighted_target": "W_G(M)=sum_(actual p with p|G_(r,s)) log p",
+    "required_closure": "W_G(M)=o(M)",
+    "status": "OPEN"
+  },
+  "resultant": {
+    "affine_pair": "T_nu(X)=K*f_nu*X+(-1)^m*(f_nu*B_s*tau_(r,s)-U_nu)",
+    "K": "9*kappa_r*B_s/2, an actual-row p-unit",
+    "exact_formula": "Res_X(T_0,T_1)=(-1)^(m+1)*K*D",
+    "prime_support": "resultant divisibility at the tied prime is exactly old determinant divisibility",
+    "subresultant_chain": "leading coefficients K*f_0,K*f_1 and the same resultant",
+    "new_divisor": false
+  },
+  "comparison_carrier": {
+    "definition": "G_tilde_(M,p)=p on each actual tied row",
+    "pointwise_height": "O(log M)",
+    "squarefree": true,
+    "pairwise_coprime_on_prime_rows": true,
+    "grid_recurrence": "G_tilde_(j+2)-2*G_tilde_(j+1)+G_tilde_j=0",
+    "weighted_mass": "(2/35)M+o(M), the full raw 1/105-per-6M ceiling",
+    "classification": "information-class comparison only; not the actual carrier"
+  },
+  "scoped_no_go": {
+    "closed_inputs_as_sufficient_by_themselves": [
+      "affine resultants and subresultants in the formal Cartier target",
+      "bounded-order or constant-coefficient recurrence metadata",
+      "pointwise polylogarithmic height",
+      "squarefreeness and pairwise carrier coprimality",
+      "carrier product identities without tied-prime localization"
+    ],
+    "not_closed": [
+      "actual target evaluation Phi_(r,s)",
+      "target-specific factor localization",
+      "average gcd or weighted zero density for G_(r,s)",
+      "a strict capacity ceiling improvement"
+    ]
+  },
+  "finite_counterexamples": {
+    "classification": "EXACT FINITE REPLAY ONLY",
+    "rows": [
+      [
+        17,
+        1,
+        2,
+        3
+      ],
+      [
+        29,
+        1,
+        4,
+        7
+      ],
+      [
+        331,
+        17,
+        49,
+        23
+      ],
+      [
+        599,
+        7,
+        97,
+        173
+      ]
+    ],
+    "conclusion": "the earlier finite bound G<=7 and factor set {3,7} do not persist",
+    "unboundedness_claim": false
+  },
+  "capacity": {
+    "raw_isolated_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  },
+  "master_ledger": {
+    "booked_r1_unchanged": "0.1365141682948128184504238226...",
+    "threshold_T_unchanged": "1.1561471519642446123307302239...",
+    "deficit_unchanged": "1.0196329836694317938803064012..."
+  },
+  "smallest_open_arithmetic_theorem": "prove tied-prime avoidance or o(M) weighted mass for p dividing the evaluated target-coupled carrier, using information beyond affine resultants, qualitative recurrences, height, and pairwise gcds"
+}

@@ -1,0 +1,67 @@
+{
+  "item": 363,
+  "schema": "item363-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_EXACT_FIXED_M_RADICAL_AND_GATE_ONLY_ELIMINATION_NO_GO",
+  "scope": "independent root audit of the actual fixed-M j1 Hasse-transverse pair, compulsory-prime de-overlap, boundary clearing, CRT radical, gate elimination, Frobenius form, and capacity scope",
+  "checks": {
+    "work_manifest_checks": 30,
+    "work_manifest_failures": 0,
+    "frozen_dependencies_checked": 25,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "declared_fixed_M_controls": 3,
+    "declared_candidate_rows": 6,
+    "independent_fixed_M_controls": 22,
+    "independent_candidate_rows": 25,
+    "independent_boundary_clearing_checks": 25,
+    "independent_quotient_bridge_checks": 50,
+    "independent_joint_radical_checks": 22,
+    "independent_symbolic_resultants": true,
+    "collision_census_or_density_inference": false,
+    "canonical_scope_repair": "made the Item197 height estimate explicitly conditional on C0(M) being nonzero; the unconditional raw ceiling remains in the zero case"
+  },
+  "mathematical_audit": {
+    "selector": "solving p=4h+6s+3 and M=3h+4s+2 gives h=3M-2p, s=(3p-4M-1)/2 and exactly the stated prime interval",
+    "compulsory_copy": "Item197 gives p|C0,C1 for every candidate; because P_M is squarefree, division by P_M removes one and only one compulsory copy globally",
+    "quotient_bridge": "C_nu/p=(P_M/p)*Cbar_nu and Item218 gives C_nu/p=6Q_nu, yielding the stated p-unit bridge",
+    "boundary": "multiplying the terminating Odd tail by (2s+h+2)_h gives the displayed integer Y; every denominator factor is positive and below p",
+    "union": "on f0=0 the syzygy becomes 2H=-y*f1, so the joint pair is exactly the union of the full gate and the y-boundary",
+    "radical": "CRT transfers Y_(h_p,s_p) to Z_M primewise; squarefreeness of P_M makes the gcd equal the lcm of the full and boundary radicals",
+    "resultants": "direct symbolic elimination gives Res_y(f0,H)=x*f1 and Res_x(f0,H)=-y*f1; a dense nonzero chart proves the parameter contraction is zero",
+    "frobenius": "the integral Fermat-defect polynomial has coefficient (-1)^(k-1)/k below p and reproduces Q0 itself, not a third coordinate",
+    "scope_warning": "CRT can encode any zero pattern below P_M, so its raw-scale height and the existing conditional coefficient bound yield no weighted saving"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "fixed-M compulsory-prime de-overlap and quotient bridge",
+      "integral p-unit boundary clearing",
+      "exact joint primewise criterion and CRT/gcd radical",
+      "full/boundary lcm decomposition",
+      "gate-only resultant and parameter-elimination no-go",
+      "finite-log Frobenius rewrite",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "declared and independent algebraic controls; no density inference"
+    ],
+    "OPEN": [
+      "special arithmetic of the actual CRT carrier",
+      "weighted average gcd for the exact radical",
+      "separate weighted bounds for full and boundary radicals",
+      "any reduction of 1/36",
+      "Route 1",
+      "e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_log_mass": "M/6+o(M)",
+    "retained_ceiling_per_6M": "1/36",
+    "weighted_target": "log R_HT(M)=o(M)",
+    "new_linear_log_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

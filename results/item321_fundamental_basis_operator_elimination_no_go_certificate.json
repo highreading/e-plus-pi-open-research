@@ -1,0 +1,459 @@
+{
+  "actual_frobenius_split": {
+    "global_conclusion": "the Item308 norm algebra is split modulo every actual prime; Frobenius never forces both linear factors to vanish",
+    "p_mod_8_identity": "p=4h+6s+3 mod 8",
+    "rows": [
+      {
+        "Legendre_symbol_(delta_eta/p)": 1,
+        "delta=(2/p)": -1,
+        "delta_eta": -2,
+        "epsilon_h_mod_2": 0,
+        "eta": 2,
+        "p_mod_8": 3,
+        "s_mod_4": 0,
+        "split_mod_p": true
+      },
+      {
+        "Legendre_symbol_(delta_eta/p)": 1,
+        "delta=(2/p)": 1,
+        "delta_eta": 2,
+        "epsilon_h_mod_2": 1,
+        "eta": 2,
+        "p_mod_8": 7,
+        "s_mod_4": 0,
+        "split_mod_p": true
+      },
+      {
+        "Legendre_symbol_(delta_eta/p)": 1,
+        "delta=(2/p)": 1,
+        "delta_eta": 1,
+        "epsilon_h_mod_2": 0,
+        "eta": 1,
+        "p_mod_8": 1,
+        "s_mod_4": 1,
+        "split_mod_p": true
+      },
+      {
+        "Legendre_symbol_(delta_eta/p)": 1,
+        "delta=(2/p)": -1,
+        "delta_eta": -1,
+        "epsilon_h_mod_2": 1,
+        "eta": 1,
+        "p_mod_8": 5,
+        "s_mod_4": 1,
+        "split_mod_p": true
+      },
+      {
+        "Legendre_symbol_(delta_eta/p)": 1,
+        "delta=(2/p)": 1,
+        "delta_eta": 2,
+        "epsilon_h_mod_2": 0,
+        "eta": 2,
+        "p_mod_8": 7,
+        "s_mod_4": 2,
+        "split_mod_p": true
+      },
+      {
+        "Legendre_symbol_(delta_eta/p)": 1,
+        "delta=(2/p)": -1,
+        "delta_eta": -2,
+        "epsilon_h_mod_2": 1,
+        "eta": 2,
+        "p_mod_8": 3,
+        "s_mod_4": 2,
+        "split_mod_p": true
+      },
+      {
+        "Legendre_symbol_(delta_eta/p)": 1,
+        "delta=(2/p)": -1,
+        "delta_eta": -1,
+        "epsilon_h_mod_2": 0,
+        "eta": 1,
+        "p_mod_8": 5,
+        "s_mod_4": 3,
+        "split_mod_p": true
+      },
+      {
+        "Legendre_symbol_(delta_eta/p)": 1,
+        "delta=(2/p)": 1,
+        "delta_eta": 1,
+        "epsilon_h_mod_2": 1,
+        "eta": 1,
+        "p_mod_8": 1,
+        "s_mod_4": 3,
+        "split_mod_p": true
+      }
+    ],
+    "small_prime_audit": "p>=13; p=2 is absent, and p=13 occurs only at s=h=1 inside the already isolated h=1 Casoratian exception"
+  },
+  "canonical_files_modified": false,
+  "capacity": {
+    "basis_exception_mass": "O(log M)=o(M)",
+    "new_fixed_j1_capacity_reduction": 0,
+    "new_linear_log_rate": 0,
+    "regular_collision_mass": "UNCONTROLLED",
+    "retained_ceiling_per_6M": "1/36"
+  },
+  "casoratian": {
+    "Casoratian_transport": "W_(s+1)=-P0(s)/P3(s)*W_s",
+    "Q_s": "660s^2+1600s+779",
+    "Q_shift_identity": "660s^2+2920s+3039=Q_(s+1)",
+    "W_1": "7985352375*i/2^20",
+    "W_1_factorization": "3^2*5^3*7^2*11*13*1013*i/2^20",
+    "actual_prime_denominator_audit": "all displayed denominator factors are <p=4h+6s+3 for h,s>=1; powers 2 and the Item308 denominators are p-units",
+    "basis_failure_localization": "p divides W_s only if h=1 or p divides 330M^2-235M+18",
+    "basis_failure_mass": "O(log M)=o(M)",
+    "closed_form": "W_s=i*(3*5^3*7^2*11*13/2^20)*(-9/4096)^(s-1)*Q_s*prod_(n=1..s-1)[(2n+1)(6n+5)(6n+7)(6n+11)(6n+13)/(n(n+1)(n+2)(2n+3)(2n+5))]",
+    "division_free_fixed_M_identity": "Q_s-8*(330M^2-235M+18)=5*(66s-132M+127)*(4M+2s+1)",
+    "h_at_least_two_audit": "p>=6s+11, so every constant and linear numerator factor is nonzero mod p; only Q_s can remain",
+    "h_equals_one_audit": "if h=1 then p=6s+7; for s>=2 this is the n=s-1 factor 6n+13, while s=1 gives p=13 in the constant",
+    "initial_rows_A_Z_Zbar": [
+      [
+        "-11",
+        "-91/8 + 33*I/4",
+        "-91/8 - 33*I/4"
+      ],
+      [
+        "6517/8",
+        "-28357/256 - 55363*I/256",
+        "-28357/256 + 55363*I/256"
+      ],
+      [
+        "-103389/128",
+        "13678665/4096 - 9202479*I/8192",
+        "13678665/4096 + 9202479*I/8192"
+      ]
+    ]
+  },
+  "classification": {
+    "EXACT_FINITE_ONLY": [],
+    "OPEN": [
+      "actual-initial-value arithmetic beyond the common operator",
+      "a sublinear-height fixed-M resultant or gcd theorem",
+      "regular-row moving-prime localization",
+      "W_D(M)=o(M), fixed-j1 closure, Route 1, and e+pi"
+    ],
+    "PROVED": [
+      "exact all-s Casoratian and fixed-M localization",
+      "actual residue solutions form a fundamental basis away from O(log M) mass",
+      "all eight actual period quadrics factor into genuine common-operator solutions",
+      "every factor basis change is a p-unit",
+      "every actual finite-field norm is split"
+    ],
+    "SCOPED_NO_GO": [
+      "transported quadratic invariants are coordinate tautologies",
+      "single-row common-operator elimination yields no nonzero base scalar on regular support",
+      "the raw actual-value union product has only O(M^2) logarithmic height"
+    ]
+  },
+  "dependencies": {
+    "manifests/item308_j1_all_s_fixed_divisor_no_go_manifest.json": "1c4721f43b5bbdc0c68e4d9fd689562a32a4af4fbbab2a9e7075da96b151b4d5",
+    "manifests/item317_gaussian_container_coupled_no_go_manifest.json": "045aff4b05ef79a664e6dba30d9d7002f8e337ac066048e022c3509171e000f3",
+    "results/item308_j1_all_s_fixed_divisor_no_go_certificate.json": "4efff9ca2fb1bc11cc6030e260ff73aae89c28bd157bb41fa6bbc3b32e41e5cf",
+    "results/item308_root_audit.json": "11feb8105ea46c27d83df2449404297fe74709eceaa8be6a21bd9484cbffba22",
+    "results/item317_gaussian_container_coupled_no_go_certificate.json": "334165a7e3a40f043aedd3ea2d221786569aa91262481c2347c436cf10890e44",
+    "results/item317_gaussian_container_coupled_no_go_certificate_replay.json": "334165a7e3a40f043aedd3ea2d221786569aa91262481c2347c436cf10890e44",
+    "results/item317_gaussian_container_coupled_no_go_hashes.sha256": "c905ff8f6b96ce1d6e56ae420855e7f7cf4d008690c588f00b611705ece63124",
+    "results/item317_gaussian_container_coupled_no_go_ledger.json": "40e7953a26a01c90d0415dbd247186a8b86dd9e8ead70edc5829b007591b8779",
+    "results/item317_root_audit.json": "6c22e387ee90b82d1f14f05cf949733d6fbbf825db2c1c8a0d74fc5b2ae95931",
+    "scripts/item308_j1_all_s_fixed_divisor_no_go_certificate.py": "9b60d380b503c7ac9fed13792fae67735cfcf6b0f376581a0076fde16a82f0b9",
+    "scripts/item317_gaussian_container_coupled_no_go_certificate.py": "a07f6157648bbbfec0a9c9de8d899c81523f5e2cb63c997aedc7dc37c2213e71",
+    "scripts/item317_residue_telescoper_data.json": "f9ca57040fc7ae1030f9d915955085e3263e6c30f3129f2e9c4961198defa81b",
+    "sources/item308_j1_all_s_fixed_divisor_no_go_report.md": "4eb8f8c37dfde9d19e57c8df5ff8090bd95f03be59fff7d6aede55d02993bdc8",
+    "sources/item317_gaussian_container_coupled_no_go_report.md": "3e8a885b790965edf225b0fb9efd91142ffcdd7d1c13e9b65e43b9bb6d3023b5"
+  },
+  "invariant_and_elimination_no_go": {
+    "actual_quadric_transport": "for each fixed period quadric Q, G_s=F_s Q F_s^T obeys G_(s+1)=T_s G_s T_s^T and pulls back identically to Q",
+    "after_actual_initial_state_substitution": "the row scalar is exactly D_(s,epsilon) up to p-units; the union product over O(M) rows has only sum O(s)=O(M^2) logarithmic height by Item308",
+    "operator_elimination": "over any finite regular orbit window, recurrence equations leave an arbitrary invertible fundamental state.  Each actual rank-two split quadric has the explicit invertible isotropic state in the factor table, so eliminating orbit variables from one collision condition gives the zero ideal in the coefficient field",
+    "proof": "C_s=F_s^T H_s F_s obeys C_(s+1)=C_s; invertibility of F_s gives the converse",
+    "strict_scope": "This closes transported-invariant and single-row operator-elimination arguments.  It does not rule out a new arithmetic relation among the actual initial values, a gcd theorem, or a genuinely sublinear fixed-M resultant.",
+    "tautology": "these invariants are changes of coordinates by the actual fundamental matrix; they create no new fixed-M divisor",
+    "transported_quadratic_invariant_classification": "on regular support, every H_s satisfying T_s^T H_(s+1) T_s=H_s is H_s=F_s^(-T) C F_s^(-1) for one constant C"
+  },
+  "item": 321,
+  "period_quadrics": {
+    "actual_prime_minimum": 13,
+    "basis_change_prime_support": "{2}",
+    "factor_rows": [
+      {
+        "absolute_norm": 64,
+        "alpha": "sqrt2",
+        "basis": [
+          "A+i*ell",
+          "A-i*ell",
+          "Z"
+        ],
+        "basis_change_determinant": "2*I*sqrt2",
+        "beta": "sqrt2",
+        "ell": "(sqrt2)Z+(sqrt2)Zbar",
+        "epsilon": 0,
+        "factorization": "q=(A+i*ell)(A-i*ell)",
+        "field": "Q(i,sqrt(2))",
+        "isotropic_invertible_state_witness": [
+          [
+            "-I*sqrt2",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "0"
+          ]
+        ],
+        "p_unit_for_actual_primes": true,
+        "s_mod_4": 0
+      },
+      {
+        "absolute_norm": 64,
+        "alpha": "sqrt2",
+        "basis": [
+          "A+i*ell",
+          "A-i*ell",
+          "Z"
+        ],
+        "basis_change_determinant": "-2*I*sqrt2",
+        "beta": "-sqrt2",
+        "ell": "(sqrt2)Z+(-sqrt2)Zbar",
+        "epsilon": 1,
+        "factorization": "q=(A+i*ell)(A-i*ell)",
+        "field": "Q(i,sqrt(2))",
+        "isotropic_invertible_state_witness": [
+          [
+            "I*sqrt2",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "0"
+          ]
+        ],
+        "p_unit_for_actual_primes": true,
+        "s_mod_4": 0
+      },
+      {
+        "absolute_norm": 8,
+        "alpha": "1 + I",
+        "basis": [
+          "A+i*ell",
+          "A-i*ell",
+          "Z"
+        ],
+        "basis_change_determinant": "-2 - 2*I",
+        "beta": "-1 + I",
+        "ell": "(1 + I)Z+(-1 + I)Zbar",
+        "epsilon": 0,
+        "factorization": "q=(A+i*ell)(A-i*ell)",
+        "field": "Q(i)",
+        "isotropic_invertible_state_witness": [
+          [
+            "-I*(-1 + I)",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "0"
+          ]
+        ],
+        "p_unit_for_actual_primes": true,
+        "s_mod_4": 1
+      },
+      {
+        "absolute_norm": 8,
+        "alpha": "1 + I",
+        "basis": [
+          "A+i*ell",
+          "A-i*ell",
+          "Z"
+        ],
+        "basis_change_determinant": "2 + 2*I",
+        "beta": "1 - I",
+        "ell": "(1 + I)Z+(1 - I)Zbar",
+        "epsilon": 1,
+        "factorization": "q=(A+i*ell)(A-i*ell)",
+        "field": "Q(i)",
+        "isotropic_invertible_state_witness": [
+          [
+            "-I*(1 - I)",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "0"
+          ]
+        ],
+        "p_unit_for_actual_primes": true,
+        "s_mod_4": 1
+      },
+      {
+        "absolute_norm": 64,
+        "alpha": "sqrt2",
+        "basis": [
+          "A+i*ell",
+          "A-i*ell",
+          "Z"
+        ],
+        "basis_change_determinant": "-2*I*sqrt2",
+        "beta": "-sqrt2",
+        "ell": "(sqrt2)Z+(-sqrt2)Zbar",
+        "epsilon": 0,
+        "factorization": "q=(A+i*ell)(A-i*ell)",
+        "field": "Q(i,sqrt(2))",
+        "isotropic_invertible_state_witness": [
+          [
+            "I*sqrt2",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "0"
+          ]
+        ],
+        "p_unit_for_actual_primes": true,
+        "s_mod_4": 2
+      },
+      {
+        "absolute_norm": 64,
+        "alpha": "sqrt2",
+        "basis": [
+          "A+i*ell",
+          "A-i*ell",
+          "Z"
+        ],
+        "basis_change_determinant": "2*I*sqrt2",
+        "beta": "sqrt2",
+        "ell": "(sqrt2)Z+(sqrt2)Zbar",
+        "epsilon": 1,
+        "factorization": "q=(A+i*ell)(A-i*ell)",
+        "field": "Q(i,sqrt(2))",
+        "isotropic_invertible_state_witness": [
+          [
+            "-I*sqrt2",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "0"
+          ]
+        ],
+        "p_unit_for_actual_primes": true,
+        "s_mod_4": 2
+      },
+      {
+        "absolute_norm": 8,
+        "alpha": "1 + I",
+        "basis": [
+          "A+i*ell",
+          "A-i*ell",
+          "Z"
+        ],
+        "basis_change_determinant": "2 + 2*I",
+        "beta": "1 - I",
+        "ell": "(1 + I)Z+(1 - I)Zbar",
+        "epsilon": 0,
+        "factorization": "q=(A+i*ell)(A-i*ell)",
+        "field": "Q(i)",
+        "isotropic_invertible_state_witness": [
+          [
+            "-I*(1 - I)",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "0"
+          ]
+        ],
+        "p_unit_for_actual_primes": true,
+        "s_mod_4": 3
+      },
+      {
+        "absolute_norm": 8,
+        "alpha": "1 + I",
+        "basis": [
+          "A+i*ell",
+          "A-i*ell",
+          "Z"
+        ],
+        "basis_change_determinant": "-2 - 2*I",
+        "beta": "-1 + I",
+        "ell": "(1 + I)Z+(-1 + I)Zbar",
+        "epsilon": 1,
+        "factorization": "q=(A+i*ell)(A-i*ell)",
+        "field": "Q(i)",
+        "isotropic_invertible_state_witness": [
+          [
+            "-I*(-1 + I)",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "0"
+          ]
+        ],
+        "p_unit_for_actual_primes": true,
+        "s_mod_4": 3
+      }
+    ],
+    "fundamental_basis_consequence": "outside the Casoratian exceptional set, each factor pair together with Z is a fundamental common-operator basis",
+    "linear_solution_reason": "A,Z,Zbar satisfy the same homogeneous operator and alpha,beta are constant; therefore A+/-i(alpha Z+beta Zbar) are genuine solutions of that same operator at every index",
+    "uniform_field": "L=Q(i,sqrt(2))"
+  },
+  "prime_scans": 0,
+  "schema": "item321-fundamental-basis-operator-elimination-no-go-v1",
+  "status": "PROVED_ACTUAL_FUNDAMENTAL_BASIS_AND_SCOPED_OPERATOR_ELIMINATION_NO_GO"
+}

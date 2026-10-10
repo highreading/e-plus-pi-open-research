@@ -1,0 +1,54 @@
+{
+  "item": 338,
+  "schema": "item338-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_SECONDARY_CARTIER_DIAGONAL_COLLAPSE_AND_OFF_DIAGONAL_SATURATION_NO_GO",
+  "scope": "independent root audit of the all-prime carry product, diagonal specialization, tied-prime-safe saturation, and unchanged ordinary-j2 capacity",
+  "checks": {
+    "certificate_sha256": "accf5bf87b148c73117f05b8d9f7eee92af1d59611871498593cc992c758450d",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_sha256": "9234bbe1b89c4da5db36efb426d468f1b0e597e2db7951b1feee1ca71ef5a6b8",
+    "work_manifest_artifacts_match": true,
+    "frozen_dependencies_checked": 4,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 6,
+    "work_hash_list_match": true,
+    "automaton_checks": 20160,
+    "diagonal_control_rows": 6,
+    "carrier_hit_records": 2,
+    "character_counterexample_rows": 2,
+    "report_inline_delimiters": "66/66",
+    "report_display_delimiters": "39/39",
+    "report_control_characters": 0
+  },
+  "mathematical_audit": {
+    "carry_product": "freshman's dream and local degree at most 2 ell-2 give an exact two-state base-ell carry matrix product for every prime ell",
+    "diagonal": "for ell=p the target digits force the unique path 0->1->0; its first weight is the original unknown c_p, so the factorization creates no independent diagonal condition",
+    "saturation": "all declared ingredient denominators, 6, and binom(2m,m) are p-units on actual rows; removing every prime power supported on their product therefore preserves tied-prime divisibility exactly",
+    "foreign_hits": "the displayed 23 and 173 mechanisms are exact off-diagonal examples and are removed by safe saturation; they are not density evidence",
+    "scope_warning": "the theorem does not control the joint moving congruence D=0 and Phi=Theta at ell=p; the weighted diagonal problem and the 1/105 ceiling remain open"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "all-prime two-state carry theorem",
+      "diagonal collapse",
+      "tied-prime-safe saturation",
+      "scoped off-diagonal and finite-state no-go",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "carry controls, six diagonal rows, two foreign-hit anatomies, and two character counterexamples"
+    ],
+    "OPEN": [
+      "weighted joint determinant and moving-target correlation",
+      "any strict ordinary-j2 ceiling reduction"
+    ]
+  },
+  "capacity": {
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

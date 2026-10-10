@@ -1,0 +1,310 @@
+{
+  "defect_coefficient_finite_replay": {
+    "identity": "[z]Delta is the border e0 wedge (2e2-E1)",
+    "rows": [
+      {
+        "D": 2,
+        "coefficient_border_2e2_minus_E1": "-2508597",
+        "m": 3,
+        "n": 3,
+        "nonzero_on_this_finite_grid_only": true
+      },
+      {
+        "D": 2,
+        "coefficient_border_2e2_minus_E1": "-1171140105580947",
+        "m": 3,
+        "n": 5,
+        "nonzero_on_this_finite_grid_only": true
+      },
+      {
+        "D": 4,
+        "coefficient_border_2e2_minus_E1": "-2453237712401523581952",
+        "m": 3,
+        "n": 5,
+        "nonzero_on_this_finite_grid_only": true
+      },
+      {
+        "D": 2,
+        "coefficient_border_2e2_minus_E1": "1830471691848000",
+        "m": 5,
+        "n": 3,
+        "nonzero_on_this_finite_grid_only": true
+      },
+      {
+        "D": 2,
+        "coefficient_border_2e2_minus_E1": "410377509873320531427152294400000",
+        "m": 5,
+        "n": 5,
+        "nonzero_on_this_finite_grid_only": true
+      },
+      {
+        "D": 4,
+        "coefficient_border_2e2_minus_E1": "417100299748233215747610183335726284800000000000000",
+        "m": 5,
+        "n": 5,
+        "nonzero_on_this_finite_grid_only": true
+      }
+    ],
+    "scope": "The identity is algebraic for all parameters; nonvanishing below is finite replay only."
+  },
+  "dependency_sha256": {
+    "sources/root_unity_gamma_augmented_newton_audit.md": "d22b2cb5a92d4a8c4bebdb1f61a095cbf15e342fb8a19d1a61dfc3a3d87edb47",
+    "sources/root_unity_gamma_positive_pole_truncation_theorem.md": "af3049a869327cc7d1138cea448878c64bebadcf0305a124c5d6f923e7937ba6",
+    "sources/root_unity_gamma_top_cardinal_degree_theorem.md": "63d1b3532150fc7f2e9e2f142e6cd1c797c9ed3c3739a4b3de2d30932c27061c"
+  },
+  "direct_corrected_border_grid": {
+    "D_rule": "2 <= D <= n",
+    "all_nonzero": true,
+    "m_values": [
+      2,
+      4
+    ],
+    "n_range": [
+      2,
+      5
+    ],
+    "row_count": 20,
+    "rows": [
+      {
+        "D": 2,
+        "corrected_constant_border": "-96",
+        "m": 2,
+        "n": 2,
+        "nonzero": true
+      },
+      {
+        "D": 2,
+        "corrected_constant_border": "5632",
+        "m": 2,
+        "n": 3,
+        "nonzero": true
+      },
+      {
+        "D": 3,
+        "corrected_constant_border": "49152",
+        "m": 2,
+        "n": 3,
+        "nonzero": true
+      },
+      {
+        "D": 2,
+        "corrected_constant_border": "-1146880",
+        "m": 2,
+        "n": 4,
+        "nonzero": true
+      },
+      {
+        "D": 3,
+        "corrected_constant_border": "8601600",
+        "m": 2,
+        "n": 4,
+        "nonzero": true
+      },
+      {
+        "D": 4,
+        "corrected_constant_border": "-353894400",
+        "m": 2,
+        "n": 4,
+        "nonzero": true
+      },
+      {
+        "D": 2,
+        "corrected_constant_border": "573874176",
+        "m": 2,
+        "n": 5,
+        "nonzero": true
+      },
+      {
+        "D": 3,
+        "corrected_constant_border": "4639555584",
+        "m": 2,
+        "n": 5,
+        "nonzero": true
+      },
+      {
+        "D": 4,
+        "corrected_constant_border": "328187510784",
+        "m": 2,
+        "n": 5,
+        "nonzero": true
+      },
+      {
+        "D": 5,
+        "corrected_constant_border": "63925219491840",
+        "m": 2,
+        "n": 5,
+        "nonzero": true
+      },
+      {
+        "D": 2,
+        "corrected_constant_border": "-3932160",
+        "m": 4,
+        "n": 2,
+        "nonzero": true
+      },
+      {
+        "D": 2,
+        "corrected_constant_border": "-1171385221120/3",
+        "m": 4,
+        "n": 3,
+        "nonzero": true
+      },
+      {
+        "D": 3,
+        "corrected_constant_border": "742170348748800",
+        "m": 4,
+        "n": 3,
+        "nonzero": true
+      },
+      {
+        "D": 2,
+        "corrected_constant_border": "-756050797212467200",
+        "m": 4,
+        "n": 4,
+        "nonzero": true
+      },
+      {
+        "D": 3,
+        "corrected_constant_border": "6071428441788383232000",
+        "m": 4,
+        "n": 4,
+        "nonzero": true
+      },
+      {
+        "D": 4,
+        "corrected_constant_border": "-634268063606185104349593600",
+        "m": 4,
+        "n": 4,
+        "nonzero": true
+      },
+      {
+        "D": 2,
+        "corrected_constant_border": "-5224978355936530834391040",
+        "m": 4,
+        "n": 5,
+        "nonzero": true
+      },
+      {
+        "D": 3,
+        "corrected_constant_border": "754434871227422955992053186560",
+        "m": 4,
+        "n": 5,
+        "nonzero": true
+      },
+      {
+        "D": 4,
+        "corrected_constant_border": "-2061615893893556396873220830036754432",
+        "m": 4,
+        "n": 5,
+        "nonzero": true
+      },
+      {
+        "D": 5,
+        "corrected_constant_border": "1437435942562021150114110348576767197839360",
+        "m": 4,
+        "n": 5,
+        "nonzero": true
+      }
+    ]
+  },
+  "dual_polynomial_identities": {
+    "L_derivatives_of_2X2_plus_2X_plus_1": [
+      "0",
+      "0",
+      "2",
+      "0",
+      "0",
+      "0"
+    ],
+    "L_derivatives_of_2X_plus_1": [
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "defect_second_row": "2e2-E1 = L((Lambda1+2X^2+2X+1)^(a))",
+    "generic_second_row": "e1-E0 = L((Lambda0+2X+1)^(a))"
+  },
+  "even_m_newton_grid": {
+    "all_modified_coefficients_after_d0_strict_with_sign_sigma": true,
+    "all_modified_gamma0_equal_4_or_0": true,
+    "all_modified_rational_functions_strictly_completely_monotone_after_sigma": true,
+    "all_raw_gamma0_equal_2sigma": true,
+    "m_values": [
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "n_range": [
+      2,
+      7
+    ],
+    "row_count": 30,
+    "row_digest_sha256": "a21c5be87a01501e92129740a396b3d5e53b4170d794901b80116d31c7fec6b1",
+    "selected_rows": [
+      {
+        "all_modified_coefficients_after_d0_are_strict_with_sign_sigma": true,
+        "all_raw_coefficients_have_sign_sigma": true,
+        "h": 3,
+        "m": 2,
+        "modified_gamma_0": "0",
+        "modified_newton_sha256": "fdcf83e30f17c60b7dfdbe9f4a9765baf51b0418693c697a372ba24f1d61bca1",
+        "modified_rational_function_is_nonzero_strictly_completely_monotone_after_sigma": true,
+        "n": 2,
+        "raw_gamma_0": "-2",
+        "sigma": -1
+      },
+      {
+        "all_modified_coefficients_after_d0_are_strict_with_sign_sigma": true,
+        "all_raw_coefficients_have_sign_sigma": true,
+        "h": 6,
+        "m": 4,
+        "modified_gamma_0": "4",
+        "modified_newton_sha256": "57cdf14be6c0e067a62d096c36b1f9630fb5b5ee720c34b1726402c28cfd11f6",
+        "modified_rational_function_is_nonzero_strictly_completely_monotone_after_sigma": true,
+        "n": 5,
+        "raw_gamma_0": "2",
+        "sigma": 1
+      },
+      {
+        "all_modified_coefficients_after_d0_are_strict_with_sign_sigma": true,
+        "all_raw_coefficients_have_sign_sigma": true,
+        "h": 8,
+        "m": 10,
+        "modified_gamma_0": "0",
+        "modified_newton_sha256": "9d5162c3fec2c566df099b4b4ac66bf68c6fe83ec1edf04e6f58c34d168e9110",
+        "modified_rational_function_is_nonzero_strictly_completely_monotone_after_sigma": true,
+        "n": 7,
+        "raw_gamma_0": "-2",
+        "sigma": -1
+      }
+    ]
+  },
+  "exact_arithmetic": "QQ only; no floating-point comparisons",
+  "logical_scope": {
+    "all_parameter_theorem": "Using the independently proved positive pole-truncation theorem and shifted-coordinate theorem, the corrected constant border is nonzero for every even m>=2 and n>=D>=2; hence Delta is nonzero.",
+    "combination_with_top_degree_theorem": "Together with the top-cardinal degree theorem, only m>=3 odd, n even, D odd remains outside the proved universal Delta-nonzero regimes for m>=2.",
+    "not_claimed": "The finite defect replay is not an all-parameter defect-border proof, and the odd-m central-boundary family is not resolved here."
+  },
+  "odd_m_central_boundary_obstruction": {
+    "centered_corrected_row_exact": "U^(h+1) N(-U^2) + 2U",
+    "central_remainder_linear_coefficient": "2",
+    "coordinate_border_over_U_power_border": "-3482/63297",
+    "corrected_border": "-15976059494400",
+    "logical_obstruction": "The coordinate term is a central boundary jet, not an addition to the polynomial Newton numerator covered by the positive pole-truncation theorem.",
+    "not_divisible_by_U_to_h_plus_1": true,
+    "tuple": [
+      3,
+      4,
+      3
+    ]
+  },
+  "schema": "root-unity-corrected-low-border-even-m-v1",
+  "versions": {
+    "sympy": "1.14.0"
+  }
+}

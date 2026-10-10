@@ -1,0 +1,45 @@
+{
+  "schema": "item301-root-audit-v1",
+  "item": 301,
+  "auditor": "root",
+  "date": "2026-08-31",
+  "verdict": "PASS WITH EXACT BOUNDARY REDUCTION, DE-OVERLAP, AND ZERO BOOKING",
+  "package": {
+    "manifest_files_checked": 6,
+    "manifest_file_hash_mismatches": 0,
+    "frozen_dependencies_checked": 2,
+    "manifest_dependency_hash_mismatches": 0,
+    "hash_list_entries_checked": 7,
+    "hash_list_mismatches": 0,
+    "canonical_root_replay_byte_identical": true,
+    "canonical_and_root_replay_sha256": "f25813facfe8befb751fdbcd1c5f521c23379162bd44244356c8b2568d9fc784",
+    "report_sha256": "6384df00659f11e1741a8a64f7e271ffdb70b206c7e80875e3109fc6f5b60f8e",
+    "script_sha256": "a333101b2112abe4dc59c1c7d2f2237e41f7a6546606eb7283d55854140a56e4",
+    "ledger_sha256": "95521f3bdb8cc5a4b115d746452292a7df67cbf0ebbc6243b3e4f95c6509bcf8",
+    "manifest_sha256": "479d4ca38fa2c20c9ed2ee64a62a161699d973a426a8f17ff5622f2134752232"
+  },
+  "independent_mathematical_checks": {
+    "root_of_unity_filters": "PASS: evaluating K_1 at plus/minus i gives the stated parity formulas for U_H and V_H, including the exceptional constant-term weight in U_H.",
+    "weighted_X_integral": "PASS: integrating (K_0(iu)-K_0(-iu))/i supplies exactly (-1)^t/(t+1) on each odd coefficient; the displayed antiderivative yields both parity formulas for X_H.",
+    "residual_Y_moment": "PASS: the weighted odd filter gives the quadratic moment. Writing 1+iu=3/2-q'(u)/2 gives the endpoint reduction, while differentiating q^n q' proves the exact first-order J_n recurrence.",
+    "parity_boundary_reduction": "PASS: Euler's criterion gives e_H^2=-1/2 for even H and d_H^2=1/2 for odd H. Substitution into B_H=-3X_HV_H/4-9U_HY_H yields the two boxed residual conditions and the even multiplier is a p-unit.",
+    "de_overlap": "PASS: the reduced actual recurrence is identically L_j=-Q_0E_h. Unit Q_0 makes this exactly the old gate, while the complete Q_0-drop rows make L_j automatic and furnish no target condition.",
+    "scope": "PASS: Y_H remains a genuine residual moment with no nonvanishing or weighted-zero-density theorem. No independent codimension or capacity reduction is claimed."
+  },
+  "format": {
+    "report_bytes": 7683,
+    "report_lines": 257,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "inline_math_open": 74,
+    "inline_math_close": 74,
+    "display_math_open": 22,
+    "display_math_close": 22
+  },
+  "capacity": {
+    "retained_fixed_j1_capacity_per_6m": "1/36",
+    "new_route1_rate": 0,
+    "new_capacity_reduction": 0,
+    "ledger_changed": false
+  }
+}

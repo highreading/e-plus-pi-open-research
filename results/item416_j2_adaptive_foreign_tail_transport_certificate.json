@@ -1,0 +1,347 @@
+{
+  "actual_item409_witness": {
+    "J": 79,
+    "adaptive_foreign": 1,
+    "adaptive_foreign_omega": 0,
+    "adaptive_tail": 1,
+    "base_foreign": 1,
+    "base_tail": 1,
+    "classification": "EXACT PINNED ACTUAL-FORMULA WITNESS / NOT A CENSUS",
+    "cutoff_Y": 709,
+    "identities": {
+      "adaptive": "L_Y=j_tie*F_Y",
+      "base": "L_0=j_tie*F_0",
+      "cutoff": "L_0=C_Y*L_Y and F_0=C_Y*F_Y",
+      "margin": "log(L_0)-log(F_0)=log(L_Y)-log(F_Y)=log(j_tie)"
+    },
+    "name": "item409_actual_witness",
+    "p": 709,
+    "r": 347,
+    "radical_support": [
+      79
+    ],
+    "removed_pure_foreign": 1,
+    "s": 2,
+    "threshold_2r_plus_3": 697,
+    "tied_projection": 1
+  },
+  "adaptive_cutoff_theorem": {
+    "aggregate_identity": "A_Y(M)-B_Y(M)=J_e(M)=D_e(M)-G_e(M)",
+    "definition": "for Y_(r,s)>=p, remove from J every prime <=Y except p; L_Y is the radical of the remainder and F_Y=(L_Y)_(p)",
+    "monotonicity": "if Y_2>=Y_1>=p, A_(Y1)-A_(Y2)=B_(Y1)-B_(Y2)>=0",
+    "rowwise_factorization": "L_Y=j_tie*F_Y with gcd(j_tie,F_Y)=1",
+    "selected_prime_cutoff": "Y=p discards every Item413 foreign factor in 2r+3<q<p without changing tied support",
+    "support": "supp(L_Y) is contained in {p} union {q:q>Y}"
+  },
+  "capacity": {
+    "classification": "EXACT RATIONAL CAPACITY ARITHMETIC",
+    "cutoff_invariance": "raising Y removes the same foreign mass from A_Y and B_Y and therefore cannot by itself change A_Y-B_Y=J_e",
+    "formula": "A_Y>=aM, B_Y<=bM, G<=gM, N<=nM imply normalized saving >=max(0,a-b,1/35-g-n)/6",
+    "new_booking": 0,
+    "new_capacity_reduction": 0,
+    "one_ray_mass_per_M": "1/35",
+    "proved_adaptive_foreign_linear_upper_per_M": null,
+    "proved_adaptive_tail_lower_per_M": 0,
+    "proved_matched_J_lower_per_M": 0,
+    "retained_ordinary_j2_ceiling_per_6M": "1/105",
+    "scenarios": [
+      {
+        "adaptive_foreign_upper_per_M": "0/1",
+        "adaptive_tail_lower_per_M": "0/1",
+        "chart_margin_per_M": "0/1",
+        "direct_margin_per_M": "0/1",
+        "name": "no_linear_input",
+        "normalized_saving": "0/1"
+      },
+      {
+        "adaptive_foreign_upper_per_M": "0/1",
+        "adaptive_tail_lower_per_M": "1/70",
+        "chart_margin_per_M": "0/1",
+        "direct_margin_per_M": "1/70",
+        "name": "adaptive_half_ray_matched",
+        "normalized_saving": "1/420"
+      },
+      {
+        "adaptive_foreign_upper_per_M": "1/35",
+        "adaptive_tail_lower_per_M": "1/35",
+        "chart_margin_per_M": "0/1",
+        "direct_margin_per_M": "0/1",
+        "name": "adaptive_tail_cancelled",
+        "normalized_saving": "0/1"
+      },
+      {
+        "adaptive_foreign_upper_per_M": "0/1",
+        "adaptive_tail_lower_per_M": "0/1",
+        "chart_margin_per_M": "1/70",
+        "direct_margin_per_M": "0/1",
+        "name": "chart_only",
+        "normalized_saving": "1/420"
+      }
+    ]
+  },
+  "checked_date_beijing": "2026-09-01",
+  "declared_cutoff_packets": {
+    "classification": "EXACT ALGEBRAIC SUPPORT PACKETS / NOT ACTUAL CONNECTION VALUES / NO PRIME CENSUS",
+    "row_digest_sha256": "326c2e6cc092f3106f82bd9711a55038cba734e8cb9c398924fe1934987d73f3",
+    "rows": [
+      {
+        "J": 17,
+        "adaptive_foreign": 1,
+        "adaptive_foreign_omega": 0,
+        "adaptive_tail": 1,
+        "base_foreign": 17,
+        "base_tail": 17,
+        "classification": "EXACT ALGEBRAIC SUPPORT PACKET / NOT ACTUAL",
+        "cutoff_Y": 19,
+        "identities": {
+          "adaptive": "L_Y=j_tie*F_Y",
+          "base": "L_0=j_tie*F_0",
+          "cutoff": "L_0=C_Y*L_Y and F_0=C_Y*F_Y",
+          "margin": "log(L_0)-log(F_0)=log(L_Y)-log(F_Y)=log(j_tie)"
+        },
+        "name": "middle_foreign_removed_at_p",
+        "p": 19,
+        "r": 5,
+        "radical_support": [
+          17
+        ],
+        "removed_pure_foreign": 17,
+        "s": 1,
+        "threshold_2r_plus_3": 13,
+        "tied_projection": 1
+      },
+      {
+        "J": 370481,
+        "adaptive_foreign": 37,
+        "adaptive_foreign_omega": 1,
+        "adaptive_tail": 703,
+        "base_foreign": 19499,
+        "base_tail": 370481,
+        "classification": "EXACT ALGEBRAIC SUPPORT PACKET / NOT ACTUAL",
+        "cutoff_Y": 31,
+        "identities": {
+          "adaptive": "L_Y=j_tie*F_Y",
+          "base": "L_0=j_tie*F_0",
+          "cutoff": "L_0=C_Y*L_Y and F_0=C_Y*F_Y",
+          "margin": "log(L_0)-log(F_0)=log(L_Y)-log(F_Y)=log(j_tie)"
+        },
+        "name": "tied_middle_and_high_foreign",
+        "p": 19,
+        "r": 5,
+        "radical_support": [
+          17,
+          19,
+          31,
+          37
+        ],
+        "removed_pure_foreign": 527,
+        "s": 1,
+        "threshold_2r_plus_3": 13,
+        "tied_projection": 19
+      },
+      {
+        "J": 713,
+        "adaptive_foreign": 713,
+        "adaptive_foreign_omega": 2,
+        "adaptive_tail": 713,
+        "base_foreign": 713,
+        "base_tail": 713,
+        "classification": "EXACT ALGEBRAIC SUPPORT PACKET / NOT ACTUAL",
+        "cutoff_Y": 19,
+        "identities": {
+          "adaptive": "L_Y=j_tie*F_Y",
+          "base": "L_0=j_tie*F_0",
+          "cutoff": "L_0=C_Y*L_Y and F_0=C_Y*F_Y",
+          "margin": "log(L_0)-log(F_0)=log(L_Y)-log(F_Y)=log(j_tie)"
+        },
+        "name": "all_tail_foreign",
+        "p": 19,
+        "r": 5,
+        "radical_support": [
+          23,
+          31
+        ],
+        "removed_pure_foreign": 1,
+        "s": 1,
+        "threshold_2r_plus_3": 13,
+        "tied_projection": 1
+      },
+      {
+        "J": 899,
+        "adaptive_foreign": 1,
+        "adaptive_foreign_omega": 0,
+        "adaptive_tail": 31,
+        "base_foreign": 29,
+        "base_tail": 899,
+        "classification": "EXACT ALGEBRAIC SUPPORT PACKET / NOT ACTUAL",
+        "cutoff_Y": 31,
+        "identities": {
+          "adaptive": "L_Y=j_tie*F_Y",
+          "base": "L_0=j_tie*F_0",
+          "cutoff": "L_0=C_Y*L_Y and F_0=C_Y*F_Y",
+          "margin": "log(L_0)-log(F_0)=log(L_Y)-log(F_Y)=log(j_tie)"
+        },
+        "name": "tied_only_after_cutoff",
+        "p": 31,
+        "r": 11,
+        "radical_support": [
+          29,
+          31
+        ],
+        "removed_pure_foreign": 29,
+        "s": 1,
+        "threshold_2r_plus_3": 25,
+        "tied_projection": 31
+      }
+    ]
+  },
+  "dependency_hashes_verified": {
+    "manifests/item349_j2_degenerate_triple_minor_carrier_manifest.json": "1c1dec25ac00ea5adb2befe885c9c96ba805564651b6e90c73ef2506d30e7f4f",
+    "manifests/item409_j2_actual_rejection_carrier_manifest.json": "b7f052f66eb42215ce0e4778b7a0bb994b3a54e205dae81e8b75715e0220cd71",
+    "manifests/item413_j2_tied_projection_anti_gcd_boundary_manifest.json": "980997e0476ea3bd3a684cd6cf7af2ec2a3807934e16288ca6ace8c20a589b49",
+    "results/item349_j2_degenerate_triple_minor_carrier_certificate.json": "b26294d51b1844aeee04146004b2ecec9b6e1ff81aa271a3167e5d86c11bce44",
+    "results/item349_j2_degenerate_triple_minor_carrier_root_audit.json": "e717c01d7429f7821a7ee75e8d979bc1362107bd70466af6af54d9748299a894",
+    "results/item409_j2_actual_rejection_carrier_certificate.json": "b6a68f27d131b9a9e8d7e2512d78d54dbbd7bb70f502b2fbaf8277b6a277f940",
+    "results/item409_j2_actual_rejection_carrier_root_audit.json": "8a7545bbde4b339598a2c92cafbf5902dd1060a4c0d64d46e4590b05accc9674",
+    "results/item413_j2_tied_projection_anti_gcd_boundary_certificate.json": "c2f43f92b151de1a6f349a86d66c1e58250b7e2440c442a24818d488d3ffc1b3",
+    "results/item413_j2_tied_projection_anti_gcd_boundary_certificate_replay.json": "c2f43f92b151de1a6f349a86d66c1e58250b7e2440c442a24818d488d3ffc1b3",
+    "results/item413_j2_tied_projection_anti_gcd_boundary_hashes.sha256": "cef20125e4b3a6653658685a70ece1020a6f7fee9dee57ac03e982d935d8a54b",
+    "results/item413_j2_tied_projection_anti_gcd_boundary_ledger_delta.json": "8a53a9211d43f1d52c5970aaea9f2c3a6dc439c16061114e7981f823c5d48cb0",
+    "results/item413_j2_tied_projection_anti_gcd_boundary_root_audit.json": "a326e2e42258a8d75d24e0ff580297ddd1289ab32380ab332386682fe3db8fcc",
+    "scripts/item349_j2_degenerate_triple_minor_carrier_certificate.py": "b72b1ee335f243ae6a2761c417e27640f443183ec625027a14d5b7e06b91cf9b",
+    "scripts/item409_j2_actual_rejection_carrier_certificate.py": "32c99d596ddf933e00cab032a4af741e0781a361644ddc685d66a4e651a023f7",
+    "scripts/item413_j2_tied_projection_anti_gcd_boundary_certificate.py": "00420076f3879eb233022227f230fffdab6c8884c050b5ee0876e107fe5830f0",
+    "sources/item349_j2_degenerate_triple_minor_carrier_report.md": "ca3141156cb5034012a174377c3596e22d22cae924625649b6d620d510f4790c",
+    "sources/item409_j2_actual_rejection_carrier_report.md": "99caf10f9f1561dcb0e3a712f381db639b8260da6594dd305915ebb66f0d69ce",
+    "sources/item413_j2_tied_projection_anti_gcd_boundary_report.md": "0ee4ea341cc9ca1701f6b4ea2731d78aa686656ffc086c5c89734fd33b119d00"
+  },
+  "evidence_policy": {
+    "canonical_files_modified": true,
+    "no_countermodel_claimed_actual": true,
+    "no_finite_extrapolation": true,
+    "no_foreign_factor_booking": true,
+    "no_prime_or_collision_census": true,
+    "no_transport_of_target_status": true
+  },
+  "forward_transport": {
+    "aligned_rows": 3,
+    "classification": "EXACT GEOMETRY REPLAY / SUPPORT EXAMPLES NOT ACTUAL",
+    "row_digest_sha256": "e9731ae0521cc20730dbefdfc8de02f5f348b9220608459d18b4fd79dc568d3b",
+    "rows": [
+      {
+        "future_M": 37,
+        "future_displacement": 14,
+        "future_s": 3,
+        "p": 19,
+        "q_foreign": 31,
+        "r": 5,
+        "residue_aligned": true,
+        "s": 1,
+        "source_M": 23,
+        "transport_conclusion": "if q divides the actual r-only Pi_r, q is the tied prime of this future degenerate-gate row; no target status is transferred"
+      },
+      {
+        "future_M": 44,
+        "future_displacement": 21,
+        "future_s": 4,
+        "p": 19,
+        "q_foreign": 37,
+        "r": 5,
+        "residue_aligned": true,
+        "s": 1,
+        "source_M": 23,
+        "transport_conclusion": "if q divides the actual r-only Pi_r, q is the tied prime of this future degenerate-gate row; no target status is transferred"
+      },
+      {
+        "p": 19,
+        "q_foreign": 23,
+        "r": 5,
+        "residue_aligned": false,
+        "s": 1,
+        "source_M": 23,
+        "transport_conclusion": "q has no same-r ordinary-j2 tied row; it is transverse residue pollution"
+      },
+      {
+        "future_M": 27,
+        "future_displacement": 7,
+        "future_s": 3,
+        "p": 17,
+        "q_foreign": 23,
+        "r": 1,
+        "residue_aligned": true,
+        "s": 2,
+        "source_M": 20,
+        "transport_conclusion": "if q divides the actual r-only Pi_r, q is the tied prime of this future degenerate-gate row; no target status is transferred"
+      },
+      {
+        "p": 17,
+        "q_foreign": 19,
+        "r": 1,
+        "residue_aligned": false,
+        "s": 2,
+        "source_M": 20,
+        "transport_conclusion": "q has no same-r ordinary-j2 tied row; it is transverse residue pollution"
+      }
+    ],
+    "target_warning": "q not dividing the source Gamma_(r,s) does not determine Gamma_(r,t); the Item409 period replacement is tied-p-specific",
+    "theorem": "for actual q>p dividing the aligned foreign support, q|Pi_r and q=2r+6t+3 give a unique future actual degenerate-gate row at M_q=(r+7q)/6>M",
+    "transverse_rows": 2
+  },
+  "item": 416,
+  "schema": "item416-j2-adaptive-foreign-tail-transport-v1",
+  "scoped_obstruction": {
+    "classification": "SCOPED TO CUTOFF, HEIGHT, AND SAME-r FORWARD TRANSPORT",
+    "not_excluded": [
+      "a formula-specific large-prime theorem for Pi_r",
+      "an unmatched cross-r resultant controlling transverse support",
+      "a reciprocity law transporting the actual target residual",
+      "an average weighted theorem for aligned or transverse foreign factors"
+    ],
+    "statements": [
+      "raising the cutoff cannot create a matched margin because the removed mass is identically foreign",
+      "aligned q>p transport proves only a future degenerate gate, not a future collision or rejection",
+      "transverse q>p has no same-r ordinary-j2 row",
+      "the inherited pointwise height gives only O(M^2) foreign radical weight"
+    ]
+  },
+  "smallest_missing_lemmas": {
+    "builder_pair": "A_p(M)>=aM+o(M) together with B_p(M)<=bM+o(M), a>b",
+    "direct_channel_closer": "A_p(M)=o(M), which would force J_e(M)=o(M)",
+    "foreign_closer": "B_p(M)=sum log rad_{q>p} J_(r,s)=o(M), or separate o(M) bounds for its aligned and transverse pieces",
+    "status": "OPEN"
+  },
+  "status": "PROVED_ADAPTIVE_CUTOFF_AND_FORWARD_GATE_TRANSPORT_ETA_ZERO",
+  "strict_labels": {
+    "CONDITIONAL": [
+      "every positive saving whose adaptive tail, foreign, G, or N antecedent is explicit"
+    ],
+    "EXACT_ALGEBRAIC_SUPPORT_PACKETS_NOT_ACTUAL": [
+      "the declared cutoff and transport examples"
+    ],
+    "EXACT_PINNED_ACTUAL_WITNESS_NOT_A_CENSUS": [
+      "the Item409 row (709,347,2) with J=79"
+    ],
+    "OPEN": [
+      "B_p=o(M) and its aligned/transverse components",
+      "any positive adaptive-tail minus foreign-tail margin",
+      "any target-status transport for aligned foreign primes",
+      "Route 1 and every conclusion about e+pi"
+    ],
+    "PROVED": [
+      "adaptive selected-prime-safe saturation and exact cutoff invariance",
+      "removal of all 2r+3<q<p foreign contamination without changing tied support",
+      "aligned q>p forward transport to a unique future actual degenerate-gate row",
+      "the O(M^2) radical-weight and O(M^2/log M) incidence screens",
+      "zero new booking and zero capacity reduction"
+    ]
+  },
+  "title": "adaptive selected-prime saturation and forward foreign-tail transport",
+  "unconditional_size_screen": {
+    "capacity_screen": "O(M^2) is superlinear and gives neither B_p=o(M) nor a finite linear coefficient; it is noncompetitive for the ledger",
+    "foreign_factor_incidence_bound": "sum omega(F_p)=O(M^2/log M)",
+    "incidence_inequality": "because every q in F_p satisfies q>p, F_p>p^omega(F_p) when F_p>1",
+    "input": "Item349 gives log J<=log Pi_r=O(r log r); on a fixed ray 1<=r<=2M/5+O(1), and the prime-row count is O(M/log M)",
+    "radical_weight_bound": "B_(Y=p)(M)=O(M^2)",
+    "valuation_warning": "B counts radical support once; valuation depth in J is neither credited nor needed for the displayed bounds"
+  }
+}

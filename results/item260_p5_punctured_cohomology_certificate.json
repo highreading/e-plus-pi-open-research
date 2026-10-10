@@ -1,0 +1,256 @@
+{
+  "booking": {
+    "conclusion_about_e_plus_pi": "NONE",
+    "fixed_r_ray": "at most one row per global M, hence O(log M)=o(M) raw weight",
+    "new_positive_mass_reduction": "0"
+  },
+  "dependencies": {
+    "item254_half_binomial_arithmetic_report.md": "971d50dab6a8f944334503c46d369151f390db534bc50ec54e1711ecf9b83a2a"
+  },
+  "exact_normal_form": {
+    "K_delta": "sum_(j=0)^(delta-1) product_(i=0)^(j-1)(6i+5)/(3i+4)",
+    "cohomology": "w_r dX/Y = [X/(X^3-1)+K_delta X]dX/Y - d(P_delta Y)",
+    "curve": "Y^2=X^3-1/2",
+    "endpoint_lemma": "Lambda_p(L(X^-j))=epsilon*(j-3)/2 for j=1 mod 3",
+    "final": "H_(q-delta)=H_q-K_delta*h_q mod p",
+    "operator": "L(R)=(X^3-1/2)R'+(3/2)X^2R, so L(R)dX/Y=d(RY)",
+    "residual_coordinates": "U_p=h_q-epsilon; V_p=-H_q+4epsilon/3, q=(p-5)/6",
+    "weight": "w_r=X^(-r-1)/(X^3-1), r=3delta-2"
+  },
+  "finite_field_replay": {
+    "H_zero_count": 1,
+    "H_zero_rows_p_r_s_m_delta": [
+      [
+        47,
+        7,
+        5,
+        4,
+        3
+      ]
+    ],
+    "actual_rows": 605,
+    "endpoint_summation_by_parts_equalities": 1191,
+    "first_rows": [
+      {
+        "H_m": 1,
+        "K_delta": 1,
+        "U_second_kind": 4,
+        "V_punctured": 2,
+        "delta": 1,
+        "epsilon": -1,
+        "m": 0,
+        "p": 11,
+        "r": 1,
+        "s": 1
+      },
+      {
+        "H_m": 14,
+        "K_delta": 1,
+        "U_second_kind": 6,
+        "V_punctured": 3,
+        "delta": 1,
+        "epsilon": 1,
+        "m": 1,
+        "p": 17,
+        "r": 1,
+        "s": 2
+      },
+      {
+        "H_m": 1,
+        "K_delta": 19,
+        "U_second_kind": 10,
+        "V_punctured": 6,
+        "delta": 3,
+        "epsilon": 1,
+        "m": 0,
+        "p": 23,
+        "r": 7,
+        "s": 1
+      },
+      {
+        "H_m": 15,
+        "K_delta": 1,
+        "U_second_kind": 10,
+        "V_punctured": 6,
+        "delta": 1,
+        "epsilon": 1,
+        "m": 2,
+        "p": 23,
+        "r": 1,
+        "s": 3
+      },
+      {
+        "H_m": 23,
+        "K_delta": 27,
+        "U_second_kind": 11,
+        "V_punctured": 15,
+        "delta": 3,
+        "epsilon": -1,
+        "m": 1,
+        "p": 29,
+        "r": 7,
+        "s": 2
+      },
+      {
+        "H_m": 22,
+        "K_delta": 1,
+        "U_second_kind": 11,
+        "V_punctured": 15,
+        "delta": 1,
+        "epsilon": -1,
+        "m": 3,
+        "p": 29,
+        "r": 1,
+        "s": 4
+      },
+      {
+        "H_m": 32,
+        "K_delta": 4,
+        "U_second_kind": 5,
+        "V_punctured": 0,
+        "delta": 5,
+        "epsilon": 1,
+        "m": 1,
+        "p": 41,
+        "r": 13,
+        "s": 2
+      },
+      {
+        "H_m": 19,
+        "K_delta": 13,
+        "U_second_kind": 5,
+        "V_punctured": 0,
+        "delta": 3,
+        "epsilon": 1,
+        "m": 3,
+        "p": 41,
+        "r": 7,
+        "s": 4
+      },
+      {
+        "H_m": 9,
+        "K_delta": 1,
+        "U_second_kind": 5,
+        "V_punctured": 0,
+        "delta": 1,
+        "epsilon": 1,
+        "m": 5,
+        "p": 41,
+        "r": 1,
+        "s": 6
+      },
+      {
+        "H_m": 1,
+        "K_delta": 9,
+        "U_second_kind": 3,
+        "V_punctured": 27,
+        "delta": 7,
+        "epsilon": 1,
+        "m": 0,
+        "p": 47,
+        "r": 19,
+        "s": 1
+      },
+      {
+        "H_m": 41,
+        "K_delta": 46,
+        "U_second_kind": 3,
+        "V_punctured": 27,
+        "delta": 5,
+        "epsilon": 1,
+        "m": 2,
+        "p": 47,
+        "r": 13,
+        "s": 3
+      },
+      {
+        "H_m": 0,
+        "K_delta": 21,
+        "U_second_kind": 3,
+        "V_punctured": 27,
+        "delta": 3,
+        "epsilon": 1,
+        "m": 4,
+        "p": 47,
+        "r": 7,
+        "s": 5
+      }
+    ],
+    "localized_row_equalities": 2420,
+    "p_eq_5_mod_6_primes": 40,
+    "prime_level_coordinate_equalities": 160,
+    "prime_max": 401,
+    "strict_label": "EXACT FINITE ONLY; no density or all-prime inference",
+    "zero_digest_sha256": "59c92219993ff9ce45d675003e959c0f6cfb6f3eb4eff2cf2906b5664370ecbb"
+  },
+  "obstruction": {
+    "consequence": "nonzero residues prevent reduction to exact plus unpunctured regular/second-kind de Rham classes",
+    "log_class": "[X/(X^3-1)]dX/Y",
+    "residue_at_alpha_beta": "1/(3 alpha beta), alpha^3=1, beta^2=1/2",
+    "scope": "does not rule out a new arithmetic theorem for the punctured base period H_q"
+  },
+  "recurrences": {
+    "base_normalized_period": "Z_(q+1)=1+(4q+4)/(2q+1) Z_q, Z_q=H_q/h_q",
+    "warning": "successive q use different row primes p=6q+5; modular propagation is invalid"
+  },
+  "schema": "item260-p5-punctured-cohomology-v1",
+  "status": {
+    "all_prime_exclusion": "FALSE_UNIFORMLY; explicit actual zero",
+    "bounded_residual_classes": "PROVED_IN_REPORT",
+    "endpoint_correction": "PROVED_IN_REPORT",
+    "finite_scan": "EXACT_FINITE_ONLY",
+    "hermite_reduction": "PROVED_IN_REPORT",
+    "new_route1_rate": "0",
+    "positive_mass_weighted_zero_theorem": "NOT_PROVED",
+    "unpunctured_trace_closure": "PROVED_SHARPLY_SCOPED_NO_GO"
+  },
+  "symbolic_replay": {
+    "delta_max": 67,
+    "exact_symbolic_rows": 67,
+    "row_digest_sha256": "77fa639862cbeffbf1904326add3be336b4039c31123f866845c322719dfb4d7",
+    "samples": [
+      {
+        "K_delta": "1/1",
+        "delta": 1,
+        "primitive_laurent_terms": 1,
+        "r": 1
+      },
+      {
+        "K_delta": "9/4",
+        "delta": 2,
+        "primitive_laurent_terms": 2,
+        "r": 4
+      },
+      {
+        "K_delta": "59/14",
+        "delta": 3,
+        "primitive_laurent_terms": 3,
+        "r": 7
+      },
+      {
+        "K_delta": "175/13",
+        "delta": 5,
+        "primitive_laurent_terms": 5,
+        "r": 13
+      },
+      {
+        "K_delta": "4857283/110656",
+        "delta": 7,
+        "primitive_laurent_terms": 7,
+        "r": 19
+      },
+      {
+        "K_delta": "72663048277/137213440",
+        "delta": 11,
+        "primitive_laurent_terms": 11,
+        "r": 31
+      },
+      {
+        "K_delta": "197394074330421120810652730282957829393906705731397199431650269705045318286646703/13690344057158987822522563411392635562653207530977615004303360",
+        "delta": 67,
+        "primitive_laurent_terms": 67,
+        "r": 199
+      }
+    ]
+  }
+}

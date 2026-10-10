@@ -1,0 +1,35 @@
+{
+  "status": "PASS_TARGETED_DOCUMENTATION_AMENDMENTS",
+  "changes": [
+    {
+      "path": "work/session_20261001_astra/agent1/ADDITIONAL_GROWING_CONTENT.md",
+      "before_sha256": "541db73b15956b2e537ad4a1037e7d5508025699d5e5fabbd0c9638dbc21bdd9",
+      "after_sha256": "14d86e71b553f22796a7a0ca00702999eb0bc522981147eabdfc566f4bda0ae2",
+      "original_passage": "Under the still-pending sufficient criterion in the main-agent draft, the residual requirement would be\n\n    liminf log(g/A_b^2)/(n^2 log n)>1/2,\n\non the same unbounded index set and with its two nonvanishing hypotheses. In the exact normalization (10), this is a requirement on gamma*d*g0, not on gamma alone. No estimate here establishes it. This is a sufficient target for that particular proposed bound, not a necessary threshold for every possible method.",
+      "replacement_passage": "The former strict residual-content target above 1/2 is withdrawn. The completed [content correction](../agent2/GROWING_CONTENT_CORRECTION_SUMMARY.md) gives g<=M|D_V|<=M B_V and hence limsup log g/(n^2 log n)<=3/4 on every unbounded nonzero-endpoint set with b=floor(n/2). Subtracting the proved factorial rate gives\n\n    limsup log(g/A_b^2)/(n^2 log n)<=1/2.\n\nThus the former strict liminf target above 1/2 is impossible in this normalization, not a live conditional objective. The exact identity (10), g/A_b^2=gamma*d*g0, remains valid and counts all contents once. [Agent 4's additional review](../agent4/ADDITIONAL_GROWING_REVIEW.md) passes the structural arguments and exact gcd translation, with this documentation repair required. No structural proof or prior certificate is changed by withdrawing the target. The ceiling does not exclude shrinking actual forms or differently rebuilt estimates; the separate high-row-slack conclusion is reviewed in REVISED_REMAINDER_INDEPENDENT_REVIEW.md.",
+      "only_target_passage_changed": true
+    },
+    {
+      "path": "work/session_20261001_astra/agent1/ADDITIONAL_GROWING_REPORT.md",
+      "before_sha256": "b267ad9fffeb50d4d2dba50fb878bfbc9cf1b9c8b9783edf8c250157756c65ef",
+      "after_sha256": "42418346d15c1f3919e0b448c489b9122bc77794fe21f3594461ba034215a691",
+      "original_passage": "Under the still-pending sufficient criterion, the residual target would exceed one half at the n^2 log n scale for the whole product gamma*d*g0. This is not asserted necessary for other methods.",
+      "replacement_passage": "The former strict residual target above one half is withdrawn. The completed [content correction](../agent2/GROWING_CONTENT_CORRECTION_SUMMARY.md) proves limsup log(g/A_b^2)/(n^2 log n)<=1/2 on unbounded nonzero-endpoint sets with b=floor(n/2), so a strict liminf above that ceiling is impossible. The identity g/A_b^2=gamma*d*g0 and all structural results remain valid. [Agent 4's additional review](../agent4/ADDITIONAL_GROWING_REVIEW.md) passes those arguments with this documentation repair. This conclusion concerns the stated normalization and bounds, not actual-family divergence or failure of all alternative estimates.",
+      "only_target_passage_changed": true
+    }
+  ],
+  "protected_files_unchanged": {
+    "certificate.json": "56ab7487c86e77835780cfe028baf53a94553a738c8b26a63234815b04effe53",
+    "correction_certificate.json": "a08f241409ca8810ff0ab5ce3cafc7709ab9579c6d1c421a8a5fe6b40963624f",
+    "normalized_prime_seed_certificate.json": "77ae47dd0e5ebff8be1ec7c11805d6e5b9a567b0f3c7b312dcd95bd619d0ce0f",
+    "normalized_five_residual_certificate.json": "e6bfca3c7ce9e3831bb5f713c2365f0060868df3165ee70d7e27f2ec48dcc259",
+    "growing_degree_arithmetic_certificate.json": "6ea14249ccd981e26993546a979b73d16847869cc61a7dc3994e2c1cddea79d8",
+    "additional_growing_content_certificate.json": "ad431b2e72bc1609f91a7e8e4d25dbdd5340854002001507a9e9655a8ff7c31d",
+    "revised_remainder_independent_checks.json": "843026d11381e144d1414b142b82eb1544cff98e0576fa89e854eca74c9b738a",
+    "revised_remainder_checks_before_verification.json": "843026d11381e144d1414b142b82eb1544cff98e0576fa89e854eca74c9b738a",
+    "revised_remainder_independent_stdout.txt": "1567e7eeb2797842b1e8e4c9ce26526db6032fb566a94d2e231ef0e31089a4b5",
+    "check_additional_growing_content.py": "c19a83b3237b4b9728265474788d99873d5ed51aabdc54ae737aceb989b73340",
+    "check_revised_remainder_review.py": "a191766316d8f49f5a92dbd7208787f002a3c895991a45b4cda4cbf7b65ff468"
+  },
+  "scope": "Only the two stale strict residual-target passages were replaced. Structural arguments, prior checkers and certificates were preserved."
+}

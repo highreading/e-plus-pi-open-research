@@ -1,0 +1,264 @@
+{
+  "coefficient_reciprocity": {
+    "degree": "d=r+4s+1=(p+2s-1)/2",
+    "g": "(1-z)^r*(1+z)*(1+z^2)^(2s)",
+    "identity": "g_l=(-1)^r*g_(d-l)",
+    "period_identity": "That_L(k)=(-1)^(r+1)*That_Ldual(2s-r-k)"
+  },
+  "dependencies": {
+    "item219_checker": "item219_common_log_j2_certificate.py",
+    "item219_checker_sha256": "bf9ee30675b5745225f08d2d82e500fd1f6797d69f94ab5949602e266f8b38cc",
+    "item221_checker": "item221_j2_twisted_cohomology_certificate.py",
+    "item221_checker_sha256": "8ef696188337f9ecc7f77e66c296973897ce443b143f72fc0c468fd3f9354a36",
+    "item224_checker": "item224_j2_cartier_terminal_certificate.py",
+    "item224_checker_sha256": "7fc0dad8a691fce31032db64696c2cc809b39e65b948e0d93e58f8c5a0924bf4"
+  },
+  "finite_classification": {
+    "counts": {
+      "actual_common_zero_rows": 0,
+      "full_identity_replay_rows": 74,
+      "joint_omega_psi_zero_rows": 0,
+      "omega_nonzero_rows": 1108,
+      "omega_zero_psi_nonzero_rows": 7,
+      "omega_zero_rows": 7,
+      "rows": 1153,
+      "s_at_least_2_rows": 1115,
+      "s_equals_1_rows": 38
+    },
+    "interpretation": "Psi eliminates every Item224 formal-compatible row through the stated bound; no all-prime inference is made",
+    "item224_omega_zero_rows": [
+      {
+        "S1_actual": 13,
+        "T0_actual": 4,
+        "actual_collision": false,
+        "beta": 5,
+        "m": 27,
+        "p": 23,
+        "psi": 15,
+        "psi_bottom": 6,
+        "r": 1,
+        "rho_constant": 0,
+        "rho_free": 0,
+        "rho_lambda": 2,
+        "s": 3,
+        "second_rhs": 17,
+        "tau": 1
+      },
+      {
+        "S1_actual": 36,
+        "T0_actual": 146,
+        "actual_collision": false,
+        "beta": 84,
+        "m": 194,
+        "p": 157,
+        "psi": 130,
+        "psi_bottom": 20,
+        "r": 65,
+        "rho_constant": 99,
+        "rho_free": 0,
+        "rho_lambda": 52,
+        "s": 4,
+        "second_rhs": 128,
+        "tau": 75
+      },
+      {
+        "S1_actual": 161,
+        "T0_actual": 133,
+        "actual_collision": false,
+        "beta": 116,
+        "m": 228,
+        "p": 193,
+        "psi": 79,
+        "psi_bottom": 124,
+        "r": 17,
+        "rho_constant": 121,
+        "rho_free": 0,
+        "rho_lambda": 184,
+        "s": 26,
+        "second_rhs": 164,
+        "tau": 49
+      },
+      {
+        "S1_actual": 124,
+        "T0_actual": 212,
+        "actual_collision": false,
+        "beta": 64,
+        "m": 299,
+        "p": 241,
+        "psi": 71,
+        "psi_bottom": 95,
+        "r": 107,
+        "rho_constant": 188,
+        "rho_free": 0,
+        "rho_lambda": 214,
+        "s": 4,
+        "second_rhs": 212,
+        "tau": 25
+      },
+      {
+        "S1_actual": 152,
+        "T0_actual": 126,
+        "actual_collision": false,
+        "beta": 272,
+        "m": 365,
+        "p": 311,
+        "psi": 185,
+        "psi_bottom": 198,
+        "r": 13,
+        "rho_constant": 217,
+        "rho_free": 0,
+        "rho_lambda": 42,
+        "s": 47,
+        "second_rhs": 282,
+        "tau": 251
+      },
+      {
+        "S1_actual": 198,
+        "T0_actual": 240,
+        "actual_collision": false,
+        "beta": 270,
+        "m": 411,
+        "p": 349,
+        "psi": 292,
+        "psi_bottom": 289,
+        "r": 23,
+        "rho_constant": 153,
+        "rho_free": 0,
+        "rho_lambda": 96,
+        "s": 50,
+        "second_rhs": 320,
+        "tau": 82
+      },
+      {
+        "S1_actual": 123,
+        "T0_actual": 314,
+        "actual_collision": false,
+        "beta": 166,
+        "m": 474,
+        "p": 397,
+        "psi": 230,
+        "psi_bottom": 149,
+        "r": 65,
+        "rho_constant": 314,
+        "rho_free": 0,
+        "rho_lambda": 251,
+        "s": 44,
+        "second_rhs": 368,
+        "tau": 147
+      }
+    ],
+    "joint_omega_psi_zero_rows": [],
+    "row_digest_sha256": "c7ed88de837b23527dd8b8c926978b5d493606bc8810c4bef8709f739467eb0e",
+    "status": "EXACT FINITE ONLY"
+  },
+  "free_mode": {
+    "consequence": "the four free-mode entries at the second terminal vanish identically",
+    "degree_gap": "p-4-deg(g)=(p-2s-7)/2>0 for every admissible s>=2 row",
+    "differential_identity": "(1-z^4)X'=[(1-r)+(4s-r-1)z+(1-r)z^2+(r+2s+2)z^3]X mod p",
+    "exact_integer_difference": "the z^3 coefficient differs from the logarithmic derivative of g by p=2r+6s+3",
+    "generating_polynomial": "X(z)=g(z)",
+    "initial_data": "X_0=1 and X_-1=X_-2=X_-3=0 at moment index 2s+1"
+  },
+  "parameters": {
+    "cell": "4m+1=5p-2s, 1<=s<=(p-3)/6, p>=11, s=(p-1)/2 mod 2",
+    "full_identity_replay_prime_max_inclusive": 101,
+    "j": 2,
+    "prime_max_inclusive": 401
+  },
+  "phase_and_reciprocity": {
+    "duality": "W_Ldual(n)=W_L(p-n)",
+    "phases": [
+      {
+        "L_covector_E_C_S": [
+          9,
+          -20,
+          -2
+        ],
+        "Ldual_covector_E_C_S": [
+          9,
+          -2,
+          -20
+        ],
+        "W_L_2p": 29,
+        "W_L_mod_4": [
+          -11,
+          7,
+          29,
+          11
+        ],
+        "W_L_p": 7,
+        "W_Ldual_mod_4": [
+          7,
+          -11,
+          11,
+          29
+        ],
+        "chi": 1,
+        "p_mod_4": 1
+      },
+      {
+        "L_covector_E_C_S": [
+          9,
+          -20,
+          2
+        ],
+        "Ldual_covector_E_C_S": [
+          9,
+          -2,
+          20
+        ],
+        "W_L_2p": 29,
+        "W_L_mod_4": [
+          -11,
+          11,
+          29,
+          7
+        ],
+        "W_L_p": 7,
+        "W_Ldual_mod_4": [
+          7,
+          29,
+          11,
+          -11
+        ],
+        "chi": -1,
+        "p_mod_4": 3
+      }
+    ]
+  },
+  "regularized_recurrence": {
+    "K_k": "z^(k+1)*(1-z^4)*f0",
+    "W_L_2p": 29,
+    "W_L_p": 7,
+    "definition": "That_L(k) omits primitive monomials whose exponent is divisible by p",
+    "first_terminal": "k=2s-3, RHS=7*(-1)^r",
+    "forcing": "sum_(j=0)^4 A_j(k) That_L(k+j)=-sum_(a>=1) [z^(ap)]K_k*W_L(ap)",
+    "second_terminal": "k=p+2s-3, RHS=29*(-1)^r"
+  },
+  "schema": "item225-j2-second-cartier-v1",
+  "second_condition": {
+    "affine_terminal": "rho_constant+lambda*rho_lambda=29*(-1)^r; rho_free=0",
+    "necessary": "collision with s>=2 implies beta*tau!=0 and Omega=Psi=0 mod p",
+    "psi": "tau*(rho_constant-29*(-1)^r)+7*(-1)^r*rho_lambda",
+    "top_scaling": "lambda*tau=7*(-1)^r"
+  },
+  "status_ledger": {
+    "EXACT_FINITE": [
+      "every Item224 Omega-zero row through the stated bound has Psi nonzero",
+      "there are no joint Omega=Psi=0 rows through the stated bound"
+    ],
+    "OPEN": [
+      "all-prime exclusion or density bound for simultaneous Omega=Psi zeros",
+      "the exceptional s=1 family",
+      "a zero-rate theorem for the j=2 cell",
+      "any capacity reduction or conclusion about e+pi"
+    ],
+    "PROVED": [
+      "exact coefficient and period reciprocity with both p mod 4 phases",
+      "exact regularized recurrence forcing through the second Frobenius terminal",
+      "W_L(p)=7 and W_L(2p)=29",
+      "the free first-resonance mode is g and vanishes before the second terminal",
+      "a collision with s>=2 requires Omega=Psi=0 and beta*tau nonzero"
+    ]
+  }
+}

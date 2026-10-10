@@ -1,0 +1,68 @@
+{
+  "item": 256,
+  "schema": "item256-strict-ledger-v1",
+  "scope": "the first squared-denominator jet of the reciprocal incomplete-beta orbit on actual ordinary-j=2 phase rows",
+  "PROVED": [
+    {
+      "id": "I256-P1",
+      "claim": "Denominator complementation gives the exact mod-p^2 value reflection M_L(c)=-c^m(M_0(c^(-1))+pN_0(c^(-1))) and the mod-p jet reflection N_L(c)=c^mN_0(c^(-1)).",
+      "evidence": "report Section 2; termwise complementary-denominator expansion and all-row portable plus independent replay",
+      "scope_limit": "The squared-denominator companion is mandatory at the next digit."
+    },
+    {
+      "id": "I256-P2",
+      "claim": "Formal differentiation of the endpoint-retaining value recurrence gives the exact coupled first-jet recurrence, with triangular transfer [[A,0],[B,A]] and the closed B formula in report equation (1.11).",
+      "evidence": "report Section 3; 1,215 portable and 1,890 independent recurrence checks plus exact transfer verification",
+      "scope_limit": "The endpoint derivative is zero because the retained endpoint is independent of the denominator parameter."
+    },
+    {
+      "id": "I256-P3",
+      "claim": "The multiplier satisfies A_c=c^(-L)(1+pH_interval) modulo p^2 and the reciprocal value determinant is 2pH_interval modulo p^2.",
+      "evidence": "report Section 4; exact complementary product and mod-p^2 replay",
+      "scope_limit": "The moving harmonic interval is not a universal unit; it vanishes on the exact admissible p=23 row."
+    },
+    {
+      "id": "I256-P4",
+      "claim": "After adjoining both reciprocal first jets, the exact four-by-four mod-p coefficient matrix has rank exactly two on every actual phase row, and the affine endpoints satisfy the same two row compatibilities.",
+      "evidence": "report Section 5; explicit row dependencies, nonzero jet block, 2,440 portable rank checks, and 1,153 independent rank checks",
+      "scope_limit": "This proves a no-go for the value-plus-first-jet reciprocal tower only; it does not exclude a higher jet or independent period."
+    }
+  ],
+  "EXACT_FINITE": [
+    {
+      "id": "I256-F1",
+      "bound": "p<=601",
+      "actual_rows": 2440,
+      "rank_two_rows": 2440,
+      "harmonic_interval_zero_count": 7,
+      "target_value_zero_count": 6,
+      "joint_zero_count": 0,
+      "status": "EXACT FINITE ONLY; no density or rate inference"
+    },
+    {
+      "id": "I256-F2",
+      "bound": "independent root replay p<=401",
+      "actual_rows": 1153,
+      "rank_two_rows": 1153,
+      "status": "bounded independent implementation only"
+    }
+  ],
+  "OPEN": [
+    "a second or higher jet genuinely independent of the reciprocal tower",
+    "all-prime or weighted control of the moving harmonic interval",
+    "an independent obstruction for the actual Item-251 collision",
+    "any capacity reduction, Route-1 rate gain, or conclusion about e+pi"
+  ],
+  "booking": {
+    "new_unconditional_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "capacity_reduction": 0
+  },
+  "dependencies": {
+    "external_files": [],
+    "python": "3.11+ standard library only",
+    "mathematical_provenance_only": [
+      "Item 255 reciprocal incomplete-beta value orbit and first Hasse determinant"
+    ]
+  }
+}

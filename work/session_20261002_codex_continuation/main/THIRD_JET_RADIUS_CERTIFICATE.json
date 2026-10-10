@@ -1,0 +1,171 @@
+{
+  "status": "PASS_NEW_EXACT_THIRD_JET_RADIUS_CERTIFICATE",
+  "scope": "One rational test radius rejected; restriction excludes every larger disk",
+  "strict_radius_upper": {
+    "numerator": 274377085873,
+    "denominator": 97656250000
+  },
+  "strict_radius_upper_decimal": "2.809621359339520",
+  "input_certificate": "SECOND_JET_RADIUS_CERTIFICATE.json",
+  "a": [
+    {
+      "numerator": 352992550073551475255175962581,
+      "denominator": 50000000000000000000000000000
+    },
+    {
+      "numerator": 1411970200294205901020703876961,
+      "denominator": 200000000000000000000000000000
+    }
+  ],
+  "t": [
+    {
+      "numerator": 190026974376357343205713634269,
+      "denominator": 1000000000000000000000000000000
+    },
+    {
+      "numerator": 95013487188178671602856821681,
+      "denominator": 500000000000000000000000000000
+    }
+  ],
+  "ell": [
+    {
+      "numerator": 340893855900933610167155828481,
+      "denominator": 500000000000000000000000000000
+    },
+    {
+      "numerator": 340893855900933610167157051993,
+      "denominator": 500000000000000000000000000000
+    }
+  ],
+  "Schwarzian_at_origin": {
+    "numerator": -1,
+    "denominator": 4
+  },
+  "eta": [
+    {
+      "numerator": 111812931486509733124368889163,
+      "denominator": 250000000000000000000000000000
+    },
+    {
+      "numerator": 89450345189207786499496112341,
+      "denominator": 200000000000000000000000000000
+    }
+  ],
+  "forced_first_derivative": 1,
+  "second_candidates": [
+    -2,
+    -1,
+    0
+  ],
+  "second_rejections": {
+    "-2": {
+      "B": [
+        {
+          "numerator": -218917341144484431278483587459,
+          "denominator": 250000000000000000000000000000
+        },
+        {
+          "numerator": -35026774583117509004557308063,
+          "denominator": 40000000000000000000000000000
+        }
+      ],
+      "upper_capacity": [
+        {
+          "numerator": -94385703109028367600571700521,
+          "denominator": 125000000000000000000000000000
+        },
+        {
+          "numerator": -377542812436113470402285283027,
+          "denominator": 500000000000000000000000000000
+        }
+      ],
+      "strict_rejection": true
+    },
+    "-1": {
+      "B": [
+        {
+          "numerator": -52845955598744285638622980029,
+          "denominator": 250000000000000000000000000000
+        },
+        {
+          "numerator": -13211488899686071409655643069,
+          "denominator": 62500000000000000000000000000
+        }
+      ],
+      "upper_capacity": [
+        {
+          "numerator": 156294985275977992254512991699,
+          "denominator": 1000000000000000000000000000000
+        },
+        {
+          "numerator": 156294985275977992254514853517,
+          "denominator": 1000000000000000000000000000000
+        }
+      ],
+      "strict_rejection": true
+    }
+  },
+  "forced_second_derivative": 0,
+  "third_candidates": [
+    -1,
+    0
+  ],
+  "third_target": [
+    {
+      "numerator": 14428655999040075335186072481,
+      "denominator": 125000000000000000000000000000
+    },
+    {
+      "numerator": 57714623996160301340747528359,
+      "denominator": 500000000000000000000000000000
+    }
+  ],
+  "third_rejections": {
+    "-1": {
+      "C": [
+        {
+          "numerator": -164961675891758242873853252129,
+          "denominator": 500000000000000000000000000000
+        },
+        {
+          "numerator": -164961675891758242873849754037,
+          "denominator": 500000000000000000000000000000
+        }
+      ],
+      "signed_pseudodistance": [
+        {
+          "numerator": 85802904718550313950564609789,
+          "denominator": 200000000000000000000000000000
+        },
+        {
+          "numerator": 26813407724546973109552327787,
+          "denominator": 62500000000000000000000000000
+        }
+      ],
+      "strict_rejection": true
+    },
+    "0": {
+      "C": [
+        {
+          "numerator": 1810994281373790625745718849,
+          "denominator": 4000000000000000000000000000
+        },
+        {
+          "numerator": 56593571292930957054554403479,
+          "denominator": 125000000000000000000000000000
+        }
+      ],
+      "signed_pseudodistance": [
+        {
+          "numerator": -355919845453865637258076345817,
+          "denominator": 1000000000000000000000000000000
+        },
+        {
+          "numerator": -355919845453865637258062351733,
+          "denominator": 1000000000000000000000000000000
+        }
+      ],
+      "strict_rejection": true
+    }
+  }
+}

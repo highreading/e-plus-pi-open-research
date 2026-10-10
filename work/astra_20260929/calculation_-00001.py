@@ -1,0 +1,1 @@
+import sys;sys.path.append('[private local path removed]');import sympy;print(sympy.factorint(123456789))

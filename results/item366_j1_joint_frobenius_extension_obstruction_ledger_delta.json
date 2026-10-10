@@ -1,0 +1,78 @@
+{
+  "schema": "item366-j1-joint-frobenius-extension-obstruction-ledger-delta-v1",
+  "item": 366,
+  "date": "2026-09-01",
+  "branch": "Route 1 / fixed-j1 / joint Hasse-transverse Frobenius representation",
+  "status": "PROVED_EXACT_FRAMED_JOINT_MOMENT_AND_TRACE_DETERMINANT_NO_GO",
+  "proved": {
+    "actual_family": "p=4h+6s+3, M=3h+4s+2, n=2h, r=2s+1",
+    "joint_representation": "one rank-five F_(p^2) framed divided-Frobenius moment encodes the exact pair",
+    "Hasse_selector": "S_11=-a_(2s+1,2h)",
+    "transverse_selector": "S_23+S_45=-Q0",
+    "global_matrix": "diag(-a,[[0,-2c_T],[0,0]],[[0,c_L],[0,0]]) with Q0=2c_T-c_L",
+    "base_field_de_aliasing": "c_N=(N-1)S_(N,0)-S_(N,1) for N=T,L",
+    "trace_determinant_no_go": "chi_S=X^4(X+a), det(S)=0, tr(S^k)=(-a)^k, so ordinary polynomial conjugacy invariants ignore Q0",
+    "literal_Kummer_no_go": "L_p(z^2) has at least p-2 distinct roots, so literal full-order Kummerization has linearly growing support",
+    "ambient_zeros_imposed": false
+  },
+  "scope": {
+    "full_collision_implication": "full ordinary collision implies a=Q0=0",
+    "converse_claimed": false,
+    "genuine_lisse_or_compatible_system_claimed": false,
+    "trace_no_go_scope": "the exact rank-five moment and its ordinary polynomial conjugacy invariants",
+    "Kummer_no_go_scope": "literal Kummerization of the finite-log factor only"
+  },
+  "capacity": {
+    "raw_log_mass": "M/6+o(M)",
+    "raw_ceiling_per_6M": "1/36",
+    "weighted_target": "W_(H,Q)(M)=o(M)",
+    "weighted_target_proved": false,
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "booking": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36"
+  },
+  "controls": {
+    "classification": "EXACT FINITE ONLY; PREDECLARED; NO PRIME SCAN",
+    "rows": [
+      [
+        1,
+        1,
+        13,
+        0,
+        9
+      ],
+      [
+        2,
+        1,
+        17,
+        8,
+        14
+      ],
+      [
+        8,
+        2,
+        47,
+        0,
+        30
+      ],
+      [
+        10,
+        11,
+        109,
+        70,
+        0
+      ]
+    ]
+  },
+  "open": [
+    "a genuine bounded-conductor lisse or crystalline joint system",
+    "framed extension-class equidistribution or chosen-prime nonconcentration",
+    "a selector-aware trace replacement sensitive to the nilpotent slot",
+    "weighted joint-zero density or any strict fixed-j1 ceiling reduction",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "ledger_action": "RECORD_EXACT_JOINT_REPRESENTATION_AND_SCOPED_TRACE_KUMMER_NO_GO_BOOK_ZERO",
+  "route_1_status": "ACTIVE",
+  "canonical_files_modified": false
+}

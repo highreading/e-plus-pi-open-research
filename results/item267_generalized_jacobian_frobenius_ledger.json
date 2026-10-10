@@ -1,0 +1,98 @@
+{
+  "schema": "item267-generalized-jacobian-frobenius-ledger-v1",
+  "scope": "Fixed open elliptic curve, odd generalized Jacobian/Picard 1-motive, puncture residue direction, mixed Cartier coordinates, and the full moving ordinary-j=2 affine gate",
+  "claims": [
+    {
+      "id": "I267-C1",
+      "label": "PROVED",
+      "claim": "The five-dimensional odd de Rham module of U=E\\D is the realization, up to standard duality, of the fixed Picard 1-motive [L^- -> E] with d_k=[P_k]-[-P_k] and u(d_k)=2P_k.",
+      "evidence": "report Sections 1-2; residue exact sequence and genus-one Abel-Jacobi map",
+      "scope_limit": "the displayed split basis is over Q(sqrt(2),zeta_3) and descends as a Galois lattice"
+    },
+    {
+      "id": "I267-C2",
+      "label": "PROVED",
+      "claim": "For omega_log=omega_1, the residue divisor is (3 beta)^(-1)(d_0+zeta^2 d_1+zeta d_2).",
+      "evidence": "report equations (1.7) and (3.1); exact partial-fraction certificate",
+      "scope_limit": "residue coefficients are written after choosing beta and zeta in the splitting field"
+    },
+    {
+      "id": "I267-C3",
+      "label": "PROVED",
+      "claim": "The only odd algebraic-unit direction is d_0+d_1+d_2, with dlog((Y-beta)/(Y+beta))=3 beta omega_2; omega_1 is not a unit logarithm.",
+      "evidence": "report equations (3.2)-(3.6); CM kernel calculation",
+      "scope_limit": "the statement concerns units on the punctured curve after algebraic closure"
+    },
+    {
+      "id": "I267-C4",
+      "label": "PROVED",
+      "claim": "The boundary point P maps to (2,2) on y^2=x^3-4 and is non-torsion; hence the two nonconstant cubic residue characters are non-torsion elliptic third-kind directions.",
+      "evidence": "2P=(5,-11), 3P=(106/9,1090/27), and Nagell-Lutz; report Section 3",
+      "scope_limit": "elliptic-logarithmic origin does not itself give a p-adic valuation or density theorem"
+    },
+    {
+      "id": "I267-C5",
+      "label": "PROVED",
+      "claim": "The pair (H_q,h_q), every cutoff H_q-K_delta h_q, and the full period H_q-D_r h_q are exact Cartier matrix coefficients of the fixed mixed realization, with a row-dependent input vector.",
+      "evidence": "report Sections 4-5; 1,153 cutoff and 1,153 full-vector certificate identities",
+      "scope_limit": "affine constants require adjoining a trivial line; the rank-zero gate branch remains separate"
+    },
+    {
+      "id": "I267-C6",
+      "label": "PROVED_SCOPED_NO_GO",
+      "claim": "On p=5 mod 6, a p-dependent frame change puts the whole odd Cartier module in a normal form independent of H_q and h_q; scalar and conjugacy invariants therefore cannot recover the actual fixed-frame gate coefficient.",
+      "evidence": "report equation (1.9); exact normal-form certificate identities",
+      "scope_limit": "does not erase the canonical fixed-frame period or the endpoint functional"
+    },
+    {
+      "id": "I267-C7",
+      "label": "PROVED_SCOPED_NO_GO",
+      "claim": "On p=1 mod 6 the extension coefficient is removable off resonance h_q=epsilon; at resonance only its Jordan zero/nonzero status is intrinsic, while the full gate still uses the different moving coefficient H_q-D_r h_q.",
+      "evidence": "report Section 6",
+      "scope_limit": "no assertion about the density of resonant primes"
+    },
+    {
+      "id": "I267-C8",
+      "label": "PROVED",
+      "claim": "The finite punctured endpoint functional does not descend to de Rham cohomology in either phase.",
+      "evidence": "Lambda(L(X^-1))=-epsilon and 30 d_0+12 d_1=epsilon; report equations (6.2)-(6.3)",
+      "scope_limit": "this is an all-prime obstruction to the scalar shortcut, not to every crystalline method"
+    },
+    {
+      "id": "I267-C9",
+      "label": "OPEN_NOT_EQUIVALENCE",
+      "claim": "No if-and-only-if between the full gate and a basis-free elliptic-Wieferich or p-adic elliptic-logarithm condition is proved; Wieferich language remains analogy only.",
+      "evidence": "report Section 7",
+      "scope_limit": "an integral/crystalline refinement could still supply new arithmetic"
+    },
+    {
+      "id": "I267-C10",
+      "label": "EXACT_FINITE_ONLY",
+      "claim": "The standard-library checker verifies geometry, group law, residues, unit kernel, Cartier coefficients, normal forms, endpoints, cutoffs, and full vectors on bounded ranges without an exceptional-zero search.",
+      "evidence": "canonical and byte-identical replay JSON",
+      "scope_limit": "no finite-to-density or all-prime inference"
+    },
+    {
+      "id": "I267-C11",
+      "label": "PROVED_BOOKING_DECISION",
+      "claim": "The moving-vector and endpoint/conjugacy obstructions fail the positive-linear-capacity admission test; Item 267 books zero new Route-1 rate and zero ordinary-j=2 capacity reduction.",
+      "evidence": "report Sections 1 and 7",
+      "scope_limit": "Route 1 and every conclusion about e+pi remain open"
+    }
+  ],
+  "strict_labels": {
+    "geometric_and_matrix_coefficient_recognition": "PROVED",
+    "scalar_and_conjugacy_shortcut": "PROVED NO-GO IN STATED SCOPE",
+    "wieferich_comparison": "ANALOGY ONLY; ACTUAL IFF OPEN",
+    "bounded_replay": "EXACT FINITE ONLY",
+    "positive_linear_capacity_admission": "FAIL",
+    "new_route1_rate": "0",
+    "new_capacity_reduction": "0"
+  },
+  "open": [
+    "integral or crystalline identification of the canonical-frame gate with a p-adic elliptic logarithm",
+    "an actual elliptic-Wieferich iff for the gate",
+    "weighted control for moving r and moving matrix-coefficient vectors",
+    "Route 1 and every conclusion about e+pi"
+  ]
+}

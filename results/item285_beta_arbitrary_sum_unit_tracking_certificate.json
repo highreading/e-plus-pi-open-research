@@ -1,0 +1,91 @@
+{
+  "admission": {
+    "actual_low_height_nonhomogeneous_invariant": false,
+    "actual_positive_linear_route1_mass": false,
+    "arbitrary_complexity_conditional_sum_ceiling": "PROVED O(n)",
+    "new_beta_capacity_reduction": 0,
+    "new_route1_rate": 0,
+    "positive_linear_capacity_admission": "FAIL",
+    "product_baseline_closed": false
+  },
+  "bounded_exact_checks": {
+    "arbitrary_digest": "905a12147c90bdaa03831be601bca9243b1b7d1ee7ea0aa549d7044c6d1adee4",
+    "arbitrary_rows": 290,
+    "asymptotic_extrapolation": false,
+    "exceptional_singleton_search": false,
+    "first_no_transfer_row": {
+      "D": 1,
+      "coefficients": [
+        1,
+        -1,
+        2,
+        -3
+      ],
+      "degrees": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "gaps": [
+        [
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "homogenized_capture": 1,
+      "homogenized_scalar": -52826176694381573025703750270595620464265812703120648499709791409389568,
+      "n": 6,
+      "original_scalar": -52826181002412600104841863719660357660344869493016286137146997082375168,
+      "scalar_capture": 11,
+      "target": 398959
+    },
+    "formal_degree_digest": "45a130747f98246adfa83dd6aa7288f6bbaf15661fb0f097efc6f212e6227a90",
+    "formal_degree_rows": 74,
+    "homogenization_digest": "ecd6ad89e5111a96dd9c3fbc38a42cb2556f5c5bdd2b17b0d96a1d3a8c2ab5e8",
+    "homogenization_rows": 868,
+    "label": "EXACT FINITE ONLY",
+    "no_transfer_digest": "71815a91a699646ebce86ae3f6de7afedd636c7fe5d92339df3a93d0c52de90e",
+    "no_transfer_rows": 54,
+    "resultant_digest": "277c4a18851397c0df27449d51eaff1191154de550c0924d4235a86f41db8ef9",
+    "resultant_rows": 868,
+    "unit_digest": "adc3bfa83c974b1d2bb20cd73893b6d5bea6670fa0df30bc723e9e144a5e83ff",
+    "unit_rows": 868,
+    "zero_resultant_digest": "d7c11b00bfe183bced14962ac3aed8ac9199e0a97046f1df3f8355e20e51e751",
+    "zero_resultant_rows": 15
+  },
+  "description": "Exact arbitrary-sum cancellation quotient, nonhomogeneous boundary-unit tracking, designed homogenization, and annihilator-resultant criteria",
+  "open": [
+    "a prime-independent unit lift with normalized evaluated height O(n)",
+    "or a low-height annihilator with nonzero O(n)-height resultant",
+    "unrestricted nonhomogeneous sums without either certificate",
+    "the Item282 product baseline and weighted-return cover",
+    "the uniform beta prime-power-height or little-oh squarefull theorem",
+    "Route 1 and every conclusion about e+pi"
+  ],
+  "schema": "item285-beta-arbitrary-sum-unit-tracking-certificate-v1",
+  "theorem": {
+    "arbitrary_sum": "for any finite nonzero integer sum R=sum T_j, B=gcd_j|T_j|, Q any target, and X=gcd(Q,R)/gcd(Q,B), one has X|R/B",
+    "capacity": "all closed sum-only branches have O(n)=o(n log n) height; the Item282 product baseline remains separate",
+    "conditional_height": "the explicit assumption log(sum|T_j|/B)=O(n) gives log X=O(n), with no sparsity or degree restriction",
+    "deoverlap": "every target may be chosen inside q_n/gcd(q_n,D_m)",
+    "designed_homogenization": "multiplication of each degree-k_j scalar term by C_1^(K-k_j) creates a different homogeneous sum with residual F(1); it does not transfer divisibility from the original F(u) sum",
+    "nonhomogeneous_reduction": "with u=-q_(n+1)^2, k0=min k_j, and F(U)=sum c_j A_j U^(k_j-k0), gcd(Q,S)=gcd(Q,F(u))",
+    "resultant": "if a monic integer M satisfies M(u)=0 mod Q, then the sum-only quotient divides Res(M,F/B); a nonzero O(n)-height resultant closes that quotient",
+    "unit_lift": "if v is an integer unit lift of u mod Q and the normalized evaluated l1 height is O(n), then the sum-only quotient divides F(v)/B and has log height O(n)"
+  }
+}

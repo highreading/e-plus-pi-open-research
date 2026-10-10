@@ -1,0 +1,44 @@
+{
+  "schema": "item286-root-audit-v1",
+  "audit_date": "2026-08-31",
+  "auditor": "root",
+  "verdict": "PASS_WITH_STRICT_SCOPE",
+  "substantive_checks": {
+    "tied_interval": "PASS: eliminating h gives p=(4M+2s+1)/3 and the positivity conditions are exactly (4M+3)/3<=p<=(3M-1)/2, of length (M-9)/6",
+    "raw_capacity": "PASS: the prime-number theorem gives M/6+o(M) candidate log mass and therefore the retained raw ceiling 1/36 per 6M",
+    "primary_source": "PASS: Kowalski Theorem 3.1 and Proposition 3.3 were checked against the primary arXiv text; they use one fixed U/F_q, auxiliary lisse sheaves, monodromy/independence hypotheses, and conjugacy-invariant local sets",
+    "archive_hypothesis_audit": "PASS: the sealed rational translation and Pluecker modules furnish recognition and fixed singular support, but no pi_1 representation, compatible auxiliary-ell system, conductor/cohomology bound, monodromy, or cross-ell independence theorem",
+    "diagonal_modulus": "PASS: p-divisibility in the varying residue characteristic does not formally imply any local condition modulo ell!=p; the report does not claim this rules out a special actual-family bridge",
+    "conditional_sieve_calculation": "PASS: with an exact-zero compatible bridge and positive-density local complements, P(L)>>L/log L and L=q^(1/(2A)) yields O(q^(d-1/(2A)) log q) in the cited fixed-field setting",
+    "horizontal_separation": "PASS: no transfer from the vertical fixed-q estimate to the varying-characteristic tied family is claimed",
+    "capacity_threshold": "PASS: N(M)=o(M/log M) implies weighted collision mass o(M) because every candidate prime is O(M)",
+    "deoverlap_and_booking": "PASS: Item149 overlap remains removed; no horizontal count or auxiliary-local bridge is proved, so the 1/36 ceiling and zero booking remain unchanged"
+  },
+  "independent_replay": {
+    "canonical_sha256": "012a1dc700a37197e2ccf153a3ea473266a019d23e4905e67ac31ab45b88c169",
+    "root_replay_sha256": "012a1dc700a37197e2ccf153a3ea473266a019d23e4905e67ac31ab45b88c169",
+    "byte_identical": true,
+    "payload_sha256": "530cedb1ba467fce915a62b8ec1d5d347628dfebcd5b640aabacdd6face058b9"
+  },
+  "package_checks": {
+    "manifest_files_checked": 6,
+    "frozen_dependencies_checked": 9,
+    "json_files_parsed": 6,
+    "all_hashes_and_dependencies_match": true
+  },
+  "report_checks": {
+    "sha256": "56110ec9a2528744851186595a6e22f34679a85688ae1ca961c9442a265850b5",
+    "bytes": 17129,
+    "lines": 404,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "display_delimiters": "20/20",
+    "inline_delimiters": "104/104"
+  },
+  "strict_scope": {
+    "proved": "The currently sealed fixed-j1 modules and gcd/CRT recognition do not meet the cited Frobenius large-sieve hypotheses, and recognition alone has a diagonal-modulus mismatch with auxiliary-prime sieving.",
+    "conditional": "An exact-zero compatible Frobenius bridge with the cited monodromy, independence, complexity, and local-density inputs would give a vertical power saving; a separate horizontal analogue must still be proved.",
+    "not_excluded": "New arithmetic-base or horizontal methods, a special actual-family auxiliary-local bridge, a compatible sheaf construction, and a direct N(M)=o(M/log M) theorem.",
+    "route_status": "Route 1 ACTIVE; Route 2 QUEUED"
+  }
+}

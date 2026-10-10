@@ -1,0 +1,93 @@
+{
+  "item": 252,
+  "schema": "item252-strict-ledger-v1",
+  "scope": "the final diagonal A_s on actual ordinary-j=2 rows p=2r+6s+3, with r odd and 3 not dividing r",
+  "PROVED": [
+    {
+      "id": "I252-P1",
+      "claim": "The coefficient formula for A_s has the exact Frobenius normalization A_s=(-1)^m*(epsilon_2*2^(-d)*S_m(d+1/2)-1) modulo p, where m=s-1 and d=r+2.",
+      "evidence": "report Section 2; termwise binomial-to-Pochhammer comparison and direct coefficient replay in the certificate",
+      "scope_limit": "This localization still contains a truncated sum of length m+1."
+    },
+    {
+      "id": "I252-P2",
+      "claim": "Exact contiguous descent gives 2^(-d)S_m(d+1/2)=H_m-h_m P_d(m), with P_d(m)=sum_(k=1)^d 2^(-k)(m+1/2)_k/(1/2)_k.",
+      "evidence": "report Section 3; exact rational contiguous and Pochhammer-rectangle checks in the certificate",
+      "scope_limit": "H_m is retained as one universal moving period; it is not assigned a numerical value."
+    },
+    {
+      "id": "I252-P3",
+      "claim": "Every denominator in the Frobenius and contiguous normal form is a p-unit on every actual row.",
+      "evidence": "report Section 5; 0<=m<p, 2d-1=p-6s<p, and 2m+2d-1=p-4s-2<p; rowwise assertions in the certificate",
+      "scope_limit": "No numerator is canceled and the finite endpoint term in each contiguous shift is retained."
+    },
+    {
+      "id": "I252-P4",
+      "claim": "There is no scalar rational Gosper antidifference for h_j over K(x) for any characteristic-zero constant field K, including K=Q(r).",
+      "evidence": "report Section 4.1; incompatible pole-chain endpoints followed by the polynomial and constant contradictions",
+      "scope_limit": "This excludes the scalar contiguous ansatz, not every possible identity for H_m."
+    },
+    {
+      "id": "I252-P5",
+      "claim": "For every prime p>=5, any scalar rational solution over the algebraic closure of F_p, if it exists, has reduced-denominator degree at least (p-1)/2.",
+      "evidence": "report Section 4.2; the exceptional translation orbit from -1/2 to -1 contains (p-1)/2 mandatory poles, while every other pole orbit contains p points; the polynomial branch is impossible",
+      "scope_limit": "This is a uniformly fixed-degree no-go for an identity in the summation index. It does not exclude a relation only at m=(p-2r-9)/6, higher-rank closure, or nonlinear closure."
+    },
+    {
+      "id": "I252-P6",
+      "claim": "The Item251 first-order factor simplifies exactly to A_(s+1)+A_s=4^s(28s+11)/(2s+1)*binom(3s-1,s-1).",
+      "evidence": "report equation (3.5); 49 exact integer equalities in the certificate",
+      "scope_limit": "The factor does not sum the alternating hypergeometric period."
+    }
+  ],
+  "EXACT_FINITE": [
+    {
+      "id": "I252-F1",
+      "bound": "p<=601",
+      "actual_rows": 2440,
+      "direct_double_sum_frobenius_normal_form_equalities": 2440,
+      "lucas_term_equalities": 80195,
+      "rectangle_term_equalities": 241558,
+      "A_s_zero_count": 8,
+      "first_A_s_zero": {
+        "p": 31,
+        "r": 5,
+        "s": 3
+      },
+      "status": "EXACT FINITE ONLY; no inference outside the bound"
+    },
+    {
+      "id": "I252-F2",
+      "bound": "p<=251 for implementation replay of the exceptional pole profile",
+      "checked_primes": 52,
+      "status": "bounded replay of the valuation pattern only; the all-prime lower bound is the algebraic proof I252-P5"
+    }
+  ],
+  "OPEN": [
+    "a phase-only identity at m=(p-2r-9)/6",
+    "a higher-rank Cartier or nonlinear relation removing H_m",
+    "all-prime nonvanishing or weighted zero control for A_s",
+    "any capacity reduction, Route-1 rate gain, or conclusion about e+pi"
+  ],
+  "booking": {
+    "new_unconditional_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "capacity_reduction": 0
+  },
+  "dependencies": {
+    "external_files": [],
+    "python": "3.11+ standard library only",
+    "mathematical_provenance_only": [
+      "Item 251 exact A_s representations and recurrence"
+    ]
+  },
+  "intended_artifacts": [
+    "item252_diagonal_modp_report.md",
+    "item252_diagonal_modp_certificate.py",
+    "item252_diagonal_modp_certificate.json",
+    "item252_diagonal_modp_certificate_replay.json",
+    "item252_diagonal_modp_ledger.json",
+    "item252_diagonal_modp_manifest.json",
+    "item252_diagonal_modp_hashes.sha256"
+  ]
+}

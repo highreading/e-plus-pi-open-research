@@ -1,0 +1,60 @@
+{
+  "item": 328,
+  "schema": "item328-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_ACTUAL_CARTIER_DIGIT_AND_SUBLINEAR_RECURRENCE_NO_GO",
+  "scope": "independent root audit of the actual ordinary-j2 Cartier coefficient, its unique Frobenius recurrence break, and the linear-depth endpoint obstruction",
+  "checks": {
+    "certificate_sha256": "5b372bd499c433695ab0dd487c78b6426386c500aaf249fe9944431d6e363b46",
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "python_compile": true,
+    "work_manifest_artifacts_match": true,
+    "canonical_item325_dependency_pins": true,
+    "frozen_dependencies_checked": 7,
+    "frozen_dependencies_match": true,
+    "work_hash_list_entries": 6,
+    "work_hash_list_match": true,
+    "root_stress_sha256": "77ed00cd6a4e80708d6f4f4674da33a700f73dac9f92a34cd20ca22e72203feb",
+    "root_stress_actual_rows": 661,
+    "root_stress_coefficient_recurrence_checks": 183506,
+    "root_stress_impulse_transfer_checks": 54191,
+    "root_stress_generic_tied_rows": 143,
+    "report_inline_delimiters": "92/92",
+    "report_display_delimiters": "38/38",
+    "report_control_characters": 0,
+    "report_bare_cr": 0
+  },
+  "mathematical_audit": {
+    "actual_coordinates": "n=(p-1)/2, q=n-m=2(M-p)+1 is odd and p/3<q<=(p-1)/2 on every declared tied row",
+    "coefficient_identity": "odd-part extraction from (1-x^2)^n and reciprocity of F=(1-x)^n(1+x)^(n+q) give S=(-1)^n*c_p=c_(q-1) exactly",
+    "actual_gate": "Item325 gives H_m=epsilon*(1-c_p); on the certified ell-nonzero chart the original residual collision is therefore exactly c_p=1-epsilon*Theta, not an auxiliary condition",
+    "frobenius_break": "logarithmic differentiation gives (k+1)c_(k+1)=q*c_k+(k-p-q)c_(k-1); because D<2p-1, k=p-1 is the unique vanished forward pivot before the endpoint",
+    "impulse": "after the break, a unit change in c_p obeys the low-coefficient recurrence and hence delta_(p+t)=c_t through t=q",
+    "endpoint_unit": "the endpoint is q>p/3 steps away and c_q=2^(-q)*binom(2q,q) modulo p; 2q<=p-1 makes this a p-unit",
+    "scope_warning": "the p local continuations prove blindness only for the natural recurrence before its linearly distant endpoint; global reciprocity, target-specific arithmetic, degenerate charts, average gcds, and weighted zero density remain open"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact actual Cartier-digit localization on the declared chart",
+      "coefficient recurrence and unique Frobenius break",
+      "self-similar impulse and p-unit endpoint multiplier",
+      "bounded-depth and o(p)-depth local-recurrence no-go",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "canonical replay rows and enlarged root stress rows"
+    ],
+    "OPEN": [
+      "weighted zero density for the affine Cartier target",
+      "factor localization or target-specific Frobenius monodromy",
+      "ell-zero and rank-at-most-one chart arithmetic",
+      "any reduction of the retained 1/105 ceiling"
+    ]
+  },
+  "capacity": {
+    "raw_isolated_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

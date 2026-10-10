@@ -1,0 +1,53 @@
+{
+  "item": 410,
+  "schema": "item410-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_EXACT_COMPATIBLE_H_SCALAR_CARRIER_ZERO_BOOKING",
+  "scope": "independent root audit of the exact R/S normal forms, coefficient recurrences, four rational scalar collapses, actual compatible-H support carrier, height bound, finite-only census, dependencies, and deterministic replay",
+  "checks": {
+    "canonical_dependencies_checked": 9,
+    "canonical_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "control_characters": 0,
+    "finite_range": "1<=m<=128",
+    "finite_to_infinite_inference_used": false,
+    "root_repairs": "Canonicalized all artifact and replay paths, replaced the stale work Item406 dependency bundle by its corrected audited canonical package, enabled strict certificate replay, and changed the opening description from an actual-target Smith invariant to the corrected unmarked Smith invariant."
+  },
+  "mathematical_audit": {
+    "normal_form_and_recurrence": "The identity (1+z)(1+z^2)=(1-z^4)/(1-z) gives S_m=(1-z)^(10m+1)/(1-z^4)^(4m+1) and R_m=(1+z)^(4m+1)S_m. Logarithmic differentiation yields the displayed four-term coefficient recurrence exactly.",
+    "R_scalar_collapse": "Parity expansion of (1+z^2)^-(4m+1), followed by t=(p-6m-1)/2 and polynomiality of binomial(X,4m) modulo p, gives the phase-independent rational values E_m and O_m for the two terminal R coefficients.",
+    "S_scalar_collapse": "The mod-4 expansion of the S normal form gives U_(m,delta) and V_(m,delta), with delta=n mod 4. Every denominator is a p-unit because p>6m>4m.",
+    "carrier": "Item406 makes p|H_q equivalent to simultaneous vanishing of the two terminal coefficients for both R and S. Hence every compatible H-collision prime divides the numerator gcd J_(m,delta), and therefore W_m. This is an H-stratum theorem inside the larger unmarked Smith carrier, not an exact description of the Frobenius-marked target.",
+    "height": "A common power-of-two denominator below 2^(8m), the ordinary binomial sum at most 2^(6m), and term numerators bounded by (6m)^(4m)/(4m)! give the stated 2^(14m) bound and normalized constant about 2.55. That bound is weaker than the inherited combined ceiling.",
+    "finite_scope": "The nonresonance, phase equality and absence of prime factors above 6m are certified only through m=128. The failures at m=33,109 and122 correctly prevent stronger multiplicity patterns from being promoted."
+  },
+  "strict_labels": {
+    "PROVED_ACTUAL_H_STRATUM": [
+      "exact scalar normal forms and recurrence",
+      "uniform four-scalar compatible-prime collapse",
+      "p|H_q implies p|J_(m,delta)|W_m",
+      "explicit linear-height upper bound"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "all observations and counterexamples in 1<=m<=128"
+    ],
+    "OPEN": [
+      "uniform exclusion of E_m=O_m=0",
+      "log rad(W_m)=o(m)",
+      "rad J_(m,delta) supported in primes at most 6m for all m",
+      "the four-adjacent lemma, marked target control, Route 1, and every conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "combined_large_component_ceiling": "log(136)/6",
+    "new_carrier_height_upper_constant": "(14 log 2+4 log(3e/2))/6",
+    "new_route1_rate": 0,
+    "new_booking": 0,
+    "new_unconditional_capacity_reduction": 0,
+    "frozen_deficit": "1.0196329836694317938803064012..."
+  }
+}

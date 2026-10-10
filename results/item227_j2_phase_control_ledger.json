@@ -1,0 +1,67 @@
+{
+  "item": 227,
+  "scope": "fixed j=2 order-four endpoint control, singular-Delta classification, and terminal-redundancy ceiling",
+  "cell": "4m+1=5p-2s, 2<=s<=(p-3)/6, p>=17, s=(p-1)/2 mod 2",
+  "PROVED": [
+    {
+      "claim": "general four-periodic endpoint-weight isomorphism",
+      "value": "Phi is invertible, N=M+epsilon*b*a satisfies N^4=I and char_N(x)=x^4-1, and O*N=S*O"
+    },
+    {
+      "claim": "exact cyclotomic/control factorization",
+      "value": "Delta=det(I-M^4)=F1*Fminus1*Fi=det(O)*det(U), where F1=1+h0+h1+h2, Fminus1=1-h0+h1-h2, Fi=(1-h1)^2+(h0-h2)^2"
+    },
+    {
+      "claim": "singular left-null classification",
+      "value": "Delta=0 is precisely a lost source Fourier/control mode; every left null vector kills b and the affine closure right-hand side, so singular closure is consistent"
+    },
+    {
+      "claim": "phase-4 bottom reciprocity",
+      "value": "for the canonical common line, t4=-epsilon*beta; the negative sign makes phase 4 exactly redundant with the bottom terminal"
+    },
+    {
+      "claim": "two-invariant terminal ceiling",
+      "value": "E4=0, E3=E2-E1, E1=-Omega, and E2=Psi_flat-epsilon*(a*b)*Omega, so all four phase terminals add nothing beyond Omega=Psi=0"
+    }
+  ],
+  "EXACT_FINITE": [
+    {
+      "prime_bound": 401,
+      "s_at_least_2_rows": 1115,
+      "Delta_zero_rows": 15,
+      "F1_zero_rows": 4,
+      "Fminus1_zero_rows": 0,
+      "Fi_zero_rows": 11,
+      "singular_affine_consistent_rows": 15,
+      "omega_psi_joint_zero_rows": 0,
+      "status": "all 15 singular rows have rank 3 and nonzero Omega through the bound; no inference beyond the bound"
+    },
+    {
+      "endpoint_basis_replay_prime_bound": 101,
+      "rows": 74,
+      "status": "the general four-periodic endpoint basis, N^4, conjugacy, determinant identities, mismatch closure, and terminal redundancy replay exactly"
+    }
+  ],
+  "OPEN": [
+    "an all-prime exclusion or zero-rate theorem for simultaneous Omega=Psi zeros",
+    "an all-prime density classification of F1, Fminus1, and Fi",
+    "the exceptional s=1 family",
+    "a zero-rate theorem for the fixed j=2 cell",
+    "any common-log capacity reduction",
+    "any conclusion about e+pi"
+  ],
+  "booking": {
+    "new_rate_per_m": "0",
+    "j2_capacity_per_m": "2/35",
+    "status": "NO CAPACITY BOOKED"
+  },
+  "artifacts": [
+    "item227_j2_phase_control_report.md",
+    "item227_j2_phase_control_certificate.py",
+    "item227_j2_phase_control_certificate.json",
+    "item227_j2_phase_control_certificate_replay.json",
+    "item227_j2_phase_control_ledger.json",
+    "item227_j2_phase_control_manifest.json",
+    "item227_j2_phase_control_hashes.sha256"
+  ]
+}

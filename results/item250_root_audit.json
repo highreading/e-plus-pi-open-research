@@ -1,0 +1,59 @@
+{
+  "schema": "item250-root-audit-v1",
+  "item": 250,
+  "audited_date_beijing": "2026-08-31",
+  "disposition": "accepted for archive with zero rate booking",
+  "sealed_artifacts": {
+    "report_sha256": "56339ec89876abd68627d03b2d3e4e4d1c0fdc8b8d20a59afb274cb7dafe98ce",
+    "checker_sha256": "2364a9e9c9be0ea0827c2b12137883ad326d77017a53bb4f242be300335e90ce",
+    "canonical_sha256": "6f8d0165448dd8949436649e2824a14578c1bce08e8875a6fd88f770c72cb5e3",
+    "replay_sha256": "6f8d0165448dd8949436649e2824a14578c1bce08e8875a6fd88f770c72cb5e3",
+    "strict_ledger_sha256": "a0d4c581f9dcca0402084ecc95c3c3c11e23f523cbf850472c5c1ec7594e308f",
+    "manifest_sha256": "38172303bc1c5404cd9c60f2577443d3b95afb52d78d302fa2d240566ee3d12d",
+    "hash_ledger_sha256": "80102d28cecd07226c15b17d9b728a14f06eeb1f4f4b6371c17f83cabab402c7"
+  },
+  "dependency": {
+    "item219_common_log_j2_certificate.py": "bf9ee30675b5745225f08d2d82e500fd1f6797d69f94ab5949602e266f8b38cc",
+    "hash_match": true
+  },
+  "portable_replay": {
+    "isolated_archive_style_runs": 2,
+    "canonical_replay_byte_identical": true,
+    "output_matches_sealed_canonical": true,
+    "output_sha256": "6f8d0165448dd8949436649e2824a14578c1bce08e8875a6fd88f770c72cb5e3",
+    "manifest_validation_failures": 0,
+    "control_bytes": 0
+  },
+  "independent_probe": {
+    "imports_item_code": false,
+    "script_sha256": "9288b877b075230be15bfce50df5e70ab3c06072223473a0b546d3ff55934516",
+    "result_sha256": "5e9c60f6e419c6e3c9db24aa4135c0f96a2e88d6f469f45df78d2e42a2fb0d66",
+    "actual_rows_through_p_101": 85,
+    "coordinate_equalities": 510,
+    "witnesses_reproduced": [
+      23,
+      67,
+      367,
+      953
+    ]
+  },
+  "root_mathematical_audit": {
+    "reflected_gate_signs_checked": true,
+    "inhomogeneous_frobenius_terminal_checked": true,
+    "rank_one_cross_multiplication_uses_no_division": true,
+    "lower_and_upper_factorial_ranges_audited_separately": true,
+    "phase_denominator_unit_ranges_checked": true,
+    "linear_and_cubic_conditions_are_necessary_only": true,
+    "false_positive_witnesses_block_sufficiency": true
+  },
+  "labels": {
+    "proved": "fixed-r affine localization, resonant correction, rank-one identity, necessary eliminants, and all-row unit audit",
+    "exact_finite_only": "p<=401 census and odd r<=199 implementation replay",
+    "open": "all-prime or weighted resultant control and the actual residual period on exceptional rows"
+  },
+  "booking": {
+    "new_unconditional_linear_log_rate": 0,
+    "capacity_reduction": 0,
+    "route1_conclusion": "none"
+  }
+}

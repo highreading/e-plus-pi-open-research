@@ -1,0 +1,60 @@
+{
+  "status": "EXACT_PAIRED_OBSERVATION_ALGEBRA_PASS",
+  "recurrence_degrees": [
+    17,
+    17,
+    17,
+    17
+  ],
+  "observation_common_denominator": "40960*(r - 3)*(2*r - 21)*(2*r - 15)*(2*r - 9)*(2*r - 3)*(2*r + 3)*(176275*r**6 - 6297825*r**5 + 89867547*r**4 - 649457253*r**3 + 2470644018*r**2 - 4573809342*r + 3062922660)",
+  "observation_integer_numerator_degrees": [
+    12,
+    12
+  ],
+  "B_M": "45461024638436647918035599360000",
+  "B_H": "10862570965728667852800",
+  "limiting_companion": [
+    [
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1"
+    ],
+    [
+      "16777216/531441",
+      "40370176/19683",
+      "26446912/729"
+    ]
+  ],
+  "short_gap_leading_height_A": "10569202254099",
+  "short_gap_leading_height_B": "3593642770590400",
+  "limiting_scaled_contiguity": [
+    "-165139233219/3610112000",
+    "291328083/231047168000"
+  ],
+  "finite_symbolic_witnesses": [
+    {
+      "gap": 1,
+      "degree": 29,
+      "limiting_observation_determinant": "-291328083/231047168000",
+      "leading_coefficient": "-27291545559471468825"
+    },
+    {
+      "gap": 2,
+      "degree": 46,
+      "limiting_observation_determinant": "-165139233219/3610112000",
+      "leading_coefficient": "-92751682777102965340628427589560000"
+    },
+    {
+      "gap": 3,
+      "degree": 63,
+      "limiting_observation_determinant": "-2527447670604713/1523016000",
+      "leading_coefficient": "-315221401995127803443598082763827782391119936000000"
+    }
+  ],
+  "scope": "The note proves every-gap nonvanishing from eventual positivity and gives the uniform norm/packing argument; these finite symbolic witnesses do not substitute for that proof."
+}

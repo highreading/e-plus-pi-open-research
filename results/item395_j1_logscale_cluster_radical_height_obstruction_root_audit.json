@@ -1,0 +1,48 @@
+{
+  "item": 395,
+  "schema": "item395-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_LOGSCALE_CLUSTER_CRITERION_AND_GENERIC_HEIGHT_SIGN_NO_GO",
+  "scope": "independent root audit of the paired resultant, cluster radical, isolated packing, threshold constant, shifted-norm comparison, method-class scope, replay, and canonical dependencies",
+  "checks": {
+    "canonical_dependencies_checked": 6,
+    "canonical_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "json_valid": true,
+    "duplicate_equation_tags": 0,
+    "control_characters": 0,
+    "finite_to_infinite_inference_used": false,
+    "root_repairs": "Repaired three malformed TeX expressions, changed the classification from the misleading word capacity-reduction to capacity-criterion, repinned the checker to canonical Item 391, regenerated all certificates, and canonicalized the replay path. No proved bound changed."
+  },
+  "mathematical_audit": {
+    "resultant": "Pairing the ordered root factors gives (2d)^n times the product over unordered pairs of ((2d)^2-(q-p)^2). Its zeros are exactly the 2d gaps and its nonzero sign depends on the unknown comparison of all gaps with 2d.",
+    "cluster_radical": "The radical over both endpoint gcds counts every and only actual collision prime having another actual collision prime within numerical distance 2D, once regardless of multiplicity.",
+    "master_inequality": "The complementary prime roots are separated by more than 2D inside an interval of length (M-9)/6. Packing gives the isolated contribution and, for D asymptotic to c log M, the exact normalized term 1/(72c).",
+    "admission_threshold": "Comparing the master inequality with 1/36 yields the necessary sufficient target log C <= ((2c-1)/(12c)-epsilon)M; at c=1 this is strictly below M/12.",
+    "norm_height": "For each root p, the shifted factors are p(1 plus or minus 2d/p). Elementary logarithmic inequalities and n<=M/(6log M)+o(M/log M) give the uniform exp(plus or minus c/4+o(1)) comparison.",
+    "no_go_scope": "Ordinary gcd height, generic resultant height/sign, and unlocalized multiplication retain the unknown radical at essentially its original height. This does not exclude gate-specific factorization, average-gcd, monodromy, or direct arithmetic input."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact aggregate logarithmic-window cluster radical",
+      "cluster-plus-isolated master inequality",
+      "sharp conditional saving threshold",
+      "constant-factor shifted-norm comparison",
+      "scoped generic height/sign/product no-go"
+    ],
+    "OPEN": [
+      "a gate-specific bound below the admission threshold",
+      "actual logarithmic-window weighted zero density",
+      "a strict fixed-j=1 capacity reduction",
+      "any conclusion about e+pi"
+    ]
+  },
+  "capacity": {
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "new_route1_rate": 0,
+    "new_booking": 0,
+    "new_unconditional_capacity_reduction": 0
+  }
+}

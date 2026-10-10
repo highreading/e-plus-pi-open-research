@@ -1,0 +1,41 @@
+{
+  "schema": "item276-root-audit-v1",
+  "audit_date": "2026-08-31",
+  "auditor": "root",
+  "verdict": "PASS_WITH_STRICT_SCOPE",
+  "substantive_checks": {
+    "continuant_transfer": "PASS: the beta recurrence gives q_(n+h)=P_h(n)q_(n+1)+P_(h-1)(n+1)q_n and the exact transition-minor identity",
+    "casoratian_residual": "PASS: C_h(n) is congruent to -P_h(n)q_(n+1)^2 modulo q_n",
+    "level_equivalence": "PASS: adjacent coprimality makes p^s divide C_h, P_h, and q_(n+h) equivalent whenever p^s divides q_n",
+    "shallow_valuation": "PASS: if v_p(P_h)<v_p(q_n), the two residual terms have distinct valuations and v_p(C_h)=v_p(P_h)",
+    "height_bounds": "PASS: positivity and the continuant recursion give (4n+6)^(h-1)<=P_h(n)<=[4(n+h)]^(h-1), hence O(n) residual height exactly for h=O(n/log n)",
+    "universal_antiperiod_gap": "PASS: the odd anti-period reaches every odd divisor M of q_n at h=M, but a high level M>N pays at least N log(4N+6)",
+    "reservoir_deoverlap": "PASS: replacing q_n by qbar=q_n/gcd(q_n,D_m) preserves the three-way divisibility equivalence prime by prime",
+    "capacity_booking": "PASS: the primitive single-minor class yields no little-oh squarefull theorem or beta-ceiling reduction and books zero"
+  },
+  "independent_replay": {
+    "canonical_sha256": "545e22b2821e2a073cfa3872439d9598a1619cb128c928b0985c901e33deb8c6",
+    "root_replay_sha256": "545e22b2821e2a073cfa3872439d9598a1619cb128c928b0985c901e33deb8c6",
+    "byte_identical": true
+  },
+  "package_checks": {
+    "hash_ledger_entries_checked": 6,
+    "frozen_dependencies_checked": 6,
+    "json_files_parsed": 5,
+    "all_hashes_and_dependencies_match": true
+  },
+  "report_checks": {
+    "sha256": "4600b7dd163c71149080583e07e73ce3279047afbee3b0154e14e2ade099b6f0",
+    "bytes": 13076,
+    "forbidden_control_characters": 0,
+    "bare_carriage_returns": 0,
+    "display_delimiters": "38/38",
+    "inline_delimiters": "90/90"
+  },
+  "strict_scope": {
+    "proved": "One primitive growing two-state minor transports a level to a second sequence zero; the universal seed-only gap reaching a high level has main-scale residual height.",
+    "not_proved": "No claim covers products or sums of a growing number of minors, arbitrary growing block determinants, or global short-return theorems.",
+    "finite_only": "The portable bounded replay supplies identity checks only and contains no asymptotic singleton census.",
+    "route_status": "Route 1 ACTIVE; Route 2 QUEUED"
+  }
+}

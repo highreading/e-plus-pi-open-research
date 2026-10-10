@@ -1,0 +1,57 @@
+{
+  "schema": "item291-j2-connection-plane-ledger-v1",
+  "checked": "2026-08-31 Asia/Shanghai",
+  "scope": "The ordinary-j=2 lower tail, Item-250 compatibility determinant, and every actual-row rank chart; the reconstructed recurrence is retained only as an explicitly bounded experiment",
+  "proved": [
+    "For every admissible odd r not divisible by 3 and both nu=0,1, the Item-250 lower B-tail satisfies lowerB_nu=2*d_nu term by term.",
+    "Consequently H_nu^flat=9*d_nu-10*lowerB_nu=-11*d_nu.",
+    "The lower B-tail is distinct from the affine A-chain coefficient b_nu; no factor 18*c-11 follows.",
+    "Writing f=(f0,f1), b=(b0,b1), d=(d0,d1), and U_nu=9*c*b_nu-11*d_nu gives D=f0*U1-f1*U0=9*c*det(f,b)-11*det(f,d).",
+    "The exact row minors are Delta01=-z1*D, Delta02=-z2*D, and Delta12=0.",
+    "On every actual row z1 is a p-unit: the B_s factorial arguments are below p, the raw kappa_r numerator factors are nonzero and have absolute value below p, and the Item-250 denominator audit applies.",
+    "Therefore rank(R)=2 exactly when D is nonzero modulo p.",
+    "On D=0 and f nonzero the row rank is one; on f=0 the row rank is one for U nonzero and zero exactly for U=0.",
+    "Every actual common collision implies D=0, but D=0 is not sufficient: the remaining incidence is one residual equation when f is nonzero, and U0=U1=0 when f=0.",
+    "Within the explicitly bounded recurrence classes there is no nonzero relation of order at most 2 and coefficient degree at most 17, nor of order at most 3 and coefficient degree at most 16; the certificate matrices have full column rank modulo each of two certificate primes."
+  ],
+  "termwise_proof": {
+    "odd_chain_ratio": "A_t=(r/3-t)/(t-r-1)",
+    "nu1_ratio": "W_(1,t+1)/W_(1,t)=A_t",
+    "nu0_ratio": "(w_(t+1)+w_(t+2))/(w_t+w_(t+1))=(r/3-t)/(t-r)",
+    "base_constants": "C_(a,1)=2*beta and C_(a,0)=C_(a,1)*(1+A_0)",
+    "boundary": "r=1 is included; empty products are one"
+  },
+  "rank_strata": {
+    "D_nonzero": "rank 2; collision impossible",
+    "D_zero_f_nonzero": "rank 1; one residual period-incidence equation remains",
+    "f_zero_U_nonzero": "rank 1; collision impossible",
+    "f_zero_U_zero": "rank 0; both localized equations vanish"
+  },
+  "finite_replay": {
+    "termwise": "r<=199, 67 admissible r rows, 7001 term equalities",
+    "actual_rows": "p<=401, 1153 actual rows, 3 rank drops, 0 common collisions",
+    "recurrence": "82 terms per phase; 79 recurrence rows per sequence and certificate prime; primes 1000000007 and 1000000009",
+    "candidate": "order 3, coefficient degree 17, separately stored for phases r=1+6n and r=5+6n",
+    "classification": "EXACT FINITE ONLY / EXPERIMENTAL"
+  },
+  "open": [
+    "An all-n WZ, Hermite, de-Rham, or annihilating-operator certificate for the reconstructed order-three recurrence.",
+    "A complete proved bounded-rank translation update for W=(f0,f1,U0,U1).",
+    "Any fixed Frobenius/sheaf realization or all-prime nonvanishing theorem for D.",
+    "Any weighted zero-density theorem for the actual tied prime family."
+  ],
+  "capacity": {
+    "raw_ordinary_j2_capacity_per_M": "2/35",
+    "raw_ordinary_j2_capacity_per_6M": "1/105",
+    "new_divisor": false,
+    "new_weighted_bound": false,
+    "new_capacity_reduction": 0,
+    "new_unconditional_route1_rate": 0
+  },
+  "forbidden_inference": [
+    "Do not identify lowerB_nu with b_nu or infer a scalar factor 18*c-11.",
+    "Do not infer common collision from D=0 without the residual incidence.",
+    "Do not promote the finite order-three recurrence reconstruction to an all-n theorem.",
+    "Do not infer Frobenius structure, density, or capacity reduction from recurrence closure alone."
+  ]
+}

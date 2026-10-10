@@ -1,0 +1,59 @@
+{
+  "item": 371,
+  "schema": "item371-root-audit-v1",
+  "checked_date_beijing": "2026-09-01",
+  "verdict": "PASS_SCOPED_FULL_DETERMINANT_AND_LITERAL_CONDUCTOR_NO_GO",
+  "scope": "independent root audit of the exact companion determinant divisor, residue-characteristic lisse obstruction, pointwise-product separability obstruction, fixed-normalization full crystalline determinant obstruction, literal conductor growth, scope exclusions, and zero booking",
+  "checks": {
+    "work_hash_list_entries": 6,
+    "work_hash_list_failures": 0,
+    "frozen_dependencies_checked": 16,
+    "frozen_dependencies_match": true,
+    "python_compile": true,
+    "certificate_replay_byte_identical": true,
+    "root_replay_byte_identical": true,
+    "independent_companion_determinant_check": true,
+    "independent_separability_operator_check": true,
+    "independent_actual_zero_witness": "(h,s,p)=(10,11,109), (a,Q0)=(70,0)",
+    "independent_nonzero_witnesses": 3,
+    "prime_or_collision_census_performed": false,
+    "density_inference_from_controls": false,
+    "canonical_format_repair": "none"
+  },
+  "mathematical_audit": {
+    "determinant": "For C=[[-a,-Q0],[1,0]], det(C)=Q0 and chi_C(X)=X^2+aX+Q0. Thus the determinant is exactly the already forced transverse coordinate and is not a new condition.",
+    "lisse_scope": "A lisse mod-p Frobenius acts invertibly on every unramified fiber. The actual Q0=0 row therefore excludes a literal all-row lisse realization of this companion; deleting that divisor would delete the target event.",
+    "product_scope": "The determinant of a pointwise product is multiplicatively separable in independently varying local factors. The operator F F_xy-F_x F_y vanishes on f(x)g(y) but equals -1 on x+y, proving only the declared universal local-product obstruction.",
+    "crystalline_scope": "Within the explicitly fixed-normalization full-determinant class, det(Phi)=p^mu times a unit gives uniformly unit or uniformly zero reduction. The mixed Q0 controls rule out that full-determinant model, while Hasse subdeterminants and varying-slope or singular models remain open.",
+    "conductor": "The finite logarithm has degree p-1 and root multiplicity at most two, so its z^2 pullback has at least p-2 distinct roots. Literal full-order Kummer support and literal Artin-Schreier Swan conductor therefore grow linearly with p.",
+    "scope_warning": "No general impossibility theorem for cohomological compression, Hasse subdeterminants, or horizontal trace-determinant nonconcentration is claimed.",
+    "capacity": "No weighted zero-density result follows, so the fixed-j1 ceiling 1/36 and booking zero remain unchanged."
+  },
+  "strict_labels": {
+    "PROVED": [
+      "exact determinant divisor identification",
+      "literal residue-characteristic lisse all-row obstruction",
+      "universal pointwise local-product separability obstruction",
+      "fixed-normalization full crystalline determinant obstruction",
+      "literal Kummer and Artin-Schreier conductor-growth obstruction",
+      "zero booking"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "four predeclared actual controls with both zero and nonzero determinant values; no density inference"
+    ],
+    "OPEN": [
+      "Hasse subdeterminant or varying-slope F-crystal realization",
+      "target-specific nonlocal identity or bounded-conductor compression",
+      "horizontal trace-determinant nonconcentration or average-gcd theorem",
+      "weighted joint-zero density, any strict fixed-j1 ceiling reduction, Route 1, and e+pi"
+    ]
+  },
+  "capacity": {
+    "raw_log_mass": "M/6+o(M)",
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "new_independent_condition": 0,
+    "new_linear_log_rate": 0,
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

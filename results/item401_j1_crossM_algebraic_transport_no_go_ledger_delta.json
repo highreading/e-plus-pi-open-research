@@ -1,0 +1,53 @@
+{
+  "schema": "item401-j1-crossM-algebraic-transport-no-go-ledger-delta-v1",
+  "item": 401,
+  "date": "2026-09-01",
+  "branch": "actual fixed-j=1 joint Hasse-transverse gate / cross-M same-prime algebraic recurrence transport",
+  "status": "PROVED_ALGEBRAIC_VERTICAL_TRANSPORT_AND_SCOPED_RECURRENCE_ONLY_NO_GO",
+  "proved": {
+    "fixed_prime_block": "for every prime p>3, the actual tied family contains exactly floor(p/12) consecutive M-values with phase (M,h,s,p)->(M+1,h+3,s-2,p)",
+    "constant_term_model": "C_nu(M)=CT_z w_nu(z)K(z)^M for one fixed degree-twelve rational-map denominator",
+    "algebraicity": "the ordinary generating functions are four-root residue sums and have algebraic degree at most binomial(12,4)=495",
+    "recurrence": "each C_nu sequence satisfies a homogeneous polynomial-coefficient recurrence of absolute order and degree independent of p",
+    "divided_transport": "inside a fixed-p candidate block, division by the compulsory first p-copy and reduction modulo p transports the actual divided coordinates in the same characteristic",
+    "hasse_alignment": "the M-shift is exactly the h->h+3,s->s-2 motion in Item296's order-three selected-Hasse carrier recurrence",
+    "vertical_column_no_go": "distinct prime columns are independent CRT components, and homogeneous recurrence data admit the full-support zero-output orbit",
+    "capacity_countermodel": "the full-support recurrence countermodel has logarithmic-window clustered mass at least M/12+o(M) at c=1, exactly saturating the Item395 admission coefficient",
+    "new_booked_mass": 0
+  },
+  "scope": {
+    "actual_family_used": true,
+    "actual_theorem": "the phase blocks, constant-term model, algebraicity, recurrence existence, and divided same-prime transport apply to the actual C_0,C_1 sequences",
+    "information_class_closed": "homogeneous same-prime recurrence existence, finite rank, coefficient regularity, and CRT product structure without arithmetic control of the distinguished initial orbit",
+    "countermodel_is_actual_orbit": false,
+    "actual_initial_orbit_controlled": false,
+    "cross_prime_reciprocity_proved": false,
+    "actual_cluster_upper_bound_proved": false,
+    "strict_capacity_reduction_proved": false,
+    "finite_controls": "declared phase blocks and coefficient identities only; no actual gate-zero scan or collision census",
+    "finite_to_infinite_inference": false,
+    "not_ruled_out": [
+      "an arithmetic theorem on the distinguished recurrence initial orbit",
+      "a reciprocity identity coupling two different prime columns",
+      "a common actual-moment carrier of height below M/12",
+      "a horizontal distribution theorem as residue characteristic varies"
+    ]
+  },
+  "capacity": {
+    "item395_admission_target_at_c_1": "log C_(M,floor(log M))<(1/12-epsilon)M",
+    "vertical_recurrence_full_support_countermodel_coefficient": "at least 1/12",
+    "new_bound_meeting_target": false,
+    "raw_fixed_j1_ceiling_per_6M": "1/36",
+    "new_unconditional_whole_cell_capacity_reduction": 0
+  },
+  "ledger": {
+    "new_route1_linear_log_rate": 0,
+    "new_route1_booking": 0,
+    "new_route1_capacity_reduction": 0,
+    "retained_fixed_j1_ceiling_per_6M": "1/36",
+    "route1_success": false,
+    "conclusion_about_e_plus_pi": "OPEN"
+  },
+  "ledger_action": "CLOSE_RECURRENCE_EXISTENCE_AND_VERTICAL_FINITE_RANK_ALONE_BOOK_ZERO",
+  "canonical_files_modified": true
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "centered_cosh_pascal_content_ephemeral_aggregate/v1",
+  "checked_utc": "2026-08-27",
+  "logical_status": "finite exact aggregate only; not an all-q theorem or a replay certificate",
+  "completed_q_range": [
+    111,
+    220
+  ],
+  "exact_aggregate_assertions": {
+    "residual_after_dividing_G_by_all_primes_at_most_8q_plus_2": "1 for every completed q",
+    "lcm_square_valuation_violations": "none for every completed q"
+  },
+  "method": {
+    "pascal_kernel": "exact FLINT integer nullspace followed by primitive gcd saturation",
+    "endpoints": "exact secant Euler and tangent-number factorial convolutions",
+    "support_test": "exact repeated division by every prime p <= 8q+2",
+    "valuation_test": "v_p(G) <= 2 floor(log_p(8q+2)) for every tested p"
+  },
+  "last_printed_checkpoint": {
+    "q": 220,
+    "G_bits": 1883,
+    "residual_bits": 1,
+    "peak_rss_kib": 246344
+  },
+  "termination": "manually interrupted after the q=220 checkpoint to prioritize the all-parameter proof",
+  "retention_caveat": "individual endpoint integers and per-q hashes were not retained; this file preserves only the exact aggregate outcome already computed and must not be represented as independently replayable row data",
+  "classification_claim": "none"
+}

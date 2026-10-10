@@ -1,0 +1,110 @@
+{
+  "booking": {
+    "new_j2_capacity_reduction": 0,
+    "new_unconditional_route1_rate": 0,
+    "reason": "no all-prime exclusion or weighted zero theorem; actual cutoff zeros remain"
+  },
+  "payload_sha256": "5e373111491abec7f501bb4fc0b78f699f86cb6f56fee4f9023cb8934bf0c5ec",
+  "scan": {
+    "coordinate_checks": 77,
+    "cutoff_checks": 1153,
+    "cutoff_zeros": {
+      "p1": [
+        [
+          43,
+          11,
+          3,
+          2,
+          5
+        ],
+        [
+          193,
+          29,
+          22,
+          21,
+          11
+        ],
+        [
+          241,
+          89,
+          10,
+          9,
+          31
+        ]
+      ],
+      "p5": [
+        [
+          47,
+          7,
+          5,
+          4,
+          3
+        ]
+      ]
+    },
+    "endpoint_checks_p1": 1150,
+    "endpoint_checks_p5": 1192,
+    "item251_period_checks": 1153,
+    "label": "EXACT FINITE ONLY",
+    "lambda_zeros_p1": [],
+    "lambda_zeros_p5": [
+      [
+        83,
+        13,
+        22
+      ]
+    ],
+    "ordinary_gap_hq_equals_epsilon": [
+      [
+        19,
+        3,
+        18,
+        14,
+        15
+      ],
+      [
+        271,
+        45,
+        1,
+        216,
+        215
+      ]
+    ],
+    "prime_limit": 401,
+    "prime_phase_count": 77
+  },
+  "schema": "item263-punctured-frobenius-v1",
+  "theorem": {
+    "basis": "omega_a=X^a/(X^3-1)dX/Z (a=0,1,2), eta=dX/Z, xi=X dX/Z",
+    "curve_and_divisor": "E: Z^2=X^3-1/2; D={(alpha,beta): alpha^3=1, beta^2=1/2}",
+    "cutoff": "H_(q-delta)=H_q-K_delta*h_q",
+    "endpoint_dictionary_p1": "U=-h_q/5-epsilon; V=-H_q+2epsilon/3; lambda=-V+5U+17epsilon/3",
+    "endpoint_dictionary_p5": "U=h_q-epsilon; V=-H_q+4epsilon/3; lambda=-V+4epsilon/3",
+    "item251": "A_s=(-1)^m{epsilon[H_q-D_r*h_q]-1}, D_r=K_delta+c_delta*Pi_r",
+    "p1_matrix_columns": {
+      "C(eta)": "h_q*eta",
+      "C(omega_0)": "epsilon*omega_0+(H_q-h_q)*eta",
+      "C(omega_1)": "epsilon*omega_1",
+      "C(omega_2)": "epsilon*omega_2",
+      "C(xi)": "0"
+    },
+    "p5_matrix_columns": {
+      "C(eta)": "0",
+      "C(omega_0)": "epsilon*omega_1",
+      "C(omega_1)": "epsilon*omega_0+H_q*eta",
+      "C(omega_2)": "epsilon*omega_2",
+      "C(xi)": "-h_q*eta"
+    },
+    "residue_cartier": "C(e_k)=epsilon e_(k*p^(-1) mod 3)",
+    "residues": "res_(alpha,beta)(omega_a)=alpha^(a-2)/(3 beta)",
+    "scope": "Cartier/residue plus exact endpoint augmentation recovers the same moving pair (H_q,h_q); it supplies no independent scalar or unit relation."
+  },
+  "unit_audit": {
+    "base": "p>=5, so 2 and 3 are units",
+    "fixed_tail": "d=r+2 and 2d-1<p on every actual row",
+    "h_q": "0<=j<q gives 1<=2j+1<p and 1<=4(j+1)<p",
+    "p1_actual": "q>=delta>=3 odd",
+    "p1_endpoint": "0<=j<q gives |3j-1|<p",
+    "p5_actual": "q>=delta>=1 odd; X^3=1 has only X=1 in F_p"
+  }
+}

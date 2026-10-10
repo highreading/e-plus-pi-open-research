@@ -1,0 +1,68 @@
+{
+  "item": 309,
+  "schema": "item309-j2-l-second-branch-bridge-manifest-v1",
+  "classification": "PROVED",
+  "checked_date_beijing": "2026-08-31",
+  "scope": "ordinary-j=2 L connection minor on r=6n+1 and r=6n+5",
+  "dependencies": {
+    "scripts/item237_j1_algebraic_residual_certificate.py": "f89047396e3f6b4644cf0194b7716dfad91b3eb41de7b88c9377cf3e81d09dcf",
+    "results/item237_j1_algebraic_residual_certificate.json": "eba1519f4d376d442f396048528190b474cc5464bbe42c3bdf31a9bdaf39dd6b",
+    "scripts/item250_j2_ordinary_phase_certificate.py": "2364a9e9c9be0ea0827c2b12137883ad326d77017a53bb4f242be300335e90ce",
+    "scripts/item294_j2_half_integer_gauge_certificate.py": "ce77a8f1f4cec49ab383659957c19ee7f42795fe8f4e7938ca54f95f99d0f1a7",
+    "scripts/item306_j2_normalized_m_bridge_certificate.py": "c54c6f7c2990cefd63d39b5b33de4c82b199d0c1c8f62071f6f271d4fc1d15ad",
+    "results/item306_j2_normalized_m_bridge_certificate.json": "cd48ec7f4cec273c72371d554c9a4ec55ed3cacde0108f4dc92975ba93dbbc55"
+  },
+  "artifacts": {
+    "report": {
+      "path": "work/item309_j2_l_second_branch_bridge_report.md",
+      "sha256": "50a60655a9e43e45bc54bac1887992713c2a5fcc2f2fc8c999788cf607966566",
+      "bytes": 15545
+    },
+    "certificate_script": {
+      "path": "work/item309_j2_l_second_branch_bridge_certificate.py",
+      "sha256": "30c8cfbc5d48d3fc72f20ef151280ae6285d240ded460cc12d3e7ce7f20bb092",
+      "bytes": 19879
+    },
+    "canonical_certificate": {
+      "path": "work/item309_j2_l_second_branch_bridge_certificate.json",
+      "sha256": "b44200c2e3fe16fca4518e45b40540230db43deee496d84c43336907ef304c5a",
+      "bytes": 16299
+    },
+    "replay_certificate": {
+      "path": "work/item309_j2_l_second_branch_bridge_certificate_replay.json",
+      "sha256": "b44200c2e3fe16fca4518e45b40540230db43deee496d84c43336907ef304c5a",
+      "byte_identical_to_canonical": true
+    }
+  },
+  "theorems": [
+    "the actual phase tails invert to the two rational one-forms phi_nu(z) X(z)^r dz with the y=-1 local parameter X",
+    "the pinned upper-beta pair has one common contour normalization",
+    "every Hermite exact primitive has zero meromorphic finite part on both actual cycles for every shift used by the order-three operator",
+    "the actual normalized L minor satisfies Item237's order-three recurrence on both rays",
+    "for every n>=0, 16^n L_(6n+e)/g_n=mu_e a_(6n+e), with mu_1=-729/50 and mu_5=6377292/41405",
+    "the full necessary determinant is an exact moving linear combination of the y=-1 and y=0 coefficient branches"
+  ],
+  "finite_replay": {
+    "terms_per_ray": 12,
+    "theorem_initials_per_ray": 3,
+    "extra_replay_rows": 18,
+    "row_stream_sha256": "8f3c5a179360b4d220e459556eadae6f0a473052b7bd989049e29289bc2a132a"
+  },
+  "strict_labels": {
+    "PROVED": [
+      "actual-L period determinant, recurrence membership, and all-n second-branch bridge"
+    ],
+    "EXACT_FINITE_ONLY": [
+      "the eighteen rows beyond the six recurrence initials"
+    ],
+    "OPEN": [
+      "a fully cleared all-layer mod-p two-branch gate",
+      "weighted zero density for the actual D=cL+M combination"
+    ]
+  },
+  "capacity": {
+    "raw_ordinary_j2_ceiling_per_6M": "1/105",
+    "new_capacity_reduction": 0,
+    "new_booking": 0
+  }
+}

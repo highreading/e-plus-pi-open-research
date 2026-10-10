@@ -1,0 +1,54 @@
+{
+  "schema": "item339-j1-local-coefficient-carry-obstruction-ledger-delta-v1",
+  "item": 339,
+  "date": "2026-09-01",
+  "canonical_edit_performed": false,
+  "proposed_status": "PROVED_LOCAL_COEFFICIENT_REDUCTION_TERMWISE_CARRY_CLASSIFICATION_AND_SCOPED_GROWING_RANK_NO_GO",
+  "proposed_ledger_entry": "Item 339 attacks the actual selected fixed-j1 factor b_h on the true row, rather than adding another carrier. With n=2h, r=2s+1, p=2n+3r and 2M=3n+4r, unit-branch Frobenius proves b_h=[t^n]F(t)^(-r) mod p. The integral normalization a_(r,n)=2^n[t^n]F^(-r)=[u^n]G(u)^(-r), G=(1-u)^4-u^4, has the exact positive prefix sum_k C(r+k-1,k)C(4r+n-1,n-4k) and the fixed rational bivariate carrier zG/(G^2-z^2). Lucas gives a complete termwise classification: every summand is p-divisible iff r=n+1 and n=2 mod 4, equivalently h=s odd. This forced carrier-zero ray has at most one row at fixed M and O(log M)=o(M) mass. Outside it, surviving-unit cancellation remains possible; the preselected (h,s,p)=(8,2,47) row has five unit terms summing to zero. For fixed r the exact reduced generating function G^(-r) has minimal constant-coefficient recurrence order 3r=6s+3. At fixed M, sublinear direct recurrence rank and sublinear survivor length each occupy candidate-prime intervals of total length o(M), hence have weighted mass o(M). Thus direct termwise-carry, bounded/sublinear-tail, and bounded/sublinear-rank local recurrence methods cannot control positive-rate bulk. The open input is uniform mod-p cancellation/nonconcentration, average gcd, factor localization for the fixed rational carrier, or a different gate-forcing global trace. Booking and ceiling reduction remain zero; the fixed-j1 ceiling remains 1/36 per 6M.",
+  "capacity": {
+    "raw_fixed_j1_prime_mass": "M/6+o(M)",
+    "forced_termwise_carry_mass": "O(log M)=o(M)",
+    "sublinear_direct_recurrence_rank_support": "o(M) weighted prime mass",
+    "sublinear_surviving_prefix_support": "o(M) weighted prime mass",
+    "new_linear_log_rate": 0,
+    "new_divisibility_exponent": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "new_independent_condition": 0,
+    "retained_ceiling_per_6M": "1/36"
+  },
+  "proved": [
+    "the actual-row Frobenius reduction b_h=[t^n]F(t)^(-r) mod p",
+    "the integral normalization a_(r,n) and its exact positive hypergeometric-prefix formula",
+    "the fixed rational bivariate carrier for all odd r and all n",
+    "the complete termwise Lucas/Kummer carry classification",
+    "the unique forced ray h=s odd and its zero-rate capacity",
+    "the exact minimal direct constant-coefficient recurrence order 3r",
+    "zero-rate support for sublinear direct recurrence rank or surviving-prefix length",
+    "a scoped no-go for the exact local termwise-carry and low-complexity recurrence/tail methods"
+  ],
+  "scoped_no_go": [
+    "termwise carry forcing in the exact positive prefix is completely exhausted by h=s odd",
+    "the direct fixed-r rational recurrence has rank 3r and cannot remain bounded or sublinear on positive-rate support",
+    "a bounded or sublinear surviving tail occupies zero-rate support",
+    "direct unit-branch Frobenius alone yields a growing local jet, not a new fixed low-dimensional condition"
+  ],
+  "exact_finite_only": [
+    "five preselected controls; no prime scan or density inference",
+    "the p=47 all-unit cancellation is a selected-carrier zero, not a claimed full ordinary collision"
+  ],
+  "open": [
+    "W_b(M)=o(M)",
+    "uniform mod-p cancellation or nonconcentration for the growing hypergeometric prefix",
+    "average gcd or factor localization for the fixed rational bivariate carrier",
+    "a different global fixed-rank trace theorem with an actual original-gate implication",
+    "any positive fixed-j1 capacity reduction, fixed-j1 closure, Route 1, and every conclusion about e+pi"
+  ],
+  "not_claimed": [
+    "universal nonvanishing",
+    "that p dividing a_(r,n) is sufficient for the full original collision",
+    "a weighted zero-density theorem",
+    "a generic impossibility theorem for every global transformation",
+    "a new independent period or any ledger gain",
+    "an asymptotic inference from finite controls"
+  ]
+}

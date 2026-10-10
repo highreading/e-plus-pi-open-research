@@ -1,0 +1,155 @@
+{
+  "classification": {
+    "EXACT_FINITE_ONLY": [
+      "the coefficient regression through n<=400 (proof-independent)",
+      "the same-row congruence replay through p<=2000"
+    ],
+    "OPEN": [
+      "a second same-row condition controlling S_(s+1)",
+      "a universal unit theorem for Q(s) on relevant row primes",
+      "a uniform Cartier state or scalar phase formula for the moving digit s",
+      "control of Item231's fixed-parameter high partial sum T_(h,s)",
+      "an all-prime exclusion, density estimate, or positive Route-1 rate"
+    ],
+    "PROVED": [
+      "the formal diagonal and algebraic generating-function identity",
+      "the polynomial recurrence for every n>=0",
+      "the Ore factorization and hypergeometric first difference",
+      "the exact coupling of S_n to Item 229's boundary term",
+      "the denominator-free Item 229 rewrite",
+      "the same-row Frobenius/binomial lift and its fixed-h algebraic series",
+      "the exact sign/index equivalence with OEIS A371813"
+    ]
+  },
+  "definitions": {
+    "G": "sum_(n>=0) S_n z^n",
+    "S_n": "sum_(j=0)^n (-1)^j binom(2n+j-1,j), with S_0=1",
+    "X": "the unique series X in z Q[[z]] satisfying X=z/(1+X)^2"
+  },
+  "dependency_sha256": {
+    "results/item229_j1_fixed_h_theta_certificate.json": "3dcde380403f3e2080f87d8bb9cd81b55f5a9bfd34f3544a04a7d3acfa65b589",
+    "scripts/item229_j1_fixed_h_theta_certificate.py": "a8e2028ca6a53f8c843c25be375feac50e4704538686ee1e3a835f89aa11780f",
+    "sources/item229_j1_fixed_h_theta_report.md": "7d70b934c2a7ba35f9bd48ad31d74c9eb1dc9ddca7bb4fdebd674286a13830c6"
+  },
+  "exact_replay": {
+    "classification": "EXACT_FINITE_REGRESSION_OF_PROVED_IDENTITIES",
+    "first_values": [
+      1,
+      -1,
+      7,
+      -40,
+      239,
+      -1461,
+      9076,
+      -57044,
+      361711,
+      -2309467,
+      14827487,
+      -95630272
+    ],
+    "initial_values": {
+      "S_0": 1,
+      "S_1": -1
+    },
+    "n_max": 400,
+    "row_stream_sha256": "66c9d5be0d6380d7b8d282ef325781015195c81664a122bd852ef35eaa8468a8",
+    "rows": 401
+  },
+  "generating_function_theorem": {
+    "classification": "PROVED",
+    "closed_form": "G=(1+X)/[(1-X)(1+3X)]",
+    "coefficient_diagonal": "S_n=[x^n](1-x)^(-1)(1+x)^(-2n)"
+  },
+  "item": 232,
+  "item229_consequence": {
+    "classification": "PROVED_SCOPED_REWRITE",
+    "rewrite": "Q(s)Theta_h(s)=[Q(s)c_h(s)-2s(2s+1)G_h(s)]S_s+8s(2s+1)G_h(s)S_(s+1)-2Q(s)Delta_minus(h,s)",
+    "scope_warning": "This introduces S_(s+1). A collision at s does not imply a collision or Theta_h(s+1)=0 at the adjacent index. Modulo p, division by Q(s) additionally requires Q(s) to be a unit."
+  },
+  "item231_interface": {
+    "classification": "SCOPED_INTERFACE_TO_SEPARATELY_CERTIFIED_ITEM231_IDENTITY",
+    "high_gosper_residual": "c_hi(h,s) T_(h,s) plus explicit t_r,t_J endpoints",
+    "high_partial_sum": "T_(h,s)=sum_(j=r)^J t_j=S^((s))_J-S^((s))_(r-1), r=2h, J=3h+3s+1",
+    "non_coupling_reason": "Item232 shifts S_n=S^((n))_n, changing parameter and endpoint together; Item231's T_(h,s) changes only the endpoint at fixed s",
+    "phase_coefficient_pattern": "c_hi=c_h at s*=-(4h+3)/6 through h<=20 is Item231 EXACT_FINITE_ONLY evidence, not an Item232 theorem"
+  },
+  "literature_equivalence": {
+    "classification": "EXACT_SYMBOLIC_EQUIVALENCE",
+    "gf_change": "A371813(-z)=G(z), with g(-z)=1/(1+X)",
+    "novelty_scope": "independent exact proof and Route-1 application; no novelty claim for the sequence, algebraic generating function, or recurrence",
+    "recurrence_change": "replace OEIS a(n) by (-1)^n S_n and then set its n=m+2; the three coefficients become P0(m),P1(m),P2(m)",
+    "reference": "https://oeis.org/A371813",
+    "sequence_relation": "S_n=(-1)^n A371813(n)",
+    "sum_reindexing": "OEIS k=n-j converts its defining sum to (-1)^n S_n"
+  },
+  "ore_factorization_theorem": {
+    "P0_factor": "-3(3n+1)(3n+2)Q(n+1)",
+    "P2_factor": "8(n+2)(2n+3)Q(n)",
+    "Q": "28n^2+25n+5",
+    "boundary_coupling": "2n(2n+1)(4S_(n+1)-S_n)=Q(n)t_(n+1), t_(n+1)=(-1)^(n+1)binom(3n,n+1)",
+    "classification": "EXACT_SYMBOLIC_CERTIFICATE",
+    "coefficient_identity": "16P0+4P1+P2=0",
+    "ore_factorization": "P0+P1 E+P2 E^2=(-4P0+P2 E)(E-1/4)",
+    "u_closed_form": "u_n=(-1)^(n+1)Q(n)binom(3n,n)/[4(n+1)(2n+1)]",
+    "u_definition": "u_n=S_(n+1)-S_n/4"
+  },
+  "rate_ledger": {
+    "new_divisibility_exponent": 0,
+    "new_unconditional_linear_log_rate": 0,
+    "reason": "the recurrence relates adjacent sequence values but supplies no adjacent collision condition"
+  },
+  "recurrence_theorem": {
+    "P0_low_to_high": [
+      -348,
+      -2052,
+      -3921,
+      -2943,
+      -756
+    ],
+    "P1_low_to_high": [
+      1332,
+      7838,
+      14978,
+      11280,
+      2912
+    ],
+    "P2_low_to_high": [
+      240,
+      1480,
+      2824,
+      1968,
+      448
+    ],
+    "P2_nonzero_reason": "P2=8(n+2)(2n+3)(28n^2+25n+5)>0 for n>=0",
+    "classification": "PROVED",
+    "identity": "P0(n)S_n+P1(n)S_(n+1)+P2(n)S_(n+2)=0",
+    "range": "all integers n>=0"
+  },
+  "runtime": {
+    "external_numeric_backend": null
+  },
+  "same_row_frobenius_theorem": {
+    "binomial_lift": "S_s = sum_(k=0)^s binom(p-2s,k) = sum_(k=0)^s binom(4s+4h+3,k) (mod p)",
+    "cartier_scope": "For s<p, Lambda_s(G)(0)=S_s merely extracts the moving base-p digit s; it does not descend to a smaller index.",
+    "classification": "PROVED",
+    "fixed_h_generating_function": "A_h(z)=sum_(n>=0)[sum_(k=0)^n binom(4n+4h+3,k)]z^n =(1+Y)^(4h+4)/[(1-Y)(1-3Y)], Y=z(1+Y)^4",
+    "neighbor_drift": "A_h(s+r)=[x^(s+r)](1-x)^(-1)(1+x)^(-2(s+r))(1+x)^(6r) (mod p), for 0<=s+r<p",
+    "row_relation": "p=6s+4h+3"
+  },
+  "same_row_replay": {
+    "classification": "EXACT_FINITE_REGRESSION_OF_PROVED_CONGRUENCE",
+    "prime_max": 2000,
+    "row_stream_sha256": "581dd58f0dbadf385236308d4c6800385f8f374009ec2c5fbaad34e59b5ba9e3",
+    "rows": 22934
+  },
+  "symbolic_operator_certificate": {
+    "algebraic_identity": "(16+104z-27z^2)g^3-(16+108z)g^2+21zg-z=0",
+    "algebraic_numerator_zero": true,
+    "classification": "EXACT_SYMBOLIC_CERTIFICATE",
+    "differential_identity": "z^2 P0(theta)g+z P1(theta-1)g+P2(theta-2)g=40z",
+    "differential_numerator_zero": true,
+    "generating_function": "g=(1+x)/[(1-x)(1+3x)]",
+    "parameter": "z=x(1+x)^2",
+    "theta_under_parameter": "theta=x(1+x)/(1+3x) d/dx"
+  }
+}

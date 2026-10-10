@@ -1,0 +1,38 @@
+{
+  "artifacts": {
+    "results/item218_j1_common_log_certificate.json": {
+      "role": "canonical deterministic exact output",
+      "sha256": "963bbb8a9758e55ede72f965693d21fc41aa70d44e2d981d5873685c3f08ea0f",
+      "work_source": "item218_j1_common_log_certificate.json"
+    },
+    "results/item218_j1_common_log_certificate.replay.json": {
+      "role": "independent replay output; byte-identical to canonical",
+      "sha256": "963bbb8a9758e55ede72f965693d21fc41aa70d44e2d981d5873685c3f08ea0f",
+      "work_source": "item218_j1_common_log_certificate_replay.json"
+    },
+    "scripts/item218_j1_common_log_certificate.py": {
+      "role": "Python-standard-library rational-tail, twisted-de-Rham, resultant, and finite-scan checker",
+      "sha256": "a238c5ca37263f2553da47bf3f21253aedf1c34f8c57458a4a274fc6cdc9029a",
+      "work_source": "item218_j1_common_log_certificate.py"
+    },
+    "sources/item218_j1_common_log_report.md": {
+      "role": "proof report, denominator audit, scoped exclusion, and Route-1 rate ledger",
+      "sha256": "2cabc5a705a974d6989718e24443b59c00715fd4e9aff288e0e17b297096d585",
+      "work_source": "item218_j1_common_log_report.md"
+    }
+  },
+  "canonical_command_from_archive_root": "python scripts/item218_j1_common_log_certificate.py --output results/item218_j1_common_log_certificate.json",
+  "dependencies": {
+    "archive_files": {},
+    "external_files": [],
+    "python": "3.11+ standard library only"
+  },
+  "portability": {
+    "archive_path_required": false,
+    "host_absolute_paths_embedded": false,
+    "self_contained_checker": true,
+    "explicit_output_makes_archive_root_replay_portable": true
+  },
+  "replay_command_from_archive_root": "python scripts/item218_j1_common_log_certificate.py --output results/item218_j1_common_log_certificate.replay.json",
+  "schema": "item218-portable-manifest-v1"
+}

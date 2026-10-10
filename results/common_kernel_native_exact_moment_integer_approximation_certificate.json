@@ -1,0 +1,530 @@
+{
+  "bernstein_identities": {
+    "factorial_identity_instances": 94830,
+    "finite_scaled_bound_maxima": {
+      "nu1_t_D4_scaled_n": "16800/17",
+      "nu2_t2_D4_scaled_n": "20977600/22243",
+      "nu2_t_D3_scaled_n": "367/5"
+    },
+    "scope": "The O(1/n) theorem follows from exact endpoint-ratio formulas; the n<=120 maxima are diagnostics only.",
+    "weighted_identity_instances": 284490
+  },
+  "control_audit": [
+    {
+      "bytes": 15200,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "sources/common_kernel_native_exact_moment_integer_approximation.md"
+    },
+    {
+      "bytes": 17500,
+      "clean": true,
+      "forbidden_control_bytes": [],
+      "path": "scripts/common_kernel_native_exact_moment_integer_approximation_certificate.py"
+    }
+  ],
+  "crt_and_kernel": {
+    "crt_bezout": "1",
+    "kernel_pointwise_difference": "0",
+    "polynomial_examples": [
+      {
+        "case": "order_one",
+        "degree_S": 10,
+        "degree_g": 13,
+        "moment_g": "0",
+        "ord_0_S": 4,
+        "ord_0_W": 1
+      },
+      {
+        "case": "order_two",
+        "degree_S": 9,
+        "degree_g": 12,
+        "moment_g": "0",
+        "ord_0_S": 3,
+        "ord_0_W": 2
+      }
+    ],
+    "third_derivative_term_count": 5
+  },
+  "dependency_audit": {
+    "results/common_kernel_native_output_bernstein_congruence_hashes.sha256": "559cc412db81ed449d4255654ad370f44a8ceb4d8acdce234a7f607d448ffcb7"
+  },
+  "exact_rounded_examples": {
+    "rows": [
+      {
+        "case": "order_one",
+        "coefficient_sha256": "be68d3ee4473a735f01bfbf4dbf1c0e6bdd9c3c1ddd1557e67bda498f4a63813",
+        "degree_G_n": "19",
+        "degree_S_n": "16",
+        "n": 16,
+        "nonzero_raw_channels": 8
+      },
+      {
+        "case": "order_one",
+        "coefficient_sha256": "b27c619af350fef47d08588bbbdf35173872e4ec23657fa76ad0738d49d19f83",
+        "degree_G_n": "27",
+        "degree_S_n": "24",
+        "n": 24,
+        "nonzero_raw_channels": 16
+      },
+      {
+        "case": "order_one",
+        "coefficient_sha256": "3d4602b68acb7f4e120d6b51b2a35cb53abfe04a33e1cf128fba2528a7a7c3de",
+        "degree_G_n": "38",
+        "degree_S_n": "35",
+        "n": 36,
+        "nonzero_raw_channels": 28
+      },
+      {
+        "case": "order_two",
+        "coefficient_sha256": "48c4dd0c3cb5fcf729aab61718e74bef6fd2a0ed9a0d05227929967c985894a1",
+        "degree_G_n": "18",
+        "degree_S_n": "15",
+        "n": 16,
+        "nonzero_raw_channels": 8
+      },
+      {
+        "case": "order_two",
+        "coefficient_sha256": "ef379453cd8175ed12bcc27687b832ad83da488f25cd039f3ce573b43447274d",
+        "degree_G_n": "26",
+        "degree_S_n": "23",
+        "n": 24,
+        "nonzero_raw_channels": 17
+      },
+      {
+        "case": "order_two",
+        "coefficient_sha256": "f19f7708d9de5554ce75d1e694e19537f759e522eaad8dca95b9f42f7f96bb6e",
+        "degree_G_n": "39",
+        "degree_S_n": "36",
+        "n": 36,
+        "nonzero_raw_channels": 29
+      }
+    ],
+    "scope": "These rows verify exact divisibility and zero moment; convergence is proved by the all-n weighted estimates, not by this table."
+  },
+  "farey": {
+    "farey_gap_rows": [
+      {
+        "N": 10000,
+        "Q": 400,
+        "interval": [
+          "20003/40000",
+          "4003/8000"
+        ],
+        "width": "3/10000"
+      },
+      {
+        "N": 62500,
+        "Q": 1000,
+        "interval": [
+          "125003/250000",
+          "25003/50000"
+        ],
+        "width": "3/62500"
+      },
+      {
+        "N": 1000000,
+        "Q": 4000,
+        "interval": [
+          "2000003/4000000",
+          "400003/800000"
+        ],
+        "width": "3/1000000"
+      }
+    ],
+    "general_gap_identity": "p/q-1/2=(2p-q)/(2q)>=1/(2Q) for p/q>1/2 and q<=Q",
+    "grid_rows": [
+      {
+        "D": 21,
+        "left": "7/13",
+        "rational": "4/7",
+        "width": "1/20"
+      },
+      {
+        "D": 34,
+        "left": "-11/7",
+        "rational": "-53/34",
+        "width": "3/101"
+      },
+      {
+        "D": 998,
+        "left": "1001/997",
+        "rational": "1003/998",
+        "width": "1/997"
+      }
+    ]
+  },
+  "moment_image": {
+    "generic_degree_three_numerator": "n**3*(v0 + v1 + v2 + v3) + n**2*(9*v0 + 8*v1 + 7*v2 + 6*v3) + n*(26*v0 + 19*v1 + 14*v2 + 11*v3) + 24*v0 + 12*v1 + 8*v2 + 6*v3",
+    "representative_p_adic_descent": [
+      {
+        "degree": 4,
+        "prime_descent": [
+          {
+            "branch_c": 2,
+            "prime": 2,
+            "samples": [
+              {
+                "exponent": 7,
+                "n": 126,
+                "v_p_moment": -2
+              },
+              {
+                "exponent": 8,
+                "n": 254,
+                "v_p_moment": -3
+              }
+            ],
+            "v_p_F_minus_c": 6
+          },
+          {
+            "branch_c": 2,
+            "prime": 3,
+            "samples": [
+              {
+                "exponent": 4,
+                "n": 79,
+                "v_p_moment": -4
+              },
+              {
+                "exponent": 5,
+                "n": 241,
+                "v_p_moment": -5
+              },
+              {
+                "exponent": 6,
+                "n": 727,
+                "v_p_moment": -6
+              },
+              {
+                "exponent": 7,
+                "n": 2185,
+                "v_p_moment": -7
+              },
+              {
+                "exponent": 8,
+                "n": 6559,
+                "v_p_moment": -8
+              }
+            ],
+            "v_p_F_minus_c": 1
+          },
+          {
+            "branch_c": 2,
+            "prime": 5,
+            "samples": [
+              {
+                "exponent": 4,
+                "n": 623,
+                "v_p_moment": -4
+              },
+              {
+                "exponent": 5,
+                "n": 3123,
+                "v_p_moment": -5
+              },
+              {
+                "exponent": 6,
+                "n": 15623,
+                "v_p_moment": -6
+              },
+              {
+                "exponent": 7,
+                "n": 78123,
+                "v_p_moment": -7
+              },
+              {
+                "exponent": 8,
+                "n": 390623,
+                "v_p_moment": -8
+              }
+            ],
+            "v_p_F_minus_c": 0
+          },
+          {
+            "branch_c": 2,
+            "prime": 7,
+            "samples": [
+              {
+                "exponent": 4,
+                "n": 2399,
+                "v_p_moment": -4
+              },
+              {
+                "exponent": 5,
+                "n": 16805,
+                "v_p_moment": -5
+              },
+              {
+                "exponent": 6,
+                "n": 117647,
+                "v_p_moment": -6
+              },
+              {
+                "exponent": 7,
+                "n": 823541,
+                "v_p_moment": -7
+              },
+              {
+                "exponent": 8,
+                "n": 5764799,
+                "v_p_moment": -8
+              }
+            ],
+            "v_p_F_minus_c": 0
+          },
+          {
+            "branch_c": 2,
+            "prime": 11,
+            "samples": [
+              {
+                "exponent": 4,
+                "n": 14639,
+                "v_p_moment": -4
+              },
+              {
+                "exponent": 5,
+                "n": 161049,
+                "v_p_moment": -5
+              },
+              {
+                "exponent": 6,
+                "n": 1771559,
+                "v_p_moment": -6
+              },
+              {
+                "exponent": 7,
+                "n": 19487169,
+                "v_p_moment": -7
+              },
+              {
+                "exponent": 8,
+                "n": 214358879,
+                "v_p_moment": -8
+              }
+            ],
+            "v_p_F_minus_c": 0
+          },
+          {
+            "branch_c": 2,
+            "prime": 13,
+            "samples": [
+              {
+                "exponent": 4,
+                "n": 28559,
+                "v_p_moment": -4
+              },
+              {
+                "exponent": 5,
+                "n": 371291,
+                "v_p_moment": -5
+              },
+              {
+                "exponent": 6,
+                "n": 4826807,
+                "v_p_moment": -6
+              },
+              {
+                "exponent": 7,
+                "n": 62748515,
+                "v_p_moment": -7
+              },
+              {
+                "exponent": 8,
+                "n": 815730719,
+                "v_p_moment": -8
+              }
+            ],
+            "v_p_F_minus_c": 0
+          }
+        ],
+        "weight_index": 0
+      },
+      {
+        "degree": 12,
+        "prime_descent": [
+          {
+            "branch_c": 7,
+            "prime": 2,
+            "samples": [],
+            "v_p_F_minus_c": 12
+          },
+          {
+            "branch_c": 7,
+            "prime": 3,
+            "samples": [
+              {
+                "exponent": 5,
+                "n": 236,
+                "v_p_moment": -5
+              },
+              {
+                "exponent": 6,
+                "n": 722,
+                "v_p_moment": -6
+              },
+              {
+                "exponent": 7,
+                "n": 2180,
+                "v_p_moment": -7
+              },
+              {
+                "exponent": 8,
+                "n": 6554,
+                "v_p_moment": -8
+              }
+            ],
+            "v_p_F_minus_c": 4
+          },
+          {
+            "branch_c": 7,
+            "prime": 5,
+            "samples": [
+              {
+                "exponent": 4,
+                "n": 618,
+                "v_p_moment": -4
+              },
+              {
+                "exponent": 5,
+                "n": 3118,
+                "v_p_moment": -5
+              },
+              {
+                "exponent": 6,
+                "n": 15618,
+                "v_p_moment": -6
+              },
+              {
+                "exponent": 7,
+                "n": 78118,
+                "v_p_moment": -7
+              },
+              {
+                "exponent": 8,
+                "n": 390618,
+                "v_p_moment": -8
+              }
+            ],
+            "v_p_F_minus_c": 2
+          },
+          {
+            "branch_c": 7,
+            "prime": 7,
+            "samples": [
+              {
+                "exponent": 4,
+                "n": 2394,
+                "v_p_moment": -4
+              },
+              {
+                "exponent": 5,
+                "n": 16800,
+                "v_p_moment": -5
+              },
+              {
+                "exponent": 6,
+                "n": 117642,
+                "v_p_moment": -6
+              },
+              {
+                "exponent": 7,
+                "n": 823536,
+                "v_p_moment": -7
+              },
+              {
+                "exponent": 8,
+                "n": 5764794,
+                "v_p_moment": -8
+              }
+            ],
+            "v_p_F_minus_c": 0
+          },
+          {
+            "branch_c": 7,
+            "prime": 11,
+            "samples": [
+              {
+                "exponent": 4,
+                "n": 14634,
+                "v_p_moment": -4
+              },
+              {
+                "exponent": 5,
+                "n": 161044,
+                "v_p_moment": -5
+              },
+              {
+                "exponent": 6,
+                "n": 1771554,
+                "v_p_moment": -6
+              },
+              {
+                "exponent": 7,
+                "n": 19487164,
+                "v_p_moment": -7
+              },
+              {
+                "exponent": 8,
+                "n": 214358874,
+                "v_p_moment": -8
+              }
+            ],
+            "v_p_F_minus_c": 0
+          },
+          {
+            "branch_c": 7,
+            "prime": 13,
+            "samples": [
+              {
+                "exponent": 4,
+                "n": 28554,
+                "v_p_moment": -4
+              },
+              {
+                "exponent": 5,
+                "n": 371286,
+                "v_p_moment": -5
+              },
+              {
+                "exponent": 6,
+                "n": 4826802,
+                "v_p_moment": -6
+              },
+              {
+                "exponent": 7,
+                "n": 62748510,
+                "v_p_moment": -7
+              },
+              {
+                "exponent": 8,
+                "n": 815730714,
+                "v_p_moment": -8
+              }
+            ],
+            "v_p_F_minus_c": 0
+          }
+        ],
+        "weight_index": 1
+      }
+    ],
+    "scope": "The displayed finite descents replay examples; the all-prime proof uses n=p^k-c and F(-c) nonzero."
+  },
+  "rss_guard_kib": 41943040,
+  "rss_guard_passed": true,
+  "scope": {
+    "native_context": "The global native positive-output range has width O(1/N), so N*w_N tending to infinity is unavailable in that family.",
+    "not_claimed": [
+      "effective degree or coefficient-height bounds",
+      "existence of real sign intervals with N*w_N tending to infinity",
+      "irrationality or transcendence of e+pi"
+    ],
+    "proved_all_parameter": [
+      "the integral moment image of every nonzero integral weight is Q",
+      "exact rational-moment integer C3 approximation",
+      "N*w_N tending to infinity conditionally implies irrationality",
+      "width c/N alone does not force a square-root denominator"
+    ]
+  },
+  "theorem": "exact rational-moment preservation under integer C3 approximation for native weights"
+}

@@ -1,0 +1,73 @@
+{
+  "schema": "item308-j1-all-s-fixed-divisor-no-go-manifest-v1",
+  "item": 308,
+  "title": "all-s fixed divisors for the pinned j=1 orbit and the height-information no-go",
+  "date": "2026-08-31",
+  "status": "PROVED_GLOBAL_ALL_S_FORMULA_AND_SCOPED_INFORMATION_CLASS_NO_GO",
+  "canonical_files_modified": false,
+  "artifacts": [
+    {
+      "path": "work/item308_j1_all_s_fixed_divisor_no_go_report.md",
+      "role": "theorem proof, admission audit, and strict scope",
+      "sha256": "d7d592369bd8f001cc278783e2b91f4fec9917585d94157fb3fd7d965eef2f9e"
+    },
+    {
+      "path": "work/item308_j1_all_s_fixed_divisor_no_go_certificate.py",
+      "role": "standard-library exact deterministic replay",
+      "sha256": "665ff066738012e194a97e523dae4b1fcc7d862c414c6cd18606ab7e2f1f851b"
+    },
+    {
+      "path": "work/item308_j1_all_s_fixed_divisor_no_go_certificate.json",
+      "role": "canonical work-package certificate output",
+      "sha256": "4f45f55d2ac3fc9ee68b7a255dc15d36eebab63c71e824c48ed3959645cbb7e8"
+    },
+    {
+      "path": "work/item308_j1_all_s_fixed_divisor_no_go_certificate.replay.json",
+      "role": "independent replay output, byte-identical to certificate JSON",
+      "sha256": "4f45f55d2ac3fc9ee68b7a255dc15d36eebab63c71e824c48ed3959645cbb7e8"
+    }
+  ],
+  "pinned_local_base": {
+    "path": "work/item307_j1_structural_ray_fixed_divisor_certificate.py",
+    "sha256": "77984debb89364022ec7055754dac68e07d3027a2af1f69cc36d478602474d22"
+  },
+  "replay": {
+    "command": "python work/item308_j1_all_s_fixed_divisor_no_go_certificate.py --output work/item308_j1_all_s_fixed_divisor_no_go_certificate.replay.json",
+    "expected_stdout": {
+      "capacity_reduction": "ZERO",
+      "coefficient_control_rows": 7,
+      "item": 308,
+      "residue_control_rows": 15,
+      "symbolic_source": "SYMBOLIC IDENTITY FOR EVERY INTEGER s>=1"
+    },
+    "expected_replay_sha256": "4f45f55d2ac3fc9ee68b7a255dc15d36eebab63c71e824c48ed3959645cbb7e8"
+  },
+  "proved": [
+    "For every actual p=4h+6s+3 with h,s>=1, the pinned coefficient has the exact parity residue c_h^*=Lambda_s^(-1)(a_s+b_s,epsilon*w_h) mod p.",
+    "The exact coefficients a_s and b_s,epsilon are given by the two finite all-s coefficient extractions in the report.",
+    "The clearing factor Lambda_s=3*2^(10s+10) is integral and a p-unit on every actual row; its prime support is exactly {2,3}.",
+    "A pinned E_h^* zero forces p to divide D_s,epsilon=2^(3s+1)a_s^2-delta_s,epsilon*b_s,epsilon^2.",
+    "The Euler signs and eta cases are exact, and D_s,epsilon is a norm in the quadratic etale algebra Q[T]/(T^2-delta*eta).",
+    "The rational-source denominator degree is 6s+8 and log max(1,|a|,|b|,|D|)=O(s).",
+    "One moving container per s plus quadratic-norm shape and linear logarithmic height, without prime localization, cannot uniformly improve the raw 1/36-per-6M ceiling."
+  ],
+  "capacity": {
+    "new_linear_log_rate": 0,
+    "new_fixed_j1_capacity_reduction": 0,
+    "retained_ceiling_per_6M": "1/36",
+    "reason": "At fixed M there are M/12+O(1) moving containers with only O(M^2) product-height control; comparison norm containers permit prime mass arbitrarily close to M/6."
+  },
+  "open": [
+    "uniform nonzero or rational-prime localization for the exact D_s,epsilon",
+    "the sufficient container estimate W_D(M)=o(M)",
+    "the actual off-ray pinned estimate W_off(M)=o(M)",
+    "the full fixed-j=1 closer, Route 1, and every conclusion about e+pi"
+  ],
+  "not_claimed": [
+    "a recurrence or factorization forcing weighted zero density",
+    "a complete factorization or prime-factor bound",
+    "a prime scan",
+    "universal nonvanishing",
+    "positive capacity"
+  ]
+}

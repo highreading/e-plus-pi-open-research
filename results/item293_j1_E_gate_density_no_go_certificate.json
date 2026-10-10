@@ -1,0 +1,456 @@
+{
+  "actual_family": {
+    "retained_conditional_capacity_per_6m": "1/36",
+    "retained_conditional_capacity_per_m": "1/6",
+    "row": "p=4h+6s+3, h,s>=1",
+    "sole_gate_after_Item288": "p divides M_h"
+  },
+  "capacity": {
+    "capacity_booked": 0,
+    "new_divisibility_exponent": 0,
+    "new_linear_log_rate": 0,
+    "reason": "the exact recurrence and algebraic height do not control the actual-prime zero set"
+  },
+  "dependencies": {
+    "item222_j1_phase_resultant_certificate.py": "c16f75156ba8424c567163cedc6a93a7656c8a53036b48ef69b06327d76ad44b",
+    "item229_j1_fixed_h_theta_certificate.py": "a8e2028ca6a53f8c843c25be375feac50e4704538686ee1e3a835f89aa11780f",
+    "item237_j1_algebraic_residual_certificate.json": "eba1519f4d376d442f396048528190b474cc5464bbe42c3bdf31a9bdaf39dd6b",
+    "item237_j1_algebraic_residual_certificate.py": "f89047396e3f6b4644cf0194b7716dfad91b3eb41de7b88c9377cf3e81d09dcf",
+    "item243_order6_gauge_closure_certificate.json": "0ec0052ea270a84828cb1934373ad05e8e5b00cbf72e0d970ff805e716078546",
+    "item243_order6_gauge_closure_certificate.py": "d619e0809aaa89b5d11cbe30a92a3e7f8cf14237f45dd066aedf84e017bbfdd8",
+    "item288_j1_large_prime_redundancy_certificate.json": "fde756a5dff3b482bb38e342c4d26871dec90c32a7868110ba4f3186ba70b738",
+    "item288_j1_large_prime_redundancy_certificate.py": "89c9ffcb5496bfd208cfe55a2fceb2d37060c07493d01f17013d9e8c4303b189"
+  },
+  "exact_replay": {
+    "checks": [
+      "primitive integral Q recurrence",
+      "large-prime part of numerator(E) equals that of numerator(c)"
+    ],
+    "classification": "EXACT_REPLAY_OF_PROVED_IDENTITIES_NOT_EXTRAPOLATION",
+    "h_max": 8,
+    "row_stream_sha256": "ed848b205ef9127039da62e23d1b1acf229ac3d1cf2783bdf6a961133fc82f28",
+    "rows": 6
+  },
+  "height_consequence": {
+    "Eisenstein_and_local_analytic_bound": "log|numerator(c_h)|=O(h)",
+    "admission": "the generic height bound is insufficient by two orders",
+    "collective_h_le_H": "sum log rad(M_h)=O(H^2)",
+    "individual": "log rad(M_h)=O(h)",
+    "target": "o(H)"
+  },
+  "information_class_no_go": {
+    "PNT_in_AP_normalization": "sum_(h<=H, 4h+9 prime) log(4h+9)=theta(4H+9;4,1)+O(1)~2H",
+    "actual_row_embedding": "a_h=4h+6*1+3, so every prime value is an actual s=1 row; if 3 divides h then a_h>3 is divisible by 3, so every prime value automatically has admissible 3-nondivisible h",
+    "classification": "RIGOROUS_SCOPED_INFORMATION_CLASS_NO_GO",
+    "comparison_sequence": "a_h=4h+9",
+    "height": "log|a_h|=O(log h), stronger than exponential height",
+    "integral_recurrence": "a_(h+2)-2a_(h+1)+a_h=0",
+    "rational_generating_function": "z*(13-9z)/(1-z)^2",
+    "scope": "algebraicity/rationality, fixed-order integral holonomy, integrality, and exponential height alone cannot imply o(H); sequence-specific congruence, monodromy, or auxiliary-local input is not obstructed"
+  },
+  "integral_E_recurrence": {
+    "classification": "SYMBOLIC_EXACT_DERIVATION_FROM_PINNED_GAUGE",
+    "coefficient_signs": "Q_0,Q_1,Q_2<0 and Q_3>0 for every integer h>=1",
+    "common_polynomial_gcd": "1",
+    "degrees": [
+      22,
+      22,
+      22,
+      22
+    ],
+    "derivation_check": "Q_k/[p_k*product_(j=0)^(k-1)rho(h+3j)] is independent of k",
+    "factor_records": [
+      {
+        "linear_factors_constant_slope_exponent": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            5,
+            1,
+            1
+          ],
+          [
+            6,
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            2
+          ],
+          [
+            3,
+            2,
+            2
+          ],
+          [
+            5,
+            2,
+            2
+          ],
+          [
+            7,
+            2,
+            1
+          ],
+          [
+            9,
+            2,
+            2
+          ],
+          [
+            11,
+            2,
+            1
+          ],
+          [
+            13,
+            2,
+            1
+          ],
+          [
+            17,
+            2,
+            1
+          ],
+          [
+            3,
+            4,
+            1
+          ]
+        ],
+        "positive_core_low_to_high": [
+          6414233265,
+          5112300033,
+          1603835736,
+          247582992,
+          18819760,
+          564080
+        ],
+        "scalar": -4096
+      },
+      {
+        "linear_factors_constant_slope_exponent": [
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            6,
+            1,
+            1
+          ],
+          [
+            7,
+            2,
+            1
+          ],
+          [
+            9,
+            2,
+            2
+          ],
+          [
+            11,
+            2,
+            1
+          ],
+          [
+            13,
+            2,
+            1
+          ],
+          [
+            17,
+            2,
+            1
+          ],
+          [
+            1,
+            4,
+            1
+          ],
+          [
+            5,
+            4,
+            1
+          ],
+          [
+            7,
+            4,
+            1
+          ],
+          [
+            11,
+            4,
+            1
+          ],
+          [
+            15,
+            4,
+            1
+          ]
+        ],
+        "positive_core_low_to_high": [
+          402660529612416,
+          1002494068911927,
+          1039962332216826,
+          596405304955566,
+          209971952382012,
+          47325249956016,
+          6857541598288,
+          618060903584,
+          31525303040,
+          694946560
+        ],
+        "scalar": -512
+      },
+      {
+        "linear_factors_constant_slope_exponent": [
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            13,
+            2,
+            1
+          ],
+          [
+            17,
+            2,
+            1
+          ],
+          [
+            1,
+            4,
+            1
+          ],
+          [
+            5,
+            4,
+            1
+          ],
+          [
+            7,
+            4,
+            1
+          ],
+          [
+            11,
+            4,
+            1
+          ],
+          [
+            13,
+            4,
+            1
+          ],
+          [
+            17,
+            4,
+            1
+          ],
+          [
+            19,
+            4,
+            1
+          ],
+          [
+            23,
+            4,
+            1
+          ],
+          [
+            27,
+            4,
+            1
+          ]
+        ],
+        "positive_core_low_to_high": [
+          1090010738003273316,
+          2470146696629963712,
+          2354075629101513405,
+          1243406090403290781,
+          403775302745693160,
+          84106392952710132,
+          11294493697293648,
+          946720367971824,
+          45093571774720,
+          932385882560
+        ],
+        "scalar": -4
+      },
+      {
+        "linear_factors_constant_slope_exponent": [
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            6,
+            1,
+            1
+          ],
+          [
+            9,
+            1,
+            1
+          ],
+          [
+            1,
+            4,
+            1
+          ],
+          [
+            5,
+            4,
+            1
+          ],
+          [
+            7,
+            4,
+            1
+          ],
+          [
+            11,
+            4,
+            1
+          ],
+          [
+            13,
+            4,
+            1
+          ],
+          [
+            17,
+            4,
+            1
+          ],
+          [
+            19,
+            4,
+            1
+          ],
+          [
+            23,
+            4,
+            1
+          ],
+          [
+            25,
+            4,
+            1
+          ],
+          [
+            29,
+            4,
+            1
+          ],
+          [
+            31,
+            4,
+            1
+          ],
+          [
+            35,
+            4,
+            1
+          ],
+          [
+            39,
+            4,
+            1
+          ]
+        ],
+        "positive_core_low_to_high": [
+          214443126,
+          369944721,
+          239554248,
+          72513072,
+          10358560,
+          564080
+        ],
+        "scalar": 27
+      }
+    ],
+    "forward_coefficient": "Q_3(h)>0 over Q for every integer h>=1",
+    "forward_modular_unit": "NOT UNIFORM: Q_3 contains 4h+39, equal to the actual row prime on the structural subline s=6; (h,s,p)=(1,6,43) is a genuine admissible prime-row witness",
+    "individual_integer_contents": [
+      4096,
+      512,
+      4,
+      27
+    ],
+    "primitive_integer_content": 1,
+    "recurrence": "sum_(k=0)^3 Q_k(h) E_(h+3k)^*=0",
+    "scalar_signs": [
+      -4096,
+      -512,
+      -4,
+      27
+    ]
+  },
+  "item": 293,
+  "large_prime_numerator": {
+    "algebraic_generating_function": "c_h=[x^(2h)]C(x), C(x(y))=N(y)/D(y)^3, x=y(1+y)/(1+y+y^2/2)^(2/3)",
+    "classification": "PROVED ALL-H DESCRIPTION",
+    "definition": "M_h is the reduced numerator N_E(h) with every prime-power factor at primes <=4h+3 removed",
+    "exact_bridge": "M_h equals the >4h+3 part of numerator(c_h), because c_h=G_h E_h and G_h is a unit in the Item288 localization"
+  },
+  "rational_sign_theorem": {
+    "classification": "PROVED_BY_SIGN_PROPAGATION",
+    "conclusion": "E_h^*<0 for h=1 mod 3 and E_h^*>0 for h=2 mod 3",
+    "large_prime_part_nonzero": true,
+    "negative_initials_h_1_4_7": [
+      "-104/21",
+      "-7104750016/761805",
+      "-49133396574985216/2147198787"
+    ],
+    "positive_initials_h_2_5_8": [
+      "13744/231",
+      "169877825152/1380483",
+      "5832403476713133056/18259427025"
+    ],
+    "recurrence_signs": "Q_0,Q_1,Q_2<0<Q_3 for h>=1"
+  },
+  "schema": "item293-j1-E-gate-density-no-go-v1",
+  "strict_labels": {
+    "Route_1": "OPEN",
+    "holonomy_height_information_class_no_go": "PROVED WITH NARROW SCOPE",
+    "integral_E_recurrence": "PROVED",
+    "large_prime_part_algebraic_coefficient_bridge": "PROVED",
+    "prime_search": "NONE",
+    "sequence_specific_density_bound": "OPEN",
+    "weighted_actual_prime_mass_o_H": "OPEN"
+  },
+  "title": "integral recurrence and holonomy-height no-go for the sole j=1 E gate",
+  "upstream_theorem_admission": {
+    "Item237_algebraic_closed_form": "SYMBOLIC_EXACT and recomputed from the pinned module",
+    "Item243_all_h_gauge": "PROVED and semantically admitted from pinned JSON",
+    "Item288_large_prime_gauge_unit": "PROVED and semantically admitted from pinned JSON",
+    "rho_formula_consistency": "12 exact consistency values against the pinned Item229 implementation; the Q derivation uses the displayed symbolic factor formula, not interpolation"
+  }
+}

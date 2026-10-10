@@ -1,0 +1,89 @@
+{
+  "all_even_congruence_grid": {
+    "admissible_k_prime_pairs": 296,
+    "by_k": {
+      "1": {
+        "admissible_prime_count": 61,
+        "even_congruence_checks": 24880
+      },
+      "2": {
+        "admissible_prime_count": 60,
+        "even_congruence_checks": 24870
+      },
+      "3": {
+        "admissible_prime_count": 59,
+        "even_congruence_checks": 24854
+      },
+      "4": {
+        "admissible_prime_count": 58,
+        "even_congruence_checks": 24832
+      },
+      "5": {
+        "admissible_prime_count": 58,
+        "even_congruence_checks": 24832
+      }
+    },
+    "even_congruence_checks": 124268,
+    "index_multiplier": 3,
+    "k_max": 5,
+    "odd_divisibility_checks": 124268,
+    "prime_bound_exclusive": 300
+  },
+  "description": "Deterministic exact replay for all even Bessel anti-period congruences and higher-threshold Newton polynomial laws.",
+  "endpoint_and_valuation_grid": {
+    "admissible_k_prime_pairs": 61,
+    "direct_mahler_checks": 15,
+    "endpoint_checks": 488,
+    "k_max": 5,
+    "nonendpoint_degree_valuation_checks": 20706,
+    "prime_bound_exclusive": 50
+  },
+  "frozen_dependencies": {
+    "sources/bessel_denominator_zero_gap_smooth_radical_barrier.md": "dac7cd496b4342a8afc6d379274986d2030bc327c9017b3f6fa877108e62e1fc",
+    "sources/bessel_large_prime_four_point_exclusivity.md": "1e8fed0a5ab04c97c4e0749d40304d6398f9fd32d55c7b49085fb4b4ecca4e41",
+    "sources/bessel_padic_index_interpolation_analytic_height_barrier.md": "a50f45248133e437ee318b8cc28e6bbcc51de3568f3e621043221c90ddb4f348"
+  },
+  "root_fibre_grid": {
+    "by_k": {
+      "1": {
+        "newton_checks": 3661,
+        "qualifying_full_fibres": 35,
+        "qualifying_reflection_pairs": 18,
+        "reflection_polynomial_checks": 1870,
+        "root_fibres": 35,
+        "zero_threshold_polynomials": 0
+      },
+      "2": {
+        "newton_checks": 3661,
+        "qualifying_full_fibres": 0,
+        "qualifying_reflection_pairs": 0,
+        "reflection_polynomial_checks": 0,
+        "root_fibres": 35,
+        "zero_threshold_polynomials": 0
+      },
+      "3": {
+        "newton_checks": 3661,
+        "qualifying_full_fibres": 0,
+        "qualifying_reflection_pairs": 0,
+        "reflection_polynomial_checks": 0,
+        "root_fibres": 35,
+        "zero_threshold_polynomials": 0
+      },
+      "4": {
+        "newton_checks": 3647,
+        "qualifying_full_fibres": 0,
+        "qualifying_reflection_pairs": 0,
+        "reflection_polynomial_checks": 0,
+        "root_fibres": 33,
+        "zero_threshold_polynomials": 0
+      }
+    },
+    "divided_difference_checks": 684,
+    "k_max": 4,
+    "newton_checks": 14630,
+    "prime_bound_exclusive": 200,
+    "root_fibre_count_with_k_multiplicity": 138,
+    "scope_note": "Qualifying full fibres are counted separately by k. Zero counts for k>=2 mean the symbolic higher-threshold/reflection theorem was not inferred from an actual full-survival example."
+  },
+  "scope_warning": "The theorem requires p>2k. It bounds next-level survivors only after a fibre has survived completely through p^k. It gives no uniform bound on the valuation along an ordinary unique lift. The default replay has zero qualifying full fibres for every k>=2, so the higher-threshold conclusions are symbolic theorems, not finite extrapolations."
+}

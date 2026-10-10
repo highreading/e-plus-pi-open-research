@@ -1,0 +1,755 @@
+{
+  "canonical_files_modified": false,
+  "capacity_and_scope": {
+    "admission": {
+      "actual_family": "n=2h, r=2s+1, p=2n+3r, 2M=3n+4r",
+      "maximum_retained_ceiling_per_6M": "1/36",
+      "raw_fixed_j1_prime_mass": "M/6+o(M)",
+      "raw_support": "all actual fixed-j1 rows",
+      "universal_nonvanishing_targeted": false
+    },
+    "ledger": {
+      "booking": 0,
+      "new_fixed_j1_capacity_reduction": 0,
+      "new_forced_independent_condition": 0,
+      "new_proved_linear_log_rate": 0,
+      "retained_ceiling_per_6M": "1/36",
+      "route_1_status": "ACTIVE"
+    },
+    "positive_rate_face_complexity": {
+      "bulk_consequence": "outside that zero-rate edge the first Stickelberger face is not bounded; for n>=eta M it has at least eta^2 M^2/2+O(M) terms",
+      "exact_unit_face_size": "C(n+2,2)",
+      "zero_rate_edge": "Item339 proves rows with n=o(M) have weighted mass o(M)"
+    },
+    "scoped_no_go": {
+      "closed": [
+        "a unique-minimal-term or bounded-leading-face Gross--Koblitz proof for the target-specific F_(p^2) transform",
+        "claiming a second collision condition from the first Stickelberger face",
+        "the naive finite-character translation of the classical terminating 4F3 after discarding its integer shifts"
+      ],
+      "not_closed": [
+        "nonconcentration or monodromy for the triangular face along the tied family",
+        "an average theorem for higher Stickelberger faces",
+        "a p-adic transformation retaining and exploiting the moving integer shifts",
+        "additional information genuinely forced by the full original collision"
+      ],
+      "reason": "the complete first face is a triangular cancellation whose exact reduction is the already-booked selected Hasse coordinate; two selected-zero controls have valuation exactly one in this target-specific lift"
+    }
+  },
+  "classification": {
+    "EXACT_FINITE_ONLY": [
+      "five predeclared rows and two valuation-one selected-zero extension-lift controls; no prime scan"
+    ],
+    "OPEN": [
+      "weighted nonconcentration for the triangular Hasse face",
+      "higher-face average cancellation",
+      "a p-adic transformation exploiting the integer parameter shifts",
+      "an additional gate from full-collision information",
+      "W_b(M)=o(M), any fixed-j1 ceiling reduction, Route 1, and every conclusion about e+pi"
+    ],
+    "PROVED": [
+      "exact target-specific two-frequency Jacobi/Appell transform over F_(p^2)",
+      "complete Gross--Koblitz/Stickelberger unit criterion",
+      "complete triangular unit-face theorem and exact cardinality",
+      "exact reduction of that face to the already-booked Hasse coordinate",
+      "quadratic positive-rate leading-face obstruction",
+      "scoped unique-minimum/bounded-face Gross--Koblitz no-go",
+      "zero booking"
+    ]
+  },
+  "date": "2026-09-01",
+  "dependencies": {
+    "manifests/item353_j1_chosen_prime_first_digit_obstruction_manifest.json": "0cea5de54d196d51869968f79dbe0f1a22781c05484effb5d913a9a25ec912f8",
+    "manifests/item356_j1_fermat_multiplicative_collapse_obstruction_manifest.json": "d181ec76c8bf9ee3f15d655f1d0fe2fa48b01d925b3a0d6c82079ac8cbbb431e",
+    "results/item353_j1_chosen_prime_first_digit_obstruction_certificate.json": "7a427d4c4a7f4ac7bc1f8a86e742b482b2fab83b5f2145f577159c5d844d87ca",
+    "results/item353_j1_chosen_prime_first_digit_obstruction_certificate_replay.json": "7a427d4c4a7f4ac7bc1f8a86e742b482b2fab83b5f2145f577159c5d844d87ca",
+    "results/item353_j1_chosen_prime_first_digit_obstruction_ledger_delta.json": "2919c43ac141c0d2a0151d79f92bb05c52f67f9acee54c6bd2c2b86704088219",
+    "results/item353_j1_chosen_prime_first_digit_obstruction_root_audit.json": "61a15a35404078cf0d468cf7cb26610ddbcc2e03a33c1658ff3800c57cf43a0a",
+    "results/item353_j1_chosen_prime_first_digit_obstruction_root_replay.json": "7a427d4c4a7f4ac7bc1f8a86e742b482b2fab83b5f2145f577159c5d844d87ca",
+    "results/item353_j1_chosen_prime_first_digit_obstruction_self_audit.json": "3597dc8a65064d3e6ff2d4ba3cb2120a0811d3e81ea2b0e422223bb020852dd0",
+    "results/item356_j1_fermat_multiplicative_collapse_obstruction_certificate.json": "55deee2845bd9405964afa5508523ba9cb59f7ee0e39f86e2d3b873db9bba6a1",
+    "results/item356_j1_fermat_multiplicative_collapse_obstruction_certificate_replay.json": "55deee2845bd9405964afa5508523ba9cb59f7ee0e39f86e2d3b873db9bba6a1",
+    "results/item356_j1_fermat_multiplicative_collapse_obstruction_ledger_delta.json": "815fa2db3b1a67eb02adf589260a25064d40352feebcd3db155e5cab3d707467",
+    "results/item356_j1_fermat_multiplicative_collapse_obstruction_root_audit.json": "b92125322d150a941a302d2dfef936a7014b5cb5a8a5e4899eceb56d3a872ac9",
+    "results/item356_j1_fermat_multiplicative_collapse_obstruction_root_replay.json": "55deee2845bd9405964afa5508523ba9cb59f7ee0e39f86e2d3b873db9bba6a1",
+    "results/item356_j1_fermat_multiplicative_collapse_obstruction_self_audit.json": "53ab3cd3ebfcb53f3c81c683d1ffcec4d864ae7f48fb0e6a12cc53091071510c",
+    "scripts/item353_j1_chosen_prime_first_digit_obstruction_certificate.py": "3f35b8604b0210a66ddb1e8d740132c65f3fa0a74d8e3ddbf0e9785a0f9a62cf",
+    "scripts/item356_j1_fermat_multiplicative_collapse_obstruction_certificate.py": "698312a8ac3154c7843bbff8d0704f956e29f8eeb8fb19cc59c0557bcf1d2d92",
+    "sources/item353_j1_chosen_prime_first_digit_obstruction_report.md": "8b2bf4ab2df535e8016860fafdcaea40092a7a3c5dfdd59b84efd7e7a1e9fd7c",
+    "sources/item356_j1_fermat_multiplicative_collapse_obstruction_report.md": "ae86c45748d8f084e2936829be191d4ea3f94e2450d7037c7ee7b8a841d500db"
+  },
+  "direct_controls": [
+    {
+      "E": 10,
+      "F_p2_Kummer_lift_mod_p2": [
+        143,
+        0
+      ],
+      "Jacobi_unit_reductions_m_0_to_n": [
+        [
+          12,
+          0
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          7,
+          0
+        ]
+      ],
+      "Jacobi_valuation_histogram": {
+        "0": 11,
+        "1": 120,
+        "2": 37
+      },
+      "M": 9,
+      "classical_character_skeleton": {
+        "character_only_Gauss_quotients": "cancel term by term",
+        "integer_shift_distances": [
+          1,
+          3,
+          4,
+          4
+        ],
+        "lower_plus_factorial_fractional_multiset": [
+          "0",
+          "1/4",
+          "1/2",
+          "3/4"
+        ],
+        "total_integer_shift": 12,
+        "upper_fractional_multiset": [
+          "0",
+          "1/4",
+          "1/2",
+          "3/4"
+        ]
+      },
+      "classification": "PREDECLARED EXACT CONTROL; NOT A PRIME SCAN",
+      "full_original_collision_claimed": false,
+      "h": 1,
+      "n": 2,
+      "p": 13,
+      "r": 3,
+      "s": 1,
+      "selected_Hasse_coordinate": 0,
+      "selected_zero_quotient_if_applicable": [
+        11,
+        0
+      ],
+      "triangle": {
+        "a": [
+          3,
+          0
+        ],
+        "b": [
+          11,
+          0
+        ],
+        "factor_product_coefficients": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            7,
+            0
+          ]
+        ],
+        "negative_selected_Hasse_coordinate": [
+          0,
+          0
+        ],
+        "scaled_unit_face": [
+          0,
+          0
+        ],
+        "sqrt_minus_one": [
+          5,
+          0
+        ],
+        "unscaled_triangle_sum": [
+          0,
+          0
+        ]
+      },
+      "unit_Jacobi_index_count": 11,
+      "unit_Jacobi_indices": [
+        0,
+        10
+      ],
+      "unit_face_size": 6,
+      "unit_face_size_formula": 6,
+      "valuation_one_selected_zero_if_applicable": true
+    },
+    {
+      "E": 14,
+      "F_p2_Kummer_lift_mod_p2": [
+        264,
+        0
+      ],
+      "Jacobi_unit_reductions_m_0_to_n": [
+        [
+          16,
+          0
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          11,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "Jacobi_valuation_histogram": {
+        "0": 15,
+        "1": 224,
+        "2": 49
+      },
+      "M": 12,
+      "classical_character_skeleton": {
+        "character_only_Gauss_quotients": "cancel term by term",
+        "integer_shift_distances": [
+          2,
+          4,
+          4,
+          4
+        ],
+        "lower_plus_factorial_fractional_multiset": [
+          "0",
+          "1/4",
+          "1/2",
+          "3/4"
+        ],
+        "total_integer_shift": 14,
+        "upper_fractional_multiset": [
+          "0",
+          "1/4",
+          "1/2",
+          "3/4"
+        ]
+      },
+      "classification": "PREDECLARED EXACT CONTROL; NOT A PRIME SCAN",
+      "full_original_collision_claimed": false,
+      "h": 2,
+      "n": 4,
+      "p": 17,
+      "r": 3,
+      "s": 1,
+      "selected_Hasse_coordinate": 8,
+      "selected_zero_quotient_if_applicable": null,
+      "triangle": {
+        "a": [
+          11,
+          0
+        ],
+        "b": [
+          7,
+          0
+        ],
+        "factor_product_coefficients": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            10,
+            0
+          ],
+          [
+            9,
+            0
+          ]
+        ],
+        "negative_selected_Hasse_coordinate": [
+          9,
+          0
+        ],
+        "scaled_unit_face": [
+          9,
+          0
+        ],
+        "sqrt_minus_one": [
+          4,
+          0
+        ],
+        "unscaled_triangle_sum": [
+          9,
+          0
+        ]
+      },
+      "unit_Jacobi_index_count": 15,
+      "unit_Jacobi_indices": [
+        0,
+        14
+      ],
+      "unit_face_size": 15,
+      "unit_face_size_formula": 15,
+      "valuation_one_selected_zero_if_applicable": false
+    },
+    {
+      "E": 42,
+      "F_p2_Kummer_lift_mod_p2": [
+        188,
+        0
+      ],
+      "Jacobi_unit_reductions_m_0_to_n": [
+        [
+          46,
+          0
+        ],
+        [
+          42,
+          0
+        ],
+        [
+          32,
+          0
+        ],
+        [
+          12,
+          0
+        ],
+        [
+          24,
+          0
+        ],
+        [
+          15,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          46,
+          0
+        ],
+        [
+          22,
+          0
+        ],
+        [
+          37,
+          0
+        ],
+        [
+          33,
+          0
+        ],
+        [
+          45,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          17,
+          0
+        ],
+        [
+          42,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          43,
+          0
+        ]
+      ],
+      "Jacobi_valuation_histogram": {
+        "0": 43,
+        "1": 1932,
+        "2": 233
+      },
+      "M": 34,
+      "classical_character_skeleton": {
+        "character_only_Gauss_quotients": "cancel term by term",
+        "integer_shift_distances": [
+          5,
+          9,
+          9,
+          9
+        ],
+        "lower_plus_factorial_fractional_multiset": [
+          "0",
+          "1/4",
+          "1/2",
+          "3/4"
+        ],
+        "total_integer_shift": 32,
+        "upper_fractional_multiset": [
+          "0",
+          "1/4",
+          "1/2",
+          "3/4"
+        ]
+      },
+      "classification": "PREDECLARED EXACT CONTROL; NOT A PRIME SCAN",
+      "full_original_collision_claimed": false,
+      "h": 8,
+      "n": 16,
+      "p": 47,
+      "r": 5,
+      "s": 2,
+      "selected_Hasse_coordinate": 0,
+      "selected_zero_quotient_if_applicable": [
+        4,
+        0
+      ],
+      "triangle": {
+        "a": [
+          24,
+          30
+        ],
+        "b": [
+          24,
+          17
+        ],
+        "factor_product_coefficients": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            25,
+            0
+          ],
+          [
+            24,
+            0
+          ]
+        ],
+        "negative_selected_Hasse_coordinate": [
+          0,
+          0
+        ],
+        "scaled_unit_face": [
+          0,
+          0
+        ],
+        "sqrt_minus_one": [
+          0,
+          13
+        ],
+        "unscaled_triangle_sum": [
+          0,
+          0
+        ]
+      },
+      "unit_Jacobi_index_count": 43,
+      "unit_Jacobi_indices": [
+        0,
+        42
+      ],
+      "unit_face_size": 153,
+      "unit_face_size_formula": 153,
+      "valuation_one_selected_zero_if_applicable": true
+    },
+    {
+      "E": 34,
+      "F_p2_Kummer_lift_mod_p2": [
+        428,
+        0
+      ],
+      "Jacobi_unit_reductions_m_0_to_n": [
+        [
+          42,
+          0
+        ],
+        [
+          34,
+          0
+        ],
+        [
+          41,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          15,
+          0
+        ],
+        [
+          30,
+          0
+        ]
+      ],
+      "Jacobi_valuation_histogram": {
+        "0": 35,
+        "1": 1428,
+        "2": 385
+      },
+      "M": 30,
+      "classical_character_skeleton": {
+        "character_only_Gauss_quotients": "cancel term by term",
+        "integer_shift_distances": [
+          3,
+          11,
+          11,
+          11
+        ],
+        "lower_plus_factorial_fractional_multiset": [
+          "0",
+          "1/4",
+          "1/2",
+          "3/4"
+        ],
+        "total_integer_shift": 36,
+        "upper_fractional_multiset": [
+          "0",
+          "1/4",
+          "1/2",
+          "3/4"
+        ]
+      },
+      "classification": "PREDECLARED EXACT CONTROL; NOT A PRIME SCAN",
+      "full_original_collision_claimed": false,
+      "h": 4,
+      "n": 8,
+      "p": 43,
+      "r": 9,
+      "s": 4,
+      "selected_Hasse_coordinate": 2,
+      "selected_zero_quotient_if_applicable": null,
+      "triangle": {
+        "a": [
+          22,
+          4
+        ],
+        "b": [
+          22,
+          39
+        ],
+        "factor_product_coefficients": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            23,
+            0
+          ],
+          [
+            22,
+            0
+          ]
+        ],
+        "negative_selected_Hasse_coordinate": [
+          41,
+          0
+        ],
+        "scaled_unit_face": [
+          41,
+          0
+        ],
+        "sqrt_minus_one": [
+          0,
+          8
+        ],
+        "unscaled_triangle_sum": [
+          42,
+          0
+        ]
+      },
+      "unit_Jacobi_index_count": 35,
+      "unit_Jacobi_indices": [
+        0,
+        34
+      ],
+      "unit_face_size": 45,
+      "unit_face_size_formula": 45,
+      "valuation_one_selected_zero_if_applicable": false
+    },
+    {
+      "E": 34,
+      "F_p2_Kummer_lift_mod_p2": [
+        199,
+        0
+      ],
+      "Jacobi_unit_reductions_m_0_to_n": [
+        [
+          46,
+          0
+        ],
+        [
+          34,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          15,
+          0
+        ],
+        [
+          13,
+          0
+        ]
+      ],
+      "Jacobi_valuation_histogram": {
+        "0": 35,
+        "1": 1564,
+        "2": 609
+      },
+      "M": 32,
+      "classical_character_skeleton": {
+        "character_only_Gauss_quotients": "cancel term by term",
+        "integer_shift_distances": [
+          2,
+          14,
+          14,
+          14
+        ],
+        "lower_plus_factorial_fractional_multiset": [
+          "0",
+          "1/4",
+          "1/2",
+          "3/4"
+        ],
+        "total_integer_shift": 44,
+        "upper_fractional_multiset": [
+          "0",
+          "1/4",
+          "1/2",
+          "3/4"
+        ]
+      },
+      "classification": "PREDECLARED EXACT CONTROL; NOT A PRIME SCAN",
+      "full_original_collision_claimed": false,
+      "h": 2,
+      "n": 4,
+      "p": 47,
+      "r": 13,
+      "s": 6,
+      "selected_Hasse_coordinate": 36,
+      "selected_zero_quotient_if_applicable": null,
+      "triangle": {
+        "a": [
+          24,
+          30
+        ],
+        "b": [
+          24,
+          17
+        ],
+        "factor_product_coefficients": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            25,
+            0
+          ],
+          [
+            24,
+            0
+          ]
+        ],
+        "negative_selected_Hasse_coordinate": [
+          11,
+          0
+        ],
+        "scaled_unit_face": [
+          11,
+          0
+        ],
+        "sqrt_minus_one": [
+          0,
+          13
+        ],
+        "unscaled_triangle_sum": [
+          14,
+          0
+        ]
+      },
+      "unit_Jacobi_index_count": 35,
+      "unit_Jacobi_indices": [
+        0,
+        34
+      ],
+      "unit_face_size": 15,
+      "unit_face_size_formula": 15,
+      "valuation_one_selected_zero_if_applicable": false
+    }
+  ],
+  "item": 357,
+  "prime_scans": 0,
+  "schema": "item357-j1-gross-koblitz-unit-face-obstruction-certificate-v1",
+  "status": "PROVED_TARGET_SPECIFIC_JACOBI_TRANSFORM_AND_COMPLETE_STICKELBERGER_FACE_SCOPED_NO_GO",
+  "symbolic": {
+    "F_p2_factorization": "G(x)=(1-2x)(1-(1+i)x)(1-(1-i)x), i^2=-1",
+    "Jacobi_Fourier_transform": "S=Omega(2)^n/(q-1)^2 sum_(C,D) D(a)(bar(A)bar(C)bar(D))(b) J(bar(C),B)J(bar(D),B)J(ACD,B)",
+    "actual_parameters": {
+      "E": "p-r=2(n+r)",
+      "p": "2n+3r",
+      "strict_inequality": "0<n<E<p"
+    },
+    "characters": "A=Omega^(-n), B=Omega^E, q=p^2",
+    "complete_unit_face": "s,t,u>=0 and s+t+u=n",
+    "factor_identity": "(1+z)(1+az)(1+bz)=G(-z/2)",
+    "scaled_parameters": "a=(1+i)/2, b=(1-i)/2, a+b=1, ab=1/2",
+    "unit_criterion": "v_p J(Omega^(-m),Omega^E)=0 iff 0<=m<=E",
+    "unit_face_cardinality": "(n+1)(n+2)/2",
+    "unit_face_reduction": "-2^n sum_(s+t+u=n) C(E,s)C(E,t)C(E,u)a^t b^u=-[u^n]G(u)^E"
+  }
+}

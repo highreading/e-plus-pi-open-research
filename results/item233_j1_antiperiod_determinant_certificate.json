@@ -1,0 +1,147 @@
+{
+  "booking": {
+    "conclusion_about_e_plus_pi": "none",
+    "new_divisibility_exponent": 0,
+    "new_unconditional_linear_log_rate": 0
+  },
+  "dependency": {
+    "item230_checker_sha256": "0722964a47817ca2dcd93cc9013339f16d2d6a6271893938c7d473cc6115fe0b"
+  },
+  "exact_finite": {
+    "counts": {
+      "actual_rows": 2435,
+      "endpoint_closed_formula_replay_rows": 184,
+      "regular_rows": 2432,
+      "singular_affine_consistent_rows": 3,
+      "singular_p_mod_1_rows": 3,
+      "singular_p_mod_3_rows": 0,
+      "singular_rank_1_rows": 0,
+      "singular_rank_2_rows": 3,
+      "singular_rows": 3,
+      "singular_terminal_formally_solvable_rows": 0,
+      "six_equation_formally_solvable_rows": 0
+    },
+    "endpoint_closed_formula_stream_sha256": "7865a7eeb1eebd1fa4e2c06271db6600776faf2c3b39df86a248f160bcd8a0d2",
+    "identity_prime_max_inclusive": 151,
+    "prime_max_inclusive": 601,
+    "row_stream_sha256": "5459e48b37b8bf21661d7ae0a50b850b2899a125ac3d87678d8e14e745b30e07",
+    "singular_rows": [
+      {
+        "det_B": 157,
+        "h": [
+          74,
+          230,
+          157,
+          1
+        ],
+        "p": 349,
+        "p_mod_4": 1,
+        "psi": 3,
+        "r": 2,
+        "rank_I_plus_M2": 2,
+        "s": 57,
+        "terminal_formally_solvable": false,
+        "theta": 58,
+        "trace_B": 276
+      },
+      {
+        "det_B": 347,
+        "h": [
+          218,
+          107,
+          347,
+          1
+        ],
+        "p": 457,
+        "p_mod_4": 1,
+        "psi": 246,
+        "r": 128,
+        "rank_I_plus_M2": 2,
+        "s": 33,
+        "terminal_formally_solvable": false,
+        "theta": 283,
+        "trace_B": 240
+      },
+      {
+        "det_B": 410,
+        "h": [
+          571,
+          403,
+          410,
+          1
+        ],
+        "p": 577,
+        "p_mod_4": 1,
+        "psi": 120,
+        "r": 86,
+        "rank_I_plus_M2": 2,
+        "s": 67,
+        "terminal_formally_solvable": false,
+        "theta": 63,
+        "trace_B": 7
+      }
+    ]
+  },
+  "open": [
+    "all-prime nonvanishing of the two exact singular factors",
+    "all-prime exclusion or zero-rate control of the singular locus",
+    "all-prime inconsistency of the equivalent terminal criterion Theta=Psi=0",
+    "any new Route-1 rate or divisibility exponent"
+  ],
+  "proved": {
+    "block_formula": {
+      "det_B": "1+h_1-h_0",
+      "det_I_plus_M2": "(h_0-h_1)^2+(1-h_0)^2",
+      "h_q": "h_q=a*N^q*b",
+      "trace_B": "1-h_0"
+    },
+    "closed_coefficient_formula": {
+      "N": "Phi*S*Phi^(-1)",
+      "Phi_kj": "sum_d [z^d]C(z)*q_j(p+r+T+k+d+1)/(p+r+T+k+d+1), deleting p-divisible denominators",
+      "S": "diag(1, rotation by p) on the displayed phase basis",
+      "b": "N*e0/a0, where a0=r+2s+2",
+      "numerator": "if D=det(Phi), Rk=a*Phi*S^k*adj(Phi)*e0, then det(I+M^2)=((R1-R2)^2+(a0*D-R1)^2)/(a0*D)^2",
+      "phase_basis": [
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          -1
+        ]
+      ],
+      "polynomial": "C(z)=(1-z)^r(1+z^2)^(2s-1)"
+    },
+    "phase_model": [
+      "the generalized {1,i,-i} endpoint map Phi is an isomorphism",
+      "N=M+b*a has N^4=I and characteristic polynomial (x-1)(x^2+1)",
+      "O=(a;aN;aN^2) is invertible and h3=aN^3b=1"
+    ],
+    "rank_classification": [
+      "rank(I+M^2)=3 off the determinant locus",
+      "on the locus the rank is 1 iff h0=h1=1, and otherwise 2",
+      "if s is even (p=3 mod 4), singularity is equivalent to h0=h1=1",
+      "if s is odd (p=1 mod 4), the locus splits into the two linear factors over sqrt(-1)"
+    ],
+    "singular_no_go": "the affine antiperiod closure is consistent on every singular row; determinant singularity alone is never a contradiction",
+    "terminal_redundancy": {
+      "consequence": "bottom, 2p, and 3p terminal equations force all three antiperiod coordinates without division by det(I+M^2)",
+      "formal_criterion": "the six Item230 equations are solvable iff the three terminal equations are; equivalently Delta_plus!=0, Theta=0, and Psi=0",
+      "phase_relation": "t_0-t_1+t_2-t_3=0",
+      "residual_identity": "R=(h0*b-N*b)e0+(c-b)e1+c*e3, O*c=(1,1,1)^t",
+      "terminal_values": "t_q=a*N^q*v, with t_0=Delta_plus and t_3=Delta_minus"
+    }
+  },
+  "schema": "item233-j1-antiperiod-determinant-v1"
+}
